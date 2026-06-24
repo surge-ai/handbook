@@ -1,0 +1,1548 @@
+{
+  "issues": {
+    "HR-7": {
+      "id": "10001",
+      "key": "HR-7",
+      "self": "https://api.atlassian.com/ex/jira/crestwood/rest/api/3/issue/HR-7",
+      "fields": {
+        "summary": "Onboarding \u2013 William Trent \u2013 Start Date 03/03/2026",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "New hire onboarding for William Trent (CU-1022). Position: Full-Time, Non-Exempt. Department: Facilities. Campus: Main. Supervisor: Rosa Gutierrez. Start Date: 03/03/2026."
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10001",
+          "name": "Task",
+          "description": "A task to be completed",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "10001",
+          "key": "HR",
+          "name": "Crestwood University HR Operations",
+          "description": "Human Resources operational case tracking for Crestwood University",
+          "projectTypeKey": "business",
+          "simplified": false,
+          "self": "https://api.atlassian.com/ex/jira/crestwood/rest/api/3/project/HR"
+        },
+        "status": {
+          "id": "10002",
+          "name": "In Progress",
+          "description": "Work is being done",
+          "statusCategory": {
+            "id": 4,
+            "key": "indeterminate",
+            "name": "In Progress",
+            "colorName": "yellow"
+          }
+        },
+        "priority": {
+          "id": "3",
+          "name": "P3 \u2013 Standard"
+        },
+        "assignee": {
+          "accountId": "hr-coord-001",
+          "accountType": "atlassian",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "reporter": {
+          "accountId": "hr-005",
+          "accountType": "atlassian",
+          "emailAddress": "r.gutierrez@crestwood.edu",
+          "displayName": "Rosa Gutierrez",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "creator": {
+          "accountId": "hr-coord-001",
+          "accountType": "atlassian",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "created": "2026-03-09T10:15:00.000Z",
+        "updated": "2026-03-13T14:30:00.000Z",
+        "labels": [
+          "onboarding",
+          "main-campus",
+          "facilities"
+        ],
+        "components": [],
+        "fixVersions": [],
+        "versions": [],
+        "comment": {
+          "comments": [
+            {
+              "id": "10001",
+              "author": {
+                "accountId": "hr-coord-001",
+                "accountType": "atlassian",
+                "displayName": "HR Coordinator",
+                "active": true
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Welcome email (Template 4) sent to personal email. IT provisioning request (Template 5) sent to Jenna Park. Orientation coordinator request (Template 31) sent to Rosa Gutierrez. Calendar event created for orientation."
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-03-09T10:20:00.000Z",
+              "updated": "2026-03-09T10:20:00.000Z"
+            },
+            {
+              "id": "10002",
+              "author": {
+                "accountId": "hr-coord-001",
+                "accountType": "atlassian",
+                "displayName": "HR Coordinator",
+                "active": true
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "I-9 Section 2 received from Rosa Gutierrez on 03/13. Recorded in onboarding_checklist.xlsx. Orientation completed. IT access confirmed. Handbook signed."
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-03-13T14:30:00.000Z",
+              "updated": "2026-03-13T14:30:00.000Z"
+            },
+            {
+              "id": "10003",
+              "author": {
+                "accountId": "hr-coord-001",
+                "accountType": "atlassian",
+                "displayName": "HR Coordinator",
+                "active": true
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Day 15 benefits enrollment reminder (Template 8) sent to William Trent on 03/26. No enrollment or waiver received."
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-03-26T09:00:00.000Z",
+              "updated": "2026-03-26T09:00:00.000Z"
+            },
+            {
+              "id": "10004",
+              "author": {
+                "accountId": "hr-coord-001",
+                "accountType": "atlassian",
+                "displayName": "HR Coordinator",
+                "active": true
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Day 25 final benefits notice (Template 9) sent to William Trent on 04/05. CC Patricia Huang. Still no enrollment or waiver."
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-04-05T09:00:00.000Z",
+              "updated": "2026-04-05T09:00:00.000Z"
+            }
+          ],
+          "maxResults": 4,
+          "total": 4,
+          "startAt": 0
+        }
+      }
+    },
+    "HR-4": {
+      "id": "10002",
+      "key": "HR-4",
+      "self": "https://api.atlassian.com/ex/jira/crestwood/rest/api/3/issue/HR-4",
+      "fields": {
+        "summary": "Onboarding \u2013 Rafael Mendez \u2013 Start Date 03/26/2026",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "New hire onboarding for Rafael Mendez (CU-1021). Position: Full-Time, Non-Exempt. Department: Admissions. Campus: Downtown. Supervisor: Karen Cho. Start Date: 03/26/2026."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Checklist: I-9 completed 03/27. Orientation completed 03/26. IT access confirmed 03/26. Handbook signed 03/26."
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10001",
+          "name": "Task",
+          "description": "A task to be completed",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "10001",
+          "key": "HR",
+          "name": "Crestwood University HR Operations",
+          "description": "Human Resources operational case tracking for Crestwood University",
+          "projectTypeKey": "business",
+          "simplified": false,
+          "self": "https://api.atlassian.com/ex/jira/crestwood/rest/api/3/project/HR"
+        },
+        "status": {
+          "id": "10002",
+          "name": "In Progress",
+          "description": "Work is being done",
+          "statusCategory": {
+            "id": 4,
+            "key": "indeterminate",
+            "name": "In Progress",
+            "colorName": "yellow"
+          }
+        },
+        "priority": {
+          "id": "3",
+          "name": "P3 \u2013 Standard"
+        },
+        "assignee": {
+          "accountId": "hr-coord-001",
+          "accountType": "atlassian",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "reporter": {
+          "accountId": "hr-006",
+          "accountType": "atlassian",
+          "emailAddress": "k.cho@crestwood.edu",
+          "displayName": "Karen Cho",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "creator": {
+          "accountId": "hr-coord-001",
+          "accountType": "atlassian",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "created": "2026-03-23T11:00:00.000Z",
+        "updated": "2026-03-27T15:00:00.000Z",
+        "labels": [
+          "onboarding",
+          "downtown-campus",
+          "admissions"
+        ],
+        "components": [],
+        "fixVersions": [],
+        "versions": [],
+        "customfield_10010": "Employee Name: Rafael Mendez",
+        "customfield_10011": "Employee ID: CU-1021",
+        "customfield_10012": "Deadline: 04/25/2026",
+        "comment": {
+          "comments": [
+            {
+              "id": "10005",
+              "author": {
+                "accountId": "hr-coord-001",
+                "accountType": "atlassian",
+                "displayName": "HR Coordinator",
+                "active": true
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Welcome email (Template 4) sent to personal email. IT provisioning request (Template 5) sent to Jenna Park. Orientation coordinator request (Template 31) sent to Karen Cho. Calendar event created for 03/26 orientation."
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-03-23T11:10:00.000Z",
+              "updated": "2026-03-23T11:10:00.000Z"
+            },
+            {
+              "id": "10006",
+              "author": {
+                "accountId": "hr-coord-001",
+                "accountType": "atlassian",
+                "displayName": "HR Coordinator",
+                "active": true
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "I-9 Section 2 received from Karen Cho on 03/27. Recorded in onboarding_checklist.xlsx. Orientation completed. IT access confirmed. Handbook signed. Benefits enrollment still pending."
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-03-27T15:00:00.000Z",
+              "updated": "2026-03-27T15:00:00.000Z"
+            }
+          ],
+          "maxResults": 2,
+          "total": 2,
+          "startAt": 0
+        }
+      }
+    },
+    "HR-5": {
+      "id": "10003",
+      "key": "HR-5",
+      "self": "https://api.atlassian.com/ex/jira/crestwood/rest/api/3/issue/ONBOARD-Nair-04062026",
+      "fields": {
+        "summary": "Onboarding \u2013 Priya Nair \u2013 Start Date 04/02/2026",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "New hire onboarding for Priya Nair (CU-1025). Position: Faculty, Exempt. Department: Biology. Campus: West. Supervisor: Sandra Yee (currently on FMLA leave). Start Date: 04/02/2026."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Note: Supervisor Sandra Yee is on approved FMLA leave through 06/15/2026. Orientation coordinator request sent to department designee. Checklist: I-9 completed 04/02. Orientation completed 04/02. IT access confirmed 04/02. Handbook signed 04/02. Benefits enrollment: pending (within 30-day window)."
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10001",
+          "name": "Task",
+          "description": "A task to be completed",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "10001",
+          "key": "HR",
+          "name": "Crestwood University HR Operations",
+          "description": "Human Resources operational case tracking for Crestwood University",
+          "projectTypeKey": "business",
+          "simplified": false,
+          "self": "https://api.atlassian.com/ex/jira/crestwood/rest/api/3/project/HR"
+        },
+        "status": {
+          "id": "10002",
+          "name": "In Progress",
+          "description": "Work is being done",
+          "statusCategory": {
+            "id": 4,
+            "key": "indeterminate",
+            "name": "In Progress",
+            "colorName": "yellow"
+          }
+        },
+        "priority": {
+          "id": "3",
+          "name": "P3 \u2013 Standard"
+        },
+        "assignee": {
+          "accountId": "hr-coord-001",
+          "accountType": "atlassian",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "reporter": {
+          "accountId": "hr-coord-001",
+          "accountType": "atlassian",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "creator": {
+          "accountId": "hr-coord-001",
+          "accountType": "atlassian",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "created": "2026-04-02T09:00:00.000Z",
+        "updated": "2026-04-06T16:00:00.000Z",
+        "labels": [
+          "onboarding",
+          "west-campus",
+          "biology",
+          "faculty"
+        ],
+        "components": [],
+        "fixVersions": [],
+        "versions": [],
+        "customfield_10010": "Employee Name: Priya Nair",
+        "customfield_10011": "Employee ID: CU-1025",
+        "customfield_10012": "Deadline: 05/02/2026",
+        "comment": {
+          "comments": [
+            {
+              "id": "10007",
+              "author": {
+                "accountId": "hr-coord-001",
+                "accountType": "atlassian",
+                "displayName": "HR Coordinator",
+                "active": true
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Welcome email (Template 4) sent to personal email. IT provisioning request (Template 5) sent to Jenna Park. Note: Sandra Yee is on FMLA \u2014 orientation coordinator request (Template 31) sent to department designee. Calendar event created for 04/02 orientation."
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-04-01T09:15:00.000Z",
+              "updated": "2026-04-01T09:15:00.000Z"
+            },
+            {
+              "id": "10008",
+              "author": {
+                "accountId": "hr-coord-001",
+                "accountType": "atlassian",
+                "displayName": "HR Coordinator",
+                "active": true
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "I-9 Section 2 received 04/02. Orientation completed 04/02. IT access confirmed 04/02. Handbook signed 04/02. Benefits enrollment pending \u2014 30-day window closes 05/02/2026."
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-04-01T16:00:00.000Z",
+              "updated": "2026-04-01T16:00:00.000Z"
+            }
+          ],
+          "maxResults": 2,
+          "total": 2,
+          "startAt": 0
+        }
+      }
+    },
+    "HR-6": {
+      "id": "10004",
+      "key": "HR-6",
+      "self": "https://api.atlassian.com/ex/jira/crestwood/rest/api/3/issue/HR-6",
+      "fields": {
+        "summary": "Onboarding \u2013 Tom\u00e1s Salazar \u2013 Start Date 04/02/2026",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "New hire onboarding for Tom\u00e1s Salazar (CU-1026). Position: Full-Time, Non-Exempt. Department: Student Affairs. Campus: Downtown. Hiring Manager: Patricia Huang. Start Date: 04/02/2026."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Orientation completed 04/02. IT access confirmed 04/02. Handbook signed 04/02, benefits pending."
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10001",
+          "name": "Task",
+          "description": "A task to be completed",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "10001",
+          "key": "HR",
+          "name": "Crestwood University HR Operations",
+          "description": "Human Resources operational case tracking for Crestwood University",
+          "projectTypeKey": "business",
+          "simplified": false,
+          "self": "https://api.atlassian.com/ex/jira/crestwood/rest/api/3/project/HR"
+        },
+        "status": {
+          "id": "10005",
+          "name": "In Progress",
+          "description": "Work is being done",
+          "statusCategory": {
+            "id": 4,
+            "key": "indeterminate",
+            "name": "In Progress",
+            "colorName": "red"
+          }
+        },
+        "priority": {
+          "id": "1",
+          "name": "P2 \u2013 High"
+        },
+        "assignee": {
+          "accountId": "hr-coord-001",
+          "accountType": "atlassian",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "reporter": {
+          "accountId": "hr-006",
+          "accountType": "atlassian",
+          "emailAddress": "k.cho@crestwood.edu",
+          "displayName": "Karen Cho",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "creator": {
+          "accountId": "hr-coord-001",
+          "accountType": "atlassian",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "created": "2026-04-01T14:00:00.000Z",
+        "updated": "2026-04-01T17:00:00.000Z",
+        "labels": [
+          "onboarding",
+          "downtown-campus",
+          "student-affairs"
+        ],
+        "components": [],
+        "fixVersions": [],
+        "versions": [],
+        "customfield_10010": "Employee Name: Tom\u00e1s Salazar",
+        "customfield_10011": "Employee ID: CU-1026",
+        "comment": {
+          "comments": [
+            {
+              "id": "10009",
+              "author": {
+                "accountId": "hr-coord-001",
+                "accountType": "atlassian",
+                "displayName": "HR Coordinator",
+                "active": true
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Welcome email (Template 4) sent to personal email. IT provisioning request (Template 5) sent to Jenna Park. Orientation coordinator request (Template 31) sent to Patricia. Calendar event created for 04/02 orientation."
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-04-01T14:15:00.000Z",
+              "updated": "2026-04-01T14:15:00.000Z"
+            },
+            {
+              "id": "10010",
+              "author": {
+                "accountId": "hr-coord-001",
+                "accountType": "atlassian",
+                "displayName": "HR Coordinator",
+                "active": true
+              },
+              "created": "2026-04-01T09:00:00.000Z",
+              "updated": "2026-04-01T09:00:00.000Z",
+              "body": ""
+            },
+            {
+              "id": "10011",
+              "author": {
+                "accountId": "hr-coord-001",
+                "accountType": "atlassian",
+                "displayName": "HR Coordinator",
+                "active": true
+              },
+              "created": "2026-04-01T09:00:00.000Z",
+              "updated": "2026-04-01T09:00:00.000Z",
+              "body": ""
+            }
+          ],
+          "maxResults": 3,
+          "total": 3,
+          "startAt": 0
+        }
+      }
+    },
+    "HR-3": {
+      "id": "10005",
+      "key": "HR-3",
+      "self": "https://api.atlassian.com/ex/jira/crestwood/rest/api/3/issue/HR-3",
+      "fields": {
+        "summary": "FMLA Leave \u2013 Sandra Yee \u2013 Request Received 03/16/2026",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "FMLA leave request for Sandra Yee (CU-1008). Department: Biology. Campus: West. Supervisor: Frank Durrell. Hire date: 08/18/2012 (13+ years). Hours worked trailing 12 months: 1,950. FMLA eligible: YES (both criteria met)."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Leave period: 03/23/2026 \u2013 06/15/2026. Medical certification received 03/30/2026. Approved by Patricia Huang. Status: Approved. Expected return: 06/15/2026. Fitness-for-duty certification required before return."
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10001",
+          "name": "Task",
+          "description": "A task to be completed",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "10001",
+          "key": "HR",
+          "name": "Crestwood University HR Operations",
+          "description": "Human Resources operational case tracking for Crestwood University",
+          "projectTypeKey": "business",
+          "simplified": false,
+          "self": "https://api.atlassian.com/ex/jira/crestwood/rest/api/3/project/HR"
+        },
+        "status": {
+          "id": "10002",
+          "name": "In Progress",
+          "description": "Work is being done",
+          "statusCategory": {
+            "id": 4,
+            "key": "indeterminate",
+            "name": "In Progress",
+            "colorName": "yellow"
+          }
+        },
+        "priority": {
+          "id": "3",
+          "name": "P3 \u2013 Standard"
+        },
+        "assignee": {
+          "accountId": "hr-003",
+          "accountType": "atlassian",
+          "emailAddress": "p.huang@crestwood.edu",
+          "displayName": "Patricia Huang",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "reporter": {
+          "accountId": "hr-coord-001",
+          "accountType": "atlassian",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "creator": {
+          "accountId": "hr-coord-001",
+          "accountType": "atlassian",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "created": "2026-03-16T10:00:00.000Z",
+        "updated": "2026-04-01T11:00:00.000Z",
+        "labels": [
+          "leave",
+          "fmla",
+          "west-campus",
+          "biology",
+          "faculty"
+        ],
+        "components": [],
+        "fixVersions": [],
+        "versions": [],
+        "customfield_10010": "Employee Name: Sandra Yee",
+        "customfield_10011": "Employee ID: CU-1008",
+        "customfield_10012": "Deadline: 06/15/2026",
+        "comment": {
+          "comments": [
+            {
+              "id": "10012",
+              "author": {
+                "accountId": "hr-coord-001",
+                "accountType": "atlassian",
+                "displayName": "HR Coordinator",
+                "active": true
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "FMLA eligibility confirmed: employed 13+ years, 1,950 hours trailing 12 months. Template 15 (FMLA Eligibility Notice \u2013 Approved) sent to Sandra Yee on 03/18. Medical certification form attached. Certification due by 04/02/2026. Posted to #hr-leave-requests."
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-03-18T09:00:00.000Z",
+              "updated": "2026-03-18T09:00:00.000Z"
+            },
+            {
+              "id": "10013",
+              "author": {
+                "accountId": "hr-coord-001",
+                "accountType": "atlassian",
+                "displayName": "HR Coordinator",
+                "active": true
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Medical certification received from Sandra Yee on 03/30. Forwarded to Patricia Huang for review."
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-03-30T14:00:00.000Z",
+              "updated": "2026-03-30T14:00:00.000Z"
+            },
+            {
+              "id": "10014",
+              "author": {
+                "accountId": "hr-003",
+                "accountType": "atlassian",
+                "displayName": "Patricia Huang",
+                "active": true
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Certification reviewed and approved. Leave confirmed: 03/23/2026 \u2013 06/15/2026. Template 16 (FMLA Leave Confirmed) sent to Sandra Yee. CC Frank Durrell (supervisor). leave_tracker.xlsx updated to Approved."
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-04-01T11:00:00.000Z",
+              "updated": "2026-04-01T11:00:00.000Z"
+            }
+          ],
+          "maxResults": 3,
+          "total": 3,
+          "startAt": 0
+        }
+      }
+    },
+    "HR-1": {
+      "id": "10006",
+      "key": "HR-1",
+      "self": "https://api.atlassian.com/ex/jira/crestwood/rest/api/3/issue/HR-1",
+      "fields": {
+        "summary": "FMLA Leave \u2013 Meghan Cross \u2013 Request Received 03/23/2026",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "FMLA leave request for Meghan Cross (CU-1023). Department: Finance. Campus: Downtown. Supervisor: Calvin Briggs. Hire date: 03/14/2025 (12+ months). Hours worked trailing 12 months: 2,080. FMLA eligible: YES (both criteria met)."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Requested leave period: 05/01/2026 \u2013 07/24/2026. Eligibility confirmed and approval notice issued. Medical certification form attached. Awaiting employee response \u2014 see comment log for timeline and correspondence details."
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10001",
+          "name": "Task",
+          "description": "A task to be completed",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "10001",
+          "key": "HR",
+          "name": "Crestwood University HR Operations",
+          "description": "Human Resources operational case tracking for Crestwood University",
+          "projectTypeKey": "business",
+          "simplified": false,
+          "self": "https://api.atlassian.com/ex/jira/crestwood/rest/api/3/project/HR"
+        },
+        "status": {
+          "id": "10002",
+          "name": "In Progress",
+          "description": "Work is being done",
+          "statusCategory": {
+            "id": 4,
+            "key": "indeterminate",
+            "name": "In Progress",
+            "colorName": "yellow"
+          }
+        },
+        "priority": {
+          "id": "2",
+          "name": "P2 \u2013 High"
+        },
+        "assignee": {
+          "accountId": "hr-003",
+          "accountType": "atlassian",
+          "emailAddress": "p.huang@crestwood.edu",
+          "displayName": "Patricia Huang",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "reporter": {
+          "accountId": "hr-coord-001",
+          "accountType": "atlassian",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "creator": {
+          "accountId": "hr-coord-001",
+          "accountType": "atlassian",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "created": "2026-03-24T10:30:00.000Z",
+        "updated": "2026-03-26T09:30:00.000Z",
+        "labels": [
+          "leave",
+          "fmla",
+          "downtown-campus",
+          "finance",
+          "certification-pending"
+        ],
+        "components": [],
+        "fixVersions": [],
+        "versions": [],
+        "customfield_10010": "Employee Name: Meghan Cross",
+        "customfield_10011": "Employee ID: CU-1023",
+        "customfield_10013": "Priority: P2",
+        "comment": {
+          "comments": [
+            {
+              "id": "10015",
+              "author": {
+                "accountId": "hr-coord-001",
+                "accountType": "atlassian",
+                "displayName": "HR Coordinator",
+                "active": true
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "FMLA eligibility review completed. Employee hire date 03/14/2025 (12+ months satisfied). Hours Worked Trailing 12 Months per employee_roster.xlsx: 2,080 (1,250-hour threshold met). Both criteria satisfied \u2014 employee is ELIGIBLE. Supervisor Calvin Briggs notified of pending leave request. Posted initial notification to #hr-leave-requests on 03/23. Template 15 (FMLA Eligibility Notice \u2013 Approved) with fmla_medical_certification.pdf attached sent to Meghan Cross on 03/23/2026. Calendar reminder created for certification deadline. Patricia Huang copied on eligibility determination."
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-03-26T09:30:00.000Z",
+              "updated": "2026-03-26T09:30:00.000Z"
+            }
+          ],
+          "maxResults": 1,
+          "total": 1,
+          "startAt": 0
+        }
+      }
+    },
+    "HR-2": {
+      "id": "10007",
+      "key": "HR-2",
+      "self": "https://api.atlassian.com/ex/jira/crestwood/rest/api/3/issue/HR-2",
+      "fields": {
+        "summary": "FMLA Leave \u2013 Angela Russo \u2013 Request Received 03/02/2026 \u2013 DENIED",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "FMLA leave request for Angela Russo (CU-1012). Department: Library. Campus: West. Supervisor: Diane Pham. Hire date: 12/02/2024 (15 months). Hours worked trailing 12 months: 1,100. FMLA eligible: NO \u2014 fewer than 1,250 hours worked in preceding 12 months."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Template 17 (FMLA Eligibility Notice \u2013 Denied) sent to Angela Russo on 03/05/2026. CC Patricia Huang. leave_tracker.xlsx updated with status: Denied \u2013 Fewer than 1,250 hours. Employee informed of alternative leave options."
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10001",
+          "name": "Task",
+          "description": "A task to be completed",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "10001",
+          "key": "HR",
+          "name": "Crestwood University HR Operations",
+          "description": "Human Resources operational case tracking for Crestwood University",
+          "projectTypeKey": "business",
+          "simplified": false,
+          "self": "https://api.atlassian.com/ex/jira/crestwood/rest/api/3/project/HR"
+        },
+        "status": {
+          "id": "10003",
+          "name": "Done",
+          "description": "Work is complete",
+          "statusCategory": {
+            "id": 3,
+            "key": "done",
+            "name": "Done",
+            "colorName": "green"
+          }
+        },
+        "priority": {
+          "id": "3",
+          "name": "P3 \u2013 Standard"
+        },
+        "assignee": {
+          "accountId": "hr-003",
+          "accountType": "atlassian",
+          "emailAddress": "p.huang@crestwood.edu",
+          "displayName": "Patricia Huang",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "reporter": {
+          "accountId": "hr-coord-001",
+          "accountType": "atlassian",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "creator": {
+          "accountId": "hr-coord-001",
+          "accountType": "atlassian",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "created": "2026-03-02T11:00:00.000Z",
+        "updated": "2026-03-05T16:00:00.000Z",
+        "resolutiondate": "2026-03-05T16:00:00.000Z",
+        "labels": [
+          "leave",
+          "fmla",
+          "denied",
+          "west-campus",
+          "library"
+        ],
+        "components": [],
+        "fixVersions": [],
+        "versions": [],
+        "customfield_10010": "Employee Name: Angela Russo",
+        "customfield_10011": "Employee ID: CU-1012",
+        "comment": {
+          "comments": [
+            {
+              "id": "10016",
+              "author": {
+                "accountId": "hr-coord-001",
+                "accountType": "atlassian",
+                "displayName": "HR Coordinator",
+                "active": true
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "FMLA eligibility check: hired 12/02/2024 (15 months \u2014 meets 12-month requirement). Hours worked trailing 12 months: 1,100 (does NOT meet 1,250-hour requirement). Employee is INELIGIBLE. Template 17 sent on 03/05. CC Patricia Huang. leave_tracker.xlsx updated. Ticket closed."
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-03-05T16:00:00.000Z",
+              "updated": "2026-03-05T16:00:00.000Z"
+            }
+          ],
+          "maxResults": 1,
+          "total": 1,
+          "startAt": 0
+        }
+      }
+    },
+    "HR-8": {
+      "id": "10008",
+      "key": "HR-8",
+      "self": "https://api.atlassian.com/ex/jira/crestwood/rest/api/3/issue/HR-8",
+      "fields": {
+        "summary": "Recruiting \u2013 Administrative Assistant (Registrar) \u2013 Approved 03/30/2026",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Position: Administrative Assistant. Department: Registrar's Office. Campus: Downtown. Reporting to: Karen Cho. Classification: Non-Exempt, Full-Time. Salary range: $38,000\u2013$45,000. Requisition approved by Derek Okonkwo on 03/30/2026."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Job posting drafted using job_posting_template.docx. Approved by Derek Okonkwo on 04/02. Posted on 04/03. Application deadline: 04/18/2026 (10+ business days). Applications to be submitted to applications@crestwood.edu."
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10001",
+          "name": "Task",
+          "description": "A task to be completed",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "10001",
+          "key": "HR",
+          "name": "Crestwood University HR Operations",
+          "description": "Human Resources operational case tracking for Crestwood University",
+          "projectTypeKey": "business",
+          "simplified": false,
+          "self": "https://api.atlassian.com/ex/jira/crestwood/rest/api/3/project/HR"
+        },
+        "status": {
+          "id": "10002",
+          "name": "In Progress",
+          "description": "Work is being done",
+          "statusCategory": {
+            "id": 4,
+            "key": "indeterminate",
+            "name": "In Progress",
+            "colorName": "yellow"
+          }
+        },
+        "priority": {
+          "id": "3",
+          "name": "P3 \u2013 Standard"
+        },
+        "assignee": {
+          "accountId": "hr-004",
+          "accountType": "atlassian",
+          "emailAddress": "d.okonkwo@crestwood.edu",
+          "displayName": "Derek Okonkwo",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "reporter": {
+          "accountId": "hr-006",
+          "accountType": "atlassian",
+          "emailAddress": "k.cho@crestwood.edu",
+          "displayName": "Karen Cho",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "creator": {
+          "accountId": "hr-coord-001",
+          "accountType": "atlassian",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "created": "2026-03-30T14:00:00.000Z",
+        "updated": "2026-04-03T10:00:00.000Z",
+        "labels": [
+          "recruiting",
+          "downtown-campus",
+          "registrar",
+          "posting-open"
+        ],
+        "components": [],
+        "fixVersions": [],
+        "versions": [],
+        "customfield_10012": "Deadline: 04/18/2026",
+        "comment": {
+          "comments": [
+            {
+              "id": "10017",
+              "author": {
+                "accountId": "hr-coord-001",
+                "accountType": "atlassian",
+                "displayName": "HR Coordinator",
+                "active": true
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Requisition received from Karen Cho. All three signatures verified (department head, dean, budget office). Forwarded to Derek Okonkwo for final approval. Approved 03/30. Posted to #hr-recruiting. recruiting_tracker.xlsx updated."
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-03-30T14:15:00.000Z",
+              "updated": "2026-03-30T14:15:00.000Z"
+            },
+            {
+              "id": "10018",
+              "author": {
+                "accountId": "hr-coord-001",
+                "accountType": "atlassian",
+                "displayName": "HR Coordinator",
+                "active": true
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Job posting drafted and sent to Derek Okonkwo for review on 04/01. Approved 04/02. Finalized PDF sent to Derek for publishing on 04/03. recruiting_tracker.xlsx status updated to Posted. Calendar event created: Posting Closes 04/18/2026."
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-04-03T10:00:00.000Z",
+              "updated": "2026-04-03T10:00:00.000Z"
+            }
+          ],
+          "maxResults": 2,
+          "total": 2,
+          "startAt": 0
+        }
+      }
+    }
+  },
+  "sprints": {},
+  "comments": {},
+  "projects": {
+    "HR": {
+      "id": "10001",
+      "key": "HR",
+      "name": "Crestwood University HR Operations",
+      "description": "Human Resources operational case tracking for Crestwood University. Covers onboarding, offboarding, leave management, performance management, and recruiting.",
+      "projectTypeKey": "business",
+      "simplified": false,
+      "self": "https://api.atlassian.com/ex/jira/crestwood/rest/api/3/project/HR"
+    }
+  },
+  "fields": [
+    {
+      "id": "summary",
+      "key": "summary",
+      "name": "Summary",
+      "custom": false,
+      "searchable": true
+    },
+    {
+      "id": "description",
+      "key": "description",
+      "name": "Description",
+      "custom": false,
+      "searchable": true
+    },
+    {
+      "id": "status",
+      "key": "status",
+      "name": "Status",
+      "custom": false,
+      "searchable": true
+    },
+    {
+      "id": "priority",
+      "key": "priority",
+      "name": "Priority",
+      "custom": false,
+      "searchable": true
+    },
+    {
+      "id": "assignee",
+      "key": "assignee",
+      "name": "Assignee",
+      "custom": false,
+      "searchable": true
+    },
+    {
+      "id": "reporter",
+      "key": "reporter",
+      "name": "Reporter",
+      "custom": false,
+      "searchable": true
+    },
+    {
+      "id": "creator",
+      "key": "creator",
+      "name": "Creator",
+      "custom": false,
+      "searchable": true
+    },
+    {
+      "id": "created",
+      "key": "created",
+      "name": "Created",
+      "custom": false,
+      "searchable": true
+    },
+    {
+      "id": "updated",
+      "key": "updated",
+      "name": "Updated",
+      "custom": false,
+      "searchable": true
+    },
+    {
+      "id": "labels",
+      "key": "labels",
+      "name": "Labels",
+      "custom": false,
+      "searchable": true
+    },
+    {
+      "id": "issuetype",
+      "key": "issuetype",
+      "name": "Issue Type",
+      "custom": false,
+      "searchable": true
+    },
+    {
+      "id": "resolutiondate",
+      "key": "resolutiondate",
+      "name": "Resolution Date",
+      "custom": false,
+      "searchable": true
+    },
+    {
+      "id": "customfield_10010",
+      "key": "customfield_10010",
+      "name": "Employee Name",
+      "custom": true,
+      "searchable": true,
+      "schema": {
+        "type": "string",
+        "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textfield"
+      }
+    },
+    {
+      "id": "customfield_10011",
+      "key": "customfield_10011",
+      "name": "Employee ID",
+      "custom": true,
+      "searchable": true,
+      "schema": {
+        "type": "string",
+        "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textfield"
+      }
+    },
+    {
+      "id": "customfield_10012",
+      "key": "customfield_10012",
+      "name": "Deadline",
+      "custom": true,
+      "searchable": true,
+      "schema": {
+        "type": "string",
+        "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textfield"
+      }
+    },
+    {
+      "id": "customfield_10013",
+      "key": "customfield_10013",
+      "name": "Priority Override",
+      "custom": true,
+      "searchable": true,
+      "schema": {
+        "type": "string",
+        "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textfield"
+      }
+    },
+    {
+      "id": "customfield_10014",
+      "key": "customfield_10014",
+      "name": "Compliance Status",
+      "custom": true,
+      "searchable": true,
+      "schema": {
+        "type": "string",
+        "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textfield"
+      }
+    }
+  ],
+  "linkTypes": [
+    {
+      "id": "10001",
+      "name": "Blocks",
+      "inward": "is blocked by",
+      "outward": "blocks"
+    },
+    {
+      "id": "10002",
+      "name": "Relates",
+      "inward": "relates to",
+      "outward": "relates to"
+    }
+  ],
+  "counters": {
+    "issueId": 10009,
+    "sprintId": 1000,
+    "commentId": 10019
+  },
+  "users": {
+    "hr-coord-001": {
+      "accountId": "hr-coord-001",
+      "displayName": "HR Coordinator",
+      "accountType": "atlassian",
+      "emailAddress": "hr@crestwood.edu"
+    },
+    "hr-005": {
+      "accountId": "hr-005",
+      "displayName": "Rosa Gutierrez",
+      "accountType": "atlassian",
+      "emailAddress": "r.gutierrez@crestwood.edu"
+    },
+    "hr-006": {
+      "accountId": "hr-006",
+      "displayName": "Karen Cho",
+      "accountType": "atlassian",
+      "emailAddress": "k.cho@crestwood.edu"
+    },
+    "hr-003": {
+      "accountId": "hr-003",
+      "displayName": "Patricia Huang",
+      "accountType": "atlassian",
+      "emailAddress": "p.huang@crestwood.edu"
+    },
+    "hr-004": {
+      "accountId": "hr-004",
+      "displayName": "Derek Okonkwo",
+      "accountType": "atlassian",
+      "emailAddress": "d.okonkwo@crestwood.edu"
+    }
+  },
+  "boards": {},
+  "statuses": {
+    "1": {
+      "id": "1",
+      "name": "In Progress",
+      "statusCategory": {
+        "id": 4,
+        "key": "indeterminate",
+        "name": "In Progress",
+        "colorName": "yellow"
+      }
+    },
+    "2": {
+      "id": "2",
+      "name": "Done",
+      "statusCategory": {
+        "id": 3,
+        "key": "done",
+        "name": "Done",
+        "colorName": "green"
+      }
+    }
+  },
+  "workflow": {
+    "In Progress": [
+      {
+        "id": "1",
+        "name": "To In Progress",
+        "to": "In Progress"
+      },
+      {
+        "id": "2",
+        "name": "To Done",
+        "to": "Done"
+      }
+    ],
+    "Done": [
+      {
+        "id": "3",
+        "name": "To In Progress",
+        "to": "In Progress"
+      },
+      {
+        "id": "4",
+        "name": "To Done",
+        "to": "Done"
+      }
+    ]
+  },
+  "defaultStatusValue": "In Progress"
+}

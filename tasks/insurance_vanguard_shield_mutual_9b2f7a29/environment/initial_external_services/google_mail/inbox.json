@@ -1,0 +1,46 @@
+
+{
+  "mailbox": {
+    "email": "junior.analyst@vanguardshield.com",
+    "name": "Junior Operations Analyst"
+  },
+  "contacts": [
+    {
+      "email": "marcus.vance@vanguardshield.com",
+      "name": "Marcus Vance"
+    },
+    {
+      "email": "sarah.chen@vanguardshield.com",
+      "name": "Sarah Chen"
+    },
+    {
+      "email": "david.park@vanguardshield.com",
+      "name": "David Park"
+    },
+    {
+      "email": "jennifer.walsh@vanguardshield.com",
+      "name": "Jennifer Walsh"
+    }
+  ],
+  "folders": [],
+  "emails": [
+    {
+      "email_id": "1",
+      "folder": "INBOX",
+      "subject": "RE: Marketing Campaign Approval",
+      "from_addr": "sarah.chen@vanguardshield.com",
+      "to_addr": "junior.analyst@vanguardshield.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-27T14:30:00-04:00",
+      "message_id": "<msg001@vanguardshield.com>",
+      "in_reply_to": null,
+      "body_text": "Hi,\n\nThis looks fine to me. The campaign is within budget and aligns with our Q1 goals.\n\nSarah",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    }
+  ],
+  "next_email_id": 2
+}

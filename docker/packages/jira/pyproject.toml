@@ -1,0 +1,21 @@
+[build-system]
+build-backend = "uv_build"
+requires = [ "uv-build>=0.9.6,<0.10" ]
+
+[project]
+name = "jira-mock"
+version = "1.0.0"
+description = "Mock Jira MCP Server for testing and development"
+requires-python = ">=3.13"
+classifiers = [
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.13",
+  "Programming Language :: Python :: 3.14",
+]
+dependencies = [
+  "fastmcp>=3,<4",
+  "pydantic[email]>=2.12.5",
+  "starlette>=0.50",
+  "uvicorn>=0.38",
+]
+scripts.jira-mock = "jira_mock:main"

@@ -1,0 +1,354 @@
+{
+  "users": {
+    "U001": {
+      "id": "U001",
+      "team_id": "T001",
+      "name": "analyst",
+      "deleted": false,
+      "real_name": "Inventory Operations Analyst",
+      "tz": "America/Chicago",
+      "tz_label": "Central Time",
+      "tz_offset": -18000,
+      "profile": {
+        "real_name": "Inventory Operations Analyst",
+        "display_name": "analyst",
+        "email": "analyst@prairiestar.com",
+        "title": "Inventory Operations Analyst"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U002": {
+      "id": "U002",
+      "team_id": "T001",
+      "name": "a.nguyen",
+      "deleted": false,
+      "real_name": "Alicia Nguyen",
+      "tz": "America/Chicago",
+      "tz_label": "Central Time",
+      "tz_offset": -18000,
+      "profile": {
+        "real_name": "Alicia Nguyen",
+        "display_name": "a.nguyen",
+        "email": "alicia.nguyen@prairiestar.com",
+        "title": "Inventory & Receiving Coordinator"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U003": {
+      "id": "U003",
+      "team_id": "T001",
+      "name": "c.mendoza",
+      "deleted": false,
+      "real_name": "Carlos Mendoza",
+      "tz": "America/Chicago",
+      "tz_label": "Central Time",
+      "tz_offset": -18000,
+      "profile": {
+        "real_name": "Carlos Mendoza",
+        "display_name": "c.mendoza",
+        "email": "carlos.mendoza@prairiestar.com",
+        "title": "DC Manager"
+      },
+      "is_admin": true,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U004": {
+      "id": "U004",
+      "team_id": "T001",
+      "name": "s.kim",
+      "deleted": false,
+      "real_name": "Sarah Kim",
+      "tz": "America/Chicago",
+      "tz_label": "Central Time",
+      "tz_offset": -18000,
+      "profile": {
+        "real_name": "Sarah Kim",
+        "display_name": "s.kim",
+        "email": "sarah.kim@prairiestar.com",
+        "title": "Warehouse Associate (Senior)"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U005": {
+      "id": "U005",
+      "team_id": "T001",
+      "name": "k.white",
+      "deleted": false,
+      "real_name": "Kevin White",
+      "tz": "America/Chicago",
+      "tz_label": "Central Time",
+      "tz_offset": -18000,
+      "profile": {
+        "real_name": "Kevin White",
+        "display_name": "k.white",
+        "email": "kevin.white@prairiestar.com",
+        "title": "Warehouse Associate"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U006": {
+      "id": "U006",
+      "team_id": "T001",
+      "name": "b.keller",
+      "deleted": false,
+      "real_name": "Brandon Keller",
+      "tz": "America/Chicago",
+      "tz_label": "Central Time",
+      "tz_offset": -18000,
+      "profile": {
+        "real_name": "Brandon Keller",
+        "display_name": "b.keller",
+        "email": "brandon.keller@prairiestar.com",
+        "title": "Dispatcher / Route Planner"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U007": {
+      "id": "U007",
+      "team_id": "T001",
+      "name": "j.patel",
+      "deleted": false,
+      "real_name": "Jacob Patel",
+      "tz": "America/Chicago",
+      "tz_label": "Central Time",
+      "tz_offset": -18000,
+      "profile": {
+        "real_name": "Jacob Patel",
+        "display_name": "j.patel",
+        "email": "jacob.patel@prairiestar.com",
+        "title": "Production Planner"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U008": {
+      "id": "U008",
+      "team_id": "T001",
+      "name": "d.reyes",
+      "deleted": false,
+      "real_name": "Daniel Reyes",
+      "tz": "America/Chicago",
+      "tz_label": "Central Time",
+      "tz_offset": -18000,
+      "profile": {
+        "real_name": "Daniel Reyes",
+        "display_name": "d.reyes",
+        "email": "daniel.reyes@prairiestar.com",
+        "title": "Director of Supply Chain"
+      },
+      "is_admin": true,
+      "is_owner": false,
+      "is_bot": false
+    }
+  },
+  "channels": {
+    "C001": {
+      "id": "C001",
+      "name": "receiving-houston",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1700000000,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "receiving-houston",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1700000000,
+      "creator": "U003",
+      "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic": {
+        "value": "Houston inbound receiving: arrivals, counts, temperatures, completions, flags",
+        "creator": "U003",
+        "last_set": 1700000000
+      },
+      "purpose": {
+        "value": "Real-time receiving updates for Houston DC",
+        "creator": "U003",
+        "last_set": 1700000000
+      }
+    },
+    "C002": {
+      "id": "C002",
+      "name": "dc-escalations",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1700000000,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "dc-escalations",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1700000000,
+      "creator": "U003",
+      "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic": {
+        "value": "P1 and P2 priority events, escalations requiring Director attention",
+        "creator": "U003",
+        "last_set": 1700000000
+      },
+      "purpose": {
+        "value": "Escalations for both Houston and Shreveport DCs",
+        "creator": "U003",
+        "last_set": 1700000000
+      }
+    },
+    "C003": {
+      "id": "C003",
+      "name": "cold-chain-alerts",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1700000000,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "cold-chain-alerts",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1700000000,
+      "creator": "U003",
+      "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic": {
+        "value": "Temperature excursions, freezer zone alarms, cold chain breaches",
+        "creator": "U003",
+        "last_set": 1700000000
+      },
+      "purpose": {
+        "value": "Cold chain alerts for both DCs",
+        "creator": "U003",
+        "last_set": 1700000000
+      }
+    },
+    "C004": {
+      "id": "C004",
+      "name": "waco-production-coord",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1700000000,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "waco-production-coord",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1700000000,
+      "creator": "U003",
+      "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic": {
+        "value": "Variance issues, manifest questions, communication with Waco production",
+        "creator": "U003",
+        "last_set": 1700000000
+      },
+      "purpose": {
+        "value": "Coordination between DCs and Waco production",
+        "creator": "U003",
+        "last_set": 1700000000
+      }
+    },
+    "C005": {
+      "id": "C005",
+      "name": "inventory-ops",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1700000000,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "inventory-ops",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1700000000,
+      "creator": "U003",
+      "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic": {
+        "value": "Cycle count results, expiry flags, inventory adjustments",
+        "creator": "U003",
+        "last_set": 1700000000
+      },
+      "purpose": {
+        "value": "Inventory operations across both DCs",
+        "creator": "U003",
+        "last_set": 1700000000
+      }
+    }
+  },
+  "messages": {
+    "C001": [
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Waco transfer 2026-05-20-001 expected at 09:00 CT. Pallets: 24, Cases: 480. Dock crew standing by.",
+        "ts": "1747737600.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "@analyst Manifest 2026-05-20-001 receiving complete. Seal PS-88214 intact. Temps: -6.0, -4.5, -7.5 (front, middle, rear). Pallets: 24. Cases: 474 — short 6 on SC-003. Lot codes: A-20260519-01 ✓ matches manifest. No damage. Ready for put-away direction.",
+        "ts": "1747739100.000200",
+        "team": "T001"
+      }
+    ]
+  },
+  "counters": {
+    "messageId": 1000000
+  }
+}

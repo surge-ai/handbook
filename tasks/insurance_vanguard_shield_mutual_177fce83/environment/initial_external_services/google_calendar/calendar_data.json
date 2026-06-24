@@ -1,0 +1,18 @@
+{
+  "events": {
+    "evt-1": {
+      "id": "evt-1",
+      "summary": "2026 Global Capital Markets Conference",
+      "start": {
+        "dateTime": "2026-05-06T08:00:00",
+        "timeZone": "UTC"
+      },
+      "end": {
+        "dateTime": "2026-05-09T18:00:00",
+        "timeZone": "UTC"
+      },
+      "description": "Attendees: Amina Hassan, Carlos Mendez, Hiroshi Tanaka, Leila Rahimi, Priya Natarajan",
+      "location": "McCormick Place Convention Center, Chicago"
+    }
+  }
+}

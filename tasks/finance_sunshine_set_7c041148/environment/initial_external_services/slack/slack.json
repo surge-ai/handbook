@@ -1,0 +1,1581 @@
+{
+  "users": {
+    "U001": {
+      "id": "U001",
+      "team_id": "T001",
+      "name": "helen.arrow",
+      "deleted": false,
+      "real_name": "Helen Arrow",
+      "profile": {
+        "real_name": "Helen Arrow",
+        "display_name": "helen.arrow",
+        "email": "helen.arrow@sunshineandsetauto.com",
+        "title": "Accountant"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U002": {
+      "id": "U002",
+      "team_id": "T001",
+      "name": "derrick.soto",
+      "deleted": false,
+      "real_name": "Derrick Soto",
+      "profile": {
+        "real_name": "Derrick Soto",
+        "display_name": "derrick.soto",
+        "email": "derrick.soto@sunshineandsetauto.com",
+        "title": "General Manager"
+      },
+      "is_admin": true,
+      "is_owner": true,
+      "is_bot": false
+    },
+    "U003": {
+      "id": "U003",
+      "team_id": "T001",
+      "name": "olivia.mercer",
+      "deleted": false,
+      "real_name": "Olivia Mercer",
+      "profile": {
+        "real_name": "Olivia Mercer",
+        "display_name": "olivia.mercer",
+        "email": "olivia.mercer@sunshineandsetauto.com",
+        "title": "Sales Manager"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U004": {
+      "id": "U004",
+      "team_id": "T001",
+      "name": "trent.holloway",
+      "deleted": false,
+      "real_name": "Trent Holloway",
+      "profile": {
+        "real_name": "Trent Holloway",
+        "display_name": "trent.holloway",
+        "email": "trent.holloway@sunshineandsetauto.com",
+        "title": "Used Car Manager"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U005": {
+      "id": "U005",
+      "team_id": "T001",
+      "name": "sofia.ramirez",
+      "deleted": false,
+      "real_name": "Sofia Ramirez",
+      "profile": {
+        "real_name": "Sofia Ramirez",
+        "display_name": "sofia.ramirez",
+        "email": "sofia.ramirez@sunshineandsetauto.com",
+        "title": "F&I Director"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U006": {
+      "id": "U006",
+      "team_id": "T001",
+      "name": "grant.ellis",
+      "deleted": false,
+      "real_name": "Grant Ellis",
+      "profile": {
+        "real_name": "Grant Ellis",
+        "display_name": "grant.ellis",
+        "email": "grant.ellis@sunshineandsetauto.com",
+        "title": "Service Director"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U007": {
+      "id": "U007",
+      "team_id": "T001",
+      "name": "maya.chen",
+      "deleted": false,
+      "real_name": "Maya Chen",
+      "profile": {
+        "real_name": "Maya Chen",
+        "display_name": "maya.chen",
+        "email": "maya.chen@sunshineandsetauto.com",
+        "title": "Parts Manager"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U008": {
+      "id": "U008",
+      "team_id": "T001",
+      "name": "hannah.price",
+      "deleted": false,
+      "real_name": "Hannah Price",
+      "profile": {
+        "real_name": "Hannah Price",
+        "display_name": "hannah.price",
+        "email": "hannah.price@sunshineandsetauto.com",
+        "title": "HR Manager"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U009": {
+      "id": "U009",
+      "team_id": "T001",
+      "name": "evan.ross",
+      "deleted": false,
+      "real_name": "Evan Ross",
+      "profile": {
+        "real_name": "Evan Ross",
+        "display_name": "evan.ross",
+        "email": "evan.ross@sunshineandsetauto.com",
+        "title": "IT & Systems Administrator"
+      },
+      "is_admin": true,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U010": {
+      "id": "U010",
+      "team_id": "T001",
+      "name": "avery.knight",
+      "deleted": false,
+      "real_name": "Avery Knight",
+      "profile": {
+        "real_name": "Avery Knight",
+        "display_name": "avery.knight",
+        "email": "avery.knight@sunshineandsetauto.com",
+        "title": "Marketing Manager"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U011": {
+      "id": "U011",
+      "team_id": "T001",
+      "name": "lila.owens",
+      "deleted": false,
+      "real_name": "Lila Owens",
+      "profile": {
+        "real_name": "Lila Owens",
+        "display_name": "lila.owens",
+        "email": "lila.owens@sunshineandsetauto.com",
+        "title": "Reception & Customer Care Lead"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U012": {
+      "id": "U012",
+      "team_id": "T001",
+      "name": "elena.brooks",
+      "deleted": false,
+      "real_name": "Elena Brooks",
+      "profile": {
+        "real_name": "Elena Brooks",
+        "display_name": "elena.brooks",
+        "email": "elena.brooks@sunshineandsetauto.com",
+        "title": "Controller"
+      },
+      "is_admin": true,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U013": {
+      "id": "U013",
+      "team_id": "T001",
+      "name": "marcus.hale",
+      "deleted": false,
+      "real_name": "Marcus Hale",
+      "profile": {
+        "real_name": "Marcus Hale",
+        "display_name": "marcus.hale",
+        "email": "marcus.hale@sunshineandsetauto.com",
+        "title": "Assistant Controller"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U014": {
+      "id": "U014",
+      "team_id": "T001",
+      "name": "talia.nguyen",
+      "deleted": false,
+      "real_name": "Talia Nguyen",
+      "profile": {
+        "real_name": "Talia Nguyen",
+        "display_name": "talia.nguyen",
+        "email": "talia.nguyen@sunshineandsetauto.com",
+        "title": "Office Manager"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U015": {
+      "id": "U015",
+      "team_id": "T001",
+      "name": "jasmine.patel",
+      "deleted": false,
+      "real_name": "Jasmine Patel",
+      "profile": {
+        "real_name": "Jasmine Patel",
+        "display_name": "jasmine.patel",
+        "email": "jasmine.patel@sunshineandsetauto.com",
+        "title": "Senior Deal Posting Specialist"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U016": {
+      "id": "U016",
+      "team_id": "T001",
+      "name": "noah.alvarez",
+      "deleted": false,
+      "real_name": "Noah Alvarez",
+      "profile": {
+        "real_name": "Noah Alvarez",
+        "display_name": "noah.alvarez",
+        "email": "noah.alvarez@sunshineandsetauto.com",
+        "title": "Funding & Contracts Clerk"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U017": {
+      "id": "U017",
+      "team_id": "T001",
+      "name": "priya.bennett",
+      "deleted": false,
+      "real_name": "Priya Bennett",
+      "profile": {
+        "real_name": "Priya Bennett",
+        "display_name": "priya.bennett",
+        "email": "priya.bennett@sunshineandsetauto.com",
+        "title": "Titles & Billing Clerk"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U018": {
+      "id": "U018",
+      "team_id": "T001",
+      "name": "caleb.foster",
+      "deleted": false,
+      "real_name": "Caleb Foster",
+      "profile": {
+        "real_name": "Caleb Foster",
+        "display_name": "caleb.foster",
+        "email": "caleb.foster@sunshineandsetauto.com",
+        "title": "Accounts Payable Clerk"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U019": {
+      "id": "U019",
+      "team_id": "T001",
+      "name": "renee.lawson",
+      "deleted": false,
+      "real_name": "Renee Lawson",
+      "profile": {
+        "real_name": "Renee Lawson",
+        "display_name": "renee.lawson",
+        "email": "renee.lawson@sunshineandsetauto.com",
+        "title": "Cashier / Receivables Clerk"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U020": {
+      "id": "U020",
+      "team_id": "T001",
+      "name": "darius.kim",
+      "deleted": false,
+      "real_name": "Darius Kim",
+      "profile": {
+        "real_name": "Darius Kim",
+        "display_name": "darius.kim",
+        "email": "darius.kim@sunshineandsetauto.com",
+        "title": "Inventory Accountant"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U021": {
+      "id": "U021",
+      "team_id": "T001",
+      "name": "leah.morgan",
+      "deleted": false,
+      "real_name": "Leah Morgan",
+      "profile": {
+        "real_name": "Leah Morgan",
+        "display_name": "leah.morgan",
+        "email": "leah.morgan@sunshineandsetauto.com",
+        "title": "Payroll & Commissions Analyst"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    }
+  },
+  "channels": {
+    "C001": {
+      "id": "C001",
+      "name": "acct-deal-posting",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1803859200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "acct-deal-posting",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1806058920,
+      "creator": "U012",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Deal posting and contract processing",
+        "creator": "U012",
+        "last_set": 1709251200
+      },
+      "purpose": {
+        "value": "Channel for deal posting team coordination and support",
+        "creator": "U012",
+        "last_set": 1709251200
+      }
+    },
+    "C002": {
+      "id": "C002",
+      "name": "acct-contracts-funding",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1803859200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "acct-contracts-funding",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1806058920,
+      "creator": "U012",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Funding and contracts coordination",
+        "creator": "U012",
+        "last_set": 1709251200
+      },
+      "purpose": {
+        "value": "Channel for contracts and funding processes",
+        "creator": "U012",
+        "last_set": 1709251200
+      }
+    },
+    "C003": {
+      "id": "C003",
+      "name": "acct-titles-billing",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1803859200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "acct-titles-billing",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1806058920,
+      "creator": "U012",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Title processing and billing coordination",
+        "creator": "U012",
+        "last_set": 1709251200
+      },
+      "purpose": {
+        "value": "Channel for titles and billing team",
+        "creator": "U012",
+        "last_set": 1709251200
+      }
+    },
+    "C004": {
+      "id": "C004",
+      "name": "acct-cash-desk",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1803859200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "acct-cash-desk",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1806058920,
+      "creator": "U012",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Cash desk operations and receivables",
+        "creator": "U012",
+        "last_set": 1709251200
+      },
+      "purpose": {
+        "value": "Channel for cashier and receivables coordination",
+        "creator": "U012",
+        "last_set": 1709251200
+      }
+    },
+    "C005": {
+      "id": "C005",
+      "name": "acct-ap",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1803859200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "acct-ap",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1806058920,
+      "creator": "U012",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Accounts payable processing",
+        "creator": "U012",
+        "last_set": 1709251200
+      },
+      "purpose": {
+        "value": "Channel for accounts payable coordination",
+        "creator": "U012",
+        "last_set": 1709251200
+      }
+    },
+    "C006": {
+      "id": "C006",
+      "name": "acct-inventory",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1803859200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "acct-inventory",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1806058920,
+      "creator": "U012",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Inventory accounting and reconciliation",
+        "creator": "U012",
+        "last_set": 1709251200
+      },
+      "purpose": {
+        "value": "Channel for inventory accounting coordination",
+        "creator": "U012",
+        "last_set": 1709251200
+      }
+    },
+    "C007": {
+      "id": "C007",
+      "name": "acct-payroll-commissions",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1803859200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "acct-payroll-commissions",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1806058920,
+      "creator": "U012",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Payroll and commission processing",
+        "creator": "U012",
+        "last_set": 1709251200
+      },
+      "purpose": {
+        "value": "Channel for payroll and commissions coordination",
+        "creator": "U012",
+        "last_set": 1709251200
+      }
+    },
+    "C008": {
+      "id": "C008",
+      "name": "acct-month-end-close",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1803859200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "acct-month-end-close",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1806058920,
+      "creator": "U012",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Month-end close coordination and tasks",
+        "creator": "U012",
+        "last_set": 1709251200
+      },
+      "purpose": {
+        "value": "Channel for month-end close process coordination",
+        "creator": "U012",
+        "last_set": 1709251200
+      }
+    },
+    "C009": {
+      "id": "C009",
+      "name": "acct-chargebacks",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1803859200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "acct-chargebacks",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1806058920,
+      "creator": "U012",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Chargeback processing and tracking",
+        "creator": "U012",
+        "last_set": 1709251200
+      },
+      "purpose": {
+        "value": "Channel for chargeback coordination",
+        "creator": "U012",
+        "last_set": 1709251200
+      }
+    },
+    "C010": {
+      "id": "C010",
+      "name": "acct-floorplan",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1803859200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "acct-floorplan",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1806058920,
+      "creator": "U012",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Floorplan financing coordination",
+        "creator": "U012",
+        "last_set": 1709251200
+      },
+      "purpose": {
+        "value": "Channel for floorplan management and reconciliation",
+        "creator": "U012",
+        "last_set": 1709251200
+      }
+    },
+    "C011": {
+      "id": "C011",
+      "name": "acct-trade-payoffs",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1803859200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "acct-trade-payoffs",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1806058920,
+      "creator": "U012",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Trade-in payoff processing and tracking",
+        "creator": "U012",
+        "last_set": 1709251200
+      },
+      "purpose": {
+        "value": "Channel for trade payoff coordination",
+        "creator": "U012",
+        "last_set": 1709251200
+      }
+    },
+    "C012": {
+      "id": "C012",
+      "name": "help-it-systems",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1803859200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "help-it-systems",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1806058920,
+      "creator": "U009",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "IT support and system issues",
+        "creator": "U009",
+        "last_set": 1709251200
+      },
+      "purpose": {
+        "value": "Channel for IT help requests and system support",
+        "creator": "U009",
+        "last_set": 1709251200
+      }
+    },
+    "C013": {
+      "id": "C013",
+      "name": "leadership-escalations",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1803859200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "leadership-escalations",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1806058920,
+      "creator": "U002",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Leadership escalations and urgent issues",
+        "creator": "U002",
+        "last_set": 1709251200
+      },
+      "purpose": {
+        "value": "Channel for escalating urgent issues to leadership",
+        "creator": "U002",
+        "last_set": 1709251200
+      }
+    },
+    "D001": {
+      "id": "D001",
+      "name": "Helen Arrow & Derrick Soto DM",
+      "is_channel": false,
+      "is_group": false,
+      "is_im": true,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1803859200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "helen.arrow__derrick.soto",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1806058920,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "members": [
+        "U001",
+        "U002"
+      ],
+      "user": "U002"
+    },
+    "D002": {
+      "id": "D002",
+      "name": "Helen Arrow & Olivia Mercer DM",
+      "is_channel": false,
+      "is_group": false,
+      "is_im": true,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1803859200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "helen.arrow__olivia.mercer",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1806058920,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "members": [
+        "U001",
+        "U003"
+      ],
+      "user": "U003"
+    },
+    "D003": {
+      "id": "D003",
+      "name": "Helen Arrow & Trent Holloway DM",
+      "is_channel": false,
+      "is_group": false,
+      "is_im": true,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1803859200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "helen.arrow__trent.holloway",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1806058920,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "members": [
+        "U001",
+        "U004"
+      ],
+      "user": "U004"
+    },
+    "D004": {
+      "id": "D004",
+      "name": "Helen Arrow & Sofia Ramirez DM",
+      "is_channel": false,
+      "is_group": false,
+      "is_im": true,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1803859200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "helen.arrow__sofia.ramirez",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1806058920,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "members": [
+        "U001",
+        "U005"
+      ],
+      "user": "U005"
+    },
+    "D005": {
+      "id": "D005",
+      "name": "Helen Arrow & Grant Ellis DM",
+      "is_channel": false,
+      "is_group": false,
+      "is_im": true,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1803859200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "helen.arrow__grant.ellis",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1806058920,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "members": [
+        "U001",
+        "U006"
+      ],
+      "user": "U006"
+    },
+    "D006": {
+      "id": "D006",
+      "name": "Helen Arrow & Maya Chen DM",
+      "is_channel": false,
+      "is_group": false,
+      "is_im": true,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1803859200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "helen.arrow__maya.chen",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1806058920,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "members": [
+        "U001",
+        "U007"
+      ],
+      "user": "U007"
+    },
+    "D007": {
+      "id": "D007",
+      "name": "Helen Arrow & Hannah Price DM",
+      "is_channel": false,
+      "is_group": false,
+      "is_im": true,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1803859200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "helen.arrow__hannah.price",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1806058920,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "members": [
+        "U001",
+        "U008"
+      ],
+      "user": "U008"
+    },
+    "D008": {
+      "id": "D008",
+      "name": "Helen Arrow & Evan Ross DM",
+      "is_channel": false,
+      "is_group": false,
+      "is_im": true,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1803859200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "helen.arrow__evan.ross",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1806058920,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "members": [
+        "U001",
+        "U009"
+      ],
+      "user": "U009"
+    },
+    "D009": {
+      "id": "D009",
+      "name": "Helen Arrow & Avery Knight DM",
+      "is_channel": false,
+      "is_group": false,
+      "is_im": true,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1803859200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "helen.arrow__avery.knight",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1806058920,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "members": [
+        "U001",
+        "U010"
+      ],
+      "user": "U010"
+    },
+    "D010": {
+      "id": "D010",
+      "name": "Helen Arrow & Lila Owens DM",
+      "is_channel": false,
+      "is_group": false,
+      "is_im": true,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1803859200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "helen.arrow__lila.owens",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1806058920,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "members": [
+        "U001",
+        "U011"
+      ],
+      "user": "U011"
+    },
+    "D011": {
+      "id": "D011",
+      "name": "Helen Arrow & Elena Brooks DM",
+      "is_channel": false,
+      "is_group": false,
+      "is_im": true,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1803859200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "helen.arrow__elena.brooks",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1806058920,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "members": [
+        "U001",
+        "U012"
+      ],
+      "user": "U012"
+    },
+    "D012": {
+      "id": "D012",
+      "name": "Helen Arrow & Marcus Hale DM",
+      "is_channel": false,
+      "is_group": false,
+      "is_im": true,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1803859200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "helen.arrow__marcus.hale",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1806058920,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "members": [
+        "U001",
+        "U013"
+      ],
+      "user": "U013"
+    },
+    "D013": {
+      "id": "D013",
+      "name": "Helen Arrow & Talia Nguyen DM",
+      "is_channel": false,
+      "is_group": false,
+      "is_im": true,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1803859200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "helen.arrow__talia.nguyen",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1806058920,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "members": [
+        "U001",
+        "U014"
+      ],
+      "user": "U014"
+    },
+    "D014": {
+      "id": "D014",
+      "name": "Helen Arrow & Jasmine Patel DM",
+      "is_channel": false,
+      "is_group": false,
+      "is_im": true,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1803859200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "helen.arrow__jasmine.patel",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1806058920,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "members": [
+        "U001",
+        "U015"
+      ],
+      "user": "U015"
+    },
+    "D015": {
+      "id": "D015",
+      "name": "Helen Arrow & Noah Alvarez DM",
+      "is_channel": false,
+      "is_group": false,
+      "is_im": true,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1803859200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "helen.arrow__noah.alvarez",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1806058920,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "members": [
+        "U001",
+        "U016"
+      ],
+      "user": "U016"
+    },
+    "D016": {
+      "id": "D016",
+      "name": "Helen Arrow & Priya Bennett DM",
+      "is_channel": false,
+      "is_group": false,
+      "is_im": true,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1803859200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "helen.arrow__priya.bennett",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1806058920,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "members": [
+        "U001",
+        "U017"
+      ],
+      "user": "U017"
+    },
+    "D017": {
+      "id": "D017",
+      "name": "Helen Arrow & Caleb Foster DM",
+      "is_channel": false,
+      "is_group": false,
+      "is_im": true,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1803859200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "helen.arrow__caleb.foster",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1806058920,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "members": [
+        "U001",
+        "U018"
+      ],
+      "user": "U018"
+    },
+    "D018": {
+      "id": "D018",
+      "name": "Helen Arrow & Renee Lawson DM",
+      "is_channel": false,
+      "is_group": false,
+      "is_im": true,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1803859200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "helen.arrow__renee.lawson",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1806058920,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "members": [
+        "U001",
+        "U019"
+      ],
+      "user": "U019"
+    },
+    "D019": {
+      "id": "D019",
+      "name": "Helen Arrow & Darius Kim DM",
+      "is_channel": false,
+      "is_group": false,
+      "is_im": true,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1803859200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "helen.arrow__darius.kim",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1806058920,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "members": [
+        "U001",
+        "U020"
+      ],
+      "user": "U020"
+    },
+    "D020": {
+      "id": "D020",
+      "name": "Helen Arrow & Leah Morgan DM",
+      "is_channel": false,
+      "is_group": false,
+      "is_im": true,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1803859200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "helen.arrow__leah.morgan",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1806058920,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "members": [
+        "U001",
+        "U021"
+      ],
+      "user": "U021"
+    }
+  },
+  "messages": {
+    "C008": [
+      {
+        "type": "message",
+        "user": "U012",
+        "text": "Reminder: March month-end close starts tomorrow. Please review your task lists and update them in the shared spreadsheet.",
+        "ts": "1805976000.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U013",
+        "text": "I've updated the close checklist with target completion dates for each department.",
+        "ts": "1805977200.000200",
+        "team": "T001"
+      }
+    ],
+    "C001": [
+      {
+        "type": "message",
+        "user": "U015",
+        "text": "Heads up \u2014 Deal #10057 (Flores, Stock #N16028) has a gross variance. The approved desk recap from Derek Loomis shows $7,500 total gross but the deal_log has it at $6,700. Escalating to Marcus per the high-gross override.",
+        "ts": "1805968800.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U015",
+        "text": "Deal #2027-0324 posted successfully. All documentation verified.",
+        "ts": "1806048000.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Thanks Jasmine! I see it in the system now.",
+        "ts": "1806048300.000200",
+        "team": "T001"
+      }
+    ],
+    "C012": [
+      {
+        "type": "message",
+        "user": "U018",
+        "text": "Hi @evan.ross - I'm having trouble accessing the DMS this morning. Getting a connection timeout error.",
+        "ts": "1806055200.000100",
+        "team": "T001",
+        "reply_count": 2,
+        "latest_reply": "1806055560.000300",
+        "reply_users": [
+          "U009"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U009",
+        "text": "Thanks for reporting. Checking the server status now.",
+        "ts": "1806055320.000200",
+        "thread_ts": "1806055200.000100",
+        "parent_user_id": "U018",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U009",
+        "text": "Found the issue - network switch in the accounting office needs a reboot. Should be back up in 5 minutes.",
+        "ts": "1806055560.000300",
+        "thread_ts": "1806055200.000100",
+        "parent_user_id": "U018",
+        "team": "T001"
+      }
+    ],
+    "D011": [
+      {
+        "type": "message",
+        "user": "U012",
+        "text": "Helen, can you review the February variance report when you get a chance? I'd like your input on the service department gross profit variance.",
+        "ts": "1805967600.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Sure thing! I'll take a look this afternoon and get back to you.",
+        "ts": "1805968200.000200",
+        "team": "T001"
+      }
+    ],
+    "D014": [
+      {
+        "type": "message",
+        "user": "U015",
+        "text": "Morning Helen! Quick question about the deal I posted yesterday - deal #2027-0325. The aftermarket add-ons didn't flow through properly. Can you help me figure out what happened?",
+        "ts": "1806056400.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Good morning! Let me pull that up and take a look.",
+        "ts": "1806056520.000200",
+        "team": "T001"
+      }
+    ],
+    "C003": [
+      {
+        "type": "message",
+        "user": "U017",
+        "text": "Working on title packet for Deal #10091 / Morris \u2014 trade title received, insurance card on file. Still waiting on lien release letter from the trade-in lienholder. Will prep the payoff package once it comes in. Targeting submission this week.",
+        "ts": "1806044400.000100",
+        "team": "T001"
+      }
+    ]
+  },
+  "counters": {
+    "messageId": 1000000
+  }
+}

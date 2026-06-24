@@ -1,0 +1,480 @@
+{
+  "events": {
+    "evt-1001": {
+      "summary": "IVIG Infusion \u2014 Thompson, Michael (CASE-1001)",
+      "start": {
+        "dateTime": "2026-03-15T09:00:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2026-03-15T12:15:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "description": "Patient: Michael Thompson | DOB: 1968-04-15\nDrug: Privigen 10%, 30g\nRoute: IV\nNurse: Jane Smith, RN\nFrequency: Every 4 weeks\nPre-meds: Diphenhydramine 75mg\nPA#: BC-2026-44821\nCase: CASE-1001",
+      "location": "742 Evergreen Terrace, Beverly Hills, CA 90212",
+      "id": "evt-1001"
+    },
+    "evt-1002": {
+      "summary": "IVIG Infusion \u2014 Rivera, Elena (CASE-1002)",
+      "start": {
+        "dateTime": "2026-03-18T10:00:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2026-03-18T13:30:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "description": "Patient: Elena Rivera | DOB: 1955-08-22\nDrug: Gammaplex 5%, 20g\nRoute: IV\nNurse: Robert Chen, RN\nFrequency: Every 3 weeks\nPre-meds: Diphenhydramine 50mg\nPA#: NM-2026-77203\nCase: CASE-1002",
+      "location": "1847 Oak Street, Apt 3B, Los Angeles, CA 90003",
+      "id": "evt-1002"
+    },
+    "evt-1003": {
+      "summary": "SCIg Infusion \u2014 Park, James (CASE-1003)",
+      "start": {
+        "dateTime": "2026-03-20T14:00:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2026-03-20T15:30:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "description": "Patient: James Park | DOB: 1979-11-03\nDrug: Hizentra 20%, 8g\nRoute: SQ\nNurse: Robert Chen, RN\nFrequency: Weekly\nPre-meds: None\nPA#: AH-2026-33150\nCase: CASE-1003\nNote: First SQ visit \u2014 self-infusion training required",
+      "location": "2200 Wilshire Blvd, Unit 8C, Los Angeles, CA 90005",
+      "id": "evt-1003"
+    },
+    "evt-1003-next": {
+      "summary": "SCIg Infusion \u2014 Park, James (CASE-1003)",
+      "start": {
+        "dateTime": "2026-03-27T14:00:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2026-03-27T15:30:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "description": "Patient: James Park | DOB: 1979-11-03\nDrug: Hizentra 20%, 8g\nRoute: SQ\nNurse: Robert Chen, RN\nFrequency: Weekly\nPre-meds: None\nPA#: AH-2026-33150\nCase: CASE-1003\nNote: Follow-up weekly visit",
+      "location": "2200 Wilshire Blvd, Unit 8C, Los Angeles, CA 90005",
+      "id": "evt-1003-next"
+    },
+    "evt-1004": {
+      "summary": "IVIG Infusion \u2014 Washington, Denise (CASE-1004)",
+      "start": {
+        "dateTime": "2026-03-22T08:30:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2026-03-22T13:00:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "description": "Patient: Denise Washington | DOB: 1962-01-30\nDrug: Gamunex-C 10%, 35g\nRoute: IV\nNurse: David Williams, RN\nFrequency: Every 4 weeks\nPre-meds: Diphenhydramine 50mg\nPA#: UH-2026-55012\nCase: CASE-1004",
+      "location": "5540 Marine Ave, Inglewood, CA 90301",
+      "id": "evt-1004"
+    },
+    "evt-1004-next": {
+      "summary": "IVIG Infusion \u2014 Washington, Denise (CASE-1004)",
+      "start": {
+        "dateTime": "2026-04-19T08:30:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2026-04-19T13:00:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "description": "Patient: Denise Washington | DOB: 1962-01-30\nDrug: Gamunex-C 10%, 35g\nRoute: IV\nNurse: David Williams, RN\nFrequency: Every 4 weeks\nPre-meds: Diphenhydramine 50mg\nPA#: UH-2026-55012\nCase: CASE-1004\nNote: Next recurring visit",
+      "location": "5540 Marine Ave, Inglewood, CA 90301",
+      "id": "evt-1004-next"
+    },
+    "evt-1005": {
+      "summary": "SCIg Infusion \u2014 Okafor, Chioma (CASE-1005)",
+      "start": {
+        "dateTime": "2026-03-25T11:00:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2026-03-25T14:00:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "description": "Patient: Chioma Okafor | DOB: 1985-06-12\nDrug: HyQvia 10%, 40g\nRoute: SQ\nNurse: Patricia Lee, RN\nFrequency: Every 4 weeks\nPre-meds: Diphenhydramine 50mg\nPA#: BC-2026-91045\nCase: CASE-1005",
+      "location": "820 Ocean Park Blvd, Santa Monica, CA 90401",
+      "id": "evt-1005"
+    },
+    "evt-1005-next": {
+      "summary": "SCIg Infusion \u2014 Okafor, Chioma (CASE-1005)",
+      "start": {
+        "dateTime": "2026-04-22T11:00:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2026-04-22T14:00:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "description": "Patient: Chioma Okafor | DOB: 1985-06-12\nDrug: HyQvia 10%, 40g\nRoute: SQ\nNurse: Patricia Lee, RN\nFrequency: Every 4 weeks\nPre-meds: Diphenhydramine 50mg\nPA#: BC-2026-91045\nCase: CASE-1005\nNote: Next recurring visit",
+      "location": "820 Ocean Park Blvd, Santa Monica, CA 90401",
+      "id": "evt-1005-next"
+    },
+    "evt-1002-next": {
+      "summary": "IVIG Infusion \u2014 Rivera, Elena (CASE-1002)",
+      "start": {
+        "dateTime": "2026-04-08T10:00:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2026-04-08T13:30:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "description": "Patient: Elena Rivera | DOB: 1955-08-22\nDrug: Gammaplex 5%, 20g\nRoute: IV\nNurse: Robert Chen, RN\nFrequency: Every 3 weeks\nPre-meds: Diphenhydramine 50mg\nPA#: NM-2026-77203\nCase: CASE-1002\nNote: Next recurring visit",
+      "location": "1847 Oak Street, Apt 3B, Los Angeles, CA 90003",
+      "id": "evt-1002-next"
+    },
+    "evt-js-0317": {
+      "summary": "IVIG Infusion \u2014 Cooper, Linda (CASE-0887)",
+      "start": {
+        "dateTime": "2026-03-17T09:00:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2026-03-17T12:30:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "description": "Patient: Linda Cooper\nDrug: Octagam 5%, 25g\nNurse: Jane Smith, RN\nFrequency: Every 4 weeks",
+      "location": "1450 Camden Dr, Beverly Hills, CA 90210",
+      "id": "evt-js-0317"
+    },
+    "evt-js-0319": {
+      "summary": "IVIG Infusion \u2014 Nakamura, Kenji (CASE-0912)",
+      "start": {
+        "dateTime": "2026-03-19T10:00:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2026-03-19T14:00:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "description": "Patient: Kenji Nakamura\nDrug: Gamunex-C 10%, 30g\nNurse: Jane Smith, RN\nFrequency: Every 3 weeks",
+      "location": "333 S Beverly Glen Blvd, Los Angeles, CA 90212",
+      "id": "evt-js-0319"
+    },
+    "evt-js-0409a": {
+      "summary": "IVIG Infusion \u2014 Cooper, Linda (CASE-0887)",
+      "start": {
+        "dateTime": "2026-04-09T08:30:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2026-04-09T13:00:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "description": "Patient: Linda Cooper\nDrug: Octagam 5%, 25g\nNurse: Jane Smith, RN\nFrequency: Every 4 weeks\nRecurring visit",
+      "location": "1450 Camden Dr, Beverly Hills, CA 90210",
+      "id": "evt-js-0409a"
+    },
+    "evt-js-0409b": {
+      "summary": "IVIG Infusion \u2014 Patel, Anita (CASE-0945)",
+      "start": {
+        "dateTime": "2026-04-09T14:00:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2026-04-09T16:30:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "description": "Patient: Anita Patel\nDrug: Privigen 10%, 20g\nNurse: Jane Smith, RN\nFrequency: Every 4 weeks",
+      "location": "9876 Wilshire Blvd, Suite 200, Beverly Hills, CA 90211",
+      "id": "evt-js-0409b"
+    },
+    "evt-js-0410": {
+      "summary": "IVIG Infusion \u2014 Nakamura, Kenji (CASE-0912)",
+      "start": {
+        "dateTime": "2026-04-10T09:00:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2026-04-10T14:00:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "description": "Patient: Kenji Nakamura\nDrug: Gamunex-C 10%, 30g\nNurse: Jane Smith, RN\nFrequency: Every 3 weeks\nRecurring visit",
+      "location": "333 S Beverly Glen Blvd, Los Angeles, CA 90212",
+      "id": "evt-js-0410"
+    },
+    "evt-js-0413a": {
+      "summary": "SCIg Infusion \u2014 Hoffman, Ruth (CASE-0961)",
+      "start": {
+        "dateTime": "2026-04-13T08:00:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2026-04-13T12:30:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "description": "Patient: Ruth Hoffman\nDrug: Hizentra 20%, 10g\nNurse: Jane Smith, RN\nFrequency: Weekly",
+      "location": "421 N Rodeo Dr, Beverly Hills, CA 90210",
+      "id": "evt-js-0413a"
+    },
+    "evt-js-0413b": {
+      "summary": "IVIG Infusion \u2014 Singh, Raj (CASE-0978)",
+      "start": {
+        "dateTime": "2026-04-13T13:30:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2026-04-13T16:30:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "description": "Patient: Raj Singh\nDrug: Privigen 10%, 15g\nNurse: Jane Smith, RN\nFrequency: Every 4 weeks",
+      "location": "2001 S Barrington Ave, Los Angeles, CA 90230",
+      "id": "evt-js-0413b"
+    },
+    "evt-js-0414": {
+      "summary": "SCIg Infusion \u2014 Hoffman, Ruth (CASE-0961)",
+      "start": {
+        "dateTime": "2026-04-14T08:30:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2026-04-14T11:30:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "description": "Patient: Ruth Hoffman\nDrug: Hizentra 20%, 10g\nNurse: Jane Smith, RN\nFrequency: Weekly\nRecurring visit",
+      "location": "421 N Rodeo Dr, Beverly Hills, CA 90210",
+      "id": "evt-js-0414"
+    },
+    "evt-js-0415": {
+      "summary": "IVIG Infusion \u2014 Patel, Anita (CASE-0945)",
+      "start": {
+        "dateTime": "2026-04-15T09:00:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2026-04-15T14:00:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "description": "Patient: Anita Patel\nDrug: Privigen 10%, 20g\nNurse: Jane Smith, RN\nFrequency: Every 4 weeks\nFollow-up",
+      "location": "9876 Wilshire Blvd, Suite 200, Beverly Hills, CA 90211",
+      "id": "evt-js-0415"
+    },
+    "evt-mg-0316": {
+      "summary": "IVIG Infusion \u2014 Ortiz, Carmen (CASE-0899)",
+      "start": {
+        "dateTime": "2026-03-16T09:30:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2026-03-16T13:00:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "description": "Patient: Carmen Ortiz\nDrug: Privigen 10%, 25g\nNurse: Maria Garcia, LPN\nFrequency: Every 4 weeks",
+      "location": "600 N Roxbury Dr, Beverly Hills, CA 90210",
+      "id": "evt-mg-0316"
+    },
+    "evt-mg-0409a": {
+      "summary": "IVIG Infusion \u2014 Ortiz, Carmen (CASE-0899)",
+      "start": {
+        "dateTime": "2026-04-09T09:00:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2026-04-09T12:30:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "description": "Patient: Carmen Ortiz\nDrug: Privigen 10%, 25g\nNurse: Maria Garcia, LPN\nFrequency: Every 4 weeks\nRecurring visit",
+      "location": "600 N Roxbury Dr, Beverly Hills, CA 90210",
+      "id": "evt-mg-0409a"
+    },
+    "evt-mg-0409b": {
+      "summary": "IVIG Infusion \u2014 Tanaka, Yuki (CASE-0934)",
+      "start": {
+        "dateTime": "2026-04-09T13:30:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2026-04-09T16:00:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "description": "Patient: Yuki Tanaka\nDrug: Octagam 5%, 20g\nNurse: Maria Garcia, LPN\nFrequency: Every 3 weeks",
+      "location": "8500 Burton Way, Los Angeles, CA 90211",
+      "id": "evt-mg-0409b"
+    },
+    "evt-mg-0413": {
+      "summary": "IVIG Infusion \u2014 Tanaka, Yuki (CASE-0934)",
+      "start": {
+        "dateTime": "2026-04-13T10:00:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2026-04-13T14:00:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "description": "Patient: Yuki Tanaka\nDrug: Octagam 5%, 20g\nNurse: Maria Garcia, LPN\nFrequency: Every 3 weeks\nRecurring visit",
+      "location": "8500 Burton Way, Los Angeles, CA 90211",
+      "id": "evt-mg-0413"
+    },
+    "evt-mg-0414": {
+      "summary": "IVIG Infusion \u2014 Bennett, Harold (CASE-0956)",
+      "start": {
+        "dateTime": "2026-04-14T08:00:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2026-04-14T15:00:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "description": "Patient: Harold Bennett\nDrug: Gammaplex 5%, 30g\nNurse: Maria Garcia, LPN\nFrequency: Every 4 weeks\nHigh dose \u2014 extended infusion",
+      "location": "1200 Club View Dr, Los Angeles, CA 90220",
+      "id": "evt-mg-0414"
+    },
+    "evt-mg-0415a": {
+      "summary": "SCIg Infusion \u2014 Reeves, Dorothy (CASE-0971)",
+      "start": {
+        "dateTime": "2026-04-15T08:30:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2026-04-15T12:00:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "description": "Patient: Dorothy Reeves\nDrug: Hizentra 20%, 12g\nNurse: Maria Garcia, LPN\nFrequency: Weekly",
+      "location": "445 N Canon Dr, Beverly Hills, CA 90210",
+      "id": "evt-mg-0415a"
+    },
+    "evt-mg-0415b": {
+      "summary": "IVIG Infusion \u2014 Ortiz, Carmen (CASE-0899)",
+      "start": {
+        "dateTime": "2026-04-15T14:00:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2026-04-15T16:30:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "description": "Patient: Carmen Ortiz\nDrug: Privigen 10%, 25g\nNurse: Maria Garcia, LPN\nFollow-up visit",
+      "location": "600 N Roxbury Dr, Beverly Hills, CA 90210",
+      "id": "evt-mg-0415b"
+    },
+    "evt-rc-0324": {
+      "summary": "IVIG Infusion \u2014 Gutierrez, Sofia (CASE-0903)",
+      "start": {
+        "dateTime": "2026-03-24T09:00:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2026-03-24T12:30:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "description": "Patient: Sofia Gutierrez\nDrug: Privigen 10%, 25g\nNurse: Robert Chen, RN\nFrequency: Every 4 weeks",
+      "location": "2850 E Olympic Blvd, Los Angeles, CA 90006",
+      "id": "evt-rc-0324"
+    },
+    "evt-rc-0410": {
+      "summary": "IVIG Infusion \u2014 Kim, Soo-Yeon (CASE-0918)",
+      "start": {
+        "dateTime": "2026-04-10T08:30:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2026-04-10T12:00:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "description": "Patient: Soo-Yeon Kim\nDrug: Gamunex-C 10%, 20g\nNurse: Robert Chen, RN\nFrequency: Every 3 weeks",
+      "location": "1200 S Flower St, Los Angeles, CA 90001",
+      "id": "evt-rc-0410"
+    },
+    "evt-rc-0414": {
+      "summary": "SCIg Infusion \u2014 Gutierrez, Sofia (CASE-0903)",
+      "start": {
+        "dateTime": "2026-04-14T14:00:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2026-04-14T15:30:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "description": "Patient: Sofia Gutierrez\nDrug: Hizentra 20%, 8g\nNurse: Robert Chen, RN\nFrequency: Weekly\nTransitioned to SQ",
+      "location": "2850 E Olympic Blvd, Los Angeles, CA 90006",
+      "id": "evt-rc-0414"
+    },
+    "evt-dw-0321": {
+      "summary": "IVIG Infusion \u2014 Morales, Hector (CASE-0925)",
+      "start": {
+        "dateTime": "2026-03-21T10:00:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2026-03-21T14:30:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "description": "Patient: Hector Morales\nDrug: Gamunex-C 10%, 35g\nNurse: David Williams, RN\nFrequency: Every 4 weeks",
+      "location": "3300 W Century Blvd, Inglewood, CA 90303",
+      "id": "evt-dw-0321"
+    },
+    "evt-dw-0411": {
+      "summary": "IVIG Infusion \u2014 Chang, Wei (CASE-0942)",
+      "start": {
+        "dateTime": "2026-04-11T09:00:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2026-04-11T13:00:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "description": "Patient: Wei Chang\nDrug: Octagam 5%, 30g\nNurse: David Williams, RN\nFrequency: Every 3 weeks",
+      "location": "1600 Rosecrans Ave, Manhattan Beach, CA 90401",
+      "id": "evt-dw-0411"
+    },
+    "evt-pl-0323": {
+      "summary": "SCIg Infusion \u2014 Foster, Angela (CASE-0937)",
+      "start": {
+        "dateTime": "2026-03-23T10:00:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2026-03-23T12:30:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "description": "Patient: Angela Foster\nDrug: HyQvia 10%, 15g\nNurse: Patricia Lee, RN\nFrequency: Every 4 weeks",
+      "location": "1500 Pacific Ave, San Pedro, CA 90501",
+      "id": "evt-pl-0323"
+    },
+    "evt-pl-0413": {
+      "summary": "SCIg Infusion \u2014 Foster, Angela (CASE-0937)",
+      "start": {
+        "dateTime": "2026-04-13T10:00:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2026-04-13T12:30:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "description": "Patient: Angela Foster\nDrug: HyQvia 10%, 15g\nNurse: Patricia Lee, RN\nFrequency: Every 4 weeks\nRecurring visit",
+      "location": "1500 Pacific Ave, San Pedro, CA 90501",
+      "id": "evt-pl-0413"
+    },
+    "evt-jb-0322": {
+      "summary": "IVIG Infusion \u2014 Davis, Marcus (CASE-0951)",
+      "start": {
+        "dateTime": "2026-03-22T11:00:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2026-03-22T15:00:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "description": "Patient: Marcus Davis\nDrug: Privigen 10%, 30g\nNurse: James Brown, RN\nFrequency: Every 4 weeks",
+      "location": "1700 W Adams Blvd, Los Angeles, CA 90210",
+      "id": "evt-jb-0322"
+    },
+    "evt-jb-0412": {
+      "summary": "IVIG Infusion \u2014 Davis, Marcus (CASE-0951)",
+      "start": {
+        "dateTime": "2026-04-12T10:00:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2026-04-12T14:00:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "description": "Patient: Marcus Davis\nDrug: Privigen 10%, 30g\nNurse: James Brown, RN\nFrequency: Every 4 weeks\nRecurring (Sunday)",
+      "location": "1700 W Adams Blvd, Los Angeles, CA 90210",
+      "id": "evt-jb-0412"
+    }
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "mailbox": {
+    "email": "helen.arrow@sunshineandsetauto.com",
+    "name": "Helen Arrow"
+  },
+  "contacts": [
+    {
+      "email": "elena.brooks@sunshineandsetauto.com",
+      "name": "Elena Brooks"
+    },
+    {
+      "email": "marcus.hale@sunshineandsetauto.com",
+      "name": "Marcus Hale"
+    },
+    {
+      "email": "talia.nguyen@sunshineandsetauto.com",
+      "name": "Talia Nguyen"
+    },
+    {
+      "email": "jasmine.patel@sunshineandsetauto.com",
+      "name": "Jasmine Patel"
+    },
+    {
+      "email": "noah.alvarez@sunshineandsetauto.com",
+      "name": "Noah Alvarez"
+    },
+    {
+      "email": "priya.bennett@sunshineandsetauto.com",
+      "name": "Priya Bennett"
+    },
+    {
+      "email": "caleb.foster@sunshineandsetauto.com",
+      "name": "Caleb Foster"
+    },
+    {
+      "email": "renee.lawson@sunshineandsetauto.com",
+      "name": "Renee Lawson"
+    },
+    {
+      "email": "darius.kim@sunshineandsetauto.com",
+      "name": "Darius Kim"
+    },
+    {
+      "email": "leah.morgan@sunshineandsetauto.com",
+      "name": "Leah Morgan"
+    },
+    {
+      "email": "derrick.soto@sunshineandsetauto.com",
+      "name": "Derrick Soto"
+    },
+    {
+      "email": "olivia.mercer@sunshineandsetauto.com",
+      "name": "Olivia Mercer"
+    },
+    {
+      "email": "trent.holloway@sunshineandsetauto.com",
+      "name": "Trent Holloway"
+    },
+    {
+      "email": "sofia.ramirez@sunshineandsetauto.com",
+      "name": "Sofia Ramirez"
+    },
+    {
+      "email": "grant.ellis@sunshineandsetauto.com",
+      "name": "Grant Ellis"
+    },
+    {
+      "email": "maya.chen@sunshineandsetauto.com",
+      "name": "Maya Chen"
+    },
+    {
+      "email": "hannah.price@sunshineandsetauto.com",
+      "name": "Hannah Price"
+    },
+    {
+      "email": "evan.ross@sunshineandsetauto.com",
+      "name": "Evan Ross"
+    },
+    {
+      "email": "avery.knight@sunshineandsetauto.com",
+      "name": "Avery Knight"
+    },
+    {
+      "email": "lila.owens@sunshineandsetauto.com",
+      "name": "Lila Owens"
+    },
+    {
+      "email": "marcus.bell@sunshineandsetauto.com",
+      "name": "Marcus Bell"
+    },
+    {
+      "email": "a.ortiz@home.com",
+      "name": "Andrew Ortiz"
+    },
+	{
+      "email": "patricia2000@aol.com",
+      "name": "Patricia Morris"
+    }
+  ],
+  "folders": [],
+  "emails": [
+    {
+      "email_id": "1",
+      "folder": "INBOX",
+      "subject": "Deal Posting Exception",
+      "from_addr": "marcus.hale@sunshineandsetauto.com",
+      "to_addr": "helen.arrow@sunshineandsetauto.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2027-03-26T11:15:00Z",
+      "message_id": "<msg001@sunshineandsetauto.com>",
+      "in_reply_to": null,
+      "body_text": "Hello Helen,\n\nRegarding the Flores escalation we discussed — I’ve reviewed the paperwork and confirmed the desk recap was in error. There was an incorrect accessory charge on the recap which inflated the total gross figure. The total gross in the deal_log spreadsheet is the correct amount.\n\nYou can proceed with handling this exception and get them to update the desk-recap.\n\nThanks,",
+      "body_html": null,
+      "is_read": false,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "2",
+      "folder": "INBOX",
+      "subject": "cash exception log",
+      "from_addr": "elena.brooks@sunshineandsetauto.com",
+      "to_addr": "helen.arrow@sunshineandsetauto.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2027-03-26T09:15:00Z",
+      "message_id": "<msg002@sunshineandsetauto.com>",
+      "in_reply_to": null,
+      "body_text": "Hi Helen,\n\nCan you tell me how many entries are in the cash_exception_log spreadsheet dated Q1 2027?\n\nThanks,",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "3",
+      "folder": "INBOX",
+      "subject": "New vehicles total",
+      "from_addr": "olivia.mercer@sunshineandsetauto.com",
+      "to_addr": "helen.arrow@sunshineandsetauto.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2027-03-25T19:07:00Z",
+      "message_id": "<msg003@sunshineandsetauto.com>",
+      "in_reply_to": null,
+      "body_text": "Hey Helen,\n\nWhat's the total number of new vehicle deals we have in the deal_log for Q4 2026? What was the total product income of all of these?\n\nCheers!",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "4",
+      "folder": "INBOX",
+      "subject": "Returned Check",
+      "from_addr": "priya.bennett@sunshineandsetauto.com",
+      "to_addr": "helen.arrow@sunshineandsetauto.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2027-03-25T17:01:00Z",
+      "message_id": "<msg004@sunshineandsetauto.com>",
+      "in_reply_to": null,
+      "body_text": "Hi Helen,\n\nThe bank just sent back a returned item — forwarding their notice below. Can you handle the processing?\n\n---------- Forwarded from First National Bank ----------\nITEM RETURN NOTIFICATION\nAccount: Sunshine & Set Automotive – Operating Account ****4892\n\nAn item previously deposited to your account has been returned unpaid.\n\nReturn details:\n  Reference #: RTN-2027-03892\n  Payor name on instrument: MORRIS, PATRICIA\n  Instrument face amount: $2,300.00\n  Original credit date: March 12, 2027\n  Return posting date: March 25, 2027\n  Return reason: R02 – Account Closed\n\nIf you believe this return is in error, please contact our Returns Processing department at (800) 555-0147 within 10 business days.\n\nFirst National Bank – Commercial Banking Services\n---------- End forwarded message ----------\n\nThanks,\nPriya",
+      "body_html": null,
+      "is_read": false,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "5",
+      "folder": "INBOX",
+      "subject": "New Deal Jacket",
+      "from_addr": "marcus.bell@sunshineandsetauto.com",
+      "to_addr": "helen.arrow@sunshineandsetauto.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2027-03-25T14:47:00Z",
+      "message_id": "<msg005@sunshineandsetauto.com>",
+      "in_reply_to": null,
+      "body_text": "Hey Helen,\n\nHow's it going?\n\nThe deal jacket for the Ortiz deal is 20270321_10099_Ortiz_6D030D.pdf. I think it is good to post, can you post it?\n\nReply and let me know that all is okay with the deal.\n\nThanks in advance,",
+      "body_html": null,
+      "is_read": false,
+      "is_important": false,
+      "attachments": []
+    }
+  ],
+  "next_email_id": 6
+}

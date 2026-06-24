@@ -1,0 +1,557 @@
+{
+  "mailbox": {
+    "email": "tara.okonkwo@meridianpartners.com",
+    "name": "Tara Okonkwo"
+  },
+  "contacts": [
+    {
+      "email": "maria.santos@meridianpartners.com",
+      "name": "Maria Santos"
+    },
+    {
+      "email": "raj.patel@meridianpartners.com",
+      "name": "Raj Patel"
+    },
+    {
+      "email": "jennifer.walsh@meridianpartners.com",
+      "name": "Jennifer Walsh"
+    },
+    {
+      "email": "kevin.rhodes@meridianpartners.com",
+      "name": "Kevin Rhodes"
+    },
+    {
+      "email": "lisa.chen@meridianpartners.com",
+      "name": "Lisa Chen"
+    },
+    {
+      "email": "invoices@apexoffice.com",
+      "name": "Apex Office Supply - AR"
+    },
+    {
+      "email": "ar@cascadeit.com",
+      "name": "Cascade IT Hardware - AR"
+    },
+    {
+      "email": "billing@techedge.io",
+      "name": "TechEdge Solutions - Billing"
+    },
+    {
+      "email": "invoices@metrocleaning.com",
+      "name": "Metro Cleaning Co"
+    },
+    {
+      "email": "billing@cloudninesw.com",
+      "name": "CloudNine Software - Billing"
+    },
+    {
+      "email": "leasing@graniteproperties.com",
+      "name": "Granite Properties LLC - Leasing"
+    },
+    {
+      "email": "accounts@premierstaffing.com",
+      "name": "Premier Staffing Group - Accounts"
+    },
+    {
+      "email": "billing@blueskycomm.com",
+      "name": "BlueSky Communications - Billing"
+    },
+    {
+      "email": "service@freshbrewcoffee.com",
+      "name": "FreshBrew Coffee Service"
+    },
+    {
+      "email": "ar@nationexpress.com",
+      "name": "National Express Shipping - AR"
+    },
+    {
+      "email": "billing@datastreamanalytics.com",
+      "name": "DataStream Analytics - Billing"
+    },
+    {
+      "email": "info@pinnacleprint.com",
+      "name": "Pinnacle Print Services"
+    },
+    {
+      "email": "s.harrison@harrisoncolellp.com",
+      "name": "Sarah Harrison"
+    },
+    {
+      "email": "billing@harrisoncolellp.com",
+      "name": "Harrison & Cole LLP - Billing"
+    },
+    {
+      "email": "d.whitfield@whitfieldcg.com",
+      "name": "David Whitfield"
+    },
+    {
+      "email": "billing@whitfieldcg.com",
+      "name": "Whitfield Consulting Billing"
+    },
+    {
+      "email": "r.dunn@clearpathtalent.com",
+      "name": "Rachel Dunn"
+    }
+  ],
+  "groups": [
+    {
+      "email": "ap.team@meridianpartners.com",
+      "name": "AP Team",
+      "members": [
+        "tara.okonkwo@meridianpartners.com",
+        "maria.santos@meridianpartners.com"
+      ]
+    },
+    {
+      "email": "all-finance@meridianpartners.com",
+      "name": "Finance Department",
+      "members": [
+        "tara.okonkwo@meridianpartners.com",
+        "maria.santos@meridianpartners.com",
+        "raj.patel@meridianpartners.com",
+        "kevin.rhodes@meridianpartners.com"
+      ]
+    }
+  ],
+  "folders": [
+    {
+      "name": "Vendor Invoices"
+    },
+    {
+      "name": "Approvals"
+    },
+    {
+      "name": "Vendor Setup"
+    },
+    {
+      "name": "Archive/2025-Q2"
+    }
+  ],
+  "emails": [
+    {
+      "email_id": "1",
+      "folder": "INBOX",
+      "subject": "September Recurring Invoices - Action Needed",
+      "from_addr": "maria.santos@meridianpartners.com",
+      "to_addr": "tara.okonkwo@meridianpartners.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-09-01T08:15:00-04:00",
+      "message_id": "<msg001@meridianpartners.com>",
+      "in_reply_to": null,
+      "body_text": "Hi Tara,\n\nHappy September! Please process the recurring invoices for September.\n\nPlease have these entered by end of day Tuesday.\n\nThanks,\nMaria Santos\nAP Manager",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "2",
+      "folder": "Vendor Invoices",
+      "subject": "Meridian Partners - September 2025 Lease Invoice",
+      "from_addr": "leasing@graniteproperties.com",
+      "to_addr": "ap.team@meridianpartners.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-09-01T07:00:00-04:00",
+      "message_id": "<inv-gp-0925@graniteproperties.com>",
+      "in_reply_to": null,
+      "body_text": "Good morning,\n\nPlease find below your September 2025 lease invoice for Suite 400, 500 Financial Center.\n\nInvoice #: GP-RENT-0925\nAmount Due: $12,500.00\nDue Date: Upon Receipt\n\nPayment should be remitted via ACH to the banking details on file. Please reference invoice number GP-RENT-0925.\n\nThank you,\nGranite Properties LLC\nLeasing Department\n(704) 555-0500",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "3",
+      "folder": "Vendor Invoices",
+      "subject": "Invoice TE-2025-0009 - IT Managed Services September 2025",
+      "from_addr": "billing@techedge.io",
+      "to_addr": "ap.team@meridianpartners.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-09-01T09:30:00-04:00",
+      "message_id": "<inv-te-0009@techedge.io>",
+      "in_reply_to": null,
+      "body_text": "Dear Accounts Payable,\n\nPlease find attached your September 2025 invoice for IT Managed Services.\n\nInvoice Number: TE-2025-0009\nService Period: September 1-30, 2025\nAmount: $4,500.00\nTerms: Net 45\nDue Date: October 15, 2025\n\nAll service levels were met for the prior period. No changes to scope for September.\n\nBest regards,\nTechEdge Solutions\nBilling Department",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "4",
+      "folder": "Vendor Invoices",
+      "subject": "CloudNine - September Subscription Invoice CN-INV-09250",
+      "from_addr": "billing@cloudninesw.com",
+      "to_addr": "ap.team@meridianpartners.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-09-01T06:00:00-04:00",
+      "message_id": "<inv-cn-09250@cloudninesw.com>",
+      "in_reply_to": null,
+      "body_text": "Meridian Partners, LLC\n\nYour monthly subscription invoice is ready.\n\nInvoice: CN-INV-09250\nSubscription: CloudNine Enterprise Platform - 50 seats\nPeriod: September 2025\nAmount: $3,200.00\nTerms: Net 45\n\nPay online at billing.cloudninesw.com or via ACH to banking details on file.\n\n---\nCloudNine Software\nAutomated Billing Notification",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "5",
+      "folder": "Vendor Invoices",
+      "subject": "Metro Cleaning - September 2025 Service Invoice",
+      "from_addr": "invoices@metrocleaning.com",
+      "to_addr": "ap.team@meridianpartners.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-09-01T10:00:00-04:00",
+      "message_id": "<inv-mc-sep25@metrocleaning.com>",
+      "in_reply_to": null,
+      "body_text": "Hello,\n\nAttached is your September 2025 cleaning services invoice.\n\nInvoice Number: MC-SEP-2025\nService: Commercial cleaning - Suite 400, 500 Financial Center\nAmount: $1,800.00\nTerms: Net 30\n\nPlease let us know if you have any questions.\n\nMetro Cleaning Co\n(704) 555-0312",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "6",
+      "folder": "Sent",
+      "subject": "August Close - Payment Batch 2025-09-02 Processed",
+      "from_addr": "tara.okonkwo@meridianpartners.com",
+      "to_addr": "maria.santos@meridianpartners.com",
+      "cc_addr": "raj.patel@meridianpartners.com",
+      "bcc_addr": null,
+      "date": "2025-09-02T14:30:00-04:00",
+      "message_id": "<msg006@meridianpartners.com>",
+      "in_reply_to": null,
+      "body_text": "Hi Maria,\n\nThe August close payment batch has been processed.\n\nBatch ID: 2025-09-02\nTotal Payments: 2\nTotal Amount: $4,325.00\nMethod: ACH\n\nVendors paid:\n- CloudNine Software (CN-INV-08250) - $3,200.00\n- Cascade IT Hardware (INV-38601) - $1,125.00\n\nBatch file saved to Payment_Batches/batch_2025-09-02.xlsx\n\nTara Okonkwo\nAP Specialist",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "7",
+      "folder": "INBOX",
+      "subject": "Re: August Close Package - Approved",
+      "from_addr": "raj.patel@meridianpartners.com",
+      "to_addr": "maria.santos@meridianpartners.com",
+      "cc_addr": "tara.okonkwo@meridianpartners.com",
+      "bcc_addr": null,
+      "date": "2025-09-03T09:15:00-04:00",
+      "message_id": "<msg007@meridianpartners.com>",
+      "in_reply_to": "<msg006@meridianpartners.com>",
+      "body_text": "Maria, Tara,\n\nAugust close package looks good. Aging report is clean, reconciliation balanced. Approved.\n\nWell done on a smooth close.\n\nRaj Patel\nController",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "8",
+      "folder": "Vendor Invoices",
+      "subject": "Invoice INV-38720 - Wireless Keyboards and Mice",
+      "from_addr": "ar@cascadeit.com",
+      "to_addr": "ap.team@meridianpartners.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-09-02T11:45:00-04:00",
+      "message_id": "<inv-38720@cascadeit.com>",
+      "in_reply_to": null,
+      "body_text": "Dear Meridian Partners AP Team,\n\nPlease find attached invoice INV-38720 for the following order:\n\nPO Reference: PO-2025-00117\nInvoice Number: INV-38720\nDate: 09/02/2025\n\nItems:\n  30x Wireless Keyboard and Mouse Set @ $65.00 = $1,950.00\n\nTotal: $1,950.00\nTerms: Net 30\n\nGoods were delivered and signed for on 09/01/2025. Delivery receipt attached.\n\nThank you,\nAccounts Receivable\nCascade IT Hardware\n(919) 555-0287",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "9",
+      "folder": "Vendor Invoices",
+      "subject": "BlueSky - September 2025 Telecom Services",
+      "from_addr": "billing@blueskycomm.com",
+      "to_addr": "ap.team@meridianpartners.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-09-02T08:00:00-04:00",
+      "message_id": "<inv-bsc-0925@blueskycomm.com>",
+      "in_reply_to": null,
+      "body_text": "Meridian Partners, LLC\nAccount #: BSC-MER-4420\n\nSeptember 2025 Service Invoice\n\nInvoice Number: BSC-2025-09\n\nServices:\n  VoIP Service - 50 lines: $1,600.00\n  Dedicated Internet 1Gbps: $500.00\n\nTotal Due: $2,100.00\nTerms: Net 30\nDue Date: 10/02/2025\n\nBlueSky Communications\nBilling Department\n(404) 555-0388",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "10",
+      "folder": "Sent",
+      "subject": "September Recurring Invoices - All Entered",
+      "from_addr": "tara.okonkwo@meridianpartners.com",
+      "to_addr": "maria.santos@meridianpartners.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-09-02T16:45:00-04:00",
+      "message_id": "<msg010@meridianpartners.com>",
+      "in_reply_to": "<msg001@meridianpartners.com>",
+      "body_text": "Hi Maria,\n\nAll September recurring invoices have been entered:\n\n- GP-RENT-0925 (Granite Properties) - $12,500.00\n- TE-2025-0009 (TechEdge Solutions) - $4,500.00\n- CN-INV-09250 (CloudNine Software) - $3,200.00\n- BSC-2025-09 (BlueSky Communications) - $2,100.00\n- MC-SEP-2025 (Metro Cleaning Co) - $1,800.00\n- FB-0925 (FreshBrew Coffee) - $390.00\n\nNote on FreshBrew: their September invoice came in at $390.00, up from $375.00 in August.\n\nTara",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "11",
+      "folder": "Vendor Invoices",
+      "subject": "Temp Staffing Invoice - Week of 9/1",
+      "from_addr": "accounts@premierstaffing.com",
+      "to_addr": "ap.team@meridianpartners.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-09-03T10:00:00-04:00",
+      "message_id": "<inv-psg-1205@premierstaffing.com>",
+      "in_reply_to": null,
+      "body_text": "Good morning,\n\nPlease find your weekly temporary staffing invoice below.\n\nInvoice Number: PSG-2025-1205\nService Period: September 1-5, 2025\nStaff: Administrative Assistant (1 FTE)\nHours: 40\nRate: $93.75/hr\nTotal: $3,750.00\nTerms: Net 15\nDue Date: September 18, 2025\n\nTimesheet approved by: Lisa Chen, Office Manager\n\nPremier Staffing Group\nAccounts Receivable\n(704) 555-0721",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "12",
+      "folder": "Vendor Invoices",
+      "subject": "National Express - September Shipping Invoice NES-25-3410",
+      "from_addr": "ar@nationexpress.com",
+      "to_addr": "ap.team@meridianpartners.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-09-03T14:20:00-04:00",
+      "message_id": "<inv-nes-3410@nationexpress.com>",
+      "in_reply_to": null,
+      "body_text": "Meridian Partners, LLC\n\nInvoice: NES-25-3410\nDate: 09/03/2025\nPO Reference: PO-2025-00116\n\nShipments:\n  4x Ground Shipping, Standard @ $65.00 = $260.00\n  4x Express 2-Day, Medium Parcels @ $40.00 = $160.00\n\nTotal: $420.00\nTerms: Net 30\n\nAll shipments delivered and confirmed.\n\nNational Express Shipping\nAccounts Receivable",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "13",
+      "folder": "INBOX",
+      "subject": "Vendor Bank Change Request - Pinnacle Print Services",
+      "from_addr": "maria.santos@meridianpartners.com",
+      "to_addr": "tara.okonkwo@meridianpartners.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-09-03T11:30:00-04:00",
+      "message_id": "<msg013@meridianpartners.com>",
+      "in_reply_to": null,
+      "body_text": "Tara,\n\nPinnacle Print Services has submitted a bank change request. I'm forwarding the details below.\n\nHere are the details from Pinnacle:\n- New Bank: Truliant Federal Credit Union\n- New Routing: 253175494\n- New Account: 0082-1147-3355\n- Reason: Switched business banking\n\nPlease handle accordingly.\n\nMaria",
+      "body_html": null,
+      "is_read": true,
+      "is_important": true,
+      "attachments": []
+    },
+    {
+      "email_id": "14",
+      "folder": "Sent",
+      "subject": "Re: Vendor Bank Change Request - Pinnacle Print Services",
+      "from_addr": "tara.okonkwo@meridianpartners.com",
+      "to_addr": "maria.santos@meridianpartners.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-09-03T15:00:00-04:00",
+      "message_id": "<msg014@meridianpartners.com>",
+      "in_reply_to": "<msg013@meridianpartners.com>",
+      "body_text": "Maria,\n\nI called Brian at the number on file and confirmed the bank change. He verified all details match. I've placed a BANK hold on Pinnacle payments and saved the verification notes in Vendor_Master/bank_changes/.\n\nReady for your authorization to update the master record whenever you get a chance.\n\nTara",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "16",
+      "folder": "INBOX",
+      "subject": "Invoice HC-2025-0001 - Harrison & Cole LLP - Employment Law Consulting",
+      "from_addr": "s.harrison@harrisoncolellp.com",
+      "to_addr": "ap.team@meridianpartners.com",
+      "cc_addr": "billing@harrisoncolellp.com",
+      "bcc_addr": null,
+      "date": "2025-09-04T10:15:00-04:00",
+      "message_id": "<inv-hc-0001@harrisoncolellp.com>",
+      "in_reply_to": null,
+      "body_text": "Dear Accounts Payable Team,\n\nPlease find attached our invoice for legal consulting services provided to Meridian Partners in connection with your employment law review and compliance project.\n\nInvoice Summary:\n  Invoice Number: HC-2025-0001\n  Matter Reference: MER-2025-001\n  Total Amount: $5,000.00\n  Payment Terms: 2/10 Net 30\n  (2% discount if paid within 10 days - discount amount: $100.00)\n\nI've also attached our completed W-9 form for your records, as this is our first invoice to Meridian Partners.\n\nPlease remit payment via ACH to the banking details on the invoice, or by check to our office address. Reference matter number MER-2025-001 on all payments.\n\nWe enjoyed working with Jennifer and the HR team. Please don't hesitate to reach out if you have any questions about this invoice.\n\nWarm regards,\n\nSarah M. Harrison\nManaging Partner\nHarrison & Cole LLP\n1200 Market Street, Suite 800\nPhiladelphia, PA 19107\n(215) 555-0340\ns.harrison@harrisoncolellp.com",
+      "body_html": null,
+      "is_read": false,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "HC-2025-0001_Invoice.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjQKJZOMi54gUmVwb3J0TGFiIEdlbmVyYXRlZCBQREYgZG9jdW1lbnQgKG9wZW5zb3VyY2UpCjEgMCBvYmoKPDwKL0YxIDIgMCBSIC9GMiAzIDAgUgo+PgplbmRvYmoKMiAwIG9iago8PAovQmFzZUZvbnQgL0hlbHZldGljYSAvRW5jb2RpbmcgL1dpbkFuc2lFbmNvZGluZyAvTmFtZSAvRjEgL1N1YnR5cGUgL1R5cGUxIC9UeXBlIC9Gb250Cj4+CmVuZG9iagozIDAgb2JqCjw8Ci9CYXNlRm9udCAvSGVsdmV0aWNhLUJvbGQgL0VuY29kaW5nIC9XaW5BbnNpRW5jb2RpbmcgL05hbWUgL0YyIC9TdWJ0eXBlIC9UeXBlMSAvVHlwZSAvRm9udAo+PgplbmRvYmoKNCAwIG9iago8PAovQ29udGVudHMgOCAwIFIgL01lZGlhQm94IFsgMCAwIDYxMiA3OTIgXSAvUGFyZW50IDcgMCBSIC9SZXNvdXJjZXMgPDwKL0ZvbnQgMSAwIFIgL1Byb2NTZXQgWyAvUERGIC9UZXh0IC9JbWFnZUIgL0ltYWdlQyAvSW1hZ2VJIF0KPj4gL1JvdGF0ZSAwIC9UcmFucyA8PAoKPj4gCiAgL1R5cGUgL1BhZ2UKPj4KZW5kb2JqCjUgMCBvYmoKPDwKL1BhZ2VNb2RlIC9Vc2VOb25lIC9QYWdlcyA3IDAgUiAvVHlwZSAvQ2F0YWxvZwo+PgplbmRvYmoKNiAwIG9iago8PAovQXV0aG9yIChcKGFub255bW91c1wpKSAvQ3JlYXRpb25EYXRlIChEOjIwMjYwMzI0MTA1NTMxLTA1JzAwJykgL0NyZWF0b3IgKFwodW5zcGVjaWZpZWRcKSkgL0tleXdvcmRzICgpIC9Nb2REYXRlIChEOjIwMjYwMzI0MTA1NTMxLTA1JzAwJykgL1Byb2R1Y2VyIChSZXBvcnRMYWIgUERGIExpYnJhcnkgLSBcKG9wZW5zb3VyY2VcKSkgCiAgL1N1YmplY3QgKFwodW5zcGVjaWZpZWRcKSkgL1RpdGxlIChcKGFub255bW91c1wpKSAvVHJhcHBlZCAvRmFsc2UKPj4KZW5kb2JqCjcgMCBvYmoKPDwKL0NvdW50IDEgL0tpZHMgWyA0IDAgUiBdIC9UeXBlIC9QYWdlcwo+PgplbmRvYmoKOCAwIG9iago8PAovRmlsdGVyIFsgL0FTQ0lJODVEZWNvZGUgL0ZsYXRlRGVjb2RlIF0gL0xlbmd0aCAxODI0Cj4+CnN0cmVhbQpHYXRtPGgsRT5uJSJJSERkKis0J2g0NTBwYTNJMzRmRSk6Pl5fUShnXiRMWWs/KDBTK0A/WWZkcnFAZCU6NlUsUCpUMVV0QTBrQzA6UWQiQSQzV1RDcjE1Rz5eNVYlQ09vZjJLU2NScF9MW2JnWU4vckUvOyhGKFRwYllCSVVfLHU7U3JdbV9gJTVDW01gZ3ApJ2R1Vyk+QyV1MCEmTickUU9LZ2o9JClZbmQlYFxLbGt0K04xPFpDUzojSmVhVlFrYEJTJ2BUI0l1IVEsXiJraSNsN0gvW1s3N0wnX2s/cG5WVWNOUShfYi1VNiNBWW9UYkBWTXE7V3ByWTQpQWNxZypLYUQwMykiPyNQKSlbQ3FAYjcoPEsvVFInN0c7LFtgMEJcMzFLND5sPy9VLkRVWVhgQkwsZ3JOUSxMcGoqTCknTnJMWlFIMnRhIStIXmtlbEY5Lk1OIz1lNywxdSdbKko1P2ZtTDtfcnFNQjg7WjZiVmhsPi1baVY9KGdGIVAhUy5NI0cnTzhmPDQpRVg5R2BDSzlhUjsoOjdla09WOj9XOTM0aDFJL2tUaTJAY3EvbiNDYlc3MmJXXXMjOlBVSVU4QDQsKDRsRiV0RTo1amBQc3VEakdLW3NoYXAmO3JcJE5NQzx1PHU2Rl1aSG83TW5IPlVeP3VPVkQvWyEpZzxuQm9lK111NiM1NEdHWTdiMTJYZDMmSCwqJEgsSXEhVlVrI19tKEFbaVVCIW5tQi8tcEhlUzFhVmZiSC8jQGpiTVonMixXcFFHRW4mP0VNVC5KLnVXQzMpLS82IV1tLUoybGx1ZzsuTj9SZ0UuLl1kPTRtU2ItYl50PGJGMDQyMV04J2dJNlZgUi4pLTpCKkI9MS1YNCtbN2s4Lks3R1ZsZGJacTJGSzhCS1hoXCM1bCtPKUxAIjliaEtSKXFGVklYWGVkbzNWQypTRT1DbExjckombDB0Wyl0OUFBNGRwVDtUNEJkPT8vYWZKJDRRTTdZJiVJPDovWV9aWFVNK2Y3WU4rJU1bVjZbK11vNEIhYmM9SWNoUXRxLFspWmdDJD5BPkwuTS4/VSFQPWA+Wk1CKUBvYWVyNmBfO2lALE9uSnM1aEA2Sj9ibGU+LV4pSVNlVUZALCs0YkJyWlVwWGJQcWBpRyIrUD5kO1UkbHRDNDhSTzcwKU0xWHEzczdJJVpRN2gmdUE/UkUuZF4ocjZdSW9vO2xuRC9UUyNiOEpcdVI7ND9oZkFnKTw2MFdhPz1kVWVgUlcia21rNkdKXDJeb0ZrTk8+QjlwZXEuTkIqVzVYT0hBZ0BcImdTNjQndElHWmArZG1UQGVnQHAxcykpKCtaNFIqSlBkPVVQODFcLD0vOS5nLTt0Vm8iYUM8V2tLLGhmSCozTEJDZFdsbl9lUHNeK2A1Zj8lZTRmakdPLFtyTzs6dVpQSD01VE5CXyQnKjA9QCNYWVhkN0FLQihTNDNpcjYzLzNqMTY2UidnI0xjQWxNQzxhLklPSkxNJC9AI2xMT2V0VCEzXXBJVC0iOFRnU0VSKWdrbE4wQD1POG8zRiJfXzw0dVw1MUhuJz0sT2MpaS1laVtVIkNGazVMVlU1R1AkUXVgRicoZTEqLzg/Omhnc1EoOFgxZm86JC5pL08rZShMZyxvbmhRUlBnUioxSD5OaGBjMCxbUlxVVGgxLiNnKj5nOT08RjBMIipiYT8/VWI/USNlRjFYXz51Si9kRzpjaGJwVDRzQEVfb11KUmJBU21HWVI5V1EuOGk3Oy1AOWMxYlxOTmJdZz1JKTI8RjszQSlncCUvayE9Iik/ckBbdS5NKXIsRFZqTDwyLS5ycjEpW2E3dEo1MExVN2tLV3RJLmJCOkBWbmIiS0twVUdUI2RSKHMrW1ZXYSZqJk9lZXF0bTA2R09SNiRcbmwtQVx0M2tDLW5KYE9TU2ROIVR1LXQ1I3ArO1lKY1ktakFYaEgtYGEoTkJIdS1DVVU+QiE2JS5HYGReaEhpXmBHKCslZ0RTY05lJXIpZ3E6OCtOWmlcJ1kmVnQwVV5SaTkiTjJIKk8ha2VIWW5pInNTYWBCR0Q8Wl5qXWZNTktjZ0JKRHRDP2JqKShdV2ZJam9ibmJWPClnX2JoTzVhKT40I2peT11BWTtUKFliWDJ0bEMxSDY9W1NjMFI+Mk8lZVpyWltPSiIhIjJFXVJXKW1QcV5wXCNqRGJkSWcybT00SllYK1MtTTthTUomUURZVkIoQ2UrPFdmVDxnZjBPTFU6KEM4TmI/STtKczk9MTtIT09hU2pWR15SWVpdQD9wZDJqIVQiWl1UbVJuUWB0OlYrWzJMRHQnMTJka1pzcyo0NmInYENmOFBNNTY2LyJqQnNmUkFOdVtIPmtDcVVrISNfcDI/QSNpOSsjImczOio2IlU6ImQiNElkOypyfj5lbmRzdHJlYW0KZW5kb2JqCnhyZWYKMCA5CjAwMDAwMDAwMDAgNjU1MzUgZiAKMDAwMDAwMDA2MSAwMDAwMCBuIAowMDAwMDAwMTAyIDAwMDAwIG4gCjAwMDAwMDAyMDkgMDAwMDAgbiAKMDAwMDAwMDMyMSAwMDAwMCBuIAowMDAwMDAwNTE0IDAwMDAwIG4gCjAwMDAwMDA1ODIgMDAwMDAgbiAKMDAwMDAwMDg2MiAwMDAwMCBuIAowMDAwMDAwOTIxIDAwMDAwIG4gCnRyYWlsZXIKPDwKL0lEIApbPDk2NjVlOTVkYWUwNWIyYzJiMTc0ZGViZmFlZTRhNTE5Pjw5NjY1ZTk1ZGFlMDViMmMyYjE3NGRlYmZhZWU0YTUxOT5dCiUgUmVwb3J0TGFiIGdlbmVyYXRlZCBQREYgZG9jdW1lbnQgLS0gZGlnZXN0IChvcGVuc291cmNlKQoKL0luZm8gNiAwIFIKL1Jvb3QgNSAwIFIKL1NpemUgOQo+PgpzdGFydHhyZWYKMjgzNgolJUVPRgo="
+        },
+        {
+          "filename": "Harrison_Cole_LLP_W9.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjMKJZOMi54gUmVwb3J0TGFiIEdlbmVyYXRlZCBQREYgZG9jdW1lbnQgKG9wZW5zb3VyY2UpCjEgMCBvYmoKPDwKL0YxIDIgMCBSIC9GMiAzIDAgUiAvRjMgNCAwIFIKPj4KZW5kb2JqCjIgMCBvYmoKPDwKL0Jhc2VGb250IC9IZWx2ZXRpY2EgL0VuY29kaW5nIC9XaW5BbnNpRW5jb2RpbmcgL05hbWUgL0YxIC9TdWJ0eXBlIC9UeXBlMSAvVHlwZSAvRm9udAo+PgplbmRvYmoKMyAwIG9iago8PAovQmFzZUZvbnQgL0hlbHZldGljYS1Cb2xkIC9FbmNvZGluZyAvV2luQW5zaUVuY29kaW5nIC9OYW1lIC9GMiAvU3VidHlwZSAvVHlwZTEgL1R5cGUgL0ZvbnQKPj4KZW5kb2JqCjQgMCBvYmoKPDwKL0Jhc2VGb250IC9aYXBmRGluZ2JhdHMgL05hbWUgL0YzIC9TdWJ0eXBlIC9UeXBlMSAvVHlwZSAvRm9udAo+PgplbmRvYmoKNSAwIG9iago8PAovQ29udGVudHMgOSAwIFIgL01lZGlhQm94IFsgMCAwIDYxMiA3OTIgXSAvUGFyZW50IDggMCBSIC9SZXNvdXJjZXMgPDwKL0ZvbnQgMSAwIFIgL1Byb2NTZXQgWyAvUERGIC9UZXh0IC9JbWFnZUIgL0ltYWdlQyAvSW1hZ2VJIF0KPj4gL1JvdGF0ZSAwIC9UcmFucyA8PAoKPj4gCiAgL1R5cGUgL1BhZ2UKPj4KZW5kb2JqCjYgMCBvYmoKPDwKL1BhZ2VNb2RlIC9Vc2VOb25lIC9QYWdlcyA4IDAgUiAvVHlwZSAvQ2F0YWxvZwo+PgplbmRvYmoKNyAwIG9iago8PAovQXV0aG9yIChhbm9ueW1vdXMpIC9DcmVhdGlvbkRhdGUgKEQ6MjAyNjAzMjQyMTM4MTAtMDUnMDAnKSAvQ3JlYXRvciAoYW5vbnltb3VzKSAvS2V5d29yZHMgKCkgL01vZERhdGUgKEQ6MjAyNjAzMjQyMTM4MTAtMDUnMDAnKSAvUHJvZHVjZXIgKFJlcG9ydExhYiBQREYgTGlicmFyeSAtIFwob3BlbnNvdXJjZVwpKSAKICAvU3ViamVjdCAodW5zcGVjaWZpZWQpIC9UaXRsZSAodW50aXRsZWQpIC9UcmFwcGVkIC9GYWxzZQo+PgplbmRvYmoKOCAwIG9iago8PAovQ291bnQgMSAvS2lkcyBbIDUgMCBSIF0gL1R5cGUgL1BhZ2VzCj4+CmVuZG9iago5IDAgb2JqCjw8Ci9GaWx0ZXIgWyAvQVNDSUk4NURlY29kZSAvRmxhdGVEZWNvZGUgXSAvTGVuZ3RoIDgzNwo+PgpzdHJlYW0KR2F0bTo/I1EyZCdSZkdSXDUqZC8+Lzk4RkE4Yz49QkxsaFEvUE1BKl4zSlE9R0A2ZG07dEtJJUEqQ3RlQT1dUEdMXyhwdGtNMS1ebWdUOj4/YzphaylXM0BRRGJiZ1phPlE6TTJoWXVKZkBjIWBWbXAzZUBsSls6LVI2UV9pb05PLksvN0ZGJTpAR1pPTkoicjErYURpJEo/RzFtaVRCLWAmRClyK0IxSHRwPmNNUVJLKVchVlpEbyZBK3FTMEU8VSdtViV0IzQpZi9YTW9sallQWkBFZm86TENhW1YvTUhNTTRsMUkvR1BOMllbZldrQCZsQyw5X2NcbiZmbGpWI0lDO2VZWlJ1Q2puT0JtVStUXkVTV0xNTU4kQGNMbExNZW09LVEsUThRUVQ4Mj9iX1dILDE0NktvKEBgYE9iS2JIPkBmYkAsJFBmL1wxLj1kQ3IoQHAmSiNNNSlfYSRKRE5FYGoqL2RGIllbPkhFMFRUSS00LWItO2Qib2BVP0diQUZhSjE2ZVsucWZOTzkvU1FARDtrQDxQVylXMWghWTJtOGlsNHMkNGlYRmFZLUIhdCNdZVRdYGJqMyc5Z2g+OWQxPlptQSkzJilSOlRhVEtIXVBdVD1ILGhyITs3byo2RGRlQClfMjtMLS1qa1srY2FLXTwzcWE2UHFmJ0kmJiRCP0MoJEdFJWYiRj1BJyZVL3UyJ2dHJz8na3IzNl9NLSVCQ0lLWWZ1YVxjVHRkWyQ7NmJeU0QoNCpUWD1mI3NNKko4cCdoIVtZJ0RKVV1JSHRHLmRecjhAXCM3ZjdLPkNBJlM1OCxtJG4rLD5nXTg6PzhoYlU7aFhqXixyM29GRkovRyUrTCxhLF87cSZpImhkPk9TSlovXD9Oc25RP0cwVmBSZ0VzOjRaOllNXTYqbkI8bEU0M1VjUDFDZVlsZThlTkFoQCxCb01JQSQ4cmAtISddXkhGU2lVTiIyPHJYO0VXUjZBX3VXUVVNSS0iOV9aXFVoR0gkYm1QUnFFS0d0XksjKW9BaTEwLm0zRkNkJVVgNT9RK0A/UEpdZ2NkUT0+N0coaj8vXnBPUTgmPTZuSXB1Q2pqV0UyITFgcmtKNWY7Sn4+ZW5kc3RyZWFtCmVuZG9iagp4cmVmCjAgMTAKMDAwMDAwMDAwMCA2NTUzNSBmIAowMDAwMDAwMDYxIDAwMDAwIG4gCjAwMDAwMDAxMTIgMDAwMDAgbiAKMDAwMDAwMDIxOSAwMDAwMCBuIAowMDAwMDAwMzMxIDAwMDAwIG4gCjAwMDAwMDA0MTQgMDAwMDAgbiAKMDAwMDAwMDYwNyAwMDAwMCBuIAowMDAwMDAwNjc1IDAwMDAwIG4gCjAwMDAwMDA5MzYgMDAwMDAgbiAKMDAwMDAwMDk5NSAwMDAwMCBuIAp0cmFpbGVyCjw8Ci9JRCAKWzxmNjgxNDRhYTFiODc1ZTE5MzJmNTExNDlhZDFjYjhiMz48ZjY4MTQ0YWExYjg3NWUxOTMyZjUxMTQ5YWQxY2I4YjM+XQolIFJlcG9ydExhYiBnZW5lcmF0ZWQgUERGIGRvY3VtZW50IC0tIGRpZ2VzdCAob3BlbnNvdXJjZSkKCi9JbmZvIDcgMCBSCi9Sb290IDYgMCBSCi9TaXplIDEwCj4+CnN0YXJ0eHJlZgoxOTIyCiUlRU9GCg=="
+        }
+      ]
+    },
+    {
+      "email_id": "17",
+      "folder": "Vendor Invoices",
+      "subject": "Apex Office Supply - Invoice INV-2025-09380",
+      "from_addr": "invoices@apexoffice.com",
+      "to_addr": "ap.team@meridianpartners.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-09-04T09:00:00-04:00",
+      "message_id": "<inv-09380@apexoffice.com>",
+      "in_reply_to": null,
+      "body_text": "Meridian Partners, LLC\nCustomer Account: AOS-MER-2210\n\nInvoice: INV-2025-09380\nDate: 09/04/2025\nPO: PO-2025-00118\n\nItems Shipped:\n  6x Printer Toner, HP 58X High Yield @ $70.00 = $420.00\n\nSubtotal: $420.00\nTax: $0.00\nTotal Due: $420.00\nTerms: Net 30\n\nShipped via UPS Ground. Tracking: 1Z999AA10123456784\n\nApex Office Supply\nAccounts Receivable\n(704) 555-0134",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "18",
+      "folder": "INBOX",
+      "subject": "Reminder: Finance Team Meeting - Friday 9/5",
+      "from_addr": "kevin.rhodes@meridianpartners.com",
+      "to_addr": "all-finance@meridianpartners.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-09-04T13:00:00-04:00",
+      "message_id": "<msg018@meridianpartners.com>",
+      "in_reply_to": null,
+      "body_text": "Team,\n\nJust a reminder that we have our weekly Finance team meeting tomorrow (Friday) at 10:00 AM in Conference Room B.\n\nAgenda items:\n- August close recap\n- Q3 forecast update\n- New vendor onboarding process discussion\n- Open items\n\nPlease come prepared with any updates from your areas.\n\nKevin Rhodes\nSenior Financial Analyst\nMeridian Partners, LLC",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "19",
+      "folder": "INBOX",
+      "subject": "Follow-up: August Invoice DSA-2025-0455 - Payment Status?",
+      "from_addr": "billing@datastreamanalytics.com",
+      "to_addr": "ap.team@meridianpartners.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-09-04T15:30:00-04:00",
+      "message_id": "<followup-dsa-0455@datastreamanalytics.com>",
+      "in_reply_to": null,
+      "body_text": "Hi Meridian AP Team,\n\nI'm following up on invoice DSA-2025-0455 dated August 18, 2025 for $6,200.00. Our records show this invoice is on Net 45 terms with a due date of October 2.\n\nJust wanted to confirm it's been received and is in your system. No action needed if it's on track for payment by the due date.\n\nThank you,\nBilling Department\nDataStream Analytics\n(919) 555-0433",
+      "body_html": null,
+      "is_read": false,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "20",
+      "folder": "INBOX",
+      "subject": "FreshBrew - September Service Invoice FB-0925",
+      "from_addr": "service@freshbrewcoffee.com",
+      "to_addr": "ap.team@meridianpartners.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-09-01T07:30:00-04:00",
+      "message_id": "<inv-fb-0925@freshbrewcoffee.com>",
+      "in_reply_to": null,
+      "body_text": "Good morning!\n\nHere's your September coffee service invoice.\n\nInvoice: FB-0925\nService: Premium Coffee Service - September 2025\nAmount: $390.00\nTerms: Net 15\nDue: September 16, 2025\n\nPlease note the slight increase from $375 to $390, reflecting our annual adjustment per our service agreement (effective September 1).\n\nThanks for being a valued customer!\n\nFreshBrew Coffee Service\n(704) 555-0644",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "21",
+      "folder": "INBOX",
+      "subject": "Re: Vendor Bank Change Request - Pinnacle Print Services",
+      "from_addr": "maria.santos@meridianpartners.com",
+      "to_addr": "tara.okonkwo@meridianpartners.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-09-05T09:00:00-04:00",
+      "message_id": "<msg021@meridianpartners.com>",
+      "in_reply_to": "<msg014@meridianpartners.com>",
+      "body_text": "Great work, Tara. I've reviewed the verification notes and approve the bank change. I'll update the vendor master record and remove the BANK hold myself.\n\nMaria",
+      "body_html": null,
+      "is_read": false,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "22",
+      "folder": "INBOX",
+      "subject": "Pinnacle Print - Updated Banking Information",
+      "from_addr": "info@pinnacleprint.com",
+      "to_addr": "ap.team@meridianpartners.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-09-03T09:00:00-04:00",
+      "message_id": "<bankchg-pps@pinnacleprint.com>",
+      "in_reply_to": null,
+      "body_text": "Dear Meridian Partners,\n\nWe are writing to inform you that Pinnacle Print Services has changed our banking institution. Please update your records with the following:\n\nNew Banking Details:\n  Bank: Truliant Federal Credit Union\n  Routing Number: 253175494\n  Account Number: 0082-1147-3355\n  Account Type: Business Checking\n\nEffective immediately, please remit all future payments to the above account.\n\nIf you have any questions, please contact our office at (336) 555-0291.\n\nBest regards,\nBrian Matthews\nOffice Manager\nPinnacle Print Services",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "23",
+      "folder": "INBOX",
+      "subject": "Invoice WCG-2025-0087 - Whitfield Consulting Group - Workforce Compliance Project",
+      "from_addr": "d.whitfield@whitfieldcg.com",
+      "to_addr": "ap.team@meridianpartners.com",
+      "cc_addr": "billing@whitfieldcg.com",
+      "bcc_addr": null,
+      "date": "2025-09-02T14:30:00-04:00",
+      "message_id": "<inv-wcg-0087@whitfieldcg.com>",
+      "in_reply_to": null,
+      "body_text": "Dear Accounts Payable Team,\n\nPlease find attached our invoice for consulting services provided to Meridian Partners in connection with the workforce compliance and policy review project initiated by your HR department.\n\nInvoice Summary:\n  Invoice Number: WCG-2025-0087\n  Client Reference: MER-HR-2025-003\n  Total Amount: $4,950.00\n  Payment Terms: 2/10 Net 30\n  (2% discount if paid within 10 days of invoice date)\n\nAs this is our first engagement with Meridian Partners, I have attached our completed W-9 for your vendor onboarding records.\n\nPayment may be remitted via ACH to the banking details on the invoice, or by check to our office address. Please reference MER-HR-2025-003 on all remittances.\n\nWe look forward to continuing our work with Jennifer and the HR team on the remaining phases of this project.\n\nBest regards,\n\nDavid Whitfield\nPresident & Managing Director\nWhitfield Consulting Group, Inc.\n450 Independence Mall West, Suite 1200\nPhiladelphia, PA 19106\n(215) 555-0418\nd.whitfield@whitfieldcg.com",
+      "body_html": null,
+      "is_read": false,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "WCG-2025-0087_Invoice.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjQKJZOMi54gUmVwb3J0TGFiIEdlbmVyYXRlZCBQREYgZG9jdW1lbnQgKG9wZW5zb3VyY2UpCjEgMCBvYmoKPDwKL0YxIDIgMCBSIC9GMiAzIDAgUiAvRjMgNCAwIFIKPj4KZW5kb2JqCjIgMCBvYmoKPDwKL0Jhc2VGb250IC9IZWx2ZXRpY2EgL0VuY29kaW5nIC9XaW5BbnNpRW5jb2RpbmcgL05hbWUgL0YxIC9TdWJ0eXBlIC9UeXBlMSAvVHlwZSAvRm9udAo+PgplbmRvYmoKMyAwIG9iago8PAovQmFzZUZvbnQgL0hlbHZldGljYS1Cb2xkIC9FbmNvZGluZyAvV2luQW5zaUVuY29kaW5nIC9OYW1lIC9GMiAvU3VidHlwZSAvVHlwZTEgL1R5cGUgL0ZvbnQKPj4KZW5kb2JqCjQgMCBvYmoKPDwKL0Jhc2VGb250IC9IZWx2ZXRpY2EtT2JsaXF1ZSAvRW5jb2RpbmcgL1dpbkFuc2lFbmNvZGluZyAvTmFtZSAvRjMgL1N1YnR5cGUgL1R5cGUxIC9UeXBlIC9Gb250Cj4+CmVuZG9iago1IDAgb2JqCjw8Ci9Db250ZW50cyA5IDAgUiAvTWVkaWFCb3ggWyAwIDAgNjEyIDc5MiBdIC9QYXJlbnQgOCAwIFIgL1Jlc291cmNlcyA8PAovRm9udCAxIDAgUiAvUHJvY1NldCBbIC9QREYgL1RleHQgL0ltYWdlQiAvSW1hZ2VDIC9JbWFnZUkgXQo+PiAvUm90YXRlIDAgL1RyYW5zIDw8Cgo+PiAKICAvVHlwZSAvUGFnZQo+PgplbmRvYmoKNiAwIG9iago8PAovUGFnZU1vZGUgL1VzZU5vbmUgL1BhZ2VzIDggMCBSIC9UeXBlIC9DYXRhbG9nCj4+CmVuZG9iago3IDAgb2JqCjw8Ci9BdXRob3IgKFwoYW5vbnltb3VzXCkpIC9DcmVhdGlvbkRhdGUgKEQ6MjAyNjAzMjQyMDAzMjUtMDUnMDAnKSAvQ3JlYXRvciAoXCh1bnNwZWNpZmllZFwpKSAvS2V5d29yZHMgKCkgL01vZERhdGUgKEQ6MjAyNjAzMjQyMDAzMjUtMDUnMDAnKSAvUHJvZHVjZXIgKFJlcG9ydExhYiBQREYgTGlicmFyeSAtIFwob3BlbnNvdXJjZVwpKSAKICAvU3ViamVjdCAoXCh1bnNwZWNpZmllZFwpKSAvVGl0bGUgKFwoYW5vbnltb3VzXCkpIC9UcmFwcGVkIC9GYWxzZQo+PgplbmRvYmoKOCAwIG9iago8PAovQ291bnQgMSAvS2lkcyBbIDUgMCBSIF0gL1R5cGUgL1BhZ2VzCj4+CmVuZG9iago5IDAgb2JqCjw8Ci9GaWx0ZXIgWyAvQVNDSUk4NURlY29kZSAvRmxhdGVEZWNvZGUgXSAvTGVuZ3RoIDIyMDEKPj4Kc3RyZWFtCkdhdD0sPV09Pz8mOldlREZPZFskMEdUTmxocT0+KiN0TUc2Mk1DJUMoV1RDKUFwZS06Xm50anJyM2tZZyc8aT9NS3U5Jiw/Zi51JzsnPlktbEU7OTJTQlRzZU11bVFFP05FI0AiNlBxaDNvQmg+N25aSi8hTGxZaT5VKnU4PW10PGJacG0qblFVNkA2NVYzL1csZm1nPmBINlBlNGhbQiRwdV9HQHJjMTM5NSk4YV9jMkkjMFZVbz5GJkVfa1hyXkNsKSM9ISxlJnVYW19MNjQrYSdeL0cuPSMtZ0VKcUxaZG5NN2ZvNSE2ZCpwSm1hWSo8KEouKixZaTo3SkxIJEhrcEZkQ3FDTmdZMTlBSz8+Kk81L2VwNjshbjFpKTJdVmlnN1RXbi1eXVJCPSFTbGNcaiUpX14hLGVEc2klOTVZR25NMEkpWmIoMVlyXF8kTjhFIjw1L2UqVV9XKFpsazJSVlBWS2tRPGxHLm1nKUw8U0VfRW5CVkx0NydoNEdkbCNHZC1obFJOSTxVRWBicW9oLFRZXUw0clFbImJ0QChJKy5EYjJxLjsyLVRnL0BBUzJxVkEldVkoaT5eSnE+IWlLZUp0V1NYZSomZS1rYTpadT5qdTpWaSpGP1AudG01JzI5Tmkzci5rcj5wKj5bM01wV1tQMVw9YjEnPTlzSWokIzRQZjtSUT9pZV5jSDFySEdeQS5fVmMhRi9ya0hjVFpJN0dhREJKaVY8Nys9NSNVP2Z1LC1iU2JyPDk1ZyIuMEtsTDZuYilpP08wVEolWWs4YjRuIm1lOCdaTUV1N0daL11uK1w2aTE3RWFIXlNsVTRlM2oxdFs3UTAqQ0VdI1pETl1mZz9JXXBHT0MjQSdXY0IyUykrLEhWMF11I3BwLDVHSl9OJCdyQ1MkKzY3dSJrbiJbaWtvUFdWSD1pJ2VNIWUrNDBXZUh0VzAjbXQvXiNjW11bWVBQLl9PY3VdTFVQaThUKT4qbzJjbzI3Rj0pWGpGZ15GLGhiRE5NUSRjNVhmcy5RSVk6NDUiUV1EPzdbUktMLHJNW0hMPmN1ZFcuPV8mYmZPL0pgMjBeSzlHOWg3N0ZePlBMT28yQVlWM3BOTSVxIUcyIy5LV29IWSVULkVvYjRVUDZsYFUyMVNXUio+SkcraGs9T0FvbDYqQkpmOyg0SHBRJGE0Ii1rKzdQYlYlalFqMnM0MVQvLFhXMycnLWNuOTAuUk9dSCFNJi5jOCY/UyFIWmBEOXNuUnNaWiZTOjAhbVJvP2QoTzxoVCdlKTcjQXA4ZnA8LlhVKlg5RzNkLDIzMVEmczdqJitBNjgoVi9bYjItP3JXWl9fPkRDKkpSVV5cdVJPRiJiSjVgJ1FTIzJZakFuUzUrQCxAOVNIYyQ3RSVlKlM4UCVYZlcwOiIkXzohTGEjN1xESTs1OCpESSc9QUw3bC1OQzxxO2RUUzBcOFVOOitCOkUrQU9GJUovWl1OJ11XJyNaPFlmTDxlYWM2Ozs6QmpUYmJGaShbPVM9LzBQaStlMDtLbzRoODstdWBiIkVUXiEnPkA1PiF1T2EtN2chPj5SdGhZbiRON1BFbS9WMyVLc2FLXUNoXV9FcmUpJ3UldF5WTEYrQmtFSkFsTiFIWVgqMVNvZkxKMG9tQmdmQyQjTkwyaHNNUUdvckdLQFQjQC1mLUNrN0dHSV1IKmE9RDNIKktlIjVFMjVCJ0ZITzZiL0JAKDY7JCFuMjZRYEdvJDxIM3FXWz4iUzxZKVUqPXAnRy5payglXlwiL2QtYSkpanA8XF0mdFVkJmRTdG9lQEs0UD0oVEpWSiImRlNVRURcJmJPXTZJLkAvbDdiSUZCOHQ2NGkjPSVZTEs7QzRobzBjTTRCX19SJDQ1bFpDS189cXNYSD8xRDlgTjhuVGonL18sOTlfYG9BKE86ZldtPlJyRmFhSCJGWEchJyYmSDkqP1kiMG8oOSw3S0xtVEIhTyhJQj1vbXNtVVxLajM4X2ZbKT47V3Q8aUcwaj5aYCpBTF1iWGVLQkNhKSg9ZnI+VTckbTpkb2BGLVhXMXM0S0RNXytUNEdMPzZmNVQqKVQlbF9JaTVEcTdJM1duUkw6STsxXVttRGNgXz9KIl9YPiZUS11XI05aNC9UXTkhUCxXYlBqZitHOVJjOjxPQSRZWmppaS9VUC0nXF0iV1M3MEBWOXAxOkQuc0NkXy0jNzlvSmpYRT1tTmI+ZEk0MmEjL1F0Pm06b0QuYjg0PD83Oj1hXCxyU1xVWSwnbzUjJlxYVSxPSCxPbTI2PWxNPEA4ZTFYM1VfZ09zUU9jI0hpU1xESlVSbWA8ZmpqU18nZWQxa2wrV09dc0s3W2oudEh1b1tZcXBTPUw8ZydwL2xrQC8lOilRZGJnXC4iS0JLRThOUzVWJ0lbVzpfZk0rSC8uLlBGdFMjSS9sPy1eTSFoIWNhOVhJNFY6SWEyOnI5QG1QKkoiYVtQOmRtU3VfNCsuKHVRPkRbKFVSRG1TP0ZDVkg8YT87RzNzJiZuXTAjRUlnPXJYT20/azhfTllSdDk8SyFsT2A+aEQpZXFBOUszaCFeaEJoTVN1aGtkRCtaZXQvXTwrPk4jQStOSHApSVRJP1JPLE4wUmJxZlBOXTIpRVw0Y1xaQFZtczleXmFXcVc+bFs0M0IiZj5TOVdIVSFSMFAucDUpLj5LbnIpSmJKZ29tXD4nbW1EKTg5Wkw/W29tIW5oMShKXTpMQHMkIU06NXAyKkVUdDhZUzREKiYpOnUxR18nJ0dfYmc7X2ElREZJazY4bnI6VGAiISE0YzouWlQ0LCgjYk8kJSI9PnA+VyVfRSdZTilbOmxZXGM9Z2oscnVCUFdxIT49JjUuLDtuLGRga1Z0bzxrTl1wKFIvO29eSkRpYWcqOSZFVGJoIVhQYW0vN0cnK11taH4+ZW5kc3RyZWFtCmVuZG9iagp4cmVmCjAgMTAKMDAwMDAwMDAwMCA2NTUzNSBmIAowMDAwMDAwMDYxIDAwMDAwIG4gCjAwMDAwMDAxMTIgMDAwMDAgbiAKMDAwMDAwMDIxOSAwMDAwMCBuIAowMDAwMDAwMzMxIDAwMDAwIG4gCjAwMDAwMDA0NDYgMDAwMDAgbiAKMDAwMDAwMDYzOSAwMDAwMCBuIAowMDAwMDAwNzA3IDAwMDAwIG4gCjAwMDAwMDA5ODcgMDAwMDAgbiAKMDAwMDAwMTA0NiAwMDAwMCBuIAp0cmFpbGVyCjw8Ci9JRCAKWzw1NTY0NmUxYzI0YTE5NWYwMjkyM2ZhYjI0OGEzZDM2MD48NTU2NDZlMWMyNGExOTVmMDI5MjNmYWIyNDhhM2QzNjA+XQolIFJlcG9ydExhYiBnZW5lcmF0ZWQgUERGIGRvY3VtZW50IC0tIGRpZ2VzdCAob3BlbnNvdXJjZSkKCi9JbmZvIDcgMCBSCi9Sb290IDYgMCBSCi9TaXplIDEwCj4+CnN0YXJ0eHJlZgozMzM4CiUlRU9GCg=="
+        },
+        {
+          "filename": "Whitfield_Consulting_Group_W9.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjQKJZOMi54gUmVwb3J0TGFiIEdlbmVyYXRlZCBQREYgZG9jdW1lbnQgKG9wZW5zb3VyY2UpCjEgMCBvYmoKPDwKL0YxIDIgMCBSIC9GMiAzIDAgUiAvRjMgNCAwIFIKPj4KZW5kb2JqCjIgMCBvYmoKPDwKL0Jhc2VGb250IC9IZWx2ZXRpY2EgL0VuY29kaW5nIC9XaW5BbnNpRW5jb2RpbmcgL05hbWUgL0YxIC9TdWJ0eXBlIC9UeXBlMSAvVHlwZSAvRm9udAo+PgplbmRvYmoKMyAwIG9iago8PAovQmFzZUZvbnQgL0hlbHZldGljYS1Cb2xkIC9FbmNvZGluZyAvV2luQW5zaUVuY29kaW5nIC9OYW1lIC9GMiAvU3VidHlwZSAvVHlwZTEgL1R5cGUgL0ZvbnQKPj4KZW5kb2JqCjQgMCBvYmoKPDwKL0Jhc2VGb250IC9aYXBmRGluZ2JhdHMgL05hbWUgL0YzIC9TdWJ0eXBlIC9UeXBlMSAvVHlwZSAvRm9udAo+PgplbmRvYmoKNSAwIG9iago8PAovQ29udGVudHMgOSAwIFIgL01lZGlhQm94IFsgMCAwIDYxMiA3OTIgXSAvUGFyZW50IDggMCBSIC9SZXNvdXJjZXMgPDwKL0ZvbnQgMSAwIFIgL1Byb2NTZXQgWyAvUERGIC9UZXh0IC9JbWFnZUIgL0ltYWdlQyAvSW1hZ2VJIF0KPj4gL1JvdGF0ZSAwIC9UcmFucyA8PAoKPj4gCiAgL1R5cGUgL1BhZ2UKPj4KZW5kb2JqCjYgMCBvYmoKPDwKL1BhZ2VNb2RlIC9Vc2VOb25lIC9QYWdlcyA4IDAgUiAvVHlwZSAvQ2F0YWxvZwo+PgplbmRvYmoKNyAwIG9iago8PAovQXV0aG9yIChcKGFub255bW91c1wpKSAvQ3JlYXRpb25EYXRlIChEOjIwMjYwMzI0MjAwMzI1LTA1JzAwJykgL0NyZWF0b3IgKFwodW5zcGVjaWZpZWRcKSkgL0tleXdvcmRzICgpIC9Nb2REYXRlIChEOjIwMjYwMzI0MjAwMzI1LTA1JzAwJykgL1Byb2R1Y2VyIChSZXBvcnRMYWIgUERGIExpYnJhcnkgLSBcKG9wZW5zb3VyY2VcKSkgCiAgL1N1YmplY3QgKFwodW5zcGVjaWZpZWRcKSkgL1RpdGxlIChcKGFub255bW91c1wpKSAvVHJhcHBlZCAvRmFsc2UKPj4KZW5kb2JqCjggMCBvYmoKPDwKL0NvdW50IDEgL0tpZHMgWyA1IDAgUiBdIC9UeXBlIC9QYWdlcwo+PgplbmRvYmoKOSAwIG9iago8PAovRmlsdGVyIFsgL0FTQ0lJODVEZWNvZGUgL0ZsYXRlRGVjb2RlIF0gL0xlbmd0aCA5NTkKPj4Kc3RyZWFtCkdhdD0qPyNTRk4nUmYuR2dvJCEoMWw0UmRKQENpXWA3LU5NQXVbXVhpWytrNyx1LzI6PFZjQyQ4TFZyTTstXFlyQDwwW1c1NTE3a0stKnVTVUQyV0kiRkVJY1wuQzlER2E4VG4vV0BUdTtpPkpMJS9MT0ZqaV9vMjwrZzclNjhQbzc2SkUyTz5UY2RxaWcoR0s4TEBCR15EdCYrRlRfRWBTZE0+Ty8ySVNVSUVDYC44WFJMa0JZTk8+ZU49TCEvKCtZYlYnOlgrUFBbUXMrRkprM0NKIWguSWJtdERyMCNkbVdVSmZUcWpxYmoraTU3KVVQSDwjUFNcJEkkWUQ1LF9aUkJPLmZJdGZvXzgoUkNUYSJvLSRZPkFXJDlWb1hQZlNsTVMnJGkmUXFpYCVwM3NHTCREaVw+cHE9bTtCVidtKkhOT1tNVFY9KjpzLF5xayk/ZSVNbWJyP1RGMG1NcDw0OWdMKG00Z0snP0dtQDUzcyYhRFFvRDh1UFkiK0lcTHA7PS1zTEQta2NXZCdSYC8qUWZ1KjlLI2kzTiFnJ2xkWlkhSmc+WnBkO1xBVjYqWiRaPDxMLD5bQVg2ITcxX3AxMDohUS1GKlQjNW9HWVkoTjlXQnRyYmxlQFQ7aDhcQVpeS1krTl9EKT5iIUtlXUhPQTxJZUZvZUgxTUoxZT9QZzFhXz4mX1xHcSRLYGNLUXElYmU+aVJtYVpJRj5BdD10Jm1LbWtrOk07SzQoVTFRU0RjaCclIj9QS0pVOkEkIipYbz0tJkxxSUImcWFZcUtqITpZUixIRk1GXCFPOj9UVkpbbnVaUjpNQHQ4SSpIQDFrI1hlUGA5QS9aWCRSLmlZcGRhJVRnO1osalYnQDEnIWVFTSYyY3E+bitONkdXJnVAaG9AWzdeLlNUME1xOCdGQ1spOy5wOXVoXVliXS1FVW43aTpsKk5Cakk0XGtTbzQ2OldqXGZHOCQvcVo/QmE3RSkobkc5czVEN21bYVg+WDomY0pCNUloTjxlKm4jSDhiXztOLFgrMDYlXD09UCJ0MylibmpuVjtLQyxVVz0kVTw8LTVvVTlOQjBdMyMhUyRaMyYpYSpoQFNCUDUoUFkmdEBENFJKKDAuYkBIR0AySyU0Mik+LChRbzZEPF04YDAsUWJUS2o8UCVQMSoiP2poLWRKdWlIcF0nSkc6LigqVlhZIjMySDk8KmtEUjI0Klk8O20/JFc6U11uQTFuTTInQiRoYy88PTYzbjZfYjR1KmZsLjsjSikraDVoI34+ZW5kc3RyZWFtCmVuZG9iagp4cmVmCjAgMTAKMDAwMDAwMDAwMCA2NTUzNSBmIAowMDAwMDAwMDYxIDAwMDAwIG4gCjAwMDAwMDAxMTIgMDAwMDAgbiAKMDAwMDAwMDIxOSAwMDAwMCBuIAowMDAwMDAwMzMxIDAwMDAwIG4gCjAwMDAwMDA0MTQgMDAwMDAgbiAKMDAwMDAwMDYwNyAwMDAwMCBuIAowMDAwMDAwNjc1IDAwMDAwIG4gCjAwMDAwMDA5NTUgMDAwMDAgbiAKMDAwMDAwMTAxNCAwMDAwMCBuIAp0cmFpbGVyCjw8Ci9JRCAKWzxkNDE0ZTljZTdmNTRkMGUyNDRmYzM4NGJiMmQxMWJmYz48ZDQxNGU5Y2U3ZjU0ZDBlMjQ0ZmMzODRiYjJkMTFiZmM+XQolIFJlcG9ydExhYiBnZW5lcmF0ZWQgUERGIGRvY3VtZW50IC0tIGRpZ2VzdCAob3BlbnNvdXJjZSkKCi9JbmZvIDcgMCBSCi9Sb290IDYgMCBSCi9TaXplIDEwCj4+CnN0YXJ0eHJlZgoyMDYzCiUlRU9GCg=="
+        }
+      ]
+    },
+    {
+      "email_id": "24",
+      "folder": "INBOX",
+      "subject": "Invoice CPT-2025-0412 - ClearPath Talent Solutions - Executive Search Services",
+      "from_addr": "r.dunn@clearpathtalent.com",
+      "to_addr": "ap.team@meridianpartners.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-09-03T09:20:00-04:00",
+      "message_id": "<inv-cpt-0412@clearpathtalent.com>",
+      "in_reply_to": null,
+      "body_text": "Dear Meridian Partners AP Team,\n\nAttached please find our invoice for executive search and recruitment services completed during August 2025 for the Operations Manager position.\n\nInvoice Summary:\n  Invoice Number: CPT-2025-0412\n  Project Reference: MER-OPS-2025-Q3\n  Total Amount: $5,050.00\n  Payment Terms: Net 30\n\nThis is our first invoice to Meridian Partners. I have included our W-9 form with this submission for your records.\n\nPlease remit payment via ACH to the bank details provided on the invoice, or by check to our Atlanta office. Reference project number MER-OPS-2025-Q3 on all payments.\n\nThank you for the opportunity to support your team. Please don't hesitate to reach out with any questions.\n\nWarm regards,\n\nRachel Dunn\nManaging Partner\nClearPath Talent Solutions\n2800 Peachtree Road NE, Suite 510\nAtlanta, GA 30305\n(404) 555-0291\nr.dunn@clearpathtalent.com",
+      "body_html": null,
+      "is_read": false,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "CPT-2025-0412_Invoice.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjQKJZOMi54gUmVwb3J0TGFiIEdlbmVyYXRlZCBQREYgZG9jdW1lbnQgKG9wZW5zb3VyY2UpCjEgMCBvYmoKPDwKL0YxIDIgMCBSIC9GMiAzIDAgUgo+PgplbmRvYmoKMiAwIG9iago8PAovQmFzZUZvbnQgL0hlbHZldGljYSAvRW5jb2RpbmcgL1dpbkFuc2lFbmNvZGluZyAvTmFtZSAvRjEgL1N1YnR5cGUgL1R5cGUxIC9UeXBlIC9Gb250Cj4+CmVuZG9iagozIDAgb2JqCjw8Ci9CYXNlRm9udCAvSGVsdmV0aWNhLUJvbGQgL0VuY29kaW5nIC9XaW5BbnNpRW5jb2RpbmcgL05hbWUgL0YyIC9TdWJ0eXBlIC9UeXBlMSAvVHlwZSAvRm9udAo+PgplbmRvYmoKNCAwIG9iago8PAovQ29udGVudHMgOCAwIFIgL01lZGlhQm94IFsgMCAwIDYxMiA3OTIgXSAvUGFyZW50IDcgMCBSIC9SZXNvdXJjZXMgPDwKL0ZvbnQgMSAwIFIgL1Byb2NTZXQgWyAvUERGIC9UZXh0IC9JbWFnZUIgL0ltYWdlQyAvSW1hZ2VJIF0KPj4gL1JvdGF0ZSAwIC9UcmFucyA8PAoKPj4gCiAgL1R5cGUgL1BhZ2UKPj4KZW5kb2JqCjUgMCBvYmoKPDwKL1BhZ2VNb2RlIC9Vc2VOb25lIC9QYWdlcyA3IDAgUiAvVHlwZSAvQ2F0YWxvZwo+PgplbmRvYmoKNiAwIG9iago8PAovQXV0aG9yIChcKGFub255bW91c1wpKSAvQ3JlYXRpb25EYXRlIChEOjIwMjYwMzI0MjAwMzI1LTA1JzAwJykgL0NyZWF0b3IgKFwodW5zcGVjaWZpZWRcKSkgL0tleXdvcmRzICgpIC9Nb2REYXRlIChEOjIwMjYwMzI0MjAwMzI1LTA1JzAwJykgL1Byb2R1Y2VyIChSZXBvcnRMYWIgUERGIExpYnJhcnkgLSBcKG9wZW5zb3VyY2VcKSkgCiAgL1N1YmplY3QgKFwodW5zcGVjaWZpZWRcKSkgL1RpdGxlIChcKGFub255bW91c1wpKSAvVHJhcHBlZCAvRmFsc2UKPj4KZW5kb2JqCjcgMCBvYmoKPDwKL0NvdW50IDEgL0tpZHMgWyA0IDAgUiBdIC9UeXBlIC9QYWdlcwo+PgplbmRvYmoKOCAwIG9iago8PAovRmlsdGVyIFsgL0FTQ0lJODVEZWNvZGUgL0ZsYXRlRGVjb2RlIF0gL0xlbmd0aCAxNzE2Cj4+CnN0cmVhbQpHYXRVNGdOKSUsJjpPOlNDbzxrYlNXUiVUXV4lI1BYPSE/cFE2SidOTWRMLSlPci4sbiFlTzAwZHVXciEsXDxBWmwqKTMoSmNRWDYzRVI5Zk0/OlUpZVVPPkdeaCFNXHMkOzJrI1phMkJfaC1lTi1HZGc1JzNbdT0qazRsTWl1SEhmQFhXal9rWyleQURWQ2cnIzFWJThRcjdyX142c3JCWlZnMyhLJGhqKDJMcmQ9ayJCWVZdajctcW4uZ1AhYjBGWXRdWDEsP2RhZWQ+VlFzJWA8VVRfKzleTjdZYyQ6Umw9RGlDNmlBXk5uJytfLTs2bFp0P0tUYE8yXSdNR2tkaFM/VEwvc19ELCVEWjswXVFUS09iLllBQkFqSkAtTmRKRCctKGdcInUpMzNSKidASislQldOUEx1RWlHWkpgKUF0KEA1NmIjNGFMaW1uT1tWXUBfayM7JFstSkw0TEwoTDhEPVdIdTBJP2E0dGxwQTdGQD1lYiY7Nz5rNmBtTidnQjVRNGYhYV9FIVFuJEVXP0prYD5dY0tzMWMnYEl1UzhJNUdxcUBRPElmS0xhNDdMJ2BiMFlwTWxTPEBmL1trQ1kka0kvVVxfYUAncFBsa1BuTFYxWEtIWzkwQVBGMGNERDk3XTxjVCcqI209QlErLi11c10wQzlJMEI0YT89WFtoJzc2WjZrUnJKc0cqLHJ0LDg/Vkc/b0VNLD5aL0BeYydyJkpKVFRKQ0k4dVxgbyVbSC1RJ1AwXV9GMlsjZF1NRWMqIj4kRW0+U1s4bnFKLSRlUDFma2xdaTxIKnA8J090Nm8zLHM+SFsyVjkjUWUnQWY2TWc/OWcyPWRWIkIwVlRGQEhEO0g0azkkJlpPODg+aCguIVBDY1RlYjZcO1ZMUkxQXTtXSi51dHQicTVYSCguJ01aQUlQSUJGOGxrXydwLnRfJmZycU40NCUmUlhxZ01iM182MmRMIylkdVtgN2drYlMlWU9zYSJmYjJJRDclL0spbjEyTDhqcio8VTdqMmJAPE1lOzFkYDFIQT1UNGtHSlRRO0hzJXJsVXUmLyFFN1tTQVpnOCFNMExFLi84Xk0tV1QhXkFJYCNnb2UwPStNaD8xU1M/TSEzP1FBKSNwQj9BUCVuXUhGTGJLJEw/SGxWV0snc280ODhuQExGN3RubU4kVFlyPWQwQiJVVCQpNXJZcjlHXkY4LUhIaT5UNzxRZlcybCpfTjhBUUIrdDMwJm43dCQkZlItLXIvQHI1V0NjIm9hazFKaGRmJiNFQHM+W1xRIT9LbmNaVz46S1U4S01LUCVTOWxZQz9EKi06WV1FblFiUmQnL24zJkxyXkE0RGNncCc1KGc0ZXMrIllkPkQ5TG9oOm00USRtQzZeWyUhY1NiNUFFOjNOS0kjS2luLTxNUWMvZm5PJV1nSi5OQ0wrUCtIR0cuX2NkLjJDUzslQVlNIUVJMV0rTSlLWjxGJi9DM1ptXTk6W2lpSU04bmdRNEBSVT9GMS1WbSgvT1thPGVqOSgzaEVzSjEyKTZpXmJHcjdTV0BlKEhmWmwuLCsxU1RmJCM9PV4lM3RNSUczZGFMbG9yZG0tcElabE8mZzwkY1wwPTloW0RdU0VlWWgxLydPai5ILERvdSsnQG9jNENhczc2YzIiUS90T1w/LVRHTj4jRlhIKlglZzBCVT8sPDUhYHM1OiRQXGFuJVZxaXE1LDxsV0tHPUI1cSYhMShSNWBiNFhbcVtuMT44amxnKmtCJTwyZkZQblNvW0FTPU1ZOGhncjlbQFhrMFVBSk9OK2pAYWhgRF5gPVgpQkhlMF87NWZfYVYmXG9rRWYuLjFaJD8tXVojKWRLOEQ5ZFA0JiVuSkp1TmcqNVg0X2UzLShrUlQsPGc+OidwblEoT2NTbXRJZVVqXSlOXT9FVF1XKkdCPz4uZm8lQTI5UUFKJVZAL1ZnQVtQO2dqLz4vPk8hNFFTPFg8TUI4ZDBHIWJIVjZpcltQc0ZhNDZnWiwzLUohRUldZERLYGdNa2VbZXFOTDZSUy1MR3FJcipPbSQyRzwvR0YibTgpb1h0WE08NExXK1laVjlIT0prclQhNDhZKG83XkE3N2ZdTCMlNzNaNCp1aUIwSiZMQj1YUzlcOi8/dGBlb0QoRlxgLHFLPGFfNUJAdUI3VEdyO11BNF1YYShuLTwzZillUHM+VjYyb0woTjNTTzFgcG5rTEpzI1poQk80ciFkOmslNzE0bz1UUFFzVztjcWVNYGFiXk5GKlNGXnJhP0g4azNufj5lbmRzdHJlYW0KZW5kb2JqCnhyZWYKMCA5CjAwMDAwMDAwMDAgNjU1MzUgZiAKMDAwMDAwMDA2MSAwMDAwMCBuIAowMDAwMDAwMTAyIDAwMDAwIG4gCjAwMDAwMDAyMDkgMDAwMDAgbiAKMDAwMDAwMDMyMSAwMDAwMCBuIAowMDAwMDAwNTE0IDAwMDAwIG4gCjAwMDAwMDA1ODIgMDAwMDAgbiAKMDAwMDAwMDg2MiAwMDAwMCBuIAowMDAwMDAwOTIxIDAwMDAwIG4gCnRyYWlsZXIKPDwKL0lEIApbPDM2MzQ0ZjY2Y2RjZDhmYWEyNTY5YzcyNzlkNzVmODNjPjwzNjM0NGY2NmNkY2Q4ZmFhMjU2OWM3Mjc5ZDc1ZjgzYz5dCiUgUmVwb3J0TGFiIGdlbmVyYXRlZCBQREYgZG9jdW1lbnQgLS0gZGlnZXN0IChvcGVuc291cmNlKQoKL0luZm8gNiAwIFIKL1Jvb3QgNSAwIFIKL1NpemUgOQo+PgpzdGFydHhyZWYKMjcyOAolJUVPRgo="
+        },
+        {
+          "filename": "ClearPath_Talent_Solutions_W9.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjQKJZOMi54gUmVwb3J0TGFiIEdlbmVyYXRlZCBQREYgZG9jdW1lbnQgKG9wZW5zb3VyY2UpCjEgMCBvYmoKPDwKL0YxIDIgMCBSIC9GMiAzIDAgUiAvRjMgNCAwIFIKPj4KZW5kb2JqCjIgMCBvYmoKPDwKL0Jhc2VGb250IC9IZWx2ZXRpY2EgL0VuY29kaW5nIC9XaW5BbnNpRW5jb2RpbmcgL05hbWUgL0YxIC9TdWJ0eXBlIC9UeXBlMSAvVHlwZSAvRm9udAo+PgplbmRvYmoKMyAwIG9iago8PAovQmFzZUZvbnQgL0hlbHZldGljYS1Cb2xkIC9FbmNvZGluZyAvV2luQW5zaUVuY29kaW5nIC9OYW1lIC9GMiAvU3VidHlwZSAvVHlwZTEgL1R5cGUgL0ZvbnQKPj4KZW5kb2JqCjQgMCBvYmoKPDwKL0Jhc2VGb250IC9aYXBmRGluZ2JhdHMgL05hbWUgL0YzIC9TdWJ0eXBlIC9UeXBlMSAvVHlwZSAvRm9udAo+PgplbmRvYmoKNSAwIG9iago8PAovQ29udGVudHMgOSAwIFIgL01lZGlhQm94IFsgMCAwIDYxMiA3OTIgXSAvUGFyZW50IDggMCBSIC9SZXNvdXJjZXMgPDwKL0ZvbnQgMSAwIFIgL1Byb2NTZXQgWyAvUERGIC9UZXh0IC9JbWFnZUIgL0ltYWdlQyAvSW1hZ2VJIF0KPj4gL1JvdGF0ZSAwIC9UcmFucyA8PAoKPj4gCiAgL1R5cGUgL1BhZ2UKPj4KZW5kb2JqCjYgMCBvYmoKPDwKL1BhZ2VNb2RlIC9Vc2VOb25lIC9QYWdlcyA4IDAgUiAvVHlwZSAvQ2F0YWxvZwo+PgplbmRvYmoKNyAwIG9iago8PAovQXV0aG9yIChcKGFub255bW91c1wpKSAvQ3JlYXRpb25EYXRlIChEOjIwMjYwMzI0MjAwMzI1LTA1JzAwJykgL0NyZWF0b3IgKFwodW5zcGVjaWZpZWRcKSkgL0tleXdvcmRzICgpIC9Nb2REYXRlIChEOjIwMjYwMzI0MjAwMzI1LTA1JzAwJykgL1Byb2R1Y2VyIChSZXBvcnRMYWIgUERGIExpYnJhcnkgLSBcKG9wZW5zb3VyY2VcKSkgCiAgL1N1YmplY3QgKFwodW5zcGVjaWZpZWRcKSkgL1RpdGxlIChcKGFub255bW91c1wpKSAvVHJhcHBlZCAvRmFsc2UKPj4KZW5kb2JqCjggMCBvYmoKPDwKL0NvdW50IDEgL0tpZHMgWyA1IDAgUiBdIC9UeXBlIC9QYWdlcwo+PgplbmRvYmoKOSAwIG9iago8PAovRmlsdGVyIFsgL0FTQ0lJODVEZWNvZGUgL0ZsYXRlRGVjb2RlIF0gL0xlbmd0aCA5MjIKPj4Kc3RyZWFtCkdhdD0qZ01aIikmOk5ebGspbGZbJydEVDMyYklNNGU3STxyZU9oPnVncitgRGAoPWdEQ0ImYDFRYVctYSdOXWlWUio3UidOXWYwQWk4QCZoSF5rK0E3Oj1GSSYvViZNJkUhJSVccStTRkgwQ0BgYWAlNlI+PFJwXDo7JiFgKj1PMHI4L1JnPk1AN0ElOzs7TVI0M00xPklrSE1cRzIzXklmZ0VsR0wuczlEVS8ockBBZU81NCc6TmlhOUp0LSIvQls7aD0vZV91X1c5R24oRCxDaW9XPTtMJGE5PFFTPWwlUl5EY25Cbk5JOkQ8Lz5MP0MlTy5XQD9qQk09S25HOSlzdSVlXEZlWmwxM2VfTFVsPEdCZU42R11gPDlWN1ZlKS1LM15pbTZPJTNxSWY3TCYkRVBba0BKXHBjLC8nNTUhLTdqX2o1bEdOJVtEY0hyJ2Q8XVo1ayI4NltfPUdbOEEja1xaWENjYy0+PGdVNSFiXTpWLV5YVz5bMm5yY2IwISJXXTo/P25RZjZwVzxKSyNgc1heIV9rPyFET2spcGpYX11VJnJsQzpkVlJGV0cjKTE4L2FkTC1tSjJaSV5VXjlfOD1sY2xmJ1o4a1pJXiM1L0A7J0NRJzYxSWhTIiM3SzNmdHRZW111O3VidE1Wc2w1YygjKCdJPzdxXERrdD1CPHE6Q2pgKmFPRyxoVSxQUlpnJTRpPkRNOFUwO2JoT0RQIjM1cz1VW18pUGBvJmJRI3FWcjo9SHNrMyUjQURqYkFAVSREbnVTUjpDbGE4a2VaMFBkVEJsYjI6YTJrUmVHXDooZCxpWyFsSjxENXNrMm1OcTNtcVksSjg/KE8jKWI3UW83UmtAIW9ibWJpJ1Y8MylnNTR0RVpEIzRsRylJUE1xcWguWE5JZjtDaD9GNTBcLHInblEoJiwiJDQ6OXUuaDpYTW9mZyg9ST9iSkRPS1kzMkY/aSIqW0xoWTpPSzxHdSZeY0AuRzlxYV1LQ2hQZSgnJXUsRileQktXTy4lJFssayJKKFRfJnI2XlBeJ3EqJkQsRlhUUWFBcU48J2pqMTZYUkpAOlI+QU83U19oTGlZIkpYS0BdV1JNVjQrPEhpLGpFQFxhPDwwcmMtXmZFQUtAWU0tJlkiTmNnKyopQlBOYDA0bk5LN0lQRFInNG5saCddNCJ0Kk9uQGE1VStTS2M7aC5kMzFWbUU5YD1pLjkwPCFdLTBofj5lbmRzdHJlYW0KZW5kb2JqCnhyZWYKMCAxMAowMDAwMDAwMDAwIDY1NTM1IGYgCjAwMDAwMDAwNjEgMDAwMDAgbiAKMDAwMDAwMDExMiAwMDAwMCBuIAowMDAwMDAwMjE5IDAwMDAwIG4gCjAwMDAwMDAzMzEgMDAwMDAgbiAKMDAwMDAwMDQxNCAwMDAwMCBuIAowMDAwMDAwNjA3IDAwMDAwIG4gCjAwMDAwMDA2NzUgMDAwMDAgbiAKMDAwMDAwMDk1NSAwMDAwMCBuIAowMDAwMDAxMDE0IDAwMDAwIG4gCnRyYWlsZXIKPDwKL0lEIApbPGMxNDM3NDgyYTA2YmZiNDYyOTQyYjYxMDhlNGZhYzMwPjxjMTQzNzQ4MmEwNmJmYjQ2Mjk0MmI2MTA4ZTRmYWMzMD5dCiUgUmVwb3J0TGFiIGdlbmVyYXRlZCBQREYgZG9jdW1lbnQgLS0gZGlnZXN0IChvcGVuc291cmNlKQoKL0luZm8gNyAwIFIKL1Jvb3QgNiAwIFIKL1NpemUgMTAKPj4Kc3RhcnR4cmVmCjIwMjYKJSVFT0YK"
+        }
+      ]
+    }
+  ],
+  "next_email_id": 25
+}

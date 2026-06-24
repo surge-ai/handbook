@@ -1,0 +1,47 @@
+{
+  "run": {
+    "command": "python",
+    "args": ["-m", "syntara.server"],
+    "env": {
+      "SETUID": "1000",
+      "SETGID": "1000",
+      "HOME": "/home/model",
+      "USER": "model",
+      "LOGNAME": "model"
+    }
+  },
+  "setup": {
+    "command": "python",
+    "args": ["-m", "syntara.setup"],
+    "env": {
+      "SETUID": "1000",
+      "SETGID": "1000",
+      "HOME": "/home/model",
+      "USER": "model",
+      "LOGNAME": "model"
+    }
+  },
+  "namespaced": true,
+  "toolsets": {
+    "read": ["echo", "listFiles", "readFile", "readPDF"],
+    "read_multimodal": [
+      "echo",
+      "listFiles",
+      "readFile",
+      "readMedia",
+      "readPDF"
+    ],
+    "write": ["executeBash", "writeFile"],
+    "debug": ["echo", "executeBash", "executePython"],
+    "ds_all": [
+      "executeBash",
+      "executePython",
+      "listFiles",
+      "readFile",
+      "readPDF",
+      "writeFile"
+    ],
+    "state": ["export_state", "import_state"],
+    "grading": ["prepareGradingContext"]
+  }
+}

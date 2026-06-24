@@ -1,0 +1,244 @@
+{
+  "mailbox": {
+    "email": "jordan.mills@mojavecrest.com",
+    "name": "Jordan Mills"
+  },
+  "contacts": [
+    {
+      "email": "d.whitfield@mojavecrest.com",
+      "name": "Darnell Whitfield"
+    },
+    {
+      "email": "p.annadurai@mojavecrest.com",
+      "name": "Priya Annadurai"
+    },
+    {
+      "email": "t.reyes@mojavecrest.com",
+      "name": "Tamra Reyes"
+    },
+    {
+      "email": "m.alvarado@mojavecrest.com",
+      "name": "Marisol Alvarado"
+    },
+    {
+      "email": "h.bergstrom@mojavecrest.com",
+      "name": "Dr. Helena Bergstrom"
+    },
+    {
+      "email": "a.ontario@mojavecrest.com",
+      "name": "Dr. Ayla Ontario"
+    },
+    {
+      "email": "j.henning@mojavecrest.com",
+      "name": "Dr. Jules Henning"
+    },
+    {
+      "email": "k.dufree@mojavecrest.com",
+      "name": "Kendel Dufree"
+    },
+    {
+      "email": "parity@mojavecrest.com",
+      "name": "Parity Review Committee"
+    },
+    {
+      "email": "appeals-intake@mojavecrest.com",
+      "name": "MCA Appeals Intake"
+    },
+    {
+      "email": "provider.relations@mojavecrest.com",
+      "name": "Provider Relations"
+    },
+    {
+      "email": "appeals@swdesertortho.com",
+      "name": "Southwest Desert Orthopedics \u2014 Appeals"
+    },
+    {
+      "email": "r.casillas.personal@gmail.com",
+      "name": "Roberto Casillas"
+    },
+    {
+      "email": "d.torres.personal@gmail.com",
+      "name": "Daniela Torres"
+    },
+    {
+      "email": "appeals@healthvoiceadvocates.com",
+      "name": "HealthVoice Advocates LLC"
+    },
+    {
+      "email": "j.fierro.personal@gmail.com",
+      "name": "Joanna Fierro"
+    },
+    {
+      "email": "intake@canyonridgereview.com",
+      "name": "Canyon Ridge Review Services"
+    },
+    {
+      "email": "urgent-intake@canyonridgereview.com",
+      "name": "Canyon Ridge \u2014 Urgent Intake"
+    }
+  ],
+  "folders": [
+    {
+      "name": "Appeals \u2014 Active"
+    },
+    {
+      "name": "Appeals \u2014 Closed"
+    },
+    {
+      "name": "Compliance"
+    },
+    {
+      "name": "Archive \u2014 Oct 2026"
+    },
+    {
+      "name": "Archive \u2014 Q3 2026"
+    }
+  ],
+  "emails": [
+    {
+      "email_id": "1",
+      "folder": "Archive \u2014 Q3 2026",
+      "subject": "RE: CASE-2026-00391 \u2014 Determination Sent",
+      "from_addr": "m.alvarado@mojavecrest.com",
+      "to_addr": "jordan.mills@mojavecrest.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-09-28T15:44:00-07:00",
+      "message_id": "<msg-391-close@mojavecrest.com>",
+      "in_reply_to": null,
+      "body_text": "Jordan,\n\nMy clinical worksheet for CASE-2026-00391 is in the case folder. Decision is to overturn \u2014 auth criteria are met. You're clear to send the favorable determination letter.\n\n\u2014 Marisol",
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "2",
+      "folder": "Archive \u2014 Oct 2026",
+      "subject": "RE: CASE-2026-00414 \u2014 Grievance Resolution",
+      "from_addr": "d.whitfield@mojavecrest.com",
+      "to_addr": "jordan.mills@mojavecrest.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-10-09T13:11:00-07:00",
+      "message_id": "<msg-414-res@mojavecrest.com>",
+      "in_reply_to": null,
+      "body_text": "Jordan,\n\nGrievance investigation complete for CASE-2026-00414. No corrective action warranted \u2014 hold times were within SLA. Draft Template A-10, mark 'Resolved without Action', send after my co-sig.\n\n\u2014 Darnell",
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "3",
+      "folder": "INBOX",
+      "subject": "Q4 2026 Compliance Review \u2014 Coordinators, Please Read",
+      "from_addr": "t.reyes@mojavecrest.com",
+      "to_addr": "jordan.mills@mojavecrest.com",
+      "cc_addr": "d.whitfield@mojavecrest.com",
+      "bcc_addr": null,
+      "date": "2026-11-03T08:15:00-08:00",
+      "message_id": "<msg-q4compliance@mojavecrest.com>",
+      "in_reply_to": null,
+      "body_text": "Team,\n\nAs a reminder, Q4 2026 internal quality review will sample closed cases from the Oct\u2013Dec quarter. Please ensure all case files closed during September and October 2026 are fully uploaded to the shared repository by November 14.\n\nNo action required until November 14. This is an informational notice.\n\nTamra Reyes\nDirector, Appeals & Grievances\nMojave Crest Assurance Company",
+      "is_read": false,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "4",
+      "folder": "Appeals \u2014 Active",
+      "subject": "CASE-2026-00437 \u2014 Clinical Review Started",
+      "from_addr": "m.alvarado@mojavecrest.com",
+      "to_addr": "jordan.mills@mojavecrest.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-10-21T11:04:00-07:00",
+      "message_id": "<msg-437-review@mojavecrest.com>",
+      "in_reply_to": null,
+      "body_text": "Jordan,\n\nI've got CASE-2026-00437 in my queue. I'm reviewing the clinical records and the denial reasoning from Desert Peak Specialty Group. Should have my worksheet to you within the week.\n\n\u2014 Marisol",
+      "is_read": true,
+      "is_important": true,
+      "attachments": []
+    },
+    {
+      "email_id": "5",
+      "folder": "INBOX",
+      "subject": "Appeal of Denied Claim \u2014 Patient Elena Novak (DOB 04/12/1979)",
+      "from_addr": "appeals@swdesertortho.com",
+      "to_addr": "appeals-intake@mojavecrest.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-11-03T16:08:00-08:00",
+      "message_id": "<msg-case442-intake@swdesertortho.com>",
+      "in_reply_to": null,
+      "body_text": "To the Mojave Crest Appeals Unit,\n\nSouthwest Desert Orthopedics is writing to formally appeal the denial of claim CLM-2026-041903 for patient Elena Novak (Member ID VA-31802-04, DOB 04/12/1979).\n\nClaim details:\n  Date of service: October 6, 2026\n  CPT codes: 29881 (arthroscopy, knee, surgical), 29876\n  Place of service: 24 (ambulatory surgical center)\n  Billed amount: $14,200.00\n  Denial reason: 'Services not medically necessary'\n\nWe believe this denial is incorrect and are appealing on behalf of our patient. The procedure was medically necessary given the member's documented degenerative joint disease (M17.31) and failure of conservative treatment over the preceding eight months. Supporting clinical records are attached.\n\nPlease direct any questions to our billing coordinator at the address above.\n\nRespectfully,\nMichael Osei, Billing Director\nSouthwest Desert Orthopedics\n4820 E. Desert Ridge Dr., Phoenix AZ 85016\nappeals@swdesertortho.com | (480) 555-0177",
+      "is_read": false,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "6",
+      "folder": "INBOX",
+      "subject": "Coverage Concern \u2014 Joanna Fierro \u2014 Member ID VA-55219-07",
+      "from_addr": "j.fierro.personal@gmail.com",
+      "to_addr": "appeals-intake@mojavecrest.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-11-03T14:15:00-08:00",
+      "message_id": "<msg-case441-intake@gmail.com>",
+      "in_reply_to": null,
+      "body_text": "To Mojave Crest Appeals,\n\nI am writing to appeal the termination of my residential treatment coverage at Desert Oaks Recovery Center. I received a termination notice dated November 1, 2026 stating that my coverage will end on November 5, 2026 at 10:00 AM.\n\nI have been in residential substance use disorder treatment since October 20, 2026 under Authorization #AUTH-2026-04819. I am still actively receiving care and my treatment team believes I am not yet ready for a lower level of care.\n\nI am appealing this termination urgently. I believe the criteria your plan used to decide I no longer need residential treatment are stricter than what you would apply to someone needing medical inpatient rehabilitation \u2014 for example, your criteria for medical rehab patients allow more time for clinical progress than your criteria for someone like me in SUD residential. That doesn't seem fair or legal to me.\n\nPlease respond immediately. My coverage ends in less than 48 hours and I have nowhere to go.\n\nJoanna Fierro\nMember ID: VA-55219-07\nDate of Birth: 03/17/1988\nPhone: (702) 555-0231",
+      "is_read": false,
+      "is_important": true,
+      "attachments": []
+    },
+        {
+      "email_id": "7",
+      "folder": "INBOX",
+      "subject": "Appeal \u2014 Denied Claim for Inpatient Rehabilitation Feb 2024 \u2014 Roberto Casillas",
+      "from_addr": "r.casillas.personal@gmail.com",
+      "to_addr": "appeals-intake@mojavecrest.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-11-04T07:32:00-08:00",
+      "message_id": "<msg-case444-intake@gmail.com>",
+      "in_reply_to": null,
+      "body_text": "To Mojave Crest Assurance,\n\nMy name is Roberto Casillas. My member ID is VA-88291-03 and my group is G-14827. I am writing to appeal a claim denial I received in the mail.\n\nBackground: I was hospitalized at Desert Sky Rehabilitation Center from February 12 to February 14, 2024 for medical rehabilitation following a workplace injury. Mojave Crest paid this claim in April 2024. However, I recently received a notice dated May 15, 2026 telling me that Mojave Crest has reversed this payment and is now denying the claim, citing 'medical necessity criteria not met per MP-089.'\n\nI was surprised to receive this notice more than two years after my treatment. I believe the care I received was medically necessary \u2014 I was seriously injured and my doctor required that I have in-patient rehabilitation. I have attached the original hospital records and my doctor's notes.\n\nPlease review this appeal and let me know what happens next. The denial letter said I have 180 days from May 15, 2026 to appeal, so I believe I am within that window.\n\nSincerely,\nRoberto Casillas\nMember ID: VA-88291-03\nDOB: 11/02/1971\nPhone: (702) 555-0388\nr.casillas.personal@gmail.com",
+      "is_read": false,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "8",
+      "folder": "INBOX",
+      "subject": "RE: Case CASE-2026-00437 \u2014 Follow-Up Question About My Claim",
+      "from_addr": "d.torres.personal@gmail.com",
+      "to_addr": "appeals-intake@mojavecrest.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-11-04T08:47:00-08:00",
+      "message_id": "<msg-torres-fraud@gmail.com>",
+      "in_reply_to": null,
+      "body_text": "Hello,\n\nI received a letter about my open appeal Case #CASE-2026-00437. I wanted to contact you because I looked at the claim that was denied and something is wrong.\n\nThe claim from Desert Peak Specialty Group says I was seen on October 12, 2026. I was NOT at their office on October 12. I checked my calendar and I was working out of town that week. I have never been seen by Desert Peak Specialty Group \u2014 I don't even know who they are.\n\nSomeone is billing for services I never received. I am very concerned about this. Can you please look into it? I don't want to be held responsible for a bill for something that didn't happen.\n\nDaniela Torres\nMember ID: VA-62883-11\nPhone: (702) 555-0419",
+      "is_read": false,
+      "is_important": true,
+      "attachments": []
+    },
+    {
+      "email_id": "9",
+      "folder": "Sent",
+      "subject": "Mojave Crest Appeals Case #CASE-2026-00437 - Acknowledgment of Your Appeal",
+      "from_addr": "jordan.mills@mojavecrest.com",
+      "to_addr": "d.torres.personal@gmail.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-10-17T09:05:00-07:00",
+      "message_id": "<msg-437-ack-sent@mojavecrest.com>",
+      "in_reply_to": null,
+      "body_text": "Dear Ms. Torres,\n\nThis letter confirms that Mojave Crest Assurance Company has received your appeal regarding the denial of neurology and EEG services billed by Desert Peak Specialty Group (CPT codes 99244 and 95819, date of service October 12, 2026).\n\n  Case Number: CASE-2026-00437\n  Member ID: VA-62883-11\n  Date Received: October 14, 2026\n  Appeal Type: Post-Service Standard\n  Decision Due By: December 13, 2026\n\nSincerely,\nJordan Mills\nAppeals & Grievances Coordinator\nMojave Crest Assurance Company\nPhone: (702) 555-0148\nCase #: CASE-2026-00437",
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    }
+  ],
+  "next_email_id": 10
+}

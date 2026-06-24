@@ -1,0 +1,187 @@
+[project]
+name = "worldbench-syntara"
+version = "0.0.1"
+description = "Worldbench Syntara monorepo"
+requires-python = ">=3.13"
+classifiers = [
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.13",
+]
+
+[dependency-groups]
+dev = [
+  "bandit[toml]>=1.8.6",
+  "pre-commit>=4.4.0",
+  "pyproject-fmt>=2.11.0",
+  "pytest>=9.0.2",
+  "pytest-cov>=7.0.0",
+  "pytest-github-actions-annotate-failures>=0.3.0",
+  "pytest-timeout>=2.3.1",
+  "pytest-xdist>=3.8.0",
+  "ruff>=0.14.5",
+  "ty>=0.0.17",
+]
+
+[tool.uv]
+sources.core = { workspace = true }
+sources.read_file_safe = { workspace = true }
+# TODO[rz] re-enable once deployment has updated uv
+# required-version = ">=0.11"
+# Require packages to have been published before this date.
+# Matches a 14-day supply-chain protection policy.
+# Update periodically: set to ~14 days before the current date.
+exclude-newer = "2026-04-22T00:00:00Z"
+workspace.members = [
+  "packages/core",
+  "packages/google_calendar",
+  "packages/google_mail",
+  "packages/jira",
+  "packages/mcp_proxy",
+  "packages/read_file_safe",
+  "packages/shopify",
+  "packages/slack",
+  "packages/syntara",
+]
+
+[tool.ruff]
+target-version = "py313"
+line-length = 120
+extend-exclude = [
+  "vulture_whitelist.py",
+]
+force-exclude = true
+format.indent-style = "space"
+format.quote-style = "double"
+lint.select = [
+  # Async
+  "ASYNC",  # flake8-async
+
+  # Code quality
+  "B",      # flake8-bugbear
+  "C4",     # flake8-comprehensions
+  "E",      # pycodestyle errors
+  # Core Python
+  "F",      # Pyflakes
+  "FA",     # flake8-future-annotations
+
+  "FLY",    # flynt
+  "FURB",   # refurb
+  # Logging
+  "G",      # flake8-logging-format
+  "I",      # isort
+  "ICN001", # flake8-import-conventions
+
+  "INT",    # flake8-gettext
+  "ISC",    # flake8-implicit-str-concat
+  "LOG",    # flake8-logging
+
+  "PERF",   # Perflint
+  "PGH",    # pygrep-hooks
+  "PIE",    # flake8-pie
+  "PLC",    # pylint conventions
+  "PLE",    # pylint errors
+  "PLW",    # pylint warnings
+  # Testing
+  "PT",     # flake8-pytest-style
+
+  # Type checking
+  "PYI",    # flake8-pyi
+  # Style and formatting
+  "Q",      # flake8-quotes
+  # Error handling
+  "RSE",    # flake8-raise
+
+  "RUF",    # Ruff-specific rules
+
+  # Security
+  "S",      # flake8-bandit
+
+  "SIM",    # flake8-simplify
+  "SLOT",   # flake8-slots
+  "T10",    # flake8-debugger
+  "TID",    # flake8-tidy-imports
+  "UP",     # pyupgrade
+
+  "W",      # pycodestyle warnings
+  # Miscellaneous
+  "YTT",    # flake8-2020
+]
+lint.ignore = [
+  "ASYNC230", # Blocking I/O in async context - accepted in this codebase
+  "ASYNC240", # Blocking HTTP in async context - accepted in this codebase
+  "B008",     # FastAPI uses function calls in defaults for dependency injection
+  "B023",     # Function definition in loop - acceptable in this codebase
+  "B904",     # raise without from - intentional
+  "E501",     # Line too long - formatter handles wrapping; strings/comments can't be auto-wrapped
+  "G004",     # Logging statement uses f-string
+  "PERF401",  # Use list comprehension - minor style preference
+  "PGH003",   # ty doesn't support error codes in type: ignore comments
+  "PLC0415",  # Imports not at top-level - intentional conditional/lazy import pattern
+  "PLW0602",  # Global variable used before assignment - intentional state pattern
+  "PLW0603",  # Global statement - intentional mutable state pattern
+  "PLW1510",  # subprocess without check= - intentional
+  "PLW2901",  # Loop variable overwritten - intentional
+  "PT011",    # pytest.raises too broad - acceptable for ValueError in this codebase
+  "RUF001",   # Ambiguous unicode characters in strings - intentional in content
+  "S101",     # Assert statements - accepted outside tests in this codebase
+  "S104",     # Binding to all interfaces - intentional in server code
+  "S106",     # Hardcoded password - mock/test data
+  "S108",     # Insecure temp file usage - test infrastructure
+  "S113",     # Requests without timeout - accepted in test clients
+  "S603",     # subprocess call - intentional
+  "SIM117",   # Nested with statements - minor style preference
+]
+lint.per-file-ignores."packages/*/test_client.py" = [
+  "S101", # Allow assert statements in test clients
+]
+lint.per-file-ignores."packages/*/tests/**/*.py" = [
+  "PT004", # Allow fixtures without return values (setup fixtures)
+  "PT018", # Allow composite assertions (assert a and b) in tests
+  "S101",  # Allow assert statements in tests
+  "S105",  # Allow hardcoded test credentials
+  "S607",  # Allow partial executable paths in test subprocess calls
+]
+lint.per-file-ignores."scripts/**/*.py" = [
+  "S607", # Allow partial executable paths in dev/build scripts
+]
+# Pin workspace packages as first-party so isort grouping is identical whether
+# or not the package is installed in the current env (e.g. pre-commit's
+# isolated ruff env vs. `uv run` with workspace packages installed).
+lint.isort.known-first-party = [
+  "core",
+  "google_calendar",
+  "google_mail",
+  "jira",
+  "mcp_proxy",
+  "read_file_safe",
+  "shopify",
+  "slack",
+  # Temporary syntara→core compatibility shim; REMOVE after 2026-06-18.
+  "syntara",
+]
+
+[tool.pyproject-fmt]
+keep_full_version = true
+max_supported_python = "3.13"
+
+[tool.bandit]
+exclude_dirs = [ "tests" ]
+skips = [ "B101", "B601" ]
+
+[tool.pytest]
+ini_options.pythonpath = [ ".", "src" ]
+ini_options.python_files = [ "test_*.py", "*_test.py" ]
+ini_options.python_classes = [ "Test*" ]
+ini_options.python_functions = [ "test_*" ]
+ini_options.addopts = [
+  "-v",
+  "--strict-markers",
+  # loadgroup behaves like the default `load` scheduler, except tests marked
+  # with the same `xdist_group` run on one worker — see tests/test_bundle.py.
+  "--dist=loadgroup",
+  "--import-mode=importlib",
+]
+ini_options.markers = [
+  "e2e: marks tests as end-to-end tests (deselect with '-m \"not e2e\"')",
+]
+ini_options.timeout = 30

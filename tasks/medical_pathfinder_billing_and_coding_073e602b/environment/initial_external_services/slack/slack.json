@@ -1,0 +1,234 @@
+{
+  "users": {
+    "U001": {
+      "id": "U001",
+      "team_id": "T001",
+      "name": "jamies",
+      "deleted": false,
+      "real_name": "Jamie Scott",
+      "profile": {
+        "real_name": "Jamie Scott",
+        "display_name": "jamies",
+        "email": "jamies@pathfinder.com",
+        "title": "Team Member"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U002": {
+      "id": "U002",
+      "team_id": "T001",
+      "name": "joem",
+      "deleted": false,
+      "real_name": "Joe Malfroy",
+      "profile": {
+        "real_name": "Joe Malfroy",
+        "display_name": "joem",
+        "email": "joem@pathfinder.com",
+        "title": "RCM Manager"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U003": {
+      "id": "U003",
+      "team_id": "T001",
+      "name": "mayj",
+      "deleted": false,
+      "real_name": "May Jollier",
+      "profile": {
+        "real_name": "May Jollier",
+        "display_name": "mayj",
+        "email": "mayj@pathfinder.com",
+        "title": "Team Member"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U004": {
+      "id": "U004",
+      "team_id": "T001",
+      "name": "russellc",
+      "deleted": false,
+      "real_name": "Russell Commy",
+      "profile": {
+        "real_name": "Russell Commy",
+        "display_name": "russellc",
+        "email": "russellc@pathfinder.com",
+        "title": "Team Member"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    }
+  },
+  "channels": {
+    "C001": {
+      "id": "C001",
+      "name": "coders",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1733000000,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "coders",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1733000000,
+      "creator": "U001",
+      "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic": {
+        "value": "Coders channel",
+        "creator": "U001",
+        "last_set": 1733000000
+      },
+      "purpose": {
+        "value": "Channel for coders",
+        "creator": "U001",
+        "last_set": 1733000000
+      }
+    },
+    "C002": {
+      "id": "C002",
+      "name": "billing-specs",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1733000000,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "billing-specs",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1733000000,
+      "creator": "U002",
+      "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic": {
+        "value": "Billing specifications",
+        "creator": "U002",
+        "last_set": 1733000000
+      },
+      "purpose": {
+        "value": "Channel for billing specifications",
+        "creator": "U002",
+        "last_set": 1733000000
+      }
+    },
+    "C003": {
+      "id": "C003",
+      "name": "ra",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1733000000,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "ra",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1733000000,
+      "creator": "U003",
+      "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic": {
+        "value": "RA channel",
+        "creator": "U003",
+        "last_set": 1733000000
+      },
+      "purpose": {
+        "value": "Channel for RA",
+        "creator": "U003",
+        "last_set": 1733000000
+      }
+    },
+    "C004": {
+      "id": "C004",
+      "name": "escalations-rcm-mgr",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1733000000,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "escalations-rcm-mgr",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1733848080,
+      "creator": "U004",
+      "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic": {
+        "value": "Escalations for RCM Manager",
+        "creator": "U004",
+        "last_set": 1733000000
+      },
+      "purpose": {
+        "value": "Channel for RCM Manager escalations",
+        "creator": "U004",
+        "last_set": 1733000000
+      }
+    }
+  },
+  "messages": {
+    "C001": [],
+    "C002": [],
+    "C003": [],
+    "C004": [
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Majestic's system is down & estimated to be back up earliest by 6pm today. 837P saved.",
+        "ts": "1765358581.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Noted, will email the office mgrs. Thanks Jamie.",
+        "ts": "1765358880.000200",
+        "team": "T001"
+      }
+    ]
+  },
+  "counters": {
+    "messageId": 1000000
+  }
+}

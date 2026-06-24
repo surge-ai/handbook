@@ -1,0 +1,1638 @@
+{
+  "schema_version": "v1",
+  "tools": [
+    {
+      "name": "add_attachment",
+      "description": "Attach a base64-encoded file to a Jira issue.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "issue_key": {
+            "description": "Jira issue key, for example MOCK-1",
+            "pattern": "^[A-Z][A-Z0-9_]*-\\d+$",
+            "type": "string"
+          },
+          "filename": {
+            "type": "string"
+          },
+          "content_base64": {
+            "pattern": "^(?:[A-Za-z0-9+/]{4})*(?:[A-Za-z0-9+/]{2}==|[A-Za-z0-9+/]{3}=)?$",
+            "type": "string"
+          },
+          "mime_type": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "site_id": {
+            "default": "default",
+            "description": "Jira site ID. Defaults to the default site.",
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "issue_key",
+          "filename",
+          "content_base64"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "type": "object"
+      }
+    },
+    {
+      "name": "add_comment",
+      "description": "Add a comment to a Jira issue.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "issue_key": {
+            "description": "Jira issue key, for example MOCK-1",
+            "pattern": "^[A-Z][A-Z0-9_]*-\\d+$",
+            "type": "string"
+          },
+          "comment": {
+            "type": "string"
+          },
+          "site_id": {
+            "default": "default",
+            "description": "Jira site ID. Defaults to the default site.",
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "issue_key",
+          "comment"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "type": "object"
+      }
+    },
+    {
+      "name": "add_watcher",
+      "description": "Add a watcher to a Jira issue.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "issue_key": {
+            "description": "Jira issue key, for example MOCK-1",
+            "pattern": "^[A-Z][A-Z0-9_]*-\\d+$",
+            "type": "string"
+          },
+          "account_id": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "site_id": {
+            "default": "default",
+            "description": "Jira site ID. Defaults to the default site.",
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "issue_key",
+          "account_id"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": {
+          "type": "string"
+        },
+        "type": "object"
+      }
+    },
+    {
+      "name": "add_worklog",
+      "description": "Log time spent on a Jira issue.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "issue_key": {
+            "description": "Jira issue key, for example MOCK-1",
+            "pattern": "^[A-Z][A-Z0-9_]*-\\d+$",
+            "type": "string"
+          },
+          "time_spent": {
+            "pattern": "^(?:\\d+\\s*[wdhm]\\s*)+$",
+            "type": "string"
+          },
+          "comment": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "started": {
+            "anyOf": [
+              {
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:\\.\\d+)?(?:Z|[+-]\\d{2}:?\\d{2})$",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "site_id": {
+            "default": "default",
+            "description": "Jira site ID. Defaults to the default site.",
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "issue_key",
+          "time_spent"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "type": "object"
+      }
+    },
+    {
+      "name": "create_board",
+      "description": "Create a Jira board for an existing project. Requires is_admin=true.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "project_key": {
+            "description": "Jira project key, for example MOCK",
+            "pattern": "^[A-Z][A-Z0-9_]*$",
+            "type": "string"
+          },
+          "name": {
+            "maxLength": 255,
+            "minLength": 1,
+            "type": "string"
+          },
+          "board_type": {
+            "default": "scrum",
+            "enum": [
+              "scrum",
+              "kanban"
+            ],
+            "type": "string"
+          },
+          "filter_jql": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "site_id": {
+            "default": "default",
+            "description": "Jira site ID. Defaults to the default site.",
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "project_key",
+          "name"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "type": "object"
+      }
+    },
+    {
+      "name": "create_issue",
+      "description": "Create a new Jira issue.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "project_key": {
+            "description": "Jira project key, for example MOCK",
+            "pattern": "^[A-Z][A-Z0-9_]*$",
+            "type": "string"
+          },
+          "summary": {
+            "type": "string"
+          },
+          "issue_type": {
+            "description": "Jira issue type name. Common defaults include Task, Bug, Story, Epic, and Sub-task; custom issue types are allowed.",
+            "examples": [
+              "Task",
+              "Bug",
+              "Story",
+              "Epic",
+              "Sub-task"
+            ],
+            "maxLength": 255,
+            "minLength": 1,
+            "type": "string"
+          },
+          "assignee": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "description": {
+            "default": "",
+            "type": "string"
+          },
+          "components": {
+            "default": "",
+            "type": "string"
+          },
+          "additional_fields": {
+            "default": "{}",
+            "type": "string"
+          },
+          "site_id": {
+            "default": "default",
+            "description": "Jira site ID. Defaults to the default site.",
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "project_key",
+          "summary",
+          "issue_type"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "type": "object"
+      }
+    },
+    {
+      "name": "create_sprint",
+      "description": "Create Jira sprint for a board.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "board_id": {
+            "description": "Jira board ID, for example 1000",
+            "pattern": "^\\d+$",
+            "type": "string"
+          },
+          "sprint_name": {
+            "type": "string"
+          },
+          "start_date": {
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:\\.\\d+)?(?:Z|[+-]\\d{2}:?\\d{2})$",
+            "type": "string"
+          },
+          "end_date": {
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:\\.\\d+)?(?:Z|[+-]\\d{2}:?\\d{2})$",
+            "type": "string"
+          },
+          "goal": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "site_id": {
+            "default": "default",
+            "description": "Jira site ID. Defaults to the default site.",
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "board_id",
+          "sprint_name",
+          "start_date",
+          "end_date"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "type": "object"
+      }
+    },
+    {
+      "name": "create_status",
+      "description": "Create a Jira status. Requires is_admin=true in imported state.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "status_id": {
+            "pattern": "^\\d+$",
+            "type": "string"
+          },
+          "name": {
+            "maxLength": 255,
+            "minLength": 1,
+            "type": "string"
+          },
+          "status_category": {
+            "enum": [
+              "new",
+              "indeterminate",
+              "done",
+              "undefined"
+            ],
+            "type": "string"
+          },
+          "color_name": {
+            "anyOf": [
+              {
+                "maxLength": 255,
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "description": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "site_id": {
+            "default": "default",
+            "description": "Jira site ID. Defaults to the default site.",
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "status_id",
+          "name",
+          "status_category"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "type": "object"
+      }
+    },
+    {
+      "name": "create_user",
+      "description": "Create a Jira user. Requires is_admin=true.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "account_id": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "display_name": {
+            "maxLength": 255,
+            "minLength": 1,
+            "type": "string"
+          },
+          "email_address": {
+            "anyOf": [
+              {
+                "format": "email",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "active": {
+            "default": true,
+            "type": "boolean"
+          },
+          "time_zone": {
+            "anyOf": [
+              {
+                "description": "IANA time zone name, for example America/New_York.",
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": "America/New_York"
+          },
+          "site_id": {
+            "default": "default",
+            "description": "Jira site ID. Defaults to the default site.",
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "account_id",
+          "display_name"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "type": "object"
+      }
+    },
+    {
+      "name": "delete_issue",
+      "description": "Delete an existing Jira issue.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "issue_key": {
+            "description": "Jira issue key, for example MOCK-1",
+            "pattern": "^[A-Z][A-Z0-9_]*-\\d+$",
+            "type": "string"
+          },
+          "site_id": {
+            "default": "default",
+            "description": "Jira site ID. Defaults to the default site.",
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "issue_key"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": {
+          "type": "string"
+        },
+        "type": "object"
+      }
+    },
+    {
+      "name": "export_state",
+      "description": "Export the full Jira state as JSON.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {},
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "type": "object"
+      }
+    },
+    {
+      "name": "get_attachments",
+      "description": "List all attachments on a Jira issue.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "issue_key": {
+            "description": "Jira issue key, for example MOCK-1",
+            "pattern": "^[A-Z][A-Z0-9_]*-\\d+$",
+            "type": "string"
+          },
+          "site_id": {
+            "default": "default",
+            "description": "Jira site ID. Defaults to the default site.",
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "issue_key"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "type": "object"
+      }
+    },
+    {
+      "name": "get_boards",
+      "description": "Get Jira boards, optionally filtered by project key or board type.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "project_key": {
+            "anyOf": [
+              {
+                "description": "Jira project key, for example MOCK",
+                "pattern": "^[A-Z][A-Z0-9_]*$",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "board_type": {
+            "anyOf": [
+              {
+                "enum": [
+                  "scrum",
+                  "kanban"
+                ],
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "startAt": {
+            "default": 0,
+            "description": "Starting index for pagination",
+            "minimum": 0,
+            "type": "integer"
+          },
+          "limit": {
+            "default": 10,
+            "description": "Maximum number of results",
+            "maximum": 50,
+            "minimum": 0,
+            "type": "integer"
+          },
+          "site_id": {
+            "default": "default",
+            "description": "Jira site ID. Defaults to the default site.",
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "type": "object"
+      }
+    },
+    {
+      "name": "get_current_user",
+      "description": "Get the Jira user whose account is currently authenticated for tool calls.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "site_id": {
+            "default": "default",
+            "description": "Jira site ID. Defaults to the default site.",
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "type": "object"
+      }
+    },
+    {
+      "name": "get_epic_issues",
+      "description": "Get all issues linked to a specific epic.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "epic_key": {
+            "description": "Jira issue key, for example MOCK-1",
+            "pattern": "^[A-Z][A-Z0-9_]*-\\d+$",
+            "type": "string"
+          },
+          "limit": {
+            "default": 10,
+            "description": "Maximum number of results",
+            "maximum": 50,
+            "minimum": 0,
+            "type": "integer"
+          },
+          "startAt": {
+            "default": 0,
+            "description": "Starting index for pagination",
+            "minimum": 0,
+            "type": "integer"
+          },
+          "site_id": {
+            "default": "default",
+            "description": "Jira site ID. Defaults to the default site.",
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "epic_key"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "type": "object"
+      }
+    },
+    {
+      "name": "get_issue",
+      "description": "Get details of a specific Jira issue.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "issue_key": {
+            "description": "Jira issue key, for example MOCK-1",
+            "pattern": "^[A-Z][A-Z0-9_]*-\\d+$",
+            "type": "string"
+          },
+          "fields": {
+            "default": "summary,status,assignee,issuetype,priority,created,updated,description,labels",
+            "description": "Fields to return",
+            "type": "string"
+          },
+          "expand": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Optional fields to expand"
+          },
+          "comment_limit": {
+            "default": 10,
+            "description": "Maximum number of comments",
+            "type": "integer"
+          },
+          "site_id": {
+            "default": "default",
+            "description": "Jira site ID. Defaults to the default site.",
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "issue_key"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "type": "object"
+      }
+    },
+    {
+      "name": "get_link_types",
+      "description": "Get all available issue link types.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "site_id": {
+            "default": "default",
+            "description": "Jira site ID. Defaults to the default site.",
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "type": "object"
+      }
+    },
+    {
+      "name": "get_project_issues",
+      "description": "Get all issues for a specific Jira project.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "project_key": {
+            "description": "Jira project key, for example MOCK",
+            "pattern": "^[A-Z][A-Z0-9_]*$",
+            "type": "string"
+          },
+          "limit": {
+            "default": 10,
+            "description": "Maximum number of results",
+            "maximum": 50,
+            "minimum": 0,
+            "type": "integer"
+          },
+          "startAt": {
+            "default": 0,
+            "description": "Starting index for pagination",
+            "minimum": 0,
+            "type": "integer"
+          },
+          "site_id": {
+            "default": "default",
+            "description": "Jira site ID. Defaults to the default site.",
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "project_key"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "type": "object"
+      }
+    },
+    {
+      "name": "get_sprint_issues",
+      "description": "Get Jira issues from sprint.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "sprint_id": {
+            "description": "Jira sprint ID, for example 1001",
+            "pattern": "^\\d+$",
+            "type": "string"
+          },
+          "fields": {
+            "default": "summary,status,assignee,issuetype,priority,created,updated,description,labels",
+            "type": "string"
+          },
+          "startAt": {
+            "default": 0,
+            "description": "Starting index for pagination",
+            "minimum": 0,
+            "type": "integer"
+          },
+          "limit": {
+            "default": 10,
+            "description": "Maximum number of results",
+            "maximum": 50,
+            "minimum": 0,
+            "type": "integer"
+          },
+          "site_id": {
+            "default": "default",
+            "description": "Jira site ID. Defaults to the default site.",
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "sprint_id"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "type": "object"
+      }
+    },
+    {
+      "name": "get_sprints_from_board",
+      "description": "Get Jira sprints from board by state.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "board_id": {
+            "default": "1000",
+            "description": "Jira board ID, for example 1000",
+            "pattern": "^\\d+$",
+            "type": "string"
+          },
+          "state": {
+            "anyOf": [
+              {
+                "enum": [
+                  "active",
+                  "closed",
+                  "future"
+                ],
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "startAt": {
+            "default": 0,
+            "description": "Starting index for pagination",
+            "minimum": 0,
+            "type": "integer"
+          },
+          "limit": {
+            "default": 10,
+            "description": "Maximum number of results",
+            "maximum": 50,
+            "minimum": 0,
+            "type": "integer"
+          },
+          "site_id": {
+            "default": "default",
+            "description": "Jira site ID. Defaults to the default site.",
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "type": "object"
+      }
+    },
+    {
+      "name": "get_transitions",
+      "description": "Get available workflow transitions for an issue.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "issue_key": {
+            "description": "Jira issue key, for example MOCK-1",
+            "pattern": "^[A-Z][A-Z0-9_]*-\\d+$",
+            "type": "string"
+          },
+          "site_id": {
+            "default": "default",
+            "description": "Jira site ID. Defaults to the default site.",
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "issue_key"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "type": "object"
+      }
+    },
+    {
+      "name": "get_users",
+      "description": "Get Jira users, optionally filtered by query text or active status.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "query": {
+            "default": "",
+            "type": "string"
+          },
+          "active": {
+            "anyOf": [
+              {
+                "type": "boolean"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "startAt": {
+            "default": 0,
+            "description": "Starting index for pagination",
+            "minimum": 0,
+            "type": "integer"
+          },
+          "limit": {
+            "default": 10,
+            "description": "Maximum number of results",
+            "maximum": 50,
+            "minimum": 0,
+            "type": "integer"
+          },
+          "site_id": {
+            "default": "default",
+            "description": "Jira site ID. Defaults to the default site.",
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "type": "object"
+      }
+    },
+    {
+      "name": "get_watchers",
+      "description": "Get all watchers of a Jira issue.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "issue_key": {
+            "description": "Jira issue key, for example MOCK-1",
+            "pattern": "^[A-Z][A-Z0-9_]*-\\d+$",
+            "type": "string"
+          },
+          "site_id": {
+            "default": "default",
+            "description": "Jira site ID. Defaults to the default site.",
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "issue_key"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "type": "object"
+      }
+    },
+    {
+      "name": "get_worklogs",
+      "description": "Get all work logs for a Jira issue.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "issue_key": {
+            "description": "Jira issue key, for example MOCK-1",
+            "pattern": "^[A-Z][A-Z0-9_]*-\\d+$",
+            "type": "string"
+          },
+          "site_id": {
+            "default": "default",
+            "description": "Jira site ID. Defaults to the default site.",
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "issue_key"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "type": "object"
+      }
+    },
+    {
+      "name": "import_state",
+      "description": "Replace the full Jira state with provided JSON.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "state": {
+            "additionalProperties": true,
+            "type": "object"
+          }
+        },
+        "required": [
+          "state"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": {
+          "type": "boolean"
+        },
+        "type": "object"
+      }
+    },
+    {
+      "name": "link_issues",
+      "description": "Create a bidirectional link between two Jira issues.\n\nlink_type may be a configured link type name or one of its inward/outward\nlabels, such as Blocks, blocks, or is blocked by. Inward labels resolve to\nthe same canonical link type with direction reversed. Default link types are\nBlocks, Cloners, Duplicate, and Relates; call get_link_types to inspect the\ncurrent world's configured link types.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "inward_issue_key": {
+            "description": "Jira issue key, for example MOCK-1",
+            "pattern": "^[A-Z][A-Z0-9_]*-\\d+$",
+            "type": "string"
+          },
+          "outward_issue_key": {
+            "description": "Jira issue key, for example MOCK-1",
+            "pattern": "^[A-Z][A-Z0-9_]*-\\d+$",
+            "type": "string"
+          },
+          "link_type": {
+            "type": "string"
+          },
+          "comment": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "site_id": {
+            "default": "default",
+            "description": "Jira site ID. Defaults to the default site.",
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "inward_issue_key",
+          "outward_issue_key",
+          "link_type"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "type": "object"
+      }
+    },
+    {
+      "name": "list_sites",
+      "description": "List available Jira sites in the loaded mock state.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {},
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "type": "object"
+      }
+    },
+    {
+      "name": "remove_watcher",
+      "description": "Remove a watcher from a Jira issue.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "issue_key": {
+            "description": "Jira issue key, for example MOCK-1",
+            "pattern": "^[A-Z][A-Z0-9_]*-\\d+$",
+            "type": "string"
+          },
+          "account_id": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "site_id": {
+            "default": "default",
+            "description": "Jira site ID. Defaults to the default site.",
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "issue_key",
+          "account_id"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": {
+          "type": "string"
+        },
+        "type": "object"
+      }
+    },
+    {
+      "name": "search",
+      "description": "Search Jira issues using the mock's supported JQL subset.\n\nSupported filters include project, key, status, assignee, reporter, priority,\nissue type, labels, components, sprint/customfield_10002, fixVersion,\nstatusCategory, parent, created, updated, due/duedate, summary ~,\ndescription ~, and text ~. Equality, inequality, IN, NOT IN, IS EMPTY,\nIS NOT EMPTY, date comparisons, top-level OR, and ORDER BY are supported.\n\nUnsupported JQL fields/operators are reported in warningMessages and may be\nignored rather than treated as hard errors. Parenthesized OR clauses are not\nsupported and return no results with a warning. Use fields to request a\ncomma-separated field subset, or *all for the full issue fields.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "jql": {
+            "description": "JQL query string",
+            "type": "string"
+          },
+          "fields": {
+            "default": "summary,status,assignee,issuetype,priority,created,updated,description,labels",
+            "description": "Comma-separated fields to return",
+            "type": "string"
+          },
+          "limit": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": 10,
+            "description": "Maximum number of results (1-50)"
+          },
+          "startAt": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": 0,
+            "description": "Starting index for pagination"
+          },
+          "projects_filter": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Comma-separated project keys to filter"
+          },
+          "site_id": {
+            "default": "default",
+            "description": "Jira site ID. Defaults to the default site.",
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "jql"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "type": "object"
+      }
+    },
+    {
+      "name": "search_fields",
+      "description": "Search Jira fields by keyword.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "keyword": {
+            "default": "",
+            "type": "string"
+          },
+          "limit": {
+            "default": 10,
+            "description": "Maximum number of results",
+            "maximum": 50,
+            "minimum": 0,
+            "type": "integer"
+          },
+          "refresh": {
+            "default": false,
+            "type": "boolean"
+          },
+          "site_id": {
+            "default": "default",
+            "description": "Jira site ID. Defaults to the default site.",
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "items": {
+              "additionalProperties": true,
+              "type": "object"
+            },
+            "type": "array"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "type": "object",
+        "x-fastmcp-wrap-result": true
+      }
+    },
+    {
+      "name": "transition_issue",
+      "description": "Move an issue through a workflow transition.\n\ntransition_id must be one of the transitions currently available for the\nissue's status. Call get_transitions(issue_key) immediately before this tool\nto discover valid transition IDs and their target statuses.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "issue_key": {
+            "description": "Jira issue key, for example MOCK-1",
+            "pattern": "^[A-Z][A-Z0-9_]*-\\d+$",
+            "type": "string"
+          },
+          "transition_id": {
+            "description": "Jira workflow transition ID",
+            "pattern": "^\\d+$",
+            "type": "string"
+          },
+          "site_id": {
+            "default": "default",
+            "description": "Jira site ID. Defaults to the default site.",
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "issue_key",
+          "transition_id"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "type": "object"
+      }
+    },
+    {
+      "name": "update_estimate",
+      "description": "Set or update time estimates for an issue.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "issue_key": {
+            "description": "Jira issue key, for example MOCK-1",
+            "pattern": "^[A-Z][A-Z0-9_]*-\\d+$",
+            "type": "string"
+          },
+          "original_estimate": {
+            "pattern": "^(?:\\d+\\s*[wdhm]\\s*)+$",
+            "type": "string"
+          },
+          "remaining_estimate": {
+            "anyOf": [
+              {
+                "pattern": "^(?:\\d+\\s*[wdhm]\\s*)+$",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "site_id": {
+            "default": "default",
+            "description": "Jira site ID. Defaults to the default site.",
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "issue_key",
+          "original_estimate"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "type": "object"
+      }
+    },
+    {
+      "name": "update_issue",
+      "description": "Update editable Jira issue fields. Use transition_issue for status/workflow changes.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "issue_key": {
+            "description": "Jira issue key, for example MOCK-1",
+            "pattern": "^[A-Z][A-Z0-9_]*-\\d+$",
+            "type": "string"
+          },
+          "fields": {
+            "description": "JSON object string of editable issue fields. Supports summary, description, priority, assignee, and labels. Example: {\"summary\":\"New title\",\"description\":\"Updated details\",\"labels\":[\"backend\"]}. Do not use this for status changes; use get_transitions and transition_issue instead.",
+            "type": "string"
+          },
+          "site_id": {
+            "default": "default",
+            "description": "Jira site ID. Defaults to the default site.",
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "issue_key",
+          "fields"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "type": "object"
+      }
+    },
+    {
+      "name": "update_sprint",
+      "description": "Update Jira sprint.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "sprint_id": {
+            "description": "Jira sprint ID, for example 1001",
+            "pattern": "^\\d+$",
+            "type": "string"
+          },
+          "sprint_name": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "state": {
+            "anyOf": [
+              {
+                "enum": [
+                  "active",
+                  "closed",
+                  "future"
+                ],
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "start_date": {
+            "anyOf": [
+              {
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:\\.\\d+)?(?:Z|[+-]\\d{2}:?\\d{2})$",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "end_date": {
+            "anyOf": [
+              {
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:\\.\\d+)?(?:Z|[+-]\\d{2}:?\\d{2})$",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "goal": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "site_id": {
+            "default": "default",
+            "description": "Jira site ID. Defaults to the default site.",
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "sprint_id"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "type": "object"
+      }
+    },
+    {
+      "name": "upsert_workflow_transition",
+      "description": "Create or update a workflow transition between configured Jira statuses. Requires is_admin=true.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "from_status": {
+            "maxLength": 255,
+            "minLength": 1,
+            "type": "string"
+          },
+          "transition_id": {
+            "pattern": "^\\d+$",
+            "type": "string"
+          },
+          "transition_name": {
+            "maxLength": 255,
+            "minLength": 1,
+            "type": "string"
+          },
+          "to_status": {
+            "maxLength": 255,
+            "minLength": 1,
+            "type": "string"
+          },
+          "site_id": {
+            "default": "default",
+            "description": "Jira site ID. Defaults to the default site.",
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "from_status",
+          "transition_id",
+          "transition_name",
+          "to_status"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "type": "object"
+      }
+    }
+  ],
+  "toolsets": {
+    "read": [
+      "get_attachments",
+      "get_boards",
+      "get_current_user",
+      "get_epic_issues",
+      "get_issue",
+      "get_link_types",
+      "get_project_issues",
+      "get_sprint_issues",
+      "get_sprints_from_board",
+      "get_transitions",
+      "get_users",
+      "get_watchers",
+      "get_worklogs",
+      "list_sites",
+      "search",
+      "search_fields"
+    ],
+    "write": [
+      "add_attachment",
+      "add_comment",
+      "add_watcher",
+      "add_worklog",
+      "create_board",
+      "create_status",
+      "create_issue",
+      "create_sprint",
+      "create_user",
+      "delete_issue",
+      "link_issues",
+      "remove_watcher",
+      "transition_issue",
+      "update_estimate",
+      "update_issue",
+      "update_sprint",
+      "upsert_workflow_transition"
+    ],
+    "users": [
+      "create_user",
+      "get_current_user",
+      "get_users"
+    ],
+    "sites": [
+      "list_sites"
+    ],
+    "issues": [
+      "create_issue",
+      "delete_issue",
+      "get_epic_issues",
+      "get_issue",
+      "get_link_types",
+      "get_project_issues",
+      "link_issues",
+      "search",
+      "search_fields",
+      "update_issue"
+    ],
+    "workflow": [
+      "create_status",
+      "get_transitions",
+      "transition_issue",
+      "upsert_workflow_transition"
+    ],
+    "sprints": [
+      "create_board",
+      "create_sprint",
+      "get_boards",
+      "get_sprint_issues",
+      "get_sprints_from_board",
+      "update_sprint"
+    ],
+    "time": [
+      "add_worklog",
+      "get_worklogs",
+      "update_estimate"
+    ],
+    "collaboration": [
+      "add_attachment",
+      "add_comment",
+      "add_watcher",
+      "get_attachments",
+      "get_watchers",
+      "remove_watcher"
+    ],
+    "admin": [
+      "create_board",
+      "create_status",
+      "create_user",
+      "create_sprint",
+      "delete_issue",
+      "update_sprint",
+      "upsert_workflow_transition"
+    ],
+    "core": [
+      "add_comment",
+      "create_issue",
+      "get_issue",
+      "get_project_issues",
+      "get_transitions",
+      "get_current_user",
+      "get_users",
+      "search",
+      "transition_issue",
+      "update_issue",
+      "create_sprint",
+      "delete_issue",
+      "get_epic_issues",
+      "get_link_types",
+      "get_sprint_issues",
+      "get_sprints_from_board",
+      "link_issues",
+      "search_fields",
+      "update_sprint"
+    ],
+    "toolathlon_legacy": [
+      "add_comment",
+      "create_issue",
+      "create_sprint",
+      "delete_issue",
+      "get_epic_issues",
+      "get_boards",
+      "get_current_user",
+      "get_issue",
+      "get_link_types",
+      "get_project_issues",
+      "get_users",
+      "get_sprint_issues",
+      "get_sprints_from_board",
+      "link_issues",
+      "search",
+      "search_fields",
+      "update_issue",
+      "update_sprint"
+    ],
+    "state": [
+      "export_state",
+      "import_state"
+    ]
+  }
+}

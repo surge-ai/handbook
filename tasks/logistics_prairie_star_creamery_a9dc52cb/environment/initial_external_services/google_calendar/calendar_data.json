@@ -1,0 +1,684 @@
+{
+  "events": {
+    "evt-001": {
+      "summary": "Inbound Waco Transfer \u2013 Manifest 2026-01-07-001",
+      "start": {
+        "dateTime": "2026-01-07T09:00:00-06:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-01-07T11:00:00-06:00",
+        "timeZone": "America/Chicago"
+      },
+      "location": "Houston DC \u2013 Receiving Dock",
+      "description": "Manifest 2026-01-07-001. 20 pallets, 400 cases. SC-001/SC-002.",
+      "id": "evt-001"
+    },
+    "evt-002": {
+      "summary": "Weekly Expiry Review",
+      "start": {
+        "dateTime": "2026-01-05T08:00:00-06:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-01-05T09:00:00-06:00",
+        "timeZone": "America/Chicago"
+      },
+      "id": "evt-002"
+    },
+    "evt-003": {
+      "summary": "Vendor Delivery \u2013 Gulf Coast Packaging (PKG-01-PO-1042)",
+      "start": {
+        "dateTime": "2026-01-13T10:00:00-06:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-01-13T11:30:00-06:00",
+        "timeZone": "America/Chicago"
+      },
+      "location": "Houston DC \u2013 Receiving Dock",
+      "description": "PO PKG-01-PO-1042. Pint containers & lids.",
+      "id": "evt-003"
+    },
+    "evt-004": {
+      "summary": "Weekly Expiry Review",
+      "start": {
+        "dateTime": "2026-01-12T08:00:00-06:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-01-12T09:00:00-06:00",
+        "timeZone": "America/Chicago"
+      },
+      "id": "evt-004"
+    },
+    "evt-005": {
+      "summary": "Inbound Waco Transfer \u2013 Manifest 2026-01-21-001",
+      "start": {
+        "dateTime": "2026-01-21T09:30:00-06:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-01-21T11:30:00-06:00",
+        "timeZone": "America/Chicago"
+      },
+      "location": "Houston DC \u2013 Receiving Dock",
+      "description": "Manifest 2026-01-21-001. 18 pallets, 360 cases.",
+      "id": "evt-005"
+    },
+    "evt-006": {
+      "summary": "Weekly Expiry Review",
+      "start": {
+        "dateTime": "2026-01-19T08:00:00-06:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-01-19T09:00:00-06:00",
+        "timeZone": "America/Chicago"
+      },
+      "id": "evt-006"
+    },
+    "evt-007": {
+      "summary": "Inbound Waco Transfer \u2013 Manifest 2026-01-28-001",
+      "start": {
+        "dateTime": "2026-01-28T09:00:00-06:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-01-28T11:00:00-06:00",
+        "timeZone": "America/Chicago"
+      },
+      "location": "Houston DC \u2013 Receiving Dock",
+      "description": "Manifest 2026-01-28-001. 22 pallets, 440 cases. SC-001/SC-002/SC-005.",
+      "id": "evt-007"
+    },
+    "evt-008": {
+      "summary": "Weekly Expiry Review",
+      "start": {
+        "dateTime": "2026-01-26T08:00:00-06:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-01-26T09:00:00-06:00",
+        "timeZone": "America/Chicago"
+      },
+      "id": "evt-008"
+    },
+    "evt-009": {
+      "summary": "Vendor Delivery \u2013 Southern Wrap Co. (PKG-02-PO-0887)",
+      "start": {
+        "dateTime": "2026-02-05T09:00:00-06:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-02-05T11:00:00-06:00",
+        "timeZone": "America/Chicago"
+      },
+      "location": "Houston DC \u2013 Receiving Dock",
+      "description": "PO PKG-02-PO-0887. Sandwich wrappers & cartons.",
+      "id": "evt-009"
+    },
+    "evt-010": {
+      "summary": "Weekly Expiry Review",
+      "start": {
+        "dateTime": "2026-02-02T08:00:00-06:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-02-02T09:00:00-06:00",
+        "timeZone": "America/Chicago"
+      },
+      "id": "evt-010"
+    },
+    "evt-011": {
+      "summary": "Inbound Waco Transfer \u2013 Manifest 2026-02-10-001",
+      "start": {
+        "dateTime": "2026-02-10T09:00:00-06:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-02-10T11:00:00-06:00",
+        "timeZone": "America/Chicago"
+      },
+      "location": "Houston DC \u2013 Receiving Dock",
+      "description": "Manifest 2026-02-10-001. 24 pallets, 480 cases. SP-001/SP-002.",
+      "id": "evt-011"
+    },
+    "evt-012": {
+      "summary": "Weekly Expiry Review",
+      "start": {
+        "dateTime": "2026-02-09T08:00:00-06:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-02-09T09:00:00-06:00",
+        "timeZone": "America/Chicago"
+      },
+      "id": "evt-012"
+    },
+    "evt-013": {
+      "summary": "Vendor Delivery \u2013 Arctic Express Dry Ice (ICE-01-PO-0334)",
+      "start": {
+        "dateTime": "2026-02-17T11:00:00-06:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-02-17T12:00:00-06:00",
+        "timeZone": "America/Chicago"
+      },
+      "location": "Houston DC \u2013 Receiving Dock",
+      "description": "PO ICE-01-PO-0334. Dry ice.",
+      "id": "evt-013"
+    },
+    "evt-014": {
+      "summary": "Weekly Expiry Review",
+      "start": {
+        "dateTime": "2026-02-16T08:00:00-06:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-02-16T09:00:00-06:00",
+        "timeZone": "America/Chicago"
+      },
+      "id": "evt-014"
+    },
+    "evt-015": {
+      "summary": "Inbound Waco Transfer \u2013 Manifest 2026-02-24-001",
+      "start": {
+        "dateTime": "2026-02-24T09:00:00-06:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-02-24T11:00:00-06:00",
+        "timeZone": "America/Chicago"
+      },
+      "location": "Houston DC \u2013 Receiving Dock",
+      "description": "Manifest 2026-02-24-001. 20 pallets, 400 cases.",
+      "id": "evt-015"
+    },
+    "evt-016": {
+      "summary": "Weekly Expiry Review",
+      "start": {
+        "dateTime": "2026-02-23T08:00:00-06:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-02-23T09:00:00-06:00",
+        "timeZone": "America/Chicago"
+      },
+      "id": "evt-016"
+    },
+    "evt-017": {
+      "summary": "Q1 Vendor Scorecard \u2013 Quarterly Aggregates Due",
+      "start": {
+        "date": "2026-03-31"
+      },
+      "end": {
+        "date": "2026-04-01"
+      },
+      "id": "evt-017"
+    },
+    "evt-018": {
+      "summary": "Quarterly Wall-to-Wall Cycle Count \u2013 Q1",
+      "start": {
+        "date": "2026-03-30"
+      },
+      "end": {
+        "date": "2026-03-31"
+      },
+      "id": "evt-018"
+    },
+    "evt-019": {
+      "summary": "Vendor Delivery \u2013 Gulf Coast Packaging (PKG-01-PO-1101)",
+      "start": {
+        "dateTime": "2026-03-04T09:00:00-06:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-03-04T11:00:00-06:00",
+        "timeZone": "America/Chicago"
+      },
+      "location": "Houston DC \u2013 Receiving Dock",
+      "description": "PO PKG-01-PO-1101. Pint containers & lids.",
+      "id": "evt-019"
+    },
+    "evt-020": {
+      "summary": "Weekly Expiry Review",
+      "start": {
+        "dateTime": "2026-03-02T08:00:00-06:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-03-02T09:00:00-06:00",
+        "timeZone": "America/Chicago"
+      },
+      "id": "evt-020"
+    },
+    "evt-021": {
+      "summary": "Inbound Waco Transfer \u2013 Manifest 2026-03-11-001",
+      "start": {
+        "dateTime": "2026-03-11T09:15:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-03-11T11:15:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "location": "Shreveport DC \u2013 Receiving Dock",
+      "description": "Manifest 2026-03-11-001. 16 pallets, 320 cases. SN-001.",
+      "id": "evt-021"
+    },
+    "evt-022": {
+      "summary": "Weekly Expiry Review",
+      "start": {
+        "dateTime": "2026-03-09T08:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-03-09T09:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "id": "evt-022"
+    },
+    "evt-023": {
+      "summary": "Vendor Delivery \u2013 Heartland Bakery Supply (DRY-01-PO-0561)",
+      "start": {
+        "dateTime": "2026-03-16T09:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-03-16T11:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "location": "Shreveport DC \u2013 Receiving Dock",
+      "description": "PO DRY-01-PO-0561. Waffle cones & cookie shells.",
+      "id": "evt-023"
+    },
+    "evt-024": {
+      "summary": "Weekly Expiry Review",
+      "start": {
+        "dateTime": "2026-03-16T08:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-03-16T09:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "id": "evt-024"
+    },
+    "evt-025": {
+      "summary": "Inbound Waco Transfer \u2013 Manifest 2026-03-25-001",
+      "start": {
+        "dateTime": "2026-03-25T09:30:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-03-25T11:30:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "location": "Houston DC \u2013 Receiving Dock",
+      "description": "Manifest 2026-03-25-001. 18 pallets, 360 cases. SW-001/SW-002/SW-003.",
+      "id": "evt-025"
+    },
+    "evt-026": {
+      "summary": "Weekly Expiry Review",
+      "start": {
+        "dateTime": "2026-03-23T08:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-03-23T09:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "id": "evt-026"
+    },
+    "evt-027": {
+      "summary": "Inbound Waco Transfer \u2013 Manifest 2026-03-31-001",
+      "start": {
+        "dateTime": "2026-03-31T08:45:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-03-31T10:45:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "location": "Houston DC \u2013 Receiving Dock",
+      "description": "Manifest 2026-03-31-001. 22 pallets, 440 cases. SC-001/SC-002/SC-005.",
+      "id": "evt-027"
+    },
+    "evt-028": {
+      "summary": "Weekly Expiry Review",
+      "start": {
+        "dateTime": "2026-03-30T08:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-03-30T09:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "id": "evt-028"
+    },
+    "evt-029": {
+      "summary": "Inbound Waco Transfer \u2013 Manifest 2026-04-02-001",
+      "start": {
+        "dateTime": "2026-04-02T09:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-02T11:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "location": "Houston DC \u2013 Receiving Dock",
+      "description": "Manifest 2026-04-02-001. 20 pallets, 400 cases. SC-001/SC-003/SC-007.",
+      "id": "evt-029"
+    },
+    "evt-030": {
+      "summary": "TexPal Pallet Delivery (PAL-01) \u2013 1st of Month",
+      "start": {
+        "dateTime": "2026-04-01T09:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-01T10:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "location": "Houston DC \u2013 Receiving Dock",
+      "id": "evt-030"
+    },
+    "evt-031": {
+      "summary": "Weekly Expiry Review",
+      "start": {
+        "dateTime": "2026-04-06T08:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-06T09:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "id": "evt-031"
+    },
+    "evt-032": {
+      "summary": "Inbound Waco Transfer \u2013 Manifest 2026-04-08-001",
+      "start": {
+        "dateTime": "2026-04-08T09:15:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-08T11:15:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "location": "Houston DC \u2013 Receiving Dock",
+      "description": "Manifest 2026-04-08-001. 22 pallets, 440 cases. SC-001/SC-004/SC-008.",
+      "id": "evt-032"
+    },
+    "evt-033": {
+      "summary": "Vendor Delivery \u2013 Gulf Coast Packaging (PKG-01) \u2013 Scheduled",
+      "start": {
+        "dateTime": "2026-04-07T10:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-07T11:30:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "location": "Houston DC \u2013 Receiving Dock",
+      "description": "PKG-01. Pint containers & lids.",
+      "id": "evt-033"
+    },
+    "evt-034": {
+      "summary": "Weekly Expiry Review",
+      "start": {
+        "dateTime": "2026-04-13T08:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-13T09:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "id": "evt-034"
+    },
+    "evt-035": {
+      "summary": "Inbound Waco Transfer \u2013 Manifest 2026-04-15-001",
+      "start": {
+        "dateTime": "2026-04-15T08:30:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-15T10:30:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "location": "Houston DC \u2013 Receiving Dock",
+      "description": "Manifest 2026-04-15-001. 20 pallets, 400 cases. SC-002/SP-001/SW-001.",
+      "id": "evt-035"
+    },
+    "evt-036": {
+      "summary": "TexPal Pallet Delivery (PAL-01) \u2013 15th of Month",
+      "start": {
+        "dateTime": "2026-04-15T11:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-15T12:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "location": "Houston DC \u2013 Receiving Dock",
+      "id": "evt-036"
+    },
+    "evt-037": {
+      "summary": "Vendor Delivery \u2013 Southern Wrap Co. (PKG-02) \u2013 Scheduled",
+      "start": {
+        "dateTime": "2026-04-16T10:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-16T11:30:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "location": "Houston DC \u2013 Receiving Dock",
+      "description": "PKG-02. Sandwich wrappers & cartons.",
+      "id": "evt-037"
+    },
+    "evt-038": {
+      "summary": "Weekly Expiry Review",
+      "start": {
+        "dateTime": "2026-04-20T08:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-20T09:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "id": "evt-038"
+    },
+    "evt-039": {
+      "summary": "Vendor Delivery \u2013 Lone Star Toppings Co. (DRY-02) \u2013 Scheduled",
+      "start": {
+        "dateTime": "2026-04-22T09:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-22T10:30:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "location": "Houston DC \u2013 Receiving Dock",
+      "description": "DRY-02. Toppings & inclusions.",
+      "id": "evt-039"
+    },
+    "evt-040": {
+      "summary": "Vendor Delivery \u2013 CleanPro Industrial (CLN-01) \u2013 Scheduled",
+      "start": {
+        "dateTime": "2026-04-24T09:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-24T10:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "location": "Houston DC \u2013 Receiving Dock",
+      "description": "CLN-01. Cleaning supplies & sanitation chemicals.",
+      "id": "evt-040"
+    },
+    "evt-041": {
+      "summary": "Weekly Expiry Review",
+      "start": {
+        "dateTime": "2026-04-27T08:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-27T09:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "id": "evt-041"
+    },
+    "evt-042": {
+      "summary": "TexPal Pallet Delivery (PAL-01) \u2013 1st of Month",
+      "start": {
+        "dateTime": "2026-05-01T09:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-05-01T10:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "location": "Houston DC \u2013 Receiving Dock",
+      "id": "evt-042"
+    },
+    "evt-043": {
+      "summary": "Weekly Expiry Review",
+      "start": {
+        "dateTime": "2026-05-04T08:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-05-04T09:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "id": "evt-043"
+    },
+    "evt-044": {
+      "summary": "Vendor Delivery \u2013 Gulf Coast Packaging (PKG-01) \u2013 Scheduled",
+      "start": {
+        "dateTime": "2026-05-05T10:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-05-05T11:30:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "location": "Houston DC \u2013 Receiving Dock",
+      "description": "PKG-01. Pint containers & lids.",
+      "id": "evt-044"
+    },
+    "evt-045": {
+      "summary": "Weekly Expiry Review",
+      "start": {
+        "dateTime": "2026-05-11T08:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-05-11T09:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "id": "evt-045"
+    },
+    "evt-046": {
+      "summary": "TexPal Pallet Delivery (PAL-01) \u2013 15th of Month",
+      "start": {
+        "dateTime": "2026-05-15T09:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-05-15T10:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "location": "Houston DC \u2013 Receiving Dock",
+      "id": "evt-046"
+    },
+    "evt-047": {
+      "summary": "Weekly Expiry Review",
+      "start": {
+        "dateTime": "2026-05-18T08:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-05-18T09:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "id": "evt-047"
+    },
+    "evt-048": {
+      "summary": "Vendor Delivery \u2013 Heartland Bakery Supply (DRY-01) \u2013 Scheduled",
+      "start": {
+        "dateTime": "2026-05-18T09:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-05-18T10:30:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "location": "Houston DC \u2013 Receiving Dock",
+      "description": "DRY-01. Waffle cones & cookie shells.",
+      "id": "evt-048"
+    },
+    "evt-049": {
+      "summary": "Weekly Expiry Review",
+      "start": {
+        "dateTime": "2026-05-25T08:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-05-25T09:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "id": "evt-049"
+    },
+    "evt-050": {
+      "summary": "Q2 Vendor Scorecard \u2013 Quarterly Aggregates Due",
+      "start": {
+        "date": "2026-06-30"
+      },
+      "end": {
+        "date": "2026-07-01"
+      },
+      "id": "evt-050"
+    },
+    "evt-051": {
+      "summary": "Quarterly Wall-to-Wall Cycle Count \u2013 Q2",
+      "start": {
+        "date": "2026-06-29"
+      },
+      "end": {
+        "date": "2026-06-30"
+      },
+      "id": "evt-051"
+    },
+    "evt-052": {
+      "summary": "Vendor Delivery \u2013 CleanPro Industrial (CLN-01) \u2013 Scheduled",
+      "start": {
+        "dateTime": "2026-05-22T09:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-05-22T10:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "location": "Houston DC \u2013 Receiving Dock",
+      "description": "CLN-01. Cleaning supplies & sanitation chemicals.",
+      "id": "evt-052"
+    },
+    "evt-053": {
+      "summary": "Vendor Delivery \u2013 Lone Star Toppings Co. (DRY-02) \u2013 Scheduled",
+      "start": {
+        "dateTime": "2026-05-27T09:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-05-27T10:30:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "location": "Houston DC \u2013 Receiving Dock",
+      "description": "DRY-02. Toppings & inclusions.",
+      "id": "evt-053"
+    }
+  }
+}

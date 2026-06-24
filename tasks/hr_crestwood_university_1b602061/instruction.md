@@ -1,0 +1,1 @@
+I've been out since the 8th on sick leave and am probably way behind. Can you handle everything in the inbox, and can you make any actions on my behalf that haven't already been handled? I've included our SOP and all relevant files here if you can just take a look at everything for me. Thanks so much

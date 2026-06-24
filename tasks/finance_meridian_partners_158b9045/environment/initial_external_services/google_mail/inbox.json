@@ -1,0 +1,1129 @@
+{
+  "mailbox": {
+    "email": "tara.okonkwo@meridianpartners.com",
+    "name": "Tara Okonkwo"
+  },
+  "contacts": [
+    {
+      "email": "maria.santos@meridianpartners.com",
+      "name": "Maria Santos"
+    },
+    {
+      "email": "raj.patel@meridianpartners.com",
+      "name": "Raj Patel"
+    },
+    {
+      "email": "jennifer.walsh@meridianpartners.com",
+      "name": "Jennifer Walsh"
+    },
+    {
+      "email": "kevin.rhodes@meridianpartners.com",
+      "name": "Kevin Rhodes"
+    },
+    {
+      "email": "lisa.chen@meridianpartners.com",
+      "name": "Lisa Chen"
+    },
+    {
+      "email": "invoices@apexoffice.com",
+      "name": "Apex Office Supply - AR"
+    },
+    {
+      "email": "ar@cascadeit.com",
+      "name": "Cascade IT Hardware - AR"
+    },
+    {
+      "email": "billing@techedge.io",
+      "name": "TechEdge Solutions - Billing"
+    },
+    {
+      "email": "invoices@metrocleaning.com",
+      "name": "Metro Cleaning Co"
+    },
+    {
+      "email": "billing@cloudninesw.com",
+      "name": "CloudNine Software - Billing"
+    },
+    {
+      "email": "leasing@graniteproperties.com",
+      "name": "Granite Properties LLC - Leasing"
+    },
+    {
+      "email": "accounts@premierstaffing.com",
+      "name": "Premier Staffing Group - Accounts"
+    },
+    {
+      "email": "billing@blueskycomm.com",
+      "name": "BlueSky Communications - Billing"
+    },
+    {
+      "email": "service@freshbrewcoffee.com",
+      "name": "FreshBrew Coffee Service"
+    },
+    {
+      "email": "ar@nationexpress.com",
+      "name": "National Express Shipping - AR"
+    },
+    {
+      "email": "billing@datastreamanalytics.com",
+      "name": "DataStream Analytics - Billing"
+    },
+    {
+      "email": "info@pinnacleprint.com",
+      "name": "Pinnacle Print Services"
+    },
+    {
+      "email": "s.harrison@harrisoncolellp.com",
+      "name": "Sarah Harrison"
+    },
+    {
+      "email": "billing@harrisoncolellp.com",
+      "name": "Harrison & Cole LLP - Billing"
+    },
+    {
+      "email": "r.dunn@clearpathtalent.com",
+      "name": "Rachel Dunn"
+    },
+    {
+      "email": "ar@brightideasmktg.com",
+      "name": "Bright Ideas Marketing - AR"
+    },
+    {
+      "email": "billing@securenetcompliance.com",
+      "name": "SecureNet Compliance - Billing"
+    },
+    {
+      "email": "billing@redwoodfurniture.com",
+      "name": "Redwood Furniture Co - Billing"
+    },
+    {
+      "email": "payroll@meridianpartners.com",
+      "name": "Meridian Payroll"
+    },
+    {
+      "email": "david.kim@meridianpartners.com",
+      "name": "David Kim"
+    },
+    {
+      "email": "pnolan@evergreenfm.com",
+      "name": "Patrick Nolan"
+    },
+    {
+      "email": "billing@evergreenfm.com",
+      "name": "EverGreen Facilities - Billing"
+    },
+    {
+      "email": "angela.martinez@meridianpartners.com",
+      "name": "Angela Martinez"
+    },
+    {
+      "email": "chargrove@hargrovepllc.com",
+      "name": "Catherine Hargrove"
+    },
+    {
+      "email": "billing@hargrovepllc.com",
+      "name": "Hargrove & Associates - Billing"
+    },
+    {
+      "email": "billing@summitcoaching.com",
+      "name": "Summit Executive Coaching - Billing"
+    },
+    {
+      "email": "t.matthews@pinnacleprint-global.com",
+      "name": "Thomas Matthews"
+    }
+  ],
+  "groups": [
+    {
+      "email": "ap.team@meridianpartners.com",
+      "name": "AP Team",
+      "members": [
+        "tara.okonkwo@meridianpartners.com",
+        "maria.santos@meridianpartners.com"
+      ]
+    },
+    {
+      "email": "all-finance@meridianpartners.com",
+      "name": "Finance Department",
+      "members": [
+        "tara.okonkwo@meridianpartners.com",
+        "maria.santos@meridianpartners.com",
+        "raj.patel@meridianpartners.com",
+        "kevin.rhodes@meridianpartners.com"
+      ]
+    }
+  ],
+  "folders": [
+    {
+      "name": "Vendor Invoices"
+    },
+    {
+      "name": "Approvals"
+    },
+    {
+      "name": "Vendor Setup"
+    },
+    {
+      "name": "Archive/2025-Q2"
+    }
+  ],
+  "emails": [
+    {
+      "email_id": "1",
+      "folder": "INBOX",
+      "subject": "September Recurring Invoices - Action Needed",
+      "from_addr": "maria.santos@meridianpartners.com",
+      "to_addr": "tara.okonkwo@meridianpartners.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-09-02T08:15:00-04:00",
+      "message_id": "<msg001@meridianpartners.com>",
+      "in_reply_to": null,
+      "body_text": "Hi Tara,\n\nHappy September! Please process the recurring invoices for September.\n\nPlease have these entered by end of day Tuesday.\n\nThanks,\nMaria Santos\nAP Manager",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "2",
+      "folder": "Vendor Invoices",
+      "subject": "Meridian Partners - September 2025 Lease Invoice",
+      "from_addr": "leasing@graniteproperties.com",
+      "to_addr": "tara.okonkwo@meridianpartners.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-09-01T07:00:00-04:00",
+      "message_id": "<inv-gp-0925@graniteproperties.com>",
+      "in_reply_to": null,
+      "body_text": "Good morning,\n\nPlease find below your September 2025 lease invoice for Suite 400, 500 Financial Center.\n\nInvoice #: GP-RENT-0925\nAmount Due: $12,500.00\nDue Date: Upon Receipt\n\nPayment should be remitted via ACH to the banking details on file. Please reference invoice number GP-RENT-0925.\n\nThank you,\nGranite Properties LLC\nLeasing Department\n(704) 555-0500",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "3",
+      "folder": "Vendor Invoices",
+      "subject": "Invoice TE-2025-0009 - IT Managed Services September 2025",
+      "from_addr": "billing@techedge.io",
+      "to_addr": "tara.okonkwo@meridianpartners.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-09-01T09:30:00-04:00",
+      "message_id": "<inv-te-0009@techedge.io>",
+      "in_reply_to": null,
+      "body_text": "Dear Accounts Payable,\n\nPlease find attached your September 2025 invoice for IT Managed Services.\n\nInvoice Number: TE-2025-0009\nService Period: September 1-30, 2025\nAmount: $4,500.00\nTerms: Net 45\nDue Date: October 15, 2025\n\nAll service levels were met for the prior period. No changes to scope for September.\n\nBest regards,\nTechEdge Solutions\nBilling Department",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "4",
+      "folder": "Vendor Invoices",
+      "subject": "CloudNine - September Subscription Invoice CN-INV-09250",
+      "from_addr": "billing@cloudninesw.com",
+      "to_addr": "tara.okonkwo@meridianpartners.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-09-01T06:00:00-04:00",
+      "message_id": "<inv-cn-09250@cloudninesw.com>",
+      "in_reply_to": null,
+      "body_text": "Meridian Partners, LLC\n\nYour monthly subscription invoice is ready.\n\nInvoice: CN-INV-09250\nSubscription: CloudNine Enterprise Platform - 50 seats\nPeriod: September 2025\nAmount: $3,200.00\nTerms: Net 45\n\nPay online at billing.cloudninesw.com or via ACH to banking details on file.\n\n---\nCloudNine Software\nAutomated Billing Notification",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "5",
+      "folder": "Vendor Invoices",
+      "subject": "Metro Cleaning - September 2025 Service Invoice",
+      "from_addr": "invoices@metrocleaning.com",
+      "to_addr": "tara.okonkwo@meridianpartners.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-09-01T10:00:00-04:00",
+      "message_id": "<inv-mc-sep25@metrocleaning.com>",
+      "in_reply_to": null,
+      "body_text": "Hello,\n\nAttached is your September 2025 cleaning services invoice.\n\nInvoice Number: MC-SEP-2025\nService: Commercial cleaning - Suite 400, 500 Financial Center\nAmount: $1,800.00\nTerms: Net 30\n\nPlease let us know if you have any questions.\n\nMetro Cleaning Co\n(704) 555-0312",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "6",
+      "folder": "Sent",
+      "subject": "August Close - Payment Batch 2025-09-02 Processed",
+      "from_addr": "tara.okonkwo@meridianpartners.com",
+      "to_addr": "maria.santos@meridianpartners.com",
+      "cc_addr": "raj.patel@meridianpartners.com",
+      "bcc_addr": null,
+      "date": "2025-09-02T14:30:00-04:00",
+      "message_id": "<msg006@meridianpartners.com>",
+      "in_reply_to": null,
+      "body_text": "Hi Maria,\n\nThe August close payment batch has been processed.\n\nBatch ID: 2025-09-02\nTotal Payments: 2\nTotal Amount: $13,625.00\nMethod: ACH\n\nVendors paid:\n- Cascade IT Hardware (INV-38601) - $1,125.00\n- Granite Properties LLC (GP-RENT-0925) - $12,500.00\n\nBatch file saved to Payment_Batches/batch_2025-09-02.xlsx\n\nTara Okonkwo\nAP Specialist",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "7",
+      "folder": "INBOX",
+      "subject": "Re: August Close Package - Approved",
+      "from_addr": "raj.patel@meridianpartners.com",
+      "to_addr": "maria.santos@meridianpartners.com",
+      "cc_addr": "tara.okonkwo@meridianpartners.com",
+      "bcc_addr": null,
+      "date": "2025-09-03T09:15:00-04:00",
+      "message_id": "<msg007@meridianpartners.com>",
+      "in_reply_to": "<msg006@meridianpartners.com>",
+      "body_text": "Maria, Tara,\n\nAugust close package looks good. Aging report is clean, reconciliation balanced. Approved.\n\nWell done on a smooth close.\n\nRaj Patel\nController",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "8",
+      "folder": "Vendor Invoices",
+      "subject": "Invoice INV-38720 - Wireless Keyboards and Mice",
+      "from_addr": "ar@cascadeit.com",
+      "to_addr": "tara.okonkwo@meridianpartners.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-09-02T11:45:00-04:00",
+      "message_id": "<inv-38720@cascadeit.com>",
+      "in_reply_to": null,
+      "body_text": "Dear Meridian Partners AP Team,\n\nPlease find attached invoice INV-38720 for the following order:\n\nPO Reference: PO-2025-00117\nInvoice Number: INV-38720\nDate: 09/02/2025\n\nItems:\n  30x Wireless Keyboard and Mouse Set @ $65.00 = $1,950.00\n\nTotal: $1,950.00\nTerms: Net 30\n\nGoods were delivered and signed for on 09/01/2025. Delivery receipt attached.\n\nThank you,\nAccounts Receivable\nCascade IT Hardware\n(919) 555-0287",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "9",
+      "folder": "Vendor Invoices",
+      "subject": "BlueSky - September 2025 Telecom Services",
+      "from_addr": "billing@blueskycomm.com",
+      "to_addr": "tara.okonkwo@meridianpartners.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-09-02T08:00:00-04:00",
+      "message_id": "<inv-bsc-0925@blueskycomm.com>",
+      "in_reply_to": null,
+      "body_text": "Meridian Partners, LLC\nAccount #: BSC-MER-4420\n\nSeptember 2025 Service Invoice\n\nInvoice Number: BSC-2025-09\n\nServices:\n  VoIP Service - 50 lines: $1,600.00\n  Dedicated Internet 1Gbps: $500.00\n\nTotal Due: $2,100.00\nTerms: Net 30\nDue Date: 10/02/2025\n\nBlueSky Communications\nBilling Department\n(404) 555-0388",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "10",
+      "folder": "Sent",
+      "subject": "September Recurring Invoices - All Entered",
+      "from_addr": "tara.okonkwo@meridianpartners.com",
+      "to_addr": "maria.santos@meridianpartners.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-09-02T16:45:00-04:00",
+      "message_id": "<msg010@meridianpartners.com>",
+      "in_reply_to": "<msg001@meridianpartners.com>",
+      "body_text": "Hi Maria,\n\nAll September recurring invoices have been entered and are ready for review.\n\nTara",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "11",
+      "folder": "Vendor Invoices",
+      "subject": "Temp Staffing Invoice - Week of 9/1",
+      "from_addr": "accounts@premierstaffing.com",
+      "to_addr": "tara.okonkwo@meridianpartners.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-09-03T10:00:00-04:00",
+      "message_id": "<inv-psg-1205@premierstaffing.com>",
+      "in_reply_to": null,
+      "body_text": "Good morning,\n\nPlease find your weekly temporary staffing invoice below.\n\nInvoice Number: PSG-2025-1205\nService Period: September 1-5, 2025\nStaff: Data Entry Specialist (1 FTE)\nHours: 40\nRate: $93.75/hr\nTotal: $3,750.00\nTerms: Net 15\nDue Date: September 18, 2025\n\nTimesheet approved by: Lisa Chen, Office Manager\n\nPremier Staffing Group\nAccounts Receivable\n(704) 555-0721",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "12",
+      "folder": "Vendor Invoices",
+      "subject": "National Express - September Shipping Invoice NES-25-3410",
+      "from_addr": "ar@nationexpress.com",
+      "to_addr": "tara.okonkwo@meridianpartners.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-09-03T14:20:00-04:00",
+      "message_id": "<inv-nes-3410@nationexpress.com>",
+      "in_reply_to": null,
+      "body_text": "Meridian Partners, LLC\n\nInvoice: NES-25-3410\nDate: 09/03/2025\nPO Reference: PO-2025-00116\n\nShipments:\n  4x Ground Shipping, Standard @ $65.00 = $260.00\n  4x Express 2-Day, Medium Parcels @ $40.00 = $160.00\n\nTotal: $420.00\nTerms: Net 30\n\nAll shipments delivered and confirmed.\n\nNational Express Shipping\nAccounts Receivable",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "15",
+      "folder": "Sent",
+      "subject": "Re: September Recurring Invoices - Action Needed",
+      "from_addr": "tara.okonkwo@meridianpartners.com",
+      "to_addr": "maria.santos@meridianpartners.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-09-02T10:00:00-04:00",
+      "message_id": "<msg015@meridianpartners.com>",
+      "in_reply_to": "<msg001@meridianpartners.com>",
+      "body_text": "Hi Maria,\n\nGot the list, thanks. Processing the September recurring invoices now. Will have everything entered by end of day.\n\nTara",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "16",
+      "folder": "INBOX",
+      "subject": "Invoice HC-2025-0001 - Harrison & Cole LLP - Employment Law Consulting",
+      "from_addr": "s.harrison@harrisoncolellp.com",
+      "to_addr": "tara.okonkwo@meridianpartners.com",
+      "cc_addr": "billing@harrisoncolellp.com",
+      "bcc_addr": null,
+      "date": "2025-09-04T10:15:00-04:00",
+      "message_id": "<inv-hc-0001@harrisoncolellp.com>",
+      "in_reply_to": null,
+      "body_text": "Dear Accounts Payable Team,\n\nPlease find attached our invoice for legal consulting services provided to Meridian Partners in connection with your employment law review and compliance project.\n\nInvoice Summary:\n  Invoice Number: HC-2025-0001\n  Matter Reference: MER-2025-001\n  Total Amount: $5,000.00\n  Payment Terms: 2/10 Net 30\n\nI've also attached our completed W-9 form for your records, as this is our first invoice to Meridian Partners.\n\nPlease remit payment via ACH to the banking details on the invoice, or by check to our office address. Reference matter number MER-2025-001 on all payments.\n\nWe enjoyed working with Jennifer and the HR team. Please don't hesitate to reach out if you have any questions about this invoice.\n\nWarm regards,\n\nSarah M. Harrison\nManaging Partner\nHarrison & Cole LLP\n1200 Market Street, Suite 800\nPhiladelphia, PA 19107\n(215) 555-0340\ns.harrison@harrisoncolellp.com",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "HC-2025-0001_Invoice.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjQKJZOMi54gUmVwb3J0TGFiIEdlbmVyYXRlZCBQREYgZG9jdW1lbnQgKG9wZW5zb3VyY2UpCjEgMCBvYmoKPDwKL0YxIDIgMCBSIC9GMiAzIDAgUgo+PgplbmRvYmoKMiAwIG9iago8PAovQmFzZUZvbnQgL0hlbHZldGljYSAvRW5jb2RpbmcgL1dpbkFuc2lFbmNvZGluZyAvTmFtZSAvRjEgL1N1YnR5cGUgL1R5cGUxIC9UeXBlIC9Gb250Cj4+CmVuZG9iagozIDAgb2JqCjw8Ci9CYXNlRm9udCAvSGVsdmV0aWNhLUJvbGQgL0VuY29kaW5nIC9XaW5BbnNpRW5jb2RpbmcgL05hbWUgL0YyIC9TdWJ0eXBlIC9UeXBlMSAvVHlwZSAvRm9udAo+PgplbmRvYmoKNCAwIG9iago8PAovQ29udGVudHMgOCAwIFIgL01lZGlhQm94IFsgMCAwIDYxMiA3OTIgXSAvUGFyZW50IDcgMCBSIC9SZXNvdXJjZXMgPDwKL0ZvbnQgMSAwIFIgL1Byb2NTZXQgWyAvUERGIC9UZXh0IC9JbWFnZUIgL0ltYWdlQyAvSW1hZ2VJIF0KPj4gL1JvdGF0ZSAwIC9UcmFucyA8PAoKPj4gCiAgL1R5cGUgL1BhZ2UKPj4KZW5kb2JqCjUgMCBvYmoKPDwKL1BhZ2VNb2RlIC9Vc2VOb25lIC9QYWdlcyA3IDAgUiAvVHlwZSAvQ2F0YWxvZwo+PgplbmRvYmoKNiAwIG9iago8PAovQXV0aG9yIChcKGFub255bW91c1wpKSAvQ3JlYXRpb25EYXRlIChEOjIwMjYwMzI0MTA1NTMxLTA1JzAwJykgL0NyZWF0b3IgKFwodW5zcGVjaWZpZWRcKSkgL0tleXdvcmRzICgpIC9Nb2REYXRlIChEOjIwMjYwMzI0MTA1NTMxLTA1JzAwJykgL1Byb2R1Y2VyIChSZXBvcnRMYWIgUERGIExpYnJhcnkgLSBcKG9wZW5zb3VyY2VcKSkgCiAgL1N1YmplY3QgKFwodW5zcGVjaWZpZWRcKSkgL1RpdGxlIChcKGFub255bW91c1wpKSAvVHJhcHBlZCAvRmFsc2UKPj4KZW5kb2JqCjcgMCBvYmoKPDwKL0NvdW50IDEgL0tpZHMgWyA0IDAgUiBdIC9UeXBlIC9QYWdlcwo+PgplbmRvYmoKOCAwIG9iago8PAovRmlsdGVyIFsgL0FTQ0lJODVEZWNvZGUgL0ZsYXRlRGVjb2RlIF0gL0xlbmd0aCAxODI0Cj4+CnN0cmVhbQpHYXRtPGgsRT5uJSJJSERkKis0J2g0NTBwYTNJMzRmRSk6Pl5fUShnXiRMWWs/KDBTK0A/WWZkcnFAZCU6NlUsUCpUMVV0QTBrQzA6UWQiQSQzV1RDcjE1Rz5eNVYlQ09vZjJLU2NScF9MW2JnWU4vckUvOyhGKFRwYllCSVVfLHU7U3JdbV9gJTVDW01gZ3ApJ2R1Vyk+QyV1MCEmTickUU9LZ2o9JClZbmQlYFxLbGt0K04xPFpDUzojSmVhVlFrYEJTJ2BUI0l1IVEsXiJraSNsN0gvW1s3N0wnX2s/cG5WVWNOUShfYi1VNiNBWW9UYkBWTXE7V3ByWTQpQWNxZypLYUQwMykiPyNQKSlbQ3FAYjcoPEsvVFInN0c7LFtgMEJcMzFLND5sPy9VLkRVWVhgQkwsZ3JOUSxMcGoqTCknTnJMWlFIMnRhIStIXmtlbEY5Lk1OIz1lNywxdSdbKko1P2ZtTDtfcnFNQjg7WjZiVmhsPi1baVY9KGdGIVAhUy5NI0cnTzhmPDQpRVg5R2BDSzlhUjsoOjdla09WOj9XOTM0aDFJL2tUaTJAY3EvbiNDYlc3MmJXXXMjOlBVSVU4QDQsKDRsRiV0RTo1amBQc3VEakdLW3NoYXAmO3JcJE5NQzx1PHU2Rl1aSG83TW5IPlVeP3VPVkQvWyEpZzxuQm9lK111NiM1NEdHWTdiMTJYZDMmSCwqJEgsSXEhVlVrI19tKEFbaVVCIW5tQi8tcEhlUzFhVmZiSC8jQGpiTVonMixXcFFHRW4mP0VNVC5KLnVXQzMpLS82IV1tLUoybGx1ZzsuTj9SZ0UuLl1kPTRtU2ItYl50PGJGMDQyMV04J2dJNlZgUi4pLTpCKkI9MS1YNCtbN2s4Lks3R1ZsZGJacTJGSzhCS1hoXCM1bCtPKUxAIjliaEtSKXFGVklYWGVkbzNWQypTRT1DbExjckombDB0Wyl0OUFBNGRwVDtUNEJkPT8vYWZKJDRRTTdZJiVJPDovWV9aWFVNK2Y3WU4rJU1bVjZbK11vNEIhYmM9SWNoUXRxLFspWmdDJD5BPkwuTS4/VSFQPWA+Wk1CKUBvYWVyNmBfO2lALE9uSnM1aEA2Sj9ibGU+LV4pSVNlVUZALCs0YkJyWlVwWGJQcWBpRyIrUD5kO1UkbHRDNDhSTzcwKU0xWHEzczdJJVpRN2gmdUE/UkUuZF4ocjZdSW9vO2xuRC9UUyNiOEpcdVI7ND9oZkFnKTw2MFdhPz1kVWVgUlcia21rNkdKXDJeb0ZrTk8+QjlwZXEuTkIqVzVYT0hBZ0BcImdTNjQndElHWmArZG1UQGVnQHAxcykpKCtaNFIqSlBkPVVQODFcLD0vOS5nLTt0Vm8iYUM8V2tLLGhmSCozTEJDZFdsbl9lUHNeK2A1Zj8lZTRmakdPLFtyTzs6dVpQSD01VE5CXyQnKjA9QCNYWVhkN0FLQihTNDNpcjYzLzNqMTY2UidnI0xjQWxNQzxhLklPSkxNJC9AI2xMT2V0VCEzXXBJVC0iOFRnU0VSKWdrbE4wQD1POG8zRiJfXzw0dVw1MUhuJz0sT2MpaS1laVtVIkNGazVMVlU1R1AkUXVgRicoZTEqLzg/Omhnc1EoOFgxZm86JC5pL08rZShMZyxvbmhRUlBnUioxSD5OaGBjMCxbUlxVVGgxLiNnKj5nOT08RjBMIipiYT8/VWI/USNlRjFYXz51Si9kRzpjaGJwVDRzQEVfb11KUmJBU21HWVI5V1EuOGk3Oy1AOWMxYlxOTmJdZz1JKTI8RjszQSlncCUvayE9Iik/ckBbdS5NKXIsRFZqTDwyLS5ycjEpW2E3dEo1MExVN2tLV3RJLmJCOkBWbmIiS0twVUdUI2RSKHMrW1ZXYSZqJk9lZXF0bTA2R09SNiRcbmwtQVx0M2tDLW5KYE9TU2ROIVR1LXQ1I3ArO1lKY1ktakFYaEgtYGEoTkJIdS1DVVU+QiE2JS5HYGReaEhpXmBHKCslZ0RTY05lJXIpZ3E6OCtOWmlcJ1kmVnQwVV5SaTkiTjJIKk8ha2VIWW5pInNTYWBCR0Q8Wl5qXWZNTktjZ0JKRHRDP2JqKShdV2ZJam9ibmJWPClnX2JoTzVhKT40I2peT11BWTtUKFliWDJ0bEMxSDY9W1NjMFI+Mk8lZVpyWltPSiIhIjJFXVJXKW1QcV5wXCNqRGJkSWcybT00SllYK1MtTTthTUomUURZVkIoQ2UrPFdmVDxnZjBPTFU6KEM4TmI/STtKczk9MTtIT09hU2pWR15SWVpdQD9wZDJqIVQiWl1UbVJuUWB0OlYrWzJMRHQnMTJka1pzcyo0NmInYENmOFBNNTY2LyJqQnNmUkFOdVtIPmtDcVVrISNfcDI/QSNpOSsjImczOio2IlU6ImQiNElkOypyfj5lbmRzdHJlYW0KZW5kb2JqCnhyZWYKMCA5CjAwMDAwMDAwMDAgNjU1MzUgZiAKMDAwMDAwMDA2MSAwMDAwMCBuIAowMDAwMDAwMTAyIDAwMDAwIG4gCjAwMDAwMDAyMDkgMDAwMDAgbiAKMDAwMDAwMDMyMSAwMDAwMCBuIAowMDAwMDAwNTE0IDAwMDAwIG4gCjAwMDAwMDA1ODIgMDAwMDAgbiAKMDAwMDAwMDg2MiAwMDAwMCBuIAowMDAwMDAwOTIxIDAwMDAwIG4gCnRyYWlsZXIKPDwKL0lEIApbPDk2NjVlOTVkYWUwNWIyYzJiMTc0ZGViZmFlZTRhNTE5Pjw5NjY1ZTk1ZGFlMDViMmMyYjE3NGRlYmZhZWU0YTUxOT5dCiUgUmVwb3J0TGFiIGdlbmVyYXRlZCBQREYgZG9jdW1lbnQgLS0gZGlnZXN0IChvcGVuc291cmNlKQoKL0luZm8gNiAwIFIKL1Jvb3QgNSAwIFIKL1NpemUgOQo+PgpzdGFydHhyZWYKMjgzNgolJUVPRgo="
+        },
+        {
+          "filename": "Harrison_Cole_LLP_W9.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjMKJZOMi54gUmVwb3J0TGFiIEdlbmVyYXRlZCBQREYgZG9jdW1lbnQgKG9wZW5zb3VyY2UpCjEgMCBvYmoKPDwKL0YxIDIgMCBSIC9GMiAzIDAgUiAvRjMgNCAwIFIKPj4KZW5kb2JqCjIgMCBvYmoKPDwKL0Jhc2VGb250IC9IZWx2ZXRpY2EgL0VuY29kaW5nIC9XaW5BbnNpRW5jb2RpbmcgL05hbWUgL0YxIC9TdWJ0eXBlIC9UeXBlMSAvVHlwZSAvRm9udAo+PgplbmRvYmoKMyAwIG9iago8PAovQmFzZUZvbnQgL0hlbHZldGljYS1Cb2xkIC9FbmNvZGluZyAvV2luQW5zaUVuY29kaW5nIC9OYW1lIC9GMiAvU3VidHlwZSAvVHlwZTEgL1R5cGUgL0ZvbnQKPj4KZW5kb2JqCjQgMCBvYmoKPDwKL0Jhc2VGb250IC9aYXBmRGluZ2JhdHMgL05hbWUgL0YzIC9TdWJ0eXBlIC9UeXBlMSAvVHlwZSAvRm9udAo+PgplbmRvYmoKNSAwIG9iago8PAovQ29udGVudHMgOSAwIFIgL01lZGlhQm94IFsgMCAwIDYxMiA3OTIgXSAvUGFyZW50IDggMCBSIC9SZXNvdXJjZXMgPDwKL0ZvbnQgMSAwIFIgL1Byb2NTZXQgWyAvUERGIC9UZXh0IC9JbWFnZUIgL0ltYWdlQyAvSW1hZ2VJIF0KPj4gL1JvdGF0ZSAwIC9UcmFucyA8PAoKPj4gCiAgL1R5cGUgL1BhZ2UKPj4KZW5kb2JqCjYgMCBvYmoKPDwKL1BhZ2VNb2RlIC9Vc2VOb25lIC9QYWdlcyA4IDAgUiAvVHlwZSAvQ2F0YWxvZwo+PgplbmRvYmoKNyAwIG9iago8PAovQXV0aG9yIChhbm9ueW1vdXMpIC9DcmVhdGlvbkRhdGUgKEQ6MjAyNjAzMjQyMTM4MTAtMDUnMDAnKSAvQ3JlYXRvciAoYW5vbnltb3VzKSAvS2V5d29yZHMgKCkgL01vZERhdGUgKEQ6MjAyNjAzMjQyMTM4MTAtMDUnMDAnKSAvUHJvZHVjZXIgKFJlcG9ydExhYiBQREYgTGlicmFyeSAtIFwob3BlbnNvdXJjZVwpKSAKICAvU3ViamVjdCAodW5zcGVjaWZpZWQpIC9UaXRsZSAodW50aXRsZWQpIC9UcmFwcGVkIC9GYWxzZQo+PgplbmRvYmoKOCAwIG9iago8PAovQ291bnQgMSAvS2lkcyBbIDUgMCBSIF0gL1R5cGUgL1BhZ2VzCj4+CmVuZG9iago5IDAgb2JqCjw8Ci9GaWx0ZXIgWyAvQVNDSUk4NURlY29kZSAvRmxhdGVEZWNvZGUgXSAvTGVuZ3RoIDgzNwo+PgpzdHJlYW0KR2F0bTo/I1EyZCdSZkdSXDUqZC8+Lzk4RkE4Yz49QkxsaFEvUE1BKl4zSlE9R0A2ZG07dEtJJUEqQ3RlQT1dUEdMXyhwdGtNMS1ebWdUOj4/YzphaylXM0BRRGJiZ1phPlE6TTJoWXVKZkBjIWBWbXAzZUBsSls6LVI2UV9pb05PLksvN0ZGJTpAR1pPTkoicjErYURpJEo/RzFtaVRCLWAmRClyK0IxSHRwPmNNUVJLKVchVlpEbyZBK3FTMEU8VSdtViV0IzQpZi9YTW9sallQWkBFZm86TENhW1YvTUhNTTRsMUkvR1BOMllbZldrQCZsQyw5X2NcbiZmbGpWI0lDO2VZWlJ1Q2puT0JtVStUXkVTV0xNTU4kQGNMbExNZW09LVEsUThRUVQ4Mj9iX1dILDE0NktvKEBgYE9iS2JIPkBmYkAsJFBmL1wxLj1kQ3IoQHAmSiNNNSlfYSRKRE5FYGoqL2RGIllbPkhFMFRUSS00LWItO2Qib2BVP0diQUZhSjE2ZVsucWZOTzkvU1FARDtrQDxQVylXMWghWTJtOGlsNHMkNGlYRmFZLUIhdCNdZVRdYGJqMyc5Z2g+OWQxPlptQSkzJilSOlRhVEtIXVBdVD1ILGhyITs3byo2RGRlQClfMjtMLS1qa1srY2FLXTwzcWE2UHFmJ0kmJiRCP0MoJEdFJWYiRj1BJyZVL3UyJ2dHJz8na3IzNl9NLSVCQ0lLWWZ1YVxjVHRkWyQ7NmJeU0QoNCpUWD1mI3NNKko4cCdoIVtZJ0RKVV1JSHRHLmRecjhAXCM3ZjdLPkNBJlM1OCxtJG4rLD5nXTg6PzhoYlU7aFhqXixyM29GRkovRyUrTCxhLF87cSZpImhkPk9TSlovXD9Oc25RP0cwVmBSZ0VzOjRaOllNXTYqbkI8bEU0M1VjUDFDZVlsZThlTkFoQCxCb01JQSQ4cmAtISddXkhGU2lVTiIyPHJYO0VXUjZBX3VXUVVNSS0iOV9aXFVoR0gkYm1QUnFFS0d0XksjKW9BaTEwLm0zRkNkJVVgNT9RK0A/UEpdZ2NkUT0+N0coaj8vXnBPUTgmPTZuSXB1Q2pqV0UyITFgcmtKNWY7Sn4+ZW5kc3RyZWFtCmVuZG9iagp4cmVmCjAgMTAKMDAwMDAwMDAwMCA2NTUzNSBmIAowMDAwMDAwMDYxIDAwMDAwIG4gCjAwMDAwMDAxMTIgMDAwMDAgbiAKMDAwMDAwMDIxOSAwMDAwMCBuIAowMDAwMDAwMzMxIDAwMDAwIG4gCjAwMDAwMDA0MTQgMDAwMDAgbiAKMDAwMDAwMDYwNyAwMDAwMCBuIAowMDAwMDAwNjc1IDAwMDAwIG4gCjAwMDAwMDA5MzYgMDAwMDAgbiAKMDAwMDAwMDk5NSAwMDAwMCBuIAp0cmFpbGVyCjw8Ci9JRCAKWzxmNjgxNDRhYTFiODc1ZTE5MzJmNTExNDlhZDFjYjhiMz48ZjY4MTQ0YWExYjg3NWUxOTMyZjUxMTQ5YWQxY2I4YjM+XQolIFJlcG9ydExhYiBnZW5lcmF0ZWQgUERGIGRvY3VtZW50IC0tIGRpZ2VzdCAob3BlbnNvdXJjZSkKCi9JbmZvIDcgMCBSCi9Sb290IDYgMCBSCi9TaXplIDEwCj4+CnN0YXJ0eHJlZgoxOTIyCiUlRU9GCg=="
+        }
+      ]
+    },
+    {
+      "email_id": "17",
+      "folder": "Vendor Invoices",
+      "subject": "Apex Office Supply - Invoice INV-2025-09380",
+      "from_addr": "invoices@apexoffice.com",
+      "to_addr": "tara.okonkwo@meridianpartners.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-09-04T09:00:00-04:00",
+      "message_id": "<inv-09380@apexoffice.com>",
+      "in_reply_to": null,
+      "body_text": "Meridian Partners, LLC\nCustomer Account: AOS-MER-2210\n\nInvoice: INV-2025-09380\nDate: 09/04/2025\nPO: PO-2025-00118\n\nItems Shipped:\n  6x Printer Toner, HP 58X High Yield @ $70.00 = $420.00\n\nSubtotal: $420.00\nTax: $0.00\nTotal Due: $420.00\nTerms: Net 30\n\nShipped via UPS Ground. Tracking: 1Z999AA10123456784\n\nApex Office Supply\nAccounts Receivable\n(704) 555-0134",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "18",
+      "folder": "INBOX",
+      "subject": "Reminder: Finance Team Meeting - Friday 9/5",
+      "from_addr": "kevin.rhodes@meridianpartners.com",
+      "to_addr": "all-finance@meridianpartners.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-09-04T13:00:00-04:00",
+      "message_id": "<msg018@meridianpartners.com>",
+      "in_reply_to": null,
+      "body_text": "Team,\n\nJust a reminder that we have our weekly Finance team meeting tomorrow (Friday) at 10:00 AM in Conference Room B.\n\nAgenda items:\n- August close recap\n- Q3 forecast update\n- New vendor onboarding process discussion\n- Open items\n\nPlease come prepared with any updates from your areas.\n\nKevin Rhodes\nSenior Financial Analyst\nMeridian Partners, LLC",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "19",
+      "folder": "INBOX",
+      "subject": "Follow-up: August Invoice DSA-2025-0455 - Payment Status?",
+      "from_addr": "billing@datastreamanalytics.com",
+      "to_addr": "tara.okonkwo@meridianpartners.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-09-04T15:30:00-04:00",
+      "message_id": "<followup-dsa-0455@datastreamanalytics.com>",
+      "in_reply_to": null,
+      "body_text": "Hi Meridian AP Team,\n\nI'm following up on invoice DSA-2025-0455 dated August 18, 2025 for $5,800.00. Our records show this invoice is on Net 45 terms with a due date of October 2.\n\nJust wanted to confirm it's been received and is in your system. No action needed if it's on track for payment by the due date.\n\nThank you,\nBilling Department\nDataStream Analytics\n(919) 555-0433",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "20",
+      "folder": "INBOX",
+      "subject": "FreshBrew - September Service Invoice FB-0925",
+      "from_addr": "service@freshbrewcoffee.com",
+      "to_addr": "tara.okonkwo@meridianpartners.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-09-01T07:30:00-04:00",
+      "message_id": "<inv-fb-0925@freshbrewcoffee.com>",
+      "in_reply_to": null,
+      "body_text": "Good morning!\n\nHere's your September coffee service invoice.\n\nInvoice: FB-0925\nService: Premium Coffee Service - September 2025\nAmount: $390.00\nTerms: Net 15\nDue: September 16, 2025\n\nThanks for being a valued customer!\n\nFreshBrew Coffee Service\n(704) 555-0644",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "24",
+      "folder": "INBOX",
+      "subject": "Invoice CPT-2025-0412 - ClearPath Talent Solutions - Executive Search Services",
+      "from_addr": "r.dunn@clearpathtalent.com",
+      "to_addr": "tara.okonkwo@meridianpartners.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-09-03T09:20:00-04:00",
+      "message_id": "<inv-cpt-0412@clearpathtalent.com>",
+      "in_reply_to": null,
+      "body_text": "Dear Meridian Partners AP Team,\n\nAttached please find our invoice for executive search and recruitment services completed during August 2025 for the Operations Manager position.\n\nInvoice Summary:\n  Invoice Number: CPT-2025-0412\n  Project Reference: MER-OPS-2025-Q3\n  Total Amount: $5,050.00\n  Payment Terms: Net 30\n\nThis is our first invoice to Meridian Partners. I have included our W-9 form with this submission for your records.\n\nPlease remit payment via ACH to the bank details provided on the invoice, or by check to our Atlanta office. Reference project number MER-OPS-2025-Q3 on all payments.\n\nThank you for the opportunity to support your team. Please don't hesitate to reach out with any questions.\n\nWarm regards,\n\nRachel Dunn\nManaging Partner\nClearPath Talent Solutions\n2800 Peachtree Road NE, Suite 510\nAtlanta, GA 30305\n(404) 555-0291\nr.dunn@clearpathtalent.com",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "CPT-2025-0412_Invoice.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjQKJZOMi54gUmVwb3J0TGFiIEdlbmVyYXRlZCBQREYgZG9jdW1lbnQgKG9wZW5zb3VyY2UpCjEgMCBvYmoKPDwKL0YxIDIgMCBSIC9GMiAzIDAgUgo+PgplbmRvYmoKMiAwIG9iago8PAovQmFzZUZvbnQgL0hlbHZldGljYSAvRW5jb2RpbmcgL1dpbkFuc2lFbmNvZGluZyAvTmFtZSAvRjEgL1N1YnR5cGUgL1R5cGUxIC9UeXBlIC9Gb250Cj4+CmVuZG9iagozIDAgb2JqCjw8Ci9CYXNlRm9udCAvSGVsdmV0aWNhLUJvbGQgL0VuY29kaW5nIC9XaW5BbnNpRW5jb2RpbmcgL05hbWUgL0YyIC9TdWJ0eXBlIC9UeXBlMSAvVHlwZSAvRm9udAo+PgplbmRvYmoKNCAwIG9iago8PAovQ29udGVudHMgOCAwIFIgL01lZGlhQm94IFsgMCAwIDYxMiA3OTIgXSAvUGFyZW50IDcgMCBSIC9SZXNvdXJjZXMgPDwKL0ZvbnQgMSAwIFIgL1Byb2NTZXQgWyAvUERGIC9UZXh0IC9JbWFnZUIgL0ltYWdlQyAvSW1hZ2VJIF0KPj4gL1JvdGF0ZSAwIC9UcmFucyA8PAoKPj4gCiAgL1R5cGUgL1BhZ2UKPj4KZW5kb2JqCjUgMCBvYmoKPDwKL1BhZ2VNb2RlIC9Vc2VOb25lIC9QYWdlcyA3IDAgUiAvVHlwZSAvQ2F0YWxvZwo+PgplbmRvYmoKNiAwIG9iago8PAovQXV0aG9yIChcKGFub255bW91c1wpKSAvQ3JlYXRpb25EYXRlIChEOjIwMjYwMzI0MjAwMzI1LTA1JzAwJykgL0NyZWF0b3IgKFwodW5zcGVjaWZpZWRcKSkgL0tleXdvcmRzICgpIC9Nb2REYXRlIChEOjIwMjYwMzI0MjAwMzI1LTA1JzAwJykgL1Byb2R1Y2VyIChSZXBvcnRMYWIgUERGIExpYnJhcnkgLSBcKG9wZW5zb3VyY2VcKSkgCiAgL1N1YmplY3QgKFwodW5zcGVjaWZpZWRcKSkgL1RpdGxlIChcKGFub255bW91c1wpKSAvVHJhcHBlZCAvRmFsc2UKPj4KZW5kb2JqCjcgMCBvYmoKPDwKL0NvdW50IDEgL0tpZHMgWyA0IDAgUiBdIC9UeXBlIC9QYWdlcwo+PgplbmRvYmoKOCAwIG9iago8PAovRmlsdGVyIFsgL0FTQ0lJODVEZWNvZGUgL0ZsYXRlRGVjb2RlIF0gL0xlbmd0aCAxNzE2Cj4+CnN0cmVhbQpHYXRVNGdOKSUsJjpPOlNDbzxrYlNXUiVUXV4lI1BYPSE/cFE2SidOTWRMLSlPci4sbiFlTzAwZHVXciEsXDxBWmwqKTMoSmNRWDYzRVI5Zk0/OlUpZVVPPkdeaCFNXHMkOzJrI1phMkJfaC1lTi1HZGc1JzNbdT0qazRsTWl1SEhmQFhXal9rWyleQURWQ2cnIzFWJThRcjdyX142c3JCWlZnMyhLJGhqKDJMcmQ9ayJCWVZdajctcW4uZ1AhYjBGWXRdWDEsP2RhZWQ+VlFzJWA8VVRfKzleTjdZYyQ6Umw9RGlDNmlBXk5uJytfLTs2bFp0P0tUYE8yXSdNR2tkaFM/VEwvc19ELCVEWjswXVFUS09iLllBQkFqSkAtTmRKRCctKGdcInUpMzNSKidASislQldOUEx1RWlHWkpgKUF0KEA1NmIjNGFMaW1uT1tWXUBfayM7JFstSkw0TEwoTDhEPVdIdTBJP2E0dGxwQTdGQD1lYiY7Nz5rNmBtTidnQjVRNGYhYV9FIVFuJEVXP0prYD5dY0tzMWMnYEl1UzhJNUdxcUBRPElmS0xhNDdMJ2BiMFlwTWxTPEBmL1trQ1kka0kvVVxfYUAncFBsa1BuTFYxWEtIWzkwQVBGMGNERDk3XTxjVCcqI209QlErLi11c10wQzlJMEI0YT89WFtoJzc2WjZrUnJKc0cqLHJ0LDg/Vkc/b0VNLD5aL0BeYydyJkpKVFRKQ0k4dVxgbyVbSC1RJ1AwXV9GMlsjZF1NRWMqIj4kRW0+U1s4bnFKLSRlUDFma2xdaTxIKnA8J090Nm8zLHM+SFsyVjkjUWUnQWY2TWc/OWcyPWRWIkIwVlRGQEhEO0g0azkkJlpPODg+aCguIVBDY1RlYjZcO1ZMUkxQXTtXSi51dHQicTVYSCguJ01aQUlQSUJGOGxrXydwLnRfJmZycU40NCUmUlhxZ01iM182MmRMIylkdVtgN2drYlMlWU9zYSJmYjJJRDclL0spbjEyTDhqcio8VTdqMmJAPE1lOzFkYDFIQT1UNGtHSlRRO0hzJXJsVXUmLyFFN1tTQVpnOCFNMExFLi84Xk0tV1QhXkFJYCNnb2UwPStNaD8xU1M/TSEzP1FBKSNwQj9BUCVuXUhGTGJLJEw/SGxWV0snc280ODhuQExGN3RubU4kVFlyPWQwQiJVVCQpNXJZcjlHXkY4LUhIaT5UNzxRZlcybCpfTjhBUUIrdDMwJm43dCQkZlItLXIvQHI1V0NjIm9hazFKaGRmJiNFQHM+W1xRIT9LbmNaVz46S1U4S01LUCVTOWxZQz9EKi06WV1FblFiUmQnL24zJkxyXkE0RGNncCc1KGc0ZXMrIllkPkQ5TG9oOm00USRtQzZeWyUhY1NiNUFFOjNOS0kjS2luLTxNUWMvZm5PJV1nSi5OQ0wrUCtIR0cuX2NkLjJDUzslQVlNIUVJMV0rTSlLWjxGJi9DM1ptXTk6W2lpSU04bmdRNEBSVT9GMS1WbSgvT1thPGVqOSgzaEVzSjEyKTZpXmJHcjdTV0BlKEhmWmwuLCsxU1RmJCM9PV4lM3RNSUczZGFMbG9yZG0tcElabE8mZzwkY1wwPTloW0RdU0VlWWgxLydPai5ILERvdSsnQG9jNENhczc2YzIiUS90T1w/LVRHTj4jRlhIKlglZzBCVT8sPDUhYHM1OiRQXGFuJVZxaXE1LDxsV0tHPUI1cSYhMShSNWBiNFhbcVtuMT44amxnKmtCJTwyZkZQblNvW0FTPU1ZOGhncjlbQFhrMFVBSk9OK2pAYWhgRF5gPVgpQkhlMF87NWZfYVYmXG9rRWYuLjFaJD8tXVojKWRLOEQ5ZFA0JiVuSkp1TmcqNVg0X2UzLShrUlQsPGc+OidwblEoT2NTbXRJZVVqXSlOXT9FVF1XKkdCPz4uZm8lQTI5UUFKJVZAL1ZnQVtQO2dqLz4vPk8hNFFTPFg8TUI4ZDBHIWJIVjZpcltQc0ZhNDZnWiwzLUohRUldZERLYGdNa2VbZXFOTDZSUy1MR3FJcipPbSQyRzwvR0YibTgpb1h0WE08NExXK1laVjlIT0prclQhNDhZKG83XkE3N2ZdTCMlNzNaNCp1aUIwSiZMQj1YUzlcOi8/dGBlb0QoRlxgLHFLPGFfNUJAdUI3VEdyO11BNF1YYShuLTwzZillUHM+VjYyb0woTjNTTzFgcG5rTEpzI1poQk80ciFkOmslNzE0bz1UUFFzVztjcWVNYGFiXk5GKlNGXnJhP0g4azNufj5lbmRzdHJlYW0KZW5kb2JqCnhyZWYKMCA5CjAwMDAwMDAwMDAgNjU1MzUgZiAKMDAwMDAwMDA2MSAwMDAwMCBuIAowMDAwMDAwMTAyIDAwMDAwIG4gCjAwMDAwMDAyMDkgMDAwMDAgbiAKMDAwMDAwMDMyMSAwMDAwMCBuIAowMDAwMDAwNTE0IDAwMDAwIG4gCjAwMDAwMDA1ODIgMDAwMDAgbiAKMDAwMDAwMDg2MiAwMDAwMCBuIAowMDAwMDAwOTIxIDAwMDAwIG4gCnRyYWlsZXIKPDwKL0lEIApbPDM2MzQ0ZjY2Y2RjZDhmYWEyNTY5YzcyNzlkNzVmODNjPjwzNjM0NGY2NmNkY2Q4ZmFhMjU2OWM3Mjc5ZDc1ZjgzYz5dCiUgUmVwb3J0TGFiIGdlbmVyYXRlZCBQREYgZG9jdW1lbnQgLS0gZGlnZXN0IChvcGVuc291cmNlKQoKL0luZm8gNiAwIFIKL1Jvb3QgNSAwIFIKL1NpemUgOQo+PgpzdGFydHhyZWYKMjcyOAolJUVPRgo="
+        },
+        {
+          "filename": "ClearPath_Talent_Solutions_W9.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjQKJZOMi54gUmVwb3J0TGFiIEdlbmVyYXRlZCBQREYgZG9jdW1lbnQgKG9wZW5zb3VyY2UpCjEgMCBvYmoKPDwKL0YxIDIgMCBSIC9GMiAzIDAgUiAvRjMgNCAwIFIKPj4KZW5kb2JqCjIgMCBvYmoKPDwKL0Jhc2VGb250IC9IZWx2ZXRpY2EgL0VuY29kaW5nIC9XaW5BbnNpRW5jb2RpbmcgL05hbWUgL0YxIC9TdWJ0eXBlIC9UeXBlMSAvVHlwZSAvRm9udAo+PgplbmRvYmoKMyAwIG9iago8PAovQmFzZUZvbnQgL0hlbHZldGljYS1Cb2xkIC9FbmNvZGluZyAvV2luQW5zaUVuY29kaW5nIC9OYW1lIC9GMiAvU3VidHlwZSAvVHlwZTEgL1R5cGUgL0ZvbnQKPj4KZW5kb2JqCjQgMCBvYmoKPDwKL0Jhc2VGb250IC9aYXBmRGluZ2JhdHMgL05hbWUgL0YzIC9TdWJ0eXBlIC9UeXBlMSAvVHlwZSAvRm9udAo+PgplbmRvYmoKNSAwIG9iago8PAovQ29udGVudHMgOSAwIFIgL01lZGlhQm94IFsgMCAwIDYxMiA3OTIgXSAvUGFyZW50IDggMCBSIC9SZXNvdXJjZXMgPDwKL0ZvbnQgMSAwIFIgL1Byb2NTZXQgWyAvUERGIC9UZXh0IC9JbWFnZUIgL0ltYWdlQyAvSW1hZ2VJIF0KPj4gL1JvdGF0ZSAwIC9UcmFucyA8PAoKPj4gCiAgL1R5cGUgL1BhZ2UKPj4KZW5kb2JqCjYgMCBvYmoKPDwKL1BhZ2VNb2RlIC9Vc2VOb25lIC9QYWdlcyA4IDAgUiAvVHlwZSAvQ2F0YWxvZwo+PgplbmRvYmoKNyAwIG9iago8PAovQXV0aG9yIChcKGFub255bW91c1wpKSAvQ3JlYXRpb25EYXRlIChEOjIwMjYwMzI0MjAwMzI1LTA1JzAwJykgL0NyZWF0b3IgKFwodW5zcGVjaWZpZWRcKSkgL0tleXdvcmRzICgpIC9Nb2REYXRlIChEOjIwMjYwMzI0MjAwMzI1LTA1JzAwJykgL1Byb2R1Y2VyIChSZXBvcnRMYWIgUERGIExpYnJhcnkgLSBcKG9wZW5zb3VyY2VcKSkgCiAgL1N1YmplY3QgKFwodW5zcGVjaWZpZWRcKSkgL1RpdGxlIChcKGFub255bW91c1wpKSAvVHJhcHBlZCAvRmFsc2UKPj4KZW5kb2JqCjggMCBvYmoKPDwKL0NvdW50IDEgL0tpZHMgWyA1IDAgUiBdIC9UeXBlIC9QYWdlcwo+PgplbmRvYmoKOSAwIG9iago8PAovRmlsdGVyIFsgL0FTQ0lJODVEZWNvZGUgL0ZsYXRlRGVjb2RlIF0gL0xlbmd0aCA5MjIKPj4Kc3RyZWFtCkdhdD0qZ01aIikmOk5ebGspbGZbJydEVDMyYklNNGU3STxyZU9oPnVncitgRGAoPWdEQ0ImYDFRYVctYSdOXWlWUio3UidOXWYwQWk4QCZoSF5rK0E3Oj1GSSYvViZNJkUhJSVccStTRkgwQ0BgYWAlNlI+PFJwXDo7JiFgKj1PMHI4L1JnPk1AN0ElOzs7TVI0M00xPklrSE1cRzIzXklmZ0VsR0wuczlEVS8ockBBZU81NCc6TmlhOUp0LSIvQls7aD0vZV91X1c5R24oRCxDaW9XPTtMJGE5PFFTPWwlUl5EY25Cbk5JOkQ8Lz5MP0MlTy5XQD9qQk09S25HOSlzdSVlXEZlWmwxM2VfTFVsPEdCZU42R11gPDlWN1ZlKS1LM15pbTZPJTNxSWY3TCYkRVBba0BKXHBjLC8nNTUhLTdqX2o1bEdOJVtEY0hyJ2Q8XVo1ayI4NltfPUdbOEEja1xaWENjYy0+PGdVNSFiXTpWLV5YVz5bMm5yY2IwISJXXTo/P25RZjZwVzxKSyNgc1heIV9rPyFET2spcGpYX11VJnJsQzpkVlJGV0cjKTE4L2FkTC1tSjJaSV5VXjlfOD1sY2xmJ1o4a1pJXiM1L0A7J0NRJzYxSWhTIiM3SzNmdHRZW111O3VidE1Wc2w1YygjKCdJPzdxXERrdD1CPHE6Q2pgKmFPRyxoVSxQUlpnJTRpPkRNOFUwO2JoT0RQIjM1cz1VW18pUGBvJmJRI3FWcjo9SHNrMyUjQURqYkFAVSREbnVTUjpDbGE4a2VaMFBkVEJsYjI6YTJrUmVHXDooZCxpWyFsSjxENXNrMm1OcTNtcVksSjg/KE8jKWI3UW83UmtAIW9ibWJpJ1Y8MylnNTR0RVpEIzRsRylJUE1xcWguWE5JZjtDaD9GNTBcLHInblEoJiwiJDQ6OXUuaDpYTW9mZyg9ST9iSkRPS1kzMkY/aSIqW0xoWTpPSzxHdSZeY0AuRzlxYV1LQ2hQZSgnJXUsRileQktXTy4lJFssayJKKFRfJnI2XlBeJ3EqJkQsRlhUUWFBcU48J2pqMTZYUkpAOlI+QU83U19oTGlZIkpYS0BdV1JNVjQrPEhpLGpFQFxhPDwwcmMtXmZFQUtAWU0tJlkiTmNnKyopQlBOYDA0bk5LN0lQRFInNG5saCddNCJ0Kk9uQGE1VStTS2M7aC5kMzFWbUU5YD1pLjkwPCFdLTBofj5lbmRzdHJlYW0KZW5kb2JqCnhyZWYKMCAxMAowMDAwMDAwMDAwIDY1NTM1IGYgCjAwMDAwMDAwNjEgMDAwMDAgbiAKMDAwMDAwMDExMiAwMDAwMCBuIAowMDAwMDAwMjE5IDAwMDAwIG4gCjAwMDAwMDAzMzEgMDAwMDAgbiAKMDAwMDAwMDQxNCAwMDAwMCBuIAowMDAwMDAwNjA3IDAwMDAwIG4gCjAwMDAwMDA2NzUgMDAwMDAgbiAKMDAwMDAwMDk1NSAwMDAwMCBuIAowMDAwMDAxMDE0IDAwMDAwIG4gCnRyYWlsZXIKPDwKL0lEIApbPGMxNDM3NDgyYTA2YmZiNDYyOTQyYjYxMDhlNGZhYzMwPjxjMTQzNzQ4MmEwNmJmYjQ2Mjk0MmI2MTA4ZTRmYWMzMD5dCiUgUmVwb3J0TGFiIGdlbmVyYXRlZCBQREYgZG9jdW1lbnQgLS0gZGlnZXN0IChvcGVuc291cmNlKQoKL0luZm8gNyAwIFIKL1Jvb3QgNiAwIFIKL1NpemUgMTAKPj4Kc3RhcnR4cmVmCjIwMjYKJSVFT0YK"
+        }
+      ]
+    },
+    {
+      "email_id": "25",
+      "folder": "Vendor Invoices",
+      "subject": "Invoice PPS-25-0975 - Client Presentation Folders",
+      "from_addr": "info@pinnacleprint.com",
+      "to_addr": "tara.okonkwo@meridianpartners.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-09-05T09:15:00-04:00",
+      "message_id": "<inv-pps-0975@pinnacleprint.com>",
+      "in_reply_to": null,
+      "body_text": "Good morning,\n\nPlease find attached invoice PPS-25-0975 for the client presentation folders.\n\nInvoice Number: PPS-25-0975\nPO Reference: PO-2025-00121\nDate: 09/05/2025\n\nItems:\n  100x Client Presentation Folder @ $12.75 = $1,275.00\n\nTotal: $1,275.00\nTerms: Net 30\n\nAll items delivered per PO specifications.\n\nThank you,\nBrian Matthews\nPinnacle Print Services\n(336) 555-0291",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "26",
+      "folder": "Vendor Invoices",
+      "subject": "Bright Ideas Marketing - Invoice BIM-2025-Q4-01",
+      "from_addr": "ar@brightideasmktg.com",
+      "to_addr": "tara.okonkwo@meridianpartners.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-09-05T11:00:00-04:00",
+      "message_id": "<inv-bim-q401@brightideasmktg.com>",
+      "in_reply_to": null,
+      "body_text": "Dear Meridian Partners,\n\nPlease find attached our invoice for the Q4 campaign collateral design.\n\nInvoice: BIM-2025-Q4-01\nPO Reference: PO-2025-00119\nService Period: October-December 2025 (advance billing per contract)\nAmount: $8,500.00\nTerms: Net 30\n\nCampaign scope and deliverables as outlined in the attached PO.\n\nBest regards,\nAccounts Receivable\nBright Ideas Marketing\n(704) 555-0495",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "27",
+      "folder": "Vendor Invoices",
+      "subject": "Summit Executive Coaching - September Invoice SEC-0925-01",
+      "from_addr": "billing@summitcoaching.com",
+      "to_addr": "tara.okonkwo@meridianpartners.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-09-08T08:30:00-04:00",
+      "message_id": "<inv-sec-0925-01@summitcoaching.com>",
+      "in_reply_to": null,
+      "body_text": "Dear Accounts Payable,\n\nPlease find your September coaching invoice below.\n\nInvoice Number: SEC-0925-01\nService Period: September 2025\nClient: Angela Martinez, Director of Operations\nSessions: 4 x Executive Coaching @ $600.00\nTotal: $2,400.00\nTerms: Net 30\n\nPlease reference invoice number SEC-0925-01 on payment.\n\nSummit Executive Coaching\n(704) 555-0578",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "28",
+      "folder": "Vendor Invoices",
+      "subject": "Cascade IT - Invoice INV-38850 - Network Switches",
+      "from_addr": "ar@cascadeit.com",
+      "to_addr": "tara.okonkwo@meridianpartners.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-09-08T10:20:00-04:00",
+      "message_id": "<inv-38850@cascadeit.com>",
+      "in_reply_to": null,
+      "body_text": "Dear Meridian Partners AP Team,\n\nPlease find attached invoice INV-38850 for the following order:\n\nPO Reference: PO-2025-00122\nInvoice Number: INV-38850\nDate: 09/08/2025\n\nItems:\n  6x Network Switch, 8-Port Managed @ $390.00 = $2,340.00\n\nTotal: $2,340.00\nTerms: Net 30\n\nAll items delivered and signed for on 09/05/2025.\n\nThank you,\nAccounts Receivable\nCascade IT Hardware\n(919) 555-0287",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "29",
+      "folder": "Vendor Invoices",
+      "subject": "Apex Office Supply - Invoice INV-2025-09510",
+      "from_addr": "invoices@apexoffice.com",
+      "to_addr": "tara.okonkwo@meridianpartners.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-09-08T11:00:00-04:00",
+      "message_id": "<inv-09510@apexoffice.com>",
+      "in_reply_to": null,
+      "body_text": "Meridian Partners, LLC\nCustomer Account: AOS-MER-2210\n\nInvoice: INV-2025-09510\nDate: 09/08/2025\nPO: PO-2025-00123\n\nItems Shipped:\n  150x Hanging File Folder, Letter, 25ct Box @ $4.95 = $742.50\n\nSubtotal: $742.50\nTax: $0.00\nTotal Due: $742.50\nTerms: Net 30\n\nShipped via UPS Ground.\n\nApex Office Supply\nAccounts Receivable\n(704) 555-0134",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "30",
+      "folder": "Vendor Invoices",
+      "subject": "Temp Staffing Invoice - Week of 9/8",
+      "from_addr": "accounts@premierstaffing.com",
+      "to_addr": "tara.okonkwo@meridianpartners.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-09-09T10:00:00-04:00",
+      "message_id": "<inv-psg-1270@premierstaffing.com>",
+      "in_reply_to": null,
+      "body_text": "Good morning,\n\nPlease find your weekly temporary staffing invoice below.\n\nInvoice Number: PSG-2025-1270\nService Period: September 8-12, 2025\nStaff: Data Entry Specialist (1 FTE)\nHours: 40\nRate: $97.50/hr\nTotal: $3,900.00\nTerms: Net 15\nDue Date: September 24, 2025\n\nTimesheet approved by: Lisa Chen, Office Manager\n\nPremier Staffing Group\nAccounts Receivable\n(704) 555-0721",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "31",
+      "folder": "Vendor Invoices",
+      "subject": "Redwood Furniture - Invoice RF-8010 - Bookcase Units",
+      "from_addr": "billing@redwoodfurniture.com",
+      "to_addr": "tara.okonkwo@meridianpartners.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-09-09T09:00:00-04:00",
+      "message_id": "<inv-rf-8010@redwoodfurniture.com>",
+      "in_reply_to": null,
+      "body_text": "Dear Meridian Partners,\n\nPlease find attached invoice RF-8010 for the following order:\n\nPO Reference: PO-2025-00124\nInvoice Number: RF-8010\nDate: 09/09/2025\n\nItems:\n  5x Bookcase Unit, Walnut Finish @ $380.00 = $1,900.00\n\nTotal: $1,900.00\nTerms: Net 30\n\nAll items delivered on 09/08/2025.\n\nRedwood Furniture Co.\nBilling Department\n(336) 555-0192",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "32",
+      "folder": "Vendor Invoices",
+      "subject": "SecureNet Compliance - Annual Cybersecurity Audit Invoice SNC-2025-001",
+      "from_addr": "billing@securenetcompliance.com",
+      "to_addr": "tara.okonkwo@meridianpartners.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-09-09T08:00:00-04:00",
+      "message_id": "<inv-snc-001@securenetcompliance.com>",
+      "in_reply_to": null,
+      "body_text": "Dear Meridian Partners AP Team,\n\nPlease find attached our invoice for the annual cybersecurity compliance audit.\n\nInvoice: SNC-2025-001\nPO Reference: PO-2025-00120\nService: Annual Cybersecurity Compliance Audit & Penetration Testing\nDate: 09/09/2025\nAmount: $15,000.00\nTerms: Net 45\n\nAll testing and reporting has been completed and delivered to your IT Manager, David Park.\n\nSecureNet Compliance\nBilling Department\n(919) 555-0618",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "33",
+      "folder": "Sent",
+      "subject": "Payment Batch 2025-09-09 Processed",
+      "from_addr": "tara.okonkwo@meridianpartners.com",
+      "to_addr": "maria.santos@meridianpartners.com",
+      "cc_addr": "raj.patel@meridianpartners.com",
+      "bcc_addr": null,
+      "date": "2025-09-09T15:00:00-04:00",
+      "message_id": "<msg033@meridianpartners.com>",
+      "in_reply_to": null,
+      "body_text": "Hi Maria,\n\nThe 9/9 payment batch has been processed.\n\nBatch ID: 2025-09-09\nTotal Payments: 12\nTotal Amount: $24,687.10\nMethod: ACH\n\nVendors paid:\n- DataStream Analytics (DSA-2025-0455) - $5,800.00\n- Redwood Furniture Co (RF-7955) - $2,880.00\n- Pinnacle Print Services (PPS-25-0948) - $2,550.00\n- TechEdge Solutions (TE-2025-0009) - $4,500.00\n- Metro Cleaning Co (MC-SEP-2025) - $1,800.00\n- FreshBrew Coffee Service (FB-0925) - $390.00\n- Apex Office Supply (INV-2025-09015) - $487.50\n- Pinnacle Print Services (PPS-25-0912) - $880.00\n- Cascade IT Hardware (INV-38445) - $1,890.00\n- Summit Executive Coaching (SEC-0825-03) - $2,400.00\n- Apex Office Supply (INV-2025-09102) - $510.00\n- Apex Office Supply (INV-2025-09210) - $599.60\n\nBatch file saved to Payment_Batches/batch_2025-09-09.xlsx\n\nTara Okonkwo\nAP Specialist",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "34",
+      "folder": "Sent",
+      "subject": "Re: Follow-up: August Invoice DSA-2025-0455 - Payment Status?",
+      "from_addr": "tara.okonkwo@meridianpartners.com",
+      "to_addr": "billing@datastreamanalytics.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-09-09T15:30:00-04:00",
+      "message_id": "<msg034@meridianpartners.com>",
+      "in_reply_to": "<followup-dsa-0455@datastreamanalytics.com>",
+      "body_text": "Hi DataStream Billing,\n\nThank you for following up. Invoice DSA-2025-0455 for $5,800.00 was in our system and has been included in our payment batch processed today (9/9/2025). You should see the ACH deposit within 1-2 business days.\n\nPlease let us know if you have any questions.\n\nBest regards,\nTara Okonkwo\nAP Specialist\nMeridian Partners, LLC",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "42",
+      "folder": "Approvals",
+      "subject": "AP APPROVAL REQUIRED: Premier Staffing Group - $3,750.00 - Invoice PSG-2025-1140",
+      "from_addr": "tara.okonkwo@meridianpartners.com",
+      "to_addr": "lisa.chen@meridianpartners.com, maria.santos@meridianpartners.com",
+      "cc_addr": "ap.team@meridianpartners.com",
+      "bcc_addr": null,
+      "date": "2025-08-08T14:00:00-04:00",
+      "message_id": "<approval-req-psg-2025-1140@meridianpartners.com>",
+      "in_reply_to": null,
+      "body_text": "A non-PO invoice requires your approval before payment can be processed.\n\nVendor: Premier Staffing Group (V-00008)\nInvoice: PSG-2025-1140, dated 2025-08-08\nAmount: $3,750.00\nDescription: Administrative Assistant - Aug week 2\nGL Code: 1000-100-6100\n\nPlease reply APPROVED or REJECTED with reason. If no response is received within 3 business days, the invoice will be placed on APPR hold and the vendor will be notified of the delay.",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "43",
+      "folder": "Approvals",
+      "subject": "Re: AP APPROVAL REQUIRED: Premier Staffing Group - $3,750.00 - Invoice PSG-2025-1140",
+      "from_addr": "lisa.chen@meridianpartners.com",
+      "to_addr": "tara.okonkwo@meridianpartners.com",
+      "cc_addr": "maria.santos@meridianpartners.com",
+      "bcc_addr": null,
+      "date": "2025-08-08T16:00:00-04:00",
+      "message_id": "<approval-reply-psg-2025-1140@meridianpartners.com>",
+      "in_reply_to": "<approval-req-psg-2025-1140@meridianpartners.com>",
+      "body_text": "Approved.\n\nLisa Chen",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "44",
+      "folder": "Approvals",
+      "subject": "AP APPROVAL REQUIRED: DataStream Analytics - $5,800.00 - Invoice DSA-2025-0455",
+      "from_addr": "tara.okonkwo@meridianpartners.com",
+      "to_addr": "angela.martinez@meridianpartners.com, raj.patel@meridianpartners.com",
+      "cc_addr": "ap.team@meridianpartners.com",
+      "bcc_addr": null,
+      "date": "2025-08-18T10:00:00-04:00",
+      "message_id": "<approval-req-dsa-2025-0455@meridianpartners.com>",
+      "in_reply_to": null,
+      "body_text": "A non-PO invoice requires your approval before payment can be processed.\n\nVendor: DataStream Analytics (V-00007)\nInvoice: DSA-2025-0455, dated 2025-08-18\nAmount: $5,800.00\nDescription: Data analytics consulting - Competitive landscape analysis\nGL Code: 1000-100-6100\n\nPlease reply APPROVED or REJECTED with reason. If no response is received within 5 business days, the invoice will be placed on APPR hold and the vendor will be notified of the delay.",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "45",
+      "folder": "Approvals",
+      "subject": "Re: AP APPROVAL REQUIRED: DataStream Analytics - $5,800.00 - Invoice DSA-2025-0455",
+      "from_addr": "angela.martinez@meridianpartners.com",
+      "to_addr": "tara.okonkwo@meridianpartners.com",
+      "cc_addr": "raj.patel@meridianpartners.com",
+      "bcc_addr": null,
+      "date": "2025-08-18T12:00:00-04:00",
+      "message_id": "<approval-reply-dsa-2025-0455@meridianpartners.com>",
+      "in_reply_to": "<approval-req-dsa-2025-0455@meridianpartners.com>",
+      "body_text": "Approved.\n\nAngela Martinez",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "23",
+      "folder": "Approvals",
+      "from_addr": "raj.patel@meridianpartners.com",
+      "to_addr": "tara.okonkwo@meridianpartners.com",
+      "cc_addr": "ap.team@meridianpartners.com",
+      "subject": "Re: AP APPROVAL REQUIRED: DataStream Analytics - $5,800.00 - Invoice DSA-2025-0455",
+      "date": "2025-08-19T09:30:00-04:00",
+      "is_read": true,
+      "body_text": "Approved.\n\nRaj Patel\nController",
+      "attachments": [],
+      "message_id": "<msg023@meridianpartners.com>",
+      "bcc_addr": null,
+      "in_reply_to": null,
+      "body_html": null,
+      "is_important": false
+    },
+    {
+      "email_id": "46",
+      "folder": "Approvals",
+      "subject": "AP APPROVAL REQUIRED: Summit Executive Coaching - $2,400.00 - Invoice SEC-0825-03",
+      "from_addr": "tara.okonkwo@meridianpartners.com",
+      "to_addr": "angela.martinez@meridianpartners.com, maria.santos@meridianpartners.com",
+      "cc_addr": "ap.team@meridianpartners.com",
+      "bcc_addr": null,
+      "date": "2025-08-20T09:00:00-04:00",
+      "message_id": "<approval-req-sec-0825-03@meridianpartners.com>",
+      "in_reply_to": null,
+      "body_text": "A non-PO invoice requires your approval before payment can be processed.\n\nVendor: Summit Executive Coaching (V-00019)\nInvoice: SEC-0825-03, dated 2025-08-20\nAmount: $2,400.00\nDescription: Executive coaching sessions - Director of Operations\nGL Code: 1000-100-6100\n\nPlease reply APPROVED or REJECTED with reason. If no response is received within 3 business days, the invoice will be placed on APPR hold and the vendor will be notified of the delay.",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "47",
+      "folder": "Approvals",
+      "subject": "Re: AP APPROVAL REQUIRED: Summit Executive Coaching - $2,400.00 - Invoice SEC-0825-03",
+      "from_addr": "angela.martinez@meridianpartners.com",
+      "to_addr": "tara.okonkwo@meridianpartners.com",
+      "cc_addr": "maria.santos@meridianpartners.com",
+      "bcc_addr": null,
+      "date": "2025-08-20T11:00:00-04:00",
+      "message_id": "<approval-reply-sec-0825-03@meridianpartners.com>",
+      "in_reply_to": "<approval-req-sec-0825-03@meridianpartners.com>",
+      "body_text": "Approved.\n\nAngela Martinez",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "48",
+      "folder": "Approvals",
+      "subject": "AP APPROVAL REQUIRED: Premier Staffing Group - $3,750.00 - Invoice PSG-2025-1205",
+      "from_addr": "tara.okonkwo@meridianpartners.com",
+      "to_addr": "lisa.chen@meridianpartners.com, maria.santos@meridianpartners.com",
+      "cc_addr": "ap.team@meridianpartners.com",
+      "bcc_addr": null,
+      "date": "2025-09-03T14:30:00-04:00",
+      "message_id": "<approval-req-psg-2025-1205@meridianpartners.com>",
+      "in_reply_to": null,
+      "body_text": "A non-PO invoice requires your approval before payment can be processed.\n\nVendor: Premier Staffing Group (V-00008)\nInvoice: PSG-2025-1205, dated 2025-09-03\nAmount: $3,750.00\nDescription: Temporary data entry staff - Week of 9/1\nGL Code: 1000-100-6100\n\nPlease reply APPROVED or REJECTED with reason. If no response is received within 3 business days, the invoice will be placed on APPR hold and the vendor will be notified of the delay.",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "49",
+      "folder": "Approvals",
+      "subject": "Re: AP APPROVAL REQUIRED: Premier Staffing Group - $3,750.00 - Invoice PSG-2025-1205",
+      "from_addr": "lisa.chen@meridianpartners.com",
+      "to_addr": "tara.okonkwo@meridianpartners.com",
+      "cc_addr": "maria.santos@meridianpartners.com",
+      "bcc_addr": null,
+      "date": "2025-09-03T16:30:00-04:00",
+      "message_id": "<approval-reply-psg-2025-1205@meridianpartners.com>",
+      "in_reply_to": "<approval-req-psg-2025-1205@meridianpartners.com>",
+      "body_text": "Approved.\n\nLisa Chen",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "50",
+      "folder": "Approvals",
+      "subject": "AP APPROVAL REQUIRED: Summit Executive Coaching - $2,400.00 - Invoice SEC-0925-01",
+      "from_addr": "tara.okonkwo@meridianpartners.com",
+      "to_addr": "angela.martinez@meridianpartners.com, maria.santos@meridianpartners.com",
+      "cc_addr": "ap.team@meridianpartners.com",
+      "bcc_addr": null,
+      "date": "2025-09-08T09:00:00-04:00",
+      "message_id": "<approval-req-sec-0925-01@meridianpartners.com>",
+      "in_reply_to": null,
+      "body_text": "A non-PO invoice requires your approval before payment can be processed.\n\nVendor: Summit Executive Coaching (V-00019)\nInvoice: SEC-0925-01, dated 2025-09-08\nAmount: $2,400.00\nDescription: Executive coaching sessions - Director of Operations\nGL Code: 1000-100-6100\n\nPlease reply APPROVED or REJECTED with reason. If no response is received within 3 business days, the invoice will be placed on APPR hold and the vendor will be notified of the delay.",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "51",
+      "folder": "Approvals",
+      "subject": "Re: AP APPROVAL REQUIRED: Summit Executive Coaching - $2,400.00 - Invoice SEC-0925-01",
+      "from_addr": "angela.martinez@meridianpartners.com",
+      "to_addr": "tara.okonkwo@meridianpartners.com",
+      "cc_addr": "maria.santos@meridianpartners.com",
+      "bcc_addr": null,
+      "date": "2025-09-08T11:00:00-04:00",
+      "message_id": "<approval-reply-sec-0925-01@meridianpartners.com>",
+      "in_reply_to": "<approval-req-sec-0925-01@meridianpartners.com>",
+      "body_text": "Approved.\n\nAngela Martinez",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "52",
+      "folder": "Approvals",
+      "subject": "AP APPROVAL REQUIRED: Premier Staffing Group - $3,900.00 - Invoice PSG-2025-1270",
+      "from_addr": "tara.okonkwo@meridianpartners.com",
+      "to_addr": "lisa.chen@meridianpartners.com, maria.santos@meridianpartners.com",
+      "cc_addr": "ap.team@meridianpartners.com",
+      "bcc_addr": null,
+      "date": "2025-09-10T14:00:00-04:00",
+      "message_id": "<approval-req-psg-2025-1270@meridianpartners.com>",
+      "in_reply_to": null,
+      "body_text": "A non-PO invoice requires your approval before payment can be processed.\n\nVendor: Premier Staffing Group (V-00008)\nInvoice: PSG-2025-1270, dated 2025-09-10\nAmount: $3,900.00\nDescription: Temporary data entry staff - Week of 9/8\nGL Code: 1000-100-6100\n\nPlease reply APPROVED or REJECTED with reason. If no response is received within 3 business days, the invoice will be placed on APPR hold and the vendor will be notified of the delay.",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "53",
+      "folder": "Approvals",
+      "subject": "Re: AP APPROVAL REQUIRED: Premier Staffing Group - $3,900.00 - Invoice PSG-2025-1270",
+      "from_addr": "lisa.chen@meridianpartners.com",
+      "to_addr": "tara.okonkwo@meridianpartners.com",
+      "cc_addr": "maria.santos@meridianpartners.com",
+      "bcc_addr": null,
+      "date": "2025-09-08T16:00:00-04:00",
+      "message_id": "<approval-reply-psg-2025-1270@meridianpartners.com>",
+      "in_reply_to": "<approval-req-psg-2025-1270@meridianpartners.com>",
+      "body_text": "Approved.\n\nLisa Chen",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "54",
+      "folder": "Sent",
+      "subject": "AP APPROVAL REQUIRED: Harrison & Cole LLP - $5,000.00 - Invoice HC-2025-0001",
+      "from_addr": "tara.okonkwo@meridianpartners.com",
+      "to_addr": "angela.martinez@meridianpartners.com, maria.santos@meridianpartners.com",
+      "cc_addr": "ap.team@meridianpartners.com",
+      "bcc_addr": null,
+      "date": "2025-09-10T09:00:00-04:00",
+      "message_id": "<ap-approval-hc20250001@meridianpartners.com>",
+      "in_reply_to": null,
+      "body_text": "A non-PO invoice requires your approval before payment can be processed.\n\nVendor: Harrison & Cole LLP (V-00040)\nInvoice: HC-2025-0001, dated 2025-09-04\nAmount: $5,000.00\nDescription: Legal consulting services\nGL Code: 1000-100-6100\n\nPlease reply APPROVED or REJECTED with reason. If no response is received within 3 business days, the invoice will be placed on APPR hold and the vendor will be notified of the delay.",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "55",
+      "folder": "INBOX",
+      "subject": "Re: AP APPROVAL REQUIRED: Harrison & Cole LLP - $5,000.00 - Invoice HC-2025-0001",
+      "from_addr": "angela.martinez@meridianpartners.com",
+      "to_addr": "tara.okonkwo@meridianpartners.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-09-10T11:00:00-04:00",
+      "message_id": "<re-ap-approval-hc20250001@meridianpartners.com>",
+      "in_reply_to": "<ap-approval-hc20250001@meridianpartners.com>",
+      "body_text": "Approved.\n\nAngela Martinez",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "56",
+      "folder": "Sent",
+      "subject": "AP APPROVAL REQUIRED: ClearPath Talent Solutions - $5,050.00 - Invoice CPT-2025-0412",
+      "from_addr": "tara.okonkwo@meridianpartners.com",
+      "to_addr": "angela.martinez@meridianpartners.com, raj.patel@meridianpartners.com",
+      "cc_addr": "ap.team@meridianpartners.com",
+      "bcc_addr": null,
+      "date": "2025-09-12T09:00:00-04:00",
+      "message_id": "<ap-approval-cpt20250412@meridianpartners.com>",
+      "in_reply_to": null,
+      "body_text": "A non-PO invoice requires your approval before payment can be processed.\n\nVendor: ClearPath Talent Solutions (V-00041)\nInvoice: CPT-2025-0412, dated 2025-09-03\nAmount: $5,050.00\nDescription: Talent acquisition consulting\nGL Code: 1000-100-6100\n\nPlease reply APPROVED or REJECTED with reason. If no response is received within 5 business days, the invoice will be placed on APPR hold and the vendor will be notified of the delay.",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "57",
+      "folder": "INBOX",
+      "subject": "Re: AP APPROVAL REQUIRED: ClearPath Talent Solutions - $5,050.00 - Invoice CPT-2025-0412",
+      "from_addr": "angela.martinez@meridianpartners.com",
+      "to_addr": "tara.okonkwo@meridianpartners.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-09-12T11:00:00-04:00",
+      "message_id": "<re-ap-approval-cpt20250412@meridianpartners.com>",
+      "in_reply_to": "<ap-approval-cpt20250412@meridianpartners.com>",
+      "body_text": "Approved.\n\nAngela Martinez",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "58",
+      "folder": "INBOX",
+      "subject": "Re: AP APPROVAL REQUIRED: ClearPath Talent Solutions - $5,050.00 - Invoice CPT-2025-0412",
+      "from_addr": "raj.patel@meridianpartners.com",
+      "to_addr": "tara.okonkwo@meridianpartners.com",
+      "cc_addr": "ap.team@meridianpartners.com",
+      "date": "2025-09-12T14:00:00-04:00",
+      "message_id": "<re-ap-approval-cpt20250412-rp@meridianpartners.com>",
+      "in_reply_to": "<ap-approval-cpt20250412@meridianpartners.com>",
+      "body_text": "Approved.\n\nRaj Patel\nController",
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "59",
+      "folder": "Approvals",
+      "subject": "Re: AP APPROVAL REQUIRED: Harrison & Cole LLP - $5,000.00 - Invoice HC-2025-0001",
+      "from_addr": "maria.santos@meridianpartners.com",
+      "to_addr": "tara.okonkwo@meridianpartners.com",
+      "cc_addr": "ap.team@meridianpartners.com",
+      "bcc_addr": null,
+      "date": "2025-09-10T14:00:00-04:00",
+      "message_id": "<re-ap-approval-hc20250001-ms@meridianpartners.com>",
+      "in_reply_to": "<ap-approval-hc20250001@meridianpartners.com>",
+      "body_text": "Approved.\n\nMaria Santos\nAP Manager",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "60",
+      "folder": "INBOX",
+      "subject": "RE: Expense Report Approval - David Kim",
+      "from_addr": "lisa.chen@meridianpartners.com",
+      "to_addr": "tara.okonkwo@meridianpartners.com",
+      "cc_addr": "david.kim@meridianpartners.com",
+      "bcc_addr": null,
+      "date": "2025-09-14T16:45:00-04:00",
+      "message_id": "<exp-approval-dk-20250914@meridianpartners.com>",
+      "in_reply_to": null,
+      "body_text": "Hi AP Team,\n\nI have reviewed and approved the following expense reports submitted by David Kim (EMP-1042):\n\n- EXP-DK-2025-001: $324.35\n- EXP-DK-2025-002: $299.10\n- EXP-DK-2025-003: $228.42\n\nAll expenses are within policy guidelines and properly documented. Please process at your earliest convenience.\n\nRegards,\nLisa Chen\nOffice Manager",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "61",
+      "folder": "INBOX",
+      "subject": "Urgent: Updated Banking Information - Pinnacle Print Services",
+      "from_addr": "bmatthews@pinnacleprintsvc.com",
+      "to_addr": "ap.team@meridianpartners.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-09-12T09:17:00-04:00",
+      "message_id": "<bank-update-pps-0912@pinnacleprint-global.com>",
+      "in_reply_to": null,
+      "body_text": "Dear Accounts Payable Team,\n\nThis is Brian Matthews from Pinnacle Print Services. I am writing to inform you that we have recently transitioned our banking relationship from Truliant Federal Credit Union to SouthState Bank, effective immediately.\n\nPlease update our payment details as follows:\n\nBank Name: SouthState Bank\nRouting Number: 053201814\nAccount Number: 7742-0085-1193\n\nAll future payments should be directed to this new account. Please confirm receipt of this request and update your records before any outstanding invoices are processed.\n\nThank you for your prompt attention.\n\nBest regards,\nBrian Matthews\nOffice Manager\nPinnacle Print Services\nbmatthews@pinnacleprint-services.com\n(336) 555-0488",
+      "body_html": null,
+      "is_read": false,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "62",
+      "folder": "INBOX",
+      "subject": "RE: Invoice SNC-2025-001 \u2014 IMMEDIATE PAYMENT REQUIRED \u2014 Legal Action Pending",
+      "from_addr": "billing@securenetcompliance.com",
+      "to_addr": "ap.team@meridianpartners.com",
+      "cc_addr": "dowens@securenet.com",
+      "bcc_addr": null,
+      "date": "2025-09-15T11:42:00-04:00",
+      "message_id": "<legal-snc-0915@securenetcompliance.com>",
+      "in_reply_to": null,
+      "body_text": "To the Accounts Payable Department at Meridian Partners,\n\nThis is now the third time we are following up on invoice SNC-2025-001 in the amount of $15,000.00 for the annual penetration testing engagement completed on September 10, 2025. Our records indicate this invoice was submitted on September 11, 2025 and remains unpaid.\n\nWe have been informed by your office that this invoice is being held for an \"audit review,\" but no explanation has been provided and no timeline for resolution has been given. This is unacceptable.\n\nIf full payment of $15,000.00 is not received or a confirmed payment date is not provided by close of business Friday, September 19, 2025, we will have no choice but to refer this matter to our legal counsel at Barton & Associates for collection proceedings. We will also be filing a formal complaint with the Better Business Bureau.\n\nWe expect an immediate response.\n\nDerek Owens\nDirector of Client Services\nSecureNet Compliance\nbilling@securenetcompliance.com\n(512) 555-0111",
+      "body_html": null,
+      "is_read": false,
+      "is_important": true,
+      "attachments": []
+    },
+    {
+      "email_id": "63",
+      "folder": "INBOX",
+      "subject": "Credit Memo CM-38720 - Wireless Keyboard & Mouse Return Adjustment",
+      "from_addr": "ar@cascadeit.com",
+      "to_addr": "ap.team@meridianpartners.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-09-11T14:05:00-04:00",
+      "message_id": "<cm-38720@cascadeit.com>",
+      "in_reply_to": null,
+      "body_text": "Dear Meridian Partners Accounts Payable,\n\nPlease find attached credit memo CM-38720 in the amount of $2,000.00.\n\nThis credit is issued in reference to original invoice INV-38720 dated 09/02/2025. The credit reflects the full return of the wireless keyboard and mouse sets, plus a retroactive volume discount adjustment.\n\nCredit Memo Details:\n  Credit Memo Number: CM-38720\n  Credit Memo Date: September 11, 2025\n  Original Invoice Reference: INV-38720\n  Credit Amount: $2,000.00\n\nPlease apply this credit to your records accordingly.\n\nThank you,\nAccounts Receivable\nCascade IT Hardware\nar@cascadeit.com\n(503) 555-0122",
+      "body_html": null,
+      "is_read": false,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "CM-38720.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjQKJZOMi54gUmVwb3J0TGFiIEdlbmVyYXRlZCBQREYgZG9jdW1lbnQgKG9wZW5zb3VyY2UpCjEgMCBvYmoKPDwKL0YxIDIgMCBSIC9GMiAzIDAgUgo+PgplbmRvYmoKMiAwIG9iago8PAovQmFzZUZvbnQgL0hlbHZldGljYSAvRW5jb2RpbmcgL1dpbkFuc2lFbmNvZGluZyAvTmFtZSAvRjEgL1N1YnR5cGUgL1R5cGUxIC9UeXBlIC9Gb250Cj4+CmVuZG9iagozIDAgb2JqCjw8Ci9CYXNlRm9udCAvSGVsdmV0aWNhLUJvbGQgL0VuY29kaW5nIC9XaW5BbnNpRW5jb2RpbmcgL05hbWUgL0YyIC9TdWJ0eXBlIC9UeXBlMSAvVHlwZSAvRm9udAo+PgplbmRvYmoKNCAwIG9iago8PAovQ29udGVudHMgOCAwIFIgL01lZGlhQm94IFsgMCAwIDYxMiA3OTIgXSAvUGFyZW50IDcgMCBSIC9SZXNvdXJjZXMgPDwKL0ZvbnQgMSAwIFIgL1Byb2NTZXQgWyAvUERGIC9UZXh0IC9JbWFnZUIgL0ltYWdlQyAvSW1hZ2VJIF0KPj4gL1JvdGF0ZSAwIC9UcmFucyA8PAoKPj4gCiAgL1R5cGUgL1BhZ2UKPj4KZW5kb2JqCjUgMCBvYmoKPDwKL1BhZ2VNb2RlIC9Vc2VOb25lIC9QYWdlcyA3IDAgUiAvVHlwZSAvQ2F0YWxvZwo+PgplbmRvYmoKNiAwIG9iago8PAovQXV0aG9yIChcKGFub255bW91c1wpKSAvQ3JlYXRpb25EYXRlIChEOjIwMjYwNDA4MDk0NzM2LTA1JzAwJykgL0NyZWF0b3IgKFwodW5zcGVjaWZpZWRcKSkgL0tleXdvcmRzICgpIC9Nb2REYXRlIChEOjIwMjYwNDA4MDk0NzM2LTA1JzAwJykgL1Byb2R1Y2VyIChSZXBvcnRMYWIgUERGIExpYnJhcnkgLSBcKG9wZW5zb3VyY2VcKSkgCiAgL1N1YmplY3QgKFwodW5zcGVjaWZpZWRcKSkgL1RpdGxlIChcKGFub255bW91c1wpKSAvVHJhcHBlZCAvRmFsc2UKPj4KZW5kb2JqCjcgMCBvYmoKPDwKL0NvdW50IDEgL0tpZHMgWyA0IDAgUiBdIC9UeXBlIC9QYWdlcwo+PgplbmRvYmoKOCAwIG9iago8PAovRmlsdGVyIFsgL0FTQ0lJODVEZWNvZGUgL0ZsYXRlRGVjb2RlIF0gL0xlbmd0aCAxMzM1Cj4+CnN0cmVhbQpHYXRtOzkyams/JkFKJENvUlZZSlpCXV5oJnVWcyEySmImWFVNTVBmS0tLR040ZTBvVS9aU0MlZHBrdFhDczBbbC45NEpnWGUrc2FoZWBdJysxY2lUJCxCVWFJZWVzKUFgMW1jJDpmVnIiVylYVlQsdCpvN2ctaV0xKl9jMEMmNGZhZkI+aVQjbEZoJTBWQlhAS2VZKjFOaGYkSXI5RFYkSWhxKlIwTjJyVF9zYC9Kcj0kJW8jNitsKTAvLjJ0VT5lN14yTyc3YmV0bm4lYjBeP3QxaCFBcjU5XjZ1VUdyVWUnVy8yO2doLDlZNiZNUzAuPG8+bEJXXSRMVjsjXiZdPzhtay82KyhlZCRLRE0qLnNKcjgxPT5vP2FyWFktcEUySXJ1LjJQTGw8IVo4TEsrUENEI28wQVZsPl06U2BLRG40Z1tqZGNEVlFKXixHTl9nUkc2YWtCL1I2Vk0oLDgwYktPaU9FMjdnP0hSOkwzN01rXFFPXXBfOWNwO2gxNz1uK1NmW2ViLW1jdTtcTEd0S1JQLkJCM05QKCF1JHIxRSpYYE04dFlHWiJhKEAqWic+YDFQOUctKWMxXTBwYCQmak4hVz4sN1daMV8hKVJiMVJYK2FGJS1VP25yVVghRCokJmpBaEtHdHBwNzszPU5BYnFpYVRuOTg0R0ZOVDZRN1htRllDRjIsSkgjWkpCcCc0MUdwYSJCTE9WXHNTZzRnIUtuJFI5OXAyc1gkOyJGJGtybnBYN1dBaWNbYmksPy9BK2FxMWY2PCY3NnE5aUpNc0xVcSNJUyNjOHNMY1Q/KD5xRD8hVz9pTnBwKF83YkVjTVpNVExPXG02KVNDcGsjcl49cG9bNTVjKSI4SSRIUzhkSjJDMXVrSCo0Vyllak5vV0ZfPzVRIjpBR19IcWUiOCNaLUQrQjRNaz5BMScoUnByIVVaTzpZZDtMRyo/YTgqcyVCWEtcbyFxSClSS2xNNmFKaFspJ2pobVZsTD1oakxyczJEMSlOZVNLYDRmVEMmLzxeU3NYJkJuUTVUazIlczM4XEhEKWc5PGFWVTsiYztzNHBxQWlQSVksLT49PmtPPTdRSGQkSEQhMWBbOGFiaCdaNVQoUWAzOTFGIlI2TVxbMVlkK1hcIUdAXiprUzkzP3IqbzdOcFBXLkxKcjBEaUBAQy87cC0rXEVFNjs/WlFNKlBYK0RFcj5VMFslVUhHcE9LJSZDR09kZWFVR2NsblxfcChwKlAlWjZATVdxJkFQN1dMaUBXIz4/KDFnVSlidG1aJGs4O3M3W2pLJElZLiR0ZTFJOFw9OzheRE9TW29LcTFXb1BhQ2Q6TyxzMFomSUtwU0FVJDImNm5mYCZpcWJgVEUrPEFnNnNXdGw0aC0qb0cwaGlgX0wlMnJBajxNK0wnaWY3IWRuNS5TZT5MRHE6ZE1WXEdqX10/SGg8KE1yQmIsIVo9JlpkSUZnWS9yYilDMlkvTC0pQ1tMcEdcam5gOERRW1c5PF1hYk9UZEQ7PHNGNz5HaW5oUztQW2E5ZllgP0thNVA8ZmI3PkZmOkAnYnI9IVFxKD1WK19ySSxsY2M6QzMpcEw7QyonRyZqPWk2K0pFakYpQVRQWidQOTxfOCQqNiN0PU4hWEdHdWlKcD4jdE8lWTRjNydtQkJFdVtdaippQiI3RD9GKmtkX0IicEI0YGo2N2sxTEBSNSpjb2ktTl88bmdJKlkrVDJuV10qYlZPKmMyKjtZIlBbYVo4ZXBkW2c9Ijg9PXFbX2BnNkpEfj5lbmRzdHJlYW0KZW5kb2JqCnhyZWYKMCA5CjAwMDAwMDAwMDAgNjU1MzUgZiAKMDAwMDAwMDA2MSAwMDAwMCBuIAowMDAwMDAwMTAyIDAwMDAwIG4gCjAwMDAwMDAyMDkgMDAwMDAgbiAKMDAwMDAwMDMyMSAwMDAwMCBuIAowMDAwMDAwNTE0IDAwMDAwIG4gCjAwMDAwMDA1ODIgMDAwMDAgbiAKMDAwMDAwMDg2MiAwMDAwMCBuIAowMDAwMDAwOTIxIDAwMDAwIG4gCnRyYWlsZXIKPDwKL0lEIApbPDBjYjQ1NzNiOTcwYjMyZjdkN2U3ODdhNmZiNTEzYzE0PjwwY2I0NTczYjk3MGIzMmY3ZDdlNzg3YTZmYjUxM2MxND5dCiUgUmVwb3J0TGFiIGdlbmVyYXRlZCBQREYgZG9jdW1lbnQgLS0gZGlnZXN0IChvcGVuc291cmNlKQoKL0luZm8gNiAwIFIKL1Jvb3QgNSAwIFIKL1NpemUgOQo+PgpzdGFydHhyZWYKMjM0NwolJUVPRgo="
+        }
+      ]
+    },
+    {
+      "email_id": "64",
+      "folder": "INBOX",
+      "subject": "Invoice INV-2025-09745 - Hanging File Folders",
+      "from_addr": "invoices@apexoffice.com",
+      "to_addr": "ap.team@meridianpartners.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-09-12T10:30:00-04:00",
+      "message_id": "<inv-apex-09745@apexoffice.com>",
+      "in_reply_to": null,
+      "body_text": "Dear Meridian Partners,\n\nPlease find attached our invoice for your recent order.\n\nInvoice Number: INV-2025-09745\nInvoice Date: September 12, 2025\nPO Number: PO-2025-00123\n\nItem: Hanging File Folders, Letter Size, 25ct Boxes\nQuantity: 150\nUnit Price: $4.95\nTotal: $742.50\n\nPayment Terms: Net 30\nDue Date: October 12, 2025\n\nGoods delivered on September 8, 2025 and signed for by office receiving.\n\nThank you for your business,\nApex Office Supply\nAccounts Receivable\ninvoices@apexoffice.com\n(404) 555-0101",
+      "body_html": null,
+      "is_read": false,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "INV-2025-09745.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjQKJZOMi54gUmVwb3J0TGFiIEdlbmVyYXRlZCBQREYgZG9jdW1lbnQgKG9wZW5zb3VyY2UpCjEgMCBvYmoKPDwKL0YxIDIgMCBSIC9GMiAzIDAgUgo+PgplbmRvYmoKMiAwIG9iago8PAovQmFzZUZvbnQgL0hlbHZldGljYSAvRW5jb2RpbmcgL1dpbkFuc2lFbmNvZGluZyAvTmFtZSAvRjEgL1N1YnR5cGUgL1R5cGUxIC9UeXBlIC9Gb250Cj4+CmVuZG9iagozIDAgb2JqCjw8Ci9CYXNlRm9udCAvSGVsdmV0aWNhLUJvbGQgL0VuY29kaW5nIC9XaW5BbnNpRW5jb2RpbmcgL05hbWUgL0YyIC9TdWJ0eXBlIC9UeXBlMSAvVHlwZSAvRm9udAo+PgplbmRvYmoKNCAwIG9iago8PAovQ29udGVudHMgOCAwIFIgL01lZGlhQm94IFsgMCAwIDYxMiA3OTIgXSAvUGFyZW50IDcgMCBSIC9SZXNvdXJjZXMgPDwKL0ZvbnQgMSAwIFIgL1Byb2NTZXQgWyAvUERGIC9UZXh0IC9JbWFnZUIgL0ltYWdlQyAvSW1hZ2VJIF0KPj4gL1JvdGF0ZSAwIC9UcmFucyA8PAoKPj4gCiAgL1R5cGUgL1BhZ2UKPj4KZW5kb2JqCjUgMCBvYmoKPDwKL1BhZ2VNb2RlIC9Vc2VOb25lIC9QYWdlcyA3IDAgUiAvVHlwZSAvQ2F0YWxvZwo+PgplbmRvYmoKNiAwIG9iago8PAovQXV0aG9yIChcKGFub255bW91c1wpKSAvQ3JlYXRpb25EYXRlIChEOjIwMjYwNDA4MDk0NzM2LTA1JzAwJykgL0NyZWF0b3IgKFwodW5zcGVjaWZpZWRcKSkgL0tleXdvcmRzICgpIC9Nb2REYXRlIChEOjIwMjYwNDA4MDk0NzM2LTA1JzAwJykgL1Byb2R1Y2VyIChSZXBvcnRMYWIgUERGIExpYnJhcnkgLSBcKG9wZW5zb3VyY2VcKSkgCiAgL1N1YmplY3QgKFwodW5zcGVjaWZpZWRcKSkgL1RpdGxlIChcKGFub255bW91c1wpKSAvVHJhcHBlZCAvRmFsc2UKPj4KZW5kb2JqCjcgMCBvYmoKPDwKL0NvdW50IDEgL0tpZHMgWyA0IDAgUiBdIC9UeXBlIC9QYWdlcwo+PgplbmRvYmoKOCAwIG9iago8PAovRmlsdGVyIFsgL0FTQ0lJODVEZWNvZGUgL0ZsYXRlRGVjb2RlIF0gL0xlbmd0aCAxMTA0Cj4+CnN0cmVhbQpHYXQ9KjhYSWpqJkFJYGRsSk1cazleRlhbUz1FU2xoRGQyJTRhRGxYMURBI2JVIV5ePk8xLi5YIjsycEpucG1VSztWdFBrMlsrZERjK2JWXF5wc3RvWTozOVByWTI8OCJTZDFbam5GNXRCVzVcWkUyWlcnKTlISUM7XCo2MS5uX2VxMGo4IU5ELkE4U0B0UWhkWkEiNGtyWmgnXUInS1BTZHFMZD0wT0R0OGRJSzBpaG5hZEUtUUByIXIuKil0XSdaYVRGQjUnMCVqXmxtOCswQUNpJCsualBwLC11MkxtUygiYzNdbm5HV2hVaUlrNTc9cztdc0xZRXRCY1k5K0tpRzJkM25iImIxLjhMM3EnYFBzTCovKV1nS1pVRDMiIywzQD9vNjpvKHRLc2w0LE1VbStqdUlwSmZdUiUuKS4/SklYOW1FbmpOcmdAbiVTbUVKbUUxZy5fJ2M0RClDTTNsUiRgYkgzT0lGOG9mckYpZVRbQ09OUD4xWVNNXDBHQ2Y/TlU5OFRRNyVLOmIoRlFubERAKVVnYjdaKi5RY0lTIXBdMmZKI2E+PSlBaUwwKCNWKT1tYG1MP0lRW0dMNWNcZWZIV2Y3IzUjc0pBOU40aEIhOTZIUEk7cTdEZDtaayErNDVWVjE/TzZGaEQiclVYP2p0IVE8JypLViQ/dF9lVGkhI2kyPTI4MTU+JCpsMWgzX24xYj1hKF42PSY8JlBpNmg7KExJJSprQXFAM2ouQU9VPEddM2BBIzQyO0RPSkUpTUhwSktVYHI6OlQwPkU4L2pvbTZrbywsPkIvZj01bUQuSms0ak9gPDwqKzs5Tz5zJVp1U2NMSCY5OmYkYXA9Tz0/UjI1b1xzYzdMUnJsL04qNVthU11sPz9gTm9JJFlNTG9QOF9pOy0/SGA6SCk6TTVRZ0pObVRHamxcNHQhJVk7MjI0Llh0OWRfZlpORFxTMVlGW2UsN09KaCFmc1pDJDokUFAsQyFaSydQKmdFMUtJWjc2TiolWi8qSVorLCguVy1ROjpaKEgoW05QWjdwZSxXZSxyTCNvazFnKzMoR0c8KmJzRz1EImRLMEpiMEJuTDJjPi83QGVsV2BbOWk+PCglaSw0ayFFaU8zKjpOWzVOZ0E3VlJlTDRFYE5XRXFjXE1BTWlUQzRxdVVSazFncVxQPD85QiQsSi9Ga2JSRidQKTJob04lWyRRMVFUQTdWZkJERSRGa3FjRyNaNzNRL2NEOStUWkBccTE8cTdeIjVWLVlKQDxtb001S3BJdDRsKlxgSm1QWiIrVjA6UGVjLkVkRD50O0NzIi5mdDwxMDA1OT9ZL2M/OEVbUXNxSmBWcF0kTjxmXDkmM05dajAmX2tyUmFBVT05KGQ9RzE6J2B0WUhLKilpPjpKXCc/T002Jz5IM0NuVjcxMHFbUGMtMSkxaFxQZjs7PWg/K143TnFgLkc3I1UqczkqVjomfj5lbmRzdHJlYW0KZW5kb2JqCnhyZWYKMCA5CjAwMDAwMDAwMDAgNjU1MzUgZiAKMDAwMDAwMDA2MSAwMDAwMCBuIAowMDAwMDAwMTAyIDAwMDAwIG4gCjAwMDAwMDAyMDkgMDAwMDAgbiAKMDAwMDAwMDMyMSAwMDAwMCBuIAowMDAwMDAwNTE0IDAwMDAwIG4gCjAwMDAwMDA1ODIgMDAwMDAgbiAKMDAwMDAwMDg2MiAwMDAwMCBuIAowMDAwMDAwOTIxIDAwMDAwIG4gCnRyYWlsZXIKPDwKL0lEIApbPDhmODA3MzAzNWY5ZDA1ZDgyZDkyMWNhMjg5OTAzYjA3Pjw4ZjgwNzMwMzVmOWQwNWQ4MmQ5MjFjYTI4OTkwM2IwNz5dCiUgUmVwb3J0TGFiIGdlbmVyYXRlZCBQREYgZG9jdW1lbnQgLS0gZGlnZXN0IChvcGVuc291cmNlKQoKL0luZm8gNiAwIFIKL1Jvb3QgNSAwIFIKL1NpemUgOQo+PgpzdGFydHhyZWYKMjExNgolJUVPRgo="
+        }
+      ]
+    },
+    {
+      "email_id": "65",
+      "folder": "INBOX",
+      "subject": "Invoice RF-8125 - Bookcase Units Walnut Finish",
+      "from_addr": "billing@redwoodfurniture.com",
+      "to_addr": "ap.team@meridianpartners.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-09-13T08:45:00-04:00",
+      "message_id": "<inv-rf-8125@redwoodfurniture.com>",
+      "in_reply_to": null,
+      "body_text": "Dear Accounts Payable,\n\nPlease find attached invoice RF-8125 for the recently delivered bookcase units.\n\nInvoice Number: RF-8125\nInvoice Date: September 11, 2025\nPO Number: PO-2025-00124\n\nItem: Bookcase Units, Walnut Finish, 5-Shelf\nQuantity: 5\nUnit Price: $380.00\nTotal: $1,900.00\n\nPayment Terms: Net 45\nDue Date: October 26, 2025\n\nAll units were delivered on September 9, 2025 and inspected by your facilities team.\n\nBest regards,\nRedwood Furniture Co\nBilling Department\nbilling@redwoodfurniture.com\n(336) 555-0121",
+      "body_html": null,
+      "is_read": false,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "RF-8125.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjQKJZOMi54gUmVwb3J0TGFiIEdlbmVyYXRlZCBQREYgZG9jdW1lbnQgKG9wZW5zb3VyY2UpCjEgMCBvYmoKPDwKL0YxIDIgMCBSIC9GMiAzIDAgUgo+PgplbmRvYmoKMiAwIG9iago8PAovQmFzZUZvbnQgL0hlbHZldGljYSAvRW5jb2RpbmcgL1dpbkFuc2lFbmNvZGluZyAvTmFtZSAvRjEgL1N1YnR5cGUgL1R5cGUxIC9UeXBlIC9Gb250Cj4+CmVuZG9iagozIDAgb2JqCjw8Ci9CYXNlRm9udCAvSGVsdmV0aWNhLUJvbGQgL0VuY29kaW5nIC9XaW5BbnNpRW5jb2RpbmcgL05hbWUgL0YyIC9TdWJ0eXBlIC9UeXBlMSAvVHlwZSAvRm9udAo+PgplbmRvYmoKNCAwIG9iago8PAovQ29udGVudHMgOCAwIFIgL01lZGlhQm94IFsgMCAwIDYxMiA3OTIgXSAvUGFyZW50IDcgMCBSIC9SZXNvdXJjZXMgPDwKL0ZvbnQgMSAwIFIgL1Byb2NTZXQgWyAvUERGIC9UZXh0IC9JbWFnZUIgL0ltYWdlQyAvSW1hZ2VJIF0KPj4gL1JvdGF0ZSAwIC9UcmFucyA8PAoKPj4gCiAgL1R5cGUgL1BhZ2UKPj4KZW5kb2JqCjUgMCBvYmoKPDwKL1BhZ2VNb2RlIC9Vc2VOb25lIC9QYWdlcyA3IDAgUiAvVHlwZSAvQ2F0YWxvZwo+PgplbmRvYmoKNiAwIG9iago8PAovQXV0aG9yIChcKGFub255bW91c1wpKSAvQ3JlYXRpb25EYXRlIChEOjIwMjYwNDA4MDk0NzM2LTA1JzAwJykgL0NyZWF0b3IgKFwodW5zcGVjaWZpZWRcKSkgL0tleXdvcmRzICgpIC9Nb2REYXRlIChEOjIwMjYwNDA4MDk0NzM2LTA1JzAwJykgL1Byb2R1Y2VyIChSZXBvcnRMYWIgUERGIExpYnJhcnkgLSBcKG9wZW5zb3VyY2VcKSkgCiAgL1N1YmplY3QgKFwodW5zcGVjaWZpZWRcKSkgL1RpdGxlIChcKGFub255bW91c1wpKSAvVHJhcHBlZCAvRmFsc2UKPj4KZW5kb2JqCjcgMCBvYmoKPDwKL0NvdW50IDEgL0tpZHMgWyA0IDAgUiBdIC9UeXBlIC9QYWdlcwo+PgplbmRvYmoKOCAwIG9iago8PAovRmlsdGVyIFsgL0FTQ0lJODVEZWNvZGUgL0ZsYXRlRGVjb2RlIF0gL0xlbmd0aCAxMTMxCj4+CnN0cmVhbQpHYXQ9Kjk2OGZYJkFJYGRxUUwzZiFiSXNMcHA+S15TVDZEQmc8Q29bKSRaaihPL3MwRWpmODdSb0VcIm8sXDFrbjVaOWcvckkrWDUoJ1Q6Iy9jT29mXmtFOkBEQ0E8Y3JYdTA2IlNkMVttMTkxPGNyLz0+aSkkMi0xL2MzIWs1Y1ghWzNaZGkocCxLYlteIV06WXNHNCEzS0IqUnJXN2g4Q0BOZksoTj5STjhaOzVTXy5FSFFyLDpOLkxbZ0JTQFImZVdLNVorPCYiZF8uZDBpaXM7O190cSxdS1UyaUgjJjpkRWZjO3JYIzJ1ME1UR1FPJ2x1N2JbRUUvMy06bitdaj5vWDowMi8oY0pcI01GOFA4Yk9BXylGQUpCVTJGVz8oXikqRVVNJ0lNLlVCOkZdLlgrND1EMiIicGJdN3MkUS5ROD1icidMNFdQM18vSzV1SzdDJi9bSjEmXjM6MDklSVI6KzYsNl03XmdFTjZzLVRyazUnOGxodTJzKEZlLkNPQXVCOks3RGlPXEVidWBsaVNILmMmQkMiQWdKLT07bmhVYTwkNzomclVwQD1aLkE2KmtwQGVwUm5SaCxjLTRkIWkoazRYNVgkRV83Yzo7JHBqI2c3KVpuZ1M/OGs1OSg/TWBaJ3A9JnAhX1lvNV9dLHIhJ0B0SUUmPi9oWjxgQCY0RmQwI1BTJ10zXDQ/IXE7dFQtIV5KKG9ENEJhKExaa01fSVwwKUl0bStmbTNkRkdGLHVzS1VyWXUkJV0mX2pzdXVPIlokVU9sT2hBMzpiKipRcFNKWS1HPDROaU5lMFkoLFBaS25TOGRLXSt1bHJwLTRcZl1FQHBIMC42T2klaSJSdF5SPUVGKDEsOE1HPzcsZz9DITZfPGpCOTJlKXM0LWYnWGlMaDF0XlAqTXQmXkQ7KTZKNyskKilaIzE4L1BGMUs4OFY+ZCxwXSUrO1UyLS1eVE1qSFklMU1sL2pEJz46Y0M4OXMzUk8+XD9xOSVPJ2lzLjZjMFlCcypuKzBxaF5kKUJVSTBsVm5mNU1CTWlIZD9fM00qP1Bab205QExFP2VyWjZUcj8uKFNIakUuO2tvPT9HJ15vVCRPIVk7TjpMJV1lPUEpUWFLL1hQMmdmW1FsZ2xfKjVEaC0qYHRUUDUyJ2VVOlF1O05OSDZAJE0icmRGRilJLVxoYTBpSik6R0dwOUo9MGZSTXE7W2oySV5aRyxAbl9KcyEyXW9jYSpEZS1CMU9jY2JIXF9UOnNnZXJsYk5KdWhvNkQ4Ki9bM2Q5X0gqYy1xXWg3Uz9kZV47J1FCXy4uRl4zMkhEPi0uYm1CWXAwZEc7YF8pcmlDWzMjNys0PT0ibDVRLFcmYDZGWj47S1NlLCJIPWUuazknOjxHWDFVSGNSdDE2U1NYVClrbSs5Ni02RjNnJGBUXSlqQ0ExMmowIiJxLlg1W0ZoYWBodSRGJyw8LUgiWlcyWUpXYzFmQEtaRV1RcDtgI0Q1ODYtKkE2fj5lbmRzdHJlYW0KZW5kb2JqCnhyZWYKMCA5CjAwMDAwMDAwMDAgNjU1MzUgZiAKMDAwMDAwMDA2MSAwMDAwMCBuIAowMDAwMDAwMTAyIDAwMDAwIG4gCjAwMDAwMDAyMDkgMDAwMDAgbiAKMDAwMDAwMDMyMSAwMDAwMCBuIAowMDAwMDAwNTE0IDAwMDAwIG4gCjAwMDAwMDA1ODIgMDAwMDAgbiAKMDAwMDAwMDg2MiAwMDAwMCBuIAowMDAwMDAwOTIxIDAwMDAwIG4gCnRyYWlsZXIKPDwKL0lEIApbPDQ5MGQ4ODI1OWVlODVkNjk3M2IxZWU2MDYxYjFlYzc3Pjw0OTBkODgyNTllZTg1ZDY5NzNiMWVlNjA2MWIxZWM3Nz5dCiUgUmVwb3J0TGFiIGdlbmVyYXRlZCBQREYgZG9jdW1lbnQgLS0gZGlnZXN0IChvcGVuc291cmNlKQoKL0luZm8gNiAwIFIKL1Jvb3QgNSAwIFIKL1NpemUgOQo+PgpzdGFydHhyZWYKMjE0MwolJUVPRgo="
+        }
+      ]
+    }
+  ],
+  "next_email_id": 66
+}

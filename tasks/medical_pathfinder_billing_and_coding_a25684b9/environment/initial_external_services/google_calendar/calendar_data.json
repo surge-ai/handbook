@@ -1,0 +1,143 @@
+{
+  "events": {
+    "evt-1": {
+      "summary": "CLM-2026-0061 TFL Deadline",
+      "start": {
+        "date": "2026-05-21"
+      },
+      "end": {
+        "date": "2026-05-22"
+      },
+      "id": "evt-1"
+    },
+    "evt-2": {
+      "summary": "CLM-2026-0062 TFL Deadline",
+      "start": {
+        "date": "2026-04-27"
+      },
+      "end": {
+        "date": "2026-04-28"
+      },
+      "id": "evt-2"
+    },
+    "evt-3": {
+      "summary": "CLM-2026-0063 TFL Deadline",
+      "start": {
+        "date": "2026-01-11"
+      },
+      "end": {
+        "date": "2026-01-12"
+      },
+      "id": "evt-3"
+    },
+    "evt-4": {
+      "summary": "CLM-2026-0064 TFL Deadline",
+      "start": {
+        "date": "2026-02-22"
+      },
+      "end": {
+        "date": "2026-02-23"
+      },
+      "id": "evt-4"
+    },
+    "evt-5": {
+      "summary": "CLM-2026-0065 TFL Deadline",
+      "start": {
+        "date": "2026-06-13"
+      },
+      "end": {
+        "date": "2026-06-14"
+      },
+      "id": "evt-5"
+    },
+    "evt-6": {
+      "summary": "CLM-2026-0066 TFL Deadline",
+      "start": {
+        "date": "2026-05-15"
+      },
+      "end": {
+        "date": "2026-05-16"
+      },
+      "id": "evt-6"
+    },
+    "evt-7": {
+      "summary": "CLM-2026-0062 Orange Alert",
+      "start": {
+        "date": "2026-03-28"
+      },
+      "end": {
+        "date": "2026-03-29"
+      },
+      "id": "evt-7"
+    },
+    "evt-8": {
+      "summary": "CLM-2026-0065 Yellow Alert",
+      "start": {
+        "date": "2026-04-14"
+      },
+      "end": {
+        "date": "2026-04-15"
+      },
+      "id": "evt-8"
+    },
+    "evt-9": {
+      "summary": "Weekly RCM Team Standup",
+      "start": {
+        "dateTime": "2026-03-30T09:30:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-03-30T10:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "id": "evt-9"
+    },
+    "evt-10": {
+      "summary": "New RA Onboarding \u2014 Alex Rivera",
+      "start": {
+        "date": "2026-03-30"
+      },
+      "end": {
+        "date": "2026-03-31"
+      },
+      "id": "evt-10"
+    },
+    "evt-11": {
+      "summary": "Monthly Batch Submission Deadline",
+      "start": {
+        "date": "2026-03-31"
+      },
+      "end": {
+        "date": "2026-04-01"
+      },
+      "description": "End-of-month 837P batch cutoff. All pending claims must be queued by 4:00 PM CT.",
+      "id": "evt-11"
+    },
+    "evt-12": {
+      "summary": "Provider Call \u2014 Valley Medical Group",
+      "start": {
+        "dateTime": "2026-04-02T14:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-02T15:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Quarterly provider relations call. Catherine Lawson to lead.",
+      "id": "evt-12"
+    },
+    "evt-13": {
+      "summary": "Aetna Portal Planned Maintenance",
+      "start": {
+        "dateTime": "2026-04-04T02:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-04T06:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Aetna payer portal unavailable. No 837P submissions or ERA retrieval during this window.",
+      "id": "evt-13"
+    }
+  }
+}

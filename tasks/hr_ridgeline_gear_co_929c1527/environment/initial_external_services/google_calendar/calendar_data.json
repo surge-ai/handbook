@@ -1,0 +1,580 @@
+{
+  "events": {
+    "hol-001": {
+      "summary": "Ridgeline Holiday \u2014 New Year's Day",
+      "start": {
+        "date": "2026-01-01"
+      },
+      "end": {
+        "date": "2026-01-02"
+      },
+      "description": "Ridgeline-observed holiday. HR office closed.",
+      "id": "hol-001"
+    },
+    "hol-002": {
+      "summary": "Ridgeline Holiday \u2014 Martin Luther King Jr. Day",
+      "start": {
+        "date": "2026-01-19"
+      },
+      "end": {
+        "date": "2026-01-20"
+      },
+      "description": "Ridgeline-observed holiday. HR office closed.",
+      "id": "hol-002"
+    },
+    "hol-003": {
+      "summary": "Ridgeline Holiday \u2014 Presidents' Day",
+      "start": {
+        "date": "2026-02-16"
+      },
+      "end": {
+        "date": "2026-02-17"
+      },
+      "description": "Ridgeline-observed holiday. HR office closed.",
+      "id": "hol-003"
+    },
+    "hol-004": {
+      "summary": "Ridgeline Holiday \u2014 Memorial Day",
+      "start": {
+        "date": "2026-05-25"
+      },
+      "end": {
+        "date": "2026-05-26"
+      },
+      "description": "Ridgeline-observed holiday. HR office closed.",
+      "id": "hol-004"
+    },
+    "hol-005": {
+      "summary": "Ridgeline Holiday \u2014 Juneteenth",
+      "start": {
+        "date": "2026-06-19"
+      },
+      "end": {
+        "date": "2026-06-20"
+      },
+      "description": "Ridgeline-observed holiday. HR office closed.",
+      "id": "hol-005"
+    },
+    "hol-006": {
+      "summary": "Ridgeline Holiday \u2014 Independence Day (Observed)",
+      "start": {
+        "date": "2026-07-03"
+      },
+      "end": {
+        "date": "2026-07-04"
+      },
+      "description": "Ridgeline-observed holiday. HR office closed.",
+      "id": "hol-006"
+    },
+    "hol-007": {
+      "summary": "Ridgeline Holiday \u2014 Labor Day",
+      "start": {
+        "date": "2026-09-07"
+      },
+      "end": {
+        "date": "2026-09-08"
+      },
+      "description": "Ridgeline-observed holiday. HR office closed.",
+      "id": "hol-007"
+    },
+    "hol-008": {
+      "summary": "Ridgeline Holiday \u2014 Thanksgiving Day",
+      "start": {
+        "date": "2026-11-26"
+      },
+      "end": {
+        "date": "2026-11-27"
+      },
+      "description": "Ridgeline-observed holiday. HR office closed.",
+      "id": "hol-008"
+    },
+    "hol-009": {
+      "summary": "Ridgeline Holiday \u2014 Day After Thanksgiving",
+      "start": {
+        "date": "2026-11-27"
+      },
+      "end": {
+        "date": "2026-11-28"
+      },
+      "description": "Ridgeline-observed holiday. HR office closed.",
+      "id": "hol-009"
+    },
+    "hol-010": {
+      "summary": "Ridgeline Holiday \u2014 Christmas Eve",
+      "start": {
+        "date": "2026-12-24"
+      },
+      "end": {
+        "date": "2026-12-25"
+      },
+      "description": "Ridgeline-observed holiday. HR office closed.",
+      "id": "hol-010"
+    },
+    "hol-011": {
+      "summary": "Ridgeline Holiday \u2014 Christmas Day",
+      "start": {
+        "date": "2026-12-25"
+      },
+      "end": {
+        "date": "2026-12-26"
+      },
+      "description": "Ridgeline-observed holiday. HR office closed.",
+      "id": "hol-011"
+    },
+    "lc-2025-0142-elig": {
+      "summary": "[DONE] Eligibility Notice Due \u2014 LC-2025-0142 Sarah Chen",
+      "start": {
+        "dateTime": "2025-06-20T17:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2025-06-20T17:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "FMLA Eligibility Notice due. COMPLETED 06/16/2025.",
+      "id": "lc-2025-0142-elig"
+    },
+    "lc-2025-0142-cert": {
+      "summary": "[DONE] Cert Due \u2014 LC-2025-0142 Sarah Chen",
+      "start": {
+        "date": "2025-07-02"
+      },
+      "end": {
+        "date": "2025-07-03"
+      },
+      "description": "Medical certification due. RECEIVED 06/25/2025.",
+      "id": "lc-2025-0142-cert"
+    },
+    "lc-2025-0142-desig": {
+      "summary": "[DONE] Designation Notice Due \u2014 LC-2025-0142 Sarah Chen",
+      "start": {
+        "dateTime": "2025-07-02T17:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2025-07-02T17:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "FMLA Designation Notice due. COMPLETED 06/26/2025.",
+      "id": "lc-2025-0142-desig"
+    },
+    "lc-2025-0142-rtw": {
+      "summary": "[DONE] Return to Work \u2014 LC-2025-0142 Sarah Chen",
+      "start": {
+        "date": "2025-06-29"
+      },
+      "end": {
+        "date": "2025-06-30"
+      },
+      "description": "Scheduled return from continuous FMLA. RETURNED 06/29/2025. Case closed 06/30/2025.",
+      "id": "lc-2025-0142-rtw"
+    },
+    "lc-2025-0331-elig": {
+      "summary": "[DONE] Eligibility Notice Due \u2014 LC-2025-0331 Sarah Chen",
+      "start": {
+        "dateTime": "2025-09-08T17:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2025-09-08T17:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "FMLA Eligibility Notice due. COMPLETED 09/02/2025.",
+      "id": "lc-2025-0331-elig"
+    },
+    "lc-2025-0331-cert": {
+      "summary": "[DONE] Cert Due \u2014 LC-2025-0331 Sarah Chen",
+      "start": {
+        "date": "2025-09-18"
+      },
+      "end": {
+        "date": "2025-09-19"
+      },
+      "description": "Medical certification due. RECEIVED 09/16/2025.",
+      "id": "lc-2025-0331-cert"
+    },
+    "lc-2025-0331-review-1": {
+      "summary": "[DONE] 30-Day Intermittent Review \u2014 LC-2025-0331 Sarah Chen",
+      "start": {
+        "dateTime": "2025-10-01T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2025-10-01T09:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "30-day intermittent case review. COMPLETED \u2014 within parameters.",
+      "id": "lc-2025-0331-review-1"
+    },
+    "lc-2025-0331-review-2": {
+      "summary": "[DONE] 30-Day Intermittent Review \u2014 LC-2025-0331 Sarah Chen",
+      "start": {
+        "dateTime": "2025-10-31T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2025-10-31T09:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "30-day intermittent case review. COMPLETED \u2014 within parameters.",
+      "id": "lc-2025-0331-review-2"
+    },
+    "lc-2025-0331-review-3": {
+      "summary": "[DONE] 30-Day Intermittent Review \u2014 LC-2025-0331 Sarah Chen",
+      "start": {
+        "dateTime": "2025-11-30T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2025-11-30T09:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "30-day intermittent case review. COMPLETED \u2014 within parameters.",
+      "id": "lc-2025-0331-review-3"
+    },
+    "lc-2025-0331-review-4": {
+      "summary": "[DONE] 30-Day Intermittent Review \u2014 LC-2025-0331 Sarah Chen",
+      "start": {
+        "dateTime": "2025-12-31T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2025-12-31T09:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "30-day intermittent case review. COMPLETED \u2014 within parameters. Case closed 01/02/2026.",
+      "id": "lc-2025-0331-review-4"
+    },
+    "lc-2026-0058-review-1": {
+      "summary": "[DONE] 30-Day Intermittent Review \u2014 LC-2026-0058 Sarah Chen",
+      "start": {
+        "dateTime": "2026-01-31T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-31T09:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "30-day intermittent case review. COMPLETED \u2014 within parameters.",
+      "id": "lc-2026-0058-review-1"
+    },
+    "lc-2026-0058-review-2": {
+      "summary": "[DONE] 30-Day Intermittent Review \u2014 LC-2026-0058 Sarah Chen",
+      "start": {
+        "dateTime": "2026-02-28T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-28T09:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "30-day intermittent case review. COMPLETED \u2014 within parameters.",
+      "id": "lc-2026-0058-review-2"
+    },
+    "lc-2026-0058-review-3": {
+      "summary": "[DONE] 30-Day Intermittent Review \u2014 LC-2026-0058 Sarah Chen",
+      "start": {
+        "dateTime": "2026-03-31T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-31T09:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "30-day intermittent case review. COMPLETED \u2014 within parameters. Case closed 04/01/2026.",
+      "id": "lc-2026-0058-review-3"
+    },
+    "lc-2025-0410-elig": {
+      "summary": "[DONE] Eligibility Notice Due \u2014 LC-2025-0410 Tom\u00e1s Guerrero",
+      "start": {
+        "dateTime": "2025-10-10T17:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2025-10-10T17:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "FMLA Eligibility Notice due. COMPLETED 10/07/2025.",
+      "id": "lc-2025-0410-elig"
+    },
+    "lc-2025-0410-cert": {
+      "summary": "[DONE] Cert Due \u2014 LC-2025-0410 Tom\u00e1s Guerrero",
+      "start": {
+        "date": "2025-10-23"
+      },
+      "end": {
+        "date": "2025-10-24"
+      },
+      "description": "Medical certification due. RECEIVED 10/20/2025.",
+      "id": "lc-2025-0410-cert"
+    },
+    "lc-2025-0410-rtw": {
+      "summary": "[DONE] Return to Work \u2014 LC-2025-0410 Tom\u00e1s Guerrero",
+      "start": {
+        "date": "2025-10-31"
+      },
+      "end": {
+        "date": "2025-11-01"
+      },
+      "description": "Scheduled return from continuous FMLA+FAMLI. RETURNED 10/31/2025. Case closed 11/03/2025.",
+      "id": "lc-2025-0410-rtw"
+    },
+    "lc-2026-0101-elig": {
+      "summary": "[DONE] Eligibility Notice Due \u2014 LC-2026-0101 Darnell Washington",
+      "start": {
+        "dateTime": "2026-01-16T17:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-16T17:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "FMLA Eligibility Notice due. COMPLETED 01/13/2026.",
+      "id": "lc-2026-0101-elig"
+    },
+    "lc-2026-0101-rtw": {
+      "summary": "[DONE] Return to Work \u2014 LC-2026-0101 Darnell Washington",
+      "start": {
+        "date": "2026-03-06"
+      },
+      "end": {
+        "date": "2026-03-07"
+      },
+      "description": "Scheduled return from FMLA+FAMLI bonding leave. RETURNED 03/06/2026. Case closed 03/09/2026.",
+      "id": "lc-2026-0101-rtw"
+    },
+    "lc-2026-0305-doc": {
+      "summary": "[DONE] Bereavement Documentation Due \u2014 LC-2026-0305 Kevin O'Malley",
+      "start": {
+        "date": "2026-04-27"
+      },
+      "end": {
+        "date": "2026-04-28"
+      },
+      "description": "Bereavement documentation due 30 calendar days from date of loss (03/28/2026). RECEIVED 04/02/2026 (obituary).",
+      "id": "lc-2026-0305-doc"
+    },
+    "lc-2026-0203-cert": {
+      "summary": "[DONE] Cert Due \u2014 LC-2026-0203 James Nkomo",
+      "start": {
+        "date": "2026-03-04"
+      },
+      "end": {
+        "date": "2026-03-05"
+      },
+      "description": "Medical certification due. RECEIVED 03/02/2026.",
+      "id": "lc-2026-0203-cert"
+    },
+    "lc-2026-0203-review-1": {
+      "summary": "[DONE] 30-Day Intermittent Review \u2014 LC-2026-0203 James Nkomo",
+      "start": {
+        "dateTime": "2026-03-17T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-17T09:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "30-day intermittent case review. COMPLETED \u2014 within parameters.",
+      "id": "lc-2026-0203-review-1"
+    },
+    "lc-2026-0203-review-2": {
+      "summary": "[DONE] 30-Day Intermittent Review \u2014 LC-2026-0203 James Nkomo",
+      "start": {
+        "dateTime": "2026-04-16T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-04-16T09:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "30-day intermittent case review.",
+      "id": "lc-2026-0203-review-2"
+    },
+    "lc-2026-0203-review-3": {
+      "summary": "30-Day Intermittent Review \u2014 LC-2026-0203 James Nkomo",
+      "start": {
+        "dateTime": "2026-05-07T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-05-07T09:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "30-day intermittent case review.",
+      "id": "lc-2026-0203-review-3"
+    },
+    "lc-2026-0203-review-4": {
+      "summary": "30-Day Intermittent Review \u2014 LC-2026-0203 James Nkomo",
+      "start": {
+        "dateTime": "2026-06-06T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-06-06T09:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "30-day intermittent case review.",
+      "id": "lc-2026-0203-review-4"
+    },
+    "lc-2026-0203-review-5": {
+      "summary": "30-Day Intermittent Review \u2014 LC-2026-0203 James Nkomo",
+      "start": {
+        "dateTime": "2026-07-06T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-07-06T09:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "30-day intermittent case review.",
+      "id": "lc-2026-0203-review-5"
+    },
+    "lc-2026-0203-review-6": {
+      "summary": "30-Day Intermittent Review \u2014 LC-2026-0203 James Nkomo",
+      "start": {
+        "dateTime": "2026-08-05T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-08-05T09:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "30-day intermittent case review.",
+      "id": "lc-2026-0203-review-6"
+    },
+    "lc-2026-0203-end": {
+      "summary": "Case End Date \u2014 LC-2026-0203 James Nkomo",
+      "start": {
+        "date": "2026-08-15"
+      },
+      "end": {
+        "date": "2026-08-16"
+      },
+      "description": "Certified intermittent FMLA period ends.",
+      "id": "lc-2026-0203-end"
+    },
+    "lc-2026-0203-cert-renewal": {
+      "summary": "6-Month Cert Renewal Due \u2014 LC-2026-0203 James Nkomo",
+      "start": {
+        "dateTime": "2026-08-15T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-08-15T09:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "Case open since 02/15/2026 \u2014 6-month mark reached.",
+      "id": "lc-2026-0203-cert-renewal"
+    },
+    "lc-2026-0287-cert": {
+      "summary": "[DONE] Cert Due \u2014 LC-2026-0287 Hannah Lindqvist",
+      "start": {
+        "date": "2026-03-28"
+      },
+      "end": {
+        "date": "2026-03-29"
+      },
+      "description": "Medical certification due. RECEIVED 03/27/2026.",
+      "id": "lc-2026-0287-cert"
+    },
+    "lc-2026-0287-ffd-reminder": {
+      "summary": "Send FFD Reminder \u2014 LC-2026-0287 Hannah Lindqvist",
+      "start": {
+        "dateTime": "2026-05-04T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-05-04T09:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "Send FFD reminder \u2014 LC-2026-0287 Hannah Lindqvist",
+      "id": "lc-2026-0287-ffd-reminder"
+    },
+    "lc-2026-0287-mgr-rtw": {
+      "summary": "Notify Manager of Return \u2014 LC-2026-0287 Hannah Lindqvist",
+      "start": {
+        "dateTime": "2026-05-07T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-05-07T09:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "Notify manager of return \u2014 LC-2026-0287 Hannah Lindqvist",
+      "id": "lc-2026-0287-mgr-rtw"
+    },
+    "lc-2026-0287-rtw": {
+      "summary": "Scheduled Return to Work \u2014 LC-2026-0287 Hannah Lindqvist",
+      "start": {
+        "date": "2026-05-11"
+      },
+      "end": {
+        "date": "2026-05-12"
+      },
+      "description": "Scheduled return from continuous FMLA+FAMLI leave. Fitness-for-duty certification required.",
+      "id": "lc-2026-0287-rtw"
+    },
+    "lc-2026-0320-rtw": {
+      "summary": "Expected Return \u2014 LC-2026-0320 Marcus DeLuca (Jury Duty)",
+      "start": {
+        "date": "2026-04-10"
+      },
+      "end": {
+        "date": "2026-04-11"
+      },
+      "description": "Expected return from jury duty (Larimer County District Court, Juror #47823).",
+      "id": "lc-2026-0320-rtw"
+    },
+    "audit-q2-2026": {
+      "summary": "Quarterly Case Audit \u2014 Q2 2026",
+      "start": {
+        "dateTime": "2026-04-15T10:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-04-15T11:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "Benefits Manager quarterly case audit.",
+      "id": "audit-q2-2026"
+    },
+    "audit-q3-2026": {
+      "summary": "Quarterly Case Audit \u2014 Q3 2026",
+      "start": {
+        "dateTime": "2026-07-15T10:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-07-15T11:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "Benefits Manager quarterly case audit.",
+      "id": "audit-q3-2026"
+    },
+    "audit-q4-2026": {
+      "summary": "Quarterly Case Audit \u2014 Q4 2026",
+      "start": {
+        "dateTime": "2026-10-15T10:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-10-15T11:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "Benefits Manager quarterly case audit.",
+      "id": "audit-q4-2026"
+    },
+    "sop-review-2027": {
+      "summary": "Annual SOP Review Due",
+      "start": {
+        "date": "2027-04-01"
+      },
+      "end": {
+        "date": "2027-04-02"
+      },
+      "description": "Annual review of Leave Coordinator SOP by Benefits Manager and HR Director.",
+      "id": "sop-review-2027"
+    }
+  }
+}

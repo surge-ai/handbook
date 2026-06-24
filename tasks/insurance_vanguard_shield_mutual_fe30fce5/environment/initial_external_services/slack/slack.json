@@ -1,0 +1,297 @@
+{
+  "users": {
+    "U001": {
+      "id": "U001",
+      "team_id": "T001",
+      "name": "james.okafor",
+      "deleted": false,
+      "real_name": "James Okafor",
+      "profile": {
+        "real_name": "James Okafor",
+        "display_name": "jamesko",
+        "email": "james.okafor@vanguardshield.com",
+        "title": "Treasury Operations Specialist"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U002": {
+      "id": "U002",
+      "team_id": "T001",
+      "name": "karen.stills",
+      "deleted": false,
+      "real_name": "Karen Stills",
+      "profile": {
+        "real_name": "Karen Stills",
+        "display_name": "karens",
+        "email": "karen.stills@vanguardshield.com",
+        "title": "VP, Treasury Operations"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U003": {
+      "id": "U003",
+      "team_id": "T001",
+      "name": "michael.drury",
+      "deleted": false,
+      "real_name": "Michael Drury",
+      "profile": {
+        "real_name": "Michael Drury",
+        "display_name": "miked",
+        "email": "michael.drury@vanguardshield.com",
+        "title": "SVP, Finance & Risk"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U004": {
+      "id": "U004",
+      "team_id": "T001",
+      "name": "brett.connors",
+      "deleted": false,
+      "real_name": "Brett Connors",
+      "profile": {
+        "real_name": "Brett Connors",
+        "display_name": "brettc",
+        "email": "brett.connors@vanguardshield.com",
+        "title": "Senior Manager, Treasury Operations"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U005": {
+      "id": "U005",
+      "team_id": "T001",
+      "name": "priya.mehta",
+      "deleted": false,
+      "real_name": "Priya Mehta",
+      "profile": {
+        "real_name": "Priya Mehta",
+        "display_name": "priyam",
+        "email": "priya.mehta@vanguardshield.com",
+        "title": "AVP, Enterprise Risk"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    }
+  },
+  "channels": {
+    "C001": {
+      "id": "C001",
+      "name": "treasury-wires",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1609459200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "treasury-wires",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1609459200,
+      "creator": "U002",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Wire transfer submission and approval tracking",
+        "creator": "U002",
+        "last_set": 1609459200
+      },
+      "purpose": {
+        "value": "Channel for treasury wire transfer approvals and documentation",
+        "creator": "U002",
+        "last_set": 1609459200
+      }
+    },
+    "C002": {
+      "id": "C002",
+      "name": "compliance-urgent",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1609459200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "compliance-urgent",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1609459200,
+      "creator": "U002",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Urgent compliance alerts and escalations",
+        "creator": "U002",
+        "last_set": 1609459200
+      },
+      "purpose": {
+        "value": "Channel for time-sensitive compliance issues requiring immediate attention",
+        "creator": "U002",
+        "last_set": 1609459200
+      }
+    }
+  },
+  "messages": {
+    "C001": [
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Wire submitted for processing. Wire ID: INTL-2026-0147. Payee: Meridian Reinsurance Partners Ltd. Amount: $312,500.00. Please review and approve per policy. Jira: <https://vanguardshield.atlassian.net/browse/OPS-2|OPS-2>",
+        "ts": "1772636400.000100",
+        "team": "T001",
+        "channel": "C001",
+        "reply_count": 2,
+        "latest_reply": "1772639220.000300",
+        "reply_users": [
+          "U002",
+          "U003"
+        ],
+        "reply_users_count": 2
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Approved.",
+        "ts": "1772637720.000200",
+        "thread_ts": "1772636400.000100",
+        "parent_user_id": "U001",
+        "team": "T001",
+        "channel": "C001"
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "Approved.",
+        "ts": "1772639220.000300",
+        "thread_ts": "1772636400.000100",
+        "parent_user_id": "U001",
+        "team": "T001",
+        "channel": "C001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Wire submitted for processing. Wire ID: INTL-2026-0151. Payee: Castlewood Actuarial Services B.V. Amount: $87,200.00. Jira: <https://vanguardshield.atlassian.net/browse/OPS-3|OPS-3>",
+        "ts": "1773241200.000400",
+        "team": "T001",
+        "channel": "C001",
+        "reply_count": 1,
+        "latest_reply": "1773242520.000500",
+        "reply_users": [
+          "U002"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Approved.",
+        "ts": "1773242520.000500",
+        "thread_ts": "1773241200.000400",
+        "parent_user_id": "U001",
+        "team": "T001",
+        "channel": "C001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Wire submitted for processing. Wire ID: INTL-2026-0158. Payee: Nordic Claims Recovery AS. Amount: $204,750.00. Jira: <https://vanguardshield.atlassian.net/browse/OPS-4|OPS-4>",
+        "ts": "1773932400.000600",
+        "team": "T001",
+        "channel": "C001",
+        "reply_count": 2,
+        "latest_reply": "1773935220.000800",
+        "reply_users": [
+          "U002",
+          "U004"
+        ],
+        "reply_users_count": 2
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Approved.",
+        "ts": "1773933720.000700",
+        "thread_ts": "1773932400.000600",
+        "parent_user_id": "U001",
+        "team": "T001",
+        "channel": "C001"
+      },
+      {
+        "type": "message",
+        "user": "U004",
+        "text": "Approved.",
+        "ts": "1773935220.000800",
+        "thread_ts": "1773932400.000600",
+        "parent_user_id": "U001",
+        "team": "T001",
+        "channel": "C001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Wire submitted for processing. Wire ID: INTL-2026-0163. Payee: Avondale Risk Consulting Ltd. Amount: $519,000.00. Jira: <https://vanguardshield.atlassian.net/browse/OPS-5|OPS-5>",
+        "ts": "1774623600.000900",
+        "team": "T001",
+        "channel": "C001",
+        "reply_count": 2,
+        "latest_reply": "1774626420.001100",
+        "reply_users": [
+          "U002",
+          "U005"
+        ],
+        "reply_users_count": 2
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Approved.",
+        "ts": "1774624920.001000",
+        "thread_ts": "1774623600.000900",
+        "parent_user_id": "U001",
+        "team": "T001",
+        "channel": "C001"
+      },
+      {
+        "type": "message",
+        "user": "U005",
+        "text": "Approved.",
+        "ts": "1774626420.001100",
+        "thread_ts": "1774623600.000900",
+        "parent_user_id": "U001",
+        "team": "T001",
+        "channel": "C001"
+      }
+    ],
+    "C002": []
+  },
+  "counters": {
+    "messageId": 1000012
+  }
+}

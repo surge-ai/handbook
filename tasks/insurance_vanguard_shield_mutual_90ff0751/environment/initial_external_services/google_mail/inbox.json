@@ -1,0 +1,144 @@
+{
+  "mailbox": {
+    "email": "analyst@vanguardshield.com",
+    "name": "Analyst \u2014 HR & Sales Ops"
+  },
+  "contacts": [
+    {
+      "email": "bsandoval@vanguardshield.com",
+      "name": "B. Sandoval"
+    },
+    {
+      "email": "hr.intake@vanguardshield.com",
+      "name": "HR Intake Bot"
+    },
+    {
+      "email": "j.morales@vanguardshield.com",
+      "name": "Jessica Morales"
+    },
+    {
+      "email": "l.williams@vanguardshield.com",
+      "name": "Lisa Williams"
+    },
+    {
+      "email": "hrops@vanguardshield.com",
+      "name": "HR Ops"
+    },
+    {
+      "email": "people@vanguardshield.com",
+      "name": "People Directory"
+    },
+    {
+      "email": "it-notifications@vanguardshield.com",
+      "name": "IT Notifications"
+    },
+    {
+      "email": "d.huang@vanguardshield.com",
+      "name": "Derek Huang"
+    },
+    {
+      "email": "training@vanguardshield.com",
+      "name": "Compliance Training Team"
+    }
+  ],
+  "groups": [
+    {
+      "email": "all-staff@vanguardshield.com",
+      "name": "All Staff",
+      "members": [
+        "analyst@vanguardshield.com",
+        "j.morales@vanguardshield.com",
+        "l.williams@vanguardshield.com"
+      ]
+    }
+  ],
+  "folders": [],
+  "emails": [
+    {
+      "email_id": "1",
+      "folder": "INBOX",
+      "subject": "T&E reports for review \u2014 Oct 1\u20137 batch",
+      "from_addr": "j.morales@vanguardshield.com",
+      "to_addr": "analyst@vanguardshield.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-10-07T17:20:00-04:00",
+      "message_id": "<msg-oct-001@vanguardshield.com>",
+      "in_reply_to": null,
+      "body_text": "Hi \u2014\n\nJust a heads up that the Jira queue has items ready for your review. Please make sure everything\u2019s worked through before the afternoon standup Thursday. Let me know if anything escalates.\n\nThanks,\nJessica Morales\nHR Operations",
+      "body_html": null,
+      "is_read": true,
+      "is_important": true,
+      "attachments": []
+    },
+    {
+      "email_id": "2",
+      "folder": "INBOX",
+      "subject": "My expense report for last week \u2014 any update?",
+      "from_addr": "d.huang@vanguardshield.com",
+      "to_addr": "analyst@vanguardshield.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-10-08T07:42:00-04:00",
+      "message_id": "<msg-oct-002@gmail.com>",
+      "in_reply_to": null,
+      "body_text": "Hi,\n\nJust checking in on my expense report for last week. We have a team off-site coming up and I want to make sure this cycle gets processed before the next submission window.\n\nThanks,\nDerek Huang\nRegional Sales Lead \u2014 Midwest",
+      "body_html": null,
+      "is_read": false,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "3",
+      "folder": "INBOX",
+      "subject": "FW: Q4 Sales Quota Alignment \u2014 Action Required by Oct 15",
+      "from_addr": "l.williams@vanguardshield.com",
+      "to_addr": "analyst@vanguardshield.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-10-07T09:15:00-04:00",
+      "message_id": "<msg-oct-003@vanguardshield.com>",
+      "in_reply_to": null,
+      "body_text": "Forwarding for your records.\n\nSales Ops and Finance are doing the Q4 territory quota reconciliation. If any T&E submissions from the sales team include notes about deal-related travel, please note those in standard processing.\n\nDeadline for Finance to receive quota data is Oct 15.\n\n\u2014 Lisa Williams, VP Sales\n\n---------- Forwarded message ----------\nFrom: CFO Office <cfo@vanguardshield.com>\nSubject: Q4 Sales Quota Alignment\n\nFinance and Sales Ops: Please ensure all Q4 territory quota assignments are reconciled and confirmed in Salesforce by October 15. Questions to finance.ops@.",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "4",
+      "folder": "INBOX",
+      "subject": "Scheduled maintenance \u2014 Jira downtime Oct 18\u201319",
+      "from_addr": "it-notifications@vanguardshield.com",
+      "to_addr": "all-staff@vanguardshield.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-10-07T08:00:00-04:00",
+      "message_id": "<msg-oct-004@vanguardshield.com>",
+      "in_reply_to": null,
+      "body_text": "Please be advised that Jira will be unavailable for scheduled maintenance from Saturday Oct 18 at 10 PM ET through Sunday Oct 19 at 6 AM ET. Please save any in-progress work before the maintenance window.\n\nIT Operations",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "5",
+      "folder": "INBOX",
+      "subject": "Reminder: Q4 compliance training due Oct 31",
+      "from_addr": "training@vanguardshield.com",
+      "to_addr": "analyst@vanguardshield.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-10-05T09:00:00-04:00",
+      "message_id": "<msg-oct-005@vanguardshield.com>",
+      "in_reply_to": null,
+      "body_text": "This is a reminder that your Q4 compliance training module is due by October 31, 2026. Please complete the online course at training.vanguardshield.com.\n\nTopics: Data privacy refresher, Anti-money laundering update, Claims handling best practices.\n\nCompliance Training Team",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    }
+  ],
+  "next_email_id": 6
+}

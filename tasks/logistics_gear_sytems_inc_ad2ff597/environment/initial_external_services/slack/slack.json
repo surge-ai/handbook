@@ -1,0 +1,562 @@
+{
+  "users": {
+    "U001": {
+      "id": "U001",
+      "team_id": "T001",
+      "name": "receiving-mer",
+      "deleted": false,
+      "real_name": "Inbound Materials Coordinator",
+      "tz": "America/Chicago",
+      "tz_label": "Central Standard Time",
+      "tz_offset": -21600,
+      "profile": {
+        "real_name": "Inbound Materials Coordinator",
+        "display_name": "receiving-mer",
+        "email": "receiving.coordinator@gearsystems.com",
+        "title": "Inbound Materials Coordinator"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U002": {
+      "id": "U002",
+      "team_id": "T001",
+      "name": "dhooks",
+      "deleted": false,
+      "real_name": "Darnell Hooks",
+      "tz": "America/Chicago",
+      "tz_label": "Central Standard Time",
+      "tz_offset": -21600,
+      "profile": {
+        "real_name": "Darnell Hooks",
+        "display_name": "dhooks",
+        "email": "darnell.hooks@gearsystems.com",
+        "title": "Receiving Supervisor"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U003": {
+      "id": "U003",
+      "team_id": "T001",
+      "name": "evelasquez",
+      "deleted": false,
+      "real_name": "Elizabeth Velasquez",
+      "tz": "America/Chicago",
+      "tz_label": "Central Standard Time",
+      "tz_offset": -21600,
+      "profile": {
+        "real_name": "Elizabeth Velasquez",
+        "display_name": "evelasquez",
+        "email": "elizabeth.velasquez@gearsystems.com",
+        "title": "Plant Logistics Manager"
+      },
+      "is_admin": true,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U004": {
+      "id": "U004",
+      "team_id": "T001",
+      "name": "wfinch",
+      "deleted": false,
+      "real_name": "Walter Finch",
+      "tz": "America/Chicago",
+      "tz_label": "Central Standard Time",
+      "tz_offset": -21600,
+      "profile": {
+        "real_name": "Walter Finch",
+        "display_name": "wfinch",
+        "email": "walter.finch@gearsystems.com",
+        "title": "Plant Manager"
+      },
+      "is_admin": true,
+      "is_owner": true,
+      "is_bot": false
+    },
+    "U005": {
+      "id": "U005",
+      "team_id": "T001",
+      "name": "tbrandt",
+      "deleted": false,
+      "real_name": "Theo Brandt",
+      "tz": "America/Chicago",
+      "tz_label": "Central Standard Time",
+      "tz_offset": -21600,
+      "profile": {
+        "real_name": "Theo Brandt",
+        "display_name": "tbrandt",
+        "email": "theo.brandt@gearsystems.com",
+        "title": "Quality Manager"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U006": {
+      "id": "U006",
+      "team_id": "T001",
+      "name": "jpark",
+      "deleted": false,
+      "real_name": "Joon-ho Park",
+      "tz": "America/Chicago",
+      "tz_label": "Central Standard Time",
+      "tz_offset": -21600,
+      "profile": {
+        "real_name": "Joon-ho Park",
+        "display_name": "jpark",
+        "email": "joonho.park@gearsystems.com",
+        "title": "Procurement Lead \u2014 Meridian"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U007": {
+      "id": "U007",
+      "team_id": "T001",
+      "name": "mortiz",
+      "deleted": false,
+      "real_name": "Maribel Ortiz",
+      "tz": "America/Chicago",
+      "tz_label": "Central Standard Time",
+      "tz_offset": -21600,
+      "profile": {
+        "real_name": "Maribel Ortiz",
+        "display_name": "mortiz",
+        "email": "maribel.ortiz@gearsystems.com",
+        "title": "Inventory Control Lead"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U008": {
+      "id": "U008",
+      "team_id": "T001",
+      "name": "akrishnamurthy",
+      "deleted": false,
+      "real_name": "Aditi Krishnamurthy",
+      "tz": "America/Chicago",
+      "tz_label": "Central Standard Time",
+      "tz_offset": -21600,
+      "profile": {
+        "real_name": "Aditi Krishnamurthy",
+        "display_name": "akrishnamurthy",
+        "email": "aditi.krishnamurthy@gearsystems.com",
+        "title": "Production Planning Lead"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U009": {
+      "id": "U009",
+      "team_id": "T001",
+      "name": "rlemoine",
+      "deleted": false,
+      "real_name": "Reggie Lemoine",
+      "tz": "America/Chicago",
+      "tz_label": "Central Standard Time",
+      "tz_offset": -21600,
+      "profile": {
+        "real_name": "Reggie Lemoine",
+        "display_name": "rlemoine",
+        "email": "reggie.lemoine@gearsystems.com",
+        "title": "Quality Inspector \u2014 1st Shift"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U010": {
+      "id": "U010",
+      "team_id": "T001",
+      "name": "cwoj",
+      "deleted": false,
+      "real_name": "Chris Wojciechowski",
+      "tz": "America/Chicago",
+      "tz_label": "Central Standard Time",
+      "tz_offset": -21600,
+      "profile": {
+        "real_name": "Chris Wojciechowski",
+        "display_name": "cwoj",
+        "email": "chris.wojciechowski@gearsystems.com",
+        "title": "Plant EHS Contact"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U011": {
+      "id": "U011",
+      "team_id": "T001",
+      "name": "cyablonski",
+      "deleted": false,
+      "real_name": "Curtis Yablonski",
+      "tz": "America/Chicago",
+      "tz_label": "Central Standard Time",
+      "tz_offset": -21600,
+      "profile": {
+        "real_name": "Curtis Yablonski",
+        "display_name": "cyablonski",
+        "email": "curtis.yablonski@gearsystems.com",
+        "title": "Dock Crew Lead"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    }
+  },
+  "channels": {
+    "C001": {
+      "id": "C001",
+      "name": "receiving-dock",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1767225600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "receiving-dock",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1767225600,
+      "creator": "U002",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Dock operations, arrivals, putaway authorizations, and shift handoffs \u2014 Meridian Plant",
+        "creator": "U002",
+        "last_set": 1767225600
+      },
+      "purpose": {
+        "value": "Primary operational channel for the Meridian receiving dock. All arrival notifications, unload reports, putaway authorizations, and end-of-shift handoffs are posted here.",
+        "creator": "U002",
+        "last_set": 1767225600
+      }
+    },
+    "C002": {
+      "id": "C002",
+      "name": "quality-alerts",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1767225600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "quality-alerts",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1767225600,
+      "creator": "U005",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Quality inspection findings, hazmat receipts, and quality-related alerts \u2014 Meridian Plant",
+        "creator": "U005",
+        "last_set": 1767225600
+      },
+      "purpose": {
+        "value": "Quality Inspector inspection reports, hazmat clearances, and quality-flagged receipt alerts.",
+        "creator": "U005",
+        "last_set": 1767225600
+      }
+    },
+    "C003": {
+      "id": "C003",
+      "name": "escalations-meridian",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1767225600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "escalations-meridian",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1767225600,
+      "creator": "U003",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Escalations requiring senior staff acknowledgement \u2014 Meridian Plant",
+        "creator": "U003",
+        "last_set": 1767225600
+      },
+      "purpose": {
+        "value": "Dollar-value and severity-override escalations. All posts require written acknowledgement from the named owner before the Coordinator takes further action.",
+        "creator": "U003",
+        "last_set": 1767225600
+      }
+    },
+    "C004": {
+      "id": "C004",
+      "name": "planning-meridian",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1767225600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "planning-meridian",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1767225600,
+      "creator": "U008",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Production planning coordination \u2014 Meridian Plant",
+        "creator": "U008",
+        "last_set": 1767225600
+      },
+      "purpose": {
+        "value": "Production planning notifications including DTL arrivals, short ship line-down risk assessments, and schedule impacts.",
+        "creator": "U008",
+        "last_set": 1767225600
+      }
+    },
+    "D001": {
+      "id": "D001",
+      "name": "dm-dhooks",
+      "is_channel": false,
+      "is_im": true,
+      "is_group": false,
+      "is_mpim": false,
+      "is_private": true,
+      "is_archived": false,
+      "user": "U002",
+      "created": 1767225600,
+      "context_team_id": "T001",
+      "members": [
+        "U002"
+      ]
+    },
+    "D002": {
+      "id": "D002",
+      "name": "dm-evelasquez",
+      "is_channel": false,
+      "is_im": true,
+      "is_group": false,
+      "is_mpim": false,
+      "is_private": true,
+      "is_archived": false,
+      "user": "U003",
+      "created": 1767225600,
+      "context_team_id": "T001",
+      "members": [
+        "U003"
+      ]
+    },
+    "D003": {
+      "id": "D003",
+      "name": "dm-cwoj",
+      "is_channel": false,
+      "is_im": true,
+      "is_group": false,
+      "is_mpim": false,
+      "is_private": true,
+      "is_archived": false,
+      "user": "U010",
+      "created": 1767225600,
+      "context_team_id": "T001",
+      "members": [
+        "U010"
+      ]
+    },
+    "D004": {
+      "id": "D004",
+      "name": "dm-mortiz",
+      "is_channel": false,
+      "is_im": true,
+      "is_group": false,
+      "is_mpim": false,
+      "is_private": true,
+      "is_archived": false,
+      "user": "U007",
+      "created": 1767225600,
+      "context_team_id": "T001",
+      "members": [
+        "U007"
+      ]
+    }
+  },
+  "messages": {
+    "C001": [
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "DAILY DOCK PREVIEW 02/11/2026: 1 appointment scheduled. Hazmat: none. Oversize/special: Probation supplier \u2014 Reggie Lemoine inspection required. Largest expected shipment: Appalachian Steel Works, ~4,800 lb at 08:30.",
+        "ts": "1770800100.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U011",
+        "text": "UNLOAD COMPLETE: REC-20260211-001, Appalachian Steel Works, PO #MER-PO-103502. Total pallets: 8. Count match: Y. Condition: Notes attached \u2014 Tier 2 damage on pallets 2, 3, 4. Photos: Y.",
+        "ts": "1770824400.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "PUTAWAY AUTHORIZED: REC-20260211-001, Appalachian Steel Works, 1 line.\n- Line 001: FG-91200-B2, 80 units \u2192 Q-HOLD [QUARANTINE \u2014 Tier 2 damage + missing MTR]\nCoordinator: DH",
+        "ts": "1770828300.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "DAILY DOCK PREVIEW 02/25/2026: 1 appointment scheduled. Hazmat: APPT-20260225-001. Oversize/special: none. Largest expected shipment: Redstone Alloy Fabricators, ~1,600 lb at 08:30.",
+        "ts": "1772009700.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U011",
+        "text": "UNLOAD COMPLETE: REC-20260225-001, Redstone Alloy Fabricators, PO #MER-PO-103508. Total pallets: 8. Count match: Y. Condition: Notes attached \u2014 Tier 2 damage on pallets 3, 4, 6, 7. Photos: Y.",
+        "ts": "1772034000.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "PUTAWAY AUTHORIZED: REC-20260225-001, Redstone Alloy Fabricators, 1 line.\n- Line 001: FL-20044-A3, 40 units \u2192 D-001 [ACCEPTED]\n- Line 001 (partial): FL-20044-A3, 40 units \u2192 Q-HOLD [QUARANTINE \u2014 Tier 2 damage, pallets 3,4,6,7]\nCoordinator: DH",
+        "ts": "1772038800.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "DAILY DOCK PREVIEW 03/09/2026: 1 appointment scheduled. Hazmat: APPT-20260309-001. Oversize/special: none. Largest expected shipment: Redstone Alloy Fabricators, ~640 lb at 11:00.",
+        "ts": "1773058200.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U011",
+        "text": "UNLOAD COMPLETE: REC-20260309-004, Redstone Alloy Fabricators, PO #MER-PO-103515. Total pallets: 4. Count match: Y. Condition: Clean. Photos: N.",
+        "ts": "1773079200.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "PUTAWAY AUTHORIZED: REC-20260309-004, Redstone Alloy Fabricators, 1 line.\n- Line 001: FL-21300-A1, 20 units \u2192 D-002\nCoordinator: DH",
+        "ts": "1773080100.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "DAILY DOCK PREVIEW 03/10/2026: 1 appointment scheduled. Hazmat: none. Oversize/special: DTL delivery to LINE-ASMB-01. Largest expected shipment: Gulf Coast Bearings & Seals, ~200 lb at 08:30.",
+        "ts": "1773144600.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U011",
+        "text": "UNLOAD COMPLETE: REC-20260310-001, Gulf Coast Bearings & Seals, PO #MER-PO-103516. Total pallets: 1. Count match: Y. Condition: Clean. Photos: N.",
+        "ts": "1773157200.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "DTL DELIVERY AUTHORIZED: REC-20260310-001, Gulf Coast Bearings & Seals, BG-33044-A1, 40 units \u2192 LINE-ASMB-01. Coordinator: DH.",
+        "ts": "1773158400.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "DAILY DOCK PREVIEW 03/12/2026: 1 appointment scheduled. Hazmat: APPT-20260312-001. Oversize/special: none. Largest expected shipment: Redstone Alloy Fabricators, ~3,200 lb at 10:00.",
+        "ts": "1773317400.000100",
+        "team": "T001"
+      }
+    ],
+    "C002": [
+      {
+        "type": "message",
+        "user": "U009",
+        "text": "Probation supplier receipt inspection complete \u2014 REC-20260211-001, Appalachian Steel Works (SUP-0002), FG-91200-B2.\n\nFindings:\n- Pallets 1, 5, 6, 7, 8: Clean\n- Pallets 2, 3, 4: Tier 2 functional damage \u2014 deformation consistent with impact damage on multiple forging blanks\n\nAll 80 units recommend quarantine \u2014 safety-critical SKU, missing MTR. Have not authorized putaway.\n\nPhotos uploaded to photos\\REC-20260211-001\\",
+        "ts": "1770825600.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "HAZMAT RECEIPT: REC-20260225-001, Redstone Alloy Fabricators, FL-20044-A3. SDS and manifest verified, on file. Cleared to unload.",
+        "ts": "1772031600.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "HAZMAT RECEIPT: REC-20260309-004, Redstone Alloy Fabricators, FL-21300-A1. SDS and manifest verified, on file. Cleared to unload.",
+        "ts": "1773058800.000100",
+        "team": "T001"
+      }
+    ],
+    "C003": [],
+    "C004": [
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "DTL ARRIVAL: REC-20260310-001, BG-33044-A1, 40 units delivered to LINE-ASMB-01 at 10:00 CST. Receipt complete.",
+        "ts": "1773158400.000200",
+        "team": "T001"
+      }
+    ],
+    "D001": [],
+    "D002": [],
+    "D003": [],
+    "D004": []
+  },
+  "counters": {
+    "messageId": 1000000
+  }
+}

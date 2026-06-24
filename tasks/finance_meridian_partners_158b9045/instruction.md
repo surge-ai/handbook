@@ -1,0 +1,1 @@
+Hello, I could use some help with new emails that have come in. I am working on a special project, but my manager wants the emails processed ASAP. Can you check the inbox for any unread emails and follow the steps in the SOP-FIN-AP-004 to complete all the required steps?

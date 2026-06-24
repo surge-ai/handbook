@@ -1,0 +1,187 @@
+{
+  "mailbox": {
+    "email": "natalie.simmons@pathfinder.med",
+    "name": "Natalie Simmons"
+  },
+  "contacts": [
+    {
+      "email": "david.nguyen@pathfinder.med",
+      "name": "David Nguyen"
+    },
+    {
+      "email": "marcus.thompson@pathfinder.med",
+      "name": "Marcus Thompson"
+    },
+    {
+      "email": "lauren.patel@pathfinder.med",
+      "name": "Lauren Patel"
+    },
+    {
+      "email": "kevin.obrien@pathfinder.med",
+      "name": "Kevin O'Brien"
+    },
+    {
+      "email": "amanda.chen@pathfinder.med",
+      "name": "Amanda Chen"
+    },
+    {
+      "email": "catherine.lawson@pathfinder.med",
+      "name": "Catherine Lawson"
+    },
+    {
+      "email": "appeals@aetna-sim.com",
+      "name": "Aetna Appeals Department"
+    },
+    {
+      "email": "appeals@bcbs-sim.com",
+      "name": "BCBS Appeals Department"
+    },
+    {
+      "email": "appeals@uhc-sim.com",
+      "name": "UHC Appeals Department"
+    },
+    {
+      "email": "appeals@cigna-sim.com",
+      "name": "Cigna Appeals Department"
+    },
+    {
+      "email": "appeals@humana-sim.com",
+      "name": "Humana Appeals Department"
+    }
+  ],
+  "folders": [],
+  "emails": [
+    {
+      "email_id": "1",
+      "folder": "Sent",
+      "subject": "Chart Notes Request \u2014 CLM-2026-00001",
+      "from_addr": "natalie.simmons@pathfinder.med",
+      "to_addr": "david.nguyen@pathfinder.med",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-06T09:15:00Z",
+      "message_id": "<msg001@pathfinder.med>",
+      "in_reply_to": null,
+      "body_text": "Hi David,\n\nI'm working a CO-50 denial for CLM-2026-00001 (PAT-10342, DOS 03/18/2026, CPT 99214, Dx M54.5). Aetna denied for medical necessity.\n\nCould you send over the operation report or chart notes for this visit? I'll need them to draft the LMN.\n\nThanks,\nNatalie",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "2",
+      "folder": "INBOX",
+      "subject": "Re: Chart Notes Request \u2014 CLM-2026-00001",
+      "from_addr": "david.nguyen@pathfinder.med",
+      "to_addr": "natalie.simmons@pathfinder.med",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-06T11:42:00Z",
+      "message_id": "<msg002@pathfinder.med>",
+      "in_reply_to": "<msg001@pathfinder.med>",
+      "body_text": "Hi Natalie,\n\nAttached are the chart notes for PAT-10342's visit on 03/18. The documentation supports 99214 \u2014 there's a detailed HPI, comprehensive neuro exam, and moderate-complexity MDM with imaging ordered.\n\nLet me know if you need anything else.\n\nDavid",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "ChartNotes_PAT-10342_2026-03-18.txt",
+          "content_type": "text/plain",
+          "content_base64": "T0ZGSUNFIFZJU0lUIOKAlCBDSEFSVCBOT1RFCgpQYXRpZW50IElEOiBQQVQtMTAzNDIKUHJvdmlkZXIgSUQ6IFBSVi0yMDgxCkRhdGUgb2YgU2VydmljZTogMDMvMTgvMjAyNgpWaXNpdCBUeXBlOiBFc3RhYmxpc2hlZCBQYXRpZW50CgpDSElFRiBDT01QTEFJTlQ6CkxvdyBiYWNrIHBhaW4geCA1IGRheXMsIHJhZGlhdGluZyBpbnRvIGxlZnQgbGVnLgoKSElTVE9SWSBPRiBQUkVTRU5UIElMTE5FU1M6ClBhdGllbnQgaXMgYSA1NC15ZWFyLW9sZCBtYWxlIHByZXNlbnRpbmcgd2l0aCBhY3V0ZSBvbnNldCBsb3cgYmFjayBwYWluIGJlZ2lubmluZyBhcHByb3hpbWF0ZWx5IDUgZGF5cyBhZ28gYWZ0ZXIgbGlmdGluZyBhIGhlYXZ5IGJveCBhdCB3b3JrLiBQYWluIGlzIGRlc2NyaWJlZCBhcyBzaGFycCwgcmF0ZWQgNy8xMCwgbG9jYWxpemVkIHRvIHRoZSBsdW1iYXIgcmVnaW9uIHdpdGggcmFkaWF0aW9uIGludG8gdGhlIGxlZnQgcG9zdGVyaW9yIHRoaWdoIGFuZCBjYWxmLiBQYXRpZW50IHJlcG9ydHMgaW50ZXJtaXR0ZW50IG51bWJuZXNzIGFuZCB0aW5nbGluZyBpbiB0aGUgbGVmdCBmb290LiBQYWluIHdvcnNlbnMgd2l0aCBwcm9sb25nZWQgc2l0dGluZyBhbmQgYmVuZGluZyBmb3J3YXJkLiBPVEMgaWJ1cHJvZmVuIHByb3ZpZGVzIG1pbmltYWwgcmVsaWVmLiBObyBib3dlbCBvciBibGFkZGVyIGR5c2Z1bmN0aW9uLiBObyBwcmlvciBoaXN0b3J5IG9mIGJhY2sgc3VyZ2VyeS4gUGF0aWVudCBoYWQgYSBzaW1pbGFyIGJ1dCBtaWxkZXIgZXBpc29kZSAyIHllYXJzIGFnbyB0aGF0IHJlc29sdmVkIHdpdGggY29uc2VydmF0aXZlIHRyZWF0bWVudC4KClJFVklFVyBPRiBTWVNURU1TOgpNdXNjdWxvc2tlbGV0YWw6IFBvc2l0aXZlIGZvciBsb3cgYmFjayBwYWluLCBsZWZ0IGxvd2VyIGV4dHJlbWl0eSBwYWluLCByZWR1Y2VkIG1vYmlsaXR5LgpOZXVyb2xvZ2ljYWw6IFBvc2l0aXZlIGZvciBsZWZ0IGZvb3QgbnVtYm5lc3MvdGluZ2xpbmcuIE5lZ2F0aXZlIGZvciB3ZWFrbmVzcywgZ2FpdCBpbnN0YWJpbGl0eS4KQWxsIG90aGVyIHN5c3RlbXMgcmV2aWV3ZWQgYW5kIG5lZ2F0aXZlLgoKUEhZU0lDQUwgRVhBTUlOQVRJT046ClZpdGFsczogQlAgMTM4Lzg0LCBIUiA3OCwgVGVtcCA5OC40RgpHZW5lcmFsOiBBbGVydCwgb3JpZW50ZWQsIGluIG1pbGQgZGlzdHJlc3MgZHVlIHRvIHBhaW4uClNwaW5lOiBUZW5kZXJuZXNzIHRvIHBhbHBhdGlvbiBvdmVyIEw0LUw1IGFuZCBMNS1TMSBwYXJhc3BpbmFsIG11c2NsZXMuIFJlZHVjZWQgbHVtYmFyIGZsZXhpb24gKH40MCBkZWdyZWVzKS4gTm8gdmlzaWJsZSBkZWZvcm1pdHkgb3Igc3dlbGxpbmcuCk5ldXJvbG9naWNhbDogU3RyYWlnaHQgbGVnIHJhaXNlIHBvc2l0aXZlIG9uIGxlZnQgYXQgNDUgZGVncmVlcywgbmVnYXRpdmUgb24gcmlnaHQuIFNlbnNhdGlvbiBkZWNyZWFzZWQgdG8gbGlnaHQgdG91Y2ggb3ZlciBsZWZ0IEw1IGRlcm1hdG9tZS4gTW90b3Igc3RyZW5ndGggNS81IGJpbGF0ZXJhbCBsb3dlciBleHRyZW1pdGllcy4gRGVlcCB0ZW5kb24gcmVmbGV4ZXMgMisgYmlsYXRlcmFsIGtuZWVzLCAxKyBsZWZ0IGFua2xlLCAyKyByaWdodCBhbmtsZS4KR2FpdDogQW50YWxnaWMsIGZhdm9yaW5nIGxlZnQgc2lkZS4KCk1FRElDQUwgREVDSVNJT04gTUFLSU5HOgpOdW1iZXIgYW5kIGNvbXBsZXhpdHkgb2YgcHJvYmxlbXM6IEFjdXRlIGxvdyBiYWNrIHBhaW4gd2l0aCBuZXcgcmFkaWN1bGFyIHN5bXB0b21zIOKAlCBtb2RlcmF0ZSBjb21wbGV4aXR5LgpEYXRhIHJldmlld2VkOiBSZXZpZXdlZCBwcmlvciBpbWFnaW5nIGZyb20gMjAyNCBlcGlzb2RlIChsdW1iYXIgWC1yYXksIG5vIHNpZ25pZmljYW50IGZpbmRpbmdzIGF0IHRoYXQgdGltZSkuIFJldmlld2VkIGN1cnJlbnQgbWVkaWNhdGlvbiBsaXN0IGFuZCBhbGxlcmd5IGhpc3RvcnkuClJpc2s6IE1vZGVyYXRlIOKAlCBkaWZmZXJlbnRpYWwgaW5jbHVkZXMgbHVtYmFyIHJhZGljdWxvcGF0aHksIGRpc2MgaGVybmlhdGlvbiwgYW5kIGFjdXRlIG11c2N1bGFyIHN0cmFpbi4gT3JkZXJpbmcgYWR2YW5jZWQgaW1hZ2luZyBhbmQgcmVmZXJyYWwgdG8gcGh5c2ljYWwgdGhlcmFweS4gRGlzY3Vzc2VkIHJlZCBmbGFnIHN5bXB0b21zIHdhcnJhbnRpbmcgRVIgdmlzaXQuCgpBU1NFU1NNRU5UOgoxLiBNNTQuNSDigJQgTG93IGJhY2sgcGFpbiwgdW5zcGVjaWZpZWQKMi4gQWN1dGUgbGVmdC1zaWRlZCBsdW1iYXIgcmFkaWN1bG9wYXRoeSwgc3VzcGVjdGVkCgpQTEFOOgoxLiBNUkkgbHVtYmFyIHNwaW5lIHdpdGhvdXQgY29udHJhc3Qg4oCUIHRvIGV2YWx1YXRlIGZvciBkaXNjIGhlcm5pYXRpb24gb3IgbmVydmUgcm9vdCBjb21wcmVzc2lvbi4KMi4gUmVmZXJyYWwgdG8gcGh5c2ljYWwgdGhlcmFweSwgMngvd2VlayBmb3IgNCB3ZWVrcy4KMy4gTWVsb3hpY2FtIDE1bWcgZGFpbHkgeCAxNCBkYXlzLgo0LiBNZXRob2NhcmJhbW9sIDc1MG1nIFRJRCBQUk4gZm9yIG11c2NsZSBzcGFzbS4KNS4gQWN0aXZpdHkgbW9kaWZpY2F0aW9uOiBhdm9pZCBoZWF2eSBsaWZ0aW5nLCBwcm9sb25nZWQgc2l0dGluZy4gVXNlIGx1bWJhciBzdXBwb3J0Lgo2LiBSZXR1cm4gaW4gMiB3ZWVrcyBmb3IgTVJJIHJldmlldyBhbmQgcmVhc3Nlc3NtZW50LCBzb29uZXIgaWYgc3ltcHRvbXMgd29yc2VuIG9yIG5ldyBuZXVyb2xvZ2ljYWwgZGVmaWNpdHMgZGV2ZWxvcC4KClBST1ZJREVSIFNJR05BVFVSRTogW09uIGZpbGVdClBSVi0yMDgxCg=="
+        }
+      ]
+    },
+    {
+      "email_id": "3",
+      "folder": "Sent",
+      "subject": "LMN Approval Request \u2014 CLM-2026-00001",
+      "from_addr": "natalie.simmons@pathfinder.med",
+      "to_addr": "catherine.lawson@pathfinder.med",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-07T09:30:00Z",
+      "message_id": "<msg003@pathfinder.med>",
+      "in_reply_to": null,
+      "body_text": "Hi Catherine,\n\nAttached is the Letter of Medical Necessity I've drafted for CLM-2026-00001 (CO-50 denial from Aetna, PAT-10342, CPT 99214, Dx M54.5).\n\nThe chart notes support the level of service \u2014 detailed HPI, positive SLR, radicular symptoms, and moderate-complexity MDM with MRI ordered.\n\nPlease review and let me know if it's approved.\n\nThank you,\nNatalie",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "LMN_CLM-2026-00001.txt",
+          "content_type": "text/plain",
+          "content_base64": "TEVUVEVSIE9GIE1FRElDQUwgTkVDRVNTSVRZCgpEYXRlOiBBcHJpbCA3LCAyMDI2CgpUbzogQWV0bmEgQXBwZWFscyBEZXBhcnRtZW50ClJlOiBDbGFpbSBJRCBDTE0tMjAyNi0wMDAwMQpQYXRpZW50IElEOiBQQVQtMTAzNDIKUHJvdmlkZXIgSUQ6IFBSVi0yMDgxCkRhdGUgb2YgU2VydmljZTogTWFyY2ggMTgsIDIwMjYKQ1BUIENvZGU6IDk5MjE0CkRpYWdub3NpcyBDb2RlOiBNNTQuNSAoTG93IGJhY2sgcGFpbiwgdW5zcGVjaWZpZWQpCgpUbyBXaG9tIEl0IE1heSBDb25jZXJuLAoKSSBhbSB3cml0aW5nIHRvIGFwcGVhbCB0aGUgZGVuaWFsIG9mIHRoZSBhYm92ZS1yZWZlcmVuY2VkIGNsYWltIHVuZGVyIHJlYXNvbiBjb2RlIENPLTUwIChNZWRpY2FsIE5lY2Vzc2l0eSkuIFRoZSBzZXJ2aWNlIHJlbmRlcmVkIG9uIE1hcmNoIDE4LCAyMDI2IOKAlCBhIExldmVsIDQgRXZhbHVhdGlvbiBhbmQgTWFuYWdlbWVudCB2aXNpdCAoQ1BUIDk5MjE0KSDigJQgd2FzIG1lZGljYWxseSBuZWNlc3NhcnkgZm9yIHRoZSBldmFsdWF0aW9uIGFuZCBtYW5hZ2VtZW50IG9mIHRoZSBwYXRpZW50J3MgYWN1dGUgbG93IGJhY2sgcGFpbi4KClRoZSBwYXRpZW50IHByZXNlbnRlZCB3aXRoIGEgbmV3IG9uc2V0IG9mIHNpZ25pZmljYW50IGxvdyBiYWNrIHBhaW4gcmFkaWF0aW5nIGludG8gdGhlIGxlZnQgbG93ZXIgZXh0cmVtaXR5LCB3aXRoIGFzc29jaWF0ZWQgbnVtYm5lc3MgYW5kIHJlZHVjZWQgcmFuZ2Ugb2YgbW90aW9uLiBUaGUgcHJvdmlkZXIgcGVyZm9ybWVkIGEgZGV0YWlsZWQgaGlzdG9yeSBpbmNsdWRpbmcgcmV2aWV3IG9mIHByaW9yIGltYWdpbmcsIGEgY29tcHJlaGVuc2l2ZSBtdXNjdWxvc2tlbGV0YWwgYW5kIG5ldXJvbG9naWNhbCBleGFtaW5hdGlvbiwgYW5kIG1vZGVyYXRlLWNvbXBsZXhpdHkgbWVkaWNhbCBkZWNpc2lvbiBtYWtpbmcgaW5jbHVkaW5nIGV2YWx1YXRpb24gb2YgZGlmZmVyZW50aWFsIGRpYWdub3NlcyAocmFkaWN1bG9wYXRoeSwgZGlzYyBoZXJuaWF0aW9uLCBhbmQgbXVzY3VsYXIgc3RyYWluKSBhbmQgb3JkZXJpbmcgb2YgZm9sbG93LXVwIE1SSSBhbmQgcGh5c2ljYWwgdGhlcmFweSByZWZlcnJhbC4KClRoZSBsZXZlbCBvZiBzZXJ2aWNlIGRvY3VtZW50ZWQgbWVldHMgdGhlIGNyaXRlcmlhIGZvciBDUFQgOTkyMTQgdW5kZXIgdGhlIDIwMjYgRS9NIGd1aWRlbGluZXMsIGFzIHRoZSBtZWRpY2FsIGRlY2lzaW9uIG1ha2luZyBpbnZvbHZlZCBtb2RlcmF0ZSBudW1iZXIgYW5kIGNvbXBsZXhpdHkgb2YgcHJvYmxlbXMgYWRkcmVzc2VkLCBtb2RlcmF0ZSBhbW91bnQgb2YgZGF0YSByZXZpZXdlZCwgYW5kIG1vZGVyYXRlIHJpc2sgb2YgY29tcGxpY2F0aW9ucyBvciBtb3JiaWRpdHkuCgpXZSByZXNwZWN0ZnVsbHkgcmVxdWVzdCB0aGF0IEFldG5hIHJlY29uc2lkZXIgdGhpcyBkZW5pYWwgYW5kIHJlcHJvY2VzcyB0aGUgY2xhaW0gZm9yIHBheW1lbnQuCgpTaW5jZXJlbHksCgpQYXRoZmluZGVyIEJpbGxpbmcgYW5kIENvZGluZwpPbiBiZWhhbGYgb2YgUFJWLTIwODEK"
+        }
+      ]
+    },
+    {
+      "email_id": "4",
+      "folder": "INBOX",
+      "subject": "Re: LMN Approval Request \u2014 CLM-2026-00001",
+      "from_addr": "catherine.lawson@pathfinder.med",
+      "to_addr": "natalie.simmons@pathfinder.med",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-07T14:15:00Z",
+      "message_id": "<msg004@pathfinder.med>",
+      "in_reply_to": "<msg003@pathfinder.med>",
+      "body_text": "Hi Natalie,\n\nI've reviewed the LMN for CLM-2026-00001. It looks good \u2014 the documentation clearly supports medical necessity for the 99214. Approved.\n\nCatherine",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "5",
+      "folder": "Sent",
+      "subject": "Modifier Verification Request \u2014 CLM-2026-00003",
+      "from_addr": "natalie.simmons@pathfinder.med",
+      "to_addr": "david.nguyen@pathfinder.med",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-03T13:45:00Z",
+      "message_id": "<msg005@pathfinder.med>",
+      "in_reply_to": null,
+      "body_text": "Hi David,\n\nI have a modifier denial for CLM-2026-00003 (PAT-10587, PRV-2081, DOS 03/23/2026). BCBS denied the E/M (99213) billed on the same day as a shave biopsy (11102).\n\nCould you review the documentation and confirm whether Modifier 25 or 59 is supported for the E/M service?\n\nThanks,\nNatalie",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "6",
+      "folder": "INBOX",
+      "subject": "Re: Modifier Verification Request \u2014 CLM-2026-00003",
+      "from_addr": "david.nguyen@pathfinder.med",
+      "to_addr": "natalie.simmons@pathfinder.med",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-07T10:20:00Z",
+      "message_id": "<msg006@pathfinder.med>",
+      "in_reply_to": "<msg005@pathfinder.med>",
+      "body_text": "Hi Natalie,\n\nI've reviewed the documentation for CLM-2026-00003. The provider's notes clearly document a separately identifiable E/M service beyond the shave biopsy \u2014 the patient presented with a distinct complaint that required its own evaluation and assessment.\n\nModifier 25 is appropriate here. \n\nDavid",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "7",
+      "folder": "Sent",
+      "subject": "Patient Contact Needed \u2014 CLM-2026-00004",
+      "from_addr": "natalie.simmons@pathfinder.med",
+      "to_addr": "marcus.thompson@pathfinder.med",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-07T15:40:00Z",
+      "message_id": "<msg007@pathfinder.med>",
+      "in_reply_to": null,
+      "body_text": "Hi Marcus,\n\nI have a CO-27 denial for CLM-2026-00004 (PAT-10891, DOS 03/25/2026). UnitedHealthcare says the patient's coverage was terminated. I checked the eligibility response and their coverage ended 03/14/2026, so the DOS falls outside their active period.\n\nCould you please contact the patient to request updated insurance information or set up a self-pay payment plan?\n\nPlease reply to confirm once you've reached the patient.\n\nThanks,\nNatalie",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    }
+  ],
+  "next_email_id": 8
+}

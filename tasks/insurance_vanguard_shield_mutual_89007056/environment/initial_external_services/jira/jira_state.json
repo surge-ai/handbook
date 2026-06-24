@@ -1,0 +1,3481 @@
+{
+  "issues": {
+    "OPS_HR_TE-1": {
+      "id": "10001",
+      "key": "OPS_HR_TE-1",
+      "self": "https://jira.vanguardshield.com/rest/api/3/issue/OPS_HR_TE-1",
+      "fields": {
+        "summary": "Queue Roles & Assignees",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "OPS_HR_TE Queue Configuration"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": []
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Queue Manager: dpark (Diana Park)"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Workflow & Transitions (Sales T&E):"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "- Approve: Transitions issue from Pending Approval to Approved"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "- Reject: Transitions issue from Pending Approval to Rejected"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "- Return for Revision: Transitions issue from Pending Approval to Returned"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": []
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Escalation Contact: jnakamura (Jun Nakamura, VP of Sales)"
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10099",
+          "name": "Info",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "10010",
+          "key": "OPS_HR_TE",
+          "name": "Sales T&E Expense Reports",
+          "projectTypeKey": "business"
+        },
+        "status": {
+          "id": "4",
+          "name": "Done",
+          "statusCategory": {
+            "id": 4,
+            "key": "done",
+            "name": "Done",
+            "colorName": "green"
+          }
+        },
+        "priority": {
+          "id": "3",
+          "name": "Medium"
+        },
+        "assignee": {
+          "accountId": "sjenkins",
+          "accountType": "atlassian",
+          "emailAddress": "sarah.jenkins@vanguardshield.com",
+          "displayName": "Sarah Jenkins",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "reporter": {
+          "accountId": "sjenkins",
+          "accountType": "atlassian",
+          "emailAddress": "sarah.jenkins@vanguardshield.com",
+          "displayName": "Sarah Jenkins",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "creator": {
+          "accountId": "sjenkins",
+          "accountType": "atlassian",
+          "emailAddress": "sarah.jenkins@vanguardshield.com",
+          "displayName": "Sarah Jenkins",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "created": "2026-01-15T09:00:00.000-05:00",
+        "updated": "2026-03-01T09:00:00.000-05:00",
+        "labels": [],
+        "components": [],
+        "fixVersions": [],
+        "versions": []
+      }
+    },
+    "OPS_HR_TE-2": {
+      "id": "10002",
+      "key": "OPS_HR_TE-2",
+      "self": "https://jira.vanguardshield.com/rest/api/3/issue/OPS_HR_TE-2",
+      "fields": {
+        "summary": "T&E Report - Marcus Chen - Sales - March/April 2026",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Employee: Marcus Chen"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Employee ID: EMP-1847"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Department: Sales"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Submission Date: April 3, 2026"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": []
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Expense Line Items:"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": []
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "1. Date: April 2, 2026 | Merchant: Bistro Milano | Category: Meal | Amount: $85.00 | Description: Lunch with client contacts"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "2. Date: April 2, 2026 | Merchant: Uber | Category: Transportation | Amount: $42.00 | Description: Round trip to client office"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "3. Date: April 1-2, 2026 | Merchant: Marriott Downtown Hartford | Category: Lodging | Amount: $189.00 | Description: Overnight stay for multi-day client visit"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": []
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Total: $316.00"
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10010",
+          "name": "Expense Report",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "10010",
+          "key": "OPS_HR_TE",
+          "name": "Sales T&E Expense Reports",
+          "projectTypeKey": "business"
+        },
+        "status": {
+          "id": "2",
+          "name": "Pending Approval",
+          "statusCategory": {
+            "id": 2,
+            "key": "indeterminate",
+            "name": "In Progress",
+            "colorName": "yellow"
+          }
+        },
+        "priority": {
+          "id": "3",
+          "name": "Medium"
+        },
+        "assignee": {
+          "accountId": "tmorgan",
+          "accountType": "atlassian",
+          "emailAddress": "taylor.morgan@vanguardshield.com",
+          "displayName": "Taylor Morgan",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "reporter": {
+          "accountId": "mchen",
+          "accountType": "atlassian",
+          "emailAddress": "marcus.chen@vanguardshield.com",
+          "displayName": "Marcus Chen",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "creator": {
+          "accountId": "mchen",
+          "accountType": "atlassian",
+          "emailAddress": "marcus.chen@vanguardshield.com",
+          "displayName": "Marcus Chen",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "created": "2026-04-03T14:30:00.000-04:00",
+        "updated": "2026-04-03T14:30:00.000-04:00",
+        "labels": [],
+        "components": [],
+        "fixVersions": [],
+        "versions": [],
+        "customfield_10100": "dpark"
+      },
+      "transitions": [
+        {
+          "id": "21",
+          "name": "Approve",
+          "to": {
+            "id": "5",
+            "name": "Approved",
+            "statusCategory": {
+              "id": 4,
+              "key": "done",
+              "name": "Done",
+              "colorName": "green"
+            }
+          }
+        },
+        {
+          "id": "22",
+          "name": "Reject",
+          "to": {
+            "id": "6",
+            "name": "Rejected",
+            "statusCategory": {
+              "id": 5,
+              "key": "done",
+              "name": "Done",
+              "colorName": "red"
+            }
+          }
+        },
+        {
+          "id": "23",
+          "name": "Return for Revision",
+          "to": {
+            "id": "7",
+            "name": "Returned",
+            "statusCategory": {
+              "id": 2,
+              "key": "new",
+              "name": "To Do",
+              "colorName": "blue-gray"
+            }
+          }
+        }
+      ]
+    },
+    "OPS_HR_TE-3": {
+      "id": "10003",
+      "key": "OPS_HR_TE-3",
+      "self": "https://jira.vanguardshield.com/rest/api/3/issue/OPS_HR_TE-3",
+      "fields": {
+        "summary": "T&E Report - Priya Sharma - Sales - March/April 2026",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Employee: Priya Sharma"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Employee ID: EMP-2103"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Department: Sales"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Submission Date: April 3, 2026"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": []
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Expense Line Items:"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": []
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "1. Date: March 28, 2026 | Merchant: The Capital Grille | Category: Business Development | Amount: $215.00 | Description: Dinner meeting with prospective account"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "2. Date: April 3, 2026 | Merchant: VS Team Merch | Category: Business Supplies | Amount: $350.00 | Description: Branded notebooks for client onboarding kits"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "3. Date: March 30, 2026 | Merchant: Yellow Cab | Category: Transportation | Amount: $38.00 | Description: Cab to regional office"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": []
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Total: $603.00"
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10010",
+          "name": "Expense Report",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "10010",
+          "key": "OPS_HR_TE",
+          "name": "Sales T&E Expense Reports",
+          "projectTypeKey": "business"
+        },
+        "status": {
+          "id": "2",
+          "name": "Pending Approval",
+          "statusCategory": {
+            "id": 2,
+            "key": "indeterminate",
+            "name": "In Progress",
+            "colorName": "yellow"
+          }
+        },
+        "priority": {
+          "id": "3",
+          "name": "Medium"
+        },
+        "assignee": {
+          "accountId": "tmorgan",
+          "accountType": "atlassian",
+          "emailAddress": "taylor.morgan@vanguardshield.com",
+          "displayName": "Taylor Morgan",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "reporter": {
+          "accountId": "psharma",
+          "accountType": "atlassian",
+          "emailAddress": "priya.sharma@vanguardshield.com",
+          "displayName": "Priya Sharma",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "creator": {
+          "accountId": "psharma",
+          "accountType": "atlassian",
+          "emailAddress": "priya.sharma@vanguardshield.com",
+          "displayName": "Priya Sharma",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "created": "2026-04-03T15:15:00.000-04:00",
+        "updated": "2026-04-03T15:15:00.000-04:00",
+        "labels": [],
+        "components": [],
+        "fixVersions": [],
+        "versions": [],
+        "customfield_10100": "jnakamura"
+      },
+      "transitions": [
+        {
+          "id": "21",
+          "name": "Approve",
+          "to": {
+            "id": "5",
+            "name": "Approved",
+            "statusCategory": {
+              "id": 4,
+              "key": "done",
+              "name": "Done",
+              "colorName": "green"
+            }
+          }
+        },
+        {
+          "id": "22",
+          "name": "Reject",
+          "to": {
+            "id": "6",
+            "name": "Rejected",
+            "statusCategory": {
+              "id": 5,
+              "key": "done",
+              "name": "Done",
+              "colorName": "red"
+            }
+          }
+        },
+        {
+          "id": "23",
+          "name": "Return for Revision",
+          "to": {
+            "id": "7",
+            "name": "Returned",
+            "statusCategory": {
+              "id": 2,
+              "key": "new",
+              "name": "To Do",
+              "colorName": "blue-gray"
+            }
+          }
+        }
+      ]
+    },
+    "OPS_HR_TE-4": {
+      "id": "10004",
+      "key": "OPS_HR_TE-4",
+      "self": "https://jira.vanguardshield.com/rest/api/3/issue/OPS_HR_TE-4",
+      "fields": {
+        "summary": "T&E Report - Derek Washington - Sales - April 2026",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Employee: Derek Washington"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Employee ID: EMP-2287"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Department: Sales"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Submission Date: April 3, 2026"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": []
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Expense Line Items:"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": []
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "1. Date: April 1, 2026 | Merchant: VS Branded Gear | Category: Event Supplies | Amount: $420.00 | Description: Custom polo shirts for trade show booth"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "2. Date: April 3, 2026 | Merchant: Personal Vehicle | Category: Mileage | Amount: $69.60 | Description: 120 miles at $0.58/mi to client site and return"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": []
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Total: $489.60"
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10010",
+          "name": "Expense Report",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "10010",
+          "key": "OPS_HR_TE",
+          "name": "Sales T&E Expense Reports",
+          "projectTypeKey": "business"
+        },
+        "status": {
+          "id": "2",
+          "name": "Pending Approval",
+          "statusCategory": {
+            "id": 2,
+            "key": "indeterminate",
+            "name": "In Progress",
+            "colorName": "yellow"
+          }
+        },
+        "priority": {
+          "id": "3",
+          "name": "Medium"
+        },
+        "assignee": {
+          "accountId": "tmorgan",
+          "accountType": "atlassian",
+          "emailAddress": "taylor.morgan@vanguardshield.com",
+          "displayName": "Taylor Morgan",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "reporter": {
+          "accountId": "dwashington",
+          "accountType": "atlassian",
+          "emailAddress": "derek.washington@vanguardshield.com",
+          "displayName": "Derek Washington",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "creator": {
+          "accountId": "dwashington",
+          "accountType": "atlassian",
+          "emailAddress": "derek.washington@vanguardshield.com",
+          "displayName": "Derek Washington",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "created": "2026-04-03T08:45:00.000-04:00",
+        "updated": "2026-04-03T08:45:00.000-04:00",
+        "labels": [],
+        "components": [],
+        "fixVersions": [],
+        "versions": [],
+        "customfield_10100": null
+      },
+      "transitions": [
+        {
+          "id": "21",
+          "name": "Approve",
+          "to": {
+            "id": "5",
+            "name": "Approved",
+            "statusCategory": {
+              "id": 4,
+              "key": "done",
+              "name": "Done",
+              "colorName": "green"
+            }
+          }
+        },
+        {
+          "id": "22",
+          "name": "Reject",
+          "to": {
+            "id": "6",
+            "name": "Rejected",
+            "statusCategory": {
+              "id": 5,
+              "key": "done",
+              "name": "Done",
+              "colorName": "red"
+            }
+          }
+        },
+        {
+          "id": "23",
+          "name": "Return for Revision",
+          "to": {
+            "id": "7",
+            "name": "Returned",
+            "statusCategory": {
+              "id": 2,
+              "key": "new",
+              "name": "To Do",
+              "colorName": "blue-gray"
+            }
+          }
+        }
+      ]
+    },
+    "OPS_HR_TE-5": {
+      "id": "10005",
+      "key": "OPS_HR_TE-5",
+      "self": "https://jira.vanguardshield.com/rest/api/3/issue/OPS_HR_TE-5",
+      "fields": {
+        "summary": "T&E Report - Aisha Robinson - Sales - April 2026",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Employee: Aisha Robinson"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Employee ID: EMP-1592"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Department: Sales"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Submission Date: April 3, 2026"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": []
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Expense Line Items:"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": []
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "1. Date: April 3, 2026 | Merchant: Cafe Soleil | Category: Meal | Amount: $62.00 | Description: Working lunch during QBR"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "2. Date: April 3, 2026 | Merchant: Delta Airlines | Category: Travel | Amount: $387.00 | Description: Flight to San Francisco"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "3. Date: April 3-4, 2026 | Merchant: Hilton Garden Inn SFO | Category: Lodging | Amount: $245.00 | Description: Hotel for conference attendance"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": []
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Total: $694.00"
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10010",
+          "name": "Expense Report",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "10010",
+          "key": "OPS_HR_TE",
+          "name": "Sales T&E Expense Reports",
+          "projectTypeKey": "business"
+        },
+        "status": {
+          "id": "2",
+          "name": "Pending Approval",
+          "statusCategory": {
+            "id": 2,
+            "key": "indeterminate",
+            "name": "In Progress",
+            "colorName": "yellow"
+          }
+        },
+        "priority": {
+          "id": "3",
+          "name": "Medium"
+        },
+        "assignee": {
+          "accountId": "tmorgan",
+          "accountType": "atlassian",
+          "emailAddress": "taylor.morgan@vanguardshield.com",
+          "displayName": "Taylor Morgan",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "reporter": {
+          "accountId": "arobinson",
+          "accountType": "atlassian",
+          "emailAddress": "aisha.robinson@vanguardshield.com",
+          "displayName": "Aisha Robinson",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "creator": {
+          "accountId": "arobinson",
+          "accountType": "atlassian",
+          "emailAddress": "aisha.robinson@vanguardshield.com",
+          "displayName": "Aisha Robinson",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "created": "2026-04-03T16:00:00.000-04:00",
+        "updated": "2026-04-03T16:00:00.000-04:00",
+        "labels": [],
+        "components": [],
+        "fixVersions": [],
+        "versions": [],
+        "customfield_10100": "dpark"
+      },
+      "transitions": [
+        {
+          "id": "21",
+          "name": "Approve",
+          "to": {
+            "id": "5",
+            "name": "Approved",
+            "statusCategory": {
+              "id": 4,
+              "key": "done",
+              "name": "Done",
+              "colorName": "green"
+            }
+          }
+        },
+        {
+          "id": "22",
+          "name": "Reject",
+          "to": {
+            "id": "6",
+            "name": "Rejected",
+            "statusCategory": {
+              "id": 5,
+              "key": "done",
+              "name": "Done",
+              "colorName": "red"
+            }
+          }
+        },
+        {
+          "id": "23",
+          "name": "Return for Revision",
+          "to": {
+            "id": "7",
+            "name": "Returned",
+            "statusCategory": {
+              "id": 2,
+              "key": "new",
+              "name": "To Do",
+              "colorName": "blue-gray"
+            }
+          }
+        }
+      ]
+    },
+    "CLM_LEGAL-1": {
+      "id": "10006",
+      "key": "CLM_LEGAL-1",
+      "self": "https://jira.vanguardshield.com/rest/api/3/issue/CLM_LEGAL-1",
+      "fields": {
+        "summary": "Queue Roles & Assignees",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "CLM_LEGAL Queue Configuration"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": []
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Legal Claims Lead: nbriggs (Nathan Briggs)"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Senior Legal Analyst: (vacant)"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": []
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "All CLM-920 Complex Beneficiary Hold matters should be assigned to the Legal Claims Lead."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": []
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Escalation: sarah.jenkins@vanguardshield.com (VP of Core Operations)"
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10099",
+          "name": "Info",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "10021",
+          "key": "CLM_LEGAL",
+          "name": "Legal Claims Review",
+          "projectTypeKey": "business"
+        },
+        "status": {
+          "id": "4",
+          "name": "Done",
+          "statusCategory": {
+            "id": 4,
+            "key": "done",
+            "name": "Done",
+            "colorName": "green"
+          }
+        },
+        "priority": {
+          "id": "3",
+          "name": "Medium"
+        },
+        "assignee": {
+          "accountId": "nbriggs",
+          "accountType": "atlassian",
+          "emailAddress": "nathan.briggs@vanguardshield.com",
+          "displayName": "Nathan Briggs",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "reporter": {
+          "accountId": "sjenkins",
+          "accountType": "atlassian",
+          "emailAddress": "sarah.jenkins@vanguardshield.com",
+          "displayName": "Sarah Jenkins",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "creator": {
+          "accountId": "sjenkins",
+          "accountType": "atlassian",
+          "emailAddress": "sarah.jenkins@vanguardshield.com",
+          "displayName": "Sarah Jenkins",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "created": "2026-01-10T09:00:00.000-05:00",
+        "updated": "2026-02-15T09:00:00.000-05:00",
+        "labels": [],
+        "components": [],
+        "fixVersions": [],
+        "versions": []
+      }
+    },
+    "CLM_LIFE-1": {
+      "id": "10007",
+      "key": "CLM_LIFE-1",
+      "self": "https://jira.vanguardshield.com/rest/api/3/issue/CLM_LIFE-1",
+      "fields": {
+        "summary": "Life Claim - Margaret Ellen Sullivan - VS-LF-442891",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Insured: Margaret Ellen Sullivan"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "SSN: XXX-XX-3847"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Date of Birth: June 14, 1958"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Policy Number: VS-LF-442891"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Date of Death: March 12, 2026"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Date of Notification: March 19, 2026"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": []
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Claim filed by: Thomas Andrew Sullivan (spouse)"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Relationship to Insured: Spouse"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": []
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Documentation received as of filing date:"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "- Death certificate"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "- Original policy declarations"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": []
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Pending review and beneficiary allocation."
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10020",
+          "name": "Life Claim",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "10020",
+          "key": "CLM_LIFE",
+          "name": "Life Claims Processing",
+          "projectTypeKey": "business"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open",
+          "statusCategory": {
+            "id": 1,
+            "key": "new",
+            "name": "To Do",
+            "colorName": "blue-gray"
+          }
+        },
+        "priority": {
+          "id": "3",
+          "name": "Medium"
+        },
+        "assignee": {
+          "accountId": "tmorgan",
+          "accountType": "atlassian",
+          "emailAddress": "taylor.morgan@vanguardshield.com",
+          "displayName": "Taylor Morgan",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "reporter": {
+          "accountId": "tmorgan",
+          "accountType": "atlassian",
+          "emailAddress": "taylor.morgan@vanguardshield.com",
+          "displayName": "Taylor Morgan",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "creator": {
+          "accountId": "tmorgan",
+          "accountType": "atlassian",
+          "emailAddress": "taylor.morgan@vanguardshield.com",
+          "displayName": "Taylor Morgan",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "created": "2026-03-19T09:30:00.000-04:00",
+        "updated": "2026-04-01T09:00:00.000-04:00",
+        "labels": [],
+        "components": [],
+        "fixVersions": [],
+        "versions": [],
+        "attachment": [
+          {
+            "id": "20001",
+            "filename": "Death_Certificate_Margaret_Sullivan.pdf",
+            "author": {
+              "accountId": "tmorgan",
+              "accountType": "atlassian",
+              "emailAddress": "taylor.morgan@vanguardshield.com",
+              "displayName": "Taylor Morgan",
+              "active": true,
+              "timeZone": "America/New_York"
+            },
+            "created": "2026-03-19T10:00:00.000-04:00",
+            "size": 1634,
+            "mimeType": "application/pdf",
+            "content": "",
+            "self": "https://jira.vanguardshield.com/rest/api/3/attachment/20001"
+          },
+          {
+            "id": "20002",
+            "filename": "Policy_VS-LF-442891.pdf",
+            "author": {
+              "accountId": "tmorgan",
+              "accountType": "atlassian",
+              "emailAddress": "taylor.morgan@vanguardshield.com",
+              "displayName": "Taylor Morgan",
+              "active": true,
+              "timeZone": "America/New_York"
+            },
+            "created": "2026-03-19T10:15:00.000-04:00",
+            "size": 1705,
+            "mimeType": "application/pdf",
+            "content": "",
+            "self": "https://jira.vanguardshield.com/rest/api/3/attachment/20002"
+          }
+        ]
+      }
+    },
+    "CLM_LIFE-2": {
+      "id": "10008",
+      "key": "CLM_LIFE-2",
+      "self": "https://jira.vanguardshield.com/rest/api/3/issue/CLM_LIFE-2",
+      "fields": {
+        "summary": "Life Claim - Robert J. Whitfield Jr. - VS-LF-558203",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Insured: Robert J. Whitfield Jr."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "SSN: XXX-XX-6190"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Date of Birth: November 3, 1961"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Policy Number: VS-LF-558203"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Date of Death: March 20, 2026"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Date of Notification: March 26, 2026"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": []
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Claim filed by: Angela Marie Whitfield"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Relationship to Insured: Ex-spouse"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": []
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Documentation received as of filing date:"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "- Death certificate"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "- Original policy declarations"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "- Divorce decree (submitted by claimant)"
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10020",
+          "name": "Life Claim",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "10020",
+          "key": "CLM_LIFE",
+          "name": "Life Claims Processing",
+          "projectTypeKey": "business"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open",
+          "statusCategory": {
+            "id": 1,
+            "key": "new",
+            "name": "To Do",
+            "colorName": "blue-gray"
+          }
+        },
+        "priority": {
+          "id": "3",
+          "name": "Medium"
+        },
+        "assignee": {
+          "accountId": "tmorgan",
+          "accountType": "atlassian",
+          "emailAddress": "taylor.morgan@vanguardshield.com",
+          "displayName": "Taylor Morgan",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "reporter": {
+          "accountId": "tmorgan",
+          "accountType": "atlassian",
+          "emailAddress": "taylor.morgan@vanguardshield.com",
+          "displayName": "Taylor Morgan",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "creator": {
+          "accountId": "tmorgan",
+          "accountType": "atlassian",
+          "emailAddress": "taylor.morgan@vanguardshield.com",
+          "displayName": "Taylor Morgan",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "created": "2026-03-26T10:30:00.000-04:00",
+        "updated": "2026-04-02T09:00:00.000-04:00",
+        "labels": [],
+        "components": [],
+        "fixVersions": [],
+        "versions": [],
+        "attachment": [
+          {
+            "id": "20010",
+            "filename": "Death_Certificate_Robert_Whitfield.pdf",
+            "author": {
+              "accountId": "tmorgan",
+              "accountType": "atlassian",
+              "emailAddress": "taylor.morgan@vanguardshield.com",
+              "displayName": "Taylor Morgan",
+              "active": true,
+              "timeZone": "America/New_York"
+            },
+            "created": "2026-03-26T11:00:00.000-04:00",
+            "size": 1654,
+            "mimeType": "application/pdf",
+            "content": "",
+            "self": "https://jira.vanguardshield.com/rest/api/3/attachment/20010"
+          },
+          {
+            "id": "20011",
+            "filename": "Policy_VS-LF-558203.pdf",
+            "author": {
+              "accountId": "tmorgan",
+              "accountType": "atlassian",
+              "emailAddress": "taylor.morgan@vanguardshield.com",
+              "displayName": "Taylor Morgan",
+              "active": true,
+              "timeZone": "America/New_York"
+            },
+            "created": "2026-03-26T11:15:00.000-04:00",
+            "size": 1661,
+            "mimeType": "application/pdf",
+            "content": "",
+            "self": "https://jira.vanguardshield.com/rest/api/3/attachment/20011"
+          },
+          {
+            "id": "20012",
+            "filename": "Decree_of_Divorce_Whitfield.pdf",
+            "author": {
+              "accountId": "tmorgan",
+              "accountType": "atlassian",
+              "emailAddress": "taylor.morgan@vanguardshield.com",
+              "displayName": "Taylor Morgan",
+              "active": true,
+              "timeZone": "America/New_York"
+            },
+            "created": "2026-03-26T11:30:00.000-04:00",
+            "size": 1706,
+            "mimeType": "application/pdf",
+            "content": "",
+            "self": "https://jira.vanguardshield.com/rest/api/3/attachment/20012"
+          }
+        ]
+      },
+      "transitions": [
+        {
+          "id": "31",
+          "name": "Route to Claims Supervisor",
+          "to": {
+            "id": "8",
+            "name": "Supervisor Review",
+            "statusCategory": {
+              "id": 4,
+              "key": "indeterminate",
+              "name": "In Progress",
+              "colorName": "yellow"
+            }
+          }
+        },
+        {
+          "id": "32",
+          "name": "Route to CLM_LEGAL",
+          "to": {
+            "id": "9",
+            "name": "Legal Review",
+            "statusCategory": {
+              "id": 4,
+              "key": "indeterminate",
+              "name": "In Progress",
+              "colorName": "yellow"
+            }
+          }
+        },
+        {
+          "id": "33",
+          "name": "Route to AP for Payout",
+          "to": {
+            "id": "10",
+            "name": "AP Payout",
+            "statusCategory": {
+              "id": 4,
+              "key": "done",
+              "name": "Done",
+              "colorName": "green"
+            }
+          }
+        }
+      ]
+    },
+    "CLM_LIFE-3": {
+      "id": "10009",
+      "key": "CLM_LIFE-3",
+      "self": "https://jira.vanguardshield.com/rest/api/3/issue/CLM_LIFE-3",
+      "fields": {
+        "summary": "Life Claim - Patricia Noelle Kim - VS-LF-671045",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Insured: Patricia Noelle Kim"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "SSN: XXX-XX-2054"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Date of Birth: February 22, 1970"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Policy Number: VS-LF-671045"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Date of Death: March 22, 2026"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Date of Notification: March 29, 2026"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": []
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Claim filed by: Daniel Hyun Kim (spouse)"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Relationship to Insured: Spouse"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": []
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Documentation received as of filing date:"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "- Death certificate"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "- Original policy declarations"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "- Attorney letter received April 1, 2026 from Morrison & Drake LLP on behalf of Sophia Lin, contesting beneficiary designation"
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10020",
+          "name": "Life Claim",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "10020",
+          "key": "CLM_LIFE",
+          "name": "Life Claims Processing",
+          "projectTypeKey": "business"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open",
+          "statusCategory": {
+            "id": 1,
+            "key": "new",
+            "name": "To Do",
+            "colorName": "blue-gray"
+          }
+        },
+        "priority": {
+          "id": "3",
+          "name": "Medium"
+        },
+        "assignee": {
+          "accountId": "tmorgan",
+          "accountType": "atlassian",
+          "emailAddress": "taylor.morgan@vanguardshield.com",
+          "displayName": "Taylor Morgan",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "reporter": {
+          "accountId": "tmorgan",
+          "accountType": "atlassian",
+          "emailAddress": "taylor.morgan@vanguardshield.com",
+          "displayName": "Taylor Morgan",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "creator": {
+          "accountId": "tmorgan",
+          "accountType": "atlassian",
+          "emailAddress": "taylor.morgan@vanguardshield.com",
+          "displayName": "Taylor Morgan",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "created": "2026-03-29T08:30:00.000-04:00",
+        "updated": "2026-04-01T14:30:00.000-04:00",
+        "labels": [],
+        "components": [],
+        "fixVersions": [],
+        "versions": [],
+        "attachment": [
+          {
+            "id": "20020",
+            "filename": "Death_Certificate_Patricia_Kim.pdf",
+            "author": {
+              "accountId": "tmorgan",
+              "accountType": "atlassian",
+              "emailAddress": "taylor.morgan@vanguardshield.com",
+              "displayName": "Taylor Morgan",
+              "active": true,
+              "timeZone": "America/New_York"
+            },
+            "created": "2026-03-29T09:00:00.000-04:00",
+            "size": 1648,
+            "mimeType": "application/pdf",
+            "content": "",
+            "self": "https://jira.vanguardshield.com/rest/api/3/attachment/20020"
+          },
+          {
+            "id": "20021",
+            "filename": "Policy_VS-LF-671045.pdf",
+            "author": {
+              "accountId": "tmorgan",
+              "accountType": "atlassian",
+              "emailAddress": "taylor.morgan@vanguardshield.com",
+              "displayName": "Taylor Morgan",
+              "active": true,
+              "timeZone": "America/New_York"
+            },
+            "created": "2026-03-29T09:15:00.000-04:00",
+            "size": 1666,
+            "mimeType": "application/pdf",
+            "content": "",
+            "self": "https://jira.vanguardshield.com/rest/api/3/attachment/20021"
+          },
+          {
+            "id": "20022",
+            "filename": "Attorney_Letter_Kim_Estate.pdf",
+            "author": {
+              "accountId": "tmorgan",
+              "accountType": "atlassian",
+              "emailAddress": "taylor.morgan@vanguardshield.com",
+              "displayName": "Taylor Morgan",
+              "active": true,
+              "timeZone": "America/New_York"
+            },
+            "created": "2026-04-01T14:00:00.000-04:00",
+            "size": 1876,
+            "mimeType": "application/pdf",
+            "content": "",
+            "self": "https://jira.vanguardshield.com/rest/api/3/attachment/20022"
+          }
+        ]
+      },
+      "transitions": [
+        {
+          "id": "31",
+          "name": "Route to Claims Supervisor",
+          "to": {
+            "id": "8",
+            "name": "Supervisor Review",
+            "statusCategory": {
+              "id": 4,
+              "key": "indeterminate",
+              "name": "In Progress",
+              "colorName": "yellow"
+            }
+          }
+        },
+        {
+          "id": "32",
+          "name": "Route to CLM_LEGAL",
+          "to": {
+            "id": "9",
+            "name": "Legal Review",
+            "statusCategory": {
+              "id": 4,
+              "key": "indeterminate",
+              "name": "In Progress",
+              "colorName": "yellow"
+            }
+          }
+        },
+        {
+          "id": "33",
+          "name": "Route to AP for Payout",
+          "to": {
+            "id": "10",
+            "name": "AP Payout",
+            "statusCategory": {
+              "id": 4,
+              "key": "done",
+              "name": "Done",
+              "colorName": "green"
+            }
+          }
+        }
+      ]
+    },
+    "OPS_AP_INV-1": {
+      "id": "10010",
+      "key": "OPS_AP_INV-1",
+      "self": "https://jira.vanguardshield.com/rest/api/3/issue/OPS_AP_INV-1",
+      "fields": {
+        "summary": "Queue Roles & Assignees",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "OPS_AP_INV Queue Configuration"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": []
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "AP Lead: rfoster (Rachel Foster)"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Senior AP Analyst: tmorgan (Taylor Morgan)"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": []
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Exception Path:"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "When a trace is inconclusive or a clearing confirmation is missing, add a comment on OPS_AP_INV tagging @rfoster and create a follow-up issue in AP-Exceptions with the invoice number and trace details. Do not send any external communication until the exception is resolved."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": []
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Escalation: rachel.foster@vanguardshield.com"
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10099",
+          "name": "Info",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "10030",
+          "key": "OPS_AP_INV",
+          "name": "Accounts Payable Invoices",
+          "projectTypeKey": "business"
+        },
+        "status": {
+          "id": "4",
+          "name": "Done",
+          "statusCategory": {
+            "id": 4,
+            "key": "done",
+            "name": "Done",
+            "colorName": "green"
+          }
+        },
+        "priority": {
+          "id": "3",
+          "name": "Medium"
+        },
+        "assignee": {
+          "accountId": "rfoster",
+          "accountType": "atlassian",
+          "emailAddress": "rachel.foster@vanguardshield.com",
+          "displayName": "Rachel Foster",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "reporter": {
+          "accountId": "sjenkins",
+          "accountType": "atlassian",
+          "emailAddress": "sarah.jenkins@vanguardshield.com",
+          "displayName": "Sarah Jenkins",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "creator": {
+          "accountId": "sjenkins",
+          "accountType": "atlassian",
+          "emailAddress": "sarah.jenkins@vanguardshield.com",
+          "displayName": "Sarah Jenkins",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "created": "2026-01-10T09:00:00.000-05:00",
+        "updated": "2026-03-01T09:00:00.000-05:00",
+        "labels": [],
+        "components": [],
+        "fixVersions": [],
+        "versions": []
+      }
+    },
+    "OPS_AP_INV-2": {
+      "id": "10011",
+      "key": "OPS_AP_INV-2",
+      "self": "https://jira.vanguardshield.com/rest/api/3/issue/OPS_AP_INV-2",
+      "fields": {
+        "summary": "Invoice #7891 - Global Office Supply Inc.",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Vendor: Global Office Supply Inc."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Vendor ID: VND-4401"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Invoice Number: 7891"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Invoice Date: March 15, 2026"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Amount: $12,450.00"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Description: Office furniture and supplies - Q1 2026 order"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": []
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Payment Status: Paid"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Payment Date: March 28, 2026"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Payment Method: ACH"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "ACH Trace Number: 240198763401"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Payment Run: PR-2026-0328-AM"
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10030",
+          "name": "Invoice",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "10030",
+          "key": "OPS_AP_INV",
+          "name": "Accounts Payable Invoices",
+          "projectTypeKey": "business"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open",
+          "statusCategory": {
+            "id": 1,
+            "key": "new",
+            "name": "To Do",
+            "colorName": "blue-gray"
+          }
+        },
+        "priority": {
+          "id": "3",
+          "name": "Medium"
+        },
+        "assignee": {
+          "accountId": "tmorgan",
+          "accountType": "atlassian",
+          "emailAddress": "taylor.morgan@vanguardshield.com",
+          "displayName": "Taylor Morgan",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "reporter": {
+          "accountId": "rfoster",
+          "accountType": "atlassian",
+          "emailAddress": "rachel.foster@vanguardshield.com",
+          "displayName": "Rachel Foster",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "creator": {
+          "accountId": "rfoster",
+          "accountType": "atlassian",
+          "emailAddress": "rachel.foster@vanguardshield.com",
+          "displayName": "Rachel Foster",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "created": "2026-03-16T09:00:00.000-04:00",
+        "updated": "2026-04-01T10:00:00.000-04:00",
+        "labels": [],
+        "components": [],
+        "fixVersions": [],
+        "versions": [],
+        "attachment": [
+          {
+            "id": "30001",
+            "filename": "clearing_confirmation_INV7891.pdf",
+            "author": {
+              "accountId": "rfoster",
+              "accountType": "atlassian",
+              "emailAddress": "rachel.foster@vanguardshield.com",
+              "displayName": "Rachel Foster",
+              "active": true,
+              "timeZone": "America/New_York"
+            },
+            "created": "2026-04-01T10:00:00.000-04:00",
+            "size": 1615,
+            "mimeType": "application/pdf",
+            "content": "",
+            "self": "https://jira.vanguardshield.com/rest/api/3/attachment/30001"
+          }
+        ],
+        "customfield_10200": "Paid",
+        "customfield_10300": "240198763401"
+      }
+    },
+    "OPS_AP_INV-3": {
+      "id": "10012",
+      "key": "OPS_AP_INV-3",
+      "self": "https://jira.vanguardshield.com/rest/api/3/issue/OPS_AP_INV-3",
+      "fields": {
+        "summary": "Invoice #7892 - Global Office Supply Inc.",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Vendor: Global Office Supply Inc."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Vendor ID: VND-4401"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Invoice Number: 7892"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Invoice Date: March 18, 2026"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Amount: $8,750.00"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Description: IT peripherals and accessories - emergency order"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": []
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Payment Status: Paid"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Payment Date: March 25, 2026"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Payment Method: ACH"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "ACH Trace Number: 240198763402"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Payment Run: PR-2026-0325-PM"
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10030",
+          "name": "Invoice",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "10030",
+          "key": "OPS_AP_INV",
+          "name": "Accounts Payable Invoices",
+          "projectTypeKey": "business"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open",
+          "statusCategory": {
+            "id": 1,
+            "key": "new",
+            "name": "To Do",
+            "colorName": "blue-gray"
+          }
+        },
+        "priority": {
+          "id": "3",
+          "name": "Medium"
+        },
+        "assignee": {
+          "accountId": "tmorgan",
+          "accountType": "atlassian",
+          "emailAddress": "taylor.morgan@vanguardshield.com",
+          "displayName": "Taylor Morgan",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "reporter": {
+          "accountId": "rfoster",
+          "accountType": "atlassian",
+          "emailAddress": "rachel.foster@vanguardshield.com",
+          "displayName": "Rachel Foster",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "creator": {
+          "accountId": "rfoster",
+          "accountType": "atlassian",
+          "emailAddress": "rachel.foster@vanguardshield.com",
+          "displayName": "Rachel Foster",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "created": "2026-03-19T09:00:00.000-04:00",
+        "updated": "2026-03-30T09:00:00.000-04:00",
+        "labels": [],
+        "components": [],
+        "fixVersions": [],
+        "versions": [],
+        "customfield_10200": "Paid",
+        "customfield_10300": "240198763402"
+      }
+    },
+    "OPS_AP_INV-4": {
+      "id": "10013",
+      "key": "OPS_AP_INV-4",
+      "self": "https://jira.vanguardshield.com/rest/api/3/issue/OPS_AP_INV-4",
+      "fields": {
+        "summary": "Invoice #7893 - Premium Logistics Corp.",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Vendor: Premium Logistics Corp."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Vendor ID: VND-5582"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Invoice Number: 7893"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Invoice Date: March 22, 2026"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Amount: $3,200.00"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Description: Freight and shipping services - March 2026"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": []
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Payment Status: Processing"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Scheduled Payment Run: April 10, 2026 (PR-2026-0410-AM)"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Payment Method: ACH"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "ACH Trace Number: (not yet assigned)"
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10030",
+          "name": "Invoice",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "10030",
+          "key": "OPS_AP_INV",
+          "name": "Accounts Payable Invoices",
+          "projectTypeKey": "business"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open",
+          "statusCategory": {
+            "id": 1,
+            "key": "new",
+            "name": "To Do",
+            "colorName": "blue-gray"
+          }
+        },
+        "priority": {
+          "id": "3",
+          "name": "Medium"
+        },
+        "assignee": {
+          "accountId": "tmorgan",
+          "accountType": "atlassian",
+          "emailAddress": "taylor.morgan@vanguardshield.com",
+          "displayName": "Taylor Morgan",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "reporter": {
+          "accountId": "rfoster",
+          "accountType": "atlassian",
+          "emailAddress": "rachel.foster@vanguardshield.com",
+          "displayName": "Rachel Foster",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "creator": {
+          "accountId": "rfoster",
+          "accountType": "atlassian",
+          "emailAddress": "rachel.foster@vanguardshield.com",
+          "displayName": "Rachel Foster",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "created": "2026-03-23T09:00:00.000-04:00",
+        "updated": "2026-04-01T09:00:00.000-04:00",
+        "labels": [],
+        "components": [],
+        "fixVersions": [],
+        "versions": [],
+        "customfield_10200": "Processing",
+        "customfield_10300": null
+      }
+    },
+    "OPS_AP_INV-5": {
+      "id": "10014",
+      "key": "OPS_AP_INV-5",
+      "self": "https://jira.vanguardshield.com/rest/api/3/issue/OPS_AP_INV-5",
+      "fields": {
+        "summary": "Invoice #7895 - Premium Logistics Corp.",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Vendor: Premium Logistics Corp."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Vendor ID: VND-5582"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Invoice Number: 7895"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Invoice Date: March 25, 2026"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Amount: $15,800.00"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Description: Warehousing and distribution - Q1 2026 final"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": []
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Payment Status: Paid"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Payment Date: March 30, 2026"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Payment Method: ACH"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "ACH Trace Number: 240198763403"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Payment Run: PR-2026-0330-AM"
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10030",
+          "name": "Invoice",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "10030",
+          "key": "OPS_AP_INV",
+          "name": "Accounts Payable Invoices",
+          "projectTypeKey": "business"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open",
+          "statusCategory": {
+            "id": 1,
+            "key": "new",
+            "name": "To Do",
+            "colorName": "blue-gray"
+          }
+        },
+        "priority": {
+          "id": "3",
+          "name": "Medium"
+        },
+        "assignee": {
+          "accountId": "tmorgan",
+          "accountType": "atlassian",
+          "emailAddress": "taylor.morgan@vanguardshield.com",
+          "displayName": "Taylor Morgan",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "reporter": {
+          "accountId": "rfoster",
+          "accountType": "atlassian",
+          "emailAddress": "rachel.foster@vanguardshield.com",
+          "displayName": "Rachel Foster",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "creator": {
+          "accountId": "rfoster",
+          "accountType": "atlassian",
+          "emailAddress": "rachel.foster@vanguardshield.com",
+          "displayName": "Rachel Foster",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "created": "2026-03-26T09:00:00.000-04:00",
+        "updated": "2026-04-02T09:00:00.000-04:00",
+        "labels": [],
+        "components": [],
+        "fixVersions": [],
+        "versions": [],
+        "customfield_10200": "Paid",
+        "customfield_10300": "240198763403",
+        "attachment": [
+          {
+            "id": "30002",
+            "filename": "clearing_confirmation_INV7895.pdf",
+            "author": {
+              "accountId": "rfoster",
+              "accountType": "atlassian",
+              "emailAddress": "rachel.foster@vanguardshield.com",
+              "displayName": "Rachel Foster",
+              "active": true,
+              "timeZone": "America/New_York"
+            },
+            "created": "2026-04-02T10:00:00.000-04:00",
+            "size": 1620,
+            "mimeType": "application/pdf",
+            "content": "",
+            "self": "https://jira.vanguardshield.com/rest/api/3/attachment/30002"
+          }
+        ]
+      }
+    },
+    "OPS_AP_TRACE-1": {
+      "id": "10015",
+      "key": "OPS_AP_TRACE-1",
+      "self": "https://jira.vanguardshield.com/rest/api/3/issue/OPS_AP_TRACE-1",
+      "fields": {
+        "summary": "ACH Trace 240198763401 - Global Office Supply",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Trace Number: 240198763401"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Originator: Vanguard Shield Mutual"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Receiver: Global Office Supply Inc."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Amount: $12,450.00"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Entry Date: March 28, 2026"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": []
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Bank trace result document attached."
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10031",
+          "name": "ACH Trace",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "10031",
+          "key": "OPS_AP_TRACE",
+          "name": "ACH Trace Records",
+          "projectTypeKey": "business"
+        },
+        "status": {
+          "id": "4",
+          "name": "Done",
+          "statusCategory": {
+            "id": 4,
+            "key": "done",
+            "name": "Done",
+            "colorName": "green"
+          }
+        },
+        "priority": {
+          "id": "3",
+          "name": "Medium"
+        },
+        "assignee": {
+          "accountId": "rfoster",
+          "accountType": "atlassian",
+          "emailAddress": "rachel.foster@vanguardshield.com",
+          "displayName": "Rachel Foster",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "reporter": {
+          "accountId": "rfoster",
+          "accountType": "atlassian",
+          "emailAddress": "rachel.foster@vanguardshield.com",
+          "displayName": "Rachel Foster",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "creator": {
+          "accountId": "rfoster",
+          "accountType": "atlassian",
+          "emailAddress": "rachel.foster@vanguardshield.com",
+          "displayName": "Rachel Foster",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "created": "2026-04-03T08:30:00.000-04:00",
+        "updated": "2026-04-03T09:00:00.000-04:00",
+        "labels": [],
+        "components": [],
+        "fixVersions": [],
+        "versions": [],
+        "attachment": [
+          {
+            "id": "30010",
+            "filename": "bank_trace_240198763401.pdf",
+            "author": {
+              "accountId": "rfoster",
+              "accountType": "atlassian",
+              "emailAddress": "rachel.foster@vanguardshield.com",
+              "displayName": "Rachel Foster",
+              "active": true,
+              "timeZone": "America/New_York"
+            },
+            "created": "2026-04-03T09:00:00.000-04:00",
+            "size": 1591,
+            "mimeType": "application/pdf",
+            "content": "",
+            "self": "https://jira.vanguardshield.com/rest/api/3/attachment/30010"
+          }
+        ]
+      }
+    },
+    "OPS_AP_TRACE-2": {
+      "id": "10016",
+      "key": "OPS_AP_TRACE-2",
+      "self": "https://jira.vanguardshield.com/rest/api/3/issue/OPS_AP_TRACE-2",
+      "fields": {
+        "summary": "ACH Trace 240198763402 - Global Office Supply",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Trace Number: 240198763402"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Originator: Vanguard Shield Mutual"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Receiver: Global Office Supply Inc."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Amount: $8,750.00"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Entry Date: March 25, 2026"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": []
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Bank trace result document attached."
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10031",
+          "name": "ACH Trace",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "10031",
+          "key": "OPS_AP_TRACE",
+          "name": "ACH Trace Records",
+          "projectTypeKey": "business"
+        },
+        "status": {
+          "id": "4",
+          "name": "Done",
+          "statusCategory": {
+            "id": 4,
+            "key": "done",
+            "name": "Done",
+            "colorName": "green"
+          }
+        },
+        "priority": {
+          "id": "3",
+          "name": "Medium"
+        },
+        "assignee": {
+          "accountId": "rfoster",
+          "accountType": "atlassian",
+          "emailAddress": "rachel.foster@vanguardshield.com",
+          "displayName": "Rachel Foster",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "reporter": {
+          "accountId": "rfoster",
+          "accountType": "atlassian",
+          "emailAddress": "rachel.foster@vanguardshield.com",
+          "displayName": "Rachel Foster",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "creator": {
+          "accountId": "rfoster",
+          "accountType": "atlassian",
+          "emailAddress": "rachel.foster@vanguardshield.com",
+          "displayName": "Rachel Foster",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "created": "2026-04-02T13:30:00.000-04:00",
+        "updated": "2026-04-02T14:00:00.000-04:00",
+        "labels": [],
+        "components": [],
+        "fixVersions": [],
+        "versions": [],
+        "attachment": [
+          {
+            "id": "30011",
+            "filename": "bank_trace_240198763402.pdf",
+            "author": {
+              "accountId": "rfoster",
+              "accountType": "atlassian",
+              "emailAddress": "rachel.foster@vanguardshield.com",
+              "displayName": "Rachel Foster",
+              "active": true,
+              "timeZone": "America/New_York"
+            },
+            "created": "2026-04-02T14:00:00.000-04:00",
+            "size": 1671,
+            "mimeType": "application/pdf",
+            "content": "",
+            "self": "https://jira.vanguardshield.com/rest/api/3/attachment/30011"
+          }
+        ]
+      }
+    },
+    "OPS_AP_TRACE-3": {
+      "id": "10017",
+      "key": "OPS_AP_TRACE-3",
+      "self": "https://jira.vanguardshield.com/rest/api/3/issue/OPS_AP_TRACE-3",
+      "fields": {
+        "summary": "ACH Trace 240198763403 - Premium Logistics",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Trace Number: 240198763403"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Originator: Vanguard Shield Mutual"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Receiver: Premium Logistics Corp."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Amount: $15,800.00"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Entry Date: March 30, 2026"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": []
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Bank trace result document attached."
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10031",
+          "name": "ACH Trace",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "10031",
+          "key": "OPS_AP_TRACE",
+          "name": "ACH Trace Records",
+          "projectTypeKey": "business"
+        },
+        "status": {
+          "id": "4",
+          "name": "Done",
+          "statusCategory": {
+            "id": 4,
+            "key": "done",
+            "name": "Done",
+            "colorName": "green"
+          }
+        },
+        "priority": {
+          "id": "3",
+          "name": "Medium"
+        },
+        "assignee": {
+          "accountId": "rfoster",
+          "accountType": "atlassian",
+          "emailAddress": "rachel.foster@vanguardshield.com",
+          "displayName": "Rachel Foster",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "reporter": {
+          "accountId": "rfoster",
+          "accountType": "atlassian",
+          "emailAddress": "rachel.foster@vanguardshield.com",
+          "displayName": "Rachel Foster",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "creator": {
+          "accountId": "rfoster",
+          "accountType": "atlassian",
+          "emailAddress": "rachel.foster@vanguardshield.com",
+          "displayName": "Rachel Foster",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "created": "2026-04-04T09:30:00.000-04:00",
+        "updated": "2026-04-04T10:00:00.000-04:00",
+        "labels": [],
+        "components": [],
+        "fixVersions": [],
+        "versions": [],
+        "attachment": [
+          {
+            "id": "30012",
+            "filename": "bank_trace_240198763403.pdf",
+            "author": {
+              "accountId": "rfoster",
+              "accountType": "atlassian",
+              "emailAddress": "rachel.foster@vanguardshield.com",
+              "displayName": "Rachel Foster",
+              "active": true,
+              "timeZone": "America/New_York"
+            },
+            "created": "2026-04-04T10:00:00.000-04:00",
+            "size": 1579,
+            "mimeType": "application/pdf",
+            "content": "",
+            "self": "https://jira.vanguardshield.com/rest/api/3/attachment/30012"
+          }
+        ]
+      }
+    }
+  },
+  "sprints": {},
+  "comments": {},
+  "projects": {
+    "OPS_HR_TE": {
+      "id": "10010",
+      "key": "OPS_HR_TE",
+      "name": "Sales T&E Expense Reports",
+      "projectTypeKey": "business"
+    },
+    "CLM_LIFE": {
+      "id": "10020",
+      "key": "CLM_LIFE",
+      "name": "Life Claims Processing",
+      "projectTypeKey": "business"
+    },
+    "CLM_LEGAL": {
+      "id": "10021",
+      "key": "CLM_LEGAL",
+      "name": "Legal Claims Review",
+      "projectTypeKey": "business"
+    },
+    "OPS_AP_INV": {
+      "id": "10030",
+      "key": "OPS_AP_INV",
+      "name": "Accounts Payable Invoices",
+      "projectTypeKey": "business"
+    },
+    "OPS_AP_TRACE": {
+      "id": "10031",
+      "key": "OPS_AP_TRACE",
+      "name": "ACH Trace Records",
+      "projectTypeKey": "business"
+    },
+    "HR_OPS": {
+      "id": "10040",
+      "key": "HR_OPS",
+      "name": "HR Operations",
+      "projectTypeKey": "business"
+    }
+  },
+  "fields": [
+    {
+      "id": "summary",
+      "key": "summary",
+      "name": "Summary",
+      "custom": false,
+      "searchable": true
+    },
+    {
+      "id": "description",
+      "key": "description",
+      "name": "Description",
+      "custom": false,
+      "searchable": true
+    },
+    {
+      "id": "status",
+      "key": "status",
+      "name": "Status",
+      "custom": false,
+      "searchable": true
+    },
+    {
+      "id": "priority",
+      "key": "priority",
+      "name": "Priority",
+      "custom": false,
+      "searchable": true
+    },
+    {
+      "id": "assignee",
+      "key": "assignee",
+      "name": "Assignee",
+      "custom": false,
+      "searchable": true
+    },
+    {
+      "id": "reporter",
+      "key": "reporter",
+      "name": "Reporter",
+      "custom": false,
+      "searchable": true
+    },
+    {
+      "id": "created",
+      "key": "created",
+      "name": "Created",
+      "custom": false,
+      "searchable": true
+    },
+    {
+      "id": "updated",
+      "key": "updated",
+      "name": "Updated",
+      "custom": false,
+      "searchable": true
+    },
+    {
+      "id": "labels",
+      "key": "labels",
+      "name": "Labels",
+      "custom": false,
+      "searchable": true
+    },
+    {
+      "id": "issuetype",
+      "key": "issuetype",
+      "name": "Issue Type",
+      "custom": false,
+      "searchable": true
+    },
+    {
+      "id": "customfield_10100",
+      "key": "customfield_10100",
+      "name": "Reporting Manager",
+      "custom": true,
+      "searchable": true,
+      "schema": {
+        "type": "string",
+        "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textfield",
+        "customId": 10100
+      }
+    },
+    {
+      "id": "customfield_10200",
+      "key": "customfield_10200",
+      "name": "Payment Status",
+      "custom": true,
+      "searchable": true,
+      "schema": {
+        "type": "string",
+        "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textfield",
+        "customId": 10200
+      }
+    },
+    {
+      "id": "customfield_10300",
+      "key": "customfield_10300",
+      "name": "ACH Trace Number",
+      "custom": true,
+      "searchable": true,
+      "schema": {
+        "type": "string",
+        "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textfield",
+        "customId": 10300
+      }
+    }
+  ],
+  "counters": {
+    "issueId": 20000
+  },
+  "users": {
+    "sjenkins": {
+      "accountId": "sjenkins",
+      "displayName": "Sarah Jenkins",
+      "accountType": "atlassian",
+      "emailAddress": "sarah.jenkins@vanguardshield.com"
+    },
+    "tmorgan": {
+      "accountId": "tmorgan",
+      "displayName": "Taylor Morgan",
+      "accountType": "atlassian",
+      "emailAddress": "taylor.morgan@vanguardshield.com"
+    },
+    "mchen": {
+      "accountId": "mchen",
+      "displayName": "Marcus Chen",
+      "accountType": "atlassian",
+      "emailAddress": "marcus.chen@vanguardshield.com"
+    },
+    "psharma": {
+      "accountId": "psharma",
+      "displayName": "Priya Sharma",
+      "accountType": "atlassian",
+      "emailAddress": "priya.sharma@vanguardshield.com"
+    },
+    "dwashington": {
+      "accountId": "dwashington",
+      "displayName": "Derek Washington",
+      "accountType": "atlassian",
+      "emailAddress": "derek.washington@vanguardshield.com"
+    },
+    "arobinson": {
+      "accountId": "arobinson",
+      "displayName": "Aisha Robinson",
+      "accountType": "atlassian",
+      "emailAddress": "aisha.robinson@vanguardshield.com"
+    },
+    "nbriggs": {
+      "accountId": "nbriggs",
+      "displayName": "Nathan Briggs",
+      "accountType": "atlassian",
+      "emailAddress": "nathan.briggs@vanguardshield.com"
+    },
+    "rfoster": {
+      "accountId": "rfoster",
+      "displayName": "Rachel Foster",
+      "accountType": "atlassian",
+      "emailAddress": "rachel.foster@vanguardshield.com"
+    }
+  },
+  "boards": {},
+  "statuses": {
+    "1": {
+      "id": "1",
+      "name": "Done",
+      "statusCategory": {
+        "id": 4,
+        "key": "done",
+        "name": "Done",
+        "colorName": "green"
+      }
+    },
+    "2": {
+      "id": "2",
+      "name": "Pending Approval",
+      "statusCategory": {
+        "id": 2,
+        "key": "indeterminate",
+        "name": "In Progress",
+        "colorName": "yellow"
+      }
+    },
+    "3": {
+      "id": "3",
+      "name": "Open",
+      "statusCategory": {
+        "id": 1,
+        "key": "new",
+        "name": "To Do",
+        "colorName": "blue-gray"
+      }
+    }
+  },
+  "workflow": {
+    "Done": [
+      {
+        "id": "1",
+        "name": "To Done",
+        "to": "Done"
+      },
+      {
+        "id": "2",
+        "name": "To Pending Approval",
+        "to": "Pending Approval"
+      },
+      {
+        "id": "3",
+        "name": "To Open",
+        "to": "Open"
+      }
+    ],
+    "Pending Approval": [
+      {
+        "id": "4",
+        "name": "To Done",
+        "to": "Done"
+      },
+      {
+        "id": "5",
+        "name": "To Pending Approval",
+        "to": "Pending Approval"
+      },
+      {
+        "id": "6",
+        "name": "To Open",
+        "to": "Open"
+      }
+    ],
+    "Open": [
+      {
+        "id": "7",
+        "name": "To Done",
+        "to": "Done"
+      },
+      {
+        "id": "8",
+        "name": "To Pending Approval",
+        "to": "Pending Approval"
+      },
+      {
+        "id": "9",
+        "name": "To Open",
+        "to": "Open"
+      }
+    ]
+  },
+  "defaultStatusValue": "Open"
+}

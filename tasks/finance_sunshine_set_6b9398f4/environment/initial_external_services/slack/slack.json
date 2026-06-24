@@ -1,0 +1,477 @@
+{
+  "users": {
+    "U001": {
+      "id": "U001",
+      "team_id": "T001",
+      "name": "elena.brooks",
+      "deleted": false,
+      "real_name": "Elena Brooks",
+      "profile": {
+        "real_name": "Elena Brooks",
+        "display_name": "elena.brooks",
+        "email": "elena.brooks@sunshineandsetauto.com",
+        "title": "Controller"
+      },
+      "is_admin": true,
+      "is_owner": true,
+      "is_bot": false
+    },
+    "U002": {
+      "id": "U002",
+      "team_id": "T001",
+      "name": "marcus.hale",
+      "deleted": false,
+      "real_name": "Marcus Hale",
+      "profile": {
+        "real_name": "Marcus Hale",
+        "display_name": "marcus.hale",
+        "email": "marcus.hale@sunshineandsetauto.com",
+        "title": "Assistant Controller"
+      },
+      "is_admin": true,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U003": {
+      "id": "U003",
+      "team_id": "T001",
+      "name": "jasmine.patel",
+      "deleted": false,
+      "real_name": "Jasmine Patel",
+      "profile": {
+        "real_name": "Jasmine Patel",
+        "display_name": "jasmine.patel",
+        "email": "jasmine.patel@sunshineandsetauto.com",
+        "title": "Senior Deal Posting Specialist"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U004": {
+      "id": "U004",
+      "team_id": "T001",
+      "name": "noah.alvarez",
+      "deleted": false,
+      "real_name": "Noah Alvarez",
+      "profile": {
+        "real_name": "Noah Alvarez",
+        "display_name": "noah.alvarez",
+        "email": "noah.alvarez@sunshineandsetauto.com",
+        "title": "Funding & Contracts Clerk"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U005": {
+      "id": "U005",
+      "team_id": "T001",
+      "name": "priya.bennett",
+      "deleted": false,
+      "real_name": "Priya Bennett",
+      "profile": {
+        "real_name": "Priya Bennett",
+        "display_name": "priya.bennett",
+        "email": "priya.bennett@sunshineandsetauto.com",
+        "title": "Titles & Billing Clerk"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U006": {
+      "id": "U006",
+      "team_id": "T001",
+      "name": "caleb.foster",
+      "deleted": false,
+      "real_name": "Caleb Foster",
+      "profile": {
+        "real_name": "Caleb Foster",
+        "display_name": "caleb.foster",
+        "email": "caleb.foster@sunshineandsetauto.com",
+        "title": "Accounts Payable Clerk"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U007": {
+      "id": "U007",
+      "team_id": "T001",
+      "name": "renee.lawson",
+      "deleted": false,
+      "real_name": "Renee Lawson",
+      "profile": {
+        "real_name": "Renee Lawson",
+        "display_name": "renee.lawson",
+        "email": "renee.lawson@sunshineandsetauto.com",
+        "title": "Cashier / Receivables Clerk"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U008": {
+      "id": "U008",
+      "team_id": "T001",
+      "name": "darius.kim",
+      "deleted": false,
+      "real_name": "Darius Kim",
+      "profile": {
+        "real_name": "Darius Kim",
+        "display_name": "darius.kim",
+        "email": "darius.kim@sunshineandsetauto.com",
+        "title": "Inventory Accountant"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U009": {
+      "id": "U009",
+      "team_id": "T001",
+      "name": "leah.morgan",
+      "deleted": false,
+      "real_name": "Leah Morgan",
+      "profile": {
+        "real_name": "Leah Morgan",
+        "display_name": "leah.morgan",
+        "email": "leah.morgan@sunshineandsetauto.com",
+        "title": "Payroll & Commissions Analyst"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U010": {
+      "id": "U010",
+      "team_id": "T001",
+      "name": "talia.nguyen",
+      "deleted": false,
+      "real_name": "Talia Nguyen",
+      "profile": {
+        "real_name": "Talia Nguyen",
+        "display_name": "talia.nguyen",
+        "email": "talia.nguyen@sunshineandsetauto.com",
+        "title": "Office Manager"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U011": {
+      "id": "U011",
+      "team_id": "T001",
+      "name": "sofia.ramirez",
+      "deleted": false,
+      "real_name": "Sofia Ramirez",
+      "profile": {
+        "real_name": "Sofia Ramirez",
+        "display_name": "sofia.ramirez",
+        "email": "sofia.ramirez@sunshineandsetauto.com",
+        "title": "F&I Director"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U012": {
+      "id": "U012",
+      "team_id": "T001",
+      "name": "olivia.mercer",
+      "deleted": false,
+      "real_name": "Olivia Mercer",
+      "profile": {
+        "real_name": "Olivia Mercer",
+        "display_name": "olivia.mercer",
+        "email": "olivia.mercer@sunshineandsetauto.com",
+        "title": "New Vehicle Sales Manager"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    }
+  },
+  "channels": {
+    "C001": {
+      "id": "C001",
+      "name": "acct-deal-posting",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1609459200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "acct-deal-posting",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1744635600,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Deal posting workflow and deal jacket verification",
+        "creator": "U001",
+        "last_set": 1609459200
+      },
+      "purpose": {
+        "value": "Coordination of deal posting activities and deal jacket processing",
+        "creator": "U001",
+        "last_set": 1609459200
+      }
+    },
+    "C002": {
+      "id": "C002",
+      "name": "acct-contracts-funding",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1609459200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "acct-contracts-funding",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1744635600,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Contracts submission and funding package coordination",
+        "creator": "U001",
+        "last_set": 1609459200
+      },
+      "purpose": {
+        "value": "Track contract stips, funding packages, and CIT status",
+        "creator": "U001",
+        "last_set": 1609459200
+      }
+    },
+    "C003": {
+      "id": "C003",
+      "name": "acct-cash-desk",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1609459200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "acct-cash-desk",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1744635600,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Cash application, deposit prep, and receipt processing",
+        "creator": "U001",
+        "last_set": 1609459200
+      },
+      "purpose": {
+        "value": "Daily cash desk operations and deposit tracking",
+        "creator": "U001",
+        "last_set": 1609459200
+      }
+    }
+  },
+  "messages": {
+    "C001": [
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "Deal 4820 / Okafor / VIN ...667341 posted. Capital One contract $30,089. Reserve $850. Waiting on final stip from lender before @noah.alvarez can submit funding pkg.",
+        "ts": "1775998800.000001",
+        "channel": "C001",
+        "team": "T001",
+        "reactions": [],
+        "reply_count": 1,
+        "latest_reply": "1775999400.000002",
+        "reply_users": [
+          "U004"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U004",
+        "text": "Confirmed - will hold funding pkg submission for 4820 until stip clears. Should have it this afternoon per Capital One rep.",
+        "ts": "1775999400.000002",
+        "channel": "C001",
+        "team": "T001",
+        "thread_ts": "1775998800.000001",
+        "parent_user_id": "U003",
+        "reactions": []
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "Deal 4821 / Mitchell, Sarah E. / 2025 Accord EX-L / N-2547 / VIN 1HGCV1F34PA112847. Desk recap received from @sofia.ramirez. Approved gross $5,640.00 (Front $2,000 / Back $3,640). Total gross >$5K. Waiting on deal jacket from F&I.",
+        "ts": "1776171000.000003",
+        "channel": "C001",
+        "team": "T001",
+        "reactions": []
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "Deal 4821 jacket received from F&I. @noah.alvarez can you confirm stip status with Ally before I begin posting workflow?",
+        "ts": "1776176400.000004",
+        "channel": "C001",
+        "team": "T001",
+        "reactions": [],
+        "reply_count": 1,
+        "latest_reply": "1776182100.000005",
+        "reply_users": [
+          "U004"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U004",
+        "text": "Ally stips all cleared as of 11:47 AM per Carlos Mendez. Deal 4821 clear to proceed to posting and funding package prep.",
+        "ts": "1776182100.000005",
+        "channel": "C001",
+        "team": "T001",
+        "thread_ts": "1776176400.000004",
+        "parent_user_id": "U003",
+        "reactions": [
+          {
+            "name": "white_check_mark",
+            "users": [
+              "U003"
+            ],
+            "count": 1
+          }
+        ]
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "Acknowledged. Will proceed with deal jacket compilation and posting once verification of jacket contents per checklist is complete. Vanilla deal \u2014 no trade, all docs present. Should be straightforward.",
+        "ts": "1776183000.000006",
+        "channel": "C001",
+        "team": "T001",
+        "reactions": []
+      }
+    ],
+    "C002": [
+      {
+        "type": "message",
+        "user": "U004",
+        "text": "Deal 4820 / Okafor, Brandon / VIN 2GNAXUEV4S1667341 / Capital One \u2014 funding package submitted via SecureLink at 2:04 PM. All stips cleared. Expected funding April 16. @jasmine.patel FYI.",
+        "ts": "1776031200.000001",
+        "channel": "C002",
+        "team": "T001",
+        "reactions": []
+      },
+      {
+        "type": "message",
+        "user": "U004",
+        "text": "Deal 4820 / Okafor \u2014 now at 2 days CIT. No issues. On track for April 16 funding. No action needed.",
+        "ts": "1776176400.000002",
+        "channel": "C002",
+        "team": "T001",
+        "reactions": []
+      },
+      {
+        "type": "message",
+        "user": "U004",
+        "text": "Deal 4821 / Mitchell, Sarah / Ally Financial \u2014 stips confirmed cleared. Ally ref ALY-2026-0414-8823. Will prepare funding package once deal posted by @jasmine.patel. Reminder: Ally EOB deadline for SecureLink submission today. Will set calendar reminder for expected funding date per SOP once package is submitted.",
+        "ts": "1776177000.000003",
+        "channel": "C002",
+        "team": "T001",
+        "reactions": []
+      },
+      {
+        "type": "message",
+        "user": "U004",
+        "text": "Deal 4821 funding package ready. Awaiting confirmation from @jasmine.patel that deal has been posted and deal log entry finalized before sending Template B cover email to Ally.",
+        "ts": "1776193200.000004",
+        "channel": "C002",
+        "team": "T001",
+        "reactions": []
+      }
+    ],
+    "C003": [
+      {
+        "type": "message",
+        "user": "U007",
+        "text": "Deal 4821 / Mitchell, Sarah \u2014 down payment $8,625.00 received. Check #4492 / SunTrust. Receipt RCP-8824 issued. Applied in cash application workflow. To be included in today's deposit.",
+        "ts": "1776181200.000001",
+        "channel": "C003",
+        "team": "T001",
+        "reactions": [
+          {
+            "name": "moneybag",
+            "users": [
+              "U010"
+            ],
+            "count": 1
+          }
+        ]
+      },
+      {
+        "type": "message",
+        "user": "U007",
+        "text": "Daily deposit prep summary \u2014 6 receipts, total $10,528.75 (Cash $212.50 | Checks $8,937.00 | Credit Cards $1,379.25). Deposit to SunTrust Operating Account. Cashier log complete. @talia.nguyen dual verification completed.",
+        "ts": "1776193200.000002",
+        "channel": "C003",
+        "team": "T001",
+        "reactions": [],
+        "reply_count": 1,
+        "latest_reply": "1776193620.000003",
+        "reply_users": [
+          "U010"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U010",
+        "text": "Confirmed. Dual verification complete. Deposit slip and backup filed.",
+        "ts": "1776193620.000003",
+        "channel": "C003",
+        "team": "T001",
+        "thread_ts": "1776193200.000002",
+        "parent_user_id": "U007",
+        "reactions": []
+      }
+    ]
+  },
+  "counters": {
+    "messageId": 1000015
+  }
+}

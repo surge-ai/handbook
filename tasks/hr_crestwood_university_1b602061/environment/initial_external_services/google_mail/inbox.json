@@ -1,0 +1,696 @@
+{
+  "mailbox": {
+    "email": "hr@crestwood.edu",
+    "name": "Crestwood HR Coordinator"
+  },
+  "contacts": [
+    {
+      "email": "j.whitfield@crestwood.edu",
+      "name": "Dr. James Whitfield"
+    },
+    {
+      "email": "n.ashford@crestwood.edu",
+      "name": "Nicole Ashford"
+    },
+    {
+      "email": "p.huang@crestwood.edu",
+      "name": "Patricia Huang"
+    },
+    {
+      "email": "d.okonkwo@crestwood.edu",
+      "name": "Derek Okonkwo"
+    },
+    {
+      "email": "m.voss@crestwood.edu",
+      "name": "Marta Voss"
+    },
+    {
+      "email": "c.briggs@crestwood.edu",
+      "name": "Calvin Briggs"
+    },
+    {
+      "email": "j.park@crestwood.edu",
+      "name": "Jenna Park"
+    },
+    {
+      "email": "hr-escalations@crestwood.edu",
+      "name": "HR Escalations"
+    },
+    {
+      "email": "w.trent@crestwood.edu",
+      "name": "William Trent"
+    },
+    {
+      "email": "r.mendez@crestwood.edu",
+      "name": "Rafael Mendez"
+    },
+    {
+      "email": "p.nair@crestwood.edu",
+      "name": "Priya Nair"
+    },
+    {
+      "email": "t.salazar@crestwood.edu",
+      "name": "Tom\u00e1s Salazar"
+    },
+    {
+      "email": "m.cross@crestwood.edu",
+      "name": "Meghan Cross"
+    },
+    {
+      "email": "s.yee@crestwood.edu",
+      "name": "Sandra Yee"
+    },
+    {
+      "email": "a.russo@crestwood.edu",
+      "name": "Angela Russo"
+    },
+    {
+      "email": "m.tremblay@crestwood.edu",
+      "name": "Marcus Tremblay"
+    },
+    {
+      "email": "e.mirza@crestwood.edu",
+      "name": "Ethan Mirza"
+    },
+    {
+      "email": "l.fontaine@crestwood.edu",
+      "name": "Lisa Fontaine"
+    },
+    {
+      "email": "h.dvorak@crestwood.edu",
+      "name": "Hannah Dvorak"
+    },
+    {
+      "email": "r.gutierrez@crestwood.edu",
+      "name": "Rosa Gutierrez"
+    },
+    {
+      "email": "k.cho@crestwood.edu",
+      "name": "Karen Cho"
+    },
+    {
+      "email": "f.durrell@crestwood.edu",
+      "name": "Frank Durrell"
+    },
+    {
+      "email": "d.lester@crestwood.edu",
+      "name": "David Lester"
+    },
+    {
+      "email": "d.pham@crestwood.edu",
+      "name": "Diane Pham"
+    },
+    {
+      "email": "applications@crestwood.edu",
+      "name": "Crestwood Applications Inbox"
+    },
+    {
+      "email": "facilities@crestwood.edu",
+      "name": "Facilities Service Desk"
+    },
+    {
+      "email": "president@crestwood.edu",
+      "name": "Office of the President"
+    },
+    {
+      "email": "verifications@summitbank.com",
+      "name": "Summit Bank \u2013 Employment Verifications"
+    },
+    {
+      "email": "j.alvarez.candidate@gmail.com",
+      "name": "Jamal Alvarez (Applicant)"
+    }
+  ],
+  "groups": [
+    {
+      "email": "hr-team@crestwood.edu",
+      "name": "HR Team",
+      "members": [
+        "j.whitfield@crestwood.edu",
+        "n.ashford@crestwood.edu",
+        "p.huang@crestwood.edu",
+        "d.okonkwo@crestwood.edu",
+        "m.voss@crestwood.edu",
+        "c.briggs@crestwood.edu",
+        "j.park@crestwood.edu",
+        "hr@crestwood.edu"
+      ]
+    }
+  ],
+  "folders": [
+    {
+      "name": "Onboarding"
+    },
+    {
+      "name": "Offboarding"
+    },
+    {
+      "name": "Leave"
+    },
+    {
+      "name": "Performance"
+    },
+    {
+      "name": "Recruiting"
+    },
+    {
+      "name": "General"
+    }
+  ],
+  "emails": [
+    {
+      "email_id": "1",
+      "folder": "Onboarding",
+      "subject": "New Hire \u2013 William Trent \u2013 Start 03/05/2026",
+      "from_addr": "r.gutierrez@crestwood.edu",
+      "to_addr": "hr@crestwood.edu",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-01T08:42:00-06:00",
+      "message_id": "<msg-00001@crestwood.edu>",
+      "in_reply_to": null,
+      "body_text": "Hi HR,\n\nConfirming the new hire for Facilities below. Please proceed with onboarding.\n\nName: William Trent\nPosition: Groundskeeper II\nDepartment: Facilities\nCampus: Main\nClassification: Non-Exempt, Full-Time\nStart Date: 03/05/2026\nSupervisor: Rosa Gutierrez (me)\nPersonal email for welcome packet: william.trent.work@gmail.com\n\nThanks,\nRosa Gutierrez\nDirector of Facilities",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "2",
+      "folder": "Onboarding",
+      "subject": "New Hire \u2013 Rafael Mendez \u2013 Admissions \u2013 Start 03/26",
+      "from_addr": "k.cho@crestwood.edu",
+      "to_addr": "hr@crestwood.edu",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-23T11:15:00-06:00",
+      "message_id": "<msg-00002@crestwood.edu>",
+      "in_reply_to": null,
+      "body_text": "Hi HR Coordinator,\n\nPlease process the following new hire:\n\nName: Rafael Mendez\nPosition: Admissions Counselor\nDepartment: Admissions\nCampus: Downtown\nClassification: Non-Exempt, Full-Time\nStart Date: 03/26/2026\nSupervisor: Karen Cho\nPersonal email: rafael.mendez88@yahoo.com\n\nLet me know if you need anything else.\n\nKaren Cho\nRegistrar / Admissions",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "3",
+      "folder": "Leave",
+      "subject": "FMLA Leave Request",
+      "from_addr": "m.cross@crestwood.edu",
+      "to_addr": "hr@crestwood.edu",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-23T19:20:00-06:00",
+      "message_id": "<msg-00003@crestwood.edu>",
+      "in_reply_to": null,
+      "body_text": "Hello,\n\nI would like to formally request leave under the Family and Medical Leave Act for a serious health condition. My physician has advised approximately twelve weeks of leave beginning May 1, 2026, with an expected return on or around July 27, 2026.\n\nPlease let me know what documentation is required and how I should submit the medical certification. I would like to keep this matter as confidential as possible.\n\nThank you,\nMeghan Cross\nFinance | Downtown Campus\nCU-1023",
+      "body_html": null,
+      "is_read": true,
+      "is_important": true,
+      "attachments": []
+    },
+    {
+      "email_id": "4",
+      "folder": "Onboarding",
+      "subject": "New Faculty Hire \u2013 Priya Nair, Biology \u2013 Start 04/02",
+      "from_addr": "f.durrell@crestwood.edu",
+      "to_addr": "hr@crestwood.edu",
+      "cc_addr": "s.yee@crestwood.edu",
+      "bcc_addr": null,
+      "date": "2026-03-21T09:05:00-06:00",
+      "message_id": "<msg-00004@crestwood.edu>",
+      "in_reply_to": null,
+      "body_text": "Hi HR,\n\nConfirming the appointment of Dr. Priya Nair as a new faculty member in Biology. Please process her onboarding accordingly.\n\nName: Priya Nair, PhD\nPosition: Assistant Professor of Biology\nDepartment: Biology\nCampus: West\nClassification: Exempt, Faculty\nStart Date: 04/02/2026\nSupervisor of Record: Sandra Yee (Department Chair)\nPersonal email: pnair.bio@gmail.com\n\nNote: Sandra is scheduled to begin FMLA leave March 23. Please coordinate with her directly on Priya's first-month onboarding before the leave begins.\n\nFrank Durrell\nDean, College of Sciences",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "5",
+      "folder": "Onboarding",
+      "subject": "New Hire \u2013 Tom\u00e1s Salazar \u2013 Student Affairs \u2013 04/02",
+      "from_addr": "p.huang@crestwood.edu",
+      "to_addr": "hr@crestwood.edu",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-25T14:30:00-06:00",
+      "message_id": "<msg-00005@crestwood.edu>",
+      "in_reply_to": null,
+      "body_text": "Hi HR,\n\nAdding another new hire \u2014 Tom\u00e1s Salazar, joining Student Affairs at the Downtown Center as a Program Coordinator. Details:\n\nName: Tom\u00e1s Salazar\nPosition: Program Coordinator, Student Affairs\nDepartment: Student Affairs\nCampus: Downtown\nClassification: Non-Exempt, Full-Time\nStart Date: 04/02/2026\nPersonal email: tomas.salazar.co@protonmail.com\n\nTom\u00e1s brought original ID documents on day one. I have his I-9 Section 1 in hand but will need guidance on Section 2 since the supervisor seat is currently vacant and I'm covering on an interim basis.\n\nThanks,\nPatricia",
+      "body_html": null,
+      "is_read": true,
+      "is_important": true,
+      "attachments": []
+    },
+    {
+      "email_id": "8",
+      "folder": "Leave",
+      "subject": "PTO balance check",
+      "from_addr": "l.fontaine@crestwood.edu",
+      "to_addr": "hr@crestwood.edu",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-21T15:22:00-06:00",
+      "message_id": "<msg-00008@crestwood.edu>",
+      "in_reply_to": null,
+      "body_text": "Hi,\n\nCould you let me know how many PTO hours I currently have on the books? I'm trying to plan a vacation in June.\n\nThanks!\nLisa Fontaine\nCU-1010 | Registrar",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "11",
+      "folder": "General",
+      "subject": "HR office light bulb out \u2013 Main Campus rm 214",
+      "from_addr": "facilities@crestwood.edu",
+      "to_addr": "hr@crestwood.edu",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-26T13:50:00-06:00",
+      "message_id": "<msg-00011@crestwood.edu>",
+      "in_reply_to": null,
+      "body_text": "Hello,\n\nWe received a ticket that the overhead light in HR conference room 214 is out. Please confirm a time when our team can access the room to replace it.\n\nFacilities Service Desk",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "13",
+      "folder": "Leave",
+      "subject": "FMLA Leave Request",
+      "from_addr": "a.russo@crestwood.edu",
+      "to_addr": "hr@crestwood.edu",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-02T09:48:00-07:00",
+      "message_id": "<msg-00013@crestwood.edu>",
+      "in_reply_to": null,
+      "body_text": "Hello HR,\n\nI'm writing to request FMLA leave for a medical condition. I would need approximately 8 weeks beginning in mid-March. Please let me know what I need to submit.\n\nAngela Russo\nLibrary | West Campus\nCU-1012",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "14",
+      "folder": "Leave",
+      "subject": "Request for Family and Medical Leave",
+      "from_addr": "s.yee@crestwood.edu",
+      "to_addr": "hr@crestwood.edu",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-16T08:30:00-06:00",
+      "message_id": "<msg-00014@crestwood.edu>",
+      "in_reply_to": null,
+      "body_text": "Dear HR,\n\nI am writing to formally request FMLA leave for a planned surgery and recovery. The expected leave period is March 23, 2026 through June 15, 2026.\n\nPlease let me know what forms I need to complete. I would like to ensure everything is in order well in advance so my department has time to plan coverage.\n\nBest,\nSandra Yee\nDepartment Chair, Biology\nCU-1008",
+      "body_html": null,
+      "is_read": true,
+      "is_important": true,
+      "attachments": []
+    },
+    {
+      "email_id": "15",
+      "folder": "Leave",
+      "subject": "Re: Request for Family and Medical Leave \u2013 Medical Certification Attached",
+      "from_addr": "s.yee@crestwood.edu",
+      "to_addr": "hr@crestwood.edu",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-30T16:05:00-06:00",
+      "message_id": "<msg-00015@crestwood.edu>",
+      "in_reply_to": "<msg-yee-elig-15@crestwood.edu>",
+      "body_text": "Hi,\n\nAttached is the completed medical certification form from my physician. Please confirm receipt and let me know if anything else is needed.\n\nThanks for your help,\nSandra",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "16",
+      "folder": "Leave",
+      "subject": "Returning from PTO 04/03",
+      "from_addr": "m.tremblay@crestwood.edu",
+      "to_addr": "hr@crestwood.edu",
+      "cc_addr": "r.gutierrez@crestwood.edu",
+      "bcc_addr": null,
+      "date": "2026-03-21T16:40:00-06:00",
+      "message_id": "<msg-00016@crestwood.edu>",
+      "in_reply_to": null,
+      "body_text": "Hi HR,\n\nJust a heads up I'll be back at work Friday 4/3 from my scheduled PTO. Please update my status. Thanks!\n\nMarcus Tremblay\nFacilities | CU-1009",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "17",
+      "folder": "Recruiting",
+      "subject": "Requisition Request \u2013 Administrative Assistant",
+      "from_addr": "president@crestwood.edu",
+      "to_addr": "hr@crestwood.edu",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-27T10:12:00-06:00",
+      "message_id": "<msg-00017@crestwood.edu>",
+      "in_reply_to": null,
+      "body_text": "HR Team,\n\nThe Registrar's office is requesting approval to recruit for an Administrative Assistant position. Details below \u2014 please initiate the requisition process.\n\nPosition: Administrative Assistant\nReports to: Dr. James Whitfield (interim assignment)\nDepartment: Registrar's Office\nCampus: Main\nClassification: Non-Exempt, Full-Time\nSalary range: $48,000 \u2013 $55,000\n\nJustification: Replacement for retiring incumbent. Coverage gap projected for early summer.\nRegistrar's Office",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "18",
+      "folder": "Recruiting",
+      "subject": "Re: Requisition Approval Needed \u2013 Administrative Assistant",
+      "from_addr": "d.okonkwo@crestwood.edu",
+      "to_addr": "hr@crestwood.edu",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-30T09:22:00-06:00",
+      "message_id": "<msg-00018@crestwood.edu>",
+      "in_reply_to": "<msg-req-fwd-30@crestwood.edu>",
+      "body_text": "Approved. Please open the Jira ticket and proceed with the posting draft. Standard 10 business day window \u2014 I want this live by Friday.\n\nDerek",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "19",
+      "folder": "Recruiting",
+      "subject": "Re: Posting Draft for Approval \u2013 Administrative Assistant",
+      "from_addr": "d.okonkwo@crestwood.edu",
+      "to_addr": "hr@crestwood.edu",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-25T08:55:00-06:00",
+      "message_id": "<msg-00019@crestwood.edu>",
+      "in_reply_to": "<msg-posting-draft-02@crestwood.edu>",
+      "body_text": "Looks good. Approved to post. I'll handle the careers page upload and the two external boards this morning. Add 'Posting Closes \u2013 Administrative Assistant' to the calendar for 4/17.\n\nDerek",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "20",
+      "folder": "Sent",
+      "subject": "Re: FMLA Leave Request",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "a.russo@crestwood.edu",
+      "cc_addr": "p.huang@crestwood.edu",
+      "bcc_addr": null,
+      "date": "2026-03-03T11:30:00-07:00",
+      "message_id": "<msg-00020@crestwood.edu>",
+      "in_reply_to": "<msg-00013@crestwood.edu>",
+      "body_text": "Hi Angela,\n\nWe have reviewed your request for leave under the Family and Medical Leave Act (FMLA). Unfortunately, you do not meet the eligibility requirements at this time. The reason for ineligibility is: fewer than 1,250 hours worked in the preceding 12 months.\n\nYou may be eligible for other types of leave. Please contact Patricia Huang at p.huang@crestwood.edu to discuss your options.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "21",
+      "folder": "Sent",
+      "subject": "Re: Request for Family and Medical Leave",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "s.yee@crestwood.edu",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-16T14:55:00-06:00",
+      "message_id": "<msg-yee-elig-15@crestwood.edu>",
+      "in_reply_to": "<msg-00014@crestwood.edu>",
+      "body_text": "Hi Sandra,\n\nWe have reviewed your request for leave under the Family and Medical Leave Act (FMLA). Based on our records, you meet the eligibility requirements (employed for 163 months; 1,950 hours worked in the preceding 12 months).\n\nTo proceed, please complete and return the attached Medical Certification Form within 15 calendar days of this notice (due by 03/31/2026). Failure to return the certification by this date may result in denial of your FMLA leave request.\n\nIf you have questions, please contact Patricia Huang at p.huang@crestwood.edu.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "22",
+      "folder": "Sent",
+      "subject": "Fwd: Sandra Yee \u2013 FMLA Medical Certification for review",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "p.huang@crestwood.edu",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-30T16:40:00-06:00",
+      "message_id": "<msg-00021@crestwood.edu>",
+      "in_reply_to": "<msg-00015@crestwood.edu>",
+      "body_text": "Hi Patricia,\n\nForwarding Sandra Yee's medical certification for your review per SOP 13.1 Step 8. Cert was returned 3/30, ahead of the 3/31 deadline. leave_tracker updated to 'Approved \u2013 Pending Certification Review.' Please let me know once you've signed off so I can send Template 16.\n\nThanks,\nHR Coordinator\n\n--- Forwarded Message ---\nFrom: s.yee@crestwood.edu\nDate: 2026-03-30 16:05\nSubject: Re: Request for Family and Medical Leave \u2013 Medical Certification Attached\n[Cert form attached]",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "23",
+      "folder": "Sent",
+      "subject": "FMLA Leave Confirmed",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "s.yee@crestwood.edu",
+      "cc_addr": "f.durrell@crestwood.edu",
+      "bcc_addr": null,
+      "date": "2026-04-01T09:15:00-06:00",
+      "message_id": "<msg-00022@crestwood.edu>",
+      "in_reply_to": null,
+      "body_text": "Hi Sandra,\n\nYour FMLA leave has been approved. Your leave details are as follows:\n\nLeave Start Date: 05/01/2026\nExpected Return Date: 07/27/2026\nLeave Duration: 12 weeks\n\nPlease note that a fitness-for-duty certification from your healthcare provider will be required before you can return to work. Please contact us at least 5 business days before your intended return date.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "24",
+      "folder": "Sent",
+      "subject": "Requisition Approval Needed \u2013 Administrative Assistant",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "d.okonkwo@crestwood.edu",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-30T08:40:00-06:00",
+      "message_id": "<msg-req-fwd-30@crestwood.edu>",
+      "in_reply_to": "<msg-00017@crestwood.edu>",
+      "body_text": "Hi Derek,\n\nForwarding the requisition request from the Office of the President for your approval per SOP 15.1. Details: Administrative Assistant, Office of the President, Main Campus, Non-Exempt FT, $48\u201355K. Replacement headcount, no new FTE. Please reply with approval so I can open the Jira ticket and update recruiting_tracker.\n\nThanks,\nHR Coordinator",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "25",
+      "folder": "Sent",
+      "subject": "Posting Draft for Approval \u2013 Administrative Assistant",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "d.okonkwo@crestwood.edu",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-21T15:10:00-06:00",
+      "message_id": "<msg-posting-draft-02@crestwood.edu>",
+      "in_reply_to": null,
+      "body_text": "Hi Derek,\n\nDraft posting attached for your review. All sections per job_posting_template are filled in: title, dept, campus, supervisor, classification, salary range, MQs, preferred quals, application deadline (4/17), and the applications@ submission instructions.\n\nOnce you sign off I'll send the finalized PDF over for you to publish.\n\nHR Coordinator",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "27",
+      "folder": "General",
+      "subject": "Reminder: Annual Evaluation Cycle starts 5/1",
+      "from_addr": "n.ashford@crestwood.edu",
+      "to_addr": "hr@crestwood.edu",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-26T09:05:00-06:00",
+      "message_id": "<msg-00024@crestwood.edu>",
+      "in_reply_to": null,
+      "body_text": "Coordinator \u2014 please draft the all-staff announcement for the annual evaluation cycle this week so we can send it on 4/20. Use Template 23 as the base. Show me the draft Wednesday.\n\nNicole",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "29",
+      "folder": "Sent",
+      "subject": "Re: PTO balance check",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "l.fontaine@crestwood.edu",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-24T10:15:00-06:00",
+      "message_id": "<bc1a0b0c-ecdc-489b-897d-e82654e98630@mail-mcp.local>",
+      "in_reply_to": "<msg-00008@crestwood.edu>",
+      "body_text": "Hi Lisa,\n\nYour current PTO balance as of 04/07/2026 is 68 hours. Your accrual rate is 4.62 hours per pay period.\n\nIf you have questions about your balance or accrual rate, please contact Patricia Huang at p.huang@crestwood.edu.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu\n\n--- Original Message ---\nFrom: l.fontaine@crestwood.edu\nDate: 2026-03-21 15:22\nSubject: PTO balance check\n\nHi,\n\nCould you let me know how many PTO hours I currently have on the books? I'm trying to plan a vacation in June.\n\nThanks!\nLisa Fontaine\nCU-1010 | Registrar",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "30",
+      "folder": "Sent",
+      "subject": "Template 10 \u2014 Trent, CU-1022",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "w.trent@crestwood.edu",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-07T14:22:00-06:00",
+      "message_id": "<20826c3e-cec6-4f19-8257-cd39d220f258@mail-mcp.local>",
+      "in_reply_to": null,
+      "body_text": "Hi William,\n\nAs your benefits enrollment deadline of 04/07/2026 has passed without a completed enrollment or waiver, you have been automatically enrolled in Crestwood University\u2019s default health plan effective 05/01/2026.\n\nIf you have questions or believe this is in error, please contact Patricia Huang at p.huang@crestwood.edu.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "31",
+      "folder": "Sent",
+      "subject": "Template 6 \u2014 Salazar, CU-1026",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "p.huang@crestwood.edu",
+      "cc_addr": "t.salazar@crestwood.edu",
+      "bcc_addr": null,
+      "date": "2026-04-07T10:05:00-06:00",
+      "message_id": "<6d01a3d0-6ba2-48c8-9de1-011d236dbe27@mail-mcp.local>",
+      "in_reply_to": null,
+      "body_text": "Hi Patricia,\n\nThis is an urgent reminder regarding the I-9 Employment Eligibility Verification for Tom\u00e1s Salazar (CU-1026). The federal deadline for completing Section 2 of the I-9 is 04/08/2026. We have not yet received the completed form.\n\nPlease examine the employee\u2019s original identity and work authorization documents, complete Section 2 of the I-9, and email the scanned signed form to hr@crestwood.edu as soon as possible.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "32",
+      "folder": "Sent",
+      "subject": "Template 18 \u2014 Cross, CU-1023",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "m.cross@crestwood.edu",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-07T11:30:00-06:00",
+      "message_id": "<e7bda871-97c6-4472-8e5d-255c21d0532f@mail-mcp.local>",
+      "in_reply_to": null,
+      "body_text": "Hi Meghan,\n\nThis is a reminder that your FMLA Medical Certification Form was due on 04/06/2026 and has not been received. Your FMLA leave request cannot be processed without this documentation.\n\nPlease return the completed form as soon as possible. If you need an extension, please contact Patricia Huang at p.huang@crestwood.edu immediately.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "33",
+      "folder": "Sent",
+      "subject": "FMLA Deadline Passed - CU-1023",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "p.huang@crestwood.edu",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-07T11:45:00-06:00",
+      "message_id": "<97ab953f-08ef-43ec-a02a-ba16c7a6191c@mail-mcp.local>",
+      "in_reply_to": null,
+      "body_text": "Hi Patricia,\n\nMeghan Cross's FMLA Medical Certification Form was due yesterday (04/06/2026) at 11AM and has not been received. I have sent the overdue reminder to her. Please let me know how you would like to proceed.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "34",
+      "folder": "INBOX",
+      "subject": "Upcoming Surgery in June",
+      "from_addr": "d.pham@crestwood.edu",
+      "to_addr": "hr@crestwood.edu",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-09T10:14:00-06:00",
+      "message_id": "<msg-00034@crestwood.edu>",
+      "in_reply_to": null,
+      "body_text": "Hi,\n\nI\u2019m writing to request medical leave for a scheduled surgery in mid-June. My surgeon has tentatively set the procedure for June 15, and I anticipate needing approximately 6 weeks of recovery time, returning around late July.\n\nI also wanted to give you a heads-up: following the surgery I\u2019ll be in a wheelchair for several weeks. My office on the second floor of the West Campus library doesn\u2019t currently have a wheelchair-accessible entrance \u2014 there are two steps at the main door. I\u2019ll need a temporary ramp be installed before my return.\n\nThank you,\nDiane",
+      "body_html": null,
+      "is_read": false,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "35",
+      "folder": "INBOX",
+      "subject": "Getting Fed Up",
+      "from_addr": "j.park@crestwood.edu",
+      "to_addr": "hr@crestwood.edu",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-09T14:38:00-06:00",
+      "message_id": "<msg-00035@crestwood.edu>",
+      "in_reply_to": null,
+      "body_text": "To Whom It May Concern,\n\nI am writing because I am at the end of my line with this company.\n\nFirst, during my annual performance review on April 3rd, David Lester made repeated inappropriate comments about my body. He remarked on my appearance in a way that was clearly unprofessional and made me deeply uncomfortable. I asked him to stop and he laughed it off, (told me to grow up???). I do not feel safe attending any further one-on-one meetings with him.\n\nSecond, I reviewed my most recent paycheck and it is short by nearly $1,200. I have compared it against my offer letter and previous pay stubs and the discrepancy is clear. I need this corrected immediately.\n\nI want to be direct: I expect a formal apology from you, and from everyone involved, immediately. This is not an isolated incident \u2014 it is part of a troubling pattern that I have observed and tolerated for too long. I am documenting everything and I expect HR to take this seriously. I expect a reply no later than tomorrow.\n\nJenna",
+      "body_html": null,
+      "is_read": false,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "36",
+      "folder": "INBOX",
+      "subject": "Re: HR office light bulb out \u2013 Main Campus rm 214",
+      "from_addr": "facilities@crestwood.edu",
+      "to_addr": "hr@crestwood.edu",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-09T08:22:00-06:00",
+      "message_id": "<msg-00036@crestwood.edu>",
+      "in_reply_to": "<msg-00011@crestwood.edu>",
+      "body_text": "Hi,\n\nFollowing up on our earlier request about the light in room 214. We need a response from you ASAP \u2014 our maintenance crew has availability this week but we need to get on the schedule today or it\u2019ll be pushed to next month.\n\nPlease confirm a time so we can get this taken care of.\n\nThanks,\nFacilities Service Desk",
+      "body_html": null,
+      "is_read": false,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "26",
+      "folder": "Sent",
+      "subject": "Template 8 \u2014 Trent, CU-1022",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "w.trent@crestwood.edu",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-20T09:45:00-06:00",
+      "message_id": "<msg-00026@crestwood.edu>",
+      "in_reply_to": null,
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": [],
+      "body_text": "Hi William,\n\nAs part of your onboarding, this is a reminder that your benefits enrollment window is open. You have 30 calendar days from your start date (03/05/2026) to complete your enrollment.\n\nYour enrollment deadline is 04/03/2026.\n\nPlease complete your selections at benefits.crestwood.edu or contact Patricia Huang (p.huang@crestwood.edu) with any questions. If you do not enroll by the deadline, you will be automatically placed in the university's default health plan.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu"
+    },
+    {
+      "email_id": "28",
+      "folder": "Sent",
+      "subject": "Re: FMLA Leave Request \u2013 Eligibility Notice & Certification Request",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "m.cross@crestwood.edu",
+      "cc_addr": "p.huang@crestwood.edu",
+      "bcc_addr": null,
+      "date": "2026-03-23T15:10:00-06:00",
+      "message_id": "<msg-00028@crestwood.edu>",
+      "in_reply_to": null,
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "fmla_medical_certification.pdf",
+          "content_type": "application/pdf",
+          "content_base64": ""
+        }
+      ],
+      "body_text": "Hi Meghan,\n\nWe have reviewed your FMLA leave request and confirmed your eligibility. You meet both criteria: employed for 12+ months and 2,080 hours worked in the trailing 12 months.\n\nTo process your request, please complete and return the attached Medical Certification Form (fmla_medical_certification.pdf) to hr@crestwood.edu by 04/06/2026 (15 calendar days from today).\n\nYour anticipated leave period (05/01/2026 \u2013 07/27/2026) has been noted. Final approval will be issued upon receipt and review of the completed certification.\n\nYour supervisor, Patricia Huang, has been copied on this notice.\n\nPlease do not hesitate to reach out with any questions.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu"
+    }
+  ],
+  "next_email_id": 37
+}

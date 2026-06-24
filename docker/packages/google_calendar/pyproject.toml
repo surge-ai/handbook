@@ -1,0 +1,25 @@
+[build-system]
+build-backend = "uv_build"
+requires = [ "uv-build>=0.11,<0.12" ]
+
+[project]
+name = "google-calendar"
+version = "0.1.0"
+description = "Google Calendar mock MCP server"
+requires-python = ">=3.13"
+classifiers = [
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.13",
+  "Programming Language :: Python :: 3.14",
+]
+dependencies = [
+  "fastmcp>=3,<4",
+  "pydantic[email]>=2",
+]
+
+[tool.uv]
+build-backend.module-root = ""
+
+[tool.pytest]
+ini_options.testpaths = [ "tests" ]
+ini_options.pythonpath = [ "." ]

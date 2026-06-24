@@ -1,0 +1,1 @@
+Check the issue flagged by Maribel in #receiving-dock earlier today and get started on taking care of it for me, using the provided SOP. Any necessary internal communications with Maribel should be done through email. Don't handle anything else beyond the issue reported by Maribel. I'll be in later to take over.

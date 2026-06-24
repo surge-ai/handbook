@@ -1,0 +1,1 @@
+I was out sick Tuesday and Wednesday. Catch me up on my appeals queue and handle anything that came in or went overdue. SOP is attached.

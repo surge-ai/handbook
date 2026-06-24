@@ -1,0 +1,282 @@
+{
+  "mailbox": {
+    "email": "darius.kim@sunshineandsetauto.com",
+    "name": "Darius Kim"
+  },
+  "contacts": [
+    {
+      "email": "leah.morgan@sunshineandsetauto.com",
+      "name": "Leah Morgan"
+    },
+    {
+      "email": "hannah.price@sunshineandsetauto.com",
+      "name": "Hannah Price"
+    },
+    {
+      "email": "elena.brooks@sunshineandsetauto.com",
+      "name": "Elena Brooks"
+    },
+    {
+      "email": "marcus.hale@sunshineandsetauto.com",
+      "name": "Marcus Hale"
+    },
+    {
+      "email": "olivia.mercer@sunshineandsetauto.com",
+      "name": "Olivia Mercer"
+    },
+    {
+      "email": "trent.holloway@sunshineandsetauto.com",
+      "name": "Trent Holloway"
+    },
+    {
+      "email": "jasmine.patel@sunshineandsetauto.com",
+      "name": "Jasmine Patel"
+    },
+    {
+      "email": "sofia.ramirez@sunshineandsetauto.com",
+      "name": "Sofia Ramirez"
+    },
+    {
+      "email": "derek.vaughn@sunshineandsetauto.com",
+      "name": "Derek Vaughn"
+    },
+    {
+      "email": "megan.price@sunshineandsetauto.com",
+      "name": "Megan Price"
+    },
+    {
+      "email": "carlos.vega@sunshineandsetauto.com",
+      "name": "Carlos Vega"
+    },
+    {
+      "email": "talia.nguyen@sunshineandsetauto.com",
+      "name": "Talia Nguyen"
+    },
+    {
+      "email": "noah.alvarez@sunshineandsetauto.com",
+      "name": "Noah Alvarez"
+    },
+    {
+      "email": "priya.bennett@sunshineandsetauto.com",
+      "name": "Priya Bennett"
+    },
+    {
+      "email": "caleb.foster@sunshineandsetauto.com",
+      "name": "Caleb Foster"
+    },
+    {
+      "email": "renee.lawson@sunshineandsetauto.com",
+      "name": "Renee Lawson"
+    },
+    {
+      "email": "darius.kim@sunshineandsetauto.com",
+      "name": "Darius Kim"
+    },
+    {
+      "email": "derrick.soto@sunshineandsetauto.com",
+      "name": "Derrick Soto"
+    },
+    {
+      "email": "grant.ellis@sunshineandsetauto.com",
+      "name": "Grant Ellis"
+    },
+    {
+      "email": "maya.chen@sunshineandsetauto.com",
+      "name": "Maya Chen"
+    },
+    {
+      "email": "evan.ross@sunshineandsetauto.com",
+      "name": "Evan Ross"
+    },
+    {
+      "email": "avery.knight@sunshineandsetauto.com",
+      "name": "Avery Knight"
+    },
+    {
+      "email": "lila.owens@sunshineandsetauto.com",
+      "name": "Lila Owens"
+    },
+    {
+      "email": "claims@safeguardgap.com",
+      "name": "SafeGuard GAP Products"
+    }
+  ],
+  "groups": [
+    {
+      "email": "finance-team@sunshineandsetauto.com",
+      "name": "Finance Team",
+      "members": [
+        "elena.brooks@sunshineandsetauto.com",
+        "marcus.hale@sunshineandsetauto.com",
+        "leah.morgan@sunshineandsetauto.com"
+      ]
+    }
+  ],
+  "folders": [
+    {
+      "name": "Floorplan"
+    },
+    {
+      "name": "Inventory"
+    },
+    {
+      "name": "Wholesale"
+    }
+  ],
+  "emails": [
+    {
+      "email_id": "1",
+      "folder": "INBOX",
+      "subject": "March Floorplan Reconciliation \u2014 Approved",
+      "from_addr": "marcus.hale@sunshineandsetauto.com",
+      "to_addr": "darius.kim@sunshineandsetauto.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-03T14:00:00-04:00",
+      "message_id": "<msg0001d@sunshineandsetauto.com>",
+      "in_reply_to": null,
+      "body_text": "Darius,\n\nMarch floorplan reconciliation reviewed and approved. All units tied to the lender statement. Good work on catching the curtailment on N2038 before it aged out.\n\nMarcus Hale\nAssistant Controller\nSunshine & Set Automotive",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "2",
+      "folder": "Sent",
+      "subject": "Floorplan Reconciliation \u2014 March 2026",
+      "from_addr": "darius.kim@sunshineandsetauto.com",
+      "to_addr": "marcus.hale@sunshineandsetauto.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-03T11:30:00-04:00",
+      "message_id": "<msg0002d@sunshineandsetauto.com>",
+      "in_reply_to": null,
+      "body_text": "Marcus,\n\nAttached is the March month-end floorplan reconciliation. All units reconciled to the JM Family statement within $50. No aged curtailments. Two units over 60 days flagged in the aging report.\n\nDarius Kim\nInventory Accountant\nSunshine & Set Automotive",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "3",
+      "folder": "INBOX",
+      "subject": "Wholesale Authorization \u2014 U1091 (2021 Altima SV)",
+      "from_addr": "trent.holloway@sunshineandsetauto.com",
+      "to_addr": "darius.kim@sunshineandsetauto.com",
+      "cc_addr": "marcus.hale@sunshineandsetauto.com",
+      "bcc_addr": null,
+      "date": "2026-03-28T10:00:00-04:00",
+      "message_id": "<msg0003d@sunshineandsetauto.com>",
+      "in_reply_to": null,
+      "body_text": "Darius,\n\nApproval to wholesale U1091 (2021 Nissan Altima SV, VIN 1N4BL4BV0MN504510). 91 days on lot. Book cost $10,800 (ACV $8,200 + pack $750 + recon $1,850). Minimum bid $7,500. Sending to Orlando Auto Auction 04/01.\n\nPlease update inventory schedule when the vehicle leaves the lot.\n\nTrent Holloway\nUsed Car Manager\nSunshine & Set Automotive",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "4",
+      "folder": "Sent",
+      "subject": "Wholesale Recorded \u2014 U1091 \u2014 Loss $2,900",
+      "from_addr": "darius.kim@sunshineandsetauto.com",
+      "to_addr": "trent.holloway@sunshineandsetauto.com",
+      "cc_addr": "marcus.hale@sunshineandsetauto.com",
+      "bcc_addr": null,
+      "date": "2026-04-02T09:00:00-04:00",
+      "message_id": "<msg0004d@sunshineandsetauto.com>",
+      "in_reply_to": null,
+      "body_text": "Trent,\n\nWholesale recorded for U1091. Net proceeds $7,900, book cost $10,800, loss $2,900. Loss exceeds $2,500 threshold \u2014 flagged to Marcus per SOP.\n\nFloorplan payoff for U1091 processed same day. Unit removed from inventory schedule and floorplan worksheet.\n\nDarius Kim\nInventory Accountant\nSunshine & Set Automotive",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "5",
+      "folder": "INBOX",
+      "subject": "Recon Invoice SBP-4812 \u2014 U1093 (BMW 330i) \u2014 $2,800",
+      "from_addr": "grant.ellis@sunshineandsetauto.com",
+      "to_addr": "darius.kim@sunshineandsetauto.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-08T11:00:00-04:00",
+      "message_id": "<msg0005d@sunshineandsetauto.com>",
+      "in_reply_to": null,
+      "body_text": "Darius,\n\nAttached is Invoice SBP-4812 for reconditioning on U1093 (2022 BMW 330i). Total: $2,800. Work included brake replacement, full detail, and minor body repair. Trent approved since it exceeds the $2,000 individual recon threshold.\n\nGrant Ellis\nService Director\nSunshine & Set Automotive",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "6",
+      "folder": "INBOX",
+      "subject": "JM Family Enterprises \u2014 Floorplan Statement \u2014 April 16, 2026",
+      "from_addr": "statements@jmfamily.com",
+      "to_addr": "darius.kim@sunshineandsetauto.com",
+      "cc_addr": "elena.brooks@sunshineandsetauto.com",
+      "bcc_addr": null,
+      "date": "2026-04-16T07:00:00-04:00",
+      "message_id": "<msg0017@jmfamily.com>",
+      "in_reply_to": null,
+      "body_text": "Darius,\n\nAttached is your floorplan statement as of April 16, 2026.\n\nStatement Summary:\nTotal units on floorplan: 10\nTotal principal balance: $319,750\n\nUnit Detail:\n- N2041 (2026 Camry LE) \u2014 $28,250 \u2014 Status: Active\n- N2043 (2026 Highlander XLE) \u2014 $40,100 \u2014 Status: Active \u2014 Advance date: 04/02/2026\n- N2046 (2026 Camry XSE) \u2014 $31,200 \u2014 Status: Active\n- N2047 (2026 RAV4 Limited) \u2014 $38,400 \u2014 Status: Active\n- N2048 (2026 Highlander Platinum) \u2014 $48,200 \u2014 Status: Active \u2014 Curtailment due: 02/11/2026\n- N2049 (2026 Tundra SR5) \u2014 $34,600 \u2014 Status: Active \u2014 Advance date: 04/15/2026\n- U1087 (2023 CR-V EX) \u2014 $22,500 \u2014 Status: Active \u2014 Payoff received 04/10\n- U1090 (2024 CX-5 Preferred) \u2014 $25,200 \u2014 Status: Active\n- U1092 (2024 Sonata SEL) \u2014 $21,800 \u2014 Status: Active\n- U1093 (2022 BMW 330i) \u2014 $29,500 \u2014 Status: Active\n\nInterest charges this period: $3,150\nLate payoff interest: $185 (N2041)\n\nPlease reconcile and report any discrepancies.\n\nJM Family Enterprises\nDealer Financial Services",
+      "body_html": null,
+      "is_read": false,
+      "is_important": true,
+      "attachments": []
+    },
+    {
+      "email_id": "7",
+      "folder": "INBOX",
+      "subject": "Vehicle Purchase Complete \u2014 Received 2026 Tundra SR5 (N2049) from Lakewood Toyota",
+      "from_addr": "trent.holloway@sunshineandsetauto.com",
+      "to_addr": "darius.kim@sunshineandsetauto.com",
+      "cc_addr": "olivia.mercer@sunshineandsetauto.com",
+      "bcc_addr": null,
+      "date": "2026-04-16T08:30:00-04:00",
+      "message_id": "<msg0018@sunshineandsetauto.com>",
+      "in_reply_to": null,
+      "body_text": "Darius,\n\nVehicle purchase completed yesterday from Lakewood Toyota. Details:\n\nRECEIVED:\n- Stock: N2049\n- Vehicle: 2026 Toyota Tundra SR5\n- Transportation: $0 (Lakewood delivered)\n- Vehicle arrived on lot this morning and keys are in the lockbox\n\nVIN and invoice cost are on the Lakewood invoice \u2014 Caleb has it queued in AP. Let me know when you've added it to the inventory schedule.\n\nTrent Holloway\nUsed Car Manager\nSunshine & Set Automotive",
+      "body_html": null,
+      "is_read": false,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "8",
+      "folder": "INBOX",
+      "subject": "Deal 4505 Unwind Complete \u2014 Posting Reversed \u2014 Stock N2043",
+      "from_addr": "jasmine.patel@sunshineandsetauto.com",
+      "to_addr": "darius.kim@sunshineandsetauto.com",
+      "cc_addr": "marcus.hale@sunshineandsetauto.com",
+      "bcc_addr": null,
+      "date": "2026-04-16T07:45:00-04:00",
+      "message_id": "<msg0019@sunshineandsetauto.com>",
+      "in_reply_to": null,
+      "body_text": "Darius,\n\nThe unwind for Deal 4505 (David Park, 2026 Toyota Highlander XLE, Stock N2043) is complete as of this morning. All posting reversals are done. I've updated the deal log.\n\nNote: The floorplan on this unit was paid off when it sold.\n\nJasmine Patel\nSenior Deal Posting Specialist\nSunshine & Set Automotive",
+      "body_html": null,
+      "is_read": false,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "9",
+      "folder": "INBOX",
+      "subject": "Daily Floorplan Reconciliation \u2014 April 16",
+      "from_addr": "marcus.hale@sunshineandsetauto.com",
+      "to_addr": "darius.kim@sunshineandsetauto.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-16T08:00:00-04:00",
+      "message_id": "<msg0020@sunshineandsetauto.com>",
+      "in_reply_to": null,
+      "body_text": "Darius,\n\nJM Family statement is in as of this morning. I need the daily floorplan reconciliation completed today. Send me the reconciled worksheet and a summary of any exceptions or escalations by end of day.\n\nMarcus Hale\nAssistant Controller\nSunshine & Set Automotive",
+      "body_html": null,
+      "is_read": false,
+      "is_important": true,
+      "attachments": []
+    }
+  ],
+  "next_email_id": 10
+}

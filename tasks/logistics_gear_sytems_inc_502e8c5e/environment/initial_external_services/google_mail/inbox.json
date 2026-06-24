@@ -1,0 +1,416 @@
+{
+  "mailbox": {
+    "email": "receiving.meridian@gearsystems.com",
+    "name": "Inbound Materials Coordinator"
+  },
+  "contacts": [
+    {
+      "email": "darnell.hooks@gearsystems.com",
+      "name": "Darnell Hooks"
+    },
+    {
+      "email": "elizabeth.velasquez@gearsystems.com",
+      "name": "Elizabeth Velasquez"
+    },
+    {
+      "email": "walter.finch@gearsystems.com",
+      "name": "Walter Finch"
+    },
+    {
+      "email": "theo.brandt@gearsystems.com",
+      "name": "Theo Brandt"
+    },
+    {
+      "email": "joonho.park@gearsystems.com",
+      "name": "Joon-ho Park"
+    },
+    {
+      "email": "maribel.ortiz@gearsystems.com",
+      "name": "Maribel Ortiz"
+    },
+    {
+      "email": "aditi.krishnamurthy@gearsystems.com",
+      "name": "Aditi Krishnamurthy"
+    },
+    {
+      "email": "reggie.lemoine@gearsystems.com",
+      "name": "Reggie Lemoine"
+    },
+    {
+      "email": "chris.wojciechowski@gearsystems.com",
+      "name": "Chris Wojciechowski"
+    },
+    {
+      "email": "yuki.tanaka@gearsystems.com",
+      "name": "Yuki Tanaka"
+    },
+    {
+      "email": "r.kowalski@halversonforge.com",
+      "name": "Renata Kowalski (Halverson Forge & Steel)"
+    },
+    {
+      "email": "d.halverson@halversonforge.com",
+      "name": "Dale Halverson (Halverson Forge & Steel)"
+    },
+    {
+      "email": "j.tran@crestlinebearing.com",
+      "name": "James Tran (Crestline Bearing Co.)"
+    },
+    {
+      "email": "p.ouellette@crestlinebearing.com",
+      "name": "Patricia Ouellette (Crestline Bearing Co.)"
+    },
+    {
+      "email": "l.ferreiro@dawsonprecision.com",
+      "name": "Luz Ferreiro (Dawson Precision Machining)"
+    },
+    {
+      "email": "m.dawson@dawsonprecision.com",
+      "name": "Mark Dawson (Dawson Precision Machining)"
+    },
+    {
+      "email": "c.hendricks@ritterfastener.com",
+      "name": "Coby Hendricks (Ritter Fastener Group)"
+    },
+    {
+      "email": "s.ritter@ritterfastener.com",
+      "name": "Susan Ritter (Ritter Fastener Group)"
+    },
+    {
+      "email": "s.peel@kimuralubes.com",
+      "name": "Sandra Peel (Kimura Lubricants Inc.)"
+    },
+    {
+      "email": "h.kimura@kimuralubes.com",
+      "name": "Hiroshi Kimura (Kimura Lubricants Inc.)"
+    },
+    {
+      "email": "n.caldwell@acevedodriveshaft.com",
+      "name": "Nina Caldwell (Acevedo Driveshaft Components)"
+    },
+    {
+      "email": "m.acevedo@acevedodriveshaft.com",
+      "name": "Marcos Acevedo (Acevedo Driveshaft Components)"
+    },
+    {
+      "email": "a.pruitt@blueridgeseals.com",
+      "name": "Angela Pruitt (Blue Ridge Seals & Gaskets)"
+    },
+    {
+      "email": "f.moseley@blueridgeseals.com",
+      "name": "Frank Moseley (Blue Ridge Seals & Gaskets)"
+    },
+    {
+      "email": "r.hendrix@meridianpkg.com",
+      "name": "Roy Hendrix (Meridian Packaging Supply)"
+    },
+    {
+      "email": "t.obi@northfieldbrakesys.com",
+      "name": "Terrence Obi (Northfield Brake Systems)"
+    },
+    {
+      "email": "d.czaplewski@northfieldbrakesys.com",
+      "name": "Donna Czaplewski (Northfield Brake Systems)"
+    },
+    {
+      "email": "p.ng@greystonetrans.com",
+      "name": "Pamela Ng (Greystone Transmission Parts)"
+    },
+    {
+      "email": "v.greystone@greystonetrans.com",
+      "name": "Victor Greystone (Greystone Transmission Parts)"
+    },
+    {
+      "email": "claims@chemicaltransportllc.com",
+      "name": "Chemical Transport LLC — Claims"
+    }
+  ],
+  "folders": [
+    {
+      "name": "Receipts - In Process"
+    },
+    {
+      "name": "NCRs - Open"
+    },
+    {
+      "name": "NCRs - Closed"
+    },
+    {
+      "name": "Suppliers - General"
+    },
+    {
+      "name": "Carriers"
+    },
+    {
+      "name": "Internal"
+    },
+    {
+      "name": "Hazmat"
+    },
+    {
+      "name": "RMA - Redirected"
+    },
+    {
+      "name": "General"
+    }
+  ],
+  "emails": [
+    {
+      "email_id": "1",
+      "folder": "NCRs - Closed",
+      "subject": "NCR-MER-2026-0039 | Major | Crestline Bearing Co. | PO #MER-PO-104851 | Response Required by 04/16/2026",
+      "from_addr": "receiving.meridian@gearsystems.com",
+      "to_addr": "j.tran@crestlinebearing.com",
+      "cc_addr": "joonho.park@gearsystems.com, theo.brandt@gearsystems.com, darnell.hooks@gearsystems.com",
+      "bcc_addr": null,
+      "date": "2026-04-03T15:00:00Z",
+      "message_id": "<ncr0039-001@gearsystems.com>",
+      "in_reply_to": null,
+      "body_text": "James,\n\nPlease find attached Nonconformance Report NCR-MER-2026-0039 regarding a quantity discrepancy identified during receipt at our Meridian, MS plant.\n\nNCR Number: NCR-MER-2026-0039\nIssue Date: 04/02/2026\nSeverity: MAJOR\nPO Number: MER-PO-104851\nReceipt ID: REC-20260402-001\nSKU: BG-33044-A1\nQuantity Affected: 22 units\nDollar Value: $4,081.00\n\nA formal written response is required within 10 business days of the date of this NCR.\nResponse Due Date: 04/16/2026\n\nPlease direct your response to receiving.meridian@gearsystems.com with copies to all contacts listed above.\n\nBest regards,\nInbound Materials Coordinator\nGear Systems Inc. — Meridian Plant\nreceiving.meridian@gearsystems.com",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "NCR-MER-2026-0039.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "TkNSLU1FUi0yMDI2LTAwMzkucGRm"
+        }
+      ]
+    },
+    {
+      "email_id": "2",
+      "folder": "NCRs - Closed",
+      "subject": "Re: NCR-MER-2026-0039 | Major | Crestline Bearing Co. | PO #MER-PO-104851 | Response Required by 04/16/2026",
+      "from_addr": "j.tran@crestlinebearing.com",
+      "to_addr": "receiving.meridian@gearsystems.com",
+      "cc_addr": "joonho.park@gearsystems.com, theo.brandt@gearsystems.com, darnell.hooks@gearsystems.com",
+      "bcc_addr": null,
+      "date": "2026-04-11T14:30:00Z",
+      "message_id": "<re-ncr0039-001@crestlinebearing.com>",
+      "in_reply_to": "<ncr0039-001@gearsystems.com>",
+      "body_text": "Hello,\n\nThank you for the NCR notification. Please find our formal response below.\n\nNCR Number: NCR-MER-2026-0039\n\n1. Acknowledgement: We acknowledge the short ship of 22 units of BG-33044-A1 on PO #MER-PO-104851.\n\n2. Root Cause: A warehouse pick error resulted in an incorrect quantity being staged for shipment. The pick ticket showed 288 units; the picker staged 266 units and the discrepancy was not caught at the packing station.\n\n3. Corrective Action: We have implemented a mandatory two-person verification step at the packing station for all Gear Systems shipments effective 04/07/2026. Pack confirmations are now signed by both the picker and the pack-line lead before the shipment is sealed.\n\n4. Commercial Response: A credit memo for the 22 unshipped units ($4,081.00) has been issued and will appear on your next invoice statement. The balance of 22 units is available for immediate shipment upon your request.\n\nPlease let us know if you require any additional information.\n\nBest regards,\nJames Tran\nQuality Manager\nCrestline Bearing Co.\nj.tran@crestlinebearing.com",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "3",
+      "folder": "NCRs - Open",
+      "subject": "NCR-MER-2026-0044 | Major | Dawson Precision Machining | PO #MER-PO-104801 | Response Required by 04/11/2026",
+      "from_addr": "receiving.meridian@gearsystems.com",
+      "to_addr": "l.ferreiro@dawsonprecision.com",
+      "cc_addr": "joonho.park@gearsystems.com, theo.brandt@gearsystems.com, darnell.hooks@gearsystems.com",
+      "bcc_addr": null,
+      "date": "2026-03-30T15:00:00Z",
+      "message_id": "<ncr0044-001@gearsystems.com>",
+      "in_reply_to": null,
+      "body_text": "Luz,\n\nPlease find attached Nonconformance Report NCR-MER-2026-0044 regarding a documentation discrepancy identified during receipt at our Meridian, MS plant.\n\nNCR Number: NCR-MER-2026-0044\nIssue Date: 03/28/2026\nSeverity: MAJOR\nPO Number: MER-PO-104801\nReceipt ID: REC-20260328-001\nSKU: DS-20481-A3\nQuantity Affected: 24 units\nDollar Value: $8,016.00\n\nThis shipment includes safety-critical parts. The Certificate of Conformance (COC) was not present in the carrier paperwork and was not on file electronically at the time of receipt. The affected 24 units have been quarantined in our Q-HOLD location pending receipt of the COC.\n\nA formal written response is required within 10 business days of the date of this NCR.\nResponse Due Date: 04/11/2026\n\nPlease direct your response to receiving.meridian@gearsystems.com with copies to all contacts listed above.\n\nBest regards,\nInbound Materials Coordinator\nGear Systems Inc. — Meridian Plant\nreceiving.meridian@gearsystems.com",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "NCR-MER-2026-0044.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "TkNSLU1FUi0yMDI2LTAwNDQucGRm"
+        }
+      ]
+    },
+    {
+      "email_id": "4",
+      "folder": "Internal",
+      "subject": "Re: NCR-MER-2026-0044 status — Dawson Precision",
+      "from_addr": "theo.brandt@gearsystems.com",
+      "to_addr": "receiving.meridian@gearsystems.com",
+      "cc_addr": "joonho.park@gearsystems.com",
+      "bcc_addr": null,
+      "date": "2026-04-22T14:00:00Z",
+      "message_id": "<tbrandt-0044-followup@gearsystems.com>",
+      "in_reply_to": "<ncr0044-001@gearsystems.com>",
+      "body_text": "Per our conversation — NCR-MER-2026-0044 remains open. Dawson has not responded as of today (04/22/2026), now 7 business days overdue. Joon-ho and I have discussed and Dawson's supplier status review is in progress. Continue tracking per Section 14.5.1. Do not close the quarantine on those 24 units without my written authorization.\n\nTheo Brandt\nQuality Manager — Meridian Plant",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "5",
+      "folder": "Internal",
+      "subject": "Greystone Transmission — supplier communication routing",
+      "from_addr": "joonho.park@gearsystems.com",
+      "to_addr": "receiving.meridian@gearsystems.com",
+      "cc_addr": "darnell.hooks@gearsystems.com",
+      "bcc_addr": null,
+      "date": "2026-04-28T16:00:00Z",
+      "message_id": "<jpark-greystone-routing@gearsystems.com>",
+      "in_reply_to": null,
+      "body_text": "Effective today, Greystone Transmission Parts (SUP-0401) has been suspended per Walter Finch’s authorization. Supplier status has been updated in supplier_master.xlsx.\n\nAll communication with Greystone — including any inbound calls or emails — must be routed to me. Do not reply to any Greystone contact directly. If Greystone material arrives at the dock, refuse per Section 15.2.4 and notify me, Darnell, and Elizabeth simultaneously.\n\nJoon-ho Park\nProcurement Lead — Meridian Plant",
+      "body_html": null,
+      "is_read": true,
+      "is_important": true,
+      "attachments": []
+    },
+    {
+      "email_id": "6",
+      "folder": "Internal",
+      "subject": "NCR-MER-2026-0062 draft — approved for issuance",
+      "from_addr": "theo.brandt@gearsystems.com",
+      "to_addr": "receiving.meridian@gearsystems.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-05-12T13:30:00Z",
+      "message_id": "<tbrandt-ncr0062-approval@gearsystems.com>",
+      "in_reply_to": null,
+      "body_text": "I have reviewed the draft for NCR-MER-2026-0062. The letter is approved for issuance as written. Please send to Acevedo’s quality contact (Nina Caldwell) and copy the standard recipients per Section 14.4.4.\n\nNote: The re-inspection calendar event for REC-20260511-001 is set for 05/14/2026. I am aware the supplier response is due the same day. I will be monitoring. Do not release Q-HOLD without my written email authorization regardless of supplier response.\n\nTheo Brandt\nQuality Manager — Meridian Plant\nReviewed and approved for issuance: NCR-MER-2026-0062",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "7",
+      "folder": "NCRs - Open",
+      "subject": "NCR-MER-2026-0062 | Critical | Acevedo Driveshaft Components | PO #MER-PO-104935 | Response Required by 05/14/2026",
+      "from_addr": "receiving.meridian@gearsystems.com",
+      "to_addr": "n.caldwell@acevedodriveshaft.com",
+      "cc_addr": "joonho.park@gearsystems.com, theo.brandt@gearsystems.com, darnell.hooks@gearsystems.com, elizabeth.velasquez@gearsystems.com, walter.finch@gearsystems.com",
+      "bcc_addr": null,
+      "date": "2026-05-12T15:00:00Z",
+      "message_id": "<ncr0062-001@gearsystems.com>",
+      "in_reply_to": null,
+      "body_text": "Nina,\n\nPlease find attached Nonconformance Report NCR-MER-2026-0062 regarding a CRITICAL heat number discrepancy identified during receipt at our Meridian, MS plant.\n\nNCR Number: NCR-MER-2026-0062\nIssue Date: 05/11/2026\nSeverity: CRITICAL\nPO Number: MER-PO-104935\nReceipt ID: REC-20260511-001\nSKU: DS-31740-A1\nQuantity Affected: 60 units\nDollar Value: $37,680.00\nSafety-Critical: YES\nHeat numbers on parts: H46-0119881, H46-0119902\nHeat numbers on MTR (MER-PO-104935_MTR.pdf): H46-0119881 only\n\nH46-0119902 is not listed on the Mill Test Report provided. This constitutes a heat number mismatch per Section 12.6.3 of our receiving procedure. The full receipt (60 units) has been quarantined and will not be released into production under any circumstances until the nonconformance is fully resolved and our Quality Manager has authorized release.\n\nA formal written response is required within 3 business days of the date of this NCR.\nResponse Due Date: 05/14/2026\n\nYour response must include:\n1. Immediate acknowledgement of the nonconformance and the Critical severity\n2. Containment actions to prevent additional shipments with the same issue, effective immediately\n3. Root cause analysis with supporting evidence and timeline\n4. Corrective action plan with target completion dates and verification method\n5. A formal commercial response addressing the affected material\n6. A statement of any other Gear Systems shipments potentially affected by the same root cause\n\nPlease direct your response immediately to receiving.meridian@gearsystems.com and to all contacts listed above.\n\nThis Critical NCR is being escalated within Gear Systems’ management chain. You may receive direct contact from our Quality Manager (Theo Brandt) or our Plant Manager (Walter Finch) regarding the path forward.\n\nBest regards,\nInbound Materials Coordinator\nGear Systems Inc. — Meridian Plant\nreceiving.meridian@gearsystems.com\n\nReviewed and approved for issuance by:\nTheo Brandt, Quality Manager — Meridian Plant\ntheo.brandt@gearsystems.com",
+      "body_html": null,
+      "is_read": true,
+      "is_important": true,
+      "attachments": [
+        {
+          "filename": "NCR-MER-2026-0062.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "TkNSLU1FUi0yMDI2LTAwNjIucGRm"
+        }
+      ]
+    },
+    {
+      "email_id": "8",
+      "folder": "Receipts - In Process",
+      "subject": "ASN — PO #MER-PO-104981 — Northfield Brake Systems — Delivery 05/19/2026",
+      "from_addr": "t.obi@northfieldbrakesys.com",
+      "to_addr": "receiving.meridian@gearsystems.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-05-15T14:00:00Z",
+      "message_id": "<asn-104981@northfieldbrakesys.com>",
+      "in_reply_to": null,
+      "body_text": "Hello,\n\nPlease find below the Advance Shipment Notice for our upcoming delivery.\n\nPO Number: MER-PO-104981\nShip Date: 05/16/2026\nExpected Delivery: 05/19/2026\nCarrier: Saia LTL Freight\nEstimated Weight: 4,800 lb\n\nLine Items:\n  Line 001: BR-72014-A2, Brake Drum 16.5in cast iron Rev A2 — 96 units\n  Line 002: BR-72088-B1, Brake Spider S-cam 4.5in Rev B1 — 48 units\n  Line 003: PK-00441-A1, Brake Component Protective Packaging Kit — 96 units\n\nCOC and MTR for Lines 001 and 002 will accompany the shipment. Heat numbers will be marked on pallet tags.\n\nBest regards,\nTerrence Obi\nQuality Manager\nNorthfield Brake Systems",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "9",
+      "folder": "Hazmat",
+      "subject": "SDS Confirmation — PO #MER-PO-104918 — Kimura Lubricants — Delivery 05/19/2026",
+      "from_addr": "s.peel@kimuralubes.com",
+      "to_addr": "receiving.meridian@gearsystems.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-05-16T15:00:00Z",
+      "message_id": "<sds-104918@kimuralubes.com>",
+      "in_reply_to": null,
+      "body_text": "Hello,\n\nThis is a confirmation that current Safety Data Sheets are on file for the products shipping under PO #MER-PO-104918.\n\nPO Number: MER-PO-104918\nShip Date: 05/17/2026\nExpected Delivery: 05/19/2026\nCarrier: Chemical Transport LLC\n\nLine Items:\n  Line 001: FL-55200-A1 — Gear Oil SAE 75W-140, 55-gal drum — 20 drums\n  Line 002: FL-55201-A1 — Gear Oil SAE 80W-90, 55-gal drum — 10 drums\n\nSDS References:\n  FL-55200-A1: KLI-SDS-75W140-2025 (issued 03/14/2025, current)\n  FL-55201-A1: KLI-SDS-80W90-2025 (issued 03/14/2025, current)\n\nThe hazmat manifest will accompany the shipment and will be provided to your carrier at pickup. DOT-compliant labeling will be applied to all packages.\n\nBest regards,\nSandra Peel\nQuality Contact\nKimura Lubricants Inc.",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "10",
+      "folder": "Receipts - In Process",
+      "subject": "ASN — PO #MER-PO-104820 — Halverson Forge & Steel — Delivery 05/19/2026",
+      "from_addr": "r.kowalski@halversonforge.com",
+      "to_addr": "receiving.meridian@gearsystems.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-05-18T13:00:00Z",
+      "message_id": "<asn-104820@halversonforge.com>",
+      "in_reply_to": null,
+      "body_text": "Hello,\n\nPlease find below the Advance Shipment Notice for our upcoming delivery.\n\nPO Number: MER-PO-104820\nShip Date: 05/18/2026\nExpected Delivery: 05/19/2026\nCarrier: Yellow Freight\nEstimated Weight: 18,600 lb\n\nLine Items:\n  Line 003: AX-05312-C1, Axle Shaft Forging 1.75in dia Rev C1 — 216 units (balance of original order; 144 units previously delivered 03/28/2026)\n\nNote: Lines 001 and 002 of this PO are not included in this shipment.\n\nCOC and MTR will accompany the shipment.\n\nBest regards,\nRenata Kowalski\nQuality Manager\nHalverson Forge & Steel",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "11",
+      "folder": "Suppliers - General",
+      "subject": "ASN — PO #MER-PO-104993 — Blue Ridge Seals & Gaskets — Delivery 05/19/2026",
+      "from_addr": "a.pruitt@blueridgeseals.com",
+      "to_addr": "receiving.meridian@gearsystems.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-05-18T14:30:00Z",
+      "message_id": "<asn-104993@blueridgeseals.com>",
+      "in_reply_to": null,
+      "body_text": "Hello,\n\nPlease find below the Advance Shipment Notice for our upcoming delivery.\n\nPO Number: MER-PO-104993\nShip Date: 05/18/2026\nExpected Delivery: 05/19/2026\nCarrier: Saia LTL Freight\nEstimated Weight: 3,100 lb\n\nLine Items:\n  Line 001: BG-18830-A1, Oil Seal pinion 2.875in OD Rev A1 — 240 units (balance of original order; 240 units previously delivered 05/08/2026)\n  Line 002: BG-18831-B1, O-Ring Kit axle housing Rev B1 — 200 units\n\nCOC and MTR will accompany the shipment for both lines.\n\nBest regards,\nAngela Pruitt\nQuality Contact\nBlue Ridge Seals & Gaskets",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "12",
+      "folder": "Receipts - In Process",
+      "subject": "ASN — PO #MER-PO-104903 — Ritter Fastener Group — Delivery 05/20/2026",
+      "from_addr": "c.hendricks@ritterfastener.com",
+      "to_addr": "receiving.meridian@gearsystems.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-05-19T16:00:00Z",
+      "message_id": "<asn-104903-2@ritterfastener.com>",
+      "in_reply_to": null,
+      "body_text": "Hello,\n\nPlease find below the Advance Shipment Notice for our upcoming delivery.\n\nPO Number: MER-PO-104903\nShip Date: 05/19/2026\nExpected Delivery: 05/20/2026\nCarrier: XPO Logistics\nEstimated Weight: 2,200 lb\n\nLine Items:\n  Line 002: FS-10091-B1, Hub Stud 9/16-18 UNF torque-spec Rev B1 — 1,800 units\n\nNote: Line 001 (FS-10044-A1) was previously delivered in full. This shipment covers line 002 only.\n\nCOC and MTR will accompany the shipment. Heat numbers will be marked on pallet tags.\n\nBest regards,\nCoby Hendricks\nQuality Contact\nRitter Fastener Group",
+      "body_html": null,
+      "is_read": false,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "13",
+      "folder": "Receipts - In Process",
+      "subject": "ASN — PO #MER-PO-105004 — Meridian Packaging Supply — Delivery 05/20/2026",
+      "from_addr": "r.hendrix@meridianpkg.com",
+      "to_addr": "receiving.meridian@gearsystems.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-05-19T17:00:00Z",
+      "message_id": "<asn-105004@meridianpkg.com>",
+      "in_reply_to": null,
+      "body_text": "Hello,\n\nPlease find below the Advance Shipment Notice for our upcoming delivery.\n\nPO Number: MER-PO-105004\nShip Date: 05/19/2026\nExpected Delivery: 05/20/2026\nCarrier: Old Dominion Freight\nEstimated Weight: 3,800 lb\n\nLine Items:\n  Line 001: PK-00112-A1, Pallet 48x40 GMA standard pine — 500 units\n  Line 002: PK-00215-A1, Stretch Wrap 80ga 20in x 1500ft roll — 120 units\n\nBest regards,\nRoy Hendrix\nMeridian Packaging Supply",
+      "body_html": null,
+      "is_read": false,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "14",
+      "folder": "Internal",
+      "subject": "NCR-MER-2026-0062 — escalation acknowledged — Acevedo investigation update",
+      "from_addr": "theo.brandt@gearsystems.com",
+      "to_addr": "receiving.meridian@gearsystems.com",
+      "cc_addr": "joonho.park@gearsystems.com, walter.finch@gearsystems.com",
+      "bcc_addr": null,
+      "date": "2026-05-19T20:30:00Z",
+      "message_id": "<tbrandt-ncr0062-escalation@gearsystems.com>",
+      "in_reply_to": null,
+      "body_text": "I have reached out to Acevedo's quality contact (Nina Caldwell) directly by phone today. She confirmed they received the NCR letter and are preparing a response. They claim the H46-0119902 heat was from a partial sub-lot included in the shipment without a supplemental MTR being generated. They are obtaining the supplemental MTR from their mill. Acevedo has committed to a written response with supporting documentation by 05/21/2026.\n\nQ-HOLD remains in place. Do not release any material until I provide written email authorization.\n\nWalter — acknowledged on the escalation. I will keep you posted on Acevedo's response.\n\nTheo Brandt\nQuality Manager — Meridian Plant",
+      "body_html": null,
+      "is_read": false,
+      "is_important": true,
+      "attachments": []
+    }
+  ],
+  "next_email_id": 15
+}

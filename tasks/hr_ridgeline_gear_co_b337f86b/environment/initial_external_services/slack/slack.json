@@ -1,0 +1,1008 @@
+{
+  "users": {
+    "U001": {
+      "id": "U001",
+      "team_id": "T001",
+      "name": "daniel.whitfield",
+      "deleted": false,
+      "real_name": "Daniel Whitfield",
+      "tz": "America/Denver",
+      "tz_label": "Mountain Daylight Time",
+      "tz_offset": -21600,
+      "profile": {
+        "real_name": "Daniel Whitfield",
+        "display_name": "daniel.whitfield",
+        "email": "daniel.whitfield@ridgelinegear.com",
+        "title": "HR Director",
+        "first_name": "Daniel",
+        "last_name": "Whitfield",
+        "phone": ""
+      },
+      "is_admin": true,
+      "is_owner": true,
+      "is_primary_owner": true,
+      "is_bot": false,
+      "is_email_confirmed": true
+    },
+    "U002": {
+      "id": "U002",
+      "team_id": "T001",
+      "name": "renata.okafor",
+      "deleted": false,
+      "real_name": "Renata Okafor",
+      "tz": "America/Denver",
+      "tz_label": "Mountain Daylight Time",
+      "tz_offset": -21600,
+      "profile": {
+        "real_name": "Renata Okafor",
+        "display_name": "renata.okafor",
+        "email": "renata.okafor@ridgelinegear.com",
+        "title": "Benefits Manager",
+        "first_name": "Renata",
+        "last_name": "Okafor"
+      },
+      "is_admin": true,
+      "is_owner": false,
+      "is_bot": false,
+      "is_email_confirmed": true
+    },
+    "U003": {
+      "id": "U003",
+      "team_id": "T001",
+      "name": "leaves-hr",
+      "deleted": false,
+      "real_name": "Leave Coordinator",
+      "tz": "America/Denver",
+      "tz_label": "Mountain Daylight Time",
+      "tz_offset": -21600,
+      "profile": {
+        "real_name": "Leave Coordinator",
+        "display_name": "leaves-hr",
+        "email": "leaves@ridgelinegear.com",
+        "title": "Leave Coordinator",
+        "first_name": "Leave",
+        "last_name": "Coordinator"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false,
+      "is_email_confirmed": true
+    },
+    "U004": {
+      "id": "U004",
+      "team_id": "T001",
+      "name": "meera.patel",
+      "deleted": false,
+      "real_name": "Meera Patel",
+      "tz": "America/Denver",
+      "tz_label": "Mountain Daylight Time",
+      "tz_offset": -21600,
+      "profile": {
+        "real_name": "Meera Patel",
+        "display_name": "meera.patel",
+        "email": "meera.patel@ridgelinegear.com",
+        "title": "HR Generalist \u2013 Employee Relations",
+        "first_name": "Meera",
+        "last_name": "Patel"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false,
+      "is_email_confirmed": true
+    },
+    "U005": {
+      "id": "U005",
+      "team_id": "T001",
+      "name": "jordan.briggs",
+      "deleted": false,
+      "real_name": "Jordan Briggs",
+      "tz": "America/Denver",
+      "tz_label": "Mountain Daylight Time",
+      "tz_offset": -21600,
+      "profile": {
+        "real_name": "Jordan Briggs",
+        "display_name": "jordan.briggs",
+        "email": "jordan.briggs@ridgelinegear.com",
+        "title": "HR Generalist \u2013 Onboarding",
+        "first_name": "Jordan",
+        "last_name": "Briggs"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false,
+      "is_email_confirmed": true
+    },
+    "U006": {
+      "id": "U006",
+      "team_id": "T001",
+      "name": "teresa.vang",
+      "deleted": false,
+      "real_name": "Teresa Vang",
+      "tz": "America/Denver",
+      "tz_label": "Mountain Daylight Time",
+      "tz_offset": -21600,
+      "profile": {
+        "real_name": "Teresa Vang",
+        "display_name": "teresa.vang",
+        "email": "teresa.vang@ridgelinegear.com",
+        "title": "Payroll Lead",
+        "first_name": "Teresa",
+        "last_name": "Vang"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false,
+      "is_email_confirmed": true
+    },
+    "U007": {
+      "id": "U007",
+      "team_id": "T001",
+      "name": "luis.arredondo",
+      "deleted": false,
+      "real_name": "Luis Arredondo",
+      "tz": "America/Denver",
+      "tz_label": "Mountain Daylight Time",
+      "tz_offset": -21600,
+      "profile": {
+        "real_name": "Luis Arredondo",
+        "display_name": "luis.arredondo",
+        "email": "luis.arredondo@ridgelinegear.com",
+        "title": "Safety & Workers' Comp Coordinator",
+        "first_name": "Luis",
+        "last_name": "Arredondo"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false,
+      "is_email_confirmed": true
+    },
+    "U008": {
+      "id": "U008",
+      "team_id": "T001",
+      "name": "evelyn.marchetti",
+      "deleted": false,
+      "real_name": "Evelyn Marchetti",
+      "tz": "America/Denver",
+      "tz_label": "Mountain Daylight Time",
+      "tz_offset": -21600,
+      "profile": {
+        "real_name": "Evelyn Marchetti",
+        "display_name": "evelyn.marchetti",
+        "email": "evelyn.marchetti@ridgelineholdings.com",
+        "title": "General Counsel (Ridgeline Holdings LLC)",
+        "first_name": "Evelyn",
+        "last_name": "Marchetti"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false,
+      "is_email_confirmed": true
+    },
+    "U009": {
+      "id": "U009",
+      "team_id": "T001",
+      "name": "samir.haddad",
+      "deleted": false,
+      "real_name": "Samir Haddad",
+      "tz": "America/Denver",
+      "tz_label": "Mountain Daylight Time",
+      "tz_offset": -21600,
+      "profile": {
+        "real_name": "Samir Haddad",
+        "display_name": "samir.haddad",
+        "email": "samir.haddad@ridgelinegear.com",
+        "title": "IT Access Manager",
+        "first_name": "Samir",
+        "last_name": "Haddad"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false,
+      "is_email_confirmed": true
+    }
+  },
+  "channels": {
+    "C001": {
+      "id": "C001",
+      "name": "leave-intake",
+      "is_channel": false,
+      "is_group": true,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1775001600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "leave-intake",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1775001600,
+      "creator": "U002",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Primary Leave Coordinator channel \u2014 routine case notifications, eligibility decisions, cert status, return-to-work reminders. Default channel when uncertain which to use.",
+        "creator": "U002",
+        "last_set": 1743465600
+      },
+      "purpose": {
+        "value": "All routine leave case notifications: new intake confirmations, eligibility decisions, certification status, scheduled return-to-work reminders.",
+        "creator": "U002",
+        "last_set": 1743465600
+      },
+      "num_members": 5
+    },
+    "C002": {
+      "id": "C002",
+      "name": "benefits-team",
+      "is_channel": false,
+      "is_group": true,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1775001600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "benefits-team",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1775001600,
+      "creator": "U002",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Benefits team coordination \u2014 questions to Renata and cases touching multiple benefits areas.",
+        "creator": "U002",
+        "last_set": 1743465600
+      },
+      "purpose": {
+        "value": "Benefits team coordination. Questions to the Benefits Manager and coordination on cases touching multiple benefits areas.",
+        "creator": "U002",
+        "last_set": 1743465600
+      },
+      "num_members": 3
+    },
+    "C003": {
+      "id": "C003",
+      "name": "hr-escalations",
+      "is_channel": false,
+      "is_group": true,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1775001600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "hr-escalations",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1775001600,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Escalations requiring HR Director attention \u2014 denials beyond clear ineligibility, failure-to-return, pattern flags, discipline cases.",
+        "creator": "U001",
+        "last_set": 1743465600
+      },
+      "purpose": {
+        "value": "Escalations requiring HR Director attention (Daniel Whitfield): denials beyond clear ineligibility, failure-to-return cases, pattern flags, any case where discipline is being contemplated.",
+        "creator": "U001",
+        "last_set": 1743465600
+      },
+      "num_members": 4
+    },
+    "C004": {
+      "id": "C004",
+      "name": "payroll-coordination",
+      "is_channel": false,
+      "is_group": true,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1775001600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "payroll-coordination",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1775001600,
+      "creator": "U006",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Payroll handoffs only \u2014 leave start/end dates, unpaid transitions, return-to-work dates. No non-payroll case info.",
+        "creator": "U006",
+        "last_set": 1743465600
+      },
+      "purpose": {
+        "value": "Payroll handoffs only. Notify Teresa Vang of leave start dates, leave end dates, transitions to unpaid status, and return-to-work dates. Do not post non-payroll-related case information here.",
+        "creator": "U006",
+        "last_set": 1743465600
+      },
+      "num_members": 3
+    },
+    "C005": {
+      "id": "C005",
+      "name": "legal-review",
+      "is_channel": false,
+      "is_group": true,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1775001600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "legal-review",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1775001600,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "General Counsel attention \u2014 legal threats, EEOC/CDLE/DOL mentions, retroactive designation disputes, GINA concerns, active litigation.",
+        "creator": "U001",
+        "last_set": 1743465600
+      },
+      "purpose": {
+        "value": "General Counsel attention (Evelyn Marchetti): legal threats, EEOC/CDLE/DOL mentions, retroactive designation disputes, GINA concerns, any case involving active litigation.",
+        "creator": "U001",
+        "last_set": 1743465600
+      },
+      "num_members": 3
+    },
+    "C006": {
+      "id": "C006",
+      "name": "unknown-senders-hr",
+      "is_channel": false,
+      "is_group": true,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1775001600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "unknown-senders-hr",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1775001600,
+      "creator": "U002",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Leave-related emails from senders not found in employee_roster.xlsx \u2014 former employees, misdirected emails, general inquiries.",
+        "creator": "U002",
+        "last_set": 1743465600
+      },
+      "purpose": {
+        "value": "Any leave-related email from a sender not found in employee_roster.xlsx: former employees, applicants, personal contacts of employees, misdirected emails, general inquiries.",
+        "creator": "U002",
+        "last_set": 1743465600
+      },
+      "num_members": 3
+    }
+  },
+  "messages": {
+    "C001": [
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Welcome to #leave-intake everyone. This is our primary channel for all routine case notifications. Quick reminder on protocol: case notifications must include Case ID and the minimum metadata only \u2014 never medical details or diagnoses. When in doubt, use this channel.",
+        "ts": "1775002200.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "FMLA INTAKE: LC-2026-0041, Marcus R., Eligible, (a) employee's own serious health condition, Start: 04/14/2026, P3",
+        "ts": "1775088600.000200",
+        "team": "T001",
+        "reply_count": 2,
+        "latest_reply": "1775089200.000400",
+        "reply_users": [
+          "U002",
+          "U003"
+        ],
+        "reply_users_count": 2
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Good intake format. Make sure WH-381 and blank WH-380-E are sent today \u2014 cert window opens now. Add the due date to the HR Leave Deadlines calendar.",
+        "ts": "1775088900.000300",
+        "thread_ts": "1775088600.000200",
+        "parent_user_id": "U003",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "Done \u2014 WH-381 sent, cert due date added to calendar as 04/22/2026. Case status updated to Active \u2014 Pending Certification.",
+        "ts": "1775089200.000400",
+        "thread_ts": "1775088600.000200",
+        "parent_user_id": "U003",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "FMLA DENIED (INELIGIBILITY): LC-2026-0044, Priya S., Failed Criterion: Tenure (8 months, 14 days as of requested start date 04/15/2026 \u2014 minimum 12 months required). WH-381 sent, CC'd Renata. FAMLI eligibility check in progress.",
+        "ts": "1775175000.000500",
+        "team": "T001",
+        "reply_count": 2,
+        "latest_reply": "1775175600.000700",
+        "reply_users": [
+          "U002",
+          "U003"
+        ],
+        "reply_users_count": 2
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Confirmed. FAMLI has no tenure requirement so definitely check that \u2014 she may have $2,500+ in wages from the base period. Good catch running both checks.",
+        "ts": "1775175300.000600",
+        "thread_ts": "1775175000.000500",
+        "parent_user_id": "U003",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "FAMLI INTAKE: LC-2026-0044, Priya S., Concurrent FMLA: No (FMLA ineligible \u2014 tenure), Start: 04/15/2026. FAMLI-only case opened. famli_coordination_log updated.",
+        "ts": "1775175600.000700",
+        "thread_ts": "1775175000.000500",
+        "parent_user_id": "U003",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "SLA WARNING: Case LC-2026-0038, P2, Current Status: Awaiting manager confirmation of return date, Time Remaining: ~4 hours. Employee return originally scheduled 04/09/2026. No fitness-for-duty cert received yet.",
+        "ts": "1775218800.000800",
+        "team": "T001",
+        "reply_count": 2,
+        "latest_reply": "1775219400.001000",
+        "reply_users": [
+          "U002",
+          "U003"
+        ],
+        "reply_users_count": 2
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Please send Template 8 (FFD reminder) immediately and escalate to Daniel if no response by EOD. Statutory clock doesn't pause here.",
+        "ts": "1775219100.000900",
+        "thread_ts": "1775218800.000800",
+        "parent_user_id": "U003",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "Template 8 sent at 10:45am MT. Following up with HR Director if no cert by 5pm.",
+        "ts": "1775219400.001000",
+        "thread_ts": "1775218800.000800",
+        "parent_user_id": "U003",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "FMLA DESIGNATED: LC-2026-0041, Marcus R., Start: 04/14/2026, Expected End: 05/26/2026, Hours Designated: 240 (6 weeks, 1.0 FTE). Designation Notice WH-382 sent.",
+        "ts": "1775347200.001100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "RETURN CONFIRMED: LC-2026-0038, Kim T., Return Date: 04/09/2026. Manager confirmed return in #leave-intake at 8:22am MT.",
+        "ts": "1775379600.001200",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "ADA REQUEST: Jordan M., LC-2026-0047, Date Received: 04/10/2026 \u2014 routed to HR Director.",
+        "ts": "1775466000.001300",
+        "team": "T001",
+        "reply_count": 1,
+        "latest_reply": "1775466300.001400",
+        "reply_users": [
+          "U001"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Received. I'll initiate the interactive process with Jordan directly. LC \u2014 no further action on the ADA side until I reach out. Keep the FMLA component moving per normal procedure.",
+        "ts": "1775466300.001400",
+        "thread_ts": "1775466000.001300",
+        "parent_user_id": "U003",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "USERRA REQUEST: Alejandro V., LC-2026-0049, Start: 04/20/2026, Duration: 14 days (National Guard activation) \u2014 routed to Benefits Manager.",
+        "ts": "1775552400.001500",
+        "team": "T001"
+      }
+    ],
+    "C002": [
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Good morning team. Quick reminder that the Q1 quarterly case audit is coming up end of June. Start pulling together your closed case list from leave_tracker.xlsx now \u2014 we'll sample 10 cases. I'll schedule the review session next week.",
+        "ts": "1775088000.000100",
+        "team": "T001",
+        "reply_count": 2,
+        "latest_reply": "1775088600.000300",
+        "reply_users": [
+          "U002",
+          "U003"
+        ],
+        "reply_users_count": 2
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "Noted. Should I flag any cases where the cert status column has 'Escalated' from Q1 for closer review?",
+        "ts": "1775088300.000200",
+        "thread_ts": "1775088000.000100",
+        "parent_user_id": "U002",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Yes \u2014 pull all cases with Cert Status = Escalated or Insufficient from Q1. Those are priority items for the audit. Also verify the medical file separation for each \u2014 everything with PHI should be in the restricted folder, nothing in the general HR file.",
+        "ts": "1775088600.000300",
+        "thread_ts": "1775088000.000100",
+        "parent_user_id": "U002",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "Quick question on certification timing. I received a cert today (04/09) but several fields in Section 4 are blank \u2014 provider didn't fill in the probable duration. Is this incomplete or insufficient? I want to make sure I'm applying the right path before I send anything to the employee.",
+        "ts": "1775174400.000400",
+        "team": "T001",
+        "reply_count": 2,
+        "latest_reply": "1775175000.000600",
+        "reply_users": [
+          "U002",
+          "U003"
+        ],
+        "reply_users_count": 2
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "That's incomplete \u2014 blank fields are the definition of incomplete. You can handle that independently: send the appropriate template, specify exactly which fields are missing, and give the employee 7 calendar days to cure. The cure deadline for today's receipt would be 04/16/2026. Do NOT issue the Designation Notice until the cured cert comes back. If you're ever unsure whether something is incomplete vs. insufficient, escalate to me \u2014 never guess.",
+        "ts": "1775174700.000500",
+        "thread_ts": "1775174400.000400",
+        "parent_user_id": "U003",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "Thanks \u2014 Template 5 sent, cure deadline 04/16/2026 added to HR Leave Deadlines calendar. Cert Status updated to Received-Incomplete in leave_tracker.",
+        "ts": "1775175000.000600",
+        "thread_ts": "1775174400.000400",
+        "parent_user_id": "U003",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Heads up to the team \u2014 Colorado CDLE updated their FAMLI employer notice format this week. If you receive a notice that looks slightly different than usual, it's still valid. The 5-business-day response clock starts the same way. I'll circulate the updated template once I've reviewed it with Evelyn.",
+        "ts": "1775260800.000700",
+        "team": "T001",
+        "reply_count": 2,
+        "latest_reply": "1775261100.000900",
+        "reply_users": [
+          "U002",
+          "U003"
+        ],
+        "reply_users_count": 2
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "Received a FAMLI notice this morning (04/10) from claims@famli.colorado.gov for case LC-2026-0041. 5-business-day response deadline is 04/17/2026. Added to calendar. Will concurrent-designate with the existing open FMLA case.",
+        "ts": "1775260800.000800",
+        "thread_ts": "1775260800.000700",
+        "parent_user_id": "U002",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Perfect clock calculation. Confirm in famli_coordination_log that the FMLA Case ID is linked before you submit the employer response.",
+        "ts": "1775261100.000900",
+        "thread_ts": "1775260800.000700",
+        "parent_user_id": "U002",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "Renata \u2014 I'm seeing a potential GINA issue on a cert I just received for LC-2026-0038. The provider included family medical history that wasn't requested. Flagging this now. I have not read or retained the original. What's my next step?",
+        "ts": "1775347800.001000",
+        "team": "T001",
+        "reply_count": 2,
+        "latest_reply": "1775348400.001200",
+        "reply_users": [
+          "U002",
+          "U003"
+        ],
+        "reply_users_count": 2
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Stop \u2014 do not open or re-read the original PDF. Create a sanitized summary with only the FMLA-relevant fields and save it to the restricted folder. Forward the original PDF to Evelyn at evelyn.marchetti@ridgelineholdings.com with the appropriate subject line. Do NOT keep a local copy of the original. Escalate to #legal-review as well.",
+        "ts": "1775348100.001100",
+        "thread_ts": "1775347800.001000",
+        "parent_user_id": "U003",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "Done. Sanitized summary saved, original forwarded to Evelyn. Case note added. Posting to #legal-review now.",
+        "ts": "1775348400.001200",
+        "thread_ts": "1775347800.001000",
+        "parent_user_id": "U003",
+        "team": "T001"
+      }
+    ],
+    "C003": [
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Welcome to #hr-escalations. This channel is for items requiring the HR Director's direct attention. Please use the standard format for all posts. Daniel Whitfield.",
+        "ts": "1775002800.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "ADA REQUEST: Jordan M., LC-2026-0047, Date Received: 04/10/2026 \u2014 routed to HR Director. Employee email mentioned difficulty performing essential functions due to a recurring physical condition and requested a schedule modification. Template 19 acknowledgment sent same business day. Full email thread forwarded to daniel.whitfield@ridgelinegear.com.",
+        "ts": "1775466000.000200",
+        "team": "T001",
+        "reply_count": 1,
+        "latest_reply": "1775466300.000300",
+        "reply_users": [
+          "U001"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Confirmed receipt. I'll begin the interactive process. LC \u2014 your role on this case is now intake-only. Do not communicate with Jordan's manager about the accommodation request, do not request any medical documentation, and do not update the ADA portion of the case notes unless I direct you to. Continue handling the FMLA component normally.",
+        "ts": "1775466300.000300",
+        "thread_ts": "1775466000.000200",
+        "parent_user_id": "U003",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "USERRA REQUEST: Alejandro V., LC-2026-0049, Start: 04/20/2026, Duration: 14 days \u2014 routed to Benefits Manager. Military orders received and filed in non-medical HR file. Template 25 acknowledgment sent. Full email thread forwarded to renata.okafor@ridgelinegear.com.",
+        "ts": "1775552400.000400",
+        "team": "T001",
+        "reply_count": 1,
+        "latest_reply": "1775552700.000500",
+        "reply_users": [
+          "U002"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Received. I'll take it from here \u2014 USERRA pay continuation, benefits continuation, and reemployment rights are all in my scope. LC, please don't advise Alejandro on any of those topics if he reaches out. Just direct him to me.",
+        "ts": "1775552700.000500",
+        "thread_ts": "1775552400.000400",
+        "parent_user_id": "U003",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "RECURRING ISSUE: Sam B., LC-2026-0033 (intermittent FMLA, certified migraines), Pattern Description: 9 intermittent absences in the 30-day window 03/10/2026\u201304/09/2026. Certified frequency: 2\u20133 episodes per month. Actual usage: 9 days. Clustering observed on Mondays (5 of 9 absences). Data Points: Absence Log in leave_tracker.xlsx, rows 88\u201396. Escalating \u2014 please review.",
+        "ts": "1775553000.000600",
+        "team": "T001",
+        "reply_count": 1,
+        "latest_reply": "1775553300.000700",
+        "reply_users": [
+          "U002"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "That's a significant variance. Good catch on the Monday clustering too. I'll review the full case file and determine whether we request updated certification or escalate further. Do NOT communicate this flag to Sam or to his manager. Hold any action on the pattern until you hear from me in writing.",
+        "ts": "1775553300.000700",
+        "thread_ts": "1775553000.000600",
+        "parent_user_id": "U003",
+        "team": "T001"
+      }
+    ],
+    "C004": [
+      {
+        "type": "message",
+        "user": "U006",
+        "text": "Welcome to #payroll-coordination. All leave-related payroll notifications go here. Payroll runs every other Friday \u2014 please get notifications to me by Thursday noon to hit the current cycle. Teresa Vang.",
+        "ts": "1775002800.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "LEAVE PAYROLL NOTIFICATION: LC-2026-0041, Marcus R., Leave Start, 04/14/2026, Continuous, FMLA + FAMLI concurrent. Please set up unpaid coding starting 04/14. Employee has PTO substitution requested \u2014 separate notification to follow.",
+        "ts": "1775347500.000200",
+        "team": "T001",
+        "reply_count": 1,
+        "latest_reply": "1775347800.000300",
+        "reply_users": [
+          "U006"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U006",
+        "text": "Got it \u2014 continuous leave coded starting 04/14. Waiting on PTO substitution notification to complete setup. Will hold paycheck adjustment until that's confirmed.",
+        "ts": "1775347800.000300",
+        "thread_ts": "1775347500.000200",
+        "parent_user_id": "U003",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "PTO SUBSTITUTION: LC-2026-0041, Marcus R., Start: 04/14/2026, End: until PTO balance exhausted. Employee has confirmed he wants to substitute accrued PTO during the unpaid FMLA period. Template 22 sent to employee directing all balance questions to you.",
+        "ts": "1775348100.000400",
+        "team": "T001",
+        "reply_count": 1,
+        "latest_reply": "1775348400.000500",
+        "reply_users": [
+          "U006"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U006",
+        "text": "Perfect. I'll calculate the PTO balance and contact Marcus directly about how many weeks the substitution will cover and how it interacts with FAMLI. Nothing to do on your end from here.",
+        "ts": "1775348400.000500",
+        "thread_ts": "1775348100.000400",
+        "parent_user_id": "U003",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "LEAVE PAYROLL NOTIFICATION: LC-2026-0038, Kim T., Return from Leave, 04/09/2026, Continuous, No restrictions. Manager confirmed return in #leave-intake at 8:22am MT. Please restore regular pay coding effective 04/09.",
+        "ts": "1775379900.000600",
+        "team": "T001",
+        "reply_count": 1,
+        "latest_reply": "1775380200.000700",
+        "reply_users": [
+          "U006"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U006",
+        "text": "Return coded. Regular pay restored 04/09. Case LC-2026-0038 is clear on payroll end.",
+        "ts": "1775380200.000700",
+        "thread_ts": "1775379900.000600",
+        "parent_user_id": "U003",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "LEAVE PAYROLL NOTIFICATION: LC-2026-0044, Priya S., Leave Start, 04/15/2026, Continuous, FAMLI only (FMLA ineligible). Please note: FAMLI wage replacement is paid directly by CDLE \u2014 Ridgeline's role is health insurance continuation only. Health premium billing should continue on the same terms as active employment.",
+        "ts": "1775434800.000800",
+        "team": "T001",
+        "reply_count": 1,
+        "latest_reply": "1775435100.000900",
+        "reply_users": [
+          "U006"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U006",
+        "text": "Confirmed \u2014 FAMLI-only case. Health insurance continuation coded. No Ridgeline wage replacement processing needed. I'll reach out to Priya separately about premium collection during leave.",
+        "ts": "1775435100.000900",
+        "thread_ts": "1775434800.000800",
+        "parent_user_id": "U003",
+        "team": "T001"
+      }
+    ],
+    "C005": [
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "This channel is for items requiring General Counsel review. Please tag @evelyn.marchetti for all posts. Do not reply to any employee communication about a case posted here without direction. Daniel Whitfield.",
+        "ts": "1775002800.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "LEGAL THREAT: Dana W., LC-2026-0029, Subject: 'Re: FMLA Denial \u2014 I am consulting an attorney', Brief Description: Employee responded to FMLA ineligibility denial (hours criterion) by stating she has retained an attorney and believes the hours calculation is incorrect. Email thread forwarded to evelyn.marchetti@ridgelineholdings.com with subject 'LEGAL THREAT \u2014 Dana W. \u2014 LC-2026-0029'. Case Status updated to Escalated \u2014 Legal Review. No reply sent to employee.",
+        "ts": "1775261400.000200",
+        "team": "T001",
+        "reply_count": 3,
+        "latest_reply": "1775262300.000500",
+        "reply_users": [
+          "U001",
+          "U003",
+          "U008"
+        ],
+        "reply_users_count": 3
+      },
+      {
+        "type": "message",
+        "user": "U008",
+        "text": "Received. I've reviewed the forwarded thread. Do not reply to Dana, do not discuss this case with her manager, and do not update the leave_tracker case notes beyond what is already there until I complete my review. I'll be in contact with Daniel and Renata directly. The hours calculation question is one I'll want to see the full hours_worked_log.xlsx entries for \u2014 can someone with access send me the raw data for the 12-month lookback?",
+        "ts": "1775261700.000300",
+        "thread_ts": "1775261400.000200",
+        "parent_user_id": "U003",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "I'll pull the hours log and send it to you directly at ridgelineholdings, Evelyn. LC \u2014 no further action on LC-2026-0029 until Evelyn clears it. Acknowledge.",
+        "ts": "1775262000.000400",
+        "thread_ts": "1775261400.000200",
+        "parent_user_id": "U003",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "Acknowledged. No action on LC-2026-0029. Case Status held at Escalated \u2014 Legal Review. I will forward any further communication from Dana to Evelyn without replying.",
+        "ts": "1775262300.000500",
+        "thread_ts": "1775261400.000200",
+        "parent_user_id": "U003",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "GINA \u2014 LC-2026-0038: Medical certification received with family medical history in Section 5 beyond what was requested. Original PDF forwarded to evelyn.marchetti@ridgelineholdings.com with subject 'GINA \u2014 Original Medical Cert \u2014 LC-2026-0038'. Sanitized summary created (LC-2026-0038_cert_summary.docx) and saved in restricted folder. No local copy of original retained. Case note added.",
+        "ts": "1775348700.000600",
+        "team": "T001",
+        "reply_count": 1,
+        "latest_reply": "1775349000.000700",
+        "reply_users": [
+          "U008"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U008",
+        "text": "Received. I'll store and dispose of the original per legal requirements. The sanitized summary on file is sufficient for all future case actions on LC-2026-0038. No further action needed from your end unless you see additional protected content.",
+        "ts": "1775349000.000700",
+        "thread_ts": "1775348700.000600",
+        "parent_user_id": "U003",
+        "team": "T001"
+      }
+    ],
+    "C006": [
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "UNRECOGNIZED SENDER: Roberto Mendez, roberto.m.1987@gmail.com, Subject: 'Question about my wife's leave at Ridgeline'. Sender not found in employee_roster.xlsx. Email forwarded to renata.okafor@ridgelinegear.com. No reply sent to sender.",
+        "ts": "1775175600.000100",
+        "team": "T001",
+        "reply_count": 1,
+        "latest_reply": "1775175900.000200",
+        "reply_users": [
+          "U002"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Correct handling. I'll review and respond to this one directly. Do not engage with the sender or acknowledge anything about any current employee's leave status. If Roberto's wife is on leave, she'd need to contact us herself.",
+        "ts": "1775175900.000200",
+        "thread_ts": "1775175600.000100",
+        "parent_user_id": "U003",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "UNRECOGNIZED SENDER: Sandra T., sandra.torres.ext@gmail.com, Subject: 'FMLA for former employee \u2014 requesting records'. Sender claims to be a former Ridgeline employee requesting copies of her prior FMLA paperwork. Not found in active employee_roster.xlsx. Forwarded to renata.okafor@ridgelinegear.com. No reply sent.",
+        "ts": "1775433600.000300",
+        "team": "T001",
+        "reply_count": 1,
+        "latest_reply": "1775433900.000400",
+        "reply_users": [
+          "U002"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Good catch. Former employees are out of scope for the active inbox but records requests may be legitimate \u2014 I'll check the historical files and respond through proper channels. You're right not to reply.",
+        "ts": "1775433900.000400",
+        "thread_ts": "1775433600.000300",
+        "parent_user_id": "U003",
+        "team": "T001"
+      }
+    ]
+  },
+  "counters": {
+    "messageId": 2000000
+  }
+}

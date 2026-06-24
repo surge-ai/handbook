@@ -1,0 +1,1158 @@
+{
+  "users": {
+    "U001": {
+      "id": "U001",
+      "team_id": "T001",
+      "name": "k.whitfield",
+      "deleted": false,
+      "real_name": "Kay Whitfield",
+      "color": "4bbe2e",
+      "tz": "America/Chicago",
+      "tz_label": "Central Daylight Time",
+      "tz_offset": -18000,
+      "profile": {
+        "real_name": "Kay Whitfield",
+        "real_name_normalized": "Kay Whitfield",
+        "display_name": "Kay",
+        "display_name_normalized": "Kay",
+        "email": "k.whitfield@gearsystems.com",
+        "title": "Inbound Materials Coordinator",
+        "phone": "601-555-2001",
+        "first_name": "Kay",
+        "last_name": "Whitfield",
+        "team": "T001"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_primary_owner": false,
+      "is_bot": false,
+      "is_app_user": false,
+      "is_email_confirmed": true,
+      "updated": 1767225600
+    },
+    "U002": {
+      "id": "U002",
+      "team_id": "T001",
+      "name": "t.brandt",
+      "deleted": false,
+      "real_name": "Theo Brandt",
+      "color": "e7392d",
+      "tz": "America/Chicago",
+      "tz_label": "Central Daylight Time",
+      "tz_offset": -18000,
+      "profile": {
+        "real_name": "Theo Brandt",
+        "real_name_normalized": "Theo Brandt",
+        "display_name": "Theo",
+        "display_name_normalized": "Theo",
+        "email": "t.brandt@gearsystems.com",
+        "title": "Quality Manager",
+        "phone": "601-555-2002",
+        "first_name": "Theo",
+        "last_name": "Brandt",
+        "team": "T001"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_primary_owner": false,
+      "is_bot": false,
+      "is_app_user": false,
+      "is_email_confirmed": true,
+      "updated": 1767225600
+    },
+    "U003": {
+      "id": "U003",
+      "team_id": "T001",
+      "name": "e.velasquez",
+      "deleted": false,
+      "real_name": "Elizabeth Velasquez",
+      "color": "9b59b6",
+      "tz": "America/Chicago",
+      "tz_label": "Central Daylight Time",
+      "tz_offset": -18000,
+      "profile": {
+        "real_name": "Elizabeth Velasquez",
+        "real_name_normalized": "Elizabeth Velasquez",
+        "display_name": "Elizabeth",
+        "display_name_normalized": "Elizabeth",
+        "email": "e.velasquez@gearsystems.com",
+        "title": "Supply Chain Manager",
+        "phone": "601-555-2003",
+        "first_name": "Elizabeth",
+        "last_name": "Velasquez",
+        "team": "T001"
+      },
+      "is_admin": true,
+      "is_owner": false,
+      "is_primary_owner": false,
+      "is_bot": false,
+      "is_app_user": false,
+      "is_email_confirmed": true,
+      "updated": 1767225600
+    },
+    "U004": {
+      "id": "U004",
+      "team_id": "T001",
+      "name": "d.hooks",
+      "deleted": false,
+      "real_name": "Darnell Hooks",
+      "color": "f39c12",
+      "tz": "America/Chicago",
+      "tz_label": "Central Daylight Time",
+      "tz_offset": -18000,
+      "profile": {
+        "real_name": "Darnell Hooks",
+        "real_name_normalized": "Darnell Hooks",
+        "display_name": "Darnell",
+        "display_name_normalized": "Darnell",
+        "email": "d.hooks@gearsystems.com",
+        "title": "Warehouse Supervisor",
+        "phone": "601-555-2004",
+        "first_name": "Darnell",
+        "last_name": "Hooks",
+        "team": "T001"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_primary_owner": false,
+      "is_bot": false,
+      "is_app_user": false,
+      "is_email_confirmed": true,
+      "updated": 1767225600
+    },
+    "U005": {
+      "id": "U005",
+      "team_id": "T001",
+      "name": "j.park",
+      "deleted": false,
+      "real_name": "Joon-ho Park",
+      "color": "27ae60",
+      "tz": "America/Chicago",
+      "tz_label": "Central Daylight Time",
+      "tz_offset": -18000,
+      "profile": {
+        "real_name": "Joon-ho Park",
+        "real_name_normalized": "Joon-ho Park",
+        "display_name": "Joon-ho",
+        "display_name_normalized": "Joon-ho",
+        "email": "j.park@gearsystems.com",
+        "title": "Procurement Specialist",
+        "phone": "601-555-2005",
+        "first_name": "Joon-ho",
+        "last_name": "Park",
+        "team": "T001"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_primary_owner": false,
+      "is_bot": false,
+      "is_app_user": false,
+      "is_email_confirmed": true,
+      "updated": 1767225600
+    },
+    "U006": {
+      "id": "U006",
+      "team_id": "T001",
+      "name": "c.yablonski",
+      "deleted": false,
+      "real_name": "Curtis Yablonski",
+      "color": "3498db",
+      "tz": "America/Chicago",
+      "tz_label": "Central Daylight Time",
+      "tz_offset": -18000,
+      "profile": {
+        "real_name": "Curtis Yablonski",
+        "real_name_normalized": "Curtis Yablonski",
+        "display_name": "Curtis",
+        "display_name_normalized": "Curtis",
+        "email": "c.yablonski@gearsystems.com",
+        "title": "Receiving Inspector",
+        "phone": "601-555-2006",
+        "first_name": "Curtis",
+        "last_name": "Yablonski",
+        "team": "T001"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_primary_owner": false,
+      "is_bot": false,
+      "is_app_user": false,
+      "is_email_confirmed": true,
+      "updated": 1767225600
+    },
+    "U007": {
+      "id": "U007",
+      "team_id": "T001",
+      "name": "m.ortiz",
+      "deleted": false,
+      "real_name": "Maribel Ortiz",
+      "color": "e74c3c",
+      "tz": "America/Chicago",
+      "tz_label": "Central Daylight Time",
+      "tz_offset": -18000,
+      "profile": {
+        "real_name": "Maribel Ortiz",
+        "real_name_normalized": "Maribel Ortiz",
+        "display_name": "Maribel",
+        "display_name_normalized": "Maribel",
+        "email": "m.ortiz@gearsystems.com",
+        "title": "EH&S Coordinator",
+        "phone": "601-555-2007",
+        "first_name": "Maribel",
+        "last_name": "Ortiz",
+        "team": "T001"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_primary_owner": false,
+      "is_bot": false,
+      "is_app_user": false,
+      "is_email_confirmed": true,
+      "updated": 1767225600
+    },
+    "U008": {
+      "id": "U008",
+      "team_id": "T001",
+      "name": "a.krishnamurthy",
+      "deleted": false,
+      "real_name": "Aditi Krishnamurthy",
+      "color": "1abc9c",
+      "tz": "America/Chicago",
+      "tz_label": "Central Daylight Time",
+      "tz_offset": -18000,
+      "profile": {
+        "real_name": "Aditi Krishnamurthy",
+        "real_name_normalized": "Aditi Krishnamurthy",
+        "display_name": "Aditi",
+        "display_name_normalized": "Aditi",
+        "email": "a.krishnamurthy@gearsystems.com",
+        "title": "Production Planner",
+        "phone": "601-555-2008",
+        "first_name": "Aditi",
+        "last_name": "Krishnamurthy",
+        "team": "T001"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_primary_owner": false,
+      "is_bot": false,
+      "is_app_user": false,
+      "is_email_confirmed": true,
+      "updated": 1767225600
+    },
+    "U009": {
+      "id": "U009",
+      "team_id": "T001",
+      "name": "w.finch",
+      "deleted": false,
+      "real_name": "Walter Finch",
+      "color": "2c3e50",
+      "tz": "America/Chicago",
+      "tz_label": "Central Daylight Time",
+      "tz_offset": -18000,
+      "profile": {
+        "real_name": "Walter Finch",
+        "real_name_normalized": "Walter Finch",
+        "display_name": "Walter",
+        "display_name_normalized": "Walter",
+        "email": "w.finch@gearsystems.com",
+        "title": "Plant Manager",
+        "phone": "601-555-2009",
+        "first_name": "Walter",
+        "last_name": "Finch",
+        "team": "T001"
+      },
+      "is_admin": true,
+      "is_owner": true,
+      "is_primary_owner": true,
+      "is_bot": false,
+      "is_app_user": false,
+      "is_email_confirmed": true,
+      "updated": 1767225600
+    },
+    "U010": {
+      "id": "U010",
+      "team_id": "T001",
+      "name": "c.wojciechowski",
+      "deleted": false,
+      "real_name": "Chris Wojciechowski",
+      "color": "95a5a6",
+      "tz": "America/Chicago",
+      "tz_label": "Central Daylight Time",
+      "tz_offset": -18000,
+      "profile": {
+        "real_name": "Chris Wojciechowski",
+        "real_name_normalized": "Chris Wojciechowski",
+        "display_name": "Chris",
+        "display_name_normalized": "Chris",
+        "email": "c.wojciechowski@gearsystems.com",
+        "title": "Logistics Coordinator",
+        "phone": "601-555-2010",
+        "first_name": "Chris",
+        "last_name": "Wojciechowski",
+        "team": "T001"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_primary_owner": false,
+      "is_bot": false,
+      "is_app_user": false,
+      "is_email_confirmed": true,
+      "updated": 1767225600
+    },
+    "U_MOCK_BOT": {
+      "id": "U_MOCK_BOT",
+      "team_id": "T001",
+      "name": "slackbot",
+      "deleted": false,
+      "real_name": "Slackbot",
+      "profile": {
+        "real_name": "Slackbot",
+        "display_name": "Slackbot",
+        "email": "",
+        "title": ""
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_primary_owner": false,
+      "is_bot": true,
+      "is_app_user": false,
+      "updated": 1767225600
+    },
+    "U011": {
+      "id": "U011",
+      "name": "r.lemoine",
+      "real_name": "Reggie Lemoine",
+      "profile": {
+        "email": "r.lemoine@gearsystems.com",
+        "title": "Quality Inspector, 1st Shift"
+      },
+      "team_id": "T001"
+    }
+  },
+  "channels": {
+    "C001": {
+      "id": "C001",
+      "name": "general",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1767225600,
+      "is_archived": false,
+      "is_general": true,
+      "unlinked": 0,
+      "name_normalized": "general",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1767225600,
+      "creator": "U009",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Plant-wide announcements \u2014 Gear Systems Inc., Meridian MS",
+        "creator": "U009",
+        "last_set": 1767225600
+      },
+      "purpose": {
+        "value": "Company-wide announcements, shift notes, and plant updates for all Gear Systems staff.",
+        "creator": "U009",
+        "last_set": 1767225600
+      },
+      "num_members": 10
+    },
+    "C002": {
+      "id": "C002",
+      "name": "receiving-dock",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1767225600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "receiving",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1767225600,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Daily receiving activity, dock door assignments, receipt status",
+        "creator": "U001",
+        "last_set": 1767225600
+      },
+      "purpose": {
+        "value": "Live dock updates, incoming shipment alerts, receipt completion notices, and documentation status. Monitored by Kay, Curtis, Darnell.",
+        "creator": "U001",
+        "last_set": 1767225600
+      },
+      "num_members": 5
+    },
+    "C003": {
+      "id": "C003",
+      "name": "quality-alerts",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1767225600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "quality-ncr",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1767225600,
+      "creator": "U002",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Active NCRs, quarantine holds, and Quality dispositions",
+        "creator": "U002",
+        "last_set": 1767225600
+      },
+      "purpose": {
+        "value": "NCR issuance, quality hold updates, inspection findings, and corrective action tracking per the Logistics SOP.",
+        "creator": "U002",
+        "last_set": 1767225600
+      },
+      "num_members": 6
+    },
+    "C004": {
+      "id": "C004",
+      "name": "supply-chain",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1767225600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "supply-chain",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1767225600,
+      "creator": "U003",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "PO status, supplier issues, procurement decisions",
+        "creator": "U003",
+        "last_set": 1767225600
+      },
+      "purpose": {
+        "value": "Supply chain coordination: open PO tracking, supplier escalations, procurement decisions, and inbound logistics.",
+        "creator": "U003",
+        "last_set": 1767225600
+      },
+      "num_members": 5
+    },
+    "C005": {
+      "id": "C005",
+      "name": "planning-meridian",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1767225600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "production-planning",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1767225600,
+      "creator": "U008",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Production schedule, material availability, line status",
+        "creator": "U008",
+        "last_set": 1767225600
+      },
+      "purpose": {
+        "value": "Production schedule updates, material shortfalls, line-down alerts, and cross-functional coordination with Supply Chain and Receiving.",
+        "creator": "U008",
+        "last_set": 1767225600
+      },
+      "num_members": 6
+    },
+    "C006": {
+      "id": "C006",
+      "name": "hazmat-safety",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1767225600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "hazmat-safety",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1767225600,
+      "creator": "U007",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Hazmat receipts, SDS verification, EH&S compliance",
+        "creator": "U007",
+        "last_set": 1767225600
+      },
+      "purpose": {
+        "value": "Hazardous materials receiving coordination, SDS tracking, and EH&S notifications per SOP Section 17.",
+        "creator": "U007",
+        "last_set": 1767225600
+      },
+      "num_members": 4
+    },
+    "C007": {
+      "id": "C007",
+      "name": "dock-schedule",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1767225600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "dock-schedule",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1767225600,
+      "creator": "U010",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Daily dock appointments and carrier ETA updates",
+        "creator": "U010",
+        "last_set": 1767225600
+      },
+      "purpose": {
+        "value": "Dock appointment scheduling, carrier ETA updates, special handling flags (oversize, hazmat, DTL), and no-show alerts.",
+        "creator": "U010",
+        "last_set": 1767225600
+      },
+      "num_members": 5
+    },
+    "C008": {
+      "id": "C008",
+      "name": "escalations-meridian",
+      "purpose": {
+        "value": "Plant-wide escalations \u2014 overdue NCRs, line-down risk, critical holds.",
+        "creator": "",
+        "last_set": 0
+      },
+      "is_private": false,
+      "is_channel": true,
+      "created": 1609459200,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false
+    },
+    "C009": {
+      "id": "C009",
+      "name": "unknown-shipments",
+      "purpose": {
+        "value": "Unknown or unidentifiable shipments arriving without paperwork or PO match.",
+        "creator": "",
+        "last_set": 0
+      },
+      "is_private": false,
+      "is_channel": true,
+      "created": 1609459200,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false
+    }
+  },
+  "messages": {
+    "C001": [
+      {
+        "type": "message",
+        "user": "U009",
+        "text": "Good morning everyone. Quick plant-wide note: we are actively managing a *Critical* NCR (NCR-MER-2026-0247) involving quarantined safety-critical AX/FG parts from Lakewood. Supply chain and Quality are on it. I'll provide an update at EOD. In the meantime, please direct any questions about AX part availability to Elizabeth or Kay \u2014 not directly to Production.",
+        "ts": "1776951900.000100",
+        "team": "T001",
+        "reactions": [
+          {
+            "name": "thumbsup",
+            "users": [
+              "U001",
+              "U002",
+              "U003",
+              "U005",
+              "U008"
+            ],
+            "count": 5
+          }
+        ]
+      },
+      {
+        "type": "message",
+        "user": "U006",
+        "text": "Welcome to the team communication board! Reminder that all receiving discrepancies go to #quality-ncr and all dock scheduling questions go to #dock-schedule. :truck:",
+        "ts": "1767358800.000100",
+        "team": "T001"
+      }
+    ],
+    "C002": [
+      {
+        "type": "message",
+        "user": "U001",
+        "text": ":clipboard: *Dock Sheet \u2014 Monday April 14, 2026*\n\nToday's appointments:\n\u2022 APPT-20260414-001 | Dock 2 | 07:00 | Lakewood Precision / XPO \u2014 AX/FG safety-critical (DTL, COC+MTR required) :warning:\n\u2022 APPT-20260414-002 | Dock 1 | 08:00 | Hartwell Bearing / Old Dominion \u2014 BG/SL parts\n\u2022 APPT-20260414-003 | Dock 4 | 10:00 | Meridian Lube / local \u2014 *HAZMAT* UN1268 Class 3 :biohazard_sign:\n\u2022 APPT-20260414-004 | Dock 2 | 11:00 | Lakewood Precision / XPO \u2014 DTL :rotating_light: (see separate thread)\n\u2022 APPT-20260414-005 | Dock 3 | 11:00 | Appalachian Seal / UPS \u2014 *NEW SUPPLIER* 100% inspection required :new:\n\nCurtis on inspection today. Darnell managing floor. @m.ortiz standing by for Dock 4 hazmat.",
+        "ts": "1776166200.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": ":truck: REC-20260414-001 OPEN \u2014 Lakewood Precision / XPO arrived Dock 2 at 06:48. 12 pallets, 4,680 lb. PO MER-PO-104821. Safety-critical AX/FG lines. Curtis beginning count + doc check.",
+        "ts": "1776167280.000200",
+        "team": "T001",
+        "reply_count": 4,
+        "reply_users": [
+          "U001",
+          "U004",
+          "U006"
+        ],
+        "latest_reply": "1776168900.000600",
+        "reply_users_count": 3
+      },
+      {
+        "type": "message",
+        "user": "U006",
+        "text": "Count in progress on AX-04827-B2 \u2014 looks like we have 44 not 48. Double-checking.",
+        "ts": "1776167880.000300",
+        "thread_ts": "1776167280.000200",
+        "parent_user_id": "U001",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U006",
+        "text": "Confirmed: 44 units of AX-04827-B2 (\u22124 short). AX-05512-C1 exact at 96. FG-91144-A1 exact at 200. \n\n:red_circle: *DOC CHECK: MTR present, COC MISSING.* Packing slip says \"COC will follow by email.\" Flagging Kay.",
+        "ts": "1776168300.000400",
+        "thread_ts": "1776167280.000200",
+        "parent_user_id": "U001",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": ":rotating_light: *COC MISSING \u2014 QUARANTINE INITIATED* per SOP Sec 12.5.1. All 340 units of REC-20260414-001 going to Q-HOLD. NCR-MER-2026-0247 issued (Critical). Notifying Theo + Joon-ho. Formal notice to Lakewood going out shortly.",
+        "ts": "1776168600.000500",
+        "thread_ts": "1776167280.000200",
+        "parent_user_id": "U001",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U004",
+        "text": "Copy. Q-HOLD labels on all 3 pallets, staged in Q-HOLD zone. Nothing moves without Kay's say-so.",
+        "ts": "1776168900.000600",
+        "thread_ts": "1776167280.000200",
+        "parent_user_id": "U001",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": ":truck: REC-20260414-002 OPEN \u2014 Hartwell Bearing / Old Dominion arrived Dock 1 at 08:30. PO MER-PO-104835. BG-33044-A1 (144 units) + SL-10922-B1 (300 pcs, PO qty 288). Curtis on inspection.",
+        "ts": "1776173400.000700",
+        "team": "T001",
+        "reply_count": 4,
+        "reply_users": [
+          "U001",
+          "U004",
+          "U006"
+        ],
+        "latest_reply": "1776176100.001100",
+        "reply_users_count": 3
+      },
+      {
+        "type": "message",
+        "user": "U006",
+        "text": ":warning: *Tier 2 damage on BG-33044-A1.* Found 11 of 144 bearings with impact dents on outer race \u2014 opening boxes 3, 7, and 11 shows it most clearly. Consistent with clamp damage in transit. Photographing now. Safety-critical part. Flagging for quarantine.",
+        "ts": "1776174300.000800",
+        "thread_ts": "1776173400.000700",
+        "parent_user_id": "U001",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U006",
+        "text": "Also: SL-10922-B1 over-ship \u2014 300 received vs 288 PO qty (+12). Tier 0 condition, docs complete. Band B over-ship. Flagging Joon-ho for disposition.",
+        "ts": "1776174900.000900",
+        "thread_ts": "1776173400.000700",
+        "parent_user_id": "U001",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "BG lot quarantined \u2014 NCR-MER-2026-0248 issued (Major, DMG). Theo inspection request sent. SL excess 12 units staged in B-RCV-01 \u2014 NCR-MER-2026-0249 issued (Minor, QTY). Joon-ho notified for disposition.",
+        "ts": "1776175500.001000",
+        "thread_ts": "1776173400.000700",
+        "parent_user_id": "U001",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U004",
+        "text": "BG pallet in Q-HOLD zone, SL 288 units moved to B-RCV-01, excess 12 staged separately with Over-Ship tag.",
+        "ts": "1776176100.001100",
+        "thread_ts": "1776173400.000700",
+        "parent_user_id": "U001",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": ":biohazard_sign: REC-20260414-003 COMPLETE \u2014 Meridian Lube arrived Dock 4 at 10:12. 4 drums LB-55001-A2 (UN1268 Class 3). Count exact, Tier 0 condition, SDS Rev 4 on file. Chris Wojciechowski notified per #hazmat-safety. Transferred to hazmat cage Zone C. No issues. See #hazmat-safety for Maribel's sign-off.",
+        "ts": "1776186300.001200",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U006",
+        "text": ":new: REC-20260414-005 COMPLETE \u2014 Appalachian Seal & Gasket (new supplier) arrived Dock 3 at 11:20. 100% inspection performed per SOP Sec 15.2.3. Standard SL seals only \u2014 no SC exposure. Count exact, Tier 0, COC + SDS present. Put away B-RCV-01. Clean first delivery! :white_check_mark:",
+        "ts": "1776192300.001300",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": ":moon: *EOD Receiving Summary \u2014 April 14, 2026*\n\n:white_check_mark: REC-20260414-003 \u2014 Meridian Lube LB drums \u2014 COMPLETE\n:white_check_mark: REC-20260414-005 \u2014 Appalachian Seal (new) \u2014 COMPLETE\n:red_circle: REC-20260414-001 \u2014 Lakewood AX/FG \u2014 *QUARANTINE* (missing COC, NCR-0247 Critical)\n:orange_circle: REC-20260414-002 \u2014 Hartwell BG/SL \u2014 *QUARANTINE* (Tier 2 damage, NCR-0248 Major) + excess SL staged (NCR-0249)\n\nOpen action: COC due from Lakewood by 04/21 17:00 CST.",
+        "ts": "1776203100.001400",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": ":truck: REC-20260420-001 COMPLETE \u2014 Cascade Fastener balance shipment for NCR-MER-2026-0241. 17 units FS-22801-A3 received, count exact. 100% inspection performed (probation supplier). COC + MTR verified. Put away A-RCV-01.",
+        "ts": "1776694500.001500",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": ":clipboard: *Dock Sheet \u2014 Thursday April 23, 2026*\n\nToday's expected:\n\u2022 MER-PO-104874 L001 balance \u2014 12x TR-67801-D1 from GreatLakes / FedEx Freight (PRO FXF-2026-88142) \u2014 COC pre-received from Kevin Baxter \u2705\n\u2022 APPT-20260415-001 carryover \u2014 Delta Metals / Estes \u2014 oversize/heavy, crane at Dock 2 (Darnell confirmed)\n\n:red_circle: REC-20260414-001 (Lakewood AX/FG) still on Q-HOLD \u2014 COC now *9 days overdue*. NCR-MER-2026-0247 CRITICAL/OVERDUE. Escalated to Walter + Elizabeth. Formal demand email sent 07:00.",
+        "ts": "1776944700.001600",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U004",
+        "text": ":truck: *NO-APPOINTMENT ARRIVAL* \u2014 Yellow Freight truck just pulled in, no dock number, says they're delivering TR-67801-D1 for MER-PO-104874. I've got them holding at the entrance per SOP Sec 8.6 \u2014 not letting them back in until Kay clears it. @k.whitfield heads up.",
+        "ts": "1776955620.001700",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U004",
+        "text": "Kay \u2014 sent you an email with the formal release authorization for the BG-33044-A1 bearings from REC-20260414-002. Inspected them this morning and they look good to me. Check your inbox when you get a chance.",
+        "ts": "1776953640.001800",
+        "team": "T001"
+      }
+    ],
+    "C003": [
+      {
+        "type": "message",
+        "user": "U001",
+        "text": ":rotating_light: *NCR-MER-2026-0247 ISSUED \u2014 CRITICAL*\n\n*Supplier:* Lakewood Precision Forgings (SUP-0012)\n*PO:* MER-PO-104821 | *Receipt:* REC-20260414-001\n*Type:* Documentation Deficiency + Quantity Variance\n*SKUs:* AX-04827-B2 (44 rcvd, 48 ordered), AX-05512-C1 (96), FG-91144-A1 (200)\n*Issue:* COC missing on safety-critical AX/FG receipt. Packing slip says \"will follow by email.\"\n*Status:* Full receipt QUARANTINED per SOP Sec 12.5.1\n*COC Due:* April 21, 2026 at 17:00 CST (5 business days)\n*Assigned QE:* @t.brandt\n\nFormal Template 10 letter sent to Lakewood.",
+        "ts": "1776169200.000100",
+        "team": "T001",
+        "reply_count": 3,
+        "reply_users": [
+          "U001",
+          "U002",
+          "U005"
+        ],
+        "latest_reply": "1776179400.000400",
+        "reply_users_count": 3
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Acknowledged \u2014 quarantine confirmed. I've got the receipt in the NCR log. I'll stand by for the COC; once it arrives I'll verify against the MTR heat numbers (HT-2026-1184, HT-2026-1185, HT-2026-0997) and give Kay written sign-off.",
+        "ts": "1776171600.000200",
+        "thread_ts": "1776169200.000100",
+        "parent_user_id": "U001",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U005",
+        "text": "Noted on NCR-0247. I'll keep a hold flag on MER-PO-104918 (the Lakewood DTL order) until this is resolved.",
+        "ts": "1776177900.000300",
+        "thread_ts": "1776169200.000100",
+        "parent_user_id": "U001",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Lakewood (Mark Hendricks) acknowledged via email \u2014 said Sandra Chu will provide COC \"within 2 business days.\" That's by 04/16. We'll see.",
+        "ts": "1776179400.000400",
+        "thread_ts": "1776169200.000100",
+        "parent_user_id": "U001",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": ":orange_circle: *NCR-MER-2026-0248 ISSUED \u2014 MAJOR*\n\n*Supplier:* Hartwell Bearing Technologies (SUP-0034)\n*PO:* MER-PO-104835 | *Receipt:* REC-20260414-002\n*Type:* Damage \u2014 Transit (Tier 2)\n*SKU:* BG-33044-A1 \u2014 11 of 144 units with outer race impact dents\n*Safety-Critical:* Yes (BG family)\n*Status:* Full BG lot QUARANTINED pending QE inspection\n*Supplier Response Due:* April 28, 2026 (10 business days)\n*Assigned QE:* @t.brandt\n\nFormal notice + Curtis's damage report sent to Hartwell.",
+        "ts": "1776175800.000500",
+        "team": "T001",
+        "reply_count": 2,
+        "reply_users": [
+          "U002"
+        ],
+        "latest_reply": "1776357000.000700",
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "On it. I'll schedule the bearing inspection for tomorrow morning (04/15). Curtis's photos are in `photos/MER-PO-104835_20260414/` \u2014 already reviewed them. Classic clamp damage. I expect to condemn at least 3 outright.",
+        "ts": "1776178500.000600",
+        "thread_ts": "1776175800.000500",
+        "parent_user_id": "U001",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Inspection complete on BG-33044-A1 damage (NCR-0248). Results:\n\u2022 8 of 11: shallow outer race dents \u2014 condemned for production, set aside for carrier claim\n\u2022 3 of 11: deep raceway damage \u2014 condemn immediately, do not return to supply chain\n\u2022 133 undamaged units: recommend release once NCR is closed out\n\nWritten QE assessment uploaded to quality_docs. Notified Kay. Carrier liability likely.",
+        "ts": "1776357000.000700",
+        "thread_ts": "1776175800.000500",
+        "parent_user_id": "U001",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": ":white_circle: *NCR-MER-2026-0249 ISSUED \u2014 MINOR*\n\n*Supplier:* Hartwell Bearing Technologies (SUP-0034)\n*PO:* MER-PO-104835 | *Receipt:* REC-20260414-002\n*Type:* Quantity \u2014 Over-ship Band B\n*SKU:* SL-10922-B1 \u2014 300 received vs 288 ordered (+12 units)\n*Status:* 288 units accepted to B-RCV-01; 12 excess staged pending @j.park disposition\n*Supplier Response Due:* May 5, 2026 (15 business days)\n\nNot a safety issue \u2014 standard part, clean condition.",
+        "ts": "1776177000.000800",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": ":orange_circle: *NCR-MER-2026-0241 ISSUED \u2014 MAJOR* (Probation floor elevation)\n\n*Supplier:* Cascade Fastener Corp (SUP-0051, *PROBATION*)\n*PO:* MER-PO-104847 | *Receipt:* REC-20260412-001\n*Type:* Quantity \u2014 Short-ship Band 1\n*SKU:* FS-22801-A3 \u2014 483 received vs 500 ordered (\u221217, \u22123.4%). Safety-critical bolt.\n*Note:* Probation supplier \u2192 severity floor Major per SOP Sec 14.3.3 + 15.2.2. 100% inspection performed.\n*Supplier Response Due:* May 2, 2026 (15 business days, Major NCR)\n\nCascade acknowledged via email 04/14 \u2014 balance 17 units shipping 04/17.",
+        "ts": "1776007800.000900",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": ":alarm_clock: *NCR-MER-2026-0247 ESCALATED \u2014 DEADLINE MISSED*\n\nLakewood has not provided the COC for REC-20260414-001 by the 17:00 CST deadline today (April 21). This is the 5-business-day window per SOP Sec 12.5.1.\n\n@w.finch has been notified. @j.park please place informal hold on new PO releases to Lakewood. @k.whitfield please send formal past-due notice.\n\nMaterial (AX-04827-B2 x44, AX-05512-C1 x96, FG-91144-A1 x200) remains on Q-HOLD.",
+        "ts": "1776811800.001000",
+        "team": "T001",
+        "reply_count": 2,
+        "reply_users": [
+          "U002",
+          "U005"
+        ],
+        "latest_reply": "1776863100.001200",
+        "reply_users_count": 2
+      },
+      {
+        "type": "message",
+        "user": "U005",
+        "text": "Hold placed on Lakewood PO releases. MER-PO-104918 (DTL line) flagged in the system.",
+        "ts": "1776813300.001100",
+        "thread_ts": "1776811800.001000",
+        "parent_user_id": "U003",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Agreed on escalation. If the COC doesn't arrive by end of this week I'll initiate a supplier capability review per Walter's direction.",
+        "ts": "1776863100.001200",
+        "thread_ts": "1776811800.001000",
+        "parent_user_id": "U003",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": ":envelope: Hartwell CAR received for NCR-MER-2026-0248. Summary: OD carrier liability confirmed (freight claim #ODG-2026-04812 filed). Revised load instructions issued. Hartwell offering 11 replacement BG-33044-A1 units. CAR looks acceptable. Will review formally and recommend close once procurement authorizes replacement shipment.\n\n133 undamaged units still on quarantine \u2014 pending NCR close-out.",
+        "ts": "1776868200.001300",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": ":red_circle: *NCR-MER-2026-0247 STATUS \u2014 April 23 (Day 9)*\n\nCOC still not received. Lakewood blamed ERP migration (04/22 email from Mark Hendricks). Formal demand with 12:00 CST today deadline sent this morning.\n\nAditi flagging potential line-down on Assembly Line 1 within 5 business days. Walter aware. Elizabeth coordinating on alternative sourcing.\n\nAnyone who gets a direct call or message from Lakewood re: this COC \u2014 please loop me in immediately.",
+        "ts": "1776946500.001400",
+        "team": "T001"
+      }
+    ],
+    "C004": [
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "FYI \u2014 per Walter's direction this morning, @j.park has placed an informal hold on MER-PO-104918 (Lakewood DTL line) pending resolution of NCR-MER-2026-0247. No new Lakewood releases until the COC situation is resolved.",
+        "ts": "1776870000.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U005",
+        "text": "Confirmed \u2014 hold placed. Also, MER-PO-104874 (GreatLakes balance TR-67801-D1 x12) is due today via FedEx Freight. COC pre-received from Kevin Baxter this morning. Dock 1 is clear for the delivery.",
+        "ts": "1776948300.000200",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U005",
+        "text": "Also confirmed: 12 excess SL-10922-B1 from NCR-MER-2026-0249 \u2014 accepted and PO amendment issued to MER-PO-104835 Line 002. New auth qty 300. Inventory master updated.",
+        "ts": "1776460200.000300",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": ":warning: Flagging for awareness: if NCR-0247 (Lakewood COC) is not resolved by end of this week, I'm going to open a conversation with Ridgeline Precision Axles (SUP-0157) about an emergency AX-04827-B2 order. They're our backup SC axle supplier. @j.park please get me current Ridgeline lead times.",
+        "ts": "1776952800.000400",
+        "team": "T001",
+        "reply_count": 1,
+        "reply_users": [
+          "U005"
+        ],
+        "latest_reply": "1776954600.000500",
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U005",
+        "text": "On it \u2014 I'll pull Ridgeline's current lead time from the supplier master and check if they have AX-04827-B2 in stock. Will have an answer within the hour.",
+        "ts": "1776954600.000500",
+        "thread_ts": "1776952800.000400",
+        "parent_user_id": "U003",
+        "team": "T001"
+      }
+    ],
+    "C005": [
+      {
+        "type": "message",
+        "user": "U008",
+        "text": ":warning: *Material Alert \u2014 Assembly Line 1*\n\nREC-20260414-001 (Lakewood AX/FG) is on Q-HOLD due to missing COC. This affects our AX-04827-B2 stock. Current usable on-hand: *0 units* (all 44 from this receipt are quarantined). We have zero safety stock from prior receipts at this point.\n\n*Line 1 at risk of stoppage by April 28 if quarantine is not released.*\n\n@k.whitfield what's the latest on the COC timeline?",
+        "ts": "1776362400.000100",
+        "team": "T001",
+        "reply_count": 2,
+        "reply_users": [
+          "U001",
+          "U003"
+        ],
+        "latest_reply": "1776367800.000300",
+        "reply_users_count": 2
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Lakewood says COC \"by today or tomorrow\" \u2014 Sandra Chu committed to EOD April 17. SOP deadline is April 21. Best case: material released by April 21\u201322. I'll update you the moment the COC hits my inbox.",
+        "ts": "1776366000.000200",
+        "thread_ts": "1776362400.000100",
+        "parent_user_id": "U008",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "Aditi \u2014 I'm monitoring this closely. If it goes past April 21, I have a backup plan with Ridgeline. Keep scheduling through April 25 for now.",
+        "ts": "1776367800.000300",
+        "thread_ts": "1776362400.000100",
+        "parent_user_id": "U008",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U008",
+        "text": ":red_circle: *LINE DOWN RISK CONFIRMED \u2014 April 23*\n\nIt is now 9 days since REC-20260414-001 was quarantined. COC still not received. Assembly Line 1 (rear axle housings) will hit zero usable AX-04827-B2 stock by *April 28*. I need resolution today or a confirmed alternate source.\n\n@e.velasquez @k.whitfield @w.finch \u2014 this is a formal line-down risk notification. I have notified Walter directly.",
+        "ts": "1776949200.000400",
+        "team": "T001",
+        "reactions": [
+          {
+            "name": "eyes",
+            "users": [
+              "U003",
+              "U009",
+              "U001"
+            ],
+            "count": 3
+          },
+          {
+            "name": "rotating_light",
+            "users": [
+              "U009"
+            ],
+            "count": 1
+          }
+        ]
+      },
+      {
+        "type": "message",
+        "user": "U009",
+        "text": "Acknowledged Aditi. Elizabeth \u2014 please expedite the Ridgeline inquiry. Kay \u2014 what's the status of your 12:00 deadline to Lakewood?",
+        "ts": "1776951000.000500",
+        "team": "T001"
+      }
+    ],
+    "C006": [
+      {
+        "type": "message",
+        "user": "U007",
+        "text": ":biohazard_sign: *Hazmat Pre-Arrival Notice \u2014 April 14*\n\nMeridian Lube Supply (SUP-0067) inbound tomorrow, Dock 4, APPT-20260414-003, ~10:00 CST.\n\n*Material:* LB-55001-A2 (Petroleum Distillate Lubricant) \u2014 4 x 220L drums\n*UN/DOT:* UN1268, Packing Group II, Class 3 Flammable Liquid\n*SDS:* Rev 4 on file (last updated 02/15/2024). Supplier will include copy in packet.\n\nI'll be at Dock 4 for the hazmat check-in. Per SOP Sec 17.1, I need to verify: SDS current, placards correct, manifest matches. @d.hooks please have the hazmat cage in Zone C prepped.",
+        "ts": "1776112200.000100",
+        "team": "T001",
+        "reply_count": 1,
+        "reply_users": [
+          "U004"
+        ],
+        "latest_reply": "1776114000.000200",
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U004",
+        "text": "Zone C hazmat cage is clear and ready. Fork with hazmat-rated attachment staged at Dock 4.",
+        "ts": "1776114000.000200",
+        "thread_ts": "1776112200.000100",
+        "parent_user_id": "U007",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U010",
+        "text": ":white_check_mark: *Hazmat Receipt Complete \u2014 REC-20260414-003*\n\nMeridian Lube delivery accepted at Dock 4 at 10:12 CST. All clear:\n\u2022 4 drums LB-55001-A2 received \u2014 exact count, Tier 0 condition (no leaks, no label damage)\n\u2022 UN1268 Class 3 placards correct on all 4 drums and on truck\n\u2022 SDS Rev 4 (02/15/2024) verified against our file copy \u2014 no change\n\u2022 Hazmat manifest signed and filed\n\u2022 Drums transferred to Zone C hazmat cage\n\nSOP Sec 17.1 check complete. No issues. @k.whitfield \u2014 you can close this receipt out.",
+        "ts": "1776186000.000300",
+        "team": "T001"
+      }
+    ],
+    "C007": [
+      {
+        "type": "message",
+        "user": "U010",
+        "text": ":calendar: *Dock Appointments \u2014 Week of April 14, 2026*\n\nMonday 04/14:\n\u2022 07:00 Dock 2 \u2014 Lakewood/XPO (AX/FG, SC, DTL) :warning:\n\u2022 08:00 Dock 1 \u2014 Hartwell/Old Dominion (BG/SL)\n\u2022 10:00 Dock 4 \u2014 Meridian Lube/local (*HAZMAT*) :biohazard_sign:\n\u2022 11:00 Dock 3 \u2014 Appalachian Seal/UPS (*NEW SUPPLIER*) :new:\n\nTuesday 04/15:\n\u2022 09:00 Dock 1 \u2014 Delta Metals/Estes (*OVERSIZE/HEAVY, crane required*) :crane:\n\nFull week view in dock_schedule.xlsx. Special handling flags are set \u2014 @d.hooks please confirm crane availability for Tuesday.",
+        "ts": "1776117600.000100",
+        "team": "T001",
+        "reply_count": 1,
+        "reply_users": [
+          "U004"
+        ],
+        "latest_reply": "1776119400.000200",
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U004",
+        "text": "Crane confirmed for Tuesday 08:45 at Dock 1. Operator Mike Stills. I need piece weight from Estes/Delta tonight \u2014 @c.wojciechowski can you get us the lift specs?",
+        "ts": "1776119400.000200",
+        "thread_ts": "1776117600.000100",
+        "parent_user_id": "U010",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U010",
+        "text": "Requested from Estes \u2014 will post here when I hear back.",
+        "ts": "1776120300.000300",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U010",
+        "text": "Got it from Estes \u2014 Delta Metals shipment: 3 lifts, heaviest piece ~2,200 lb. Mike has the sheet.",
+        "ts": "1776125700.000400",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U010",
+        "text": ":calendar: *Dock Update \u2014 Thursday April 23, 2026*\n\n\u2022 Dock 1 \u2014 GreatLakes/FedEx Freight ETA ~10:00 \u2014 12x TR-67801-D1 balance (MER-PO-104874). COC already received. Clean receipt expected.\n\u2022 Dock 1 \u2014 Delta Metals/Estes oversize still pending reschedule after crane ops from 04/15. Will update when confirmed.\n\nNo hazmat today. No new-supplier arrivals.",
+        "ts": "1776943800.000500",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": ":rotating_light: *No-Appointment Truck \u2014 09:47 \u2014 Yellow Freight*\nCarrier claiming delivery of TR-67801-D1 for PO MER-PO-104874 with no dock appointment. Held at dock entrance per SOP Sec 8.6 \u2014 *no bay door assigned, no unloading*. Carrier authorization status unverified. Investigation in progress. APPT-20260423-002 (FedEx Freight, same PO) still on schedule for today. Stand by for further direction. @d.hooks please keep Dock 1 clear until resolved.",
+        "ts": "1776960720.000600",
+        "team": "T001"
+      }
+    ],
+    "C008": [],
+    "C009": []
+  },
+  "counters": {
+    "messageId": 2000001,
+    "total_users": 11,
+    "total_channels": 9
+  }
+}

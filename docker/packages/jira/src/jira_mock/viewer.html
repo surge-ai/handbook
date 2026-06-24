@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Issues</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f8fafc; color: #1e293b; }
+
+  .header { background: #fff; border-bottom: 1px solid #e2e8f0; padding: 12px 24px; display: flex; align-items: center; gap: 16px; }
+  .header h1 { font-size: 18px; font-weight: 600; }
+  .header .tabs { display: flex; gap: 4px; margin-left: auto; }
+  .header .tab { padding: 6px 14px; border-radius: 6px; border: none; background: transparent; color: #64748b; font-size: 13px; font-weight: 500; cursor: pointer; }
+  .header .tab.active { background: #eff6ff; color: #2563eb; }
+  .header .tab:hover { background: #f1f5f9; }
+
+  .filters { padding: 12px 24px; display: flex; gap: 8px; background: #fff; border-bottom: 1px solid #e2e8f0; }
+  .filters select, .filters input { padding: 6px 10px; border: 1px solid #d1d5db; border-radius: 6px; font-size: 13px; background: #fff; }
+  .filters select:focus, .filters input:focus { outline: none; border-color: #3b82f6; box-shadow: 0 0 0 2px rgba(59,130,246,0.15); }
+
+  .issue-list { padding: 0 24px; }
+  .issue-row { display: grid; grid-template-columns: 100px 1fr 120px 100px 140px; gap: 12px; align-items: center; padding: 10px 0; border-bottom: 1px solid #f1f5f9; cursor: pointer; font-size: 13px; }
+  .issue-row:hover { background: #f8fafc; }
+  .issue-row .key { color: #3b82f6; font-weight: 600; font-size: 12px; }
+  .issue-row .summary { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .issue-row .meta { color: #64748b; font-size: 12px; }
+
+  .status { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.02em; }
+  .status.done, .status.closed, .status.resolved { background: #dcfce7; color: #166534; }
+  .status.in-progress, .status.in_progress, .status.active { background: #dbeafe; color: #1e40af; }
+  .status.todo, .status.open, .status.new, .status.to-do { background: #f1f5f9; color: #475569; }
+  .status.blocked { background: #fee2e2; color: #991b1b; }
+
+  .priority { font-size: 11px; }
+  .priority.highest, .priority.critical { color: #dc2626; }
+  .priority.high { color: #ea580c; }
+  .priority.medium { color: #d97706; }
+  .priority.low { color: #2563eb; }
+  .priority.lowest { color: #64748b; }
+
+  .type-badge { display: inline-block; padding: 1px 6px; border-radius: 3px; font-size: 10px; font-weight: 600; margin-right: 6px; }
+  .type-badge.bug { background: #fee2e2; color: #991b1b; }
+  .type-badge.story { background: #dcfce7; color: #166534; }
+  .type-badge.task { background: #dbeafe; color: #1e40af; }
+  .type-badge.epic { background: #f3e8ff; color: #6b21a8; }
+
+  .kanban { display: flex; gap: 16px; padding: 16px 24px; overflow-x: auto; height: calc(100vh - 110px); }
+  .kanban-col { min-width: 280px; max-width: 320px; flex: 1; background: #f1f5f9; border-radius: 10px; display: flex; flex-direction: column; }
+  .kanban-col-header { padding: 12px 14px; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #475569; display: flex; align-items: center; gap: 8px; }
+  .kanban-col-header .count { background: #cbd5e1; color: #334155; padding: 1px 7px; border-radius: 10px; font-size: 11px; }
+  .kanban-cards { flex: 1; overflow-y: auto; padding: 0 8px 8px; }
+  .kanban-card { background: #fff; border-radius: 8px; padding: 12px; margin-bottom: 8px; box-shadow: 0 1px 2px rgba(0,0,0,0.06); cursor: pointer; border: 1px solid #e2e8f0; }
+  .kanban-card:hover { border-color: #3b82f6; }
+  .kanban-card .card-key { font-size: 11px; color: #3b82f6; font-weight: 600; }
+  .kanban-card .card-summary { font-size: 13px; margin-top: 4px; line-height: 1.4; }
+  .kanban-card .card-meta { margin-top: 8px; display: flex; gap: 8px; align-items: center; font-size: 11px; color: #94a3b8; }
+
+  .detail-overlay { position: fixed; top: 0; right: 0; bottom: 0; width: 560px; background: #fff; box-shadow: -4px 0 20px rgba(0,0,0,0.1); z-index: 100; overflow-y: auto; transform: translateX(100%); transition: transform 0.2s ease; }
+  .detail-overlay.open { transform: translateX(0); }
+  .detail-header { padding: 20px 24px; border-bottom: 1px solid #e2e8f0; display: flex; justify-content: space-between; align-items: flex-start; }
+  .detail-header .close-btn { background: none; border: none; font-size: 20px; cursor: pointer; color: #94a3b8; padding: 4px; }
+  .detail-body { padding: 24px; }
+  .detail-body h2 { font-size: 18px; margin-bottom: 16px; line-height: 1.4; }
+  .detail-body .field { margin-bottom: 16px; }
+  .detail-body .field-label { font-size: 11px; font-weight: 600; text-transform: uppercase; color: #64748b; margin-bottom: 4px; letter-spacing: 0.04em; }
+  .detail-body .field-value { font-size: 14px; line-height: 1.5; }
+  .detail-body .field-value.description { white-space: pre-wrap; color: #475569; }
+  .detail-body .comments { margin-top: 24px; border-top: 1px solid #e2e8f0; padding-top: 16px; }
+  .detail-body .comment { margin-bottom: 16px; padding: 12px; background: #f8fafc; border-radius: 8px; }
+  .detail-body .comment .comment-author { font-size: 13px; font-weight: 600; }
+  .detail-body .comment .comment-date { font-size: 11px; color: #94a3b8; margin-left: 8px; }
+  .detail-body .comment .comment-body { font-size: 13px; margin-top: 6px; line-height: 1.5; color: #475569; white-space: pre-wrap; }
+
+  .backdrop { position: fixed; inset: 0; background: rgba(0,0,0,0.2); z-index: 99; display: none; }
+  .backdrop.open { display: block; }
+  .empty { text-align: center; padding: 60px 24px; color: #94a3b8; font-size: 14px; }
+</style>
+</head>
+<body>
+  <div class="header">
+    <h1>Issues</h1>
+    <div class="tabs">
+      <button class="tab active" data-view="list" onclick="setView('list')">List</button>
+      <button class="tab" data-view="kanban" onclick="setView('kanban')">Board</button>
+    </div>
+  </div>
+  <div class="filters">
+    <select id="filter-project" onchange="loadIssues()">
+      <option value="">All Projects</option>
+    </select>
+    <select id="filter-status" onchange="loadIssues()">
+      <option value="">All Statuses</option>
+    </select>
+    <input type="text" id="filter-search" placeholder="Search issues..." oninput="render()">
+  </div>
+
+  <div id="list-view" class="issue-list"></div>
+  <div id="kanban-view" class="kanban" style="display:none"></div>
+
+  <div id="backdrop" class="backdrop" onclick="closeDetail()"></div>
+  <div id="detail-panel" class="detail-overlay">
+    <div class="detail-header">
+      <div id="detail-key" style="font-size:13px;color:#3b82f6;font-weight:600"></div>
+      <button class="close-btn" onclick="closeDetail()">&times;</button>
+    </div>
+    <div class="detail-body" id="detail-body"></div>
+  </div>
+
+  <script>
+    let allIssues = [];
+    let currentView = 'list';
+    const base = window.location.pathname.replace(/\/$/, '');
+
+    async function fetchJSON(path) {
+      const response = await fetch(base + path);
+      if (!response.ok) throw new Error(path + ' returned ' + response.status);
+      return response.json();
+    }
+
+    async function init() {
+      const [projectData, statusData] = await Promise.all([
+        fetchJSON('/api/projects'),
+        fetchJSON('/api/statuses'),
+      ]);
+      const projectSelect = document.getElementById('filter-project');
+      projectData.projects.forEach(project => {
+        const option = document.createElement('option');
+        option.value = project.key;
+        option.textContent = project.name + ' (' + project.key + ')';
+        projectSelect.appendChild(option);
+      });
+      const statusSelect = document.getElementById('filter-status');
+      statusData.statuses.forEach(status => {
+        const option = document.createElement('option');
+        option.value = status;
+        option.textContent = status;
+        statusSelect.appendChild(option);
+      });
+      await loadIssues();
+    }
+
+    async function loadIssues() {
+      const project = document.getElementById('filter-project').value;
+      const status = document.getElementById('filter-status').value;
+      const params = new URLSearchParams();
+      if (project) params.set('project', project);
+      if (status) params.set('status', status);
+      const query = params.toString();
+      const data = await fetchJSON('/api/issues' + (query ? '?' + query : ''));
+      allIssues = data.issues || [];
+      render();
+    }
+
+    function getFiltered() {
+      const search = document.getElementById('filter-search').value.toLowerCase();
+      if (!search) return allIssues;
+      return allIssues.filter(issue =>
+        issue.key.toLowerCase().includes(search) ||
+        issue.summary.toLowerCase().includes(search) ||
+        issue.assignee.toLowerCase().includes(search)
+      );
+    }
+
+    function render() {
+      if (currentView === 'list') renderList();
+      else renderKanban();
+    }
+
+    function renderList() {
+      const issues = getFiltered();
+      const el = document.getElementById('list-view');
+      if (!issues.length) {
+        el.innerHTML = '<div class="empty">No issues found</div>';
+        return;
+      }
+      el.innerHTML = issues.map(issue => `
+        <div class="issue-row" onclick="showDetail('${escAttr(issue.key)}')">
+          <div><span class="type-badge ${cssClass(issue.type)}">${esc(issue.type)}</span><span class="key">${esc(issue.key)}</span>${attachIndicator(issue)}</div>
+          <div class="summary">${esc(issue.summary)}</div>
+          <div><span class="status ${cssClass(issue.status)}">${esc(issue.status)}</span></div>
+          <div class="priority ${cssClass(issue.priority)}">${esc(issue.priority)}</div>
+          <div class="meta">${esc(issue.assignee)}</div>
+        </div>
+      `).join('');
+    }
+
+    function renderKanban() {
+      const issues = getFiltered();
+      const groups = {};
+      issues.forEach(issue => {
+        if (!groups[issue.status]) groups[issue.status] = [];
+        groups[issue.status].push(issue);
+      });
+      const order = ['To Do', 'Open', 'New', 'In Progress', 'In Review', 'Done', 'Closed', 'Resolved'];
+      const cols = Object.keys(groups).sort((a, b) => {
+        const ai = order.findIndex(item => item.toLowerCase() === a.toLowerCase());
+        const bi = order.findIndex(item => item.toLowerCase() === b.toLowerCase());
+        return (ai === -1 ? 999 : ai) - (bi === -1 ? 999 : bi);
+      });
+      const el = document.getElementById('kanban-view');
+      if (!cols.length) {
+        el.innerHTML = '<div class="empty">No issues found</div>';
+        return;
+      }
+      el.innerHTML = cols.map(status => `
+        <div class="kanban-col">
+          <div class="kanban-col-header">
+            <span>${esc(status)}</span>
+            <span class="count">${groups[status].length}</span>
+          </div>
+          <div class="kanban-cards">
+            ${groups[status].map(issue => `
+              <div class="kanban-card" onclick="showDetail('${escAttr(issue.key)}')">
+                <div class="card-key">${esc(issue.key)}${attachIndicator(issue)}</div>
+                <div class="card-summary">${esc(issue.summary)}</div>
+                <div class="card-meta">
+                  <span class="type-badge ${cssClass(issue.type)}" style="margin:0">${esc(issue.type)}</span>
+                  <span class="priority ${cssClass(issue.priority)}">${esc(issue.priority)}</span>
+                  <span style="margin-left:auto">${esc(initials(issue.assignee))}</span>
+                </div>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+      `).join('');
+    }
+
+    function setView(view) {
+      currentView = view;
+      document.getElementById('list-view').style.display = view === 'list' ? '' : 'none';
+      document.getElementById('kanban-view').style.display = view === 'kanban' ? '' : 'none';
+      document.querySelectorAll('.tab').forEach(tab => {
+        tab.classList.toggle('active', tab.dataset.view === view);
+      });
+      render();
+    }
+
+    async function showDetail(key) {
+      const data = await fetchJSON('/api/issues/' + encodeURIComponent(key));
+      const issue = data.issue;
+      document.getElementById('detail-key').textContent = issue.key;
+      let html = '<h2>' + esc(issue.summary) + '</h2>';
+      html += field('Status', '<span class="status ' + cssClass(issue.status) + '">' + esc(issue.status) + '</span>');
+      html += field('Type', esc(issue.type));
+      html += field('Priority', '<span class="priority ' + cssClass(issue.priority) + '">' + esc(issue.priority) + '</span>');
+      html += field('Assignee', esc(issue.assignee));
+      html += field('Reporter', esc(issue.reporter));
+      if (issue.labels && issue.labels.length) html += field('Labels', esc(issue.labels.join(', ')));
+      if (issue.description) html += field('Description', '<div class="field-value description">' + esc(issue.description) + '</div>', true);
+      if (issue.links && issue.links.length) {
+        html += field('Links', issue.links.map(link =>
+          '<div style="font-size:13px;margin-bottom:4px">' + esc(link.type) +
+          ' <span style="color:#3b82f6;cursor:pointer" onclick="showDetail(\'' + escAttr(link.key) + '\')">' + esc(link.key) + '</span> ' +
+          esc(link.summary || '') + '</div>'
+        ).join(''), true);
+      }
+      if (issue.attachments && issue.attachments.length) {
+        html += field('Attachments', issue.attachments.map(a =>
+          '<span style="display:inline-block;padding:4px 10px;margin:0 6px 4px 0;background:#f1f5f9;border-radius:6px;font-size:12px">📎 ' +
+          esc(a.filename) + ' <span style="color:#94a3b8">(' + fmtBytes(a.size) + ')</span></span>'
+        ).join(''), true);
+      }
+      if (data.comments && data.comments.length) {
+        html += '<div class="comments"><div class="field-label">Comments (' + data.comments.length + ')</div>';
+        data.comments.forEach(comment => {
+          html += '<div class="comment"><span class="comment-author">' + esc(comment.author) + '</span><span class="comment-date">' + formatDate(comment.created) + '</span><div class="comment-body">' + esc(comment.body) + '</div></div>';
+        });
+        html += '</div>';
+      }
+      document.getElementById('detail-body').innerHTML = html;
+      document.getElementById('detail-panel').classList.add('open');
+      document.getElementById('backdrop').classList.add('open');
+    }
+
+    function closeDetail() {
+      document.getElementById('detail-panel').classList.remove('open');
+      document.getElementById('backdrop').classList.remove('open');
+    }
+
+    function field(label, value, raw) {
+      return '<div class="field"><div class="field-label">' + esc(label) + '</div>' + (raw ? value : '<div class="field-value">' + value + '</div>') + '</div>';
+    }
+
+    function fmtBytes(n) {
+      n = Number(n) || 0;
+      if (n < 1024) return n + ' B';
+      if (n < 1048576) return (n / 1024).toFixed(1) + ' KB';
+      return (n / 1048576).toFixed(1) + ' MB';
+    }
+
+    function attachIndicator(issue) {
+      const count = issue.attachmentCount || 0;
+      if (!count) return '';
+      return ' <span title="' + count + ' attachment' + (count > 1 ? 's' : '') +
+        '" style="font-size:12px;color:#64748b">📎' + (count > 1 ? count : '') + '</span>';
+    }
+
+    function esc(value) {
+      if (value === null || value === undefined) return '';
+      const node = document.createElement('div');
+      node.textContent = String(value);
+      return node.innerHTML;
+    }
+
+    function escAttr(value) {
+      return String(value || '').replace(/\\/g, '\\\\').replace(/'/g, "\\'");
+    }
+
+    function cssClass(value) {
+      return String(value || '').toLowerCase().replace(/\s+/g, '-');
+    }
+
+    function initials(name) {
+      if (!name || name === 'Unassigned') return '?';
+      return name.split(' ').map(word => word[0]).join('').toUpperCase().slice(0, 2);
+    }
+
+    function formatDate(value) {
+      if (!value) return '';
+      try { return new Date(value).toLocaleDateString(); } catch { return value; }
+    }
+
+    init().catch(error => {
+      document.getElementById('list-view').innerHTML = '<div class="empty">' + esc(error.message) + '</div>';
+    });
+  </script>
+</body>
+</html>

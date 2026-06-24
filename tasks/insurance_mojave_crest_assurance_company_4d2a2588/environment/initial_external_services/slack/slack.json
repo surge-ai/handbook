@@ -1,0 +1,695 @@
+{
+  "users": {
+    "U001": {
+      "id": "U001",
+      "team_id": "TMCA",
+      "name": "jordan.mills",
+      "deleted": false,
+      "real_name": "Jordan Mills",
+      "profile": {
+        "real_name": "Jordan Mills",
+        "display_name": "jordanm",
+        "email": "jordan.mills@mojavecrest.com",
+        "title": "Appeals & Grievances Coordinator"
+      },
+      "is_admin": false,
+      "is_bot": false
+    },
+    "U002": {
+      "id": "U002",
+      "team_id": "TMCA",
+      "name": "darnell.whitfield",
+      "deleted": false,
+      "real_name": "Darnell Whitfield",
+      "profile": {
+        "real_name": "Darnell Whitfield",
+        "display_name": "dwhitfield",
+        "email": "d.whitfield@mojavecrest.com",
+        "title": "Appeals Supervisor"
+      },
+      "is_admin": true,
+      "is_bot": false
+    },
+    "U003": {
+      "id": "U003",
+      "team_id": "TMCA",
+      "name": "priya.annadurai",
+      "deleted": false,
+      "real_name": "Priya Annadurai",
+      "profile": {
+        "real_name": "Priya Annadurai",
+        "display_name": "pannadurai",
+        "email": "p.annadurai@mojavecrest.com",
+        "title": "Senior Appeals Coordinator"
+      },
+      "is_admin": false,
+      "is_bot": false
+    },
+    "U004": {
+      "id": "U004",
+      "team_id": "TMCA",
+      "name": "marisol.alvarado",
+      "deleted": false,
+      "real_name": "Marisol Alvarado",
+      "profile": {
+        "real_name": "Marisol Alvarado",
+        "display_name": "malvarado",
+        "email": "m.alvarado@mojavecrest.com",
+        "title": "Lead RN Reviewer"
+      },
+      "is_admin": false,
+      "is_bot": false
+    },
+    "U005": {
+      "id": "U005",
+      "team_id": "TMCA",
+      "name": "ayla.ontario",
+      "deleted": false,
+      "real_name": "Dr. Ayla Ontario",
+      "profile": {
+        "real_name": "Dr. Ayla Ontario",
+        "display_name": "aontario",
+        "email": "a.ontario@mojavecrest.com",
+        "title": "Medical Director, Behavioral Health / Parity Review Committee Chair"
+      },
+      "is_admin": false,
+      "is_bot": false
+    },
+    "U006": {
+      "id": "U006",
+      "team_id": "TMCA",
+      "name": "kendel.dufree",
+      "deleted": false,
+      "real_name": "Kendel Dufree",
+      "profile": {
+        "real_name": "Kendel Dufree",
+        "display_name": "kdufree",
+        "email": "k.dufree@mojavecrest.com",
+        "title": "Compliance Officer"
+      },
+      "is_admin": false,
+      "is_bot": false
+    },
+    "U007": {
+      "id": "U007",
+      "team_id": "TMCA",
+      "name": "helena.bergstrom",
+      "deleted": false,
+      "real_name": "Dr. Helena Bergstrom",
+      "profile": {
+        "real_name": "Dr. Helena Bergstrom",
+        "display_name": "hbergstrom",
+        "email": "h.bergstrom@mojavecrest.com",
+        "title": "Medical Director, Medical/Surgical"
+      },
+      "is_admin": false,
+      "is_bot": false
+    },
+    "U008": {
+      "id": "U008",
+      "team_id": "TMCA",
+      "name": "parity.committee",
+      "deleted": false,
+      "real_name": "Parity Review Committee",
+      "profile": {
+        "real_name": "Parity Review Committee",
+        "display_name": "parity-committee",
+        "email": "parity@mojavecrest.com",
+        "title": "Parity Review Committee \u2014 Chaired by Dr. Ontario"
+      },
+      "is_admin": false,
+      "is_bot": false
+    },
+    "U009": {
+      "id": "U009",
+      "team_id": "TMCA",
+      "name": "tamra.reyes",
+      "deleted": false,
+      "real_name": "Tamra Reyes",
+      "profile": {
+        "real_name": "Tamra Reyes",
+        "display_name": "treyes",
+        "email": "t.reyes@mojavecrest.com",
+        "title": "Director, Appeals & Grievances"
+      },
+      "is_admin": true,
+      "is_bot": false
+    },
+    "U010": {
+      "id": "U010",
+      "team_id": "TMCA",
+      "name": "jules.henning",
+      "deleted": false,
+      "real_name": "Dr. Jules Henning",
+      "profile": {
+        "real_name": "Dr. Jules Henning",
+        "display_name": "jhenning",
+        "email": "j.henning@mojavecrest.com",
+        "title": "Pharmacy Director"
+      },
+      "is_admin": false,
+      "is_bot": false
+    }
+  },
+  "channels": {
+    "C001": {
+      "id": "C001",
+      "name": "appeals-intake",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1735689600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "appeals-intake",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "TMCA",
+      "updated": 1735689600,
+      "creator": "U002",
+      "shared_team_ids": [
+        "TMCA"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "New case logging, general unit announcements, routing questions",
+        "creator": "U002",
+        "last_set": 1735689600
+      },
+      "purpose": {
+        "value": "For logging new appeals cases and general Appeals unit announcements. Do NOT post PHI.",
+        "creator": "U002",
+        "last_set": 1735689600
+      }
+    },
+    "C002": {
+      "id": "C002",
+      "name": "appeals-clinical-queue",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1735689600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "appeals-clinical-queue",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "TMCA",
+      "updated": 1735689600,
+      "creator": "U002",
+      "shared_team_ids": [
+        "TMCA"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Routing cases to RN Reviewer and Medical Director teams",
+        "creator": "U002",
+        "last_set": 1735689600
+      },
+      "purpose": {
+        "value": "Post Format B-1 clinical routing messages here for standard cases. No PHI.",
+        "creator": "U002",
+        "last_set": 1735689600
+      }
+    },
+    "C003": {
+      "id": "C003",
+      "name": "appeals-urgent",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1735689600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "appeals-urgent",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "TMCA",
+      "updated": 1735689600,
+      "creator": "U002",
+      "shared_team_ids": [
+        "TMCA"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Expedited cases, deadline alerts, CAT-level compliance events",
+        "creator": "U002",
+        "last_set": 1735689600
+      },
+      "purpose": {
+        "value": "URGENT matters only. Expedited cases, imminent deadlines, compliance escalations.",
+        "creator": "U002",
+        "last_set": 1735689600
+      }
+    },
+    "C004": {
+      "id": "C004",
+      "name": "appeals-parity",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1735689600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "appeals-parity",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "TMCA",
+      "updated": 1735689600,
+      "creator": "U002",
+      "shared_team_ids": [
+        "TMCA"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Mental health parity compliance \u2014 general team discussion. No member PHI in this channel.",
+        "creator": "U002",
+        "last_set": 1735689600
+      },
+      "purpose": {
+        "value": "For general discussion about MHPAEA compliance, policy updates, and team training. No member PHI.",
+        "creator": "U002",
+        "last_set": 1735689600
+      }
+    },
+    "C005": {
+      "id": "C005",
+      "name": "appeals-compliance",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1735689600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "appeals-compliance",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "TMCA",
+      "updated": 1735689600,
+      "creator": "U002",
+      "shared_team_ids": [
+        "TMCA"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Regulatory complaints, DOI notifications, audit requests, deemed exhausted events",
+        "creator": "U002",
+        "last_set": 1735689600
+      },
+      "purpose": {
+        "value": "Compliance event notifications (Format B-4). Do NOT post suspected fraud flags here \u2014 use DM to @kdufree instead.",
+        "creator": "U002",
+        "last_set": 1735689600
+      }
+    },
+    "C006": {
+      "id": "C006",
+      "name": "appeals-general",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1735689600,
+      "is_archived": false,
+      "is_general": true,
+      "unlinked": 0,
+      "name_normalized": "appeals-general",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "TMCA",
+      "updated": 1735689600,
+      "creator": "U002",
+      "shared_team_ids": [
+        "TMCA"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "General questions, kudos, non-case discussion",
+        "creator": "U002",
+        "last_set": 1735689600
+      },
+      "purpose": {
+        "value": "General team channel. MCA holiday schedule posted here each December.",
+        "creator": "U002",
+        "last_set": 1735689600
+      }
+    },
+    "D001": {
+      "id": "D001",
+      "name": "DM-jordan-darnell",
+      "is_channel": false,
+      "is_group": false,
+      "is_im": true,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1767225600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "DM-jordan-darnell",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "TMCA",
+      "updated": 1767225600,
+      "creator": "U001",
+      "shared_team_ids": [
+        "TMCA"
+      ],
+      "is_member": true,
+      "members": [
+        "U001",
+        "U002"
+      ],
+      "user": "U002"
+    },
+    "D002": {
+      "id": "D002",
+      "name": "DM-jordan-priya",
+      "is_channel": false,
+      "is_group": false,
+      "is_im": true,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1767225600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "DM-jordan-priya",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "TMCA",
+      "updated": 1767225600,
+      "creator": "U001",
+      "shared_team_ids": [
+        "TMCA"
+      ],
+      "is_member": true,
+      "members": [
+        "U001",
+        "U003"
+      ],
+      "user": "U003"
+    },
+    "D003": {
+      "id": "D003",
+      "name": "DM-jordan-kdufree",
+      "is_channel": false,
+      "is_group": false,
+      "is_im": true,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1767225600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "DM-jordan-kdufree",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "TMCA",
+      "updated": 1767225600,
+      "creator": "U001",
+      "shared_team_ids": [
+        "TMCA"
+      ],
+      "is_member": true,
+      "members": [
+        "U001",
+        "U006"
+      ],
+      "user": "U006"
+    },
+    "D004": {
+      "id": "D004",
+      "name": "DM-jordan-parity-committee",
+      "is_channel": false,
+      "is_group": false,
+      "is_im": true,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1767225600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "DM-jordan-parity-committee",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "TMCA",
+      "updated": 1767225600,
+      "creator": "U001",
+      "shared_team_ids": [
+        "TMCA"
+      ],
+      "is_member": true,
+      "members": [
+        "U001",
+        "U008"
+      ],
+      "user": "U008"
+    }
+  },
+  "messages": {
+    "C001": [
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Good morning team \u2014 CASE-2026-00437 in queue, post-service standard, Oct 14 receipt. Ack sent. Routing to @malvarado for clinical review.",
+        "ts": "1792000800.000100",
+        "team": "TMCA",
+        "reply_count": 1,
+        "latest_reply": "1792004400.000200",
+        "reply_users": [
+          "U004"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U004",
+        "text": "Got it \u2014 have the case file. Will start review this week.",
+        "ts": "1792004400.000200",
+        "team": "TMCA",
+        "thread_ts": "1792000800.000100",
+        "parent_user_id": "U001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "CASE-2026-00391 closed \u2014 overturn. Determination letter sent 9/28. Closing in log.",
+        "ts": "1793060000.000300",
+        "team": "TMCA"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "CASE-2026-00414 closed \u2014 grievance resolved without action. Template A-10 sent 10/9.",
+        "ts": "1793318400.000400",
+        "team": "TMCA"
+      }
+    ],
+    "C002": [
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "CLINICAL ROUTING\nCase #: CASE-2026-00437\nType: Post-Service Standard\nService Classification: Medical/Surgical\nStandard of Review: Medical Necessity\nDeadline: 2026-12-13\nParity Flag: NO\nCase Folder: /appeals/CASE-2026-00437/",
+        "ts": "1792001100.000100",
+        "team": "TMCA",
+        "reply_count": 1,
+        "latest_reply": "1792001220.000200",
+        "reply_users": [
+          "U004"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U004",
+        "text": "Picked up CASE-2026-00437. Will start clinical review this week.",
+        "ts": "1792001220.000200",
+        "team": "TMCA",
+        "thread_ts": "1792001100.000100",
+        "parent_user_id": "U001"
+      }
+    ],
+    "C003": [],
+    "C004": [
+      {
+        "type": "message",
+        "user": "U005",
+        "text": "Hey team \u2014 just a reminder that the parity training session is coming up on November 18. It is on the shared calendar. All coordinators are expected to attend. Let me know if there are scheduling conflicts.",
+        "ts": "1792627200.000100",
+        "team": "TMCA",
+        "reply_count": 1,
+        "latest_reply": "1792627380.000200",
+        "reply_users": [
+          "U003"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "Thanks for the heads-up, Dr. Ontario.",
+        "ts": "1792627380.000200",
+        "team": "TMCA",
+        "thread_ts": "1792627200.000100",
+        "parent_user_id": "U005"
+      }
+    ],
+    "C005": [
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "COMPLIANCE EVENT\nCase #: CASE-2026-00389\nEvent Type: Miscategorization\nDate of Event: 2026-09-10\nDiscovered: 2026-09-10 14:30\nSummary: Case initially classified as Post-Service Standard; on supervisor review determined to be Pre-Service Expedited. Clock recalculated. No deadline missed.\nImmediate Actions Taken: Case reclassified, clock corrected, supervisor notified. File updated.\nCase Folder: /appeals/CASE-2026-00389/",
+        "ts": "1789075800.000100",
+        "team": "TMCA",
+        "reply_count": 1,
+        "latest_reply": "1789079400.000200",
+        "reply_users": [
+          "U006"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U006",
+        "text": "Noted and logged. Good catch \u2014 document the reclassification in the case file and confirm the corrected deadline with @dwhitfield.",
+        "ts": "1789079400.000200",
+        "team": "TMCA",
+        "thread_ts": "1789075800.000100",
+        "parent_user_id": "U001"
+      }
+    ],
+    "C006": [
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Reminder: MCA observed holidays for 2026 are posted in the pinned doc in this channel. Thanksgiving is on November 26.",
+        "ts": "1793145600.000100",
+        "team": "TMCA",
+        "reply_count": 1,
+        "latest_reply": "1793145720.000200",
+        "reply_users": [
+          "U003"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "Thanks for the reminder. Also: next team training on parity assessment is scheduled for November 18.",
+        "ts": "1793145720.000200",
+        "team": "TMCA",
+        "thread_ts": "1793145600.000100",
+        "parent_user_id": "U002"
+      },
+      {
+        "type": "message",
+        "user": "U009",
+        "text": "FYI all \u2014 Nevada DOI has issued draft bulletin NV-2026-07 on MHPAEA documentation requirements. It's in comment period through December 15. No action required from coordinators at this time \u2014 Compliance is tracking. Will brief the team when final.",
+        "ts": "1793318400.000300",
+        "team": "TMCA",
+        "reply_count": 1,
+        "latest_reply": "1793318520.000400",
+        "reply_users": [
+          "U006"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U006",
+        "text": "Confirmed \u2014 Compliance is monitoring. No changes to current procedures until further notice. @treyes will send a unit-wide update once the bulletin is finalized.",
+        "ts": "1793318520.000400",
+        "team": "TMCA",
+        "thread_ts": "1793318400.000300",
+        "parent_user_id": "U009"
+      }
+    ],
+    "D001": [
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Hey Darnell \u2014 quick question on CASE-2026-00402. It's a benefit exclusion, $22,800. I know admin/exclusion cases don't need clinical review, but should I still loop in @hbergstrom given the member's medical necessity framing?",
+        "ts": "1791849600.000100",
+        "team": "TMCA",
+        "reply_count": 1,
+        "latest_reply": "1791849720.000200",
+        "reply_users": [
+          "U002"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Sounds right to me \u2014 draft the letter and I will co-sign. No need to loop in clinical for 00402.",
+        "ts": "1791849720.000200",
+        "team": "TMCA",
+        "thread_ts": "1791849600.000100",
+        "parent_user_id": "U001"
+      }
+    ],
+    "D002": [],
+    "D003": [],
+    "D004": []
+  },
+  "counters": {
+    "messageId": 1000000
+  }
+}

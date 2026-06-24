@@ -1,0 +1,144 @@
+{
+  "events": {
+    "evt-R1": {
+      "id": "evt-R1",
+      "summary": "Great Lakes Regional Sales Conference \u2014 Chicago",
+      "start": {
+        "dateTime": "2026-10-02T08:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-10-04T18:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "location": "Marriott Chicago Magnificent Mile, 540 N Michigan Ave, Chicago, IL",
+      "description": "Annual Great Lakes Regional Sales Conference. All West Region AEs expected to attend.\n\nOrganizer: peter.kim@vanguardshield.com\nAttendees: r.okonkwo@vanguardshield.com, k.osei@vanguardshield.com, r.torres@vanguardshield.com\nRecurring: No"
+    },
+    "evt-R2": {
+      "id": "evt-R2",
+      "summary": "Client Meeting \u2014 Hartwell Group HQ",
+      "start": {
+        "dateTime": "2026-10-05T12:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-05T13:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "location": "Hartwell Group HQ, 200 State St, Boston, MA",
+      "description": "Quarterly account review with Hartwell Group procurement team.\n\nOrganizer: r.okonkwo@vanguardshield.com\nAttendees: r.okonkwo@vanguardshield.com, hartwell.procurement@hartwellgroup.com"
+    },
+    "evt-D1": {
+      "id": "evt-D1",
+      "summary": "Midwest Sales Team Kickoff \u2014 Detroit",
+      "start": {
+        "dateTime": "2026-10-01T09:00:00-04:00",
+        "timeZone": "America/Detroit"
+      },
+      "end": {
+        "dateTime": "2026-10-02T17:00:00-04:00",
+        "timeZone": "America/Detroit"
+      },
+      "location": "Westin Book Cadillac Detroit, 1114 Washington Blvd, Detroit, MI",
+      "description": "Q4 Midwest sales team strategy kickoff. Two-day offsite event.\n\nOrganizer: d.huang@vanguardshield.com\nAttendees: d.huang@vanguardshield.com, m.bassett@vanguardshield.com, t.chen@vanguardshield.com, a.reyes@vanguardshield.com"
+    },
+    "evt-D2": {
+      "id": "evt-D2",
+      "summary": "Client Meeting \u2014 Nexus Corp HQ",
+      "start": {
+        "dateTime": "2026-10-05T11:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-05T13:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "location": "Nexus Corp HQ, 1 Nexus Plaza, Columbus, OH",
+      "description": "Q4 pipeline review with Nexus Corp account team. Working lunch.\n\nOrganizer: d.huang@vanguardshield.com\nAttendees: d.huang@vanguardshield.com, nexus.procurement@nexuscorp.com"
+    },
+    "evt-V1": {
+      "id": "evt-V1",
+      "summary": "Client Meeting \u2014 Pinnacle Group Quarterly Review",
+      "start": {
+        "dateTime": "2026-10-05T12:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-05T13:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "location": "Foundry Bistro Hartford, 55 Asylum St, Hartford, CT",
+      "description": "Quarterly business review with Pinnacle Group team. Lunch meeting.\n\nOrganizer: v.frost@vanguardshield.com\nAttendees: v.frost@vanguardshield.com, pinnacle.team@pinnaclegroup.com"
+    },
+    "evt-V2": {
+      "id": "evt-V2",
+      "summary": "Client Dinner \u2014 Meridian Solutions Account Team",
+      "start": {
+        "dateTime": "2026-10-06T18:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-06T20:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "location": "The Capital Grille Hartford, 230 Trumbull St, Hartford, CT",
+      "description": "New account dinner with Meridian Solutions procurement and finance leads.\n\nOrganizer: v.frost@vanguardshield.com\nAttendees: v.frost@vanguardshield.com, mharris@vanguardshield.com (optional), meridian.team@meridiansolutions.com"
+    },
+    "evt-V3": {
+      "id": "evt-V3",
+      "summary": "Sales East Region \u2014 Team Lunch",
+      "start": {
+        "dateTime": "2026-10-07T12:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-07T13:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "location": "Harvest Kitchen Hartford, 88 Pratt St, Hartford, CT",
+      "description": "Weekly East Region sales team lunch. Internal agenda: pipeline review and forecast update.\n\nOrganizer: mharris@vanguardshield.com\nAttendees: v.frost@vanguardshield.com, mharris@vanguardshield.com, t.nguyen@vanguardshield.com, s.okafor@vanguardshield.com"
+    },
+    "evt-A1": {
+      "id": "evt-A1",
+      "summary": "Sales Ops & HR \u2014 T&E Weekly Standup",
+      "start": {
+        "dateTime": "2026-10-08T14:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-08T14:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "location": "Teams \u2014 HR Ops channel",
+      "description": "Weekly standup: T&E batch status, any escalations, HR-Ops queue review.\n\nOrganizer: j.morales@vanguardshield.com\nAttendees: analyst@vanguardshield.com, j.morales@vanguardshield.com, hr.intake@vanguardshield.com"
+    },
+    "evt-DIST1": {
+      "id": "evt-DIST1",
+      "summary": "Q4 Sales Planning \u2014 All Hands",
+      "start": {
+        "dateTime": "2026-10-06T15:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-06T16:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "location": "Teams \u2014 Sales All Hands",
+      "description": "Company-wide Q4 sales planning call. Territory and quota updates from VP Sales.\n\nOrganizer: l.williams@vanguardshield.com\nAttendees: all-sales@vanguardshield.com"
+    },
+    "evt-A2": {
+      "id": "evt-A2",
+      "summary": "1:1 with J. Morales",
+      "start": {
+        "dateTime": "2026-10-09T10:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-10-09T10:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "location": "J. Morales office",
+      "description": "Biweekly check-in.\n\nOrganizer: j.morales@vanguardshield.com\nAttendees: analyst@vanguardshield.com, j.morales@vanguardshield.com\nRecurring: Yes (biweekly)"
+    }
+  }
+}

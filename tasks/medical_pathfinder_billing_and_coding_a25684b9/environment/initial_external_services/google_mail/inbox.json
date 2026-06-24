@@ -1,0 +1,20 @@
+{
+  "mailbox": {
+    "email": "alex.rivera@pathfinder.med",
+    "name": "Alex Rivera"
+  },
+  "contacts": [
+    { "email": "catherine.lawson@pathfinder.med", "name": "Catherine Lawson" },
+    { "email": "sarah.mitchell@pathfinder.med",   "name": "Sarah Mitchell" },
+    { "email": "david.nguyen@pathfinder.med",     "name": "David Nguyen" },
+    { "email": "marcus.thompson@pathfinder.med",  "name": "Marcus Thompson" },
+    { "email": "jessica.alvarez@pathfinder.med",  "name": "Jessica Alvarez" },
+    { "email": "lauren.patel@pathfinder.med",     "name": "Lauren Patel" },
+    { "email": "kevin.obrien@pathfinder.med",     "name": "Kevin O'Brien" },
+    { "email": "natalie.simmons@pathfinder.med",  "name": "Natalie Simmons" },
+    { "email": "brian.caldwell@pathfinder.med",   "name": "Brian Caldwell" }
+  ],
+  "folders": [],
+  "emails": [],
+  "next_email_id": 1
+}

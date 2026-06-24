@@ -1,0 +1,316 @@
+{
+  "events": {
+    "evt-001": {
+      "summary": "Waco Transfer \u2014 Manifest 2026-04-03-001",
+      "start": {
+        "dateTime": "2026-04-03T09:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-03T11:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "id": "evt-001"
+    },
+    "evt-002": {
+      "summary": "Weekly Expiry Review",
+      "start": {
+        "dateTime": "2026-04-03T08:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-03T09:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "id": "evt-002"
+    },
+    "evt-003": {
+      "summary": "PKG-01 Gulf Coast Packaging \u2014 Scheduled Delivery",
+      "start": {
+        "dateTime": "2026-04-07T10:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-07T11:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "id": "evt-003"
+    },
+    "evt-004": {
+      "summary": "Waco Transfer \u2014 Manifest 2026-04-08-001",
+      "start": {
+        "dateTime": "2026-04-08T08:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-08T10:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "id": "evt-004"
+    },
+    "evt-005": {
+      "summary": "Weekly Claims Review",
+      "start": {
+        "dateTime": "2026-04-10T14:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-10T14:30:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "id": "evt-005"
+    },
+    "evt-006": {
+      "summary": "Waco Transfer \u2014 Manifest 2026-04-10-001",
+      "start": {
+        "dateTime": "2026-04-10T09:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-10T11:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "id": "evt-006"
+    },
+    "evt-007": {
+      "summary": "Weekly Expiry Review",
+      "start": {
+        "dateTime": "2026-04-10T08:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-10T09:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "id": "evt-007"
+    },
+    "evt-008": {
+      "summary": "Waco Transfer \u2014 Manifest 2026-04-13-001",
+      "start": {
+        "dateTime": "2026-04-13T09:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-13T11:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "id": "evt-008"
+    },
+    "evt-009": {
+      "summary": "PKG-01 Gulf Coast Packaging \u2014 PO-54780",
+      "start": {
+        "dateTime": "2026-04-14T10:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-14T11:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "id": "evt-009"
+    },
+    "evt-010": {
+      "summary": "DRY-02 Lone Star Toppings \u2014 Scheduled Delivery",
+      "start": {
+        "dateTime": "2026-04-15T10:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-15T11:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "id": "evt-010"
+    },
+    "evt-011": {
+      "summary": "PAL-01 TexPal Logistics \u2014 Bi-Weekly Delivery",
+      "start": {
+        "dateTime": "2026-04-15T13:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-15T14:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "id": "evt-011"
+    },
+    "evt-012": {
+      "summary": "PKG-02 Southern Wrap Co. \u2014 Scheduled Delivery",
+      "start": {
+        "dateTime": "2026-04-16T10:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-16T11:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "id": "evt-012"
+    },
+    "evt-013": {
+      "summary": "CLN-01 CleanPro Industrial \u2014 Scheduled Delivery",
+      "start": {
+        "dateTime": "2026-04-17T10:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-17T11:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "id": "evt-013"
+    },
+    "evt-014": {
+      "summary": "Weekly Claims Review",
+      "start": {
+        "dateTime": "2026-04-17T14:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-17T14:30:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "id": "evt-014"
+    },
+    "evt-015": {
+      "summary": "Weekly Expiry Review",
+      "start": {
+        "dateTime": "2026-04-17T08:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-17T09:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "id": "evt-015"
+    },
+    "evt-016": {
+      "summary": "DRY-01 Heartland Bakery Supply \u2014 Scheduled Delivery",
+      "start": {
+        "dateTime": "2026-04-20T10:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-20T11:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "id": "evt-016"
+    },
+    "evt-017": {
+      "summary": "PKG-01 Gulf Coast Packaging \u2014 Scheduled Delivery",
+      "start": {
+        "dateTime": "2026-04-21T10:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-21T11:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "id": "evt-017"
+    },
+    "evt-018": {
+      "summary": "DRY-02 Lone Star Toppings \u2014 Scheduled Delivery",
+      "start": {
+        "dateTime": "2026-04-22T10:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-22T11:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "id": "evt-018"
+    },
+    "evt-019": {
+      "summary": "PKG-02 Southern Wrap Co. \u2014 Scheduled Delivery",
+      "start": {
+        "dateTime": "2026-04-23T10:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-23T11:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "id": "evt-019"
+    },
+    "evt-020": {
+      "summary": "CLN-01 CleanPro Industrial \u2014 Scheduled Delivery",
+      "start": {
+        "dateTime": "2026-04-24T10:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-24T11:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "id": "evt-020"
+    },
+    "evt-021": {
+      "summary": "Weekly Claims Review",
+      "start": {
+        "dateTime": "2026-04-24T14:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-24T14:30:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "id": "evt-021"
+    },
+    "evt-022": {
+      "summary": "PKG-01 Gulf Coast Packaging \u2014 PO-54750",
+      "start": {
+        "dateTime": "2026-03-31T10:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-03-31T11:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "id": "evt-022"
+    },
+    "evt-023": {
+      "summary": "Weekly Expiry Review",
+      "start": {
+        "dateTime": "2026-03-27T08:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-03-27T09:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "id": "evt-023"
+    },
+    "evt-024": {
+      "summary": "Weekly Claims Review",
+      "start": {
+        "dateTime": "2026-04-03T14:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-03T14:30:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "id": "evt-024"
+    },
+    "evt-025": {
+      "summary": "Waco Transfer \u2014 2026-04-15-001",
+      "start": {
+        "dateTime": "2026-04-15T08:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-15T10:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "id": "evt-025"
+    },
+    "evt-026": {
+      "summary": "Waco Transfer \u2014 2026-04-15-002",
+      "start": {
+        "dateTime": "2026-04-15T10:30:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-15T12:30:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "id": "evt-026"
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "mailbox": {
+    "email": "financial.analyst@vanguardshield.com",
+    "name": "Financial Analyst"
+  },
+  "contacts": [
+    {
+      "email": "it-security@vanguardshield.com",
+      "name": "IT Security Team"
+    },
+    {
+      "email": "ap-notifications@vanguardshield.com",
+      "name": "Accounts Payable Notifications"
+    },
+    {
+      "email": "benefits@vanguardshield.com",
+      "name": "Benefits Department"
+    },
+    {
+      "email": "facilities@northsidepropertyservices.com",
+      "name": "Northside Property Services"
+    },
+    {
+      "email": "ap@vanguardshield.com",
+      "name": "Accounts Payable"
+    }
+  ],
+  "folders": [
+    {
+      "name": "Archive"
+    }
+  ],
+  "emails": [
+    {
+      "email_id": "1",
+      "folder": "INBOX",
+      "subject": "Reminder: Annual Security Awareness Training Due April 15",
+      "from_addr": "it-security@vanguardshield.com",
+      "to_addr": "financial.analyst@vanguardshield.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-09T08:14:00Z",
+      "message_id": "<sec-training-2026-04-09@vanguardshield.com>",
+      "in_reply_to": null,
+      "body_text": "This is a reminder that your annual security awareness training must be completed by April 15, 2026. Please log in to the Learning Portal and complete the \"Information Security Fundamentals\" module. Contact the IT Help Desk with any access issues.",
+      "body_html": null,
+      "is_read": false,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "2",
+      "folder": "INBOX",
+      "subject": "Expense Report ER-2026-0334 Approved",
+      "from_addr": "ap-notifications@vanguardshield.com",
+      "to_addr": "financial.analyst@vanguardshield.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-08T15:47:00Z",
+      "message_id": "<expense-er-2026-0334@vanguardshield.com>",
+      "in_reply_to": null,
+      "body_text": "Your expense report ER-2026-0334 (Q1 Travel & Accommodation, submitted March 28) has been approved and is scheduled for reimbursement in the April 15 payroll cycle. Total reimbursement: $1,142.60. Questions? Contact Accounts Payable.",
+      "body_html": null,
+      "is_read": false,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "3",
+      "folder": "INBOX",
+      "subject": "Q2 Supplemental Benefits Enrollment Closes April 18",
+      "from_addr": "benefits@vanguardshield.com",
+      "to_addr": "financial.analyst@vanguardshield.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-07T09:02:00Z",
+      "message_id": "<benefits-q2-2026@vanguardshield.com>",
+      "in_reply_to": null,
+      "body_text": "Open enrollment for Q2 supplemental benefits (dental, vision, and supplemental life) closes on April 18, 2026. Log in to the Benefits Portal to review your current elections and make any changes. No action is required if you wish to keep your current coverage.",
+      "body_html": null,
+      "is_read": false,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "4",
+      "folder": "INBOX",
+      "subject": "Invoice INV-84201 Received — April Facilities Services",
+      "from_addr": "facilities@northsidepropertyservices.com",
+      "to_addr": "ap@vanguardshield.com",
+      "cc_addr": "financial.analyst@vanguardshield.com",
+      "bcc_addr": null,
+      "date": "2026-04-09T11:23:00Z",
+      "message_id": "<inv-84201@northsidepropertyservices.com>",
+      "in_reply_to": null,
+      "body_text": "Please find attached Invoice INV-84201 for April facilities maintenance services as outlined in Contract FM-2024-009. Total due: $6,800.00. Payment terms: Net 30. Please direct any questions to our billing department.",
+      "body_html": null,
+      "is_read": false,
+      "is_important": false,
+      "attachments": []
+    }
+  ],
+  "next_email_id": 5
+}

@@ -1,0 +1,1543 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CareIG SOP v5.0</title>
+<style>:root { --fg:#1a1a1a; --muted:#666; --rule:#e2e2e2; --accent:#0b6; }
+* { box-sizing: border-box; }
+body { font: 16px/1.6 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+       color: var(--fg); max-width: 50rem; margin: 2rem auto; padding: 0 1.25rem; }
+h1,h2,h3,h4 { line-height: 1.25; margin: 1.6em 0 .5em; }
+h1 { font-size: 1.9rem; border-bottom: 2px solid var(--rule); padding-bottom: .3em; }
+h2 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: .2em; }
+h3 { font-size: 1.2rem; } h4 { font-size: 1.05rem; color: var(--muted); }
+p { margin: .6em 0; } code { background:#f4f4f4; padding:.1em .35em; border-radius:4px; }
+table { border-collapse: collapse; width: 100%; margin: 1em 0; font-size: .95rem; }
+th,td { border: 1px solid var(--rule); padding: .45em .6em; text-align: left; vertical-align: top; }
+th { background:#f7f7f7; } tr:nth-child(even) td { background:#fafafa; }
+a { color: var(--accent); text-decoration: none; } a:hover { text-decoration: underline; }
+hr { border:0; border-top:1px solid var(--rule); margin: 2em 0; }</style>
+</head>
+<body>
+<h1 id="careig-specialty-pharmacy">CareIG Specialty Pharmacy</h1>
+<h2 id="careig-specialty-pharmacy_1">CareIG Specialty Pharmacy</h2>
+<h2 id="standard-operating-procedure">Standard Operating Procedure</h2>
+<h2 id="ivig-home-infusion-intake-to-billing">IVIG Home Infusion — Intake to Billing</h2>
+<p><strong>v5.0</strong></p>
+<table>
+<thead>
+<tr>
+<th>Document #:</th>
+<th>CareIG-SOP-BILL-001</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Version:</td>
+<td>5.0</td>
+</tr>
+<tr>
+<td>Effective:</td>
+<td>March 23, 2026</td>
+</tr>
+<tr>
+<td>Owner:</td>
+<td>Director of Revenue Cycle Management</td>
+</tr>
+<tr>
+<td>EIN:</td>
+<td>47-3821056</td>
+</tr>
+<tr>
+<td>NPI:</td>
+<td>1234567893</td>
+</tr>
+</tbody>
+</table><h2 id="table-of-contents">Table of Contents</h2>
+<ol>
+<li>
+<p>Overview &amp; Purpose</p>
+</li>
+<li>
+<p>Roles &amp; File Access</p>
+</li>
+<li>
+<p>File System Structure</p>
+</li>
+<li>
+<p>Global Rules</p>
+</li>
+<li>
+<p>Workflow Summary</p>
+</li>
+<li>
+<p>Intake</p>
+</li>
+<li>
+<p>Benefits Verification &amp; Drug Source Decision</p>
+</li>
+<li>
+<p>Prior Authorization</p>
+</li>
+<li>
+<p>Clinical Scheduling &amp; Visit Documentation</p>
+</li>
+</ol>
+<ul>
+<li>
+<p>10.Billing &amp; Payment Posting</p>
+</li>
+<li>
+<p>11.Denial Management &amp; Appeals</p>
+</li>
+<li>
+<p>12.Escalation &amp; Monitoring</p>
+</li>
+<li>
+<p>13.Reference Tables</p>
+</li>
+<li>
+<p>14.Appendix A — Scripts &amp; Templates</p>
+</li>
+</ul><h1 id="1-overview-purpose">1. Overview &amp; Purpose</h1>
+<p>This SOP governs the end-to-end IVIG home infusion process at CareIG Specialty Pharmacy — from referral receipt through claim payment. All staff performing intake, benefits verification, prior authorization, clinical scheduling, or billing must follow this document. It references standard tools including spreadsheets, email, Slack, shared file storage, and calendar. No proprietary EHR, clearinghouse portal, or payer portal is required.</p>
+<p>All case data lives under a case folder named CASE_ID (format: LastName_MMDDYYYY), where the date is the patient’s DOB. This CASE_ID is used in all audit log entries, Slack posts, and file references throughout this SOP. Team communications use defined Slack channels. Claims are submitted by email with PDF attachments. All major actions are logged to audit_log.xlsx. For any date you write in files, use the YYYY-MM-DD format, except if specified otherwise.</p>
+<p>Covered drugs: Gammaplex, Octagam, Gammagard S/D, Gammagard Liquid, Privigen, Gamunex-C, Hizentra, HyQvia.</p>
+<p>If you encounter a situation not covered by this SOP, do not guess. Stop work on that step, note what happened in audit_log.xlsx, and contact your direct supervisor immediately using the escalation path in Section 12. When in doubt, always escalate before acting.</p>
+<h1 id="2-roles-file-access">2. Roles &amp; File Access</h1>
+<table>
+<thead>
+<tr>
+<th>Role</th>
+<th>Writes To</th>
+<th>Reads From</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Patient Representative</td>
+<td>intake.xlsx</td>
+<td></td>
+</tr>
+<tr>
+<td>Benefits Verification Specialist (BVS)</td>
+<td>benefits.xlsx, auth.xlsx,</td>
+<td>intake.xlsx, payer_rules.xlsx</td>
+</tr>
+<tr>
+<td>Clinical Coordinator</td>
+<td>clinical.xlsx</td>
+<td>auth.xlsx, benefits.xlsx</td>
+</tr>
+<tr>
+<td>Infusion Nurse</td>
+<td>visit_note.xlsx</td>
+<td>clinical.xlsx</td>
+</tr>
+<tr>
+<td>Billing Specialist</td>
+<td>claim.xlsx, ,</td>
+<td>visit_note.xlsx, auth.xlsx, benefits.xlsx,</td>
+</tr>
+<tr>
+<td>AR Specialist</td>
+<td>claim.xlsx (payment cols)</td>
+<td>claim.xlsx, payer_rules.xlsx</td>
+</tr>
+<tr>
+<td>Director of Revenue Cycle</td>
+<td>All files</td>
+<td>All files — approves write-offs &gt;$200 and collections referrals</td>
+</tr>
+</tbody>
+</table>
+<p>Any file access outside the above scope must be logged to audit_log.xlsx (Action = Out-of-Scope Access) and reported to compliance@careig.com.</p>
+<h1 id="3-file-system-structure">3. File System Structure</h1><table>
+<thead>
+<tr>
+<th>File Name</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>intake.xlsx</td>
+<td>Patient demographics, insurance, consent status, contact log, contraindications</td>
+</tr>
+<tr>
+<td>benefits.xlsx</td>
+<td>BV results: coverage, deductible, OOP, PA contacts, nursing code preference, call log</td>
+</tr>
+<tr>
+<td>auth.xlsx</td>
+<td>PA details: submission date, PA number, approval/denial status, expiry, follow-up log</td>
+</tr>
+<tr>
+<td>clinical.xlsx</td>
+<td>Drug source, supply checklist, nurse assignment, visit date/time</td>
+</tr>
+<tr>
+<td>visit_note.xlsx</td>
+<td>Nurse documentation: drug, dose, lot, NDC, times, pre-meds, saline, vitals, signature</td>
+</tr>
+<tr>
+<td>claim.xlsx</td>
+<td>Claim: codes, units, ICD-10, PA number, submission log, payment fields</td>
+</tr>
+<tr>
+<td>DENIAL_[CARC]_[DOS].xlsx</td>
+<td>One file per denial: CARC code, action, appeal status</td>
+</tr>
+<tr>
+<td>appeals_log.xlsx</td>
+<td>Appeal level, submitted date, decision, follow-up log</td>
+</tr>
+<tr>
+<td>Workspace (PDFs)</td>
+<td>PDFs: LMN, PA approval, EOB, labs, consent, claim export, statements</td>
+</tr>
+<tr>
+<td>audit_log.xlsx</td>
+<td>Global audit trail — see Section 4 for columns. Append-only.</td>
+</tr>
+<tr>
+<td>jcodes.xlsx</td>
+<td>J-codes and nursing codes (read-only)</td>
+</tr>
+<tr>
+<td>payer_rules.xlsx</td>
+<td>Payer rules: contracted rates, timely filing limits, nursing code pref, formulary, claim/appeal addresses</td>
+</tr>
+<tr>
+<td>Template files</td>
+<td>Blank form masters — copy to docs/ before use, never edit in place</td>
+</tr>
+</tbody>
+</table>
+<h1 id="4-global-rules">4. Global Rules</h1>
+<p>DOS (Date of Service) refers to the date the patient received the infusion visit.</p>
+<h2 id="41-audit-logging">4.1 Audit Logging</h2>
+<p>Append one row to audit_log.xlsx at each major checkpoint. Columns: Date | CASE_ID | Action | File_Updated | Field_Updated | New_Value | Staff_User | Result (SUCCESS / FAILED / STOP — reason). Do not log every substep — only the checkpoints called out in each section.</p>
+<p>The Stop Protocol (Section 4.2) is itself a checkpoint — always log a stop event when triggered, even though it is not listed as a checkpoint within a specific workflow section.</p>
+<h2 id="42-stop-protocol">4.2 Stop Protocol</h2>
+<p>When a validation condition fails: note the reason in audit_log.xlsx with action ‘Stop Protocol’ and columns File_Updated, Field_Updated, and New_Value set to N/A, and hold the case until the issue is resolved. Do not move to the next step until your supervisor or the responsible team member confirms the issue has been cleared.</p>
+<h2 id="43-prohibited-actions">4.3 Prohibited Actions</h2>
+<ul>
+<li>
+<p>Do not bill any IVIG drug J-code when clinical.xlsx col Drug_Source ≠ CareIG.</p>
+</li>
+<li>
+<p>Do not bill pre-medication J-codes unless visit_note.xlsx col Premeds_Administered documents drug, dose, route, time, and indication.</p>
+</li>
+<li>
+<p>Do not use ordered dose for unit calculations — always use visit_note.xlsx col Dose_Administered_Grams.</p>
+</li>
+<li>
+<p>Do not submit a claim when claim.xlsx already has Submission_Date populated for the same DOS.</p>
+</li>
+<li>
+<p>Do not write off any balance &gt;$200 without Director of Revenue Cycle approval (Slack #billing-mgmt).</p>
+</li>
+</ul><ul>
+<li>
+<p>Do not respond to legal threats or attorney communications — post to #compliance immediately.</p>
+</li>
+<li>
+<p>Do not assign an ICD-10 code not supported by the physician's documentation and the PA approval.</p>
+</li>
+</ul>
+<h2 id="44-phone-call-workaround">4.4 Phone Call Workaround</h2>
+<p>When a step requires a phone call, check whether the required information has already been provided via email, referral document, or another input file. If the information is already available, proceed using that source and log the source in the relevant call log field, if appropriate. If the information is not available and a call cannot be made, follow the Stop Protocol (Section 4.2).</p>
+<h1 id="5-workflow-summary">5. Workflow Summary</h1>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Action</th>
+<th>File Written</th>
+<th>Slack (if required)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Referral received → create → populate intake.xlsx</td>
+<td>intake.xlsx</td>
+<td>—</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Patient contacted → consent form sent</td>
+<td>intake.xlsx: Consent_Status = Form Sent</td>
+<td>—</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Signed consent received → BVS assigned</td>
+<td>intake.xlsx: Consent_Status = Signed, BVS_Assigned</td>
+<td>#intake-team: [BVS ASSIGNED] CASE_ID | Payer | Drug</td>
+</tr>
+<tr>
+<td>4</td>
+<td>BVS completes BV + drug source decision + patient financial counseling</td>
+<td>benefits.xlsx: BV_Complete = YES; clinical.xlsx: Drug_Source</td>
+<td>—</td>
+</tr>
+<tr>
+<td>5</td>
+<td>BVS checks formulary → submits PA</td>
+<td>auth.xlsx: PA_Submission_Date, PA_Status = Pending</td>
+<td>#intake-team: [PA SUBMITTED] CASE_ID | Payer | Drug</td>
+</tr>
+<tr>
+<td>6</td>
+<td>PA approved → clinical handoff</td>
+<td>auth.xlsx: PA_Status = Approved; clinical.xlsx: Handoff_Status = Received</td>
+<td>#clinical-scheduling: [PA APPROVED] CASE_ID | Drug | Dose | PA# | Exp</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Supply checklist complete → nurse scheduled</td>
+<td>clinical.xlsx: Visit_Date, Nurse_Assigned</td>
+<td>#clinical-scheduling: [SCHEDULED] CASE_ID | Date | Nurse</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Nurse completes visit → signs visit note</td>
+<td>visit_note.xlsx: Nurse_Signature</td>
+<td>#clinical-scheduling: [VISIT COMPLETE] CASE_ID | DOS</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Billing validates → builds → submits claim</td>
+<td>claim.xlsx: Submission_Date, Claim_Status = Submitted</td>
+<td>#billing: [CLAIM SUBMITTED] CASE_ID | DOS | Payer | $Amount</td>
+</tr>
+<tr>
+<td>10</td>
+<td>ERA/EOB posted → payment or denial actioned</td>
+<td>claim.xlsx: Payment_Posted_Date or file</td>
+<td>If denial: #billing-appeals: [DENIAL] CASE_ID | CARC</td>
+</tr>
+</tbody>
+</table>
+<h1 id="6-intake">6. Intake</h1>
+<h2 id="61-case-setup">6.1 Case Setup</h2>
+<ol>
+<li>
+<p>Copy intake_blank.xlsx to create intake.xlsx for this case.</p>
+</li>
+<li>
+<p>Populate intake.xlsx from the referral document. Required fields:</p>
+</li>
+</ol><table>
+<thead>
+<tr>
+<th>intake.xlsx Column</th>
+<th>Source</th>
+<th>Required</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Patient_Last_Name, First_Name, DOB, Address, Phone, Email</td>
+<td>Patient fields on referral</td>
+<td>Yes (email optional)</td>
+</tr>
+<tr>
+<td>Physician_Name, Physician_NPI, Physician_Email</td>
+<td>Physician fields on referral</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Diagnosis_ICD10</td>
+<td>Diagnosis field on referral</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Drug_Name, Drug_Dose_Grams, Drug_Frequency</td>
+<td>Ordered drug fields (convert dose to grams if in mg)</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Primary_Insurance_Name, Member_ID, Group_Number, Payer_Phone</td>
+<td>Insurance fields</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Secondary_Insurance_Name, Member_ID</td>
+<td>Secondary insurance if listed</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Contraindications</td>
+<td>Allergies/contraindications from referral</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Consent_Status</td>
+<td>Set to: Pending</td>
+<td>Staff sets on creation</td>
+</tr>
+</tbody>
+</table>
+<p><strong>If Physician_NPI is blank after referral entry:</strong> Post to #intake-alerts: [INTAKE HOLD] CASE_ID — Physician NPI missing. Email a request for infomation to intake.xlsx col Physician_Email. Do not proceed.</p>
+<p>Log to audit_log.xlsx: Action = Referral Received.</p>
+<h2 id="62-patient-contact">6.2 Patient Contact</h2>
+<ol start="3">
+<li>Call patient at intake.xlsx col Patient_Phone. Verbatim script:</li>
+</ol>
+<ul>
+<li>"Hello, may I speak with [Patient Name]? This is [Your Name] from CareIG Specialty Pharmacy. Dr. [Physician_Name] has referred you for home IVIG infusion therapy. I'm calling to verify your information and explain next steps. Do you have a few minutes?"</li>
+</ul>
+<ol start="4">
+<li>If no answer, leave this voicemail verbatim — do not state the diagnosis:</li>
+</ol>
+<ul>
+<li>"Hello, this is [Your Name] from CareIG Specialty Pharmacy at [Phone]. We received a referral from your physician. Please call us back at your convenience. Thank you."</li>
+</ul>
+<ol start="5">
+<li>Log each attempt in intake.xlsx col Contact_Attempt_Log: [Date] [Time] — [Reached / No Answer / Voicemail].</li>
+</ol>
+<p><strong>If Contact_Attempt_Log has 3 entries and none is Reached:</strong> Post to #intake-alerts: [UNREACHABLE] CASE_ID — 3 failed attempts. Complete Template 1 and email to intake.xlsx col Physician_Email. Do not proceed.</p>
+<ol start="6">
+<li>When patient is reached: confirm demographics, explain the consent requirement, and email the consent form to intake.xlsx col Patient_Email. Subject: CareIG — Consent Form Required | [Patient Last Name]. If no email is on file, mail the form to intake.xlsx col Patient_Address and note the method in the Contact_Attempt_Log. Set intake.xlsx col Consent_Status = Form Sent.</li>
+</ol>
+<ul>
+<li>"Before we schedule your visit, a signed Consent for Treatment and Financial Responsibility form is required. Once we verify your insurance, we will also contact you with your estimated out-of-pocket costs before scheduling."</li>
+</ul>
+<ol start="7">
+<li>
+<p>When signed consent is received: save as consent_signed.pdf. Set Consent_Status = Signed.</p>
+</li>
+<li>
+<p>Assign BVS. Set intake.xlsx col BVS_Assigned. Post to #intake-team: [BVS ASSIGNED] [CASE_ID] | Payer: [Insurance_Name] | Drug: [Drug_Name] | Dose: [Drug_Dose_Grams]g.</p>
+</li>
+</ol>
+<p><strong>If BVS attempts BV and intake.xlsx col Consent_Status ≠ Signed:</strong> Post to #intake-alerts: [CONSENT MISSING] CASE_ID. Do not begin BV.</p>
+<p>Log to audit_log.xlsx: Action = BVS Assigned.</p>
+<h1 id="7-benefits-verification-drug-source-decision">7. Benefits Verification &amp; Drug Source Decision</h1>
+<h2 id="71-benefits-verification">7.1 Benefits Verification</h2>
+<p>BVS calls the payer at intake.xlsx col Primary_Payer_Phone. Populate all required fields in benefits.xlsx. Do not set BV_Complete = YES until every required field is non-blank.</p>
+<table>
+<thead>
+<tr>
+<th>benefits.xlsx Column</th>
+<th>How to Obtain</th>
+<th>Req.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Home_Infusion_Covered</td>
+<td>Ask: 'Does this plan cover home infusion therapy?'</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Benefit_Type</td>
+<td>Ask: 'Is IVIG under the medical or pharmacy benefit?'</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>PA_Required, PA_Phone, PA_Submission_Email</td>
+<td>Ask if PA is required and get phone number and email submission address</td>
+<td>Yes (if PA required)</td>
+</tr>
+<tr>
+<td>Specialty_Pharmacy_Require d, Specialty_Pharmacy_Name</td>
+<td>Ask if a specific specialty pharmacy is required</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>CareIG_Network_Status</td>
+<td>Ask: 'Is CareIG Specialty Pharmacy NPI [NPI] in-network?'</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Deductible_Individual, Deductible_Met_YTD</td>
+<td>Individual deductible and amount met YTD</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>OOP_Max_Individual, OOP_Max_Met_YTD</td>
+<td>Out-of-pocket maximum and amount met YTD</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Coinsurance_Pct, Copay_Amount</td>
+<td>Coinsurance percentage and per-visit copay</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Plan_Year_Type</td>
+<td>Calendar or fiscal year</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Payer_Type</td>
+<td>Classify: Medicare Part B / Medicare Adv. / Medicaid / Commercial PPO / Commercial HMO</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Nursing_Code_Pref</td>
+<td>Determine from payer_rules.xlsx: 99600 / G0153 / T1029 / T1032</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Coverage_Effective Date, Coverage Term Date</td>
+<td>Ask: ‘What is the coverage effective date and termination date for this plan?’ Enter both as MM/DD/YYYY.</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>BV_Call_Date, BV_Rep_Name, BV_Call_Ref_Number</td>
+<td>Document every call — mandatory</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>BV_Complete</td>
+<td>Set YES only after all required fields are non-blank — set last</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table><p>Log to audit_log.xlsx: Action = BV Complete.</p>
+<h2 id="72-drug-source-decision">7.2 Drug Source Decision</h2>
+<p>Immediately after BV, write the drug source to clinical.xlsx col Drug_Source:</p>
+<ul>
+<li>
+<p>CareIG_Network_Status = In-Network AND Specialty_Pharmacy_Required = NO → Drug_Source = CareIG.</p>
+</li>
+<li>
+<p>CareIG_Network_Status = Out-of-Network AND Specialty_Pharmacy_Required = YES → Drug_Source = value from benefits.xlsx col Specialty_Pharmacy_Name (e.g., Accredo). CareIG bills nursing and supplies only — do not bill any IVIG drug J-code on the CareIG claim.</p>
+</li>
+<li>
+<p>CareIG_Network_Status = Out-of-Network AND Specialty_Pharmacy_Required = NO → Post to #intakemgmt: [OON NO PREFERRED PHARMACY] CASE_ID — CareIG is out-of-network but payer has no required specialty pharmacy. Supervisor must determine next step (single-case agreement, patient referral, or self-pay). Do not proceed until Drug_Source is confirmed by supervisor.</p>
+</li>
+<li>
+<p>Benefit_Type = Pharmacy → post to #billing-mgmt: [BENEFIT TYPE ISSUE] CASE_ID — IVIG under pharmacy benefit. Awaiting Director guidance. Do not proceed until resolved.</p>
+</li>
+<li>
+<p>CareIG_Network_Status = In-Network AND Specialty_Pharmacy_Required = YES → Drug_Source = value from benefits.xlsx col Specialty_Pharmacy_Name. CareIG bills nursing and supplies only. Do not bill any IVIG drug J-code on the CareIG claim."</p>
+</li>
+</ul>
+<h2 id="73-patient-financial-counseling">7.3 Patient Financial Counseling</h2>
+<p>Before making this call, calculate the patient’s estimated out-of-pocket using benefits.xlsx. Add together any remaining deductible (Deductible_Individual minus Deductible_Met_YTD), then apply the Coinsurance_Pct to the expected billed amount, and add the Copay_Amount if applicable. To estimate the billed amount, look up the ordered drug's J-code in fee_schedule.xlsx col Billed_Rate, multiply by the expected units, and add the estimated nursing and supply charges from the same file. Use that dollar figure in the script below.</p>
+<p>"[Patient Name], this is [Your Name] from CareIG. I’ve had a chance to review your insurance benefits. Based on your current plan, your estimated out-of-pocket cost per infusion visit is approximately $[dollar amount you calculated]. Keep in mind this is an estimate — your insurance company determines the final amount once the claim is processed. Do you have any questions about that?"</p>
+<p>Log call in benefits.xlsx col Financial_Counseling_Log: [Date] [Time] — [outcome]. If patient reports hardship: set intake.xlsx col Financial_Hardship = YES and post to #intake-team: [FINANCIAL HARDSHIP] CASE_ID — refer to Patient Assistance Program.</p>
+<h1 id="8-prior-authorization">8. Prior Authorization</h1>
+<p>If benefits.xlsx col PA_Required = NO, skip Sections 8.1 through 8.5. Proceed directly to Section 8.6 (Clinical Handoff), setting auth.xlsx col PA_Status = Not Required and PA_Number = N/A.</p>
+<h2 id="81-formulary-check">8.1 Formulary Check</h2>
+<p>Before submitting any PA, confirm the ordered drug is covered on the payer's formulary. Open payer_rules.xlsx. Read the row for the payer (benefits.xlsx col Primary_Insurance_Name). Check col Formulary_Covered_Drugs.</p><p><strong>If the ordered drug (intake.xlsx col Drug_Name) is not listed in payer_rules.xlsx col Formulary_Covered_Drugs for the payer:</strong></p>
+<p>Contact prescribing physician via phone to intake.xlsx col Physician_Phone to request either an alternative covered drug or a written formulary exception letter. Do not submit PA until one of the two paths below is confirmed. After reaching the physician, or if they could not be reached and the issue is still present, post to #intake-team: [FORMULARY ISSUE] CASE_ID | Drug: [Drug_Name] | Payer: [Insurance_Name].</p>
+<p>If the physician provides a formulary exception letter: save it as formulary_exception.pdf, document the basis in auth.xlsx col Formulary_Exception_Notes, and include it in the PA packet. Proceed to Section 8.2. If the physician substitutes an alternative covered drug: update intake.xlsx col Drug_Name with the new drug and restart Section 8.1. If neither is provided within 2 business days: post to #intake-mgmt: [FORMULARY UNRESOLVED] CASE_ID and hold the case.</p>
+<h2 id="82-required-pa-documents">8.2 Required PA Documents</h2>
+<p>All of the following must be saved in the case folder before PA submission:</p>
+<ul>
+<li>
+<p>PA request form (payer-specific) — pa_form_[PayerName].pdf</p>
+</li>
+<li>
+<p>Physician Letter of Medical Necessity — signed, on letterhead, dated within 90 days — lmn_[PhysicianName].pdf</p>
+</li>
+<li>
+<p>Most recent IgG lab result (if applicable) — igglevel_[MMDDYYYY].pdf</p>
+</li>
+<li>
+<p>Most recent physician progress note — progress_note_[MMDDYYYY].pdf</p>
+</li>
+<li>
+<p>Formulary exception documentation (if applicable) — formulary_exception.pdf</p>
+</li>
+</ul>
+<p><strong>If any required document above is missing or invalid :</strong></p>
+<p>Post to #intake-alerts: [PA HOLD] CASE_ID — [missing / invalid]: [document name]. Do not submit, and follow 4.2 with reason “invalid file”</p>
+<h2 id="83-pa-submission">8.3 PA Submission</h2>
+<ol start="9">
+<li>
+<p>Email to payer PA address (payer_rules.xlsx col PA_Submission_Email). Subject: [PA REQUEST] CareIG | [Patient Last Name] | MemberID: [Member_ID] | Drug: [Drug_Name] | Dose: [Drug_Dose_Grams]g | Dx: [Diagnosis_ICD10]. Attach all required PA documents.</p>
+</li>
+<li>
+<p>Update auth.xlsx: PA_Submission_Date = today, PA_Status = Pending, Last_Followup_Date = today.</p>
+</li>
+<li>
+<p>Post to #intake-team: [PA SUBMITTED] [CASE_ID] | Payer: [name] | Drug: [Drug_Name].</p>
+</li>
+</ol>
+<p>Log to audit_log.xlsx: Action = PA Submitted.</p>
+<h2 id="84-pa-follow-up">8.4 PA Follow-Up</h2>
+<p>Every business day while a PA is pending, open auth.xlsx and check col PA_Status. If the status is still Pending and (today’s date minus Last_Followup_Date) is 2 or more days, call the payer PA line (benefits.xlsx col PA_Phone). Append a note to auth.xlsx col PA_Call_Log: [Date] [Time] | Rep: [name] | Status: [status] | Next expected update: [date]. Update Last_Followup_Date to today.</p>
+<p>If still Pending after 5 days from PA_Submission_Date: post to #intake-mgmt: [PA DELAY] [CASE_ID] | Payer: [name] | Days Pending: [count].</p><h2 id="85-peer-to-peer-p2p-request">8.5 Peer-to-Peer (P2P) Request</h2>
+<p>If payer offers a P2P review after denial:</p>
+<ol start="12">
+<li>
+<p>Call payer, obtain time slots, record in auth.xlsx col P2P_Available_Slots.</p>
+</li>
+<li>
+<p>Complete Template 2 (Appendix A). Save as p2p_request.pdf. Email to intake.xlsx col Physician_Email. Subject: [P2P REQUEST] [CASE_ID] | [Payer].</p>
+</li>
+<li>
+<p>Set auth.xlsx col P2P_Status = Requested, P2P_Request_Date = today.</p>
+</li>
+</ol>
+<p><strong>If P2P_Status = Requested AND P2P_MD_Response_Date is blank AND (today − P2P_Request_Date) ≥ 2 days:</strong> Post to #intake-alerts: [P2P NO RESPONSE] CASE_ID. Set P2P_Status = No Response. Proceed to Level 1 appeal (Section 11).</p>
+<h2 id="86-pa-approval-clinical-handoff">8.6 PA Approval — Clinical Handoff</h2>
+<ol start="15">
+<li>
+<p>Save PA approval as pa_approval_[PayerName].pdf. Update auth.xlsx: PA_Number, PA_Approved_Drug, PA_Approved_Dose, PA_Approved_Frequency, PA_Effective_Date, PA_Expiration_Date, PA_Status = Approved.</p>
+</li>
+<li>
+<p>Update clinical.xlsx: Handoff_Status = Received, PA_Number, PA_Expiration_Date.</p>
+</li>
+<li>
+<p>Post to #clinical-scheduling: [PA APPROVED] [CASE_ID] | Drug: [PA_Approved_Drug] | Dose:</p>
+</li>
+</ol>
+<ul>
+<li>[PA_Approved_Dose]g | PA#: [PA_Number] | Exp: [PA_Expiration_Date] | Drug Source: [Drug_Source].</li>
+</ul>
+<p><strong>If PA_Approved_Drug does not match intake.xlsx col Drug_Name (case-insensitive):</strong> Post to #intake-alerts: [PA DRUG MISMATCH] CASE_ID | Ordered: [Drug_Name] | Approved: [PA_Approved_Drug]. Resolve with payer before scheduling.</p>
+<p><strong>If auth.xlsx col PA_Approved_Dose is less than intake.xlsx col Drug_Dose_Grams:</strong></p>
+<p>Post to #intake-alerts: [PA DOSE MISMATCH] CASE_ID | Ordered: [Drug_Dose_Grams]g | Approved: [PA_Approved_Dose]g. Do not schedule. BVS must contact payer to request approval for the full ordered dose before proceeding.</p>
+<p>Log to audit_log.xlsx: Action = PA Approved — Clinical Handoff.</p>
+<h2 id="87-pa-denial">8.7 PA Denial</h2>
+<ol start="18">
+<li>
+<p>Update auth.xlsx: PA_Denial_Date = today, PA_Denial_Reason = denial text, PA_Status = Denied.</p>
+</li>
+<li>
+<p>Post to #billing-appeals: [PA DENIED] [CASE_ID] | Payer: [name] | Reason: [PA_Denial_Reason]. Proceed to Section 11 for appeal.</p>
+</li>
+</ol>
+<p>Log to audit_log.xlsx: Action = PA Denied.</p>
+<h1 id="9-clinical-scheduling-visit-documentation">9. Clinical Scheduling &amp; Visit Documentation</h1>
+<h2 id="91-supply-checklist">9.1 Supply Checklist</h2>
+<p>Before scheduling the nurse visit, confirm all items below are completed in clinical.xlsx. All columns except NS_500mL_Qty_Ordered should contain YES. NS_500mL_Qty_Ordered must contain a number (integer) of 2 or more:</p>
+<table>
+<thead>
+<tr>
+<th>clinical.xlsx Column</th>
+<th>Requirement</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Drug_Order_Placed</td>
+<td>Drug ordered from CareIG or partner pharmacy per Drug_Source</td>
+</tr>
+<tr>
+<td>Drug_Delivery_Confirmed</td>
+<td>Delivery confirmed at patient address — record delivery date</td>
+</tr>
+<tr>
+<td>Drug_Lot_Number, Drug_NDC</td>
+<td>Lot number and NDC received from dispensing pharmacy</td>
+</tr>
+<tr>
+<td>NS_500mL_Qty_Ordered</td>
+<td>Enter the number of 500 mL NS bags ordered (integer), minimum 2. If the ordered drug is Gammaplex, enter 0 and order 500 mL 10% Dextrose bags instead (minimum 2).</td>
+</tr>
+<tr>
+<td>Filter_Tubing_Ordered</td>
+<td>0.2-micron IV filter set ordered (required for all IVIG)</td>
+</tr>
+<tr>
+<td>Benadryl_Available</td>
+<td>Diphenhydramine 50 mg/mL vial available if ordered as pre-med (N/A if not ordered)</td>
+</tr>
+<tr>
+<td>Supplies_Other</td>
+<td>Gloves, alcohol swabs, dressing kit, sharps container confirmed</td>
+</tr>
+<tr>
+<td>Supply_Checklist_Complete</td>
+<td>Set YES only after all above fields are confirmed</td>
+</tr>
+</tbody>
+</table>
+<p><strong>If Supply_Checklist_Complete ≠ YES when nurse scheduling is attempted:</strong></p>
+<p>Post to #clinical-scheduling: [SUPPLY HOLD] CASE_ID — checklist incomplete. Do not schedule until resolved.</p>
+<h2 id="92-nurse-scheduling">9.2 Nurse Scheduling</h2>
+<ol start="20">
+<li>
+<p>Select nurse matching patient zip code and credential (RN required for first visit; verify state rules in payer_rules.xlsx col Nursing_Credential_Requirement for subsequent visits).</p>
+</li>
+<li>
+<p>Create calendar event: Title = IVIG Visit — [CASE_ID]. Include nurse.</p>
+</li>
+<li>
+<p>Set duration using the estimated infusion times in infusion_duration.xlsx. Look up the row matching the ordered drug and dose range to find the estimated visit length in hours.</p>
+</li>
+<li>
+<p>Confirm visit with patient. Script:</p>
+</li>
+</ol>
+<ul>
+<li>"Hello [Patient Name], this is [Your Name] from CareIG. Your insurance has approved your IVIG infusion. We have availability on [Date] at [Time] — does that work for you? The visit will take approximately [X] hours."</li>
+</ul>
+<ol start="24">
+<li>
+<p>Update clinical.xlsx: Visit_Date, Visit_Time, Nurse_Assigned. Post to #clinical-scheduling: [SCHEDULED] [CASE_ID] | Date: [Visit_Date] | Nurse: [Nurse_Assigned].</p>
+</li>
+<li>
+<p>Email assigned nurse. Subject: [VISIT ASSIGNMENT] [CASE_ID] | [Date]. Include: patient address, drug name, dose, lot number, NDC, infusion rate, pre-med orders, emergency contact, and contraindications from intake.xlsx.</p>
+</li>
+</ol>
+<h2 id="93-visit-documentation">9.3 Visit Documentation</h2>
+<p>The nurse must complete all fields below in visit_note.xlsx and set col Nurse_Signature within 4 hours of visit completion. A claim cannot be initiated if Nurse_Signature is blank.</p>
+<table>
+<thead>
+<tr>
+<th>visit_note.xlsx Column</th>
+<th>Description</th>
+<th>Required</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Visit_Date, Visit_Start_Time, Visit_End_Time</td>
+<td>Date and exact start/end times</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Visit_Duration_Minutes</td>
+<td>End time − Start time in minutes</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Drug_Name_Trade, Drug_Name_Generic</td>
+<td>E.g., Gammaplex 5% and Immune Globulin Intravenous</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table><table>
+<thead>
+<tr>
+<th>Drug_NDC, Drug_Lot_Number, Drug_Expiration_Date</th>
+<th>Transcribed from vial label</th>
+<th>Yes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Dose_Ordered_Grams, Dose_Administered_Grams</td>
+<td>Ordered vs actual. Claims use Dose_Administered_Grams.</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Route</td>
+<td>IV or SQ — must match MD order</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Infusion_Start_Rate_mL_hr, Infusion_Rate_Adjustments</td>
+<td>Initial rate and all changes with timestamps. If no changes: None.</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Premeds_Administered</td>
+<td>Format: [Drug] [Dose][unit] [Route] at [Time] for [Indication]. If none: None administered.</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>NS_500mL_Bags_Used, NS_250mL_Bags_Used</td>
+<td>Count of bags actually used</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Pump_Used</td>
+<td>YES or NO</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Vital_Signs_Pre, Vital_Signs_Mid, Vital_Signs_Post</td>
+<td>BP, HR, Temp, RR at each point. Mid: N/A if no rate changes.</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Patient_Response</td>
+<td>Clinical response. If uneventful: Patient tolerated infusion without adverse events.</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Education_Provided</td>
+<td>Education given. SQ patients: document self- infusion training if performed. If none: None.</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Nurse_Signature</td>
+<td>Full name and credential (e.g., Jane Smith, RN)</td>
+<td>Yes — blocks claim if blank</td>
+</tr>
+<tr>
+<td>Dextrose_500mL_Bags_Used</td>
+<td>For Gammaplex cases only: number of 500 mL 10% Dextrose bags actually used during the visit. For all other drugs, enter N/A.</td>
+<td>Yes for Gammaplex, N/A otherwise.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>If Nurse_Signature is blank:</strong> Post to #clinical-scheduling: [UNSIGNED NOTE] CASE_ID — claim on hold until signed.</p>
+<p>Post to #clinical-scheduling: [VISIT COMPLETE] [CASE_ID] | DOS: [Visit_Date]. Log to audit_log.xlsx: Action = Visit Note Signed.</p>
+<h1 id="10-billing-payment-posting">10. Billing &amp; Payment Posting</h1>
+<h2 id="101-pre-billing-validation">10.1 Pre-Billing Validation</h2>
+<p>Before building claim.xlsx, confirm every condition below is TRUE. If any is FALSE: post to #billing with the specific failure and do not proceed.</p><table>
+<thead>
+<tr>
+<th>Condition</th>
+<th>If FALSE — Post to #billing</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>visit_note.xlsx col Nurse_Signature is non-blank</td>
+<td>[BILLING HOLD — UNSIGNED NOTE] CASE_ID</td>
+</tr>
+<tr>
+<td>auth.xlsx col PA_Status = Approved</td>
+<td>[BILLING HOLD — NO PA APPROVAL] CASE_ID</td>
+</tr>
+<tr>
+<td>auth.xlsx col PA_Number is non-blank</td>
+<td>[BILLING HOLD — PA NUMBER MISSING] CASE_ID</td>
+</tr>
+<tr>
+<td>auth.xlsx col PA_Expiration_Date ≥ visit_note.xlsx col Visit_Date</td>
+<td>[BILLING HOLD — PA EXPIRED ON DOS] CASE_ID | PA Exp: [date] | DOS: [date]</td>
+</tr>
+<tr>
+<td>auth.xlsx col PA_Approved_Drug matches visit_note.xlsx col Drug_Name_Trade (case-insensitive)</td>
+<td>[BILLING HOLD — DRUG MISMATCH] CASE_ID | PA: [drug] | Administered: [drug]</td>
+</tr>
+<tr>
+<td>auth.xlsx col PA_Approved_Dose (grams) is greater than or equal to visit_note.xlsx col Dose_Administered_Grams</td>
+<td>[BILLING HOLD — DOSE EXCEEDS PA] CASE_ID | PA approved: [PA_Approved_Dose]g | Administered: [Dose_Administered_Grams]g. Post to #billing and escalate to BVS to obtain a revised PA before submitting.</td>
+</tr>
+<tr>
+<td>intake.xlsx col Diagnosis_ICD10 is consistent with PA approval (verify in auth.xlsx)</td>
+<td>[BILLING HOLD — ICD10 INCONSISTENT] CASE_ID</td>
+</tr>
+<tr>
+<td>visit_note.xlsx col Dose_Administered_Grams is non-blank and &gt; 0</td>
+<td>[BILLING HOLD — DOSE NOT DOCUMENTED] CASE_ID</td>
+</tr>
+<tr>
+<td>claim.xlsx has no Submission_Date for this DOS (duplicate check)</td>
+<td>[DUPLICATE CLAIM RISK] CASE_ID | DOS: [date]</td>
+</tr>
+<tr>
+<td>benefits.xlsx confirms active coverage on DOS</td>
+<td>[BILLING HOLD — COVERAGE NOT CONFIRMED] CASE_ID</td>
+</tr>
+</tbody>
+</table>
+<h2 id="102-claim-construction">10.2 Claim Construction</h2>
+<p>Copy claim_blank.xlsx to create claim.xlsx for this case. Use the following rules:</p>
+<table>
+<thead>
+<tr>
+<th>Claim Component</th>
+<th>Rule</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Drug J-Code</td>
+<td>Look up J-code in jcodes.xlsx for Drug_Name_Trade. Units = (Dose_Administered_Grams × 1000) ÷ unit size. See Section 13 for full table and examples. If the result is not a whole number, round down to the nearest integer. Example: 25.3g Privigen = 50,600mg ÷ 500 = 101.2 → bill 101 units.</td>
+</tr>
+<tr>
+<td>Nursing Code</td>
+<td>If Visit_Duration_Minutes is 60 or less, bill 99600 × 1 only. Do not bill 99603. Read benefits.xlsx col Nursing_Code_Pref. Blank or 99600: bill 99600 × 1 + 99603 × floor((Visit_Duration_Minutes − 60) ÷ 60). G0153 (Medicare Part B): bill G0153 × 1 only. T1029/T1032: verify per state in payer_rules.xlsx.</td>
+</tr>
+<tr>
+<td>Saline</td>
+<td>J7030 × NS_500mL_Bags_Used. J7050 × NS_250mL_Bags_Used. Both from visit_note.xlsx. For Gammaplex cases: do not bill J7030 or J7050. Instead bill A4221 for the Dextrose supply as part of the general infusion supplies line. Read Dextrose_500mL_Bags_Used from visit_note.xlsx to confirm administration was documented before billing.</td>
+</tr>
+<tr>
+<td>Pre-Medications</td>
+<td>Parse visit_note.xlsx col Premeds_Administered. Diphenhydramine: J0171 × (mg ÷ 50). Promethazine: J2550 × (mg ÷ 25). If None administered: leave blank.</td>
+</tr>
+<tr>
+<td>Supplies</td>
+<td>A4221 × 1 per visit. If Pump_Used = YES: also A4222 × 1.</td>
+</tr>
+<tr>
+<td>Header / Auth Fields</td>
+<td>PA_Number = auth.xlsx col PA_Number. Physician_NPI = intake.xlsx col Physician_NPI. CareIG_NPI and Tax_ID from payer_rules.xlsx. DOS = visit_note.xlsx col Visit_Date. ICD10 = intake.xlsx col Diagnosis_ICD10. CareIG Taxonomy Code from org_identifiers.xlsx.</td>
+</tr>
+<tr>
+<td>Split-Bill (OON partner)</td>
+<td>If clinical.xlsx col Drug_Source ≠ CareIG: leave all IVIG drug J-code fields blank. Set claim.xlsx col Billing_Model = Split — Drug billed by [Drug_Source].</td>
+</tr>
+<tr>
+<td>Claim_Frequency_C ode</td>
+<td>Enter 1 for all original claim submissions. Enter 7 when resubmitting a corrected claim. Enter 8 when voiding a duplicate. Write value to claim.xlsx col Claim_Frequency_Code.</td>
+</tr>
+<tr>
+<td>Modifier</td>
+<td>Read visit_note.xlsx col Route. If Route = IV: no modifier required on the drug J- code line. If Route = SQ: append modifier SC to the drug J-code line in claim.xlsx col Drug_Modifier. Write Drug_Modifier to claim.xlsx.</td>
+</tr>
+</tbody>
+</table><h2 id="103-claim-submission">10.3 Claim Submission</h2>
+<ol start="26">
+<li>
+<p>Export claim.xlsx to PDF → claim_[DOS].pdf.</p>
+</li>
+<li>
+<p>Email to payer billing address (payer_rules.xlsx col Claim_Submission_Email). Subject: [CLAIM SUBMISSION] CareIG NPI: [NPI] | [Patient Last Name] | MemberID: [Member_ID] | DOS: [Visit_Date]. Attach claim_[DOS].pdf.</p>
+</li>
+<li>
+<p>Update claim.xlsx: Submission_Date = today, Submission_Ref_Number = email confirmation ID, Claim_Status = Submitted.</p>
+</li>
+<li>
+<p>Post to #billing: [CLAIM SUBMITTED] [CASE_ID] | DOS: [Visit_Date] | Payer: [name] | Billed: $[Total_Billed].</p>
+</li>
+</ol>
+<p>Log to audit_log.xlsx: Action = Claim Submitted.</p>
+<h2 id="104-era-payment-posting">10.4 ERA &amp; Payment Posting</h2>
+<ol start="30">
+<li>
+<p>ERA and EOB documents arrive by email to billing@careig.com from the payer. When received, download the attachment and save it as era_[DOS]_[Payer].pdf.</p>
+</li>
+<li>
+<p>Compare Paid_Amount to payer_rules.xlsx col Contracted_Rate. If Paid_Amount &lt; Contracted_Rate: post to #billing-mgmt: [UNDERPAYMENT] CASE_ID | Payer: [name] | Expected: $[rate] | Received: $[paid]. Do not write off.</p>
+</li>
+<li>
+<p>If ERA contains a denial (any CARC-coded line with $0 paid): copy denial_blank.xlsx to create DENIAL_[CARC]_[DOS].xlsx. Populate CARC_Code, Denial_Date, DOS, Denied_Code, Denied_Amount. Follow Section 11.</p>
+</li>
+<li>
+<p>Update claim.xlsx: Payment_Posted_Date = today, Claim_Status = Paid / Partially Paid / Denied.</p>
+</li>
+<li>
+<p>If Patient_Responsibility &gt; 0: complete patient_statement_template.docx with patient name, DOS, billed amount, insurance payment, and patient balance. Save as statement_[DOS].pdf. Email to patient at intake.xlsx col Patient_Email. Subject: CareIG Statement of Account | DOS: [Visit_Date].</p>
+</li>
+</ol>
+<h1 id="11-denial-management-appeals">11. Denial Management &amp; Appeals</h1>
+<h2 id="111-denial-actions-by-carc-code">11.1 Denial Actions by CARC Code</h2><table>
+<thead>
+<tr>
+<th>CARC</th>
+<th>Denial Reason</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CO-4</td>
+<td>Procedure code / modifier inconsistent</td>
+<td>Correct modifier per visit_note.xlsx col Route. Resubmit.</td>
+</tr>
+<tr>
+<td>CO-11</td>
+<td>Diagnosis inconsistent with procedure</td>
+<td>Confirm ICD-10 in claim.xlsx matches PA approval in auth.xlsx. If mismatch: email intake.xlsx col Physician_Email. Subject: [ICD10 CLARIFICATION NEEDED] CASE_ID | DOS: [date]. Body: state the ICD-10 on the claim, the ICD-10 on the PA, and ask the physician to confirm the correct code in writing. Do not resubmit until written confirmation is received and saved to .</td>
+</tr>
+<tr>
+<td>CO-16</td>
+<td>Claim lacks required information</td>
+<td>Identify missing field from denial detail (NPI, taxonomy, PA number). Update claim.xlsx. Resubmit.</td>
+</tr>
+<tr>
+<td>CO-18</td>
+<td>Duplicate claim</td>
+<td>Check claim.xlsx Submission_Log for prior submission on same DOS. If confirmed duplicate: resubmit the original claim with claim frequency code 8 (void/cancel) via email to the payer billing address. Update claim.xlsx col Claim_Status = Voided. Do not delete the original row. If not: resubmit with frequency code 7.</td>
+</tr>
+<tr>
+<td>CO-22</td>
+<td>COB — other payer may be primary</td>
+<td>CO-22 means another payer is primary. Check benefits.xlsx col Secondary_Insurance. If a primary payer is listed that was not yet billed: submit a new claim to that payer first. When their EOB is received, save it as era_[DOS]_[PrimaryPayer].pdf and resubmit to the original payer with COB fields populated: COB_Other_Payer_Name, COB_Other_Payer_Member_ID, COB_Other_Payer_Paid, COB_Other_Payer_EOB_Date.</td>
+</tr>
+<tr>
+<td>CO-50</td>
+<td>Non-covered service</td>
+<td>File Level 1 appeal per Section 11.2.</td>
+</tr>
+<tr>
+<td>CO-96</td>
+<td>Non-covered charge</td>
+<td>Compare to payer_rules.xlsx contracted rate. If dispute: post to #billing-mgmt. Write-off requires Director approval.</td>
+</tr>
+<tr>
+<td>CO-97</td>
+<td>Benefit not assigned</td>
+<td>Open benefits.xlsx col Benefit_Type. If the benefit tier on the original claim does not match what is listed in benefits.xlsx (e.g., billed under pharmacy benefit but should be medical): correct claim.xlsx and resubmit. If the benefit tier on the claim matches benefits.xlsx and the payer still denies: file a Level 1 appeal per Section 11.2.</td>
+</tr>
+<tr>
+<td>PR-1 / PR-2 / PR-3</td>
+<td>Deductible / Coinsurance / Copay</td>
+<td>Read the patient responsibility amount directly from the ERA line item for this denial. Write that amount to claim.xlsx col Patient_Responsibility. Generate and send patient statement per Section 10.4.</td>
+</tr>
+<tr>
+<td>OA-23</td>
+<td>Charge exceeds fee schedule</td>
+<td>Compare Paid_Amount to contracted rate. If underpaid: post to #billing-mgmt per Section 12.</td>
+</tr>
+<tr>
+<td>PI-204</td>
+<td>Not medically necessary</td>
+<td>Gather PA approval, LMN, clinical notes, IgG labs from . File Level 1 appeal per Section 11.2.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="112-appeal-submission">11.2 Appeal Submission</h2>
+<ol start="35">
+<li>
+<p>Gather from : original claim PDF, PA approval, physician LMN, visit_note export, and ERA/EOB showing the denial.</p>
+</li>
+<li>
+<p>Complete appeal_template.docx. Save as appeal_L[1 or 2]_[DOS].pdf.</p>
+</li>
+<li>
+<p>Email appeal to payer_rules.xlsx col Appeal_Submission_Email. Subject: [APPEAL L[1/2]] CareIG | [Patient Last Name] | MemberID: [Member_ID] | DOS: [DOS] | Claim: [Submission_Ref_Number] | CARC: [code]. Attach all documents.</p>
+</li>
+<li>
+<p>Update appeals/appeals_log.xlsx: DOS, CARC_Code, Appeal_Level, Appeal_Submitted_Date, Appeal_Status = Submitted.</p>
+</li>
+</ol><ol start="39">
+<li>Post to #billing-appeals: [APPEAL FILED L[1/2]] [CASE_ID] | DOS | Payer | CARC.</li>
+</ol>
+<p>Follow-up: if (today − Appeal_Submitted_Date) ≥ 15 days and Appeal_Status = Submitted, call payer appeal department. Log in col Followup_Log: [Date] [Time] | Rep: [name] | Ref#: [#] | Next: [date].</p>
+<p>If Level 2 denied: post to #billing-mgmt: [L2 DENIED] CASE_ID. Director of Revenue Cycle determines next action (write-off, IRO request, or state commissioner complaint).</p>
+<p>Log to audit_log.xlsx: Action = Appeal Submitted.</p>
+<h1 id="12-escalation-monitoring">12. Escalation &amp; Monitoring</h1>
+<h2 id="121-escalation-paths">12.1 Escalation Paths</h2>
+<table>
+<thead>
+<tr>
+<th>Scenario</th>
+<th>Slack Channel</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PA pending &gt; 5 days</td>
+<td>#intake-mgmt</td>
+<td>Post: [PA DELAY] CASE_ID | Payer | Days Pending. Supervisor follows up with payer.</td>
+</tr>
+<tr>
+<td>Claim unpaid, no ERA</td>
+<td>#billing</td>
+<td>Post: [AR FOLLOWUP] CASE_ID | [days] outstanding | [Payer]. Log payer call in claim.xlsx col AR_Followup_Log.</td>
+</tr>
+<tr>
+<td>Payer underpaid vs contract</td>
+<td>#billing-mgmt</td>
+<td>Post: [UNDERPAYMENT] CASE_ID | Expected: $[rate] | Received: $[paid]. Director or contracting team reviews contract terms.</td>
+</tr>
+<tr>
+<td>Patient balance &gt;$500, unresolved</td>
+<td>#billing-mgmt</td>
+<td>Confirm 3 contact attempts in intake.xlsx. If &lt;3: email patient. If 3+: post to #billing-mgmt requesting collections authorization from Director.</td>
+</tr>
+<tr>
+<td>Write-off request &gt;$200</td>
+<td>#billing-mgmt</td>
+<td>Post: [WRITE-OFF REQUEST] CASE_ID | Amount: $[amount] | Reason: [reason]. Requires Director approval before actioning.</td>
+</tr>
+<tr>
+<td>Level 2 appeal denied</td>
+<td>#billing-mgmt</td>
+<td>Post: [L2 DENIED] CASE_ID. Director determines: write-off, IRO, or state complaint.</td>
+</tr>
+<tr>
+<td>Legal threat or attorney communication</td>
+<td>#compliance</td>
+<td>STOP. Do not respond or modify case files. Post: [LEGAL THREAT] CASE_ID. Director of Operations and legal@careig.com must be notified immediately.</td>
+</tr>
+<tr>
+<td>Suspected fraud or billing abuse</td>
+<td>#compliance</td>
+<td>STOP. Do not discuss elsewhere or modify files. Post: [COMPLIANCE REPORT] CASE_ID. Call Compliance Hotline.</td>
+</tr>
+<tr>
+<td>Wrong drug lot/dose from partner pharmacy</td>
+<td>#clinical-scheduling</td>
+<td>Do not administer. Document in clinical.xlsx col Drug_Issue_Notes. Post: [DRUG ISSUE] CASE_ID — visit on hold. Contact partner pharmacy.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="122-workflow-monitoring">12.2 Workflow Monitoring</h2>
+<p>The intake supervisor, billing supervisor, or designated lead is responsible for reviewing open cases each morning. For each active case, check the condition in the left column against the relevant file. If the condition is true and the Slack message has not yet been sent, send it now. Do not wait for the assigned staff member to flag it — this review is a supervisory responsibility.</p><table>
+<thead>
+<tr>
+<th>Condition</th>
+<th>Slack Notification</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>audit_log.xlsx has Referral Received for CASE_ID but no BVS Assigned entry</td>
+<td>#intake-alerts: [UNASSIGNED] CASE_ID — no BVS assigned.</td>
+</tr>
+<tr>
+<td>benefits.xlsx col BV_Complete is blank after BVS Assigned log entry</td>
+<td>#intake-alerts: [BV OVERDUE] CASE_ID.</td>
+</tr>
+<tr>
+<td>auth.xlsx col PA_Submission_Date is blank after BV_Complete = YES</td>
+<td>#intake-alerts: [PA NOT SUBMITTED] CASE_ID.</td>
+</tr>
+<tr>
+<td>auth.xlsx col PA_Status = Pending AND Last_Followup_Date is 2+ days old</td>
+<td>Call payer. Update PA_Call_Log and Last_Followup_Date in auth.xlsx.</td>
+</tr>
+<tr>
+<td>clinical.xlsx col Handoff_Status is blank after auth.xlsx col PA_Status = Approved</td>
+<td>#clinical-scheduling: [HANDOFF MISSING] CASE_ID.</td>
+</tr>
+<tr>
+<td>clinical.xlsx col Visit_Date is blank after Handoff_Status = Received</td>
+<td>#clinical-scheduling: [UNSCHEDULED] CASE_ID.</td>
+</tr>
+<tr>
+<td>visit_note.xlsx col Nurse_Signature is blank after Visit_Date is populated</td>
+<td>#clinical-scheduling: [UNSIGNED NOTE] CASE_ID.</td>
+</tr>
+<tr>
+<td>claim.xlsx col Submission_Date is blank after Nurse_Signature is populated</td>
+<td>#billing: [CLAIM NOT SUBMITTED] CASE_ID.</td>
+</tr>
+<tr>
+<td>claim.xlsx col ERA_Received_Date is populated AND Payment_Posted_Date is blank</td>
+<td>#billing: [ERA UNPOSTED] CASE_ID.</td>
+</tr>
+<tr>
+<td>A file in has Appeal_Submitted = blank</td>
+<td>#billing-appeals: [DENIAL UNWORKED] CASE_ID.</td>
+</tr>
+<tr>
+<td>(today − claim.xlsx col DOS) in days exceeds 80% of payer_rules.xlsx col Timely_Filing_Days AND claim.xlsx col Submission_Date is blank</td>
+<td>#billing: [TIMELY FILING RISK] CASE_ID | [days elapsed] of [limit] days | [Payer]. Submit claim immediately.</td>
+</tr>
+</tbody>
+</table>
+<h1 id="13-reference-tables">13. Reference Tables</h1>
+<h2 id="131-hcpcs-j-code-reference">13.1 HCPCS / J-Code Reference</h2>
+<p>Source: jcodes.xlsx. Always use visit_note.xlsx col Dose_Administered_Grams — never the ordered dose. Billed rates for each code are stored in fee_schedule.xlsx col Billed_Rate. To calculate Total_Billed for a claim: multiply each code's units by its Billed_Rate and sum all lines. Write the result to claim.xlsx col Total_Billed.</p><table>
+<thead>
+<tr>
+<th>HCPC S</th>
+<th>Description</th>
+<th>Unit</th>
+<th>Formula</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>J1459</td>
+<td>IVIG — Privigen, Gammagard (IV)</td>
+<td>500 mg</td>
+<td>(g × 1000) ÷ 500</td>
+</tr>
+<tr>
+<td>J1557</td>
+<td>IVIG — Gammaplex (IV)</td>
+<td>500 mg</td>
+<td>(g × 1000) ÷ 500</td>
+</tr>
+<tr>
+<td>J1559</td>
+<td>IVIG — Hizentra (SQ)</td>
+<td>100 mg</td>
+<td>(g × 1000) ÷ 100</td>
+</tr>
+<tr>
+<td>J1560</td>
+<td>IVIG — Octagam (IV)</td>
+<td>500 mg</td>
+<td>(g × 1000) ÷ 500</td>
+</tr>
+<tr>
+<td>J1561</td>
+<td>IVIG — Gamunex-C (IV or SQ)</td>
+<td>500 mg</td>
+<td>(g × 1000) ÷ 500</td>
+</tr>
+<tr>
+<td>J1569</td>
+<td>IVIG — Gammagard Liquid (IV)</td>
+<td>500 mg</td>
+<td>(g × 1000) ÷ 500</td>
+</tr>
+<tr>
+<td>J1575</td>
+<td>IVIG — HyQvia (SQ)</td>
+<td>100 mg</td>
+<td>(g × 1000) ÷ 100</td>
+</tr>
+<tr>
+<td>J7030</td>
+<td>Normal Saline 0.9%, per 500 mL bag</td>
+<td>500 mL</td>
+<td>Units = NS_500mL_Bags_Used</td>
+</tr>
+<tr>
+<td>J7050</td>
+<td>Normal Saline 0.9%, per 250 mL bag</td>
+<td>250 mL</td>
+<td>Units = NS_250mL_Bags_Used</td>
+</tr>
+<tr>
+<td>J0171</td>
+<td>Diphenhydramine (Benadryl), per 50 mg</td>
+<td>50 mg</td>
+<td>Units = mg administered ÷ 50. Requires documentation in Premeds_Administered.</td>
+</tr>
+<tr>
+<td>J2550</td>
+<td>Promethazine injection, per 25 mg</td>
+<td>25 mg</td>
+<td>Units = mg administered ÷ 25. Same documentation rule as J0171.</td>
+</tr>
+<tr>
+<td>A4221</td>
+<td>IV infusion supplies, per visit</td>
+<td>Per visit</td>
+<td>Bill 1 unit per visit regardless of whether a pump is used.</td>
+</tr>
+<tr>
+<td>A4222</td>
+<td>Infusion pump supplies, per visit</td>
+<td>Per visit</td>
+<td>Bill 1 additional unit per visit when Pump_Used = YES. Bill alongside A4221, not instead of it.</td>
+</tr>
+<tr>
+<td>99600</td>
+<td>Home infusion nursing — first hour</td>
+<td>Per visit</td>
+<td>1 unit. Default for non-Medicare.</td>
+</tr>
+<tr>
+<td>99603</td>
+<td>Home infusion nursing — each add'l hour</td>
+<td>Per add'l hour</td>
+<td>floor((Visit_Duration_Minutes − 60) ÷ 60) units.</td>
+</tr>
+<tr>
+<td>G0153</td>
+<td>Skilled nursing, home infusion (Medicare)</td>
+<td>Per visit</td>
+<td>1 unit. Medicare Part B only. Replaces 99600/99603.</td>
+</tr>
+<tr>
+<td>T1029</td>
+<td>Nursing assessment, per visit</td>
+<td>Per visit</td>
+<td>Use when Nursing_Code_Pref = T1029. Verify by state.</td>
+</tr>
+<tr>
+<td>T1032</td>
+<td>Nursing visit, per diem</td>
+<td>Per diem</td>
+<td>Use when Nursing_Code_Pref = T1032. Verify by state.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="132-unit-calculation-examples">13.2 Unit Calculation Examples</h2>
+<table>
+<thead>
+<tr>
+<th>Scenario</th>
+<th>Result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>30g Gammaplex 5% IV → J1557</td>
+<td>30 × 1000 ÷ 500 = 60 units</td>
+</tr>
+<tr>
+<td>40g Privigen 10% IV → J1459</td>
+<td>40 × 1000 ÷ 500 = 80 units</td>
+</tr>
+<tr>
+<td>6g Hizentra 20% SQ → J1559</td>
+<td>6 × 1000 ÷ 100 = 60 units</td>
+</tr>
+<tr>
+<td>10g HyQvia 10% SQ → J1575</td>
+<td>10 × 1000 ÷ 100 = 100 units</td>
+</tr>
+<tr>
+<td>Partial: ordered 30g, administered 20g → J1557</td>
+<td>Use 20g only: 20 × 1000 ÷ 500 = 40 units. Note in claim.xlsx col Partial_Infusion_Note.</td>
+</tr>
+<tr>
+<td>270-minute visit, non-Medicare</td>
+<td>99600 × 1 + 99603 × floor((270−60)÷60) = 99600 × 1 + 99603 × 3</td>
+</tr>
+<tr>
+<td>270-minute visit, Medicare Part B</td>
+<td>G0153 × 1 only</td>
+</tr>
+</tbody>
+</table>
+<h2 id="133-drug-reference">13.3 Drug Reference</h2>
+<table>
+<thead>
+<tr>
+<th>Drug</th>
+<th>Route</th>
+<th>J-Code</th>
+<th>Units/g</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Gammaplex 5% / 10%</td>
+<td>IV</td>
+<td>J1557</td>
+<td>2</td>
+<td>Diluent: 10% Dextrose — do NOT use NS. Refrigerate until 1 hr before use. Document bags used in visit_note.xlsx col Dextrose_500mL_Bags_Used. Bill via A4221 — do not bill J7030 or J7050.</td>
+</tr>
+<tr>
+<td>Octagam 5% / 10%</td>
+<td>IV</td>
+<td>J1560</td>
+<td>2</td>
+<td>Do NOT shake. Confirm MD-ordered rate for 10%.</td>
+</tr>
+<tr>
+<td>Gammagard S/D</td>
+<td>IV</td>
+<td>J1459</td>
+<td>2</td>
+<td>Reconstitute per package insert. Latex-free.</td>
+</tr>
+<tr>
+<td>Gammagard Liquid 10%</td>
+<td>IV</td>
+<td>J1569</td>
+<td>2</td>
+<td>Off-label SQ use requires a separate MD order in .</td>
+</tr>
+<tr>
+<td>Privigen 10%</td>
+<td>IV</td>
+<td>J1459</td>
+<td>2</td>
+<td>Contraindicated in hyperprolinemia. Check intake.xlsx col Contraindications.</td>
+</tr>
+<tr>
+<td>Gamunex-C 10%</td>
+<td>IV or SQ</td>
+<td>J1561</td>
+<td>2</td>
+<td>Document route in visit_note.xlsx. Same J-code for both routes.</td>
+</tr>
+<tr>
+<td>Hizentra 20%</td>
+<td>SQ</td>
+<td>J1559</td>
+<td>10</td>
+<td>Document self-infusion training on first visit in Education_Provided.</td>
+</tr>
+<tr>
+<td>HyQvia 10%</td>
+<td>SQ</td>
+<td>J1575</td>
+<td>10</td>
+<td>Check payer_rules.xlsx for hyaluronidase co-billing requirement.</td>
+</tr>
+</tbody>
+</table>
+<p><em>Reference the Drug column of this table whenever entering Drug_Name in files.</em></p>
+<h2 id="134-icd-10-reference">13.4 ICD-10 Reference</h2>
+<p>ICD-10 codes come from intake.xlsx col Diagnosis_ICD10. Confirm the code is in this table as written here and the required documentation exists in the case folder before submitting any PA or claim.</p>
+<table>
+<thead>
+<tr>
+<th>ICD-10</th>
+<th>Diagnosis</th>
+<th>Required Documentation in</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>D83.9</td>
+<td>CVID, unspecified</td>
+<td>MD progress note; IgG &lt; 400 mg/dL produced within last 6 months preceding PA or claim.</td>
+</tr>
+<tr>
+<td>D80.0</td>
+<td>Hereditary hypogammaglobulinemia</td>
+<td>MD note with hereditary basis; IgG level</td>
+</tr>
+<tr>
+<td>D80.1</td>
+<td>Nonfamilial hypogammaglobulinemia</td>
+<td>IgG &lt; 400 mg/dL lab result; MD progress note</td>
+</tr>
+<tr>
+<td>D80.6</td>
+<td>Antibody deficiency w/ near-normal Ig</td>
+<td>Clinical notes; specialist consult preferred</td>
+</tr>
+<tr>
+<td>D89.3</td>
+<td>Immune reconstitution syndrome</td>
+<td>Transplant documentation; oncology/hematology consult</td>
+</tr>
+<tr>
+<td>G61.0</td>
+<td>Guillain-Barré Syndrome</td>
+<td>Neurology consult; NCS/EMG results; MD LMN</td>
+</tr>
+</tbody>
+</table><table>
+<thead>
+<tr>
+<th>ICD-10</th>
+<th>Diagnosis</th>
+<th>Required Documentation in</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>G70.00</td>
+<td>Myasthenia gravis, without exacerbation</td>
+<td>EMG/NCS; neurology note</td>
+</tr>
+<tr>
+<td>G70.01</td>
+<td>Myasthenia gravis, with exacerbation</td>
+<td>Crisis history; set auth.xlsx col Urgency = STAT</td>
+</tr>
+<tr>
+<td>D69.3</td>
+<td>Immune thrombocytopenic purpura</td>
+<td>Platelet count labs; MD diagnosis note</td>
+</tr>
+<tr>
+<td>B20</td>
+<td>HIV disease</td>
+<td>CD4 count; viral load; HIV diagnosis; MD LMN</td>
+</tr>
+<tr>
+<td>Z94.0–Z94.9</td>
+<td>Transplant status</td>
+<td>Transplant surgical record or discharge summary</td>
+</tr>
+</tbody>
+</table>
+<h2 id="135-payer-guidelines">13.5 Payer Guidelines</h2>
+<table>
+<thead>
+<tr>
+<th>Payer Type</th>
+<th>Claim Format</th>
+<th>Key Rules</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Medicare Part B</td>
+<td>Email (PDF)</td>
+<td>Use G0153 for nursing. Apply MSP rules. Verify MAC in payer_rules.xlsx.</td>
+</tr>
+<tr>
+<td>Medicare Advantage</td>
+<td>Email (PDF) per plan</td>
+<td>Confirm IVIG benefit placement (medical vs pharmacy) in benefits.xlsx col Benefit_Type.</td>
+</tr>
+<tr>
+<td>Medicaid</td>
+<td>Email (PDF) per state</td>
+<td>PA required in most states. Check formulary and nursing code per state in payer_rules.xlsx.</td>
+</tr>
+<tr>
+<td>Commercial PPO</td>
+<td>Email (PDF)</td>
+<td>Confirm CareIG_Network_Status = In-Network before scheduling.</td>
+</tr>
+<tr>
+<td>Commercial HMO</td>
+<td>Email (PDF)</td>
+<td>PCP referral may be required. Document in benefits.xlsx col Referral_Required.</td>
+</tr>
+<tr>
+<td>Accredo / Coram (OON)</td>
+<td>CareIG bills nursing only</td>
+<td>Do NOT bill drug J-code. Bill: 99600/99603, A4221/A4222, pre-med J-codes, saline only.</td>
+</tr>
+</tbody>
+</table>
+<h1 id="14-appendix-a-scripts-templates">14. Appendix A — Scripts &amp; Templates</h1>
+<h2 id="template-1-unable-to-reach-patient-email-to-referring-physician">Template 1: Unable to Reach Patient — Email to Referring Physician</h2>
+<pre><code>Recipient: [intake.xlsx col Physician_Email]
+Subject line: Unable to Contact Patient  |  CASE_ID: [CASE_ID]
+</code></pre>
+<pre><code>Body:
+“Dear Dr. [Physician_Name],
+</code></pre>
+<pre><code>We received a referral for [Patient First Last] (DOB: [MMDDYYYY]).
+After 3 contact attempts, we have been unable to reach the patient
+at the number on file: [Patient_Phone].
+</code></pre>
+<pre><code>Attempt 1: [intake.xlsx Contact_Attempt_Log entry 1]
+Attempt 2: [intake.xlsx Contact_Attempt_Log entry 2]
+Attempt 3: [intake.xlsx Contact_Attempt_Log entry 3]
+</code></pre><pre><code>Please provide an alternate contact or assist in connecting the patient
+with our team. We cannot proceed until contact is established.
+</code></pre>
+<pre><code>[Patient Rep Full Name] — CareIG Specialty Pharmacy, Intake”
+</code></pre>
+<h2 id="template-2-peer-to-peer-request-email-to-physician">Template 2: Peer-to-Peer Request Email to Physician</h2>
+<pre><code>DATE: [today]
+TO:   Dr. [Physician_Name]  |  EMAIL: [intake.xlsx col Physician_Email]
+FROM: CareIG Specialty Pharmacy — Prior Authorization
+RE:   P2P Review Request  |  CASE_ID: [CASE_ID]
+      Patient: [First Last]  |  DOB: [Patient_DOB]
+</code></pre>
+<pre><code>Dear Dr. [Physician_Name],
+[Patient_Last_Name]'s PA for [auth.xlsx PA_Drug_Submitted] [PA_Dose_Submitted]g was
+denied by [Payer] with reason: [auth.xlsx PA_Denial_Reason].
+The payer has offered a peer-to-peer review. Available slots:
+[auth.xlsx P2P_Available_Slots — one per line]
+</code></pre>
+<pre><code>To schedule: call [benefits.xlsx PA_Phone]
+</code></pre>
+<pre><code>No response within 2 business days = CareIG will file a Level 1 written appeal.
+Reply to: pa@careig.com
+</code></pre>
+<pre><code>[BVS Name] — CareIG Specialty Pharmacy, Prior Authorization
+</code></pre>
+<h2 id="template-3-appeal-letter-level-1-and-level-2">Template 3: Appeal Letter — Level 1 and Level 2</h2>
+<pre><code>DATE: [today]
+TO:   [Payer] Appeals Dept.
+      [payer_rules.xlsx col Appeal_Submission_Email]
+FROM: CareIG Specialty Pharmacy  |  NPI: [CareIG_NPI]  |  Tax ID: [CareIG_Tax_ID]
+</code></pre>
+<pre><code>APPEAL LEVEL: [1 / 2]
+Patient:      [Last Name, First Name]
+Member ID:    [intake.xlsx Primary_Member_ID]
+DOS:          [claim.xlsx DOS]
+Claim #:      [claim.xlsx Submission_Ref_Number]
+CARC:         [code] — [description]
+Billed:       $[claim.xlsx Total_Billed]
+</code></pre>
+<pre><code>Dear Appeals Department,
+</code></pre>
+<pre><code>CareIG Specialty Pharmacy submits this Level [1/2] appeal for [Patient Name].
+The claim was denied with CARC [code]: [description].
+</code></pre>
+<pre><code>Basis for Appeal:
+</code></pre>
+<pre><code>PA #[auth.xlsx PA_Number] was approved for [PA_Approved_Drug] [PA_Approved_Dose]g,
+effective [PA_Effective_Date] through [PA_Expiration_Date]. The service on [DOS] is
+consistent with the approved authorization and ICD-10 [Diagnosis_ICD10].
+[Add specific clinical basis referencing attached documents.]
+</code></pre><pre><code>Attached:
+</code></pre>
+<p><code>1. Original claim — claim_[DOS].pdf</code></p>
+<p><code>2. PA approval — pa_approval_[Payer].pdf (PA#: [PA_Number])</code></p>
+<p><code>3. Physician LMN — lmn_[PhysicianName].pdf</code></p>
+<p><code>4. Nursing visit note (exported from visit_note.xlsx)</code></p>
+<p><code>5. Lab results — igglevel_[MMDDYYYY].pdf</code></p>
+<p><code>6. ERA/EOB — era_[DOS]_[Payer].pdf</code></p>
+<pre><code>CareIG requests reconsideration at contracted rate: $[payer_rules.xlsx
+Contracted_Rate].
+Contact: billing@careig.com  |  [CareIG Billing Phone]
+</code></pre>
+<pre><code>[Billing Specialist Name, Credential] — CareIG Specialty Pharmacy, Billing
+</code></pre>
+<p><strong>— END OF DOCUMENT — CareIG-SOP-BILL-001 v5.0 —</strong></p>
+</body></html>

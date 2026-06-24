@@ -1,0 +1,281 @@
+{
+  "users": {
+    "U001": {
+      "id": "U001",
+      "team_id": "T001",
+      "name": "tanya.okonkwo",
+      "deleted": false,
+      "real_name": "Tanya Okonkwo",
+      "profile": {
+        "real_name": "Tanya Okonkwo",
+        "display_name": "tanya.okonkwo",
+        "email": "tokonkwo@meridianpartners.com",
+        "title": "AP Manager"
+      },
+      "is_admin": true,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U002": {
+      "id": "U002",
+      "team_id": "T001",
+      "name": "rachel.whitfield",
+      "deleted": false,
+      "real_name": "Rachel Whitfield",
+      "profile": {
+        "real_name": "Rachel Whitfield",
+        "display_name": "rachel.whitfield",
+        "email": "rwhitfield@meridianpartners.com",
+        "title": "Controller"
+      },
+      "is_admin": true,
+      "is_owner": true,
+      "is_bot": false
+    },
+    "U003": {
+      "id": "U003",
+      "team_id": "T001",
+      "name": "ap.clerk",
+      "deleted": false,
+      "real_name": "AP Clerk",
+      "profile": {
+        "real_name": "AP Clerk",
+        "display_name": "ap.clerk",
+        "email": "ap@meridianpartners.com",
+        "title": "Accounts Payable Clerk"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U004": {
+      "id": "U004",
+      "team_id": "T001",
+      "name": "david.nakamura",
+      "deleted": false,
+      "real_name": "David Nakamura",
+      "profile": {
+        "real_name": "David Nakamura",
+        "display_name": "david.nakamura",
+        "email": "dnakamura@meridianpartners.com",
+        "title": "CFO"
+      },
+      "is_admin": true,
+      "is_owner": false,
+      "is_bot": false
+    }
+  },
+  "channels": {
+    "C001": {
+      "id": "C001",
+      "name": "ap-exceptions",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1704067200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "ap-exceptions",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1704067200,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Invoice matching exceptions, price variances, quantity discrepancies",
+        "creator": "U001",
+        "last_set": 1704067200
+      },
+      "purpose": {
+        "value": "Post all invoice matching exceptions here. AP Staff only.",
+        "creator": "U001",
+        "last_set": 1704067200
+      }
+    },
+    "C002": {
+      "id": "C002",
+      "name": "ap-approvals",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1704067200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "ap-approvals",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1704067200,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Approval requests for non-PO invoices, over-threshold items, and payment confirmations for invoices under $2,500.",
+        "creator": "U001",
+        "last_set": 1704067200
+      },
+      "purpose": {
+        "value": "Post approval requests here. AP Staff only.",
+        "creator": "U001",
+        "last_set": 1704067200
+      }
+    },
+    "C003": {
+      "id": "C003",
+      "name": "ap-escalations",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1704067200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "ap-escalations",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1704067200,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Escalations to Controller: fraud suspicion, vendor disputes >$5,000, legal threats",
+        "creator": "U001",
+        "last_set": 1704067200
+      },
+      "purpose": {
+        "value": "AP Staff and AP Manager post escalations here.",
+        "creator": "U001",
+        "last_set": 1704067200
+      }
+    },
+    "C004": {
+      "id": "C004",
+      "name": "ap-payments",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1704067200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "ap-payments",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1704067200,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Payment batch confirmations, payment failures, banking issues",
+        "creator": "U001",
+        "last_set": 1704067200
+      },
+      "purpose": {
+        "value": "AP Manager posts payment batch updates here.",
+        "creator": "U001",
+        "last_set": 1704067200
+      }
+    }
+  },
+  "messages": {
+    "C001": [
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "MATCH HOLD: Blueridge Catering, V-00055, Invoice INV-BLU-2025-0319, Amount $695.00 \u2014 unit price variance outside tolerance. Pending AP Manager review.",
+        "ts": "1742313600.000100",
+        "team": "T001",
+        "reply_count": 1,
+        "latest_reply": "1742314200.000200",
+        "reply_users": [
+          "U001"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Acknowledged. I'll reach out to Blueridge to confirm pricing. Hold until further notice.",
+        "ts": "1742314200.000200",
+        "thread_ts": "1742313600.000100",
+        "parent_user_id": "U003",
+        "team": "T001"
+      }
+    ],
+    "C002": [
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "NEW VENDOR ADDED: Cascade Technology Partners, V-00891, 1099 Reportable: YES. Please acknowledge.",
+        "ts": "1747526400.000100",
+        "team": "T001",
+        "reply_count": 1,
+        "latest_reply": "1747527000.000200",
+        "reply_users": [
+          "U001"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Acknowledged \u2014 V-00891 looks good.",
+        "ts": "1747527000.000200",
+        "thread_ts": "1747526400.000100",
+        "parent_user_id": "U003",
+        "team": "T001"
+      }
+    ],
+    "C003": [],
+    "C004": [
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "BATCH COMPLETE: 2025-04-01, Payments: 3, Total Amount: $7,890.00, Method: ACH 4 / Check 0 / Wire 0",
+        "ts": "1747317600.000100",
+        "team": "T001"
+      }
+    ]
+  },
+  "counters": {
+    "messageId": 1000000
+  }
+}

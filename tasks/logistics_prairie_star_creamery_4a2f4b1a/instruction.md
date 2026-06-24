@@ -1,0 +1,1 @@
+I'm way behind. i ended up getting tied up for a few hours while i was in the middle of processing this mornings expected arrivals. can you finish processing anything remaining for today and handle any msgs that came in while i was away? thanks

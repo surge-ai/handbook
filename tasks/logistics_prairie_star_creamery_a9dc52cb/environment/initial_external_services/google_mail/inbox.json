@@ -1,0 +1,263 @@
+{
+  "mailbox": {
+    "email": "analyst@prairiestar.com",
+    "name": "Inventory Operations Analyst"
+  },
+  "contacts": [
+    {
+      "email": "daniel.reyes@prairiestar.com",
+      "name": "Daniel Reyes"
+    },
+    {
+      "email": "emily.carter@prairiestar.com",
+      "name": "Emily Carter"
+    },
+    {
+      "email": "marcus.liu@prairiestar.com",
+      "name": "Marcus Liu"
+    },
+    {
+      "email": "hannah.brooks@prairiestar.com",
+      "name": "Hannah Brooks"
+    },
+    {
+      "email": "jacob.patel@prairiestar.com",
+      "name": "Jacob Patel"
+    },
+    {
+      "email": "carlos.mendoza@prairiestar.com",
+      "name": "Carlos Mendoza"
+    },
+    {
+      "email": "alicia.nguyen@prairiestar.com",
+      "name": "Alicia Nguyen"
+    },
+    {
+      "email": "sarah.kim@prairiestar.com",
+      "name": "Sarah Kim"
+    },
+    {
+      "email": "kevin.white@prairiestar.com",
+      "name": "Kevin White"
+    },
+    {
+      "email": "brandon.keller@prairiestar.com",
+      "name": "Brandon Keller"
+    },
+    {
+      "email": "luis.ramirez@prairiestar.com",
+      "name": "Luis Ramirez"
+    },
+    {
+      "email": "renee.dubois@prairiestar.com",
+      "name": "Renee Dubois"
+    },
+    {
+      "email": "wyatt.green@prairiestar.com",
+      "name": "Wyatt Green"
+    },
+    {
+      "email": "olivia.bennett@prairiestar.com",
+      "name": "Olivia Bennett"
+    },
+    {
+      "email": "dylan.harper@prairiestar.com",
+      "name": "Dylan Harper"
+    }
+  ],
+  "folders": [
+    {
+      "name": "Receiving"
+    }
+  ],
+  "emails": [
+    {
+      "email_id": "1",
+      "folder": "INBOX",
+      "subject": "Manifest 2026-04-02-001 \u2013 Receiving Complete",
+      "from_addr": "alicia.nguyen@prairiestar.com",
+      "to_addr": "analyst@prairiestar.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-02T09:22:00-05:00",
+      "message_id": "<recv-2026-04-02-001@prairiestar.com>",
+      "in_reply_to": null,
+      "body_text": "Manifest 2026-04-02-001 receiving complete.\n\nSeal: Intact\n\nTemperature readings:\n  Front:  -9.5\u00b0F\n  Middle: -10.5\u00b0F\n  Rear:   -13.0\u00b0F\n  Avg:    -11.0\u00b0F\n\nPallet count: 20\n\nCase count by SKU:\n  SC-001: 160\n  SC-003: 119\n  SC-007: 120\n  Total:  399\n\nLot codes received:\n  A-20260327-01 (SC-001)\n  A-20260327-02 (SC-003)\n  A-20260328-01 (SC-007)\n\nLot codes match manifest.\n\nDamage observations: One case label torn (SC-001 pallet 3). No breach.\n\nNotes: None.\n\nProceeding with put-away.",
+      "body_html": null,
+      "is_read": false,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "2",
+      "folder": "Sent",
+      "subject": "P4 \u2013 Receipt Confirmation \u2013 2026-01-07-001 \u2013 2026-01-07",
+      "from_addr": "analyst@prairiestar.com",
+      "to_addr": "carlos.mendoza@prairiestar.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-01-07T09:30:00-06:00",
+      "message_id": "<e1-2026-01-07-001@prairiestar.com>",
+      "in_reply_to": null,
+      "body_text": "Manifest: 2026-01-07-001\nTotal pallets: 20\nTotal cases: 400\nTemperature readings: -19\u00b0F, -17\u00b0F, -21\u00b0F (warmest -17\u00b0F, Tier 1)\nVariance: 0\nLot codes: A-20260102-01, A-20260102-02\nStatus: Received and accepted. Product in H-A.",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "3",
+      "folder": "Sent",
+      "subject": "P3 \u2013 Temperature Excursion \u2013 2026-01-21-001 \u2013 2026-01-21",
+      "from_addr": "analyst@prairiestar.com",
+      "to_addr": "jacob.patel@prairiestar.com",
+      "cc_addr": "carlos.mendoza@prairiestar.com",
+      "bcc_addr": null,
+      "date": "2026-01-21T09:40:00-06:00",
+      "message_id": "<e3-2026-01-21-001@prairiestar.com>",
+      "in_reply_to": null,
+      "body_text": "Manifest: 2026-01-21-001\nTemperature readings: -5\u00b0F, -3\u00b0F, -8\u00b0F (warmest -3\u00b0F)\nTier classification: Tier 3\nProduct disposition: Accepted conditionally\n\nLot flagged in expiry_tracker (yellow tier). Expedited outbound note added to inventory_master. Please advise on production-side cause.",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "4",
+      "folder": "Sent",
+      "subject": "P3 \u2013 Variance Notification \u2013 2026-01-28-001 \u2013 2026-01-28",
+      "from_addr": "analyst@prairiestar.com",
+      "to_addr": "jacob.patel@prairiestar.com",
+      "cc_addr": "carlos.mendoza@prairiestar.com",
+      "bcc_addr": null,
+      "date": "2026-01-28T09:25:00-06:00",
+      "message_id": "<e4-2026-01-28-001@prairiestar.com>",
+      "in_reply_to": null,
+      "body_text": "Manifest: 2026-01-28-001\nSKU affected: SC-005\nManifest qty: 80 cases\nActual qty: 72 cases\nVariance: -8 cases (-10%)\nClassification: Moderate\n\nReceipt held open pending response. Please provide explanation or credit.",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "5",
+      "folder": "Receiving",
+      "subject": "Re: P3 \u2013 Variance Notification \u2013 2026-01-28-001 \u2013 2026-01-28",
+      "from_addr": "jacob.patel@prairiestar.com",
+      "to_addr": "analyst@prairiestar.com",
+      "cc_addr": "carlos.mendoza@prairiestar.com",
+      "bcc_addr": null,
+      "date": "2026-01-30T10:05:00-06:00",
+      "message_id": "<jp-reply-2026-01-28-001@prairiestar.com>",
+      "in_reply_to": "<e4-2026-01-28-001@prairiestar.com>",
+      "body_text": "Confirmed \u2014 SC-005 was short-packed at Waco. Credit adjustment will be issued. Expected credit note by EOD today.",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "6",
+      "folder": "Sent",
+      "subject": "P2 \u2013 Temperature Excursion \u2013 2026-02-24-001 \u2013 2026-02-24",
+      "from_addr": "analyst@prairiestar.com",
+      "to_addr": "daniel.reyes@prairiestar.com",
+      "cc_addr": "carlos.mendoza@prairiestar.com, jacob.patel@prairiestar.com",
+      "bcc_addr": null,
+      "date": "2026-02-24T09:18:00-06:00",
+      "message_id": "<e6-2026-02-24-001@prairiestar.com>",
+      "in_reply_to": null,
+      "body_text": "Manifest: 2026-02-24-001\nTemperature readings: +3\u00b0F, +5\u00b0F, +2\u00b0F (warmest +5\u00b0F)\nTier classification: Tier 4\nProduct disposition: Quarantine \u2014 entire receipt moved to H-Q pending assessment.\n\nPlease advise on disposition decision.",
+      "body_html": null,
+      "is_read": true,
+      "is_important": true,
+      "attachments": []
+    },
+    {
+      "email_id": "7",
+      "folder": "Receiving",
+      "subject": "Re: P2 \u2013 Temperature Excursion \u2013 2026-02-24-001 \u2013 2026-02-24",
+      "from_addr": "daniel.reyes@prairiestar.com",
+      "to_addr": "analyst@prairiestar.com",
+      "cc_addr": "carlos.mendoza@prairiestar.com",
+      "bcc_addr": null,
+      "date": "2026-02-24T13:28:00-06:00",
+      "message_id": "<dr-reply-2026-02-24-001@prairiestar.com>",
+      "in_reply_to": "<e6-2026-02-24-001@prairiestar.com>",
+      "body_text": "Re-measurement confirmed at -18\u00b0F after stabilization. Authorize conditional acceptance. Move to H-A and flag in expiry_tracker.",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "8",
+      "folder": "Sent",
+      "subject": "P3 \u2013 Credit Claim \u2013 Damage Class 2 \u2013 PKG-01-PO-1101 \u2013 2026-03-04",
+      "from_addr": "analyst@prairiestar.com",
+      "to_addr": "carlos.mendoza@prairiestar.com",
+      "cc_addr": "daniel.reyes@prairiestar.com, marcus.liu@prairiestar.com",
+      "bcc_addr": null,
+      "date": "2026-03-04T10:15:00-06:00",
+      "message_id": "<e8-pkg01-po1101@prairiestar.com>",
+      "in_reply_to": null,
+      "body_text": "PO: PKG-01-PO-1101\nDamage class: Class 2\nAffected cases: 4\nDamage description: Outer carton torn/hole on side panel. Inner pint containers confirmed dry and intact on visual inspection.\nTotal claim amount: $24.00\n\nRequest credit note or replacement for 4 affected cases.",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "9",
+      "folder": "Sent",
+      "subject": "P2 \u2013 Variance Notification \u2013 DRY-01-PO-0561 \u2013 2026-03-16",
+      "from_addr": "analyst@prairiestar.com",
+      "to_addr": "daniel.reyes@prairiestar.com",
+      "cc_addr": "renee.dubois@prairiestar.com, marcus.liu@prairiestar.com",
+      "bcc_addr": null,
+      "date": "2026-03-16T09:38:00-05:00",
+      "message_id": "<e9-dry01-po0561@prairiestar.com>",
+      "in_reply_to": null,
+      "body_text": "PO: DRY-01-PO-0561 (Heartland Bakery Supply)\nSKU affected: Waffle cones / cookie shells\nPO qty: 40 cases\nActual qty: 26 cases\nVariance: -14 cases (-35%)\nClassification: Major\n\nReceipt held open pending investigation. Request immediate review.",
+      "body_html": null,
+      "is_read": true,
+      "is_important": true,
+      "attachments": []
+    },
+    {
+      "email_id": "10",
+      "folder": "Receiving",
+      "subject": "Re: P2 \u2013 Variance Notification \u2013 DRY-01-PO-0561 \u2013 2026-03-16",
+      "from_addr": "marcus.liu@prairiestar.com",
+      "to_addr": "analyst@prairiestar.com",
+      "cc_addr": "daniel.reyes@prairiestar.com, renee.dubois@prairiestar.com",
+      "bcc_addr": null,
+      "date": "2026-03-16T11:20:00-05:00",
+      "message_id": "<ml-reply-dry01-po0561@prairiestar.com>",
+      "in_reply_to": "<e9-dry01-po0561@prairiestar.com>",
+      "body_text": "Heartland confirmed short-shipment. Replacement order placed \u2014 scheduled delivery 2026-03-23.",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "11",
+      "folder": "Sent",
+      "subject": "P4 \u2013 Receipt Confirmation \u2013 2026-03-31-001 \u2013 2026-03-31",
+      "from_addr": "analyst@prairiestar.com",
+      "to_addr": "carlos.mendoza@prairiestar.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-31T09:12:00-05:00",
+      "message_id": "<e12-2026-03-31-001@prairiestar.com>",
+      "in_reply_to": null,
+      "body_text": "Manifest: 2026-03-31-001\nTotal pallets: 22\nTotal cases: 440\nTemperature readings: -7\u00b0F, -6\u00b0F, -9\u00b0F (warmest -6\u00b0F, Tier 2)\nVariance: -1 (SC-005 short 1 case \u2014 P4, noted)\nLot codes: A-20260325-01, A-20260325-02, A-20260326-01\nStatus: Received and accepted. Accepted \u2014 warm side of acceptable range. Product in H-A.",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    }
+  ],
+  "next_email_id": 12
+}

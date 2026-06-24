@@ -1,0 +1,366 @@
+{
+  "events": {
+    "holiday-001": {
+      "summary": "New Year's Day (University Closed)",
+      "start": {
+        "date": "2026-01-01"
+      },
+      "end": {
+        "date": "2026-01-02"
+      },
+      "description": "University-observed holiday. HR office closed.",
+      "id": "holiday-001",
+      "created": "2026-04-11T05:45:35.041756+00:00",
+      "updated": "2026-04-11T05:45:35.041756+00:00"
+    },
+    "holiday-002": {
+      "summary": "Martin Luther King Jr. Day (University Closed)",
+      "start": {
+        "date": "2026-01-19"
+      },
+      "end": {
+        "date": "2026-01-20"
+      },
+      "description": "University-observed holiday. HR office closed.",
+      "id": "holiday-002",
+      "created": "2026-04-11T05:45:35.041756+00:00",
+      "updated": "2026-04-11T05:45:35.041756+00:00"
+    },
+    "holiday-003": {
+      "summary": "Presidents' Day (University Closed)",
+      "start": {
+        "date": "2026-02-16"
+      },
+      "end": {
+        "date": "2026-02-17"
+      },
+      "description": "University-observed holiday. HR office closed.",
+      "id": "holiday-003",
+      "created": "2026-04-11T05:45:35.041756+00:00",
+      "updated": "2026-04-11T05:45:35.041756+00:00"
+    },
+    "holiday-004": {
+      "summary": "Memorial Day (University Closed)",
+      "start": {
+        "date": "2026-05-25"
+      },
+      "end": {
+        "date": "2026-05-26"
+      },
+      "description": "University-observed holiday. HR office closed.",
+      "id": "holiday-004",
+      "created": "2026-04-11T05:45:35.041756+00:00",
+      "updated": "2026-04-11T05:45:35.041756+00:00"
+    },
+    "holiday-005": {
+      "summary": "Independence Day (Observed) (University Closed)",
+      "start": {
+        "date": "2026-07-03"
+      },
+      "end": {
+        "date": "2026-07-04"
+      },
+      "description": "University-observed holiday. HR office closed. July 4 falls on Saturday; observed Friday July 3.",
+      "id": "holiday-005",
+      "created": "2026-04-11T05:45:35.041756+00:00",
+      "updated": "2026-04-11T05:45:35.041756+00:00"
+    },
+    "holiday-006": {
+      "summary": "Labor Day (University Closed)",
+      "start": {
+        "date": "2026-09-07"
+      },
+      "end": {
+        "date": "2026-09-08"
+      },
+      "description": "University-observed holiday. HR office closed.",
+      "id": "holiday-006",
+      "created": "2026-04-11T05:45:35.041756+00:00",
+      "updated": "2026-04-11T05:45:35.041756+00:00"
+    },
+    "holiday-007": {
+      "summary": "Thanksgiving Day (University Closed)",
+      "start": {
+        "date": "2026-11-26"
+      },
+      "end": {
+        "date": "2026-11-27"
+      },
+      "description": "University-observed holiday. HR office closed.",
+      "id": "holiday-007",
+      "created": "2026-04-11T05:45:35.041756+00:00",
+      "updated": "2026-04-11T05:45:35.041756+00:00"
+    },
+    "holiday-008": {
+      "summary": "Day After Thanksgiving (University Closed)",
+      "start": {
+        "date": "2026-11-27"
+      },
+      "end": {
+        "date": "2026-11-28"
+      },
+      "description": "University-observed holiday. HR office closed.",
+      "id": "holiday-008",
+      "created": "2026-04-11T05:45:35.041756+00:00",
+      "updated": "2026-04-11T05:45:35.041756+00:00"
+    },
+    "holiday-009": {
+      "summary": "Winter Break (University Closed)",
+      "start": {
+        "date": "2026-12-24"
+      },
+      "end": {
+        "date": "2026-12-31"
+      },
+      "description": "University closed December 24\u201331. HR office closed.",
+      "id": "holiday-009",
+      "created": "2026-04-11T05:45:35.041756+00:00",
+      "updated": "2026-04-11T05:45:35.041756+00:00"
+    },
+    "onboard-mendez-orientation": {
+      "summary": "Orientation \u2013 Rafael Mendez",
+      "start": {
+        "dateTime": "2026-03-26T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-26T12:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "New hire orientation. Hiring manager: Jenna Park. Employee: Rafael Mendez (CU-1021), Admissions, Downtown Campus. Collect I-9 documents and provide benefits enrollment packet.",
+      "location": "Downtown Center, Room 105",
+      "id": "onboard-mendez-orientation",
+      "created": "2026-04-11T05:45:35.041756+00:00",
+      "updated": "2026-04-11T05:45:35.041756+00:00"
+    },
+    "onboard-trent-orientation": {
+      "summary": "Orientation \u2013 William Trent",
+      "start": {
+        "dateTime": "2026-03-05T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-05T12:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "New hire orientation. Supervisor: Rosa Gutierrez. Employee: William Trent (CU-1022), Facilities, Main Campus. Collect I-9 documents and provide benefits enrollment packet.",
+      "location": "Main Campus, HR Conference Room",
+      "id": "onboard-trent-orientation",
+      "created": "2026-04-11T05:45:35.041756+00:00",
+      "updated": "2026-04-11T05:45:35.041756+00:00"
+    },
+    "onboard-nair-orientation": {
+      "summary": "Orientation \u2013 Priya Nair",
+      "start": {
+        "dateTime": "2026-04-02T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-04-02T12:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "New hire orientation. Supervisor: Sandra Yee (currently on FMLA \u2014 orientation coordinator TBD). Employee: Priya Nair (CU-1025), Biology, West Campus. Collect I-9 documents and provide benefits enrollment packet.",
+      "location": "West Campus, Science Building Room 210",
+      "id": "onboard-nair-orientation",
+      "created": "2026-04-11T05:45:35.041756+00:00",
+      "updated": "2026-04-11T05:45:35.041756+00:00"
+    },
+    "onboard-salazar-orientation": {
+      "summary": "Orientation \u2013 Tom\u00e1s Salazar",
+      "start": {
+        "dateTime": "2026-04-02T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-04-02T12:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "New hire orientation. Supervisor: Karen Cho. Employee: Tom\u00e1s Salazar (CU-1026), Student Affairs, Downtown Campus. Collect I-9 documents and provide benefits enrollment packet.",
+      "location": "Downtown Center, Room 105",
+      "id": "onboard-salazar-orientation",
+      "created": "2026-04-11T05:45:35.041756+00:00",
+      "updated": "2026-04-11T05:45:35.041756+00:00"
+    },
+    "fmla-yee-return": {
+      "summary": "FMLA Return Date \u2013 Sandra Yee",
+      "start": {
+        "date": "2026-07-27"
+      },
+      "end": {
+        "date": "2026-07-28"
+      },
+      "description": "Expected return from FMLA leave for Sandra Yee (CU-1008), Biology, West Campus. Fitness-for-duty certification required before return. Send Template 21 at least 5 business days prior. Contact employee by 06/08/2026.",
+      "id": "fmla-yee-return",
+      "created": "2026-04-11T05:45:35.041756+00:00",
+      "updated": "2026-04-11T05:45:35.041756+00:00"
+    },
+    "probation-mendez": {
+      "summary": "Probationary Review Due \u2013 Rafael Mendez (Day 85)",
+      "start": {
+        "date": "2026-06-19"
+      },
+      "end": {
+        "date": "2026-06-20"
+      },
+      "description": "Probationary review due from supervisor Karen Cho for Rafael Mendez (CU-1021). Start date: 03/26/2026. Day 85 = 06/19/2026. If not received, follow up and CC Nicole Ashford.",
+      "id": "probation-mendez",
+      "created": "2026-04-11T05:45:35.041756+00:00",
+      "updated": "2026-04-11T05:45:35.041756+00:00"
+    },
+    "probation-trent": {
+      "summary": "Probationary Review Due \u2013 William Trent (Day 85)",
+      "start": {
+        "date": "2026-05-29"
+      },
+      "end": {
+        "date": "2026-05-30"
+      },
+      "description": "Probationary review due from supervisor Rosa Gutierrez for William Trent (CU-1022). Start date: 03/05/2026. Day 85 = 05/29/2026.",
+      "id": "probation-trent",
+      "created": "2026-04-11T05:45:35.041756+00:00",
+      "updated": "2026-04-11T05:45:35.041756+00:00"
+    },
+    "probation-salazar": {
+      "summary": "Probationary Review Reminder \u2013 Tom\u00e1s Salazar (Day 60)",
+      "start": {
+        "date": "2026-06-06"
+      },
+      "end": {
+        "date": "2026-06-07"
+      },
+      "description": "Day 60 reminder: Send Template 26 to supervisor Karen Cho for Tom\u00e1s Salazar (CU-1026). Review due by Day 85 (07/01/2026).",
+      "id": "probation-salazar",
+      "created": "2026-04-11T05:45:35.041756+00:00",
+      "updated": "2026-04-11T05:45:35.041756+00:00"
+    },
+    "eval-cycle-reminder": {
+      "summary": "Annual Evaluation Cycle \u2013 Supervisor Reminders (Template 23)",
+      "start": {
+        "dateTime": "2026-03-01T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-01T10:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "Send Template 23 to all supervisors listing their direct reports due for annual performance evaluation. Evaluations due by 06/30/2026. Generate list from employee_roster.xlsx (all active staff employees).",
+      "id": "eval-cycle-reminder",
+      "created": "2026-04-11T05:45:35.041756+00:00",
+      "updated": "2026-04-11T05:45:35.041756+00:00"
+    },
+    "eval-cycle-followup": {
+      "summary": "Annual Evaluation Follow-Up (Template 24)",
+      "start": {
+        "dateTime": "2026-05-01T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-05-01T10:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "Send Template 24 follow-up to supervisors who have NOT submitted annual evaluations. Deadline: 06/30/2026.",
+      "id": "eval-cycle-followup",
+      "created": "2026-04-11T05:45:35.041756+00:00",
+      "updated": "2026-04-11T05:45:35.041756+00:00"
+    },
+    "eval-cycle-final": {
+      "summary": "Annual Evaluation Final Reminder (Template 25)",
+      "start": {
+        "dateTime": "2026-06-15T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-06-15T10:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "Send Template 25 final reminder to supervisors with outstanding evaluations. CC Nicole Ashford. Deadline: 06/30/2026.",
+      "id": "eval-cycle-final",
+      "created": "2026-04-11T05:45:35.041756+00:00",
+      "updated": "2026-04-11T05:45:35.041756+00:00"
+    },
+    "eval-cycle-deadline": {
+      "summary": "Annual Performance Evaluations Due",
+      "start": {
+        "date": "2026-06-30"
+      },
+      "end": {
+        "date": "2026-07-01"
+      },
+      "description": "All staff annual performance evaluations due today. Fiscal year ends 06/30/2026.",
+      "id": "eval-cycle-deadline",
+      "created": "2026-04-11T05:45:35.041756+00:00",
+      "updated": "2026-04-11T05:45:35.041756+00:00"
+    },
+    "hr-team-weekly": {
+      "summary": "HR Team Weekly Meeting",
+      "start": {
+        "dateTime": "2026-04-10T10:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-04-10T11:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "Weekly HR team meeting. Attendees: Nicole Ashford, Patricia Huang, Derek Okonkwo, Marta Voss, Calvin Briggs, HR Coordinator. Review open cases, compliance deadlines, and weekly priorities.",
+      "location": "Main Campus, HR Conference Room",
+      "id": "hr-team-weekly",
+      "created": "2026-04-11T05:45:35.041756+00:00",
+      "updated": "2026-04-11T05:45:35.041756+00:00"
+    },
+    "hr-team-weekly-next": {
+      "summary": "HR Team Weekly Meeting",
+      "start": {
+        "dateTime": "2026-04-17T10:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-04-17T11:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "Weekly HR team meeting.",
+      "location": "Main Campus, HR Conference Room",
+      "id": "hr-team-weekly-next",
+      "created": "2026-04-11T05:45:35.041756+00:00",
+      "updated": "2026-04-11T05:45:35.041756+00:00"
+    },
+    "recruit-admin-asst-posting-closes": {
+      "summary": "Posting Closes \u2013 Administrative Assistant (Office of the President)",
+      "start": {
+        "date": "2026-04-17"
+      },
+      "end": {
+        "date": "2026-04-18"
+      },
+      "description": "Application deadline for Administrative Assistant position, Registrar's Office, Downtown Campus. Jira: RECRUIT-Administrative Assistant-03302026. After deadline, Derek Okonkwo will forward applications for screening.",
+      "id": "recruit-admin-asst-posting-closes",
+      "created": "2026-04-11T05:45:35.041756+00:00",
+      "updated": "2026-04-11T05:45:35.041756+00:00"
+    },
+    "fiscal-year-end": {
+      "summary": "Fiscal Year End",
+      "start": {
+        "date": "2026-06-30"
+      },
+      "end": {
+        "date": "2026-07-01"
+      },
+      "description": "Crestwood University fiscal year ends. July 1 begins new fiscal year. All annual evaluations due. Budget and HR reporting deadlines.",
+      "id": "fiscal-year-end",
+      "created": "2026-04-11T05:45:35.041756+00:00",
+      "updated": "2026-04-11T05:45:35.041756+00:00"
+    },
+    "fall-semester-start": {
+      "summary": "Fall Semester Begins",
+      "start": {
+        "date": "2026-08-24"
+      },
+      "end": {
+        "date": "2026-08-25"
+      },
+      "description": "Fall 2026 semester begins. Increased onboarding activity for new faculty and staff hires.",
+      "id": "fall-semester-start",
+      "created": "2026-04-11T05:45:35.041756+00:00",
+      "updated": "2026-04-11T05:45:35.041756+00:00"
+    }
+  }
+}

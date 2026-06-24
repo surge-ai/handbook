@@ -1,0 +1,36 @@
+[build-system]
+build-backend = "uv_build"
+requires = [ "uv-build>=0.11,<0.12" ]
+
+[project]
+# TEMPORARY backward-compatibility shim. ``syntara`` was renamed to ``core``;
+# this package re-exposes the old ``syntara`` MCP surface (namespaced
+# ``syntara__*`` tools, legacy toolset names, ``executePython``) by forwarding
+# every call to ``core``. REMOVE this whole package after 2026-06-18 — see
+# packages/syntara/syntara/_compat.py for the removal checklist.
+name = "syntara"
+version = "0.0.1"
+description = "Temporary compatibility shim that forwards to the core MCP server"
+requires-python = ">=3.13"
+classifiers = [
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.13",
+  "Programming Language :: Python :: 3.14",
+]
+dependencies = [
+  "core",
+  "fastmcp>=3.2,<4",
+  "mcp[cli]>=1.19",
+  "pydantic>=2",
+]
+scripts.syntara-mcp = "syntara.server:main"
+
+[tool.uv]
+environments = [
+  "sys_platform == 'darwin' and platform_machine == 'arm64'",
+  "sys_platform == 'linux' and platform_machine == 'x86_64'",
+]
+build-backend.module-root = ""
+
+[tool.pytest]
+ini_options.pythonpath = [ "." ]

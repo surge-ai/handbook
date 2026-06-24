@@ -1,0 +1,948 @@
+{
+  "users": {
+    "U001": {
+      "id": "U001",
+      "team_id": "TGEARMER",
+      "name": "receiving-mer",
+      "deleted": false,
+      "real_name": "Inbound Materials Coordinator",
+      "tz": "America/Chicago",
+      "tz_label": "Central Standard Time",
+      "tz_offset": -21600,
+      "profile": {
+        "real_name": "Inbound Materials Coordinator",
+        "display_name": "receiving-mer",
+        "email": "receiving.meridian@gearsystems.com",
+        "title": "Inbound Materials Coordinator"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U002": {
+      "id": "U002",
+      "team_id": "TGEARMER",
+      "name": "dhooks",
+      "deleted": false,
+      "real_name": "Darnell Hooks",
+      "tz": "America/Chicago",
+      "tz_label": "Central Standard Time",
+      "tz_offset": -21600,
+      "profile": {
+        "real_name": "Darnell Hooks",
+        "display_name": "dhooks",
+        "email": "darnell.hooks@gearsystems.com",
+        "title": "Receiving Supervisor"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U003": {
+      "id": "U003",
+      "team_id": "TGEARMER",
+      "name": "evelasquez",
+      "deleted": false,
+      "real_name": "Elizabeth Velasquez",
+      "tz": "America/Chicago",
+      "tz_label": "Central Standard Time",
+      "tz_offset": -21600,
+      "profile": {
+        "real_name": "Elizabeth Velasquez",
+        "display_name": "evelasquez",
+        "email": "elizabeth.velasquez@gearsystems.com",
+        "title": "Plant Logistics Manager"
+      },
+      "is_admin": true,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U004": {
+      "id": "U004",
+      "team_id": "TGEARMER",
+      "name": "wfinch",
+      "deleted": false,
+      "real_name": "Walter Finch",
+      "tz": "America/Chicago",
+      "tz_label": "Central Standard Time",
+      "tz_offset": -21600,
+      "profile": {
+        "real_name": "Walter Finch",
+        "display_name": "wfinch",
+        "email": "walter.finch@gearsystems.com",
+        "title": "Plant Manager"
+      },
+      "is_admin": true,
+      "is_owner": true,
+      "is_bot": false
+    },
+    "U005": {
+      "id": "U005",
+      "team_id": "TGEARMER",
+      "name": "tbrandt",
+      "deleted": false,
+      "real_name": "Theo Brandt",
+      "tz": "America/Chicago",
+      "tz_label": "Central Standard Time",
+      "tz_offset": -21600,
+      "profile": {
+        "real_name": "Theo Brandt",
+        "display_name": "tbrandt",
+        "email": "theo.brandt@gearsystems.com",
+        "title": "Quality Manager"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U006": {
+      "id": "U006",
+      "team_id": "TGEARMER",
+      "name": "jpark",
+      "deleted": false,
+      "real_name": "Joon-ho Park",
+      "tz": "America/Chicago",
+      "tz_label": "Central Standard Time",
+      "tz_offset": -21600,
+      "profile": {
+        "real_name": "Joon-ho Park",
+        "display_name": "jpark",
+        "email": "joonho.park@gearsystems.com",
+        "title": "Procurement Lead, Meridian"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U007": {
+      "id": "U007",
+      "team_id": "TGEARMER",
+      "name": "mortiz",
+      "deleted": false,
+      "real_name": "Maribel Ortiz",
+      "tz": "America/Chicago",
+      "tz_label": "Central Standard Time",
+      "tz_offset": -21600,
+      "profile": {
+        "real_name": "Maribel Ortiz",
+        "display_name": "mortiz",
+        "email": "maribel.ortiz@gearsystems.com",
+        "title": "Inventory Control Lead"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U008": {
+      "id": "U008",
+      "team_id": "TGEARMER",
+      "name": "akrishnamurthy",
+      "deleted": false,
+      "real_name": "Aditi Krishnamurthy",
+      "tz": "America/Chicago",
+      "tz_label": "Central Standard Time",
+      "tz_offset": -21600,
+      "profile": {
+        "real_name": "Aditi Krishnamurthy",
+        "display_name": "akrishnamurthy",
+        "email": "aditi.krishnamurthy@gearsystems.com",
+        "title": "Production Planning Lead"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U009": {
+      "id": "U009",
+      "team_id": "TGEARMER",
+      "name": "rlemoine",
+      "deleted": false,
+      "real_name": "Reggie Lemoine",
+      "tz": "America/Chicago",
+      "tz_label": "Central Standard Time",
+      "tz_offset": -21600,
+      "profile": {
+        "real_name": "Reggie Lemoine",
+        "display_name": "rlemoine",
+        "email": "reggie.lemoine@gearsystems.com",
+        "title": "Quality Inspector, 1st Shift"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U010": {
+      "id": "U010",
+      "team_id": "TGEARMER",
+      "name": "cyablonski",
+      "deleted": false,
+      "real_name": "Curtis Yablonski",
+      "tz": "America/Chicago",
+      "tz_label": "Central Standard Time",
+      "tz_offset": -21600,
+      "profile": {
+        "real_name": "Curtis Yablonski",
+        "display_name": "cyablonski",
+        "email": "curtis.yablonski@gearsystems.com",
+        "title": "Dock Lead"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U011": {
+      "id": "U011",
+      "team_id": "TGEARMER",
+      "name": "cwoj",
+      "deleted": false,
+      "real_name": "Chris Wojciechowski",
+      "tz": "America/Chicago",
+      "tz_label": "Central Standard Time",
+      "tz_offset": -21600,
+      "profile": {
+        "real_name": "Chris Wojciechowski",
+        "display_name": "cwoj",
+        "email": "chris.wojciechowski@gearsystems.com",
+        "title": "Plant EHS Contact"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U012": {
+      "id": "U012",
+      "team_id": "TGEARMER",
+      "name": "ytanaka",
+      "deleted": false,
+      "real_name": "Yuki Tanaka",
+      "tz": "America/Chicago",
+      "tz_label": "Central Standard Time",
+      "tz_offset": -21600,
+      "profile": {
+        "real_name": "Yuki Tanaka",
+        "display_name": "ytanaka",
+        "email": "yuki.tanaka@gearsystems.com",
+        "title": "RMA Coordinator, Quality"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    }
+  },
+  "channels": {
+    "C001": {
+      "id": "C001",
+      "name": "receiving-dock",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1490000000,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "receiving-dock",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "TGEARMER",
+      "updated": 1779192000,
+      "creator": "U002",
+      "shared_team_ids": [
+        "TGEARMER"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Dock operations \u2014 arrivals, unload status, putaway authorizations, handoffs",
+        "creator": "U002",
+        "last_set": 1490000000
+      },
+      "purpose": {
+        "value": "Primary channel for all receiving dock activity. All coordinator posts, dock crew reports, and putaway authorizations go here.",
+        "creator": "U002",
+        "last_set": 1490000000
+      }
+    },
+    "C002": {
+      "id": "C002",
+      "name": "quality-alerts",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1490000000,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "quality-alerts",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "TGEARMER",
+      "updated": 1779192000,
+      "creator": "U005",
+      "shared_team_ids": [
+        "TGEARMER"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Quality inspection findings and alerts",
+        "creator": "U005",
+        "last_set": 1490000000
+      },
+      "purpose": {
+        "value": "Quality Inspector inspection reports and quality-related alerts. Reggie Lemoine posts findings here.",
+        "creator": "U005",
+        "last_set": 1490000000
+      }
+    },
+    "C003": {
+      "id": "C003",
+      "name": "escalations-meridian",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1490000000,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "escalations-meridian",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "TGEARMER",
+      "updated": 1779192000,
+      "creator": "U003",
+      "shared_team_ids": [
+        "TGEARMER"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Receiving escalations \u2014 dollar-value and severity-override events",
+        "creator": "U003",
+        "last_set": 1490000000
+      },
+      "purpose": {
+        "value": "Escalation posts per Section 16 of SOP-LOG-MER-02. Dollar-value tier escalations and all severity overrides posted here.",
+        "creator": "U003",
+        "last_set": 1490000000
+      }
+    },
+    "C004": {
+      "id": "C004",
+      "name": "planning-meridian",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1490000000,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "planning-meridian",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "TGEARMER",
+      "updated": 1779192000,
+      "creator": "U008",
+      "shared_team_ids": [
+        "TGEARMER"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Production planning notifications and line-down risk coordination",
+        "creator": "U008",
+        "last_set": 1490000000
+      },
+      "purpose": {
+        "value": "Receiving notifies Production Planning of shortages and quarantines with line-down risk per SOP-LOG-MER-02.",
+        "creator": "U008",
+        "last_set": 1490000000
+      }
+    }
+  },
+  "messages": {
+    "C001": [
+      {
+        "type": "message",
+        "user": "U010",
+        "text": "UNLOAD COMPLETE: REC-20260511-001, Acevedo Driveshaft Components, PO #MER-PO-104935. Total pallets: 4. Count match: Y. Condition: Clean. Photos: N. Heat numbers on pallets: H46-0119881, H46-0119902.",
+        "ts": "1778514240.000100",
+        "team": "TGEARMER",
+        "channel": "C001"
+      },
+      {
+        "type": "message",
+        "user": "U009",
+        "text": "100% inspection complete \u2014 REC-20260511-001, DS-31740-A1, 60 units. Physical condition: all units pass visual. Heat numbers recorded from parts: H46-0119881 and H46-0119902. MTR on file (MER-PO-104935_MTR.pdf) covers H46-0119881 only. H46-0119902 is not on the MTR. Full findings posted in #quality-alerts.",
+        "ts": "1778520120.000200",
+        "team": "TGEARMER",
+        "channel": "C001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "HEAT NUMBER MISMATCH: REC-20260511-001, PO #MER-PO-104935, SKU DS-31740-A1. MTR heat numbers: H46-0119881. Physical heat numbers: H46-0119881, H46-0119902. Quarantined. Severity override per Section 16.2.1.",
+        "ts": "1778521440.000300",
+        "team": "TGEARMER",
+        "channel": "C001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "PUTAWAY AUTHORIZED: REC-20260511-001, Acevedo Driveshaft Components, 1 line.\n- Line 001: DS-31740-A1, 60 units \u2192 Q-HOLD [QUARANTINE \u2014 heat number mismatch per Section 12.6.3]\nCoordinator: CY",
+        "ts": "1778521800.000400",
+        "team": "TGEARMER",
+        "channel": "C001"
+      },
+      {
+        "type": "message",
+        "user": "U010",
+        "text": "Q-HOLD move complete. DS-31740-A1 60 units in quarantine cage.",
+        "ts": "1778521980.000500",
+        "team": "TGEARMER",
+        "channel": "C001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "END-OF-SHIFT HANDOFF 05/11/2026 \u2014 Coordinator: CY\n\nReceipts completed today: 1\nReceipts open at handoff: 0\nNCRs issued today: 1 (1 Critical)\nQuarantines applied today: 1\nEscalations open: 1\n\nOPEN RECEIPTS:\n- None\n\nOPEN NCRs AWAITING COORDINATOR ACTION:\n- NCR-MER-2026-0062: Critical, DS-31740-A1, SUP-0318. Letter drafted, pending Theo Brandt review before send.\n\nOPEN ESCALATIONS:\n- REC-20260511-001, $37,680.00, Override (heat number mismatch), awaiting Theo Brandt and Elizabeth Velasquez since 11:44 CST.\n\nQUARANTINE STATUS:\n- Q-HOLD currently holds 1 entry: DS-31740-A1, 60 units, $37,680.00. Re-inspection scheduled: REC-20260511-001 on 05/14/2026.\n\nNOTES FOR TOMORROW:\n- NCR-MER-2026-0062 letter requires Theo Brandt approval before sending. Supplier response due 05/14/2026 (3 business days).",
+        "ts": "1778529480.000600",
+        "team": "TGEARMER",
+        "channel": "C001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "DAILY DOCK PREVIEW 05/15/2026: 2 appointments scheduled. Hazmat: none. Oversize/special: none. Largest expected shipment: Dawson Precision Machining, approx 2,900 lb at 08:00.",
+        "ts": "1778846520.000100",
+        "team": "TGEARMER",
+        "channel": "C001"
+      },
+      {
+        "type": "message",
+        "user": "U010",
+        "text": "BOL and packing slip scanned and uploaded for APPT-20260515-001. Supplier: Estes Express for Dawson Precision Machining. PO #MER-PO-104877. Dock 3. BOL filed at bols\\MER-PO-104877_bol.pdf, packing slip at packing_slips\\MER-PO-104877_packingslip.pdf.",
+        "ts": "1778856720.000200",
+        "team": "TGEARMER",
+        "channel": "C001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "ARRIVAL ON TIME: APPT-20260515-001, Dawson Precision Machining, Dock 3, PO #MER-PO-104877. Cleared to unload.",
+        "ts": "1778857080.000300",
+        "team": "TGEARMER",
+        "channel": "C001"
+      },
+      {
+        "type": "message",
+        "user": "U010",
+        "text": "UNLOAD COMPLETE: REC-20260515-004, Dawson Precision Machining, PO #MER-PO-104877. Total pallets: 3. Count match: Y. Condition: Clean. Photos: N.",
+        "ts": "1778857440.000400",
+        "team": "TGEARMER",
+        "channel": "C001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Probation supplier receipt \u2014 REC-20260515-004, Dawson Precision Machining, PO #MER-PO-104877. Sample inspection required per Section 15.2.2. Probation reason: 2 Major NCRs DS components. Please advise availability. @rlemoine",
+        "ts": "1778858040.000500",
+        "team": "TGEARMER",
+        "channel": "C001",
+        "reply_count": 1,
+        "latest_reply": "1778858040.000600",
+        "reply_users": [
+          "U009"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U009",
+        "text": "Unavailable today \u2014 off-site training. Cannot perform inspection 05/15. Will be available 05/19.",
+        "ts": "1778858040.000600",
+        "thread_ts": "1778858040.000500",
+        "parent_user_id": "U001",
+        "team": "TGEARMER",
+        "channel": "C001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "END-OF-SHIFT HANDOFF 05/15/2026 \u2014 Coordinator: CY\n\nReceipts completed today: 0\nReceipts open at handoff: 1\nNCRs issued today: 0\nQuarantines applied today: 0\nEscalations open: 1 (carried from 05/11)\n\nOPEN RECEIPTS:\n- REC-20260515-004: Dawson Precision Machining, PO #MER-PO-104877 line 002, TR-08824-B2, 48 units. Qty and condition complete. Sample inspection per Section 15.2.2 required before disposition. Reggie Lemoine unavailable 05/15, confirmed available 05/19. Material in receiving area, tagged OPEN HANDOFF. Next action: request Reggie inspection at start of 05/19 shift.\n\nOPEN NCRs AWAITING COORDINATOR ACTION:\n- NCR-MER-2026-0062: Critical, DS-31740-A1. Letter sent 05/12/2026. Supplier response due 05/14/2026. No response received as of 05/15 \u2014 overdue 1 business day as of 05/15.\n\nOPEN ESCALATIONS:\n- REC-20260511-001, $37,680.00, Override (heat number mismatch). Theo Brandt acknowledged 05/11 14:02 CST, investigation ongoing.\n\nQUARANTINE STATUS:\n- Q-HOLD: DS-31740-A1, 60 units. Re-inspection was scheduled 05/14/2026 \u2014 not completed, Theo investigation ongoing. Coordinator to confirm status with Theo at start of 05/19 shift.\n\nNOTES FOR TOMORROW:\n- NCR-MER-2026-0044 (Dawson, Major, open): now 24 business days overdue. No supplier response received.\n- 05/19 dock has 5 appointments including a hazmat delivery (APPT-20260519-002, Kimura, Dock 2, 08:00).",
+        "ts": "1778875920.000700",
+        "team": "TGEARMER",
+        "channel": "C001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "DAILY DOCK PREVIEW 05/19/2026: 5 appointments scheduled. Hazmat: APPT-20260519-002. Oversize/special: none. Largest expected shipment: Halverson Forge & Steel, approx 18,600 lb at 09:30.",
+        "ts": "1779192000.000100",
+        "team": "TGEARMER",
+        "channel": "C001"
+      },
+      {
+        "type": "message",
+        "user": "U010",
+        "text": "BOL and packing slip scanned and uploaded for APPT-20260519-001. Supplier: Saia LTL Freight for Northfield Brake Systems. PO #MER-PO-104981. Dock 1. BOL filed at bols\\MER-PO-104981_bol.pdf, packing slip at packing_slips\\MER-PO-104981_packingslip.pdf.",
+        "ts": "1779194280.000200",
+        "team": "TGEARMER",
+        "channel": "C001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "ARRIVAL ON TIME: APPT-20260519-001, Northfield Brake Systems, Dock 1, PO #MER-PO-104981. Cleared to unload.",
+        "ts": "1779194280.000300",
+        "team": "TGEARMER",
+        "channel": "C001"
+      },
+      {
+        "type": "message",
+        "user": "U010",
+        "text": "BOL and packing slip scanned and uploaded for APPT-20260519-002. Supplier: Chemical Transport LLC for Kimura Lubricants Inc. PO #MER-PO-104918. Dock 2. BOL filed at bols\\MER-PO-104918_bol.pdf, packing slip at packing_slips\\MER-PO-104918_packingslip.pdf. Hazmat flag confirmed \u2014 55-gal drums on board, DOT labeling verified on all packages.",
+        "ts": "1779199920.000400",
+        "team": "TGEARMER",
+        "channel": "C001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "HAZMAT RECEIPT: REC-[pending], Kimura Lubricants Inc., FL-55200-A1 and FL-55201-A1. SDS and manifest verified, on file. Cleared to unload.",
+        "ts": "1779200340.000500",
+        "team": "TGEARMER",
+        "channel": "C001",
+        "reply_count": 1,
+        "latest_reply": "1779200640.000600",
+        "reply_users": [
+          "U011"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U011",
+        "text": "Acknowledged. Standing by for manifest confirmation when unload is complete.",
+        "ts": "1779200640.000600",
+        "thread_ts": "1779200340.000500",
+        "parent_user_id": "U001",
+        "team": "TGEARMER",
+        "channel": "C001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Probation supplier receipt carry-forward \u2014 REC-20260515-004, Dawson Precision Machining, PO #MER-PO-104877 line 002, TR-08824-B2, 48 units. Material in receiving area. Sample inspection required per Section 15.2.2. @rlemoine \u2014 available to inspect today?",
+        "ts": "1779192660.000100",
+        "team": "TGEARMER",
+        "channel": "C001",
+        "reply_count": 1,
+        "latest_reply": "1779193140.000100",
+        "reply_users": [
+          "U009"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U009",
+        "text": "Available first thing. Will inspect now and post findings in #quality-alerts.",
+        "ts": "1779193140.000100",
+        "thread_ts": "1779192660.000100",
+        "parent_user_id": "U001",
+        "team": "TGEARMER",
+        "channel": "C001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "PUTAWAY AUTHORIZED: REC-20260515-004, Dawson Precision Machining, 1 line.\n- Line 002: TR-08824-B2, 48 units \u2192 A-05-01\nCoordinator: CY",
+        "ts": "1779211860.000100",
+        "team": "TGEARMER",
+        "channel": "C001"
+      },
+      {
+        "type": "message",
+        "user": "U010",
+        "text": "BOL and packing slip scanned and uploaded for APPT-20260519-003. Supplier: Yellow Freight for Halverson Forge & Steel. PO #MER-PO-104820. Dock 3. BOL filed at bols\\MER-PO-104820_bol_2.pdf, packing slip at packing_slips\\MER-PO-104820_packingslip_2.pdf.",
+        "ts": "1779204540.000100",
+        "team": "TGEARMER",
+        "channel": "C001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "ARRIVAL ON TIME: APPT-20260519-003, Halverson Forge & Steel, Dock 3, PO #MER-PO-104820. Cleared to unload.",
+        "ts": "1779204780.000100",
+        "team": "TGEARMER",
+        "channel": "C001"
+      },
+      {
+        "type": "message",
+        "user": "U010",
+        "text": "UNLOAD COMPLETE: REC-20260519-003, Halverson Forge & Steel, PO #MER-PO-104820. Total pallets: 12. Count match: Y. Condition: Clean. Photos: N. Heat numbers on pallets: H46-0198221.",
+        "ts": "1779208860.000100",
+        "team": "TGEARMER",
+        "channel": "C001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "PUTAWAY AUTHORIZED: REC-20260519-003, Halverson Forge & Steel, 1 line.\n- Line 003: AX-05312-C1, 216 units \u2192 A-04-03\nCoordinator: CY",
+        "ts": "1779213120.000100",
+        "team": "TGEARMER",
+        "channel": "C001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "SHIPMENT REFUSED: REC-20260519-004, Greystone Transmission Parts, PO #MER-PO-104968. Supplier status: Suspended 04/28/2026. Refusing per Section 15.2.4. Dock Crew: do not unload. Inform driver shipment is refused.",
+        "ts": "1779206580.000100",
+        "team": "TGEARMER",
+        "channel": "C001"
+      },
+      {
+        "type": "message",
+        "user": "U010",
+        "text": "Confirmed. Driver notified. BOL annotated REFUSED \u2014 DO NOT UNLOAD. Photo uploaded to refusals\\.",
+        "ts": "1779207060.000100",
+        "team": "TGEARMER",
+        "channel": "C001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "SHIPMENT REFUSED: REC-20260519-004, Greystone Transmission Parts, PO #MER-PO-104968, reason: Suspended supplier per supplier_master.xlsx as of 04/28/2026. Carrier released at 10:18 CST.",
+        "ts": "1779207480.000100",
+        "team": "TGEARMER",
+        "channel": "C001"
+      },
+      {
+        "type": "message",
+        "user": "U010",
+        "text": "BOL and packing slip scanned and uploaded for APPT-20260519-005. Supplier: Saia LTL Freight for Blue Ridge Seals & Gaskets. PO #MER-PO-104993. Dock 4. BOL filed at bols\\MER-PO-104993_bol_2.pdf.",
+        "ts": "1779211680.000100",
+        "team": "TGEARMER",
+        "channel": "C001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "ARRIVAL ON TIME: APPT-20260519-005, Blue Ridge Seals & Gaskets, Dock 4, PO #MER-PO-104993. Cleared to unload.",
+        "ts": "1779211920.000100",
+        "team": "TGEARMER",
+        "channel": "C001"
+      },
+      {
+        "type": "message",
+        "user": "U010",
+        "text": "UNLOAD COMPLETE: REC-20260519-005, Blue Ridge Seals & Gaskets, PO #MER-PO-104993. Total pallets: 8. Count match: Y. Condition: Clean. Photos: N. Heat numbers on pallets: H46-0205441 (line 001), H46-0205442 (line 002).",
+        "ts": "1779216240.000100",
+        "team": "TGEARMER",
+        "channel": "C001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "PUTAWAY AUTHORIZED: REC-20260519-005, Blue Ridge Seals & Gaskets, 2 lines.\n- Line 001: BG-18830-A1, 240 units \u2192 B-09-04\n- Line 002: BG-18831-B1, 200 units \u2192 B-09-05\nCoordinator: CY",
+        "ts": "1779219480.000100",
+        "team": "TGEARMER",
+        "channel": "C001"
+      },
+      {
+        "type": "message",
+        "user": "U010",
+        "text": "UNLOAD COMPLETE: REC-20260519-001, Northfield Brake Systems, PO #MER-PO-104981. Total pallets: 6. Count match: Y. Condition: Clean. Photos: N. Heat numbers on pallets: H46-0201001, H46-0201002 (line 001); H46-0201003 (line 002). Line 003: no heat number (packaging).",
+        "ts": "1779198240.000100",
+        "team": "TGEARMER",
+        "channel": "C001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "PUTAWAY AUTHORIZED: REC-20260519-001, Northfield Brake Systems, 3 lines.\n- Line 001: BR-72014-A2, 96 units \u2192 A-06-02\n- Line 002: BR-72088-B1, 48 units \u2192 A-06-03\n- Line 003: PK-00441-A1, 96 units \u2192 E-03-03\nCoordinator: CY",
+        "ts": "1779199500.000100",
+        "team": "TGEARMER",
+        "channel": "C001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "END-OF-SHIFT HANDOFF 05/19/2026 \u2014 Coordinator: CY\n\nReceipts completed today: 5 (plus REC-20260515-004 resolved)\nReceipts open at handoff: 0\nNCRs issued today: 0\nQuarantines applied today: 0\nEscalations open: 2\n\nOPEN RECEIPTS:\n- None\n\nOPEN NCRs AWAITING COORDINATOR ACTION:\n- NCR-MER-2026-0062: Critical, DS-31740-A1, SUP-0318. Escalated to Walter Finch, Joon-ho Park, Theo Brandt at 06:08 CST. Theo acknowledged at 06:22 CST \u2014 investigating with Acevedo. Joon-ho acknowledged at 06:31 CST. No supplier response as of shift end.\n\nOPEN ESCALATIONS:\n- NCR-MER-2026-0062 overdue Critical escalation \u2014 acknowledged by Theo and Joon-ho. Walter Finch has not explicitly acknowledged. Check for Walter response at start of 05/20 shift.\n- MER-PO-104820 lines 001+002 overdue \u2014 Aditi confirmed no immediate line-down risk within 48 hours but trending toward critical. Joon-ho to expedite with Halverson.\n\nQUARANTINE STATUS:\n- Q-HOLD: DS-31740-A1, 60 units, $37,680.00. Re-inspection rescheduled to 05/21/2026. Theo Brandt investigation ongoing.\n\nNOTES FOR TOMORROW:\n- 2 appointments: APPT-20260520-001 (Ritter Fastener, 07:00, Dock 2, MER-PO-104903) and APPT-20260520-002 (Meridian Packaging, 09:00, Dock 1, MER-PO-105004). No hazmat. No special handling.\n- Confirm Walter Finch acknowledgement on NCR-0062 escalation at shift start.",
+        "ts": "1779221520.000100",
+        "team": "TGEARMER",
+        "channel": "C001"
+      },
+      {
+        "type": "message",
+        "user": "U010",
+        "text": "BOL and packing slip scanned and uploaded for APPT-20260520-001. Supplier: XPO Logistics for Ritter Fastener Group. PO #MER-PO-104903. Dock 2. BOL filed at bols\\MER-PO-104903_bol_2.pdf, packing slip at packing_slips\\MER-PO-104903_packingslip_2.pdf.",
+        "ts": "1779282120.000100",
+        "team": "TGEARMER",
+        "channel": "C001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "DAILY DOCK PREVIEW 05/20/2026: 2 appointments scheduled. Hazmat: none. Oversize/special: none. Largest expected shipment: Meridian Packaging Supply, 3,800 lb at 09:00.",
+        "ts": "1779278880.000100",
+        "team": "TGEARMER",
+        "channel": "C001"
+      }
+    ],
+    "C002": [
+      {
+        "type": "message",
+        "user": "U009",
+        "text": "INSPECTION REPORT \u2014 REC-20260511-001, DS-31740-A1, SUP-0318 (New supplier), PO #MER-PO-104935.\n\n100% inspection complete per Section 15.2.3. 60 units inspected.\n\nPhysical condition: PASS \u2014 no damage observed.\nQuantity: PASS \u2014 60 units received, matches packing slip.\nHeat numbers on parts/pallet tags: H46-0119881 (pallets 1\u20133), H46-0119902 (pallet 4).\nMTR on file (MER-PO-104935_MTR.pdf) covers: H46-0119881 only.\n\nH46-0119902 is not listed on the MTR. Heat number mismatch per Section 12.6.3. Marked-up packing slip attached.",
+        "ts": "1778520120.000100",
+        "team": "TGEARMER",
+        "channel": "C002",
+        "reply_count": 1,
+        "latest_reply": "1778520120.000200",
+        "reply_users": [
+          "U005"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U005",
+        "text": "Confirmed. Full quarantine required. I will investigate with Acevedo. Do not release any units from Q-HOLD without my written email authorization.",
+        "ts": "1778520120.000200",
+        "thread_ts": "1778520120.000100",
+        "parent_user_id": "U009",
+        "team": "TGEARMER",
+        "channel": "C002"
+      },
+      {
+        "type": "message",
+        "user": "U009",
+        "text": "Out of office 05/15 \u2014 off-site training. Available 05/19 first shift. Any pending inspections held until then.",
+        "ts": "1778846520.000300",
+        "team": "TGEARMER",
+        "channel": "C002"
+      },
+      {
+        "type": "message",
+        "user": "U009",
+        "text": "INSPECTION REPORT \u2014 REC-20260515-004, TR-08824-B2, SUP-0112 (Probation), PO #MER-PO-104877 line 002.\n\nSample inspection complete per Section 15.2.2. 48 units inspected (100% sample per probation requirement).\n\nPhysical condition: PASS \u2014 no damage observed.\nQuantity: PASS \u2014 48 units received, matches packing slip.\nHeat numbers on parts/pallet tags: H46-0188801.\nMTR on file (MER-PO-104877_MTR.pdf) covers: H46-0188801. Match confirmed.\nCOC on file (MER-PO-104877_COC.pdf): verified.\n\nNo nonconformances identified. Recommend ACCEPTED CLEAN.",
+        "ts": "1779209880.000100",
+        "team": "TGEARMER",
+        "channel": "C002"
+      }
+    ],
+    "C003": [
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "ESCALATION \u2014 OVERRIDE OVERDUE MAJOR NCR: NCR-MER-2026-0044, SUP-0112 Dawson Precision Machining, PO #MER-PO-104801. Major NCR overdue \u2014 no supplier response received. Response was due 04/11/2026. Escalating per Section 14.5.1. @jpark @tbrandt",
+        "ts": "1775148900.000100",
+        "team": "TGEARMER",
+        "channel": "C003",
+        "reply_count": 1,
+        "latest_reply": "1775148900.000200",
+        "reply_users": [
+          "U006"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U006",
+        "text": "Acknowledged. I will contact Dawson directly. This NCR plus NCR-MER-2026-0031 are both being factored into supplier status review.",
+        "ts": "1775148900.000200",
+        "thread_ts": "1775148900.000100",
+        "parent_user_id": "U001",
+        "team": "TGEARMER",
+        "channel": "C003"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "ESCALATION \u2014 OVERRIDE HEAT NUMBER MISMATCH: REC-20260511-001, Acevedo Driveshaft Components, PO #MER-PO-104935. Trigger: Heat number mismatch. MTR heat numbers: H46-0119881. Physical heat numbers: H46-0119881, H46-0119902. Dollar value: $37,680.00. Override trigger: Section 16.2.1. Disposition: QUARANTINE \u2014 full receipt. NCR: NCR-MER-2026-0062 pending. Awaiting guidance from Theo Brandt and Elizabeth Velasquez. @tbrandt @evelasquez",
+        "ts": "1778521440.000100",
+        "team": "TGEARMER",
+        "channel": "C003",
+        "reply_count": 2,
+        "latest_reply": "1778521440.000300",
+        "reply_users": [
+          "U003",
+          "U005"
+        ],
+        "reply_users_count": 2
+      },
+      {
+        "type": "message",
+        "user": "U005",
+        "text": "Acknowledged. Quarantine is correct. I will review the NCR draft when you send it. Do not release Q-HOLD without my written email. Investigation underway with Acevedo.",
+        "ts": "1778521440.000200",
+        "thread_ts": "1778521440.000100",
+        "parent_user_id": "U001",
+        "team": "TGEARMER",
+        "channel": "C003"
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "Acknowledged. Keep me posted on supplier response. Coordinate with Theo on NCR letter before it goes out.",
+        "ts": "1778521440.000300",
+        "thread_ts": "1778521440.000100",
+        "parent_user_id": "U001",
+        "team": "TGEARMER",
+        "channel": "C003"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "OVERDUE CRITICAL NCR: NCR-MER-2026-0062, Acevedo Driveshaft Components, 3 business days overdue. No supplier response. Escalating per Section 14.5.1. @tbrandt @jpark @wfinch",
+        "ts": "1779192480.000100",
+        "team": "TGEARMER",
+        "channel": "C003",
+        "reply_count": 3,
+        "latest_reply": "1779196440.000100",
+        "reply_users": [
+          "U004",
+          "U005",
+          "U006"
+        ],
+        "reply_users_count": 3
+      },
+      {
+        "type": "message",
+        "user": "U005",
+        "text": "Acknowledged. I will contact Acevedo directly today. Quarantine on DS-31740-A1 remains in place \u2014 do not release Q-HOLD without my written email authorization.",
+        "ts": "1779193320.000100",
+        "thread_ts": "1779192480.000100",
+        "parent_user_id": "U001",
+        "team": "TGEARMER",
+        "channel": "C003"
+      },
+      {
+        "type": "message",
+        "user": "U006",
+        "text": "Acknowledged. I will follow up commercially. No supplier communication from the coordinator \u2014 route everything to me.",
+        "ts": "1779193860.000100",
+        "thread_ts": "1779192480.000100",
+        "parent_user_id": "U001",
+        "team": "TGEARMER",
+        "channel": "C003"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "SUSPENDED SUPPLIER ARRIVAL: Greystone Transmission Parts (SUP-0401, Suspended since 04/28/2026), arrived with PO #MER-PO-104968, Freight Masters Inc., Dock 1. Refusing per Section 15.2.4. Awaiting Procurement guidance on supplier communication. @jpark @dhooks @evelasquez",
+        "ts": "1779206580.000200",
+        "team": "TGEARMER",
+        "channel": "C003",
+        "reply_count": 1,
+        "latest_reply": "1779206940.000100",
+        "reply_users": [
+          "U006"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U006",
+        "text": "Acknowledged. I will handle all communication with Greystone. Do not contact the supplier directly.",
+        "ts": "1779206940.000100",
+        "thread_ts": "1779206580.000200",
+        "parent_user_id": "U001",
+        "team": "TGEARMER",
+        "channel": "C003"
+      },
+      {
+        "type": "message",
+        "user": "U004",
+        "text": "Acknowledged. Theo and Joon-ho \u2014 please keep me posted on Acevedo's response. Quarantine stays in place.",
+        "ts": "1779196440.000100",
+        "thread_ts": "1779192480.000100",
+        "parent_user_id": "U001",
+        "team": "TGEARMER",
+        "channel": "C003"
+      }
+    ],
+    "C004": [
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Line-down risk check \u2014 PO #MER-PO-104851 line 001, SKU BG-33044-A1, short by 22 units (Band 2, \u22127.6%). On-hand prior to receipt: 72 units at B-08-02. Please advise consumption rate and risk. @akrishnamurthy",
+        "ts": "1775148900.000300",
+        "team": "TGEARMER",
+        "channel": "C004",
+        "reply_count": 1,
+        "latest_reply": "1775148900.000400",
+        "reply_users": [
+          "U008"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U008",
+        "text": "Reviewed. Current on-hand plus the 266 received puts us at 338 total. Daily consumption rate is approximately 18 units. We have roughly 18 days of cover \u2014 no line-down risk within 48 hours. Continue with standard disposition.",
+        "ts": "1775148900.000400",
+        "thread_ts": "1775148900.000300",
+        "parent_user_id": "U001",
+        "team": "TGEARMER",
+        "channel": "C004"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Overdue PO lines \u2014 MER-PO-104820, Halverson Forge & Steel. Halverson delivered line 003 (AX-05312-C1) today. Lines 001 and 002 were not in this shipment:\n- Line 001: AX-04827-B2, 240 units, Required_Delivery_Date 03/24/2026 \u2014 57 days overdue\n- Line 002: FG-91144-A1, 180 units, Required_Delivery_Date 04/07/2026 \u2014 42 days overdue\nBoth safety-critical. Please advise line-down risk and consumption status. @akrishnamurthy @jpark",
+        "ts": "1779213240.000100",
+        "team": "TGEARMER",
+        "channel": "C004",
+        "reply_count": 1,
+        "latest_reply": "1779214680.000100",
+        "reply_users": [
+          "U008"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U008",
+        "text": "Reviewed. Current on-hand for AX-04827-B2: 88 units \u2014 approximately 14 days cover at current rate. FG-91144-A1: 60 units on hand \u2014 approximately 10 days cover. No immediate line-down risk within 48 hours but both are approaching critical threshold. Joon-ho please expedite with Halverson.",
+        "ts": "1779214680.000100",
+        "thread_ts": "1779213240.000100",
+        "parent_user_id": "U001",
+        "team": "TGEARMER",
+        "channel": "C004"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "DTL ARRIVAL: REC-20260519-002, FL-55200-A1, 20 drums delivered to LINE-ASMB-02 at 10:38 CST. Receipt complete.",
+        "ts": "1779208680.000100",
+        "team": "TGEARMER",
+        "channel": "C004"
+      }
+    ]
+  },
+  "counters": {
+    "messageId": 1000000
+  }
+}

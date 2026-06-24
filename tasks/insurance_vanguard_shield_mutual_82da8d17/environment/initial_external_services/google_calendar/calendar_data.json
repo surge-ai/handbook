@@ -1,0 +1,44 @@
+{
+  "events": {
+    "evt-001": {
+      "id": "evt-001",
+      "summary": "Weekly AP Review",
+      "start": {
+        "dateTime": "2026-04-06T10:00:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-04-06T11:00:00",
+        "timeZone": "America/New_York"
+      },
+      "description": "Weekly review of accounts payable processing and vendor payments",
+      "location": "Conference Room B"
+    },
+    "evt-002": {
+      "id": "evt-002",
+      "summary": "Q1 Close Coordination",
+      "start": {
+        "dateTime": "2026-04-07T14:00:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-04-07T15:00:00",
+        "timeZone": "America/New_York"
+      },
+      "description": "Q1 financial close coordination meeting with finance and operations teams",
+      "location": "Virtual - Zoom"
+    },
+    "evt-003": {
+      "id": "evt-003",
+      "summary": "Vendor Payment Run",
+      "start": {
+        "date": "2026-04-10"
+      },
+      "end": {
+        "date": "2026-04-11"
+      },
+      "description": "Scheduled vendor payment batch processing",
+      "location": "Finance Department"
+    }
+  }
+}

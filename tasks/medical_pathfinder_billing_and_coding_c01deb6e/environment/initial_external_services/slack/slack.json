@@ -1,0 +1,254 @@
+{
+  "users": {
+    "U001": {
+      "id": "U001",
+      "team_id": "T001",
+      "name": "maria.santos",
+      "deleted": false,
+      "real_name": "Maria Santos",
+      "tz": "America/Chicago",
+      "tz_label": "Central Daylight Time",
+      "tz_offset": -18000,
+      "profile": {
+        "real_name": "Maria Santos",
+        "real_name_normalized": "Maria Santos",
+        "display_name": "maria",
+        "display_name_normalized": "maria",
+        "email": "maria.santos@pathfinderbilling.com",
+        "title": "Resolution Auditor"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_primary_owner": false,
+      "is_bot": false,
+      "is_email_confirmed": true
+    },
+    "U002": {
+      "id": "U002",
+      "team_id": "T001",
+      "name": "david.park",
+      "deleted": false,
+      "real_name": "David Park",
+      "tz": "America/Chicago",
+      "tz_label": "Central Daylight Time",
+      "tz_offset": -18000,
+      "profile": {
+        "real_name": "David Park",
+        "real_name_normalized": "David Park",
+        "display_name": "david",
+        "display_name_normalized": "david",
+        "email": "david.park@pathfinderbilling.com",
+        "title": "RCM Manager"
+      },
+      "is_admin": true,
+      "is_owner": true,
+      "is_primary_owner": true,
+      "is_bot": false,
+      "is_email_confirmed": true
+    },
+    "U003": {
+      "id": "U003",
+      "team_id": "T001",
+      "name": "jason.blake",
+      "deleted": false,
+      "real_name": "Jason Blake",
+      "tz": "America/Chicago",
+      "tz_label": "Central Daylight Time",
+      "tz_offset": -18000,
+      "profile": {
+        "real_name": "Jason Blake",
+        "real_name_normalized": "Jason Blake",
+        "display_name": "jason",
+        "display_name_normalized": "jason",
+        "email": "jason.blake@pathfinderbilling.com",
+        "title": "Resolution Auditor"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_primary_owner": false,
+      "is_bot": false,
+      "is_email_confirmed": true
+    },
+    "U004": {
+      "id": "U004",
+      "team_id": "T001",
+      "name": "rachel.kim",
+      "deleted": false,
+      "real_name": "Rachel Kim",
+      "tz": "America/Chicago",
+      "tz_label": "Central Daylight Time",
+      "tz_offset": -18000,
+      "profile": {
+        "real_name": "Rachel Kim",
+        "real_name_normalized": "Rachel Kim",
+        "display_name": "rachel",
+        "display_name_normalized": "rachel",
+        "email": "rachel.kim@pathfinderbilling.com",
+        "title": "Billing Specialist"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_primary_owner": false,
+      "is_bot": false,
+      "is_email_confirmed": true
+    }
+  },
+  "channels": {
+    "C001": {
+      "id": "C001",
+      "name": "general",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1735689600,
+      "is_archived": false,
+      "is_general": true,
+      "unlinked": 0,
+      "name_normalized": "general",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1767247200,
+      "creator": "U002",
+      "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic": {
+        "value": "Company-wide updates",
+        "creator": "U002",
+        "last_set": 1767247200
+      },
+      "purpose": {
+        "value": "General announcements for the Pathfinder Billing and Coding team",
+        "creator": "U002",
+        "last_set": 1767247200
+      }
+    },
+    "C002": {
+      "id": "C002",
+      "name": "rcm-team",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1735689600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "rcm-team",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1767247200,
+      "creator": "U002",
+      "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic": {
+        "value": "RCM operations, denials, and escalations",
+        "creator": "U002",
+        "last_set": 1767247200
+      },
+      "purpose": {
+        "value": "Day-to-day coordination for the Revenue Cycle Management team",
+        "creator": "U002",
+        "last_set": 1767247200
+      }
+    }
+  },
+  "messages": {
+    "C001": [
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Happy new year, everyone. Let\u2019s make it a productive one. I sent around some Q1 priority notes via email \u2014 please take a look before Wednesday.",
+        "ts": "1767625200.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "Happy new year!",
+        "ts": "1767625560.000200",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Happy new year, all.",
+        "ts": "1767625920.000300",
+        "team": "T001"
+      }
+    ],
+    "C002": [
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Heads up \u2014 flagging a rate discrepancy on an Aetna claim for David\u2019s awareness. Sent him an email and logged it.",
+        "ts": "1769099400.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Update on that Aetna item from a few weeks ago \u2014 resolved. Fee schedule error on their end, claim reprocessed at the right rate.",
+        "ts": "1769722500.000200",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "Anyone else getting EDI rejections on UHC submissions this morning? Everything I\u2019m trying to push is bouncing.",
+        "ts": "1772722800.000300",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Yeah, got a notice from them. Something\u2019s down on their end. I\u2019m on it.",
+        "ts": "1772723100.000400",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "Got it. Holding my queue.",
+        "ts": "1772723280.000500",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "FYI \u2014 UHC is back up as of this morning. Submissions from last week went through.",
+        "ts": "1773169200.000600",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "Good, resuming now.",
+        "ts": "1773169380.000700",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "David \u2014 the BCBSTX resubmission from March is still showing pending adjudication on their portal. No ERA received yet.",
+        "ts": "1776798000.000800",
+        "team": "T001"
+      }
+    ]
+  },
+  "counters": {
+    "messageId": 1000000
+  }
+}

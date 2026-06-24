@@ -1,0 +1,714 @@
+{
+  "users": {
+    "U001": {
+      "id": "U001",
+      "team_id": "T001",
+      "name": "carlos.mendez",
+      "deleted": false,
+      "real_name": "Carlos Mendez",
+      "profile": {
+        "real_name": "Carlos Mendez",
+        "display_name": "carlosm",
+        "email": "c.mendez@careig.com",
+        "title": "Patient Representative"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U002": {
+      "id": "U002",
+      "team_id": "T001",
+      "name": "jennifer.alcott",
+      "deleted": false,
+      "real_name": "Jennifer Alcott",
+      "profile": {
+        "real_name": "Jennifer Alcott",
+        "display_name": "jennifera",
+        "email": "j.alcott@careig.com",
+        "title": "Benefits Verification Specialist"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U003": {
+      "id": "U003",
+      "team_id": "T001",
+      "name": "marcus.reid",
+      "deleted": false,
+      "real_name": "Marcus Reid",
+      "profile": {
+        "real_name": "Marcus Reid",
+        "display_name": "marcusr",
+        "email": "m.reid@careig.com",
+        "title": "Benefits Verification Specialist"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U004": {
+      "id": "U004",
+      "team_id": "T001",
+      "name": "patricia.nguyen",
+      "deleted": false,
+      "real_name": "Patricia Nguyen",
+      "profile": {
+        "real_name": "Patricia Nguyen",
+        "display_name": "patrician",
+        "email": "p.nguyen@careig.com",
+        "title": "Infusion Nurse (RN)"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U005": {
+      "id": "U005",
+      "team_id": "T001",
+      "name": "diane.park",
+      "deleted": false,
+      "real_name": "Diane Park",
+      "profile": {
+        "real_name": "Diane Park",
+        "display_name": "dianep",
+        "email": "d.park@careig.com",
+        "title": "Infusion Nurse (RN)"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U006": {
+      "id": "U006",
+      "team_id": "T001",
+      "name": "diane.okafor",
+      "deleted": false,
+      "real_name": "Diane Okafor",
+      "profile": {
+        "real_name": "Diane Okafor",
+        "display_name": "dianeo",
+        "email": "d.okafor@careig.com",
+        "title": "Billing Specialist"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U007": {
+      "id": "U007",
+      "team_id": "T001",
+      "name": "raymond.walsh",
+      "deleted": false,
+      "real_name": "Raymond Walsh",
+      "profile": {
+        "real_name": "Raymond Walsh",
+        "display_name": "raymondw",
+        "email": "r.walsh@careig.com",
+        "title": "Director of Revenue Cycle Management"
+      },
+      "is_admin": true,
+      "is_owner": true,
+      "is_bot": false
+    },
+    "U008": {
+      "id": "U008",
+      "team_id": "T001",
+      "name": "intake.supervisor",
+      "deleted": false,
+      "real_name": "Sandra Obi",
+      "profile": {
+        "real_name": "Sandra Obi",
+        "display_name": "sandrao",
+        "email": "s.obi@careig.com",
+        "title": "Intake Supervisor"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U009": {
+      "id": "U009",
+      "team_id": "T001",
+      "name": "rachel.kim",
+      "deleted": false,
+      "real_name": "Rachel Kim",
+      "profile": {
+        "real_name": "Rachel Kim",
+        "display_name": "rachelk",
+        "email": "r.kim@careig.com",
+        "title": "Clinical Coordinator"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    }
+  },
+  "channels": {
+    "C001": {
+      "id": "C001",
+      "name": "intake-team",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1735689600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "intake-team",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1735689600,
+      "creator": "U007",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Intake coordination and BVS assignment",
+        "creator": "U007",
+        "last_set": 1735689600
+      },
+      "purpose": {
+        "value": "Patient intake workflow: referral receipt, consent, BVS assignment, PA submission updates",
+        "creator": "U007",
+        "last_set": 1735689600
+      }
+    },
+    "C002": {
+      "id": "C002",
+      "name": "intake-alerts",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1735689600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "intake-alerts",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1735689600,
+      "creator": "U007",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Intake holds and patient contact issues",
+        "creator": "U007",
+        "last_set": 1735689600
+      },
+      "purpose": {
+        "value": "Automated and manual alerts for intake holds: missing NPI, unreachable patients, consent violations, formulary issues",
+        "creator": "U007",
+        "last_set": 1735689600
+      }
+    },
+    "C003": {
+      "id": "C003",
+      "name": "intake-mgmt",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1735689600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "intake-mgmt",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1735689600,
+      "creator": "U007",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Escalations requiring supervisor action",
+        "creator": "U007",
+        "last_set": 1735689600
+      },
+      "purpose": {
+        "value": "Supervisor-level intake escalations: OON pharmacy decisions, formulary unresolved, PA delays",
+        "creator": "U007",
+        "last_set": 1735689600
+      }
+    },
+    "C004": {
+      "id": "C004",
+      "name": "clinical-scheduling",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1735689600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "clinical-scheduling",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1735689600,
+      "creator": "U007",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "PA approvals, nurse scheduling, visit documentation",
+        "creator": "U007",
+        "last_set": 1735689600
+      },
+      "purpose": {
+        "value": "Clinical coordination: PA approvals handed to clinical team, nurse scheduling, visit completion",
+        "creator": "U007",
+        "last_set": 1735689600
+      }
+    },
+    "C005": {
+      "id": "C005",
+      "name": "billing",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1735689600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "billing",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1735689600,
+      "creator": "U007",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Claim submission and AR monitoring",
+        "creator": "U007",
+        "last_set": 1735689600
+      },
+      "purpose": {
+        "value": "Billing workflow: claim submissions, billing holds, AR follow-up, timely filing alerts",
+        "creator": "U007",
+        "last_set": 1735689600
+      }
+    },
+    "C006": {
+      "id": "C006",
+      "name": "billing-appeals",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1735689600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "billing-appeals",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1735689600,
+      "creator": "U007",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Denial management and appeal tracking",
+        "creator": "U007",
+        "last_set": 1735689600
+      },
+      "purpose": {
+        "value": "Denial alerts, appeal filings, and appeal follow-up for all active cases",
+        "creator": "U007",
+        "last_set": 1735689600
+      }
+    },
+    "C007": {
+      "id": "C007",
+      "name": "billing-mgmt",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1735689600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "billing-mgmt",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1735689600,
+      "creator": "U007",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Escalations: underpayments, write-offs, collections",
+        "creator": "U007",
+        "last_set": 1735689600
+      },
+      "purpose": {
+        "value": "Director-level billing escalations: underpayments, write-off requests, collections referrals, L2 denials",
+        "creator": "U007",
+        "last_set": 1735689600
+      }
+    },
+    "C008": {
+      "id": "C008",
+      "name": "compliance",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1735689600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "compliance",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1735689600,
+      "creator": "U007",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Legal threats and compliance reports \u2014 STOP and post here",
+        "creator": "U007",
+        "last_set": 1735689600
+      },
+      "purpose": {
+        "value": "Compliance and legal escalation channel. Do not discuss case details elsewhere once flagged here.",
+        "creator": "U007",
+        "last_set": 1735689600
+      }
+    }
+  },
+  "messages": {
+    "C001": [
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "[BVS ASSIGNED] Okonkwo_DOB_03281965 | Payer: BlueCrest Commercial PPO | Drug: Octagam 5% | Dose: 30g",
+        "ts": "1760440200.000000",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "[PA SUBMITTED] Okonkwo_DOB_03281965 | Payer: BlueCrest Commercial PPO | Drug: Octagam 5% | Ref: PA-REF-2025-05512",
+        "ts": "1760606100.000000",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "[BVS ASSIGNED] Patel_DOB_07221958 | Payer: BlueCrest Commercial PPO | Drug: Gamunex-C 10% | Dose: 35g",
+        "ts": "1765190100.000000",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "[PA SUBMITTED] Patel_DOB_07221958 | Payer: BlueCrest Commercial PPO | Drug: Gamunex-C 10% | Ref: PA-REF-2025-07741",
+        "ts": "1765359900.000000",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "[BVS ASSIGNED] Holloway_DOB_03141961 | Payer: SilverPath Medicare Advantage | Drug: Octagam 10% | Dose: 40g",
+        "ts": "1768814520.000000",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "[PA SUBMITTED] Holloway_DOB_03141961 | Payer: SilverPath Medicare Advantage | Drug: Octagam 10% | Ref: PA-REF-2026-00814",
+        "ts": "1768992900.000000",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "[BVS ASSIGNED] Brennan_DOB_11051970 | Payer: SilverPath Medicare Advantage | Drug: Privigen 10% | Dose: 25g",
+        "ts": "1772528700.000000",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "[PA SUBMITTED] Brennan_DOB_11051970 | Payer: SilverPath Medicare Advantage | Drug: Privigen 10% | Ref: PA-REF-2026-01122",
+        "ts": "1772702100.000000",
+        "team": "T001"
+      }
+    ],
+    "C002": [
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "[INTAKE HOLD] Nguyen_DOB_05091955 \u2014 Physician NPI missing. Template 1 sent to physician.",
+        "ts": "1756981200.000000",
+        "team": "T001",
+        "reply_count": 1,
+        "latest_reply": "1757061900.000000",
+        "reply_users": [
+          "U008"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U008",
+        "text": "NPI received and updated \u2014 hold cleared. Proceeding with BVS assignment.",
+        "ts": "1757061900.000000",
+        "team": "T001",
+        "thread_ts": "1756981200.000000",
+        "parent_user_id": "U001"
+      }
+    ],
+    "C003": [
+      {
+        "type": "message",
+        "user": "U008",
+        "text": "Brennan_DOB_11051970 \u2014 PA pending follow-up call placed with SilverPath today. Rep confirmed decision expected by 03/10/2026. auth.xlsx PA_Call_Log updated.",
+        "ts": "1772800800.000000",
+        "team": "T001"
+      }
+    ],
+    "C004": [
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "[PA APPROVED] Okonkwo_DOB_03281965 | Drug: Octagam 5% | Dose: 30g | PA#: BCR-PA-2025-6614 | Exp: 04/23/2026 | Drug Source: CareIG",
+        "ts": "1761217200.000000",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U009",
+        "text": "[SCHEDULED] Okonkwo_DOB_03281965 | Date: 11/18/2025 | Nurse: Diane Park, RN",
+        "ts": "1761661800.000000",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U005",
+        "text": "[VISIT COMPLETE] Okonkwo_DOB_03281965 | DOS: 11/18/2025",
+        "ts": "1763468700.000000",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "[PA APPROVED] Patel_DOB_07221958 | Drug: Gamunex-C 10% | Dose: 35g | PA#: BCR-PA-2025-8801 | Exp: 06/17/2026 | Drug Source: CareIG",
+        "ts": "1765361100.000000",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U009",
+        "text": "[SCHEDULED] Patel_DOB_07221958 | Date: 01/09/2026 | Nurse: Diane Park, RN",
+        "ts": "1765796400.000000",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U005",
+        "text": "[VISIT COMPLETE] Patel_DOB_07221958 | DOS: 01/09/2026",
+        "ts": "1767963300.000000",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "[PA APPROVED] Holloway_DOB_03141961 | Drug: Octagam 10% | Dose: 40g | PA#: SPA-PA-2026-3302 | Exp: 07/28/2026 | Drug Source: CareIG",
+        "ts": "1769594520.000000",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U009",
+        "text": "[SCHEDULED] Holloway_DOB_03141961 | Date: 02/14/2026 | Nurse: Patricia Nguyen, RN",
+        "ts": "1770286500.000000",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U004",
+        "text": "[VISIT COMPLETE] Holloway_DOB_03141961 | DOS: 02/14/2026",
+        "ts": "1771070400.000000",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "[PA APPROVED] Brennan_DOB_11051970 | Drug: Privigen 10% | Dose: 25g | PA#: SPA-PA-2026-4471 | Exp: 09/12/2026 | Drug Source: CareIG",
+        "ts": "1773311400.000000",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U009",
+        "text": "[SCHEDULED] Brennan_DOB_11051970 | Date: 04/14/2026 | Nurse: Patricia Nguyen, RN",
+        "ts": "1773842400.000000",
+        "team": "T001"
+      }
+    ],
+    "C005": [
+      {
+        "type": "message",
+        "user": "U006",
+        "text": "[CLAIM SUBMITTED] Okonkwo_DOB_03281965 | DOS: 11/18/2025 | Payer: BlueCrest Commercial PPO | Billed: $5,920.00",
+        "ts": "1763732700.000000",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U006",
+        "text": "[DENIAL] Okonkwo_DOB_03281965 | CARC: CO-50 \u2014 posting to #billing-appeals now.",
+        "ts": "1764925800.000000",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U006",
+        "text": "[CLAIM SUBMITTED] Patel_DOB_07221958 | DOS: 01/09/2026 | Payer: BlueCrest Commercial PPO | Billed: $5,460.00",
+        "ts": "1768302300.000000",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U006",
+        "text": "[CLAIM SUBMITTED] Holloway_DOB_03141961 | DOS: 02/14/2026 | Payer: SilverPath Medicare Advantage | Billed: $6,140.00",
+        "ts": "1771424520.000000",
+        "team": "T001"
+      }
+    ],
+    "C006": [
+      {
+        "type": "message",
+        "user": "U006",
+        "text": "[DENIAL] Okonkwo_DOB_03281965 | DOS: 11/18/2025 | Payer: BlueCrest Commercial PPO | CARC: CO-50",
+        "ts": "1764926100.000000",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U006",
+        "text": "[APPEAL FILED L1] Okonkwo_DOB_03281965 | DOS 11/18/2025 | BlueCrest Commercial PPO | CO-50",
+        "ts": "1765193400.000000",
+        "team": "T001",
+        "reply_count": 1,
+        "latest_reply": "1768486200.000000",
+        "reply_users": [
+          "U006"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U006",
+        "text": "Appeal approved \u2014 payment received 01/20/2026. Case closed.",
+        "ts": "1768486200.000000",
+        "team": "T001",
+        "thread_ts": "1765193400.000000",
+        "parent_user_id": "U006"
+      },
+      {
+        "type": "message",
+        "user": "U006",
+        "text": "[DENIAL] Holloway_DOB_03141961 | DOS: 12/09/2025 | Payer: BlueCrest Commercial PPO | CARC: PI-204",
+        "ts": "1765792800.000000",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U006",
+        "text": "[APPEAL FILED L1] Holloway_DOB_03141961 | DOS 12/09/2025 | BlueCrest Commercial PPO | PI-204",
+        "ts": "1774265400.000000",
+        "team": "T001"
+      }
+    ],
+    "C007": [
+      {
+        "type": "message",
+        "user": "U007",
+        "text": "Okonkwo_DOB_03281965 \u2014 appeal payment $4,736.00 confirmed received 01/20/2026. claim.xlsx updated. Case cleared.",
+        "ts": "1774861200.000000",
+        "team": "T001"
+      }
+    ],
+    "C008": [
+      {
+        "type": "message",
+        "user": "U007",
+        "text": "Q1 2026 billing audit documentation submitted to Director for review.",
+        "ts": "1759309200.000000",
+        "team": "T001"
+      }
+    ]
+  },
+  "counters": {
+    "messageId": 2000000
+  }
+}

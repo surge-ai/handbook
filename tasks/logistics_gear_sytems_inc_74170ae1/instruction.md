@@ -1,0 +1,1 @@
+My shift finishes in half an hour at 14:30. Can you complete the end-of-shift handoff process for me (Sam Moreno) please? Confirm which workbooks you closed in a text file called "closed_workbooks.txt".

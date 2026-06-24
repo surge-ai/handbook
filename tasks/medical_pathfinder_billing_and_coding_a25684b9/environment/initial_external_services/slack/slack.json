@@ -1,0 +1,135 @@
+{
+  "users": {
+    "U001": {
+      "id": "U001", "team_id": "T001", "name": "alex.rivera", "deleted": false,
+      "real_name": "Alex Rivera",
+      "profile": { "real_name": "Alex Rivera", "display_name": "alexr",
+                   "email": "alex.rivera@pathfinder.med", "title": "Resolution Auditor" },
+      "is_admin": false, "is_owner": false, "is_bot": false
+    },
+    "U002": {
+      "id": "U002", "team_id": "T001", "name": "natalie.simmons", "deleted": false,
+      "real_name": "Natalie Simmons",
+      "profile": { "real_name": "Natalie Simmons", "display_name": "natalies",
+                   "email": "natalie.simmons@pathfinder.med", "title": "Resolution Auditor" },
+      "is_admin": false, "is_owner": false, "is_bot": false
+    },
+    "U003": {
+      "id": "U003", "team_id": "T001", "name": "sarah.mitchell", "deleted": false,
+      "real_name": "Sarah Mitchell",
+      "profile": { "real_name": "Sarah Mitchell", "display_name": "sarahm",
+                   "email": "sarah.mitchell@pathfinder.med", "title": "Certified Medical Coder" },
+      "is_admin": false, "is_owner": false, "is_bot": false
+    },
+    "U004": {
+      "id": "U004", "team_id": "T001", "name": "david.nguyen", "deleted": false,
+      "real_name": "David Nguyen",
+      "profile": { "real_name": "David Nguyen", "display_name": "davidn",
+                   "email": "david.nguyen@pathfinder.med", "title": "Certified Medical Coder" },
+      "is_admin": false, "is_owner": false, "is_bot": false
+    },
+    "U005": {
+      "id": "U005", "team_id": "T001", "name": "marcus.thompson", "deleted": false,
+      "real_name": "Marcus Thompson",
+      "profile": { "real_name": "Marcus Thompson", "display_name": "marcust",
+                   "email": "marcus.thompson@pathfinder.med", "title": "Patient Financial Representative" },
+      "is_admin": false, "is_owner": false, "is_bot": false
+    },
+    "U006": {
+      "id": "U006", "team_id": "T001", "name": "jessica.alvarez", "deleted": false,
+      "real_name": "Jessica Alvarez",
+      "profile": { "real_name": "Jessica Alvarez", "display_name": "jessicaa",
+                   "email": "jessica.alvarez@pathfinder.med", "title": "Patient Financial Representative" },
+      "is_admin": false, "is_owner": false, "is_bot": false
+    },
+    "U007": {
+      "id": "U007", "team_id": "T001", "name": "lauren.patel", "deleted": false,
+      "real_name": "Lauren Patel",
+      "profile": { "real_name": "Lauren Patel", "display_name": "laurenp",
+                   "email": "lauren.patel@pathfinder.med", "title": "Billing Specialist" },
+      "is_admin": false, "is_owner": false, "is_bot": false
+    },
+    "U008": {
+      "id": "U008", "team_id": "T001", "name": "kevin.obrien", "deleted": false,
+      "real_name": "Kevin O'Brien",
+      "profile": { "real_name": "Kevin O'Brien", "display_name": "kevino",
+                   "email": "kevin.obrien@pathfinder.med", "title": "Billing Specialist" },
+      "is_admin": false, "is_owner": false, "is_bot": false
+    },
+    "U009": {
+      "id": "U009", "team_id": "T001", "name": "brian.caldwell", "deleted": false,
+      "real_name": "Brian Caldwell",
+      "profile": { "real_name": "Brian Caldwell", "display_name": "brianc",
+                   "email": "brian.caldwell@pathfinder.med", "title": "Patient Financial Representative" },
+      "is_admin": false, "is_owner": false, "is_bot": false
+    },
+    "U010": {
+      "id": "U010", "team_id": "T001", "name": "catherine.lawson", "deleted": false,
+      "real_name": "Catherine Lawson",
+      "profile": { "real_name": "Catherine Lawson", "display_name": "catherinel",
+                   "email": "catherine.lawson@pathfinder.med", "title": "RCM Manager" },
+      "is_admin": true, "is_owner": true, "is_bot": false
+    }
+  },
+  "channels": {
+    "C001": {
+      "id": "C001", "name": "special-authorization", "is_channel": true,
+      "is_group": false, "is_im": false, "is_mpim": false, "is_private": false,
+      "created": 1609459200, "is_archived": false, "is_general": false,
+      "unlinked": 0, "name_normalized": "special-authorization",
+      "is_shared": false, "is_org_shared": false, "is_ext_shared": false,
+      "is_pending_ext_shared": false, "pending_shared": [],
+      "pending_connected_team_ids": [], "context_team_id": "T001",
+      "updated": 1609459200, "creator": "U010", "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic":   { "value": "Special authorization requests and approvals", "creator": "U010", "last_set": 1609459200 },
+      "purpose": { "value": "Channel for logging special authorization actions per SOP Section 2.2", "creator": "U010", "last_set": 1609459200 }
+    },
+    "C002": {
+      "id": "C002", "name": "escalations", "is_channel": true,
+      "is_group": false, "is_im": false, "is_mpim": false, "is_private": false,
+      "created": 1609459200, "is_archived": false, "is_general": false,
+      "unlinked": 0, "name_normalized": "escalations",
+      "is_shared": false, "is_org_shared": false, "is_ext_shared": false,
+      "is_pending_ext_shared": false, "pending_shared": [],
+      "pending_connected_team_ids": [], "context_team_id": "T001",
+      "updated": 1609459200, "creator": "U010", "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic":   { "value": "Escalated issues requiring immediate attention", "creator": "U010", "last_set": 1609459200 },
+      "purpose": { "value": "Channel for escalated matters and urgent issues", "creator": "U010", "last_set": 1609459200 }
+    },
+    "C003": {
+      "id": "C003", "name": "billing", "is_channel": true,
+      "is_group": false, "is_im": false, "is_mpim": false, "is_private": false,
+      "created": 1609459200, "is_archived": false, "is_general": false,
+      "unlinked": 0, "name_normalized": "billing",
+      "is_shared": false, "is_org_shared": false, "is_ext_shared": false,
+      "is_pending_ext_shared": false, "pending_shared": [],
+      "pending_connected_team_ids": [], "context_team_id": "T001",
+      "updated": 1609459200, "creator": "U010", "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic":   { "value": "Billing operations and discussions", "creator": "U010", "last_set": 1609459200 },
+      "purpose": { "value": "Channel for billing team coordination and issues", "creator": "U010", "last_set": 1609459200 }
+    },
+    "C004": {
+      "id": "C004", "name": "general", "is_channel": true,
+      "is_group": false, "is_im": false, "is_mpim": false, "is_private": false,
+      "created": 1609459200, "is_archived": false, "is_general": true,
+      "unlinked": 0, "name_normalized": "general",
+      "is_shared": false, "is_org_shared": false, "is_ext_shared": false,
+      "is_pending_ext_shared": false, "pending_shared": [],
+      "pending_connected_team_ids": [], "context_team_id": "T001",
+      "updated": 1609459200, "creator": "U010", "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic":   { "value": "Company-wide announcements and updates", "creator": "U010", "last_set": 1609459200 },
+      "purpose": { "value": "General team communication", "creator": "U010", "last_set": 1609459200 }
+    }
+  },
+  "messages": {
+    "C001": [],
+    "C002": [],
+    "C003": [],
+    "C004": []
+  },
+  "counters": { "messageId": 1000000 }
+}

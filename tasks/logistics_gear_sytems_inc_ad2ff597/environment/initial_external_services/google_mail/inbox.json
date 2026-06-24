@@ -1,0 +1,167 @@
+{
+  "mailbox": {
+    "email": "receiving.coordinator@gearsystems.com",
+    "name": "Inbound Materials Coordinator"
+  },
+  "contacts": [
+    {
+      "email": "darnell.hooks@gearsystems.com",
+      "name": "Darnell Hooks"
+    },
+    {
+      "email": "elizabeth.velasquez@gearsystems.com",
+      "name": "Elizabeth Velasquez"
+    },
+    {
+      "email": "theo.brandt@gearsystems.com",
+      "name": "Theo Brandt"
+    },
+    {
+      "email": "joonho.park@gearsystems.com",
+      "name": "Joon-ho Park"
+    },
+    {
+      "email": "walter.finch@gearsystems.com",
+      "name": "Walter Finch"
+    },
+    {
+      "email": "reggie.lemoine@gearsystems.com",
+      "name": "Reggie Lemoine"
+    },
+    {
+      "email": "maribel.ortiz@gearsystems.com",
+      "name": "Maribel Ortiz"
+    },
+    {
+      "email": "aditi.krishnamurthy@gearsystems.com",
+      "name": "Aditi Krishnamurthy"
+    },
+    {
+      "email": "chris.wojciechowski@gearsystems.com",
+      "name": "Chris Wojciechowski"
+    },
+    {
+      "email": "curtis.yablonski@gearsystems.com",
+      "name": "Curtis Yablonski"
+    },
+    {
+      "email": "quality@appalachiansteel.com",
+      "name": "Appalachian Steel Works \u2014 Quality"
+    },
+    {
+      "email": "gfowler@appalachiansteel.com",
+      "name": "Greg Fowler (Appalachian Steel Works)"
+    },
+    {
+      "email": "quality@redstonefab.com",
+      "name": "Redstone Alloy Fabricators \u2014 Quality"
+    },
+    {
+      "email": "m.teel@redstonefab.com",
+      "name": "Marcus Teel (Redstone Alloy Fabricators)"
+    },
+    {
+      "email": "quality@corneralloy.com",
+      "name": "Cornerstone Alloy Components \u2014 Quality"
+    },
+    {
+      "email": "vmarsh@corneralloy.com",
+      "name": "Vincent Marsh (Cornerstone Alloy Components)"
+    },
+    {
+      "email": "quality@keystoneforge.com",
+      "name": "Keystone Forge & Machine \u2014 Quality"
+    },
+    {
+      "email": "quality@gulfcoastbearings.com",
+      "name": "Gulf Coast Bearings & Seals \u2014 Quality"
+    },
+    {
+      "email": "quality@natfastener.com",
+      "name": "National Fastener Solutions \u2014 Quality"
+    }
+  ],
+  "groups": [
+    {
+      "email": "receiving-team@gearsystems.com",
+      "name": "Receiving Team \u2014 Meridian",
+      "members": [
+        "receiving.coordinator@gearsystems.com",
+        "darnell.hooks@gearsystems.com",
+        "curtis.yablonski@gearsystems.com"
+      ]
+    }
+  ],
+  "folders": [
+    {
+      "name": "NCRs - Open"
+    },
+    {
+      "name": "NCRs - Closed"
+    },
+    {
+      "name": "Suppliers - General"
+    },
+    {
+      "name": "Carriers"
+    },
+    {
+      "name": "Internal"
+    },
+    {
+      "name": "Hazmat"
+    },
+    {
+      "name": "Receipts - In Process"
+    }
+  ],
+  "emails": [
+    {
+      "email_id": "1",
+      "folder": "NCRs - Open",
+      "subject": "NCR-MER-2026-0014 | Major | Appalachian Steel Works | MER-PO-103502 | Response Required by 02/25/2026",
+      "from_addr": "receiving.coordinator@gearsystems.com",
+      "to_addr": "quality@appalachiansteel.com",
+      "cc_addr": "joonho.park@gearsystems.com, theo.brandt@gearsystems.com, darnell.hooks@gearsystems.com, elizabeth.velasquez@gearsystems.com",
+      "bcc_addr": null,
+      "date": "2026-02-12T08:30:00-06:00",
+      "message_id": "<NCR-MER-2026-0014-letter@gearsystems.com>",
+      "in_reply_to": null,
+      "body_text": "Lorraine Kim,\n\nGEAR SYSTEMS INC. \u2014 MERIDIAN PLANT\nNONCONFORMANCE REPORT \u2014 MAJOR\n\nNCR Number: NCR-MER-2026-0014\nIssue Date: 02/12/2026\nSeverity: MAJOR\n\nTo: Appalachian Steel Works\nAttn: Lorraine Kim, Quality Manager\n5500 Mill Creek Rd, Anniston, AL 36201\n\nRe: Nonconformance under PO #MER-PO-103502\n\nDear Lorraine,\n\nThis Nonconformance Report (NCR) documents a quality concern identified during receipt of materials at the Gear Systems Inc. Meridian, MS plant. This NCR is classified as MAJOR severity, indicating that the nonconformance requires action \u2014 quarantine, supplier corrective action, and/or material return.\n\nAffected Shipment:\n- PO Number: MER-PO-103502\n- Receipt Date: 02/11/2026\n- Receipt ID: REC-20260211-001\n- SKU(s): FG-91200-B2 (Raw Axle Forging Blank, Class 50)\n- Quantity affected: 80 EA\n- Dollar value: $7,520.00\n- Safety-Critical: Y\n\nNonconformance Type: DMG\n\nDescription of Nonconformance:\nTier 2 functional damage was identified on 3 of 8 pallets during receipt inspection. Deformation consistent with impact damage was observed on multiple forging blanks on the affected pallets. Additionally, the required Mill Test Report (MTR) was not present in the carrier paperwork or in our electronic records for this shipment. The MTR must list the heat numbers observed on the parts (H88-6600114) and must be from the original mill that produced the steel.\n\nDisposition: Quarantined in Q-HOLD\n\nRequired Supplier Response:\nA formal written response is required within 10 business days of the date of this NCR. Your response must include:\n1. Acknowledgement of the nonconformance\n2. Root cause analysis with supporting evidence\n3. Corrective action plan with target completion dates\n4. Containment actions taken to prevent additional shipments with the same issue\n5. Commercial response: credit memo, replacement shipment, or return authorization, as appropriate\n6. MTR for heat number H88-6600114\n\nResponse Due Date: 02/25/2026\n\nPlease direct your response to receiving.meridian@gearsystems.com with copies to all contacts listed below. Note that until your response is received and accepted, the affected material will remain in our quarantine hold and any associated production schedule impact may be your commercial responsibility.\n\nBest regards,\nInbound Materials Coordinator\nGear Systems Inc. \u2014 Meridian Plant\nreceiving.meridian@gearsystems.com\n\nCC: Joon-ho Park (Procurement), Theo Brandt (Quality), Darnell Hooks (Receiving Supervisor), Elizabeth Velasquez (Plant Logistics Manager)",
+      "body_html": null,
+      "is_read": true,
+      "is_important": true,
+      "attachments": [
+        {
+          "filename": "NCR-MER-2026-0014.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjQgcGxhY2Vob2xkZXIgTkNSIGxldHRlciBQREYgY29udGVudA=="
+        }
+      ]
+    },
+    {
+      "email_id": "2",
+      "folder": "NCRs - Open",
+      "subject": "NCR-MER-2026-0031 | Minor | Redstone Alloy Fabricators, Inc. | MER-PO-103508 | Response Required by 03/18/2026",
+      "from_addr": "receiving.coordinator@gearsystems.com",
+      "to_addr": "quality@redstonefab.com",
+      "cc_addr": "joonho.park@gearsystems.com, theo.brandt@gearsystems.com, darnell.hooks@gearsystems.com",
+      "bcc_addr": null,
+      "date": "2026-02-26T09:45:00-06:00",
+      "message_id": "<NCR-MER-2026-0031-letter@gearsystems.com>",
+      "in_reply_to": null,
+      "body_text": "Sandra Ngo,\n\nGEAR SYSTEMS INC. \u2014 MERIDIAN PLANT\nNONCONFORMANCE REPORT \u2014 MINOR\n\nNCR Number: NCR-MER-2026-0031\nIssue Date: 02/26/2026\nSeverity: MINOR\n\nTo: Redstone Alloy Fabricators, Inc.\nAttn: Sandra Ngo, Quality Contact\n4812 Ironworks Pkwy, Gadsden, AL 35901\n\nRe: Nonconformance under PO #MER-PO-103508\n\nDear Sandra,\n\nThis Nonconformance Report (NCR) documents a quality concern identified during receipt of materials at the Gear Systems Inc. Meridian, MS plant. This NCR is classified as MINOR severity, indicating that the nonconformance does not prevent use of the material and does not pose a quality, safety, or regulatory risk. It is documented for the historical record and supplier scoring.\n\nAffected Shipment:\n- PO Number: MER-PO-103508\n- Receipt Date: 02/25/2026\n- Receipt ID: REC-20260225-001\n- SKU(s): FL-20044-A3 (Gear Oil, 75W-140 Synthetic, 5-gal)\n- Quantity affected: 40 EA\n- Dollar value: $1,890.00\n\nNonconformance Type: DMG\n\nDescription of Nonconformance:\nTier 2 functional damage was identified on 4 of 8 pallets during receipt inspection. The 40 units on the affected pallets have been quarantined. The remaining 40 units on undamaged pallets were accepted and placed in inventory. SDS and hazmat manifest were present and verified. Photos are on file at photos\\REC-20260225-001_20260225\\.\n\nDisposition: 40 EA accepted to D-001; 40 EA quarantined in Q-HOLD\n\nRequired Supplier Response:\nPlease provide a written response within 15 business days of the date of this NCR. Your response should include:\n1. Acknowledgement of the nonconformance\n2. Root cause analysis (if known)\n3. Corrective action being taken to prevent recurrence\n4. Any commercial response (credit, replacement, etc., if applicable)\n\nResponse Due Date: 03/18/2026\n\nPlease direct your response to receiving.meridian@gearsystems.com with copies to the contacts listed below.\n\nBest regards,\nInbound Materials Coordinator\nGear Systems Inc. \u2014 Meridian Plant\nreceiving.meridian@gearsystems.com\n\nCC: Joon-ho Park (Procurement), Theo Brandt (Quality), Darnell Hooks (Receiving Supervisor)",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "NCR-MER-2026-0031.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjQgcGxhY2Vob2xkZXIgTkNSIGxldHRlciBQREYgY29udGVudA=="
+        }
+      ]
+    }
+  ],
+  "next_email_id": 3
+}

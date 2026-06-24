@@ -1,0 +1,80 @@
+{
+  "events": {
+    "evt-003": {
+      "summary": "CASE-2026-00442 \u2014 Acknowledgment deadline",
+      "start": {
+        "dateTime": "2026-11-10T17:00:00-08:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2026-11-10T17:30:00-08:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "description": "CASE-2026-00442 | Member VA-31802-04",
+      "id": "evt-003"
+    },
+    "evt-005": {
+      "summary": "CASE-2026-00437 \u2014 Reviewer status check",
+      "start": {
+        "dateTime": "2026-11-05T10:00:00-08:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2026-11-05T10:30:00-08:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "description": "CASE-2026-00437 | Member VA-62883-11 | Post-Service Standard",
+      "id": "evt-005"
+    },
+    "evt-006": {
+      "summary": "Appeals Unit Weekly Standup",
+      "start": {
+        "dateTime": "2026-11-04T09:00:00-08:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2026-11-04T09:30:00-08:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "description": "Weekly team standup \u2014 Darnell Whitfield facilitating. Conference Room B or Zoom.",
+      "id": "evt-006"
+    },
+    "evt-007": {
+      "summary": "Parity Assessment Team Training (Nov 18)",
+      "start": {
+        "dateTime": "2026-11-18T13:00:00-08:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2026-11-18T15:00:00-08:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "description": "MHPAEA parity assessment training led by Dr. Ayla Ontario. Attendance required for all Appeals Coordinators. Conference Room A.",
+      "id": "evt-007"
+    },
+    "evt-008": {
+      "summary": "MCA Observed Holiday \u2014 Thanksgiving Day",
+      "start": {
+        "date": "2026-11-26"
+      },
+      "end": {
+        "date": "2026-11-27"
+      },
+      "description": "MCA-observed holiday. Does not count toward business day deadline calculations.",
+      "id": "evt-008"
+    },
+    "evt-009": {
+      "summary": "Q4 Case File Upload Deadline (Quality Review prep)",
+      "start": {
+        "dateTime": "2026-11-14T17:00:00-08:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2026-11-14T17:30:00-08:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "description": "Quality Review requirement: all case files closed during September and October 2026 must be uploaded to shared Appeals repository by COB 11/14. Per team email from Tamra Reyes, 11/3/2026.",
+      "id": "evt-009"
+    }
+  }
+}

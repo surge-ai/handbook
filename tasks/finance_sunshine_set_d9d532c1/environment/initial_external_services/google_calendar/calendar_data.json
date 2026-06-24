@@ -1,0 +1,393 @@
+{
+  "events": {
+    "evt-3": {
+      "summary": "Floorplan statement reconciliation - Darius Kim",
+      "start": {
+        "dateTime": "2026-04-01T10:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-04-01T11:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "description": "BD1 - March close task: Floorplan statement reconciliation with JM Family Enterprises.",
+      "id": "evt-3"
+    },
+    "evt-4": {
+      "summary": "CIT aging report - Noah Alvarez",
+      "start": {
+        "dateTime": "2026-04-01T11:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-04-01T12:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "description": "BD1 - March close task: CIT aging report review.",
+      "id": "evt-4"
+    },
+    "evt-5": {
+      "summary": "Commission cutoff - March 16-31",
+      "start": {
+        "date": "2026-04-01"
+      },
+      "end": {
+        "date": "2026-04-02"
+      },
+      "description": "March 16-31 commission cutoff - deadline for commission calculation",
+      "id": "evt-5"
+    },
+    "evt-6": {
+      "summary": "AP accruals - Caleb Foster",
+      "start": {
+        "dateTime": "2026-04-02T09:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-04-02T10:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "description": "BD2 - March close task: AP accruals review.",
+      "id": "evt-6"
+    },
+    "evt-7": {
+      "summary": "Payroll accruals - Leah Morgan",
+      "start": {
+        "dateTime": "2026-04-02T10:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-04-02T11:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "description": "BD2 - March close task: Payroll accruals.",
+      "id": "evt-7"
+    },
+    "evt-8": {
+      "summary": "Chargeback tracker reconciliation - Jasmine Patel",
+      "start": {
+        "dateTime": "2026-04-02T11:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-04-02T12:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "description": "BD2 - March close task: Chargeback tracker reconciliation. Monitors product warranty and GAP claims.",
+      "id": "evt-8"
+    },
+    "evt-9": {
+      "summary": "Payroll support deadline - submit to Hannah Price",
+      "start": {
+        "date": "2026-04-03"
+      },
+      "end": {
+        "date": "2026-04-04"
+      },
+      "description": "BD3 - Deadline to submit payroll support documentation to Hannah Price (HR Manager)",
+      "id": "evt-9"
+    },
+    "evt-10": {
+      "summary": "Bank reconciliation all accounts - Renee/Marcus",
+      "start": {
+        "dateTime": "2026-04-03T09:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-04-03T11:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "description": "BD3 - March close task: Bank reconciliation for all accounts.",
+      "id": "evt-10"
+    },
+    "evt-11": {
+      "summary": "Inventory rollforward - Darius Kim",
+      "start": {
+        "dateTime": "2026-04-03T11:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-04-03T12:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "description": "BD3 - March close task: Inventory rollforward and reconciliation.",
+      "id": "evt-11"
+    },
+    "evt-12": {
+      "summary": "AP payment run",
+      "start": {
+        "dateTime": "2026-04-07T10:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-04-07T11:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "description": "BD5 - Recurring accounts payable payment run.",
+      "id": "evt-12"
+    },
+    "evt-13": {
+      "summary": "Open receivable review - Renee Lawson",
+      "start": {
+        "dateTime": "2026-04-06T13:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-04-06T14:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "description": "BD4 - March close task: Review of open receivables and customer AR balances.",
+      "id": "evt-13"
+    },
+    "evt-14": {
+      "summary": "All manual journal entries submitted",
+      "start": {
+        "dateTime": "2026-04-06T14:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-04-06T15:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "description": "BD4 - March close deadline: All manual journal entries must be submitted for March period close.",
+      "id": "evt-14"
+    },
+    "evt-15": {
+      "summary": "Q2 Property tax accrual review - Caleb Foster",
+      "start": {
+        "dateTime": "2026-04-07T14:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-04-07T15:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "description": "BD5 - Quarterly review: Q2 property tax accrual calculation and review for Orange County, Florida.",
+      "id": "evt-15"
+    },
+    "evt-16": {
+      "summary": "Close binder complete and reviewed - Marcus Hale",
+      "start": {
+        "dateTime": "2026-04-07T15:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-04-07T16:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "description": "BD5 - March close task: Close binder must be complete and reviewed.",
+      "id": "evt-16"
+    },
+    "evt-17": {
+      "summary": "Controller final sign-off - Elena Brooks",
+      "start": {
+        "dateTime": "2026-04-09T16:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-04-09T17:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "description": "BD7 - March close final step: Controller final sign-off on March 2026 close.",
+      "id": "evt-17"
+    },
+    "evt-18": {
+      "summary": "March close review meeting",
+      "start": {
+        "dateTime": "2026-04-09T14:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-04-09T15:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "description": "BD7 - Meeting to review completed March close tasks with accounting team. Participants: Elena Brooks, Marcus Hale, and relevant task owners.",
+      "id": "evt-18"
+    },
+    "evt-19": {
+      "summary": "AP payment run",
+      "start": {
+        "dateTime": "2026-04-10T10:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-04-10T11:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "description": "Recurring accounts payable payment run.",
+      "id": "evt-19"
+    },
+    "evt-20": {
+      "summary": "Funding deadline - Deal 4501 Robert Chen / SE Toyota Finance",
+      "start": {
+        "dateTime": "2026-04-10T09:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-04-10T09:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "description": "Funding deadline reminder for Deal 4501: Robert Chen vehicle funding through Southeast Toyota Finance. Customer: Robert Chen, Vehicle: TBD. This deal must be funded by this date.",
+      "id": "evt-20"
+    },
+    "evt-21": {
+      "summary": "Funding follow-up - Deal 4502 Maria Santos / Capital One",
+      "start": {
+        "dateTime": "2026-04-11T09:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-04-11T09:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "description": "Deal 4502 with customer Maria Santos / Capital One Auto Finance remains unfunded. Follow up with lender immediately.",
+      "id": "evt-21"
+    },
+    "evt-22": {
+      "summary": "Funding deadline - Deal 4503 James Whitfield / Ally Financial",
+      "start": {
+        "dateTime": "2026-04-12T09:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-04-12T09:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "description": "Funding deadline reminder for Deal 4503: James Whitfield vehicle funding through Ally Financial. This deal must be funded by this date.",
+      "id": "evt-22"
+    },
+    "evt-23": {
+      "summary": "AP payment run",
+      "start": {
+        "dateTime": "2026-04-14T10:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-04-14T11:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "description": "Recurring accounts payable payment run.",
+      "id": "evt-23"
+    },
+    "evt-24": {
+      "summary": "Funding deadline - Deal 4504 Angela Torres / Capital One",
+      "start": {
+        "dateTime": "2026-04-14T09:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-04-14T09:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "description": "Funding deadline reminder for Deal 4504: Angela Torres vehicle funding through Capital One Auto Finance. This deal must be funded by this date.",
+      "id": "evt-24"
+    },
+    "evt-25": {
+      "summary": "Begin March sales tax return preparation",
+      "start": {
+        "dateTime": "2026-04-15T09:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-04-15T10:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "description": "Begin preparing March 2026 sales tax return for Florida DOR. State tax rate: 6%, County surtax (Orange County): 0.5%.",
+      "id": "evt-25"
+    },
+    "evt-26": {
+      "summary": "Commission cutoff - April 1-15",
+      "start": {
+        "date": "2026-04-16"
+      },
+      "end": {
+        "date": "2026-04-17"
+      },
+      "description": "April 1-15 commission cutoff - deadline for commission calculation for April 1-15",
+      "id": "evt-26"
+    },
+    "evt-27": {
+      "summary": "April mid-month deal review",
+      "start": {
+        "dateTime": "2026-04-16T10:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-04-16T11:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "description": "Mid-month review meeting to assess April deal volume, funding status, and any operational issues. Participants: Elena Brooks, Derrick Soto (GM), and department heads.",
+      "id": "evt-27"
+    },
+    "evt-28": {
+      "summary": "AP payment run",
+      "start": {
+        "dateTime": "2026-04-17T10:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-04-17T11:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "description": "Recurring accounts payable payment run.",
+      "id": "evt-28"
+    },
+    "evt-29": {
+      "summary": "Trade payoff good-thru - Deal 4509 Thomas Reed / Toyota Financial",
+      "start": {
+        "date": "2026-04-18"
+      },
+      "end": {
+        "date": "2026-04-19"
+      },
+      "description": "Trade payoff quote good-through date for Deal 4509: Customer Thomas Reed. Trade-in financed through Toyota Financial. Payoff quote expires this date - must close deal by this date or obtain new payoff quote.",
+      "id": "evt-29"
+    },
+    "evt-30": {
+      "summary": "FILING DEADLINE WARNING - March sales tax due 04/20",
+      "start": {
+        "dateTime": "2026-04-19T09:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-04-19T09:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "description": "REMINDER: March 2026 sales tax return is due tomorrow to Florida Department of Revenue. Ensure filing is ready for submission. State: Florida, County: Orange County.",
+      "id": "evt-30"
+    },
+    "evt-31": {
+      "summary": "March sales tax filing due - Florida DOR",
+      "start": {
+        "date": "2026-04-20"
+      },
+      "end": {
+        "date": "2026-04-21"
+      },
+      "description": "DEADLINE: March 2026 sales tax return due to Florida Department of Revenue. Must file today. Contact: Florida DOR, taxpayer.services@floridarevenue.com",
+      "id": "evt-31"
+    },
+    "evt-32": {
+      "summary": "Trade payoff good-thru - Deal 4501 Robert Chen / Wells Fargo",
+      "start": {
+        "date": "2026-04-20"
+      },
+      "end": {
+        "date": "2026-04-21"
+      },
+      "description": "Trade payoff quote good-through date for Deal 4501: Customer Robert Chen. Trade-in financed through Wells Fargo. Payoff quote expires this date - must close deal by this date or obtain new payoff quote.",
+      "id": "evt-32"
+    },
+    "evt-33": {
+      "summary": "Payroll support deadline - April 1-15",
+      "start": {
+        "date": "2026-04-20"
+      },
+      "end": {
+        "date": "2026-04-21"
+      },
+      "description": "Deadline to submit payroll support documentation for April 1-15 pay period to Hannah Price (HR Manager)",
+      "id": "evt-33"
+    }
+  }
+}

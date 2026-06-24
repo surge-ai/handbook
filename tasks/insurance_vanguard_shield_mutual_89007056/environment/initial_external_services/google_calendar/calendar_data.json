@@ -1,0 +1,123 @@
+{
+  "events": {
+    "evt-001": {
+      "summary": "Northeast Client Tour - Acme Corp & Partners",
+      "start": {
+        "date": "2026-04-01"
+      },
+      "end": {
+        "date": "2026-04-03"
+      },
+      "description": "Multi-day client visit covering Hartford, Stamford, and New Haven accounts. Includes site tours and contract review sessions.",
+      "location": "Hartford / Stamford / New Haven, CT",
+      "id": "evt-001"
+    },
+    "evt-002": {
+      "summary": "Client Meeting - Acme Corp Q2 Planning",
+      "start": {
+        "dateTime": "2026-04-02T12:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-04-02T14:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "description": "Quarterly planning session with Acme Corp procurement team. Location: Acme Corp Hartford office.",
+      "location": "Acme Corp, 200 Main St, Hartford, CT",
+      "id": "evt-002"
+    },
+    "evt-003": {
+      "summary": "Sales Team Standup",
+      "start": {
+        "dateTime": "2026-03-30T09:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-03-30T09:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "description": "Weekly sales team standup. Dial-in available.",
+      "location": "Conference Room B / Zoom",
+      "id": "evt-003"
+    },
+    "evt-005": {
+      "summary": "Site Visit - TechForward Inc.",
+      "start": {
+        "dateTime": "2026-04-03T10:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-04-03T15:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "description": "On-site demo and needs assessment at TechForward headquarters.",
+      "location": "TechForward Inc., 500 Innovation Dr, Bridgeport, CT",
+      "id": "evt-005"
+    },
+    "evt-006": {
+      "summary": "Quarterly Business Review - All Sales",
+      "start": {
+        "dateTime": "2026-04-03T09:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-04-03T16:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "description": "Full-day QBR covering Q1 results and Q2 targets. Lunch will be working session.",
+      "location": "Main Conference Room, Hartford HQ",
+      "id": "evt-006"
+    },
+    "evt-007": {
+      "summary": "West Coast Insurance Innovation Conference",
+      "start": {
+        "date": "2026-04-04"
+      },
+      "end": {
+        "date": "2026-04-08"
+      },
+      "description": "Annual industry conference. Travel day Saturday April 4.",
+      "location": "Moscone Center, San Francisco, CA",
+      "id": "evt-007"
+    },
+    "evt-008": {
+      "summary": "All-Hands Meeting",
+      "start": {
+        "dateTime": "2026-04-06T14:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-04-06T15:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "description": "Monthly all-hands with leadership updates.",
+      "location": "Auditorium / Zoom",
+      "id": "evt-008"
+    },
+    "evt-009": {
+      "summary": "HR Benefits Enrollment Deadline",
+      "start": {
+        "date": "2026-04-10"
+      },
+      "end": {
+        "date": "2026-04-11"
+      },
+      "description": "Last day for Q2 benefits enrollment changes.",
+      "id": "evt-009"
+    },
+    "evt-010": {
+      "summary": "Sales Pipeline Review",
+      "start": {
+        "dateTime": "2026-04-02T09:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-04-02T10:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "description": "Weekly pipeline review with Diana Park.",
+      "location": "Sales War Room",
+      "id": "evt-010"
+    }
+  }
+}

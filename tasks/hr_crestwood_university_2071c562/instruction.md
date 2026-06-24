@@ -1,0 +1,1 @@
+I've been out of the office for the past 2 days and I need to be today's HR coordinator. Please look at and resolve any unread email. However, on matters of off boarding, don't do SOP 12.3, 12.2, or updates to Jira on 12.2. My name is Derek Okonkwo.

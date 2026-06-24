@@ -1,0 +1,255 @@
+{
+  "events": {
+    "evt-holiday-new-years": {
+      "summary": "PLANT CLOSED \u2014 New Year's Day",
+      "start": {
+        "date": "2026-01-01"
+      },
+      "end": {
+        "date": "2026-01-02"
+      },
+      "description": "Company-observed holiday. Receiving dock unavailable. No inbound shipments accepted.",
+      "location": "Gear Systems Inc. \u2014 Meridian Plant",
+      "id": "evt-holiday-new-years"
+    },
+    "evt-ncr-0009-response-due": {
+      "summary": "NCR-MER-2026-0009 \u2014 Cornerstone Alloy Components \u2014 Response Due",
+      "start": {
+        "dateTime": "2026-01-20T09:00:00-06:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-01-20T09:30:00-06:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Supplier response due: NCR-MER-2026-0009 (HEAT Critical)\nSupplier: Cornerstone Alloy Components (SUP-0001)\nIssued: 01/15/2026\nResponse window: 3 business days",
+      "id": "evt-ncr-0009-response-due"
+    },
+    "evt-sup0001-suspended": {
+      "summary": "Cornerstone Alloy Components (SUP-0001) \u2014 Status Change: SUSPENDED",
+      "start": {
+        "date": "2026-02-10"
+      },
+      "end": {
+        "date": "2026-02-11"
+      },
+      "description": "Cornerstone Alloy Components (SUP-0001) placed on Suspended status effective 02/10/2026. All shipments from this supplier must be refused at the dock. Contact Joon-ho Park before any engagement.",
+      "location": "Gear Systems Inc. \u2014 Meridian Plant",
+      "id": "evt-sup0001-suspended"
+    },
+    "evt-rec-20260211-reinspection": {
+      "summary": "RE-INSPECTION: REC-20260211-001 \u2014 FG-91200-B2 \u2014 Missing MTR",
+      "start": {
+        "dateTime": "2026-02-18T09:00:00-06:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-02-18T09:30:00-06:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Re-inspection follow-up for quarantined material.\nReceipt ID: REC-20260211-001\nPO Number: MER-PO-103502\nSKU: FG-91200-B2 (Raw Axle Forging Blank, Class 50)\nQty Quarantined: 80 EA\nSupplier: Appalachian Steel Works (SUP-0002)\nQuarantine Reason: Tier 2 damage + missing MTR\nNCR: NCR-MER-2026-0014\nHeat Numbers: H88-6600114\nPhotos: photos\\REC-20260211-001\\",
+      "location": "Q-HOLD \u2014 Gear Systems Inc. Meridian Plant",
+      "id": "evt-rec-20260211-reinspection"
+    },
+    "evt-ncr-0014-response-due": {
+      "summary": "NCR-MER-2026-0014 \u2014 Appalachian Steel Works \u2014 Response Due",
+      "start": {
+        "dateTime": "2026-02-25T09:00:00-06:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-02-25T09:30:00-06:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Supplier response due: NCR-MER-2026-0014 (DMG Major)\nSupplier: Appalachian Steel Works (SUP-0002)\nIssued: 02/11/2026\nResponse window: 10 business days\nRequired: MTR for H88-6600114 + corrective action plan\nMaterial: 80 EA FG-91200-B2 in Q-HOLD pending resolution",
+      "location": "Gear Systems Inc. \u2014 Meridian Plant",
+      "id": "evt-ncr-0014-response-due"
+    },
+    "evt-rec-20260225-reinspection": {
+      "summary": "RE-INSPECTION: REC-20260225-001 \u2014 FL-20044-A3 \u2014 Tier 2 Damage",
+      "start": {
+        "dateTime": "2026-03-04T09:00:00-06:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-03-04T09:30:00-06:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Re-inspection follow-up for quarantined material.\nReceipt ID: REC-20260225-001\nPO Number: MER-PO-103508\nSKU: FL-20044-A3 (Gear Oil, 75W-140 Synthetic, 5-gal)\nQty Quarantined: 40 EA\nSupplier: Redstone Alloy Fabricators, Inc. (SUP-0010)\nQuarantine Reason: Tier 2 functional damage \u2014 4 of 8 pallets\nNCR: NCR-MER-2026-0031\nPhotos: photos\\REC-20260225-001_20260225\\",
+      "location": "Q-HOLD \u2014 Gear Systems Inc. Meridian Plant",
+      "id": "evt-rec-20260225-reinspection"
+    },
+    "evt-ncr-0031-response-due": {
+      "summary": "NCR-MER-2026-0031 \u2014 Redstone Alloy Fabricators \u2014 Response Due",
+      "start": {
+        "dateTime": "2026-03-18T09:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-03-18T09:30:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Supplier response due: NCR-MER-2026-0031 (DMG Minor)\nSupplier: Redstone Alloy Fabricators, Inc. (SUP-0010)\nIssued: 02/25/2026\nResponse window: 15 business days\nRequired: Root cause analysis and corrective action plan for Tier 2 packaging damage\nMaterial: 40 EA FL-20044-A3 in Q-HOLD pending resolution",
+      "location": "Gear Systems Inc. \u2014 Meridian Plant",
+      "id": "evt-ncr-0031-response-due"
+    },
+    "evt-sup0002-probation-review": {
+      "summary": "Appalachian Steel Works (SUP-0002) \u2014 Probation End Date",
+      "start": {
+        "dateTime": "2026-04-15T09:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-15T09:30:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Probation period for Appalachian Steel Works (SUP-0002) scheduled to end 04/15/2026.\nReason for probation: Two Major NCRs in Q4 2025 for heat number documentation failures.\nStatus change authority: Joon-ho Park (Procurement Lead).",
+      "location": "Gear Systems Inc. \u2014 Meridian Plant",
+      "id": "evt-sup0002-probation-review"
+    },
+    "evt-q1-audit": {
+      "summary": "Q1 Internal Audit Window \u2014 Quality Team",
+      "start": {
+        "date": "2026-04-01"
+      },
+      "end": {
+        "date": "2026-04-14"
+      },
+      "description": "Quarterly internal audit of receiving operations \u2014 Q1 (January\u2013March receipts). Conducted by Theo Brandt and Quality team. Respond to record retrieval requests within 1 business day. Do not modify records under audit review.",
+      "location": "Gear Systems Inc. \u2014 Meridian Plant",
+      "id": "evt-q1-audit"
+    },
+    "evt-holiday-memorial-day": {
+      "summary": "PLANT CLOSED \u2014 Memorial Day",
+      "start": {
+        "date": "2026-05-25"
+      },
+      "end": {
+        "date": "2026-05-26"
+      },
+      "description": "Company-observed holiday. Receiving dock unavailable. No inbound shipments accepted.",
+      "location": "Gear Systems Inc. \u2014 Meridian Plant",
+      "id": "evt-holiday-memorial-day"
+    },
+    "evt-holiday-independence-day": {
+      "summary": "PLANT CLOSED \u2014 Independence Day (Observed)",
+      "start": {
+        "date": "2026-07-03"
+      },
+      "end": {
+        "date": "2026-07-04"
+      },
+      "description": "Company-observed holiday. Independence Day observed on Friday July 3. Receiving dock unavailable. No inbound shipments accepted.",
+      "location": "Gear Systems Inc. \u2014 Meridian Plant",
+      "id": "evt-holiday-independence-day"
+    },
+    "evt-summer-shutdown": {
+      "summary": "PLANT CLOSED \u2014 Summer Maintenance Shutdown",
+      "start": {
+        "date": "2026-07-06"
+      },
+      "end": {
+        "date": "2026-07-10"
+      },
+      "description": "Scheduled annual summer maintenance shutdown. Plant closed Monday through Friday. Receiving dock unavailable. Inbound shipments scheduled during this week must be rescheduled.",
+      "location": "Gear Systems Inc. \u2014 Meridian Plant",
+      "id": "evt-summer-shutdown"
+    },
+    "evt-q2-audit": {
+      "summary": "Q2 Internal Audit Window \u2014 Quality Team",
+      "start": {
+        "date": "2026-07-01"
+      },
+      "end": {
+        "date": "2026-07-14"
+      },
+      "description": "Quarterly internal audit of receiving operations \u2014 Q2 (April\u2013June receipts). Conducted by Theo Brandt and Quality team. Note: audit window overlaps with summer shutdown week (07/06\u201307/10).",
+      "location": "Gear Systems Inc. \u2014 Meridian Plant",
+      "id": "evt-q2-audit"
+    },
+    "evt-holiday-labor-day": {
+      "summary": "PLANT CLOSED \u2014 Labor Day",
+      "start": {
+        "date": "2026-09-07"
+      },
+      "end": {
+        "date": "2026-09-08"
+      },
+      "description": "Company-observed holiday. Receiving dock unavailable. No inbound shipments accepted.",
+      "location": "Gear Systems Inc. \u2014 Meridian Plant",
+      "id": "evt-holiday-labor-day"
+    },
+    "evt-q3-audit": {
+      "summary": "Q3 Internal Audit Window \u2014 Quality Team",
+      "start": {
+        "date": "2026-10-01"
+      },
+      "end": {
+        "date": "2026-10-14"
+      },
+      "description": "Quarterly internal audit of receiving operations \u2014 Q3 (July\u2013September receipts). Conducted by Theo Brandt and Quality team.",
+      "location": "Gear Systems Inc. \u2014 Meridian Plant",
+      "id": "evt-q3-audit"
+    },
+    "evt-holiday-thanksgiving": {
+      "summary": "PLANT CLOSED \u2014 Thanksgiving Day",
+      "start": {
+        "date": "2026-11-26"
+      },
+      "end": {
+        "date": "2026-11-27"
+      },
+      "description": "Company-observed holiday. Receiving dock unavailable. No inbound shipments accepted.",
+      "location": "Gear Systems Inc. \u2014 Meridian Plant",
+      "id": "evt-holiday-thanksgiving"
+    },
+    "evt-holiday-day-after-thanksgiving": {
+      "summary": "PLANT CLOSED \u2014 Day After Thanksgiving",
+      "start": {
+        "date": "2026-11-27"
+      },
+      "end": {
+        "date": "2026-11-28"
+      },
+      "description": "Company-observed holiday. Receiving dock unavailable. No inbound shipments accepted.",
+      "location": "Gear Systems Inc. \u2014 Meridian Plant",
+      "id": "evt-holiday-day-after-thanksgiving"
+    },
+    "evt-holiday-christmas-eve": {
+      "summary": "PLANT CLOSED \u2014 Christmas Eve",
+      "start": {
+        "date": "2026-12-24"
+      },
+      "end": {
+        "date": "2026-12-25"
+      },
+      "description": "Company-observed holiday. Receiving dock unavailable. No inbound shipments accepted.",
+      "location": "Gear Systems Inc. \u2014 Meridian Plant",
+      "id": "evt-holiday-christmas-eve"
+    },
+    "evt-holiday-christmas-day": {
+      "summary": "PLANT CLOSED \u2014 Christmas Day",
+      "start": {
+        "date": "2026-12-25"
+      },
+      "end": {
+        "date": "2026-12-26"
+      },
+      "description": "Company-observed holiday. Receiving dock unavailable. No inbound shipments accepted.",
+      "location": "Gear Systems Inc. \u2014 Meridian Plant",
+      "id": "evt-holiday-christmas-day"
+    },
+    "evt-q4-audit": {
+      "summary": "Q4 Internal Audit Window \u2014 Quality Team",
+      "start": {
+        "date": "2027-01-04"
+      },
+      "end": {
+        "date": "2027-01-15"
+      },
+      "description": "Quarterly internal audit of receiving operations \u2014 Q4 (October\u2013December 2026 receipts). Conducted by Theo Brandt and Quality team.",
+      "location": "Gear Systems Inc. \u2014 Meridian Plant",
+      "id": "evt-q4-audit"
+    }
+  }
+}

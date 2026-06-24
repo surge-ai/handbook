@@ -1,0 +1,113 @@
+{
+  "products": {
+    "gid://shopify/Product/5001": {
+      "id": "gid://shopify/Product/5001",
+      "title": "Vanguard Shield Branded Notebook Set",
+      "description": "Professional notebook set with Vanguard Shield branding. Includes 3 premium quality notebooks.",
+      "descriptionHtml": "<p>Professional notebook set with Vanguard Shield branding. Includes 3 premium quality notebooks.</p>",
+      "handle": "vanguard-shield-branded-notebook-set",
+      "productType": "Merchandise",
+      "vendor": "Vanguard Shield",
+      "tags": [
+        "branded",
+        "merchandise",
+        "notebook"
+      ],
+      "availableForSale": true,
+      "priceRange": {
+        "minVariantPrice": {
+          "amount": "35.00",
+          "currencyCode": "USD"
+        },
+        "maxVariantPrice": {
+          "amount": "35.00",
+          "currencyCode": "USD"
+        }
+      },
+      "featuredImage": null,
+      "images": [],
+      "options": [
+        {
+          "id": "opt-5001-default",
+          "name": "Title",
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/50001",
+          "title": "Default Title",
+          "price": {
+            "amount": "35.00",
+            "currencyCode": "USD"
+          },
+          "compareAtPrice": null,
+          "availableForSale": true,
+          "sku": "VSGB-NOTEBOOK-SET",
+          "selectedOptions": [
+            {
+              "name": "Title",
+              "value": "Default Title"
+            }
+          ],
+          "image": null,
+          "weight": 1.5,
+          "weightUnit": "POUNDS",
+          "quantityAvailable": 250,
+          "currentlyNotInStock": false,
+          "requiresShipping": true,
+          "taxable": true
+        }
+      ],
+      "seo": null,
+      "onlineStoreUrl": "https://vanguardshield.myshopify.com/products/vanguard-shield-branded-notebook-set",
+      "createdAt": "2025-08-15T10:30:00.000000Z",
+      "updatedAt": "2026-02-10T14:22:00.000000Z",
+      "publishedAt": "2025-08-15T10:30:00.000000Z",
+      "isGiftCard": false,
+      "totalInventory": 250
+    }
+  },
+  "carts": {
+    "gid://shopify/Cart/c1001": {
+      "id": "gid://shopify/Cart/c1001",
+      "checkoutUrl": "https://vanguardshield.myshopify.com/checkout/gid://shopify/Cart/c1001",
+      "createdAt": "2026-03-10T14:22:00.000000Z",
+      "updatedAt": "2026-03-22T10:15:00.000000Z",
+      "lines": [],
+      "cost": {
+        "subtotalAmount": {
+          "amount": "0.00",
+          "currencyCode": "USD"
+        },
+        "subtotalAmountEstimated": false,
+        "totalAmount": {
+          "amount": "0.00",
+          "currencyCode": "USD"
+        },
+        "totalAmountEstimated": false,
+        "totalTaxAmount": null,
+        "totalTaxAmountEstimated": false,
+        "checkoutChargeAmount": {
+          "amount": "0.00",
+          "currencyCode": "USD"
+        }
+      },
+      "buyerIdentity": {},
+      "attributes": [],
+      "discountCodes": [],
+      "discountAllocations": [],
+      "appliedGiftCards": [],
+      "deliveryGroups": [],
+      "note": null,
+      "totalQuantity": 0
+    }
+  },
+  "policies": [],
+  "counters": {
+    "cart_id": 1001,
+    "line_id": 1000
+  }
+}

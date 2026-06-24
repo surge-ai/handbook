@@ -1,0 +1,740 @@
+{
+  "users": {
+    "U001": {
+      "id": "U001",
+      "team_id": "T001",
+      "name": "receiving.mer",
+      "deleted": false,
+      "real_name": "Jordan V\u00e1squez",
+      "tz": "America/Chicago",
+      "tz_label": "Central Standard Time",
+      "tz_offset": -18000,
+      "profile": {
+        "real_name": "Jordan V\u00e1squez",
+        "display_name": "jordanv",
+        "email": "receiving.meridian@gearsystems.com",
+        "title": "Inbound Materials Coordinator",
+        "phone": "601-555-0141"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false,
+      "is_email_confirmed": true
+    },
+    "U002": {
+      "id": "U002",
+      "team_id": "T001",
+      "name": "darnell.hooks",
+      "deleted": false,
+      "real_name": "Darnell Hooks",
+      "tz": "America/Chicago",
+      "tz_label": "Central Standard Time",
+      "tz_offset": -18000,
+      "profile": {
+        "real_name": "Darnell Hooks",
+        "display_name": "dhooks",
+        "email": "darnell.hooks@gearsystems.com",
+        "title": "Receiving Supervisor"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false,
+      "is_email_confirmed": true
+    },
+    "U003": {
+      "id": "U003",
+      "team_id": "T001",
+      "name": "elizabeth.velasquez",
+      "deleted": false,
+      "real_name": "Elizabeth Velasquez",
+      "tz": "America/Chicago",
+      "tz_label": "Central Standard Time",
+      "tz_offset": -18000,
+      "profile": {
+        "real_name": "Elizabeth Velasquez",
+        "display_name": "evelasquez",
+        "email": "elizabeth.velasquez@gearsystems.com",
+        "title": "Plant Logistics Manager"
+      },
+      "is_admin": true,
+      "is_owner": false,
+      "is_bot": false,
+      "is_email_confirmed": true
+    },
+    "U004": {
+      "id": "U004",
+      "team_id": "T001",
+      "name": "walter.finch",
+      "deleted": false,
+      "real_name": "Walter Finch",
+      "tz": "America/Chicago",
+      "tz_label": "Central Standard Time",
+      "tz_offset": -18000,
+      "profile": {
+        "real_name": "Walter Finch",
+        "display_name": "wfinch",
+        "email": "walter.finch@gearsystems.com",
+        "title": "Plant Manager"
+      },
+      "is_admin": true,
+      "is_owner": true,
+      "is_bot": false,
+      "is_email_confirmed": true
+    },
+    "U005": {
+      "id": "U005",
+      "team_id": "T001",
+      "name": "theo.brandt",
+      "deleted": false,
+      "real_name": "Theo Brandt",
+      "tz": "America/Chicago",
+      "tz_label": "Central Standard Time",
+      "tz_offset": -18000,
+      "profile": {
+        "real_name": "Theo Brandt",
+        "display_name": "tbrandt",
+        "email": "theo.brandt@gearsystems.com",
+        "title": "Quality Manager"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false,
+      "is_email_confirmed": true
+    },
+    "U006": {
+      "id": "U006",
+      "team_id": "T001",
+      "name": "joonho.park",
+      "deleted": false,
+      "real_name": "Joon-ho Park",
+      "tz": "America/Chicago",
+      "tz_label": "Central Standard Time",
+      "tz_offset": -18000,
+      "profile": {
+        "real_name": "Joon-ho Park",
+        "display_name": "jpark",
+        "email": "joonho.park@gearsystems.com",
+        "title": "Procurement Lead, Meridian"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false,
+      "is_email_confirmed": true
+    },
+    "U007": {
+      "id": "U007",
+      "team_id": "T001",
+      "name": "maribel.ortiz",
+      "deleted": false,
+      "real_name": "Maribel Ortiz",
+      "tz": "America/Chicago",
+      "tz_label": "Central Standard Time",
+      "tz_offset": -18000,
+      "profile": {
+        "real_name": "Maribel Ortiz",
+        "display_name": "mortiz",
+        "email": "maribel.ortiz@gearsystems.com",
+        "title": "Inventory Control Lead"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false,
+      "is_email_confirmed": true
+    },
+    "U008": {
+      "id": "U008",
+      "team_id": "T001",
+      "name": "curtis.yablonski",
+      "deleted": false,
+      "real_name": "Curtis Yablonski",
+      "tz": "America/Chicago",
+      "tz_label": "Central Standard Time",
+      "tz_offset": -18000,
+      "profile": {
+        "real_name": "Curtis Yablonski",
+        "display_name": "cyablonski",
+        "email": "curtis.yablonski@gearsystems.com",
+        "title": "Dock Lead"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false,
+      "is_email_confirmed": true
+    },
+    "U009": {
+      "id": "U009",
+      "team_id": "T001",
+      "name": "aditi.krishnamurthy",
+      "deleted": false,
+      "real_name": "Aditi Krishnamurthy",
+      "tz": "America/Chicago",
+      "tz_label": "Central Standard Time",
+      "tz_offset": -18000,
+      "profile": {
+        "real_name": "Aditi Krishnamurthy",
+        "display_name": "akrishnamurthy",
+        "email": "aditi.krishnamurthy@gearsystems.com",
+        "title": "Production Planning Lead"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false,
+      "is_email_confirmed": true
+    },
+    "U010": {
+      "id": "U010",
+      "team_id": "T001",
+      "name": "reggie.lemoine",
+      "deleted": false,
+      "real_name": "Reggie Lemoine",
+      "tz": "America/Chicago",
+      "tz_label": "Central Standard Time",
+      "tz_offset": -18000,
+      "profile": {
+        "real_name": "Reggie Lemoine",
+        "display_name": "rlemoine",
+        "email": "reggie.lemoine@gearsystems.com",
+        "title": "Quality Inspector"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false,
+      "is_email_confirmed": true
+    },
+    "U011": {
+      "id": "U011",
+      "team_id": "T001",
+      "name": "chris.wojciechowski",
+      "deleted": false,
+      "real_name": "Chris Wojciechowski",
+      "tz": "America/Chicago",
+      "tz_label": "Central Standard Time",
+      "tz_offset": -18000,
+      "profile": {
+        "real_name": "Chris Wojciechowski",
+        "display_name": "cwoj",
+        "email": "chris.wojciechowski@gearsystems.com",
+        "title": "Plant EHS Contact"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false,
+      "is_email_confirmed": true
+    },
+    "U012": {
+      "id": "U012",
+      "team_id": "T001",
+      "name": "yuki.tanaka",
+      "deleted": false,
+      "real_name": "Yuki Tanaka",
+      "tz": "America/Chicago",
+      "tz_label": "Central Standard Time",
+      "tz_offset": -18000,
+      "profile": {
+        "real_name": "Yuki Tanaka",
+        "display_name": "ytanaka",
+        "email": "yuki.tanaka@gearsystems.com",
+        "title": "RMA Coordinator"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false,
+      "is_email_confirmed": true
+    }
+  },
+  "channels": {
+    "C001": {
+      "id": "C001",
+      "name": "receiving-dock",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1735689600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "receiving-dock",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1776164400,
+      "creator": "U003",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Inbound dock status, arrival posts, putaway authorizations, and timing breach notices | SOP-LOG-MER-02",
+        "creator": "U003",
+        "last_set": 1735689600
+      },
+      "purpose": {
+        "value": "Mandatory channel for all dock arrival/departure notifications, putaway authorizations, and end-of-shift handoffs. All Coordinator posts per SOP \u00a78, \u00a713.4, \u00a718.4 go here.",
+        "creator": "U003",
+        "last_set": 1735689600
+      },
+      "num_members": 6
+    },
+    "C002": {
+      "id": "C002",
+      "name": "escalations-meridian",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1735689600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "escalations-meridian",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1735689600,
+      "creator": "U003",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Dollar-value escalations, supplier suspensions, and plant-manager-level exceptions",
+        "creator": "U003",
+        "last_set": 1735689600
+      },
+      "purpose": {
+        "value": "Escalation ladder notifications per SOP \u00a716. Used for high-dollar NCR routing, supplier suspension events, and severity overrides requiring Elizabeth Velasquez or Walter Finch.",
+        "creator": "U003",
+        "last_set": 1735689600
+      },
+      "num_members": 4
+    },
+    "C003": {
+      "id": "C003",
+      "name": "unknown-shipments",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1735689600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "unknown-shipments",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1735689600,
+      "creator": "U003",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Unidentifiable or misdirected shipments \u2014 tag @jpark and @dhooks on every post",
+        "creator": "U003",
+        "last_set": 1735689600
+      },
+      "purpose": {
+        "value": "Per SOP \u00a78.6.3: post here for any shipment where supplier is unidentifiable. All posts reviewed in quarterly audit.",
+        "creator": "U003",
+        "last_set": 1735689600
+      },
+      "num_members": 4
+    },
+    "C004": {
+      "id": "C004",
+      "name": "general",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1735689600,
+      "is_archived": false,
+      "is_general": true,
+      "unlinked": 0,
+      "name_normalized": "general",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1735689600,
+      "creator": "U004",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Meridian plant \u2014 general announcements",
+        "creator": "U004",
+        "last_set": 1735689600
+      },
+      "purpose": {
+        "value": "Plant-wide announcements and general discussion for all Meridian staff.",
+        "creator": "U004",
+        "last_set": 1735689600
+      },
+      "num_members": 9
+    },
+    "C005": {
+      "id": "C005",
+      "name": "quality-meridian",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1735689600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "quality-meridian",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1735689600,
+      "creator": "U005",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "NCR tracking, quarantine releases, safety-critical disposition, and Q1 audit (in progress through Apr 14)",
+        "creator": "U005",
+        "last_set": 1776164400
+      },
+      "purpose": {
+        "value": "Quality team channel for NCR coordination, quarantine management, heat number disputes, and quarterly audit coordination. Theo Brandt owns this channel.",
+        "creator": "U005",
+        "last_set": 1735689600
+      },
+      "num_members": 5
+    },
+    "C006": {
+      "id": "C006",
+      "name": "planning-meridian",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1735689600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "planning-meridian",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1735689600,
+      "creator": "U009",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Production planning, line-down alerts, and DTL delivery notifications",
+        "creator": "U009",
+        "last_set": 1735689600
+      },
+      "purpose": {
+        "value": "Production planning coordination. Band 2/3 short ship line-down risk checks and DTL arrival notifications per SOP.",
+        "creator": "U009",
+        "last_set": 1735689600
+      },
+      "num_members": 4
+    },
+    "C007": {
+      "id": "C007",
+      "name": "quality-alerts",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1735689600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "quality-alerts",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1735689600,
+      "creator": "U005",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Safety-critical part quality alerts and inspection findings",
+        "creator": "U005",
+        "last_set": 1735689600
+      },
+      "purpose": {
+        "value": "Quality inspection findings for safety-critical receipts. Reggie Lemoine posts inspection reports here per SOP \u00a711.5.2.",
+        "creator": "U005",
+        "last_set": 1735689600
+      },
+      "num_members": 3
+    }
+  },
+  "messages": {
+    "C001": [
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "DOCK SCHEDULE SUMMARY \u2014 Mon Apr 14, 2026\n\nGood morning. Three appointments on the board today:\n\n\u2022 APPT-20260414-001 | 07:00\u201308:00 | Dock 1 | Alloy Direct Supply (SUP-0041) | XPO Logistics | POs: MER-PO-8812, MER-PO-8813 | \u26a0\ufe0f Safety-Critical (DS family) \u2014 COC + MTR required on arrival\n\u2022 APPT-20260414-002 | 09:00\u201310:00 | Dock 2 | Precision Gear Works (SUP-0117) | Yellow Freight | PO: MER-PO-8845 | Standard (GR family)\n\u2022 APPT-20260414-003 | 10:30\u201311:30 | Dock 3 | Coastal Fasteners LLC (SUP-0089) | R&L Carriers | POs: MER-PO-8820, 8821, 8822 | Standard (HW family, multi-line)\n\nAlso flagging: NCR-2026-0031 Major response deadline (Precision Gear Works) is today. Carrier claim for REC-20260409-005 must be filed today. Concealed damage window for REC-20260404-002 closes today.\n\n@cyablonski heads up on the DS shipment \u2014 will need photo documentation of all pallets before offload begins.",
+        "ts": "1776164400.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U008",
+        "text": "Copy. Dock 1 staged and ready. I'll have the crew on standby at 06:50 for the XPO truck. Will photograph every pallet before we touch anything.",
+        "ts": "1776165000.000200",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "ARRIVAL ON TIME: APPT-20260414-001, Alloy Direct Supply, Dock 1, PO #MER-PO-8812 / MER-PO-8813. Cleared to unload.\n\nDriver has COC and MTR in hand \u2014 both reference heat number H-2026-0441. Proceeding to PO match.",
+        "ts": "1776168300.000300",
+        "team": "T001",
+        "reply_count": 4,
+        "latest_reply": "1776172200.000700",
+        "reply_users": [
+          "U001",
+          "U005",
+          "U008"
+        ],
+        "reply_users_count": 3
+      },
+      {
+        "type": "message",
+        "user": "U008",
+        "text": "Unloading started. 4 pallets, approx 2,100 lb. Photographing each. Will post count when offload is complete.",
+        "ts": "1776169320.000400",
+        "thread_ts": "1776168300.000300",
+        "parent_user_id": "U001",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U008",
+        "text": "Offload complete. Pallet count: 4 of 4. Condition: Tier 0 \u2014 no visible damage. Piece count on pallet 3 looks a little light \u2014 flagging for your count verification before I send the crew to the next door.",
+        "ts": "1776170100.000500",
+        "thread_ts": "1776168300.000300",
+        "parent_user_id": "U001",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Confirmed \u2014 pallet 3 short. Running quantity variance now. PO MER-PO-8812 called for 144 units DS-7740, received 141. Variance: -2.1%. Safety-critical Band 1 short ship \u2192 NCR Major required per SOP \u00a714.1. Will open NCR-2026-0035 within the 2-hour window.\n\n@tbrandt flagging this \u2014 DS-family short ship, will need your eyes on the heat number match before putaway auth.",
+        "ts": "1776171660.000600",
+        "thread_ts": "1776168300.000300",
+        "parent_user_id": "U001",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U005",
+        "text": "Got it. I'll come to the dock after the 08:30 stand-up. Don't authorize putaway on MER-PO-8812 until I've verified H-2026-0441 against the MTR.",
+        "ts": "1776172200.000700",
+        "thread_ts": "1776168300.000300",
+        "parent_user_id": "U001",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "PUTAWAY AUTHORIZED: REC-20260414-001 | PO MER-PO-8813 (DS-7741, 144/144 units, Tier 0, Tier 0 docs) | Heat H-2026-0441 verified by Theo Brandt. Quarantine flag applied to MER-PO-8812 pending NCR-2026-0035 resolution. @mortiz please hold MER-PO-8812 lot in quarantine bay.",
+        "ts": "1776174300.000800",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U007",
+        "text": "Quarantine hold confirmed on MER-PO-8812 / DS-7740 / 141 units. Tagged in inventory_master.xlsx. Let me know when NCR resolves.",
+        "ts": "1776175500.000900",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "ARRIVAL ON TIME: APPT-20260414-002, Precision Gear Works, Dock 2, PO #MER-PO-8845. Cleared to unload.",
+        "ts": "1776176100.001000",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "ARRIVAL ON TIME: APPT-20260414-003, Coastal Fasteners LLC, Dock 3, PO #MER-PO-8820 / 8821 / 8822. Cleared to unload.",
+        "ts": "1776180600.001100",
+        "team": "T001",
+        "reply_count": 1,
+        "latest_reply": "1776182100.001200",
+        "reply_users": [
+          "U008"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U008",
+        "text": "Coastal truck has 6 pallets, mixed HW parts across all three POs. Packing slip matches. No visible damage. Counting now.",
+        "ts": "1776182100.001200",
+        "thread_ts": "1776180600.001100",
+        "parent_user_id": "U001",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U007",
+        "text": "Hey team \u2014 just finished the HW-3305 re-inspection with Theo on REC-20260407-003. Found damage on 12 of the lock nuts from the Coastal Fasteners shipment that came in April 7. Looks like some units took impact, consistent with movement in transit. All 800 units are still in HW-1 Bin 1D as received. Flagging for the Coordinator.",
+        "ts": "1776183000.001350",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "PUTAWAY AUTHORIZED: REC-20260414-003, REC-20260414-004, REC-20260414-005 | POs MER-PO-8820 / 8821 / 8822 \u2014 all lines within auto-accept threshold (variances: +0.2%, 0.0%, -0.3%). Tier 0 condition. Docs complete. @mortiz proceed to standard rack locations.",
+        "ts": "1776184200.001300",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "PUTAWAY AUTHORIZED: REC-20260414-006 | PO MER-PO-8845 (GR-family, 200/200 units, Tier 0). Packing slip clean, no NCR required. @mortiz GR parts to standard staging.",
+        "ts": "1776187200.001400",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "END-OF-SHIFT HANDOFF \u2014 Mon Apr 14, 2026 | Jordan V. \u2192 Night Crew\n\n\u2705 APPT-20260414-001: REC-20260414-001 complete. MER-PO-8813 putaway authorized. MER-PO-8812 in quarantine (NCR-2026-0035 opened, Major, DS short ship). NCR letter to Alloy Direct Supply due by 07:05 CST tomorrow.\n\u2705 APPT-20260414-002: REC-20260414-002 complete. Putaway authorized.\n\u2705 APPT-20260414-003: REC-20260414-003 complete. Putaway authorized.\n\u26a0\ufe0f Quarantine Bay: MER-PO-8812 (DS-7740, 141 units) \u2014 hold until NCR-2026-0035 resolves. @mortiz confirmed.\n\u26a0\ufe0f NCR-2026-0031 (Precision Gear Works, Major): No supplier response received by deadline today. Notified @jpark per \u00a714.5 \u2014 escalation in progress.\n\u26a0\ufe0f Carrier claim for REC-20260409-005 filed with Yellow Freight at 13:00. Reference #YF-CLM-88214. Logged in receiving_log.xlsx.\n\nNo open receipts. All workbooks saved and closed.",
+        "ts": "1776192300.001500",
+        "team": "T001"
+      }
+    ],
+    "C002": [
+      {
+        "type": "message",
+        "user": "U006",
+        "text": "Escalation notice \u2014 NCR-2026-0031 (Precision Gear Works, SUP-0117, Major): 10-business-day supplier response window expired today without response. This is SUP-0117's second missed NCR response in 60 days. Per \u00a715.3, repeat-offender threshold is being evaluated. @evelasquez flagging for your awareness \u2014 Procurement will formally notify the supplier of escalation status.",
+        "ts": "1776189600.000100",
+        "team": "T001",
+        "reply_count": 1,
+        "latest_reply": "1776191400.000200",
+        "reply_users": [
+          "U003"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "Acknowledged. Keep me in the loop on their response. If they miss a third Major NCR window, we move to a status downgrade conversation with @wfinch. Document everything.",
+        "ts": "1776191400.000200",
+        "thread_ts": "1776189600.000100",
+        "parent_user_id": "U006",
+        "team": "T001"
+      }
+    ],
+    "C004": [
+      {
+        "type": "message",
+        "user": "U004",
+        "text": "Good morning Meridian. Reminder that the Q1 internal quality audit window closes today (Apr 14). If Theo's team has reached out to you for records, please prioritize those requests \u2014 they have until EOD today. Thanks to everyone in Receiving and Quality for their cooperation this quarter.",
+        "ts": "1776165600.000100",
+        "team": "T001",
+        "reply_count": 1,
+        "latest_reply": "1776166800.000200",
+        "reply_users": [
+          "U005"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U005",
+        "text": "Thanks Walter. Q1 audit wrapping up today. I'll have a summary for leadership by end of week. Nothing alarming in the sample \u2014 a few timing breach self-reports that were handled correctly, and one quarantine release that needs a minor notes correction (coordinating with @mortiz on that). Overall the receiving records are in good shape.",
+        "ts": "1776166800.000200",
+        "thread_ts": "1776165600.000100",
+        "parent_user_id": "U004",
+        "team": "T001"
+      }
+    ],
+    "C005": [
+      {
+        "type": "message",
+        "user": "U005",
+        "text": "Q1 audit is in its final day (Apr 14). Outstanding records requests: REC-20260318-004 (COC file path) and REC-20260225-009 (NCR closure timestamp). @jordanv \u2014 can you pull these today and email to audit.meridian@gearsystems.com with subject lines AUDIT RESPONSE: REC-[ID]?",
+        "ts": "1776164600.000100",
+        "team": "T001",
+        "reply_count": 2,
+        "latest_reply": "1776165800.000300",
+        "reply_users": [
+          "U001",
+          "U005"
+        ],
+        "reply_users_count": 2
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "On it. I'll pull both records now. REC-20260318-004 \u2014 COC is in packing_slips\\2026\\03\\ per \u00a75.4 naming. REC-20260225-009 \u2014 NCR closure timestamp is in ncr_log row 14. Emailing both within the hour. Note: I spotted a minor discrepancy in REC-20260225-009 \u2014 the NCR closure date in the log shows 03/05 but the email chain shows 03/04. Have not modified the row per \u00a719.3.2. Flagging it in the audit response email.",
+        "ts": "1776165200.000200",
+        "thread_ts": "1776164600.000100",
+        "parent_user_id": "U005",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U005",
+        "text": "Perfect \u2014 that's exactly the right call. Don't touch the row until audit closes. I'll note the discrepancy as an audit finding (minor) and we'll follow \u00a713.6 cross-shift correction after I close the audit today.",
+        "ts": "1776165800.000300",
+        "thread_ts": "1776164600.000100",
+        "parent_user_id": "U005",
+        "team": "T001"
+      }
+    ],
+    "C006": [],
+    "C007": []
+  },
+  "counters": {
+    "messageId": 2000000
+  }
+}

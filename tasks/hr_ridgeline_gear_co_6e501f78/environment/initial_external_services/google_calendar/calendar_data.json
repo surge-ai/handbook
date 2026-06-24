@@ -1,0 +1,803 @@
+{
+  "events": {
+    "evt-001": {
+      "summary": "\ud83c\udfd4\ufe0f Ridgeline Holiday: New Year's Day",
+      "start": {
+        "date": "2026-01-01"
+      },
+      "end": {
+        "date": "2026-01-02"
+      },
+      "description": "Ridgeline-observed holiday. HR office closed. Does NOT count as a business day for FMLA/FAMLI/SLA clocks. Calendar-day clocks continue to run.",
+      "location": "Fort Collins, CO",
+      "id": "evt-001"
+    },
+    "evt-002": {
+      "summary": "\ud83c\udfd4\ufe0f Ridgeline Holiday: Martin Luther King Jr. Day",
+      "start": {
+        "date": "2026-01-19"
+      },
+      "end": {
+        "date": "2026-01-20"
+      },
+      "description": "Ridgeline-observed holiday. HR office closed. Does NOT count as a business day for FMLA/FAMLI/SLA clocks. Calendar-day clocks continue to run.",
+      "location": "Fort Collins, CO",
+      "id": "evt-002"
+    },
+    "evt-003": {
+      "summary": "\ud83c\udfd4\ufe0f Ridgeline Holiday: Presidents' Day",
+      "start": {
+        "date": "2026-02-16"
+      },
+      "end": {
+        "date": "2026-02-17"
+      },
+      "description": "Ridgeline-observed holiday. HR office closed. Does NOT count as a business day for FMLA/FAMLI/SLA clocks. Calendar-day clocks continue to run.",
+      "location": "Fort Collins, CO",
+      "id": "evt-003"
+    },
+    "evt-004": {
+      "summary": "\ud83c\udfd4\ufe0f Ridgeline Holiday: Memorial Day",
+      "start": {
+        "date": "2026-05-25"
+      },
+      "end": {
+        "date": "2026-05-26"
+      },
+      "description": "Ridgeline-observed holiday. HR office closed. Does NOT count as a business day for FMLA/FAMLI/SLA clocks. Calendar-day clocks continue to run.",
+      "location": "Fort Collins, CO",
+      "id": "evt-004"
+    },
+    "evt-005": {
+      "summary": "\ud83c\udfd4\ufe0f Ridgeline Holiday: Juneteenth",
+      "start": {
+        "date": "2026-06-19"
+      },
+      "end": {
+        "date": "2026-06-20"
+      },
+      "description": "Ridgeline-observed holiday. HR office closed. Does NOT count as a business day for FMLA/FAMLI/SLA clocks. Calendar-day clocks continue to run.",
+      "location": "Fort Collins, CO",
+      "id": "evt-005"
+    },
+    "evt-006": {
+      "summary": "\ud83c\udfd4\ufe0f Ridgeline Holiday: Independence Day (observed)",
+      "start": {
+        "date": "2026-07-03"
+      },
+      "end": {
+        "date": "2026-07-04"
+      },
+      "description": "Ridgeline-observed holiday. HR office closed. Does NOT count as a business day for FMLA/FAMLI/SLA clocks. Calendar-day clocks continue to run.",
+      "location": "Fort Collins, CO",
+      "id": "evt-006"
+    },
+    "evt-007": {
+      "summary": "\ud83c\udfd4\ufe0f Ridgeline Holiday: Labor Day",
+      "start": {
+        "date": "2026-09-07"
+      },
+      "end": {
+        "date": "2026-09-08"
+      },
+      "description": "Ridgeline-observed holiday. HR office closed. Does NOT count as a business day for FMLA/FAMLI/SLA clocks. Calendar-day clocks continue to run.",
+      "location": "Fort Collins, CO",
+      "id": "evt-007"
+    },
+    "evt-008": {
+      "summary": "\ud83c\udfd4\ufe0f Ridgeline Holiday: Thanksgiving Day",
+      "start": {
+        "date": "2026-11-26"
+      },
+      "end": {
+        "date": "2026-11-27"
+      },
+      "description": "Ridgeline-observed holiday. HR office closed. Does NOT count as a business day for FMLA/FAMLI/SLA clocks. Calendar-day clocks continue to run.",
+      "location": "Fort Collins, CO",
+      "id": "evt-008"
+    },
+    "evt-009": {
+      "summary": "\ud83c\udfd4\ufe0f Ridgeline Holiday: Day after Thanksgiving",
+      "start": {
+        "date": "2026-11-27"
+      },
+      "end": {
+        "date": "2026-11-28"
+      },
+      "description": "Ridgeline-observed holiday. HR office closed. Does NOT count as a business day for FMLA/FAMLI/SLA clocks. Calendar-day clocks continue to run.",
+      "location": "Fort Collins, CO",
+      "id": "evt-009"
+    },
+    "evt-010": {
+      "summary": "\ud83c\udfd4\ufe0f Ridgeline Holiday: Christmas Eve",
+      "start": {
+        "date": "2026-12-24"
+      },
+      "end": {
+        "date": "2026-12-25"
+      },
+      "description": "Ridgeline-observed holiday. HR office closed. Does NOT count as a business day for FMLA/FAMLI/SLA clocks. Calendar-day clocks continue to run.",
+      "location": "Fort Collins, CO",
+      "id": "evt-010"
+    },
+    "evt-011": {
+      "summary": "\ud83c\udfd4\ufe0f Ridgeline Holiday: Christmas Day",
+      "start": {
+        "date": "2026-12-25"
+      },
+      "end": {
+        "date": "2026-12-26"
+      },
+      "description": "Ridgeline-observed holiday. HR office closed. Does NOT count as a business day for FMLA/FAMLI/SLA clocks. Calendar-day clocks continue to run.",
+      "location": "Fort Collins, CO",
+      "id": "evt-011"
+    },
+    "evt-012": {
+      "summary": "\ud83d\udccb Leave: Rosa Gutierrez [LC-2026-0089]",
+      "start": {
+        "date": "2026-02-02"
+      },
+      "end": {
+        "date": "2026-08-01"
+      },
+      "description": "Case ID: LC-2026-0089\nEmployee: Rosa Gutierrez\nLeave Type: FMLA + FAMLI (Intermittent)\nStatus: Open \u2013 Intermittent\n\nRecurring migraine episodes. Certified: up to 2 days/month. Cert expires 08/01/2026. FAMLI claim FAMLI-2026-00041 approved.",
+      "location": "Fort Collins, CO",
+      "id": "evt-012"
+    },
+    "evt-013": {
+      "summary": "\ud83d\udd14 RTW Reminder: Rosa Gutierrez [LC-2026-0089]",
+      "start": {
+        "dateTime": "2026-08-01T08:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-08-01T08:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "Expected return-to-work date for Rosa Gutierrez (Case LC-2026-0089, FMLA + FAMLI (Intermittent)).",
+      "id": "evt-013"
+    },
+    "evt-014": {
+      "summary": "\ud83d\udccb Leave: Casey Thornton [LC-2026-0016]",
+      "start": {
+        "date": "2026-03-11"
+      },
+      "end": {
+        "date": "2026-04-22"
+      },
+      "description": "Case ID: LC-2026-0016\nEmployee: Casey Thornton\nLeave Type: FAMLI + PTO\nStatus: Open \u2013 Active\n\nFAMLI claim FAMLI-2026-00042 approved. Expected return 04/22/2026.",
+      "location": "Fort Collins, CO",
+      "id": "evt-014"
+    },
+    "evt-015": {
+      "summary": "\ud83d\udd14 RTW Reminder: Casey Thornton [LC-2026-0016]",
+      "start": {
+        "dateTime": "2026-04-22T08:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-04-22T08:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "Expected return-to-work date for Casey Thornton (Case LC-2026-0016, FAMLI + PTO).",
+      "id": "evt-015"
+    },
+    "evt-016": {
+      "summary": "\u2705 Closed: William Nakamura [LC-2026-0004]",
+      "start": {
+        "date": "2026-03-16"
+      },
+      "end": {
+        "date": "2026-03-20"
+      },
+      "description": "CLOSED CASE\nCase ID: LC-2026-0004\nEmployee: William Nakamura\nLeave Type: Bereavement\nStatus: Closed \u2013 Returned\nActual return: 03/20/2026.",
+      "location": "Fort Collins, CO",
+      "id": "evt-016"
+    },
+    "evt-018": {
+      "summary": "\ud83d\udccb Leave: Oscar Simmons [LC-2026-0011] \u2014 Personal Leave",
+      "start": {
+        "date": "2026-03-19"
+      },
+      "end": {
+        "date": "2026-06-11"
+      },
+      "description": "Case ID: LC-2026-0011\nEmployee: Oscar Simmons\nLeave Type: Personal Leave\nStatus: Open \u2013 Active\n\nPersonal leave. Expected return 06/11/2026.",
+      "location": "Fort Collins, CO",
+      "id": "evt-018"
+    },
+    "evt-019": {
+      "summary": "\ud83d\udd14 RTW Reminder: Oscar Simmons [LC-2026-0011]",
+      "start": {
+        "dateTime": "2026-06-11T08:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-06-11T08:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "Expected return-to-work date for Oscar Simmons (Case LC-2026-0011, Personal Leave).",
+      "id": "evt-019"
+    },
+    "evt-020": {
+      "summary": "\ud83d\udccb Leave: Finley Nakamura [LC-2026-0018]",
+      "start": {
+        "date": "2026-03-21"
+      },
+      "end": {
+        "date": "2026-05-20"
+      },
+      "description": "Case ID: LC-2026-0018\nEmployee: Finley Nakamura\nLeave Type: Jury Duty\nStatus: Open \u2013 Intermittent\n\nJury duty, intermittent. Expected end 05/20/2026.",
+      "location": "Fort Collins, CO",
+      "id": "evt-020"
+    },
+    "evt-021": {
+      "summary": "\ud83d\udd14 RTW Reminder: Finley Nakamura [LC-2026-0018]",
+      "start": {
+        "dateTime": "2026-05-20T08:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-05-20T08:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "Expected return-to-work date for Finley Nakamura (Case LC-2026-0018, Jury Duty).",
+      "id": "evt-021"
+    },
+    "evt-022": {
+      "summary": "\ud83d\udccb Leave: Indira Carroll [LC-2026-0046]",
+      "start": {
+        "date": "2026-03-22"
+      },
+      "end": {
+        "date": "2026-04-11"
+      },
+      "description": "Case ID: LC-2026-0046\nEmployee: Indira Carroll\nLeave Type: FAMLI\nStatus: Open \u2013 Active\n\nFAMLI claim FAMLI-2026-00043 approved. Expected return 04/11/2026.",
+      "location": "Fort Collins, CO",
+      "id": "evt-022"
+    },
+    "evt-023": {
+      "summary": "\ud83d\udccb Leave: Penelope Barnes [LC-2026-0042]",
+      "start": {
+        "date": "2026-04-02"
+      },
+      "end": {
+        "date": "2026-04-17"
+      },
+      "description": "Case ID: LC-2026-0042\nEmployee: Penelope Barnes\nLeave Type: Bereavement\nStatus: Open \u2013 Active\n\nBereavement leave. Expected return 04/17/2026.",
+      "location": "Fort Collins, CO",
+      "id": "evt-023"
+    },
+    "evt-024": {
+      "summary": "\ud83d\udd14 RTW Reminder: Penelope Barnes [LC-2026-0042]",
+      "start": {
+        "dateTime": "2026-04-17T08:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-04-17T08:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "Expected return-to-work date for Penelope Barnes (Case LC-2026-0042, Bereavement).",
+      "id": "evt-024"
+    },
+    "evt-025": {
+      "summary": "\ud83d\udccb Leave: Ivan Anderson [LC-2026-0009]",
+      "start": {
+        "date": "2026-04-04"
+      },
+      "end": {
+        "date": "2026-05-16"
+      },
+      "description": "Case ID: LC-2026-0009\nEmployee: Ivan Anderson\nLeave Type: FAMLI\nStatus: Open \u2013 Active\n\nFAMLI leave. Expected return 05/16/2026.",
+      "location": "Fort Collins, CO",
+      "id": "evt-025"
+    },
+    "evt-026": {
+      "summary": "\ud83d\udd14 RTW Reminder: Ivan Anderson [LC-2026-0009]",
+      "start": {
+        "dateTime": "2026-05-16T08:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-05-16T08:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "Expected return-to-work date for Ivan Anderson (Case LC-2026-0009, FAMLI).",
+      "id": "evt-026"
+    },
+    "evt-027": {
+      "summary": "\ud83d\udccb Leave: Casey Thornton [LC-2026-0017]",
+      "start": {
+        "date": "2026-04-06"
+      },
+      "end": {
+        "date": "2026-05-06"
+      },
+      "description": "Case ID: LC-2026-0017\nEmployee: Casey Thornton\nLeave Type: ADA Accommodation Intake\nStatus: Open \u2013 Active\n\nADA intake routed to HR Director. Expected resolution 05/06/2026.",
+      "location": "Fort Collins, CO",
+      "id": "evt-027"
+    },
+    "evt-028": {
+      "summary": "\ud83d\udd14 RTW Reminder: Casey Thornton [LC-2026-0017]",
+      "start": {
+        "dateTime": "2026-05-06T08:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-05-06T08:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "Expected return-to-work date for Casey Thornton (Case LC-2026-0017, ADA Accommodation Intake).",
+      "id": "evt-028"
+    },
+    "evt-029": {
+      "summary": "\ud83d\udccb Leave: Zoey O'Brien [LC-2026-0026]",
+      "start": {
+        "date": "2026-04-06"
+      },
+      "end": {
+        "date": "2026-05-18"
+      },
+      "description": "Case ID: LC-2026-0026\nEmployee: Zoey O'Brien\nLeave Type: PTO\nStatus: Open \u2013 Intermittent\n\nPTO, intermittent. Expected end 05/18/2026.",
+      "location": "Fort Collins, CO",
+      "id": "evt-029"
+    },
+    "evt-030": {
+      "summary": "\ud83d\udd14 RTW Reminder: Zoey O'Brien [LC-2026-0026]",
+      "start": {
+        "dateTime": "2026-05-18T08:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-05-18T08:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "Expected return-to-work date for Zoey O'Brien (Case LC-2026-0026, PTO).",
+      "id": "evt-030"
+    },
+    "evt-031": {
+      "summary": "\ud83d\udccb Leave: Indira Carroll [LC-2026-0045]",
+      "start": {
+        "date": "2026-04-09"
+      },
+      "end": {
+        "date": "2026-05-09"
+      },
+      "description": "Case ID: LC-2026-0045\nEmployee: Indira Carroll\nLeave Type: HFWA\nStatus: Open \u2013 Active\n\nHFWA sick leave. Expected return 05/09/2026.",
+      "location": "Fort Collins, CO",
+      "id": "evt-031"
+    },
+    "evt-032": {
+      "summary": "\ud83d\udd14 RTW Reminder: Indira Carroll [LC-2026-0045]",
+      "start": {
+        "dateTime": "2026-05-09T08:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-05-09T08:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "Expected return-to-work date for Indira Carroll (Case LC-2026-0045, HFWA).",
+      "id": "evt-032"
+    },
+    "evt-033": {
+      "summary": "\u26a0\ufe0f FMLA Cert Expiry: Rosa Gutierrez [LC-2026-0089]",
+      "start": {
+        "dateTime": "2026-08-01T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-08-01T09:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "Medical certification for Rosa Gutierrez (LC-2026-0089, recurring migraines) expires 08/01/2026.",
+      "id": "evt-033"
+    },
+    "evt-034": {
+      "summary": "\ud83d\uddd3\ufe0f Rosa Gutierrez Cert Renewal Window Opens [LC-2026-0089]",
+      "start": {
+        "dateTime": "2026-07-01T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-07-01T09:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "Recertification window for Rosa Gutierrez (LC-2026-0089). Medical certification expires 08/01/2026.",
+      "id": "evt-034"
+    },
+    "evt-035": {
+      "summary": "\u26a0\ufe0f FAMLI End: Indira Carroll [LC-2026-0046]",
+      "start": {
+        "dateTime": "2026-04-11T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-04-11T09:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "Expected end of Indira Carroll's FAMLI leave (LC-2026-0046).",
+      "id": "evt-035"
+    },
+    "evt-036": {
+      "summary": "\ud83d\udcca HFWA Balance Review \u2014 Monthly Check",
+      "start": {
+        "dateTime": "2026-04-13T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-04-13T09:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "Monthly HFWA balance tracker review. Coordinate with Payroll Lead (Teresa Vang).",
+      "id": "evt-036"
+    },
+    "evt-037": {
+      "summary": "\ud83d\udcca HFWA Balance Review \u2014 Monthly Check",
+      "start": {
+        "dateTime": "2026-05-04T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-05-04T09:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "Monthly HFWA balance tracker review. Coordinate with Payroll Lead (Teresa Vang).",
+      "id": "evt-037"
+    },
+    "evt-038": {
+      "summary": "\ud83d\udcca HFWA Balance Review \u2014 Monthly Check",
+      "start": {
+        "dateTime": "2026-06-01T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-06-01T09:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "Monthly HFWA balance tracker review. Coordinate with Payroll Lead (Teresa Vang).",
+      "id": "evt-038"
+    },
+    "evt-039": {
+      "summary": "\ud83d\udcca HFWA Balance Review \u2014 Monthly Check",
+      "start": {
+        "dateTime": "2026-07-06T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-07-06T09:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "Monthly HFWA balance tracker review. Coordinate with Payroll Lead (Teresa Vang).",
+      "id": "evt-039"
+    },
+    "evt-040": {
+      "summary": "\ud83d\udcca HFWA Balance Review \u2014 Monthly Check",
+      "start": {
+        "dateTime": "2026-08-03T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-08-03T09:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "Monthly HFWA balance tracker review. Coordinate with Payroll Lead (Teresa Vang).",
+      "id": "evt-040"
+    },
+    "evt-041": {
+      "summary": "\ud83d\udcca HFWA Balance Review \u2014 Monthly Check",
+      "start": {
+        "dateTime": "2026-09-07T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-09-07T09:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "Monthly HFWA balance tracker review. Coordinate with Payroll Lead (Teresa Vang).",
+      "id": "evt-041"
+    },
+    "evt-042": {
+      "summary": "\ud83d\udcca HFWA Balance Review \u2014 Monthly Check",
+      "start": {
+        "dateTime": "2026-10-05T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-10-05T09:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "Monthly HFWA balance tracker review. Coordinate with Payroll Lead (Teresa Vang).",
+      "id": "evt-042"
+    },
+    "evt-043": {
+      "summary": "\ud83d\udcca HFWA Balance Review \u2014 Monthly Check",
+      "start": {
+        "dateTime": "2026-11-02T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-11-02T09:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "Monthly HFWA balance tracker review. Coordinate with Payroll Lead (Teresa Vang).",
+      "id": "evt-043"
+    },
+    "evt-044": {
+      "summary": "\ud83d\udcca HFWA Balance Review \u2014 Monthly Check",
+      "start": {
+        "dateTime": "2026-12-07T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-12-07T09:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "Monthly HFWA balance tracker review. Coordinate with Payroll Lead (Teresa Vang).",
+      "id": "evt-044"
+    },
+    "evt-045": {
+      "summary": "\ud83d\udd04 30-Day Review: Rosa Gutierrez [LC-2026-0089]",
+      "start": {
+        "dateTime": "2026-05-02T10:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-05-02T10:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "Case ID: LC-2026-0089 | Rosa Gutierrez | FMLA + FAMLI\n\n30-day review.",
+      "id": "evt-045"
+    },
+    "evt-046": {
+      "summary": "\ud83d\udd04 30-Day Review: Rosa Gutierrez [LC-2026-0089]",
+      "start": {
+        "dateTime": "2026-06-01T10:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-06-01T10:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "Case ID: LC-2026-0089 | Rosa Gutierrez | FMLA + FAMLI\n\n60-day review.",
+      "id": "evt-046"
+    },
+    "evt-047": {
+      "summary": "\ud83d\udd04 30-Day Review: Rosa Gutierrez [LC-2026-0089]",
+      "start": {
+        "dateTime": "2026-07-01T10:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-07-01T10:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "Case ID: LC-2026-0089 | Rosa Gutierrez | FMLA + FAMLI\n\n90-day review.",
+      "id": "evt-047"
+    },
+    "evt-048": {
+      "summary": "\ud83d\udd04 30-Day Review: Finley Nakamura [LC-2026-0018]",
+      "start": {
+        "dateTime": "2026-04-20T10:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-04-20T10:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "Case ID: LC-2026-0018 | Finley Nakamura | Jury Duty\n\n30-day review for intermittent jury duty leave.",
+      "id": "evt-048"
+    },
+    "evt-049": {
+      "summary": "\ud83d\udd04 30-Day Review: Zoey O'Brien [LC-2026-0026]",
+      "start": {
+        "dateTime": "2026-05-06T10:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-05-06T10:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "Case ID: LC-2026-0026 | Zoey O'Brien | PTO\n\n30-day review for intermittent PTO.",
+      "id": "evt-049"
+    },
+    "evt-050": {
+      "summary": "\ud83d\udcdd SOP Annual Review Due",
+      "start": {
+        "date": "2027-04-01"
+      },
+      "end": {
+        "date": "2027-04-02"
+      },
+      "description": "Next scheduled review of the Leave Coordinator SOP (Ridgeline_HR_Leave_Coordinator_SOP.docx).\nReview owner: Renata Okafor (Benefits Manager).\nApprover: Daniel Whitfield (HR Director).\nEffective date of current version: April 1, 2026.",
+      "location": "Fort Collins, CO \u2014 HR Office",
+      "id": "evt-050"
+    },
+    "evt-051": {
+      "summary": "\ud83d\udccb Weekly Leave Tracker Review",
+      "start": {
+        "dateTime": "2026-04-13T08:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-04-13T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "Weekly review of open leave cases.",
+      "id": "evt-051"
+    },
+    "evt-052": {
+      "summary": "\ud83d\udccb Weekly Leave Tracker Review",
+      "start": {
+        "dateTime": "2026-04-20T08:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-04-20T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "Weekly review of open leave cases.",
+      "id": "evt-052"
+    },
+    "evt-053": {
+      "summary": "\ud83d\udccb Weekly Leave Tracker Review",
+      "start": {
+        "dateTime": "2026-04-27T08:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-04-27T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "Weekly review of open leave cases.",
+      "id": "evt-053"
+    },
+    "evt-054": {
+      "summary": "\ud83d\udccb Weekly Leave Tracker Review",
+      "start": {
+        "dateTime": "2026-05-04T08:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-05-04T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "Weekly review of open leave cases.",
+      "id": "evt-054"
+    },
+    "evt-055": {
+      "summary": "\ud83d\udccb Weekly Leave Tracker Review",
+      "start": {
+        "dateTime": "2026-05-11T08:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-05-11T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "Weekly review of open leave cases.",
+      "id": "evt-055"
+    },
+    "evt-056": {
+      "summary": "\ud83d\udccb Weekly Leave Tracker Review",
+      "start": {
+        "dateTime": "2026-05-18T08:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-05-18T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "Weekly review of open leave cases.",
+      "id": "evt-056"
+    },
+    "evt-057": {
+      "summary": "\ud83d\udccb Weekly Leave Tracker Review",
+      "start": {
+        "dateTime": "2026-05-25T08:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-05-25T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "Weekly review of open leave cases.",
+      "id": "evt-057"
+    },
+    "evt-058": {
+      "summary": "\ud83d\udccb Weekly Leave Tracker Review",
+      "start": {
+        "dateTime": "2026-06-01T08:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-06-01T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "Weekly review of open leave cases.",
+      "id": "evt-058"
+    },
+    "evt-059": {
+      "summary": "\ud83d\udccb Weekly Leave Tracker Review",
+      "start": {
+        "dateTime": "2026-06-08T08:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-06-08T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "Weekly review of open leave cases.",
+      "id": "evt-059"
+    },
+    "evt-060": {
+      "summary": "\ud83d\udccb Weekly Leave Tracker Review",
+      "start": {
+        "dateTime": "2026-06-15T08:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-06-15T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "Weekly review of open leave cases.",
+      "id": "evt-060"
+    },
+    "evt-061": {
+      "summary": "\u2705 Closed: Xiomara Nakamura [LC-2026-0033]",
+      "start": {
+        "date": "2026-01-17"
+      },
+      "end": {
+        "date": "2026-02-06"
+      },
+      "description": "CLOSED CASE\nCase ID: LC-2026-0033\nEmployee: Xiomara Nakamura\nLeave Type: FAMLI + PTO\nStatus: Closed \u2013 Exhausted\nSource: leave_tracker.xlsx",
+      "id": "evt-061"
+    },
+    "evt-062": {
+      "summary": "\u2705 Closed: Jordan Briggs [LC-2026-0044]",
+      "start": {
+        "date": "2026-02-20"
+      },
+      "end": {
+        "date": "2026-03-02"
+      },
+      "description": "CLOSED CASE\nCase ID: LC-2026-0044\nEmployee: Jordan Briggs\nLeave Type: Jury Duty\nStatus: Closed \u2013 Returned\nSource: leave_tracker.xlsx",
+      "id": "evt-062"
+    },
+    "evt-063": {
+      "summary": "\u2705 Closed: Ursula Young [LC-2026-0030]",
+      "start": {
+        "date": "2026-03-16"
+      },
+      "end": {
+        "date": "2026-04-02"
+      },
+      "description": "CLOSED CASE\nCase ID: LC-2026-0030\nEmployee: Ursula Young\nLeave Type: FAMLI\nStatus: Closed \u2013 Exhausted\nSource: leave_tracker.xlsx",
+      "id": "evt-063"
+    },
+    "evt-064": {
+      "summary": "\u2705 Closed: Brandon Foster [LC-2026-0038]",
+      "start": {
+        "date": "2026-03-28"
+      },
+      "end": {
+        "date": "2026-04-04"
+      },
+      "description": "CLOSED CASE\nCase ID: LC-2026-0038\nEmployee: Brandon Foster\nLeave Type: HFWA\nStatus: Closed \u2013 Exhausted\nSource: leave_tracker.xlsx",
+      "id": "evt-064"
+    },
+    "evt-065": {
+      "summary": "\u2705 Closed: Jamie Murphy [LC-2026-0027]",
+      "start": {
+        "date": "2026-04-04"
+      },
+      "end": {
+        "date": "2026-04-09"
+      },
+      "description": "CLOSED CASE\nCase ID: LC-2026-0027\nEmployee: Jamie Murphy\nLeave Type: FMLA\nStatus: Closed \u2013 Returned\nSource: leave_tracker.xlsx",
+      "id": "evt-065"
+    }
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "mailbox": {
+    "email": "sanjeeta.kaur@pathfinderbilling.com",
+    "name": "Sanjeeta Kaur"
+  },
+  "contacts": [
+    {
+      "email": "priya.nair@pathfinderbilling.com",
+      "name": "Priya Nair"
+    },
+    {
+      "email": "dominic.reyes@pathfinderbilling.com",
+      "name": "Dominic Reyes"
+    },
+    {
+      "email": "m.okafor@pathfinderbilling.com",
+      "name": "Marcus Okafor"
+    },
+    {
+      "email": "claire.hudson@pathfinderbilling.com",
+      "name": "Claire Hudson"
+    },
+    {
+      "email": "edi.submissions@bcbsil.com",
+      "name": "BCBS EDI Operations"
+    },
+    {
+      "email": "provider.services@cignagroup.com",
+      "name": "Cigna Provider Services"
+    },
+    {
+      "email": "clearinghouse@availity.net",
+      "name": "Availity Clearinghouse"
+    },
+    {
+      "email": "billing@northsideinternal.com",
+      "name": "Northside Internal Medicine"
+    },
+    {
+      "email": "billing@riversideclinic.com",
+      "name": "Riverside Family Clinic"
+    },
+    {
+      "email": "billing@sunrisederm.com",
+      "name": "Sunrise Dermatology"
+    }
+  ],
+  "groups": [
+    {
+      "email": "rcm-team@pathfinderbilling.com",
+      "name": "RCM Team",
+      "members": [
+        "sanjeeta.kaur@pathfinderbilling.com",
+        "priya.nair@pathfinderbilling.com",
+        "dominic.reyes@pathfinderbilling.com",
+        "m.okafor@pathfinderbilling.com",
+        "claire.hudson@pathfinderbilling.com"
+      ]
+    }
+  ],
+  "folders": [
+    {
+      "name": "ERA \u2014 Pending Posting"
+    },
+    {
+      "name": "Clearinghouse Alerts"
+    },
+    {
+      "name": "Provider Correspondence"
+    },
+    {
+      "name": "Archive"
+    }
+  ],
+  "emails": [
+    {
+      "email_id": "1",
+      "folder": "INBOX",
+      "subject": "835 ERA File \u2014 EFT-BCBS-20260315-00047312 \u2014 Northside Internal Medicine",
+      "from_addr": "edi.submissions@bcbsil.com",
+      "to_addr": "sanjeeta.kaur@pathfinderbilling.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-16T10:24:00Z",
+      "message_id": "<bcbs-era-20260315-00047312@bcbsil.com>",
+      "in_reply_to": null,
+      "body_text": "Pathfinder Billing and Coding \u2014 Attention: Billing Specialist\n\nPlease find attached the 835 Electronic Remittance Advice for the following payment:\n\n  EFT Reference:   EFT-BCBS-20260315-00047312\n  Payment Date:    15 March 2026\n  Payee:           Northside Internal Medicine\n  Payer:           Blue Cross Blue Shield of Illinois\n\nThis file contains claim payment detail and provider-level balance adjustments. Please post in accordance with your internal payment posting procedures.\n\nFor queries relating to this remittance, please contact BCBS Provider Services on 1-800-972-8088 (option 3) or reply to this address.\n\nBlue Cross Blue Shield of Illinois\nEDI Operations\n300 East Randolph Street, Chicago, IL 60601",
+      "body_html": null,
+      "is_read": false,
+      "is_important": true,
+      "attachments": [
+        {
+          "filename": "ERA_20260315_BCBS.xlsx",
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_base64": "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"
+        }
+      ]
+    },
+    {
+      "email_id": "2",
+      "folder": "INBOX",
+      "subject": "999 Acknowledgement \u2014 Batch 20260312-NIM \u2014 Accepted",
+      "from_addr": "clearinghouse@availity.net",
+      "to_addr": "sanjeeta.kaur@pathfinderbilling.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-12T14:08:00Z",
+      "message_id": "<availity-ack-20260312-NIM-001@availity.net>",
+      "in_reply_to": null,
+      "body_text": "Availity Clearinghouse \u2014 Transaction Acknowledgement\n\nBatch ID:        20260312-NIM\nSubmitted by:    Sanjeeta Kaur, Pathfinder Billing and Coding\nSubmission date: 12 March 2026 13:47 CT\nStatus:          ACCEPTED \u2014 No errors detected\n\nAll 837P files in this batch have passed format and payer validation. Claims are now queued for payer adjudication.\n\nPlease update your claim register to Acknowledged for the following NPI: 2345678901.\n\nAvaility EDI Operations",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "3",
+      "folder": "INBOX",
+      "subject": "RE: Portal Login Issue \u2014 Northside Internal Medicine",
+      "from_addr": "billing@northsideinternal.com",
+      "to_addr": "sanjeeta.kaur@pathfinderbilling.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-13T11:55:00Z",
+      "message_id": "<northside-portal-re-20260313@northsideinternal.com>",
+      "in_reply_to": "<pbc-portal-20260312-001@pathfinderbilling.com>",
+      "body_text": "Hi Sanjeeta,\n\nThank you for looking into this. The login issue was on our end \u2014 our office manager reset the password this morning and access has been restored.\n\nCould you also let us know the status of the claims we submitted in late February? We haven't had an update in a while.\n\nThanks,\nDeirdre Walsh\nBilling Office Manager\nNorthside Internal Medicine",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "4",
+      "folder": "Sent",
+      "subject": "RE: Portal Login Issue \u2014 Northside Internal Medicine",
+      "from_addr": "sanjeeta.kaur@pathfinderbilling.com",
+      "to_addr": "billing@northsideinternal.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-12T16:45:00Z",
+      "message_id": "<pbc-portal-20260312-001@pathfinderbilling.com>",
+      "in_reply_to": null,
+      "body_text": "Hi Deirdre,\n\nThank you for reaching out. I have logged a support ticket for the portal access issue and our team is investigating. I will follow up as soon as we have a resolution.\n\nRegarding your recent submissions, I will pull a current status report and send it across shortly.\n\nBest regards,\nSanjeeta Kaur\nBilling Specialist\nPathfinder Billing and Coding\nsanjeeta.kaur@pathfinderbilling.com",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "5",
+      "folder": "Sent",
+      "subject": "837P Batch Submission \u2014 Northside Internal Medicine \u2014 12 Mar 2026",
+      "from_addr": "sanjeeta.kaur@pathfinderbilling.com",
+      "to_addr": "clearinghouse@availity.net",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-12T13:47:00Z",
+      "message_id": "<pbc-batch-20260312-NIM@pathfinderbilling.com>",
+      "in_reply_to": null,
+      "body_text": "Availity EDI Operations,\n\nPlease find attached the 837P batch file for the following provider for the 4:00 PM CT submission window:\n\n  Provider:    Northside Internal Medicine\n  NPI:         2345678901\n  Batch ID:    20260312-NIM\n  Claim count: 2\n\nPlease confirm receipt via 999 acknowledgement.\n\nSanjeeta Kaur\nBilling Specialist\nPathfinder Billing and Coding",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "6",
+      "folder": "INBOX",
+      "subject": "Weekly Team Standup Notes \u2014 13 Mar 2026",
+      "from_addr": "priya.nair@pathfinderbilling.com",
+      "to_addr": "rcm-team@pathfinderbilling.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-13T17:02:00Z",
+      "message_id": "<pbc-standup-20260313@pathfinderbilling.com>",
+      "in_reply_to": null,
+      "body_text": "Hi team,\n\nNotes from today's standup below.\n\nCLAIMS REGISTER HIGHLIGHTS\n- CLM-1032 remains on hold pending QA \u2014 Claire to complete review by EOD Monday.\n- CLM-1020 escalated to RCM Manager this morning. Dominic handling.\n- CLM-1034 provider query sent 09 Mar \u2014 response window closes Tuesday. Monitor closely.\n\nERA POSTING\n- Anticipating a BCBS ERA for the Northside batch submitted last month. Sanjeeta to monitor inbox and post on receipt.\n\nOTHER\n- Reminder: daily posting log must be uploaded with RCM Manager sign-off before 4:00 PM CT.\n- CLM-1012 patient balance outstanding \u2014 PFR reviewing write-off eligibility.\n\nSee everyone Monday.\nPriya",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "7",
+      "folder": "INBOX",
+      "subject": "Action Required \u2014 CLM-1024 CO-16 Additional Information Request",
+      "from_addr": "provider.services@cignagroup.com",
+      "to_addr": "sanjeeta.kaur@pathfinderbilling.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-11T09:31:00Z",
+      "message_id": "<cigna-addl-info-clm1024-20260311@cignagroup.com>",
+      "in_reply_to": null,
+      "body_text": "Dear Provider Representative,\n\nWe are writing regarding the following claim, which requires additional information before processing can continue:\n\n  Claim Reference:   CLM-1024\n  Patient Control:   PC-1024-0201\n  Date of Service:   01 February 2026\n  CPT Code:          99214\n  Payer:             UnitedHealth\n  Denial Code:       CO-16\n  RARC:              M51\n\nOur records indicate that the referring provider NPI is missing from the submitted claim. Please resubmit with the complete referring provider information using Claim Frequency Code 7.\n\nIf you believe this claim was submitted correctly, please contact Cigna Provider Services at 1-800-88-CIGNA.\n\nCigna Provider Services\nClaims Resolution Department",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "8",
+      "folder": "Sent",
+      "subject": "RE: Action Required \u2014 CLM-1024 CO-16 Additional Information Request",
+      "from_addr": "sanjeeta.kaur@pathfinderbilling.com",
+      "to_addr": "m.okafor@pathfinderbilling.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-11T11:15:00Z",
+      "message_id": "<pbc-clm1024-cmc-20260311@pathfinderbilling.com>",
+      "in_reply_to": "<cigna-addl-info-clm1024-20260311@cignagroup.com>",
+      "body_text": "Hi Marcus,\n\nRouting CLM-1024 to you \u2014 UnitedHealth is requesting the referring provider NPI which is missing from the original submission (CO-16, RARC M51). Can you check the chart and confirm the correct NPI so I can correct and resubmit with Frequency Code 7?\n\nClaim details:\n  Claim ID:  CLM-1024\n  Patient:   PT-122, Martin Holloway\n  DOS:       01 February 2026\n  CPT:       99214\n  Payer:     UnitedHealth\n\nThanks,\nSanjeeta",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "9",
+      "folder": "INBOX",
+      "subject": "Claim Status Enquiry \u2014 Riverside Family Clinic",
+      "from_addr": "billing@riversideclinic.com",
+      "to_addr": "sanjeeta.kaur@pathfinderbilling.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-16T08:45:00Z",
+      "message_id": "<riverside-status-20260316@riversideclinic.com>",
+      "in_reply_to": null,
+      "body_text": "Hi Sanjeeta,\n\nHope you had a good weekend. We wanted to check in on a couple of open items.\n\nWe submitted a claim for a patient with a left knee arthroscopy in mid-February and have not yet received a payment confirmation from UnitedHealth. Could you let us know where that stands?\n\nWe also received a notice from BCBS about an account adjustment on an older claim but the details were not clear to us. Is there anything outstanding on our BCBS account that we should be aware of?\n\nThanks for your help.\n\nKind regards,\nTom Breen\nRiverside Family Clinic",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    }
+  ],
+  "next_email_id": 10
+}

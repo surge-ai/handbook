@@ -1,0 +1,367 @@
+{
+  "users": {
+    "U_WHITFIELD": {
+      "id": "U_WHITFIELD",
+      "team_id": "T_CRESTWOOD",
+      "name": "j.whitfield",
+      "deleted": false,
+      "real_name": "Dr. James Whitfield",
+      "profile": {
+        "real_name": "Dr. James Whitfield",
+        "display_name": "JamesW",
+        "email": "j.whitfield@crestwood.edu",
+        "title": "VP of HR"
+      },
+      "is_admin": true,
+      "is_owner": true
+    },
+    "U_ASHFORD": {
+      "id": "U_ASHFORD",
+      "team_id": "T_CRESTWOOD",
+      "name": "n.ashford",
+      "deleted": false,
+      "real_name": "Nicole Ashford",
+      "profile": {
+        "real_name": "Nicole Ashford",
+        "display_name": "NicoleA",
+        "email": "hr@crestwood.edu",
+        "title": "HR Director"
+      },
+      "is_admin": true,
+      "is_owner": false
+    },
+    "U_PARK": {
+      "id": "U_PARK",
+      "team_id": "T_CRESTWOOD",
+      "name": "j.park",
+      "deleted": false,
+      "real_name": "Jenna Park",
+      "profile": {
+        "real_name": "Jenna Park",
+        "display_name": "JennaP",
+        "email": "j.park@crestwood.edu",
+        "title": "IT Access Coordinator"
+      },
+      "is_admin": false,
+      "is_bot": false
+    },
+    "U_OKONKWO": {
+      "id": "U_OKONKWO",
+      "name": "Okonkwo"
+    }
+  },
+  "channels": {
+    "C_ONBOARDING": {
+      "id": "C_ONBOARDING",
+      "name": "hr-onboarding",
+      "is_channel": true,
+      "purpose": {
+        "value": "New hire processing and tracking"
+      },
+      "created": 1738569600,
+      "is_archived": false,
+      "is_member": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false
+    },
+    "C_OFFBOARDING": {
+      "id": "C_OFFBOARDING",
+      "name": "hr-offboarding",
+      "is_channel": true,
+      "purpose": {
+        "value": "Resignations and COBRA"
+      },
+      "created": 1738569600,
+      "is_archived": false,
+      "is_member": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false
+    },
+    "C_LEAVE": {
+      "id": "C_LEAVE",
+      "name": "hr-leave-requests",
+      "is_channel": true,
+      "purpose": {
+        "value": "FMLA and PTO disputes"
+      },
+      "created": 1738569600,
+      "is_archived": false,
+      "is_member": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false
+    },
+    "C_PERFORMANCE": {
+      "id": "C_PERFORMANCE",
+      "name": "hr-performance",
+      "is_channel": true,
+      "purpose": {
+        "value": "PIPs and disciplinary actions"
+      },
+      "created": 1738569600,
+      "is_archived": false,
+      "is_member": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false
+    },
+    "C_RECRUITING": {
+      "id": "C_RECRUITING",
+      "name": "hr-recruiting",
+      "is_channel": true,
+      "purpose": {
+        "value": "Hiring and screening updates"
+      },
+      "created": 1738569600,
+      "is_archived": false,
+      "is_member": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false
+    },
+    "C_ESCALATIONS": {
+      "id": "C_ESCALATIONS",
+      "name": "hr-escalations",
+      "is_channel": true,
+      "purpose": {
+        "value": "P1 Issues and Legal Threats"
+      },
+      "created": 1738569600,
+      "is_archived": false,
+      "is_member": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false
+    },
+    "C_GENERAL": {
+      "id": "C_GENERAL",
+      "name": "hr-general",
+      "is_channel": true,
+      "purpose": {
+        "value": "Policy and team announcements"
+      },
+      "created": 1738569600,
+      "is_archived": false,
+      "is_member": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false
+    }
+  },
+  "messages": {
+    "C_ONBOARDING": [
+      {
+        "type": "message",
+        "user": "U_OKONKWO",
+        "text": "NEW HIRE: Sandie Otis, Staff, Information Technology, Downtown, Start Date: 01/01/2026, Jira: ONBOARD-12",
+        "ts": "1766999100.000100"
+      },
+      {
+        "type": "message",
+        "user": "U_OKONKWO",
+        "text": "ONBOARDING COMPLETE: Sandie Otis, 10487, 01/22/2026",
+        "ts": "1769097600.000200"
+      },
+      {
+        "type": "message",
+        "user": "U_OKONKWO",
+        "text": "NEW HIRE: Valenka Kerwin, Staff, Employee Relations, West, Start Date: 01/05/2026, Jira: ONBOARD-9",
+        "ts": "1767171900.000100"
+      },
+      {
+        "type": "message",
+        "user": "U_OKONKWO",
+        "text": "ONBOARDING COMPLETE: Valenka Kerwin, 10769, 01/25/2026",
+        "ts": "1769356800.000200"
+      },
+      {
+        "type": "message",
+        "user": "U_OKONKWO",
+        "text": "NEW HIRE: Moyra Barny, Faculty, English, West, Start Date: 01/08/2026, Jira: ONBOARD-1",
+        "ts": "1767603900.000100"
+      },
+      {
+        "type": "message",
+        "user": "U_OKONKWO",
+        "text": "ONBOARDING COMPLETE: Moyra Barny, 10949, 02/01/2026",
+        "ts": "1769961600.000200"
+      },
+      {
+        "type": "message",
+        "user": "U_OKONKWO",
+        "text": "NEW HIRE: Joby Kalil, Staff, Human Resources, West, Start Date: 01/09/2026, Jira: ONBOARD-8",
+        "ts": "1767690300.000100"
+      },
+      {
+        "type": "message",
+        "user": "U_OKONKWO",
+        "text": "ONBOARDING COMPLETE: Joby Kalil, 10965, 02/01/2026",
+        "ts": "1769961600.000201"
+      },
+      {
+        "type": "message",
+        "user": "U_OKONKWO",
+        "text": "NEW HIRE: Delilah Gregg, Faculty, Physics, Main, Start Date: 01/13/2026, Jira: ONBOARD-6",
+        "ts": "1767863100.000100"
+      },
+      {
+        "type": "message",
+        "user": "U_OKONKWO",
+        "text": "ONBOARDING COMPLETE: Delilah Gregg, 10777, 02/05/2026",
+        "ts": "1770307200.000200"
+      },
+      {
+        "type": "message",
+        "user": "U_OKONKWO",
+        "text": "NEW HIRE: Kameko Gene, Staff, Recruiting, Downtown, Start Date: 01/13/2026, Jira: ONBOARD-5",
+        "ts": "1767863100.000101"
+      },
+      {
+        "type": "message",
+        "user": "U_OKONKWO",
+        "text": "ONBOARDING COMPLETE: Kameko Gene, 10419, 02/04/2026",
+        "ts": "1770220800.000200"
+      },
+      {
+        "type": "message",
+        "user": "U_OKONKWO",
+        "text": "NEW HIRE: Tammie Burt, Staff, Payroll, West, Start Date: 01/14/2026, Jira: ONBOARD-2",
+        "ts": "1767949500.000100"
+      },
+      {
+        "type": "message",
+        "user": "U_OKONKWO",
+        "text": "ONBOARDING COMPLETE: Tammie Burt, 10722, 02/04/2026",
+        "ts": "1770220800.000201"
+      },
+      {
+        "type": "message",
+        "user": "U_OKONKWO",
+        "text": "NEW HIRE: Neysa Winn, Staff, Recruiting, Main, Start Date: 01/15/2026, Jira: ONBOARD-18",
+        "ts": "1768208700.000100"
+      },
+      {
+        "type": "message",
+        "user": "U_OKONKWO",
+        "text": "ONBOARDING COMPLETE: Neysa Winn, 10787, 02/12/2026",
+        "ts": "1770912000.000200"
+      },
+      {
+        "type": "message",
+        "user": "U_OKONKWO",
+        "text": "NEW HIRE: Natalya Martie, Staff, Information Technology, Main, Start Date: 01/16/2026, Jira: ONBOARD-11",
+        "ts": "1768295100.000100"
+      },
+      {
+        "type": "message",
+        "user": "U_OKONKWO",
+        "text": "ONBOARDING COMPLETE: Natalya Martie, 10451, 02/06/2026",
+        "ts": "1770393600.000200"
+      },
+      {
+        "type": "message",
+        "user": "U_OKONKWO",
+        "text": "NEW HIRE: Myriam Scot, Faculty, Engineering, Main, Start Date: 01/22/2026, Jira: ONBOARD-17",
+        "ts": "1768813500.000100"
+      },
+      {
+        "type": "message",
+        "user": "U_OKONKWO",
+        "text": "ONBOARDING COMPLETE: Myriam Scot, 11240, 02/17/2026",
+        "ts": "1771344000.000200"
+      },
+      {
+        "type": "message",
+        "user": "U_OKONKWO",
+        "text": "NEW HIRE: Hanna Saunders, Staff, Human Resources, Downtown, Start Date: 01/29/2026, Jira: ONBOARD-16",
+        "ts": "1769418300.000100"
+      },
+      {
+        "type": "message",
+        "user": "U_OKONKWO",
+        "text": "ONBOARDING COMPLETE: Hanna Saunders, 10566, 02/18/2026",
+        "ts": "1771430400.000200"
+      },
+      {
+        "type": "message",
+        "user": "U_OKONKWO",
+        "text": "NEW HIRE: Annabell Gaylor, Staff, Benefits & Leave, Main, Start Date: 02/02/2026, Jira: ONBOARD-4",
+        "ts": "1769591100.000100"
+      },
+      {
+        "type": "message",
+        "user": "U_OKONKWO",
+        "text": "ONBOARDING COMPLETE: Annabell Gaylor, 10783, 02/22/2026",
+        "ts": "1771776000.000200"
+      },
+      {
+        "type": "message",
+        "user": "U_OKONKWO",
+        "text": "NEW HIRE: Amalita Rhett, Staff, Mathematics, Main, Start Date: 02/08/2026, Jira: ONBOARD-14",
+        "ts": "1770195900.000100"
+      },
+      {
+        "type": "message",
+        "user": "U_OKONKWO",
+        "text": "ONBOARDING COMPLETE: Amalita Rhett, 10000, 03/01/2026",
+        "ts": "1772380800.000200"
+      },
+      {
+        "type": "message",
+        "user": "U_OKONKWO",
+        "text": "NEW HIRE: Felita Demott, Staff, History, Main, Start Date: 03/22/2026, Jira: ONBOARD-3",
+        "ts": "1773824700.000100"
+      },
+      {
+        "type": "message",
+        "user": "U_OKONKWO",
+        "text": "NEW HIRE: Bryna Marmaduke, Staff, Biology, Main, Start Date: 03/24/2026, Jira: ONBOARD-10",
+        "ts": "1773911100.000100"
+      },
+      {
+        "type": "message",
+        "user": "U_OKONKWO",
+        "text": "NEW HIRE: Stefanie Heinrik, Staff, Engineering, West, Start Date: 03/27/2026, Jira: ONBOARD-7",
+        "ts": "1774343100.000100"
+      },
+      {
+        "type": "message",
+        "user": "U_OKONKWO",
+        "text": "NEW HIRE: Adriena Rogerio, Staff, Art, Downtown, Start Date: 03/28/2026, Jira: ONBOARD-15",
+        "ts": "1774429500.000100"
+      },
+      {
+        "type": "message",
+        "user": "U_OKONKWO",
+        "text": "NEW HIRE: Cory Reinhold, Staff, Art, West, Start Date: 03/29/2026, Jira: ONBOARD-13",
+        "ts": "1774429500.000101"
+      }
+    ],
+    "C_OFFBOARDING": [],
+    "C_LEAVE": [],
+    "C_PERFORMANCE": [],
+    "C_RECRUITING": [],
+    "C_ESCALATIONS": [
+      {
+        "type": "message",
+        "user": "U_ASHFORD",
+        "text": "LEGAL THREAT: Ardisj Parke, URGENT: Dispute regarding denied PTO request \u2013 do not reply.",
+        "ts": "1775748000.000100",
+        "team": "T_CRESTWOOD"
+      }
+    ],
+    "C_GENERAL": []
+  },
+  "counters": {
+    "messageId": 5000
+  }
+}

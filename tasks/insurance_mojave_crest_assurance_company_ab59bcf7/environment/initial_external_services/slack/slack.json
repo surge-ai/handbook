@@ -1,0 +1,630 @@
+{
+  "users": {
+    "U001": {
+      "id": "U001",
+      "team_id": "TMCA",
+      "name": "jordan.mills",
+      "real_name": "Jordan Mills",
+      "profile": {
+        "email": "jordan.mills@mojavecrest.com",
+        "title": "Appeals & Grievances Coordinator",
+        "display_name": "Jordan Mills"
+      }
+    },
+    "U002": {
+      "id": "U002",
+      "team_id": "TMCA",
+      "name": "dwhitfield",
+      "real_name": "Darnell Whitfield",
+      "profile": {
+        "email": "d.whitfield@mojavecrest.com",
+        "title": "Appeals Supervisor",
+        "display_name": "Darnell Whitfield"
+      }
+    },
+    "U003": {
+      "id": "U003",
+      "team_id": "TMCA",
+      "name": "aontario",
+      "real_name": "Dr. Ayla Ontario",
+      "profile": {
+        "email": "a.ontario@mojavecrest.com",
+        "title": "Medical Director, Behavioral Health",
+        "display_name": "Dr. Ontario"
+      }
+    },
+    "U004": {
+      "id": "U004",
+      "team_id": "TMCA",
+      "name": "malvarado",
+      "real_name": "Marisol Alvarado",
+      "profile": {
+        "email": "m.alvarado@mojavecrest.com",
+        "title": "Lead RN Reviewer",
+        "display_name": "M. Alvarado"
+      }
+    },
+    "U005": {
+      "id": "U005",
+      "team_id": "TMCA",
+      "name": "pannadurai",
+      "real_name": "Priya Annadurai",
+      "profile": {
+        "email": "p.annadurai@mojavecrest.com",
+        "title": "Senior Appeals Coordinator",
+        "display_name": "P. Annadurai"
+      }
+    },
+    "U006": {
+      "id": "U006",
+      "team_id": "TMCA",
+      "name": "kdufree",
+      "real_name": "Kendel Dufree",
+      "profile": {
+        "email": "k.dufree@mojavecrest.com",
+        "title": "Compliance Officer",
+        "display_name": "K. Dufree"
+      }
+    },
+    "U007": {
+      "id": "U007",
+      "team_id": "TMCA",
+      "name": "treyes",
+      "real_name": "Tamra Reyes",
+      "profile": {
+        "email": "t.reyes@mojavecrest.com",
+        "title": "Director, Appeals & Grievances",
+        "display_name": "T. Reyes"
+      }
+    },
+    "U008": {
+      "id": "U008",
+      "team_id": "TMCA",
+      "name": "hbergstrom",
+      "real_name": "Dr. Helena Bergstrom",
+      "profile": {
+        "email": "h.bergstrom@mojavecrest.com",
+        "title": "Medical Director, Medical/Surgical",
+        "display_name": "Dr. Bergstrom"
+      }
+    },
+    "U009": {
+      "id": "U009",
+      "team_id": "TMCA",
+      "name": "claims-adj",
+      "real_name": "Claims Adjustment Team",
+      "profile": {
+        "email": "claims-adjustment@mojavecrest.com",
+        "title": "Claims Adjustment",
+        "display_name": "claims-adj"
+      }
+    },
+    "U010": {
+      "id": "U010",
+      "team_id": "TMCA",
+      "name": "jhenning",
+      "real_name": "Dr. Jules Henning",
+      "profile": {
+        "email": "j.henning@mojavecrest.com",
+        "title": "Pharmacy Director",
+        "display_name": "Dr. Henning"
+      }
+    }
+  },
+  "channels": {
+    "C001": {
+      "id": "C001",
+      "name": "appeals-intake",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1735689600,
+      "is_archived": false,
+      "is_general": false,
+      "is_member": true,
+      "context_team_id": "TMCA",
+      "updated": 1735689600,
+      "creator": "U007",
+      "shared_team_ids": [
+        "TMCA"
+      ],
+      "topic": {
+        "value": "New case logging, general unit announcements, routing questions",
+        "creator": "U007",
+        "last_set": 1735689600
+      },
+      "purpose": {
+        "value": "For logging new appeals cases and general Appeals unit announcements. Do NOT post PHI.",
+        "creator": "U007",
+        "last_set": 1735689600
+      }
+    },
+    "C002": {
+      "id": "C002",
+      "name": "appeals-clinical-queue",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1735689600,
+      "is_archived": false,
+      "is_general": false,
+      "is_member": true,
+      "context_team_id": "TMCA",
+      "updated": 1735689600,
+      "creator": "U007",
+      "shared_team_ids": [
+        "TMCA"
+      ],
+      "topic": {
+        "value": "Clinical case routing \u2014 RN Reviewer and Medical Director teams",
+        "creator": "U007",
+        "last_set": 1735689600
+      },
+      "purpose": {
+        "value": "Route clinical cases here. Case ID only \u2014 no PHI.",
+        "creator": "U007",
+        "last_set": 1735689600
+      }
+    },
+    "C003": {
+      "id": "C003",
+      "name": "appeals-urgent",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1735689600,
+      "is_archived": false,
+      "is_general": false,
+      "is_member": true,
+      "context_team_id": "TMCA",
+      "updated": 1735689600,
+      "creator": "U007",
+      "shared_team_ids": [
+        "TMCA"
+      ],
+      "topic": {
+        "value": "Expedited cases, at-risk deadlines, compliance events",
+        "creator": "U007",
+        "last_set": 1735689600
+      },
+      "purpose": {
+        "value": "Expedited and time-sensitive cases only.",
+        "creator": "U007",
+        "last_set": 1735689600
+      }
+    },
+    "C004": {
+      "id": "C004",
+      "name": "appeals-parity",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1735689600,
+      "is_archived": false,
+      "is_general": false,
+      "is_member": true,
+      "context_team_id": "TMCA",
+      "updated": 1735689600,
+      "creator": "U007",
+      "shared_team_ids": [
+        "TMCA"
+      ],
+      "topic": {
+        "value": "MHPAEA parity compliance \u2014 general discussion only",
+        "creator": "U007",
+        "last_set": 1735689600
+      },
+      "purpose": {
+        "value": "General parity discussion and announcements. Parity flag notifications go to @parity-committee DM \u2014 NOT here.",
+        "creator": "U007",
+        "last_set": 1735689600
+      }
+    },
+    "C005": {
+      "id": "C005",
+      "name": "appeals-compliance",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1735689600,
+      "is_archived": false,
+      "is_general": false,
+      "is_member": true,
+      "context_team_id": "TMCA",
+      "updated": 1735689600,
+      "creator": "U007",
+      "shared_team_ids": [
+        "TMCA"
+      ],
+      "topic": {
+        "value": "Regulatory compliance events, DOI notifications, audit requests",
+        "creator": "U007",
+        "last_set": 1735689600
+      },
+      "purpose": {
+        "value": "Compliance events only. Use Format B-4.",
+        "creator": "U007",
+        "last_set": 1735689600
+      }
+    },
+    "C006": {
+      "id": "C006",
+      "name": "appeals-general",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1735689600,
+      "is_archived": false,
+      "is_general": false,
+      "is_member": true,
+      "context_team_id": "TMCA",
+      "updated": 1735689600,
+      "creator": "U007",
+      "shared_team_ids": [
+        "TMCA"
+      ],
+      "topic": {
+        "value": "General team chat, questions, non-case discussion",
+        "creator": "U007",
+        "last_set": 1735689600
+      },
+      "purpose": {
+        "value": "General questions, kudos, team news. Holiday schedule and SOP updates posted here.",
+        "creator": "U007",
+        "last_set": 1735689600
+      }
+    },
+    "D001": {
+      "id": "D001",
+      "name": "DM-jordan-darnell",
+      "is_channel": false,
+      "is_group": false,
+      "is_im": true,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1735689600,
+      "is_archived": false,
+      "is_general": false,
+      "is_member": true,
+      "context_team_id": "TMCA",
+      "updated": 1735689600,
+      "creator": "U001",
+      "shared_team_ids": [
+        "TMCA"
+      ],
+      "members": [
+        "U001",
+        "U002"
+      ],
+      "user": "U002"
+    },
+    "D002": {
+      "id": "D002",
+      "name": "DM-jordan-priya",
+      "is_channel": false,
+      "is_group": false,
+      "is_im": true,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1735689600,
+      "is_archived": false,
+      "is_general": false,
+      "is_member": true,
+      "context_team_id": "TMCA",
+      "updated": 1735689600,
+      "creator": "U001",
+      "shared_team_ids": [
+        "TMCA"
+      ],
+      "members": [
+        "U001",
+        "U005"
+      ],
+      "user": "U005"
+    },
+    "D003": {
+      "id": "D003",
+      "name": "DM-jordan-kdufree",
+      "is_channel": false,
+      "is_group": false,
+      "is_im": true,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1735689600,
+      "is_archived": false,
+      "is_general": false,
+      "is_member": true,
+      "context_team_id": "TMCA",
+      "updated": 1735689600,
+      "creator": "U001",
+      "shared_team_ids": [
+        "TMCA"
+      ],
+      "members": [
+        "U001",
+        "U006"
+      ],
+      "user": "U006"
+    },
+    "D004": {
+      "id": "D004",
+      "name": "DM-jordan-parity-committee",
+      "is_channel": false,
+      "is_group": false,
+      "is_im": true,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1735689600,
+      "is_archived": false,
+      "is_general": false,
+      "is_member": true,
+      "context_team_id": "TMCA",
+      "updated": 1735689600,
+      "creator": "U001",
+      "shared_team_ids": [
+        "TMCA"
+      ],
+      "members": [
+        "U001",
+        "U003"
+      ],
+      "user": "U003"
+    },
+    "D005": {
+      "id": "D005",
+      "name": "DM-jordan-claimsadj",
+      "is_channel": false,
+      "is_group": false,
+      "is_im": true,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1735689600,
+      "is_archived": false,
+      "is_general": false,
+      "is_member": true,
+      "context_team_id": "TMCA",
+      "updated": 1735689600,
+      "creator": "U001",
+      "shared_team_ids": [
+        "TMCA"
+      ],
+      "members": [
+        "U001",
+        "U009"
+      ],
+      "user": "U009"
+    }
+  },
+  "messages": {
+    "C001": [
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Good morning team \u2014 CASE-2026-00197 in queue, post-service standard, Jan 14 receipt. Ack sent 1/20. Routing to @malvarado for clinical review.",
+        "ts": "1768928640.000000",
+        "team": "TMCA"
+      },
+      {
+        "type": "message",
+        "user": "U004",
+        "text": "Got it \u2014 pulling the case file for CASE-2026-00197. Will have a look this week.",
+        "ts": "1768930260.000000",
+        "team": "TMCA"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "CASE-2026-00201 logged \u2014 pre-service standard. Receipt 1/22. Ack sent 1/27. Routed to @malvarado for clinical review. Decision deadline 2/21 \u2014 keep an eye on this one.",
+        "ts": "1769536320.000000",
+        "team": "TMCA"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "CASE-2026-00188 closed \u2014 overturn. Favorable determination sent 2/6. Closing in log.",
+        "ts": "1770656700.000000",
+        "team": "TMCA"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "CASE-2026-00199 logged \u2014 post-service standard, member VA-33605-07. Receipt 2/2. Ack sent 2/6. Clock paused \u2014 Template A-2 sent 2/9 pending clinical records. 15-day window expires 2/24.",
+        "ts": "1770661080.000000",
+        "team": "TMCA"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "CASE-2026-00193 closed \u2014 grievance resolved without action. Template A-10 sent 2/11. Closing in log.",
+        "ts": "1770847500.000000",
+        "team": "TMCA"
+      },
+      {
+        "type": "message",
+        "user": "U005",
+        "text": "Hey @jordan.mills \u2014 welcome back. Three intake emails came in while you were out Tuesday and Wednesday. I created stub log entries for all three so they don't age without a case ID: CASE-2026-00202, CASE-2026-00203, and CASE-2026-00204. Didn't process any of them further \u2014 all yours to work. Also, fresh email arrived this morning at 8:22 AM \u2014 not yet logged, you'll see it in inbox.",
+        "ts": "1771520280.000000",
+        "team": "TMCA"
+      }
+    ],
+    "C002": [
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "CLINICAL ROUTING\nCase #: CASE-2026-00188\nType: Pre-Service Standard\nService Classification: Medical/Surgical\nStandard of Review: Medical Necessity\nParity Flag: NO\nCase Folder: /appeals-repo/2026/CASE-2026-00188/",
+        "ts": "1768414500.000000",
+        "team": "TMCA"
+      },
+      {
+        "type": "message",
+        "user": "U004",
+        "text": "Picked up CASE-2026-00188. Reviewing the ESI criteria and clinical records.",
+        "ts": "1768417320.000000",
+        "team": "TMCA"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "CLINICAL ROUTING\nCase #: CASE-2026-00197\nType: Post-Service Standard\nService Classification: Medical/Surgical\nStandard of Review: Medical Necessity\nParity Flag: NO\nCase Folder: /appeals-repo/2026/CASE-2026-00197/",
+        "ts": "1768928820.000000",
+        "team": "TMCA"
+      },
+      {
+        "type": "message",
+        "user": "U004",
+        "text": "Picked up CASE-2026-00197. Will start clinical review of the knee arthroplasty records this week.",
+        "ts": "1768930380.000000",
+        "team": "TMCA"
+      },
+      {
+        "type": "message",
+        "user": "U004",
+        "text": "CASE-2026-00188 \u2014 RN review complete. Uphold. Member's clinical records do not demonstrate failure of conservative care meeting clinical criteria for the requested service. Referring to Medical Director per protocol.",
+        "ts": "1768932900.000000",
+        "team": "TMCA"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "CLINICAL ROUTING \u2014 ESCALATION\nCase #: CASE-2026-00188\nType: Pre-Service Standard\nService Classification: Medical/Surgical\nStandard of Review: Medical Necessity\nEscalation Reason: RN upheld \u2014 escalating to Medical Director per SOP\nParity Flag: NO\nCase Folder: /appeals-repo/2026/CASE-2026-00188/",
+        "ts": "1768933680.000000",
+        "team": "TMCA"
+      },
+      {
+        "type": "message",
+        "user": "U008",
+        "text": "Got it \u2014 picking up CASE-2026-00188 for Medical Director review.",
+        "ts": "1768935840.000000",
+        "team": "TMCA"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "CLINICAL ROUTING\nCase #: CASE-2026-00201\nType: Pre-Service Standard\nService Classification: Medical/Surgical\nStandard of Review: Medical Necessity\nDeadline: 2026-02-21\nParity Flag: NO\nCase Folder: /appeals-repo/2026/CASE-2026-00201/",
+        "ts": "1769536440.000000",
+        "team": "TMCA"
+      },
+      {
+        "type": "message",
+        "user": "U004",
+        "text": "Picked up CASE-2026-00201. ACDF request \u2014 will review supplemental clinical records.",
+        "ts": "1769537640.000000",
+        "team": "TMCA"
+      }
+    ],
+    "C003": [],
+    "C004": [
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "Reminder: parity training session is coming up March 4. Attendance required for all coordinators. Details on the shared calendar.",
+        "ts": "1770916500.000000",
+        "team": "TMCA"
+      },
+      {
+        "type": "message",
+        "user": "U005",
+        "text": "Thanks Dr. Ontario \u2014 added to my calendar.",
+        "ts": "1770918240.000000",
+        "team": "TMCA"
+      }
+    ],
+    "C005": [
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "COMPLIANCE EVENT\nCase #: CASE-2026-00181\nEvent Type: Miscategorization\nDate of Event: 2026-01-09\nDiscovered: 2026-01-09 14:15\nSummary: Case initially logged as Pre-Service Expedited; corrected to Pre-Service Standard on supervisor review. Clock recalculated. No deadline missed.\nImmediate Actions Taken: Reclassification noted in case file. Deadline recalculated. Supervisor notified.\nCase Folder: /appeals-repo/2026/CASE-2026-00181/",
+        "ts": "1767997320.000000",
+        "team": "TMCA"
+      },
+      {
+        "type": "message",
+        "user": "U006",
+        "text": "Logged and noted. Document the reclassification in the case file and confirm the corrected deadline with @dwhitfield. Good catch.",
+        "ts": "1767999480.000000",
+        "team": "TMCA"
+      }
+    ],
+    "C006": [
+      {
+        "type": "message",
+        "user": "U007",
+        "text": "Reminder: 2026 MCA observed holidays are listed in the pinned doc in this channel. Coming up: Presidents' Day is Monday February 16 \u2014 MCA observed holiday.",
+        "ts": "1770827400.000000",
+        "team": "TMCA"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Thanks Tamra. Offices will be closed Monday \u2014 everyone back Tuesday.",
+        "ts": "1770828420.000000",
+        "team": "TMCA"
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "Also a heads up \u2014 parity training has been updated to March 4, 2 PM. I'll send a calendar invite.",
+        "ts": "1770829320.000000",
+        "team": "TMCA"
+      },
+      {
+        "type": "message",
+        "user": "U005",
+        "text": "@jordan.mills heads up \u2014 CASE-2026-00197 reviewer sent back a note about needing the original surgical report. Check with @malvarado when you have a chance.",
+        "ts": "1771363320.000000",
+        "team": "TMCA"
+      }
+    ],
+    "D001": [
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Hey Darnell \u2014 quick check on CASE-2026-00199. It's a benefit exclusion case \u2014 abdominoplasty, member claims the procedure is reconstructive not cosmetic. Waiting on the operative notes and photos before I can adjudicate. Will loop you in once I know the direction.",
+        "ts": "1770661500.000000",
+        "team": "TMCA"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Got it. Flag me when you have something to review. Don't wait until you're drafting the letter \u2014 loop me in as soon as you know the direction.",
+        "ts": "1770662460.000000",
+        "team": "TMCA"
+      }
+    ],
+    "D002": [],
+    "D003": [],
+    "D004": [],
+    "D005": [
+      {
+        "type": "message",
+        "user": "U009",
+        "text": "Claims Reprocessing Worksheet \u2014 CASE-2026-00201\nDate Issued: 2026-02-18\nRequested By: J. Mills (Appeals Overturn, submitted 2/13)\n\nAllowed Amount: $43,750.00\nPlan Payment Amount: $35,000.00\nExpected Payment Date: 2026-02-27\n\nReference: Appeals Overturn \u2014 Reviewer: M. Alvarado\nPlease copy these values verbatim into the favorable determination letter per SOP. Do not modify the amounts.",
+        "ts": "1771454220.000000",
+        "team": "TMCA"
+      }
+    ]
+  },
+  "counters": {
+    "C001": {
+      "last_read": "1770847500.000000"
+    },
+    "C002": {
+      "last_read": "1769537640.000000"
+    },
+    "C006": {
+      "last_read": "1770829320.000000"
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "mailbox": {
+    "email": "jillm@pathfinder.com",
+    "name": "Jill Mayfield"
+  },
+  "contacts": [
+    {
+      "email": "jamies@pathfinder.com",
+      "name": "Jamie Scott"
+    },
+    {
+      "email": "joem@pathfinder.com",
+      "name": "Joe Malfroy"
+    },
+    {
+      "email": "mayj@pathfinder.com",
+      "name": "May Jollier"
+    },
+    {
+      "email": "russellc@pathfinder.com",
+      "name": "Russell Commy"
+    },
+    {
+      "email": "hopeK@email.com",
+      "name": "Kelly Hope"
+    },
+    {
+      "email": "ursula.james@hull.com",
+      "name": "Ursula James"
+    },
+    {
+      "email": "popler.wen@bulliongoldinsurance.com",
+      "name": "Popler Wen"
+    }
+  ],
+  "groups": [
+    {
+      "email": "rcm-internal@pathfinder.com",
+      "name": "RCM Internal Team",
+      "members": [
+        "jillm@pathfinder.com",
+        "jamies@pathfinder.com",
+        "joem@pathfinder.com",
+        "mayj@pathfinder.com"
+      ]
+    }
+  ],
+  "folders": [],
+  "emails": [
+    {
+      "email_id": "1",
+      "folder": "INBOX",
+      "subject": "Patient ID - FQ12578",
+      "from_addr": "ursula.james@hull.com",
+      "to_addr": "jillm@pathfinder.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-03T18:45:00-05:00",
+      "message_id": "<msg001@hull.com>",
+      "in_reply_to": null,
+      "body_text": "Hi Jill\n\nThanks for the call earlier today to clarify about Mr Edward Tee's coverage and the upcoming claims to expect from Pathfinder. As spoken, please send through the next 837P batch and let your team know to drop me an email that we can expedite the processing for this particular batch containing Mr Tee's claims.\n\nBest regards,\nUrsula James\nCustomer Sales Manager, Hull Insurance",
+      "body_html": null,
+      "is_read": false,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "2",
+      "folder": "INBOX",
+      "subject": "Get well soon!",
+      "from_addr": "mayj@pathfinder.com",
+      "to_addr": "jillm@pathfinder.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-06T10:32:00-05:00",
+      "message_id": "<msg002@pathfinder.com>",
+      "in_reply_to": null,
+      "body_text": "Hey girl, I heard you are unwell, take care and see you in office soon!",
+      "body_html": null,
+      "is_read": false,
+      "is_important": false,
+      "attachments": []
+    }
+  ],
+  "next_email_id": 3
+}

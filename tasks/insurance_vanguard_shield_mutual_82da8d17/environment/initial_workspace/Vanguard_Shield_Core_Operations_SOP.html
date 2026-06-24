@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vanguard Shield Core Operations SOP</title>
+<style>:root { --fg:#1a1a1a; --muted:#666; --rule:#e2e2e2; --accent:#0b6; }
+* { box-sizing: border-box; }
+body { font: 16px/1.6 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+       color: var(--fg); max-width: 50rem; margin: 2rem auto; padding: 0 1.25rem; }
+h1,h2,h3,h4 { line-height: 1.25; margin: 1.6em 0 .5em; }
+h1 { font-size: 1.9rem; border-bottom: 2px solid var(--rule); padding-bottom: .3em; }
+h2 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: .2em; }
+h3 { font-size: 1.2rem; } h4 { font-size: 1.05rem; color: var(--muted); }
+p { margin: .6em 0; } code { background:#f4f4f4; padding:.1em .35em; border-radius:4px; }
+table { border-collapse: collapse; width: 100%; margin: 1em 0; font-size: .95rem; }
+th,td { border: 1px solid var(--rule); padding: .45em .6em; text-align: left; vertical-align: top; }
+th { background:#f7f7f7; } tr:nth-child(even) td { background:#fafafa; }
+a { color: var(--accent); text-decoration: none; } a:hover { text-decoration: underline; }
+hr { border:0; border-top:1px solid var(--rule); margin: 2em 0; }</style>
+</head>
+<body>
+<h1 id="vanguard-shield-mutual">Vanguard Shield Mutual</h1>
+<p>Core Operations Standard Operating Procedure (SOP)</p>
+<p><strong>Document Version:</strong> 6.0</p>
+<p><strong>Effective Date:</strong> March 1, 2026</p>
+<p><strong>Department:</strong> Cross-Functional (Finance, Claims, Underwriting, Treasury, HR)</p>
+<p><strong>Prepared By:</strong> Central Operations &amp; Process Excellence Team <strong>Document Owner:</strong> Central Operations &amp; Process Excellence Team</p>
+<p><strong>Approved By:</strong> Sarah Jenkins, VP of Core Operations</p>
+<p><strong>Supersedes:</strong> Version 5.0</p>
+<p><strong>Support Contact:</strong> support@vanguardshield.com | 1-800-555-0199</p>
+<h2 id="document-control-governance">Document Control &amp; Governance</h2>
+<p>This SOP establishes standardized operational procedures for designated staff within Vanguard Shield Mutual. This document is intended for trained personnel with approved access and required confidentiality, security, and role-based training.</p>
+<p>This SOP does not replace legal, regulatory, compliance, or company policy requirements. If this SOP conflicts with applicable law, regulation, contractual obligation, or company policy, the stricter requirement governs. Questions or uncertainty must be escalated to the applicable manager or Compliance before action is taken.</p>
+<h1 id="1-introduction-purpose">1. Introduction &amp; Purpose</h1>
+<h2 id="11-scope-of-this-sop">1.1 Scope of this SOP</h2>
+<p>This manual provides foundational procedures for junior-level analysts and operational staff at Vanguard Shield Mutual. It covers selected daily, weekly, monthly, and quarterly tasks across accounting, treasury, underwriting, claims, accounts receivable, payroll, and employee expense review.</p>
+<h2 id="12-system-tool-requirements">1.2 System &amp; Tool Requirements</h2>
+<p>All steps in this SOP must be performed using only the following tools. Do not reference or rely on any software, service, or data source other than those listed in section 1.2 unless this document is formally amended.</p>
+<ul>
+<li>Email — @vanguardshield.com mailboxes (search, send, receive, attachments) • Calendar — shared calendars and meeting verification</li>
+</ul>
+<ul>
+<li>
+<p>Slack — workspace VanguardShield (channels, DMs, search, profiles)</p>
+</li>
+<li>
+<p>Shopify — Orders tab for internal marketing / merch verification</p>
+</li>
+<li>
+<p>Jira — Vanguard Ops Project Space (issues, attachments, comments, transitions, queues) •</p>
+</li>
+<li>
+<p>Excel — workbooks (.xlsx) opened locally from Jira attachments or Email attachments • Word</p>
+</li>
+<li>
+<p>memos and letters (.docx); export to PDF when a PDF deliverable is required • PowerPoint</p>
+</li>
+<li>
+<p>presentations (.pptx) when a slide deliverable is specified</p>
+</li>
+<li>
+<p>PDF — review of supplied PDF attachments; Word may save as PDF for outbound documents</p>
+</li>
+</ul>
+<p>Source data (reports, exports, clearing confirmations, policy PDFs, claim packets, etc.) is assumed to arrive as attachments on the Jira issues or Email threads cited in each procedure, or as files you save to Excel/Word from those attachments. If an expected attachment is missing, follow the exception path (typically Jira escalation) for that section.</p>
+<p>If you lack access to any required tool, create a Jira ticket in the IT-Support queue immediately.</p>
+<h2 id="13-jira-field-conventions">1.3 Jira Field Conventions</h2>
+<p>Unless a procedure names a different field, the following standard custom-field names apply across all Jira projects referenced in this SOP. If a required field is blank or missing on a particular issue, follow the fallback path noted for that field.</p>
+<ul>
+<li>
+<p><strong>Reporting Manager:</strong> Custom field on HR, T&amp;E, and expense issues containing the Jira username of the employee’s direct manager. Fallback: Email people@vanguardshield.com with the employee’s full name to request their reporting manager. If the People directory does not return a result, create a Jira ticket in the HR-Ops queue using Template B-8 (§Appendix B).</p>
+</li>
+<li>
+<p><strong>Department Head:</strong> Custom field on OPS-FIN-BVA-* (budget-variance) issues containing the name of the department’s budget owner. Fallback: search the BVA issue description for “Budget Owner;” if not present, Email finance.ops@vanguardshield.com citing the BVA issue key and requesting the department head name. Note the substitution in your memo.</p>
+</li>
+<li>
+<p><strong>Billing Contact Email:</strong> Field in the issue description on OPS-AR-CLIENT-* issues holding the client’s invoicing email address. If blank, Slack #ar-collections using Template B-5 to request the contact before proceeding.</p>
+</li>
+<li>
+<p><strong>Rate Table Source:</strong> Field in the issue description on OPS-UW-POL-* issues that must reference the canonical rate-table Jira issue key and file name. Procedures referencing this field are in §5.1.</p>
+</li>
+<li>
+<p><strong>Queue Assignee (role-based routing):</strong> Several procedures route Jira tickets to a named role (e.g., “Senior Accountant,” “Finance Controller,” “Chief Compliance Officer”). The current individual filling each role is maintained in the pinned issue description on that queue’s Jira board. Open the target queue board, read the pinned issue titled Queue Roles &amp; Assignees, and assign to the username listed for the role. If the pinned issue is missing or the role is blank, create a Jira ticket in IT-Support titled Missing Queue Assignee – [Queue Name] – [Role] and Slack #ops support with the same details.</p>
+</li>
+<li>
+<p><strong>Materiality Override (reconciliation thresholds):</strong> Where a reconciliation procedure permits a  de</p>
+</li>
+<li>
+<p>minimis tolerance before requiring a variance workbook or exception ticket, the threshold is  stated in that procedure’s reconciliation step. If no tolerance is stated, exact matching is required  and any</p>
+</li>
+<li>
+<p>difference must be documented. If a queue’s pinned issue (Queue Roles &amp; Assignees)  includes a “Materiality Override” section with a different dollar threshold for a specific procedure,  the</p>
+</li>
+<li>
+<p>Jira-posted threshold governs over the threshold printed in this SOP, provided the posted  threshold</p>
+</li>
+<li>
+<p>is equal to or stricter (lower) than the SOP default. A posted threshold that is less strict  (higher) than the SOP default requires a formal SOP amendment per Document Control &amp;  Governance. This</p>
+</li>
+<li>
+<p>allows Finance or HR leadership to tighten thresholds without a full SOP  revision while preserving</p>
+</li>
+</ul>
+<p>the Document Control principle that the stricter requirement governs.</p>
+<p>Underwriting intake (UW data requests): Email underwriting.ops@vanguardshield.com when a procedure requires payroll or underwriting application data by email after Jira comment and @mention paths are exhausted (see §5.2).</p>
+<p>OPS-HR-TE workflow (Sales T&amp;E): Use the Approve, Reject, and related transition names documented on the HR-Expense or OPS-HR-TE queue board pinned issue Workflow &amp; Transitions (Jira is the system of record; labels may differ by scheme).</p>
+<p>UW data Slack (optional notice, keys only): Use #uw-data-requests unless the underwriting queue pinned issue names a different channel.</p>
+<h2 id="14-file-naming-conventions">1.4 File Naming Conventions</h2>
+<p>All output files produced under this SOP must follow the naming pattern stated in the procedure that creates them. Where a procedure does not specify a file name, use the default convention:</p>
+<ul>
+<li>[Deliverable Type]<em>[Identifier]</em>[Date YYYY-MM-DD].[ext]</li>
+</ul>
+<p>Examples: DemandLetter_[ClientID]<em>[YYYY-MM-DD].pdf, SUI_Variance</em>[Quarter]_[YYYY-MM-DD].xlsx. Do not use spaces in file names; use underscores.</p>
+<h1 id="2-finance-accounting-reconciliations">2. Finance &amp; Accounting Reconciliations</h1>
+<h2 id="21-reconciling-intercompany-suspense">2.1 Reconciling Intercompany Suspense</h2>
+<p><strong>Objective:</strong> Clear and properly document Intercompany Suspense activity by the 5th business day of each month.</p>
+<ul>
+<li>
+<p><strong>Generate workbook:</strong> On Jira issue OPS-FIN-SUSPENSE-[YYYY-MM] (month-close package), download the suspense workbook attachment (Excel) and save a local working copy with a clear month identifier (§1.4).</p>
+</li>
+<li>
+<p><strong>Filter discrepancies:</strong> In Excel, filter the Amount column into (a) items exceeding $5,000 and (b) items less than or equal to $5,000.</p>
+</li>
+<li>
+<p><strong>Clear items ≤ $5,000:</strong> For each line, (a) open the linked Jira sub-task or the PDF attachment on the month-close issue whose name or description matches the transaction ID and amount; (b) confirm GL coding from the invoice text and the line description in Excel; (c) document the tie-out in your local suspense workbook (add the following columns if not already present: Support Found (Y/N), Support Location / Invoice #, and Reviewed By); (d) if support is found, record the reclassification in Jira: comment on the line’s sub-task with transaction ID, target GL, and status FIN-100 Cleared &amp; Posted. If support cannot be found or coding is unclear, go to Exception handling.</p>
+</li>
+<li>
+<p><strong>Conflicting GL codes:</strong> If the GL code on the PDF invoice disagrees with the GL code in the Excel line description, do not resolve the conflict yourself. Record both codes in the your local suspense workbook tie-out columns (add a column “Conflict?” marked Y). Create a comment on the Jira sub-task: “GL conflict: Invoice shows [code A], Excel line shows [code B] — requesting Controller clarification.” Then follow the Exception handling step below.</p>
+</li>
+<li>
+<p><strong>Verify approval evidence (items &gt; $5,000 only):</strong> In Slack, open #finance-approvals. Search: has:link [Exact Dollar Amount] to locate the manager approval message.</p>
+</li>
+<li>
+<p><strong>Locate receipts:</strong> From Jira, open the PDF invoice attached to the matching sub-task or linked</p>
+</li>
+</ul>
+<p>issue for that transaction ID.</p>
+<ul>
+<li><strong>Prepare reclassification (items &gt; $5,000 only):</strong> In Jira, on the suspense line sub-task, add a comment documenting the GL code from the PDF and transition or label the work per team convention to FIN-100 Cleared &amp; Posted after approval.</li>
+</ul>
+<ul>
+<li><strong>Exception handling:</strong> If the PDF is missing from Jira, Slack approval cannot be found (for items &gt; $5,000), GL coding cannot be determined, or GL codes conflict between sources, create a Jira ticket in the FIN-Exceptions queue. Paste Template B-1 into the description and assign to the Finance Controller listed on the FIN-Exceptions board’s pinned issue (see §1.3 Queue Assignee). In comments, note the Jira issue keys and Slack search you used and what evidence was not found or conflicted.</li>
+</ul>
+<h2 id="22-performing-expense-variance-analysis">2.2 Performing Expense Variance Analysis</h2>
+<p><strong>Objective:</strong> Monitor departmental spending against approved quarterly budgets and identify material variances requiring explanation.</p>
+<ul>
+<li>
+<p><strong>Data pull:</strong> From Jira issue OPS-FIN-BVA-[Department]-[Quarter], download the budget-vs-actual export attached to the issue (Excel as provided).</p>
+</li>
+<li>
+<p><strong>Flag overspend:</strong> In Excel, add a column for percentage variance using (Actual − Budget) ÷ Budget. If Budget is in column B and Actual is in column C, use =(C2-B2)/B2 formatted as Percentage. If Budget = 0, use =IF(B2=0,IF(C2&gt;0,9999,0),(C2-B2)/B2) formatted as Percentage. Interpretation: 9999% means actual spend with a $0 budget and must be reviewed. Filter Variance % to show values greater than 10% (includes 9999% rows).</p>
+</li>
+<li>
+<p><strong>Investigate cause:</strong> In Email, open the shared mailbox finance.ops@vanguardshield.com. Search using the over-budget line item name and variants (vendor, project, cost center) across at least the prior 90 days. Capture search terms used and whether results were found.</p>
+</li>
+<li>
+<p><strong>Document finding:</strong> In Word, paste Memo Template D-1. Complete fields from the Budget vs. Actual workbook and any supporting emails. For the Department Head Name field in the memo, read the “Department Head” custom field on the OPS-FIN-BVA issue (see §1.3 for the field name and fallback path). If no justification email exists, do not infer a reason; state that no supporting justification was found, document search terms and date range, and proceed to escalation. If a justification email is found, complete Memo Template D-1 with the supporting details, attach the finished memo to the original OPS-FIN-BVA Jira issue, and mark the variance as Supported in the Budget vs. Actual workbook; do not escalate to FIN-Exceptions.</p>
+</li>
+<li>
+<p><strong>Escalate unsupported variance:</strong> Create a Jira ticket in FIN-Exceptions titled Unsupported Expense Variance – [Department] – Q[Number] – [Line Item]. Attach the drafted Memo D-1 and the budget-vs-actual export from the BVA issue. Paste Template B-6 into the description (it duplicates and extends the field list below for grading consistency). Also include in the description: (a) line item name, (b) budget, actual, variance %, (c) mailbox searched, (d) exact search terms and date range, (e) Controller disposition request. Assign to the Finance Controller per §1.3 Queue Assignee unless otherwise directed by your manager.</p>
+</li>
+<li>
+<p><strong>File workpaper:</strong> Save the Word memo per §1.4 (include department and quarter in the filename). Attach it to the same Jira issue (or FIN-Exceptions ticket). If applicable, put the Jira key in the file name or memo header (e.g., Jira: FIN-EXC-####).</p>
+</li>
+</ul>
+<h2 id="23-verifying-fixed-asset-depreciation">2.3 Verifying Fixed Asset Depreciation</h2>
+<p><strong>Objective:</strong> Ensure qualifying asset purchases are capitalized and depreciated in accordance with company policy.</p>
+<ul>
+<li><strong>Identify potential assets:</strong> From Jira OPS-FIN-FA-[period], download the general expense ledger</li>
+</ul>
+<p>attachment (Excel). Filter Transaction Amount for values ≥ $10,000.</p>
+<ul>
+<li>
+<p><strong>Check capitalization status:</strong> Cross-reference transaction IDs against the fixed-asset subledger attachment (Excel) from the same Jira package.</p>
+</li>
+<li>
+<p><strong>Verify depreciation method:</strong> For rows marked as Fixed Asset, compare Asset Class to the Vanguard Depreciation Matrix: IT Equipment = 3 years straight-line; Furniture = 7 years MACRS; Software = 5 years straight-line.</p>
+</li>
+</ul>
+<ul>
+<li>
+<p><strong>If method is wrong or asset class missing from matrix:</strong> Do not edit source ledgers yourself. Create or update a Jira ticket in FIN-FA-Review: (a) if class is in the matrix but life/method wrong, request change citing matrix line; attach Excel excerpt and any PDF invoice from Jira; assign to the Senior Accountant listed on the FIN-FA-Review board’s pinned issue per §1.3 Queue Assignee. (b) If class is not in the matrix, request review with proposed life blank or TBD—Policy Needed; assign to the same Senior Accountant.</p>
+</li>
+<li>
+<p><strong>Prepare adjustment (capitalization only when qualified):</strong> For items ≥ $10,000 missing from  the subledger, do not capitalize on dollar value alone. Confirm qualification using invoice/PO text  in Jira PDF attachments and descriptions in Excel: nature (tangible or qualifying software, not routine services), useful life &gt; 12 months, company ownership/control, threshold met and not excluded (training, support, professional services). Capitalization guidance: items such as computers, servers, vehicles, furniture, machinery, and licensed software with a perpetual or multi-year term generally qualify (useful life &gt; 12 months). Items such as consulting fees, temporary-labor hours, consumable supplies, maintenance agreements billed monthly, and SaaS subscriptions billed annually without a perpetual license are routine services and do not qualify. If the invoice description does not make the category obvious, treat the item as unclear and escalate per the instructions below. If qualified, create Jira OPS-FIN-JE draft with comment listing invoice/PO, vendor, description, proposed asset class; assign to the Senior Accountant per the FIN-FA-Review board’s pinned issue. If clearly not a qualifying asset, document conclusion in Excel notes and continue. If unclear, Jira comment to the Senior Accountant: Capitalization eligibility unclear—policy confirmation needed.</p>
+</li>
+</ul>
+<h2 id="24-month-end-finance-summary-deck-powerpoint">2.4 Month-end Finance Summary Deck (PowerPoint)</h2>
+<p><strong>Objective:</strong> Provide a leadership-ready summary after intercompany suspense month-end work.</p>
+<p><strong>When:</strong> After completing §2.1 for the calendar month (or when OPS-FIN-MONTH-[YYYY-MM] is marked complete per that issue).</p>
+<ul>
+<li>
+<p><strong>Build deck:</strong> Create the finance month-summary PowerPoint for the period (name per §1.4; include year-month in the filename). Slides required: (1) Title — Vanguard Shield | Finance</p>
+</li>
+<li>
+<p>month-end | [Month YYYY]; analyst name. (2) Suspense — lines cleared to FIN-100 (count),</p>
+</li>
+<li>
+<p>open exceptions (count), up to five Jira keys only (omit dollar amounts unless the parent issue explicitly allows). (3) Exceptions — remaining FIN-Exceptions keys and stated next action.</p>
+</li>
+<li>
+<p><strong>File:</strong> Attach that month-summary deck to Jira OPS-FIN-MONTH-[YYYY-MM] (or the month-close parent named on that issue).</p>
+</li>
+</ul>
+<h1 id="3-treasury-payables-management">3. Treasury &amp; Payables Management</h1>
+<h2 id="31-managing-daily-cash-liquidity">3.1 Managing Daily Cash Liquidity</h2>
+<p><strong>Objective:</strong> Ensure Vanguard Shield maintains adequate liquid cash to cover daily outflows.</p>
+<ul>
+<li>
+<p><strong>Preflight (data package):</strong> By 8:30 AM ET, open Jira OPS-TRE-LIQUIDITY-[YYYY-MM-DD]. Confirm the issue description states the reporting date and that the daily liquid position attachment (PDF or Excel) is present for that date. If the attachment is missing, mis-dated, or unreadable, comment on the same issue with the Data package incomplete—cannot certify liquidity review and create or reopen Jira OPS-FIN-DATA-[date] per the routing note in the OPS TRE-LIQUIDITY description. Do not estimate a balance from prior days.</p>
+</li>
+<li>
+<p><strong>Record snapshot:</strong> Download the liquid position attachment. Capture Current Liquid Balance. Add a Jira comment on OPS-TRE-LIQUIDITY with: (a) time of review (ET), (b) balance, (c) attachment name/version used, (d) your initials.</p>
+</li>
+</ul>
+<ul>
+<li>
+<p><strong>Threshold test:</strong> If Current Liquid Balance is greater than or equal to $15,000,000, comment No liquidity transfer required—meets threshold and stop for that day.</p>
+</li>
+<li>
+<p><strong>Calculate transfer amount:</strong> If below $15,000,000, compute TransferAmount = $15,000,000 − Current Liquid Balance. Follow rounding rules stated on OPS-TRE-LIQUIDITY (if none, round to the nearest $1,000). Record the arithmetic (balance read, subtraction, and rounded result) for inclusion in the TRE-Investments issue created in the Route for approval step below.</p>
+</li>
+<li>
+<p><strong>De-duplicate requests:</strong> Search Jira project TRE-Investments for open issues titled Daily Liquidity Transfer - [same calendar date]. If one already exists in Awaiting Treasury Director Approval with the same calculated amount, comment Duplicate liquidity request detected—see [KEY] instead of creating a second ticket. If an open ticket exists with a different amount, comment Amount superseded—recalculated to $[new] with brief rationale before proceeding.</p>
+</li>
+<li>
+<p><strong>Route for approval:</strong> Create or update Jira TRE-Investments issue titled Daily Liquidity Transfer - [Date]. Paste Template B-7 into the description, then add the arithmetic recorded above (balance read, subtraction, and rounded result) into the description or as an attached one-line Excel screenshot. Set status to Awaiting Treasury Director Approval. B-7 captures OPS-TRE LIQUIDITY key, balance read, TransferAmount, fund instruction, and snapshot link.</p>
+</li>
+<li>
+<p><strong>Blocked / stale path:</strong> If the TRE-Investments issue is rejected or remains in Awaiting Treasury Director Approval for more than one full business day after submission, comment on OPS-TRE LIQUIDITY-[date] with the blocking TRE-Investments key and create Jira TRE-Exceptions titled Liquidity Transfer Blocked – [Date]; assign per the Treasury escalation roster in the OPS-TRE LIQUIDITY issue description. If the roster section of that issue description is blank or missing, look up the assignee on the TRE-Exceptions board’s pinned issue per §1.3 Queue Assignee.</p>
+</li>
+</ul>
+<h2 id="32-resolving-vendor-payment-discrepancies">3.2 Resolving Vendor Payment Discrepancies</h2>
+<p><strong>Objective:</strong> Investigate vendor-reported nonreceipt of payments.</p>
+<ul>
+<li>
+<p><strong>Investigate payment status:</strong> Open Jira issue OPS-AP-INV-[InvoiceNumber]. Read Payment Status and ACH Trace Number fields in the description or custom fields. If status is Paid, copy the 12-digit ACH trace number. If status is not Paid (Pending, Processing, Approved-Unpaid, Under Review): (a) do not request a trace yet, (b) capture status and payment run/date from the Jira description and record them in a Jira comment on the issue (e.g., “Status: [status]; scheduled payment run: [date]”), (c) Email the vendor using Template A-4 without attaching a clearing confirmation, (d) if the vendor disputes urgency or invoice is past due, Email the AP Lead listed on the AP queue board’s pinned issue per §1.3. If status is failed/rejected, set Jira label or comment FIN-201 Vendor AP Hold and send Template A-2.</p>
+</li>
+<li>
+<p><strong>Trace funds (Paid status only—skip this step if payment status is not Paid):</strong> Download the bank trace result PDF from Jira OPS-AP-TRACE-[TraceNumber] (or use the trace attachment on the invoice issue if OPS-AP-TRACE is not used). Interpret the PDF as follows: (1) Cleared / successful — status text or code indicates completion (e.g., Posted, Completed, Settled,</p>
+</li>
+</ul>
+<p>Success, ACK, or equivalent) and does not show a return or reject code; (2) Rejected / failed — status shows Rejected, Failed, Returned, Unpaid, or an ACH return code (e.g., R01–R33) or bank “beneficiary reject” language; (3) Pending / inconclusive — status is Processing, Pending, or ambiguous: add Jira comment Trace inconclusive—[quote field names/values] on OPS-AP-INV and do not send Template A-1; escalate per AP queue pinned instructions. Proceed to the branch below based on (1) or (2) only when certain.</p>
+<ul>
+<li>
+<p><strong>If payment cleared:</strong> Download the clearing confirmation PDF from Jira OPS-AP-INV[InvoiceNumber] first (primary location). If it is not attached there, download it from OPS-AP TRACE-[TraceNumber]. If neither issue contains the file, comment Clearing confirmation missing on OPS-AP-INV and follow the AP queue’s exception path—do not send Template A-1 until the PDF is attached. Email the vendor Template A-1 attaching the PDF.</p>
+</li>
+<li>
+<p><strong>If payment rejected:</strong> Comment on OPS-AP-INV with trace outcome summary (field/value from trace PDF). Update Jira OPS-AP-INV with FIN-201 Vendor AP Hold. Email the vendor Template A-2.</p>
+</li>
+</ul>
+<h2 id="33-auditing-high-risk-wire-transfers">3.3 Auditing High-Risk Wire Transfers</h2>
+<p><strong>Objective:</strong> Detect international wire transfers lacking required dual authorization.</p>
+<ul>
+<li>
+<p><strong>Pull population:</strong> From Jira OPS-TRE-WIRES-[Quarter], download the international wires population workbook attached to the issue (Excel as provided).</p>
+</li>
+<li>
+<p><strong>Verify authorization:</strong> For each Wire ID, open Slack and search #treasury-wires in this order until you locate the approval thread (document which query worked in your Excel wire log or Jira OPS TRE-WIRE comment): (1) has:link [Wire ID] — same pattern family as §2.1 finance approvals, for threads where the wire ID appears in a linked URL; (2) in:#treasury-wires [Wire ID]; (3) in:#treasury-wires "[Wire ID]" (quoted exact match). If all three return no results, record Slack search exhausted for that Wire ID and proceed to Escalation (missing dual approval). When documenting for Compliance (Template B-3), copy the same query order and outcome into the Slack evidence line.</p>
+</li>
+<li>
+<p><strong>Check signatories:</strong> Confirm two distinct Approved messages from users whose Slack profile Title shows VP, AVP, SVP, EVP, C-level, or higher. Record approver names, exact Approved text, and titles in Excel or in a Jira comment on OPS-TRE-WIRE-[WireID].</p>
+</li>
+<li>
+<p><strong>Escalation (missing dual approval):</strong> Update Jira OPS-TRE-WIRE-[WireID] with exception code TRE-900 High-Risk Exception (Appendix C). Create Jira Compliance-Alerts with title Exception Report: International Wire Control Exception – [Wire ID]. Paste Template B-3 into the description; attach your Excel wire row or export. Assign to the Chief Compliance Officer listed on the Compliance-Alerts board’s pinned issue per §1.3 Queue Assignee. Immediately after the Compliance-Alerts issue is created, send Slack Template B-4 to #compliance-urgent with the new Compliance-Alerts issue key only—do not post wire amounts or bank details in Slack; reference Jira only.</p>
+</li>
+<li>
+<p><strong>Happy path:</strong> Update Jira OPS-TRE-WIRE-[WireID] to Verified (or equivalent) when dual approval  is confirmed. No Compliance ticket required.</p>
+</li>
+</ul>
+<h2 id="34-auditing-vendor-tax-compliance">3.4 Auditing Vendor Tax Compliance</h2>
+<p><strong>Objective:</strong> Support accurate 1099 reporting by maintaining complete and valid vendor tax documentation.</p>
+<ul>
+<li>
+<p><strong>Check payment threshold:</strong> From Jira OPS-AP-1099-[Year], download the year-to-date vendor disbursements spreadsheet attached to the issue. Filter YTD Total &gt; $600.</p>
+</li>
+<li>
+<p><strong>Validate W-9:</strong> For each vendor over threshold, open Jira OPS-VND-[VendorID] and confirm a W 9 PDF is attached and current.</p>
+</li>
+<li>
+<p><strong>Apply hold if required:</strong> If no W-9 PDF on the Jira vendor record, add comment and label FIN 201 Vendor AP Hold on the active payables issue for that vendor.</p>
+</li>
+<li>
+<p><strong>Notify vendor:</strong> Email Template A-3 from compliance@vanguardshield.com. Do not remove the hold until a signed W-9 PDF is received; attach the PDF to Jira OPS-VND-[VendorID].</p>
+</li>
+</ul>
+<h1 id="4-accounts-receivable-billing">4. Accounts Receivable &amp; Billing</h1>
+<h2 id="41-reviewing-aged-accounts-receivable">4.1 Reviewing Aged Accounts Receivable</h2>
+<p><strong>Objective:</strong> Mitigate bad debt through timely collections review.</p>
+<ul>
+<li>
+<p><strong>Pull aging report:</strong> From Jira OPS-AR-AGING-[date], download the AR aging export attached to the issue (Excel as provided). Filter Days Overdue &gt; 90.</p>
+</li>
+<li>
+<p><strong>Check communications:</strong> For each flagged Client ID, Slack #ar-collections — search has:link [Client ID] or the Client ID text per workspace practice. Confirm whether a payment plan is noted.</p>
+</li>
+</ul>
+<ul>
+<li>
+<p><strong>Issue demand letter:</strong> If no payment plan, Word — paste Template D-3. Fill Client ID and Amount. Export to PDF per §1.4 (include client ID and date in the filename).</p>
+</li>
+<li>
+<p><strong>Send communication:</strong> From Jira OPS-AR-CLIENT-[ClientID], read the Billing Contact Email field  in the issue description (see §1.3 for field name and fallback). Email the PDF demand letter to  that address. If no billing contact is listed, Slack #ar-collections using Template B-5 with Client ID only; do not send the letter until contact is provided.</p>
+</li>
+<li>
+<p><strong>Update status:</strong> Comment on Jira OPS-AR-CLIENT-[ClientID]: account status Demand Letter Sent (document date, letter filename, and billing contact used). If no response is received within the timeframe stated in the demand letter (Template D-3), update the comment to Collections Hold and note the date the hold took effect.</p>
+</li>
+</ul>
+<h1 id="5-underwriting-premium-operations">5. Underwriting &amp; Premium Operations</h1>
+<h2 id="51-conducting-premium-variance-audits">5.1 Conducting Premium Variance Audits</h2>
+<p><strong>Objective:</strong> Reconcile estimated premium basis data with actual exposure at policy end.</p>
+<ul>
+<li>
+<p><strong>Gather source documents:</strong> From Jira OPS-UW-POL-[PolicyNumber], download the policy’s estimated-exposure and actual-exposure attachments (PDF or Excel as provided on the issue— use the filenames or labels listed in the issue description).</p>
+</li>
+<li>
+<p><strong>Canonical rate file:</strong> From Jira OPS-UW-RATETABLES-[YYYY] (or the master rate-table issue named in §1.3 / the policy issue), download the current underwriting rate workbook attachment. That master issue is the system of record—do not use desktop copies, ad-hoc Email attachments, or unlinked files.</p>
+</li>
+<li>
+<p><strong>Version pin:</strong> On OPS-UW-POL-[PolicyNumber], read the Rate Table Source field (see §1.3). It must reference the same master rate-table issue key and attachment name as the file you downloaded. If missing, comment Rate table version not pinned—using master per SOP and proceed; if it references a different key or revision date than the attachment you used, stop and create Jira UW-Exceptions Rate Table Mismatch – [PolicyNumber].</p>
+</li>
+<li>
+<p><strong>Calculate actual premium:</strong> Using the downloaded master workbook only, enter payroll figures from the actual-exposure attachment for each classification code to compute audited premium.</p>
+</li>
+<li>
+<p><strong>Update audit record:</strong> Enter the calculated audited premium in the designated audit workpaper attached to OPS-UW-POL-[PolicyNumber] (create or update the workbook template linked from the issue if empty). Add a Jira comment: Audited Premium: $[Amount] | Basis: [Classification codes used] | Variance from estimated: [+/−%]. If the issue has an Audited Premium custom field, populate it.</p>
+</li>
+<li>
+<p><strong>Issue final statement:</strong> When the Jira issue status is Audit Complete (required fields and audit workpaper attached per the issue checklist), use the Generate Audit Statement workflow transition on the issue. If the transition is missing, confirm: (a) the audit workpaper is attached, (b) the Audited Premium field is populated, and (c) status is Audit Complete. If all are met but the transition is still absent, create Jira IT-Support referencing the policy issue key. If the resulting status shows UND-304 Audit Variance, treat as expected for material differences.</p>
+</li>
+</ul>
+<h2 id="52-calculating-multi-state-tax-nexus">5.2 Calculating Multi-State Tax Nexus</h2>
+<ul>
+<li>
+<p><strong>Objective:</strong> Prepare state exposure and tax allocation support for multi-state operations.</p>
+</li>
+<li>
+<p>Step 1. Review application: From Jira OPS-UW-APP-[ApplicationID], download the locations / schedule attachment(s) listed on the issue. Note multiple states if present.</p>
+</li>
+<li>
+<p>Step 2. Determine surtaxes: From the same Jira issue (or linked underwriting reference issue named in the description), download the state tax / surtax matrix attachment. Cross-reference states from the schedule.</p>
+</li>
+</ul>
+<p>Request missing payroll (if needed): If total payroll is not on OPS-UW-APP-[ApplicationID] or on a linked policy issue named in the description, add a Jira comment on OPS-UW-APP-[ApplicationID]: Payroll attachment required for multi-state tax allocation — see OPS-UW-TAX-[ApplicationID]. @mention the Assignee or Underwriter field on that issue. If both are blank, Email the Underwriting intake mailbox (§1.3) with subject UW-Data—Payroll for OPS-UW-APP-[ApplicationID] and both Jira keys in the body. Optional same-day notice: Slack per UW data Slack in §1.3 with only the two Jira keys—no dollar amounts. Do not continue to the calculation step until payroll is provided via Jira attachment or comment.</p>
+<p>Step 3. Calculate allocation and surtax: In Excel, enter total payroll from the attachment (or underwriter reply) on the issue. Allocate by state: (a) if schedule shows payroll by state, State % = State Payroll ÷ Total Payroll; (b) if only locations, State % = (# locations in state ÷ total locations). Note the basis in a cell. For each state: Allocated Payroll = Total Payroll × State %; State Surtax = Allocated Payroll × rate from matrix (e.g., 1.25% as 0.0125). The next step uses surtax dollars.</p>
+<ul>
+<li>Step 4. Finalize entry: Save the completed allocation workbook using the naming convention stated on OPS-UW-TAX-[ApplicationID] or, if none is stated, per §1.4 (include the application identifier in the filename). Attach it to that issue, and record state tax amounts in the issue description table if provided. Comment Save Tax Allocation with date and analyst initials.</li>
+</ul>
+<h1 id="6-hr-payroll-employee-expenses">6. HR, Payroll &amp; Employee Expenses</h1>
+<h2 id="61-reconciling-payroll-tax-filings">6.1 Reconciling Payroll Tax Filings</h2>
+<p><strong>Objective:</strong> Ensure tax remittances align with internal payroll liability records.</p>
+<ul>
+<li>
+<p><strong>Gather reports:</strong> From Jira OPS-HR-PAYROLL-[Quarter], download the vendor tax filing PDF and the internal tax liability file (CSV) listed as attachments on the issue.</p>
+</li>
+<li>
+<p><strong>Reconcile totals:</strong> In Excel, compare total SUI on the vendor PDF to the CSV. A jurisdiction-level dollar variance of $50.00 or less (absolute value) is treated as immaterial and does not require a</p>
+</li>
+</ul>
+<p>variance workbook; note “immaterial rounding variance — [$X.XX]” in a Jira comment on OPS HR-PAYROLL-[Quarter] and proceed to the next jurisdiction. Variances exceeding $50.00 require documentation per the next step. Note: if the OPS-HR-PAYROLL issue description or the HR Payroll queue’s pinned issue contains a Materiality Override with a different dollar threshold, use that threshold instead (see Materiality Override under §1.3).</p>
+<ul>
+<li>
+<p><strong>Document variances:</strong> If any jurisdiction exceeds the materiality threshold, create a quarterly SUI variance workbook with worksheet Variance; row 1 headers: Jurisdiction | Vendor SUI (PDF) |</p>
+</li>
+<li>
+<p>Internal SUI (CSV) | Dollar Variance (Internal − Vendor) | Variance % (if Vendor &gt; 0) | Notes; one  row per jurisdiction that exceeded the threshold; Total row; Notes cite source attachment names.  Save using the FIN-Exceptions or HR-Payroll naming convention on the issue, or per §1.4.</p>
+</li>
+<li>
+<p><strong>Route for action:</strong> Email the completed variance workbook to payroll.ops@vanguardshield.com with subject Quarterly SUI Variance Identified. Attach or link the Jira OPS-HR-PAYROLL key in the email body.</p>
+</li>
+</ul>
+<h2 id="62-auditing-sales-team-travel-expense-te">6.2 Auditing Sales Team Travel &amp; Expense (T&amp;E)</h2>
+<p><strong>Objective:</strong> Ensure employee expenses are business-related and adequately documented.</p>
+<ul>
+<li>
+<p>Step 1. <strong>Review submissions:</strong> Open Jira OPS-HR-TE-[ReportID] for each Pending Approval expense report from Sales (details in issue description: line items, amounts, merchant).</p>
+</li>
+<li>
+<p>Step 2. <strong>Cross-reference business activity:</strong> From OPS-HR-TE, classify each line as (A) meal, travel, lodging, mileage, or client entertainment (non-merchandise), or (B) Marketing Promo or</p>
+</li>
+<li>
+<p>Client Gifts (merchandise). For (A) only, note weekday vs weekend/holiday, open Calendar, and confirm a meeting, client event, or business travel that covers the expense (including multi-day</p>
+</li>
+</ul>
+<p>windows). If (A) and no matching calendar event, treat as missing justification and go to Step 4. For (B), do not require a Calendar event—skip Calendar for that line and go to Step 3 (Shopify) only.</p>
+<ul>
+<li>
+<p>Step 3. <strong>Verify merch purchases:</strong> For each line you classified as merchandise (B) in Step 2 (Marketing Promo or Client Gifts), open Shopify Orders tab; search employee name to confirm order through approved internal store.</p>
+</li>
+<li>
+<p>Step 4. <strong>Take action:</strong> Comment on Jira OPS-HR-TE with rejection reason and set workflow to rejected when: (a) a non-merchandise line (per Step 2) has no matching Calendar event, (b) a non-merchandise line falls on a weekend/holiday without business calendar context, or (c) a merchandise line (Marketing Promo or Client Gifts) is not found in Shopify per Step 3. Standard note text: Missing business justification/unauthorized vendor. Please submit personal reimbursement.</p>
+</li>
+</ul>
+<p>Notify manager (rejections only): When you applied the Take action step and set the expense report workflow to rejected for any qualifying line, send a Slack DM using Template B-2. Manager identity: read the Reporting Manager custom field on Jira OPS-HR-TE-[ReportID] (see §1.3 for field conventions and the fallback path if the field is blank). If the People directory also returns no result, create Jira HR-Ops Manager Lookup Needed – T&amp;E Exception – [Employee Name/ID] and paste Template B-8 into the description (include OPS-HR-TE key); or Slack #hr-ops-help with the same fields as B-8 in one message; or Email hrops@vanguardshield.com with subject Manager Lookup Needed – T&amp;E Exception – [Employee Name/ID] and body text from Template B-8. Do not send Template B-2 until the manager is confirmed.</p>
+<ul>
+<li>
+<p>Step 5. <strong>Approve valid reports (happy path):</strong> When no line met the rejection tests in the Take</p>
+</li>
+<li>
+<p>action step (all non-merchandise lines have supporting Calendar coverage; all merchandise lines passed Shopify in Step 3), add Jira comment T&amp;E review complete—all lines supported | OPS</p>
+</li>
+<li>
+<p>HR-TE-[ReportID]. Transition the workflow from Pending Approval to Approved using the  transition names under OPS-HR-TE workflow (Sales T&amp;E) in §1.3. Do not send Template B-2.</p>
+</li>
+</ul>
+<h1 id="7-claims-handling-subrogation-fraud">7. Claims Handling, Subrogation &amp; Fraud</h1>
+<h2 id="71-identifying-subrogation-opportunities">7.1 Identifying Subrogation Opportunities</h2>
+<p><strong>Objective:</strong> Identify closed, paid (indemnity issued) claims where a police report suggests third-party liability. Subrogation recovery generally follows payment to the insured; unpaid closures are out of scope for this triage queue.</p>
+<ul>
+<li>
+<p>Step 1. <strong>Build population:</strong> Run the saved Jira filter CLM-Subro-Triage (or equivalent) limited to Status = Closed-With-Payment (or your closed-and-indemnity-paid terminal status). Optionally export issue keys to a local Excel batching list (name per §1.4) for batching. Work issues in ascending claim number unless the filter description specifies a different priority.</p>
+</li>
+<li>
+<p>Step 2. <strong>Police report gate:</strong> For each CLM-[number], confirm a police report PDF is attached  (issue checklist or labels—common filenames include “Police_Report”). If missing or unreadable, comment Subro triage skipped—police report PDF missing and skip; do not infer fault from other documents.</p>
+</li>
+<li>
+<p>Step 3. <strong>Open and index PDF:</strong> Download that police report PDF. Note agency, report number,  and report date from the header in a Jira triage comment.</p>
+</li>
+<li>
+<p>Step 4. <strong>Read narrative and parties:</strong> Identify named drivers, unit numbers, and which party represents our insured (policyholder or listed driver). Skim for collision type, signals, and any statement of fault.</p>
+</li>
+<li>
+<p>Step 5. <strong>Positive indicators (third party):</strong> Flag subrogation potential only when the narrative or supplemental sections attribute fault to another party using at least one of: the exact phrases Citation Issued, At Fault, or Failed to Yield directed at a non-insured party; or equivalent</p>
+</li>
+</ul>
+<p>standardized wording permitted by the rubric linked from CLM-Subro-Triage. If equivalents are unclear, follow Ambiguous or shared fault below—do not treat the report as meeting Positive indicators.</p>
+<ul>
+<li>
+<p>Step 6. <strong>Negative indicators (no flag):</strong> Do not flag if the report shows our insured was cited, labeled At Fault, Failed to Yield (insured), or the narrative indicates sole insured negligence. Comment Subro triage—no third-party fault language.</p>
+</li>
+<li>
+<p>Step 7. <strong>Ambiguous or shared fault:</strong> If fault is shared, unclear, or heavily redacted, comment  Subro triage—ambiguous fault narrative; supervisor review. Create Jira CLM-SUBRO-REVIEW  linked to CLM-[number]. Assign to the on-call Claims Supervisor listed in the CLM-Subro-Triage  filter description (look for the “On-Call Supervisor” line; it is updated weekly by the Claims desk  lead). If the filter description does not contain a current on-call name, Slack #claims-ops with:  “[Subro Triage] Ambiguous fault — CLM-[number] — need on-call supervisor assignment.” Do not  apply CLM-440 until cleared.</p>
+</li>
+<li>
+<p>Step 8. <strong>Queue transfer (positive):</strong> When Positive indicators (third party) are satisfied and  neither Negative indicators (no flag) nor Ambiguous or shared fault applies, comment Subro  potential: [brief quote or section/page reference]. Transition Assign to Subrogation or label CLM 440 Subro Potential per workflow.</p>
+</li>
+</ul>
+<h2 id="72-processing-multi-beneficiary-life-claims">7.2 Processing Multi-Beneficiary Life Claims</h2>
+<p><strong>Objective:</strong> Support accurate claim determination and payment allocation.</p>
+<ul>
+<li><strong>Verify documentation:</strong> From Jira CLM-LIFE-[number], download the death certificate PDF (see issue attachment list or checklist). Compare name and SSN to insured fields in the Jira issue. If</li>
+</ul>
+<p>mismatch: do not allocate; set status CLM-910 Identity Verification Hold; add note with document reference; transition Route to Claims Supervisor (CLM-Identity). Continue to Step 3 only to flag conflicts—no payout steps until supervisor clears hold.</p>
+<ul>
+<li>
+<p><strong>Review beneficiary schedule:</strong> Download the original policy (or declarations) PDF attached to the issue; note Primary and Contingent percentage splits.</p>
+</li>
+<li>
+<p><strong>Flag conflicts:</strong> Review Jira comments and PDF attachments for divorce decrees (finalized prior to the insured's date of death), competing  claims, court orders, attorney letters. If CLM-910 active, do not set CLM-920; add note re  potential conflict and tag the comment “Pending CLM-920 review after CLM-910 clearance.”  When the supervisor subsequently clears CLM-910, return to this step: if the potential-conflict  note still applies, set CLM-920 Complex Beneficiary Hold and transition to CLM-Legal per the  instructions below. If identity cleared and conflict exists: set CLM-920 Complex Beneficiary Hold;  note file name and date; transition to CLM-Legal (the queue is assigned to the Legal Claims lead  listed on the CLM-Legal board’s pinned issue per §1.3 Queue Assignee); stop.</p>
+</li>
+<li>
+<p><strong>Calculate allocation:</strong> If CLM-910 Identity Verification Hold is still active, stop here—do not calculate allocation or route for payout; wait for supervisor clearance before returning to this step. If CLM-920 Complex Beneficiary Hold is active for any reason (including survival ambiguity in the template below), stop here—do not calculate payout amounts or transition to AP; wait for CLM Legal to clear CLM-920. If CLM-910 has been cleared, CLM-920 is not active, and Step 3 found no conflicts, read Death Benefit / Face Amount from the original policy PDF attachment; compute each beneficiary share. Record the allocation in a Jira comment on CLM-LIFE-[number] using the following structured format:</p>
+</li>
+</ul>
+<p>--- Beneficiary Allocation ---</p>
+<p><strong>Policy:</strong> [PolicyNumber] | Face Amount: $[Amount]</p>
+<p>B <strong>eneficiary 1:</strong> [Full Name] | Designation: Primary | Split: [X]% | Amount:</p>
+<p>$[Calculated] <strong>Beneficiary 2:</strong> [Full Name] | Designation: Primary | Split: [Y]% |</p>
+<p>Amount: $[Calculated]</p>
+<p>(Repeat for each beneficiary. List Contingent beneficiaries only if no Primary beneficiaries survive. To determine survival status: check Jira attachments for death certificates or court declarations naming a primary beneficiary. If none exist, assume primaries survive. If a primary beneficiary is confirmed deceased (death certificate attached), exclude them and redistribute their share pro rata</p>
+<p>among surviving primaries (new % = original % ÷ sum of surviving primaries' original %). If survival is ambiguous, set CLM-920 Complex Beneficiary Hold, route to CLM-Legal per Step 3, and STOP?do not finish this allocation block or transition to AP for payout.)</p>
+<p>Analyst: [Initials] | Date: [YYYY-MM-DD]</p>
+<p>Route to AP for payout only when CLM-910 and CLM-920 are not active, the structured allocation comment is complete, and you did not stop for ambiguous survival above. Then transition the issue to Route to AP for Payout with the allocation comment in place.</p>
+<h2 id="73-evaluating-fraud-risk-in-claims">7.3 Evaluating Fraud Risk in Claims</h2>
+<p><strong>Objective:</strong> Identify claim anomalies requiring SIU review.</p>
+<ul>
+<li>
+<p>Step 1. <strong>Triage intake:</strong> Open Jira CLM-PROP-[number] from the SIU prep queue or supervisor assignment. Read loss type, date of loss, and any prior-claim flags in the description. If status is already CLM-999, confirm whether you are documenting supplemental findings only.</p>
+</li>
+<li>
+<p>Step 2. <strong>Photo inventory:</strong> Download current-loss images from Jira attachments. Current-loss images are defined as files with image extensions (.jpg, .jpeg, .png, .gif, .tiff) whose Jira attachment label or file name includes the reported date of loss or contains the word “current,” “loss,” or “scene.” Exclude PDF documents, spreadsheets, and any image file whose name or</p>
+</li>
+</ul>
+<p>label references a prior claim number (those are used in the historical comparison in Step 3). Comment Photo inventory complete—[n] image files with the list of file names included in the comment.</p>
+<ul>
+<li>
+<p>Step 3. <strong>Historical comparison:</strong> Use the historical photo package linked from the claim issue  (ZIP or prior CLM attachments). <strong>Identical match</strong> (binary): same file as a prior attachment  (matching file name and size, or checksum if provided in Jira), or documentation in Jira explicitly  states the file is a re-upload from a prior claim. <strong>Same-angle match</strong> (stricter—use only when all  are true; otherwise do not use this label): (i) prior and current issues share the same loss location  address in Jira; (ii) the same architectural feature or vehicle body panel clearly occupies the  majority of both frames (same wall face, same bumper corner, etc.—not merely “both show water  damage”); (iii) at least two fixed reference points (e.g., two corners of one window, or plate +  same body line) appear in the same left-to-right order and within 15% of frame width of each  other’s positions. If you cannot verify (ii) and (iii) without guesswork, do not call it a same-angle match—comment Possible visual similarity—needs manual review and do not rely on that alone for Step 6 unless an <strong>identical</strong> match exists or Step 5 hits. Document confirmed pairs as Current [file] matches Prior CLM-[id] [file/date] — [Identical | Same-angle per criteria] in Jira.</p>
+</li>
+<li>
+<p>Step 4. <strong>Metadata sanity check:</strong> If visible timestamps or embedded file dates contradict the reported date of loss, note Date metadata inconsistency in an internal Jira comment (no accusatory language in customer-visible fields).</p>
+</li>
+<li>
+<p>Step 5. <strong>Inspector notes:</strong> Download the field inspector notes PDF from the claim issue  attachments (filename often includes “inspector” or “field”). Search for Inconsistent, Pre-existing,  Wear and tear, Prior damage, Unrelated. Copy exact wording into an internal Jira comment (SIU prep—inspector quotes).</p>
+</li>
+<li>
+<p>Step 6. <strong>Decision matrix:</strong> Apply SIU hold and referral below if (a) an Identical match or a confirmed Same-angle match (per the criteria in Historical comparison, Step 3) is documented, OR (b) Inspector notes contain any keyword hit from that step, OR (c) Metadata sanity check shows a date inconsistency that undermines loss timing. If none apply, comment SIU prep—no automated SIU triggers; resume standard handling.</p>
+</li>
+<li>
+<p>Step 7. <strong>SIU hold:</strong> When the Decision matrix above applies, set CLM-999 SIU Hold. Do not discuss fraud theories with the insured in the same thread as SIU comments.</p>
+</li>
+<li>
+<p>Step 8. <strong>Refer to SIU:</strong> Word — Memo Template D-2; save the referral memo per §1.4 (include claim number in the filename); attach to Jira SIU-INTAKE-[ClaimNumber]. On CLM-[number], comment only SIU referral filed—see SIU-[key].</p>
+</li>
+</ul>
+<h2 id="appendix-a-external-communication-templates-email">Appendix A: External Communication Templates (Email)</h2>
+<p>All external emails must be sent from an authorized @vanguardshield.com account. Templates below ordered A-1 through A-4.</p>
+<h2 id="template-a-1-proof-of-cleared-payment-vendor">Template A-1: Proof of Cleared Payment (Vendor)</h2>
+<p><strong>Subject: Vanguard Shield Mutual - Payment Confirmation - Invoice #[Invoice Number]</strong></p>
+<p>Dear [Vendor Representative],</p>
+<p>Thank you for contacting us regarding Invoice #[Invoice Number]. According to our Accounts Payable records, this payment was successfully processed and cleared.</p>
+<p><strong>Payment Details:</strong></p>
+<ul>
+<li>
+<p>Amount: $[Amount]</p>
+</li>
+<li>
+<p>Date Cleared: [Date]</p>
+</li>
+<li>
+<p>ACH Trace Number: [Trace Number]</p>
+</li>
+</ul>
+<p>Attached is the PDF payment confirmation for your records. If you need further assistance, please let us know.</p>
+<p>Best regards,</p>
+<p>Finance Operations | Vanguard Shield Mutual | support@vanguardshield.com | 1-800-555-0199</p>
+<h2 id="template-a-2-payment-failure-notification-vendor">Template A-2: Payment Failure Notification (Vendor)</h2>
+<p><strong>Subject: Vanguard Shield Mutual - Payment Issue - Invoice #[Invoice Number]</strong></p>
+<p><strong>Dear [Vendor Representative],</strong></p>
+<p>We recently attempted to process payment for Invoice #[Invoice Number] in the amount of $[Amount], but the transaction was rejected by the receiving bank.</p>
+<p>For security, updated banking instructions must not be sent in plain email. Please reply to this message and we will send a separate Email with a secure upload link, or return the completed PDF bank verification form attached to your Jira vendor profile update ticket (OPS-VND-[VendorID]) as instructed in our follow-up. Do not include full account numbers in email body text.</p>
+<p>Best regards,</p>
+<p>Finance Operations | Vanguard Shield Mutual</p>
+<h2 id="template-a-3-missing-w-9-tax-hold-vendor">Template A-3: Missing W-9 / Tax Hold (Vendor)</h2>
+<p><strong>Subject: Vanguard Shield Mutual - Action Required: W-9 Needed for Vendor Account #[Vendor ID]</strong></p>
+<p>Dear [Vendor Representative],</p>
+<p>As part of our annual tax compliance review, we noted that Vanguard Shield Mutual does not have a current valid Form W-9 on file.</p>
+<p>Because year-to-date disbursements have exceeded the IRS reporting threshold, a temporary administrative hold has been placed on future payments.</p>
+<p>Please reply to this email with a completed, signed PDF copy of your current W-9. Once received and validated, we will remove the payment hold.</p>
+<p>Best regards,</p>
+<p>Compliance Operations | Vanguard Shield Mutual</p>
+<h2 id="template-a-4-payment-processing-under-review-vendor">Template A-4: Payment Processing / Under Review (Vendor)</h2>
+<p><strong>Subject: Vanguard Shield Mutual - Payment Status Update - Invoice #[Invoice Number]</strong></p>
+<p>Dear [Vendor Representative],</p>
+<p>Thank you for contacting us regarding Invoice #[Invoice Number] in the amount of $[Amount]. At this time, our records show the invoice payment is [Pending/Processing/Approved-Unpaid/Under Review] and has not completed clearing.</p>
+<p>We are reviewing the payment status and will follow up once it has cleared or if additional information is required. If you have questions or believe this payment is past due, please reply to this email and we will prioritize the review.</p>
+<p>Best regards,</p>
+<p>Finance Operations | Vanguard Shield Mutual | support@vanguardshield.com | 1-800-555-0199</p>
+<h2 id="appendix-b-internal-communication-formats-jira-and-slack">Appendix B: Internal Communication Formats (Jira and Slack)</h2>
+<p>B-1 Suspense; B-2 T&amp;E DM; B-3 Wire compliance (Jira); B-4 Wire pointer (Slack); B-5 AR billing contact; B-6 Expense variance; B-7 Liquidity transfer; B-8 Manager lookup</p>
+<h2 id="template-b-1-intercompany-suspense-escalation">Template B-1: Intercompany Suspense Escalation</h2>
+<p><em>Use as: Jira ticket description (FIN-Exceptions).</em></p>
+<p>[Suspense Escalation] - Transaction ID: [ID Number]</p>
+<p>Status: Requires Controller Review</p>
+<p>Amount: $[Amount]</p>
+<p>Details: This item has been sitting in Intercompany Suspense. No PDF receipt was found on the linked Jira issue, and/or prior Slack approval is missing.</p>
+<p>GL Conflict (if applicable): Invoice GL: [Code A] | Excel GL: [Code B] | Resolution requested.</p>
+<p>Action Required: Controller (per queue pinned issue), please review and advise on proper GL coding or request documentation from the originating department.</p>
+<h2 id="template-b-2-te-expense-review-flag-slack-dm-to-manager">Template B-2: T&amp;E Expense Review Flag (Slack DM to manager)</h2>
+<p>[T&amp;E Review Flag] - Employee ID: [Employee ID]</p>
+<p>Expense Date: [Date] | Amount: $[Amount]</p>
+<p>Merchant: [Merchant]</p>
+<p>Details: Expense submitted without a matching Calendar event, or Shopify promo purchase not</p>
+<p>found. Action Taken: Line item rejected in Jira OPS-HR-TE workflow. Please review with your direct report.</p>
+<h2 id="template-b-3-international-wire-control-exception-jira-compliance-alerts-queue">Template B-3: International Wire Control Exception (Jira — Compliance Alerts queue)</h2>
+<p><em>Use as: Full description body when dual Slack approval is missing per §3.3.</em></p>
+<p>[Wire Control Exception] Wire ID: [Wire ID]</p>
+<p>OPS-TRE-WIRE issue: OPS-TRE-WIRE-[WireID]</p>
+<p>Population source: International wires population workbook from OPS-TRE-WIRES-[Quarter] (attach excerpt row or link)</p>
+<p>Slack evidence: Channel #treasury-wires | Queries attempted: (1) has:link [Wire ID] (2) in:#treasury-wires [Wire ID] (3) in:#treasury-wires "[Wire ID]" | Result: [which query worked OR Slack search exhausted]</p>
+<p>Approvers found: [Name / Title / exact Approved text] for Approver 1; [same for Approver 2] OR state Missing dual approval</p>
+<p>Exception code applied on wire issue: TRE-900 High-Risk Exception</p>
+<p>Action requested: Chief Compliance Officer (per Compliance-Alerts board pinned issue) to determine corrective action and whether wire may proceed.</p>
+<h2 id="template-b-4-compliance-alerts-pointer-slack-compliance-urgent">Template B-4: Compliance-Alerts Pointer (Slack — #compliance-urgent)</h2>
+<p>Use as: Mandatory immediately after filing the Compliance-Alerts issue in §3.3 (same business day). Do not include dollar amounts, beneficiary bank data, or full wire instructions.</p>
+<p>[Compliance] International wire control exception filed — Jira: [COMPLIANCE-ALERTS-KEY] | Wire ID: [Wire ID] | OPS-TRE-WIRE-[WireID] | Analyst: [Your name]</p>
+<h2 id="template-b-5-ar-collections-missing-billing-contact-ar-collections">Template B-5: AR Collections — Missing Billing Contact (#ar-collections)</h2>
+<p><em>Use as: Slack message when OPS-AR-CLIENT has no billing email and demand letter is on hold.</em></p>
+<p>[AR Ops] Billing contact needed | Client ID: [Client ID] | Jira: OPS-AR-CLIENT-[ClientID] | Aging bucket: [90+] days | Analyst: [Your name] | Action: Add Billing Contact Email to client issue description—demand letter not sent.</p>
+<h2 id="template-b-6-unsupported-expense-variance-fin-exceptions">Template B-6: Unsupported Expense Variance (FIN-Exceptions)</h2>
+<p><em>Use as: Paste into Jira FIN-Exceptions description under the title from §2.2.</em></p>
+<p>[Expense Variance Escalation]</p>
+<p>Department: [Department] | Quarter: Q[N] | Line item: [Line item name]</p>
+<p>Budget: $[Amount] | Actual: $[Amount] | Variance %: [x]%</p>
+<p>Mailbox searched: [e.g. finance.ops@vanguardshield.com]</p>
+<p>Search terms (exact): [terms]</p>
+<p>Date range: [Start]–[End]</p>
+<p>Attachments: variance memo for the department/quarter (Word, §1.4); the budget-vs-actual export from the BVA issue</p>
+<p>Request: Controller (per queue pinned issue) to advise disposition (obtain justification / reclass / other).</p>
+<h2 id="template-b-7-daily-liquidity-transfer-tre-investments">Template B-7: Daily Liquidity Transfer (TRE-Investments)</h2>
+<p><em>Use as: Paste into Jira TRE-Investments description for §3.1 Route for approval.</em></p>
+<p>[Liquidity Transfer Request]</p>
+<p>OPS-TRE-LIQUIDITY issue: OPS-TRE-LIQUIDITY-[YYYY-MM-DD]</p>
+<p>Balance read: $[balance] at [time ET] | Attachment: [liquid position file name as shown on OPS-TRE LIQUIDITY]</p>
+<p>TransferAmount (per rounding rules): $[amount]</p>
+<p>Fund / instruction: Overnight Money Market (cite line from liquidity package)</p>
+<p>Link: Jira snapshot comment URL or comment ID on OPS-TRE-LIQUIDITY</p>
+<h2 id="template-b-8-manager-lookup-te-hr-ops-hrops">Template B-8: Manager Lookup — T&amp;E (HR-Ops / hrops)</h2>
+<p><em>Use as: Jira HR-Ops description body and/or Email body to hrops@vanguardshield.com (identical text).</em></p>
+<p>[T&amp;E Manager Lookup]</p>
+<p>Employee: [Name] | ID: [ID]</p>
+<p>OPS-HR-TE / expense report issue: [KEY]</p>
+<p>Directory / People search result: [e.g. Reporting Manager field blank; people@vanguardshield.com returned no match]</p>
+<p>Need: Correct manager Jira username or Slack handle for Template B-2 notification.</p>
+<h2 id="appendix-c-system-status-codes">Appendix C: System Status Codes</h2>
+<p>Codes used in Jira labels, comments, or workflow:</p>
+<ul>
+<li><strong>FIN-100 Cleared &amp; Posted</strong> — reconciliations complete; outcome documented on Jira. •</li>
+</ul>
+<p><strong>FIN-201 Vendor AP Hold</strong> — missing W-9 PDF or failed banking verification. • <strong>TRE-900</strong></p>
+<p><strong>High-Risk Exception</strong> — wire lacks dual Slack approval evidence. • <strong>UND-304 Audit</strong></p>
+<p><strong>Variance</strong> — audited premium materially differs from estimated basis.</p>
+<ul>
+<li>
+<p><strong>CLM-440 Subro Potential</strong> — closed paid claim triage; police report indicates third-party fault language.</p>
+</li>
+<li>
+<p><strong>CLM-999 SIU Hold</strong> — photo match (Identical or Same-angle per §7.3), inspector inconsistency notes, or date-metadata inconsistency undermining loss timing.</p>
+</li>
+<li>
+<p><strong>CLM-910 Identity Verification Hold</strong> — death certificate mismatch vs insured record. •</p>
+</li>
+</ul>
+<p><strong>CLM-920 Complex Beneficiary Hold</strong> — legal/beneficiary conflict documentation present.</p>
+<h2 id="appendix-d-internal-memo-templates-word">Appendix D: Internal Memo Templates (Word)</h2>
+<h2 id="memo-template-d-1-expense-variance-finding">Memo Template D-1: Expense Variance Finding</h2>
+<p>Save as: Word memo per §1.4 (include department and quarter).</p>
+<p><strong>MEMORANDUM</strong></p>
+<p>TO: Financial Controller (per FIN-Exceptions queue pinned issue)</p>
+<p>FROM: Operations Analyst DATE: [Current Date] SUBJECT: Expense Variance Analysis - [Department Name] - Q[Number]</p>
+<p><strong>Finding Summary:</strong></p>
+<p>During routine variance analysis, the line item for [Expense Category] was flagged for exceeding the 10% variance threshold.</p>
+<p>Budgeted Amount: $[Amount]</p>
+<p>Actual Spend: $[Amount]</p>
+<p>Percentage Variance: [X]%</p>
+<p><strong>Investigation Results:</strong></p>
+<p><strong>Supported Outcome (if justification is found):</strong> On [Date], [Department Head Name — from Jira “Department Head” field per §1.3] approved/authorized the spend for [Reason]. Evidence: [Email subject] from [Sender] located in mailbox [Inbox name] using search term(s) “[Terms]” for date range [Start Date]– [End Date].</p>
+<p><strong>Unsupported Outcome (if no justification is found):</strong> A search of mailbox [Inbox name] for date range [Start Date]–[End Date] using term(s) “[Terms]” did not locate a business-justification email or approval for this over-budget line item. No reason has been inferred. Escalation: [Jira Ticket Key] created / (if not yet created) “Pending Controller guidance.”</p>
+<p>Investigation Details: [Optional free text]</p>
+<p>Conclusion Options: (a) Supported—No further action required; retain evidence and file memo in Jira. (b) Unsupported—Escalated for Controller guidance; do not close until disposition is received.</p>
+<h2 id="memo-template-d-2-siu-fraud-indicator-referral">Memo Template D-2: SIU Fraud Indicator Referral</h2>
+<p>Save as: Word SIU referral per §1.4 (include claim number).</p>
+<p><strong>MEMORANDUM</strong></p>
+<p>TO: Special Investigations Unit (SIU)</p>
+<p>FROM: Claims Analyst</p>
+<p>DATE: [Current Date]</p>
+<p>SUBJECT: Claim Anomaly / Fraud Indicator Referral - Claim #[Claim Number]</p>
+<p><strong>Claim Details:</strong></p>
+<ul>
+<li>
+<p>Policyholder: [Name]</p>
+</li>
+<li>
+<p>Date of Loss: [Date]</p>
+</li>
+<li>
+<p>Reported Cause: [Cause]</p>
+</li>
+</ul>
+<p><strong>Reason for Referral:</strong></p>
+<p>During standard claim review in Jira (claim issue CLM-[number]), the following anomalies were</p>
+<p>identified: • Photographic Inconsistency: [Describe which photo matches which prior claim number]</p>
+<ul>
+<li>Inspector Concern: The field inspector’s PDF notes stated: [Insert exact quote from inspector</li>
+</ul>
+<p>report]</p>
+<p><strong>Action Taken:</strong></p>
+<ul>
+<li>
+<p>Claim status updated to CLM-999 SIU Hold.</p>
+</li>
+<li>
+<p>Payment activity is frozen pending SIU investigation.</p>
+</li>
+</ul>
+<h2 id="template-d-3-vanguard-shield-demand-letter-ar-collections">Template D-3: Vanguard Shield Demand Letter (A/R Collections)</h2>
+<p>Use as: Demand letter PDF attachment for clients &gt; 90 days overdue when no payment plan exists. Complete all bracketed fields exactly as shown. Export to PDF per §1.4 (include client ID and date).</p>
+<p><strong>VANGUARD SHIELD MUTUAL</strong></p>
+<p><strong>ACCOUNTS RECEIVABLE DEMAND LETTER</strong></p>
+<p>Date: [Current Date]</p>
+<p>Client ID: [Client ID] Amount Due: $[Amount]</p>
+<p>Invoice(s): [Invoice Number(s) if available]</p>
+<p>Days Past Due: [#]</p>
+<p>To whom it may concern,</p>
+<p>Our records indicate that the amount listed above remains outstanding and is more than 90 days past due. Please remit payment or contact our Accounts Receivable team to confirm the status of this balance.</p>
+<p>Requested action: Please respond within 10 business days of the date of this letter with one of the following: (a) confirmation that payment has been submitted (including payment date and reference), or (b) a proposed payment plan and timeline.</p>
+<p>If we do not receive a response within the timeframe above, the account may be placed on Collections Hold on the AR Jira record (OPS-AR-CLIENT-[Client ID]) while the balance is addressed.</p>
+<p>Sincerely,</p>
+<p>Accounts Receivable</p>
+<p>Vanguard Shield Mutual</p>
+<p>support@vanguardshield.com | 1-800-555-0199</p>
+</body></html>

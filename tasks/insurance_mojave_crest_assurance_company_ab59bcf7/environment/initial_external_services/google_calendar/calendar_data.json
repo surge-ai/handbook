@@ -1,0 +1,145 @@
+{
+  "events": {
+    "evt-001": {
+      "summary": "MCA Observed Holiday \u2014 Presidents' Day",
+      "start": {
+        "date": "2026-02-16"
+      },
+      "end": {
+        "date": "2026-02-17"
+      },
+      "description": "MCA-observed holiday. Office closed.",
+      "id": "evt-001"
+    },
+    "evt-002": {
+      "summary": "CASE-2026-00201 \u2014 Pre-service decision DEADLINE",
+      "start": {
+        "dateTime": "2026-02-20T08:00:00-08:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2026-02-20T17:00:00-08:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "description": "CASE-2026-00201 | Member VA-09371-14 | Pre-Service Standard | 30-day decision deadline falls on Saturday Feb 21 \u2014 last day to send is today (Friday). Reviewer determination received 2/12.",
+      "id": "evt-002"
+    },
+    "evt-003": {
+      "summary": "CASE-2026-00196 \u2014 Acknowledgment deadline",
+      "start": {
+        "dateTime": "2026-02-23T17:00:00-08:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2026-02-23T17:30:00-08:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "description": "CASE-2026-00196 | Member VA-73245-13 | Pre-Service Standard | Acknowledgment deadline \u2014 receipt Feb 13.",
+      "id": "evt-003"
+    },
+    "evt-004": {
+      "summary": "CASE-2026-00202 \u2014 Acknowledgment deadline",
+      "start": {
+        "dateTime": "2026-02-24T17:00:00-08:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2026-02-24T17:30:00-08:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "description": "CASE-2026-00202 | Member VA-64821-09 | Post-Service Standard | Acknowledgment deadline \u2014 receipt Feb 17.",
+      "id": "evt-004"
+    },
+    "evt-005": {
+      "summary": "CASE-2026-00203 \u2014 Acknowledgment deadline",
+      "start": {
+        "dateTime": "2026-02-24T17:00:00-08:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2026-02-24T17:30:00-08:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "description": "CASE-2026-00203 | Member VA-18734-05 | Post-Service Standard | Acknowledgment deadline \u2014 receipt Feb 17.",
+      "id": "evt-005"
+    },
+    "evt-006": {
+      "summary": "CASE-2026-00199 \u2014 Toll window expires (missing info deadline)",
+      "start": {
+        "dateTime": "2026-02-24T17:00:00-08:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2026-02-24T17:30:00-08:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "description": "CASE-2026-00199 | Member VA-33605-07 | Tolling window expires 2/24 \u2014 if records not received, clock restarts and case proceeds on available info.",
+      "id": "evt-006"
+    },
+    "evt-007": {
+      "summary": "CASE-2026-00204 \u2014 Acknowledgment deadline",
+      "start": {
+        "dateTime": "2026-02-25T17:00:00-08:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2026-02-25T17:30:00-08:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "description": "CASE-2026-00204 | Member VA-29567-08 | Pre-Service Standard | Acknowledgment deadline \u2014 receipt Feb 18.",
+      "id": "evt-007"
+    },
+    "evt-008": {
+      "summary": "Appeals Unit Weekly Standup",
+      "start": {
+        "dateTime": "2026-02-19T09:00:00-08:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2026-02-19T09:30:00-08:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "description": "Weekly team standup \u2014 Darnell Whitfield facilitating. Conference Room B or Zoom.",
+      "id": "evt-008"
+    },
+    "evt-009": {
+      "summary": "CASE-2026-00197 \u2014 Reviewer status check",
+      "start": {
+        "dateTime": "2026-02-26T10:00:00-08:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2026-02-26T10:30:00-08:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "description": "CASE-2026-00197 | Member VA-11742-08 | Follow up with M. Alvarado if no status update received. Decision due March 15.",
+      "id": "evt-009"
+    },
+    "evt-010": {
+      "summary": "Parity Assessment Training \u2014 All Coordinators Required",
+      "start": {
+        "dateTime": "2026-03-04T14:00:00-08:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2026-03-04T16:00:00-08:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "description": "MHPAEA parity assessment training led by Dr. Ayla Ontario. Attendance required for all Appeals Coordinators. Conference Room A.",
+      "id": "evt-010"
+    },
+    "evt-011": {
+      "summary": "Q1 Appeals Performance Review \u2014 Leadership",
+      "start": {
+        "dateTime": "2026-03-10T10:00:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2026-03-10T11:30:00-07:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "description": "Q1 review with Tamra Reyes and unit supervisors. Coordinators not required \u2014 leadership only.",
+      "id": "evt-011"
+    }
+  }
+}

@@ -1,0 +1,1 @@
+Hi, can you deal with the unread email in my inbox, as per the processes in the SOP (PBC_SOP_RCM024_Rev3_28.pdf). I've already downloaded its attachment. Thanks.

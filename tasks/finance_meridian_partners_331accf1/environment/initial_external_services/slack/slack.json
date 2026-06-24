@@ -1,0 +1,887 @@
+{
+  "users": {
+    "U001": {
+      "id": "U001",
+      "team_id": "T0MERIDIAN",
+      "name": "tara.okonkwo",
+      "deleted": false,
+      "real_name": "Tara Okonkwo",
+      "tz": "America/New_York",
+      "tz_label": "Eastern Daylight Time",
+      "tz_offset": -14400,
+      "profile": {
+        "real_name": "Tara Okonkwo",
+        "display_name": "tara",
+        "email": "tara.okonkwo@meridianpartners.com",
+        "title": "AP Specialist",
+        "first_name": "Tara",
+        "last_name": "Okonkwo",
+        "phone": "(704) 555-0815"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U002": {
+      "id": "U002",
+      "team_id": "T0MERIDIAN",
+      "name": "maria.santos",
+      "deleted": false,
+      "real_name": "Maria Santos",
+      "tz": "America/New_York",
+      "tz_label": "Eastern Daylight Time",
+      "tz_offset": -14400,
+      "profile": {
+        "real_name": "Maria Santos",
+        "display_name": "maria",
+        "email": "maria.santos@meridianpartners.com",
+        "title": "AP Manager",
+        "first_name": "Maria",
+        "last_name": "Santos",
+        "phone": "(704) 555-0820"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U003": {
+      "id": "U003",
+      "team_id": "T0MERIDIAN",
+      "name": "raj.patel",
+      "deleted": false,
+      "real_name": "Raj Patel",
+      "tz": "America/New_York",
+      "tz_label": "Eastern Daylight Time",
+      "tz_offset": -14400,
+      "profile": {
+        "real_name": "Raj Patel",
+        "display_name": "raj",
+        "email": "raj.patel@meridianpartners.com",
+        "title": "Controller",
+        "first_name": "Raj",
+        "last_name": "Patel",
+        "phone": "(704) 555-0800"
+      },
+      "is_admin": true,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U004": {
+      "id": "U004",
+      "team_id": "T0MERIDIAN",
+      "name": "jennifer.walsh",
+      "deleted": false,
+      "real_name": "Jennifer Walsh",
+      "tz": "America/New_York",
+      "tz_label": "Eastern Daylight Time",
+      "tz_offset": -14400,
+      "profile": {
+        "real_name": "Jennifer Walsh",
+        "display_name": "jwalsh",
+        "email": "jennifer.walsh@meridianpartners.com",
+        "title": "VP, Human Resources",
+        "first_name": "Jennifer",
+        "last_name": "Walsh",
+        "phone": "(704) 555-0892"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U005": {
+      "id": "U005",
+      "team_id": "T0MERIDIAN",
+      "name": "kevin.rhodes",
+      "deleted": false,
+      "real_name": "Kevin Rhodes",
+      "tz": "America/New_York",
+      "tz_label": "Eastern Daylight Time",
+      "tz_offset": -14400,
+      "profile": {
+        "real_name": "Kevin Rhodes",
+        "display_name": "krhodes",
+        "email": "kevin.rhodes@meridianpartners.com",
+        "title": "Senior Financial Analyst",
+        "first_name": "Kevin",
+        "last_name": "Rhodes",
+        "phone": "(704) 555-0835"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U006": {
+      "id": "U006",
+      "team_id": "T0MERIDIAN",
+      "name": "lisa.chen",
+      "deleted": false,
+      "real_name": "Lisa Chen",
+      "tz": "America/New_York",
+      "tz_label": "Eastern Daylight Time",
+      "tz_offset": -14400,
+      "profile": {
+        "real_name": "Lisa Chen",
+        "display_name": "lisac",
+        "email": "lisa.chen@meridianpartners.com",
+        "title": "Office Manager",
+        "first_name": "Lisa",
+        "last_name": "Chen",
+        "phone": "(704) 555-0850"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U007": {
+      "id": "U007",
+      "team_id": "T0MERIDIAN",
+      "name": "david.park",
+      "deleted": false,
+      "real_name": "David Park",
+      "tz": "America/New_York",
+      "tz_label": "Eastern Daylight Time",
+      "tz_offset": -14400,
+      "profile": {
+        "real_name": "David Park",
+        "display_name": "dpark",
+        "email": "david.park@meridianpartners.com",
+        "title": "IT Manager",
+        "first_name": "David",
+        "last_name": "Park",
+        "phone": "(704) 555-0860"
+      },
+      "is_admin": true,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U008": {
+      "id": "U008",
+      "team_id": "T0MERIDIAN",
+      "name": "marcus.webb",
+      "deleted": false,
+      "real_name": "Marcus Webb",
+      "tz": "America/New_York",
+      "tz_label": "Eastern Daylight Time",
+      "tz_offset": -14400,
+      "profile": {
+        "real_name": "Marcus Webb",
+        "display_name": "mwebb",
+        "email": "marcus.webb@meridianpartners.com",
+        "title": "CFO",
+        "first_name": "Marcus",
+        "last_name": "Webb",
+        "phone": "(704) 555-0700"
+      },
+      "is_admin": true,
+      "is_owner": true,
+      "is_bot": false
+    },
+    "U009": {
+      "id": "U009",
+      "team_id": "T0MERIDIAN",
+      "name": "angela.martinez",
+      "deleted": false,
+      "real_name": "Angela Martinez",
+      "tz": "America/New_York",
+      "tz_label": "Eastern Daylight Time",
+      "tz_offset": -14400,
+      "profile": {
+        "real_name": "Angela Martinez",
+        "display_name": "amartinez",
+        "email": "angela.martinez@meridianpartners.com",
+        "title": "Operations Director",
+        "first_name": "Angela",
+        "last_name": "Martinez",
+        "phone": "(704) 555-0780"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    }
+  },
+  "channels": {
+    "C001": {
+      "id": "C001",
+      "name": "general",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1673755200,
+      "is_archived": false,
+      "is_general": true,
+      "unlinked": 0,
+      "name_normalized": "general",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T0MERIDIAN",
+      "updated": 1673755200,
+      "creator": "U008",
+      "shared_team_ids": [
+        "T0MERIDIAN"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Meridian Partners - Company Announcements & General Discussion",
+        "creator": "U008",
+        "last_set": 1673755200
+      },
+      "purpose": {
+        "value": "Company-wide announcements, updates, and general conversation",
+        "creator": "U008",
+        "last_set": 1673755200
+      },
+      "num_members": 9
+    },
+    "C002": {
+      "id": "C002",
+      "name": "finance",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1673755200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "finance",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T0MERIDIAN",
+      "updated": 1673755200,
+      "creator": "U003",
+      "shared_team_ids": [
+        "T0MERIDIAN"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Finance team coordination and updates",
+        "creator": "U003",
+        "last_set": 1673755200
+      },
+      "purpose": {
+        "value": "Finance department discussions, month-end close, reporting, and budget matters",
+        "creator": "U003",
+        "last_set": 1673755200
+      },
+      "num_members": 5
+    },
+    "C003": {
+      "id": "C003",
+      "name": "accounts-payable",
+      "is_channel": false,
+      "is_group": true,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1673755200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "accounts-payable",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T0MERIDIAN",
+      "updated": 1673755200,
+      "creator": "U002",
+      "shared_team_ids": [
+        "T0MERIDIAN"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "AP processing, vendor invoices, payment coordination",
+        "creator": "U002",
+        "last_set": 1673755200
+      },
+      "purpose": {
+        "value": "Day-to-day AP operations, invoice questions, payment scheduling, and exception handling",
+        "creator": "U002",
+        "last_set": 1673755200
+      },
+      "num_members": 3
+    },
+    "C004": {
+      "id": "C004",
+      "name": "approvals",
+      "is_channel": false,
+      "is_group": true,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1673755200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "approvals",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T0MERIDIAN",
+      "updated": 1673755200,
+      "creator": "U003",
+      "shared_team_ids": [
+        "T0MERIDIAN"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Invoice and expense approval requests",
+        "creator": "U003",
+        "last_set": 1673755200
+      },
+      "purpose": {
+        "value": "Route approval requests for invoices, expenses, and vendor changes per SOP thresholds",
+        "creator": "U003",
+        "last_set": 1673755200
+      },
+      "num_members": 6
+    },
+    "C005": {
+      "id": "C005",
+      "name": "vendor-management",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1673755200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "vendor-management",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T0MERIDIAN",
+      "updated": 1673755200,
+      "creator": "U002",
+      "shared_team_ids": [
+        "T0MERIDIAN"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Vendor onboarding, changes, and relationship management",
+        "creator": "U002",
+        "last_set": 1673755200
+      },
+      "purpose": {
+        "value": "Coordinate new vendor setup, bank changes, W-9 collection, and vendor master updates",
+        "creator": "U002",
+        "last_set": 1673755200
+      },
+      "num_members": 4
+    }
+  },
+  "messages": {
+    "C001": [
+      {
+        "type": "message",
+        "user": "U008",
+        "text": "Happy September everyone! Hope you all had a great Labor Day weekend. Quick reminder that Q3 ends this month, so let's finish strong. :muscle:",
+        "ts": "1756816200.000000",
+        "team": "T0MERIDIAN"
+      },
+      {
+        "type": "message",
+        "user": "U009",
+        "text": "Welcome back all! A few office updates:\n\n- The 3rd floor conference room (Room C) is out of commission this week for AV upgrades\n- New coffee machine in the break room (thanks Lisa!)\n- Parking garage level 2 is being repainted, use levels 1 and 3",
+        "ts": "1756818000.000000",
+        "team": "T0MERIDIAN"
+      },
+      {
+        "type": "message",
+        "user": "U006",
+        "text": "You're welcome on the coffee machine! FreshBrew upgraded us to their premium tier this month. Enjoy the fancy beans :coffee:",
+        "ts": "1756818900.000000",
+        "team": "T0MERIDIAN"
+      },
+      {
+        "type": "message",
+        "user": "U005",
+        "text": "Reminder: Finance team meeting this Friday 9/5 at 10 AM in Conference Room B. Agenda going out tomorrow.",
+        "ts": "1757005200.000000",
+        "team": "T0MERIDIAN"
+      },
+      {
+        "type": "message",
+        "user": "U007",
+        "text": "Heads up - we'll be doing scheduled maintenance on the VPN this Saturday 9/6 from 2-4 AM. Remote access will be briefly unavailable. No impact to in-office systems.",
+        "ts": "1757010600.000000",
+        "team": "T0MERIDIAN"
+      }
+    ],
+    "C002": [
+      {
+        "type": "message",
+        "user": "U004",
+        "text": "Hey finance team - heads up that I've engaged outside counsel for an employment law review. Firm is Harrison & Cole LLP out of Philadelphia. Sarah Harrison is the lead partner. They'll be sending an invoice our way once the initial phase wraps up, probably early September.",
+        "ts": "1755873000.000000",
+        "team": "T0MERIDIAN",
+        "reply_count": 4,
+        "latest_reply": "1755875520.000000",
+        "reply_users": [
+          "U002",
+          "U003",
+          "U004"
+        ],
+        "reply_users_count": 3
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "Thanks for the heads up Jennifer. Ballpark cost?",
+        "ts": "1755873900.000000",
+        "thread_ts": "1755873000.000000",
+        "parent_user_id": "U004",
+        "team": "T0MERIDIAN"
+      },
+      {
+        "type": "message",
+        "user": "U004",
+        "text": "Phase 1 should come in right around $5K. They quoted $350/hr for partner time and $200-250 for associates. Scope is employment policy review plus compliance assessment for NC regulations.",
+        "ts": "1755874320.000000",
+        "thread_ts": "1755873000.000000",
+        "parent_user_id": "U004",
+        "team": "T0MERIDIAN"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Got it. <@U001> - when that invoice comes in, it'll need new vendor setup since Harrison & Cole isn't in our system yet. Jennifer can you make sure they send a W-9 with the invoice?",
+        "ts": "1755875100.000000",
+        "thread_ts": "1755873000.000000",
+        "parent_user_id": "U004",
+        "team": "T0MERIDIAN"
+      },
+      {
+        "type": "message",
+        "user": "U004",
+        "text": "Will do - I'll let Sarah know.",
+        "ts": "1755875520.000000",
+        "thread_ts": "1755873000.000000",
+        "parent_user_id": "U004",
+        "team": "T0MERIDIAN"
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "August close update: AP package looks good. Aging is clean, recon balanced. Nice work <@U002> and <@U001>. I've approved the close package.",
+        "ts": "1756906200.000000",
+        "team": "T0MERIDIAN",
+        "reply_count": 1,
+        "latest_reply": "1756907100.000000",
+        "reply_users": [
+          "U002"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Thanks Raj. We'll include it in the next batch.",
+        "ts": "1756907100.000000",
+        "thread_ts": "1756906200.000000",
+        "parent_user_id": "U003",
+        "team": "T0MERIDIAN"
+      },
+      {
+        "type": "message",
+        "user": "U005",
+        "text": "Q3 forecast deck is taking shape. <@U003> I'll need the August actuals by Thursday if possible for the variance analysis.",
+        "ts": "1756922400.000000",
+        "team": "T0MERIDIAN",
+        "reply_count": 1,
+        "latest_reply": "1756923300.000000",
+        "reply_users": [
+          "U003"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "You'll have them by EOD Wednesday. The GL postings are all reconciled.",
+        "ts": "1756923300.000000",
+        "thread_ts": "1756922400.000000",
+        "parent_user_id": "U005",
+        "team": "T0MERIDIAN"
+      }
+    ],
+    "C003": [
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Morning Tara! September recurring invoices should start rolling in today. I sent you the list via email.",
+        "ts": "1756729200.000000",
+        "team": "T0MERIDIAN"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "On it! Already got the Granite, TechEdge, CloudNine, and Metro invoices in the inbox. Will process them this morning.",
+        "ts": "1756730100.000000",
+        "team": "T0MERIDIAN"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Quick question on the FreshBrew invoice - came in at $390. How should I handle this?",
+        "ts": "1756738800.000000",
+        "team": "T0MERIDIAN",
+        "reply_count": 1,
+        "latest_reply": "1756739400.000000",
+        "reply_users": [
+          "U002"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Good catch. Look into it and let me know how you want to handle it.",
+        "ts": "1756739400.000000",
+        "thread_ts": "1756738800.000000",
+        "parent_user_id": "U001",
+        "team": "T0MERIDIAN"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "All 6 September recurring invoices entered and matched. Summary sent via email. Also processed the August close payment batch - 2 ACH payments totaling $4,325.",
+        "ts": "1756846200.000000",
+        "team": "T0MERIDIAN"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": ":white_check_mark: Great work. Batch confirmed.",
+        "ts": "1756846800.000000",
+        "team": "T0MERIDIAN",
+        "reactions": [
+          {
+            "name": "thumbsup",
+            "users": [
+              "U001"
+            ],
+            "count": 1
+          }
+        ]
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Heads up - got a bank change request from Pinnacle Print Services. I'll call our contact on file to verify before making any changes.",
+        "ts": "1756914300.000000",
+        "team": "T0MERIDIAN",
+        "reply_count": 2,
+        "latest_reply": "1756926300.000000",
+        "reply_users": [
+          "U001",
+          "U002"
+        ],
+        "reply_users_count": 2
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Good. I forwarded you the details via email.",
+        "ts": "1756914900.000000",
+        "thread_ts": "1756914300.000000",
+        "parent_user_id": "U001",
+        "team": "T0MERIDIAN"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Verification complete - called Brian at the number on file, he confirmed all details. BANK hold placed. Verification notes saved in the bank_changes folder. Ready for your sign-off whenever.",
+        "ts": "1756926300.000000",
+        "thread_ts": "1756914300.000000",
+        "parent_user_id": "U001",
+        "team": "T0MERIDIAN"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "New PO invoices today:\n- Cascade IT (INV-38720) - $1,950 against PO-2025-00117 (wireless keyboards and mice). Three-way match passed, entered.\n- National Express (NES-25-3410) - $420 against PO-2025-00116. Flagged during three-way match \u2014 invoice line items (ground shipping + express 2-day) don't correspond to PO service type (priority courier). Total matches partial delivery amount but structure differs. Investigating.\n- Apex Office (INV-2025-09380) - $420 against PO-2025-00118. Three-way match FAILED \u2014 PO is for printer paper (80 @ $5.25) but invoice is for printer toner (6 @ $70.00). Completely different items. Placed on MATCH hold pending investigation.",
+        "ts": "1756999800.000000",
+        "team": "T0MERIDIAN"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Also got the Premier Staffing weekly invoice (PSG-2025-1205, $3,750). Timesheet approved by Lisa Chen. Entered as Non-PO per usual.",
+        "ts": "1757000700.000000",
+        "team": "T0MERIDIAN",
+        "reply_count": 1,
+        "latest_reply": "1757001600.000000",
+        "reply_users": [
+          "U002"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Perfect. I'll add Premier Staffing to the next payment batch.",
+        "ts": "1757001600.000000",
+        "thread_ts": "1757000700.000000",
+        "parent_user_id": "U001",
+        "team": "T0MERIDIAN"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Just got an invoice from Harrison & Cole LLP - the law firm Jennifer mentioned. This is a new vendor so I'll need to do the full setup. They sent a W-9 with the invoice.",
+        "ts": "1757009700.000000",
+        "team": "T0MERIDIAN",
+        "reply_count": 1,
+        "latest_reply": "1757010300.000000",
+        "reply_users": [
+          "U002"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Yes, Jennifer gave us a heads up a couple weeks ago. Invoice should be around $5K for employment law consulting. Let me know if you hit any snags.",
+        "ts": "1757010300.000000",
+        "thread_ts": "1757009700.000000",
+        "parent_user_id": "U001",
+        "team": "T0MERIDIAN"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "DataStream Analytics reached out asking about payment status on their August invoice (DSA-2025-0455, $6,200). It's on Net 45, due date is October 2. I'll reply confirming it's in our system and on track.",
+        "ts": "1757075400.000000",
+        "team": "T0MERIDIAN"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Sounds good. Also - I've approved the Pinnacle bank change. I'll update the vendor master and release the BANK hold myself.",
+        "ts": "1757077500.000000",
+        "team": "T0MERIDIAN"
+      }
+    ],
+    "C004": [
+      {
+        "type": "message",
+        "user": "U001",
+        "text": ":memo: *Approval Request*\nInvoice: PSG-2025-1140\nVendor: Premier Staffing Group\nAmount: $3,750.00\nCategory: Non-PO\nDescription: Administrative Assistant - Aug week 2\nTimesheet approved by: Lisa Chen\n\nNon-PO $500.01-$5,000 requires Department Manager and AP Manager approval.\n<@U006> <@U002> - please approve.",
+        "ts": "1754748000.000000",
+        "team": "T0MERIDIAN",
+        "reply_count": 2,
+        "latest_reply": "1754926200.000000",
+        "reply_users": [
+          "U002",
+          "U006"
+        ],
+        "reply_users_count": 2
+      },
+      {
+        "type": "message",
+        "user": "U006",
+        "text": ":white_check_mark: Approved as department manager.",
+        "ts": "1754917200.000000",
+        "thread_ts": "1754748000.000000",
+        "parent_user_id": "U001",
+        "team": "T0MERIDIAN"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": ":white_check_mark: AP Manager approved.",
+        "ts": "1754926200.000000",
+        "thread_ts": "1754748000.000000",
+        "parent_user_id": "U001",
+        "team": "T0MERIDIAN"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": ":memo: *Approval Request*\nInvoice: DSA-2025-0455\nVendor: DataStream Analytics\nAmount: $6,200.00\nCategory: Non-PO\nDescription: Data analytics consulting - Market analysis project\n\nPer SOP, non-PO invoices over $5,000 require Dept Manager + Controller approval.\n<@U009> (Operations) and <@U003> (Controller) - please approve.",
+        "ts": "1755612000.000000",
+        "team": "T0MERIDIAN",
+        "reply_count": 2,
+        "latest_reply": "1755622800.000000",
+        "reply_users": [
+          "U003",
+          "U009"
+        ],
+        "reply_users_count": 2
+      },
+      {
+        "type": "message",
+        "user": "U009",
+        "text": ":white_check_mark: Approved. This was my engagement with DataStream for the market analysis project.",
+        "ts": "1755617400.000000",
+        "thread_ts": "1755612000.000000",
+        "parent_user_id": "U001",
+        "team": "T0MERIDIAN"
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": ":white_check_mark: Controller approved.",
+        "ts": "1755622800.000000",
+        "thread_ts": "1755612000.000000",
+        "parent_user_id": "U001",
+        "team": "T0MERIDIAN"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": ":memo: *Approval Request*\nInvoice: SEC-0825-03\nVendor: Summit Executive Coaching\nAmount: $2,400.00\nCategory: Non-PO\nDescription: Executive coaching sessions - C-suite, August\n\nNon-PO $500.01-$5,000 requires Department Manager and AP Manager approval.\n<@U008> <@U002> - please approve.",
+        "ts": "1755781200.000000",
+        "team": "T0MERIDIAN",
+        "reply_count": 2,
+        "latest_reply": "1755783000.000000",
+        "reply_users": [
+          "U002",
+          "U008"
+        ],
+        "reply_users_count": 2
+      },
+      {
+        "type": "message",
+        "user": "U008",
+        "text": ":white_check_mark: Approved as budget owner.",
+        "ts": "1755782100.000000",
+        "thread_ts": "1755781200.000000",
+        "parent_user_id": "U001",
+        "team": "T0MERIDIAN"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": ":white_check_mark: AP Manager approved.",
+        "ts": "1755783000.000000",
+        "thread_ts": "1755781200.000000",
+        "parent_user_id": "U001",
+        "team": "T0MERIDIAN"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": ":memo: *Approval Request*\nInvoice: PSG-2025-1205\nVendor: Premier Staffing Group\nAmount: $3,750.00\nCategory: Non-PO\nDescription: Temporary admin staff - Week of 9/1\nTimesheet approved by: Lisa Chen\n\nNon-PO $500.01-$5,000 requires Department Manager and AP Manager approval.\n<@U006> <@U002> - please approve.",
+        "ts": "1756909800.000000",
+        "team": "T0MERIDIAN",
+        "reply_count": 2,
+        "latest_reply": "1756910700.000000",
+        "reply_users": [
+          "U002",
+          "U006"
+        ],
+        "reply_users_count": 2
+      },
+      {
+        "type": "message",
+        "user": "U006",
+        "text": ":white_check_mark: Approved as department manager.",
+        "ts": "1756910400.000000",
+        "thread_ts": "1756909800.000000",
+        "parent_user_id": "U001",
+        "team": "T0MERIDIAN"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": ":white_check_mark: AP Manager approved.",
+        "ts": "1756910700.000000",
+        "thread_ts": "1756909800.000000",
+        "parent_user_id": "U001",
+        "team": "T0MERIDIAN"
+      }
+    ],
+    "C005": [
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "BANK CHANGE REQUEST: Pinnacle Print Services, V-00003, Requested by Brian Matthews, Email info@pinnacleprint.com",
+        "ts": "1756915200.000000",
+        "team": "T0MERIDIAN",
+        "reply_count": 3,
+        "latest_reply": "1757078400.000000",
+        "reply_users": [
+          "U001",
+          "U002",
+          "U003"
+        ],
+        "reply_users_count": 3
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Update: Called Brian at Pinnacle (number on file), confirmed the bank change is legitimate. Verification documented in `Vendor_Master/bank_changes/`. Awaiting Maria's authorization to update.",
+        "ts": "1756926600.000000",
+        "thread_ts": "1756915200.000000",
+        "parent_user_id": "U002",
+        "team": "T0MERIDIAN"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Authorized. I'll update the vendor master and release the BANK hold.",
+        "ts": "1757077800.000000",
+        "thread_ts": "1756915200.000000",
+        "parent_user_id": "U002",
+        "team": "T0MERIDIAN"
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "Acknowledged. Thanks for following the verification process.",
+        "ts": "1757078400.000000",
+        "thread_ts": "1756915200.000000",
+        "parent_user_id": "U002",
+        "team": "T0MERIDIAN"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Heads up - we'll be onboarding a new vendor soon: Harrison & Cole LLP (law firm). Jennifer Walsh in HR engaged them. Tara will handle the setup when the invoice arrives.",
+        "ts": "1757010600.000000",
+        "team": "T0MERIDIAN",
+        "reply_count": 1,
+        "latest_reply": "1757012400.000000",
+        "reply_users": [
+          "U003"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "Got it.",
+        "ts": "1757012400.000000",
+        "thread_ts": "1757010600.000000",
+        "parent_user_id": "U002",
+        "team": "T0MERIDIAN"
+      }
+    ]
+  },
+  "counters": {
+    "messageId": 1000000
+  }
+}

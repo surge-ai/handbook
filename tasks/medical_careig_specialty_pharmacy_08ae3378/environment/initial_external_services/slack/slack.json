@@ -1,0 +1,464 @@
+{
+  "users": {
+    "U001": {
+      "id": "U001",
+      "team_id": "T001",
+      "name": "lchoi",
+      "deleted": false,
+      "real_name": "Lisa Choi",
+      "profile": {
+        "real_name": "Lisa Choi",
+        "display_name": "lchoi",
+        "email": "lchoi@careig.com",
+        "title": "Intake Representative"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U002": {
+      "id": "U002",
+      "team_id": "T001",
+      "name": "rkim",
+      "deleted": false,
+      "real_name": "Rachel Kim",
+      "profile": {
+        "real_name": "Rachel Kim",
+        "display_name": "rkim",
+        "email": "rkim@careig.com",
+        "title": "Benefits Verification Specialist"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U003": {
+      "id": "U003",
+      "team_id": "T001",
+      "name": "pnolan",
+      "deleted": false,
+      "real_name": "Patricia Nolan",
+      "profile": {
+        "real_name": "Patricia Nolan",
+        "display_name": "pnolan",
+        "email": "pnolan.rn@homeinfusionkc.com",
+        "title": "Infusion Nurse"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U004": {
+      "id": "U004",
+      "team_id": "T001",
+      "name": "dpark",
+      "deleted": false,
+      "real_name": "David Park",
+      "profile": {
+        "real_name": "David Park",
+        "display_name": "dpark",
+        "email": "dpark@careig.com",
+        "title": "Clinical Coordinator"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U005": {
+      "id": "U005",
+      "team_id": "T001",
+      "name": "jmartinez",
+      "deleted": false,
+      "real_name": "Julio Martinez",
+      "profile": {
+        "real_name": "Julio Martinez",
+        "display_name": "jmartinez",
+        "email": "jmartinez@careig.com",
+        "title": "Billing Specialist"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U006": {
+      "id": "U006",
+      "team_id": "T001",
+      "name": "tnguyen",
+      "deleted": false,
+      "real_name": "Tanya Nguyen",
+      "profile": {
+        "real_name": "Tanya Nguyen",
+        "display_name": "tnguyen",
+        "email": "tnguyen@careig.com",
+        "title": "AR Specialist"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U007": {
+      "id": "U007",
+      "team_id": "T001",
+      "name": "swright",
+      "deleted": false,
+      "real_name": "Sandra Wright",
+      "profile": {
+        "real_name": "Sandra Wright",
+        "display_name": "swright",
+        "email": "swright@careig.com",
+        "title": "Director of Revenue Cycle"
+      },
+      "is_admin": true,
+      "is_owner": true,
+      "is_bot": false
+    }
+  },
+  "channels": {
+    "C001": {
+      "id": "C001",
+      "name": "intake-team",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1640995200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "intake-team",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1640995200,
+      "creator": "U007",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Intake workflow notifications \u2014 BVS assignments, PA submissions, formulary issues, financial hardship flags",
+        "creator": "U007",
+        "last_set": 1640995200
+      },
+      "purpose": {
+        "value": "Intake workflow notifications \u2014 BVS assignments, PA submissions, formulary issues, financial hardship flags",
+        "creator": "U007",
+        "last_set": 1640995200
+      }
+    },
+    "C002": {
+      "id": "C002",
+      "name": "intake-alerts",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1640995200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "intake-alerts",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1640995200,
+      "creator": "U007",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Intake hold alerts \u2014 missing NPI, unreachable patients, consent issues, PA holds, drug mismatches",
+        "creator": "U007",
+        "last_set": 1640995200
+      },
+      "purpose": {
+        "value": "Intake hold alerts \u2014 missing NPI, unreachable patients, consent issues, PA holds, drug mismatches",
+        "creator": "U007",
+        "last_set": 1640995200
+      }
+    },
+    "C003": {
+      "id": "C003",
+      "name": "intake-mgmt",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1640995200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "intake-mgmt",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1640995200,
+      "creator": "U007",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Intake management escalations \u2014 OON pharmacy decisions, formulary unresolved, PA delays",
+        "creator": "U007",
+        "last_set": 1640995200
+      },
+      "purpose": {
+        "value": "Intake management escalations \u2014 OON pharmacy decisions, formulary unresolved, PA delays",
+        "creator": "U007",
+        "last_set": 1640995200
+      }
+    },
+    "C004": {
+      "id": "C004",
+      "name": "clinical-scheduling",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1640995200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "clinical-scheduling",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1640995200,
+      "creator": "U007",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Clinical workflow \u2014 PA approvals, scheduling, supply holds, visit completion, unsigned notes",
+        "creator": "U007",
+        "last_set": 1640995200
+      },
+      "purpose": {
+        "value": "Clinical workflow \u2014 PA approvals, scheduling, supply holds, visit completion, unsigned notes",
+        "creator": "U007",
+        "last_set": 1640995200
+      }
+    },
+    "C005": {
+      "id": "C005",
+      "name": "billing",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1640995200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "billing",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1640995200,
+      "creator": "U007",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Billing workflow \u2014 claim submissions, AR follow-ups, claim holds, timely filing risks",
+        "creator": "U007",
+        "last_set": 1640995200
+      },
+      "purpose": {
+        "value": "Billing workflow \u2014 claim submissions, AR follow-ups, claim holds, timely filing risks",
+        "creator": "U007",
+        "last_set": 1640995200
+      }
+    },
+    "C006": {
+      "id": "C006",
+      "name": "billing-appeals",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1640995200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "billing-appeals",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1640995200,
+      "creator": "U007",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Denial and appeal notifications \u2014 PA denials, denial filings, appeal submissions",
+        "creator": "U007",
+        "last_set": 1640995200
+      },
+      "purpose": {
+        "value": "Denial and appeal notifications \u2014 PA denials, denial filings, appeal submissions",
+        "creator": "U007",
+        "last_set": 1640995200
+      }
+    },
+    "C007": {
+      "id": "C007",
+      "name": "billing-mgmt",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1640995200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "billing-mgmt",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1640995200,
+      "creator": "U007",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Billing management escalations \u2014 underpayments, benefit type issues, write-off requests, collections, L2 denials",
+        "creator": "U007",
+        "last_set": 1640995200
+      },
+      "purpose": {
+        "value": "Billing management escalations \u2014 underpayments, benefit type issues, write-off requests, collections, L2 denials",
+        "creator": "U007",
+        "last_set": 1640995200
+      }
+    },
+    "C008": {
+      "id": "C008",
+      "name": "compliance",
+      "is_channel": false,
+      "is_group": true,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1640995200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "compliance",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1640995200,
+      "creator": "U007",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Compliance alerts \u2014 legal threats, fraud reports (restricted access)",
+        "creator": "U007",
+        "last_set": 1640995200
+      },
+      "purpose": {
+        "value": "Compliance alerts \u2014 legal threats, fraud reports (restricted access)",
+        "creator": "U007",
+        "last_set": 1640995200
+      }
+    }
+  },
+  "messages": {
+    "C001": [
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "BVS ASSIGNED CIG_2026_0341 | Payer: Sunflower Health Commercial PPO | Drug: Privigen | Dose: 40g",
+        "ts": "1788461600.000000",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "PA SUBMITTED CIG_2026_0341 | Payer: Sunflower Health Commercial PPO | Drug: Privigen | Ref: SHC-PA-20260912-7803",
+        "ts": "1789325100.000000",
+        "team": "T001"
+      }
+    ],
+    "C002": [],
+    "C003": [],
+    "C004": [
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "PA APPROVED CIG_2026_0341 | Drug: Privigen | Dose: 40g | PA#: PA-2026-SHC-41092 | Exp: 2027-03-20 | Drug Source: CareIG",
+        "ts": "1790021200.000000",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U004",
+        "text": "SCHEDULED CIG_2026_0341 | Date: 2026-10-05 | Nurse: Patricia Nolan, RN",
+        "ts": "1790710700.000000",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "VISIT COMPLETE CIG_2026_0341 | DOS: 2026-10-05",
+        "ts": "1791320200.000000",
+        "team": "T001"
+      }
+    ],
+    "C005": [],
+    "C006": [],
+    "C007": [],
+    "C008": []
+  },
+  "counters": {
+    "messageId": 1000000
+  }
+}
