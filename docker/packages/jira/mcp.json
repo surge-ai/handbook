@@ -1,0 +1,143 @@
+{
+  "run": {"command": "python", "args": ["-m", "jira_mock"]},
+  "toolsets": {
+    "read": [
+      "get_attachments",
+      "get_boards",
+      "get_current_user",
+      "get_epic_issues",
+      "get_issue",
+      "get_link_types",
+      "get_project_issues",
+      "get_sprint_issues",
+      "get_sprints_from_board",
+      "get_transitions",
+      "get_users",
+      "get_watchers",
+      "get_worklogs",
+      "list_sites",
+      "search",
+      "search_fields"
+    ],
+    "write": [
+      "add_attachment",
+      "add_comment",
+      "add_watcher",
+      "add_worklog",
+      "create_board",
+      "create_status",
+      "create_issue",
+      "create_sprint",
+      "create_user",
+      "delete_issue",
+      "link_issues",
+      "remove_watcher",
+      "transition_issue",
+      "update_estimate",
+      "update_issue",
+      "update_sprint",
+      "upsert_workflow_transition"
+    ],
+    "users": [
+      "create_user",
+      "get_current_user",
+      "get_users"
+    ],
+    "sites": [
+      "list_sites"
+    ],
+    "issues": [
+      "create_issue",
+      "delete_issue",
+      "get_epic_issues",
+      "get_issue",
+      "get_link_types",
+      "get_project_issues",
+      "link_issues",
+      "search",
+      "search_fields",
+      "update_issue"
+    ],
+    "workflow": [
+      "create_status",
+      "get_transitions",
+      "transition_issue",
+      "upsert_workflow_transition"
+    ],
+    "sprints": [
+      "create_board",
+      "create_sprint",
+      "get_boards",
+      "get_sprint_issues",
+      "get_sprints_from_board",
+      "update_sprint"
+    ],
+    "time": [
+      "add_worklog",
+      "get_worklogs",
+      "update_estimate"
+    ],
+    "collaboration": [
+      "add_attachment",
+      "add_comment",
+      "add_watcher",
+      "get_attachments",
+      "get_watchers",
+      "remove_watcher"
+    ],
+    "admin": [
+      "create_board",
+      "create_status",
+      "create_user",
+      "create_sprint",
+      "delete_issue",
+      "update_sprint",
+      "upsert_workflow_transition"
+    ],
+    "core": [
+      "add_comment",
+      "create_issue",
+      "get_issue",
+      "get_project_issues",
+      "get_transitions",
+      "get_current_user",
+      "get_users",
+      "search",
+      "transition_issue",
+      "update_issue",
+      "create_sprint",
+      "delete_issue",
+      "get_epic_issues",
+      "get_link_types",
+      "get_sprint_issues",
+      "get_sprints_from_board",
+      "link_issues",
+      "search_fields",
+      "update_sprint"
+    ],
+    "toolathlon_legacy": [
+      "add_comment",
+      "create_issue",
+      "create_sprint",
+      "delete_issue",
+      "get_epic_issues",
+      "get_boards",
+      "get_current_user",
+      "get_issue",
+      "get_link_types",
+      "get_project_issues",
+      "get_users",
+      "get_sprint_issues",
+      "get_sprints_from_board",
+      "link_issues",
+      "search",
+      "search_fields",
+      "update_issue",
+      "update_sprint"
+    ],
+    "state": [
+      "export_state",
+      "import_state"
+    ]
+  }
+}

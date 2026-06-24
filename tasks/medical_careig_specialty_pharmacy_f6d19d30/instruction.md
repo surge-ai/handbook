@@ -1,0 +1,3 @@
+I just called a patient a few minutes ago as part of the process for Patient Financial Counseling. I've provided you with the transcript of this phone call.
+
+Something came up, so I'd like you to do the few things I left undone after the phone call. Follow the instructions found in the standard procedure document for what remains to be done in section 7.3 only. Make sure no globally defined stops apply, and if any do, follow procedure accordingly. You can also assume that the coverage term covers the patient regardless of the dates for coverage in benefits.xlsx. I've already handled escalations to verify the patient's required payment in the transcript is correct and you do not need to flag that as a problem.

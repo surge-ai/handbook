@@ -1,0 +1,3686 @@
+{
+  "events": {
+    "evt-001": {
+      "summary": "HR Leadership Team Weekly Sync",
+      "start": {
+        "dateTime": "2026-01-05T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-05T10:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "Weekly HR leadership standup \u2014 all HR team members",
+      "location": "HR Conference Room B",
+      "id": "evt-001"
+    },
+    "evt-002": {
+      "summary": "1:1 \u2014 Derek Okonkwo",
+      "start": {
+        "dateTime": "2026-01-05T10:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-05T11:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Conference Room B",
+      "id": "evt-002"
+    },
+    "evt-003": {
+      "summary": "Budget Review \u2014 HR FY2026 Q2",
+      "start": {
+        "dateTime": "2026-01-05T13:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-05T14:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "Quarterly HR budget review with VP Whitfield and Finance",
+      "location": "Admin Building 302",
+      "id": "evt-003"
+    },
+    "evt-004": {
+      "summary": "Policy Review \u2014 Remote Work Guidelines",
+      "start": {
+        "dateTime": "2026-01-05T15:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-05T16:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-004"
+    },
+    "evt-005": {
+      "summary": "1:1 \u2014 Patricia Huang",
+      "start": {
+        "dateTime": "2026-01-06T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-06T09:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-005"
+    },
+    "evt-006": {
+      "summary": "Compliance Training \u2014 FLSA Update (All HR Staff)",
+      "start": {
+        "dateTime": "2026-01-06T10:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-06T12:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Conference Room A",
+      "id": "evt-006"
+    },
+    "evt-007": {
+      "summary": "Faculty Senate Observer \u2014 Academic Affairs",
+      "start": {
+        "dateTime": "2026-01-06T14:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-06T15:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "Main Hall 210",
+      "id": "evt-007"
+    },
+    "evt-008": {
+      "summary": "Case Review \u2014 Open ER Items",
+      "start": {
+        "dateTime": "2026-01-06T16:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-06T17:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-008"
+    },
+    "evt-009": {
+      "summary": "1:1 \u2014 Marta Voss",
+      "start": {
+        "dateTime": "2026-01-07T08:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-07T08:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-009"
+    },
+    "evt-010": {
+      "summary": "Recruiting Debrief \u2014 Research Admin Specialist",
+      "start": {
+        "dateTime": "2026-01-07T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-07T10:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Conference Room B",
+      "id": "evt-010"
+    },
+    "evt-011": {
+      "summary": "VP Standing Sync \u2014 Whitfield",
+      "start": {
+        "dateTime": "2026-01-07T11:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-07T11:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "Admin Building 401",
+      "id": "evt-011"
+    },
+    "evt-012": {
+      "summary": "Written Warning Review \u2014 HR Coordinator Debrief",
+      "start": {
+        "dateTime": "2026-01-07T13:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-07T14:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-012"
+    },
+    "evt-013": {
+      "summary": "Department Heads Forum \u2014 Monthly",
+      "start": {
+        "dateTime": "2026-01-07T14:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-07T16:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "Admin Building 302",
+      "id": "evt-013"
+    },
+    "evt-014": {
+      "summary": "1:1 \u2014 Calvin Briggs",
+      "start": {
+        "dateTime": "2026-01-08T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-08T09:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-014"
+    },
+    "evt-015": {
+      "summary": "FMLA Case Review \u2014 Huang",
+      "start": {
+        "dateTime": "2026-01-08T10:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-08T10:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-015"
+    },
+    "evt-016": {
+      "summary": "New Hire Orientation Debrief \u2014 IT Access Review",
+      "start": {
+        "dateTime": "2026-01-08T11:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-08T12:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Conference Room A",
+      "id": "evt-016"
+    },
+    "evt-017": {
+      "summary": "Strategic Planning \u2014 HR Initiatives FY2026",
+      "start": {
+        "dateTime": "2026-01-08T13:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-08T16:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "Admin Building 302",
+      "id": "evt-017"
+    },
+    "evt-018": {
+      "summary": "1:1 \u2014 Jenna Park (IT Access)",
+      "start": {
+        "dateTime": "2026-01-09T08:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-09T08:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-018"
+    },
+    "evt-019": {
+      "summary": "Recruiting Panel \u2014 Research Admin Specialist (Interview Day)",
+      "start": {
+        "dateTime": "2026-01-09T10:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-09T13:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Conference Room A",
+      "id": "evt-019"
+    },
+    "evt-020": {
+      "summary": "Employee Handbook Update \u2014 Legal Review Kickoff",
+      "start": {
+        "dateTime": "2026-01-09T14:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-09T15:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "Admin Building 302",
+      "id": "evt-020"
+    },
+    "evt-021": {
+      "summary": "All-Staff HR Comms Planning",
+      "start": {
+        "dateTime": "2026-01-12T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-12T10:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Conference Room B",
+      "id": "evt-021"
+    },
+    "evt-022": {
+      "summary": "HR Leadership Team Weekly Sync",
+      "start": {
+        "dateTime": "2026-01-12T10:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-12T11:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Conference Room B",
+      "id": "evt-022"
+    },
+    "evt-023": {
+      "summary": "1:1 \u2014 Derek Okonkwo",
+      "start": {
+        "dateTime": "2026-01-12T13:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-12T13:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-023"
+    },
+    "evt-024": {
+      "summary": "PIP Approval Review \u2014 Communications",
+      "start": {
+        "dateTime": "2026-01-12T14:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-12T15:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-024"
+    },
+    "evt-025": {
+      "summary": "Provost Office Liaison Meeting",
+      "start": {
+        "dateTime": "2026-01-12T15:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-12T16:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "Admin Building 401",
+      "id": "evt-025"
+    },
+    "evt-026": {
+      "summary": "1:1 \u2014 Patricia Huang",
+      "start": {
+        "dateTime": "2026-01-13T08:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-13T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-026"
+    },
+    "evt-027": {
+      "summary": "FMLA Certification Review \u2014 Huang Handoff",
+      "start": {
+        "dateTime": "2026-01-13T09:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-13T10:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-027"
+    },
+    "evt-028": {
+      "summary": "Candidate Debrief \u2014 Research Admin Specialist",
+      "start": {
+        "dateTime": "2026-01-13T10:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-13T11:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Conference Room B",
+      "id": "evt-028"
+    },
+    "evt-029": {
+      "summary": "Policy Working Group \u2014 Leave Policy Revisions",
+      "start": {
+        "dateTime": "2026-01-13T13:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-13T15:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Conference Room A",
+      "id": "evt-029"
+    },
+    "evt-030": {
+      "summary": "Open Door Hours",
+      "start": {
+        "dateTime": "2026-01-13T15:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-13T17:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-030"
+    },
+    "evt-031": {
+      "summary": "1:1 \u2014 Marta Voss",
+      "start": {
+        "dateTime": "2026-01-14T08:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-14T08:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-031"
+    },
+    "evt-032": {
+      "summary": "Offboarding Authorization \u2014 Separation Review",
+      "start": {
+        "dateTime": "2026-01-14T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-14T10:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-032"
+    },
+    "evt-033": {
+      "summary": "VP Standing Sync \u2014 Whitfield",
+      "start": {
+        "dateTime": "2026-01-14T11:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-14T11:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "Admin Building 401",
+      "id": "evt-033"
+    },
+    "evt-034": {
+      "summary": "Department Heads Forum \u2014 Monthly",
+      "start": {
+        "dateTime": "2026-01-14T14:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-14T16:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "Admin Building 302",
+      "id": "evt-034"
+    },
+    "evt-035": {
+      "summary": "1:1 \u2014 Calvin Briggs",
+      "start": {
+        "dateTime": "2026-01-15T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-15T09:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-035"
+    },
+    "evt-036": {
+      "summary": "PIP Initiation Sign-Off \u2014 Communications Dept",
+      "start": {
+        "dateTime": "2026-01-15T10:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-15T11:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-036"
+    },
+    "evt-037": {
+      "summary": "HR Metrics Dashboard Review \u2014 Q1",
+      "start": {
+        "dateTime": "2026-01-15T13:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-15T14:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Conference Room A",
+      "id": "evt-037"
+    },
+    "evt-038": {
+      "summary": "Open Door Hours",
+      "start": {
+        "dateTime": "2026-01-15T15:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-15T17:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-038"
+    },
+    "evt-039": {
+      "summary": "Benefits Plan Renewal Meeting \u2014 Insurance Broker",
+      "start": {
+        "dateTime": "2026-01-16T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-16T11:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "Admin Building 302",
+      "id": "evt-039"
+    },
+    "evt-040": {
+      "summary": "1:1 \u2014 Jenna Park (IT Access)",
+      "start": {
+        "dateTime": "2026-01-16T11:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-16T12:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-040"
+    },
+    "evt-041": {
+      "summary": "Annual Performance Eval Planning \u2014 Prep Session",
+      "start": {
+        "dateTime": "2026-01-16T13:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-16T15:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Conference Room B",
+      "id": "evt-041"
+    },
+    "evt-042": {
+      "summary": "HR Leadership Team Weekly Sync",
+      "start": {
+        "dateTime": "2026-01-20T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-20T09:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Conference Room B",
+      "id": "evt-042"
+    },
+    "evt-043": {
+      "summary": "1:1 \u2014 Derek Okonkwo",
+      "start": {
+        "dateTime": "2026-01-19T10:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-19T11:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-043"
+    },
+    "evt-044": {
+      "summary": "Involuntary Separation Authorization Review",
+      "start": {
+        "dateTime": "2026-01-20T13:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-20T14:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-044"
+    },
+    "evt-045": {
+      "summary": "Written Warning Sign-Off \u2014 HR Coordinator",
+      "start": {
+        "dateTime": "2026-01-20T14:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-20T15:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-045"
+    },
+    "evt-046": {
+      "summary": "1:1 \u2014 Patricia Huang",
+      "start": {
+        "dateTime": "2026-01-21T08:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-21T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-046"
+    },
+    "evt-047": {
+      "summary": "University Compliance Committee",
+      "start": {
+        "dateTime": "2026-01-21T10:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-21T12:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "Admin Building 401",
+      "id": "evt-047"
+    },
+    "evt-048": {
+      "summary": "Handbook Legal Review \u2014 Round 2",
+      "start": {
+        "dateTime": "2026-01-21T13:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-21T15:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Conference Room A",
+      "id": "evt-048"
+    },
+    "evt-049": {
+      "summary": "Open Door Hours",
+      "start": {
+        "dateTime": "2026-01-21T15:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-21T17:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-049"
+    },
+    "evt-050": {
+      "summary": "1:1 \u2014 Marta Voss",
+      "start": {
+        "dateTime": "2026-01-22T08:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-22T08:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-050"
+    },
+    "evt-051": {
+      "summary": "VP Standing Sync \u2014 Whitfield",
+      "start": {
+        "dateTime": "2026-01-22T11:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-22T11:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "Admin Building 401",
+      "id": "evt-051"
+    },
+    "evt-052": {
+      "summary": "Staff Engagement Survey Planning",
+      "start": {
+        "dateTime": "2026-01-22T13:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-22T14:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Conference Room B",
+      "id": "evt-052"
+    },
+    "evt-053": {
+      "summary": "Exit Interview \u2013 Diana Ramirez",
+      "start": {
+        "dateTime": "2026-01-22T15:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-22T15:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-053"
+    },
+    "evt-054": {
+      "summary": "1:1 \u2014 Calvin Briggs",
+      "start": {
+        "dateTime": "2026-01-23T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-23T09:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-054"
+    },
+    "evt-055": {
+      "summary": "Recruiting Panel \u2014 Library Services Coordinator (Interview Day)",
+      "start": {
+        "dateTime": "2026-01-23T10:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-23T13:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Conference Room A",
+      "id": "evt-055"
+    },
+    "evt-056": {
+      "summary": "HR Risk Assessment \u2014 Annual Review",
+      "start": {
+        "dateTime": "2026-01-23T14:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-23T16:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "Admin Building 302",
+      "id": "evt-056"
+    },
+    "evt-057": {
+      "summary": "HR Leadership Team Weekly Sync",
+      "start": {
+        "dateTime": "2026-01-26T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-26T10:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Conference Room B",
+      "id": "evt-057"
+    },
+    "evt-058": {
+      "summary": "1:1 \u2014 Derek Okonkwo",
+      "start": {
+        "dateTime": "2026-01-26T10:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-26T11:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-058"
+    },
+    "evt-059": {
+      "summary": "ADA Interactive Process \u2014 Huang Check-In",
+      "start": {
+        "dateTime": "2026-01-26T13:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-26T13:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-059"
+    },
+    "evt-060": {
+      "summary": "Provost Office Liaison Meeting",
+      "start": {
+        "dateTime": "2026-01-26T14:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-26T15:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "Admin Building 401",
+      "id": "evt-060"
+    },
+    "evt-061": {
+      "summary": "Department Heads Forum \u2014 Monthly",
+      "start": {
+        "dateTime": "2026-01-26T15:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-26T17:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "Admin Building 302",
+      "id": "evt-061"
+    },
+    "evt-062": {
+      "summary": "1:1 \u2014 Patricia Huang",
+      "start": {
+        "dateTime": "2026-01-27T08:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-27T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-062"
+    },
+    "evt-063": {
+      "summary": "Compensation Benchmarking \u2014 Finance Collaboration",
+      "start": {
+        "dateTime": "2026-01-27T09:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-27T11:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "Finance Suite 105",
+      "id": "evt-063"
+    },
+    "evt-064": {
+      "summary": "Open Door Hours",
+      "start": {
+        "dateTime": "2026-01-27T13:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-27T15:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-064"
+    },
+    "evt-065": {
+      "summary": "Handbook Legal Review \u2014 Final Round",
+      "start": {
+        "dateTime": "2026-01-27T15:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-27T17:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Conference Room A",
+      "id": "evt-065"
+    },
+    "evt-066": {
+      "summary": "1:1 \u2014 Marta Voss",
+      "start": {
+        "dateTime": "2026-01-28T08:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-28T08:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-066"
+    },
+    "evt-067": {
+      "summary": "VP Standing Sync \u2014 Whitfield",
+      "start": {
+        "dateTime": "2026-01-28T11:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-28T11:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "Admin Building 401",
+      "id": "evt-067"
+    },
+    "evt-068": {
+      "summary": "Benefits Broker Follow-Up \u2014 Plan Options",
+      "start": {
+        "dateTime": "2026-01-28T13:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-28T14:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-068"
+    },
+    "evt-069": {
+      "summary": "PIP Mid-Check \u2014 Communications Dept",
+      "start": {
+        "dateTime": "2026-01-28T14:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-28T15:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-069"
+    },
+    "evt-070": {
+      "summary": "1:1 \u2014 Calvin Briggs",
+      "start": {
+        "dateTime": "2026-01-29T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-29T09:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-070"
+    },
+    "evt-071": {
+      "summary": "University Leadership Retreat \u2014 Day 1",
+      "start": {
+        "dateTime": "2026-01-29T10:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-29T17:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "Ridgefield Conference Center",
+      "id": "evt-071"
+    },
+    "evt-072": {
+      "summary": "University Leadership Retreat \u2014 Day 2",
+      "start": {
+        "dateTime": "2026-01-30T08:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-30T16:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "Ridgefield Conference Center",
+      "id": "evt-072"
+    },
+    "evt-073": {
+      "summary": "HR Leadership Team Weekly Sync",
+      "start": {
+        "dateTime": "2026-02-02T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-02T10:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Conference Room B",
+      "id": "evt-073"
+    },
+    "evt-074": {
+      "summary": "1:1 \u2014 Derek Okonkwo",
+      "start": {
+        "dateTime": "2026-02-02T10:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-02T11:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-074"
+    },
+    "evt-075": {
+      "summary": "Probationary Review Sign-Off \u2014 Academic Affairs",
+      "start": {
+        "dateTime": "2026-02-02T13:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-02T14:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-075"
+    },
+    "evt-076": {
+      "summary": "Staff Engagement Survey \u2014 Results Preview",
+      "start": {
+        "dateTime": "2026-02-02T14:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-02T16:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Conference Room A",
+      "id": "evt-076"
+    },
+    "evt-077": {
+      "summary": "1:1 \u2014 Patricia Huang",
+      "start": {
+        "dateTime": "2026-02-03T08:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-03T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-077"
+    },
+    "evt-078": {
+      "summary": "FMLA Case Review \u2014 New Request",
+      "start": {
+        "dateTime": "2026-02-03T09:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-03T10:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-078"
+    },
+    "evt-079": {
+      "summary": "Compensation Structure Presentation \u2014 VP Review",
+      "start": {
+        "dateTime": "2026-02-03T10:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-03T12:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "Admin Building 401",
+      "id": "evt-079"
+    },
+    "evt-080": {
+      "summary": "Open Door Hours",
+      "start": {
+        "dateTime": "2026-02-03T14:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-03T16:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-080"
+    },
+    "evt-081": {
+      "summary": "1:1 \u2014 Marta Voss",
+      "start": {
+        "dateTime": "2026-02-04T08:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-04T08:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-081"
+    },
+    "evt-082": {
+      "summary": "VP Standing Sync \u2014 Whitfield",
+      "start": {
+        "dateTime": "2026-02-04T11:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-04T11:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "Admin Building 401",
+      "id": "evt-082"
+    },
+    "evt-083": {
+      "summary": "Department Heads Forum \u2014 Monthly",
+      "start": {
+        "dateTime": "2026-02-04T14:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-04T16:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "Admin Building 302",
+      "id": "evt-083"
+    },
+    "evt-084": {
+      "summary": "Recruiting Offer Review \u2014 Research Admin Specialist",
+      "start": {
+        "dateTime": "2026-02-04T16:15:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-04T17:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-084"
+    },
+    "evt-085": {
+      "summary": "1:1 \u2014 Calvin Briggs",
+      "start": {
+        "dateTime": "2026-02-05T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-05T09:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-085"
+    },
+    "evt-086": {
+      "summary": "Involuntary Termination Prep \u2014 Whitfield Co-Sign",
+      "start": {
+        "dateTime": "2026-02-05T10:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-05T11:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "Admin Building 401",
+      "id": "evt-086"
+    },
+    "evt-087": {
+      "summary": "HR Policy Finalization \u2014 Employee Handbook",
+      "start": {
+        "dateTime": "2026-02-05T13:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-05T15:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Conference Room A",
+      "id": "evt-087"
+    },
+    "evt-089": {
+      "summary": "HR Leadership Team Weekly Sync",
+      "start": {
+        "dateTime": "2026-02-09T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-09T10:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Conference Room B",
+      "id": "evt-089"
+    },
+    "evt-090": {
+      "summary": "1:1 \u2014 Derek Okonkwo",
+      "start": {
+        "dateTime": "2026-02-09T10:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-09T11:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-090"
+    },
+    "evt-091": {
+      "summary": "Benefits Renewal \u2014 Final Recommendation to VP",
+      "start": {
+        "dateTime": "2026-02-09T13:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-09T14:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "Admin Building 401",
+      "id": "evt-091"
+    },
+    "evt-092": {
+      "summary": "Provost Office Liaison Meeting",
+      "start": {
+        "dateTime": "2026-02-09T15:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-09T16:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "Admin Building 401",
+      "id": "evt-092"
+    },
+    "evt-093": {
+      "summary": "1:1 \u2014 Patricia Huang",
+      "start": {
+        "dateTime": "2026-02-10T08:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-10T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-093"
+    },
+    "evt-094": {
+      "summary": "Separation Case Review \u2014 Active Offboardings",
+      "start": {
+        "dateTime": "2026-02-10T09:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-10T11:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-094"
+    },
+    "evt-095": {
+      "summary": "Open Door Hours",
+      "start": {
+        "dateTime": "2026-02-10T13:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-10T15:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-095"
+    },
+    "evt-096": {
+      "summary": "VP Standing Sync \u2014 Whitfield",
+      "start": {
+        "dateTime": "2026-02-10T15:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-10T16:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "Admin Building 401",
+      "id": "evt-096"
+    },
+    "evt-097": {
+      "summary": "1:1 \u2014 Marta Voss",
+      "start": {
+        "dateTime": "2026-02-11T08:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-11T08:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-097"
+    },
+    "evt-098": {
+      "summary": "Colorado HR Compliance Webinar",
+      "start": {
+        "dateTime": "2026-02-11T10:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-11T12:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "Virtual",
+      "id": "evt-098"
+    },
+    "evt-099": {
+      "summary": "ADA Interactive Process \u2014 Status Review",
+      "start": {
+        "dateTime": "2026-02-11T13:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-11T14:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-099"
+    },
+    "evt-100": {
+      "summary": "Recruiting Debrief \u2014 Library Services Coordinator",
+      "start": {
+        "dateTime": "2026-02-11T14:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-11T15:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Conference Room B",
+      "id": "evt-100"
+    },
+    "evt-101": {
+      "summary": "1:1 \u2014 Calvin Briggs",
+      "start": {
+        "dateTime": "2026-02-12T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-12T09:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-101"
+    },
+    "evt-102": {
+      "summary": "University Compliance Committee",
+      "start": {
+        "dateTime": "2026-02-12T10:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-12T12:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "Admin Building 401",
+      "id": "evt-102"
+    },
+    "evt-103": {
+      "summary": "SHRM Chapter Lunch \u2014 Monthly",
+      "start": {
+        "dateTime": "2026-02-12T12:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-12T13:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "Denver Marriott \u2014 Ballroom B",
+      "id": "evt-103"
+    },
+    "evt-104": {
+      "summary": "Evaluation Cycle Prep \u2014 Template Review",
+      "start": {
+        "dateTime": "2026-02-12T14:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-12T15:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Conference Room A",
+      "id": "evt-104"
+    },
+    "evt-106": {
+      "summary": "HR Leadership Team Weekly Sync",
+      "start": {
+        "dateTime": "2026-02-13T10:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-13T11:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Conference Room B",
+      "id": "evt-106"
+    },
+    "evt-107": {
+      "summary": "Policy Rollout Planning \u2014 New Employee Handbook",
+      "start": {
+        "dateTime": "2026-02-13T13:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-13T14:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Conference Room A",
+      "id": "evt-107"
+    },
+    "evt-108": {
+      "summary": "1:1 \u2014 Derek Okonkwo",
+      "start": {
+        "dateTime": "2026-02-13T15:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-13T15:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-108"
+    },
+    "evt-109": {
+      "summary": "COHRE Annual Conference \u2014 Day 1",
+      "start": {
+        "dateTime": "2026-02-17T08:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-17T17:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "Denver Convention Center",
+      "id": "evt-109"
+    },
+    "evt-110": {
+      "summary": "COHRE Annual Conference \u2014 Day 2",
+      "start": {
+        "dateTime": "2026-02-18T08:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-18T17:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "Denver Convention Center",
+      "id": "evt-110"
+    },
+    "evt-111": {
+      "summary": "COHRE Annual Conference \u2014 Day 3",
+      "start": {
+        "dateTime": "2026-02-19T08:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-19T14:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "Denver Convention Center",
+      "id": "evt-111"
+    },
+    "evt-112": {
+      "summary": "FMLA Certification Due \u2013 Carl Medina",
+      "start": {
+        "dateTime": "2026-02-18T07:45:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-18T08:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "id": "evt-112"
+    },
+    "evt-113": {
+      "summary": "1:1 \u2014 Patricia Huang",
+      "start": {
+        "dateTime": "2026-02-19T14:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-19T14:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-113"
+    },
+    "evt-114": {
+      "summary": "HR Leadership Team Weekly Sync",
+      "start": {
+        "dateTime": "2026-02-20T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-20T10:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Conference Room B",
+      "id": "evt-114"
+    },
+    "evt-115": {
+      "summary": "VP Standing Sync \u2014 Whitfield",
+      "start": {
+        "dateTime": "2026-02-20T11:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-20T11:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "Admin Building 401",
+      "id": "evt-115"
+    },
+    "evt-116": {
+      "summary": "PIP Review \u2013 Austin Diaz",
+      "start": {
+        "dateTime": "2026-02-20T13:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-20T14:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-116"
+    },
+    "evt-117": {
+      "summary": "Department Heads Forum \u2014 Monthly",
+      "start": {
+        "dateTime": "2026-02-20T14:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-20T16:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "Admin Building 302",
+      "id": "evt-117"
+    },
+    "evt-118": {
+      "summary": "1:1 \u2014 Marta Voss",
+      "start": {
+        "dateTime": "2026-02-23T08:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-23T08:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-118"
+    },
+    "evt-119": {
+      "summary": "HR Leadership Team Weekly Sync",
+      "start": {
+        "dateTime": "2026-02-23T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-23T10:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Conference Room B",
+      "id": "evt-119"
+    },
+    "evt-120": {
+      "summary": "1:1 \u2014 Derek Okonkwo",
+      "start": {
+        "dateTime": "2026-02-23T10:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-23T11:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-120"
+    },
+    "evt-121": {
+      "summary": "Compensation Review \u2014 Exempt Salary Bands",
+      "start": {
+        "dateTime": "2026-02-23T13:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-23T15:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Conference Room A",
+      "id": "evt-121"
+    },
+    "evt-122": {
+      "summary": "Open Door Hours",
+      "start": {
+        "dateTime": "2026-02-23T15:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-23T17:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-122"
+    },
+    "evt-123": {
+      "summary": "1:1 \u2014 Patricia Huang",
+      "start": {
+        "dateTime": "2026-02-24T08:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-24T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-123"
+    },
+    "evt-124": {
+      "summary": "Staff Engagement Survey \u2014 All-Hands Presentation",
+      "start": {
+        "dateTime": "2026-02-24T10:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-24T11:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "Main Hall Auditorium",
+      "id": "evt-124"
+    },
+    "evt-125": {
+      "summary": "University Compliance Committee",
+      "start": {
+        "dateTime": "2026-02-24T13:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-24T15:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "Admin Building 401",
+      "id": "evt-125"
+    },
+    "evt-126": {
+      "summary": "Handbook Rollout \u2014 Communications Team Brief",
+      "start": {
+        "dateTime": "2026-02-24T15:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-24T16:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "Communications Dept Suite",
+      "id": "evt-126"
+    },
+    "evt-127": {
+      "summary": "1:1 \u2014 Calvin Briggs",
+      "start": {
+        "dateTime": "2026-02-25T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-25T09:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-127"
+    },
+    "evt-128": {
+      "summary": "VP Standing Sync \u2014 Whitfield",
+      "start": {
+        "dateTime": "2026-02-25T11:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-25T11:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "Admin Building 401",
+      "id": "evt-128"
+    },
+    "evt-129": {
+      "summary": "Recruiting Panel \u2014 Library Services Coordinator (Round 2)",
+      "start": {
+        "dateTime": "2026-02-25T13:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-25T16:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Conference Room A",
+      "id": "evt-129"
+    },
+    "evt-130": {
+      "summary": "1:1 \u2014 Marta Voss",
+      "start": {
+        "dateTime": "2026-02-26T08:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-26T08:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-130"
+    },
+    "evt-131": {
+      "summary": "FMLA Case Update \u2014 Huang Debrief",
+      "start": {
+        "dateTime": "2026-02-26T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-26T09:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-131"
+    },
+    "evt-132": {
+      "summary": "Provost Office Liaison Meeting",
+      "start": {
+        "dateTime": "2026-02-26T10:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-26T11:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "Admin Building 401",
+      "id": "evt-132"
+    },
+    "evt-133": {
+      "summary": "Open Door Hours",
+      "start": {
+        "dateTime": "2026-02-26T14:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-26T16:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-133"
+    },
+    "evt-134": {
+      "summary": "1:1 \u2014 Derek Okonkwo",
+      "start": {
+        "dateTime": "2026-02-27T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-27T09:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-134"
+    },
+    "evt-135": {
+      "summary": "ADA Accommodation \u2014 Final Recommendation Sign-Off",
+      "start": {
+        "dateTime": "2026-02-27T10:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-27T11:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-135"
+    },
+    "evt-136": {
+      "summary": "SHRM Chapter Lunch \u2014 Monthly",
+      "start": {
+        "dateTime": "2026-02-27T12:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-27T13:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "Denver Marriott \u2014 Ballroom B",
+      "id": "evt-136"
+    },
+    "evt-137": {
+      "summary": "Q2 HR Planning \u2014 Ashford Prep Session",
+      "start": {
+        "dateTime": "2026-02-27T14:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-27T16:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-137"
+    },
+    "evt-138": {
+      "summary": "HR Leadership Team Weekly Sync",
+      "start": {
+        "dateTime": "2026-03-02T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-02T10:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Conference Room B",
+      "id": "evt-138"
+    },
+    "evt-139": {
+      "summary": "1:1 \u2014 Patricia Huang",
+      "start": {
+        "dateTime": "2026-03-02T10:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-02T11:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-139"
+    },
+    "evt-140": {
+      "summary": "Annual Evaluation Cycle Kickoff \u2014 Template 23 Send",
+      "start": {
+        "dateTime": "2026-03-02T13:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-02T14:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "SOP Section 14.1 \u2014 March 1 deadline. Send Template 23 to all supervisors.",
+      "location": "HR Director Office",
+      "id": "evt-140"
+    },
+    "evt-141": {
+      "summary": "Compensation Review \u2014 Non-Exempt Hourly Rates",
+      "start": {
+        "dateTime": "2026-03-02T14:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-02T16:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Conference Room A",
+      "id": "evt-141"
+    },
+    "evt-142": {
+      "summary": "1:1 \u2014 Marta Voss",
+      "start": {
+        "dateTime": "2026-03-03T08:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-03T08:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-142"
+    },
+    "evt-143": {
+      "summary": "Library Services Offer Review \u2014 Final Approval",
+      "start": {
+        "dateTime": "2026-03-03T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-03T09:45:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-143"
+    },
+    "evt-144": {
+      "summary": "Department Heads Forum \u2014 Monthly",
+      "start": {
+        "dateTime": "2026-03-03T14:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-03T16:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "Admin Building 302",
+      "id": "evt-144"
+    },
+    "evt-145": {
+      "summary": "VP Standing Sync \u2014 Whitfield",
+      "start": {
+        "dateTime": "2026-03-03T11:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-03T11:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "Admin Building 401",
+      "id": "evt-145"
+    },
+    "evt-146": {
+      "summary": "1:1 \u2014 Calvin Briggs",
+      "start": {
+        "dateTime": "2026-03-04T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-04T09:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-146"
+    },
+    "evt-147": {
+      "summary": "University Compliance Committee",
+      "start": {
+        "dateTime": "2026-03-04T10:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-04T12:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "Admin Building 401",
+      "id": "evt-147"
+    },
+    "evt-148": {
+      "summary": "Open Door Hours",
+      "start": {
+        "dateTime": "2026-03-04T14:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-04T16:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-148"
+    },
+    "evt-149": {
+      "summary": "Performance Log Audit \u2014 Q3 Prep",
+      "start": {
+        "dateTime": "2026-03-04T16:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-04T17:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-149"
+    },
+    "evt-150": {
+      "summary": "1:1 \u2014 Jenna Park (IT Access)",
+      "start": {
+        "dateTime": "2026-03-05T08:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-05T08:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-150"
+    },
+    "evt-151": {
+      "summary": "HR Leadership Team Weekly Sync",
+      "start": {
+        "dateTime": "2026-03-05T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-05T10:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Conference Room B",
+      "id": "evt-151"
+    },
+    "evt-152": {
+      "summary": "Evaluation Cycle \u2014 Supervisor List Review",
+      "start": {
+        "dateTime": "2026-03-05T10:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-05T12:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Conference Room A",
+      "id": "evt-152"
+    },
+    "evt-153": {
+      "summary": "SHRM Chapter Lunch \u2014 Monthly",
+      "start": {
+        "dateTime": "2026-03-05T12:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-05T13:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "Denver Marriott \u2014 Ballroom B",
+      "id": "evt-153"
+    },
+    "evt-154": {
+      "summary": "PIP Review \u2013 Austin Diaz",
+      "start": {
+        "dateTime": "2026-03-05T14:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-05T15:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-154"
+    },
+    "evt-155": {
+      "summary": "HR Leadership Team Weekly Sync",
+      "start": {
+        "dateTime": "2026-03-09T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-09T10:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Conference Room B",
+      "id": "evt-155"
+    },
+    "evt-156": {
+      "summary": "1:1 \u2014 Derek Okonkwo",
+      "start": {
+        "dateTime": "2026-03-09T10:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-09T11:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-156"
+    },
+    "evt-157": {
+      "summary": "Benefits Open Enrollment Planning \u2014 FY2027",
+      "start": {
+        "dateTime": "2026-03-09T13:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-09T15:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Conference Room A",
+      "id": "evt-157"
+    },
+    "evt-158": {
+      "summary": "Provost Office Liaison Meeting",
+      "start": {
+        "dateTime": "2026-03-09T15:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-09T16:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "Admin Building 401",
+      "id": "evt-158"
+    },
+    "evt-159": {
+      "summary": "1:1 \u2014 Patricia Huang",
+      "start": {
+        "dateTime": "2026-03-10T08:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-10T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-159"
+    },
+    "evt-160": {
+      "summary": "FMLA Return-to-Work Clearance Review",
+      "start": {
+        "dateTime": "2026-03-10T09:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-10T10:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-160"
+    },
+    "evt-161": {
+      "summary": "VP Standing Sync \u2014 Whitfield",
+      "start": {
+        "dateTime": "2026-03-10T11:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-10T11:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "Admin Building 401",
+      "id": "evt-161"
+    },
+    "evt-162": {
+      "summary": "Open Door Hours",
+      "start": {
+        "dateTime": "2026-03-10T14:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-10T16:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-162"
+    },
+    "evt-163": {
+      "summary": "1:1 \u2014 Marta Voss",
+      "start": {
+        "dateTime": "2026-03-11T08:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-11T08:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-163"
+    },
+    "evt-164": {
+      "summary": "HR Leadership Team Weekly Sync",
+      "start": {
+        "dateTime": "2026-03-11T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-11T10:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Conference Room B",
+      "id": "evt-164"
+    },
+    "evt-165": {
+      "summary": "Employee Relations Case Review \u2014 Voss",
+      "start": {
+        "dateTime": "2026-03-11T10:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-11T11:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-165"
+    },
+    "evt-166": {
+      "summary": "Department Heads Forum \u2014 Monthly",
+      "start": {
+        "dateTime": "2026-03-11T14:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-11T16:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "Admin Building 302",
+      "id": "evt-166"
+    },
+    "evt-167": {
+      "summary": "1:1 \u2014 Calvin Briggs",
+      "start": {
+        "dateTime": "2026-03-12T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-12T09:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-167"
+    },
+    "evt-168": {
+      "summary": "Q2 HR Budget vs. Actuals Review",
+      "start": {
+        "dateTime": "2026-03-12T10:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-12T12:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "Finance Suite 105",
+      "id": "evt-168"
+    },
+    "evt-169": {
+      "summary": "PIP Review \u2013 Austin Diaz",
+      "start": {
+        "dateTime": "2026-03-12T13:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-12T14:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-169"
+    },
+    "evt-170": {
+      "summary": "Recruiting Final Review \u2014 Library Services Coordinator",
+      "start": {
+        "dateTime": "2026-03-12T14:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-12T15:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Conference Room B",
+      "id": "evt-170"
+    },
+    "evt-171": {
+      "summary": "1:1 \u2014 Jenna Park (IT Access)",
+      "start": {
+        "dateTime": "2026-03-13T08:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-13T08:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-171"
+    },
+    "evt-172": {
+      "summary": "HR Leadership Team Weekly Sync",
+      "start": {
+        "dateTime": "2026-03-13T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-13T10:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Conference Room B",
+      "id": "evt-172"
+    },
+    "evt-173": {
+      "summary": "Annual Eval \u2014 Supervisor Reminder Follow-Up",
+      "start": {
+        "dateTime": "2026-03-13T10:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-13T11:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-173"
+    },
+    "evt-174": {
+      "summary": "Open Door Hours",
+      "start": {
+        "dateTime": "2026-03-13T14:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-13T16:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-174"
+    },
+    "evt-175": {
+      "summary": "HR Leadership Team Weekly Sync",
+      "start": {
+        "dateTime": "2026-03-16T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-16T10:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Conference Room B",
+      "id": "evt-175"
+    },
+    "evt-176": {
+      "summary": "PIP Review \u2013 Austin Diaz",
+      "start": {
+        "dateTime": "2026-03-16T10:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-16T12:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "PIP end date \u2014 Austin Diaz. Outcome report due from supervisor.",
+      "location": "HR Director Office",
+      "id": "evt-176"
+    },
+    "evt-177": {
+      "summary": "1:1 \u2014 Derek Okonkwo",
+      "start": {
+        "dateTime": "2026-03-16T13:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-16T13:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-177"
+    },
+    "evt-178": {
+      "summary": "VP Standing Sync \u2014 Whitfield",
+      "start": {
+        "dateTime": "2026-03-16T14:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-16T14:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "Admin Building 401",
+      "id": "evt-178"
+    },
+    "evt-179": {
+      "summary": "1:1 \u2014 Patricia Huang",
+      "start": {
+        "dateTime": "2026-03-17T08:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-17T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-179"
+    },
+    "evt-180": {
+      "summary": "Benefits Open Enrollment Design \u2014 Huang Collab",
+      "start": {
+        "dateTime": "2026-03-17T09:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-17T11:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Conference Room A",
+      "id": "evt-180"
+    },
+    "evt-181": {
+      "summary": "University Compliance Committee",
+      "start": {
+        "dateTime": "2026-03-17T13:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-17T15:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "Admin Building 401",
+      "id": "evt-181"
+    },
+    "evt-182": {
+      "summary": "Open Door Hours",
+      "start": {
+        "dateTime": "2026-03-17T15:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-17T17:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-182"
+    },
+    "evt-183": {
+      "summary": "1:1 \u2014 Marta Voss",
+      "start": {
+        "dateTime": "2026-03-18T08:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-18T08:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-183"
+    },
+    "evt-184": {
+      "summary": "HR Leadership Team Weekly Sync",
+      "start": {
+        "dateTime": "2026-03-18T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-18T10:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Conference Room B",
+      "id": "evt-184"
+    },
+    "evt-185": {
+      "summary": "Department Heads Forum \u2014 Monthly",
+      "start": {
+        "dateTime": "2026-03-18T14:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-18T16:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "Admin Building 302",
+      "id": "evt-185"
+    },
+    "evt-186": {
+      "summary": "SHRM Chapter Lunch \u2014 Monthly",
+      "start": {
+        "dateTime": "2026-03-18T12:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-18T13:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "Denver Marriott \u2014 Ballroom B",
+      "id": "evt-186"
+    },
+    "evt-187": {
+      "summary": "1:1 \u2014 Calvin Briggs",
+      "start": {
+        "dateTime": "2026-03-19T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-19T09:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-187"
+    },
+    "evt-188": {
+      "summary": "PIP Outcome Review \u2014 Next Steps Discussion",
+      "start": {
+        "dateTime": "2026-03-19T10:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-19T11:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-188"
+    },
+    "evt-189": {
+      "summary": "Evaluation Cycle \u2014 Mid-Check: Submissions Received",
+      "start": {
+        "dateTime": "2026-03-19T13:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-19T14:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Conference Room A",
+      "id": "evt-189"
+    },
+    "evt-190": {
+      "summary": "Open Door Hours",
+      "start": {
+        "dateTime": "2026-03-19T15:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-19T17:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-190"
+    },
+    "evt-191": {
+      "summary": "HR Leadership Team Weekly Sync",
+      "start": {
+        "dateTime": "2026-03-23T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-23T10:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Conference Room B",
+      "id": "evt-191"
+    },
+    "evt-192": {
+      "summary": "1:1 \u2014 Derek Okonkwo",
+      "start": {
+        "dateTime": "2026-03-23T10:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-23T11:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-192"
+    },
+    "evt-193": {
+      "summary": "Q3 HR Planning Session",
+      "start": {
+        "dateTime": "2026-03-23T13:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-23T16:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Conference Room A",
+      "id": "evt-193"
+    },
+    "evt-194": {
+      "summary": "1:1 \u2014 Patricia Huang",
+      "start": {
+        "dateTime": "2026-03-24T08:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-24T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-194"
+    },
+    "evt-195": {
+      "summary": "University Compliance Committee",
+      "start": {
+        "dateTime": "2026-03-24T10:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-24T12:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "Admin Building 401",
+      "id": "evt-195"
+    },
+    "evt-196": {
+      "summary": "Benefits Open Enrollment \u2014 Final Timeline Approval",
+      "start": {
+        "dateTime": "2026-03-24T13:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-24T15:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "Admin Building 401",
+      "id": "evt-196"
+    },
+    "evt-197": {
+      "summary": "1:1 \u2014 Marta Voss",
+      "start": {
+        "dateTime": "2026-03-25T08:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-25T08:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-197"
+    },
+    "evt-198": {
+      "summary": "VP Standing Sync \u2014 Whitfield",
+      "start": {
+        "dateTime": "2026-03-25T11:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-25T11:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "Admin Building 401",
+      "id": "evt-198"
+    },
+    "evt-199": {
+      "summary": "Provost Office Liaison Meeting",
+      "start": {
+        "dateTime": "2026-03-25T13:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-25T14:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "Admin Building 401",
+      "id": "evt-199"
+    },
+    "evt-200": {
+      "summary": "HR Department Retrospective \u2014 Q1 2026",
+      "start": {
+        "dateTime": "2026-03-25T14:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-25T17:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Conference Room A",
+      "id": "evt-200"
+    },
+    "evt-201": {
+      "summary": "1:1 \u2014 Calvin Briggs",
+      "start": {
+        "dateTime": "2026-03-26T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-26T09:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-201"
+    },
+    "evt-202": {
+      "summary": "HR Leadership Team Weekly Sync",
+      "start": {
+        "dateTime": "2026-03-26T10:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-26T11:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Conference Room B",
+      "id": "evt-202"
+    },
+    "evt-203": {
+      "summary": "Open Door Hours",
+      "start": {
+        "dateTime": "2026-03-26T14:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-26T16:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-203"
+    },
+    "evt-204": {
+      "summary": "1:1 \u2014 Jenna Park (IT Access)",
+      "start": {
+        "dateTime": "2026-03-27T08:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-27T08:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-204"
+    },
+    "evt-205": {
+      "summary": "Evaluation Cycle \u2014 Progress Check",
+      "start": {
+        "dateTime": "2026-03-27T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-27T10:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Conference Room A",
+      "id": "evt-205"
+    },
+    "evt-206": {
+      "summary": "Department Heads Forum \u2014 Monthly",
+      "start": {
+        "dateTime": "2026-03-27T14:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-27T16:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "Admin Building 302",
+      "id": "evt-206"
+    },
+    "evt-207": {
+      "summary": "HR Leadership Team Weekly Sync",
+      "start": {
+        "dateTime": "2026-03-30T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-30T10:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Conference Room B",
+      "id": "evt-207"
+    },
+    "evt-208": {
+      "summary": "1:1 \u2014 Derek Okonkwo",
+      "start": {
+        "dateTime": "2026-03-30T10:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-30T11:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-208"
+    },
+    "evt-209": {
+      "summary": "Q3 HR Budget Submission \u2014 Finance Deadline",
+      "start": {
+        "dateTime": "2026-03-30T13:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-30T15:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "Finance Suite 105",
+      "id": "evt-209"
+    },
+    "evt-210": {
+      "summary": "Open Door Hours",
+      "start": {
+        "dateTime": "2026-03-30T15:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-30T17:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-210"
+    },
+    "evt-211": {
+      "summary": "1:1 \u2014 Patricia Huang",
+      "start": {
+        "dateTime": "2026-03-31T08:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-31T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-211"
+    },
+    "evt-212": {
+      "summary": "VP Standing Sync \u2014 Whitfield",
+      "start": {
+        "dateTime": "2026-03-31T11:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-31T11:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "Admin Building 401",
+      "id": "evt-212"
+    },
+    "evt-213": {
+      "summary": "Q1 Wrap-Up \u2014 HR All-Hands",
+      "start": {
+        "dateTime": "2026-03-31T14:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-31T16:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Conference Room A",
+      "id": "evt-213"
+    },
+    "evt-214": {
+      "summary": "Deep Work \u2014 Policy Drafting",
+      "start": {
+        "dateTime": "2026-01-06T08:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-06T08:45:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-214"
+    },
+    "evt-215": {
+      "summary": "HR Metrics Review \u2014 Monthly Report",
+      "start": {
+        "dateTime": "2026-01-07T10:15:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-07T10:55:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-215"
+    },
+    "evt-216": {
+      "summary": "Case File Review \u2014 Open Investigations",
+      "start": {
+        "dateTime": "2026-01-08T08:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-08T08:45:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-216"
+    },
+    "evt-217": {
+      "summary": "Deep Work \u2014 Comp Structure Analysis",
+      "start": {
+        "dateTime": "2026-01-09T08:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-09T10:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-217"
+    },
+    "evt-218": {
+      "summary": "Onboarding Checklist Audit \u2014 January Cohort",
+      "start": {
+        "dateTime": "2026-01-12T08:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-12T08:45:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-218"
+    },
+    "evt-219": {
+      "summary": "ER Case Documentation Review",
+      "start": {
+        "dateTime": "2026-01-13T08:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-13T08:15:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-219"
+    },
+    "evt-220": {
+      "summary": "Jira Case Queue Review \u2014 Weekly",
+      "start": {
+        "dateTime": "2026-01-13T11:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-13T13:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-220"
+    },
+    "evt-221": {
+      "summary": "Deep Work \u2014 SOP Revision: Leave Policy",
+      "start": {
+        "dateTime": "2026-01-14T10:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-14T10:55:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-221"
+    },
+    "evt-222": {
+      "summary": "Jira Case Queue Review \u2014 Weekly",
+      "start": {
+        "dateTime": "2026-01-16T08:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-16T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-222"
+    },
+    "evt-223": {
+      "summary": "Deep Work \u2014 Annual Eval Planning",
+      "start": {
+        "dateTime": "2026-01-20T11:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-20T13:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-223"
+    },
+    "evt-224": {
+      "summary": "Jira Case Queue Review \u2014 Weekly",
+      "start": {
+        "dateTime": "2026-01-20T15:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-20T17:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-224"
+    },
+    "evt-225": {
+      "summary": "Deep Work \u2014 Handbook Revisions",
+      "start": {
+        "dateTime": "2026-01-21T09:15:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-21T10:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-225"
+    },
+    "evt-226": {
+      "summary": "ER Case Documentation Review",
+      "start": {
+        "dateTime": "2026-01-22T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-22T11:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-226"
+    },
+    "evt-227": {
+      "summary": "Deep Work \u2014 Risk Assessment Report",
+      "start": {
+        "dateTime": "2026-01-22T11:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-22T13:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-227"
+    },
+    "evt-228": {
+      "summary": "Jira Case Queue Review \u2014 Weekly",
+      "start": {
+        "dateTime": "2026-01-23T08:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-23T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-228"
+    },
+    "evt-229": {
+      "summary": "Deep Work \u2014 Comp Benchmarking Analysis",
+      "start": {
+        "dateTime": "2026-01-26T11:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-26T13:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-229"
+    },
+    "evt-230": {
+      "summary": "Jira Case Queue Review \u2014 Weekly",
+      "start": {
+        "dateTime": "2026-01-27T11:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-27T13:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-230"
+    },
+    "evt-231": {
+      "summary": "Deep Work \u2014 ER Documentation",
+      "start": {
+        "dateTime": "2026-01-28T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-28T11:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-231"
+    },
+    "evt-232": {
+      "summary": "Jira Case Queue Review \u2014 Weekly",
+      "start": {
+        "dateTime": "2026-01-29T08:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-29T08:45:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-232"
+    },
+    "evt-233": {
+      "summary": "Jira Case Queue Review \u2014 Weekly",
+      "start": {
+        "dateTime": "2026-02-02T11:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-02T13:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-233"
+    },
+    "evt-234": {
+      "summary": "Deep Work \u2014 Benefits Renewal Analysis",
+      "start": {
+        "dateTime": "2026-02-03T10:05:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-03T10:25:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-234"
+    },
+    "evt-235": {
+      "summary": "ER Case Documentation Review",
+      "start": {
+        "dateTime": "2026-02-04T08:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-04T09:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-235"
+    },
+    "evt-236": {
+      "summary": "Jira Case Queue Review \u2014 Weekly",
+      "start": {
+        "dateTime": "2026-02-04T09:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-04T11:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-236"
+    },
+    "evt-237": {
+      "summary": "Deep Work \u2014 Termination Documentation",
+      "start": {
+        "dateTime": "2026-02-05T11:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-05T13:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-237"
+    },
+    "evt-238": {
+      "summary": "Jira Case Queue Review \u2014 Weekly",
+      "start": {
+        "dateTime": "2026-02-09T11:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-09T13:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-238"
+    },
+    "evt-239": {
+      "summary": "Deep Work \u2014 Active Cases",
+      "start": {
+        "dateTime": "2026-02-10T11:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-10T13:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-239"
+    },
+    "evt-240": {
+      "summary": "Jira Case Queue Review \u2014 Weekly",
+      "start": {
+        "dateTime": "2026-02-11T08:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-11T10:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-240"
+    },
+    "evt-241": {
+      "summary": "Deep Work \u2014 Evaluation Cycle Prep",
+      "start": {
+        "dateTime": "2026-02-12T08:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-12T08:45:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-241"
+    },
+    "evt-242": {
+      "summary": "Jira Case Queue Review \u2014 Weekly",
+      "start": {
+        "dateTime": "2026-02-13T08:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-13T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-242"
+    },
+    "evt-243": {
+      "summary": "Deep Work \u2014 Conference Prep",
+      "start": {
+        "dateTime": "2026-02-13T11:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-13T13:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-243"
+    },
+    "evt-244": {
+      "summary": "Conference Debrief \u2014 COHRE Notes",
+      "start": {
+        "dateTime": "2026-02-19T14:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-19T17:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-244"
+    },
+    "evt-245": {
+      "summary": "Jira Case Queue Review \u2014 Weekly",
+      "start": {
+        "dateTime": "2026-02-20T11:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-20T13:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-245"
+    },
+    "evt-246": {
+      "summary": "Deep Work \u2014 Q2 Planning",
+      "start": {
+        "dateTime": "2026-02-23T11:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-23T13:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-246"
+    },
+    "evt-247": {
+      "summary": "Jira Case Queue Review \u2014 Weekly",
+      "start": {
+        "dateTime": "2026-02-24T09:15:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-24T10:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-247"
+    },
+    "evt-248": {
+      "summary": "Deep Work \u2014 Salary Band Documentation",
+      "start": {
+        "dateTime": "2026-02-25T08:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-25T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-248"
+    },
+    "evt-249": {
+      "summary": "ER Case File Audit",
+      "start": {
+        "dateTime": "2026-02-25T09:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-25T11:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-249"
+    },
+    "evt-250": {
+      "summary": "Jira Case Queue Review \u2014 Weekly",
+      "start": {
+        "dateTime": "2026-02-26T11:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-26T13:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-250"
+    },
+    "evt-251": {
+      "summary": "Deep Work \u2014 Open Enrollment Planning",
+      "start": {
+        "dateTime": "2026-02-27T08:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-27T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-251"
+    },
+    "evt-252": {
+      "summary": "Jira Case Queue Review \u2014 Weekly",
+      "start": {
+        "dateTime": "2026-03-02T11:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-02T13:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-252"
+    },
+    "evt-253": {
+      "summary": "Deep Work \u2014 Eval Cycle Supervisor List",
+      "start": {
+        "dateTime": "2026-03-03T10:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-03T11:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-253"
+    },
+    "evt-254": {
+      "summary": "Jira Case Queue Review \u2014 Weekly",
+      "start": {
+        "dateTime": "2026-03-03T13:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-03T14:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-254"
+    },
+    "evt-255": {
+      "summary": "Deep Work \u2014 Benefits Enrollment Design",
+      "start": {
+        "dateTime": "2026-03-05T10:05:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-05T10:25:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-255"
+    },
+    "evt-256": {
+      "summary": "Jira Case Queue Review \u2014 Weekly",
+      "start": {
+        "dateTime": "2026-03-06T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-06T10:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-256"
+    },
+    "evt-257": {
+      "summary": "1:1 \u2014 Marta Voss",
+      "start": {
+        "dateTime": "2026-03-06T10:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-06T11:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-257"
+    },
+    "evt-258": {
+      "summary": "Open Door Hours",
+      "start": {
+        "dateTime": "2026-03-06T14:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-06T16:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-258"
+    },
+    "evt-259": {
+      "summary": "Deep Work \u2014 PIP Outcome Analysis",
+      "start": {
+        "dateTime": "2026-03-06T16:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-06T17:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-259"
+    },
+    "evt-260": {
+      "summary": "Jira Case Queue Review \u2014 Weekly",
+      "start": {
+        "dateTime": "2026-03-09T11:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-09T13:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-260"
+    },
+    "evt-261": {
+      "summary": "Deep Work \u2014 FMLA Return-to-Work Documentation",
+      "start": {
+        "dateTime": "2026-03-10T10:15:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-10T10:55:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-261"
+    },
+    "evt-262": {
+      "summary": "ER Case Review \u2014 Voss Handoff",
+      "start": {
+        "dateTime": "2026-03-11T13:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-11T14:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-262"
+    },
+    "evt-263": {
+      "summary": "Jira Case Queue Review \u2014 Weekly",
+      "start": {
+        "dateTime": "2026-03-12T08:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-12T08:45:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-263"
+    },
+    "evt-264": {
+      "summary": "Deep Work \u2014 Q3 HR Budget Draft",
+      "start": {
+        "dateTime": "2026-03-13T11:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-13T12:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-264"
+    },
+    "evt-265": {
+      "summary": "Jira Case Queue Review \u2014 Weekly",
+      "start": {
+        "dateTime": "2026-03-13T12:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-13T13:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-265"
+    },
+    "evt-266": {
+      "summary": "Deep Work \u2014 PIP End Date Prep",
+      "start": {
+        "dateTime": "2026-03-16T08:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-16T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-266"
+    },
+    "evt-267": {
+      "summary": "Jira Case Queue Review \u2014 Weekly",
+      "start": {
+        "dateTime": "2026-03-16T14:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-16T16:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-267"
+    },
+    "evt-268": {
+      "summary": "Deep Work \u2014 Enrollment Plan Documentation",
+      "start": {
+        "dateTime": "2026-03-17T08:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-17T08:20:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-268"
+    },
+    "evt-269": {
+      "summary": "Jira Case Queue Review \u2014 Weekly",
+      "start": {
+        "dateTime": "2026-03-18T10:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-18T12:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-269"
+    },
+    "evt-270": {
+      "summary": "Deep Work \u2014 Q1 Retrospective Prep",
+      "start": {
+        "dateTime": "2026-03-19T08:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-19T08:45:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-270"
+    },
+    "evt-271": {
+      "summary": "Jira Case Queue Review \u2014 Weekly",
+      "start": {
+        "dateTime": "2026-03-20T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-20T10:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-271"
+    },
+    "evt-272": {
+      "summary": "1:1 \u2014 Patricia Huang",
+      "start": {
+        "dateTime": "2026-03-20T10:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-20T11:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-272"
+    },
+    "evt-273": {
+      "summary": "Open Door Hours",
+      "start": {
+        "dateTime": "2026-03-20T14:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-20T16:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-273"
+    },
+    "evt-274": {
+      "summary": "Deep Work \u2014 Q3 Planning Documents",
+      "start": {
+        "dateTime": "2026-03-23T11:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-23T13:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-274"
+    },
+    "evt-275": {
+      "summary": "Jira Case Queue Review \u2014 Weekly",
+      "start": {
+        "dateTime": "2026-03-24T09:15:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-24T10:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-275"
+    },
+    "evt-276": {
+      "summary": "Deep Work \u2014 Benefits Timeline",
+      "start": {
+        "dateTime": "2026-03-25T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-25T11:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-276"
+    },
+    "evt-277": {
+      "summary": "Jira Case Queue Review \u2014 Weekly",
+      "start": {
+        "dateTime": "2026-03-26T11:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-26T13:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-277"
+    },
+    "evt-278": {
+      "summary": "Deep Work \u2014 Eval Cycle Progress Report",
+      "start": {
+        "dateTime": "2026-03-27T10:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-27T13:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-278"
+    },
+    "evt-279": {
+      "summary": "Jira Case Queue Review \u2014 Weekly",
+      "start": {
+        "dateTime": "2026-03-30T11:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-30T13:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-279"
+    },
+    "evt-280": {
+      "summary": "Deep Work \u2014 Q1 Retrospective Write-Up",
+      "start": {
+        "dateTime": "2026-03-31T09:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-31T11:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-280"
+    },
+    "evt-281": {
+      "summary": "Jira Case Queue Review \u2014 Weekly",
+      "start": {
+        "dateTime": "2026-03-31T13:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-31T14:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-281"
+    },
+    "evt-282": {
+      "summary": "HR Leadership Team Weekly Sync",
+      "start": {
+        "dateTime": "2026-01-19T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-19T10:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Conference Room B",
+      "id": "evt-282"
+    },
+    "evt-283": {
+      "summary": "1:1 \u2014 Derek Okonkwo",
+      "start": {
+        "dateTime": "2026-02-16T10:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-16T11:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-283"
+    },
+    "evt-284": {
+      "summary": "HR Leadership Team Weekly Sync",
+      "start": {
+        "dateTime": "2026-02-16T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-16T10:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Conference Room B",
+      "id": "evt-284"
+    },
+    "evt-285": {
+      "summary": "Benefits Broker Follow-Up Call",
+      "start": {
+        "dateTime": "2026-02-13T14:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-13T15:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "location": "HR Director Office",
+      "id": "evt-285"
+    }
+  }
+}

@@ -1,0 +1,248 @@
+{
+  "events": {
+    "evt-1": {
+      "summary": "TFL - CLM-2026-00001",
+      "start": {
+        "date": "2026-07-16"
+      },
+      "end": {
+        "date": "2026-07-17"
+      },
+      "description": "Timely Filing Limit for CLM-2026-00001. Payer: Aetna (120 days). DOS: 2026-03-18.",
+      "id": "evt-1"
+    },
+    "evt-2": {
+      "summary": "TFL - CLM-2026-00002",
+      "start": {
+        "date": "2026-09-19"
+      },
+      "end": {
+        "date": "2026-09-20"
+      },
+      "description": "Timely Filing Limit for CLM-2026-00002. Payer: Blue Cross Blue Shield (180 days). DOS: 2026-03-23.",
+      "id": "evt-2"
+    },
+    "evt-3": {
+      "summary": "TFL - CLM-2026-00003",
+      "start": {
+        "date": "2026-09-19"
+      },
+      "end": {
+        "date": "2026-09-20"
+      },
+      "description": "Timely Filing Limit for CLM-2026-00003. Payer: Blue Cross Blue Shield (180 days). DOS: 2026-03-23.",
+      "id": "evt-3"
+    },
+    "evt-4": {
+      "summary": "TFL - CLM-2026-00004",
+      "start": {
+        "date": "2026-06-23"
+      },
+      "end": {
+        "date": "2026-06-24"
+      },
+      "description": "Timely Filing Limit for CLM-2026-00004. Payer: UnitedHealthcare (90 days). DOS: 2026-03-25.",
+      "id": "evt-4"
+    },
+    "evt-5": {
+      "summary": "TFL - CLM-2026-00005",
+      "start": {
+        "date": "2026-09-12"
+      },
+      "end": {
+        "date": "2026-09-13"
+      },
+      "description": "Timely Filing Limit for CLM-2026-00005. Payer: Blue Cross Blue Shield (180 days). DOS: 2026-03-16.",
+      "id": "evt-5"
+    },
+    "evt-6": {
+      "summary": "TFL - CLM-2026-00006",
+      "start": {
+        "date": "2026-09-12"
+      },
+      "end": {
+        "date": "2026-09-13"
+      },
+      "description": "Timely Filing Limit for CLM-2026-00006. Payer: Blue Cross Blue Shield (180 days). DOS: 2026-03-16.",
+      "id": "evt-6"
+    },
+    "evt-7": {
+      "summary": "TFL - CLM-2026-00007",
+      "start": {
+        "date": "2026-09-14"
+      },
+      "end": {
+        "date": "2026-09-15"
+      },
+      "description": "Timely Filing Limit for CLM-2026-00007. Payer: Blue Cross Blue Shield (180 days). DOS: 2026-03-18.",
+      "id": "evt-7"
+    },
+    "evt-8": {
+      "summary": "TFL - CLM-2026-00008",
+      "start": {
+        "date": "2026-09-14"
+      },
+      "end": {
+        "date": "2026-09-15"
+      },
+      "description": "Timely Filing Limit for CLM-2026-00008. Payer: Blue Cross Blue Shield (180 days). DOS: 2026-03-18.",
+      "id": "evt-8"
+    },
+    "evt-9": {
+      "summary": "TFL - CLM-2026-00009",
+      "start": {
+        "date": "2026-09-15"
+      },
+      "end": {
+        "date": "2026-09-16"
+      },
+      "description": "Timely Filing Limit for CLM-2026-00009. Payer: Blue Cross Blue Shield (180 days). DOS: 2026-03-19.",
+      "id": "evt-9"
+    },
+    "evt-10": {
+      "summary": "TFL - CLM-2026-00010",
+      "start": {
+        "date": "2026-09-15"
+      },
+      "end": {
+        "date": "2026-09-16"
+      },
+      "description": "Timely Filing Limit for CLM-2026-00010. Payer: Blue Cross Blue Shield (180 days). DOS: 2026-03-19.",
+      "id": "evt-10"
+    },
+    "evt-11": {
+      "summary": "TFL - CLM-2026-00011",
+      "start": {
+        "date": "2026-09-20"
+      },
+      "end": {
+        "date": "2026-09-21"
+      },
+      "description": "Timely Filing Limit for CLM-2026-00011. Payer: Blue Cross Blue Shield (180 days). DOS: 2026-03-24.",
+      "id": "evt-11"
+    },
+    "evt-12": {
+      "summary": "TFL - CLM-2026-00012",
+      "start": {
+        "date": "2026-09-20"
+      },
+      "end": {
+        "date": "2026-09-21"
+      },
+      "description": "Timely Filing Limit for CLM-2026-00012. Payer: Blue Cross Blue Shield (180 days). DOS: 2026-03-24.",
+      "id": "evt-12"
+    },
+    "evt-13": {
+      "summary": "TFL - CLM-2026-00013",
+      "start": {
+        "date": "2026-09-12"
+      },
+      "end": {
+        "date": "2026-09-13"
+      },
+      "description": "Timely Filing Limit for CLM-2026-00013. Payer: Blue Cross Blue Shield (180 days). DOS: 2026-03-16.",
+      "id": "evt-13"
+    },
+    "evt-14": {
+      "summary": "TFL - CLM-2026-00014",
+      "start": {
+        "date": "2026-09-14"
+      },
+      "end": {
+        "date": "2026-09-15"
+      },
+      "description": "Timely Filing Limit for CLM-2026-00014. Payer: Blue Cross Blue Shield (180 days). DOS: 2026-03-18.",
+      "id": "evt-14"
+    },
+    "evt-15": {
+      "summary": "TFL - CLM-2026-00015",
+      "start": {
+        "date": "2026-09-15"
+      },
+      "end": {
+        "date": "2026-09-16"
+      },
+      "description": "Timely Filing Limit for CLM-2026-00015. Payer: Blue Cross Blue Shield (180 days). DOS: 2026-03-19.",
+      "id": "evt-15"
+    },
+    "evt-16": {
+      "summary": "TFL - CLM-2026-00016",
+      "start": {
+        "date": "2026-09-20"
+      },
+      "end": {
+        "date": "2026-09-21"
+      },
+      "description": "Timely Filing Limit for CLM-2026-00016. Payer: Blue Cross Blue Shield (180 days). DOS: 2026-03-24.",
+      "id": "evt-16"
+    },
+    "evt-17": {
+      "summary": "TFL - CLM-2026-00017",
+      "start": {
+        "date": "2026-08-13"
+      },
+      "end": {
+        "date": "2026-08-14"
+      },
+      "description": "Timely Filing Limit for CLM-2026-00017. Payer: Cigna (150 days). DOS: 2026-03-16.",
+      "id": "evt-17"
+    },
+    "evt-18": {
+      "summary": "TFL - CLM-2026-00018",
+      "start": {
+        "date": "2026-07-16"
+      },
+      "end": {
+        "date": "2026-07-17"
+      },
+      "description": "Timely Filing Limit for CLM-2026-00018. Payer: Humana (120 days). DOS: 2026-03-18.",
+      "id": "evt-18"
+    },
+    "evt-19": {
+      "summary": "TFL - CLM-2026-00019",
+      "start": {
+        "date": "2026-07-18"
+      },
+      "end": {
+        "date": "2026-07-19"
+      },
+      "description": "Timely Filing Limit for CLM-2026-00019. Payer: Aetna (120 days). DOS: 2026-03-20.",
+      "id": "evt-19"
+    },
+    "evt-20": {
+      "summary": "TFL - CLM-2026-00020",
+      "start": {
+        "date": "2026-08-22"
+      },
+      "end": {
+        "date": "2026-08-23"
+      },
+      "description": "Timely Filing Limit for CLM-2026-00020. Payer: Cigna (150 days). DOS: 2026-03-25.",
+      "id": "evt-20"
+    },
+    "evt-21": {
+      "summary": "TFL - CLM-2026-00021",
+      "start": {
+        "date": "2026-06-25"
+      },
+      "end": {
+        "date": "2026-06-26"
+      },
+      "description": "Timely Filing Limit for CLM-2026-00021. Payer: UnitedHealthcare (90 days). DOS: 2026-03-27.",
+      "id": "evt-21"
+    },
+    "evt-22": {
+      "summary": "ESC-00001",
+      "start": {
+        "dateTime": "2026-04-08T13:31:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-04-08T14:01:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "description": "Escalation logged for BCBS Modifier 25 Pattern Recurrence.",
+      "id": "evt-22"
+    }
+  }
+}

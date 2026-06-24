@@ -1,0 +1,753 @@
+{
+  "users": {
+    "U001": {
+      "id": "U001",
+      "team_id": "T001",
+      "name": "treyes",
+      "deleted": false,
+      "real_name": "Tamra Reyes",
+      "profile": {
+        "real_name": "Tamra Reyes",
+        "display_name": "treyes",
+        "email": "t.reyes@mojavecrest.com",
+        "title": "Director of Appeals & Grievances"
+      },
+      "is_admin": true,
+      "is_owner": true,
+      "is_bot": false
+    },
+    "U002": {
+      "id": "U002",
+      "team_id": "T001",
+      "name": "dwhitfield",
+      "deleted": false,
+      "real_name": "Darnell Whitfield",
+      "profile": {
+        "real_name": "Darnell Whitfield",
+        "display_name": "dwhitfield",
+        "email": "d.whitfield@mojavecrest.com",
+        "title": "Appeals Supervisor"
+      },
+      "is_admin": true,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U003": {
+      "id": "U003",
+      "team_id": "T001",
+      "name": "pannadurai",
+      "deleted": false,
+      "real_name": "Priya Annadurai",
+      "profile": {
+        "real_name": "Priya Annadurai",
+        "display_name": "pannadurai",
+        "email": "p.annadurai@mojavecrest.com",
+        "title": "Senior Appeals Coordinator"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U004": {
+      "id": "U004",
+      "team_id": "T001",
+      "name": "hbergstrom",
+      "deleted": false,
+      "real_name": "Dr. Helena Bergstrom",
+      "profile": {
+        "real_name": "Dr. Helena Bergstrom",
+        "display_name": "hbergstrom",
+        "email": "h.bergstrom@mojavecrest.com",
+        "title": "Medical Director - Medical/Surgical"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U005": {
+      "id": "U005",
+      "team_id": "T001",
+      "name": "aontario",
+      "deleted": false,
+      "real_name": "Dr. Ayla Ontario",
+      "profile": {
+        "real_name": "Dr. Ayla Ontario",
+        "display_name": "aontario",
+        "email": "a.ontario@mojavecrest.com",
+        "title": "Medical Director - Behavioral Health / Parity Committee Chair"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U006": {
+      "id": "U006",
+      "team_id": "T001",
+      "name": "malvarado",
+      "deleted": false,
+      "real_name": "Marisol Alvarado",
+      "profile": {
+        "real_name": "Marisol Alvarado",
+        "display_name": "malvarado",
+        "email": "m.alvarado@mojavecrest.com",
+        "title": "Lead Clinical Nurse - Appeals"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U007": {
+      "id": "U007",
+      "team_id": "T001",
+      "name": "jhenning",
+      "deleted": false,
+      "real_name": "Dr. Jules Henning",
+      "profile": {
+        "real_name": "Dr. Jules Henning",
+        "display_name": "jhenning",
+        "email": "j.henning@mojavecrest.com",
+        "title": "Pharmacy Director"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U008": {
+      "id": "U008",
+      "team_id": "T001",
+      "name": "kdufree",
+      "deleted": false,
+      "real_name": "Kendel Dufree",
+      "profile": {
+        "real_name": "Kendel Dufree",
+        "display_name": "kdufree",
+        "email": "k.dufree@mojavecrest.com",
+        "title": "Compliance Officer"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U009": {
+      "id": "U009",
+      "team_id": "T001",
+      "name": "parity-committee",
+      "deleted": false,
+      "real_name": "Parity Review Committee",
+      "profile": {
+        "real_name": "Parity Review Committee",
+        "display_name": "parity-committee",
+        "email": "parity@mojavecrest.com",
+        "title": "Committee Group Handle"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U010": {
+      "id": "U010",
+      "team_id": "T001",
+      "name": "coordinator",
+      "deleted": false,
+      "real_name": "Appeals Coordinator (Test Model)",
+      "profile": {
+        "real_name": "Appeals Coordinator (Test Model)",
+        "display_name": "coordinator",
+        "email": "coordinator@mojavecrest.com",
+        "title": "Appeals Coordinator"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    }
+  },
+  "channels": {
+    "C001": {
+      "id": "C001",
+      "name": "appeals-intake",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1609459200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "appeals-intake",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1704067200,
+      "creator": "U002",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "New appeal intake logging and routing questions",
+        "creator": "U002",
+        "last_set": 1704067200
+      },
+      "purpose": {
+        "value": "Case log notifications and intake coordination",
+        "creator": "U002",
+        "last_set": 1704067200
+      }
+    },
+    "C002": {
+      "id": "C002",
+      "name": "appeals-clinical-queue",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1609459200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "appeals-clinical-queue",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1704067200,
+      "creator": "U002",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Clinical reviewer case assignments",
+        "creator": "U002",
+        "last_set": 1704067200
+      },
+      "purpose": {
+        "value": "Format B-1 routing to clinical reviewers",
+        "creator": "U002",
+        "last_set": 1704067200
+      }
+    },
+    "C003": {
+      "id": "C003",
+      "name": "appeals-urgent",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1609459200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "appeals-urgent",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1704067200,
+      "creator": "U002",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Expedited appeals requiring immediate attention",
+        "creator": "U002",
+        "last_set": 1704067200
+      },
+      "purpose": {
+        "value": "72-hour expedited case coordination",
+        "creator": "U002",
+        "last_set": 1704067200
+      }
+    },
+    "C004": {
+      "id": "C004",
+      "name": "appeals-parity",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1609459200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "appeals-parity",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1704067200,
+      "creator": "U005",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Mental Health & Substance Use Disorder Parity Act compliance",
+        "creator": "U005",
+        "last_set": 1704067200
+      },
+      "purpose": {
+        "value": "General parity policy discussion - case-specific notifications via DM only",
+        "creator": "U005",
+        "last_set": 1704067200
+      }
+    },
+    "C005": {
+      "id": "C005",
+      "name": "appeals-compliance",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1609459200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "appeals-compliance",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1704067200,
+      "creator": "U008",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Regulatory compliance and audit coordination",
+        "creator": "U008",
+        "last_set": 1704067200
+      },
+      "purpose": {
+        "value": "Compliance events, audits, and regulatory tracking",
+        "creator": "U008",
+        "last_set": 1704067200
+      }
+    },
+    "C006": {
+      "id": "C006",
+      "name": "appeals-general",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1609459200,
+      "is_archived": false,
+      "is_general": true,
+      "unlinked": 0,
+      "name_normalized": "appeals-general",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1704067200,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "General appeals team discussion and announcements",
+        "creator": "U001",
+        "last_set": 1704067200
+      },
+      "purpose": {
+        "value": "Team coordination, schedules, and non-case discussion",
+        "creator": "U001",
+        "last_set": 1704067200
+      }
+    },
+    "DM_U010_U002_1": {
+      "id": "DM_U010_U002_1",
+      "name": "dwhitfield",
+      "is_channel": false,
+      "is_group": false,
+      "is_im": true,
+      "is_mpim": false,
+      "is_private": true,
+      "is_archived": false,
+      "is_member": true,
+      "user": "U002",
+      "created": 1768924800,
+      "context_team_id": "T001",
+      "members": [
+        "U002",
+        "U010"
+      ]
+    },
+    "DM_U010_U002_2": {
+      "id": "DM_U010_U002_2",
+      "name": "dwhitfield",
+      "is_channel": false,
+      "is_group": false,
+      "is_im": true,
+      "is_mpim": false,
+      "is_private": true,
+      "is_archived": false,
+      "is_member": true,
+      "user": "U002",
+      "created": 1769097600,
+      "context_team_id": "T001",
+      "members": [
+        "U002",
+        "U010"
+      ]
+    },
+    "DM_U010_U005_1": {
+      "id": "DM_U010_U005_1",
+      "name": "aontario",
+      "is_channel": false,
+      "is_group": false,
+      "is_im": true,
+      "is_mpim": false,
+      "is_private": true,
+      "is_archived": false,
+      "is_member": true,
+      "user": "U005",
+      "created": 1776208800,
+      "context_team_id": "T001",
+      "members": [
+        "U005",
+        "U010"
+      ]
+    },
+    "DM_U010_U009_1": {
+      "id": "DM_U010_U009_1",
+      "name": "parity-committee",
+      "is_channel": false,
+      "is_group": false,
+      "is_im": true,
+      "is_mpim": false,
+      "is_private": true,
+      "is_archived": false,
+      "is_member": true,
+      "user": "U009",
+      "created": 1776208800,
+      "context_team_id": "T001",
+      "members": [
+        "U009",
+        "U010"
+      ]
+    },
+    "DM_U003_U005_1": {
+      "id": "DM_U003_U005_1",
+      "name": "DM_U003_U005_1",
+      "is_channel": false,
+      "is_group": false,
+      "is_im": true,
+      "is_mpim": false,
+      "is_private": true,
+      "members": [
+        "U003",
+        "U005"
+      ],
+      "user": "U003"
+    }
+  },
+  "messages": {
+    "C001": [
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "\ud83d\udccb New appeal logged: CASE-2026-00084 | Standard | M/S | Received 2026-01-20",
+        "ts": "1768924800.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "\ud83d\udccb New appeal logged: CASE-2026-00085 | Standard | BH | Received 2026-01-20",
+        "ts": "1769011200.000200",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "Quick question - member submitted appeal via both fax and portal. Same documents. Do we log as duplicate or single case with dual receipt notation?",
+        "ts": "1769097600.000300",
+        "team": "T001",
+        "reply_count": 1,
+        "latest_reply": "1769098200.000400",
+        "reply_users": [
+          "U002"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Single case, dual receipt notation in the intake log. Use the earlier timestamp as official receipt time.",
+        "ts": "1769098200.000400",
+        "team": "T001",
+        "thread_ts": "1769097600.000300",
+        "parent_user_id": "U003"
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "\ud83d\udccb New appeal logged: CASE-2026-00087 | Standard | Administrative | Received 2026-01-22",
+        "ts": "1769184000.000500",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Heads up -- the Q1 audit sample Kendel mentioned includes a few from December. If anyone worked those cases, make sure the case folders are complete in SharePoint.",
+        "ts": "1769270400.000600",
+        "team": "T001"
+      }
+    ],
+    "C002": [
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "\ud83d\udce4 **FORMAT B-1 Clinical Routing**\n\n**Case ID:** CASE-2026-00084\n**Type:** Standard Appeal - Medical/Surgical\n**Service:** Inpatient rehabilitation stay extension\n**Assigned to:** @malvarado\n**Due Date:** 2026-02-19\n**Documents:** Available in SharePoint folder CASE-2026-00084\n\nPlease acknowledge receipt and confirm review timeline.",
+        "ts": "1769011200.000100",
+        "team": "T001",
+        "reply_count": 1,
+        "latest_reply": "1769012100.000200",
+        "reply_users": [
+          "U006"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U006",
+        "text": "Received. Will have initial review completed by EOD Monday 1/27.",
+        "ts": "1769012100.000200",
+        "team": "T001",
+        "thread_ts": "1769011200.000100",
+        "parent_user_id": "U003"
+      }
+    ],
+    "C003": [
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "\ud83d\udea8 **EXPEDITED APPEAL**\n\n**Case ID:** CASE-2026-00082\n**Service:** Emergency department follow-up surgery\n**Member Status:** Pre-surgical clearance obtained, surgery scheduled 1/23\n**Assigned to:** @hbergstrom\n**Due:** 72 hours from receipt (expires 2026-01-23 11:00 AM)\n\nClinical records uploaded. Member's surgeon provided supporting letter citing immediate medical necessity.",
+        "ts": "1768924800.000100",
+        "team": "T001",
+        "reply_count": 2,
+        "latest_reply": "1768935300.000300",
+        "reply_users": [
+          "U003",
+          "U004"
+        ],
+        "reply_users_count": 2
+      },
+      {
+        "type": "message",
+        "user": "U004",
+        "text": "Reviewed. Overturning denial - medical necessity clearly documented. Will call surgeon's office directly to confirm. Determination letter being finalized now.",
+        "ts": "1768932000.000200",
+        "team": "T001",
+        "thread_ts": "1768924800.000100",
+        "parent_user_id": "U003"
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "\u2705 RESOLVED - Overturn issued, member and provider notified by phone and written determination sent 2026-01-21 10:45 AM.",
+        "ts": "1768935300.000300",
+        "team": "T001",
+        "thread_ts": "1768924800.000100",
+        "parent_user_id": "U003"
+      }
+    ],
+    "C004": [
+      {
+        "type": "message",
+        "user": "U005",
+        "text": "Reminder: The 2026 parity comparative analysis report is due to our compliance team by end of Q1. I'll be scheduling committee review sessions in late February. If anyone has specific case patterns or utilization management concerns to raise, please send them my way by Feb 10.",
+        "ts": "1769011200.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U005",
+        "text": "Also flagging that CMS updated the MHPAEA FAQs last week - Section VII now has additional guidance on NQTLs for medication-assisted treatment. Worth a read if you're working on SUD cases. Link in our policy library under Federal Guidance > Parity.",
+        "ts": "1769184000.000200",
+        "team": "T001"
+      }
+    ],
+    "C005": [
+      {
+        "type": "message",
+        "user": "U008",
+        "text": "\ud83d\udd0d **Compliance Event - RESOLVED**\n\n**Event ID:** CE-2026-003\n**Issue:** Acknowledgment letter for CASE-2026-00079 sent 1 business day late due to mail room delay\n**Resolution:** Member contacted via phone same day, written acknowledgment expedited via email with member consent\n**Corrective Action:** Mail room supervisor notified, daily pickup confirmation process implemented\n**Status:** Closed 2026-01-21\n\nNo regulatory report required (single incident, no member harm, proactive outreach completed).",
+        "ts": "1769011200.000100",
+        "team": "T001",
+        "reply_count": 1,
+        "latest_reply": "1769014800.000200",
+        "reply_users": [
+          "U002"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Thanks for the quick turnaround on that, Kendel. Glad we caught it early.",
+        "ts": "1769014800.000200",
+        "team": "T001",
+        "thread_ts": "1769011200.000100",
+        "parent_user_id": "U008"
+      },
+      {
+        "type": "message",
+        "user": "U008",
+        "text": "\ud83d\udcca **Routine Audit Notice**\n\nQ1 2026 appeals audit sample has been selected. Reviewing 25 cases from December 2025 for TAT compliance, acknowledgment accuracy, and clinical documentation standards.\n\nAudit fieldwork: Feb 3-14\nPreliminary findings: Feb 21\nFinal report: Feb 28\n\nNo action required from coordinators at this time. I'll reach out individually if I need clarification on specific case files.",
+        "ts": "1769270400.000300",
+        "team": "T001"
+      }
+    ],
+    "C006": [
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "\ud83d\udcc5 **MCA Appeals & Grievances - 2026 Holiday Schedule**\n\nThe following federal holidays are observed by MCA. Please plan case timelines accordingly - TAT calculations exclude these dates:\n\n\u2022 **New Year's Day** - Wednesday, January 1, 2026\n\u2022 **Martin Luther King Jr. Day** - Monday, January 19, 2026\n\u2022 **Presidents' Day** - Monday, February 16, 2026\n\u2022 **Memorial Day** - Monday, May 25, 2026\n\u2022 **Juneteenth** - Friday, June 19, 2026\n\u2022 **Independence Day** - Friday, July 3, 2026 (observed)\n\u2022 **Labor Day** - Monday, September 7, 2026\n\u2022 **Thanksgiving** - Thursday, November 26, 2026\n\u2022 **Christmas Day** - Friday, December 25, 2026\n\nReminder: If a deadline falls on a holiday or weekend, it rolls to the next business day per CFR 42 \u00a7438.408.",
+        "ts": "1769184000.000100",
+        "team": "T001",
+        "reply_count": 1,
+        "latest_reply": "1769185800.000200",
+        "reply_users": [
+          "U006"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U006",
+        "text": "Thanks Darnell! Bookmarking this for reference.",
+        "ts": "1769185800.000200",
+        "team": "T001",
+        "thread_ts": "1769184000.000100",
+        "parent_user_id": "U002"
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "Hope everyone has a great week! Anyone planning anything fun this weekend? \u2615",
+        "ts": "1769270400.000300",
+        "team": "T001",
+        "reply_count": 1,
+        "latest_reply": "1769271300.000400",
+        "reply_users": [
+          "U006"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U006",
+        "text": "Yes! Planning to actually use my new hiking boots finally \ud83d\ude0a",
+        "ts": "1769271300.000400",
+        "team": "T001",
+        "thread_ts": "1769270400.000300",
+        "parent_user_id": "U003"
+      }
+    ],
+    "DM_U010_U002_1": [
+      {
+        "type": "message",
+        "user": "U010",
+        "text": "Hi Darnell - quick question on CASE-2026-00078. Member submitted additional clinical records after initial review was completed. Do I need to reopen or can I route as supplemental documentation?",
+        "ts": "1768924800.000100",
+        "team": "T001",
+        "channel": "DM_U010_U002_1"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "If the determination hasn't been issued yet, route as supplemental to the assigned reviewer. If determination already went out, this would be a new appeal - check the date on the member's cover letter to confirm their intent.",
+        "ts": "1768926600.000200",
+        "team": "T001",
+        "channel": "DM_U010_U002_1"
+      },
+      {
+        "type": "message",
+        "user": "U010",
+        "text": "Got it - determination is still in draft. I'll forward to Dr. Bergstrom as supplemental. Thanks!",
+        "ts": "1768927200.000300",
+        "team": "T001",
+        "channel": "DM_U010_U002_1"
+      }
+    ],
+    "DM_U010_U002_2": [
+      {
+        "type": "message",
+        "user": "U010",
+        "text": "Darnell - need your input on CASE-2026-00081. This is a pharmacy appeal but the denial was based on medical necessity, not formulary. Should this go to Dr. Henning or to a medical reviewer?",
+        "ts": "1769097600.000100",
+        "team": "T001",
+        "channel": "DM_U010_U002_2"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Good catch. Medical necessity determinations require physician review even for pharmacy cases. Route to Dr. Henning first for formulary/clinical guideline assessment, but flag that we may need a medical director consult if it hinges on diagnosis-specific coverage criteria.",
+        "ts": "1769099400.000200",
+        "team": "T001",
+        "channel": "DM_U010_U002_2"
+      },
+      {
+        "type": "message",
+        "user": "U010",
+        "text": "Perfect, will route to Dr. Henning with that note. Thanks for the clarification!",
+        "ts": "1769100000.000300",
+        "team": "T001",
+        "channel": "DM_U010_U002_2"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "\u2705 Resolved - case routed appropriately.",
+        "ts": "1769101200.000400",
+        "team": "T001",
+        "channel": "DM_U010_U002_2"
+      }
+    ],
+    "DM_U010_U005_1": [],
+    "DM_U010_U009_1": [],
+    "DM_U003_U005_1": [
+      {
+        "type": "message",
+        "user": "U003",
+        "ts": "1769184600.000100",
+        "thread_ts": "1769184600.000100",
+        "text": "Hi Dr. Ontario - routing CASE-2026-00085 to you directly. BH appeal (IOP additional sessions) with a parity flag raised. Case folder in SharePoint. Due Date: 2026-02-19. Let me know if you need anything."
+      }
+    ]
+  },
+  "counters": {
+    "messageId": 1000100
+  }
+}

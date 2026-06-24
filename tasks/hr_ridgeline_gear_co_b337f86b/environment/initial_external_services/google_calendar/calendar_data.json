@@ -1,0 +1,457 @@
+{
+  "events": {
+    "holiday-2026-new-years": {
+      "summary": "\ud83d\udd34 HR CLOSED \u2014 New Year's Day",
+      "start": {
+        "date": "2026-01-01"
+      },
+      "end": {
+        "date": "2026-01-02"
+      },
+      "description": "Ridgeline-observed holiday. HR office closed. Does NOT count as a business day for FMLA, FAMLI, or internal SLA clocks. Calendar-day clocks (e.g., 15-day medical cert window) continue to run.",
+      "location": "Ridgeline Gear Co. \u2014 Fort Collins, CO",
+      "id": "holiday-2026-new-years"
+    },
+    "holiday-2026-mlk": {
+      "summary": "\ud83d\udd34 HR CLOSED \u2014 Martin Luther King Jr. Day",
+      "start": {
+        "date": "2026-01-19"
+      },
+      "end": {
+        "date": "2026-01-20"
+      },
+      "description": "Ridgeline-observed holiday. HR office closed. Does NOT count as a business day for FMLA, FAMLI, or internal SLA clocks. Calendar-day clocks continue to run.",
+      "location": "Ridgeline Gear Co. \u2014 Fort Collins, CO",
+      "id": "holiday-2026-mlk"
+    },
+    "holiday-2026-presidents": {
+      "summary": "\ud83d\udd34 HR CLOSED \u2014 Presidents' Day",
+      "start": {
+        "date": "2026-02-16"
+      },
+      "end": {
+        "date": "2026-02-17"
+      },
+      "description": "Ridgeline-observed holiday. HR office closed. Does NOT count as a business day for FMLA, FAMLI, or internal SLA clocks. Calendar-day clocks continue to run.",
+      "location": "Ridgeline Gear Co. \u2014 Fort Collins, CO",
+      "id": "holiday-2026-presidents"
+    },
+    "holiday-2026-memorial": {
+      "summary": "\ud83d\udd34 HR CLOSED \u2014 Memorial Day",
+      "start": {
+        "date": "2026-05-25"
+      },
+      "end": {
+        "date": "2026-05-26"
+      },
+      "description": "Ridgeline-observed holiday. HR office closed. Does NOT count as a business day for FMLA, FAMLI, or internal SLA clocks. Calendar-day clocks continue to run.",
+      "location": "Ridgeline Gear Co. \u2014 Fort Collins, CO",
+      "id": "holiday-2026-memorial"
+    },
+    "holiday-2026-juneteenth": {
+      "summary": "\ud83d\udd34 HR CLOSED \u2014 Juneteenth",
+      "start": {
+        "date": "2026-06-19"
+      },
+      "end": {
+        "date": "2026-06-20"
+      },
+      "description": "Ridgeline-observed holiday. HR office closed. Does NOT count as a business day for FMLA, FAMLI, or internal SLA clocks. Calendar-day clocks continue to run.",
+      "location": "Ridgeline Gear Co. \u2014 Fort Collins, CO",
+      "id": "holiday-2026-juneteenth"
+    },
+    "holiday-2026-july4-observed": {
+      "summary": "\ud83d\udd34 HR CLOSED \u2014 Independence Day (observed)",
+      "start": {
+        "date": "2026-07-03"
+      },
+      "end": {
+        "date": "2026-07-04"
+      },
+      "description": "Ridgeline-observed holiday (Independence Day observed on Friday, July 3). HR office closed. Does NOT count as a business day for FMLA, FAMLI, or internal SLA clocks. Calendar-day clocks continue to run.",
+      "location": "Ridgeline Gear Co. \u2014 Fort Collins, CO",
+      "id": "holiday-2026-july4-observed"
+    },
+    "holiday-2026-labor": {
+      "summary": "\ud83d\udd34 HR CLOSED \u2014 Labor Day",
+      "start": {
+        "date": "2026-09-07"
+      },
+      "end": {
+        "date": "2026-09-08"
+      },
+      "description": "Ridgeline-observed holiday. HR office closed. Does NOT count as a business day for FMLA, FAMLI, or internal SLA clocks. Calendar-day clocks continue to run.",
+      "location": "Ridgeline Gear Co. \u2014 Fort Collins, CO",
+      "id": "holiday-2026-labor"
+    },
+    "holiday-2026-thanksgiving": {
+      "summary": "\ud83d\udd34 HR CLOSED \u2014 Thanksgiving Day",
+      "start": {
+        "date": "2026-11-26"
+      },
+      "end": {
+        "date": "2026-11-27"
+      },
+      "description": "Ridgeline-observed holiday. HR office closed. Does NOT count as a business day for FMLA, FAMLI, or internal SLA clocks. Calendar-day clocks continue to run.",
+      "location": "Ridgeline Gear Co. \u2014 Fort Collins, CO",
+      "id": "holiday-2026-thanksgiving"
+    },
+    "holiday-2026-day-after-thanksgiving": {
+      "summary": "\ud83d\udd34 HR CLOSED \u2014 Day After Thanksgiving",
+      "start": {
+        "date": "2026-11-27"
+      },
+      "end": {
+        "date": "2026-11-28"
+      },
+      "description": "Ridgeline-observed holiday. HR office closed. Does NOT count as a business day for FMLA, FAMLI, or internal SLA clocks. Calendar-day clocks continue to run.",
+      "location": "Ridgeline Gear Co. \u2014 Fort Collins, CO",
+      "id": "holiday-2026-day-after-thanksgiving"
+    },
+    "holiday-2026-christmas-eve": {
+      "summary": "\ud83d\udd34 HR CLOSED \u2014 Christmas Eve",
+      "start": {
+        "date": "2026-12-24"
+      },
+      "end": {
+        "date": "2026-12-25"
+      },
+      "description": "Ridgeline-observed holiday. HR office closed. Does NOT count as a business day for FMLA, FAMLI, or internal SLA clocks. Calendar-day clocks continue to run.",
+      "location": "Ridgeline Gear Co. \u2014 Fort Collins, CO",
+      "id": "holiday-2026-christmas-eve"
+    },
+    "holiday-2026-christmas": {
+      "summary": "\ud83d\udd34 HR CLOSED \u2014 Christmas Day",
+      "start": {
+        "date": "2026-12-25"
+      },
+      "end": {
+        "date": "2026-12-26"
+      },
+      "description": "Ridgeline-observed holiday. HR office closed. Does NOT count as a business day for FMLA, FAMLI, or internal SLA clocks. Calendar-day clocks continue to run.",
+      "location": "Ridgeline Gear Co. \u2014 Fort Collins, CO",
+      "id": "holiday-2026-christmas"
+    },
+    "recurring-famli-inbox-check-mon": {
+      "summary": "\ud83d\udcec Daily: Check FAMLI Employer Inbox (famliemployer@ridgelinegear.com)",
+      "start": {
+        "dateTime": "2026-04-13T08:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-04-13T08:15:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "Per SOP Section 9.1 and 9.5: Monitor famliemployer@ridgelinegear.com every business day at the start of the day. CDLE sends Employer Response notices from claims@famli.colorado.gov. Upon receipt, the 5-business-day employer response clock begins immediately. Do not allow unread notices to accumulate.",
+      "id": "recurring-famli-inbox-check-mon"
+    },
+    "recurring-sop-annual-review": {
+      "summary": "\ud83d\udccb SOP Annual Review Due \u2014 Benefits Manager + HR Director",
+      "start": {
+        "date": "2027-04-01"
+      },
+      "end": {
+        "date": "2027-04-02"
+      },
+      "description": "Per SOP Section 13 (Quality Controls): Annual review of the Leave Coordinator SOP is scheduled each April. Next review: April 1, 2027. Conducted by Benefits Manager (Renata Okafor) and HR Director (Daniel Whitfield). Any compliance-related changes also require General Counsel (Evelyn Marchetti) review. SOP Change Log must be updated with date, change, approver, and reason.",
+      "id": "recurring-sop-annual-review"
+    },
+    "recurring-quarterly-case-audit-q2-2026": {
+      "summary": "\ud83d\udd0d Quarterly Case Audit \u2014 Benefits Manager (Q2 2026)",
+      "start": {
+        "date": "2026-06-30"
+      },
+      "end": {
+        "date": "2026-07-01"
+      },
+      "description": "Per SOP Section 13 (Quality Controls): Benefits Manager (Renata Okafor) conducts quarterly audit of open and recently closed cases. Audit includes: sampling of 10 closed cases, verification of deadline adherence, verification of file locations, review of Slack posts for confidentiality compliance, and review of case notes for completeness.",
+      "id": "recurring-quarterly-case-audit-q2-2026"
+    },
+    "recurring-quarterly-case-audit-q3-2026": {
+      "summary": "\ud83d\udd0d Quarterly Case Audit \u2014 Benefits Manager (Q3 2026)",
+      "start": {
+        "date": "2026-09-30"
+      },
+      "end": {
+        "date": "2026-10-01"
+      },
+      "description": "Per SOP Section 13 (Quality Controls): Benefits Manager (Renata Okafor) conducts quarterly audit of open and recently closed cases. Audit includes: sampling of 10 closed cases, verification of deadline adherence, verification of file locations, review of Slack posts for confidentiality compliance, and review of case notes for completeness.",
+      "id": "recurring-quarterly-case-audit-q3-2026"
+    },
+    "recurring-quarterly-case-audit-q4-2026": {
+      "summary": "\ud83d\udd0d Quarterly Case Audit \u2014 Benefits Manager (Q4 2026)",
+      "start": {
+        "date": "2026-12-31"
+      },
+      "end": {
+        "date": "2027-01-01"
+      },
+      "description": "Per SOP Section 13 (Quality Controls): Benefits Manager (Renata Okafor) conducts quarterly audit of open and recently closed cases. Audit includes: sampling of 10 closed cases, verification of deadline adherence, verification of file locations, review of Slack posts for confidentiality compliance, and review of case notes for completeness.",
+      "id": "recurring-quarterly-case-audit-q4-2026"
+    },
+    "ref-fmla-eligibility-notice-deadline": {
+      "summary": "\ud83d\udccc REFERENCE: FMLA Eligibility Notice \u2014 5 Business Days from Request",
+      "start": {
+        "date": "2026-04-09"
+      },
+      "end": {
+        "date": "2026-04-10"
+      },
+      "description": "REFERENCE EVENT \u2014 Per SOP Section 8.4 & 7.5: When an employee submits an FMLA leave request, the Leave Coordinator must send the Eligibility Notice (WH-381, Parts A & B) within 5 BUSINESS days. Clock starts on the calendar date of the request even if received after hours or on a weekend. Day 1 = next business day. CONSEQUENCE IF MISSED: Employee may be entitled to leave as if eligible; potential DOL liability. For each new FMLA request, create a new case-specific deadline event.",
+      "id": "ref-fmla-eligibility-notice-deadline"
+    },
+    "ref-fmla-designation-notice-deadline": {
+      "summary": "\ud83d\udccc REFERENCE: FMLA Designation Notice \u2014 5 Business Days from Complete Cert",
+      "start": {
+        "date": "2026-04-09"
+      },
+      "end": {
+        "date": "2026-04-10"
+      },
+      "description": "REFERENCE EVENT \u2014 Per SOP Section 8.4 & 7.5: After receiving a complete and sufficient medical certification, the Leave Coordinator must send the Designation Notice (WH-382) within 5 BUSINESS days. Clock starts on the date the LC has 'sufficient information.' If cert is incomplete, clock pauses during the 7-calendar-day cure window. CONSEQUENCE IF MISSED: Leave is automatically treated as FMLA-qualifying regardless of actual qualification. For each new certification receipt, create a new case-specific deadline event.",
+      "id": "ref-fmla-designation-notice-deadline"
+    },
+    "ref-medical-cert-return-window": {
+      "summary": "\ud83d\udccc REFERENCE: Medical Certification Return Window \u2014 15 Calendar Days",
+      "start": {
+        "date": "2026-04-09"
+      },
+      "end": {
+        "date": "2026-04-10"
+      },
+      "description": "REFERENCE EVENT \u2014 Per SOP Section 8.5 & 7.5: Employee has 15 CALENDAR days from receipt of the certification request to return a complete and sufficient certification. Clock starts on the date the employee receives the request. If emailed before 5pm MT on a business day, presume same-day receipt. If after 5pm MT or non-business day, presume next business day receipt. CONSEQUENCE IF MISSED: Leave may be denied; escalate to Benefits Manager (Renata Okafor). For each new cert request, create a case-specific deadline event.",
+      "id": "ref-medical-cert-return-window"
+    },
+    "ref-incomplete-cert-cure-window": {
+      "summary": "\ud83d\udccc REFERENCE: Incomplete Certification Cure Window \u2014 7 Calendar Days",
+      "start": {
+        "date": "2026-04-09"
+      },
+      "end": {
+        "date": "2026-04-10"
+      },
+      "description": "REFERENCE EVENT \u2014 Per SOP Section 8.5 & 7.1: When a certification is INCOMPLETE (blank fields or missing signatures), notify the employee in writing (Template 5) and give 7 CALENDAR days to cure. Do NOT issue Designation Notice until cured cert is received. IMPORTANT: Incomplete \u2260 Insufficient. Insufficient certs (filled in but vague/non-responsive) require escalation to Benefits Manager \u2014 never handle independently. For each incomplete cert identified, create a case-specific cure deadline event.",
+      "id": "ref-incomplete-cert-cure-window"
+    },
+    "ref-famli-employer-response-deadline": {
+      "summary": "\ud83d\udccc REFERENCE: FAMLI Employer Response \u2014 5 Business Days from CDLE Notice",
+      "start": {
+        "date": "2026-04-09"
+      },
+      "end": {
+        "date": "2026-04-10"
+      },
+      "description": "REFERENCE EVENT \u2014 Per SOP Section 9.5 & 7.5: When CDLE sends an Employer Response notice to famliemployer@ridgelinegear.com, Ridgeline has 5 BUSINESS days to respond. Clock starts on the calendar date Ridgeline receives the CDLE email (email Date header governs). Response is submitted by replying to the original CDLE email at claims@famli.colorado.gov. CONSEQUENCE IF MISSED: Ridgeline loses the right to contest; FAMLI claim proceeds as filed. For each CDLE notice received, create a case-specific deadline event.",
+      "id": "ref-famli-employer-response-deadline"
+    },
+    "ref-ada-same-day-routing": {
+      "summary": "\ud83d\udccc REFERENCE: ADA Accommodation Request \u2014 Same Business Day Action Required",
+      "start": {
+        "date": "2026-04-09"
+      },
+      "end": {
+        "date": "2026-04-10"
+      },
+      "description": "REFERENCE EVENT \u2014 Per SOP Section 9.2 & 7.5: ADA accommodation requests require same-business-day acknowledgment (Template 19) and routing to HR Director (Daniel Whitfield) at daniel.whitfield@ridgelinegear.com. Post to #hr-escalations. CRITICAL: ADA requests rarely use the phrase 'ADA accommodation' \u2014 recognize indirect requests. When in doubt, treat as ADA and route. NEVER tell the employee if the accommodation is granted/denied. NEVER request medical documentation. NEVER communicate with the manager about the ADA request without HR Director direction. CONSEQUENCE IF MISSED: Potential ADA liability.",
+      "id": "ref-ada-same-day-routing"
+    },
+    "ref-bereavement-documentation-deadline": {
+      "summary": "\ud83d\udccc REFERENCE: Bereavement Documentation \u2014 30 Calendar Days from Loss",
+      "start": {
+        "date": "2026-04-09"
+      },
+      "end": {
+        "date": "2026-04-10"
+      },
+      "description": "REFERENCE EVENT \u2014 Per SOP Section 11.3 & 7.5: Employee must provide bereavement documentation (obituary, death certificate, or funeral program) within 30 CALENDAR days of the date of loss. CONSEQUENCE IF MISSED: Leave is reclassified as PTO. Update leave_tracker.xlsx and notify Payroll Lead (Teresa Vang) via #payroll-coordination. Send Template 24 to employee. For each bereavement case, create a case-specific 30-day documentation deadline event.",
+      "id": "ref-bereavement-documentation-deadline"
+    },
+    "ref-jury-duty-summons-deadline": {
+      "summary": "\ud83d\udccc REFERENCE: Jury Duty Summons \u2014 Employee Must Submit Within 2 Business Days",
+      "start": {
+        "date": "2026-04-09"
+      },
+      "end": {
+        "date": "2026-04-10"
+      },
+      "description": "REFERENCE EVENT \u2014 Per SOP Section 11.4 & 7.5: Employee must provide their jury summons to HR within 2 BUSINESS days of receiving the summons. CONSEQUENCE IF MISSED: Leave may be reclassified as PTO. Verify summons appears legitimate (names specific court, includes case/juror number, states specific reporting date). File in employee's non-medical HR file as jury_summons_[Case ID]_[Date].pdf \u2014 NOT in restricted medical file.",
+      "id": "ref-jury-duty-summons-deadline"
+    },
+    "ref-intermittent-leave-30day-review": {
+      "summary": "\ud83d\udccc REFERENCE: Intermittent Leave 30-Day Review (Recurring)",
+      "start": {
+        "date": "2026-04-09"
+      },
+      "end": {
+        "date": "2026-04-10"
+      },
+      "description": "REFERENCE EVENT \u2014 Per SOP Section 12.2 & 7.5: Every active intermittent leave case must be reviewed at least once every 30 CALENDAR days. At case opening, add a recurring calendar event ('Intermittent Case Review \u2014 [Case ID]') set to repeat every 30 calendar days until case closure. At each review: compare actual absence frequency vs. certified frequency. If variance exceeds +50% (actual usage > 150% of certified), flag as pattern concern and escalate to Benefits Manager. CONSEQUENCE IF MISSED: Pattern issues may not be detected; update recurring issue log (Section 12).",
+      "id": "ref-intermittent-leave-30day-review"
+    },
+    "ref-intermittent-cert-renewal-6months": {
+      "summary": "\ud83d\udccc REFERENCE: Intermittent Cert Renewal \u2014 After 6 Months Open",
+      "start": {
+        "date": "2026-04-09"
+      },
+      "end": {
+        "date": "2026-04-10"
+      },
+      "description": "REFERENCE EVENT \u2014 Per SOP Section 12.3: If an intermittent leave case has been open for more than 6 months, request an updated medical certification (Template 7). If the original certification has an expiration date, request renewal 30 days before expiration \u2014 add expiration date to HR Leave Deadlines Google Calendar when original cert is filed. Recertification independent of Benefits Manager authorization is NOT permitted based on personal suspicion of a pattern. For each intermittent case, track the 6-month anniversary and cert expiration date.",
+      "id": "ref-intermittent-cert-renewal-6months"
+    },
+    "ref-hours-log-weekly-update": {
+      "summary": "\ud83d\udccc REFERENCE: hours_worked_log.xlsx \u2014 Updated Every Monday by Payroll",
+      "start": {
+        "date": "2026-04-13"
+      },
+      "end": {
+        "date": "2026-04-14"
+      },
+      "description": "REFERENCE EVENT \u2014 Per SOP Section 4 (Tools): hours_worked_log.xlsx is updated every Monday by the Payroll Lead (Teresa Vang). Non-exempt hours are actual; exempt hours are imputed at 40 hours/week unless a timesheet is on file. The Leave Coordinator must use the value shown in the file directly for FMLA 1,250-hour eligibility tests \u2014 do NOT recalculate or impute hours independently. If the file value may be inaccurate (e.g., employee took extended unpaid leave), escalate to Benefits Manager before issuing Eligibility Notice.",
+      "id": "ref-hours-log-weekly-update"
+    },
+    "ref-fitforduty-rtw-reminder": {
+      "summary": "\ud83d\udccc REFERENCE: Fitness-for-Duty Reminder \u2014 5 Business Days Before Return",
+      "start": {
+        "date": "2026-04-09"
+      },
+      "end": {
+        "date": "2026-04-10"
+      },
+      "description": "REFERENCE EVENT \u2014 Per SOP Section 8.8 & 12.1: Five business days before scheduled return from any continuous FMLA leave taken for the employee's own serious health condition, verify that fitness-for-duty certification has been received (if required per the Designation Notice). If not received, send Template 8. FFD is NOT required for: leave for family member's condition, bonding leave, or most intermittent leave. Two business days before return, notify manager of return date and any restrictions (Template 12) \u2014 do NOT include medical reason for restrictions. If restrictions cannot be accommodated, ESCALATE to HR Director immediately.",
+      "id": "ref-fitforduty-rtw-reminder"
+    },
+    "ref-manager-notification-on-designation": {
+      "summary": "\ud83d\udccc REFERENCE: Manager Leave Notification \u2014 Send with Designation Notice",
+      "start": {
+        "date": "2026-04-09"
+      },
+      "end": {
+        "date": "2026-04-10"
+      },
+      "description": "REFERENCE EVENT \u2014 Per SOP Section 10.2: When the Leave Coordinator issues the FMLA Designation Notice (or equivalent FAMLI designation), simultaneously send Template 11 to the employee's manager. Template 11 includes ONLY: employee name, leave general category (no medical reason), start date, expected end date, continuous/intermittent/reduced-schedule status (for intermittent: general frequency range only \u2014 NEVER verbatim certified frequency), any work restrictions upon return. NEVER include reason category, medical details, or certification contents.",
+      "id": "ref-manager-notification-on-designation"
+    },
+    "ref-payroll-notification-triggers": {
+      "summary": "\ud83d\udccc REFERENCE: Payroll Notification Triggers (Teresa Vang via #payroll-coordination)",
+      "start": {
+        "date": "2026-04-09"
+      },
+      "end": {
+        "date": "2026-04-10"
+      },
+      "description": "REFERENCE EVENT \u2014 Per SOP Section 10.1: Notify Payroll Lead (Teresa Vang, teresa.vang@ridgelinegear.com) via #payroll-coordination for ALL of: leave start (first day of continuous leave OR first intermittent absence in new case), transition to unpaid status, scheduled return from continuous leave, actual return confirmed by manager, each intermittent absence reducing scheduled paid hours, case closure, retroactive designation affecting processed pay periods. Format: 'LEAVE PAYROLL NOTIFICATION: [Case ID], [Employee Name], [Event Type], [Effective Date], [Continuous/Intermittent], [Notes].' Never include medical details or reason category.",
+      "id": "ref-payroll-notification-triggers"
+    },
+    "ref-sla-p1-urgent": {
+      "summary": "\ud83d\udccc REFERENCE: P1 Urgent SLA \u2014 Same Business Day (by 5pm MT)",
+      "start": {
+        "date": "2026-04-09"
+      },
+      "end": {
+        "date": "2026-04-10"
+      },
+      "description": "REFERENCE EVENT \u2014 Per SOP Section 7.1: P1 Urgent cases require same-business-day acknowledgment and initial action before 5:00pm MT. P1 triggers include: employee hospitalized with no open leave case; bereavement for immediate family; active military orders with <72 hours notice; FMLA Eligibility Notice due today or tomorrow; medical cert 15-day window expires today; email mentions attorney/EEOC/CDLE; manager reports employee out 3+ consecutive days without notice; ADA request where employee states they cannot perform essential functions today. If P1 arrives after 3pm MT, initial action must still occur same business day; full resolution may carry to next day.",
+      "id": "ref-sla-p1-urgent"
+    },
+    "ref-sla-breach-protocol": {
+      "summary": "\ud83d\udccc REFERENCE: SLA Breach Protocol",
+      "start": {
+        "date": "2026-04-09"
+      },
+      "end": {
+        "date": "2026-04-10"
+      },
+      "description": "REFERENCE EVENT \u2014 Per SOP Section 7.4: At 50% of SLA window without substantive action, post to #benefits-team: 'SLA WARNING: Case [Case ID], [Priority], [Current Status], [Time Remaining].' If SLA is breached, log in leave_tracker.xlsx with note 'SLA breach: [reason]' and post to #benefits-team. If BOTH internal SLA and statutory deadline are breached, immediately escalate to Benefits Manager via #benefits-team AND email renata.okafor@ridgelinegear.com with subject 'STATUTORY DEADLINE BREACH \u2014 Case [Case ID].' Do NOT communicate breach to employee until directed by Benefits Manager.",
+      "id": "ref-sla-breach-protocol"
+    },
+    "ref-legal-threat-protocol": {
+      "summary": "\ud83d\udccc REFERENCE: Legal Threat Protocol \u2014 Route to General Counsel Immediately",
+      "start": {
+        "date": "2026-04-09"
+      },
+      "end": {
+        "date": "2026-04-10"
+      },
+      "description": "REFERENCE EVENT \u2014 Per SOP Section 12.5 & 5.4: If any email mentions attorney/lawyer/legal counsel, EEOC, CDLE, DOL, Colorado Civil Rights Division, lawsuit/claim/legal action, retaliation, discrimination, interference, or involves active litigation \u2014 STOP. (1) Do NOT reply to the email. (2) Post to #legal-review: 'LEGAL THREAT: [Employee Name], [Case ID], [Subject Line], [Brief Description] \u2014 do not reply.' (3) Forward email thread and full case file to General Counsel Evelyn Marchetti at evelyn.marchetti@ridgelineholdings.com with subject 'LEGAL THREAT \u2014 [Employee Name] \u2014 [Case ID].' (4) Set Case Status = Escalated \u2014 Legal Review. All further communication handled by General Counsel.",
+      "id": "ref-legal-threat-protocol"
+    },
+    "ref-gina-protocol": {
+      "summary": "\ud83d\udccc REFERENCE: GINA Protocol \u2014 Extra Medical Info on Certifications",
+      "start": {
+        "date": "2026-04-09"
+      },
+      "end": {
+        "date": "2026-04-10"
+      },
+      "description": "REFERENCE EVENT \u2014 Per SOP Section 8.5 & 13.6: If a returned medical certification contains family medical history, genetic test results, or other GINA-protected information: (1) Do NOT retain the original PDF in the standard case file. (2) Do NOT attempt to redact the PDF directly. (3) Create a sanitized .docx summary with ONLY: employee name, Case ID, leave start/end dates, certified frequency (intermittent), expected duration, and confirmation that provider signature is present. Save as [Case ID]_cert_summary.docx in restricted folder. (4) Forward original PDF to evelyn.marchetti@ridgelineholdings.com with subject 'GINA \u2014 Original Medical Cert \u2014 [Case ID].' (5) Escalate to General Counsel per Section 5.4.",
+      "id": "ref-gina-protocol"
+    },
+    "ref-confidentiality-rules": {
+      "summary": "\ud83d\udccc REFERENCE: Confidentiality Rules \u2014 Medical Info Must NEVER Appear in Slack/Email",
+      "start": {
+        "date": "2026-04-09"
+      },
+      "end": {
+        "date": "2026-04-10"
+      },
+      "description": "REFERENCE EVENT \u2014 Per SOP Sections 5.5, 13.2, 13.3: ABSOLUTE RULES: Never disclose medical information, diagnoses, or reason categories to managers, coworkers, or any non-HR party. Never post medical details in ANY Slack channel. Never CC anyone outside the HR team on case emails. Medical certifications (WH-380-E/F), fitness-for-duty certs, ADA docs stored ONLY in restricted [Employee_ID]/ folder \u2014 access limited to HR Director, Benefits Manager, and Leave Coordinator. Non-medical docs (bereavement docs, jury summons, military orders) stored in regular HR file. Never confirm or deny an employee's leave status to external callers, vendors, or family members. Slack case notifications must reference Case ID and minimum metadata only.",
+      "id": "ref-confidentiality-rules"
+    },
+    "ref-concurrent-designation-default": {
+      "summary": "\ud83d\udccc REFERENCE: Concurrent Designation \u2014 Required When Both FMLA & FAMLI Apply",
+      "start": {
+        "date": "2026-04-09"
+      },
+      "end": {
+        "date": "2026-04-10"
+      },
+      "description": "REFERENCE EVENT \u2014 Per SOP Sections 6.3 & 9.3: Concurrent designation is the DEFAULT whenever two or more leave types cover the same event. An employee does NOT get 12 weeks of FMLA PLUS 12 weeks of FAMLI separately \u2014 they run together. Common multi-type combinations: employee's own serious health condition = FMLA + FAMLI + possibly HFWA + possibly PTO substitution; birth/bonding = FMLA + FAMLI + PTO; family member's serious health condition = FMLA + FAMLI. IMPORTANT: FAMLI uses a BROADER family definition than FMLA (includes siblings, grandparents, domestic partners, chosen family). Do not assume a FAMLI-qualifying relationship also qualifies under FMLA. When reasons diverge, escalate to Benefits Manager.",
+      "id": "ref-concurrent-designation-default"
+    },
+    "ref-hfwa-reclassification-check": {
+      "summary": "\ud83d\udccc REFERENCE: HFWA Reclassification Check \u2014 Trigger FMLA/FAMLI If Qualifying",
+      "start": {
+        "date": "2026-04-09"
+      },
+      "end": {
+        "date": "2026-04-10"
+      },
+      "description": "REFERENCE EVENT \u2014 Per SOP Section 11.1 Step 5: If an HFWA sick leave request involves a condition that could qualify as an FMLA 'serious health condition' (e.g., hospitalization, continuing treatment, condition lasting more than 3 consecutive days with ongoing treatment), the Leave Coordinator MUST open a concurrent FMLA/FAMLI intake per Section 6 \u2014 even if the employee only asked about HFWA. HFWA is not a substitute for FMLA and cannot be used to avoid FMLA designation. Documentation may be required by Ridgeline only when the HFWA absence exceeds 4 consecutive workdays.",
+      "id": "ref-hfwa-reclassification-check"
+    },
+    "ref-never-actions": {
+      "summary": "\ud83d\udccc REFERENCE: Actions Leave Coordinator Must NEVER Take",
+      "start": {
+        "date": "2026-04-09"
+      },
+      "end": {
+        "date": "2026-04-10"
+      },
+      "description": "REFERENCE EVENT \u2014 Per SOP Section 5.5: The Leave Coordinator MUST NEVER: (1) Disclose any employee medical information to managers, coworkers, or any third party beyond minimum necessary (dates OK; medical nature NOT OK). (2) Promise retroactive leave designation. (3) Confirm or deny an employee is on any type of leave to external callers, vendors, reference-checkers, or anyone outside HR. (4) Discuss one employee's leave with another employee. (5) Issue, modify, or approve any payroll transaction. (6) Store medical certifications or PHI outside the restricted [Employee_ID]/ folder. (7) Include medical details, diagnoses, or PHI in any email, Slack message, or shared document. (8) Tell an ADA employee whether accommodation is granted/denied or what accommodations are available.",
+      "id": "ref-never-actions"
+    },
+    "ref-authority-matrix": {
+      "summary": "\ud83d\udccc REFERENCE: Authority & Decision Limits (Section 5)",
+      "start": {
+        "date": "2026-04-09"
+      },
+      "end": {
+        "date": "2026-04-10"
+      },
+      "description": "REFERENCE EVENT \u2014 Per SOP Section 5: LC INDEPENDENT: FMLA eligibility determination, send WH-381/WH-382, request certifications, calculate rolling 12-month balance, log leave usage, answer PTO/HFWA balance questions, acknowledge/route ADA requests, close straightforward continuous cases, deny FMLA for clear ineligibility (non-exempt employees only). BENEFITS MANAGER (Renata Okafor) REQUIRED: incomplete vs. insufficient cert determination, any FMLA/FAMLI denial beyond clear ineligibility, intermittent pattern concerns, extensions beyond 12/26-week cap, key employee designations, HFWA classification disputes, retroactive leave designation requests. HR DIRECTOR (Daniel Whitfield) REQUIRED: all ADA accommodation decisions, fitness-for-duty disputes, failure-to-return cases, any case where discipline/termination is contemplated. GENERAL COUNSEL (Evelyn Marchetti) REQUIRED: legal threats, EEOC/CDLE/DOL mentions, retroactive designation disputes with attendance discipline, GINA concerns, active litigation cases.",
+      "id": "ref-authority-matrix"
+    },
+    "ref-contacts-quick-reference": {
+      "summary": "\ud83d\udccc REFERENCE: Key Contacts Quick Reference",
+      "start": {
+        "date": "2026-04-09"
+      },
+      "end": {
+        "date": "2026-04-10"
+      },
+      "description": "REFERENCE EVENT \u2014 Per SOP Section 4 (Team & Contacts): HR Director: Daniel Whitfield \u2014 daniel.whitfield@ridgelinegear.com / @daniel.whitfield. Benefits Manager (supervisor): Renata Okafor \u2014 renata.okafor@ridgelinegear.com / @renata.okafor. Leave Coordinator (this role): leaves@ridgelinegear.com / @leaves-hr. HR Generalist (Employee Relations): Meera Patel \u2014 meera.patel@ridgelinegear.com / @meera.patel. HR Generalist (Onboarding): Jordan Briggs \u2014 jordan.briggs@ridgelinegear.com / @jordan.briggs. Payroll Lead: Teresa Vang \u2014 teresa.vang@ridgelinegear.com / @teresa.vang. Safety & WC Coordinator: Luis Arredondo \u2014 luis.arredondo@ridgelinegear.com / @luis.arredondo. General Counsel: Evelyn Marchetti \u2014 evelyn.marchetti@ridgelineholdings.com / @evelyn.marchetti. IT Access: Samir Haddad \u2014 samir.haddad@ridgelinegear.com / @samir.haddad. Leaves inbox: leaves@ridgelinegear.com. Escalations inbox: benefits@ridgelinegear.com. FAMLI employer inbox: famliemployer@ridgelinegear.com. CDLE claims: claims@famli.colorado.gov.",
+      "id": "ref-contacts-quick-reference"
+    }
+  }
+}

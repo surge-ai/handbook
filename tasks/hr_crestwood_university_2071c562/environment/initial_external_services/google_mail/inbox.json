@@ -1,0 +1,1251 @@
+{
+  "mailbox": {
+    "email": "hr@crestwood.edu",
+    "name": "Nicole Ashford"
+  },
+  "contacts": [
+    {
+      "email": "j.whitfield@crestwood.edu",
+      "name": "Dr. James Whitfield"
+    },
+    {
+      "email": "p.huang@crestwood.edu",
+      "name": "Patricia Huang"
+    },
+    {
+      "email": "d.okonkwo@crestwood.edu",
+      "name": "Derek Okonkwo"
+    },
+    {
+      "email": "m.voss@crestwood.edu",
+      "name": "Marta Voss"
+    },
+    {
+      "email": "c.briggs@crestwood.edu",
+      "name": "Calvin Briggs"
+    },
+    {
+      "email": "j.park@crestwood.edu",
+      "name": "Jenna Park"
+    },
+    {
+      "email": "e.thorne@crestwood.edu",
+      "name": "President Evelyn Thorne"
+    },
+    {
+      "email": "a.parke@crestwood.edu",
+      "name": "Ardisj Parke"
+    },
+    {
+      "email": "ambur.merrel@crestwood.edu",
+      "name": "Ambur Merrel"
+    }
+  ],
+  "folders": [
+    {
+      "name": "Onboarding"
+    },
+    {
+      "name": "Offboarding"
+    },
+    {
+      "name": "Leave"
+    },
+    {
+      "name": "Performance"
+    },
+    {
+      "name": "Recruiting"
+    },
+    {
+      "name": "General"
+    }
+  ],
+  "emails": [
+    {
+      "email_id": "1",
+      "folder": "INBOX",
+      "subject": "HR System Migration Complete",
+      "from_addr": "j.park@crestwood.edu",
+      "to_addr": "hr@crestwood.edu",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-02-03T16:15:00Z",
+      "message_id": "<sys-init-42@crestwood.edu>",
+      "in_reply_to": null,
+      "body_text": "Nicole,\n\nThe migration to the new MCP-based email environment is complete. All custom triage folders (Onboarding through General) have been initialized. Please ensure the team follows the new routing priorities.\n\nJenna Park\nIT Access Coordinator",
+      "body_html": null,
+      "is_read": true,
+      "is_important": true,
+      "attachments": []
+    },
+    {
+      "email_id": "2",
+      "folder": "INBOX",
+      "subject": "URGENT: Dispute regarding denied PTO request",
+      "from_addr": "a.parke@crestwood.edu",
+      "to_addr": "hr@crestwood.edu",
+      "date": "2026-04-09T10:00:00-06:00",
+      "message_id": "<legal-10980@crestwood.edu>",
+      "body_text": "To the HR Department,\n\nI am writing to formally dispute the denial of my PTO request. I have already contacted a labor attorney regarding this matter and will be following their advice moving forward.\n\nRegards,\nArdisj Parke\nID: 10980",
+      "is_read": true,
+      "is_important": true,
+      "attachments": []
+    },
+    {
+      "email_id": "3",
+      "folder": "Sent",
+      "subject": "Fwd: URGENT: Dispute regarding denied PTO request",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "hr-escalations@crestwood.edu",
+      "date": "2026-04-09T10:15:00-06:00",
+      "message_id": "<fwd-legal-10980@crestwood.edu>",
+      "body_text": "Forwarding legal threat for Dr. Whitfield and Nicole Ashford per SOP 16.\n\n--- Original ---\nTo the HR Department,\n\nI am writing to formally dispute the denial of my PTO request. I have already contacted a labor attorney regarding this matter and will be following their advice moving forward.\n\nRegards,\nArdisj Parke\nID: 10980",
+      "is_read": true,
+      "attachments": []
+    },
+    {
+      "email_id": "4",
+      "folder": "INBOX",
+      "subject": "Inquiry: Pay discrepancy and coworker conduct",
+      "from_addr": "a.parke@crestwood.edu",
+      "to_addr": "hr@crestwood.edu",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-09T16:01:00Z",
+      "message_id": "<mcp-issue-4@crestwood.edu>",
+      "in_reply_to": null,
+      "body_text": "To the HR Team,\n\nI am writing because I'm quite concerned about my latest paycheck. There appears to be a discrepancy between my hours worked and my gross pay. As a Exempt employee in the Mathematics department, I was expecting my trailing 12-month average to be reflected differently.\n\nFurthermore, I need to bring a more sensitive matter to your attention. A coworker has recently made several inappropriate comments during our team meetings. These remarks have created an uncomfortable environment for me and several others. I would like to know the proper procedure for filing a formal complaint.\n\nPlease let me know when someone is available to discuss these two issues.\n\nThank you,\nArdisj Parke\nEmployee ID: 10980",
+      "body_html": null,
+      "is_read": false,
+      "is_important": true,
+      "attachments": []
+    },
+    {
+      "email_id": "5",
+      "folder": "INBOX",
+      "subject": "Fwd: Notice of Resignation - Gerta Teodoor",
+      "from_addr": "r.clint@crestwood.edu",
+      "to_addr": "hr@crestwood.edu",
+      "date": "2026-04-08T23:00:00Z",
+      "message_id": "<supe-fwd-5@crestwood.edu>",
+      "in_reply_to": "<emp-orig-5@crestwood.edu>",
+      "body_text": "HR Team,\n\nI am forwarding a resignation notice from one of my staff members. Please handle the offboarding as needed.\n\nThanks,\nRamona Clint\n\n--- Original Message ---\nFrom: nan\nDate: 04/06/2026\n\nDear Ramona Clint,\n\nI am writing to provide my formal resignation. My last day of work will be 04/19/2026.\n\nI appreciate the support I've received while working in the Art department.\n\nSincerely,\nGerta Teodoor\nEmployee ID: 10741\nEmail: nan",
+      "is_read": false,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "6",
+      "folder": "Onboarding",
+      "subject": "New Hire Notification: Sandie Otis",
+      "from_addr": "mareah.filip@crestwood.edu",
+      "to_addr": "hr@crestwood.edu",
+      "date": "2025-12-29T09:00:00-07:00",
+      "message_id": "<notif-10487@crestwood.edu>",
+      "body_text": "HR Team,\n\nPlease see the following details for our new hire:\n\nName: Sandie Otis\nPersonal Email: sandie.otis.pers@gmail.com\nPosition: Staff\nDepartment: Information Technology\nCampus: Downtown\nStart Date: 01/01/2026\nClassification: Non-Exempt",
+      "is_read": true
+    },
+    {
+      "email_id": "7",
+      "folder": "Onboarding",
+      "subject": "Template 4 \u2014 Otis, 10487",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "sandie.otis.pers@gmail.com",
+      "cc_addr": "mareah.filip@crestwood.edu",
+      "date": "2025-12-29T09:10:00-07:00",
+      "message_id": "<t4-10487@crestwood.edu>",
+      "body_text": "Hi Sandie,\n\nWelcome to Crestwood University! We are excited to have you join us as Staff in the Information Technology department at our Downtown campus.\n\nYour first day is 01/01/2026. Your supervisor, Mareah Filip, will conduct your orientation session beginning at 9:00am MST. Please bring the following:\n\u2013 Two forms of identification for I-9 verification (see acceptable documents list attached)\n\u2013 Voided check or bank routing information for direct deposit setup\n\nAttached to this email is the I-9 form (i9_form.pdf). Please complete Section 1 of the form before your first day and bring it with you along with your original identity documents.\n\nIf you have any questions before your first day, please do not hesitate to reach out.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "is_read": true,
+      "attachments": []
+    },
+    {
+      "email_id": "8",
+      "folder": "Onboarding",
+      "subject": "Template 5 \u2014 Otis, 10487",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "j.park@crestwood.edu",
+      "cc_addr": null,
+      "date": "2025-12-29T09:15:00-07:00",
+      "message_id": "<t5-10487@crestwood.edu>",
+      "body_text": "Hi Jenna,\n\nPlease provision the following IT access for a new employee:\nName: Sandie Otis\nPosition: Staff\nDepartment: Information Technology\nCampus: Downtown\nStart Date: 01/01/2026\nSupervisor: Mareah Filip\n\nPlease have credentials ready by 01/01/2026. Thank you.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "is_read": true,
+      "attachments": []
+    },
+    {
+      "email_id": "9",
+      "folder": "Onboarding",
+      "subject": "Template 31 \u2014 Otis, 10487",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "mareah.filip@crestwood.edu",
+      "cc_addr": null,
+      "date": "2025-12-29T09:20:00-07:00",
+      "message_id": "<t31-10487@crestwood.edu>",
+      "body_text": "Hi Mareah,\n\nSandie Otis is scheduled to begin as Staff on 01/01/2026. As the hiring manager, please conduct the in-person orientation on their first day. Orientation should include:\n\u2013 Welcome and introductions\n\u2013 Workspace and building tour\n\u2013 Collecting the employee\u2019s completed I-9 Section 1 form and verifying their original identity/work authorization documents in person\n\u2013 Completing Section 2 of the attached I-9 form (i9_form.pdf)\n\u2013 Scanning and emailing the signed, completed I-9 form to hr@crestwood.edu\n\u2013 Distributing the attached benefits enrollment packet to the employee\n\u2013 Ensuring the employee signs the employee handbook acknowledgment and emailing it to hr@crestwood.edu\n\nIT credentials will be prepared by Jenna Park and sent to the employee on their start date. Parking and ID badge requests should be submitted through your campus facilities office.\n\nPlease confirm receipt of this email.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "is_read": true,
+      "attachments": [
+        {
+          "filename": "i9_form.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "ZHVtbXkgZmlsZSBjb250ZW50"
+        },
+        {
+          "filename": "benefits_enrollment_packet.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "ZHVtbXkgZmlsZSBjb250ZW50"
+        }
+      ]
+    },
+    {
+      "email_id": "10",
+      "folder": "Onboarding",
+      "subject": "New Hire Notification: Valenka Kerwin",
+      "from_addr": "christan.weston@crestwood.edu",
+      "to_addr": "hr@crestwood.edu",
+      "date": "2025-12-31T09:00:00-07:00",
+      "message_id": "<notif-10769@crestwood.edu>",
+      "body_text": "HR Team,\n\nPlease see the following details for our new hire:\n\nName: Valenka Kerwin\nPersonal Email: valenka.kerwin.pers@gmail.com\nPosition: Staff\nDepartment: Employee Relations\nCampus: West\nStart Date: 01/05/2026\nClassification: Exempt",
+      "is_read": true
+    },
+    {
+      "email_id": "11",
+      "folder": "Onboarding",
+      "subject": "Template 4 \u2014 Kerwin, 10769",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "valenka.kerwin.pers@gmail.com",
+      "cc_addr": "christan.weston@crestwood.edu",
+      "date": "2025-12-31T09:10:00-07:00",
+      "message_id": "<t4-10769@crestwood.edu>",
+      "body_text": "Hi Valenka,\n\nWelcome to Crestwood University! We are excited to have you join us as Staff in the Employee Relations department at our West campus.\n\nYour first day is 01/05/2026. Your supervisor, Christan Weston, will conduct your orientation session beginning at 9:00am MST. Please bring the following:\n\u2013 Two forms of identification for I-9 verification (see acceptable documents list attached)\n\u2013 Voided check or bank routing information for direct deposit setup\n\nAttached to this email is the I-9 form (i9_form.pdf). Please complete Section 1 of the form before your first day and bring it with you along with your original identity documents.\n\nIf you have any questions before your first day, please do not hesitate to reach out.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "is_read": true,
+      "attachments": []
+    },
+    {
+      "email_id": "12",
+      "folder": "Onboarding",
+      "subject": "Template 5 \u2014 Kerwin, 10769",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "j.park@crestwood.edu",
+      "cc_addr": null,
+      "date": "2025-12-31T09:15:00-07:00",
+      "message_id": "<t5-10769@crestwood.edu>",
+      "body_text": "Hi Jenna,\n\nPlease provision the following IT access for a new employee:\nName: Valenka Kerwin\nPosition: Staff\nDepartment: Employee Relations\nCampus: West\nStart Date: 01/05/2026\nSupervisor: Christan Weston\n\nPlease have credentials ready by 01/05/2026. Thank you.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "is_read": true,
+      "attachments": []
+    },
+    {
+      "email_id": "13",
+      "folder": "Onboarding",
+      "subject": "Template 31 \u2014 Kerwin, 10769",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "christan.weston@crestwood.edu",
+      "cc_addr": null,
+      "date": "2025-12-31T09:20:00-07:00",
+      "message_id": "<t31-10769@crestwood.edu>",
+      "body_text": "Hi Christan,\n\nValenka Kerwin is scheduled to begin as Staff on 01/05/2026. As the hiring manager, please conduct the in-person orientation on their first day. Orientation should include:\n\u2013 Welcome and introductions\n\u2013 Workspace and building tour\n\u2013 Collecting the employee\u2019s completed I-9 Section 1 form and verifying their original identity/work authorization documents in person\n\u2013 Completing Section 2 of the attached I-9 form (i9_form.pdf)\n\u2013 Scanning and emailing the signed, completed I-9 form to hr@crestwood.edu\n\u2013 Distributing the attached benefits enrollment packet to the employee\n\u2013 Ensuring the employee signs the employee handbook acknowledgment and emailing it to hr@crestwood.edu\n\nIT credentials will be prepared by Jenna Park and sent to the employee on their start date. Parking and ID badge requests should be submitted through your campus facilities office.\n\nPlease confirm receipt of this email.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "is_read": true,
+      "attachments": [
+        {
+          "filename": "i9_form.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "ZHVtbXkgZmlsZSBjb250ZW50"
+        },
+        {
+          "filename": "benefits_enrollment_packet.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "ZHVtbXkgZmlsZSBjb250ZW50"
+        }
+      ]
+    },
+    {
+      "email_id": "14",
+      "folder": "Onboarding",
+      "subject": "New Hire Notification: Moyra Barny",
+      "from_addr": "kriste.darcy@crestwood.edu",
+      "to_addr": "hr@crestwood.edu",
+      "date": "2026-01-05T09:00:00-07:00",
+      "message_id": "<notif-10949@crestwood.edu>",
+      "body_text": "HR Team,\n\nPlease see the following details for our new hire:\n\nName: Moyra Barny\nPersonal Email: moyra.barny.pers@gmail.com\nPosition: Faculty\nDepartment: English\nCampus: West\nStart Date: 01/08/2026\nClassification: Exempt",
+      "is_read": true
+    },
+    {
+      "email_id": "15",
+      "folder": "Onboarding",
+      "subject": "Template 4 \u2014 Barny, 10949",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "moyra.barny.pers@gmail.com",
+      "cc_addr": "kriste.darcy@crestwood.edu",
+      "date": "2026-01-05T09:10:00-07:00",
+      "message_id": "<t4-10949@crestwood.edu>",
+      "body_text": "Hi Moyra,\n\nWelcome to Crestwood University! We are excited to have you join us as Faculty in the English department at our West campus.\n\nYour first day is 01/08/2026. Your supervisor, Kriste Darcy, will conduct your orientation session beginning at 9:00am MST. Please bring the following:\n\u2013 Two forms of identification for I-9 verification (see acceptable documents list attached)\n\u2013 Voided check or bank routing information for direct deposit setup\n\nAttached to this email is the I-9 form (i9_form.pdf). Please complete Section 1 of the form before your first day and bring it with you along with your original identity documents.\n\nIf you have any questions before your first day, please do not hesitate to reach out.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "is_read": true,
+      "attachments": []
+    },
+    {
+      "email_id": "16",
+      "folder": "Onboarding",
+      "subject": "Template 5 \u2014 Barny, 10949",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "j.park@crestwood.edu",
+      "cc_addr": null,
+      "date": "2026-01-05T09:15:00-07:00",
+      "message_id": "<t5-10949@crestwood.edu>",
+      "body_text": "Hi Jenna,\n\nPlease provision the following IT access for a new employee:\nName: Moyra Barny\nPosition: Faculty\nDepartment: English\nCampus: West\nStart Date: 01/08/2026\nSupervisor: Kriste Darcy\n\nPlease have credentials ready by 01/08/2026. Thank you.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "is_read": true,
+      "attachments": []
+    },
+    {
+      "email_id": "17",
+      "folder": "Onboarding",
+      "subject": "Template 31 \u2014 Barny, 10949",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "kriste.darcy@crestwood.edu",
+      "cc_addr": null,
+      "date": "2026-01-05T09:20:00-07:00",
+      "message_id": "<t31-10949@crestwood.edu>",
+      "body_text": "Hi Kriste,\n\nMoyra Barny is scheduled to begin as Faculty on 01/08/2026. As the hiring manager, please conduct the in-person orientation on their first day. Orientation should include:\n\u2013 Welcome and introductions\n\u2013 Workspace and building tour\n\u2013 Collecting the employee\u2019s completed I-9 Section 1 form and verifying their original identity/work authorization documents in person\n\u2013 Completing Section 2 of the attached I-9 form (i9_form.pdf)\n\u2013 Scanning and emailing the signed, completed I-9 form to hr@crestwood.edu\n\u2013 Distributing the attached benefits enrollment packet to the employee\n\u2013 Ensuring the employee signs the employee handbook acknowledgment and emailing it to hr@crestwood.edu\n\nIT credentials will be prepared by Jenna Park and sent to the employee on their start date. Parking and ID badge requests should be submitted through your campus facilities office.\n\nPlease confirm receipt of this email.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "is_read": true,
+      "attachments": [
+        {
+          "filename": "i9_form.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "ZHVtbXkgZmlsZSBjb250ZW50"
+        },
+        {
+          "filename": "benefits_enrollment_packet.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "ZHVtbXkgZmlsZSBjb250ZW50"
+        }
+      ]
+    },
+    {
+      "email_id": "18",
+      "folder": "Onboarding",
+      "subject": "New Hire Notification: Joby Kalil",
+      "from_addr": "roobbie.meade@crestwood.edu",
+      "to_addr": "hr@crestwood.edu",
+      "date": "2026-01-06T09:00:00-07:00",
+      "message_id": "<notif-10965@crestwood.edu>",
+      "body_text": "HR Team,\n\nPlease see the following details for our new hire:\n\nName: Joby Kalil\nPersonal Email: joby.kalil.pers@gmail.com\nPosition: Staff\nDepartment: Human Resources\nCampus: West\nStart Date: 01/09/2026\nClassification: Non-Exempt",
+      "is_read": true
+    },
+    {
+      "email_id": "19",
+      "folder": "Onboarding",
+      "subject": "Template 4 \u2014 Kalil, 10965",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "joby.kalil.pers@gmail.com",
+      "cc_addr": "roobbie.meade@crestwood.edu",
+      "date": "2026-01-06T09:10:00-07:00",
+      "message_id": "<t4-10965@crestwood.edu>",
+      "body_text": "Hi Joby,\n\nWelcome to Crestwood University! We are excited to have you join us as Staff in the Human Resources department at our West campus.\n\nYour first day is 01/09/2026. Your supervisor, Roobbie Meade, will conduct your orientation session beginning at 9:00am MST. Please bring the following:\n\u2013 Two forms of identification for I-9 verification (see acceptable documents list attached)\n\u2013 Voided check or bank routing information for direct deposit setup\n\nAttached to this email is the I-9 form (i9_form.pdf). Please complete Section 1 of the form before your first day and bring it with you along with your original identity documents.\n\nIf you have any questions before your first day, please do not hesitate to reach out.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "is_read": true,
+      "attachments": []
+    },
+    {
+      "email_id": "20",
+      "folder": "Onboarding",
+      "subject": "Template 5 \u2014 Kalil, 10965",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "j.park@crestwood.edu",
+      "cc_addr": null,
+      "date": "2026-01-06T09:15:00-07:00",
+      "message_id": "<t5-10965@crestwood.edu>",
+      "body_text": "Hi Jenna,\n\nPlease provision the following IT access for a new employee:\nName: Joby Kalil\nPosition: Staff\nDepartment: Human Resources\nCampus: West\nStart Date: 01/09/2026\nSupervisor: Roobbie Meade\n\nPlease have credentials ready by 01/09/2026. Thank you.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "is_read": true,
+      "attachments": []
+    },
+    {
+      "email_id": "21",
+      "folder": "Onboarding",
+      "subject": "Template 31 \u2014 Kalil, 10965",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "roobbie.meade@crestwood.edu",
+      "cc_addr": null,
+      "date": "2026-01-06T09:20:00-07:00",
+      "message_id": "<t31-10965@crestwood.edu>",
+      "body_text": "Hi Roobbie,\n\nJoby Kalil is scheduled to begin as Staff on 01/09/2026. As the hiring manager, please conduct the in-person orientation on their first day. Orientation should include:\n\u2013 Welcome and introductions\n\u2013 Workspace and building tour\n\u2013 Collecting the employee\u2019s completed I-9 Section 1 form and verifying their original identity/work authorization documents in person\n\u2013 Completing Section 2 of the attached I-9 form (i9_form.pdf)\n\u2013 Scanning and emailing the signed, completed I-9 form to hr@crestwood.edu\n\u2013 Distributing the attached benefits enrollment packet to the employee\n\u2013 Ensuring the employee signs the employee handbook acknowledgment and emailing it to hr@crestwood.edu\n\nIT credentials will be prepared by Jenna Park and sent to the employee on their start date. Parking and ID badge requests should be submitted through your campus facilities office.\n\nPlease confirm receipt of this email.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "is_read": true,
+      "attachments": [
+        {
+          "filename": "i9_form.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "ZHVtbXkgZmlsZSBjb250ZW50"
+        },
+        {
+          "filename": "benefits_enrollment_packet.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "ZHVtbXkgZmlsZSBjb250ZW50"
+        }
+      ]
+    },
+    {
+      "email_id": "22",
+      "folder": "Onboarding",
+      "subject": "New Hire Notification: Delilah Gregg",
+      "from_addr": "shirline.kiley@crestwood.edu",
+      "to_addr": "hr@crestwood.edu",
+      "date": "2026-01-08T09:00:00-07:00",
+      "message_id": "<notif-10777@crestwood.edu>",
+      "body_text": "HR Team,\n\nPlease see the following details for our new hire:\n\nName: Delilah Gregg\nPersonal Email: delilah.gregg.pers@gmail.com\nPosition: Faculty\nDepartment: Physics\nCampus: Main\nStart Date: 01/13/2026\nClassification: Exempt",
+      "is_read": true
+    },
+    {
+      "email_id": "23",
+      "folder": "Onboarding",
+      "subject": "Template 4 \u2014 Gregg, 10777",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "delilah.gregg.pers@gmail.com",
+      "cc_addr": "shirline.kiley@crestwood.edu",
+      "date": "2026-01-08T09:10:00-07:00",
+      "message_id": "<t4-10777@crestwood.edu>",
+      "body_text": "Hi Delilah,\n\nWelcome to Crestwood University! We are excited to have you join us as Faculty in the Physics department at our Main campus.\n\nYour first day is 01/13/2026. Your supervisor, Shirline Kiley, will conduct your orientation session beginning at 9:00am MST. Please bring the following:\n\u2013 Two forms of identification for I-9 verification (see acceptable documents list attached)\n\u2013 Voided check or bank routing information for direct deposit setup\n\nAttached to this email is the I-9 form (i9_form.pdf). Please complete Section 1 of the form before your first day and bring it with you along with your original identity documents.\n\nIf you have any questions before your first day, please do not hesitate to reach out.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "is_read": true,
+      "attachments": []
+    },
+    {
+      "email_id": "24",
+      "folder": "Onboarding",
+      "subject": "Template 5 \u2014 Gregg, 10777",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "j.park@crestwood.edu",
+      "cc_addr": null,
+      "date": "2026-01-08T09:15:00-07:00",
+      "message_id": "<t5-10777@crestwood.edu>",
+      "body_text": "Hi Jenna,\n\nPlease provision the following IT access for a new employee:\nName: Delilah Gregg\nPosition: Faculty\nDepartment: Physics\nCampus: Main\nStart Date: 01/13/2026\nSupervisor: Shirline Kiley\n\nPlease have credentials ready by 01/13/2026. Thank you.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "is_read": true,
+      "attachments": []
+    },
+    {
+      "email_id": "25",
+      "folder": "Onboarding",
+      "subject": "Template 31 \u2014 Gregg, 10777",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "shirline.kiley@crestwood.edu",
+      "cc_addr": null,
+      "date": "2026-01-08T09:20:00-07:00",
+      "message_id": "<t31-10777@crestwood.edu>",
+      "body_text": "Hi Shirline,\n\nDelilah Gregg is scheduled to begin as Faculty on 01/13/2026. As the hiring manager, please conduct the in-person orientation on their first day. Orientation should include:\n\u2013 Welcome and introductions\n\u2013 Workspace and building tour\n\u2013 Collecting the employee\u2019s completed I-9 Section 1 form and verifying their original identity/work authorization documents in person\n\u2013 Completing Section 2 of the attached I-9 form (i9_form.pdf)\n\u2013 Scanning and emailing the signed, completed I-9 form to hr@crestwood.edu\n\u2013 Distributing the attached benefits enrollment packet to the employee\n\u2013 Ensuring the employee signs the employee handbook acknowledgment and emailing it to hr@crestwood.edu\n\nIT credentials will be prepared by Jenna Park and sent to the employee on their start date. Parking and ID badge requests should be submitted through your campus facilities office.\n\nPlease confirm receipt of this email.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "is_read": true,
+      "attachments": [
+        {
+          "filename": "i9_form.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "ZHVtbXkgZmlsZSBjb250ZW50"
+        },
+        {
+          "filename": "benefits_enrollment_packet.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "ZHVtbXkgZmlsZSBjb250ZW50"
+        }
+      ]
+    },
+    {
+      "email_id": "26",
+      "folder": "Onboarding",
+      "subject": "New Hire Notification: Kameko Gene",
+      "from_addr": "isabelle.rriocard@crestwood.edu",
+      "to_addr": "hr@crestwood.edu",
+      "date": "2026-01-08T09:00:00-07:00",
+      "message_id": "<notif-10419@crestwood.edu>",
+      "body_text": "HR Team,\n\nPlease see the following details for our new hire:\n\nName: Kameko Gene\nPersonal Email: kameko.gene.pers@gmail.com\nPosition: Staff\nDepartment: Recruiting\nCampus: Downtown\nStart Date: 01/13/2026\nClassification: Exempt",
+      "is_read": true
+    },
+    {
+      "email_id": "27",
+      "folder": "Onboarding",
+      "subject": "Template 4 \u2014 Gene, 10419",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "kameko.gene.pers@gmail.com",
+      "cc_addr": "isabelle.rriocard@crestwood.edu",
+      "date": "2026-01-08T09:10:00-07:00",
+      "message_id": "<t4-10419@crestwood.edu>",
+      "body_text": "Hi Kameko,\n\nWelcome to Crestwood University! We are excited to have you join us as Staff in the Recruiting department at our Downtown campus.\n\nYour first day is 01/13/2026. Your supervisor, Isabelle Rriocard, will conduct your orientation session beginning at 9:00am MST. Please bring the following:\n\u2013 Two forms of identification for I-9 verification (see acceptable documents list attached)\n\u2013 Voided check or bank routing information for direct deposit setup\n\nAttached to this email is the I-9 form (i9_form.pdf). Please complete Section 1 of the form before your first day and bring it with you along with your original identity documents.\n\nIf you have any questions before your first day, please do not hesitate to reach out.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "is_read": true,
+      "attachments": []
+    },
+    {
+      "email_id": "28",
+      "folder": "Onboarding",
+      "subject": "Template 5 \u2014 Gene, 10419",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "j.park@crestwood.edu",
+      "cc_addr": null,
+      "date": "2026-01-08T09:15:00-07:00",
+      "message_id": "<t5-10419@crestwood.edu>",
+      "body_text": "Hi Jenna,\n\nPlease provision the following IT access for a new employee:\nName: Kameko Gene\nPosition: Staff\nDepartment: Recruiting\nCampus: Downtown\nStart Date: 01/13/2026\nSupervisor: Isabelle Rriocard\n\nPlease have credentials ready by 01/13/2026. Thank you.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "is_read": true,
+      "attachments": []
+    },
+    {
+      "email_id": "29",
+      "folder": "Onboarding",
+      "subject": "Template 31 \u2014 Gene, 10419",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "isabelle.rriocard@crestwood.edu",
+      "cc_addr": null,
+      "date": "2026-01-08T09:20:00-07:00",
+      "message_id": "<t31-10419@crestwood.edu>",
+      "body_text": "Hi Isabelle,\n\nKameko Gene is scheduled to begin as Staff on 01/13/2026. As the hiring manager, please conduct the in-person orientation on their first day. Orientation should include:\n\u2013 Welcome and introductions\n\u2013 Workspace and building tour\n\u2013 Collecting the employee\u2019s completed I-9 Section 1 form and verifying their original identity/work authorization documents in person\n\u2013 Completing Section 2 of the attached I-9 form (i9_form.pdf)\n\u2013 Scanning and emailing the signed, completed I-9 form to hr@crestwood.edu\n\u2013 Distributing the attached benefits enrollment packet to the employee\n\u2013 Ensuring the employee signs the employee handbook acknowledgment and emailing it to hr@crestwood.edu\n\nIT credentials will be prepared by Jenna Park and sent to the employee on their start date. Parking and ID badge requests should be submitted through your campus facilities office.\n\nPlease confirm receipt of this email.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "is_read": true,
+      "attachments": [
+        {
+          "filename": "i9_form.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "ZHVtbXkgZmlsZSBjb250ZW50"
+        },
+        {
+          "filename": "benefits_enrollment_packet.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "ZHVtbXkgZmlsZSBjb250ZW50"
+        }
+      ]
+    },
+    {
+      "email_id": "30",
+      "folder": "Onboarding",
+      "subject": "New Hire Notification: Tammie Burt",
+      "from_addr": "courtney.husain@crestwood.edu",
+      "to_addr": "hr@crestwood.edu",
+      "date": "2026-01-09T09:00:00-07:00",
+      "message_id": "<notif-10722@crestwood.edu>",
+      "body_text": "HR Team,\n\nPlease see the following details for our new hire:\n\nName: Tammie Burt\nPersonal Email: tammie.burt.pers@gmail.com\nPosition: Staff\nDepartment: Payroll\nCampus: West\nStart Date: 01/14/2026\nClassification: Exempt",
+      "is_read": true
+    },
+    {
+      "email_id": "31",
+      "folder": "Onboarding",
+      "subject": "Template 4 \u2014 Burt, 10722",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "tammie.burt.pers@gmail.com",
+      "cc_addr": "courtney.husain@crestwood.edu",
+      "date": "2026-01-09T09:10:00-07:00",
+      "message_id": "<t4-10722@crestwood.edu>",
+      "body_text": "Hi Tammie,\n\nWelcome to Crestwood University! We are excited to have you join us as Staff in the Payroll department at our West campus.\n\nYour first day is 01/14/2026. Your supervisor, Courtney Husain, will conduct your orientation session beginning at 9:00am MST. Please bring the following:\n\u2013 Two forms of identification for I-9 verification (see acceptable documents list attached)\n\u2013 Voided check or bank routing information for direct deposit setup\n\nAttached to this email is the I-9 form (i9_form.pdf). Please complete Section 1 of the form before your first day and bring it with you along with your original identity documents.\n\nIf you have any questions before your first day, please do not hesitate to reach out.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "is_read": true,
+      "attachments": []
+    },
+    {
+      "email_id": "32",
+      "folder": "Onboarding",
+      "subject": "Template 5 \u2014 Burt, 10722",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "j.park@crestwood.edu",
+      "cc_addr": null,
+      "date": "2026-01-09T09:15:00-07:00",
+      "message_id": "<t5-10722@crestwood.edu>",
+      "body_text": "Hi Jenna,\n\nPlease provision the following IT access for a new employee:\nName: Tammie Burt\nPosition: Staff\nDepartment: Payroll\nCampus: West\nStart Date: 01/14/2026\nSupervisor: Courtney Husain\n\nPlease have credentials ready by 01/14/2026. Thank you.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "is_read": true,
+      "attachments": []
+    },
+    {
+      "email_id": "33",
+      "folder": "Onboarding",
+      "subject": "Template 31 \u2014 Burt, 10722",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "courtney.husain@crestwood.edu",
+      "cc_addr": null,
+      "date": "2026-01-09T09:20:00-07:00",
+      "message_id": "<t31-10722@crestwood.edu>",
+      "body_text": "Hi Courtney,\n\nTammie Burt is scheduled to begin as Staff on 01/14/2026. As the hiring manager, please conduct the in-person orientation on their first day. Orientation should include:\n\u2013 Welcome and introductions\n\u2013 Workspace and building tour\n\u2013 Collecting the employee\u2019s completed I-9 Section 1 form and verifying their original identity/work authorization documents in person\n\u2013 Completing Section 2 of the attached I-9 form (i9_form.pdf)\n\u2013 Scanning and emailing the signed, completed I-9 form to hr@crestwood.edu\n\u2013 Distributing the attached benefits enrollment packet to the employee\n\u2013 Ensuring the employee signs the employee handbook acknowledgment and emailing it to hr@crestwood.edu\n\nIT credentials will be prepared by Jenna Park and sent to the employee on their start date. Parking and ID badge requests should be submitted through your campus facilities office.\n\nPlease confirm receipt of this email.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "is_read": true,
+      "attachments": [
+        {
+          "filename": "i9_form.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "ZHVtbXkgZmlsZSBjb250ZW50"
+        },
+        {
+          "filename": "benefits_enrollment_packet.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "ZHVtbXkgZmlsZSBjb250ZW50"
+        }
+      ]
+    },
+    {
+      "email_id": "34",
+      "folder": "Onboarding",
+      "subject": "New Hire Notification: Neysa Winn",
+      "from_addr": "bria.kilian@crestwood.edu",
+      "to_addr": "hr@crestwood.edu",
+      "date": "2026-01-12T09:00:00-07:00",
+      "message_id": "<notif-10787@crestwood.edu>",
+      "body_text": "HR Team,\n\nPlease see the following details for our new hire:\n\nName: Neysa Winn\nPersonal Email: neysa.winn.pers@gmail.com\nPosition: Staff\nDepartment: Recruiting\nCampus: Main\nStart Date: 01/15/2026\nClassification: Non-Exempt",
+      "is_read": true
+    },
+    {
+      "email_id": "35",
+      "folder": "Onboarding",
+      "subject": "Template 4 \u2014 Winn, 10787",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "neysa.winn.pers@gmail.com",
+      "cc_addr": "bria.kilian@crestwood.edu",
+      "date": "2026-01-12T09:10:00-07:00",
+      "message_id": "<t4-10787@crestwood.edu>",
+      "body_text": "Hi Neysa,\n\nWelcome to Crestwood University! We are excited to have you join us as Staff in the Recruiting department at our Main campus.\n\nYour first day is 01/15/2026. Your supervisor, Bria Kilian, will conduct your orientation session beginning at 9:00am MST. Please bring the following:\n\u2013 Two forms of identification for I-9 verification (see acceptable documents list attached)\n\u2013 Voided check or bank routing information for direct deposit setup\n\nAttached to this email is the I-9 form (i9_form.pdf). Please complete Section 1 of the form before your first day and bring it with you along with your original identity documents.\n\nIf you have any questions before your first day, please do not hesitate to reach out.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "is_read": true,
+      "attachments": []
+    },
+    {
+      "email_id": "36",
+      "folder": "Onboarding",
+      "subject": "Template 5 \u2014 Winn, 10787",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "j.park@crestwood.edu",
+      "cc_addr": null,
+      "date": "2026-01-12T09:15:00-07:00",
+      "message_id": "<t5-10787@crestwood.edu>",
+      "body_text": "Hi Jenna,\n\nPlease provision the following IT access for a new employee:\nName: Neysa Winn\nPosition: Staff\nDepartment: Recruiting\nCampus: Main\nStart Date: 01/15/2026\nSupervisor: Bria Kilian\n\nPlease have credentials ready by 01/15/2026. Thank you.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "is_read": true,
+      "attachments": []
+    },
+    {
+      "email_id": "37",
+      "folder": "Onboarding",
+      "subject": "Template 31 \u2014 Winn, 10787",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "bria.kilian@crestwood.edu",
+      "cc_addr": null,
+      "date": "2026-01-12T09:20:00-07:00",
+      "message_id": "<t31-10787@crestwood.edu>",
+      "body_text": "Hi Bria,\n\nNeysa Winn is scheduled to begin as Staff on 01/15/2026. As the hiring manager, please conduct the in-person orientation on their first day. Orientation should include:\n\u2013 Welcome and introductions\n\u2013 Workspace and building tour\n\u2013 Collecting the employee\u2019s completed I-9 Section 1 form and verifying their original identity/work authorization documents in person\n\u2013 Completing Section 2 of the attached I-9 form (i9_form.pdf)\n\u2013 Scanning and emailing the signed, completed I-9 form to hr@crestwood.edu\n\u2013 Distributing the attached benefits enrollment packet to the employee\n\u2013 Ensuring the employee signs the employee handbook acknowledgment and emailing it to hr@crestwood.edu\n\nIT credentials will be prepared by Jenna Park and sent to the employee on their start date. Parking and ID badge requests should be submitted through your campus facilities office.\n\nPlease confirm receipt of this email.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "is_read": true,
+      "attachments": [
+        {
+          "filename": "i9_form.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "ZHVtbXkgZmlsZSBjb250ZW50"
+        },
+        {
+          "filename": "benefits_enrollment_packet.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "ZHVtbXkgZmlsZSBjb250ZW50"
+        }
+      ]
+    },
+    {
+      "email_id": "38",
+      "folder": "Onboarding",
+      "subject": "New Hire Notification: Natalya Martie",
+      "from_addr": "maure.manfred@crestwood.edu",
+      "to_addr": "hr@crestwood.edu",
+      "date": "2026-01-13T09:00:00-07:00",
+      "message_id": "<notif-10451@crestwood.edu>",
+      "body_text": "HR Team,\n\nPlease see the following details for our new hire:\n\nName: Natalya Martie\nPersonal Email: natalya.martie.pers@gmail.com\nPosition: Staff\nDepartment: Information Technology\nCampus: Main\nStart Date: 01/16/2026\nClassification: Non-Exempt",
+      "is_read": true
+    },
+    {
+      "email_id": "39",
+      "folder": "Onboarding",
+      "subject": "Template 4 \u2014 Martie, 10451",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "natalya.martie.pers@gmail.com",
+      "cc_addr": "maure.manfred@crestwood.edu",
+      "date": "2026-01-13T09:10:00-07:00",
+      "message_id": "<t4-10451@crestwood.edu>",
+      "body_text": "Hi Natalya,\n\nWelcome to Crestwood University! We are excited to have you join us as Staff in the Information Technology department at our Main campus.\n\nYour first day is 01/16/2026. Your supervisor, Maure Manfred, will conduct your orientation session beginning at 9:00am MST. Please bring the following:\n\u2013 Two forms of identification for I-9 verification (see acceptable documents list attached)\n\u2013 Voided check or bank routing information for direct deposit setup\n\nAttached to this email is the I-9 form (i9_form.pdf). Please complete Section 1 of the form before your first day and bring it with you along with your original identity documents.\n\nIf you have any questions before your first day, please do not hesitate to reach out.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "is_read": true,
+      "attachments": []
+    },
+    {
+      "email_id": "40",
+      "folder": "Onboarding",
+      "subject": "Template 5 \u2014 Martie, 10451",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "j.park@crestwood.edu",
+      "cc_addr": null,
+      "date": "2026-01-13T09:15:00-07:00",
+      "message_id": "<t5-10451@crestwood.edu>",
+      "body_text": "Hi Jenna,\n\nPlease provision the following IT access for a new employee:\nName: Natalya Martie\nPosition: Staff\nDepartment: Information Technology\nCampus: Main\nStart Date: 01/16/2026\nSupervisor: Maure Manfred\n\nPlease have credentials ready by 01/16/2026. Thank you.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "is_read": true,
+      "attachments": []
+    },
+    {
+      "email_id": "41",
+      "folder": "Onboarding",
+      "subject": "Template 31 \u2014 Martie, 10451",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "maure.manfred@crestwood.edu",
+      "cc_addr": null,
+      "date": "2026-01-13T09:20:00-07:00",
+      "message_id": "<t31-10451@crestwood.edu>",
+      "body_text": "Hi Maure,\n\nNatalya Martie is scheduled to begin as Staff on 01/16/2026. As the hiring manager, please conduct the in-person orientation on their first day. Orientation should include:\n\u2013 Welcome and introductions\n\u2013 Workspace and building tour\n\u2013 Collecting the employee\u2019s completed I-9 Section 1 form and verifying their original identity/work authorization documents in person\n\u2013 Completing Section 2 of the attached I-9 form (i9_form.pdf)\n\u2013 Scanning and emailing the signed, completed I-9 form to hr@crestwood.edu\n\u2013 Distributing the attached benefits enrollment packet to the employee\n\u2013 Ensuring the employee signs the employee handbook acknowledgment and emailing it to hr@crestwood.edu\n\nIT credentials will be prepared by Jenna Park and sent to the employee on their start date. Parking and ID badge requests should be submitted through your campus facilities office.\n\nPlease confirm receipt of this email.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "is_read": true,
+      "attachments": [
+        {
+          "filename": "i9_form.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "ZHVtbXkgZmlsZSBjb250ZW50"
+        },
+        {
+          "filename": "benefits_enrollment_packet.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "ZHVtbXkgZmlsZSBjb250ZW50"
+        }
+      ]
+    },
+    {
+      "email_id": "42",
+      "folder": "Onboarding",
+      "subject": "New Hire Notification: Myriam Scot",
+      "from_addr": "cynthea.miltie@crestwood.edu",
+      "to_addr": "hr@crestwood.edu",
+      "date": "2026-01-19T09:00:00-07:00",
+      "message_id": "<notif-11240@crestwood.edu>",
+      "body_text": "HR Team,\n\nPlease see the following details for our new hire:\n\nName: Myriam Scot\nPersonal Email: myriam.scot.pers@gmail.com\nPosition: Faculty\nDepartment: Engineering\nCampus: Main\nStart Date: 01/22/2026\nClassification: Exempt",
+      "is_read": true
+    },
+    {
+      "email_id": "43",
+      "folder": "Onboarding",
+      "subject": "Template 4 \u2014 Scot, 11240",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "myriam.scot.pers@gmail.com",
+      "cc_addr": "cynthea.miltie@crestwood.edu",
+      "date": "2026-01-19T09:10:00-07:00",
+      "message_id": "<t4-11240@crestwood.edu>",
+      "body_text": "Hi Myriam,\n\nWelcome to Crestwood University! We are excited to have you join us as Faculty in the Engineering department at our Main campus.\n\nYour first day is 01/22/2026. Your supervisor, Cynthea Miltie, will conduct your orientation session beginning at 9:00am MST. Please bring the following:\n\u2013 Two forms of identification for I-9 verification (see acceptable documents list attached)\n\u2013 Voided check or bank routing information for direct deposit setup\n\nAttached to this email is the I-9 form (i9_form.pdf). Please complete Section 1 of the form before your first day and bring it with you along with your original identity documents.\n\nIf you have any questions before your first day, please do not hesitate to reach out.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "is_read": true,
+      "attachments": []
+    },
+    {
+      "email_id": "44",
+      "folder": "Onboarding",
+      "subject": "Template 5 \u2014 Scot, 11240",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "j.park@crestwood.edu",
+      "cc_addr": null,
+      "date": "2026-01-19T09:15:00-07:00",
+      "message_id": "<t5-11240@crestwood.edu>",
+      "body_text": "Hi Jenna,\n\nPlease provision the following IT access for a new employee:\nName: Myriam Scot\nPosition: Faculty\nDepartment: Engineering\nCampus: Main\nStart Date: 01/22/2026\nSupervisor: Cynthea Miltie\n\nPlease have credentials ready by 01/22/2026. Thank you.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "is_read": true,
+      "attachments": []
+    },
+    {
+      "email_id": "45",
+      "folder": "Onboarding",
+      "subject": "Template 31 \u2014 Scot, 11240",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "cynthea.miltie@crestwood.edu",
+      "cc_addr": null,
+      "date": "2026-01-19T09:20:00-07:00",
+      "message_id": "<t31-11240@crestwood.edu>",
+      "body_text": "Hi Cynthea,\n\nMyriam Scot is scheduled to begin as Faculty on 01/22/2026. As the hiring manager, please conduct the in-person orientation on their first day. Orientation should include:\n\u2013 Welcome and introductions\n\u2013 Workspace and building tour\n\u2013 Collecting the employee\u2019s completed I-9 Section 1 form and verifying their original identity/work authorization documents in person\n\u2013 Completing Section 2 of the attached I-9 form (i9_form.pdf)\n\u2013 Scanning and emailing the signed, completed I-9 form to hr@crestwood.edu\n\u2013 Distributing the attached benefits enrollment packet to the employee\n\u2013 Ensuring the employee signs the employee handbook acknowledgment and emailing it to hr@crestwood.edu\n\nIT credentials will be prepared by Jenna Park and sent to the employee on their start date. Parking and ID badge requests should be submitted through your campus facilities office.\n\nPlease confirm receipt of this email.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "is_read": true,
+      "attachments": [
+        {
+          "filename": "i9_form.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "ZHVtbXkgZmlsZSBjb250ZW50"
+        },
+        {
+          "filename": "benefits_enrollment_packet.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "ZHVtbXkgZmlsZSBjb250ZW50"
+        }
+      ]
+    },
+    {
+      "email_id": "46",
+      "folder": "Onboarding",
+      "subject": "New Hire Notification: Hanna Saunders",
+      "from_addr": "virgie.lindy@crestwood.edu",
+      "to_addr": "hr@crestwood.edu",
+      "date": "2026-01-26T09:00:00-07:00",
+      "message_id": "<notif-10566@crestwood.edu>",
+      "body_text": "HR Team,\n\nPlease see the following details for our new hire:\n\nName: Hanna Saunders\nPersonal Email: hanna.saunders.pers@gmail.com\nPosition: Staff\nDepartment: Human Resources\nCampus: Downtown\nStart Date: 01/29/2026\nClassification: Exempt",
+      "is_read": true
+    },
+    {
+      "email_id": "47",
+      "folder": "Onboarding",
+      "subject": "Template 4 \u2014 Saunders, 10566",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "hanna.saunders.pers@gmail.com",
+      "cc_addr": "virgie.lindy@crestwood.edu",
+      "date": "2026-01-26T09:10:00-07:00",
+      "message_id": "<t4-10566@crestwood.edu>",
+      "body_text": "Hi Hanna,\n\nWelcome to Crestwood University! We are excited to have you join us as Staff in the Human Resources department at our Downtown campus.\n\nYour first day is 01/29/2026. Your supervisor, Virgie Lindy, will conduct your orientation session beginning at 9:00am MST. Please bring the following:\n\u2013 Two forms of identification for I-9 verification (see acceptable documents list attached)\n\u2013 Voided check or bank routing information for direct deposit setup\n\nAttached to this email is the I-9 form (i9_form.pdf). Please complete Section 1 of the form before your first day and bring it with you along with your original identity documents.\n\nIf you have any questions before your first day, please do not hesitate to reach out.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "is_read": true,
+      "attachments": []
+    },
+    {
+      "email_id": "48",
+      "folder": "Onboarding",
+      "subject": "Template 5 \u2014 Saunders, 10566",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "j.park@crestwood.edu",
+      "cc_addr": null,
+      "date": "2026-01-26T09:15:00-07:00",
+      "message_id": "<t5-10566@crestwood.edu>",
+      "body_text": "Hi Jenna,\n\nPlease provision the following IT access for a new employee:\nName: Hanna Saunders\nPosition: Staff\nDepartment: Human Resources\nCampus: Downtown\nStart Date: 01/29/2026\nSupervisor: Virgie Lindy\n\nPlease have credentials ready by 01/29/2026. Thank you.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "is_read": true,
+      "attachments": []
+    },
+    {
+      "email_id": "49",
+      "folder": "Onboarding",
+      "subject": "Template 31 \u2014 Saunders, 10566",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "virgie.lindy@crestwood.edu",
+      "cc_addr": null,
+      "date": "2026-01-26T09:20:00-07:00",
+      "message_id": "<t31-10566@crestwood.edu>",
+      "body_text": "Hi Virgie,\n\nHanna Saunders is scheduled to begin as Staff on 01/29/2026. As the hiring manager, please conduct the in-person orientation on their first day. Orientation should include:\n\u2013 Welcome and introductions\n\u2013 Workspace and building tour\n\u2013 Collecting the employee\u2019s completed I-9 Section 1 form and verifying their original identity/work authorization documents in person\n\u2013 Completing Section 2 of the attached I-9 form (i9_form.pdf)\n\u2013 Scanning and emailing the signed, completed I-9 form to hr@crestwood.edu\n\u2013 Distributing the attached benefits enrollment packet to the employee\n\u2013 Ensuring the employee signs the employee handbook acknowledgment and emailing it to hr@crestwood.edu\n\nIT credentials will be prepared by Jenna Park and sent to the employee on their start date. Parking and ID badge requests should be submitted through your campus facilities office.\n\nPlease confirm receipt of this email.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "is_read": true,
+      "attachments": [
+        {
+          "filename": "i9_form.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "ZHVtbXkgZmlsZSBjb250ZW50"
+        },
+        {
+          "filename": "benefits_enrollment_packet.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "ZHVtbXkgZmlsZSBjb250ZW50"
+        }
+      ]
+    },
+    {
+      "email_id": "50",
+      "folder": "Onboarding",
+      "subject": "New Hire Notification: Annabell Gaylor",
+      "from_addr": "brittan.guthrie@crestwood.edu",
+      "to_addr": "hr@crestwood.edu",
+      "date": "2026-01-28T09:00:00-07:00",
+      "message_id": "<notif-10783@crestwood.edu>",
+      "body_text": "HR Team,\n\nPlease see the following details for our new hire:\n\nName: Annabell Gaylor\nPersonal Email: annabell.gaylor.pers@gmail.com\nPosition: Staff\nDepartment: Benefits & Leave\nCampus: Main\nStart Date: 02/02/2026\nClassification: Exempt",
+      "is_read": true
+    },
+    {
+      "email_id": "51",
+      "folder": "Onboarding",
+      "subject": "Template 4 \u2014 Gaylor, 10783",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "annabell.gaylor.pers@gmail.com",
+      "cc_addr": "brittan.guthrie@crestwood.edu",
+      "date": "2026-01-28T09:10:00-07:00",
+      "message_id": "<t4-10783@crestwood.edu>",
+      "body_text": "Hi Annabell,\n\nWelcome to Crestwood University! We are excited to have you join us as Staff in the Benefits & Leave department at our Main campus.\n\nYour first day is 02/02/2026. Your supervisor, Brittan Guthrie, will conduct your orientation session beginning at 9:00am MST. Please bring the following:\n\u2013 Two forms of identification for I-9 verification (see acceptable documents list attached)\n\u2013 Voided check or bank routing information for direct deposit setup\n\nAttached to this email is the I-9 form (i9_form.pdf). Please complete Section 1 of the form before your first day and bring it with you along with your original identity documents.\n\nIf you have any questions before your first day, please do not hesitate to reach out.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "is_read": true,
+      "attachments": []
+    },
+    {
+      "email_id": "52",
+      "folder": "Onboarding",
+      "subject": "Template 5 \u2014 Gaylor, 10783",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "j.park@crestwood.edu",
+      "cc_addr": null,
+      "date": "2026-01-28T09:15:00-07:00",
+      "message_id": "<t5-10783@crestwood.edu>",
+      "body_text": "Hi Jenna,\n\nPlease provision the following IT access for a new employee:\nName: Annabell Gaylor\nPosition: Staff\nDepartment: Benefits & Leave\nCampus: Main\nStart Date: 02/02/2026\nSupervisor: Brittan Guthrie\n\nPlease have credentials ready by 02/02/2026. Thank you.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "is_read": true,
+      "attachments": []
+    },
+    {
+      "email_id": "53",
+      "folder": "Onboarding",
+      "subject": "Template 31 \u2014 Gaylor, 10783",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "brittan.guthrie@crestwood.edu",
+      "cc_addr": null,
+      "date": "2026-01-28T09:20:00-07:00",
+      "message_id": "<t31-10783@crestwood.edu>",
+      "body_text": "Hi Brittan,\n\nAnnabell Gaylor is scheduled to begin as Staff on 02/02/2026. As the hiring manager, please conduct the in-person orientation on their first day. Orientation should include:\n\u2013 Welcome and introductions\n\u2013 Workspace and building tour\n\u2013 Collecting the employee\u2019s completed I-9 Section 1 form and verifying their original identity/work authorization documents in person\n\u2013 Completing Section 2 of the attached I-9 form (i9_form.pdf)\n\u2013 Scanning and emailing the signed, completed I-9 form to hr@crestwood.edu\n\u2013 Distributing the attached benefits enrollment packet to the employee\n\u2013 Ensuring the employee signs the employee handbook acknowledgment and emailing it to hr@crestwood.edu\n\nIT credentials will be prepared by Jenna Park and sent to the employee on their start date. Parking and ID badge requests should be submitted through your campus facilities office.\n\nPlease confirm receipt of this email.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "is_read": true,
+      "attachments": [
+        {
+          "filename": "i9_form.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "ZHVtbXkgZmlsZSBjb250ZW50"
+        },
+        {
+          "filename": "benefits_enrollment_packet.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "ZHVtbXkgZmlsZSBjb250ZW50"
+        }
+      ]
+    },
+    {
+      "email_id": "54",
+      "folder": "Onboarding",
+      "subject": "New Hire Notification: Amalita Rhett",
+      "from_addr": "ambur.merrel@crestwood.edu",
+      "to_addr": "hr@crestwood.edu",
+      "date": "2026-02-04T09:00:00-07:00",
+      "message_id": "<notif-10000@crestwood.edu>",
+      "body_text": "HR Team,\n\nPlease see the following details for our new hire:\n\nName: Amalita Rhett\nPersonal Email: amalita.rhett.pers@gmail.com\nPosition: Staff\nDepartment: Mathematics\nCampus: Main\nStart Date: 02/08/2026\nClassification: Exempt",
+      "is_read": true
+    },
+    {
+      "email_id": "55",
+      "folder": "Onboarding",
+      "subject": "Template 4 \u2014 Rhett, 10000",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "amalita.rhett.pers@gmail.com",
+      "cc_addr": "ambur.merrel@crestwood.edu",
+      "date": "2026-02-04T09:10:00-07:00",
+      "message_id": "<t4-10000@crestwood.edu>",
+      "body_text": "Hi Amalita,\n\nWelcome to Crestwood University! We are excited to have you join us as Staff in the Mathematics department at our Main campus.\n\nYour first day is 02/08/2026. Your supervisor, Ambur Merrel, will conduct your orientation session beginning at 9:00am MST. Please bring the following:\n\u2013 Two forms of identification for I-9 verification (see acceptable documents list attached)\n\u2013 Voided check or bank routing information for direct deposit setup\n\nAttached to this email is the I-9 form (i9_form.pdf). Please complete Section 1 of the form before your first day and bring it with you along with your original identity documents.\n\nIf you have any questions before your first day, please do not hesitate to reach out.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "is_read": true,
+      "attachments": []
+    },
+    {
+      "email_id": "56",
+      "folder": "Onboarding",
+      "subject": "Template 5 \u2014 Rhett, 10000",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "j.park@crestwood.edu",
+      "cc_addr": null,
+      "date": "2026-02-04T09:15:00-07:00",
+      "message_id": "<t5-10000@crestwood.edu>",
+      "body_text": "Hi Jenna,\n\nPlease provision the following IT access for a new employee:\nName: Amalita Rhett\nPosition: Staff\nDepartment: Mathematics\nCampus: Main\nStart Date: 02/08/2026\nSupervisor: Ambur Merrel\n\nPlease have credentials ready by 02/08/2026. Thank you.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "is_read": true,
+      "attachments": []
+    },
+    {
+      "email_id": "57",
+      "folder": "Onboarding",
+      "subject": "Template 31 \u2014 Rhett, 10000",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "ambur.merrel@crestwood.edu",
+      "cc_addr": null,
+      "date": "2026-02-04T09:20:00-07:00",
+      "message_id": "<t31-10000@crestwood.edu>",
+      "body_text": "Hi Ambur,\n\nAmalita Rhett is scheduled to begin as Staff on 02/08/2026. As the hiring manager, please conduct the in-person orientation on their first day. Orientation should include:\n\u2013 Welcome and introductions\n\u2013 Workspace and building tour\n\u2013 Collecting the employee\u2019s completed I-9 Section 1 form and verifying their original identity/work authorization documents in person\n\u2013 Completing Section 2 of the attached I-9 form (i9_form.pdf)\n\u2013 Scanning and emailing the signed, completed I-9 form to hr@crestwood.edu\n\u2013 Distributing the attached benefits enrollment packet to the employee\n\u2013 Ensuring the employee signs the employee handbook acknowledgment and emailing it to hr@crestwood.edu\n\nIT credentials will be prepared by Jenna Park and sent to the employee on their start date. Parking and ID badge requests should be submitted through your campus facilities office.\n\nPlease confirm receipt of this email.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "is_read": true,
+      "attachments": [
+        {
+          "filename": "i9_form.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "ZHVtbXkgZmlsZSBjb250ZW50"
+        },
+        {
+          "filename": "benefits_enrollment_packet.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "ZHVtbXkgZmlsZSBjb250ZW50"
+        }
+      ]
+    },
+    {
+      "email_id": "58",
+      "folder": "Onboarding",
+      "subject": "New Hire Notification: Felita Demott",
+      "from_addr": "mabelle.harland@crestwood.edu",
+      "to_addr": "hr@crestwood.edu",
+      "date": "2026-03-18T09:00:00-06:00",
+      "message_id": "<notif-10003@crestwood.edu>",
+      "body_text": "HR Team,\n\nPlease see the following details for our new hire:\n\nName: Felita Demott\nPersonal Email: felita.demott.pers@gmail.com\nPosition: Staff\nDepartment: History\nCampus: Main\nStart Date: 03/22/2026\nClassification: Non-Exempt",
+      "is_read": true
+    },
+    {
+      "email_id": "59",
+      "folder": "Onboarding",
+      "subject": "Template 4 \u2014 Demott, 10003",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "felita.demott.pers@gmail.com",
+      "cc_addr": "mabelle.harland@crestwood.edu",
+      "date": "2026-03-18T09:10:00-06:00",
+      "message_id": "<t4-10003@crestwood.edu>",
+      "body_text": "Hi Felita,\n\nWelcome to Crestwood University! We are excited to have you join us as Staff in the History department at our Main campus.\n\nYour first day is 03/22/2026. Your supervisor, Mabelle Harland, will conduct your orientation session beginning at 9:00am MST. Please bring the following:\n\u2013 Two forms of identification for I-9 verification (see acceptable documents list attached)\n\u2013 Voided check or bank routing information for direct deposit setup\n\nAttached to this email is the I-9 form (i9_form.pdf). Please complete Section 1 of the form before your first day and bring it with you along with your original identity documents.\n\nIf you have any questions before your first day, please do not hesitate to reach out.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "is_read": true,
+      "attachments": []
+    },
+    {
+      "email_id": "60",
+      "folder": "Onboarding",
+      "subject": "Template 5 \u2014 Demott, 10003",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "j.park@crestwood.edu",
+      "cc_addr": null,
+      "date": "2026-03-18T09:15:00-06:00",
+      "message_id": "<t5-10003@crestwood.edu>",
+      "body_text": "Hi Jenna,\n\nPlease provision the following IT access for a new employee:\nName: Felita Demott\nPosition: Staff\nDepartment: History\nCampus: Main\nStart Date: 03/22/2026\nSupervisor: Mabelle Harland\n\nPlease have credentials ready by 03/22/2026. Thank you.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "is_read": true,
+      "attachments": []
+    },
+    {
+      "email_id": "61",
+      "folder": "Onboarding",
+      "subject": "Template 31 \u2014 Demott, 10003",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "mabelle.harland@crestwood.edu",
+      "cc_addr": null,
+      "date": "2026-03-18T09:20:00-06:00",
+      "message_id": "<t31-10003@crestwood.edu>",
+      "body_text": "Hi Mabelle,\n\nFelita Demott is scheduled to begin as Staff on 03/22/2026. As the hiring manager, please conduct the in-person orientation on their first day. Orientation should include:\n\u2013 Welcome and introductions\n\u2013 Workspace and building tour\n\u2013 Collecting the employee\u2019s completed I-9 Section 1 form and verifying their original identity/work authorization documents in person\n\u2013 Completing Section 2 of the attached I-9 form (i9_form.pdf)\n\u2013 Scanning and emailing the signed, completed I-9 form to hr@crestwood.edu\n\u2013 Distributing the attached benefits enrollment packet to the employee\n\u2013 Ensuring the employee signs the employee handbook acknowledgment and emailing it to hr@crestwood.edu\n\nIT credentials will be prepared by Jenna Park and sent to the employee on their start date. Parking and ID badge requests should be submitted through your campus facilities office.\n\nPlease confirm receipt of this email.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "is_read": true,
+      "attachments": [
+        {
+          "filename": "i9_form.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "ZHVtbXkgZmlsZSBjb250ZW50"
+        },
+        {
+          "filename": "benefits_enrollment_packet.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "ZHVtbXkgZmlsZSBjb250ZW50"
+        }
+      ]
+    },
+    {
+      "email_id": "62",
+      "folder": "Onboarding",
+      "subject": "New Hire Notification: Bryna Marmaduke",
+      "from_addr": "tersina.staford@crestwood.edu",
+      "to_addr": "hr@crestwood.edu",
+      "date": "2026-03-19T09:00:00-06:00",
+      "message_id": "<notif-10002@crestwood.edu>",
+      "body_text": "HR Team,\n\nPlease see the following details for our new hire:\n\nName: Bryna Marmaduke\nPersonal Email: bryna.marmaduke.pers@gmail.com\nPosition: Staff\nDepartment: Biology\nCampus: Main\nStart Date: 03/24/2026\nClassification: Non-Exempt",
+      "is_read": true
+    },
+    {
+      "email_id": "63",
+      "folder": "Onboarding",
+      "subject": "Template 4 \u2014 Marmaduke, 10002",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "bryna.marmaduke.pers@gmail.com",
+      "cc_addr": "tersina.staford@crestwood.edu",
+      "date": "2026-03-19T09:10:00-06:00",
+      "message_id": "<t4-10002@crestwood.edu>",
+      "body_text": "Hi Bryna,\n\nWelcome to Crestwood University! We are excited to have you join us as Staff in the Biology department at our Main campus.\n\nYour first day is 03/24/2026. Your supervisor, Tersina Staford, will conduct your orientation session beginning at 9:00am MST. Please bring the following:\n\u2013 Two forms of identification for I-9 verification (see acceptable documents list attached)\n\u2013 Voided check or bank routing information for direct deposit setup\n\nAttached to this email is the I-9 form (i9_form.pdf). Please complete Section 1 of the form before your first day and bring it with you along with your original identity documents.\n\nIf you have any questions before your first day, please do not hesitate to reach out.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "is_read": true,
+      "attachments": []
+    },
+    {
+      "email_id": "64",
+      "folder": "Onboarding",
+      "subject": "Template 5 \u2014 Marmaduke, 10002",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "j.park@crestwood.edu",
+      "cc_addr": null,
+      "date": "2026-03-19T09:15:00-06:00",
+      "message_id": "<t5-10002@crestwood.edu>",
+      "body_text": "Hi Jenna,\n\nPlease provision the following IT access for a new employee:\nName: Bryna Marmaduke\nPosition: Staff\nDepartment: Biology\nCampus: Main\nStart Date: 03/24/2026\nSupervisor: Tersina Staford\n\nPlease have credentials ready by 03/24/2026. Thank you.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "is_read": true,
+      "attachments": []
+    },
+    {
+      "email_id": "65",
+      "folder": "Onboarding",
+      "subject": "Template 31 \u2014 Marmaduke, 10002",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "tersina.staford@crestwood.edu",
+      "cc_addr": null,
+      "date": "2026-03-19T09:20:00-06:00",
+      "message_id": "<t31-10002@crestwood.edu>",
+      "body_text": "Hi Tersina,\n\nBryna Marmaduke is scheduled to begin as Staff on 03/24/2026. As the hiring manager, please conduct the in-person orientation on their first day. Orientation should include:\n\u2013 Welcome and introductions\n\u2013 Workspace and building tour\n\u2013 Collecting the employee\u2019s completed I-9 Section 1 form and verifying their original identity/work authorization documents in person\n\u2013 Completing Section 2 of the attached I-9 form (i9_form.pdf)\n\u2013 Scanning and emailing the signed, completed I-9 form to hr@crestwood.edu\n\u2013 Distributing the attached benefits enrollment packet to the employee\n\u2013 Ensuring the employee signs the employee handbook acknowledgment and emailing it to hr@crestwood.edu\n\nIT credentials will be prepared by Jenna Park and sent to the employee on their start date. Parking and ID badge requests should be submitted through your campus facilities office.\n\nPlease confirm receipt of this email.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "is_read": true,
+      "attachments": [
+        {
+          "filename": "i9_form.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "ZHVtbXkgZmlsZSBjb250ZW50"
+        },
+        {
+          "filename": "benefits_enrollment_packet.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "ZHVtbXkgZmlsZSBjb250ZW50"
+        }
+      ]
+    },
+    {
+      "email_id": "66",
+      "folder": "Onboarding",
+      "subject": "New Hire Notification: Stefanie Heinrik",
+      "from_addr": "aurlie.thaddeus@crestwood.edu",
+      "to_addr": "hr@crestwood.edu",
+      "date": "2026-03-24T09:00:00-06:00",
+      "message_id": "<notif-10004@crestwood.edu>",
+      "body_text": "HR Team,\n\nPlease see the following details for our new hire:\n\nName: Stefanie Heinrik\nPersonal Email: stefanie.heinrik.pers@gmail.com\nPosition: Staff\nDepartment: Engineering\nCampus: West\nStart Date: 03/27/2026\nClassification: Non-Exempt",
+      "is_read": true
+    },
+    {
+      "email_id": "67",
+      "folder": "Onboarding",
+      "subject": "Template 4 \u2014 Heinrik, 10004",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "stefanie.heinrik.pers@gmail.com",
+      "cc_addr": "aurlie.thaddeus@crestwood.edu",
+      "date": "2026-03-24T09:10:00-06:00",
+      "message_id": "<t4-10004@crestwood.edu>",
+      "body_text": "Hi Stefanie,\n\nWelcome to Crestwood University! We are excited to have you join us as Staff in the Engineering department at our West campus.\n\nYour first day is 03/27/2026. Your supervisor, Aurlie Thaddeus, will conduct your orientation session beginning at 9:00am MST. Please bring the following:\n\u2013 Two forms of identification for I-9 verification (see acceptable documents list attached)\n\u2013 Voided check or bank routing information for direct deposit setup\n\nAttached to this email is the I-9 form (i9_form.pdf). Please complete Section 1 of the form before your first day and bring it with you along with your original identity documents.\n\nIf you have any questions before your first day, please do not hesitate to reach out.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "is_read": true,
+      "attachments": []
+    },
+    {
+      "email_id": "68",
+      "folder": "Onboarding",
+      "subject": "Template 5 \u2014 Heinrik, 10004",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "j.park@crestwood.edu",
+      "cc_addr": null,
+      "date": "2026-03-24T09:15:00-06:00",
+      "message_id": "<t5-10004@crestwood.edu>",
+      "body_text": "Hi Jenna,\n\nPlease provision the following IT access for a new employee:\nName: Stefanie Heinrik\nPosition: Staff\nDepartment: Engineering\nCampus: West\nStart Date: 03/27/2026\nSupervisor: Aurlie Thaddeus\n\nPlease have credentials ready by 03/27/2026. Thank you.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "is_read": true,
+      "attachments": []
+    },
+    {
+      "email_id": "69",
+      "folder": "Onboarding",
+      "subject": "Template 31 \u2014 Heinrik, 10004",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "aurlie.thaddeus@crestwood.edu",
+      "cc_addr": null,
+      "date": "2026-03-24T09:20:00-06:00",
+      "message_id": "<t31-10004@crestwood.edu>",
+      "body_text": "Hi Aurlie,\n\nStefanie Heinrik is scheduled to begin as Staff on 03/27/2026. As the hiring manager, please conduct the in-person orientation on their first day. Orientation should include:\n\u2013 Welcome and introductions\n\u2013 Workspace and building tour\n\u2013 Collecting the employee\u2019s completed I-9 Section 1 form and verifying their original identity/work authorization documents in person\n\u2013 Completing Section 2 of the attached I-9 form (i9_form.pdf)\n\u2013 Scanning and emailing the signed, completed I-9 form to hr@crestwood.edu\n\u2013 Distributing the attached benefits enrollment packet to the employee\n\u2013 Ensuring the employee signs the employee handbook acknowledgment and emailing it to hr@crestwood.edu\n\nIT credentials will be prepared by Jenna Park and sent to the employee on their start date. Parking and ID badge requests should be submitted through your campus facilities office.\n\nPlease confirm receipt of this email.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "is_read": true,
+      "attachments": [
+        {
+          "filename": "i9_form.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "ZHVtbXkgZmlsZSBjb250ZW50"
+        },
+        {
+          "filename": "benefits_enrollment_packet.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "ZHVtbXkgZmlsZSBjb250ZW50"
+        }
+      ]
+    },
+    {
+      "email_id": "70",
+      "folder": "Onboarding",
+      "subject": "New Hire Notification: Adriena Rogerio",
+      "from_addr": "maiga.darrick@crestwood.edu",
+      "to_addr": "hr@crestwood.edu",
+      "date": "2026-03-25T09:00:00-06:00",
+      "message_id": "<notif-10005@crestwood.edu>",
+      "body_text": "HR Team,\n\nPlease see the following details for our new hire:\n\nName: Adriena Rogerio\nPersonal Email: adriena.rogerio.pers@gmail.com\nPosition: Staff\nDepartment: Art\nCampus: Downtown\nStart Date: 03/28/2026\nClassification: Non-Exempt",
+      "is_read": true
+    },
+    {
+      "email_id": "71",
+      "folder": "Onboarding",
+      "subject": "Template 4 \u2014 Rogerio, 10005",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "adriena.rogerio.pers@gmail.com",
+      "cc_addr": "maiga.darrick@crestwood.edu",
+      "date": "2026-03-25T09:10:00-06:00",
+      "message_id": "<t4-10005@crestwood.edu>",
+      "body_text": "Hi Adriena,\n\nWelcome to Crestwood University! We are excited to have you join us as Staff in the Art department at our Downtown campus.\n\nYour first day is 03/28/2026. Your supervisor, Maiga Darrick, will conduct your orientation session beginning at 9:00am MST. Please bring the following:\n\u2013 Two forms of identification for I-9 verification (see acceptable documents list attached)\n\u2013 Voided check or bank routing information for direct deposit setup\n\nAttached to this email is the I-9 form (i9_form.pdf). Please complete Section 1 of the form before your first day and bring it with you along with your original identity documents.\n\nIf you have any questions before your first day, please do not hesitate to reach out.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "is_read": true,
+      "attachments": []
+    },
+    {
+      "email_id": "72",
+      "folder": "Onboarding",
+      "subject": "Template 5 \u2014 Rogerio, 10005",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "j.park@crestwood.edu",
+      "cc_addr": null,
+      "date": "2026-03-25T09:15:00-06:00",
+      "message_id": "<t5-10005@crestwood.edu>",
+      "body_text": "Hi Jenna,\n\nPlease provision the following IT access for a new employee:\nName: Adriena Rogerio\nPosition: Staff\nDepartment: Art\nCampus: Downtown\nStart Date: 03/28/2026\nSupervisor: Maiga Darrick\n\nPlease have credentials ready by 03/28/2026. Thank you.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "is_read": true,
+      "attachments": []
+    },
+    {
+      "email_id": "73",
+      "folder": "Onboarding",
+      "subject": "Template 31 \u2014 Rogerio, 10005",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "maiga.darrick@crestwood.edu",
+      "cc_addr": null,
+      "date": "2026-03-25T09:20:00-06:00",
+      "message_id": "<t31-10005@crestwood.edu>",
+      "body_text": "Hi Maiga,\n\nAdriena Rogerio is scheduled to begin as Staff on 03/28/2026. As the hiring manager, please conduct the in-person orientation on their first day. Orientation should include:\n\u2013 Welcome and introductions\n\u2013 Workspace and building tour\n\u2013 Collecting the employee\u2019s completed I-9 Section 1 form and verifying their original identity/work authorization documents in person\n\u2013 Completing Section 2 of the attached I-9 form (i9_form.pdf)\n\u2013 Scanning and emailing the signed, completed I-9 form to hr@crestwood.edu\n\u2013 Distributing the attached benefits enrollment packet to the employee\n\u2013 Ensuring the employee signs the employee handbook acknowledgment and emailing it to hr@crestwood.edu\n\nIT credentials will be prepared by Jenna Park and sent to the employee on their start date. Parking and ID badge requests should be submitted through your campus facilities office.\n\nPlease confirm receipt of this email.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "is_read": true,
+      "attachments": [
+        {
+          "filename": "i9_form.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "ZHVtbXkgZmlsZSBjb250ZW50"
+        },
+        {
+          "filename": "benefits_enrollment_packet.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "ZHVtbXkgZmlsZSBjb250ZW50"
+        }
+      ]
+    },
+    {
+      "email_id": "74",
+      "folder": "Onboarding",
+      "subject": "New Hire Notification: Cory Reinhold",
+      "from_addr": "janeva.cleve@crestwood.edu",
+      "to_addr": "hr@crestwood.edu",
+      "date": "2026-03-25T09:00:00-06:00",
+      "message_id": "<notif-10001@crestwood.edu>",
+      "body_text": "HR Team,\n\nPlease see the following details for our new hire:\n\nName: Cory Reinhold\nPersonal Email: cory.reinhold.pers@gmail.com\nPosition: Staff\nDepartment: Art\nCampus: West\nStart Date: 03/29/2026\nClassification: Non-Exempt",
+      "is_read": true
+    },
+    {
+      "email_id": "75",
+      "folder": "Onboarding",
+      "subject": "Template 4 \u2014 Reinhold, 10001",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "cory.reinhold.pers@gmail.com",
+      "cc_addr": "janeva.cleve@crestwood.edu",
+      "date": "2026-03-25T09:10:00-06:00",
+      "message_id": "<t4-10001@crestwood.edu>",
+      "body_text": "Hi Cory,\n\nWelcome to Crestwood University! We are excited to have you join us as Staff in the Art department at our West campus.\n\nYour first day is 03/29/2026. Your supervisor, Janeva Cleve, will conduct your orientation session beginning at 9:00am MST. Please bring the following:\n\u2013 Two forms of identification for I-9 verification (see acceptable documents list attached)\n\u2013 Voided check or bank routing information for direct deposit setup\n\nAttached to this email is the I-9 form (i9_form.pdf). Please complete Section 1 of the form before your first day and bring it with you along with your original identity documents.\n\nIf you have any questions before your first day, please do not hesitate to reach out.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "is_read": true,
+      "attachments": []
+    },
+    {
+      "email_id": "76",
+      "folder": "Onboarding",
+      "subject": "Template 5 \u2014 Reinhold, 10001",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "j.park@crestwood.edu",
+      "cc_addr": null,
+      "date": "2026-03-25T09:15:00-06:00",
+      "message_id": "<t5-10001@crestwood.edu>",
+      "body_text": "Hi Jenna,\n\nPlease provision the following IT access for a new employee:\nName: Cory Reinhold\nPosition: Staff\nDepartment: Art\nCampus: West\nStart Date: 03/29/2026\nSupervisor: Janeva Cleve\n\nPlease have credentials ready by 03/29/2026. Thank you.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "is_read": true,
+      "attachments": []
+    },
+    {
+      "email_id": "77",
+      "folder": "Onboarding",
+      "subject": "Template 31 \u2014 Reinhold, 10001",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "janeva.cleve@crestwood.edu",
+      "cc_addr": null,
+      "date": "2026-03-25T09:20:00-06:00",
+      "message_id": "<t31-10001@crestwood.edu>",
+      "body_text": "Hi Janeva,\n\nCory Reinhold is scheduled to begin as Staff on 03/29/2026. As the hiring manager, please conduct the in-person orientation on their first day. Orientation should include:\n\u2013 Welcome and introductions\n\u2013 Workspace and building tour\n\u2013 Collecting the employee\u2019s completed I-9 Section 1 form and verifying their original identity/work authorization documents in person\n\u2013 Completing Section 2 of the attached I-9 form (i9_form.pdf)\n\u2013 Scanning and emailing the signed, completed I-9 form to hr@crestwood.edu\n\u2013 Distributing the attached benefits enrollment packet to the employee\n\u2013 Ensuring the employee signs the employee handbook acknowledgment and emailing it to hr@crestwood.edu\n\nIT credentials will be prepared by Jenna Park and sent to the employee on their start date. Parking and ID badge requests should be submitted through your campus facilities office.\n\nPlease confirm receipt of this email.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "is_read": true,
+      "attachments": [
+        {
+          "filename": "i9_form.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "ZHVtbXkgZmlsZSBjb250ZW50"
+        },
+        {
+          "filename": "benefits_enrollment_packet.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "ZHVtbXkgZmlsZSBjb250ZW50"
+        }
+      ]
+    },
+    {
+      "email_id": "78",
+      "folder": "Performance",
+      "subject": "Template 26 \u2013 Probationary Review Reminder (Day 60) \u2014 Rhett, 10000",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "ambur.merrel@crestwood.edu",
+      "date": "2026-04-09T17:07:00-06:00",
+      "message_id": "<probation-remind-10000@crestwood.edu>",
+      "body_text": "Hi Ambur,\n\nAmalita Rhett is currently in their probationary period, which ends on 05/09/2026. A probationary review must be submitted to hr@crestwood.edu by 05/04/2026 (Day 85 of employment).\n\nPlease complete the probationary review form and return it by the deadline.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    }
+  ],
+  "next_email_id": 79
+}

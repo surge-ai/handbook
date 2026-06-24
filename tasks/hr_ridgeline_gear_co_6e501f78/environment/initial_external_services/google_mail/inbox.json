@@ -1,0 +1,365 @@
+{
+  "mailbox": {
+    "email": "leaves@ridgelinegear.com",
+    "name": "Ridgeline Gear Co. \u2014 Leave Coordinator"
+  },
+  "contacts": [
+    {
+      "email": "renata.okafor@ridgelinegear.com",
+      "name": "Renata Okafor (Benefits Manager)"
+    },
+    {
+      "email": "daniel.whitfield@ridgelinegear.com",
+      "name": "Daniel Whitfield (HR Director)"
+    },
+    {
+      "email": "meera.patel@ridgelinegear.com",
+      "name": "Meera Patel (HR Generalist)"
+    },
+    {
+      "email": "jordan.briggs@ridgelinegear.com",
+      "name": "Jordan Briggs (HR Generalist)"
+    },
+    {
+      "email": "teresa.vang@ridgelinegear.com",
+      "name": "Teresa Vang (Payroll Lead)"
+    },
+    {
+      "email": "luis.arredondo@ridgelinegear.com",
+      "name": "Luis Arredondo (Safety & WC Coordinator)"
+    },
+    {
+      "email": "samir.haddad@ridgelinegear.com",
+      "name": "Samir Haddad (IT Access Manager)"
+    },
+    {
+      "email": "evelyn.marchetti@ridgelineholdings.com",
+      "name": "Evelyn Marchetti (General Counsel)"
+    },
+    {
+      "email": "rosa.gutierrez@ridgelinegear.com",
+      "name": "Rosa Gutierrez (E1051, Production Worker)"
+    },
+    {
+      "email": "marcus.evans@ridgelinegear.com",
+      "name": "Marcus Evans (Operations Manager)"
+    },
+    {
+      "email": "william.nakamura@ridgelinegear.com",
+      "name": "William Nakamura"
+    },
+    {
+      "email": "oscar.simmons@ridgelinegear.com",
+      "name": "Oscar Simmons"
+    },
+    {
+      "email": "finley.nakamura@ridgelinegear.com",
+      "name": "Finley Nakamura"
+    },
+    {
+      "email": "indira.carroll@ridgelinegear.com",
+      "name": "Indira Carroll"
+    },
+    {
+      "email": "penelope.barnes@ridgelinegear.com",
+      "name": "Penelope Barnes"
+    },
+    {
+      "email": "ivan.anderson@ridgelinegear.com",
+      "name": "Ivan Anderson"
+    },
+    {
+      "email": "zoey.obrien@ridgelinegear.com",
+      "name": "Zoey O'Brien"
+    },
+    {
+      "email": "casey.thornton@ridgelinegear.com",
+      "name": "Casey Thornton"
+    },
+    {
+      "email": "kevin.price@ridgelinegear.com",
+      "name": "Kevin Price"
+    },
+    {
+      "email": "claims@famli.colorado.gov",
+      "name": "CDLE \u2014 FAMLI Claims"
+    },
+    {
+      "email": "famli-employer@ridgelinegear.com",
+      "name": "Ridgeline FAMLI Employer Inbox"
+    }
+  ],
+  "groups": [
+    {
+      "email": "leave-intake@ridgelinegear.com",
+      "name": "#leave-intake (Slack channel)",
+      "members": [
+        "leaves@ridgelinegear.com",
+        "renata.okafor@ridgelinegear.com",
+        "daniel.whitfield@ridgelinegear.com"
+      ]
+    },
+    {
+      "email": "benefits-team@ridgelinegear.com",
+      "name": "#benefits-team (Slack channel)",
+      "members": [
+        "leaves@ridgelinegear.com",
+        "renata.okafor@ridgelinegear.com",
+        "teresa.vang@ridgelinegear.com"
+      ]
+    },
+    {
+      "email": "payroll-coordination@ridgelinegear.com",
+      "name": "#payroll-coordination (Slack channel)",
+      "members": [
+        "leaves@ridgelinegear.com",
+        "teresa.vang@ridgelinegear.com"
+      ]
+    }
+  ],
+  "folders": [
+    {
+      "name": "FMLA Cases"
+    },
+    {
+      "name": "FAMLI Cases"
+    },
+    {
+      "name": "ADA Intake"
+    },
+    {
+      "name": "HFWA & Paid Leave"
+    },
+    {
+      "name": "Personal/Military Leave"
+    },
+    {
+      "name": "Closed Cases"
+    },
+    {
+      "name": "Unknown Senders"
+    },
+    {
+      "name": "General"
+    }
+  ],
+  "emails": [
+    {
+      "email_id": "1",
+      "folder": "FMLA Cases",
+      "subject": "Leave Request \u2014 Recurring Migraines",
+      "from_addr": "rosa.gutierrez@ridgelinegear.com",
+      "to_addr": "leaves@ridgelinegear.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-02-02T07:41:00-07:00",
+      "message_id": "<rosa.migraine.intake.20260202@ridgelinegear.com>",
+      "in_reply_to": null,
+      "body_text": "Hi,\n\nI'm Rosa Gutierrez (E1051, Production). I get severe migraines that sometimes keep me from working. My doctor says they happen about 1-2 times a month and can last a full day. I would like to request intermittent leave for these episodes.\n\nI have been with Ridgeline since June 2019.\n\nPlease let me know what I need to do.\n\nThank you,\nRosa Gutierrez\nProduction Worker \u2014 Fort Collins Campus",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "2",
+      "folder": "FMLA Cases",
+      "subject": "Re: Leave Request \u2014 Recurring Migraines [Case LC-2026-0089]",
+      "from_addr": "leaves@ridgelinegear.com",
+      "to_addr": "rosa.gutierrez@ridgelinegear.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-02-03T09:15:00-07:00",
+      "message_id": "<lc.rosa.elig.20260203@ridgelinegear.com>",
+      "in_reply_to": "<rosa.migraine.intake.20260202@ridgelinegear.com>",
+      "body_text": "Hi Rosa,\n\nThank you for reaching out. I have received your request for intermittent leave for recurring migraines and have opened Case LC-2026-0089.\n\nFMLA ELIGIBILITY: Based on your hire date of June 3, 2019, and your hours on file, you meet all three FMLA eligibility criteria. You are eligible for up to 480 hours of FMLA leave in the rolling 12-month period.\n\nFAMLI: You may also be eligible for Colorado FAMLI wage replacement for the same qualifying reason. I have included information about FAMLI below.\n\nNEXT STEP \u2014 MEDICAL CERTIFICATION: Please have your healthcare provider complete the attached WH-380-E (Employee's Serious Health Condition) form and return it to me within 15 calendar days (by February 18, 2026).\n\nI have also notified your manager, Marcus Evans, that you have a leave case open. He has not been told the nature of your condition.\n\nPlease do not hesitate to reply to this email if you have any questions.\n\nBest regards,\nRidgeline Gear Co. \u2014 Leave Coordinator\nleaves@ridgelinegear.com",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "3",
+      "folder": "FMLA Cases",
+      "subject": "Re: Leave Request \u2014 Recurring Migraines [Case LC-2026-0089]",
+      "from_addr": "rosa.gutierrez@ridgelinegear.com",
+      "to_addr": "leaves@ridgelinegear.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-02-10T16:02:00-07:00",
+      "message_id": "<rosa.cert.return.20260210@ridgelinegear.com>",
+      "in_reply_to": "<lc.rosa.elig.20260203@ridgelinegear.com>",
+      "body_text": "Hi,\n\nPlease find my completed medical certification attached.\n\nThank you,\nRosa",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "WH-380-E_Gutierrez_signed.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjQKJcOkw7zDtsOfCjIgMCBvYmoKPDwvTGVuZ3RoIDMgMCBSL0ZpbHRlci9GbGF0ZURlY29kZT4+CnN0cmVhbQp4nCvkMlAwUDC1NNUzMVcoLU4tykvMTQUA"
+        }
+      ]
+    },
+    {
+      "email_id": "4",
+      "folder": "FMLA Cases",
+      "subject": "Re: Leave Request \u2014 Recurring Migraines [Case LC-2026-0089] \u2014 Designation Notice",
+      "from_addr": "leaves@ridgelinegear.com",
+      "to_addr": "rosa.gutierrez@ridgelinegear.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-02-11T10:30:00-07:00",
+      "message_id": "<lc.rosa.designation.20260211@ridgelinegear.com>",
+      "in_reply_to": "<rosa.cert.return.20260210@ridgelinegear.com>",
+      "body_text": "Hi Rosa,\n\nI have received your completed medical certification. Based on the information provided, your leave is designated as FMLA-qualifying under Case LC-2026-0089.\n\nDESIGNATION DETAILS:\n\u2022 Leave Type: Intermittent FMLA + concurrent Colorado FAMLI\n\u2022 Qualifying Reason: Employee's own serious health condition (recurring migraines)\n\u2022 Certified Frequency: Up to 2 episodes per month, 1 day per episode\n\u2022 Certification Period: Through August 1, 2026\n\u2022 FMLA Balance: 480 hours available in the rolling 12-month period\n\nHOW TO USE YOUR LEAVE: When a migraine prevents you from working, please notify your manager and reply to this email so I can log the absence. You do not need to call in separately to HR \u2014 notifying your manager is sufficient.\n\nFAMLI: CDLE has been notified and will send you information about your wage replacement claim separately.\n\nBest regards,\nRidgeline Gear Co. \u2014 Leave Coordinator\nleaves@ridgelinegear.com",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "5",
+      "folder": "FMLA Cases",
+      "subject": "FAMLI Employer Response Required \u2014 Claim FAMLI-2026-00041 \u2014 Rosa Gutierrez",
+      "from_addr": "claims@famli.colorado.gov",
+      "to_addr": "famli-employer@ridgelinegear.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-02-09T08:00:00-07:00",
+      "message_id": "<cdle.famli.2026.00041.20260209@famli.colorado.gov>",
+      "in_reply_to": null,
+      "body_text": "COLORADO DEPARTMENT OF LABOR AND EMPLOYMENT\nFamily and Medical Leave Insurance Program\n\nClaim Notice: FAMLI-2026-00041\nEmployee: Rosa Gutierrez\nEmployer: Ridgeline Gear Co.\nClaim Start Date: February 2, 2026\n\nAn employee at your organization has filed a FAMLI claim. You have 5 business days from the date of this notice to submit your employer response. Failure to respond by February 16, 2026 will result in your right to contest being forfeited.\n\nPlease log in to your CDLE employer portal to submit your response.\n\nColorado Department of Labor and Employment\nFAMLI Division | claims@famli.colorado.gov",
+      "body_html": null,
+      "is_read": true,
+      "is_important": true,
+      "attachments": []
+    },
+    {
+      "email_id": "6",
+      "folder": "FMLA Cases",
+      "subject": "Re: LC-2026-0089 \u2014 Rosa Gutierrez \u2014 March Absence",
+      "from_addr": "renata.okafor@ridgelinegear.com",
+      "to_addr": "leaves@ridgelinegear.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-05T14:22:00-07:00",
+      "message_id": "<renata.rosa.march.20260305@ridgelinegear.com>",
+      "in_reply_to": null,
+      "body_text": "Hi,\n\nJust a heads-up \u2014 Marcus Evans let me know Rosa used one intermittent FMLA day on March 4. Please log it in leave_tracker.xlsx (case LC-2026-0089) and update the running balance. Running total should now be 3 days / 24 hours used.\n\nThanks,\nRenata",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "7",
+      "folder": "FAMLI Cases",
+      "subject": "Leave Request [Case LC-2026-0046]",
+      "from_addr": "indira.carroll@ridgelinegear.com",
+      "to_addr": "leaves@ridgelinegear.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-22T09:05:00-06:00",
+      "message_id": "<indira.famli.intake.20260322@ridgelinegear.com>",
+      "in_reply_to": null,
+      "body_text": "Hi,\n\nI need to take some time off for a family medical situation. My spouse is recovering from surgery and needs care at home. I expect to be out from March 22 through approximately April 11.\n\nPlease let me know what paperwork I need.\n\nThank you,\nIndira Carroll",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "8",
+      "folder": "HFWA & Paid Leave",
+      "subject": "Bereavement Leave Request [Case LC-2026-0042]",
+      "from_addr": "penelope.barnes@ridgelinegear.com",
+      "to_addr": "leaves@ridgelinegear.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-02T06:48:00-06:00",
+      "message_id": "<penelope.bereavement.20260402@ridgelinegear.com>",
+      "in_reply_to": null,
+      "body_text": "Good morning,\n\nMy father passed away yesterday. I need to take bereavement leave starting today. I expect to be out through April 17. My manager is aware.\n\nPenelope Barnes",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "9",
+      "folder": "HFWA & Paid Leave",
+      "subject": "Re: Bereavement Leave Request [Case LC-2026-0042]",
+      "from_addr": "leaves@ridgelinegear.com",
+      "to_addr": "penelope.barnes@ridgelinegear.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-02T08:30:00-06:00",
+      "message_id": "<lc.penelope.bv.20260402@ridgelinegear.com>",
+      "in_reply_to": "<penelope.bereavement.20260402@ridgelinegear.com>",
+      "body_text": "Hi Penelope,\n\nI am very sorry for your loss.\n\nI have opened Case LC-2026-0042 for your bereavement leave. Ridgeline's policy provides 3 days of paid bereavement leave for an immediate family member. Your manager has been notified of your absence dates.\n\nPlease provide documentation (such as an obituary or funeral program) within 30 calendar days of the date of loss.\n\nPlease take the time you need. I am here if you have any questions.\n\nBest regards,\nRidgeline Gear Co. \u2014 Leave Coordinator\nleaves@ridgelinegear.com",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "10",
+      "folder": "INBOX",
+      "subject": "Open Cases Check-In \u2014 Week of April 6",
+      "from_addr": "renata.okafor@ridgelinegear.com",
+      "to_addr": "leaves@ridgelinegear.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-10T16:45:00-06:00",
+      "message_id": "<renata.checkin.20260410@ridgelinegear.com>",
+      "in_reply_to": null,
+      "body_text": "Hi,\n\nQuick end-of-week check-in on open cases:\n\n\u2022 LC-2026-0046 (Indira Carroll, FAMLI): Expected return April 11 \u2014 confirm she returns Monday and close the case if so.\n\u2022 LC-2026-0089 (Rosa Gutierrez, FMLA/FAMLI intermittent): No new absences reported this week \u2014 correct?\n\u2022 LC-2026-0042 (Penelope Barnes, Bereavement): Still open through April 17.\n\u2022 LC-2026-0009 (Ivan Anderson, FAMLI): On track, no issues reported.\n\nHave a good weekend.\n\nRenata",
+      "body_html": null,
+      "is_read": false,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "11",
+      "folder": "INBOX",
+      "subject": "Question about PTO + FAMLI, and time off for my mom",
+      "from_addr": "rosa.gutierrez@ridgelinegear.com",
+      "to_addr": "leaves@ridgelinegear.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-13T07:52:00-06:00",
+      "message_id": "<rgutierrez.20260413.0752@ridgelinegear.com>",
+      "in_reply_to": null,
+      "body_text": "Hi,\n\nI heard from a Gabe (who was told by Teresa Vang) that I might be able to use my PTO on top of my FAMLI pay so I don't lose as much money when I take my intermittent medical leaves. Is that true?\n\nAlso, my mom passed away last night. She lived in Mexico and the funeral will be there. My manager already knows. I need to take a full week off starting April 20th.\n\nRosa Gutierrez (E1051)\nAssistant Production Lead",
+      "body_html": null,
+      "is_read": false,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "12",
+      "folder": "INBOX",
+      "subject": "Jury Duty \u2014 Starting April 27",
+      "from_addr": "kevin.price@ridgelinegear.com",
+      "to_addr": "leaves@ridgelinegear.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-13T09:30:00-06:00",
+      "message_id": "<kevin.juryduty.20260413@ridgelinegear.com>",
+      "in_reply_to": null,
+      "body_text": "Hi,\n\nI received a jury summons for Larimer County District Court. I'm scheduled to report on May 27 and they said it could last up to two weeks. I've let my manager Marcus Evans know.\n\nI've attached a copy of the summons. Let me know what else you need from me.\n\nThanks,\nKevin Price\nFulfillment Specialist \u2014 Operations",
+      "body_html": null,
+      "is_read": false,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "jury_summons_price_larimer_county.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjQKJcOkw7zDtsOfCjIgMCBvYmoKPDwvTGVuZ3RoIDMgMCBSL0ZpbHRlci9GbGF0ZURlY29kZT4+CnN0cmVhbQp4nCvkMlAwUDC1NNUzMVcoLU4tykvMTQUA"
+        }
+      ]
+    }
+  ],
+  "next_email_id": 13
+}

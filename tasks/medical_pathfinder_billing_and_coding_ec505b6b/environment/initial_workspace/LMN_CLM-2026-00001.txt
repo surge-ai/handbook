@@ -1,0 +1,26 @@
+LETTER OF MEDICAL NECESSITY
+
+Date: April 7, 2026
+
+To: Aetna Appeals Department
+Re: Claim ID CLM-2026-00001
+Patient ID: PAT-10342
+Provider ID: PRV-2081
+Date of Service: March 18, 2026
+CPT Code: 99214
+Diagnosis Code: M54.5 (Low back pain, unspecified)
+
+To Whom It May Concern,
+
+I am writing to appeal the denial of the above-referenced claim under reason code CO-50 (Medical Necessity). The service rendered on March 18, 2026 — a Level 4 Evaluation and Management visit (CPT 99214) — was medically necessary for the evaluation and management of the patient's acute low back pain.
+
+The patient presented with a new onset of significant low back pain radiating into the left lower extremity, with associated numbness and reduced range of motion. The provider performed a detailed history including review of prior imaging, a comprehensive musculoskeletal and neurological examination, and moderate-complexity medical decision making including evaluation of differential diagnoses (radiculopathy, disc herniation, and muscular strain) and ordering of follow-up MRI and physical therapy referral.
+
+The level of service documented meets the criteria for CPT 99214 under the 2026 E/M guidelines, as the medical decision making involved moderate number and complexity of problems addressed, moderate amount of data reviewed, and moderate risk of complications or morbidity.
+
+We respectfully request that Aetna reconsider this denial and reprocess the claim for payment.
+
+Sincerely,
+
+Pathfinder Billing and Coding
+On behalf of PRV-2081

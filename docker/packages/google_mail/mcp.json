@@ -1,0 +1,141 @@
+{
+  "run": {
+    "command": "python",
+    "args": [
+      "-m",
+      "google_mail"
+    ]
+  },
+  "toolsets": {
+    "read": [
+      "download_attachment",
+      "get_contacts",
+      "get_groups",
+      "get_drafts",
+      "get_emails",
+      "get_folders",
+      "get_mailbox_stats",
+      "get_scheduled_emails",
+      "get_unread_count",
+      "list_mailboxes",
+      "search_contacts",
+      "search_groups",
+      "search_emails"
+    ],
+    "write": [
+      "add_contact",
+      "add_group",
+      "cancel_scheduled_email",
+      "create_folder",
+      "delete_contact",
+      "delete_group",
+      "delete_draft",
+      "delete_emails",
+      "delete_folder",
+      "edit_contact",
+      "edit_group",
+      "forward_email",
+      "mark_emails",
+      "move_emails",
+      "read_email",
+      "reply_email",
+      "save_draft",
+      "schedule_email",
+      "send_email",
+      "update_draft"
+    ],
+    "core": [
+      "forward_email",
+      "get_emails",
+      "read_email",
+      "reply_email",
+      "search_emails",
+      "send_email",
+      "create_folder",
+      "delete_draft",
+      "delete_emails",
+      "delete_folder",
+      "download_attachment",
+      "get_contacts",
+      "get_drafts",
+      "get_folders",
+      "get_mailbox_stats",
+      "get_unread_count",
+      "mark_emails",
+      "move_emails",
+      "save_draft",
+      "update_draft"
+    ],
+    "messages": [
+      "delete_emails",
+      "download_attachment",
+      "forward_email",
+      "get_emails",
+      "get_mailbox_stats",
+      "get_unread_count",
+      "list_mailboxes",
+      "mark_emails",
+      "move_emails",
+      "read_email",
+      "reply_email",
+      "search_emails",
+      "send_email"
+    ],
+    "contacts": [
+      "add_contact",
+      "add_group",
+      "delete_contact",
+      "delete_group",
+      "edit_contact",
+      "edit_group",
+      "get_contacts",
+      "get_groups",
+      "search_contacts",
+      "search_groups"
+    ],
+    "folders": [
+      "create_folder",
+      "delete_folder",
+      "get_folders",
+      "move_emails"
+    ],
+    "drafts": [
+      "delete_draft",
+      "get_drafts",
+      "save_draft",
+      "update_draft"
+    ],
+    "scheduling": [
+      "cancel_scheduled_email",
+      "get_scheduled_emails",
+      "schedule_email"
+    ],
+    "toolathlon_legacy": [
+      "create_folder",
+      "delete_draft",
+      "delete_emails",
+      "delete_folder",
+      "download_attachment",
+      "forward_email",
+      "get_contacts",
+      "get_groups",
+      "get_drafts",
+      "get_emails",
+      "get_folders",
+      "get_mailbox_stats",
+      "get_unread_count",
+      "mark_emails",
+      "move_emails",
+      "read_email",
+      "reply_email",
+      "save_draft",
+      "search_emails",
+      "send_email",
+      "update_draft"
+    ],
+    "state": [
+      "export_state",
+      "import_state"
+    ]
+  }
+}

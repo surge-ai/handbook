@@ -1,0 +1,432 @@
+{
+  "mailbox": {
+    "email": "receiving.meridian@gearsystems.com",
+    "name": "Inbound Materials Coordinator \u2014 Meridian"
+  },
+  "contacts": [
+    {
+      "email": "darnell.hooks@gearsystems.com",
+      "name": "Darnell Hooks"
+    },
+    {
+      "email": "elizabeth.velasquez@gearsystems.com",
+      "name": "Elizabeth Velasquez"
+    },
+    {
+      "email": "walter.finch@gearsystems.com",
+      "name": "Walter Finch"
+    },
+    {
+      "email": "curtis.yablonski@gearsystems.com",
+      "name": "Curtis Yablonski"
+    },
+    {
+      "email": "theo.brandt@gearsystems.com",
+      "name": "Theo Brandt"
+    },
+    {
+      "email": "joonho.park@gearsystems.com",
+      "name": "Joon-ho Park"
+    },
+    {
+      "email": "maribel.ortiz@gearsystems.com",
+      "name": "Maribel Ortiz"
+    },
+    {
+      "email": "aditi.krishnamurthy@gearsystems.com",
+      "name": "Aditi Krishnamurthy"
+    },
+    {
+      "email": "reggie.lemoine@gearsystems.com",
+      "name": "Reggie Lemoine"
+    },
+    {
+      "email": "chris.wojciechowski@gearsystems.com",
+      "name": "Chris Wojciechowski"
+    },
+    {
+      "email": "yuki.tanaka@gearsystems.com",
+      "name": "Yuki Tanaka"
+    },
+    {
+      "email": "sherri.olds@gearsystems.com",
+      "name": "Sherri Olds"
+    },
+    {
+      "email": "anand.krishnan@gearsystems.com",
+      "name": "Anand Krishnan"
+    },
+    {
+      "email": "spark@conforge.com",
+      "name": "Susan Park (Consolidated Forge Works)"
+    },
+    {
+      "email": "mdillon@conforge.com",
+      "name": "Mark Dillon (Consolidated Forge Works)"
+    },
+    {
+      "email": "kfoss@heartlandbearings.com",
+      "name": "Karen Foss (Heartland Bearings)"
+    },
+    {
+      "email": "dlinden@heartlandbearings.com",
+      "name": "Doug Linden (Heartland Bearings)"
+    },
+    {
+      "email": "rpatel@meridiansteel.com",
+      "name": "Raj Patel (Meridian Steel Supply)"
+    },
+    {
+      "email": "bcho@meridiansteel.com",
+      "name": "Brenda Cho (Meridian Steel Supply)"
+    },
+    {
+      "email": "claims@xpologistics.com",
+      "name": "XPO Logistics Claims"
+    },
+    {
+      "email": "operations@xpologistics.com",
+      "name": "XPO Logistics Operations"
+    },
+    {
+      "email": "promo@steelsourcenews.com",
+      "name": "Steel Source News"
+    },
+    {
+      "email": "msturm@gpfasteners.com",
+      "name": "Mike Sturm (Great Plains Fasteners)"
+    },
+    {
+      "email": "lhong@gpfasteners.com",
+      "name": "Lisa Hong (Great Plains Fasteners)"
+    }
+  ],
+  "folders": [
+    {
+      "name": "Receipts - In Process"
+    },
+    {
+      "name": "NCRs - Open"
+    },
+    {
+      "name": "NCRs - Closed"
+    },
+    {
+      "name": "Suppliers - General"
+    },
+    {
+      "name": "Carriers"
+    },
+    {
+      "name": "Internal"
+    },
+    {
+      "name": "Hazmat"
+    },
+    {
+      "name": "RMA - Redirected"
+    },
+    {
+      "name": "General"
+    }
+  ],
+  "emails": [
+    {
+      "email_id": "1",
+      "folder": "Sent",
+      "subject": "Missing Mill Test Report \u2014 PO #MER-PO-107294 \u2014 04/14/2026",
+      "from_addr": "receiving.meridian@gearsystems.com",
+      "to_addr": "spark@conforge.com",
+      "cc_addr": "joonho.park@gearsystems.com, theo.brandt@gearsystems.com",
+      "bcc_addr": null,
+      "date": "2026-04-14T10:15:00-06:00",
+      "message_id": "<20260414101500.REC003.MTR@gearsystems.com>",
+      "in_reply_to": null,
+      "body_text": "Hi Susan,\n\nI'm writing regarding the shipment received today at our Meridian, MS plant under PO #MER-PO-107294 from Consolidated Forge Works.\n\nThe shipment of 200 units of FG-91144-A1 (Forged gear blank) arrived with the Certificate of Conformance (COC) but without the required Mill Test Report (MTR). As FG-91144-A1 is a safety-critical part, the MTR is a mandatory document per our receiving requirements. Without it, we cannot verify the heat numbers (H-8827-A, H-8827-B listed on the COC) against the steel mill's chemical and mechanical property certifications.\n\nThe material has been received into our facility but has been placed in quarantine (Q-HOLD) pending receipt of the MTR. It cannot be released to production until the MTR is received and verified.\n\nPlease send the MTR for heat numbers H-8827-A and H-8827-B as a PDF attachment to this email address at your earliest opportunity. If we do not receive the MTR within 5 business days (by 04/21/2026), we will escalate per our internal procedures.\n\nBest regards,\nInbound Materials Coordinator\nGear Systems Inc. \u2014 Meridian Plant\nreceiving.meridian@gearsystems.com",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "2",
+      "folder": "Sent",
+      "subject": "NCR-MER-2026-0251 | Major | Consolidated Forge Works | MER-PO-107294 | Response Required by 04/28/2026",
+      "from_addr": "receiving.meridian@gearsystems.com",
+      "to_addr": "spark@conforge.com",
+      "cc_addr": "joonho.park@gearsystems.com, theo.brandt@gearsystems.com, darnell.hooks@gearsystems.com",
+      "bcc_addr": null,
+      "date": "2026-04-14T11:30:00-06:00",
+      "message_id": "<20260414113000.NCR0251@gearsystems.com>",
+      "in_reply_to": null,
+      "body_text": "Hi Susan,\n\nPlease find attached a formal Nonconformance Report (NCR-MER-2026-0251) issued against Consolidated Forge Works in connection with PO #MER-PO-107294.\n\nNCR Details:\n- NCR Number: NCR-MER-2026-0251\n- Issue Date: 04/14/2026\n- Severity: Major\n- Type: Documentation (DOC)\n- PO Number: MER-PO-107294\n- SKU: FG-91144-A1 (Forged gear blank)\n- Quantity Affected: 200 units\n- Dollar Value: $15,600.00\n\nDescription: The shipment was received without the required Mill Test Report (MTR). FG-91144-A1 is a safety-critical forging, and the MTR is mandatory for heat number verification and traceability compliance. The COC was received and lists heat numbers H-8827-A and H-8827-B, but without the MTR, these cannot be verified against the steel mill's certifications. The material has been quarantined pending resolution.\n\nRequired Action: Please provide the MTR for heat numbers H-8827-A and H-8827-B and a written corrective action plan describing how this documentation gap will be prevented on future shipments.\n\nResponse Required By: 04/28/2026 (10 business days)\n\nPlease direct your response to this email address.\n\nBest regards,\nInbound Materials Coordinator\nGear Systems Inc. \u2014 Meridian Plant\nreceiving.meridian@gearsystems.com",
+      "body_html": null,
+      "is_read": true,
+      "is_important": true,
+      "attachments": [
+        {
+          "filename": "NCR-MER-2026-0251.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjQKMSAwIG9iago8PAovVHlwZSAvQ2F0YWxvZwovUGFnZXMgMiAwIFIKPj4KZW5kb2JqCg=="
+        }
+      ]
+    },
+    {
+      "email_id": "3",
+      "folder": "Sent",
+      "subject": "Critical NCR Draft for Review \u2014 NCR-MER-2026-0253, Meridian Steel Supply",
+      "from_addr": "receiving.meridian@gearsystems.com",
+      "to_addr": "theo.brandt@gearsystems.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-14T12:20:00-06:00",
+      "message_id": "<20260414122000.NCR0253.draft@gearsystems.com>",
+      "in_reply_to": null,
+      "body_text": "Theo,\n\nCritical NCR draft for review \u2014 NCR-MER-2026-0253, Meridian Steel Supply (SUP-0089), PO #MER-PO-106833.\n\nBrief: Band 3 critical short (-18.8%) on safety-critical AX-04827-B2 axle housing forgings. 78 of 96 units received, 18 units missing. Line-down risk confirmed by Aditi (on-hand 22, consumption 12/day, risk window ~1.8 days). Dollar value: $7,650.00.\n\nPDF at NCRs/NCR-MER-2026-0253_draft.docx. Please review and approve before I send to supplier.\n\nThanks,\nSM",
+      "body_html": null,
+      "is_read": true,
+      "is_important": true,
+      "attachments": [
+        {
+          "filename": "NCR-MER-2026-0253_draft.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjQKMSAwIG9iago8PAovVHlwZSAvQ2F0YWxvZwovUGFnZXMgMiAwIFIKPj4KZW5kb2JqCg=="
+        }
+      ]
+    },
+    {
+      "email_id": "4",
+      "folder": "Sent",
+      "subject": "NCR-MER-2026-0253 | Critical | Meridian Steel Supply | MER-PO-106833 | Response Required by 04/17/2026",
+      "from_addr": "receiving.meridian@gearsystems.com",
+      "to_addr": "rpatel@meridiansteel.com",
+      "cc_addr": "joonho.park@gearsystems.com, theo.brandt@gearsystems.com, darnell.hooks@gearsystems.com, elizabeth.velasquez@gearsystems.com, walter.finch@gearsystems.com",
+      "bcc_addr": null,
+      "date": "2026-04-14T13:15:00-06:00",
+      "message_id": "<20260414131500.NCR0253@gearsystems.com>",
+      "in_reply_to": null,
+      "body_text": "Dear Raj,\n\nPlease find attached a formal Nonconformance Report (NCR-MER-2026-0253) issued against Meridian Steel Supply in connection with PO #MER-PO-106833.\n\nThis is a CRITICAL severity NCR requiring your immediate attention.\n\nNCR Details:\n- NCR Number: NCR-MER-2026-0253\n- Issue Date: 04/14/2026\n- Severity: Critical\n- Type: Quantity (QTY)\n- PO Number: MER-PO-106833\n- SKU: AX-04827-B2 (Axle housing forging)\n- Quantity Ordered: 96 units\n- Quantity Received: 78 units\n- Quantity Missing: 18 units\n- Variance: -18.8% (Band 3 Critical Short)\n- Dollar Value: $7,650.00\n\nDescription: The shipment was received with a critical quantity shortage of 18 units (-18.8%), classified as Band 3 Critical Short per our receiving procedures. AX-04827-B2 is a safety-critical axle housing forging. Our Production Planning team has confirmed line-down risk within approximately 48 hours based on current on-hand inventory (22 units) and daily consumption rate (12 units/day). The 78 received units have been quarantined pending resolution.\n\nRequired Action: Please provide an immediate explanation for the shortage, a confirmed ship date for the 18 missing units, and a written corrective action plan.\n\nResponse Required By: 04/17/2026 (3 business days)\n\nGiven the production impact, we request your urgent attention to this matter.\n\nBest regards,\nInbound Materials Coordinator\nGear Systems Inc. \u2014 Meridian Plant\nreceiving.meridian@gearsystems.com",
+      "body_html": null,
+      "is_read": true,
+      "is_important": true,
+      "attachments": [
+        {
+          "filename": "NCR-MER-2026-0253.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjQKMSAwIG9iago8PAovVHlwZSAvQ2F0YWxvZwovUGFnZXMgMiAwIFIKPj4KZW5kb2JqCg=="
+        }
+      ]
+    },
+    {
+      "email_id": "5",
+      "folder": "Sent",
+      "subject": "Critical NCR Draft for Review \u2014 NCR-MER-2026-0252, Heartland Bearings LLC",
+      "from_addr": "receiving.meridian@gearsystems.com",
+      "to_addr": "theo.brandt@gearsystems.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-14T13:30:00-06:00",
+      "message_id": "<20260414133000.NCR0252.draft@gearsystems.com>",
+      "in_reply_to": null,
+      "body_text": "Theo,\n\nCritical NCR draft for review \u2014 NCR-MER-2026-0252, Heartland Bearings LLC (SUP-0312), PO #MER-PO-108510.\n\nBrief: Tier 2 functional damage on 30 of 144 safety-critical BG-33044-A1 wheel bearings \u2014 machined surface scratches confirmed by Reggie Lemoine inspection (posted #quality-alerts 13:20 CST). Supplier on Probation since 03/01/2026. Severity: Critical. Dollar value: $5,565.00 (30 damaged units x $185.50).\n\nRepeat-offender flag posted in #escalations-meridian \u2014 this is the 3rd NCR for SUP-0312 in the past 90 days, and a 1st Critical NCR, Probation review recommended.\n\nPDF at NCRs/NCR-MER-2026-0252_draft.docx. Please review and approve before I send to supplier.\n\nThanks,\nSM",
+      "body_html": null,
+      "is_read": true,
+      "is_important": true,
+      "attachments": [
+        {
+          "filename": "NCR-MER-2026-0252_draft.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjQKMSAwIG9iago8PAovVHlwZSAvQ2F0YWxvZwovUGFnZXMgMiAwIFIKPj4KZW5kb2JqCg=="
+        }
+      ]
+    },
+    {
+      "email_id": "6",
+      "folder": "INBOX",
+      "subject": "Steel Source Weekly \u2014 New Forging Capacity in the Southeast",
+      "from_addr": "promo@steelsourcenews.com",
+      "to_addr": "receiving.meridian@gearsystems.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-14T07:30:00-06:00",
+      "message_id": "<20260414073000.promo@steelsourcenews.com>",
+      "in_reply_to": null,
+      "body_text": "STEEL SOURCE NEWS \u2014 WEEKLY DIGEST\n\nNew forging capacity coming online in the Southeast! Three new facilities announced in Alabama and Georgia.\n\nAlso this week:\n- Raw steel prices holding steady at $780/ton\n- New DOT compliance guidance for commercial vehicle component suppliers\n- Industry spotlight: Precision Forge Group expands to 24/7 operations\n\nTo learn more about advertising opportunities or to update your subscription preferences, reply to this email or visit steelsourcenews.com/subscribe.\n\nYou are receiving this email because your address was listed in an industry supplier directory.",
+      "body_html": null,
+      "is_read": false,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "7",
+      "folder": "INBOX",
+      "subject": "BOL Reissue \u2014 Pro #XPO-4418827",
+      "from_addr": "operations@xpologistics.com",
+      "to_addr": "receiving.meridian@gearsystems.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-14T08:15:00-06:00",
+      "message_id": "<20260414081500.bol@xpologistics.com>",
+      "in_reply_to": null,
+      "body_text": "Good morning,\n\nPer your request last week, please find attached the reissued Bill of Lading for Pro #XPO-4418827 (original delivery 04/07/2026, PO #MER-PO-107050, consignee Gear Systems Meridian).\n\nThe reissued BOL corrects the weight discrepancy noted on the original. The corrected gross weight is 3,420 lb (previously listed as 4,320 lb due to a data entry error on our end).\n\nPlease let us know if you need anything else.\n\nBest regards,\nXPO Logistics \u2014 Southeast Operations\nclaims@xpologistics.com | 1-800-555-0147",
+      "body_html": null,
+      "is_read": false,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "BOL_XPO-4418827_reissued.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjQKMSAwIG9iago8PAovVHlwZSAvQ2F0YWxvZwovUGFnZXMgMiAwIFIKPj4KZW5kb2JqCg=="
+        }
+      ]
+    },
+    {
+      "email_id": "8",
+      "folder": "INBOX",
+      "subject": "RE: Delivery Forecast \u2014 May 2026",
+      "from_addr": "dlinden@heartlandbearings.com",
+      "to_addr": "receiving.meridian@gearsystems.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-14T09:00:00-06:00",
+      "message_id": "<20260414090000.forecast@heartlandbearings.com>",
+      "in_reply_to": null,
+      "body_text": "Good morning,\n\nI wanted to touch base regarding next month's delivery forecast. We're currently projecting 3 shipments to Meridian in May:\n\n1. Week of 05/04 \u2014 BG-33044-A1, approx. 200 units (against upcoming PO)\n2. Week of 05/11 \u2014 BG-33044-A1, approx. 150 units\n3. Week of 05/18 \u2014 SL-20118-C3, approx. 600 units\n\nCould you confirm whether these volumes align with your expected POs? We'd like to coordinate carrier scheduling on our end.\n\nAlso, we're planning a brief maintenance shutdown of our grinding line 05/25\u201305/30. This should not affect any open orders but I wanted to flag it proactively.\n\nPlease let me know if you have any questions.\n\nBest regards,\nDoug Linden\nCommercial Account Manager\nHeartland Bearings LLC\ndlinden@heartlandbearings.com",
+      "body_html": null,
+      "is_read": false,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "9",
+      "folder": "INBOX",
+      "subject": "Re: Missing Mill Test Report \u2014 PO #MER-PO-107294 \u2014 04/14/2026",
+      "from_addr": "spark@conforge.com",
+      "to_addr": "receiving.meridian@gearsystems.com",
+      "cc_addr": "joonho.park@gearsystems.com, theo.brandt@gearsystems.com",
+      "bcc_addr": null,
+      "date": "2026-04-14T11:40:00-06:00",
+      "message_id": "<20260414114000.reply@conforge.com>",
+      "in_reply_to": "<20260414101500.REC003.MTR@gearsystems.com>",
+      "body_text": "Hi,\n\nThank you for letting us know. I apologize for the oversight \u2014 the MTR for heat numbers H-8827-A and H-8827-B should have been included with the shipment paperwork.\n\nI've reached out to our metallurgical lab and they are pulling the reports now. I expect to have both MTRs in hand and sent to you by close of business today (04/14/2026).\n\nI'll send them as PDF attachments to this email thread as soon as I receive them.\n\nAgain, my apologies for the inconvenience.\n\nBest regards,\nSusan Park\nQuality Assurance Manager\nConsolidated Forge Works\nspark@conforge.com | (205) 555-0193",
+      "body_html": null,
+      "is_read": false,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "10",
+      "folder": "INBOX",
+      "subject": "Line-Down Risk Assessment \u2014 AX-04827-B2, PO #MER-PO-106833",
+      "from_addr": "aditi.krishnamurthy@gearsystems.com",
+      "to_addr": "receiving.meridian@gearsystems.com",
+      "cc_addr": "elizabeth.velasquez@gearsystems.com",
+      "bcc_addr": null,
+      "date": "2026-04-14T12:30:00-06:00",
+      "message_id": "<20260414123000.linedown@gearsystems.com>",
+      "in_reply_to": null,
+      "body_text": "SM,\n\nPer your request \u2014 line-down risk assessment for AX-04827-B2 (axle housing forging), PO #MER-PO-106833.\n\nCurrent status:\n- On-hand inventory (per inventory_master.xlsx): 22 units\n- Daily consumption rate (current production schedule): 12 units/day\n- Estimated days of supply: 22 / 12 = approximately 1.8 days\n- Risk window: approximately 1.8 days from today, i.e., line-down risk by end of day Thursday 04/16/2026 if no additional supply arrives\n\nAssessment: LINE-DOWN RISK WITHIN 48 HOURS CONFIRMED.\n\nI've checked the production schedule and there is no feasible way to reduce consumption below 10 units/day without halting the medium-duty axle line. We also have no approved substitute SKU for AX-04827-B2.\n\nNext expected delivery for this SKU: PO #MER-PO-106835, scheduled 04/15/2026 (tomorrow), 120 units from Meridian Steel Supply. If this delivery arrives on time and is clean, the line-down risk is resolved. If not, we need to escalate to Plant Manager level for production rescheduling.\n\nI've CC'd Elizabeth Velasquez on this assessment per your escalation.\n\nLet me know if you need anything else.\n\nAditi Krishnamurthy\nProduction Planning Lead \u2014 Meridian\naditi.krishnamurthy@gearsystems.com",
+      "body_html": null,
+      "is_read": false,
+      "is_important": true,
+      "attachments": []
+    },
+    {
+      "email_id": "11",
+      "folder": "INBOX",
+      "subject": "Re: Critical NCR Draft for Review \u2014 NCR-MER-2026-0253, Meridian Steel Supply",
+      "from_addr": "theo.brandt@gearsystems.com",
+      "to_addr": "receiving.meridian@gearsystems.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-14T13:00:00-06:00",
+      "message_id": "<20260414130000.NCR0253.approval@gearsystems.com>",
+      "in_reply_to": "<20260414122000.NCR0253.draft@gearsystems.com>",
+      "body_text": "SM,\n\nReviewed. The NCR-MER-2026-0253 draft looks good. One minor note \u2014 please make sure the letter references the specific heat number (H-6203-D) in the description section since this is a safety-critical part and the traceability chain needs to be explicitly documented in the NCR communication.\n\nOtherwise, approved to send.\n\nTheo Brandt\nQuality Manager \u2014 Meridian Plant\ntheo.brandt@gearsystems.com",
+      "body_html": null,
+      "is_read": false,
+      "is_important": true,
+      "attachments": []
+    },
+    {
+      "email_id": "12",
+      "folder": "INBOX",
+      "subject": "REC-20260414-005 Inspection Report \u2014 BG-33044-A1 Tier 2 Damage",
+      "from_addr": "reggie.lemoine@gearsystems.com",
+      "to_addr": "receiving.meridian@gearsystems.com",
+      "cc_addr": "theo.brandt@gearsystems.com",
+      "bcc_addr": null,
+      "date": "2026-04-14T13:20:00-06:00",
+      "message_id": "<20260414132000.inspection@gearsystems.com>",
+      "in_reply_to": null,
+      "body_text": "SM,\n\nCompleted inspection of BG-33044-A1 wheel bearing assemblies from REC-20260414-005 (Heartland Bearings LLC, PO #MER-PO-108510, line 001).\n\nFindings:\n- Total units inspected: 144\n- Units with damage: 30\n- Damage type: Machined surface scratches on bearing inner race\n- Severity: Tier 2 \u2014 Functional damage. The scratches are on load-bearing surfaces and could affect bearing life and performance under load. These units should NOT be released to production without further engineering review.\n- Undamaged units (114): Visually acceptable, no defects observed on machined surfaces or outer races\n- Root cause assessment: Damage pattern is consistent with inadequate inter-layer dunnage during transit. The scratches are uniform and appear to have been caused by metal-on-metal contact between stacked bearings.\n\nPhotos attached: 8 images showing representative damage on affected units, plus 2 images of packaging condition.\n\nMarked-up packing slip attached \u2014 I've circled the affected pallet numbers (pallets 2 and 3 of 6).\n\nRecommendation: Quarantine all 144 units pending disposition decision. The 30 damaged units are not suitable for production use in my assessment. The 114 undamaged units may be releasable after Theo's review, but I'd recommend keeping them quarantined as a batch until we hear from Heartland on corrective action.\n\nPosted summary to #quality-alerts as well.\n\nReggie Lemoine\nQuality Inspector \u2014 1st Shift\nreggie.lemoine@gearsystems.com",
+      "body_html": null,
+      "is_read": false,
+      "is_important": true,
+      "attachments": [
+        {
+          "filename": "REC-20260414-005_inspection_photos.zip",
+          "content_type": "application/zip",
+          "content_base64": "UEsDBBQAAAAIAAAAIQBhxHp7RAAAAEQAAAAUAAAAZG9jUHJvcHMvYXBwLnhtbA=="
+        },
+        {
+          "filename": "MER-PO-108510_packingslip_marked.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjQKMSAwIG9iago8PAovVHlwZSAvQ2F0YWxvZwovUGFnZXMgMiAwIFIKPj4KZW5kb2JqCg=="
+        }
+      ]
+    },
+    {
+      "email_id": "13",
+      "folder": "Receipts - In Process",
+      "subject": "REC-20260414-006 \u2014 DS-77201-A3 Putaway Authorization \u2014 Theo Brandt Approval",
+      "from_addr": "theo.brandt@gearsystems.com",
+      "to_addr": "receiving.meridian@gearsystems.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-14T13:10:00-06:00",
+      "message_id": "<20260414131000.DS77201.approval@gearsystems.com>",
+      "in_reply_to": null,
+      "body_text": "SM,\n\nApproved for putaway \u2014 REC-20260414-006, DS-77201-A3 driveshaft yoke assembly, 60 units. COC, MTR, and heat number H-5590-B verified on my end. Release to Zone A per standard procedure.\n\nTheo",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "14",
+      "folder": "NCRs - Open",
+      "subject": "NCR-MER-2026-0250 | Major | Great Plains Fasteners | MER-PO-108200 | Response Required by 04/22/2026",
+      "from_addr": "receiving.meridian@gearsystems.com",
+      "to_addr": "lhong@gpfasteners.com",
+      "cc_addr": "joonho.park@gearsystems.com, theo.brandt@gearsystems.com, darnell.hooks@gearsystems.com",
+      "bcc_addr": null,
+      "date": "2026-04-08T14:00:00-06:00",
+      "message_id": "<20260408140000.NCR0250@gearsystems.com>",
+      "in_reply_to": null,
+      "body_text": "[NCR letter for Great Plains Fasteners \u2014 Band 2 short ship on safety-critical fasteners. Previously filed.]",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "15",
+      "folder": "NCRs - Closed",
+      "subject": "NCR-MER-2026-0248 | Major | Heartland Bearings | MER-PO-107100 | CLOSED",
+      "from_addr": "receiving.meridian@gearsystems.com",
+      "to_addr": "kfoss@heartlandbearings.com",
+      "cc_addr": "joonho.park@gearsystems.com, theo.brandt@gearsystems.com",
+      "bcc_addr": null,
+      "date": "2026-03-20T10:00:00-06:00",
+      "message_id": "<20260320100000.NCR0248@gearsystems.com>",
+      "in_reply_to": null,
+      "body_text": "[NCR closure notification for Heartland Bearings \u2014 corrosion damage on bearings. Previously filed and closed.]",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    }
+  ],
+  "next_email_id": 16
+}

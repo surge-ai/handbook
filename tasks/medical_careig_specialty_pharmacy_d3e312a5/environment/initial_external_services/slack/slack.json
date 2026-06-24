@@ -1,0 +1,936 @@
+{
+  "users": {
+    "U001": {
+      "id": "U001",
+      "team_id": "T001",
+      "name": "d.flores",
+      "deleted": false,
+      "real_name": "Diana Flores",
+      "tz": "America/New_York",
+      "tz_label": "Eastern Daylight Time",
+      "tz_offset": -14400,
+      "profile": {
+        "real_name": "Diana Flores",
+        "display_name": "dflores",
+        "email": "d.flores@careig.com",
+        "title": "Director of Revenue Cycle",
+        "first_name": "Diana",
+        "last_name": "Flores"
+      },
+      "is_admin": true,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U002": {
+      "id": "U002",
+      "team_id": "T001",
+      "name": "r.nguyen",
+      "deleted": false,
+      "real_name": "Robert Nguyen",
+      "tz": "America/New_York",
+      "tz_label": "Eastern Daylight Time",
+      "tz_offset": -14400,
+      "profile": {
+        "real_name": "Robert Nguyen",
+        "display_name": "rnguyen",
+        "email": "r.nguyen@careig.com",
+        "title": "Director of Operations",
+        "first_name": "Robert",
+        "last_name": "Nguyen"
+      },
+      "is_admin": true,
+      "is_owner": true,
+      "is_bot": false
+    },
+    "U003": {
+      "id": "U003",
+      "team_id": "T001",
+      "name": "p.nair",
+      "deleted": false,
+      "real_name": "Priya Nair",
+      "tz": "America/New_York",
+      "tz_label": "Eastern Daylight Time",
+      "tz_offset": -14400,
+      "profile": {
+        "real_name": "Priya Nair",
+        "display_name": "pnair",
+        "email": "p.nair@careig.com",
+        "title": "Benefits Verification Specialist (Lead)",
+        "first_name": "Priya",
+        "last_name": "Nair"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U004": {
+      "id": "U004",
+      "team_id": "T001",
+      "name": "d.okafor",
+      "deleted": false,
+      "real_name": "Daniel Okafor",
+      "tz": "America/New_York",
+      "tz_label": "Eastern Daylight Time",
+      "tz_offset": -14400,
+      "profile": {
+        "real_name": "Daniel Okafor",
+        "display_name": "dokafor",
+        "email": "d.okafor@careig.com",
+        "title": "Benefits Verification Specialist",
+        "first_name": "Daniel",
+        "last_name": "Okafor"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U005": {
+      "id": "U005",
+      "team_id": "T001",
+      "name": "t.rodriguez",
+      "deleted": false,
+      "real_name": "Teresa Rodriguez",
+      "tz": "America/New_York",
+      "tz_label": "Eastern Daylight Time",
+      "tz_offset": -14400,
+      "profile": {
+        "real_name": "Teresa Rodriguez",
+        "display_name": "trodriguez",
+        "email": "t.rodriguez@careig.com",
+        "title": "Patient Representative",
+        "first_name": "Teresa",
+        "last_name": "Rodriguez"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U006": {
+      "id": "U006",
+      "team_id": "T001",
+      "name": "m.webb",
+      "deleted": false,
+      "real_name": "Marcus Webb",
+      "tz": "America/New_York",
+      "tz_label": "Eastern Daylight Time",
+      "tz_offset": -14400,
+      "profile": {
+        "real_name": "Marcus Webb",
+        "display_name": "mwebb",
+        "email": "m.webb@careig.com",
+        "title": "Patient Representative",
+        "first_name": "Marcus",
+        "last_name": "Webb"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U007": {
+      "id": "U007",
+      "team_id": "T001",
+      "name": "a.torres",
+      "deleted": false,
+      "real_name": "Angela Torres",
+      "tz": "America/New_York",
+      "tz_label": "Eastern Daylight Time",
+      "tz_offset": -14400,
+      "profile": {
+        "real_name": "Angela Torres",
+        "display_name": "atorres",
+        "email": "a.torres@careig.com",
+        "title": "Billing Specialist (Lead)",
+        "first_name": "Angela",
+        "last_name": "Torres"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U008": {
+      "id": "U008",
+      "team_id": "T001",
+      "name": "k.patel",
+      "deleted": false,
+      "real_name": "Kevin Patel",
+      "tz": "America/New_York",
+      "tz_label": "Eastern Daylight Time",
+      "tz_offset": -14400,
+      "profile": {
+        "real_name": "Kevin Patel",
+        "display_name": "kpatel",
+        "email": "k.patel@careig.com",
+        "title": "Billing Specialist",
+        "first_name": "Kevin",
+        "last_name": "Patel"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U009": {
+      "id": "U009",
+      "team_id": "T001",
+      "name": "c.madden",
+      "deleted": false,
+      "real_name": "Chris Madden",
+      "tz": "America/New_York",
+      "tz_label": "Eastern Daylight Time",
+      "tz_offset": -14400,
+      "profile": {
+        "real_name": "Chris Madden",
+        "display_name": "cmadden",
+        "email": "c.madden@careig.com",
+        "title": "AR Specialist",
+        "first_name": "Chris",
+        "last_name": "Madden"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U010": {
+      "id": "U010",
+      "team_id": "T001",
+      "name": "s.liu",
+      "deleted": false,
+      "real_name": "Stephanie Liu",
+      "tz": "America/New_York",
+      "tz_label": "Eastern Daylight Time",
+      "tz_offset": -14400,
+      "profile": {
+        "real_name": "Stephanie Liu",
+        "display_name": "sliu",
+        "email": "s.liu@careig.com",
+        "title": "Clinical Coordinator",
+        "first_name": "Stephanie",
+        "last_name": "Liu"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U011": {
+      "id": "U011",
+      "team_id": "T001",
+      "name": "s.mitchell",
+      "deleted": false,
+      "real_name": "Sarah Mitchell",
+      "tz": "America/New_York",
+      "tz_label": "Eastern Daylight Time",
+      "tz_offset": -14400,
+      "profile": {
+        "real_name": "Sarah Mitchell",
+        "display_name": "smitchell",
+        "email": "s.mitchell@careig.com",
+        "title": "Infusion Nurse, RN",
+        "first_name": "Sarah",
+        "last_name": "Mitchell"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U012": {
+      "id": "U012",
+      "team_id": "T001",
+      "name": "d.chen",
+      "deleted": false,
+      "real_name": "David Chen",
+      "tz": "America/New_York",
+      "tz_label": "Eastern Daylight Time",
+      "tz_offset": -14400,
+      "profile": {
+        "real_name": "David Chen",
+        "display_name": "dchen",
+        "email": "d.chen@careig.com",
+        "title": "Infusion Nurse, RN",
+        "first_name": "David",
+        "last_name": "Chen"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U013": {
+      "id": "U013",
+      "team_id": "T001",
+      "name": "m.rodriguez",
+      "deleted": false,
+      "real_name": "Maria Rodriguez",
+      "tz": "America/New_York",
+      "tz_label": "Eastern Daylight Time",
+      "tz_offset": -14400,
+      "profile": {
+        "real_name": "Maria Rodriguez",
+        "display_name": "mrodriguez",
+        "email": "m.rodriguez@careig.com",
+        "title": "Infusion Nurse, RN",
+        "first_name": "Maria",
+        "last_name": "Rodriguez"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U014": {
+      "id": "U014",
+      "team_id": "T001",
+      "name": "j.wilson",
+      "deleted": false,
+      "real_name": "James Wilson",
+      "tz": "America/New_York",
+      "tz_label": "Eastern Daylight Time",
+      "tz_offset": -14400,
+      "profile": {
+        "real_name": "James Wilson",
+        "display_name": "jwilson",
+        "email": "j.wilson@careig.com",
+        "title": "Infusion Nurse, LPN",
+        "first_name": "James",
+        "last_name": "Wilson"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U015": {
+      "id": "U015",
+      "team_id": "T001",
+      "name": "a.thompson",
+      "deleted": false,
+      "real_name": "Angela Thompson",
+      "tz": "America/New_York",
+      "tz_label": "Eastern Daylight Time",
+      "tz_offset": -14400,
+      "profile": {
+        "real_name": "Angela Thompson",
+        "display_name": "athompson",
+        "email": "a.thompson@careig.com",
+        "title": "Infusion Nurse, LPN",
+        "first_name": "Angela",
+        "last_name": "Thompson"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U016": {
+      "id": "U016",
+      "team_id": "T001",
+      "name": "r.garcia",
+      "deleted": false,
+      "real_name": "Robert Garcia",
+      "tz": "America/New_York",
+      "tz_label": "Eastern Daylight Time",
+      "tz_offset": -14400,
+      "profile": {
+        "real_name": "Robert Garcia",
+        "display_name": "rgarcia",
+        "email": "r.garcia@careig.com",
+        "title": "Infusion Nurse, LVN",
+        "first_name": "Robert",
+        "last_name": "Garcia"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U017": {
+      "id": "U017",
+      "team_id": "T001",
+      "name": "l.park",
+      "deleted": false,
+      "real_name": "Linda Park",
+      "tz": "America/New_York",
+      "tz_label": "Eastern Daylight Time",
+      "tz_offset": -14400,
+      "profile": {
+        "real_name": "Linda Park",
+        "display_name": "lpark",
+        "email": "l.park@careig.com",
+        "title": "Infusion Nurse, RN",
+        "first_name": "Linda",
+        "last_name": "Park"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U018": {
+      "id": "U018",
+      "team_id": "T001",
+      "name": "m.brooks",
+      "deleted": false,
+      "real_name": "Michael Brooks",
+      "tz": "America/New_York",
+      "tz_label": "Eastern Daylight Time",
+      "tz_offset": -14400,
+      "profile": {
+        "real_name": "Michael Brooks",
+        "display_name": "mbrooks",
+        "email": "m.brooks@careig.com",
+        "title": "Infusion Nurse, LPN",
+        "first_name": "Michael",
+        "last_name": "Brooks"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    }
+  },
+  "channels": {
+    "C001": {
+      "id": "C001",
+      "name": "general",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1748786400,
+      "is_archived": false,
+      "is_general": true,
+      "unlinked": 0,
+      "name_normalized": "general",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1748786400,
+      "creator": "U002",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Company-wide announcements",
+        "creator": "U002",
+        "last_set": 1748786400
+      },
+      "purpose": {
+        "value": "General discussion for CareIG",
+        "creator": "U002",
+        "last_set": 1748786400
+      }
+    },
+    "C002": {
+      "id": "C002",
+      "name": "intake-team",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1748786400,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "intake-team",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1748786400,
+      "creator": "U002",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Intake alerts: BVS assignments, PA submissions, hardship flags",
+        "creator": "U002",
+        "last_set": 1748786400
+      },
+      "purpose": {
+        "value": "Intake team workflow notifications",
+        "creator": "U002",
+        "last_set": 1748786400
+      }
+    },
+    "C003": {
+      "id": "C003",
+      "name": "intake-alerts",
+      "is_channel": false,
+      "is_group": true,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1748786400,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "intake-alerts",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1748786400,
+      "creator": "U002",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Intake escalations: OON, benefit type, formulary stops, PA delays",
+        "creator": "U002",
+        "last_set": 1748786400
+      },
+      "purpose": {
+        "value": "Intake supervisor escalation channel",
+        "creator": "U002",
+        "last_set": 1748786400
+      }
+    },
+    "C004": {
+      "id": "C004",
+      "name": "clinical-scheduling",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1748786400,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "clinical-scheduling",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1748786400,
+      "creator": "U002",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Clinical alerts: PA approvals, scheduling, visit completions",
+        "creator": "U002",
+        "last_set": 1748786400
+      },
+      "purpose": {
+        "value": "Clinical scheduling and visit tracking",
+        "creator": "U002",
+        "last_set": 1748786400
+      }
+    },
+    "C005": {
+      "id": "C005",
+      "name": "billing",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1748786400,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "billing",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1748786400,
+      "creator": "U002",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Billing alerts: claim submissions, validation failures",
+        "creator": "U002",
+        "last_set": 1748786400
+      },
+      "purpose": {
+        "value": "Billing workflow notifications",
+        "creator": "U002",
+        "last_set": 1748786400
+      }
+    },
+    "C006": {
+      "id": "C006",
+      "name": "billing-mgmt",
+      "is_channel": false,
+      "is_group": true,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1748786400,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "billing-mgmt",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1748786400,
+      "creator": "U002",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Billing escalations: underpayments, L2 denials, write-offs",
+        "creator": "U002",
+        "last_set": 1748786400
+      },
+      "purpose": {
+        "value": "Billing supervisor escalation channel",
+        "creator": "U002",
+        "last_set": 1748786400
+      }
+    },
+    "C007": {
+      "id": "C007",
+      "name": "billing-appeals",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1748786400,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "billing-appeals",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1748786400,
+      "creator": "U002",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "PA denials and appeal filings",
+        "creator": "U002",
+        "last_set": 1748786400
+      },
+      "purpose": {
+        "value": "Prior auth denials and appeals",
+        "creator": "U002",
+        "last_set": 1748786400
+      }
+    },
+    "C008": {
+      "id": "C008",
+      "name": "compliance",
+      "is_channel": false,
+      "is_group": true,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1748786400,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "compliance",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1748786400,
+      "creator": "U002",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Legal and compliance issues",
+        "creator": "U002",
+        "last_set": 1748786400
+      },
+      "purpose": {
+        "value": "Compliance and legal escalations",
+        "creator": "U002",
+        "last_set": 1748786400
+      }
+    },
+    "C009": {
+      "id": "C009",
+      "name": "intake-mgmt",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1748786400,
+      "is_archived": false,
+      "is_general": false,
+      "topic": {
+        "value": "Intake management escalations and PA delay alerts",
+        "creator": "U001",
+        "last_set": 1748786400
+      },
+      "purpose": {
+        "value": "PA delay escalations and intake management oversight",
+        "creator": "U001",
+        "last_set": 1748786400
+      },
+      "members": [
+        "U001",
+        "U002",
+        "U003"
+      ]
+    }
+  },
+  "messages": {
+    "C001": [
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Good morning team \u2014 reminder that the Q1 compliance training modules are due by end of February. Please complete them in the training portal when you have a chance.",
+        "ts": "1770732300.002600",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Thanks Robert. I'll send a follow-up to anyone who hasn't completed them by the 20th.",
+        "ts": "1770732720.002700",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U010",
+        "text": "Heads up \u2014 I'll be working from the Ft. Lauderdale satellite office on Thursday and Friday this week. Reachable by Slack/phone as usual.",
+        "ts": "1772027400.002800",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Happy Monday everyone. Quick reminder: daylight saving time started yesterday \u2014 make sure any manually set calendar reminders are adjusted.",
+        "ts": "1773061200.002900",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "The updated payer_rules.xlsx is live in the shared drive. UnitedHealthcare timely filing changed from 90 to 180 days effective March 15. All other payers unchanged.",
+        "ts": "1774017000.003000",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "April is here \u2014 Q1 audit prep kicks off this week. Billing team: please make sure all open claims from January are followed up on by Friday.",
+        "ts": "1775048400.003100",
+        "team": "T001"
+      }
+    ],
+    "C002": [
+      {
+        "type": "message",
+        "user": "U006",
+        "text": "[BVS ASSIGNED] Thompson_06221985 | Payer: UnitedHealthcare HMO | Drug: Gamunex-C 10% | Dose: 40g",
+        "ts": "1770909300.000500",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U004",
+        "text": "[PA SUBMITTED] Thompson_06221985 | Payer: UnitedHealthcare HMO | Drug: Gamunex-C 10% | Ref: UHC-PACONF-20260219-44812",
+        "ts": "1771519320.000600",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U005",
+        "text": "[BVS ASSIGNED] Chen_11051992 | Payer: BlueCross BlueShield PPO | Drug: Octagam 10% | Dose: 30g",
+        "ts": "1771944480.001100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U005",
+        "text": "[BVS ASSIGNED] Williams_03141958 | Payer: Aetna PPO | Drug: Hizentra 20% | Dose: 10g",
+        "ts": "1772552640.001700",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "[PA SUBMITTED] Chen_11051992 | Payer: BlueCross BlueShield PPO | Drug: Octagam 10% | Ref: BCBS-PACONF-20260305-51927",
+        "ts": "1772735400.001200",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U004",
+        "text": "[PA SUBMITTED] Williams_03141958 | Payer: Aetna PPO | Drug: Hizentra 20% | Ref: AET-PACONF-20260312-29047",
+        "ts": "1773339300.001800",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U006",
+        "text": "[BVS ASSIGNED] Martinez_08281990 | Payer: BlueCross BlueShield PPO | Drug: Privigen 10% | Dose: 40g",
+        "ts": "1773673800.002100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "[FINANCIAL HARDSHIP] Martinez_08281990 \u2014 refer to Patient Assistance Program.",
+        "ts": "1773859500.002200",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "[PA SUBMITTED] Martinez_08281990 | Payer: BlueCross BlueShield PPO | Drug: Privigen 10% | Ref: BCBS-PACONF-20260325-63018",
+        "ts": "1774449000.002300",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U006",
+        "text": "[BVS ASSIGNED] Reeves_12031975 | Payer: Humana Medicare Advantage | Drug: Gammagard Liquid 10% | Dose: 25g",
+        "ts": "1774882320.002500",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U005",
+        "text": "[BVS ASSIGNED] Vasquez_03151971 | Payer: Aetna PPO | Drug: Privigen 10% | Dose: 35g",
+        "ts": "1775050320.000200",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "[PA SUBMITTED] Vasquez_03151971 | Payer: Aetna PPO | Drug: Privigen 10% | Ref: AET-PACONF-20260407-77291",
+        "ts": "1775586000.000400",
+        "team": "T001"
+      }
+    ],
+    "C003": [
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "[PA DELAY] Martinez_08281990 | Payer: BlueCross BlueShield PPO | Business Days Pending: 5",
+        "ts": "1775049300.002400",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "[FORMULARY ISSUE] Vasquez_03151971 | Drug: Privigen 10% | Payer: Aetna PPO",
+        "ts": "1775238420.000300",
+        "team": "T001"
+      }
+    ],
+    "C004": [
+      {
+        "type": "message",
+        "user": "U004",
+        "text": "[PA APPROVED] Thompson_06221985 | Drug: Gamunex-C 10% | Dose: 40g | PA#: UHC-PA-2026-88431 | Exp: 02/27/2027 | Drug Source: CareIG",
+        "ts": "1772201880.000700",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U010",
+        "text": "[SCHEDULED] Thompson_06221985 | Date: 03/10/2026 | Nurse: S. Mitchell",
+        "ts": "1772564700.000800",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U011",
+        "text": "[VISIT COMPLETE] Thompson_06221985 | DOS: 03/10/2026",
+        "ts": "1773175200.000900",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "[PA APPROVED] Chen_11051992 | Drug: Octagam 10% | Dose: 30g | PA#: BCBS-PA-2026-72104 | Exp: 03/16/2027 | Drug Source: CareIG",
+        "ts": "1773670080.001300",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U010",
+        "text": "[SCHEDULED] Chen_11051992 | Date: 03/25/2026 | Nurse: D. Chen",
+        "ts": "1773948000.001400",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U012",
+        "text": "[VISIT COMPLETE] Chen_11051992 | DOS: 03/25/2026",
+        "ts": "1774473000.001500",
+        "team": "T001"
+      }
+    ],
+    "C005": [
+      {
+        "type": "message",
+        "user": "U008",
+        "text": "[CLAIM SUBMITTED] Thompson_06221985 | DOS: 03/10/2026 | Payer: UnitedHealthcare HMO | Billed: $7,240.00",
+        "ts": "1773325320.001000",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U007",
+        "text": "[CLAIM SUBMITTED] Chen_11051992 | DOS: 03/25/2026 | Payer: BlueCross BlueShield PPO | Billed: $5,892.00",
+        "ts": "1774623900.001600",
+        "team": "T001"
+      }
+    ],
+    "C006": [],
+    "C007": [
+      {
+        "type": "message",
+        "user": "U004",
+        "text": "[PA DENIED] Williams_03141958 | Payer: Aetna PPO | Reason: Insufficient clinical documentation; prior IVIG trial history not provided",
+        "ts": "1774020600.001900",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U007",
+        "text": "[APPEAL FILED L1] Williams_03141958 | 03/12/2026 | Aetna PPO | PI-204",
+        "ts": "1774274100.002000",
+        "team": "T001"
+      }
+    ],
+    "C008": []
+  },
+  "counters": {
+    "messageId": 1000000
+  }
+}

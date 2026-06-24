@@ -1,0 +1,75 @@
+{
+  "events": {
+    "evt-1": {
+      "id": "evt-1",
+      "summary": "Weekly Team Huddle",
+      "start": {
+        "dateTime": "2026-04-06T10:00:00-06:00"
+      },
+      "end": {
+        "dateTime": "2026-04-06T11:00:00-06:00"
+      }
+    },
+    "evt-2": {
+      "id": "evt-2",
+      "summary": "Preparation for Quarterly Board meeting",
+      "start": {
+        "dateTime": "2026-04-07T14:00:00-06:00"
+      },
+      "end": {
+        "dateTime": "2026-04-07T15:00:00-06:00"
+      }
+    },
+    "evt-3": {
+      "id": "evt-3",
+      "summary": "OOO",
+      "start": {
+        "date": "2026-04-06"
+      },
+      "end": {
+        "date": "2026-04-09"
+      },
+      "description": "Out of Office"
+    },
+    "evt-4": {
+      "id": "evt-4",
+      "summary": "D15 to TFL (BGI-31199221)",
+      "start": {
+        "date": "2026-04-15"
+      },
+      "end": {
+        "date": "2026-04-16"
+      }
+    },
+    "evt-5": {
+      "id": "evt-5",
+      "summary": "D15 to TFL (BGI-33991911)",
+      "start": {
+        "date": "2026-04-17"
+      },
+      "end": {
+        "date": "2026-04-18"
+      }
+    },
+    "evt-6": {
+      "id": "evt-6",
+      "summary": "D15 to TFL (BGI-36110292)",
+      "start": {
+        "date": "2026-05-02"
+      },
+      "end": {
+        "date": "2026-05-03"
+      }
+    },
+    "evt-7": {
+      "id": "evt-7",
+      "summary": "D15 to TFL (BGI-37918822, BGI-39882091, BGI-39667288)",
+      "start": {
+        "date": "2026-05-14"
+      },
+      "end": {
+        "date": "2026-05-15"
+      }
+    }
+  }
+}

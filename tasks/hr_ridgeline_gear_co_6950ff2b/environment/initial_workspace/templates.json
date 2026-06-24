@@ -1,0 +1,191 @@
+{
+  "_description": "Ridgeline Gear Co. \u2014 Leave Coordinator email templates. This file is the authoritative source for all LC communications. See SOP Section 26 for usage rules. All [bracketed] tokens must be replaced before sending. The standard signature block (Best regards / Ridgeline Gear Co. \u2014 Leave Coordinator / leaves@ridgelinegear.com) is included in each template body.",
+  "templates": [
+    {
+      "id": 1,
+      "name": "Intake Information Request",
+      "subject": null,
+      "body": "Hi [First Name],\n\nThanks for reaching out about your leave. To open your case, I need a few additional details. Please reply with the following:\n\n[List each missing field specifically, e.g., \"Requested leave start date,\" \"Continuous or intermittent,\" \"Manager's name\"]\n\nOnce I have this information, I will open your case and confirm next steps. If your situation is urgent, please let me know in your reply.\n\nBest regards,\n\nRidgeline Gear Co. \u2014 Leave Coordinator\n\nleaves@ridgelinegear.com"
+    },
+    {
+      "id": 2,
+      "name": "FMLA Eligibility Notice (Eligible)",
+      "subject": null,
+      "body": "Hi [First Name],\n\nThank you for submitting your FMLA leave request. I have reviewed your eligibility and confirmed that you ARE eligible for FMLA leave under all three federal eligibility criteria as of your requested leave start date of [Start Date].\n\nAttached is your official Notice of Eligibility and Rights & Responsibilities (DOL Form WH-381), which explains your rights and obligations under FMLA. Please read it carefully.\n\nTo complete your FMLA designation, I also need a medical certification from your healthcare provider. Please find attached the appropriate certification form ([WH-380-E for your own condition / WH-380-F for a family member's condition]). The completed certification is due by [Cert Due Date \u2014 15 calendar days from today].\n\nIf the certification is not returned by the due date, your leave may be denied. If you anticipate any difficulty obtaining the certification by the deadline, please reply to this email so we can discuss.\n\nCase ID: [Case ID]\n\nBest regards,\n\nRidgeline Gear Co. \u2014 Leave Coordinator\n\nleaves@ridgelinegear.com"
+    },
+    {
+      "id": 3,
+      "name": "FMLA Ineligibility Notice",
+      "subject": null,
+      "body": "Hi [First Name],\n\nThank you for submitting your FMLA leave request. I have reviewed your eligibility against the federal FMLA criteria and unfortunately must inform you that you are NOT currently eligible for FMLA leave for the following reason:\n\n[Specific failed criterion. Examples: \"Tenure: FMLA requires at least 12 months of employment with Ridgeline. Your current tenure as of [requested start date] is [X months, Y days].\" OR \"Hours: FMLA requires at least 1,250 hours worked in the 12 months immediately preceding the leave start date. Your hours worked in that period are [X], which is below the threshold.\"]\n\nAttached is the official Notice of Eligibility (DOL Form WH-381) reflecting this determination.\n\nEven though you are not eligible for FMLA, you may still be eligible for leave under Colorado FAMLI, which has different eligibility criteria (no tenure requirement, no minimum hours requirement). I will also be reviewing your eligibility under Colorado FAMLI, which has different eligibility criteria. I will follow up separately with any updates regarding your FAMLI case.\n\nIf you believe this FMLA determination is in error, please reply to this email and I will review.\n\nCase ID: [Case ID]\n\nBest regards,\n\nRidgeline Gear Co. \u2014 Leave Coordinator\n\nleaves@ridgelinegear.com"
+    },
+    {
+      "id": 4,
+      "name": "FMLA Designation Notice",
+      "subject": null,
+      "body": "Hi [First Name],\n\nI have reviewed the medical certification you provided for your FMLA leave request. I am writing to confirm that your leave has been DESIGNATED as FMLA-qualifying.\n\nCase ID: [Case ID]\n\nLeave start date: [Start Date]\n\nExpected end date: [Expected End Date]\n\nTotal FMLA time designated: [Hours / Weeks]\n\nLeave format: [Continuous / Intermittent / Reduced Schedule]\n\n[For intermittent only: Certified frequency: as documented on the medical certification]\n\n[If fitness-for-duty required: A fitness-for-duty certification will be required from your healthcare provider before you may return to work. I will send a reminder before your scheduled return date.]\n\nAttached is your official Designation Notice (DOL Form WH-382).\n\nYour remaining FMLA entitlement after this leave will be [Remaining Hours] in your rolling 12-month period, calculated as of [Calculation Date]. This balance is recalculated at each new use.\n\nIf your leave also qualifies under Colorado FAMLI, both programs run concurrently. You will receive a separate confirmation about FAMLI coordination if applicable.\n\nBest regards,\n\nRidgeline Gear Co. \u2014 Leave Coordinator\n\nleaves@ridgelinegear.com"
+    },
+    {
+      "id": 5,
+      "name": "Medical Certification Incomplete",
+      "subject": null,
+      "body": "Hi [First Name],\n\nThank you for submitting your medical certification for case [Case ID]. The certification I received is INCOMPLETE. The following fields must be filled in by your healthcare provider before I can process your leave designation:\n\n[List each specific missing or unsigned field, e.g., \"Section 4: probable duration of the condition\" / \"Provider signature on page 4\"]\n\nPer FMLA regulations, you have 7 calendar days from receipt of this email to provide the completed certification. The new due date is [Cure Due Date].\n\nIf you need assistance contacting your provider or have questions about the missing information, please reply to this email.\n\nI cannot complete the FMLA designation of your leave until the complete certification is received.\n\nBest regards,\n\nRidgeline Gear Co. \u2014 Leave Coordinator\n\nleaves@ridgelinegear.com"
+    },
+    {
+      "id": 6,
+      "name": "Medical Certification Reminder",
+      "subject": null,
+      "body": "Hi [First Name],\n\nThis is a friendly reminder that the medical certification for your FMLA case [Case ID] is due by [Due Date], which is [X] calendar days from today.\n\nIf you have not yet contacted your healthcare provider, please do so as soon as possible. The certification form ([WH-380-E or WH-380-F]) was sent to you on [Original Send Date].\n\nIf you anticipate any delay in obtaining the certification, please reply to this email so we can discuss options. Note that if the certification is not received by the due date, your FMLA leave request may be denied.\n\nBest regards,\n\nRidgeline Gear Co. \u2014 Leave Coordinator\n\nleaves@ridgelinegear.com"
+    },
+    {
+      "id": 7,
+      "name": "Medical Certification Renewal/Extension Request",
+      "subject": null,
+      "body": "Hi [First Name],\n\nYour FMLA case [Case ID] requires updated medical certification at this time.\n\n[For renewal: Per Ridgeline policy, FMLA cases that have been open for more than 6 months require updated certification to confirm the ongoing need for leave.]\n\n[For extension: You have requested an extension of your current FMLA leave, and updated certification is required to support the extension.]\n\nPlease find attached a blank certification form ([WH-380-E or WH-380-F]). The completed certification is due by [Due Date \u2014 15 calendar days from today].\n\nOnce received, I will update your case file and confirm next steps. If you have questions about completing the certification, please reply to this email.\n\nBest regards,\n\nRidgeline Gear Co. \u2014 Leave Coordinator\n\nleaves@ridgelinegear.com"
+    },
+    {
+      "id": 8,
+      "name": "Fitness-for-Duty Reminder",
+      "subject": null,
+      "body": "Hi [First Name],\n\nThis is a reminder that a fitness-for-duty certification is required before your return to work from FMLA case [Case ID], which is currently scheduled for [Return Date].\n\nPlease obtain a fitness-for-duty certification from your healthcare provider confirming that you are able to return to work. The certification need only address whether you can perform the essential functions of your job, with or without restrictions.\n\nPlease provide the certification by reply to this email no later than [Return Date minus 1 business day]. Without it, you may not be able to return to work as scheduled.\n\nIf your provider needs more information about your job's essential functions, please reply to this email and I will arrange for that information to be provided.\n\nBest regards,\n\nRidgeline Gear Co. \u2014 Leave Coordinator\n\nleaves@ridgelinegear.com"
+    },
+    {
+      "id": 9,
+      "name": "Return Confirmation",
+      "subject": null,
+      "body": "Hi [First Name],\n\nI am writing to confirm your scheduled return to work from leave case [Case ID]:\n\nReturn date: [Return Date]\n\n[If FFD required: Please note that a fitness-for-duty certification is required before your return. If you have not yet provided this, please reply to this email as soon as possible.]\n\n[If work restrictions exist: Your fitness-for-duty certification includes the following restrictions: [Restrictions]. I have notified your manager.]\n\nPlease reply to confirm that the return date works for you, or to let me know if anything has changed.\n\nBest regards,\n\nRidgeline Gear Co. \u2014 Leave Coordinator\n\nleaves@ridgelinegear.com"
+    },
+    {
+      "id": 10,
+      "name": "Return Follow-Up (No-Show)",
+      "subject": null,
+      "body": "Hi [First Name],\n\nI am writing because we expected your return to work from leave case [Case ID] today, [Date], and have not yet received notification of your arrival.\n\nI want to make sure you are okay. Please reply to this email or contact your manager as soon as possible to let us know your status. If you need additional time, we may be able to discuss options depending on your circumstances.\n\nIf we do not hear from you by [2 business days from this email date], we will need to escalate your case for further review.\n\nBest regards,\n\nRidgeline Gear Co. \u2014 Leave Coordinator\n\nleaves@ridgelinegear.com"
+    },
+    {
+      "id": 11,
+      "name": "Manager Leave Notification",
+      "subject": null,
+      "body": "Hi [Manager Name],\n\nI am writing to notify you that one of your team members will be on approved leave. Please use this notification to plan workload coverage.\n\nEmployee: [Employee Name]\n\nLeave type (general category only): [\"approved leave\" / \"FMLA leave\" / \"FAMLI leave\" / \"bereavement leave\" / \"jury duty\" / etc. NEVER include the medical reason.]\n\nStart date: [Start Date]\n\nExpected end date: [End Date or \"to be confirmed\"]\n\nLeave format: [Continuous / Intermittent / Reduced Schedule]\n\n[For intermittent only: General frequency range, e.g., \"approximately 2-3 days per month\" \u2014 NEVER the verbatim certified frequency.]\n\n[If known and applicable: Work restrictions upon return: [General description].]\n\nFor all questions about this leave, please contact me directly at leaves@ridgelinegear.com. Please do NOT contact the employee about work matters during their leave except in genuine operational emergency.\n\n[For intermittent: Please log each intermittent absence in the attendance system and notify me at #leave-intake.]\n\n[For continuous: I will be in touch closer to the return date to coordinate.]\n\nCONFIDENTIALITY REMINDER: medical information about your team members is confidential under federal and Colorado law. Please do not share this notification with other team members or discuss the reason for the leave with anyone.\n\nBest regards,\n\nRidgeline Gear Co. \u2014 Leave Coordinator\n\nleaves@ridgelinegear.com"
+    },
+    {
+      "id": 12,
+      "name": "Return-to-Work Manager Notification",
+      "subject": null,
+      "body": "Hi [Manager Name],\n\nI am writing to notify you of an upcoming return from leave for one of your team members:\n\nEmployee: [Employee Name]\n\nCase ID: [Case ID]\n\nReturn date: [Return Date]\n\n[If applicable: Work restrictions: [List restrictions, e.g., \"no lifting over 15 pounds for 4 weeks\"]]\n\n[If FFD with restrictions: Please confirm by reply that the listed restrictions can be accommodated in the employee's role. If they cannot be accommodated, contact me immediately and I will route to the HR Director.]\n\n[If no restrictions: No work restrictions apply.]\n\nThe employee will return to their regular role and duties unless we have discussed otherwise. Please confirm in #leave-intake on the day of return that the employee has reported as scheduled.\n\nCONFIDENTIALITY REMINDER: do not share medical information about the leave with the employee's coworkers or discuss the reason for the leave with anyone.\n\nBest regards,\n\nRidgeline Gear Co. \u2014 Leave Coordinator\n\nleaves@ridgelinegear.com"
+    },
+    {
+      "id": 13,
+      "name": "Manager Information Response",
+      "subject": null,
+      "body": "Hi [Manager Name],\n\nThank you for your question about [Employee Name]'s leave. I can confirm the following:\n\n[Provide ONLY the information the manager is entitled to per Section 10: dates, leave format (continuous/intermittent), general frequency range for intermittent, work restrictions if applicable. NEVER include medical details, diagnosis, treatment, or family member identity.]\n\nIf you have additional questions about scheduling or work coverage, please let me know and I will help. For confidentiality reasons, I am not able to share medical details about the leave or the underlying reason.\n\nBest regards,\n\nRidgeline Gear Co. \u2014 Leave Coordinator\n\nleaves@ridgelinegear.com"
+    },
+    {
+      "id": 14,
+      "name": "Manager Medical-Information Decline",
+      "subject": null,
+      "body": "Hi [Manager Name],\n\nThank you for reaching out about [Employee Name]. Unfortunately, I am not able to share the specific information you requested. Medical details and the underlying reason for an employee's leave are confidential under federal FMLA, the ADA, GINA, and Colorado law. I am not permitted to disclose them to anyone outside the HR team, including the employee's direct manager.\n\nWhat I CAN share with you is the following: [Provide only what the manager is entitled to per Section 10: dates, leave format, work restrictions if applicable.]\n\nIf you have an operational question about scheduling, work coverage, or returning the employee to duty, I am happy to help. Please contact me at leaves@ridgelinegear.com.\n\nI appreciate your understanding. The confidentiality protections exist to protect every employee, and they apply equally regardless of role or relationship.\n\nBest regards,\n\nRidgeline Gear Co. \u2014 Leave Coordinator\n\nleaves@ridgelinegear.com"
+    },
+    {
+      "id": 15,
+      "name": "Manager Pattern Response",
+      "subject": null,
+      "body": "Hi [Manager Name],\n\nThank you for letting me know about your observations regarding [Employee Name]'s recent absences. I have reviewed the case and can confirm that the absences you described are within the approved limits of the employee's certified leave.\n\nI am not able to share the specific certified frequency or the medical reason for the leave \u2014 these are confidential. If you have specific operational concerns about scheduling or work coverage, please let me know and I will work with you on a path forward.\n\nPlease do NOT discipline, counsel, or formally document the employee for absences that are part of their approved protected leave. Doing so could constitute interference under the FMLA or FAMLI and create significant legal exposure for Ridgeline. If you have concerns about the employee's work performance unrelated to the protected absences, please document those separately and contact the HR Director directly.\n\nIf you would like to discuss this further, please reply to this email or reach out to the HR Director.\n\nBest regards,\n\nRidgeline Gear Co. \u2014 Leave Coordinator\n\nleaves@ridgelinegear.com"
+    },
+    {
+      "id": 16,
+      "name": "Payroll Handoff (Employee)",
+      "subject": null,
+      "body": "Hi [First Name],\n\nThank you for your question about [topic \u2014 e.g., \"pay during your leave\" / \"PTO substitution\" / \"health insurance premiums\" / \"FAMLI wage replacement amount\"]. Questions about pay, benefits, deductions, premium billing, and tax matters during leave are handled by our Payroll Lead, Teresa Vang.\n\nI have forwarded your question to Teresa, and she will respond to you directly within [1\u20132 business days]. You can also reach her at teresa.vang@ridgelinegear.com.\n\nIn the meantime, your leave case is moving forward as planned. Please let me know if you have any questions about the leave process itself, as opposed to pay or benefits.\n\nBest regards,\n\nRidgeline Gear Co. \u2014 Leave Coordinator\n\nleaves@ridgelinegear.com"
+    },
+    {
+      "id": 17,
+      "name": "Manager Payroll Handoff",
+      "subject": null,
+      "body": "Hi [Manager Name],\n\nThank you for your question about how [Employee Name]'s leave affects payroll. Payroll coding, paycheck impacts, PTO accrual during leave, premium billing, and similar questions are handled by our Payroll Lead, Teresa Vang, rather than by my role.\n\nI have forwarded your question to Teresa, and she will respond to you directly. You can also reach her at teresa.vang@ridgelinegear.com.\n\nIf you have other questions about scheduling, return-to-work coordination, or work coverage during the leave, please contact me directly.\n\nBest regards,\n\nRidgeline Gear Co. \u2014 Leave Coordinator\n\nleaves@ridgelinegear.com"
+    },
+    {
+      "id": 18,
+      "name": "FAMLI Concurrent Designation",
+      "subject": null,
+      "body": "Hi [First Name],\n\nI am writing to confirm that I have received the notice from CDLE about your Colorado FAMLI claim. I have submitted Ridgeline's Employer Response and confirmed the following:\n\nFAMLI Claim ID: [Claim ID]\n\nCase ID at Ridgeline: [Case ID]\n\nConcurrent FMLA designation: [Yes / No]\n\n[If Yes: Because your leave qualifies under both FMLA and FAMLI, both programs will run concurrently. ]\n\n[If No, FAMLI only: Your leave is being administered under Colorado FAMLI. You do not currently have a concurrent FMLA case open.]\n\nWage replacement under FAMLI is paid by the State of Colorado, NOT by Ridgeline. All questions about your FAMLI wage replacement amount, payment timing, and tax treatment should be directed to CDLE directly at claims@famli.colorado.gov. I cannot answer those questions.\n\nIf you have questions about Ridgeline's role in coordinating your leave, please contact me directly. If you have questions about pay or benefits, please contact our Payroll Lead, Teresa Vang, at teresa.vang@ridgelinegear.com.\n\nBest regards,\n\nRidgeline Gear Co. \u2014 Leave Coordinator\n\nleaves@ridgelinegear.com"
+    },
+    {
+      "id": 19,
+      "name": "ADA Acknowledgment",
+      "subject": null,
+      "body": "Hi [First Name],\n\nThank you for reaching out about a workplace accommodation. I have received your request and have routed it to our HR Director, Daniel Whitfield, who handles all accommodation requests at Ridgeline.\n\nDaniel will be in contact with you to begin a discussion about your needs. This conversation is called the \"interactive process,\" and it is a collaborative discussion between you and the HR Director to identify potential accommodations that may help you perform the essential functions of your job.\n\nIn the meantime, please feel free to reply to this email with any additional information you would like to provide. You do NOT need to share any specific medical details with me \u2014 those will be discussed directly with Daniel as part of the interactive process, and only to the extent necessary to evaluate your request.\n\nDaniel will contact you to schedule the interactive process discussion. If you have not heard from him within 3 business days, please reply to this email and I will follow up on your behalf.\n\nBest regards,\n\nRidgeline Gear Co. \u2014 Leave Coordinator\n\nleaves@ridgelinegear.com"
+    },
+    {
+      "id": 20,
+      "name": "HFWA Balance Response",
+      "subject": null,
+      "body": "Hi [First Name],\n\nThank you for your question about your HFWA sick leave balance. As of today, [Date], your balance is:\n\nYTD Accrued: [Hours]\n\nYTD Used: [Hours]\n\nCurrent Available Balance: [Hours]\n\nYou accrue 1 hour of HFWA sick leave for every 30 hours you work, up to a maximum of 48 hours per calendar year. Your balance carries over to the next year, also capped at 48 hours.\n\nIf you would like to use HFWA sick leave for an absence, no advance notice is required for an unforeseeable need (such as illness). For foreseeable needs (such as a scheduled medical appointment), please give your manager and me as much notice as you reasonably can.\n\nBest regards,\n\nRidgeline Gear Co. \u2014 Leave Coordinator\n\nleaves@ridgelinegear.com"
+    },
+    {
+      "id": 21,
+      "name": "HFWA Documentation Request",
+      "subject": null,
+      "body": "Hi [First Name],\n\nThank you for letting me know about your absence covered by HFWA sick leave. Because the absence has lasted [X] consecutive workdays, Colorado HFWA permits Ridgeline to request documentation of the qualifying reason.\n\nPlease provide one of the following at your earliest convenience:\n\n\u2022 A note from a healthcare provider confirming you (or your family member) sought care during the absence\n\n\u2022 A general statement that the absence was for one of the qualifying HFWA reasons (your or a family member's illness, injury, preventive care, public health emergency, or safe leave)\n\nYou do NOT need to disclose the specific medical condition or diagnosis. A general statement that the absence was for a qualifying reason is sufficient under Colorado law.\n\nPlease reply to this email with the documentation when you have it.\n\nBest regards,\n\nRidgeline Gear Co. \u2014 Leave Coordinator\n\nleaves@ridgelinegear.com"
+    },
+    {
+      "id": 22,
+      "name": "PTO Substitution Acknowledgment",
+      "subject": null,
+      "body": "Hi [First Name],\n\nThank you for letting me know that you would like to substitute your accrued PTO during the unpaid portion of your leave (case [Case ID]).\n\nI have notified our Payroll Lead, Teresa Vang, of your request. Teresa will handle the actual application of PTO to your leave period and will contact you directly with any questions about your PTO balance, the duration of substitution, or how PTO interacts with FAMLI wage replacement (if FAMLI applies to your case).\n\nIf you have specific questions about how the PTO substitution works in your situation, or about the dollar amount of your paychecks during this time, please reach out to Teresa at teresa.vang@ridgelinegear.com.\n\nYour leave case continues as planned.\n\nBest regards,\n\nRidgeline Gear Co. \u2014 Leave Coordinator\n\nleaves@ridgelinegear.com"
+    },
+    {
+      "id": 23,
+      "name": "Bereavement Acknowledgment",
+      "subject": null,
+      "body": "Hi [First Name],\n\nI am very sorry for your loss. I want to confirm that I have received your bereavement leave request and have logged the following:\n\nCase ID: [Case ID]\n\nLeave start date: [Start Date]\n\nLeave end date: [End Date]\n\nTotal bereavement leave: [3 days for immediate family / 1 day for extended family]\n\nYour manager has been notified that you will be out, with no medical or personal details disclosed.\n\nPer Ridgeline policy, please provide documentation (an obituary, death certificate, or funeral program) within 30 calendar days. I have set a reminder for [Date 30 days from loss].\n\nIf you need additional time beyond your bereavement allowance, please let me know and we can discuss options including PTO supplementation or unpaid leave.\n\nPlease take care of yourself during this difficult time.\n\nBest regards,\n\nRidgeline Gear Co. \u2014 Leave Coordinator\n\nleaves@ridgelinegear.com"
+    },
+    {
+      "id": 24,
+      "name": "Bereavement Reclassification",
+      "subject": null,
+      "body": "Hi [First Name],\n\nI am writing about your bereavement leave case [Case ID], which began on [Start Date]. Per Ridgeline policy, bereavement leave requires documentation (an obituary, death certificate, or funeral program) within 30 calendar days of the loss. The 30-day window has now passed and I have not received documentation.\n\nPer policy, I am reclassifying the leave as PTO. \n\nIf you are still able to provide documentation, please reply to this email and I will reach back out to discuss whether the reclassification can be reversed.\n\nBest regards,\n\nRidgeline Gear Co. \u2014 Leave Coordinator\n\nleaves@ridgelinegear.com"
+    },
+    {
+      "id": 25,
+      "name": "Military Leave Acknowledgment",
+      "subject": null,
+      "body": "Hi [First Name],\n\nThank you for letting me know about your upcoming military service. I have received your request and have logged the case in our system.\n\nMilitary leave under USERRA involves specific rights and processes \u2014 including pay continuation considerations, benefits continuation, and reemployment rights upon return \u2014 that are handled by our Benefits Manager, Renata Okafor, rather than by my role. I have routed your request to Renata, and she will be in contact with you directly to discuss next steps.\n\nIf you have orders or other documentation related to your service that you can share now, please reply to this email so I can include them in the case file.\n\nThank you for your service.\n\nBest regards,\n\nRidgeline Gear Co. \u2014 Leave Coordinator\n\nleaves@ridgelinegear.com"
+    },
+    {
+      "id": 26,
+      "name": "Personal Leave Acknowledgment",
+      "subject": null,
+      "body": "Hi [First Name],\n\nThank you for your personal unpaid leave request. I want to be transparent with you about how this process works.\n\nPersonal unpaid leave under Ridgeline policy (Handbook \u00a74.8) is discretionary and is not guaranteed. It requires approval from BOTH your direct manager AND our HR Director. I have forwarded your request to both for review.\n\nWhile you wait for a decision, please note:\n\n\u2022 Personal leave is unpaid.\n\n\u2022 If approved, your health benefits will continue only if you pay the full premium during the leave (including the portion normally paid by Ridgeline). Our Payroll Lead can provide details if your leave is approved.\n\n\u2022 The maximum personal leave duration under our policy is 30 calendar days.\n\nI will contact you as soon as I have a decision from both approvers \u2014 typically within [3\u20135 business days]. In the meantime, if your situation involves a medical reason for you or a family member, military service, or another protected leave reason, please let me know. You may be eligible for FMLA, FAMLI, or another protected leave that I have not yet evaluated for your case.\n\nCase ID: [Case ID]\n\nBest regards,\n\nRidgeline Gear Co. \u2014 Leave Coordinator\n\nleaves@ridgelinegear.com"
+    },
+    {
+      "id": 27,
+      "name": "Personal Leave Routing (to Manager and HR Director)",
+      "subject": null,
+      "body": "Hi [Manager Name] and Daniel,\n\nI am routing a personal unpaid leave request for your review and decision. Both your approvals are required per Section 18 of the Leave Coordinator SOP.\n\nEmployee: [Employee Name]\n\nCase ID: [Case ID]\n\nRequested dates: [Start Date] through [End Date]\n\nTotal: [X] calendar days\n\nStated reason category: [General reason category only \u2014 NOT medical detail]\n\nPlease reply to this email with your decision (approve / deny) at your earliest convenience. I have informed the employee that approval is not guaranteed and that they should expect a response within [3\u20135 business days].\n\nIf you need additional information to make your decision, please let me know and I will request it from the employee.\n\nBest regards,\n\nRidgeline Gear Co. \u2014 Leave Coordinator\n\nleaves@ridgelinegear.com"
+    },
+    {
+      "id": 28,
+      "name": "Personal Leave Approved",
+      "subject": null,
+      "body": "Hi [First Name],\n\nI am writing to confirm that your personal unpaid leave request has been approved by both your manager and the HR Director.\n\nCase ID: [Case ID]\n\nApproved leave start date: [Start Date]\n\nApproved leave end date: [End Date]\n\nTotal: [X] calendar days\n\nA few important reminders:\n\n\u2022 Your leave is unpaid for the full duration.\n\n\u2022 Your health benefits will continue during the leave only if you pay the full premium each month, including the portion normally paid by Ridgeline. Our Payroll Lead, Teresa Vang, will contact you separately about premium payment arrangements.\n\n\u2022 If your situation changes and you cannot return on the scheduled date, please contact me as soon as possible. Extensions beyond the approved end date are not guaranteed and require renewed approval from your manager and the HR Director.\n\n\u2022 Your scheduled return date is [Return Date].\n\nPlease reply to confirm receipt and acknowledge the unpaid status and premium payment requirement.\n\nBest regards,\n\nRidgeline Gear Co. \u2014 Leave Coordinator\n\nleaves@ridgelinegear.com"
+    },
+    {
+      "id": 29,
+      "name": "Personal Leave Denied",
+      "subject": null,
+      "body": "Hi [First Name],\n\nI am writing to let you know that your personal unpaid leave request has not been approved at this time.\n\nPersonal leave under Ridgeline policy is discretionary and requires approval from both your manager and the HR Director. I am not able to share the specific reasons for the decision.\n\nIf your underlying need involves a medical reason (your own or a family member's), military service, jury duty, bereavement, or another reason that may be covered by federal or Colorado leave law, please let me know. You may be eligible for protected leave under FMLA, FAMLI, USERRA, HFWA, or another statute that I have not yet evaluated for your case. Many leave situations qualify for protected leave even when personal leave is not approved.\n\nIf you have questions about the personal leave decision specifically, you may contact your manager or the HR Director directly.\n\nCase ID: [Case ID]\n\nBest regards,\n\nRidgeline Gear Co. \u2014 Leave Coordinator\n\nleaves@ridgelinegear.com"
+    },
+    {
+      "id": 30,
+      "name": "Bereavement Not Covered (Non-Qualifying Relationship)",
+      "subject": null,
+      "body": "Hi [First Name],\n\nThank you for letting me know about your loss, and please accept my sincere condolences.\n\nI want to be transparent with you: Ridgeline's bereavement leave policy (Handbook \u00a74.5) covers only specific family relationships, and based on the relationship you described, this loss falls outside the policy's coverage. The covered relationships are:\n\n\u2022 Immediate family (3 days): spouse, domestic partner, parent, child, sibling\n\n\u2022 Extended family (1 day): grandparent, grandchild, in-laws (parent, child, or sibling of spouse), aunt, uncle, niece, nephew\n\nI am not able to approve bereavement leave for this case. However, I want to help you take the time you need. You may be able to use one of the following alternatives:\n\n\u2022 Accrued PTO: please contact your manager for approval and Payroll Lead Teresa Vang (teresa.vang@ridgelinegear.com) for your current balance.\n\n\u2022 Personal unpaid leave: please reply to this email if you would like to request this. Personal leave is unpaid and discretionary, requiring manager and HR Director approval, but is often granted for circumstances like this.\n\nI am sorry I cannot offer bereavement leave specifically, and I am sorry for your loss. Please reply if you would like to pursue one of the alternatives, and I will help you start that process.\n\nBest regards,\n\nRidgeline Gear Co. \u2014 Leave Coordinator\n\nleaves@ridgelinegear.com"
+    },
+    {
+      "id": 31,
+      "name": "FAMLI-Only Intake Acknowledgment",
+      "subject": "Leave Request Received \u2013 [Case ID]",
+      "body": "Hi [First Name],\n\nThank you for reaching out. I have received your leave request and opened a case at Ridgeline (Case ID: [Case ID]).\n\nBased on your current eligibility, your leave will be administered under Colorado FAMLI. FAMLI claims are filed directly by you with the Colorado Department of Labor and Employment (CDLE) \u2014 Ridgeline does not file on your behalf.\n\nTo file your FAMLI claim, please contact CDLE directly:\n\n    claims@famli.colorado.gov\n\nOnce CDLE processes your claim, I will follow up to confirm your leave dates and any next steps on Ridgeline\u2019s side.\n\nPlease note that wage replacement under FAMLI is paid by the State of Colorado, not by Ridgeline. All questions about your benefit amount, payment timing, and tax treatment should go directly to CDLE. I cannot assist with those questions.\n\nIf you have questions about Ridgeline\u2019s coordination of your leave, please contact me directly. If you have questions about your pay or benefits, please contact our Payroll Lead, Teresa Vang, at t.vang@ridgelinegear.com.\n\nBest regards,\n\nRidgeline Gear Co. \u2013 Leave Coordinator\n\nleaves@ridgelinegear.com"
+    }
+  ]
+}

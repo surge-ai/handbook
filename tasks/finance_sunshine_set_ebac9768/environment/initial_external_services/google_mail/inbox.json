@@ -1,0 +1,165 @@
+{
+  "mailbox": {
+    "email": "acct.clerk@sunshineauto.com",
+    "name": "Accounting Clerk"
+  },
+  "contacts": [
+    {
+      "email": "marcus.hale@sunshineauto.com",
+      "name": "Marcus Hale"
+    },
+    {
+      "email": "elena.brooks@sunshineauto.com",
+      "name": "Elena Brooks"
+    },
+    {
+      "email": "priya.bennett@sunshineauto.com",
+      "name": "Priya Bennett"
+    },
+    {
+      "email": "renee.lawson@sunshineauto.com",
+      "name": "Renee Lawson"
+    },
+    {
+      "email": "darius.kim@sunshineauto.com",
+      "name": "Darius Kim"
+    },
+    {
+      "email": "noah.alvarez@sunshineauto.com",
+      "name": "Noah Alvarez"
+    },
+    {
+      "email": "jasmine.patel@sunshineauto.com",
+      "name": "Jasmine Patel"
+    },
+    {
+      "email": "funding@wellsfargo.com",
+      "name": "Wells Fargo Funding"
+    },
+    {
+      "email": "chargebacks@safeguardwarranty.com",
+      "name": "SafeGuard Warranty Chargebacks"
+    },
+    {
+      "email": "rodolfo.santos@sunshineauto.com",
+      "name": "Rodolfo Santos"
+    },
+    {
+      "email": "payoffs@chase.com",
+      "name": "Chase Auto Finance"
+    },
+    {
+      "email": "accounting@sunshineauto.com",
+      "name": "Accounting Department"
+    },
+    {
+      "email": "f&i@sunshineauto.com",
+      "name": "F&I Department"
+    }
+  ],
+  "folders": [
+    {
+      "name": "Archive"
+    }
+  ],
+  "emails": [
+    {
+      "email_id": "1",
+      "folder": "INBOX",
+      "subject": "URGENT: Chargeback Notice - Johnson Deal",
+      "from_addr": "chargebacks@safeguardwarranty.com",
+      "to_addr": "acct.clerk@sunshineauto.com",
+      "cc_addr": "f&i@sunshineauto.com",
+      "bcc_addr": null,
+      "date": "2026-04-14T08:30:00-04:00",
+      "message_id": "<cb0089@safeguardwarranty.com>",
+      "in_reply_to": null,
+      "body_text": "CHARGEBACK NOTICE\n\nChargeback ID: CB-2026-0089\nDealer: Sunshine & Set Automotive\nDeal Reference: SL-2026-0412\nCustomer: Michael Johnson\n\nProduct: Vehicle Service Contract\nChargeback Amount: $2,800.00\nEffective Date: April 14, 2026\n\nReason: Customer requested cancellation outside the 60-day free-look period. The chargeback amount reflects the prorated refund calculation plus administrative processing fees per your dealer agreement.\n\nThis chargeback exceeds $2,500 and requires immediate escalation per your dealer agreement. Please process within 24 hours.\n\nSafeGuard Warranty — Dealer Chargeback Services",
+      "body_html": null,
+      "is_read": false,
+      "is_important": true,
+      "attachments": [
+        {
+          "filename": "chargeback_CB-2026-0089.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjQKJeLjz9MKMyAwIG9iago8PC9UeXBlL1BhZ2UvUGFyZW50IDIgMCBSL01lZGlhQm94WzAgMCA2MTIgNzkyXS9Db250ZW50cyA0IDAgUj4+CmVuZG9iago0IDAgb2JqCjw8L0xlbmd0aCA4OD4+CnN0cmVhbQpCVAovRjEgMTIgVGYKNzIgNzIwIFRkCihDaGFyZ2ViYWNrIE5vdGljZSAtIENCLTIwMjYtMDA4OSkgVGoKMCAtMjAgVGQKKEFtb3VudDogJDIsODAwLjAwKSBUagowIC0yMCBUZAooRGVhbDogU0wtMjAyNi0wNDEyKSBUagpFVAplbmRzdHJlYW0KZW5kb2JqCjIgMCBvYmoKPDwvVHlwZS9QYWdlcy9Db3VudCAxL0tpZHNbMyAwIFJdPj4KZW5kb2JqCjEgMCBvYmoKPDwvVHlwZS9DYXRhbG9nL1BhZ2VzIDIgMCBSPj4KZW5kb2JqCjUgMCBvYmoKPDwvVHlwZS9Gb250L1N1YnR5cGUvVHlwZTEvQmFzZUZvbnQvSGVsdmV0aWNhPj4KZW5kb2JqCnhyZWYKMCA2CjAwMDAwMDAwMDAgNjU1MzUgZiAKMDAwMDAwMDI5NyAwMDAwMCBuIAowMDAwMDAwMjQ2IDAwMDAwIG4gCjAwMDAwMDAwMTUgMDAwMDAgbiAKMDAwMDAwMDEwOCAwMDAwMCBuIAowMDAwMDAwMzQ2IDAwMDAwIG4gCnRyYWlsZXIKPDwvU2l6ZSA2L1Jvb3QgMSAwIFI+PgpzdGFydHhyZWYKNDE0CiUlRU9G"
+        }
+      ]
+    },
+    {
+      "email_id": "2",
+      "folder": "INBOX",
+      "subject": "Funding Status Update - SL-2026-0412",
+      "from_addr": "funding@wellsfargo.com",
+      "to_addr": "acct.clerk@sunshineauto.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-13T16:45:00-04:00",
+      "message_id": "<wf-fund-4412@wellsfargo.com>",
+      "in_reply_to": null,
+      "body_text": "Funding Status Update — Deal SL-2026-0412\n\nContract Amount: $30,500.00\nSubmission Date: April 8, 2026\nStatus: PENDING — Missing Stipulations\n\nRequired Items:\n1. Power of Attorney (original, notarized)\n2. Payoff Letter from previous lienholder (must show account number and good-through date)\n\nPlease provide outstanding documentation by end of business today, April 14, 2026. Contracts exceeding $25,000 are subject to accelerated review timelines per our dealer agreement.\n\nWells Fargo Dealer Services — Funding Department",
+      "body_html": null,
+      "is_read": true,
+      "is_important": true,
+      "attachments": []
+    },
+    {
+      "email_id": "3",
+      "folder": "INBOX",
+      "subject": "Trade Payoff Confirmation - Johnson",
+      "from_addr": "payoffs@chase.com",
+      "to_addr": "acct.clerk@sunshineauto.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-10T14:22:00-04:00",
+      "message_id": "<chase-payoff-9981@chase.com>",
+      "in_reply_to": null,
+      "body_text": "Trade Payoff Confirmation\n\nAccount: 1234567890\nCustomer: Michael Johnson\nVIN: 1HGCM82633A123456\n\nPayoff Amount Applied: $11,540.00\nPayment Received: April 10, 2026\nACH Reference: 20260410-ACH-7752\n\nInterest was computed through the payoff date per the standard per-diem schedule. The lien release will follow within 10 business days of payment application.\n\nPlease see the attached payoff confirmation document for your records.\n\nChase Auto Finance — Dealer Payoff Services",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "payoff_letter_1234567890.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjQKJcOkw7zDtsOfCjIgMCBvYmoKPDwvTGVuZ3RoIDMgMCBSL0ZpbHRlci9GbGF0ZURlY29kZT4+CnN0cmVhbQp4nDWNMQ7CMBBE+5xiFRRAIlEgCiRKI1GkdBQpoKNBcRKLxJb9If4+XrO7M1ozrx1gxMJqfLnUVnXdQBuStYYdVMc5pZQkV5LcSXIjyY0kN5LcSHIjyY0kN5JcSHIhyYUkF5JcSHIhyYUkF5JcSHIhyZkkZ5KcSXImyZkkZ5KcSXImyYkkJ5KcSHIiyYkkJ5KcSHIiyYEkB5IcSHIgyYEkB5IcSHIgyZ4ke5LsSbInyZ4ke5LsSbInyY4kO5LsSLIjyY4kO5LsSLIjyZYkW5JsSbIlyZYkW5JsSbIlyYYkG5JsSLIhyYYkG5JsSLIhyZokP5KsSTIgyQcjy0dJDgplbmRzdHJlYW0KZW5kb2JqCjMgMCBvYmoKMTU4CmVuZG9iagoxIDAgb2JqCjw8L1R5cGUvUGFnZS9QYXJlbnQgNCAwIFIvQ29udGVudHMgMiAwIFI+PgplbmRvYmoKNCAwIG9iago8PC9UeXBlL1BhZ2VzL0NvdW50IDEvS2lkc1sxIDAgUl0+PgplbmRvYmoKNSAwIG9iago8PC9UeXBlL0NhdGFsb2cvUGFnZXMgNCAwIFI+PgplbmRvYmoKeHJlZgowIDYKMDAwMDAwMDAwMCA2NTUzNSBmIAowMDAwMDAwMjY2IDAwMDAwIG4gCjAwMDAwMDAwMTUgMDAwMDAgbiAKMDAwMDAwMDI0NSAwMDAwMCBuIAowMDAwMDAwMzI1IDAwMDAwIG4gCjAwMDAwMDAzODIgMDAwMDAgbiAKdHJhaWxlcgo8PC9TaXplIDYvUm9vdCA1IDAgUj4+CnN0YXJ0eHJlZgo0MzEKJSVFT0Y="
+        }
+      ]
+    },
+    {
+      "email_id": "4",
+      "folder": "INBOX",
+      "subject": "RE: Daily Cash Deposit - April 14",
+      "from_addr": "renee.lawson@sunshineauto.com",
+      "to_addr": "acct.clerk@sunshineauto.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-14T10:15:00-04:00",
+      "message_id": "<rl-001@sunshineauto.com>",
+      "in_reply_to": "<cash-deposit-0414@sunshineauto.com>",
+      "body_text": "I'll be out at lunch from 12-1:30pm. If you find the source of the $180 discrepancy on the Johnson deal, leave the details on my desk. Do NOT close the daily cash report until we resolve this.\n\nRenee",
+      "body_html": null,
+      "is_read": true,
+      "is_important": true,
+      "attachments": []
+    },
+    {
+      "email_id": "5",
+      "folder": "INBOX",
+      "subject": "Month-End Close Calendar - April 2026",
+      "from_addr": "elena.brooks@sunshineauto.com",
+      "to_addr": "acct.clerk@sunshineauto.com",
+      "cc_addr": "accounting@sunshineauto.com",
+      "bcc_addr": null,
+      "date": "2026-04-01T09:00:00-04:00",
+      "message_id": "<eb-close-0426@sunshineauto.com>",
+      "in_reply_to": null,
+      "body_text": "Team,\n\nApril 2026 Close Calendar:\n\nBD 1 (April 12): Final day for deal posting\nBD 2 (April 13): AP check run, vendor 1099 review\nBD 3 (April 14): Bank reconciliation, floorplan reconciliation, contracts in transit review\nBD 4 (April 15): Commission sheets due, preliminary P&L\nBD 5 (April 16): Final adjustments, close binder due\n\nPlease note the adjusted close calendar below. Reminder: all month-end deliverables must be submitted by their assigned deadlines. Reach out if you have questions about any of your assigned items.\n\nElena Brooks\nController",
+      "body_html": null,
+      "is_read": true,
+      "is_important": true,
+      "attachments": []
+    }
+  ],
+  "next_email_id": 6
+}

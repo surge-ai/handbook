@@ -1,0 +1,1657 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Revised SOP</title>
+<style>:root { --fg:#1a1a1a; --muted:#666; --rule:#e2e2e2; --accent:#0b6; }
+* { box-sizing: border-box; }
+body { font: 16px/1.6 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+       color: var(--fg); max-width: 50rem; margin: 2rem auto; padding: 0 1.25rem; }
+h1,h2,h3,h4 { line-height: 1.25; margin: 1.6em 0 .5em; }
+h1 { font-size: 1.9rem; border-bottom: 2px solid var(--rule); padding-bottom: .3em; }
+h2 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: .2em; }
+h3 { font-size: 1.2rem; } h4 { font-size: 1.05rem; color: var(--muted); }
+p { margin: .6em 0; } code { background:#f4f4f4; padding:.1em .35em; border-radius:4px; }
+table { border-collapse: collapse; width: 100%; margin: 1em 0; font-size: .95rem; }
+th,td { border: 1px solid var(--rule); padding: .45em .6em; text-align: left; vertical-align: top; }
+th { background:#f7f7f7; } tr:nth-child(even) td { background:#fafafa; }
+a { color: var(--accent); text-decoration: none; } a:hover { text-decoration: underline; }
+hr { border:0; border-top:1px solid var(--rule); margin: 2em 0; }</style>
+</head>
+<body>
+<h1 id="prairie-star">PRAIRIE STAR</h1>
+<h1 id="creamery">CREAMERY</h1>
+<p><em>All ice cream should be this good</em></p>
+<h2 id="inventory-operations-analyst">Inventory Operations Analyst</h2>
+<p>Standard Operating Procedure</p>
+<p>Houston Distribution Center · Shreveport Distribution Center</p>
+<p><em>Prairie Star Creamery — Inventory Operations Analyst SOP</em></p>
+<h1 id="1-purpose-and-scope">1. Purpose and Scope</h1>
+<h2 id="11-purpose">1.1 Purpose</h2>
+<p>This Standard Operating Procedure (SOP) establishes the complete set of workflows, decision rules, and documentation requirements for the Inventory Operations Analyst role at Prairie Star Creamery's distribution centers. The role is desk-based and focused on processing, analyzing, and documenting the results of physical warehouse operations performed by the on-site Inventory &amp; Receiving Coordinator and Warehouse Associates.</p>
+<p>The Inventory Operations Analyst receives receiving reports, temperature data, physical counts, and damage observations from the dock crew; applies decision thresholds to this data; updates inventory systems; and sends all required notifications and escalations. The physical receiving, temperature measurement, pallet counting, product inspection and put-away execution are performed by on-site warehouse staff and reported to the Analyst for processing.</p>
+<p>This SOP exists to ensure that:</p>
+<ul>
+<li>
+<p>Every inbound shipment of Prairie Star product and outside vendor materials is processed with consistent, repeatable decision logic.</p>
+</li>
+<li>
+<p>The cold chain is maintained and documented from the moment product arrives at the distribution center through storage and staging for outbound delivery.</p>
+</li>
+<li>
+<p>Inventory records are accurate, current, and auditable at all times.</p>
+</li>
+<li>
+<p>Every exception, discrepancy, and incident is documented with the correct level of urgency and routed to the correct person for resolution.</p>
+</li>
+<li>
+<p>Vendor performance is tracked and escalated when quality or reliability issues emerge.</p>
+</li>
+</ul>
+<h2 id="12-tools">1.2 Tools</h2>
+<p>The Analyst performs all work through the following tools and systems:</p>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Email</td>
+<td>Formal notifications, incident reports, credit claims, adjustment approvals, and end-of-shift handoff</td>
+</tr>
+<tr>
+<td>Slack</td>
+<td>Real-time operational alerts, shift updates, and channel-based communication</td>
+</tr>
+<tr>
+<td>Excel: inbound_receiving_log.xlsx</td>
+<td>Master receiving log — one row per inbound shipment</td>
+</tr>
+<tr>
+<td>Excel: inventory_master.xlsx</td>
+<td>System of record for on-hand inventory by SKU, lot, zone</td>
+</tr>
+<tr>
+<td>Excel: temperature_log.xlsx</td>
+<td>Freezer zone and inbound temperature readings</td>
+</tr>
+<tr>
+<td>Excel: vendor_master.xlsx PDF templates</td>
+<td>Outside vendor directory with contacts and known issues (incident_reports_template.pdf), (transfer_manifest_template.pdf)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="13-company-wide-contacts-hq-and-waco">1.3 Company-Wide Contacts (HQ and Waco)</h2>
+<p>These are the people outside your DC that you may need to contact. If your situation does not match any listed circumstance, contact your DC Manager first by sending them a Slack DM that reads "OUT OF SCOPE: [email subject line] -- please advise" and forwarding the email to them.</p>
+<p><strong>Daniel Reyes</strong> — Director of Supply Chain — daniel.reyes@prairiestar.com — Slack: @d.reyes Contact for: P1 and P2 escalations, load rejections, policy exceptions. Always notify your DC Manager simultaneously.</p>
+<p><strong>Emily Carter</strong> — Demand Planning Manager — emily.carter@prairiestar.com — Slack: @e.carter</p>
+<p>Contact for: Inbound short-dated product notifications, and any other situation when directed by Daniel Reyes or your DC Manager.</p>
+<p><strong>Marcus Liu</strong> — Procurement Specialist — marcus.liu@prairiestar.com — Slack: @m.liu</p>
+<p>Contact for: Outside vendor PO discrepancies, vendor performance concerns, credit claim support for vendor shipments, new vendor onboarding questions.</p>
+<p><strong>Hannah Brooks</strong> — Inventory Analyst — hannah.brooks@prairiestar.com — Slack: @h.brooks Contact for: Inventory system discrepancies that cannot be resolved at the DC level, forecast impact questions.</p>
+<p><strong>Jacob Patel</strong> — Production Planner — jacob.patel@prairiestar.com — Slack: @j.patel</p>
+<p>Contact for: Waco transfer discrepancies (variance, temperature, damage), transfer manifest questions, production date questions, transfer schedule changes or delays. Jacob is the primary</p>
+<p>contact for anything related to product coming from Waco.</p>
+<h2 id="14-houston-distribution-center">1.4 Houston Distribution Center</h2>
+<p><strong>Site Location:</strong> 2847 Eastgate Industrial Blvd, Houston, TX 77015</p>
+<p><strong>Main Phone:</strong> (607) 808-9078</p>
+<p><strong>Carlos Mendoza</strong> — DC Manager — carlos.mendoza@prairiestar.com — Slack: @c.mendoza — Shift: 06:00–16:00 CT</p>
+<p>Your direct supervisor. Approves inventory adjustments and P3+ escalations. First contact for any situation not covered by this SOP.</p>
+<p><strong>Alicia Nguyen</strong> — Inventory &amp; Receiving Coordinator — alicia.nguyen@prairiestar.com — Slack: @a.nguyen — Shift: 06:00–15:00 CT</p>
+<p>On-site coordinator who performs physical receiving, temperature checks, and counts. Reports data to the Analyst for processing.</p>
+<p><strong>Sarah Kim</strong> — Warehouse Associate (Senior) — sarah.kim@prairiestar.com — Slack: @s.kim — Shift: 06:00–14:30 CT</p>
+<p>Handles receiving, put-away, and order picking. Also monitors freezer conditions.</p>
+<p><strong>Kevin White</strong> — Warehouse Associate — kevin.white@prairiestar.com — Slack: @k.white — Shift: 06:00–14:30 CT</p>
+<p>Same responsibilities as Sarah Kim. Also assists with truck loading.</p>
+<p><strong>Brandon Keller</strong> — Dispatcher / Route Planner — brandon.keller@prairiestar.com — Slack: @b.keller — Shift: 05:30–14:30 CT</p>
+<p>Coordinate with Brandon on order availability for next-day routes. He needs to know about holds, shortages, and any SKU that may not be available.</p>
+<p><strong>Luis Ramirez</strong> — Lead Driver — luis.ramirez@prairiestar.com — Slack: @l.ramirez — Shift: 06:00–15:00 CT</p>
+<p>Lead driver handling high-volume routes. May interact during loading if there are product questions.</p>
+<p><strong>Receiving Slack Channels:</strong></p>
+<ul>
+<li>
+<p><strong>#receiving-houston</strong> — real-time receiving updates, arrivals, completions, flags</p>
+</li>
+<li>
+<p><strong>#dc-escalations-houston</strong> — P1/P2 events, escalations</p>
+</li>
+</ul>
+<p><strong>Freezer Zones:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Freezer Zones:</th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Zone</td>
+<td>Type</td>
+<td>Temp Target</td>
+<td>Acceptable Range</td>
+<td>Contents</td>
+</tr>
+<tr>
+<td>H-A</td>
+<td>Long-term storage</td>
+<td>-20°F</td>
+<td>-22°F to -18°F</td>
+<td>Core (Signature)</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>line pints</td>
+</tr>
+<tr>
+<td>H-B</td>
+<td>Long-term storage</td>
+<td>-20°F</td>
+<td>-22°F to -18°F</td>
+<td>Specialty line pints</td>
+</tr>
+<tr>
+<td>H-C</td>
+<td>Long-term storage</td>
+<td>-20°F</td>
+<td>-22°F to -18°F</td>
+<td>Seasonal pints, all sandwich products</td>
+</tr>
+<tr>
+<td>H-D</td>
+<td>Staging</td>
+<td>-10°F</td>
+<td>-15°F to -5°F</td>
+<td>Picked orders staged for loading</td>
+</tr>
+<tr>
+<td>H-Q</td>
+<td>Quarantine</td>
+<td>-20°F</td>
+<td>-22°F to -18°F</td>
+<td>Quarantined product only (rear of Zone H-D)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="15-shreveport-distribution-center">1.5 Shreveport Distribution Center</h2>
+<p><strong>Site Location:</strong> 4501 Industrial Park Drive, Shreveport, LA 71115</p>
+<p><strong>Main Phone:</strong> (607) 808-9079</p>
+<p><strong>Renee Dubois</strong> — DC Manager — renee.dubois@prairiestar.com — Slack: @r.dubois — Shift: 06:00–16:00 CT</p>
+<p>Same authority and responsibilities as Carlos Mendoza at Houston.</p>
+<p><strong>Wyatt Green</strong> — Inventory &amp; Receiving Coordinator — wyatt.green@prairiestar.com — Slack: @w.green — Shift: 06:00–15:00 CT</p>
+<p>On-site coordinator. Same role as Alicia Nguyen at Houston.</p>
+<p><strong>Olivia Bennett</strong> — Warehouse Associate (Senior) — olivia.bennett@prairiestar.com — Slack: @o.bennett — Shift: 06:00–14:30 CT</p>
+<p>Only Warehouse Associate at Shreveport. Handles all receiving, put-away, and order picking. Task prioritization is critical since there is no second associate.</p>
+<p><strong>Dylan Harper</strong> — Dispatcher / Route Planner — dylan.harper@prairiestar.com — Slack: @d.harper — Shift: 05:30–14:30 CT</p>
+<p>Same coordination role as Brandon Keller at Houston.</p>
+<p><strong>Receiving Slack Channels:</strong></p>
+<p>● <strong>#receiving-shreveport</strong> — real-time receiving updates, arrivals, completions, flags</p>
+<ul>
+<li><strong>#dc-escalations-shreveport</strong> — P1/P2 events, escalations</li>
+</ul>
+<p><strong>Freezer Zones:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Zone</th>
+<th>Type</th>
+<th>Temp Target</th>
+<th>Acceptable Range</th>
+<th>Contents</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>S-A</td>
+<td>Long-term storage</td>
+<td>-20°F</td>
+<td>-22°F to -18°F</td>
+<td>Core (Signature) line pints</td>
+</tr>
+<tr>
+<td>S-B</td>
+<td>Long-term storage</td>
+<td>-20°F</td>
+<td>-22°F to -18°F</td>
+<td>Specialty, seasonal, sandwich products</td>
+</tr>
+<tr>
+<td>S-C</td>
+<td>Staging</td>
+<td>-10°F</td>
+<td>-15°F to -5°F</td>
+<td>Picked orders staged for loading</td>
+</tr>
+<tr>
+<td>S-Q</td>
+<td>Quarantine</td>
+<td>-20°F</td>
+<td>-22°F to -18°F</td>
+<td>Quarantined product only (adjacent to Zone S-C)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="16-slack-channels-reference">1.6 Slack Channels Reference</h2>
+<table>
+<thead>
+<tr>
+<th>Channel</th>
+<th>Purpose</th>
+<th>Who Monitors</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>#receiving-houston</td>
+<td>Houston inbound receiving: arrivals, counts, temperatures, completions, flags</td>
+<td>Houston Coordinator, DC Manager, Analyst</td>
+</tr>
+<tr>
+<td>#receiving-shreveport</td>
+<td>Shreveport inbound receiving: arrivals, counts, temperatures, completions, flags</td>
+<td>Shreveport Coordinator, DC Manager, Analyst</td>
+</tr>
+<tr>
+<td>#cold-chain-alerts</td>
+<td>Temperature excursions, freezer zone alarms, cold chain breaches at either DC, other incidents impacting cold product</td>
+<td>Analyst, both DC Managers, Jacob Patel</td>
+</tr>
+<tr>
+<td>#waco-production-coord</td>
+<td>Variance issues, manifest questions, communication with Waco production</td>
+<td>Analyst, Jacob Patel, both DC Managers</td>
+</tr>
+<tr>
+<td>#inventory-ops</td>
+<td>Inventory adjustments</td>
+<td>Analyst, both DC Managers, Hannah Brooks</td>
+</tr>
+<tr>
+<td>#dc-escalations-houston</td>
+<td>P1 and P2 priority events and escalations requiring Director attention originating at Houston DC</td>
+<td>Analyst, Houston DC Manager, Daniel Reyes</td>
+</tr>
+<tr>
+<td>#dc-escalations-shreveport</td>
+<td>P1 and P2 priority events and escalations requiring Director attention originating at Shreveport DC</td>
+<td>Analyst, Shreveport DC Manager, Daniel Reyes</td>
+</tr>
+</tbody>
+</table>
+<p>P1 and P2 priority events Analyst, Shreveport DC and escalations requiring Manager, Daniel Reyes Director attention originating at Shreveport DC</p>
+<h2 id="17-communication-rules">1.7 Communication Rules</h2>
+<p>Use <strong>Slack</strong> for real-time alerts, shift updates, quick confirmations, status checks, and channel-based announcements. Use <strong>Email</strong> for formal notifications requiring a record, incident reports, credit claims, adjustment approvals, end-of-shift summary, and responses to external parties.</p>
+<p><strong>Urgent (P1) Events:</strong> Send a Slack direct message with "URGENT:" prefix at the start</p>
+<p><strong>Email Subject Line Format:</strong> [Priority] – [Source] [Reference#] – [Date]. Examples: "P1 – Inbound Waco Manifest 20260415-001 – 2026-04-15" or "P3 – Inbound Waco Manifest 20260415-002 – 2026-04-15."</p>
+<h1 id="2-product-reference">2. Product Reference</h1>
+<h2 id="21-signature-line-core-flavors-pints">2.1 Signature Line (Core Flavors) — Pints</h2>
+<table>
+<thead>
+<tr>
+<th>SC-001</th>
+<th>Sweet Cream Prairie</th>
+<th>8 pt</th>
+<th>12 lbs</th>
+<th>18 months</th>
+<th>H-A</th>
+<th>S-A</th>
+<th>Flagship product. Highest volume.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SC-002</td>
+<td>Vanilla Bean Constell ati on</td>
+<td>8 pt</td>
+<td>12 lbs</td>
+<td>18 months</td>
+<td>H-A</td>
+<td>S-A</td>
+<td></td>
+</tr>
+<tr>
+<td>SC-003</td>
+<td>Midnight Chocol ate Range</td>
+<td>8 pt</td>
+<td>12.5 lbs</td>
+<td>18 months</td>
+<td>H-A</td>
+<td>S-A</td>
+<td>Slightly heavier due to density.</td>
+</tr>
+<tr>
+<td>SC-004</td>
+<td>Strawbe rry Windfall</td>
+<td>8 pt</td>
+<td>12 lbs</td>
+<td>18 months</td>
+<td>H-A</td>
+<td>S-A</td>
+<td>Contains fruit inclusions.</td>
+</tr>
+<tr>
+<td>SC-005</td>
+<td>Roasted Pecan Homestea d</td>
+<td>8 pt</td>
+<td>12.5 lbs</td>
+<td>18 months</td>
+<td>H-A</td>
+<td>S-A</td>
+<td>Contains tree nut allergen.</td>
+</tr>
+<tr>
+<td>SC-006</td>
+<td>Salted Honey Drift</td>
+<td>8 pt</td>
+<td>12 lbs</td>
+<td>18 months</td>
+<td>H-A</td>
+<td>S-A</td>
+<td></td>
+</tr>
+<tr>
+<td>SC-007</td>
+<td>Golden Caramel Prairie Fire</td>
+<td>8 pt</td>
+<td>12 lbs</td>
+<td>18 months</td>
+<td>H-A</td>
+<td>S-A</td>
+<td></td>
+</tr>
+<tr>
+<td>SC-008</td>
+<td>Mint Meadow Cream</td>
+<td>8 pt</td>
+<td>12 lbs</td>
+<td>18 months</td>
+<td>H-A</td>
+<td>S-A</td>
+<td></td>
+</tr>
+<tr>
+<td>SC-009</td>
+<td>Blackber ry Dusk</td>
+<td>8 pt</td>
+<td>12 lbs</td>
+<td>18 months</td>
+<td>H-A</td>
+<td>S-A</td>
+<td>Contains fruit inclusions.</td>
+</tr>
+<tr>
+<td>SC-010</td>
+<td>Buttercr ea m Horizon</td>
+<td>8 pt</td>
+<td>12 lbs</td>
+<td>18 months</td>
+<td>H-A</td>
+<td>S-A</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="22-specialty-line-rotating-flavors-pints">2.2 Specialty Line (Rotating Flavors) — Pints</h2>
+<table>
+<thead>
+<tr>
+<th>SKU</th>
+<th>Product Name</th>
+<th>Case Pack</th>
+<th>Case Wt.</th>
+<th></th>
+<th>Shelf Life Zone (H) Zone (S)</th>
+<th></th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SP-001</td>
+<td>Lavender Cream Moonrise</td>
+<td>8 pt</td>
+<td>12 lbs</td>
+<td>15 months</td>
+<td>H-B</td>
+<td>S-B</td>
+<td>Rotating. Check availabil ity with Waco.</td>
+</tr>
+<tr>
+<td>SP-002</td>
+<td>Olive Oil &amp; Sea Salt Meridian</td>
+<td>8 pt</td>
+<td>12 lbs</td>
+<td>15 months</td>
+<td>H-B</td>
+<td>S-B</td>
+<td>Premium ingredie nts , lower volume.</td>
+</tr>
+<tr>
+<td>SP-003</td>
+<td>Burnt Sugar &amp; Bourbon Ember</td>
+<td>8 pt</td>
+<td>12.5 lbs</td>
+<td>15 months</td>
+<td>H-B</td>
+<td>S-B</td>
+<td>Contains alcohol flavoring. No allergen.</td>
+</tr>
+<tr>
+<td>SP-004</td>
+<td>Goat Milk Fig Reverie</td>
+<td>8 pt</td>
+<td>12 lbs</td>
+<td>12 months</td>
+<td>H-B</td>
+<td>S-B</td>
+<td>Shorter shelf life — goat milk base.</td>
+</tr>
+<tr>
+<td>SP-005</td>
+<td>Coffee Cardamo m Caravan</td>
+<td>8 pt</td>
+<td>12 lbs</td>
+<td>15 months</td>
+<td>H-B</td>
+<td>S-B</td>
+<td>Contains caffeine.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="23-seasonal-line-pints">2.3 Seasonal Line — Pints</h2>
+<table>
+<thead>
+<tr>
+<th>SKU</th>
+<th>Product Name</th>
+<th>Case Pack</th>
+<th>Case Wt.</th>
+<th></th>
+<th>Shelf Life Zone (H) Zone (S)</th>
+<th></th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SN-001</td>
+<td>Blossom &amp; Cream Jubilee</td>
+<td>8 pt</td>
+<td>12 lbs</td>
+<td>12 months</td>
+<td>H-C</td>
+<td>S-B</td>
+<td>Spring. Available Feb–May .</td>
+</tr>
+<tr>
+<td>SN-002</td>
+<td>Suncrest Peach Rodeo</td>
+<td>8 pt</td>
+<td>12 lbs</td>
+<td>12 months</td>
+<td>H-C</td>
+<td>S-B</td>
+<td>Summer. Available May–Sep .</td>
+</tr>
+<tr>
+<td>SN-003</td>
+<td>Harvest Moon Pumpkin &amp; Spice</td>
+<td>8 pt</td>
+<td>12.5 lbs</td>
+<td>12 months</td>
+<td>H-C</td>
+<td>S-B</td>
+<td>Fall. Available Aug–Nov .</td>
+</tr>
+<tr>
+<td>SN-004</td>
+<td>Fireside Pepperm in t Bark</td>
+<td>8 pt</td>
+<td>12.5 lbs</td>
+<td>12 months</td>
+<td>H-C</td>
+<td>S-B</td>
+<td>Winter. Available Oct–Feb.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="24-ice-cream-sandwich-line-core">2.4 Ice Cream Sandwich Line — Core</h2>
+<table>
+<thead>
+<tr>
+<th>SKU</th>
+<th>Product Name</th>
+<th>Case Pack</th>
+<th>Case Wt.</th>
+<th></th>
+<th>Shelf Life Zone (H) Zone (S)</th>
+<th></th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SW-001</td>
+<td>The Prairie Standar d</td>
+<td>12 ct</td>
+<td>9 lbs</td>
+<td>12 months</td>
+<td>H-C</td>
+<td>S-B</td>
+<td>Vanilla bean ice cream, oat cookie.</td>
+</tr>
+<tr>
+<td>SW-002</td>
+<td>Midnight Stack</td>
+<td>12 ct</td>
+<td>9.5 lbs</td>
+<td>12 months</td>
+<td>H-C</td>
+<td>S-B</td>
+<td>Chocol ate ice cream, chocola te cookie.</td>
+</tr>
+<tr>
+<td>SW-003</td>
+<td>Salted Honey Press</td>
+<td>12 ct</td>
+<td>9 lbs</td>
+<td>12 months</td>
+<td>H-C</td>
+<td>S-B</td>
+<td>Salted honey ice cream, shortbre ad .</td>
+</tr>
+</tbody>
+</table>
+<h2 id="25-ice-cream-sandwich-line-specialty">2.5 Ice Cream Sandwich Line — Specialty</h2>
+<table>
+<thead>
+<tr>
+<th>SKU</th>
+<th>Product Name</th>
+<th>Case Pack</th>
+<th>Case Wt.</th>
+<th></th>
+<th>Shelf Life Zone (H) Zone (S)</th>
+<th></th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SW-004</td>
+<td>The Orchard Fold</td>
+<td>12 ct</td>
+<td>9 lbs</td>
+<td>9 months</td>
+<td>H-C</td>
+<td>S-B</td>
+<td>Apple-ci nn amon, oat cookie. Shorter shelf life.</td>
+</tr>
+<tr>
+<td>SW-005</td>
+<td>Campfire Velvet</td>
+<td>12 ct</td>
+<td>9.5 lbs</td>
+<td>9 months</td>
+<td>H-C</td>
+<td>S-B</td>
+<td>S'mores- in spired. Marshm all ow inclusions.</td>
+</tr>
+<tr>
+<td>SW-006</td>
+<td>Moonrise Macaron</td>
+<td>12 ct</td>
+<td>8.5 lbs</td>
+<td>9 months</td>
+<td>H-C</td>
+<td>S-B</td>
+<td>Lavender cream, macaron shell. Fragile — handle carefully.</td>
+</tr>
+<tr>
+<td>SW-007</td>
+<td>Pecan Trail Double</td>
+<td>12 ct</td>
+<td>10 lbs</td>
+<td>9 months</td>
+<td>H-C</td>
+<td>S-B</td>
+<td>Double- sta cked. Heaviest sandwich case. Tree nut allergen.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="26-lot-code-format">2.6 Lot Code Format</h2>
+<p>All Prairie Star products carry a lot code in the format: <strong>[Line]-[YYYYMMDD]-[Sequence]</strong></p>
+<ul>
+<li>
+<p><strong>Line:</strong> A single letter identifying the production line. A = main pint line. B = specialty/seasonal pint line. C = sandwich line (all).</p>
+</li>
+<li>
+<p><strong>Date:</strong> The production date in YYYYMMDD format.</p>
+</li>
+<li>
+<p><strong>Sequence:</strong> A two-digit number indicating the batch sequence for that line on that date. 01 = first batch, 02 = second batch, etc.</p>
+</li>
+</ul>
+<p>The lot code is printed on the case (bottom panel) and on each individual consumer unit.</p>
+<h2 id="27-sku-to-zone-assignment-rules">2.7 SKU-to-Zone Assignment Rules</h2>
+<p>When the Analyst receives put-away confirmation from the dock crew, verify that product was placed in the correct zone using these rules:</p>
+<ul>
+<li><strong>Signature Line (SC-001 to SC-010):</strong> Assign to H-A or S-A (core long-term storage)</li>
+</ul>
+<p>● <strong>Specialty Line (SP-001 to SP-005):</strong> Assign to H-B or S-B (specialty long-term storage) ● <strong>Seasonal Line (SN-001 to SN-004):</strong> Assign to H-C or S-B (Shreveport uses S-B, Houston uses H-C)</p>
+<ul>
+<li><strong>All Sandwich Products (SW-001 to SW-007):</strong> Assign to H-C or S-B (Shreveport uses S-B, Houston uses H-C)s</li>
+</ul>
+<p><strong>Long-term storage zones (A, B, C for Houston; A, B for Shreveport)</strong> are set to -20°F.</p>
+<p><strong>Staging zones (H-D, S-C)</strong> are set to -10°F and are for picked orders only — not for long-term product placement.</p>
+<h1 id="3-outside-vendor-reference">3. Outside Vendor Reference</h1>
+<p>Prairie Star's DCs receive shipments from the following outside vendors for non-product materials. Before processing any vendor shipment, pull vendor_master.xlsx and review vendor-specific notes and known issues.</p>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Vendor Name</th>
+<th>Category</th>
+<th>Lead Time</th>
+<th>Delivery Day</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PKG-01</td>
+<td>Gulf Coast Packaging</td>
+<td>Packaging — pint containers &amp; lids</td>
+<td>5 business days</td>
+<td>Tuesdays</td>
+<td>High volume. Historicall y reliable. Count lids separately — lids have been short in past.</td>
+</tr>
+<tr>
+<td>PKG-02</td>
+<td>Southern Wrap Co.</td>
+<td>Packaging — sandwich wrappers &amp; cartons</td>
+<td>7 business days</td>
+<td></td>
+<td>Wrapper rolls are fragile. Inspect for crush damage.</td>
+</tr>
+<tr>
+<td>DRY-01</td>
+<td>Heartland Bakery Supply</td>
+<td>Dry goods — waffle cones, cookie shells</td>
+<td>10 business days</td>
+<td>Mondays</td>
+<td>Temperatur e-s ensitive: waffle cones must not be exposed to moisture. Store in dry storage only.</td>
+</tr>
+<tr>
+<td>DRY-02</td>
+<td>Lone Star Toppings Co.</td>
+<td>Dry goods — toppings, inclusions</td>
+<td>7 business days</td>
+<td></td>
+<td>Allergen alert: some items contain tree nuts and peanuts. Verify allergen labeling on receipt.</td>
+</tr>
+<tr>
+<td>CLN-01</td>
+<td>CleanPro Industrial</td>
+<td>Cleaning supplies &amp; sanitation chemicals</td>
+<td>3 business days</td>
+<td></td>
+<td>SDS (Safety Data Sheets) must accompany every delivery. Reject if SDS is missing.</td>
+</tr>
+<tr>
+<td>ICE-01</td>
+<td>Arctic Express</td>
+<td>Dry ice</td>
+<td>Same-day / next-day</td>
+<td>As needed</td>
+<td>Dry ice is delivered in insulated totes. Weight verification required. Do not handle without PPE (insulated gloves). Variance threshold is weight-bas ed : ±5 lbs acceptable, &gt;5 lbs flag, &gt;20 lbs reject.</td>
+</tr>
+<tr>
+<td>PAL-01</td>
+<td>TexPal Logistics</td>
+<td>Pallets — new and refurbished</td>
+<td>5 business days</td>
+<td>Bi-weekly (1st &amp; 15th)</td>
+<td>Inspect for splinters, broken slats, stains, pest evidence. Reject any pallet that cannot safely hold 1,500 lbs.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Important Note on Dry Ice (ICE-01):</strong> Uses a <strong>weight-based variance threshold</strong> instead of standard case-count thresholds. Acceptable variance: ±5 lbs (P4). Variance &gt;5 lbs but ≤20 lbs: P3 – flag and notify vendor. Variance &gt;20 lbs: P2 – reject the delivery and escalate per Section 14.</p>
+<h1 id="4-files-and-systems">4. Files and Systems</h1>
+<p>The following files are the Analyst's working documents. Each file has a defined purpose, and you must use the correct file for each task. <strong>Do not</strong> create personal copies or informal tracking documents under <strong>ANY</strong> circumstances — <strong>ALL</strong> work is to be recorded in these official files.</p>
+<p><strong>inbound_receiving_log.xlsx</strong> — Master receiving log. One row per inbound shipment (Waco and vendor). Columns: receipt date, manifest/PO number, origin, total pallets, total cases, temperature readings, variance, damage class, status, notes. Open rows indicate pending items. Used for every inbound receipt from arrival through closeout.</p>
+<p><strong>transfer_manifests_template.pdf</strong> — Template to be used when generating a transfer manifest. One transfer manifest per Waco shipment, filed as ‘[Manifest Number].pdf’. Cross-reference against dock crew's reported counts and lot codes. Read-only.</p>
+<p><strong>inventory_master.xlsx</strong> — System of record for on-hand inventory. Columns: SKU, product name, lot code, quantity (cases), zone (h), zone (s), status (Active/Hold/Quarantine), receipt date, last counted date, notes. Updated after every put-away confirmation. Used for SKU-to-zone verification.</p>
+<p><strong>temperature_log.xlsx</strong> — Freezer zone temperature records. Columns: date, time, zone, reading (°F), method (scheduled/alarm/spot-check), within range (Y/N), action taken (if out of range), initials. One tab per month. Reviewed after every inbound receipt and during end-of-shift.</p>
+<p><strong>incident_reports_template.pdf</strong> — Template to be used when an incident report needs to be created. One document per incident. Created when required by priority level (P1, P2, P3 with</p>
+<p>quarantine, or credit claims) with the file titled as: IR-[YYYY-MM-DD]-[category].pdf. Category options: Temperature, Variance, Contamination, Other_Damage. Must contain; incident date (YYYY-MM-DD), incident category, priority level (P1, P2, P3 with quarantine, or credit claims).</p>
+<p><strong>vendor_master.xlsx</strong> — Outside vendor directory. Columns: vendor code, company name, category, primary contact name, email, phone, account number, payment terms, standard lead time, usual delivery day(s), performance notes, last updated date. Consulted before every vendor receiving.</p>
+<h1 id="5-priority-and-severity-matrix">5. Priority and Severity Matrix</h1>
+<p>Every event that deviates from normal operations is assigned a priority level. The priority level determines how fast you must respond, who you must notify, and what documentation is required. Four priority levels are defined, from P1 (most severe) to P4 (least severe).</p>
+<p>When you encounter such an event, find the row in this matrix that best matches what is being reported. If the event could fit into more than one priority level, always choose the higher (more severe) level. It is better to over-escalate than to under-escalate. When escalating, do not reply to the original email unless the SOP instructs you to do so.</p>
+<h2 id="51-p1-critical">5.1 P1 — Critical</h2>
+<p><strong>Definition:</strong> Immediate risk to product safety, food safety, or major financial exposure. The situation is actively getting worse and will cause significant harm if not addressed within minutes.</p>
+<p><strong>Response Time:</strong> Immediate (within 15 minutes)</p>
+<p><strong>Examples:</strong></p>
+<ul>
+<li>Product received &gt;+10°F (above safe frozen range) — immediate rejection and contamination concern</li>
+</ul>
+<ul>
+<li>
+<p>Freezer zone temperature above 0°F for more than 15 minutes (system failure) — product at risk</p>
+</li>
+<li>
+<p>Severe inbound load damage: container breached, visible contamination, pest evidence (Class 4 damage), melted product</p>
+</li>
+<li>
+<p>Broken or missing seal on a Waco transfer trailer with no explanation</p>
+</li>
+<li>
+<p>Structural failure in a freezer zone (collapsed racking, ceiling leak onto product) ●</p>
+</li>
+<li>
+<p>Contamination discovery: foreign material, pest evidence, chemical exposure on or near product</p>
+</li>
+</ul>
+<p><strong>Notification Requirements:</strong></p>
+<ul>
+<li>
+<p>Slack DM to DC Manager with "URGENT: [email subject line] – [vendor name] shipment received [YYYY-MM-DD]", along with the vendor name and date shipment was received</p>
+</li>
+<li>
+<p>Forward email to both the Director of Supply Chain and DC Manager) within same hour</p>
+</li>
+<li>
+<p>(forward to both, using a single email)</p>
+</li>
+</ul>
+<p>● Slack post to #cold-chain-alerts and the relevant DC’s #dc-escalations with "URGENT: issue with [vendor name] for shipment received on [YYYY-MM-DD]"</p>
+<p><strong>Documentation Requirements:</strong></p>
+<ul>
+<li>Incident report</li>
+</ul>
+<p><strong>Product Action:</strong></p>
+<ul>
+<li>
+<p><strong>Full rejection.</strong> Do not unload if possible.</p>
+</li>
+<li>
+<p>Notify Waco (if Waco transfer) or vendor (if outside vendor) of rejection and reason, and request return transport immediately.</p>
+</li>
+</ul>
+<h2 id="52-p2-urgent">5.2 P2 — Urgent</h2>
+<p><strong>Definition:</strong> Significant quality or food safety concern that requires escalation and may result in partial or full rejection. Less immediate than P1 but must be resolved within the same shift.</p>
+<p><strong>Response Time:</strong> Within 1–2 hours</p>
+<p><strong>Examples:</strong></p>
+<ul>
+<li>
+<p>Inbound product temperature +1°F to +10°F (warm but technically frozen; requires quarantine and assessment)</p>
+</li>
+<li>
+<p>Major quantity variance (&gt;10 cases or &gt;3% of shipment)</p>
+</li>
+<li>
+<p>Truck seal broken or appears tampered with (unauthorized access concern) ● Damage class 3</p>
+</li>
+<li>
+<p>(product container breached on one or few cases — potential contamination concern)</p>
+</li>
+<li>
+<p>Freezer zone temperature at -15°F or warmer for more than 15 minutes (but zone has not yet crossed 0°F), OR freezer zone temperature at -25°F or colder for more than 15 minutes (but zone has not yet crossed -30°F).</p>
+</li>
+<li>
+<p>Seal number mismatch on a Waco transfer that has already been opened</p>
+</li>
+</ul>
+<p><strong>Notification Requirements:</strong></p>
+<ul>
+<li>
+<p>Forward email to the Director of Supply Chain (cc: DC Manager, relevant vendor contact (if applicable)</p>
+</li>
+<li>
+<p>Slack post to the relevant DC’s #dc-escalations thread with "P2" prefix</p>
+</li>
+</ul>
+<p><strong>Slack post format:</strong> "P2 Escalation. Detail: [brief description]. Incident report: [status]. Action required: [brief description]."</p>
+<ul>
+<li>
+<p>If inbound Waco, also notify the Production Planner</p>
+</li>
+<li>
+<p>Include condition details in written report</p>
+</li>
+</ul>
+<p><strong>Documentation Requirements:</strong></p>
+<ul>
+<li>Incident report required</li>
+</ul>
+<p><strong>Product Action:</strong></p>
+<ul>
+<li>
+<p><strong>Quarantine</strong> pending assessment. Hold product in H-Q or S-Q until Director decision received.</p>
+</li>
+<li>
+<p>May result in full rejection, partial rejection (salvageable portion isolated), or conditional acceptance with note.</p>
+</li>
+</ul>
+<p>● Notify origin (Waco or vendor) and initiate claim if applicable.</p>
+<h2 id="53-p3-moderate">5.3 P3 — Moderate</h2>
+<p><strong>Definition:</strong> Quality issue that can be handled per standard procedure but requires</p>
+<p>documentation and notification to stakeholders. Does not necessarily result in rejection; may require conditional acceptance or expedited outbound.</p>
+<p><strong>Response Time:</strong> Within 4 hours (same shift)</p>
+<p><strong>Examples:</strong></p>
+<ul>
+<li>
+<p>Inbound product temperature -4°F to 0°F</p>
+</li>
+<li>
+<p>Moderate quantity variance (4-10 cases or 1-3% of shipment)</p>
+</li>
+<li>
+<p>Damage class 2 (outer case compromised, but product containers intact; isolation and inspection required)</p>
+</li>
+<li>
+<p>Lot code mismatch on cases (physical case differs from manifest)</p>
+</li>
+<li>
+<p>Inbound short-dated product (arriving with &lt;45 days to expiry)</p>
+</li>
+<li>
+<p>Freezer zone temperature warmer than -18°F but colder than -15°F (minor zone excursion) ●</p>
+</li>
+<li>
+<p>A P3 pattern: the same P4 event recurring three or more times in 30 days (e.g., a vendor that has been 1-2 cases short on three consecutive deliveries)</p>
+</li>
+</ul>
+<p><strong>Notification Requirements:</strong></p>
+<ul>
+<li>
+<p>Email notification to relevant stakeholders (DC Manager, the Production Planner if Waco, vendor if outside vendor)</p>
+</li>
+<li>
+<p>Slack post to relevant channel (e.g., #waco-production-coord for Waco variance, #receiving-[site] for general flags)</p>
+</li>
+<li>
+<p>Update receiving log with P3 notation</p>
+</li>
+</ul>
+<p><strong>Documentation Requirements:</strong></p>
+<ul>
+<li>
+<p>Incident report required if quarantine is initiated</p>
+</li>
+<li>
+<p>Log entry in receiving log with "P3 – [Description]" status</p>
+</li>
+</ul>
+<p><strong>Product Action:</strong></p>
+<ul>
+<li>
+<p><strong>Conditional acceptance.</strong> Proceed with put-away but flag in inventory_master.xlsx.</p>
+</li>
+<li>
+<p>If temperature-related: Notify demand planning of potential accelerated outbound. ● If</p>
+</li>
+<li>
+<p>damage class 2: visually inspect cases, isolate damaged cases to quarantine, mark inventory record.</p>
+</li>
+<li>
+<p>If variance: hold receipt open pending variance resolution and remain in contact with origin.</p>
+</li>
+</ul>
+<h2 id="54-p4-low">5.4 P4 — Low</h2>
+<p><strong>Definition:</strong> Minor discrepancy that does not affect product safety or cold chain integrity. Log and monitor; no escalation required unless pattern emerges.</p>
+<p><strong>Response Time:</strong> Within 8 hours (end of shift)</p>
+<p><strong>Examples:</strong></p>
+<ul>
+<li>
+<p>Inbound product temperature ≤-10°F (optimal or acceptable; standard acceptance)</p>
+</li>
+<li>
+<p>Minor quantity variance (1-3 cases and ≤1% of shipment)</p>
+</li>
+<li>
+<p>Damage class 1 (cosmetic only — label torn, corner dent; no container breach)</p>
+</li>
+<li>
+<p>One-time vendor delivery delay of &lt;2 hours (not part of pattern)</p>
+</li>
+<li>
+<p>Temperature reading taken slightly out of protocol (thermometer not perfectly centered in case, but reading still valid)</p>
+</li>
+<li>
+<p>Temperature taken and within acceptable parameters</p>
+</li>
+<li>
+<p>Packing slip formatting issue that does not affect identification (minor discrepancy resolved verbally)</p>
+</li>
+<li>
+<p>General internal updates that fall outside of those listed above</p>
+</li>
+</ul>
+<p><strong>Notification Requirements:</strong></p>
+<ul>
+<li>Send no email or Slack whatsoever; resources should not be expended on low severity issues</li>
+</ul>
+<p><strong>Documentation Requirements:</strong></p>
+<ul>
+<li>
+<p>No incident report required</p>
+</li>
+<li>
+<p>No escalation required</p>
+</li>
+<li>
+<p>Refrain from documentation or file updates unless otherwise required by the SOP; resources</p>
+</li>
+<li>
+<p>should not be expended on low priority issues</p>
+</li>
+</ul>
+<p><strong>Product Action:</strong></p>
+<ul>
+<li>
+<p><strong>Accept.</strong> Proceed with standard put-away and inventory update.</p>
+</li>
+<li>
+<p>Accept with note (note minor issue in receiving log for future reference).</p>
+</li>
+</ul>
+<h2 id="55-when-in-doubt">5.5 When in Doubt</h2>
+<p>● <strong>Compound events:</strong> If a single shipment has two P3 events simultaneously (e.g., a minor temperature excursion and a moderate variance), treat the combined event as P2.</p>
+<ul>
+<li>
+<p><strong>Pattern escalation:</strong> A single minor variance from a vendor is P4. A third minor variance</p>
+</li>
+<li>
+<p>from the same vendor in a month is P2. Patterns escalate.</p>
+</li>
+<li>
+<p><strong>Round up rule:</strong> If an event could reasonably fit two priority levels, choose the higher level. Over-escalation is never penalized. Under-escalation can damage customer relationships or create safety risks.</p>
+</li>
+</ul>
+<h1 id="6-temperature-acceptance-table">6. Temperature Acceptance Table</h1>
+<h2 id="61-background-and-measurement-protocol">6.1 Background and Measurement Protocol</h2>
+<p>Ice cream is one of the most temperature-sensitive frozen products. Unlike frozen vegetables or meat, ice cream begins to lose structural integrity — developing ice crystals and textural defects — at temperatures above -10°F. By 0°F, the product may still be technically frozen but has likely experienced thawing sufficient to affect customer experience. Above 0°F, the product is</p>
+<p>refreezing territory where visible defects emerge. Above +10°F, the product is no longer safely frozen.</p>
+<p>Prairie Star stores product at -20°F. Product leaves the Waco production facility at -20°F or colder. During transport on a well-maintained reefer truck (4-6 hour run from Waco to Houston/Shreveport), some warming is inevitable — every time a truck door opens, ambient air enters. A well-executed transfer should deliver product at -15°F to -10°F. Anything warmer indicates a potential problem: reefer unit malfunction, extended stop, door left open, or transit delay.</p>
+<p><strong>The Analyst receives temperature data from the dock crew.</strong> The on-site Inventory &amp; Receiving Coordinator or Warehouse Associate follows this protocol:</p>
+<p><strong>1.</strong> Use a calibrated digital probe thermometer (calibration sticker must be current). <strong>2.</strong> Take three pulp temperature readings per load: one case from the front of the trailer (nearest the doors — typically warmest), one from the middle, and one from the rear (nearest the reefer unit — typically coldest). Insert the probe between cases so it contacts the product surface through the case wall. Hold for 15 seconds or until the reading stabilizes.</p>
+<p><strong>3.</strong> Record all three readings in inbound_receiving_log.xlsx and temperature_log.xlsx.</p>
+<p><strong>4.</strong> The warmest of the three readings is the controlling measurement. Use this value to determine the tier.</p>
+<p><strong>5.</strong> Decimal readings: round to the nearest whole degree. When a reading falls exactly on a tier boundary, round toward the warmer tier (conservative choice). Examples: -4.5°F rounds to -4°F (Tier 3). -10.5°F rounds to -10°F (Tier 1). 0.5°F rounds to +1°F (Tier 4).</p>
+<p>The Analyst applies the readings to the table below to determine the correct action tier.</p>
+<h2 id="62-ice-cream-temperature-acceptance-tiers">6.2 Ice-Cream Temperature Acceptance Tiers</h2>
+<table>
+<thead>
+<tr>
+<th>Tier</th>
+<th>Temperature Range</th>
+<th>Acceptance</th>
+<th>Priority</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Tier 1</td>
+<td>≤ -10°F</td>
+<td>Accept</td>
+<td>P4</td>
+<td>Log all three readings in inbound_receiving_log.xlsx. Proceed with pallet count and put-away.</td>
+</tr>
+<tr>
+<td>Tier 2</td>
+<td>-9°F to -5°F</td>
+<td>Accept with Note</td>
+<td>P4</td>
+<td>Log all three readings. Proceed with put-away. Note in receiving log "Accepted – Warm side of acceptable range" for future reference.</td>
+</tr>
+<tr>
+<td>Tier 3</td>
+<td>-4°F to 0°F</td>
+<td>Accept Conditionally</td>
+<td>P3</td>
+<td>Log all three readings. Email the Production Planner with manifest number, temperature readings, and note that product is flagged for enhanced expiry monitoring. Do not reject. Proceed with put-away to assigned zone but note in inventory_master.xlsx "temperature flag – expedite outbound."</td>
+</tr>
+<tr>
+<td>Tier 4</td>
+<td>+1°F to +10°F</td>
+<td>Quarantine</td>
+<td>P2</td>
+<td>Log all three readings. DO NOT proceed with standard put-away. Quarantine entire receipt in H-Q or S-Q. Email the Director of Supply Chain and DC Manager immediately with readings, manifest number, and statement "Product quarantined pending assessment." Slack post to #cold-chain-alerts. Hold for Director assessment before proceeding.<br><strong>Slack message format:</strong> "Inbound load temp excursion. Manifest [#]: readings [temp1], [temp2], [temp3]°F. Tier: [classification]. Email sent to [recipients]."</td>
+</tr>
+<tr>
+<td>Tier 5</td>
+<td>&gt; +10°F</td>
+<td>Reject</td>
+<td>P1</td>
+<td>Log all three readings. DO NOT unload. URGENT Slack DM to DC Manager with "URGENT:" prefix. Email the Director of Supply Chain, DC Manager, and the Production Planner within same hour with readings, manifest number, and recommendation to reject. Slack post to #cold-chain-alerts and the relevant DC’s #dc-escalations. Request immediate return transportation. Initiate credit claim (Waco) or return shipment (vendor). Treat as potential contamination concern.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="63-special-cases">6.3 Special Cases</h2>
+<p><strong>Staging Dock Re-Evaluation:</strong> Product on the staging dock (H-D or S-C) is subject to time limits: maximum 30 minutes when ambient dock temperature is ≤35°F, maximum 15 minutes when ambient is &gt;35°F. The Coordinator reports ambient dock temperature (from wall-mounted thermometer) when product is staged and when removed. The Analyst logs time-in, time-out, and ambient temperature in temperature_log.xlsx. If product exceeds these limits, it must be returned to a freezer storage zone and a pulp temperature reading taken. If pulp temperature has risen above -10°F, apply this acceptance table as if the product were being received inbound. Log the event in temperature_log.xlsx.</p>
+<p><strong>Multiple Readings, Multiple Lots:</strong> If an inbound receipt contains multiple Waco transfers (multiple manifests), each manifest has its own three temperature readings. Apply the acceptance table independently to each manifest's warmest reading. If one lot is Tier 1 and</p>
+<p>another is Tier 3, the Tier 3 lot is flagged for enhanced monitoring while the Tier 1 lot proceeds normally.</p>
+<h1 id="7-quantity-variance-table">7. Quantity Variance Table</h1>
+<h2 id="71-how-to-calculate-variance">7.1 How to Calculate Variance</h2>
+<p>Variance is the difference between the manifest quantity (what was supposed to arrive) and the actual quantity counted by the dock crew (what arrived). Variance is expressed in two ways:</p>
+<p><strong>1. Absolute variance:</strong> Total number of cases over or under (e.g., +5 cases, -3 cases) <strong>2. Percentage variance:</strong> Variance as a percentage of the manifest quantity (e.g., +2% of 500 cases = +10 cases)</p>
+<p><strong>Calculation:</strong></p>
+<ul>
+<li>
+<p>Absolute variance = Actual cases – Manifest cases</p>
+</li>
+<li>
+<p>Percentage variance = (Absolute variance ÷ Manifest cases) × 100</p>
+</li>
+</ul>
+<h2 id="72-variance-tiers">7.2 Variance Tiers</h2>
+<table>
+<thead>
+<tr>
+<th>Absolute Variance</th>
+<th>Percentage Variance</th>
+<th>Classification</th>
+<th>Priority</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0 cases</td>
+<td>0%</td>
+<td>Exact Match</td>
+<td>P4</td>
+<td>Log in receiving log: variance = 0. Close receipt. No further action.</td>
+</tr>
+<tr>
+<td><strong>1–3 cases</strong></td>
+<td><strong>AND</strong> ≤1%</td>
+<td><strong>Minor</strong></td>
+<td>P4</td>
+<td>Log in receiving log with variance noted. Accept receipt. Monitor in future for pattern. If this is the third minor variance from the same vendor in 30 days, escalate to P3 and notify vendor.</td>
+</tr>
+<tr>
+<td><strong>4–10 cases</strong></td>
+<td><strong>OR</strong> 1–3%</td>
+<td><strong>Moderate</strong></td>
+<td>P3</td>
+<td>Log in receiving log with variance noted. Email origin (the Production Planner for Waco, vendor for outside vendor) with manifest number, variance detail, and request for explanation or credit. Hold receipt open as "Pending Variance Resolution." Check for response daily. When response arrives, close receipt or adjust per origin decision.</td>
+</tr>
+<tr>
+<td><strong>&gt;10 cases</strong></td>
+<td><strong>OR</strong> &gt;3%</td>
+<td><strong>Major</strong></td>
+<td>P2</td>
+<td>Log in receiving log with variance noted. Email the Director of Supply Chain (cc: DC Manager, origin contact) immediately with manifest number, variance detail, and request for immediate investigation. Slack post to #waco-production-coord (if Waco) or the relevant DC’s #dc-escalations (if vendor). Hold receipt open as "Pending Major Variance Investigation." Do not close until Director approves closure or adjustment.<br><strong>Slack message format:</strong> "Variance detected. Manifest [#], SKU [SKU]: [variance detail]. Variance tier: [Minor/Moderate/Major]. Email sent. Status: [Open – Pending response / Resolved]."</td>
+</tr>
+</tbody>
+</table>
+<h2 id="73-mixed-sku-variances">7.3 Mixed-SKU Variances</h2>
+<p>When a single inbound receipt contains multiple SKUs and variances appear on some SKUs but not others:</p>
+<ul>
+<li>
+<p>Calculate variance for each SKU independently.</p>
+</li>
+<li>
+<p>Apply the variance table to each SKU's variance.</p>
+</li>
+</ul>
+<p>● If SKU-A has a 5-case variance (Moderate) and SKU-B has an 8-case variance (Moderate), log both and escalate the overall receipt as "Moderate variance on multiple SKUs." ● If one SKU has a Major variance and another has a Minor variance, escalate the receipt to P2 (the higher priority applies to the overall receipt).</p>
+<h2 id="74-recurring-minor-variances">7.4 Recurring Minor Variances</h2>
+<p>If a vendor has a pattern of recurring minor variances (1–3 case shortages recurring three or more times within a rolling 30-day window, per Section 5.3), even if each individual variance is &lt;1%, escalate the overall pattern to P3. Send an email to the vendor’s Primary Contact noting the pattern and requesting investigation or corrective action.</p>
+<h1 id="8-inbound-short-dated-product">8. Inbound Short-Dated Product</h1>
+<p>When inbound product arrives with less than 45 days to expiry, this is a P3 event (per Section 5.3). Apply P3 response time (within 4 hours of put-away confirmation) for the notifications below:</p>
+<p><strong>1.</strong> Send email to the Production Planner and Demand Planning Manager noting "Inbound short-dated product – [SKU, lot code, days to expiry]" and requesting prioritization in outbound. <strong>2.</strong> If &lt;15 days upon arrival, also email the Director of Supply Chain and request immediate demand plan.</p>
+<p><strong>3.</strong> Proceed with put-away to assigned zone per Section 2.7, but add note to inventory_master.xlsx "SHORT-DATED – ACCELERATE OUTBOUND."</p>
+<h1 id="9-damage-disposition-rules">9. Damage Disposition Rules</h1>
+<p>The Analyst receives damage reports from the dock crew describing the condition, location, and extent of damage to a shipment or individual pallets. The Analyst classifies the damage using the rules below and initiates the appropriate response.</p>
+<table>
+<thead>
+<tr>
+<th>Class</th>
+<th>Definition</th>
+<th>Examples</th>
+<th>Priority</th>
+<th>Immediate Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Class 1</td>
+<td>Cosmetic damage only. Product container intact, no breach, no contamination visible. Exterior only — label tear, corner dent, minor crush, scuff marks, missing ink marking.</td>
+<td>Case label torn, corner of case dented, small stain on exterior only.</td>
+<td>P4</td>
+<td>Accept with note. Log in receiving log "Class 1 damage." No quarantine. Proceed with put-away. No credit claim.</td>
+</tr>
+<tr>
+<td>Class 2</td>
+<td>Outer case compromis ed but product containers intact. Hole or tear in case exterior, water damage visible on exterior, compression damage opening one edge of case, but no visible damage to the inner product containers (pint cups or sandwich wrappers are dry and intact).</td>
+<td>Case has a 2-inch hole in side, case is soaked on one edge but inner wrapping is dry, case corner is crushed but product is not dented.</td>
+<td>P3</td>
+<td>Quarantine suspected affected cases. Unload all other cases normally. Document damage in writing (describe location, extent, what is compromised). Email vendor (if vendor shipment) or notify the Production Planner (if Waco). Perform visual inspection of inner product; if confirmed intact, may proceed to put-away with note. If cannot confirm integrity, hold in quarantine pending visual inspection by quality team or disposition decision. Initiate credit claim for affected cases.</td>
+</tr>
+<tr>
+<td>Class 3</td>
+<td>Product container breached on one or few cases. Individual pint cup cracked, dent visible on a pint cup, sandwich wrapper punctured, but damage is limited to a small number of cases within the pallet.</td>
+<td>One case within a pallet has a cracked pint cup, two sandwich cases have wrapper tears.</td>
+<td>P2</td>
+<td>Quarantine affected cases immediately. Document in writing: which case(s), what damage, extent. Email vendor or the Production Planner with damage report. Detailed written description required. Isolate damaged cases to H-Q or S-Q. Do not outbound damaged product. Initiate credit claim. Assess if undamaged cases in same pallet are safe (if damage is from handling at DC, other cases are fine; if damage is from transport, assess for other hidden damage).</td>
+</tr>
+<tr>
+<td>Class 4</td>
+<td>Contaminati on or major breach. Product contamination visible (mold, pest evidence, foreign material), multiple cases damaged such that product integrity is compromised, or evidence of unauthorized access/tampering.</td>
+<td>Visible mold inside case, pest droppings visible, multiple punctured containers, rodent evidence on pallet, seal appears tampered.</td>
+<td>P1</td>
+<td>See Priority and Severity Matrix.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="91-damage-class-definitions">9.1 Damage Class Definitions</h2>
+<h2 id="92-damage-discovered-during-receiving">9.2 Damage Discovered During Receiving</h2>
+<p>When the dock crew reports damage during the receiving process:</p>
+<p><strong>1. Classify the damage</strong> using the table above.</p>
+<p><strong>2. Apply the Priority Level</strong> — this determines notification and escalation speed.</p>
+<p><strong>3. Log the damage type</strong> in inbound_receiving_log.xlsx. E.g., set <code>damage class</code> to one of <code>Class 1</code>, <code>Class 2</code>, <code>Class 3</code>, or <code>Class 4</code>.</p>
+<p><strong>4. For Class 1:</strong> Note and proceed.</p>
+<p><strong>5. For Class 2 or 3:</strong> Quarantine affected cases, document in writing, email relevant parties, initiate credit claim.</p>
+<p><strong>6. For Class 4:</strong> Quarantine entire receipt, escalate immediately per P1 rules.</p>
+<h1 id="10-escalation-chain">10. Escalation Chain</h1>
+<p>The Analyst's escalation pathway is clear and unambiguous:</p>
+<table>
+<thead>
+<tr>
+<th>Escalation Level</th>
+<th>Who</th>
+<th>When</th>
+<th>Examples</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Level 1</td>
+<td></td>
+<td>s per SOP Routine decisions within thresholds (P4, P3 variances within procedure, standard expiry actions)</td>
+<td>Receiving a Tier 1 temperature load, processing a P4 variance, sending standard emails per template</td>
+</tr>
+<tr>
+<td>Level 2</td>
+<td>DC Manager</td>
+<td>P2 events, policy questions, missing guidance, personnel issues, escalations from staff</td>
+<td>P2 variance, inbound damage class 2-3, freezer temperature excursion lasting &gt;30 minutes, incident report review</td>
+</tr>
+<tr>
+<td>Level 3</td>
+<td>Director of Supply Chain (the Director of Supply Chain)</td>
+<td>P1 events, load rejections, major variances (&gt;$500), vendor contract issues, cross-DC policy decisions</td>
+<td>P1 temperature event, P2 variance &gt;$500, inbound class 4 contamination, vendor escalation</td>
+</tr>
+<tr>
+<td>Level 4</td>
+<td>VP / Executive</td>
+<td>Strategic supply chain decisions, policy changes, major vendor relationships, compliance escalations</td>
+<td>(Referenced but not contacted directly by Analyst)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Escalation is not a failure.</strong> It is the correct action. The escalation pathway exists to ensure every decision receives appropriate authority and oversight.</p>
+<h1 id="11-processing-inbound-waco-transfers">11. Processing Inbound Waco Transfers</h1>
+<p>This procedure describes how the Analyst processes receiving reports for inbound Waco transfers. The dock crew (Coordinator and Warehouse Associates) perform the physical operations: unload, measure temperatures, count pallets, inspect seals, verify lot codes, and direct put-away. The Analyst receives the crew's data and applies decision thresholds.</p>
+<h2 id="111-pre-arrival-before-truck-arrives">11.1 Pre-Arrival (Before Truck Arrives)</h2>
+<p><strong>1. Pull the transfer manifest .</strong></p>
+<p><strong>2. Pre-fill one row in inbound_receiving_log.xlsx</strong> with: receipt date (today), manifest number, origin ("Waco Transfer"), manifest total pallets, manifest total cases, and leave temperature readings, variance, and status fields empty to indicate that they are pending.</p>
+<p><strong>3. Post to #receiving-[site] Slack channel</strong> using Template S1 (Inbound Arrival): "Waco transfer [manifest#] expected at [time]. Pallets: [#], Cases: [#]. Dock crew standing by." <strong>4. Notify the Coordinator</strong> via Slack that the manifest is ready and to send temperature, count, and damage data when receiving is complete.</p>
+<h2 id="112-dock-crew-reports-receiving-data">11.2 Dock Crew Reports Receiving Data</h2>
+<p>The Coordinator will send you (the Analyst) receiving data via Slack (preferred) or email. The report includes:</p>
+<ul>
+<li>
+<p><strong>Seal status:</strong> Intact / Broken / Tampered</p>
+</li>
+<li>
+<p><strong>Temperature readings:</strong> Three readings (front, middle, rear per Section 6.1 protocol) and</p>
+</li>
+</ul>
+<p>warmest</p>
+<ul>
+<li>
+<p><strong>Pallet count:</strong> Actual pallets unloaded</p>
+</li>
+<li>
+<p><strong>Case count by SKU:</strong> Breakdown if shipment contains multiple SKUs</p>
+</li>
+<li>
+<p><strong>Lot codes received:</strong> List of lot codes on cases (should match manifest)</p>
+</li>
+<li>
+<p><strong>Damage observations:</strong> Any damage class, location, extent</p>
+</li>
+<li>
+<p><strong>Notes:</strong> Anything unusual</p>
+</li>
+</ul>
+<p><strong>Example Slack report from Coordinator:</strong></p>
+<p>@analyst Manifest 20260415-001 receiving complete. Seal: intact. Temps: -18, -16, -20 (warmest -20). Pallets: 24. Cases: 480 (all SC-001). Lot codes: A-20260410-01 (24 cases), A-20260410-02 (456 cases) ✓ match manifest. No damage. Ready for put-away.</p>
+<h2 id="113-apply-temperature-acceptance-table-section-6">11.3 Apply Temperature Acceptance Table (Section 6)</h2>
+<p>Receive the three temperature readings and use warmest.</p>
+<ul>
+<li>
+<p><strong>Tier 1 (≤-10°F):</strong> Accept. Proceed.</p>
+</li>
+<li>
+<p><strong>Tier 2 (-9 to -5°F):</strong> Accept with note. Proceed. Note in receiving log.</p>
+</li>
+<li>
+<p><strong>Tier 3 (-4 to 0°F):</strong> Accept conditionally. Email the Production Planner. Proceed to put-away with note in inventory_master.xlsx.</p>
+</li>
+<li>
+<p><strong>Tier 4 (+1 to +10°F):</strong> Quarantine. Do not proceed. Email the Director of Supply Chain and DC Manager. Hold for assessment.</p>
+</li>
+<li>
+<p><strong>Tier 5 (&gt;+10°F):</strong> Reject. URGENT escalation. Email the Director of Supply Chain, DC Manager, the Production Planner. Do not unload.</p>
+</li>
+</ul>
+<h2 id="114-calculate-quantity-variance-section-7">11.4 Calculate Quantity Variance (Section 7)</h2>
+<p>Compare the manifest quantities to the actual counts reported by the dock crew:</p>
+<ul>
+<li><strong>0 cases:</strong> Exact match. Log and proceed.</li>
+</ul>
+<p>● <strong>1-3 cases and ≤1%:</strong> Minor variance. Log and proceed. Note in receiving log. ● <strong>4-10 cases or 1-3%:</strong> Moderate variance. Log, email the Production Planner with variance detail, and hold receipt open pending response.</p>
+<ul>
+<li><strong>&gt;10 cases or &gt;3%:</strong> Major variance. Log, email the Director of Supply Chain (cc: DC Manager, the Production Planner), and hold receipt open pending investigation.</li>
+</ul>
+<h2 id="115-verify-lot-codes">11.5 Verify Lot Codes</h2>
+<p>Confirm that the lot codes reported by the dock crew match the lot codes on the manifest:</p>
+<ul>
+<li>
+<p><strong>Match:</strong> Proceed.</p>
+</li>
+<li>
+<p><strong>Mismatch (e.g., manifest shows A-20260410-01 but received cases show</strong></p>
+</li>
+<li>
+<p><strong>A-20260409-01):</strong> P3 event. Log in receiving log "Lot code mismatch – manifest [code] vs received [code]." Email the Production Planner and DC Manager with discrepancy. Hold receipt open pending clarification.</p>
+</li>
+<li>
+<p><strong>Lot code illegible or missing:</strong> P3 event. Request dock crew to verify lot code on cases and report back. Hold receipt open.</p>
+</li>
+</ul>
+<h2 id="116-update-inventory-records">11.6 Update Inventory Records</h2>
+<p>Once dock crew confirms all data is accurate (seals, temperatures, counts, lot codes):</p>
+<p><strong>inbound_receiving_log.xlsx:</strong> Fill in all temperature readings, warmest, variance, lot codes, and damage notes. Set status to "Received – Pending Put-Away" or "Put-Away Complete" when dock crew confirms put-away.</p>
+<p><strong>temperature_log.xlsx:</strong> Record the warmest temperature of the 3 recorded values.</p>
+<p><strong>inventory_master.xlsx</strong> (after put-away confirmation): Add a row for each lot code received with SKU, zone, lot code, case count, received date, and expiry date (production date + shelf life from Section 2). Set status to "Active." Add notes if Tier 3 temperature or P3 variance is pending resolution.</p>
+<h2 id="117-send-required-notifications">11.7 Send Required Notifications</h2>
+<p>Based on the priority level, send notifications per the rules in Section 5:</p>
+<ul>
+<li>
+<p><strong>P4 (clean receipt, Tier 1 temperature, exact match):</strong> Post to #receiving-[site] using Template S2 (Receipt Complete – Clean). Send email using Template E1 for audit trail. Example: "Manifest 2026-04-15-001 received and accepted. Pallets: 24, Cases: 480, Temp: -18°F (avg), Variance: 0. Product in H-A. ✓"</p>
+</li>
+<li>
+<p><strong>P3 (Tier 3 temperature or Minor/Moderate variance):</strong> Post to #receiving-[site] using Template S3 (Receipt with Flags). Email relevant parties (the Production Planner, DC Manager, etc.). Example: "Manifest 2026-04-15-002 received with flags. Temp: -3°F (P3 conditional acceptance – flagged for enhanced expiry monitoring). Variance: +2 cases. Email sent to the Production Planner and DC Manager."</p>
+</li>
+<li>
+<p><strong>P2 (Tier 4 temperature, Major variance, Class 2-3 damage):</strong> Email the Director of Supply Chain and DC Manager immediately. Post to the relevant DC’s #dc-escalations (P2 – [description]). Hold receipt open pending assessment.</p>
+</li>
+<li>
+<p><strong>P1 (Tier 5 temperature, Class 4 contamination, major emergency):</strong> URGENT Slack DM to DC Manager with "URGENT:" prefix. Email the Director of Supply Chain, DC Manager CC’d, within same hour. Post to #cold-chain-alerts and the relevant DC’s #dc-escalations using the format specified in section 5.1.</p>
+</li>
+</ul>
+<h2 id="118-close-the-receipt">11.8 Close the Receipt</h2>
+<p>Once all pending items are resolved (variance response received, temperature assessment complete, damage documentation finished), update inbound_receiving_log.xlsx:</p>
+<ul>
+<li>
+<p>Set status to "Closed – Accepted" or "Closed – Rejected" or "Closed – Conditional"</p>
+</li>
+<li>
+<p>Mark receipt date as closed (red highlight or checkbox)</p>
+</li>
+<li>
+<p>Post final confirmation to #receiving-[site] Slack channel</p>
+</li>
+</ul>
+<p><strong>Do not close if items remain pending.</strong> Keep the status open (e.g., "Open – Pending Variance Resolution") until fully resolved.</p>
+<h1 id="12-processing-vendor-shipments">12. Processing Vendor Shipments</h1>
+<p>This procedure describes how the Analyst processes receiving reports for outside vendor shipments (packaging, dry goods, cleaning supplies, dry ice, pallets). The dock crew reports data; the Analyst applies decision thresholds, updates records, and manages vendor performance tracking.</p>
+<h2 id="121-pre-arrival">12.1 Pre-Arrival</h2>
+<p><strong>1. Pull the PO and packing slip</strong> . Verify vendor, delivery date, SKUs/quantities, and delivery address.</p>
+<p><strong>2. Check vendor_master.xlsx</strong> for vendor-specific notes, known issues, and special handling requirements (e.g., "Gulf Coast Packaging — count lids separately, high shortage history" or "CleanPro Industrial — must include SDS with every delivery").</p>
+<p><strong>3. Pre-fill one row in inbound_receiving_log.xlsx</strong> with: receipt date (today), Manifest number, origin (vendor name), expected quantities from PO, and set status to "Pre-arrival."</p>
+<p><strong>4. No Slack post required for routine vendor deliveries</strong> (unless special circumstance).</p>
+<h2 id="122-dock-crew-reports-receiving-data">12.2 Dock Crew Reports Receiving Data</h2>
+<p>The Coordinator reports:</p>
+<ul>
+<li>
+<p><strong>Delivery time and truck information</strong> (if relevant)</p>
+</li>
+<li>
+<p><strong>Case count by SKU</strong> (actual vs. PO)</p>
+</li>
+<li>
+<p><strong>Condition assessment:</strong> Packaging intact, any crush damage, moisture damage, pest evidence</p>
+</li>
+</ul>
+<p><strong>● Special items verification:</strong></p>
+<ul>
+<li>
+<p>Lids counted separately (if packaging vendor)</p>
+</li>
+<li>
+<p>Dry ice weight verified (if Arctic Express)</p>
+</li>
+<li>
+<p>SDS present (if CleanPro)</p>
+</li>
+<li>
+<p>Pallet condition verified (if TexPal)</p>
+</li>
+<li>
+<p>Damage observations if any</p>
+</li>
+</ul>
+<p><strong>Example report:</strong></p>
+<p>@analyst PO 54821 Gulf Coast Packaging received. 40 cases pint containers, 50 cases lids (counted separately). All cases intact, no damage. Weights match invoice. Ready to move to dry storage.</p>
+<h2 id="123-apply-variance-thresholds">12.3 Apply Variance Thresholds</h2>
+<p><strong>For standard vendor shipments (packaging, dry goods, pallets):</strong> Use the Quantity Variance Table (Section 7).</p>
+<p><strong>For dry ice (Arctic Express):</strong> Use weight-based variance (Section 3).</p>
+<ul>
+<li>
+<p>±5 lbs acceptable (P4 – no action)</p>
+</li>
+<li>
+<blockquote>
+<p>5 lbs but ≤20 lbs (P3 – flag and notify vendor)</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>20 lbs (P2 – reject and escalate per Section 14)</p>
+</blockquote>
+</li>
+</ul>
+<h2 id="124-update-records">12.4 Update Records</h2>
+<p><strong>1. Update inbound_receiving_log.xlsx:</strong> Fill in actual quantities, variance, damage Class, and status.</p>
+<h2 id="125-send-notifications">12.5 Send Notifications</h2>
+<ul>
+<li>
+<p><strong>P4 (clean receipt, no variance, no damage):</strong> Log in receiving log. No Slack post or email required.</p>
+</li>
+<li>
+<p><strong>P3 (Minor/Moderate variance, damage class 1):</strong> Email vendor with variance detail</p>
+</li>
+<li>
+<p>and request credit note or explanation. Example: "PO 54821 – received 38 cases of lids, PO shows 40. Request credit note for 2 cases or confirmation of correct order quantity."</p>
+</li>
+<li>
+<p><strong>P2 (Major variance, Class 2-3 damage):</strong> Email vendor and the Director of Supply Chain with details. Initiate credit claim if applicable.</p>
+</li>
+<li>
+<p><strong>P1 (Class 4 contamination):</strong> Do not accept. Escalate immediately per P1 rules.</p>
+</li>
+</ul>
+<h2 id="126-close-the-receipt">12.6 Close the Receipt</h2>
+<p>Once variance is resolved or acknowledged, update status to "Closed" in receiving log.</p>
+<h1 id="13-rejection-processing">13. Rejection Processing</h1>
+<p>When dock crew reports conditions requiring rejection or partial rejection, the Analyst initiates the formal rejection process.</p>
+<h2 id="131-full-rejection">13.1 Full Rejection</h2>
+<p><strong>When to initiate:</strong> Temperature Tier 5, Class 4 contamination, or other P1 condition where the entire receipt cannot be accepted.</p>
+<p><strong>1. Log in receiving log:</strong> Status = "Rejected – [Reason]" Use <code>Temperature Tier 5</code>, <code>Class 4 Contamination</code>, or <code>Other P1 condition</code> for “Reason”</p>
+<p><strong>2. Email the origin immediately:</strong></p>
+<ul>
+<li>
+<p><strong>Waco transfer:</strong> Email the Production Planner, cc the Director of Supply Chain and DC</p>
+</li>
+<li>
+<p>Manager. Use template E4 (Waco Rejection). Subject: "P1 – Load Rejection – Waco Manifest [#]</p>
+</li>
+</ul>
+<p>– [Date]". Body: manifest number, reason for rejection (temperature, damage, contamination), temperature readings if applicable, and statement "Recommend immediate return transportation."</p>
+<ul>
+<li><strong>Vendor:</strong> Email vendor (use contact from vendor_master.xlsx), cc the Director of Supply Chain and the Procurement Specialist. Use template E7 (Vendor Rejection). Subject: "PRIORITY – Shipment Rejection – Manifest [#] – [YYYY-MM-DD]".</li>
+</ul>
+<p><strong>4. Create incident report:</strong> See Section 18.</p>
+<h2 id="132-partial-rejection">13.2 Partial Rejection</h2>
+<p><strong>When to initiate:</strong> Temperature Tier 4 (quarantine), Class 2-3 damage affecting some cases but not entire pallet, or major variance on one SKU within a mixed shipment.</p>
+<p><strong>1. Separate affected cases</strong> to H-Q or S-Q quarantine area.</p>
+<p><strong>2. Accept undamaged/good-quality cases</strong> for put-away to assigned zones. <strong>3. Log in receiving log:</strong> Status = "Partially Rejected – [Affected SKU and cases] – [Reason]. Remaining cases accepted."</p>
+<p><strong>4. Assess quarantined product:</strong></p>
+<ul>
+<li>
+<p><strong>Tier 4 temperature:</strong> Hold for the Director of Supply Chain’ assessment. Email the Director of Supply Chain and DC Manager with temperature readings and recommendation. May result in full rejection, conditional acceptance, or re-measurement after stabilization. Response expectation: the Director of Supply Chain will respond within 4 hours. If no response within 4 hours, email a follow-up and cc DC Manager. If no response within 8 hours, DC Manager may authorize a disposition decision (conditional acceptance with monitoring, or continued quarantine) as interim approver.</p>
+</li>
+<li>
+<p><strong>Class 2-3 damage:</strong> Hold for visual inspection. If confirmed containment breach or contamination, reject those cases and process credit claim. If confirmed surface damage only, may accept with note.</p>
+</li>
+</ul>
+<p><strong>5. Email origin</strong> (the Production Planner for Waco, vendor contact for vendor) with detail on which cases/SKUs are affected, reason, and current status (quarantined pending assessment or confirmed rejection).</p>
+<p><strong>6. Initiate credit claim</strong> for affected cases once disposition is final.</p>
+<h1 id="14-inventory-management">14. Inventory Management</h1>
+<h2 id="141-sku-to-zone-assignment">14.1 SKU-to-Zone Assignment</h2>
+<p>After dock crew confirms put-away, the Analyst verifies that product was placed in the correct zone using the rules in Section 2.7:</p>
+<ul>
+<li>
+<p><strong>Signature Line (SC-001 to SC-010):</strong> H-A or S-A</p>
+</li>
+<li>
+<p><strong>Specialty Line (SP-001 to SP-005):</strong> H-B or S-B</p>
+</li>
+<li>
+<p><strong>Seasonal (SN-001 to SN-004):</strong> H-C or S-B</p>
+</li>
+<li>
+<p><strong>Sandwiches (SW-001 to SW-007):</strong> H-C or S-B</p>
+</li>
+</ul>
+<p>When dock crew's put-away confirmation arrives, verify the zone assignment in the message. If</p>
+<p>incorrect, immediately Slack the Coordinator: "@a.nguyen Please confirm zone assignment for [SKU, lot code] — should be H-B, not H-A. Will update records once confirmed."</p>
+<h2 id="142-overflow-management">14.2 Overflow Management</h2>
+<p>If a zone reaches capacity and product must be placed in overflow location:</p>
+<p><strong>1. Log in inventory_master.xlsx:</strong> Zone = "[Primary Zone] – Overflow at [Alternate Zone]" <strong>2. Email DC Manager:</strong> "Zone H-A at capacity. SC-001 lot [code] placed in overflow at [location]. Recommend outbound acceleration or transfer to Shreveport."</p>
+<p><strong>3. Track overflow duration:</strong> If overflow persists &gt;2 weeks, escalate to the Director of Supply Chain for inter-DC transfer or production adjustment discussion.</p>
+<h2 id="143-pallet-tag-verification">14.3 Pallet Tag Verification</h2>
+<p>After dock crew completes put-away, they will have applied tags to pallets identifying SKU, lot code, case count, and zone. The Analyst verifies tag accuracy by cross-referencing the put-away confirmation against inventory_master.xlsx.</p>
+<h1 id="15-damage-and-claims-processing">15. Damage and Claims Processing</h1>
+<h2 id="151-damage-report-classification">15.1 Damage Report Classification</h2>
+<p>When dock crew reports damage, the Analyst classifies it using Section 9 and logs in receiving log.</p>
+<h2 id="152-credit-claim-initiation">15.2 Credit Claim Initiation</h2>
+<p><strong>When an SOP section calls for the initiation of a claim:</strong></p>
+<p><strong>1. Determine claim amount:</strong> # of damaged cases × case weight × $0.50/lb.</p>
+<p><strong>2. Prepare credit claim email:</strong></p>
+<ul>
+<li>
+<p><strong>For Waco transfers:</strong> Use template E8. To: the Production Planner, cc: the Director of Supply Chain, DC Manager. Subject: "Credit Claim – Damage Class [#] – Manifest [#] – [Date]". Body: manifest number, damage class, number of affected cases, damage description (written), total claim amount, and account adjustment request.</p>
+</li>
+<li>
+<p><strong>For vendor shipments:</strong> Use template E9. To: vendor contact (from vendor_master.xlsx), cc: the Director of Supply Chain, the Procurement Specialist. Subject: "Credit Claim – Damage Class [#] – PO [#] – [Date]". Body: PO number, damage class, number of affected cases, damage description, total claim amount, and request for credit note or replacement shipment.</p>
+</li>
+</ul>
+<p><strong>3. Log in receiving log:</strong> Open claim status = "Claim – [Amount] – Sent [Date]"</p>
+<p><strong>4. Track response deadline:</strong> Waco typically responds within 2 business days. Vendors typically respond within 5 business days. Note expected response date in receiving log.</p>
+<h2 id="153-tracking-open-claims">15.3 Tracking Open Claims</h2>
+<p>The Analyst maintains a list of open claims in a "Claims Tracker" section of the receiving log (or separate sheet):</p>
+<ul>
+<li>
+<p>Manifest/PO number</p>
+</li>
+<li>
+<p>Claim amount</p>
+</li>
+<li>
+<p>Damage class</p>
+</li>
+<li>
+<p>Date sent</p>
+</li>
+<li>
+<p>Origin (Waco or vendor)</p>
+</li>
+<li>
+<p>Status (Sent, Acknowledged, Approved, Credited, Closed)</p>
+</li>
+</ul>
+<p><strong>Every Friday</strong> , review open claims. If no response within expected timeframe:</p>
+<ul>
+<li>
+<p>Email origin with subject "Follow-Up: Credit Claim – [Manifest/PO] – Status?" ● If</p>
+</li>
+<li>
+<p>claim is &gt;30 days old with no response, escalate to the Director of Supply Chain.</p>
+</li>
+</ul>
+<h1 id="16-temperature-excursion-processing">16. Temperature Excursion Processing</h1>
+<h2 id="161-freezer-zone-excursion">16.1 Freezer Zone Excursion</h2>
+<p><strong>When:</strong> A freezer zone temperature reading falls outside the acceptable range for more than 15 minutes.</p>
+<p><strong>Coordinator reports:</strong> "H-A temp alarmed at -25°F, then climbed to -18°F over 45 minutes. Currently -22°F. No alarm reset."</p>
+<p><strong>Analyst action:</strong></p>
+<p><strong>1. Log in temperature_log.xlsx:</strong> Zone, time, temperature reading, status = "Excursion – [Duration and extent]"</p>
+<p><strong>2. Classify severity:</strong> If within acceptable range but trending (e.g., -22°F to -18°F when target is -20°F), this is P4 — log and monitor. If outside acceptable range for less than 30 minutes, this is P3 — email DC Manager and log. If outside acceptable range for more than 30 minutes (e.g., climb from -20°F to -10°F over 2 hours), this is P2 — email the Director of Supply Chain and DC Manager, post to #cold-chain-alerts. If temperature rises above -10°F in long-term storage, this is P1 — URGENT escalation.</p>
+<p><strong>Slack message format:</strong> "Zone [Zone] temperature excursion. Readings: [time/temp pairs]. Duration: [#] min. Status: [In range now / Escalating / Maintenance requested]. Email sent to [recipients]."</p>
+<p><strong>3. Email content:</strong> "Zone [zone] temperature excursion: readings [time/temp pairs], duration, current status. Recommend [maintenance check / compressor service / investigation]." <strong>4. Recommended action:</strong> DC Manager or maintenance to inspect compressor, thermostat, and reefer unit for malfunction.</p>
+<p><strong>5. Monitor:</strong> If excursion is &lt;15 minutes and temperature recovers, log and continue. If excursion repeats, escalate.</p>
+<h2 id="162-staging-dock-temperature-event">16.2 Staging Dock Temperature Event</h2>
+<p><strong>When:</strong> Product on the staging dock (H-D or S-C, setpoint -10°F, acceptable -15 to -5°F) arrives above acceptable range or warms above -5°F while staged.</p>
+<p><strong>Example report from dock crew:</strong> "Product staged in H-D at 08:00. Ambient dock temp</p>
+<p>32°F. Product still on dock at 08:45 — exceeded 30-minute limit. Pulp re-reading: -8°F."</p>
+<p><strong>Analyst action:</strong></p>
+<p><strong>1. Check time limit:</strong> Was product on the staging dock longer than the permitted window (30 min at ≤35°F, 15 min at &gt;35°F)?</p>
+<p><strong>2. If time limit exceeded and pulp temperature is still ≤-10°F:</strong> Log in</p>
+<p>temperature_log.xlsx as "Staging dock time exceedance — temp within range." P4. Proceed with outbound.</p>
+<p><strong>3. If time limit exceeded and pulp temperature is above -10°F:</strong> Apply the Temperature Acceptance Table (Section 6) as if this were a new inbound receipt. Log the event. Escalate per the tier that applies.</p>
+<p><strong>4. If product is within time limit:</strong> No action needed. Proceed with normal outbound scheduling.</p>
+<h2 id="163-inbound-load-events">16.3 Inbound Load Events</h2>
+<p>Handled during receiving processing (Section 12). Apply Temperature Acceptance Table.</p>
+<h1 id="17-end-of-shift-documentation">17. End-of-Shift Documentation</h1>
+<p>The closing documentation routine ensures all work is documented, pending items are tracked, and upcoming priority items are flagged. Complete the following steps in sequence.</p>
+<h2 id="171-final-temperature-log-review">17.1 Final Temperature Log Review</h2>
+<p>Step 1:</p>
+<p><strong>1. Pull temperature_log.xlsx.</strong></p>
+<p><strong>2. Review all temperature readings taken today</strong> across all zones (H-A, H-B, H-C, H-D, H-Q, S-A, S-B, S-C, S-Q).</p>
+<p><strong>3. Flag any readings outside acceptable range</strong> and confirm escalation status (P3, P2, or P1 email sent if applicable).</p>
+<p><strong>4. Note any zone trending:</strong> If a zone's morning reading was -20°F and evening reading is -18°F, note the trend for DC Manager awareness.</p>
+<h2 id="172-receiving-log-closeout">17.2 Receiving Log Closeout</h2>
+<p>Step 2:</p>
+<p><strong>1. Pull inbound_receiving_log.xlsx.</strong></p>
+<p><strong>2. Identify any open receipts</strong> (status not "Closed").</p>
+<p><strong>3. For each open receipt, document pending status.</strong> Examples: "Open – Pending Variance Resolution – Awaiting response from Waco (expected 4/17)," "Open – Pending Tier 4 Assessment – Quarantined pending Director decision," or "Open – Pending Damage Claim Response – Class 2 claim sent 4/15 (expected 4/17)."</p>
+<p><strong>4. Do not force-close receipts.</strong> Pending status tells next shift exactly what is being waited on.</p>
+<h2 id="173-reconciliation">17.3 Reconciliation</h2>
+<p>Step 3:</p>
+<p><strong>1. Verify all expected inbound has arrived</strong> or note which shipments are delayed/rescheduled.</p>
+<p><strong>2. Check for any unscheduled inbound</strong> (surprise vendor delivery, emergency transfer) and confirm it is logged.</p>
+<h2 id="174-tomorrows-preview">17.4 Tomorrow's Preview</h2>
+<p>Step 4:</p>
+<p><strong>1. Identify any pre-work needed:</strong> Pull transfer manifests or POs, check vendor_master.xlsx for special notes, and flag any inbound that requires special handling (short-dated product, new vendor, repeat issue vendor).</p>
+<p><strong>2. Note in end-of-shift email</strong> if tomorrow requires early preparation.</p>
+<h2 id="175-dispatcher-coordination">17.5 Dispatcher Coordination</h2>
+<p>Step 5:</p>
+<p><strong>1. Confirm today's order availability with Dispatcher.</strong></p>
+<ul>
+<li>"Tomorrow's delivery routes scheduled. Any holds or urgent SKUs short?" <strong>2. Note</strong></li>
+</ul>
+<p><strong>any SKU shortages or overstock</strong> for demand planning discussion next week.</p>
+<h2 id="176-end-of-shift-handoff-email">17.6 End-of-Shift Handoff Email</h2>
+<p>Send email using template E11:</p>
+<p><strong>Subject:</strong> End-of-Shift Handoff – [Date] – [Site]</p>
+<p><strong>Required content:</strong> Daily summary of all inbound receipts processed (manifest/PO number, cases, temperature tier, variance, status). Open items with pending status and expected resolution dates. Expiry monitoring status (any tier changes, new flags). Freezer zone status (all nominal, or note any excursions/trends). Tomorrow's preview (scheduled inbound, pre-work needed). Escalations (if any, with current status).</p>
+<h2 id="177-end-of-shift-slack-post">17.7 End-of-Shift Slack Post</h2>
+<p>Post to #receiving-[site]:</p>
+<p><strong>S2 (Clean Day):</strong> "EOD Summary [date]. 2 inbound receipts processed (1 Waco, 1 vendor). All clean, no flags. Zones normal. Ready for tomorrow."</p>
+<p><strong>S3 (With Flags):</strong> "EOD Summary [date]. 2 inbound receipts: Manifest 2026-04-15-001 clean. PO 54821 received with variance flag (+6 lbs dry ice, awaiting vendor response). Open claims: 1 pending. Zones normal.."</p>
+<h1 id="18-incident-report-procedure">18. Incident Report Procedure</h1>
+<h2 id="181-when-required">18.1 When Required</h2>
+<p>Incident reports are required for:</p>
+<ul>
+<li>
+<p><strong>P1 events:</strong> All critical incidents (temperature &gt;+10°F, contamination, rejection, major emergency)</p>
+</li>
+<li>
+<p><strong>P2 events:</strong> All urgent incidents (quarantine, major variance, vendor non-response)</p>
+</li>
+<li>
+<p><strong>P3 events:</strong> Only if quarantine is initiated (e.g., Class 2 damage held pending assessment,</p>
+</li>
+<li>
+<p>Tier 4 temperature pending reassessment)</p>
+</li>
+<li>
+<p><strong>Credit claims:</strong> One report per claim for amounts &gt;$500</p>
+</li>
+</ul>
+<h2 id="182-procedure">18.2 Procedure</h2>
+<p><strong>1. Create incident report.</strong></p>
+<p><strong>2. Complete required fields.</strong></p>
+<p><strong>3. Route for review via email attachment.</strong> For P1/P2 events, submit to DC Manager immediately (same day) — DC Manager forwards to the Director of Supply Chain if applicable. For P3 events, submit to DC Manager within 24 hours. For credit claims, submit with the claim email. The subject of the email should be "[filename] for review" and the body should be blank.</p>
+<h1 id="19-email-templates">19. Email Templates</h1>
+<p>The following email templates are referenced throughout this SOP. The structure and required fields must be preserved.</p>
+<h2 id="e1-waco-transfer-receipt-confirmation">E1 — Waco Transfer: Receipt Confirmation</h2>
+<p><strong>Subject:</strong> P4 – Receipt Confirmation – [Manifest#] – [Date]</p>
+<p>Required fields: manifest number, total pallets, total cases, temperature reading, variance (if any), status, lot codes received, notes (if any).</p>
+<h2 id="e2-waco-transfer-variance-notification">E2 — Waco Transfer: Variance Notification</h2>
+<p><strong>Subject:</strong> [Priority] – Variance Notification – [Manifest#] – [Date]</p>
+<p>Required fields: manifest number, SKU(s) affected, manifest qty, actual qty, variance (absolute and %), classification (Minor/Moderate/Major), request for explanation or credit.</p>
+<h2 id="e3-waco-transfer-temperature-excursion-notification">E3 — Waco Transfer: Temperature Excursion Notification</h2>
+<p><strong>Subject:</strong> [Priority] – Temperature Excursion – [Manifest#] – [Date]</p>
+<p>Required fields: manifest number, temperature readings, tier classification, and requested action.</p>
+<h2 id="e4-waco-transfer-load-rejection">E4 — Waco Transfer: Load Rejection</h2>
+<p><strong>Subject:</strong> P1 – Load Rejection – [Manifest#] – [Date]</p>
+<p>Required fields: manifest number, reason for rejection (temperature, damage, contamination, fraud), specific findings, and request for return transportation.</p>
+<h2 id="e5-vendor-shipment-receipt-confirmation">E5 — Vendor Shipment: Receipt Confirmation</h2>
+<p><strong>Subject:</strong> P4 – Receipt Confirmation – [PO#] – [Date]</p>
+<p>Required fields: PO number, SKUs received, quantities, condition (clean receipt notation), and any special notes.</p>
+<h2 id="e6-vendor-shipment-variance-notification">E6 — Vendor Shipment: Variance Notification</h2>
+<p><strong>Subject:</strong> [Priority] – Variance Notification – [PO#] – [Date]</p>
+<p>Required fields: PO number, SKU(s) affected, manifest qty, actual qty, variance, request for credit or explanation.</p>
+<h2 id="e7-vendor-shipment-rejection">E7 — Vendor Shipment: Rejection</h2>
+<p><strong>Subject:</strong> PRIORITY – Shipment Rejection – [PO#] – [Date]</p>
+<p>[Vendor Contact First Name],</p>
+<p>Manifest [#] rejected on [YYYY-MM-DD].</p>
+<p>Reason: [same as rejection reason on inbound_receiving_log.xlsx]</p>
+<p>Action required: Provide return transportation or Credit</p>
+<p>Please respond ASAP.</p>
+<p>Regards,</p>
+<p>Prairie Star Creamery</p>
+<h2 id="e8-credit-claim-waco">E8 — Credit Claim: Waco</h2>
+<p><strong>Subject:</strong> [Priority] – Credit Claim – [Manifest#] – [Date]</p>
+<p>Required fields: manifest number, damage class or variance detail, number of affected cases, dollar value, damage description (written), and account adjustment request.</p>
+<h2 id="e9-credit-claim-vendor">E9 — Credit Claim: Vendor</h2>
+<p><strong>Subject:</strong> [Priority] – Credit Claim – [PO#] – [Date]</p>
+<p>Required fields: PO number, damage class or variance detail, number of affected cases, dollar value, damage description, and request for credit note or replacement.</p>
+<h2 id="e10-inventory-adjustment-request">E10 — Inventory Adjustment Request</h2>
+<p><strong>Subject:</strong> [Priority] – Inventory Adjustment Request – [SKU] – [Date]</p>
+<p>Required fields: SKU, zone, system qty, physical qty, variance, dollar value, approval status, and requested system update.</p>
+<h2 id="e11-end-of-shift-handoff">E11 — End-of-Shift Handoff</h2>
+<p><strong>Subject:</strong> P4 – End-of-Shift Handoff – [Date] – [Site]</p>
+<p>Required fields: daily summary (inbound processed, key metrics), open items with pending status and expected resolution dates, expiry monitoring status, freezer zone status, tomorrow's preview, escalations (if any).</p>
+<h2 id="appendix-a-glossary-of-key-terms">Appendix A: Glossary of Key Terms</h2>
+<p><strong>Lot Code:</strong> Unique identifier for a batch of product. Format: [Line]-[Production Date]-[Sequence]. Used to track production date, shelf life, and expiry.</p>
+<p><strong>Tier (Temperature):</strong> Classification of inbound product temperature determining accept/reject decision (Tier 1-5, Section 6)..</p>
+<p><strong>Variance:</strong> Difference between manifest quantity and actual received quantity, expressed as</p>
+<p>absolute number or percentage.</p>
+<p><strong>Variance Tier:</strong> Classification of variance by severity (Exact Match/Minor/Moderate/Major, Section 7).</p>
+<p><strong>Priority Level:</strong> Classification of incident by severity and response urgency (P1-P4, Section 5). <strong>Damage Class:</strong> Classification of product damage by severity (Class 1-4, Section 9).</p>
+<p><strong>Escalation:</strong> Routing an issue to a higher-authority person (DC Manager, Director, etc.) for decision-making.</p>
+<p><strong>Quarantine:</strong> Holding product in a designated zone (H-Q or S-Q) pending assessment or disposition decision.</p>
+<p><strong>Credit Claim:</strong> Formal request to an origin (Waco or vendor) for financial credit due to damage, variance, or other discrepancy.</p>
+<p><strong>Disposition:</strong> Final action taken on problematic product (accept, reject, transfer, donate, waste, markdown, etc.).</p>
+<p><strong>Expiry Date:</strong> Date product is no longer safe or suitable for sale, calculated as Production Date + Shelf Life.</p>
+<p><strong>Cold Chain:</strong> Continuous temperature control from production through delivery, critical for ice cream integrity.</p>
+<p><strong>Reefer Truck:</strong> Temperature-controlled truck used for transporting frozen product.</p>
+<p><strong>Pallet:</strong> Standardized shipping platform (typically 40" × 48") used to stack and move cases in a warehouse.</p>
+<p><strong>Case:</strong> Standard shipping unit. Prairie Star cases contain either 8 pints, 12 sandwiches, or various quantities of packaging/dry goods.</p>
+<p><strong>SKU:</strong> Stock Keeping Unit. Unique identifier for a product (e.g., SC-001 = Sweet Cream Prairie, 8-count pint case).</p>
+<p><strong>Transfer Manifest:</strong> Official shipping document for a Waco transfer listing SKUs, quantities and lot codes, identified by and filed as ‘[Manifest Number].pdf’.</p>
+<p><strong>Manifest Number:</strong> An identifier assigned to an individual Manifest. Format is YYYYMMDD-NN (NN = 01, 02, 03 based on order of manifest generation that day, i.e. 20260331-01 is the Manifest Number for the first Manifest generated on 31st March, 2026).</p>
+<p><strong>PO (Purchase Order):</strong> Official purchase document for a vendor shipment listing SKUs, quantities, pricing, and delivery terms.</p>
+<p><strong>Staging Dock:</strong> Loading/unloading area where picked orders are held before outbound shipment. Maintained at -10°F (warmer than long-term storage).</p>
+<p><strong>Receiving Dock:</strong> Loading/unloading area where inbound product arrives and is initially</p>
+<p>received and counted.</p>
+</body></html>

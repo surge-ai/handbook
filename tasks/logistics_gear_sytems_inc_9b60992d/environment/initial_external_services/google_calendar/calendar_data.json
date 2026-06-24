@@ -1,0 +1,552 @@
+{
+  "events": {
+    "evt-001": {
+      "summary": "Daily Shift Start: Dock Schedule Review & #receiving-dock Post",
+      "start": {
+        "dateTime": "2026-04-14T06:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-14T06:15:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Open dock_schedule.xlsx, filter to today's date, review all appointments for hazmat flags, oversize handling notes, and unusually large shipments. Post daily dock summary to #receiving-dock by 06:15 CST (Template 23). Due no later than 15 min after shift start per SOP \u00a78.1.",
+      "location": "Meridian Plant \u2014 Receiving Office",
+      "id": "evt-001"
+    },
+    "evt-002": {
+      "summary": "Daily Shift Start: Dock Schedule Review & #receiving-dock Post",
+      "start": {
+        "dateTime": "2026-04-15T06:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-15T06:15:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Open dock_schedule.xlsx, filter to today's date, review all appointments for hazmat flags, oversize handling notes, and unusually large shipments. Post daily dock summary to #receiving-dock by 06:15 CST (Template 23). Due no later than 15 min after shift start per SOP \u00a78.1.",
+      "location": "Meridian Plant \u2014 Receiving Office",
+      "id": "evt-002"
+    },
+    "evt-003": {
+      "summary": "Daily Shift Start: Dock Schedule Review & #receiving-dock Post",
+      "start": {
+        "dateTime": "2026-04-16T06:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-16T06:15:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Open dock_schedule.xlsx, filter to today's date, review all appointments for hazmat flags, oversize handling notes, and unusually large shipments. Post daily dock summary to #receiving-dock by 06:15 CST (Template 23). Due no later than 15 min after shift start per SOP \u00a78.1.",
+      "location": "Meridian Plant \u2014 Receiving Office",
+      "id": "evt-003"
+    },
+    "evt-004": {
+      "summary": "Daily Shift Start: Dock Schedule Review & #receiving-dock Post",
+      "start": {
+        "dateTime": "2026-04-17T06:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-17T06:15:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Open dock_schedule.xlsx, filter to today's date, review all appointments for hazmat flags, oversize handling notes, and unusually large shipments. Post daily dock summary to #receiving-dock by 06:15 CST (Template 23). Due no later than 15 min after shift start per SOP \u00a78.1.",
+      "location": "Meridian Plant \u2014 Receiving Office",
+      "id": "evt-004"
+    },
+    "evt-005": {
+      "summary": "Daily Shift Start: Dock Schedule Review & #receiving-dock Post",
+      "start": {
+        "dateTime": "2026-04-20T06:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-20T06:15:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Open dock_schedule.xlsx, filter to today's date, review all appointments for hazmat flags, oversize handling notes, and unusually large shipments. Post daily dock summary to #receiving-dock by 06:15 CST (Template 23). Due no later than 15 min after shift start per SOP \u00a78.1.",
+      "location": "Meridian Plant \u2014 Receiving Office",
+      "id": "evt-005"
+    },
+    "evt-006": {
+      "summary": "End-of-Shift Handoff Post \u2014 #receiving-dock",
+      "start": {
+        "dateTime": "2026-04-14T13:45:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-14T14:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Publish end-of-shift handoff post in #receiving-dock at least 15 minutes before shift end (\u00a718.4). Post must include: open receipts still in-process, any quarantined material awaiting re-inspection, pending NCR deadlines, and timing breaches from the current shift. Close all open workbooks per \u00a718.6.",
+      "location": "Meridian Plant \u2014 Receiving Office",
+      "id": "evt-006"
+    },
+    "evt-007": {
+      "summary": "End-of-Shift Handoff Post \u2014 #receiving-dock",
+      "start": {
+        "dateTime": "2026-04-15T13:45:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-15T14:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Publish end-of-shift handoff post in #receiving-dock at least 15 minutes before shift end (\u00a718.4). Post must include: open receipts still in-process, any quarantined material awaiting re-inspection, pending NCR deadlines, and timing breaches from the current shift. Close all open workbooks per \u00a718.6.",
+      "location": "Meridian Plant \u2014 Receiving Office",
+      "id": "evt-007"
+    },
+    "evt-008": {
+      "summary": "End-of-Shift Handoff Post \u2014 #receiving-dock",
+      "start": {
+        "dateTime": "2026-04-16T13:45:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-16T14:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Publish end-of-shift handoff post in #receiving-dock at least 15 minutes before shift end (\u00a718.4). Post must include: open receipts still in-process, any quarantined material awaiting re-inspection, pending NCR deadlines, and timing breaches from the current shift. Close all open workbooks per \u00a718.6.",
+      "location": "Meridian Plant \u2014 Receiving Office",
+      "id": "evt-008"
+    },
+    "evt-009": {
+      "summary": "End-of-Shift Handoff Post \u2014 #receiving-dock",
+      "start": {
+        "dateTime": "2026-04-17T13:45:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-17T14:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Publish end-of-shift handoff post in #receiving-dock at least 15 minutes before shift end (\u00a718.4). Post must include: open receipts still in-process, any quarantined material awaiting re-inspection, pending NCR deadlines, and timing breaches from the current shift. Close all open workbooks per \u00a718.6.",
+      "location": "Meridian Plant \u2014 Receiving Office",
+      "id": "evt-009"
+    },
+    "evt-010": {
+      "summary": "End-of-Shift Handoff Post \u2014 #receiving-dock",
+      "start": {
+        "dateTime": "2026-04-20T13:45:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-20T14:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Publish end-of-shift handoff post in #receiving-dock at least 15 minutes before shift end (\u00a718.4). Post must include: open receipts still in-process, any quarantined material awaiting re-inspection, pending NCR deadlines, and timing breaches from the current shift. Close all open workbooks per \u00a718.6.",
+      "location": "Meridian Plant \u2014 Receiving Office",
+      "id": "evt-010"
+    },
+    "evt-011": {
+      "summary": "Inbound Dock Appointment Window \u2014 Batch A (SUP-0041, Alloy Direct Supply)",
+      "start": {
+        "dateTime": "2026-04-14T07:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-14T08:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "APPT-20260414-001 | Carrier: XPO Logistics | Dock 1 | Supplier: Alloy Direct Supply (SUP-0041) | Expected POs: MER-PO-8812, MER-PO-8813 | Hazmat: N | Safety-Critical parts (DS family \u2014 drivetrain shafts). Coordinator: confirm COC and MTR on arrival per \u00a712.1. Dock-to-stock target: 4 hours (safety-critical track).",
+      "location": "Meridian Plant \u2014 Dock 1",
+      "id": "evt-011"
+    },
+    "evt-012": {
+      "summary": "Inbound Dock Appointment Window \u2014 Batch B (SUP-0117, Precision Gear Works)",
+      "start": {
+        "dateTime": "2026-04-14T09:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-14T10:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "APPT-20260414-002 | Carrier: Yellow Freight | Dock 2 | Supplier: Precision Gear Works (SUP-0117) | Expected PO: MER-PO-8845 | Hazmat: N | Standard parts (GR family \u2014 gear rings). Dock-to-stock target: 2 hours (standard track). Perform quantity variance check per \u00a710.",
+      "location": "Meridian Plant \u2014 Dock 2",
+      "id": "evt-012"
+    },
+    "evt-013": {
+      "summary": "Inbound Dock Appointment Window \u2014 Batch C (SUP-0089, Coastal Fasteners LLC)",
+      "start": {
+        "dateTime": "2026-04-14T10:30:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-14T11:30:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "APPT-20260414-003 | Carrier: R&L Carriers | Dock 3 | Supplier: Coastal Fasteners LLC (SUP-0089) | Expected POs: MER-PO-8820, MER-PO-8821, MER-PO-8822 | Hazmat: N | Standard parts (HW family \u2014 hardware/fasteners). Multi-line PO receipt \u2014 review \u00a79.5 for partial fulfillment handling.",
+      "location": "Meridian Plant \u2014 Dock 3",
+      "id": "evt-013"
+    },
+    "evt-014": {
+      "summary": "Inbound Dock Appointment Window \u2014 Hazmat Shipment (SUP-0203, ChemLube Industrial)",
+      "start": {
+        "dateTime": "2026-04-15T07:30:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-15T08:30:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "APPT-20260415-001 | Carrier: Hazmat Express | Dock 4 | Supplier: ChemLube Industrial (SUP-0203) | Expected PO: MER-PO-8830 | Hazmat: Y | Gear lubricant (UN1993, Class 3, PG III). Follow \u00a717.1 hazmat procedure. Verify SDS and hazmat manifest on arrival \u2014 do not unload if either is missing. Coordinate with EHS per SOP-EHS-MER-01.",
+      "location": "Meridian Plant \u2014 Dock 4",
+      "id": "evt-014"
+    },
+    "evt-015": {
+      "summary": "Inbound Dock Appointment \u2014 Oversize Shipment (SUP-0055, MidSouth Fabricators)",
+      "start": {
+        "dateTime": "2026-04-16T08:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-16T09:30:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "APPT-20260416-001 | Carrier: Specialized Transport Co. | Dock 2 | Supplier: MidSouth Fabricators (SUP-0055) | Expected PO: MER-PO-8860 | Hazmat: N | Special Handling: oversize, lift gate required. Follow \u00a717.2 oversize and heavy-lift procedure. Confirm lift equipment availability with Curtis Yablonski (@cyablonski) prior to arrival.",
+      "location": "Meridian Plant \u2014 Dock 2",
+      "id": "evt-015"
+    },
+    "evt-016": {
+      "summary": "Inter-Plant Transfer Arrival \u2014 Boulder Plant (AX family, safety-critical)",
+      "start": {
+        "dateTime": "2026-04-17T09:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-17T10:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "APPT-20260417-002 | Carrier: Gear Systems Internal Fleet | Dock 1 | Origin: Boulder CO Plant | Transfer doc: IPT-2026-041 | Parts: AX family (axle components, safety-critical). Follow \u00a717.4 inter-plant transfer procedure. Confirm supplier status from Boulder plant is Active/Preferred per \u00a715.5 before putaway authorization.",
+      "location": "Meridian Plant \u2014 Dock 1",
+      "id": "evt-016"
+    },
+    "evt-017": {
+      "summary": "NCR-2026-0031 Major \u2014 Supplier Response Window Closes",
+      "start": {
+        "dateTime": "2026-04-14T08:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-14T09:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "10-business-day Major NCR response window for Precision Gear Works (SUP-0117) closes today. NCR-2026-0031 issued 2026-03-31, PO MER-PO-8790, GR-5495 short ship.",
+      "location": "Meridian Plant \u2014 Receiving Office",
+      "id": "evt-017"
+    },
+    "evt-018": {
+      "summary": "NCR Deadline \u2014 Supplier Response Due: SUP-0041 (NCR-2026-0028, Minor)",
+      "start": {
+        "dateTime": "2026-04-16T08:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-16T09:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "15-business-day Minor NCR response deadline for Alloy Direct Supply (SUP-0041). NCR-2026-0028 issued 2026-03-25 for Tier 1 cosmetic damage pattern (3 occurrences in 90 days, standard parts). If no response received, notify Joon-ho Park (@jpark) per \u00a714.5. Update ncr_log.xlsx with response status.",
+      "location": "Meridian Plant \u2014 Receiving Office",
+      "id": "evt-018"
+    },
+    "evt-019": {
+      "summary": "NCR-2026-0034 Critical \u2014 Supplier Response Window Closes",
+      "start": {
+        "dateTime": "2026-04-15T06:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-15T07:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "3-business-day Critical NCR response window for ChemLube Industrial (SUP-0203) closes today. NCR-2026-0034 issued 2026-04-10, MER-PO-HIST-AX, missing packing slip and COC.",
+      "location": "Meridian Plant \u2014 Receiving Office",
+      "id": "evt-019"
+    },
+    "evt-020": {
+      "summary": "Re-Inspection \u2014 HW-3305 Stock (REC-20260407-003, SUP-0089)",
+      "start": {
+        "dateTime": "2026-04-14T10:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-14T11:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Re-inspection of HW-3305 (Lock Nut M8 Gr8) stock in HW-1 Bin 1D. Receipt REC-20260407-003, Coastal Fasteners LLC (SUP-0089), received 2026-04-07.",
+      "location": "Meridian Plant \u2014 Quarantine Bay",
+      "id": "evt-020"
+    },
+    "evt-021": {
+      "summary": "Re-Inspection \u2014 DS-7735 Quarantine (REC-20260401-007)",
+      "start": {
+        "dateTime": "2026-04-17T10:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-17T11:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Re-inspection of quarantined DS-7735 (Drivetrain Shaft 7735) from REC-20260401-007. MidSouth Fabricators (SUP-0055). MTR received 2026-04-09 and on file.",
+      "location": "Meridian Plant \u2014 Quarantine Bay",
+      "id": "evt-021"
+    },
+    "evt-022": {
+      "summary": "Carrier Claim Deadline \u2014 REC-20260409-005 (Yellow Freight)",
+      "start": {
+        "dateTime": "2026-04-16T08:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-16T09:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "5-business-day carrier claim filing window closes today for REC-20260409-005. GR-5501 Tier 2 damage, Yellow Freight, NCR-2026-0033.",
+      "location": "Meridian Plant \u2014 Receiving Office",
+      "id": "evt-022"
+    },
+    "evt-023": {
+      "summary": "Concealed Damage Discovery Window Closing \u2014 REC-20260404-002",
+      "start": {
+        "dateTime": "2026-04-14T08:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-14T09:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Last day within the 10-business-day concealed damage window for REC-20260404-002 (Alloy Direct Supply, DS-family parts). Any concealed damage discovered after today will not qualify for a carrier claim per \u00a711.7. Confirm with production floor and quality that no concealed damage has been identified in these parts before this window closes.",
+      "location": "Meridian Plant \u2014 Production / Quality",
+      "id": "evt-023"
+    },
+    "evt-024": {
+      "summary": "Missing Documentation Follow-Up \u2014 SUP-0117 (Standard Parts, 5-Day Window Closing)",
+      "start": {
+        "dateTime": "2026-04-16T08:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-16T09:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "5-business-day missing documentation response deadline for Precision Gear Works (SUP-0117). Packing slip discrepancy identified in REC-20260409-006 \u2014 supplier was contacted per \u00a712.4 on 2026-04-09. If documentation not received by EOD today, escalate to NCR (Minor) per \u00a712.4 and notify Joon-ho Park. Update receiving_log.xlsx and ncr_log.xlsx.",
+      "location": "Meridian Plant \u2014 Receiving Office",
+      "id": "evt-024"
+    },
+    "evt-025": {
+      "summary": "Q2 Internal Audit Prep \u2014 Notify Receiving Team (Theo Brandt)",
+      "start": {
+        "date": "2026-06-22"
+      },
+      "end": {
+        "date": "2026-06-23"
+      },
+      "description": "Per SOP \u00a719.3.1, Theo Brandt (@tbrandt) notifies the Receiving team approximately one week before the Q2 audit window opens (first two weeks of July). Notification includes list of receipts to be sampled from April\u2013June. Coordinator should ensure receiving_log.xlsx and ncr_log.xlsx are current and all COCs/MTRs for safety-critical receipts are filed in the correct folders.",
+      "location": "Meridian Plant \u2014 Quality Department",
+      "id": "evt-025"
+    },
+    "evt-026": {
+      "summary": "Q2 Quarterly Internal Audit Window \u2014 Quality Team (Theo Brandt)",
+      "start": {
+        "date": "2026-07-01"
+      },
+      "end": {
+        "date": "2026-07-14"
+      },
+      "description": "Q2 quarterly internal audit of receiving operations per \u00a719.3.1. Sample period: April\u2013June receipts. Coordinator must respond to record retrieval requests within 1 business day (\u00a719.3.2). Do not modify records under audit review. Continue normal receiving operations in parallel. Audit reviews: receiving log completeness, NCR severity accuracy, quarantine flag timing, escalation routing, handoff post publication, and self-reported timing breaches.",
+      "location": "Meridian Plant \u2014 Quality Department",
+      "id": "evt-026"
+    },
+    "evt-027": {
+      "summary": "Q3 Quarterly Internal Audit Window \u2014 Quality Team (Theo Brandt)",
+      "start": {
+        "date": "2026-10-01"
+      },
+      "end": {
+        "date": "2026-10-14"
+      },
+      "description": "Q3 quarterly internal audit per \u00a719.3.1. Sample period: July\u2013September receipts. Coordinator must be available for record requests and follow-up questions from Theo Brandt's audit team. Do not modify records under review. See \u00a719.3.2 for full coordinator obligations during audit.",
+      "location": "Meridian Plant \u2014 Quality Department",
+      "id": "evt-027"
+    },
+    "evt-028": {
+      "summary": "Q4 Quarterly Internal Audit Window \u2014 Quality Team (Theo Brandt)",
+      "start": {
+        "date": "2027-01-04"
+      },
+      "end": {
+        "date": "2027-01-15"
+      },
+      "description": "Q4 quarterly internal audit per \u00a719.3.1. Sample period: October\u2013December 2026 receipts. Coordinator must be available for record requests and follow-up questions. Note: audit covers the full prior year's Q4. Begin preparing Q4 records for retrieval readiness before the holiday period. See \u00a719.3 for full audit protocol.",
+      "location": "Meridian Plant \u2014 Quality Department",
+      "id": "evt-028"
+    },
+    "evt-029": {
+      "summary": "SOP Annual Review Deadline \u2014 SOP-LOG-MER-02 v4.2",
+      "start": {
+        "date": "2027-02-01"
+      },
+      "end": {
+        "date": "2027-02-02"
+      },
+      "description": "Next scheduled review of SOP-LOG-MER-02 (Inbound Receiving & Supplier Nonconformance) per \u00a722.1. Document owner: Elizabeth Velasquez (Plant Logistics Manager). Approved by: Walter Finch (Plant Manager). Current version: 4.2, effective 2026-02-01. Coordinator should submit any proposed revisions or observed off-SOP situations (\u00a722.4) to Elizabeth Velasquez prior to this date.",
+      "location": "Meridian Plant \u2014 Logistics Office",
+      "id": "evt-029"
+    },
+    "evt-030": {
+      "summary": "Weekly Receiving Team Standup \u2014 Darnell Hooks (Supervisor)",
+      "start": {
+        "dateTime": "2026-04-14T06:30:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-14T07:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Weekly Receiving team standup with Darnell Hooks. Review: open NCRs and their upcoming deadlines, any quarantine material awaiting re-inspection, repeat-offender supplier watch list (\u00a715.3), open receipts from prior week, and unusual shipments expected this week (hazmat, oversize, inter-plant). Coordinator to bring receiving_log.xlsx and ncr_log.xlsx summaries.",
+      "location": "Meridian Plant \u2014 Receiving Office",
+      "id": "evt-030"
+    },
+    "evt-031": {
+      "summary": "Weekly Receiving Team Standup \u2014 Darnell Hooks (Supervisor)",
+      "start": {
+        "dateTime": "2026-04-21T06:30:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-21T07:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Weekly Receiving team standup with Darnell Hooks. Review: open NCRs and their upcoming deadlines, any quarantine material awaiting re-inspection, repeat-offender supplier watch list (\u00a715.3), open receipts from prior week, and unusual shipments expected this week (hazmat, oversize, inter-plant). Coordinator to bring receiving_log.xlsx and ncr_log.xlsx summaries.",
+      "location": "Meridian Plant \u2014 Receiving Office",
+      "id": "evt-031"
+    },
+    "evt-032": {
+      "summary": "Supplier Performance Review \u2014 SUP-0117 Repeat-Offender Watch (Joon-ho Park)",
+      "start": {
+        "dateTime": "2026-04-17T13:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-17T14:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Meeting with Joon-ho Park (@jpark) to review Precision Gear Works (SUP-0117) repeat-offender status per \u00a715.3. Supplier has 2 Major NCRs in the trailing 90 days. Third Major NCR would trigger automatic status review under \u00a715.4. Coordinator to bring ncr_log.xlsx history for SUP-0117. Procurement to advise on whether status downgrade to Probationary is warranted.",
+      "location": "Meridian Plant \u2014 Conference Room B",
+      "id": "evt-032"
+    },
+    "evt-033": {
+      "summary": "Dock Appointment: Direct-to-Line Delivery \u2014 Production Planning Authorization Required",
+      "start": {
+        "dateTime": "2026-04-20T07:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-20T08:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "APPT-20260420-001 | Carrier: FedEx Freight | Dock 1 | Supplier: Alloy Direct Supply (SUP-0041) | PO: MER-PO-8870 | Direct-to-line delivery per \u00a717.3. Aditi Krishnamurthy (Production Planning) must authorize this delivery type in advance. Coordinator follows modified putaway process \u2014 does not route through normal quarantine/hold area. Confirm authorization in writing (Slack) before truck arrives.",
+      "location": "Meridian Plant \u2014 Dock 1",
+      "id": "evt-033"
+    },
+    "evt-034": {
+      "summary": "Email Folder Housekeeping \u2014 Weekly Archiving (\u00a718.5)",
+      "start": {
+        "dateTime": "2026-04-17T13:30:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-17T14:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "End-of-week email folder housekeeping per \u00a718.5. Archive supplier response emails, NCR correspondence, and documentation requests by PO number. Confirm all NCR letters sent this week are saved in the correct ncr_log.xlsx row with the sent timestamp. Verify all packing slips and BOLs from the week are saved in the correct folders per \u00a75.4 naming conventions.",
+      "location": "Meridian Plant \u2014 Receiving Office",
+      "id": "evt-034"
+    },
+    "evt-035": {
+      "summary": "Email Folder Housekeeping \u2014 Weekly Archiving (\u00a718.5)",
+      "start": {
+        "dateTime": "2026-04-24T13:30:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-24T14:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "End-of-week email folder housekeeping per \u00a718.5. Archive supplier response emails, NCR correspondence, and documentation requests by PO number. Confirm all NCR letters sent this week are saved in the correct ncr_log.xlsx row with the sent timestamp. Verify all packing slips and BOLs from the week are saved in the correct folders per \u00a75.4 naming conventions.",
+      "location": "Meridian Plant \u2014 Receiving Office",
+      "id": "evt-035"
+    },
+    "evt-036": {
+      "summary": "Receiving Log Accuracy Self-Check \u2014 Monthly Spot Review",
+      "start": {
+        "dateTime": "2026-04-30T12:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-30T13:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Monthly self-check of receiving_log.xlsx for completeness. Verify all required columns are populated for every receipt this month. Check for any duplicate entries per \u00a713.8. Confirm all safety-critical receipts have COC, MTR, and heat number fields populated. Flag any discrepancies to Maribel Ortiz (@mortiz) per \u00a713.6 cross-shift correction procedure if the receipt is older than the current shift.",
+      "location": "Meridian Plant \u2014 Receiving Office",
+      "id": "evt-036"
+    },
+    "evt-037": {
+      "summary": "NCR-2026-0035 \u2014 2-Hour Issuance Window",
+      "start": {
+        "dateTime": "2026-04-14T09:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-14T11:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "NCR-2026-0035 opened for DS-7740 short ship on MER-PO-8812 (REC-20260414-002). Alloy Direct Supply (SUP-0041). Issue date: 2026-04-14.",
+      "location": "Meridian Plant \u2014 Receiving Office",
+      "id": "evt-037"
+    },
+    "evt-038": {
+      "summary": "NCR-2026-0035 \u2014 Letter Send Deadline",
+      "start": {
+        "dateTime": "2026-04-15T09:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-15T10:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "NCR letter deadline for NCR-2026-0035 (Alloy Direct Supply, DS-7740 short ship). NCR issued 2026-04-14.",
+      "location": "Meridian Plant \u2014 Receiving Office",
+      "id": "evt-038"
+    },
+    "evt-039": {
+      "summary": "Inbound Dock Appointment \u2014 SUP-0302 (Probationary Supplier, Enhanced Inspection)",
+      "start": {
+        "dateTime": "2026-04-21T08:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-21T09:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "APPT-20260421-001 | Carrier: Saia LTL | Dock 3 | Supplier: Ridgeline Components (SUP-0302) | PO: MER-PO-8880 | Probationary supplier status per \u00a715.2.3. Enhanced inspection required: 100% count verification, photograph all pallets before unloading begins, COC and packing slip must be on-site before any unloading is authorized. Coordinate with Curtis Yablonski (@cyablonski) and Theo Brandt (@tbrandt).",
+      "location": "Meridian Plant \u2014 Dock 3",
+      "id": "evt-039"
+    },
+    "evt-040": {
+      "summary": "Q1 Internal Audit Window \u2014 Quality Team (Theo Brandt)",
+      "start": {
+        "date": "2026-04-01"
+      },
+      "end": {
+        "date": "2026-04-14"
+      },
+      "description": "Q1 quarterly internal audit of receiving operations per \u00a719.3.1. Sample period: January\u2013March 2026 receipts. Audit window open through April 14. Coordinator must respond to all remaining record retrieval requests from Theo Brandt (@tbrandt) before this window closes. Document any audit-triggered corrective actions per \u00a719.4. Continue normal operations in parallel.",
+      "location": "Meridian Plant \u2014 Quality Department",
+      "id": "evt-040"
+    }
+  }
+}

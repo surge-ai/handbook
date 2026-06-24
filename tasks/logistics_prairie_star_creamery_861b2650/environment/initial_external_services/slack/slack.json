@@ -1,0 +1,1253 @@
+{
+  "users": {
+    "U001": {
+      "id": "U001",
+      "team_id": "T001",
+      "name": "d.reyes",
+      "deleted": false,
+      "real_name": "Daniel Reyes",
+      "profile": {
+        "real_name": "Daniel Reyes",
+        "display_name": "d.reyes",
+        "email": "daniel.reyes@prairiestar.com",
+        "title": "Director of Supply Chain"
+      },
+      "is_admin": true,
+      "is_owner": true,
+      "is_bot": false
+    },
+    "U002": {
+      "id": "U002",
+      "team_id": "T001",
+      "name": "e.carter",
+      "deleted": false,
+      "real_name": "Emily Carter",
+      "profile": {
+        "real_name": "Emily Carter",
+        "display_name": "e.carter",
+        "email": "emily.carter@prairiestar.com",
+        "title": "Demand Planning Manager"
+      },
+      "is_admin": true,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U003": {
+      "id": "U003",
+      "team_id": "T001",
+      "name": "m.liu",
+      "deleted": false,
+      "real_name": "Marcus Liu",
+      "profile": {
+        "real_name": "Marcus Liu",
+        "display_name": "m.liu",
+        "email": "marcus.liu@prairiestar.com",
+        "title": "Procurement Specialist"
+      },
+      "is_admin": true,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U004": {
+      "id": "U004",
+      "team_id": "T001",
+      "name": "h.brooks",
+      "deleted": false,
+      "real_name": "Hannah Brooks",
+      "profile": {
+        "real_name": "Hannah Brooks",
+        "display_name": "h.brooks",
+        "email": "hannah.brooks@prairiestar.com",
+        "title": "Inventory Analyst"
+      },
+      "is_admin": true,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U005": {
+      "id": "U005",
+      "team_id": "T001",
+      "name": "j.patel",
+      "deleted": false,
+      "real_name": "Jacob Patel",
+      "profile": {
+        "real_name": "Jacob Patel",
+        "display_name": "j.patel",
+        "email": "jacob.patel@prairiestar.com",
+        "title": "Production Planner"
+      },
+      "is_admin": true,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U006": {
+      "id": "U006",
+      "team_id": "T001",
+      "name": "prairie.ioa",
+      "deleted": false,
+      "real_name": "IOA",
+      "profile": {
+        "real_name": "IOA",
+        "display_name": "prairie.ioa",
+        "email": "ioa@prairiestar.com",
+        "title": "Inventory Operations Analyst"
+      },
+      "is_admin": true,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U007": {
+      "id": "U007",
+      "team_id": "T001",
+      "name": "c.mendoza",
+      "deleted": false,
+      "real_name": "Carlos Mendoza",
+      "profile": {
+        "real_name": "Carlos Mendoza",
+        "display_name": "c.mendoza",
+        "email": "carlos.mendoza@prairiestar.com",
+        "title": "DC Manager (Houston)"
+      },
+      "is_admin": true,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U008": {
+      "id": "U008",
+      "team_id": "T001",
+      "name": "a.nguyen",
+      "deleted": false,
+      "real_name": "Alicia Nguyen",
+      "profile": {
+        "real_name": "Alicia Nguyen",
+        "display_name": "a.nguyen",
+        "email": "alicia.nguyen@prairiestar.com",
+        "title": "Inventory & Receiving Coordinator (Houston)"
+      },
+      "is_admin": true,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U009": {
+      "id": "U009",
+      "team_id": "T001",
+      "name": "s.kim",
+      "deleted": false,
+      "real_name": "Sarah Kim",
+      "profile": {
+        "real_name": "Sarah Kim",
+        "display_name": "s.kim",
+        "email": "sarah.kim@prairiestar.com",
+        "title": "Warehouse Associate (Senior) (Houston)"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U010": {
+      "id": "U010",
+      "team_id": "T001",
+      "name": "k.white",
+      "deleted": false,
+      "real_name": "Kevin White",
+      "profile": {
+        "real_name": "Kevin White",
+        "display_name": "k.white",
+        "email": "kevin.white@prairiestar.com",
+        "title": "Warehouse Associate (Houston)"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U011": {
+      "id": "U011",
+      "team_id": "T001",
+      "name": "b.keller",
+      "deleted": false,
+      "real_name": "Brandon Keller",
+      "profile": {
+        "real_name": "Brandon Keller",
+        "display_name": "b.keller",
+        "email": "brandon.keller@prairiestar.com",
+        "title": "Dispatcher/Route Planner (Houston)"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U012": {
+      "id": "U012",
+      "team_id": "T001",
+      "name": "l.ramirez",
+      "deleted": false,
+      "real_name": "Luis Ramirez",
+      "profile": {
+        "real_name": "Luis Ramirez",
+        "display_name": "l.ramirez",
+        "email": "luis.ramirez@prairiestar.com",
+        "title": "Lead Driver (Houston)"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U013": {
+      "id": "U013",
+      "team_id": "T001",
+      "name": "r.dubois",
+      "deleted": false,
+      "real_name": "Renee Dubois",
+      "profile": {
+        "real_name": "Renee Dubois",
+        "display_name": "r.dubois",
+        "email": "renee.dubois@prairiestar.com",
+        "title": "DC Manager (Shreveport)"
+      },
+      "is_admin": true,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U014": {
+      "id": "U014",
+      "team_id": "T001",
+      "name": "w.green",
+      "deleted": false,
+      "real_name": "Wyatt Green",
+      "profile": {
+        "real_name": "Wyatt Green",
+        "display_name": "w.green",
+        "email": "wyatt.green@prairiestar.com",
+        "title": "Inventory & Receiving Coordinator (Shreveport)"
+      },
+      "is_admin": true,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U015": {
+      "id": "U015",
+      "team_id": "T001",
+      "name": "o.bennett",
+      "deleted": false,
+      "real_name": "Olivia Bennett",
+      "profile": {
+        "real_name": "Olivia Bennett",
+        "display_name": "o.bennett",
+        "email": "olivia.bennett@prairiestar.com",
+        "title": "Warehouse Associate (Senior) (Shreveport)"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U016": {
+      "id": "U016",
+      "team_id": "T001",
+      "name": "d.harper",
+      "deleted": false,
+      "real_name": "Dylan Harper",
+      "profile": {
+        "real_name": "Dylan Harper",
+        "display_name": "d.harper",
+        "email": "dylan.harper@prairiestar.com",
+        "title": "Dispatcher/Route Planner (Shreveport)"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    }
+  },
+  "channels": {
+    "C001": {
+      "id": "C001",
+      "name": "receiving-houston",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1609459200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "receiving-houston",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1772438400,
+      "creator": "U007",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Houston DC receiving operations",
+        "creator": "U007",
+        "last_set": 1609459200
+      },
+      "purpose": {
+        "value": "Coordination for receiving operations at Houston Distribution Center",
+        "creator": "U007",
+        "last_set": 1609459200
+      }
+    },
+    "C002": {
+      "id": "C002",
+      "name": "dc-escalations-houston",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1609459200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "dc-escalations-houston",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1772438400,
+      "creator": "U007",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Houston DC escalations and critical issues",
+        "creator": "U007",
+        "last_set": 1609459200
+      },
+      "purpose": {
+        "value": "Escalation channel for urgent issues at Houston DC",
+        "creator": "U007",
+        "last_set": 1609459200
+      }
+    },
+    "C003": {
+      "id": "C003",
+      "name": "receiving-shreveport",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1609459200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "receiving-shreveport",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1772438400,
+      "creator": "U013",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Shreveport DC receiving operations",
+        "creator": "U013",
+        "last_set": 1609459200
+      },
+      "purpose": {
+        "value": "Coordination for receiving operations at Shreveport Distribution Center",
+        "creator": "U013",
+        "last_set": 1609459200
+      }
+    },
+    "C004": {
+      "id": "C004",
+      "name": "dc-escalations-shreveport",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1609459200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "dc-escalations-shreveport",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1772438400,
+      "creator": "U013",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Shreveport DC escalations and critical issues",
+        "creator": "U013",
+        "last_set": 1609459200
+      },
+      "purpose": {
+        "value": "Escalation channel for urgent issues at Shreveport DC",
+        "creator": "U013",
+        "last_set": 1609459200
+      }
+    },
+    "C005": {
+      "id": "C005",
+      "name": "cold-chain-alerts",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1609459200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "cold-chain-alerts",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1772438400,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Temperature monitoring and cold chain alerts",
+        "creator": "U001",
+        "last_set": 1609459200
+      },
+      "purpose": {
+        "value": "Critical alerts for cold chain temperature excursions and equipment failures",
+        "creator": "U001",
+        "last_set": 1609459200
+      }
+    },
+    "C006": {
+      "id": "C006",
+      "name": "waco-production-coord",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1609459200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "waco-production-coord",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1772438400,
+      "creator": "U005",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Waco production planning and coordination",
+        "creator": "U005",
+        "last_set": 1609459200
+      },
+      "purpose": {
+        "value": "Coordination channel for Waco production planning and scheduling",
+        "creator": "U005",
+        "last_set": 1609459200
+      }
+    },
+    "C007": {
+      "id": "C007",
+      "name": "inventory-ops",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1609459200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "inventory-ops",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1772438400,
+      "creator": "U004",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Inventory operations and coordination",
+        "creator": "U004",
+        "last_set": 1609459200
+      },
+      "purpose": {
+        "value": "Cross-functional inventory operations coordination and reporting",
+        "creator": "U004",
+        "last_set": 1609459200
+      }
+    },
+    "D001": {
+      "id": "D001",
+      "created": 1609459200,
+      "is_archived": false,
+      "is_im": true,
+      "is_org_shared": false,
+      "context_team_id": "T001",
+      "updated": 1772438400,
+      "user": "U001",
+      "name": "dm-d.reyes",
+      "is_channel": false,
+      "is_group": false,
+      "is_mpim": false,
+      "is_private": true,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "dm-d.reyes",
+      "is_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "members": [
+        "U001"
+      ]
+    },
+    "D002": {
+      "id": "D002",
+      "created": 1609459200,
+      "is_archived": false,
+      "is_im": true,
+      "is_org_shared": false,
+      "context_team_id": "T001",
+      "updated": 1772438400,
+      "user": "U002",
+      "name": "dm-e.carter",
+      "is_channel": false,
+      "is_group": false,
+      "is_mpim": false,
+      "is_private": true,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "dm-e.carter",
+      "is_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "members": [
+        "U002"
+      ]
+    },
+    "D003": {
+      "id": "D003",
+      "created": 1609459200,
+      "is_archived": false,
+      "is_im": true,
+      "is_org_shared": false,
+      "context_team_id": "T001",
+      "updated": 1772438400,
+      "user": "U003",
+      "name": "dm-m.liu",
+      "is_channel": false,
+      "is_group": false,
+      "is_mpim": false,
+      "is_private": true,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "dm-m.liu",
+      "is_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "members": [
+        "U003"
+      ]
+    },
+    "D004": {
+      "id": "D004",
+      "created": 1609459200,
+      "is_archived": false,
+      "is_im": true,
+      "is_org_shared": false,
+      "context_team_id": "T001",
+      "updated": 1772438400,
+      "user": "U004",
+      "name": "dm-h.brooks",
+      "is_channel": false,
+      "is_group": false,
+      "is_mpim": false,
+      "is_private": true,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "dm-h.brooks",
+      "is_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "members": [
+        "U004"
+      ]
+    },
+    "D005": {
+      "id": "D005",
+      "created": 1609459200,
+      "is_archived": false,
+      "is_im": true,
+      "is_org_shared": false,
+      "context_team_id": "T001",
+      "updated": 1772438400,
+      "user": "U005",
+      "name": "dm-j.patel",
+      "is_channel": false,
+      "is_group": false,
+      "is_mpim": false,
+      "is_private": true,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "dm-j.patel",
+      "is_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "members": [
+        "U005"
+      ]
+    },
+    "D006": {
+      "id": "D006",
+      "created": 1609459200,
+      "is_archived": false,
+      "is_im": true,
+      "is_org_shared": false,
+      "context_team_id": "T001",
+      "updated": 1772438400,
+      "user": "U006",
+      "name": "dm-prairie.ioa",
+      "is_channel": false,
+      "is_group": false,
+      "is_mpim": false,
+      "is_private": true,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "dm-prairie.ioa",
+      "is_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "members": [
+        "U006"
+      ]
+    },
+    "D007": {
+      "id": "D007",
+      "created": 1609459200,
+      "is_archived": false,
+      "is_im": true,
+      "is_org_shared": false,
+      "context_team_id": "T001",
+      "updated": 1772438400,
+      "user": "U007",
+      "name": "dm-c.mendoza",
+      "is_channel": false,
+      "is_group": false,
+      "is_mpim": false,
+      "is_private": true,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "dm-c.mendoza",
+      "is_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "members": [
+        "U007"
+      ]
+    },
+    "D008": {
+      "id": "D008",
+      "created": 1609459200,
+      "is_archived": false,
+      "is_im": true,
+      "is_org_shared": false,
+      "context_team_id": "T001",
+      "updated": 1772438400,
+      "user": "U008",
+      "name": "dm-a.nguyen",
+      "is_channel": false,
+      "is_group": false,
+      "is_mpim": false,
+      "is_private": true,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "dm-a.nguyen",
+      "is_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "members": [
+        "U008"
+      ]
+    },
+    "D009": {
+      "id": "D009",
+      "created": 1609459200,
+      "is_archived": false,
+      "is_im": true,
+      "is_org_shared": false,
+      "context_team_id": "T001",
+      "updated": 1772438400,
+      "user": "U009",
+      "name": "dm-s.kim",
+      "is_channel": false,
+      "is_group": false,
+      "is_mpim": false,
+      "is_private": true,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "dm-s.kim",
+      "is_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "members": [
+        "U009"
+      ]
+    },
+    "D010": {
+      "id": "D010",
+      "created": 1609459200,
+      "is_archived": false,
+      "is_im": true,
+      "is_org_shared": false,
+      "context_team_id": "T001",
+      "updated": 1772438400,
+      "user": "U010",
+      "name": "dm-k.white",
+      "is_channel": false,
+      "is_group": false,
+      "is_mpim": false,
+      "is_private": true,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "dm-k.white",
+      "is_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "members": [
+        "U010"
+      ]
+    },
+    "D011": {
+      "id": "D011",
+      "created": 1609459200,
+      "is_archived": false,
+      "is_im": true,
+      "is_org_shared": false,
+      "context_team_id": "T001",
+      "updated": 1772438400,
+      "user": "U011",
+      "name": "dm-b.keller",
+      "is_channel": false,
+      "is_group": false,
+      "is_mpim": false,
+      "is_private": true,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "dm-b.keller",
+      "is_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "members": [
+        "U011"
+      ]
+    },
+    "D012": {
+      "id": "D012",
+      "created": 1609459200,
+      "is_archived": false,
+      "is_im": true,
+      "is_org_shared": false,
+      "context_team_id": "T001",
+      "updated": 1772438400,
+      "user": "U012",
+      "name": "dm-l.ramirez",
+      "is_channel": false,
+      "is_group": false,
+      "is_mpim": false,
+      "is_private": true,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "dm-l.ramirez",
+      "is_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "members": [
+        "U012"
+      ]
+    },
+    "D013": {
+      "id": "D013",
+      "created": 1609459200,
+      "is_archived": false,
+      "is_im": true,
+      "is_org_shared": false,
+      "context_team_id": "T001",
+      "updated": 1772438400,
+      "user": "U013",
+      "name": "dm-r.dubois",
+      "is_channel": false,
+      "is_group": false,
+      "is_mpim": false,
+      "is_private": true,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "dm-r.dubois",
+      "is_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "members": [
+        "U013"
+      ]
+    },
+    "D014": {
+      "id": "D014",
+      "created": 1609459200,
+      "is_archived": false,
+      "is_im": true,
+      "is_org_shared": false,
+      "context_team_id": "T001",
+      "updated": 1772438400,
+      "user": "U014",
+      "name": "dm-w.green",
+      "is_channel": false,
+      "is_group": false,
+      "is_mpim": false,
+      "is_private": true,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "dm-w.green",
+      "is_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "members": [
+        "U014"
+      ]
+    },
+    "D015": {
+      "id": "D015",
+      "created": 1609459200,
+      "is_archived": false,
+      "is_im": true,
+      "is_org_shared": false,
+      "context_team_id": "T001",
+      "updated": 1772438400,
+      "user": "U015",
+      "name": "dm-o.bennett",
+      "is_channel": false,
+      "is_group": false,
+      "is_mpim": false,
+      "is_private": true,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "dm-o.bennett",
+      "is_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "members": [
+        "U015"
+      ]
+    },
+    "D016": {
+      "id": "D016",
+      "created": 1609459200,
+      "is_archived": false,
+      "is_im": true,
+      "is_org_shared": false,
+      "context_team_id": "T001",
+      "updated": 1772438400,
+      "user": "U016",
+      "name": "dm-d.harper",
+      "is_channel": false,
+      "is_group": false,
+      "is_mpim": false,
+      "is_private": true,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "dm-d.harper",
+      "is_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "members": [
+        "U016"
+      ]
+    }
+  },
+  "messages": {
+    "C001": [
+      {
+        "type": "message",
+        "user": "U006",
+        "text": "test",
+        "ts": "1772438400.000100",
+        "team": "T001",
+        "reactions": [
+          {
+            "name": "heart",
+            "users": [
+              "U001",
+              "U002",
+              "U003",
+              "U004",
+              "U005",
+              "U006",
+              "U007",
+              "U008",
+              "U009",
+              "U010",
+              "U011",
+              "U012",
+              "U013",
+              "U014",
+              "U015",
+              "U016"
+            ],
+            "count": 16
+          }
+        ]
+      }
+    ],
+    "C002": [
+      {
+        "type": "message",
+        "user": "U006",
+        "text": "test",
+        "ts": "1772438400.000100",
+        "team": "T001",
+        "reactions": [
+          {
+            "name": "heart",
+            "users": [
+              "U001",
+              "U002",
+              "U003",
+              "U004",
+              "U005",
+              "U006",
+              "U007",
+              "U008",
+              "U009",
+              "U010",
+              "U011",
+              "U012",
+              "U013",
+              "U014",
+              "U015",
+              "U016"
+            ],
+            "count": 16
+          }
+        ]
+      }
+    ],
+    "C003": [
+      {
+        "type": "message",
+        "user": "U006",
+        "text": "test",
+        "ts": "1772438400.000100",
+        "team": "T001",
+        "reactions": [
+          {
+            "name": "heart",
+            "users": [
+              "U001",
+              "U002",
+              "U003",
+              "U004",
+              "U005",
+              "U006",
+              "U007",
+              "U008",
+              "U009",
+              "U010",
+              "U011",
+              "U012",
+              "U013",
+              "U014",
+              "U015",
+              "U016"
+            ],
+            "count": 16
+          }
+        ]
+      }
+    ],
+    "C004": [
+      {
+        "type": "message",
+        "user": "U006",
+        "text": "test",
+        "ts": "1772438400.000100",
+        "team": "T001",
+        "reactions": [
+          {
+            "name": "heart",
+            "users": [
+              "U001",
+              "U002",
+              "U003",
+              "U004",
+              "U005",
+              "U006",
+              "U007",
+              "U008",
+              "U009",
+              "U010",
+              "U011",
+              "U012",
+              "U013",
+              "U014",
+              "U015",
+              "U016"
+            ],
+            "count": 16
+          }
+        ]
+      }
+    ],
+    "C005": [
+      {
+        "type": "message",
+        "user": "U006",
+        "text": "test",
+        "ts": "1772438400.000100",
+        "team": "T001",
+        "reactions": [
+          {
+            "name": "heart",
+            "users": [
+              "U001",
+              "U002",
+              "U003",
+              "U004",
+              "U005",
+              "U006",
+              "U007",
+              "U008",
+              "U009",
+              "U010",
+              "U011",
+              "U012",
+              "U013",
+              "U014",
+              "U015",
+              "U016"
+            ],
+            "count": 16
+          }
+        ]
+      }
+    ],
+    "C006": [
+      {
+        "type": "message",
+        "user": "U006",
+        "text": "test",
+        "ts": "1772438400.000100",
+        "team": "T001",
+        "reactions": [
+          {
+            "name": "heart",
+            "users": [
+              "U001",
+              "U002",
+              "U003",
+              "U004",
+              "U005",
+              "U006",
+              "U007",
+              "U008",
+              "U009",
+              "U010",
+              "U011",
+              "U012",
+              "U013",
+              "U014",
+              "U015",
+              "U016"
+            ],
+            "count": 16
+          }
+        ]
+      }
+    ],
+    "C007": [
+      {
+        "type": "message",
+        "user": "U006",
+        "text": "test",
+        "ts": "1772438400.000100",
+        "team": "T001",
+        "reactions": [
+          {
+            "name": "heart",
+            "users": [
+              "U001",
+              "U002",
+              "U003",
+              "U004",
+              "U005",
+              "U006",
+              "U007",
+              "U008",
+              "U009",
+              "U010",
+              "U011",
+              "U012",
+              "U013",
+              "U014",
+              "U015",
+              "U016"
+            ],
+            "count": 16
+          }
+        ]
+      }
+    ],
+    "D001": [],
+    "D002": [],
+    "D003": [],
+    "D004": [],
+    "D005": [],
+    "D006": [],
+    "D007": [],
+    "D008": [],
+    "D009": [],
+    "D010": [],
+    "D011": [],
+    "D012": [],
+    "D013": [],
+    "D014": [],
+    "D015": [],
+    "D016": []
+  },
+  "counters": {
+    "messageId": 1000000
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "mailbox": {
+    "email": "billing@careig.com",
+    "name": "CareIG Billing"
+  },
+  "contacts": [
+    {
+      "email": "lchoi@careig.com",
+      "name": "Lisa Choi"
+    },
+    {
+      "email": "rkim@careig.com",
+      "name": "Rachel Kim"
+    },
+    {
+      "email": "pnolan.rn@homeinfusionkc.com",
+      "name": "Patricia Nolan"
+    },
+    {
+      "email": "evasquez@kcimunocare.com",
+      "name": "Dr. Elena Vasquez"
+    },
+    {
+      "email": "m.thornton64@gmail.com",
+      "name": "Margaret Thornton"
+    },
+    {
+      "email": "intake@careig.com",
+      "name": "CareIG Intake"
+    },
+    {
+      "email": "pa@careig.com",
+      "name": "CareIG PA"
+    },
+    {
+      "email": "compliance@careig.com",
+      "name": "CareIG Compliance"
+    },
+    {
+      "email": "legal@careig.com",
+      "name": "CareIG Legal"
+    },
+    {
+      "email": "pa.review@sunflowerhealthks.com",
+      "name": "Sunflower Health PA"
+    },
+    {
+      "email": "claims@sunflowerhealthks.com",
+      "name": "Sunflower Health Claims"
+    },
+    {
+      "email": "appeals@sunflowerhealthks.com",
+      "name": "Sunflower Health Appeals"
+    }
+  ],
+  "folders": [],
+  "emails": [
+    {
+      "email_id": "1",
+      "folder": "INBOX",
+      "subject": "CareIG — Consent Form Required | Thornton",
+      "from_addr": "intake@careig.com",
+      "to_addr": "m.thornton64@gmail.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-09-02T11:45:00-05:00",
+      "message_id": "<msg001-careig-20260902@careig.com>",
+      "in_reply_to": null,
+      "body_text": "Dear Margaret,\n\nThank you for speaking with us today. Dr. Vasquez has referred you to CareIG Specialty Pharmacy for home IVIG infusion therapy.\n\nBefore we can proceed with verifying your insurance and scheduling your first visit, we need a signed Consent for Treatment and Financial Responsibility form. Please find the form attached.\n\nYou may sign and return it by:\n- Replying to this email with the signed form attached\n- Faxing to (816) 555-0200\n\nOnce we verify your insurance, we will also contact you with your estimated out-of-pocket costs before scheduling.\n\nIf you have any questions, please call us at (816) 555-0200.\n\nLisa Choi — CareIG Specialty Pharmacy, Intake\nintake@careig.com | (816) 555-0200",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "2",
+      "folder": "INBOX",
+      "subject": "PA REQUEST CareIG | Thornton | MemberID: SHC-884729103",
+      "from_addr": "pa@careig.com",
+      "to_addr": "pa.review@sunflowerhealthks.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-09-12T09:15:00-05:00",
+      "message_id": "<msg002-careig-20260912@careig.com>",
+      "in_reply_to": null,
+      "body_text": "To Whom It May Concern,\n\nPlease find attached the Prior Authorization request packet for the following patient:\n\nPatient: Margaret Thornton\nDOB: 1961-06-15\nMember ID: SHC-884729103\nGroup: GRP-20145\n\nRequesting Provider: CareIG Specialty Pharmacy\nNPI: 1234567893\nTax ID: 47-3821056\n\nPrescribing Physician: Dr. Elena Vasquez, NPI: 1528074836\n\nRequested Drug: Privigen 40g IV every 4 weeks\nDiagnosis: D83.9\n\nAttached: pa_submission_packet_SunflowerHealth.pdf\n\nPlease direct questions to pa@careig.com or (816) 555-0200.\n\nRachel Kim — CareIG Specialty Pharmacy, Prior Authorization\npa@careig.com",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "pa_submission_packet_SunflowerHealth.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjQKJeLjz9MKMyAwIG9iago8PC9UeXBlL1BhZ2UvUGFyZW50IDIgMCBSL01lZGlhQm94WzAgMCA2MTIgNzkyXS9Db250ZW50cyA0IDAgUj4+CmVuZG9iago0IDAgb2JqCjw8L0xlbmd0aCA0OD4+CnN0cmVhbQpCVAovRjEgMTIgVGYKNzIgNzIwIFRkCihQQSBTdWJtaXNzaW9uIFBhY2tldCkgVGoKRVQKZW5kc3RyZWFtCmVuZG9iagoxIDAgb2JqCjw8L1R5cGUvQ2F0YWxvZy9QYWdlcyAyIDAgUj4+CmVuZG9iagoyIDAgb2JqCjw8L1R5cGUvUGFnZXMvS2lkc1szIDAgUl0vQ291bnQgMT4+CmVuZG9iagp4cmVmCjAgNQowMDAwMDAwMDAwIDY1NTM1IGYgCjAwMDAwMDAyMDggMDAwMDAgbiAKMDAwMDAwMDI1NyAwMDAwMCBuIAowMDAwMDAwMDE1IDAwMDAwIG4gCjAwMDAwMDAxMDQgMDAwMDAgbiAKdHJhaWxlcgo8PC9TaXplIDUvUm9vdCAxIDAgUj4+CnN0YXJ0eHJlZgozMTQKJUVPRgo="
+        }
+      ]
+    },
+    {
+      "email_id": "3",
+      "folder": "INBOX",
+      "subject": "VISIT ASSIGNMENT CIG_2026_0341 | 2026-10-05",
+      "from_addr": "intake@careig.com",
+      "to_addr": "pnolan.rn@homeinfusionkc.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-09-28T15:20:00-05:00",
+      "message_id": "<msg003-careig-20260928@careig.com>",
+      "in_reply_to": null,
+      "body_text": "Dear Patricia,\n\nYou have been assigned to the following IVIG home infusion visit:\n\nCase ID: CIG_2026_0341\nPatient: Margaret Thornton\nAddress: 4218 Ridgeview Ct, Kansas City, KS 66112\nDate: 2026-10-05 at 9:00 AM\nEstimated Duration: 3.5 hours\n\nDrug: Privigen\nOrdered Dose: 40g\nRoute: IV\nLot Number: LG26K0489\nNDC: 44206-0455-10\nInfusion Start Rate: 30 mL/hr\n\nPre-Medication Orders: Diphenhydramine 50mg IV prior to infusion\n\nEmergency Contact: (913) 555-0147\nContraindications: No known drug allergies. No history of hyperprolinemia.\n\nPlease confirm receipt of this assignment by replying to this email.\n\nRachel Kim — CareIG Specialty Pharmacy\nintake@careig.com",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "4",
+      "folder": "INBOX",
+      "subject": "Re: VISIT ASSIGNMENT CIG_2026_0341 | 2026-10-05",
+      "from_addr": "pnolan.rn@homeinfusionkc.com",
+      "to_addr": "intake@careig.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-09-28T16:05:00-05:00",
+      "message_id": "<msg004-pnolan-20260928@homeinfusionkc.com>",
+      "in_reply_to": "<msg003-careig-20260928@careig.com>",
+      "body_text": "Hi Rachel,\n\nConfirmed. I have the visit on my schedule for 10/05 at 9:00 AM.\n\nI will pick up the Privigen and supplies from the delivery at the patient address beforehand. Please let me know if anything changes.\n\nPatricia Nolan, RN\n(913) 555-0283",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+  }
+  ],
+  "next_email_id": 5
+}

@@ -1,0 +1,1102 @@
+{
+  "issues": {
+    "OPS-6": {
+      "id": "10001",
+      "key": "OPS-6",
+      "self": "https://api.atlassian.com/ex/jira/vanguard/rest/api/3/issue/OPS-6",
+      "fields": {
+        "summary": "Q1 2026 International Wire Transfer Audit Population",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Q1 2026 international wire transfer population. Workbook: Wire_Population_Q1_2026.xlsx"
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10001",
+          "name": "Task",
+          "description": "A task that needs to be done",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "10000",
+          "key": "OPS",
+          "name": "Vanguard Ops Project Space",
+          "description": "Vanguard Shield Mutual operations environment",
+          "projectTypeKey": "business",
+          "simplified": false,
+          "self": "https://api.atlassian.com/ex/jira/vanguard/rest/api/3/project/OPS"
+        },
+        "status": {
+          "id": "10000",
+          "name": "Open",
+          "description": "Issue is open and ready for work",
+          "statusCategory": {
+            "id": 2,
+            "key": "new",
+            "name": "To Do",
+            "colorName": "blue-gray"
+          }
+        },
+        "priority": {
+          "id": "3",
+          "name": "Medium"
+        },
+        "reporter": {
+          "accountId": "sys-001",
+          "accountType": "atlassian",
+          "emailAddress": "system@vanguardshield.com",
+          "displayName": "System",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "creator": {
+          "accountId": "sys-001",
+          "accountType": "atlassian",
+          "emailAddress": "system@vanguardshield.com",
+          "displayName": "System",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "created": "2026-03-01T08:00:00.000Z",
+        "updated": "2026-03-01T08:00:00.000Z",
+        "labels": [
+          "quarterly-audit",
+          "wire-transfers",
+          "q1-2026"
+        ],
+        "components": [],
+        "fixVersions": [],
+        "versions": [],
+        "attachment": [
+          {
+            "id": "10001",
+            "filename": "Wire_Population_Q1_2026.xlsx",
+            "author": {
+              "accountId": "sys-001",
+              "accountType": "atlassian",
+              "emailAddress": "system@vanguardshield.com",
+              "displayName": "System",
+              "active": true,
+              "timeZone": "America/New_York"
+            },
+            "created": "2026-03-01T08:00:00.000Z",
+            "size": 45632,
+            "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "content": "",
+            "self": "https://api.atlassian.com/ex/jira/vanguard/rest/api/3/attachment/10001"
+          }
+        ]
+      }
+    },
+    "OPS-2": {
+      "id": "10002",
+      "key": "OPS-2",
+      "self": "https://api.atlassian.com/ex/jira/vanguard/rest/api/3/issue/OPS-2",
+      "fields": {
+        "summary": "International Wire \u2014 INTL-2026-0147",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Wire ID: INTL-2026-0147",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Amount: $312,500.00"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Payee: Meridian Reinsurance Partners Ltd."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Bank: Deutsche Bank AG, Frankfurt"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Date Initiated: 2026-03-04"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Quarter: Q1 2026"
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10001",
+          "name": "Task",
+          "description": "A task that needs to be done",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "10000",
+          "key": "OPS",
+          "name": "Vanguard Ops Project Space",
+          "description": "Vanguard Shield Mutual operations environment",
+          "projectTypeKey": "business",
+          "simplified": false,
+          "self": "https://api.atlassian.com/ex/jira/vanguard/rest/api/3/project/OPS"
+        },
+        "status": {
+          "id": "10000",
+          "name": "Open",
+          "description": "Issue is open and ready for work",
+          "statusCategory": {
+            "id": 2,
+            "key": "new",
+            "name": "To Do",
+            "colorName": "blue-gray"
+          }
+        },
+        "priority": {
+          "id": "3",
+          "name": "Medium"
+        },
+        "reporter": {
+          "accountId": "sys-001",
+          "accountType": "atlassian",
+          "emailAddress": "system@vanguardshield.com",
+          "displayName": "System",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "creator": {
+          "accountId": "sys-001",
+          "accountType": "atlassian",
+          "emailAddress": "system@vanguardshield.com",
+          "displayName": "System",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "created": "2026-03-04T10:00:00.000Z",
+        "updated": "2026-03-04T10:00:00.000Z",
+        "labels": [],
+        "components": [],
+        "fixVersions": [],
+        "versions": [],
+        "customfield_10100": "INTL-2026-0147",
+        "customfield_10101": 312500.0,
+        "customfield_10102": "Meridian Reinsurance Partners Ltd.",
+        "customfield_10103": "Deutsche Bank AG, Frankfurt",
+        "customfield_10104": "2026-03-04",
+        "customfield_10105": "Q1 2026"
+      }
+    },
+    "OPS-3": {
+      "id": "10003",
+      "key": "OPS-3",
+      "self": "https://api.atlassian.com/ex/jira/vanguard/rest/api/3/issue/OPS-3",
+      "fields": {
+        "summary": "International Wire \u2014 INTL-2026-0151",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Wire ID: INTL-2026-0151",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Amount: $87,200.00"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Payee: Castlewood Actuarial Services B.V."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Bank: ING Bank N.V., Amsterdam"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Date Initiated: 2026-03-11"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Quarter: Q1 2026"
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10001",
+          "name": "Task",
+          "description": "A task that needs to be done",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "10000",
+          "key": "OPS",
+          "name": "Vanguard Ops Project Space",
+          "description": "Vanguard Shield Mutual operations environment",
+          "projectTypeKey": "business",
+          "simplified": false,
+          "self": "https://api.atlassian.com/ex/jira/vanguard/rest/api/3/project/OPS"
+        },
+        "status": {
+          "id": "10000",
+          "name": "Open",
+          "description": "Issue is open and ready for work",
+          "statusCategory": {
+            "id": 2,
+            "key": "new",
+            "name": "To Do",
+            "colorName": "blue-gray"
+          }
+        },
+        "priority": {
+          "id": "3",
+          "name": "Medium"
+        },
+        "reporter": {
+          "accountId": "sys-001",
+          "accountType": "atlassian",
+          "emailAddress": "system@vanguardshield.com",
+          "displayName": "System",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "creator": {
+          "accountId": "sys-001",
+          "accountType": "atlassian",
+          "emailAddress": "system@vanguardshield.com",
+          "displayName": "System",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "created": "2026-03-11T10:00:00.000Z",
+        "updated": "2026-03-11T10:00:00.000Z",
+        "labels": [],
+        "components": [],
+        "fixVersions": [],
+        "versions": [],
+        "customfield_10100": "INTL-2026-0151",
+        "customfield_10101": 87200.0,
+        "customfield_10102": "Castlewood Actuarial Services B.V.",
+        "customfield_10103": "ING Bank N.V., Amsterdam",
+        "customfield_10104": "2026-03-11",
+        "customfield_10105": "Q1 2026"
+      }
+    },
+    "OPS-4": {
+      "id": "10004",
+      "key": "OPS-4",
+      "self": "https://api.atlassian.com/ex/jira/vanguard/rest/api/3/issue/OPS-4",
+      "fields": {
+        "summary": "International Wire \u2014 INTL-2026-0158",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Wire ID: INTL-2026-0158",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Amount: $204,750.00"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Payee: Nordic Claims Recovery AS"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Bank: DNB Bank ASA, Oslo"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Date Initiated: 2026-03-19"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Quarter: Q1 2026"
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10001",
+          "name": "Task",
+          "description": "A task that needs to be done",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "10000",
+          "key": "OPS",
+          "name": "Vanguard Ops Project Space",
+          "description": "Vanguard Shield Mutual operations environment",
+          "projectTypeKey": "business",
+          "simplified": false,
+          "self": "https://api.atlassian.com/ex/jira/vanguard/rest/api/3/project/OPS"
+        },
+        "status": {
+          "id": "10000",
+          "name": "Open",
+          "description": "Issue is open and ready for work",
+          "statusCategory": {
+            "id": 2,
+            "key": "new",
+            "name": "To Do",
+            "colorName": "blue-gray"
+          }
+        },
+        "priority": {
+          "id": "3",
+          "name": "Medium"
+        },
+        "reporter": {
+          "accountId": "sys-001",
+          "accountType": "atlassian",
+          "emailAddress": "system@vanguardshield.com",
+          "displayName": "System",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "creator": {
+          "accountId": "sys-001",
+          "accountType": "atlassian",
+          "emailAddress": "system@vanguardshield.com",
+          "displayName": "System",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "created": "2026-03-19T10:00:00.000Z",
+        "updated": "2026-03-19T10:00:00.000Z",
+        "labels": [],
+        "components": [],
+        "fixVersions": [],
+        "versions": [],
+        "customfield_10100": "INTL-2026-0158",
+        "customfield_10101": 204750.0,
+        "customfield_10102": "Nordic Claims Recovery AS",
+        "customfield_10103": "DNB Bank ASA, Oslo",
+        "customfield_10104": "2026-03-19",
+        "customfield_10105": "Q1 2026"
+      }
+    },
+    "OPS-5": {
+      "id": "10005",
+      "key": "OPS-5",
+      "self": "https://api.atlassian.com/ex/jira/vanguard/rest/api/3/issue/OPS-5",
+      "fields": {
+        "summary": "International Wire \u2014 INTL-2026-0163",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Wire ID: INTL-2026-0163",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Amount: $519,000.00"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Payee: Avondale Risk Consulting Ltd."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Bank: Barclays Bank PLC, London"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Date Initiated: 2026-03-27"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Quarter: Q1 2026"
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10001",
+          "name": "Task",
+          "description": "A task that needs to be done",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "10000",
+          "key": "OPS",
+          "name": "Vanguard Ops Project Space",
+          "description": "Vanguard Shield Mutual operations environment",
+          "projectTypeKey": "business",
+          "simplified": false,
+          "self": "https://api.atlassian.com/ex/jira/vanguard/rest/api/3/project/OPS"
+        },
+        "status": {
+          "id": "10000",
+          "name": "Open",
+          "description": "Issue is open and ready for work",
+          "statusCategory": {
+            "id": 2,
+            "key": "new",
+            "name": "To Do",
+            "colorName": "blue-gray"
+          }
+        },
+        "priority": {
+          "id": "3",
+          "name": "Medium"
+        },
+        "reporter": {
+          "accountId": "sys-001",
+          "accountType": "atlassian",
+          "emailAddress": "system@vanguardshield.com",
+          "displayName": "System",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "creator": {
+          "accountId": "sys-001",
+          "accountType": "atlassian",
+          "emailAddress": "system@vanguardshield.com",
+          "displayName": "System",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "created": "2026-03-27T10:00:00.000Z",
+        "updated": "2026-03-27T10:00:00.000Z",
+        "labels": [],
+        "components": [],
+        "fixVersions": [],
+        "versions": [],
+        "customfield_10100": "INTL-2026-0163",
+        "customfield_10101": 519000.0,
+        "customfield_10102": "Avondale Risk Consulting Ltd.",
+        "customfield_10103": "Barclays Bank PLC, London",
+        "customfield_10104": "2026-03-27",
+        "customfield_10105": "Q1 2026"
+      }
+    },
+    "OPS-1": {
+      "id": "10006",
+      "key": "OPS-1",
+      "self": "https://api.atlassian.com/ex/jira/vanguard/rest/api/3/issue/OPS-1",
+      "fields": {
+        "summary": "Queue Roles & Assignees \u2014 Compliance-Alerts",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Queue Roles & Assignees",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": ""
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Chief Compliance Officer: diana.walsh",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "(Update this field when the role changes. All wire exception tickets must be assigned to the username listed here.)"
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10003",
+          "name": "Pinned",
+          "description": "Pinned board information",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "10000",
+          "key": "OPS",
+          "name": "Vanguard Ops Project Space",
+          "description": "Vanguard Shield Mutual operations environment",
+          "projectTypeKey": "business",
+          "simplified": false,
+          "self": "https://api.atlassian.com/ex/jira/vanguard/rest/api/3/project/OPS"
+        },
+        "status": {
+          "id": "10001",
+          "name": "Pinned",
+          "description": "Pinned to board",
+          "statusCategory": {
+            "id": 2,
+            "key": "new",
+            "name": "To Do",
+            "colorName": "blue-gray"
+          }
+        },
+        "priority": {
+          "id": "1",
+          "name": "Highest"
+        },
+        "reporter": {
+          "accountId": "diana.walsh",
+          "accountType": "atlassian",
+          "emailAddress": "diana.walsh@vanguardshield.com",
+          "displayName": "Diana Walsh",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "creator": {
+          "accountId": "diana.walsh",
+          "accountType": "atlassian",
+          "emailAddress": "diana.walsh@vanguardshield.com",
+          "displayName": "Diana Walsh",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "created": "2026-01-01T08:00:00.000Z",
+        "updated": "2026-03-01T08:00:00.000Z",
+        "labels": [
+          "compliance-alerts",
+          "board-info",
+          "pinned"
+        ],
+        "components": [],
+        "fixVersions": [],
+        "versions": [],
+        "customfield_10200": "diana.walsh",
+        "customfield_10201": "Chief Compliance Officer"
+      }
+    }
+  },
+  "sprints": {},
+  "comments": {},
+  "projects": {
+    "OPS": {
+      "id": "10000",
+      "key": "OPS",
+      "name": "Vanguard Ops Project Space",
+      "description": "Vanguard Shield Mutual operations environment",
+      "projectTypeKey": "business",
+      "simplified": false,
+      "self": "https://api.atlassian.com/ex/jira/vanguard/rest/api/3/project/OPS"
+    }
+  },
+  "boards": {
+    "1": {
+      "id": 1,
+      "name": "Compliance-Alerts",
+      "type": "kanban",
+      "self": "https://api.atlassian.com/ex/jira/vanguard/rest/agile/1.0/board/1",
+      "location": {
+        "projectId": 10000,
+        "projectKey": "OPS",
+        "projectName": "Vanguard Ops Project Space",
+        "displayName": "Vanguard Ops Project Space"
+      },
+      "projectKey": "OPS"
+    }
+  },
+  "fields": [
+    {
+      "id": "summary",
+      "key": "summary",
+      "name": "Summary",
+      "custom": false,
+      "searchable": true,
+      "orderable": true,
+      "navigable": true
+    },
+    {
+      "id": "description",
+      "key": "description",
+      "name": "Description",
+      "custom": false,
+      "searchable": true,
+      "orderable": false,
+      "navigable": true
+    },
+    {
+      "id": "status",
+      "key": "status",
+      "name": "Status",
+      "custom": false,
+      "searchable": true,
+      "orderable": false,
+      "navigable": true
+    },
+    {
+      "id": "priority",
+      "key": "priority",
+      "name": "Priority",
+      "custom": false,
+      "searchable": true,
+      "orderable": true,
+      "navigable": true
+    },
+    {
+      "id": "assignee",
+      "key": "assignee",
+      "name": "Assignee",
+      "custom": false,
+      "searchable": true,
+      "orderable": true,
+      "navigable": true
+    },
+    {
+      "id": "reporter",
+      "key": "reporter",
+      "name": "Reporter",
+      "custom": false,
+      "searchable": true,
+      "orderable": true,
+      "navigable": true
+    },
+    {
+      "id": "created",
+      "key": "created",
+      "name": "Created",
+      "custom": false,
+      "searchable": true,
+      "orderable": true,
+      "navigable": true
+    },
+    {
+      "id": "updated",
+      "key": "updated",
+      "name": "Updated",
+      "custom": false,
+      "searchable": true,
+      "orderable": true,
+      "navigable": true
+    },
+    {
+      "id": "labels",
+      "key": "labels",
+      "name": "Labels",
+      "custom": false,
+      "searchable": true,
+      "orderable": false,
+      "navigable": true
+    },
+    {
+      "id": "issuetype",
+      "key": "issuetype",
+      "name": "Issue Type",
+      "custom": false,
+      "searchable": true,
+      "orderable": false,
+      "navigable": true
+    },
+    {
+      "id": "project",
+      "key": "project",
+      "name": "Project",
+      "custom": false,
+      "searchable": true,
+      "orderable": false,
+      "navigable": true
+    },
+    {
+      "id": "attachment",
+      "key": "attachment",
+      "name": "Attachment",
+      "custom": false,
+      "searchable": true,
+      "orderable": false,
+      "navigable": true
+    },
+    {
+      "id": "customfield_10100",
+      "key": "customfield_10100",
+      "name": "Wire ID",
+      "custom": true,
+      "searchable": true,
+      "orderable": true,
+      "navigable": true,
+      "schema": {
+        "type": "string",
+        "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textfield",
+        "customId": 10100
+      }
+    },
+    {
+      "id": "customfield_10101",
+      "key": "customfield_10101",
+      "name": "Wire Amount",
+      "custom": true,
+      "searchable": true,
+      "orderable": true,
+      "navigable": true,
+      "schema": {
+        "type": "number",
+        "custom": "com.atlassian.jira.plugin.system.customfieldtypes:float",
+        "customId": 10101
+      }
+    },
+    {
+      "id": "customfield_10102",
+      "key": "customfield_10102",
+      "name": "Payee",
+      "custom": true,
+      "searchable": true,
+      "orderable": true,
+      "navigable": true,
+      "schema": {
+        "type": "string",
+        "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textfield",
+        "customId": 10102
+      }
+    },
+    {
+      "id": "customfield_10103",
+      "key": "customfield_10103",
+      "name": "Bank",
+      "custom": true,
+      "searchable": true,
+      "orderable": true,
+      "navigable": true,
+      "schema": {
+        "type": "string",
+        "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textfield",
+        "customId": 10103
+      }
+    },
+    {
+      "id": "customfield_10104",
+      "key": "customfield_10104",
+      "name": "Date Initiated",
+      "custom": true,
+      "searchable": true,
+      "orderable": true,
+      "navigable": true,
+      "schema": {
+        "type": "date",
+        "custom": "com.atlassian.jira.plugin.system.customfieldtypes:datepicker",
+        "customId": 10104
+      }
+    },
+    {
+      "id": "customfield_10105",
+      "key": "customfield_10105",
+      "name": "Quarter",
+      "custom": true,
+      "searchable": true,
+      "orderable": true,
+      "navigable": true,
+      "schema": {
+        "type": "string",
+        "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textfield",
+        "customId": 10105
+      }
+    },
+    {
+      "id": "customfield_10200",
+      "key": "customfield_10200",
+      "name": "CCO Username",
+      "custom": true,
+      "searchable": true,
+      "orderable": true,
+      "navigable": true,
+      "schema": {
+        "type": "string",
+        "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textfield",
+        "customId": 10200
+      }
+    },
+    {
+      "id": "customfield_10201",
+      "key": "customfield_10201",
+      "name": "CCO Role Title",
+      "custom": true,
+      "searchable": true,
+      "orderable": true,
+      "navigable": true,
+      "schema": {
+        "type": "string",
+        "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textfield",
+        "customId": 10201
+      }
+    }
+  ],
+  "linkTypes": [
+    {
+      "id": "10001",
+      "name": "Blocks",
+      "inward": "is blocked by",
+      "outward": "blocks"
+    },
+    {
+      "id": "10002",
+      "name": "Cloners",
+      "inward": "is cloned by",
+      "outward": "clones"
+    },
+    {
+      "id": "10003",
+      "name": "Duplicate",
+      "inward": "is duplicated by",
+      "outward": "duplicates"
+    },
+    {
+      "id": "10004",
+      "name": "Relates",
+      "inward": "relates to",
+      "outward": "relates to"
+    },
+    {
+      "id": "10005",
+      "name": "Parent-Child",
+      "inward": "is child of",
+      "outward": "is parent of"
+    }
+  ],
+  "counters": {
+    "issueId": 10007,
+    "sprintId": 1000,
+    "commentId": 1,
+    "attachmentId": 10002,
+    "boardId": 2
+  },
+  "users": {
+    "sys-001": {
+      "accountId": "sys-001",
+      "displayName": "System",
+      "accountType": "atlassian",
+      "emailAddress": "system@vanguardshield.com"
+    },
+    "diana.walsh": {
+      "accountId": "diana.walsh",
+      "displayName": "Diana Walsh",
+      "accountType": "atlassian",
+      "emailAddress": "diana.walsh@vanguardshield.com"
+    }
+  },
+  "statuses": {
+    "1": {
+      "id": "1",
+      "name": "Open",
+      "statusCategory": {
+        "id": 2,
+        "key": "new",
+        "name": "To Do",
+        "colorName": "blue-gray"
+      }
+    },
+    "2": {
+      "id": "2",
+      "name": "Pinned",
+      "statusCategory": {
+        "id": 2,
+        "key": "new",
+        "name": "To Do",
+        "colorName": "blue-gray"
+      }
+    }
+  },
+  "workflow": {
+    "Open": [
+      {
+        "id": "1",
+        "name": "To Open",
+        "to": "Open"
+      },
+      {
+        "id": "2",
+        "name": "To Pinned",
+        "to": "Pinned"
+      }
+    ],
+    "Pinned": [
+      {
+        "id": "3",
+        "name": "To Open",
+        "to": "Open"
+      },
+      {
+        "id": "4",
+        "name": "To Pinned",
+        "to": "Pinned"
+      }
+    ]
+  },
+  "defaultStatusValue": "Open"
+}

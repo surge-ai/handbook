@@ -1,0 +1,60 @@
+{
+  "mailbox": {
+    "email": "ap@meridianpartners.com",
+    "name": "Meridian Partners AP"
+  },
+  "contacts": [
+    {
+      "email": "s.voth@cascadeclean.com",
+      "name": "Sandra Voth"
+    },
+    {
+      "email": "t.okonkwo@meridianpartners.com",
+      "name": "T. Okonkwo"
+    }
+  ],
+  "groups": [
+    {
+      "email": "finance@meridianpartners.com",
+      "name": "Finance Team",
+      "members": [
+        "ap@meridianpartners.com",
+        "t.okonkwo@meridianpartners.com"
+      ]
+    }
+  ],
+  "folders": [
+    {
+      "name": "Vendors"
+    },
+    {
+      "name": "Archive"
+    }
+  ],
+  "emails": [
+    {
+      "email_id": "EMAIL-001",
+      "folder": "INBOX",
+      "subject": "Invoice CC-2026-0168 \u2013 April Cleaning Services",
+      "from_addr": "s.voth@cascadeclean.com",
+      "to_addr": "ap@meridianpartners.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-02T08:47:00Z",
+      "message_id": "<cc2026-0168-apr@cascadeclean.com>",
+      "in_reply_to": null,
+      "body_text": "Good morning,\n\nPlease find attached our invoice for monthly cleaning services for April 2026.\n\nInvoice Details:\n- Invoice Number: CC-2026-0168\n- Invoice Date: April 1, 2026\n- Amount Due: $2,200.00\n- Vendor ID: V-000031\n\nThis invoice covers our standard monthly services per our agreement on file. Services were completed as scheduled throughout the billing period.\n\nAs always, please remit payment within 30 days of invoice date. If you have any questions or need additional documentation, don't hesitate to reach out.\n\nThank you for your continued partnership!\n\nBest regards,\n\nSandra Voth\nAccounts Receivable Manager\nCascade Cleaning Co.\ns.voth@cascadeclean.com\n(503) 555-0192",
+      "body_html": null,
+      "is_read": false,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "INV-CC-2026-0168.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjQKJeLjz9MKMyAwIG9iago8PC9UeXBlL1BhZ2UvUGFyZW50IDIgMCBSL01lZGlhQm94WzAgMCA2MTIgNzkyXS9Db250ZW50cyA0IDAgUj4+CmVuZG9iago0IDAgb2JqCjw8L0xlbmd0aCA0NT4+CnN0cmVhbQpCVAovRjEgMTIgVGYKNzIgNzIwIFRkCihJbnZvaWNlIENDLTIwMjYtMDE2OCkgVGoKRVQKZW5kc3RyZWFtCmVuZG9iagoxIDAgb2JqCjw8L1R5cGUvQ2F0YWxvZy9QYWdlcyAyIDAgUj4+CmVuZG9iagoyIDAgb2JqCjw8L1R5cGUvUGFnZXMvS2lkc1szIDAgUl0vQ291bnQgMT4+CmVuZG9iagp4cmVmCjAgNQowMDAwMDAwMDAwIDY1NTM1IGYgCjAwMDAwMDAyMTggMDAwMDAgbiAKMDAwMDAwMDI2NyAwMDAwMCBuIAowMDAwMDAwMDE1IDAwMDAwIG4gCjAwMDAwMDAxMDkgMDAwMDAgbiAKdHJhaWxlcgo8PC9TaXplIDUvUm9vdCAxIDAgUj4+CnN0YXJ0eHJlZgozMjQKJSVFT0Y="
+        }
+      ]
+    }
+  ],
+  "next_email_id": 8
+}

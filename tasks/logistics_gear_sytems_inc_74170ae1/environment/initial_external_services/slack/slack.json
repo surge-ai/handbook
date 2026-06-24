@@ -1,0 +1,838 @@
+{
+  "users": {
+    "U001": {
+      "id": "U001",
+      "team_id": "TGSINC",
+      "name": "sam.moreno",
+      "deleted": false,
+      "real_name": "Sam Moreno",
+      "tz": "America/Chicago",
+      "tz_label": "Central Daylight Time",
+      "tz_offset": -21600,
+      "profile": {
+        "real_name": "Sam Moreno",
+        "display_name": "smoreno",
+        "email": "sam.moreno@gearsystems.com",
+        "title": "Inbound Materials Coordinator",
+        "first_name": "Sam",
+        "last_name": "Moreno"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false,
+      "is_app_user": false
+    },
+    "U002": {
+      "id": "U002",
+      "team_id": "TGSINC",
+      "name": "darnell.hooks",
+      "deleted": false,
+      "real_name": "Darnell Hooks",
+      "tz": "America/Chicago",
+      "tz_label": "Central Daylight Time",
+      "tz_offset": -21600,
+      "profile": {
+        "real_name": "Darnell Hooks",
+        "display_name": "dhooks",
+        "email": "darnell.hooks@gearsystems.com",
+        "title": "Receiving Supervisor",
+        "first_name": "Darnell",
+        "last_name": "Hooks"
+      },
+      "is_admin": true,
+      "is_owner": false,
+      "is_bot": false,
+      "is_app_user": false
+    },
+    "U003": {
+      "id": "U003",
+      "team_id": "TGSINC",
+      "name": "elizabeth.velasquez",
+      "deleted": false,
+      "real_name": "Elizabeth Velasquez",
+      "tz": "America/Chicago",
+      "tz_label": "Central Daylight Time",
+      "tz_offset": -21600,
+      "profile": {
+        "real_name": "Elizabeth Velasquez",
+        "display_name": "evelasquez",
+        "email": "elizabeth.velasquez@gearsystems.com",
+        "title": "Plant Logistics Manager",
+        "first_name": "Elizabeth",
+        "last_name": "Velasquez"
+      },
+      "is_admin": true,
+      "is_owner": false,
+      "is_bot": false,
+      "is_app_user": false
+    },
+    "U004": {
+      "id": "U004",
+      "team_id": "TGSINC",
+      "name": "walter.finch",
+      "deleted": false,
+      "real_name": "Walter Finch",
+      "tz": "America/Chicago",
+      "tz_label": "Central Daylight Time",
+      "tz_offset": -21600,
+      "profile": {
+        "real_name": "Walter Finch",
+        "display_name": "wfinch",
+        "email": "walter.finch@gearsystems.com",
+        "title": "Plant Manager",
+        "first_name": "Walter",
+        "last_name": "Finch"
+      },
+      "is_admin": true,
+      "is_owner": false,
+      "is_bot": false,
+      "is_app_user": false
+    },
+    "U005": {
+      "id": "U005",
+      "team_id": "TGSINC",
+      "name": "theo.brandt",
+      "deleted": false,
+      "real_name": "Theo Brandt",
+      "tz": "America/Chicago",
+      "tz_label": "Central Daylight Time",
+      "tz_offset": -21600,
+      "profile": {
+        "real_name": "Theo Brandt",
+        "display_name": "tbrandt",
+        "email": "theo.brandt@gearsystems.com",
+        "title": "Quality Manager",
+        "first_name": "Theo",
+        "last_name": "Brandt"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false,
+      "is_app_user": false
+    },
+    "U006": {
+      "id": "U006",
+      "team_id": "TGSINC",
+      "name": "joonho.park",
+      "deleted": false,
+      "real_name": "Joon-ho Park",
+      "tz": "America/Chicago",
+      "tz_label": "Central Daylight Time",
+      "tz_offset": -21600,
+      "profile": {
+        "real_name": "Joon-ho Park",
+        "display_name": "jpark",
+        "email": "joonho.park@gearsystems.com",
+        "title": "Procurement Analyst",
+        "first_name": "Joon-ho",
+        "last_name": "Park"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false,
+      "is_app_user": false
+    },
+    "U007": {
+      "id": "U007",
+      "team_id": "TGSINC",
+      "name": "reggie.lemoine",
+      "deleted": false,
+      "real_name": "Reggie Lemoine",
+      "tz": "America/Chicago",
+      "tz_label": "Central Daylight Time",
+      "tz_offset": -21600,
+      "profile": {
+        "real_name": "Reggie Lemoine",
+        "display_name": "rlemoine",
+        "email": "reggie.lemoine@gearsystems.com",
+        "title": "Quality Inspector",
+        "first_name": "Reggie",
+        "last_name": "Lemoine"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false,
+      "is_app_user": false
+    },
+    "U008": {
+      "id": "U008",
+      "team_id": "TGSINC",
+      "name": "aditi.krishnamurthy",
+      "deleted": false,
+      "real_name": "Aditi Krishnamurthy",
+      "tz": "America/Chicago",
+      "tz_label": "Central Daylight Time",
+      "tz_offset": -21600,
+      "profile": {
+        "real_name": "Aditi Krishnamurthy",
+        "display_name": "akrishnamurthy",
+        "email": "aditi.krishnamurthy@gearsystems.com",
+        "title": "Production Planning Analyst",
+        "first_name": "Aditi",
+        "last_name": "Krishnamurthy"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false,
+      "is_app_user": false
+    },
+    "U009": {
+      "id": "U009",
+      "team_id": "TGSINC",
+      "name": "curtis.yablonski",
+      "deleted": false,
+      "real_name": "Curtis Yablonski",
+      "tz": "America/Chicago",
+      "tz_label": "Central Daylight Time",
+      "tz_offset": -21600,
+      "profile": {
+        "real_name": "Curtis Yablonski",
+        "display_name": "cyablonski",
+        "email": "curtis.yablonski@gearsystems.com",
+        "title": "Dock Lead",
+        "first_name": "Curtis",
+        "last_name": "Yablonski"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false,
+      "is_app_user": false
+    },
+    "U010": {
+      "id": "U010",
+      "team_id": "TGSINC",
+      "name": "marcus.toussaint",
+      "deleted": false,
+      "real_name": "Marcus Toussaint",
+      "tz": "America/Chicago",
+      "tz_label": "Central Daylight Time",
+      "tz_offset": -21600,
+      "profile": {
+        "real_name": "Marcus Toussaint",
+        "display_name": "mtoussaint",
+        "email": "marcus.toussaint@gearsystems.com",
+        "title": "Dock Crew",
+        "first_name": "Marcus",
+        "last_name": "Toussaint"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false,
+      "is_app_user": false
+    },
+    "U011": {
+      "id": "U011",
+      "team_id": "TGSINC",
+      "name": "janet.torres",
+      "deleted": false,
+      "real_name": "Janet Torres",
+      "tz": "America/Chicago",
+      "tz_label": "Central Daylight Time",
+      "tz_offset": -21600,
+      "profile": {
+        "real_name": "Janet Torres",
+        "display_name": "jtorres",
+        "email": "janet.torres@gearsystems.com",
+        "title": "Inbound Materials Coordinator \u2014 Night Shift",
+        "first_name": "Janet",
+        "last_name": "Torres"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false,
+      "is_app_user": false
+    }
+  },
+  "channels": {
+    "C001": {
+      "id": "C001",
+      "name": "receiving-dock",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1735711200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "receiving-dock",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "TGSINC",
+      "updated": 1735711200,
+      "creator": "U002",
+      "shared_team_ids": [
+        "TGSINC"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Meridian Receiving \u2014 Shift Activity & Handoffs",
+        "creator": "U002",
+        "last_set": 1735711200
+      },
+      "purpose": {
+        "value": "Dock activity, putaway authorizations, shift handoffs, and daily dock previews for Meridian receiving.",
+        "creator": "U002",
+        "last_set": 1735711200
+      }
+    },
+    "C002": {
+      "id": "C002",
+      "name": "quality-alerts",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1735711200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "quality-alerts",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "TGSINC",
+      "updated": 1735711200,
+      "creator": "U005",
+      "shared_team_ids": [
+        "TGSINC"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Meridian Quality Alerts & Inspection Reports",
+        "creator": "U005",
+        "last_set": 1735711200
+      },
+      "purpose": {
+        "value": "Quality inspection findings, disposition reports, and alerts for the Meridian plant.",
+        "creator": "U005",
+        "last_set": 1735711200
+      }
+    },
+    "C003": {
+      "id": "C003",
+      "name": "escalations-meridian",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1735711200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "escalations-meridian",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "TGSINC",
+      "updated": 1735711200,
+      "creator": "U003",
+      "shared_team_ids": [
+        "TGSINC"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Meridian Escalations \u2014 Active",
+        "creator": "U003",
+        "last_set": 1735711200
+      },
+      "purpose": {
+        "value": "Escalation notifications for the Meridian plant \u2014 dollar-value tiers, severity overrides, top-tier escalations.",
+        "creator": "U003",
+        "last_set": 1735711200
+      }
+    },
+    "C004": {
+      "id": "C004",
+      "name": "general",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1735711200,
+      "is_archived": false,
+      "is_general": true,
+      "unlinked": 0,
+      "name_normalized": "general",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "TGSINC",
+      "updated": 1735711200,
+      "creator": "U003",
+      "shared_team_ids": [
+        "TGSINC"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Gear Systems \u2014 Meridian Plant",
+        "creator": "U003",
+        "last_set": 1735711200
+      },
+      "purpose": {
+        "value": "General discussion for the Meridian plant logistics team.",
+        "creator": "U003",
+        "last_set": 1735711200
+      }
+    }
+  },
+  "messages": {
+    "C001": [
+      {
+        "type": "message",
+        "user": "U011",
+        "text": "--- END-OF-SHIFT HANDOFF 04/13/2026 \u2014 Coordinator: JT ---\n\nReceipts completed today: 2\nReceipts open at handoff: 0\nNCRs issued today: 0\nQuarantines applied today: 0\nEscalations open: 0\n\nOPEN RECEIPTS:\n- None\n\nOPEN NCRs AWAITING COORDINATOR ACTION:\n- None\n\nOPEN ESCALATIONS:\n- None\n\nQUARANTINE STATUS:\n- Q-HOLD currently holds 1 entry totaling approximately $1,250.00. Re-inspections scheduled: REC-20260408-001 on 04/15/2026.\n\nNOTES FOR TOMORROW:\n- 5 appointments on the dock schedule for 04/14.\n- SUP-0312 delivery expected \u2014 Probation supplier, Reggie inspection required.\n- AX-04827-B2 stock at 34 units. Estes delivery (96 units PO MER-PO-106833) should replenish.\n\n--- END HANDOFF ---",
+        "ts": "1776167100.000100",
+        "team": "TGSINC"
+      },
+      {
+        "type": "message",
+        "user": "U009",
+        "text": "On shift as Dock Lead today. Crew: Marcus Toussaint. Docks 1-4 clear and ready.",
+        "ts": "1776168900.000100",
+        "team": "TGSINC"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Good morning. Coordinator SM on shift 06:00-14:30. 5 inbound appointments today per dock schedule. Probation supplier SUP-0312 (Heartland Bearings) expected at 11:00.",
+        "ts": "1776169200.000100",
+        "team": "TGSINC"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "ARRIVAL ON TIME: APPT-20260414-001, PackRight Industries, Dock 1, PO #MER-PO-107100. Cleared to unload.",
+        "ts": "1776170700.000100",
+        "team": "TGSINC"
+      },
+      {
+        "type": "message",
+        "user": "U009",
+        "text": "UNLOAD COMPLETE: REC-20260414-001, PackRight Industries, PO #MER-PO-107100. Total pallets: 2. Count match: Y. Condition: Clean. Photos: N.",
+        "ts": "1776172200.000100",
+        "team": "TGSINC"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "PUTAWAY AUTHORIZED: REC-20260414-001, PackRight Industries (SUP-0055), 1 line.\n- Line 001: PK-50021-A1, 1000 units \u2192 BIN-E-12-03\nCoordinator: SM",
+        "ts": "1776173400.000100",
+        "team": "TGSINC",
+        "reactions": [
+          {
+            "name": "white_check_mark",
+            "users": [
+              "U002"
+            ],
+            "count": 1
+          }
+        ]
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "ARRIVAL ON TIME: APPT-20260414-002, Allied MRO Distributors, Dock 2, PO #MER-PO-107891. Cleared to unload.",
+        "ts": "1776173400.000101",
+        "team": "TGSINC"
+      },
+      {
+        "type": "message",
+        "user": "U009",
+        "text": "UNLOAD COMPLETE: REC-20260414-002, Allied MRO Distributors, PO #MER-PO-107891. Total pallets: 1. Count match: Y. Condition: Clean. Photos: N.",
+        "ts": "1776174900.000100",
+        "team": "TGSINC"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "PUTAWAY AUTHORIZED: REC-20260414-002, Allied MRO Distributors (SUP-0203), 1 line.\n- Line 001: MR-10044-B1, 250 units \u2192 BIN-E-05-01\nCoordinator: SM",
+        "ts": "1776176400.000100",
+        "team": "TGSINC",
+        "reactions": [
+          {
+            "name": "white_check_mark",
+            "users": [
+              "U002"
+            ],
+            "count": 1
+          }
+        ]
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "ARRIVAL ON TIME: APPT-20260414-003, Consolidated Forge Works, Dock 3, PO #MER-PO-107294, MER-PO-107295. Cleared to unload.",
+        "ts": "1776179100.000100",
+        "team": "TGSINC"
+      },
+      {
+        "type": "message",
+        "user": "U009",
+        "text": "UNLOAD COMPLETE: REC-20260414-003, Consolidated Forge Works, PO #MER-PO-107294. Total pallets: 4. Count match: Y. Condition: Clean. Photos: N.\nUNLOAD COMPLETE: REC-20260414-004, Consolidated Forge Works, PO #MER-PO-107295. Total pallets: 1. Count match: Y. Condition: Clean. Photos: N.",
+        "ts": "1776180300.000100",
+        "team": "TGSINC"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": ":warning: REC-20260414-003 in progress \u2014 SUP-0147, MER-PO-107294, FG-91144-A1 (forged gear blanks). SAFETY-CRITICAL. Qty 200 received, exact match to PO. Condition Tier 0. COC received and verified. :x: MTR NOT received. Cannot verify heat numbers H-8827-A/H-8827-B without MTR. Sending MTR request to supplier.",
+        "ts": "1776180600.000100",
+        "team": "TGSINC"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "REC-003 update: MTR request email sent to Consolidated Forge Works at 10:15 CST. Awaiting supplier response.",
+        "ts": "1776183300.000100",
+        "team": "TGSINC"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "REC-003 update: 200 units FG-91144-A1 moved to Q-HOLD. Quarantine tags applied. Location: Q-HOLD-DOCK3.",
+        "ts": "1776184200.000100",
+        "team": "TGSINC"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "REC-003 update: NCR-MER-2026-0251 issued (Major, DOC). $15,600.00 (200 x $78.00). Letter sent to SUP-0147. Supplier response due 04/28/2026 (10 business days). Re-inspection event created for 04/21/2026.",
+        "ts": "1776185100.000100",
+        "team": "TGSINC"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "<@U002> FYI \u2014 NCR-MER-2026-0251 for REC-003, $15,600.00. Details in NCR log and #escalations-meridian.",
+        "ts": "1776185400.000100",
+        "team": "TGSINC"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Noted, thanks. Keep me posted on the MTR \u2014 let me know if they don't deliver by COB.",
+        "ts": "1776185700.000100",
+        "team": "TGSINC"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "PUTAWAY AUTHORIZED: REC-20260414-004, Consolidated Forge Works (SUP-0147), 1 line.\n- Line 001: FL-70033-A2, 48 units \u2192 BIN-D-02-01\nCoordinator: SM",
+        "ts": "1776185700.000101",
+        "team": "TGSINC",
+        "reactions": [
+          {
+            "name": "white_check_mark",
+            "users": [
+              "U002"
+            ],
+            "count": 1
+          }
+        ]
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "ARRIVAL ON TIME: APPT-20260414-005, Meridian Steel Supply, Dock 4, PO #MER-PO-106833, MER-PO-106840. Cleared to unload.",
+        "ts": "1776186000.000100",
+        "team": "TGSINC"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "ARRIVAL ON TIME: APPT-20260414-004, Heartland Bearings LLC, Dock 2, PO #MER-PO-108510. Cleared to unload.",
+        "ts": "1776186600.000100",
+        "team": "TGSINC"
+      },
+      {
+        "type": "message",
+        "user": "U009",
+        "text": "UNLOAD COMPLETE: REC-20260414-005, Heartland Bearings LLC, PO #MER-PO-108510. Total pallets: 3. Count match: N \u2014 see notes. Condition: Notes attached. Photos: Y.\nLine 001 (BG-33044-A1): 144 received, count matches PO. Some units have surface scratches on bearing races \u2014 pulling aside for closer look.\nLine 002 (SL-20118-C3): 488 of 500 received. Short 12 units. Condition clean.",
+        "ts": "1776187500.000100",
+        "team": "TGSINC"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "REC-20260414-005 in progress \u2014 SUP-0312 (Heartland Bearings, PROBATION). MER-PO-108510, 2 lines:\n- Line 001: BG-33044-A1, safety-critical bearings. 144 received, matches PO. All docs (COC, MTR) received. Heat number H-4401-C verified.\n- Line 002: SL-20118-C3, standard seals. 488 of 500 received. Short 12 units (-2.4%). Condition Tier 0.\nRequesting Reggie for inspection.",
+        "ts": "1776187800.000100",
+        "team": "TGSINC"
+      },
+      {
+        "type": "message",
+        "user": "U009",
+        "text": "UNLOAD COMPLETE: REC-20260414-006, Meridian Steel Supply, PO #MER-PO-106840. Total pallets: 1. Count match: Y. Condition: Clean. Photos: N.\nUNLOAD COMPLETE: REC-20260414-007, Meridian Steel Supply, PO #MER-PO-106833. Total pallets: 6. Count match: N \u2014 see notes. Condition: Clean. Photos: N.\nNote on REC-007: Packing slip says 96 units AX-04827-B2, I count 78 on the dock. Recounted twice. 78 confirmed.",
+        "ts": "1776188100.000100",
+        "team": "TGSINC"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Thanks Curtis. Requesting quality inspection for REC-005 line 001 \u2014 potential Tier 2 damage on safety-critical bearings. <@U007> can you head to Dock 2?",
+        "ts": "1776188400.000100",
+        "team": "TGSINC"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "REC-003 update: Consolidated Forge Works acknowledged MTR request at 11:40 CST. Supplier says MTR will be sent by COB today.",
+        "ts": "1776188520.000100",
+        "team": "TGSINC"
+      },
+      {
+        "type": "message",
+        "user": "U007",
+        "text": "On my way.",
+        "ts": "1776188700.000100",
+        "team": "TGSINC"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": ":rotating_light: REC-20260414-007 receiving \u2014 SUP-0089, MER-PO-106833, AX-04827-B2 (axle housing forgings). SAFETY-CRITICAL. :warning: SHORT SHIP: 78 of 96 received (-18.75%). Condition Tier 0. All docs (COC, MTR) verified. Heat number H-6203-D confirmed. Quarantine required. Checking line-down risk.",
+        "ts": "1776189000.000100",
+        "team": "TGSINC"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "REC-007 update: 78 units AX-04827-B2 moved to Q-HOLD. Quarantine tags applied. NCR-MER-2026-0253 drafted (Critical, QTY). $7,650.00 (18 missing x $425.00). Sending to <@U005> for review.",
+        "ts": "1776189600.000100",
+        "team": "TGSINC"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "REC-007 update: Line-down risk confirmed by <@U008> at 12:30 CST. On-hand: 22 units. Consumption: 12/day. Risk window: ~1.8 days. :rotating_light: Line-down risk within 48 hours. Escalating to Elizabeth Velasquez. See #escalations-meridian.",
+        "ts": "1776191700.000100",
+        "team": "TGSINC"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "REC-007 update: <@U005> approved NCR-MER-2026-0253 at 13:00 CST. Letter sent to Meridian Steel Supply (SUP-0089) at 13:15 CST. Supplier response due 04/17/2026 (3 business days). <@U004> CC'd.",
+        "ts": "1776193500.000100",
+        "team": "TGSINC"
+      },
+      {
+        "type": "message",
+        "user": "U007",
+        "text": "REC-005 line 001 inspection complete. Posted full report in #quality-alerts. Summary: Tier 2 confirmed \u2014 30 of 144 bearings have machined surface scratches on inner/outer races. Remaining 114 appear acceptable but entire lot quarantined pending disposition. See #quality-alerts for details and photos.",
+        "ts": "1776194400.000100",
+        "team": "TGSINC"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Thanks <@U007>. Confirming Tier 2 damage on REC-005 L001 \u2014 30 of 144 affected. NCR-MER-2026-0252 drafted as Critical. $5,565.00 (30 damaged x $185.50). Sending draft to <@U005> for review.",
+        "ts": "1776194700.000100",
+        "team": "TGSINC"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "NCR-0252 Critical draft sent to Theo Brandt at 13:30 CST. Awaiting approval before sending to supplier.",
+        "ts": "1776195000.000100",
+        "team": "TGSINC"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "PUTAWAY AUTHORIZED: REC-20260414-006, Meridian Steel Supply (SUP-0089), 1 line.\n- Line 001: DS-77201-A3, 60 units \u2192 BIN-A-08-02\nSafety-critical. Qty exact match. All docs verified.\nCoordinator: SM",
+        "ts": "1776195300.000100",
+        "team": "TGSINC",
+        "reactions": [
+          {
+            "name": "white_check_mark",
+            "users": [
+              "U002"
+            ],
+            "count": 1
+          }
+        ]
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "REC-005 escalation posted to #escalations-meridian. Also posting repeat-offender flag \u2014 SUP-0312's 3rd NCR in 90 days (2 prior DMG NCRs + now NCR-0252). Notified <@U005>, <@U006>, and <@U003>.",
+        "ts": "1776195600.000100",
+        "team": "TGSINC"
+      }
+    ],
+    "C002": [
+      {
+        "type": "message",
+        "user": "U007",
+        "text": "INSPECTION REPORT \u2014 REC-20260408-001\nSupplier: Great Plains Fasteners (SUP-0415)\nSKU: FS-12050-A1 (Flanged sleeve)\nInspection type: Receiving \u2014 short ship verification\nFindings: 50 of 57 units received. Condition Tier 0 on received units. Units are dimensionally conforming per spot check. Short quantity confirmed \u2014 7 missing. NCR pending.\nDisposition recommendation: Quarantine pending supplier response on missing units.",
+        "ts": "1775665800.000100",
+        "team": "TGSINC"
+      },
+      {
+        "type": "message",
+        "user": "U007",
+        "text": "INSPECTION REPORT \u2014 REC-20260414-005, Line 001\nSupplier: Heartland Bearings LLC (SUP-0312, Probation)\nSKU: BG-33044-A1 (Precision bearing assemblies \u2014 safety-critical)\nPO: MER-PO-108510\nInspection type: Receiving \u2014 damage assessment + Probation inspection\n\nFindings:\n- Total units received: 144 (matches PO)\n- Units with visible damage: 30\n- Damage type: Machined surface scratches on inner and outer bearing races\n- Damage classification: Tier 2 \u2014 Functional damage (scratches on precision surfaces may affect bearing performance and tolerance)\n- Remaining 114 units: Visual inspection shows no surface defects, but entire lot should remain quarantined per standard practice for safety-critical with Tier 2 damage\n- Documentation: COC and MTR received and verified. Heat number H-4401-C matches.\n\nPhotos: 4 photos uploaded to shared drive \u2014 /receiving/2026-04-14/REC-005-L001-damage/\nMarked-up packing slip: Annotated and sent to Coordinator via email.\n\nDisposition recommendation: Quarantine entire lot. NCR required \u2014 Tier 2 on safety-critical.\nNote: This supplier is on Probation (2 prior DMG NCRs in Q1).",
+        "ts": "1776194400.000100",
+        "team": "TGSINC",
+        "reactions": [
+          {
+            "name": "eyes",
+            "users": [
+              "U001",
+              "U005"
+            ],
+            "count": 2
+          },
+          {
+            "name": "warning",
+            "users": [
+              "U006"
+            ],
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "C003": [
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "ESCALATION \u2014 DOLLAR VALUE TIER 2: REC-20260414-003, Consolidated Forge Works (SUP-0147), PO #MER-PO-107294, missing MTR on safety-critical forged gear blanks (FG-91144-A1). Dollar value: $15,600.00. Disposition: QUARANTINE. NCR: NCR-MER-2026-0251. Awaiting acknowledgement from <@U002>.",
+        "ts": "1776185400.000200",
+        "team": "TGSINC",
+        "reply_count": 1,
+        "latest_reply": "1776185700.000200",
+        "reply_users": [
+          "U002"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Acknowledged. Monitoring.",
+        "ts": "1776185700.000200",
+        "team": "TGSINC",
+        "thread_ts": "1776185400.000200",
+        "parent_user_id": null
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "ESCALATION \u2014 DOLLAR VALUE TIER 2 + OVERRIDE (CRITICAL NCR + LINE-DOWN RISK): REC-20260414-007, Meridian Steel Supply (SUP-0089), PO #MER-PO-106833. Dollar value: $7,650.00. Override trigger: Band 3 critical short (-18.75%, 78 of 96) on safety-critical AX-04827-B2 axle housing forgings. Disposition: QUARANTINE. NCR: NCR-MER-2026-0253 (Critical, QTY) \u2014 draft sent to <@U005> for review. Awaiting acknowledgement from <@U003>, <@U004>.\n\n:rotating_light: LINE-DOWN RISK: On-hand 22 units, consumption 12/day, risk window ~1.8 days (approximately 04/16/2026). Production Planning (<@U008>) is aware.",
+        "ts": "1776191700.000200",
+        "team": "TGSINC",
+        "reactions": [
+          {
+            "name": "eyes",
+            "users": [
+              "U004",
+              "U002"
+            ],
+            "count": 2
+          }
+        ],
+        "reply_count": 3,
+        "latest_reply": "1776194100.000200",
+        "reply_users": [
+          "U001",
+          "U002",
+          "U008"
+        ],
+        "reply_users_count": 3
+      },
+      {
+        "type": "message",
+        "user": "U008",
+        "text": "Production Planning confirms. We're watching AX-04827-B2 closely. If the missing 18 units don't arrive by end of day tomorrow, we'll need to adjust the production schedule for Line 3.",
+        "ts": "1776192300.000200",
+        "team": "TGSINC",
+        "thread_ts": "1776191700.000200",
+        "parent_user_id": null
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "I see this. Elizabeth \u2014 please respond when you can. Sam, keep me updated.",
+        "ts": "1776192600.000200",
+        "team": "TGSINC",
+        "thread_ts": "1776191700.000200",
+        "parent_user_id": null
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Update on REC-007: Theo Brandt approved NCR-MER-2026-0253 at 13:00 CST. Letter sent to Meridian Steel Supply at 13:15 CST. Supplier response due 04/17/2026. Walter Finch CC'd. Elizabeth Velasquez has not yet responded to this escalation (notified 12:35 CST).",
+        "ts": "1776194100.000200",
+        "team": "TGSINC",
+        "thread_ts": "1776191700.000200",
+        "parent_user_id": null
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "ESCALATION \u2014 OVERRIDE (CRITICAL NCR): REC-20260414-005 Line 001, Heartland Bearings LLC (SUP-0312, Probation), PO #MER-PO-108510. Trigger: Tier 2 functional damage on safety-critical BG-33044-A1 precision bearings. 30 of 144 units with machined surface scratches. Dollar value: $5,565.00 (30 damaged x $185.50). Disposition: QUARANTINE. NCR: NCR-MER-2026-0252 (Critical, DMG) \u2014 pending Theo Brandt review. Awaiting guidance from <@U004>, <@U002>.",
+        "ts": "1776195300.000200",
+        "team": "TGSINC"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": ":rotating_light: REPEAT-OFFENDER FLAG: SUP-0312 (Heartland Bearings LLC)\nNCR count (rolling 90 days): 3 NCRs\n- NCR-MER-2026-0245 (DMG, Resolved)\n- NCR-MER-2026-0248 (DMG, Closed)\n- NCR-MER-2026-0252 (DMG, Critical \u2014 today, pending)\n\nSupplier status: Probation (since 03/01/2026)\nRecommend immediate Probation review.\nNotified: <@U005>, <@U006>, <@U003>.",
+        "ts": "1776195600.000200",
+        "team": "TGSINC",
+        "reply_count": 1,
+        "latest_reply": "1776196200.000200",
+        "reply_users": [
+          "U006"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U006",
+        "text": "Acknowledged. I'll pull the full supplier scorecard for SUP-0312 and have it ready for the review meeting. This is their third incident this quarter.",
+        "ts": "1776196200.000200",
+        "team": "TGSINC",
+        "thread_ts": "1776195600.000200",
+        "parent_user_id": null
+      }
+    ],
+    "C004": [
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Morning all. Shift change at 06:00, Sam Moreno on as Coordinator today. 5 inbound scheduled.",
+        "ts": "1776168300.000100",
+        "team": "TGSINC"
+      },
+      {
+        "type": "message",
+        "user": "U008",
+        "text": "FYI \u2014 AX-04827-B2 stock is getting low. 34 units on hand, consumption ~12/day. Watching it closely. Expecting 96 in today's Estes delivery.",
+        "ts": "1776168600.000100",
+        "team": "TGSINC"
+      }
+    ]
+  },
+  "counters": {
+    "messageId": 1000000
+  }
+}

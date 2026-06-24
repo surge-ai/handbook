@@ -1,0 +1,1 @@
+Hi! My name is Alex Rivera and I've just joined the Pathfinder team as a Resolution Auditor. I'm not sure what to do about the open items in the RA queue so please could you handle them on my behalf, following the processes in the SOP?

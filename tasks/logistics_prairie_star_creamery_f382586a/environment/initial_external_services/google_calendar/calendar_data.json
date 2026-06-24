@@ -1,0 +1,141 @@
+{
+  "events": {
+    "evt-001": {
+      "summary": "Waco Transfer Arrival \u2014 Manifest 2026-04-14-001",
+      "start": {
+        "dateTime": "2026-04-14T09:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-14T11:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Manifest: 2026-04-14-001 | Origin: Waco Production Facility | Expected: 22 pallets, 440 cases (SC-001, SC-006) | Dock crew: Alicia Nguyen",
+      "location": "Houston DC \u2014 Receiving Dock, 2847 Eastgate Industrial Blvd, Houston, TX 77015",
+      "id": "evt-001"
+    },
+    "evt-002": {
+      "summary": "Waco Transfer Arrival \u2014 Manifest 2026-04-21-001",
+      "start": {
+        "dateTime": "2026-04-21T09:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-21T11:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Manifest: 2026-04-21-001 | Origin: Waco Production Facility | Expected quantities TBD \u2014 confirm with Jacob Patel by Apr 18.",
+      "location": "Houston DC \u2014 Receiving Dock, 2847 Eastgate Industrial Blvd, Houston, TX 77015",
+      "id": "evt-002"
+    },
+    "evt-003": {
+      "summary": "Gulf Coast Packaging Delivery \u2014 PO-54823",
+      "start": {
+        "dateTime": "2026-04-14T10:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-14T11:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Vendor: Gulf Coast Packaging (PKG-01) | PO: PO-54823 | Expected: 40 cases pint containers, 40 cases lids",
+      "location": "Houston DC \u2014 Receiving Dock, 2847 Eastgate Industrial Blvd, Houston, TX 77015",
+      "id": "evt-003"
+    },
+    "evt-004": {
+      "summary": "TexPal Logistics Pallet Delivery \u2014 PO-77209",
+      "start": {
+        "dateTime": "2026-04-15T08:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-15T09:30:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Vendor: TexPal Logistics (PAL-01) | PO: PO-77209 | Bi-weekly delivery (1st & 15th). Inspect all pallets for splinters, broken slats, stains, pest evidence.",
+      "location": "Houston DC \u2014 Receiving Dock, 2847 Eastgate Industrial Blvd, Houston, TX 77015",
+      "id": "evt-004"
+    },
+    "evt-005": {
+      "summary": "Heartland Bakery Supply Delivery \u2014 PO-31119",
+      "start": {
+        "dateTime": "2026-04-20T08:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-20T09:30:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Vendor: Heartland Bakery Supply (DRY-01) | PO: PO-31119 | Waffle cones and cookie shells. Store in dry storage only \u2014 do not expose to moisture.",
+      "location": "Houston DC \u2014 Receiving Dock, 2847 Eastgate Industrial Blvd, Houston, TX 77015",
+      "id": "evt-005"
+    },
+    "evt-006": {
+      "summary": "Weekly Expiry Review \u2014 Houston DC",
+      "start": {
+        "dateTime": "2026-04-14T13:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-14T14:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Monday expiry review.",
+      "location": "Houston DC",
+      "id": "evt-006"
+    },
+    "evt-007": {
+      "summary": "Weekly Expiry Review \u2014 Houston DC",
+      "start": {
+        "dateTime": "2026-04-21T13:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-21T14:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Monday expiry review.",
+      "location": "Houston DC",
+      "id": "evt-007"
+    },
+    "evt-008": {
+      "summary": "Zone H-A / H-B Cycle Count",
+      "start": {
+        "dateTime": "2026-04-16T07:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-16T10:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Scheduled cycle count for zones H-A and H-B. Counter: Sarah Kim.",
+      "location": "Houston DC \u2014 Zones H-A and H-B",
+      "id": "evt-008"
+    },
+    "evt-009": {
+      "summary": "Waco Line A Maintenance Window",
+      "start": {
+        "date": "2026-04-16"
+      },
+      "end": {
+        "date": "2026-04-17"
+      },
+      "description": "Planned maintenance on Waco Line A. No SC-line production this day. Confirm next transfer schedule with Jacob Patel.",
+      "id": "evt-009"
+    },
+    "evt-010": {
+      "summary": "Q1 2026 Vendor Scorecard Review",
+      "start": {
+        "dateTime": "2026-04-17T14:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-17T15:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Quarterly vendor performance aggregate calculation. Attendees: Analyst, Carlos Mendoza, Marcus Liu.",
+      "location": "Houston DC",
+      "id": "evt-010"
+    }
+  }
+}

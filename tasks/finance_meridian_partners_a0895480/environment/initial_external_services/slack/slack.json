@@ -1,0 +1,300 @@
+{
+  "users": {
+    "U001": {
+      "id": "U001",
+      "team_id": "TMERIDIAN",
+      "name": "r.whitfield",
+      "deleted": false,
+      "real_name": "R. Whitfield",
+      "profile": {
+        "real_name": "R. Whitfield",
+        "display_name": "rwhitfield",
+        "email": "r.whitfield@meridianpartners.com",
+        "title": "Controller"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U002": {
+      "id": "U002",
+      "team_id": "TMERIDIAN",
+      "name": "t.okonkwo",
+      "deleted": false,
+      "real_name": "T. Okonkwo",
+      "profile": {
+        "real_name": "T. Okonkwo",
+        "display_name": "tokonkwo",
+        "email": "t.okonkwo@meridianpartners.com",
+        "title": "AP Manager"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    }
+  },
+  "channels": {
+    "C001": {
+      "id": "C001",
+      "name": "ap-exceptions",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1704067200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "ap-exceptions",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "TMERIDIAN",
+      "updated": 1704067200,
+      "creator": "U002",
+      "shared_team_ids": [
+        "TMERIDIAN"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "AP exceptions and holds requiring resolution",
+        "creator": "U002",
+        "last_set": 1704067200
+      },
+      "purpose": {
+        "value": "Track and resolve AP exceptions per SOP \u00a713",
+        "creator": "U002",
+        "last_set": 1704067200
+      }
+    },
+    "C002": {
+      "id": "C002",
+      "name": "ap-approvals",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1704067200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "ap-approvals",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "TMERIDIAN",
+      "updated": 1704067200,
+      "creator": "U002",
+      "shared_team_ids": [
+        "TMERIDIAN"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Invoice approval requests and responses",
+        "creator": "U002",
+        "last_set": 1704067200
+      },
+      "purpose": {
+        "value": "Manager approval workflow per SOP \u00a75",
+        "creator": "U002",
+        "last_set": 1704067200
+      }
+    },
+    "C003": {
+      "id": "C003",
+      "name": "ap-escalations",
+      "is_channel": false,
+      "is_group": true,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1704067200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "ap-escalations",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "TMERIDIAN",
+      "updated": 1704067200,
+      "creator": "U002",
+      "shared_team_ids": [
+        "TMERIDIAN"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Critical AP issues requiring management attention",
+        "creator": "U002",
+        "last_set": 1704067200
+      },
+      "purpose": {
+        "value": "Private channel for escalated AP issues",
+        "creator": "U002",
+        "last_set": 1704067200
+      }
+    },
+    "C004": {
+      "id": "C004",
+      "name": "ap-payments",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1704067200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "ap-payments",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "TMERIDIAN",
+      "updated": 1704067200,
+      "creator": "U002",
+      "shared_team_ids": [
+        "TMERIDIAN"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Payment batch execution and confirmation",
+        "creator": "U002",
+        "last_set": 1704067200
+      },
+      "purpose": {
+        "value": "Track payment batches per SOP \u00a715",
+        "creator": "U002",
+        "last_set": 1704067200
+      }
+    },
+    "C005": {
+      "id": "C005",
+      "name": "finance-month-end",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1704067200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "finance-month-end",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "TMERIDIAN",
+      "updated": 1704067200,
+      "creator": "U002",
+      "shared_team_ids": [
+        "TMERIDIAN"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Month-end close coordination and reporting",
+        "creator": "U002",
+        "last_set": 1704067200
+      },
+      "purpose": {
+        "value": "Finance month-end close tracking per SOP \u00a711",
+        "creator": "U002",
+        "last_set": 1704067200
+      }
+    }
+  },
+  "messages": {
+    "C001": [
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "DUPLICATE DETECTED: Apex Office Supply, V-000042, Invoice AOS-2025-0888, Amount $1,248.00, Original Entry Date 2025-12-08",
+        "ts": "1736899200.000100",
+        "team": "TMERIDIAN"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "PRICE VARIANCE | INV-007 | BSC-4412 | V-000072 | PO-2026-00415\nPO Unit Price: $98.00 | Invoiced: $106.00 | Variance: 8.16%\nHold Code: MATCH | Entered: 2026-03-18",
+        "ts": "1742256000.000100",
+        "team": "TMERIDIAN"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "T. Okonkwo \u2014 any update on the BlueSky variance? BSC-4412 still sitting at MATCH hold.",
+        "ts": "1742947200.000100",
+        "team": "TMERIDIAN"
+      }
+    ],
+    "C002": [
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "APPROVAL REQUIRED | INV-008 | NGS-2026-1102 | V-000033 | $6,250.00 | GL: 6100-003-xxxx",
+        "ts": "1742428800.000100",
+        "team": "TMERIDIAN"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Approved \u2014 INV-004 | Pinnacle Legal PLG-2026-0187. Good to process.",
+        "ts": "1742601600.000100",
+        "team": "TMERIDIAN"
+      }
+    ],
+    "C003": [],
+    "C004": [
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "BATCH COMPLETE: 2026-01-14 | Payments: 2 | Total Amount: $9,998.00 | Method: ACH 2 / Check 0 / Wire 0",
+        "ts": "1736899200.000100",
+        "team": "TMERIDIAN"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "BATCH COMPLETE: 2026-03-04 | Payments: 2 | Total Amount: $4,877.46 | Method: ACH 2 / Check 0 / Wire 0",
+        "ts": "1741132800.000100",
+        "team": "TMERIDIAN"
+      }
+    ],
+    "C005": [
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "AP CLOSE COMPLETE: January 2026",
+        "ts": "1738627200.000100",
+        "team": "TMERIDIAN"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "AP CLOSE COMPLETE: February 2026",
+        "ts": "1741046400.000100",
+        "team": "TMERIDIAN"
+      }
+    ]
+  },
+  "counters": {
+    "messageId": 1000000
+  }
+}

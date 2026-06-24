@@ -1,0 +1,275 @@
+{
+  "events": {
+    "evt-h01": {
+      "summary": "New Year\u2019s Day",
+      "start": {
+        "date": "2026-01-01"
+      },
+      "end": {
+        "date": "2026-01-02"
+      },
+      "id": "evt-h01"
+    },
+    "evt-h02": {
+      "summary": "Martin Luther King Jr. Day",
+      "start": {
+        "date": "2026-01-19"
+      },
+      "end": {
+        "date": "2026-01-20"
+      },
+      "id": "evt-h02"
+    },
+    "evt-h03": {
+      "summary": "Presidents\u2019 Day",
+      "start": {
+        "date": "2026-02-16"
+      },
+      "end": {
+        "date": "2026-02-17"
+      },
+      "id": "evt-h03"
+    },
+    "evt-h04": {
+      "summary": "Memorial Day",
+      "start": {
+        "date": "2026-05-25"
+      },
+      "end": {
+        "date": "2026-05-26"
+      },
+      "id": "evt-h04"
+    },
+    "evt-h05": {
+      "summary": "Independence Day (Observed)",
+      "start": {
+        "date": "2026-07-03"
+      },
+      "end": {
+        "date": "2026-07-04"
+      },
+      "id": "evt-h05"
+    },
+    "evt-h06": {
+      "summary": "Labor Day",
+      "start": {
+        "date": "2026-09-07"
+      },
+      "end": {
+        "date": "2026-09-08"
+      },
+      "id": "evt-h06"
+    },
+    "evt-h07": {
+      "summary": "Thanksgiving Day",
+      "start": {
+        "date": "2026-11-26"
+      },
+      "end": {
+        "date": "2026-11-27"
+      },
+      "id": "evt-h07"
+    },
+    "evt-h08": {
+      "summary": "Day after Thanksgiving",
+      "start": {
+        "date": "2026-11-27"
+      },
+      "end": {
+        "date": "2026-11-28"
+      },
+      "id": "evt-h08"
+    },
+    "evt-h09": {
+      "summary": "Winter Break",
+      "start": {
+        "date": "2026-12-24"
+      },
+      "end": {
+        "date": "2026-12-31"
+      },
+      "description": "University Closed - Multi-day all-day event",
+      "id": "evt-h09"
+    },
+    "evt-onb-10487": {
+      "summary": "Orientation \u2013 Sandie Otis",
+      "start": {
+        "dateTime": "2026-01-01T09:00:00-07:00"
+      },
+      "end": {
+        "dateTime": "2026-01-01T12:00:00-07:00"
+      },
+      "id": "evt-onb-10487"
+    },
+    "evt-onb-10769": {
+      "summary": "Orientation \u2013 Valenka Kerwin",
+      "start": {
+        "dateTime": "2026-01-05T09:00:00-07:00"
+      },
+      "end": {
+        "dateTime": "2026-01-05T12:00:00-07:00"
+      },
+      "id": "evt-onb-10769"
+    },
+    "evt-onb-10949": {
+      "summary": "Orientation \u2013 Moyra Barny",
+      "start": {
+        "dateTime": "2026-01-08T09:00:00-07:00"
+      },
+      "end": {
+        "dateTime": "2026-01-08T12:00:00-07:00"
+      },
+      "id": "evt-onb-10949"
+    },
+    "evt-onb-10965": {
+      "summary": "Orientation \u2013 Joby Kalil",
+      "start": {
+        "dateTime": "2026-01-09T09:00:00-07:00"
+      },
+      "end": {
+        "dateTime": "2026-01-09T12:00:00-07:00"
+      },
+      "id": "evt-onb-10965"
+    },
+    "evt-onb-10777": {
+      "summary": "Orientation \u2013 Delilah Gregg",
+      "start": {
+        "dateTime": "2026-01-13T09:00:00-07:00"
+      },
+      "end": {
+        "dateTime": "2026-01-13T12:00:00-07:00"
+      },
+      "id": "evt-onb-10777"
+    },
+    "evt-onb-10419": {
+      "summary": "Orientation \u2013 Kameko Gene",
+      "start": {
+        "dateTime": "2026-01-13T09:00:00-07:00"
+      },
+      "end": {
+        "dateTime": "2026-01-13T12:00:00-07:00"
+      },
+      "id": "evt-onb-10419"
+    },
+    "evt-onb-10722": {
+      "summary": "Orientation \u2013 Tammie Burt",
+      "start": {
+        "dateTime": "2026-01-14T09:00:00-07:00"
+      },
+      "end": {
+        "dateTime": "2026-01-14T12:00:00-07:00"
+      },
+      "id": "evt-onb-10722"
+    },
+    "evt-onb-10787": {
+      "summary": "Orientation \u2013 Neysa Winn",
+      "start": {
+        "dateTime": "2026-01-15T09:00:00-07:00"
+      },
+      "end": {
+        "dateTime": "2026-01-15T12:00:00-07:00"
+      },
+      "id": "evt-onb-10787"
+    },
+    "evt-onb-10451": {
+      "summary": "Orientation \u2013 Natalya Martie",
+      "start": {
+        "dateTime": "2026-01-16T09:00:00-07:00"
+      },
+      "end": {
+        "dateTime": "2026-01-16T12:00:00-07:00"
+      },
+      "id": "evt-onb-10451"
+    },
+    "evt-onb-11240": {
+      "summary": "Orientation \u2013 Myriam Scot",
+      "start": {
+        "dateTime": "2026-01-22T09:00:00-07:00"
+      },
+      "end": {
+        "dateTime": "2026-01-22T12:00:00-07:00"
+      },
+      "id": "evt-onb-11240"
+    },
+    "evt-onb-10566": {
+      "summary": "Orientation \u2013 Hanna Saunders",
+      "start": {
+        "dateTime": "2026-01-29T09:00:00-07:00"
+      },
+      "end": {
+        "dateTime": "2026-01-29T12:00:00-07:00"
+      },
+      "id": "evt-onb-10566"
+    },
+    "evt-onb-10783": {
+      "summary": "Orientation \u2013 Annabell Gaylor",
+      "start": {
+        "dateTime": "2026-02-02T09:00:00-07:00"
+      },
+      "end": {
+        "dateTime": "2026-02-02T12:00:00-07:00"
+      },
+      "id": "evt-onb-10783"
+    },
+    "evt-onb-10000": {
+      "summary": "Orientation \u2013 Amalita Rhett",
+      "start": {
+        "dateTime": "2026-02-08T09:00:00-07:00"
+      },
+      "end": {
+        "dateTime": "2026-02-08T12:00:00-07:00"
+      },
+      "id": "evt-onb-10000"
+    },
+    "evt-onb-10003": {
+      "summary": "Orientation \u2013 Felita Demott",
+      "start": {
+        "dateTime": "2026-03-22T09:00:00-06:00"
+      },
+      "end": {
+        "dateTime": "2026-03-22T12:00:00-06:00"
+      },
+      "id": "evt-onb-10003"
+    },
+    "evt-onb-10002": {
+      "summary": "Orientation \u2013 Bryna Marmaduke",
+      "start": {
+        "dateTime": "2026-03-24T09:00:00-06:00"
+      },
+      "end": {
+        "dateTime": "2026-03-24T12:00:00-06:00"
+      },
+      "id": "evt-onb-10002"
+    },
+    "evt-onb-10004": {
+      "summary": "Orientation \u2013 Stefanie Heinrik",
+      "start": {
+        "dateTime": "2026-03-27T09:00:00-06:00"
+      },
+      "end": {
+        "dateTime": "2026-03-27T12:00:00-06:00"
+      },
+      "id": "evt-onb-10004"
+    },
+    "evt-onb-10005": {
+      "summary": "Orientation \u2013 Adriena Rogerio",
+      "start": {
+        "dateTime": "2026-03-28T09:00:00-06:00"
+      },
+      "end": {
+        "dateTime": "2026-03-28T12:00:00-06:00"
+      },
+      "id": "evt-onb-10005"
+    },
+    "evt-onb-10001": {
+      "summary": "Orientation \u2013 Cory Reinhold",
+      "start": {
+        "dateTime": "2026-03-29T09:00:00-06:00"
+      },
+      "end": {
+        "dateTime": "2026-03-29T12:00:00-06:00"
+      },
+      "id": "evt-onb-10001"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "mailbox": {
+    "email": "ap@meridianpartners.com",
+    "name": "Meridian Partners Accounts Payable"
+  },
+  "contacts": [
+    {
+      "email": "jlowe@northgateoffice.com",
+      "name": "Janet Lowe (Northgate Office Solutions)"
+    },
+    {
+      "email": "tokonkwo@meridianpartners.com",
+      "name": "Tanya Okonkwo"
+    },
+    {
+      "email": "rwhitfield@meridianpartners.com",
+      "name": "Rachel Whitfield"
+    },
+    {
+      "email": "dnakamura@meridianpartners.com",
+      "name": "David Nakamura"
+    },
+    {
+      "email": "jcarmichael@meridianpartners.com",
+      "name": "J. Carmichael"
+    },
+    {
+      "email": "skeel@apexprint.com",
+      "name": "Sandra Keel (Apex Print Solutions)"
+    },
+    {
+      "email": "mdevane@blueridgecatering.com",
+      "name": "Marcus DeVane (Blueridge Catering)"
+    }
+  ],
+  "folders": [
+    {
+      "name": "AP-Processed"
+    },
+    {
+      "name": "AP-OnHold"
+    }
+  ],
+  "emails": [
+    {
+      "email_id": "1",
+      "folder": "INBOX",
+      "subject": "Invoice INV-NGO-4471 \u2014 PO-2025-00884",
+      "from_addr": "jlowe@northgateoffice.com",
+      "to_addr": "ap@meridianpartners.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-05-21T08:14:00Z",
+      "message_id": "<inv-ngo-4471-20250521@northgateoffice.com>",
+      "in_reply_to": null,
+      "body_text": "Hi,\n\nPlease find our invoice for the toner cartridge order below. This covers PO-2025-00884.\n\nInvoice Number: INV-NGO-4471\nInvoice Date: 2025-05-19\nVendor: Northgate Office Solutions, 78 Industrial Park Dr, Cincinnati OH 45201 (V-00229)\nPO Number: PO-2025-00884\nDescription: Printer toner cartridges (Qty 20)\nUnit Price: $101.50\nQuantity: 20\nInvoice Total: $2,030.00\nPayment Terms: Net 30\nDue Date: 2025-06-18\n\nPlease process at your earliest convenience. Let me know if you have any questions.\n\nBest regards,\nJanet Lowe\nAccounts Receivable\nNorthgate Office Solutions\n(513) 555-0198\njlowe@northgateoffice.com",
+      "body_html": null,
+      "is_read": false,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "2",
+      "folder": "INBOX",
+      "subject": "Invoice INV-APX-2025-0901 \u2014 PO-2025-00901",
+      "from_addr": "skeel@apexprint.com",
+      "to_addr": "ap@meridianpartners.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-05-19T10:30:00Z",
+      "message_id": "<inv-apx-0901-20250519@apexprint.com>",
+      "in_reply_to": null,
+      "body_text": "Hi AP team,\n\nAttaching our invoice for the Q2 marketing collateral order, PO-2025-00901.\n\nInvoice Number: INV-APX-2025-0901\nInvoice Total: $2,480.00\nPayment Terms: Net 30\n\nThanks,\nSandra Keel\nApex Print Solutions",
+      "body_html": null,
+      "is_read": false,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "3",
+      "folder": "INBOX",
+      "subject": "Statement of Account \u2014 May 2025",
+      "from_addr": "mdevane@blueridgecatering.com",
+      "to_addr": "ap@meridianpartners.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-05-20T13:45:00Z",
+      "message_id": "<stmt-blueridge-may2025@blueridgecatering.com>",
+      "in_reply_to": null,
+      "body_text": "Hello,\n\nPlease find our May 2025 statement of account attached for your records. Our records show INV-BLU-2025-0318 ($695.00) remains outstanding. Please let us know the expected payment date.\n\nThank you,\nMarcus DeVane\nBlueridge Catering",
+      "body_html": null,
+      "is_read": false,
+      "is_important": false,
+      "attachments": []
+    }
+  ],
+  "next_email_id": 4
+}

@@ -1,0 +1,372 @@
+{
+  "mailbox": {
+    "email": "jordan.mills@mojavecrest.com",
+    "name": "Jordan Mills"
+  },
+  "contacts": [
+    {
+      "email": "d.whitfield@mojavecrest.com",
+      "name": "Darnell Whitfield"
+    },
+    {
+      "email": "m.alvarado@mojavecrest.com",
+      "name": "Marisol Alvarado"
+    },
+    {
+      "email": "a.ontario@mojavecrest.com",
+      "name": "Dr. Ayla Ontario"
+    },
+    {
+      "email": "h.bergstrom@mojavecrest.com",
+      "name": "Dr. Helena Bergstrom"
+    },
+    {
+      "email": "t.reyes@mojavecrest.com",
+      "name": "Tamra Reyes"
+    },
+    {
+      "email": "k.dufree@mojavecrest.com",
+      "name": "Kendel Dufree"
+    },
+    {
+      "email": "p.annadurai@mojavecrest.com",
+      "name": "Priya Annadurai"
+    },
+    {
+      "email": "appeals-intake@mojavecrest.com",
+      "name": "MCA Appeals Intake"
+    },
+    {
+      "email": "provider.relations@mojavecrest.com",
+      "name": "MCA Provider Relations"
+    },
+    {
+      "email": "billing@swshoulderelbow.com",
+      "name": "Southwest Shoulder & Elbow Institute (Billing)"
+    },
+    {
+      "email": "mwebb@webbassociateslegal.com",
+      "name": "Marcus Webb, Esq. \u2014 Webb & Associates LLP"
+    },
+    {
+      "email": "h.reyes.hector@gmail.com",
+      "name": "Hector Reyes (member)"
+    },
+    {
+      "email": "d.park.personal@gmail.com",
+      "name": "David Park (member)"
+    },
+    {
+      "email": "l.hassan.personal@gmail.com",
+      "name": "Leila Hassan (member)"
+    },
+    {
+      "email": "h.tanaka.personal@gmail.com",
+      "name": "Hiroshi Tanaka (member)"
+    },
+    {
+      "email": "billing@cactusvalleymed.com",
+      "name": "Cactus Valley Medical Center (Billing)"
+    },
+    {
+      "email": "intake@canyonridgereview.com",
+      "name": "Canyon Ridge Review Services"
+    },
+    {
+      "email": "appeals@mojavecrest.com",
+      "name": "MCA Appeals General"
+    },
+    {
+      "email": "m.soto.personal@gmail.com",
+      "name": "Mar\u00eda Soto (member)"
+    }
+  ],
+  "folders": [
+    {
+      "name": "Archive \u2014 Jan 2026"
+    },
+    {
+      "name": "Appeals \u2014 Active"
+    },
+    {
+      "name": "Archive \u2014 Feb 2026"
+    }
+  ],
+  "next_email_id": 16,
+  "emails": [
+    {
+      "email_id": "1",
+      "folder": "Archive \u2014 Feb 2026",
+      "subject": "RE: CASE-2026-00188 \u2014 Determination Sent",
+      "from_addr": "h.bergstrom@mojavecrest.com",
+      "to_addr": "jordan.mills@mojavecrest.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-02-06T15:22:00-08:00",
+      "message_id": "<msg-188-det@mojavecrest.com>",
+      "in_reply_to": null,
+      "body_text": "Jordan,\n\nClinical worksheet for CASE-2026-00188 is uploaded to the case folder. Decision: overturn \u2014 auth criteria are met. The member's clinical documentation adequately supports medical necessity for the ESI series.\n\nYou're clear to send the favorable determination letter.\n\n\u2014 Helena",
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "2",
+      "folder": "Archive \u2014 Feb 2026",
+      "subject": "RE: CASE-2026-00193 \u2014 Grievance Resolution",
+      "from_addr": "d.whitfield@mojavecrest.com",
+      "to_addr": "jordan.mills@mojavecrest.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-02-11T11:44:00-08:00",
+      "message_id": "<msg-193-res@mojavecrest.com>",
+      "in_reply_to": null,
+      "body_text": "Jordan,\n\nGrievance investigation complete for CASE-2026-00193. I reviewed the call logs from December. Hold times were within SLA \u2014 the member's experience was frustrating but the metrics were compliant. No corrective action warranted. Draft Template A-10 with 'Resolved without Action,' and run it by me before you send. Staff conduct grievances always get my review.\n\n\u2014 Darnell",
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "3",
+      "folder": "Appeals \u2014 Active",
+      "subject": "CASE-2026-00201 \u2014 Clinical Determination Ready",
+      "from_addr": "m.alvarado@mojavecrest.com",
+      "to_addr": "jordan.mills@mojavecrest.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-02-12T14:08:00-08:00",
+      "message_id": "<msg-201-det@mojavecrest.com>",
+      "in_reply_to": null,
+      "body_text": "Jordan,\n\nI've completed my clinical review for CASE-2026-00201 (Tanaka, Hiroshi \u2014 ACDF pre-service appeal).\n\nDecision: Overturn. The member's surgeon submitted supplemental clinical documentation and updated MRI findings that I did not have in the original denial packet. The documentation now demonstrates failure of conservative care over a 6-month period and neurological compromise at C5-C6 consistent with clinical criteria for the requested service. Auth criteria are met.\n\nMy worksheet is in the case folder. You're clear to proceed with the favorable determination.\n\nRemember the decision deadline is Feb 21 \u2014 you don't have a lot of runway here.\n\n\u2014 Marisol",
+      "is_read": false,
+      "is_important": true,
+      "attachments": []
+    },
+    {
+      "email_id": "5",
+      "folder": "INBOX",
+      "subject": "URGENT: Nevada DOI Bulletin NV-2026-03 \u2014 Response Required by March 15",
+      "from_addr": "k.dufree@mojavecrest.com",
+      "to_addr": "jordan.mills@mojavecrest.com",
+      "cc_addr": "d.whitfield@mojavecrest.com",
+      "bcc_addr": null,
+      "date": "2026-02-17T09:02:00-08:00",
+      "message_id": "<msg-doi-bulletin@mojavecrest.com>",
+      "in_reply_to": null,
+      "body_text": "Team,\n\nThe Nevada Division of Insurance has issued Bulletin NV-2026-03 regarding updated documentation requirements for internal appeal decisions. Compliance is drafting our formal response and will circulate for unit review by March 1.\n\nFor now, no changes to your day-to-day appeals handling procedures. Existing SOP remains in effect. I will send updated instructions if anything changes.\n\nNo immediate action required on your end. Just wanted to loop you in ahead of the all-hands on March 3.\n\nKendel\nCompliance Officer\nMojave Crest Assurance Company",
+      "is_read": false,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "6",
+      "folder": "INBOX",
+      "subject": "Appeal \u2014 Denied Shoulder Surgery Claim \u2014 Mar\u00eda Soto (VA-64821-09)",
+      "from_addr": "m.soto.personal@gmail.com",
+      "to_addr": "jordan.mills@mojavecrest.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-02-17T16:08:00-08:00",
+      "message_id": "<msg-202-intake@swshoulderelbow.com>",
+      "in_reply_to": null,
+      "body_text": "To Mojave Crest Assurance Company,\n\nMy name is Mar\u00eda Soto. My member ID is VA-64821-09 and my group number is G-14827. I am writing to appeal the denial of my claim for shoulder surgery.\n\nI had an arthroscopic shoulder repair on February 3, 2026 (CPT 29827, billed amount $38,400.00). The claim was denied with the reason 'prior authorization not obtained for date of service.' However, I did have a prior authorization for this procedure. My surgeon's office told me a prior authorization was approved, and I scheduled the surgery based on that. I was not told that the authorization had expired or that I needed a new one.\n\nI believe this denial is in error and I am asking you to reconsider. I am attaching a copy of the Explanation of Benefits and my surgeon's notes.\n\nSincerely,\nMar\u00eda Soto\nMember ID: VA-64821-09\nDate of Birth: 07/14/1971\nPhone: (480) 555-0312",
+      "is_read": false,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "EOB_Soto_CLM-2026-014209.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjQgRU9CIGRvY3VtZW50"
+        }
+      ]
+    },
+    {
+      "email_id": "7",
+      "folder": "INBOX",
+      "subject": "Appeal and Complaint \u2014 Hector Reyes \u2014 Member ID VA-18734-05",
+      "from_addr": "h.reyes.hector@gmail.com",
+      "to_addr": "jordan.mills@mojavecrest.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-02-17T15:52:00-08:00",
+      "message_id": "<msg-203-intake@gmail.com>",
+      "in_reply_to": null,
+      "body_text": "To Mojave Crest Assurance,\n\nI am writing for two reasons.\n\nFirst, I want to formally appeal the denial of my MRI claim. I received an Explanation of Benefits dated February 9, 2026 stating that my knee MRI (date of service February 2, 2026) was denied as not medically necessary. I disagree with this decision. My orthopedist, Dr. Singh, ordered this MRI because I have had persistent knee pain for over a year and completed 11 sessions of physical therapy with only partial improvement. The MRI is needed to determine whether I require surgery. I have attached my doctor's notes and the PT discharge summary.\n\nSecond, I need to formally complain about how I was treated when I called your member services line on February 10, 2026. The representative I spoke with was dismissive, interrupted me several times when I tried to explain my situation, and at one point said 'I don't know why you're calling us, this is a medical decision.' That is completely unacceptable. I want this on record and I want to know what action will be taken.\n\nThank you,\nHector Reyes\nMember ID: VA-18734-05\nDate of Birth: 06/03/1984\nPhone: (702) 555-0371",
+      "is_read": false,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "DrSingh_clinical_notes_2026-02-02.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjQgY2xpbmljYWwgbm90ZXM="
+        },
+        {
+          "filename": "PT_discharge_summary_Reyes.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjQgUFQgZGlzY2hhcmdl"
+        }
+      ]
+    },
+    {
+      "email_id": "8",
+      "folder": "INBOX",
+      "subject": "Notice of Appeal and Reservation of Legal Rights \u2014 Sandra Kimura (VA-29567-08)",
+      "from_addr": "mwebb@webbassociateslegal.com",
+      "to_addr": "jordan.mills@mojavecrest.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-02-18T09:33:00-08:00",
+      "message_id": "<msg-204-intake@webbassociateslegal.com>",
+      "in_reply_to": null,
+      "body_text": "RE: Sandra Kimura (Member ID VA-29567-08) \u2014 Prior Authorization Denial \u2014 Lumbar Spine MRI (CPT 72148)\n\nDear Mojave Crest Assurance Company Appeals Unit,\n\nThis firm represents Sandra Kimura in connection with the denial of prior authorization for lumbar spine MRI with contrast (CPT 72148), denial issued February 10, 2026. Pursuant to the Vista Access PPO Evidence of Coverage, we are filing this formal appeal on Ms. Kimura's behalf and requesting internal appeal review.\n\nGROUNDS FOR APPEAL:\nMs. Kimura has chronic low back pain with facet arthropathy confirmed on prior MRI (2025). Her treating physician, Dr. Thomas Reeve of Sunrise Neurology & Spine, has documented a 7-month course of conservative treatment including physical therapy, NSAIDs, and facet injections without sustained relief. The denial's reliance on 'conservative care not exhausted' is factually unsupported by the clinical record.\n\nSupportive documentation is enclosed, including Dr. Reeve's letter of medical necessity dated February 14, 2026.\n\nPLEASE BE ADVISED: If Mojave Crest Assurance Company fails to issue a favorable determination within five (5) business days of the date of this letter, Webb & Associates LLP will seek injunctive relief and compensatory damages, including reasonable attorney's fees, in Clark County District Court. This letter serves as formal notice of that intent.\n\nPlease direct all future correspondence in this matter to the undersigned at the address below. Do not contact Ms. Kimura directly.\n\nRespectfully,\nMarcus Webb, Esq.\nWebb & Associates LLP\n3820 Howard Hughes Pkwy, Suite 600, Las Vegas, NV 89169\nmwebb@webbassociateslegal.com | (702) 555-0840",
+      "is_read": false,
+      "is_important": true,
+      "attachments": [
+        {
+          "filename": "Kimura_Appeal_Webb_20260218.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjQgYXBwZWFsIGxldHRlcg=="
+        },
+        {
+          "filename": "DrReeve_LMN_Kimura_20260214.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjQgbGV0dGVyIG9mIG1lZA=="
+        }
+      ]
+    },
+    {
+      "email_id": "9",
+      "folder": "INBOX",
+      "subject": "Late Appeal \u2014 Lumbar MRI Denial \u2014 David Park (VA-51104-11)",
+      "from_addr": "d.park.personal@gmail.com",
+      "to_addr": "jordan.mills@mojavecrest.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-02-19T08:22:00-08:00",
+      "message_id": "<msg-205-intake@gmail.com>",
+      "in_reply_to": null,
+      "body_text": "To Mojave Crest Assurance,\n\nMy name is David Park. My member ID is VA-51104-11 and my group is G-31047. I am writing to appeal a prior authorization denial I received in July 2025.\n\nThe denial was for a lumbar spine MRI (denial letter dated July 22, 2025). I was told I had 180 days to appeal. I know that deadline has passed and I am sorry for filing late, but I have a serious reason for the delay.\n\nShortly after receiving the denial letter, I was hospitalized with a cardiac event. I was admitted on July 28, 2025 and discharged on September 10, 2025 after more than six weeks in the hospital. During that time I was not able to manage mail, make phone calls, or handle any personal business. After my discharge I was in cardiac rehabilitation for several months and was still not fully able to manage my affairs.\n\nI have attached a letter from my cardiologist confirming my hospitalization dates, and my discharge summary. I am asking you to please consider my circumstances and allow me to appeal despite the late filing.\n\nSincerely,\nDavid Park\nMember ID: VA-51104-11\nDate of Birth: 11/08/1959\nPhone: (702) 555-0824",
+      "is_read": false,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "DrHadley_hospitalization_confirmation.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjQgaG9zcGl0YWxpemF0aW9u"
+        },
+        {
+          "filename": "discharge_summary_Park_20250910.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjQgZGlzY2hhcmdlIHN1bW1hcnk="
+        }
+      ]
+    },
+    {
+      "email_id": "10",
+      "folder": "INBOX",
+      "subject": "Appeal of Authorization Denial \u2014 Leila Hassan (VA-73245-13)",
+      "from_addr": "l.hassan.personal@gmail.com",
+      "to_addr": "jordan.mills@mojavecrest.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-02-13T15:47:00-08:00",
+      "message_id": "<msg-196-intake@gmail.com>",
+      "in_reply_to": null,
+      "body_text": "To Mojave Crest Assurance Company Appeals,\n\nI am writing to appeal the denial of my prior authorization request for a spinal cord stimulator trial (CPT 63650). The denial letter is dated January 28, 2026.\n\nI have been living with severe chronic pain for three years. I have tried physical therapy (two full courses), medication management with multiple drug classes, lumbar facet injections (two rounds), and a course of occupational therapy. Nothing has provided lasting relief. My pain management physician, Dr. Nadia Petrova at the Advanced Pain Institute of Nevada, has determined that a spinal cord stimulator trial is the appropriate next step in my care and submitted documentation to support this.\n\nI believe the denial was in error and that my clinical documentation meets your criteria. I am including Dr. Petrova's medical necessity letter and my treatment history records.\n\nPlease let me know what happens next.\n\nLeila Hassan\nMember ID: VA-73245-13\nDate of Birth: 05/29/1968\nPhone: (702) 555-0193",
+      "is_read": true,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "DrPetrova_LMN_Hassan_20260211.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjQgbWVkaWNhbCBuZWNlc3NpdHk="
+        },
+        {
+          "filename": "Hassan_treatment_history.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjQgdHJlYXRtZW50IGhpc3Rvcnk="
+        }
+      ]
+    },
+    {
+      "email_id": "11",
+      "folder": "INBOX",
+      "subject": "Payment Status Inquiry \u2014 Claim CLM-2026-001822 \u2014 Park, David",
+      "from_addr": "billing@cactusvalleymed.com",
+      "to_addr": "jordan.mills@mojavecrest.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-02-18T10:42:00-08:00",
+      "message_id": "<msg-billing-inquiry@cactusvalley.com>",
+      "in_reply_to": null,
+      "body_text": "Hello,\n\nThis is the billing department at Cactus Valley Medical Center. We are following up on claim CLM-2026-001822 for patient David Park (Member ID VA-51104-11). The claim was for a January 9, 2026 office visit (CPT 99213) in the amount of $195.00.\n\nOur records show this claim was submitted January 14, 2026. We have not yet received payment or an EOB. Could you please confirm the status and expected payment date?\n\nThank you,\nBilling Department\nCactus Valley Medical Center\nbilling@cactusvalleymed.com | (702) 555-0631",
+      "is_read": false,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "12",
+      "folder": "Sent",
+      "subject": "Mojave Crest Appeals Case #CASE-2026-00188 - Appeal Decision",
+      "from_addr": "jordan.mills@mojavecrest.com",
+      "to_addr": "h.bergstrom@mojavecrest.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-02-06T16:55:00-08:00",
+      "message_id": "<msg-188-sent@mojavecrest.com>",
+      "in_reply_to": null,
+      "body_text": "Dr. Bergstrom,\n\nAttached is my draft Template A-6 for CASE-2026-00188 per your determination. Please confirm the determination language looks correct before I send to the member.\n\nJordan Mills\nAppeals & Grievances Coordinator",
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "13",
+      "folder": "Sent",
+      "subject": "Mojave Crest Appeals Case #CASE-2026-00201 - Acknowledgment of Your Appeal",
+      "from_addr": "jordan.mills@mojavecrest.com",
+      "to_addr": "h.tanaka.personal@gmail.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-01-27T09:48:00-08:00",
+      "message_id": "<msg-201-ack-sent@mojavecrest.com>",
+      "in_reply_to": null,
+      "body_text": "Dear Mr. Tanaka,\n\nThis letter confirms that Mojave Crest Assurance Company has received your appeal regarding the denial of prior authorization for anterior cervical discectomy and fusion (ACDF, CPT 22551).\n\nYour case details:\n  Case Number: CASE-2026-00201\n  Member ID: VA-09371-14\n  Date Received: January 22, 2026\n  Appeal Type: Pre-Service Standard\n  Decision Due By: February 21, 2026\n\nI will be your Appeals Coordinator throughout this case. I may contact you if additional information is needed to complete the review.\n\nIf you have questions about your case, please reply to this email or call the Appeals Unit at (702) 555-0148, referencing your Case Number above.\n\nSincerely,\nJordan Mills\nAppeals & Grievances Coordinator\nMojave Crest Assurance Company\nCase #: CASE-2026-00201",
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "14",
+      "folder": "Sent",
+      "subject": "Mojave Crest Appeals Case #CASE-2026-00199 - Information Needed",
+      "from_addr": "jordan.mills@mojavecrest.com",
+      "to_addr": "l.sutter@desertsunplasticsurgery.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-02-09T10:14:00-08:00",
+      "message_id": "<msg-199-a2-sent2@mojavecrest.com>",
+      "in_reply_to": null,
+      "body_text": "Dear Dr. Sutter's Office,\n\nI am writing regarding appeal Case #CASE-2026-00199. In order to complete our review of the benefit determination for CPT 17999, I need the following additional information:\n\n  1. Operative report or surgical notes from the procedure performed on January 30, 2026, documenting the nature and medical basis for the procedure\n  2. Pre-operative clinical photographs documenting the condition that prompted the procedure\n  3. The treating provider's letter explaining the reconstructive \u2014 rather than cosmetic \u2014 basis for the procedure, referencing the specific diagnosis and condition being treated\n\nPlease provide this information within 15 calendar days of the date of this letter (deadline: February 24, 2026). If we do not receive the requested information within that period, your appeal will proceed on the information currently available.\n\nSincerely,\nJordan Mills\nAppeals & Grievances Coordinator\nMojave Crest Assurance Company\nPhone: (702) 555-0148\nCase #: CASE-2026-00199",
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "15",
+      "folder": "Sent",
+      "subject": "Claim Reprocessing Request \u2014 CASE-2026-00201 \u2014 Appeals Overturn",
+      "from_addr": "jordan.mills@mojavecrest.com",
+      "to_addr": "claims-adjustment@mojavecrest.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-02-13T11:22:00-08:00",
+      "message_id": "<msg-201-reprocess@mojavecrest.com>",
+      "in_reply_to": null,
+      "body_text": "Claims Adjustment Team,\n\nPlease open a Claim Reprocessing Request for the following case:\n\n  Case ID: CASE-2026-00201\n  Member ID: VA-09371-14\n  Determination: Appeals Overturn\n  Reviewer: M. Alvarado (RN)\n  Determination date: 2026-02-12\n  Service: ACDF CPT 22551\n  Billed charges: $62,800.00\n\nClinical worksheet is attached to the case folder in the Appeals repository. Please return the Reprocessing Worksheet to me via Slack DM within 2 business days per SOP.\n\nJordan Mills\nAppeals & Grievances Coordinator\nCase #: CASE-2026-00201",
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    }
+  ]
+}

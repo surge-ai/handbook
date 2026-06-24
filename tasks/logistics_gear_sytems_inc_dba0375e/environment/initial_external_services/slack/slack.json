@@ -1,0 +1,800 @@
+{
+  "users": {
+    "U001": {
+      "id": "U001",
+      "team_id": "T001",
+      "name": "receiving.mer",
+      "deleted": false,
+      "real_name": "Inbound Materials Coordinator",
+      "profile": {
+        "real_name": "Inbound Materials Coordinator",
+        "display_name": "receiving-mer",
+        "email": "receiving.meridian@gearsystems.com",
+        "title": "Inbound Materials Coordinator"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_primary_owner": false,
+      "is_bot": false
+    },
+    "U002": {
+      "id": "U002",
+      "team_id": "T001",
+      "name": "dhooks",
+      "deleted": false,
+      "real_name": "Darnell Hooks",
+      "profile": {
+        "real_name": "Darnell Hooks",
+        "display_name": "dhooks",
+        "email": "darnell.hooks@gearsystems.com",
+        "title": "Receiving Supervisor"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_primary_owner": false,
+      "is_bot": false
+    },
+    "U003": {
+      "id": "U003",
+      "team_id": "T001",
+      "name": "evelasquez",
+      "deleted": false,
+      "real_name": "Elizabeth Velasquez",
+      "profile": {
+        "real_name": "Elizabeth Velasquez",
+        "display_name": "evelasquez",
+        "email": "elizabeth.velasquez@gearsystems.com",
+        "title": "Plant Logistics Manager"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_primary_owner": false,
+      "is_bot": false
+    },
+    "U004": {
+      "id": "U004",
+      "team_id": "T001",
+      "name": "wfinch",
+      "deleted": false,
+      "real_name": "Walter Finch",
+      "profile": {
+        "real_name": "Walter Finch",
+        "display_name": "wfinch",
+        "email": "walter.finch@gearsystems.com",
+        "title": "Plant Manager"
+      },
+      "is_admin": true,
+      "is_owner": true,
+      "is_primary_owner": true,
+      "is_bot": false
+    },
+    "U005": {
+      "id": "U005",
+      "team_id": "T001",
+      "name": "cyablonski",
+      "deleted": false,
+      "real_name": "Curtis Yablonski",
+      "profile": {
+        "real_name": "Curtis Yablonski",
+        "display_name": "cyablonski",
+        "email": "curtis.yablonski@gearsystems.com",
+        "title": "Dock Lead"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_primary_owner": false,
+      "is_bot": false
+    },
+    "U006": {
+      "id": "U006",
+      "team_id": "T001",
+      "name": "tbrandt",
+      "deleted": false,
+      "real_name": "Theo Brandt",
+      "profile": {
+        "real_name": "Theo Brandt",
+        "display_name": "tbrandt",
+        "email": "theo.brandt@gearsystems.com",
+        "title": "Quality Manager"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_primary_owner": false,
+      "is_bot": false
+    },
+    "U007": {
+      "id": "U007",
+      "team_id": "T001",
+      "name": "jpark",
+      "deleted": false,
+      "real_name": "Joon-ho Park",
+      "profile": {
+        "real_name": "Joon-ho Park",
+        "display_name": "jpark",
+        "email": "joonho.park@gearsystems.com",
+        "title": "Procurement Lead, Meridian"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_primary_owner": false,
+      "is_bot": false
+    },
+    "U008": {
+      "id": "U008",
+      "team_id": "T001",
+      "name": "mortiz",
+      "deleted": false,
+      "real_name": "Maribel Ortiz",
+      "profile": {
+        "real_name": "Maribel Ortiz",
+        "display_name": "mortiz",
+        "email": "maribel.ortiz@gearsystems.com",
+        "title": "Inventory Control Lead"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_primary_owner": false,
+      "is_bot": false
+    },
+    "U009": {
+      "id": "U009",
+      "team_id": "T001",
+      "name": "akrishnamurthy",
+      "deleted": false,
+      "real_name": "Aditi Krishnamurthy",
+      "profile": {
+        "real_name": "Aditi Krishnamurthy",
+        "display_name": "akrishnamurthy",
+        "email": "aditi.krishnamurthy@gearsystems.com",
+        "title": "Production Planning Lead"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_primary_owner": false,
+      "is_bot": false
+    },
+    "U010": {
+      "id": "U010",
+      "team_id": "T001",
+      "name": "rlemoine",
+      "deleted": false,
+      "real_name": "Reggie Lemoine",
+      "profile": {
+        "real_name": "Reggie Lemoine",
+        "display_name": "rlemoine",
+        "email": "reggie.lemoine@gearsystems.com",
+        "title": "Quality Inspector, 1st Shift"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_primary_owner": false,
+      "is_bot": false
+    },
+    "U011": {
+      "id": "U011",
+      "team_id": "T001",
+      "name": "cwoj",
+      "deleted": false,
+      "real_name": "Chris Wojciechowski",
+      "profile": {
+        "real_name": "Chris Wojciechowski",
+        "display_name": "cwoj",
+        "email": "chris.wojciechowski@gearsystems.com",
+        "title": "Plant EHS Contact"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_primary_owner": false,
+      "is_bot": false
+    },
+    "U012": {
+      "id": "U012",
+      "team_id": "T001",
+      "name": "ytanaka",
+      "deleted": false,
+      "real_name": "Yuki Tanaka",
+      "profile": {
+        "real_name": "Yuki Tanaka",
+        "display_name": "ytanaka",
+        "email": "yuki.tanaka@gearsystems.com",
+        "title": "RMA Coordinator, Quality"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_primary_owner": false,
+      "is_bot": false
+    },
+    "U013": {
+      "id": "U013",
+      "team_id": "T001",
+      "name": "solds",
+      "deleted": false,
+      "real_name": "Sherri Olds",
+      "profile": {
+        "real_name": "Sherri Olds",
+        "display_name": "solds",
+        "email": "sherri.olds@gearsystems.com",
+        "title": "Plant Logistics Manager, Birmingham"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_primary_owner": false,
+      "is_bot": false
+    },
+    "U014": {
+      "id": "U014",
+      "team_id": "T001",
+      "name": "akrishnan",
+      "deleted": false,
+      "real_name": "Anand Krishnan",
+      "profile": {
+        "real_name": "Anand Krishnan",
+        "display_name": "akrishnan",
+        "email": "anand.krishnan@gearsystems.com",
+        "title": "Plant Logistics Manager, Pittsburgh"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_primary_owner": false,
+      "is_bot": false
+    }
+  },
+  "channels": {
+    "C001": {
+      "id": "C001",
+      "name": "receiving-dock",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1700000000,
+      "is_archived": false,
+      "is_general": false,
+      "name_normalized": "receiving-dock",
+      "is_shared": false,
+      "is_org_shared": false,
+      "context_team_id": "T001",
+      "creator": "U004",
+      "is_member": true,
+      "topic": {
+        "value": "Dock activity \u2014 arrivals, check-ins, unload complete, putaway authorization, handoffs",
+        "creator": "U004",
+        "last_set": 1700000000
+      },
+      "purpose": {
+        "value": "Primary operational channel for the receiving dock. All dock crew posts, Coordinator instructions, and shift handoffs go here.",
+        "creator": "U004",
+        "last_set": 1700000000
+      },
+      "unlinked": 0,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "updated": 1700000000,
+      "shared_team_ids": [
+        "T001"
+      ]
+    },
+    "C002": {
+      "id": "C002",
+      "name": "quality-alerts",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1700000000,
+      "is_archived": false,
+      "is_general": false,
+      "name_normalized": "quality-alerts",
+      "is_shared": false,
+      "is_org_shared": false,
+      "context_team_id": "T001",
+      "creator": "U004",
+      "is_member": true,
+      "topic": {
+        "value": "Quality findings \u2014 damage reports, inspection results, quarantine notices, NCR alerts",
+        "creator": "U004",
+        "last_set": 1700000000
+      },
+      "purpose": {
+        "value": "Quality-related alerts from the dock and Coordinator. Reggie Lemoine posts inspection findings here. Do not delete or modify posts \u2014 this channel is part of the audit trail.",
+        "creator": "U004",
+        "last_set": 1700000000
+      },
+      "unlinked": 0,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "updated": 1700000000,
+      "shared_team_ids": [
+        "T001"
+      ]
+    },
+    "C003": {
+      "id": "C003",
+      "name": "escalations-meridian",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1700000000,
+      "is_archived": false,
+      "is_general": false,
+      "name_normalized": "escalations-meridian",
+      "is_shared": false,
+      "is_org_shared": false,
+      "context_team_id": "T001",
+      "creator": "U004",
+      "is_member": true,
+      "topic": {
+        "value": "Plant-level escalations \u2014 suspended suppliers, dollar-value overrides, line-down risk, critical NCRs",
+        "creator": "U004",
+        "last_set": 1700000000
+      },
+      "purpose": {
+        "value": "Escalations requiring Plant Logistics Manager or Plant Manager involvement. Posts here are never deleted \u2014 correction replies only.",
+        "creator": "U004",
+        "last_set": 1700000000
+      },
+      "unlinked": 0,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "updated": 1700000000,
+      "shared_team_ids": [
+        "T001"
+      ]
+    },
+    "C004": {
+      "id": "C004",
+      "name": "planning-meridian",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1700000000,
+      "is_archived": false,
+      "is_general": false,
+      "name_normalized": "planning-meridian",
+      "is_shared": false,
+      "is_org_shared": false,
+      "context_team_id": "T001",
+      "creator": "U004",
+      "is_member": true,
+      "topic": {
+        "value": "Production planning notifications \u2014 short ships, quarantines with line-down risk, schedule impacts",
+        "creator": "U004",
+        "last_set": 1700000000
+      },
+      "purpose": {
+        "value": "Channel for notifying Production Planning (Aditi Krishnamurthy) of receiving events that may affect the production schedule.",
+        "creator": "U004",
+        "last_set": 1700000000
+      },
+      "unlinked": 0,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "updated": 1700000000,
+      "shared_team_ids": [
+        "T001"
+      ]
+    },
+    "D001": {
+      "id": "D001",
+      "name": "dhooks",
+      "is_channel": false,
+      "is_group": false,
+      "is_im": true,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1700000000,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1700000000,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "user": "U002",
+      "members": [
+        "U001",
+        "U002"
+      ]
+    },
+    "D002": {
+      "id": "D002",
+      "name": "evelasquez",
+      "is_channel": false,
+      "is_group": false,
+      "is_im": true,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1700000000,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1700000000,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "user": "U003",
+      "members": [
+        "U001",
+        "U003"
+      ]
+    },
+    "D003": {
+      "id": "D003",
+      "name": "wfinch",
+      "is_channel": false,
+      "is_group": false,
+      "is_im": true,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1700000000,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1700000000,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "user": "U004",
+      "members": [
+        "U001",
+        "U004"
+      ]
+    },
+    "D004": {
+      "id": "D004",
+      "name": "cyablonski",
+      "is_channel": false,
+      "is_group": false,
+      "is_im": true,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1700000000,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1700000000,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "user": "U005",
+      "members": [
+        "U001",
+        "U005"
+      ]
+    },
+    "D005": {
+      "id": "D005",
+      "name": "tbrandt",
+      "is_channel": false,
+      "is_group": false,
+      "is_im": true,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1700000000,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1700000000,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "user": "U006",
+      "members": [
+        "U001",
+        "U006"
+      ]
+    },
+    "D006": {
+      "id": "D006",
+      "name": "jpark",
+      "is_channel": false,
+      "is_group": false,
+      "is_im": true,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1700000000,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1700000000,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "user": "U007",
+      "members": [
+        "U001",
+        "U007"
+      ]
+    },
+    "D007": {
+      "id": "D007",
+      "name": "mortiz",
+      "is_channel": false,
+      "is_group": false,
+      "is_im": true,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1700000000,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1700000000,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "user": "U008",
+      "members": [
+        "U001",
+        "U008"
+      ]
+    },
+    "D008": {
+      "id": "D008",
+      "name": "akrishnamurthy",
+      "is_channel": false,
+      "is_group": false,
+      "is_im": true,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1700000000,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1700000000,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "user": "U009",
+      "members": [
+        "U001",
+        "U009"
+      ]
+    },
+    "D009": {
+      "id": "D009",
+      "name": "rlemoine",
+      "is_channel": false,
+      "is_group": false,
+      "is_im": true,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1700000000,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1700000000,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "user": "U010",
+      "members": [
+        "U001",
+        "U010"
+      ]
+    },
+    "D010": {
+      "id": "D010",
+      "name": "cwoj",
+      "is_channel": false,
+      "is_group": false,
+      "is_im": true,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1700000000,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1700000000,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "user": "U011",
+      "members": [
+        "U001",
+        "U011"
+      ]
+    },
+    "D011": {
+      "id": "D011",
+      "name": "ytanaka",
+      "is_channel": false,
+      "is_group": false,
+      "is_im": true,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1700000000,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1700000000,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "user": "U012",
+      "members": [
+        "U001",
+        "U012"
+      ]
+    }
+  },
+  "messages": {
+    "C001": [
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "DAILY DOCK PREVIEW 11/24/2026: 3 appointments scheduled. Hazmat: APPT-20261124-001, APPT-20261124-002. Oversize/special: none. Largest expected shipment: Vantage Lubricants Inc., 2,640 lb at 10:00.",
+        "ts": "1795521600.000000",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "ARRIVAL ON TIME: APPT-20261124-001, Vantage Lubricants Inc., Dock 1, PO #MER-PO-204869. Cleared to unload.",
+        "ts": "1795547542.000000",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "ARRIVAL ON TIME: APPT-20261124-002, Vantage Lubricants Inc., Dock 3, PO #MER-PO-204870. Cleared to unload.",
+        "ts": "1795548262.000000",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "ARRIVAL ON TIME: APPT-20261124-003, Vantage Lubricants Inc., Dock 2, PO #MER-PO-204871. Cleared to unload.",
+        "ts": "1795548600.000000",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U005",
+        "text": "UNLOAD COMPLETE: REC-20261124-003, Vantage Lubricants Inc., PO #MER-PO-204871. Total pallets: 2. Count match: Y. Condition: Clean. Photos: N.",
+        "ts": "1795551600.000000",
+        "team": "T001"
+      }
+    ],
+    "C002": [],
+    "C003": [],
+    "C004": [],
+    "D001": [],
+    "D002": [],
+    "D003": [],
+    "D004": [],
+    "D005": [],
+    "D006": [],
+    "D007": [],
+    "D008": [],
+    "D009": [],
+    "D010": [],
+    "D011": []
+  },
+  "counters": {
+    "messageId": 1000000
+  }
+}

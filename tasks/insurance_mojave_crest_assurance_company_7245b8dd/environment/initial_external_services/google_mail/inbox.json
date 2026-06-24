@@ -1,0 +1,138 @@
+{
+  "mailbox": {
+    "email": "k.whitfield@mojavecrest.com",
+    "name": "Kara Whitfield"
+  },
+  "contacts": [
+    {
+      "email": "t.reyes@mojavecrest.com",
+      "name": "Tamra Reyes"
+    },
+    {
+      "email": "d.whitfield@mojavecrest.com",
+      "name": "Darnell Whitfield"
+    },
+    {
+      "email": "p.annadurai@mojavecrest.com",
+      "name": "Priya Annadurai"
+    },
+    {
+      "email": "h.bergstrom@mojavecrest.com",
+      "name": "Dr. Helena Bergstrom, MD"
+    },
+    {
+      "email": "a.ontario@mojavecrest.com",
+      "name": "Dr. Ayla Ontario, MD"
+    },
+    {
+      "email": "m.alvarado@mojavecrest.com",
+      "name": "Marisol Alvarado, RN"
+    },
+    {
+      "email": "j.henning@mojavecrest.com",
+      "name": "Dr. Jules Henning, PharmD"
+    },
+    {
+      "email": "k.dufree@mojavecrest.com",
+      "name": "Kendel Dufree"
+    },
+    {
+      "email": "parity@mojavecrest.com",
+      "name": "Parity Review Committee"
+    },
+    {
+      "email": "intake@canyonridgereview.com",
+      "name": "Canyon Ridge Review Services"
+    },
+    {
+      "email": "urgent-intake@canyonridgereview.com",
+      "name": "Canyon Ridge Review Services \u2014 Urgent"
+    },
+    {
+      "email": "j.castillo@desertpeaksrehab.com",
+      "name": "Jennifer Castillo, RN (Desert Peaks UR)"
+    }
+  ],
+  "groups": [
+    {
+      "email": "appeals@mojavecrest.com",
+      "name": "Appeals Inbox",
+      "members": [
+        "k.whitfield@mojavecrest.com",
+        "p.annadurai@mojavecrest.com"
+      ]
+    }
+  ],
+  "folders": [
+    {
+      "name": "Case Files"
+    },
+    {
+      "name": "Archive"
+    }
+  ],
+  "emails": [
+    {
+      "email_id": "1",
+      "folder": "INBOX",
+      "subject": "Fwd: Expedited Concurrent Care Appeals \u2014 Kovacs, James & Obata, Kenji | Desert Peaks Rehabilitation Center",
+      "from_addr": "appeals@mojavecrest.com",
+      "to_addr": "k.whitfield@mojavecrest.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-14T09:55:00-07:00",
+      "message_id": "<fwd-dp-appeals-20260414-0955@mojavecrest.com>",
+      "in_reply_to": null,
+      "body_text": "---------- Forwarded message ----------\nFrom: Jennifer Castillo, RN <j.castillo@desertpeaksrehab.com>\nDate: April 14, 2026, 9:47 AM PDT\nTo: appeals@mojavecrest.com\nSubject: Expedited Concurrent Care Appeals \u2014 Kovacs, James & Obata, Kenji | Desert Peaks Rehabilitation Center\n\nTo the Mojave Crest Assurance Appeals & Grievances Team:\n\nDesert Peaks Rehabilitation Center is submitting expedited concurrent care appeals on behalf of two patients currently admitted to our facility. Both appeals are submitted under Authorized Representative Agreements on file with Mojave Crest.\n\nAPPEAL 1 \u2014 KOVACS, JAMES\nMember ID:          44710006\nDOB:                02/03/2008\nCase Reference:     CR-2026-044721\nPlan / Group:       MCA-4471 (PY2026)\nService:            Inpatient SUD Rehabilitation (H0019)\nDenial Issued:      April 7, 2026\nDenial Effective:   April 15, 2026\nEnclosed:           Kovacs_James_ClinicalPacket_CR-2026-044721.pdf\n                    MCA_Denial_Letter_Kovacs_James_CR-2026-044721.pdf\n\nAPPEAL 2 \u2014 OBATA, KENJI\nMember ID:          09230007\nDOB:                08/04/1985\nCase Reference:     CR-2026-092317\nPlan / Group:       MCA-0923 (PY2025-26)\nService:            Inpatient SUD Rehabilitation (H0019)\nAdmission Date:     April 2, 2026\nDenial Effective:   April 9, 2026\nPrior Auth:         PA-0923-2026-0287 (issued March 28, 2026)\nEnclosed:           Obata_Kenji_ClinicalPacket_CR-2026-092317.pdf\n                    MCA_Denial_Letter_Obata_Kenji_CR-2026-092317.pdf\n\nBoth patients are currently admitted. We request expedited concurrent care review consistent with applicable federal and Nevada concurrent care protections. Coverage must continue pending the outcome of these appeals.\n\nPlease confirm receipt and assign case numbers. We are available for peer-to-peer review upon request.\n\nSincerely,\nJennifer Castillo, RN, CCM\nUtilization Review Coordinator\nDesert Peaks Rehabilitation Center\nDirect: (702) 555-4215  |  ur@desertpeaksrehab.com\n4800 Desert Peaks Boulevard, Henderson, NV 89002",
+      "body_html": null,
+      "is_read": false,
+      "is_important": true,
+      "attachments": [
+        {
+          "filename": "Kovacs_James_ClinicalPacket_CR-2026-044721.pdf",
+          "content_type": "application/pdf",
+          "content_base64": ""
+        },
+        {
+          "filename": "MCA_Denial_Letter_Kovacs_James_CR-2026-044721.pdf",
+          "content_type": "application/pdf",
+          "content_base64": ""
+        },
+        {
+          "filename": "Obata_Kenji_ClinicalPacket_CR-2026-092317.pdf",
+          "content_type": "application/pdf",
+          "content_base64": ""
+        },
+        {
+          "filename": "MCA_Denial_Letter_Obata_Kenji_CR-2026-092317.pdf",
+          "content_type": "application/pdf",
+          "content_base64": ""
+        }
+      ]
+    },
+    {
+      "email_id": "2",
+      "folder": "INBOX",
+      "subject": "Daily Intake Queue \u2014 April 14, 2026",
+      "from_addr": "appeals@mojavecrest.com",
+      "to_addr": "k.whitfield@mojavecrest.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-14T11:15:00-07:00",
+      "message_id": "<intake-queue-20260414-1115@mojavecrest.com>",
+      "in_reply_to": null,
+      "body_text": "Two expedited concurrent care appeals received this morning via forwarded email from appeals@mojavecrest.com (Desert Peaks Rehabilitation Center, fwd received 9:55 AM). Attaching daily intake queue.\n\nKara\nk.whitfield@mojavecrest.com | @kwhitfield",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "Intake_Queue_2026-04-14.xlsx",
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_base64": ""
+        }
+      ]
+    }
+  ],
+  "next_email_id": 3
+}

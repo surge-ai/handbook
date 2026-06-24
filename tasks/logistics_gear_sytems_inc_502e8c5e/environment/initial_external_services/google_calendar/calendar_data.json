@@ -1,0 +1,28 @@
+{
+  "events": {
+    "evt-1": {
+      "summary": "RE-INSPECTION: REC-20260511-001 DS-31740-A1 Heat number mismatch",
+      "start": {
+        "dateTime": "2026-05-21T09:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-05-21T09:30:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Receipt ID: REC-20260511-001\nRe-inspection originally scheduled 05/14/2026; extended to 05/21/2026 \u2014 Theo Brandt investigation ongoing. Acevedo committed to written response by 05/21/2026.\nPO Number: MER-PO-104935\nSKU: DS-31740-A1\nQuantity quarantined: 60 units\nQuarantine reason: Sec 12.6.3 heat number mismatch \u2014 H46-0119902 not on MTR\nNCR: NCR-MER-2026-0062\nDocs: quality_docs\\MER-PO-104935_COC.pdf, quality_docs\\MER-PO-104935_MTR.pdf\nPhotos: N/A",
+      "attendees": [
+        {
+          "email": "receiving.meridian@gearsystems.com"
+        },
+        {
+          "email": "darnell.hooks@gearsystems.com"
+        },
+        {
+          "email": "theo.brandt@gearsystems.com"
+        }
+      ],
+      "id": "evt-1"
+    }
+  }
+}

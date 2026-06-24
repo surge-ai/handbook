@@ -1,0 +1,2444 @@
+{
+  "issues": {
+    "OFFBOARD-1": {
+      "id": "10001",
+      "key": "OFFBOARD-1",
+      "self": "https://crestwood.atlassian.net/rest/api/3/issue/OFFBOARD-1",
+      "fields": {
+        "summary": "OFFBOARD-Kim-04062026",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Employee Name: David Kim"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Employee ID: E-1002"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Assignee: Nicole Ashford"
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10001",
+          "name": "Task",
+          "description": "An HR operational task",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "10002",
+          "key": "OFFBOARD",
+          "name": "Offboarding",
+          "projectTypeKey": "business",
+          "simplified": false,
+          "self": "https://crestwood.atlassian.net/rest/api/3/project/OFFBOARD"
+        },
+        "status": {
+          "id": "10002",
+          "name": "In Progress",
+          "description": "Work is being done",
+          "statusCategory": {
+            "id": 4,
+            "key": "indeterminate",
+            "name": "In Progress",
+            "colorName": "yellow"
+          }
+        },
+        "assignee": {
+          "accountId": "hr-coordinator",
+          "accountType": "atlassian",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "active": true
+        },
+        "reporter": {
+          "accountId": "hr-coordinator",
+          "accountType": "atlassian",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "active": true
+        },
+        "creator": {
+          "accountId": "hr-coordinator",
+          "accountType": "atlassian",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "active": true
+        },
+        "created": "2026-03-20T09:00:00.000-06:00",
+        "updated": "2026-04-07T09:00:00.000-06:00",
+        "comment": {
+          "comments": [
+            {
+              "id": "1",
+              "author": {
+                "accountId": "hr-coordinator",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "04/07/2026 09:00am [11.2] \u2014 TEMPLATE SENT \u2014 Template 11 to d.kim@crestwood.edu"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-04-07T09:00:00.000-06:00",
+              "updated": "2026-04-07T09:00:00.000-06:00"
+            },
+            {
+              "id": "2",
+              "author": {
+                "accountId": "hr-coordinator",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "03/20/2026 09:35am [11.3] \u2014 TEMPLATE SENT \u2014 Template 12 to c.briggs@crestwood.edu"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-03-20T09:35:00.000-06:00",
+              "updated": "2026-03-20T09:35:00.000-06:00"
+            }
+          ],
+          "maxResults": 2,
+          "total": 2,
+          "startAt": 0
+        }
+      }
+    },
+    "ONBOARD-1": {
+      "id": "10002",
+      "key": "ONBOARD-1",
+      "self": "https://crestwood.atlassian.net/rest/api/3/issue/ONBOARD-1",
+      "fields": {
+        "summary": "ONBOARD-Ellis-04202026",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Employee Name: Brandon Ellis"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Employee ID: E-1012"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Position: Admissions Counselor"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Department: Admissions"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Campus: Downtown"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Start Date: 04/20/2026"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Assignee: Nicole Ashford"
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10001",
+          "name": "Task",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "10003",
+          "key": "ONBOARD",
+          "name": "Onboarding"
+        },
+        "status": {
+          "id": "10002",
+          "name": "In Progress",
+          "statusCategory": {
+            "id": 4,
+            "key": "indeterminate",
+            "name": "In Progress",
+            "colorName": "yellow"
+          }
+        },
+        "assignee": {
+          "accountId": "hr-coordinator",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "accountType": "atlassian"
+        },
+        "created": "2026-04-02T09:00:00.000-06:00",
+        "updated": "2026-04-02T09:30:00.000-06:00",
+        "comment": {
+          "comments": [
+            {
+              "id": "3",
+              "author": {
+                "accountId": "hr-coordinator",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "accountType": "atlassian"
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "04/02/2026 09:00am [11.1] \u2014 SPREADSHEET UPDATED \u2014 employee_roster.xlsx \u2014 Status set to Onboarding"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-04-02T09:00:00.000-06:00",
+              "updated": "2026-04-02T09:00:00.000-06:00"
+            },
+            {
+              "id": "4",
+              "author": {
+                "accountId": "hr-coordinator",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "accountType": "atlassian"
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "04/02/2026 09:01am [11.1] \u2014 SLACK POSTED \u2014 #hr-onboarding"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-04-02T09:01:00.000-06:00",
+              "updated": "2026-04-02T09:01:00.000-06:00"
+            },
+            {
+              "id": "5",
+              "author": {
+                "accountId": "hr-coordinator",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "accountType": "atlassian"
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "04/02/2026 09:02am [11.1] \u2014 TEMPLATE SENT \u2014 Template 4 to brandon.ellis.personal@gmail.com"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-04-02T09:02:00.000-06:00",
+              "updated": "2026-04-02T09:02:00.000-06:00"
+            },
+            {
+              "id": "6",
+              "author": {
+                "accountId": "hr-coordinator",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "accountType": "atlassian"
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "04/02/2026 09:03am [11.1] \u2014 TEMPLATE SENT \u2014 Template 5 to j.park@crestwood.edu"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-04-02T09:03:00.000-06:00",
+              "updated": "2026-04-02T09:03:00.000-06:00"
+            },
+            {
+              "id": "7",
+              "author": {
+                "accountId": "hr-coordinator",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "accountType": "atlassian"
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "04/02/2026 09:04am [11.1] \u2014 TEMPLATE SENT \u2014 Template 31 to t.hayes@crestwood.edu"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-04-02T09:04:00.000-06:00",
+              "updated": "2026-04-02T09:04:00.000-06:00"
+            },
+            {
+              "id": "8",
+              "author": {
+                "accountId": "hr-coordinator",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "accountType": "atlassian"
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "04/02/2026 09:05am [11.1] \u2014 CALENDAR EVENT CREATED \u2014 Orientation - Brandon Ellis on 04/20/2026"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-04-02T09:05:00.000-06:00",
+              "updated": "2026-04-02T09:05:00.000-06:00"
+            }
+          ],
+          "maxResults": 6,
+          "total": 6,
+          "startAt": 0
+        }
+      }
+    },
+    "ONBOARD-2": {
+      "id": "10003",
+      "key": "ONBOARD-2",
+      "self": "https://crestwood.atlassian.net/rest/api/3/issue/ONBOARD-2",
+      "fields": {
+        "summary": "ONBOARD-Foster-03162026",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Employee Name: Amy Foster"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Employee ID: E-1010"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Assignee: Nicole Ashford"
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10001",
+          "name": "Task",
+          "description": "An HR operational task",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "10003",
+          "key": "ONBOARD",
+          "name": "Onboarding",
+          "projectTypeKey": "business",
+          "simplified": false,
+          "self": "https://crestwood.atlassian.net/rest/api/3/project/ONBOARD"
+        },
+        "status": {
+          "id": "10003",
+          "name": "Done",
+          "description": "Work is complete",
+          "statusCategory": {
+            "id": 3,
+            "key": "done",
+            "name": "Done",
+            "colorName": "green"
+          }
+        },
+        "assignee": {
+          "accountId": "hr-coordinator",
+          "accountType": "atlassian",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "active": true
+        },
+        "reporter": {
+          "accountId": "hr-coordinator",
+          "accountType": "atlassian",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "active": true
+        },
+        "created": "2026-03-12T10:30:00-06:00",
+        "updated": "2026-03-17T11:00:00-06:00",
+        "comment": {
+          "comments": [
+            {
+              "id": "9",
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "03/12/2026 10:30am [11.1] \u2014 SPREADSHEET UPDATED \u2014 employee_roster.xlsx \u2014 New row added, Status set to Onboarding"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "author": {
+                "accountId": "hr-coordinator",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true
+              },
+              "created": "2026-03-12T10:30:00-06:00",
+              "updated": "2026-03-12T10:30:00-06:00"
+            },
+            {
+              "id": "10",
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "03/12/2026 10:31am [11.1] \u2014 SPREADSHEET UPDATED \u2014 onboarding_checklist.xlsx \u2014 New row added for Amy Foster"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "author": {
+                "accountId": "hr-coordinator",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true
+              },
+              "created": "2026-03-12T10:31:00-06:00",
+              "updated": "2026-03-12T10:31:00-06:00"
+            },
+            {
+              "id": "11",
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "03/12/2026 10:32am [11.1] \u2014 SLACK POSTED \u2014 #hr-onboarding"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "author": {
+                "accountId": "hr-coordinator",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true
+              },
+              "created": "2026-03-12T10:32:00-06:00",
+              "updated": "2026-03-12T10:32:00-06:00"
+            },
+            {
+              "id": "12",
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "03/12/2026 10:33am [11.1] \u2014 TEMPLATE SENT \u2014 Template 4 to a.foster.personal@gmail.com"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "author": {
+                "accountId": "hr-coordinator",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true
+              },
+              "created": "2026-03-12T10:33:00-06:00",
+              "updated": "2026-03-12T10:33:00-06:00"
+            },
+            {
+              "id": "13",
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "03/12/2026 10:34am [11.1] \u2014 TEMPLATE SENT \u2014 Template 5 to j.park@crestwood.edu"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "author": {
+                "accountId": "hr-coordinator",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true
+              },
+              "created": "2026-03-12T10:34:00-06:00",
+              "updated": "2026-03-12T10:34:00-06:00"
+            },
+            {
+              "id": "14",
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "03/12/2026 10:35am [11.1] \u2014 TEMPLATE SENT \u2014 Template 31 to t.hayes@crestwood.edu"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "author": {
+                "accountId": "hr-coordinator",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true
+              },
+              "created": "2026-03-12T10:35:00-06:00",
+              "updated": "2026-03-12T10:35:00-06:00"
+            },
+            {
+              "id": "15",
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "03/12/2026 10:36am [11.1] \u2014 CALENDAR EVENT CREATED \u2014 Orientation - Amy Foster on 03/16/2026"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "author": {
+                "accountId": "hr-coordinator",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true
+              },
+              "created": "2026-03-12T10:36:00-06:00",
+              "updated": "2026-03-12T10:36:00-06:00"
+            },
+            {
+              "id": "16",
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "03/16/2026 11:00am [11.2] \u2014 SPREADSHEET UPDATED \u2014 onboarding_checklist.xlsx \u2014 I-9 received and recorded"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "author": {
+                "accountId": "hr-coordinator",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true
+              },
+              "created": "2026-03-16T11:00:00-06:00",
+              "updated": "2026-03-16T11:00:00-06:00"
+            },
+            {
+              "id": "17",
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "03/17/2026 09:00am [11.1] \u2014 SPREADSHEET UPDATED \u2014 onboarding_checklist.xlsx \u2014 IT access confirmed, orientation complete, overall status set to Complete"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "author": {
+                "accountId": "hr-coordinator",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true
+              },
+              "created": "2026-03-17T09:00:00-06:00",
+              "updated": "2026-03-17T09:00:00-06:00"
+            },
+            {
+              "id": "18",
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "03/17/2026 09:01am [11.1] \u2014 TICKET CLOSED \u2014 All onboarding steps complete for Amy Foster (E-1010)"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "author": {
+                "accountId": "hr-coordinator",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true
+              },
+              "created": "2026-03-17T09:01:00-06:00",
+              "updated": "2026-03-17T09:01:00-06:00"
+            }
+          ],
+          "total": 10,
+          "maxResults": 50
+        }
+      }
+    },
+    "OFFBOARD-3": {
+      "id": "10004",
+      "key": "OFFBOARD-3",
+      "self": "https://crestwood.atlassian.net/rest/api/3/issue/OFFBOARD-3",
+      "fields": {
+        "issuetype": {
+          "id": "10001",
+          "name": "Task",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "assignee": {
+          "accountId": "hr-coordinator",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "accountType": "atlassian"
+        },
+        "reporter": {
+          "accountId": "hr-coordinator",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "accountType": "atlassian"
+        },
+        "creator": {
+          "accountId": "hr-coordinator",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "accountType": "atlassian"
+        },
+        "summary": "OFFBOARD-Reyes-02142026",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Employee Name: Diane Reyes"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Employee ID: E-0987"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Position: Administrative Assistant"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Department: Student Services"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Campus: Downtown"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Separation Type: Voluntary Resignation"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Last Day: 02/14/2026"
+                }
+              ]
+            }
+          ]
+        },
+        "project": {
+          "id": "10002",
+          "key": "OFFBOARD",
+          "name": "Offboarding"
+        },
+        "status": {
+          "id": "10003",
+          "name": "Done",
+          "description": "Work is complete",
+          "statusCategory": {
+            "id": 3,
+            "key": "done",
+            "name": "Done",
+            "colorName": "green"
+          }
+        },
+        "created": "2026-01-28T14:30:00.000-06:00",
+        "updated": "2026-02-20T10:00:00.000-06:00",
+        "comment": {
+          "comments": [
+            {
+              "id": "19",
+              "author": {
+                "accountId": "hr-coordinator",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "01/28/2026 02:30pm [12.1] \u2014 SPREADSHEET UPDATED \u2014 employee_roster.xlsx \u2014 Status set to Separated"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-01-28T14:30:00.000-06:00",
+              "updated": "2026-01-28T14:30:00.000-06:00"
+            },
+            {
+              "id": "20",
+              "author": {
+                "accountId": "hr-coordinator",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "01/28/2026 02:31pm [12.1] \u2014 SLACK POSTED \u2014 #hr-offboarding"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-01-28T14:31:00.000-06:00",
+              "updated": "2026-01-28T14:31:00.000-06:00"
+            },
+            {
+              "id": "21",
+              "author": {
+                "accountId": "hr-coordinator",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "01/28/2026 02:35pm [12.5] \u2014 TEMPLATE SENT \u2014 Template 14 to d.reyes@crestwood.edu"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-01-28T14:35:00.000-06:00",
+              "updated": "2026-01-28T14:35:00.000-06:00"
+            },
+            {
+              "id": "22",
+              "author": {
+                "accountId": "hr-coordinator",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "02/06/2026 09:00am [12.4] \u2014 TEMPLATE SENT \u2014 Template 13 to j.park@crestwood.edu"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-02-06T09:00:00.000-06:00",
+              "updated": "2026-02-06T09:00:00.000-06:00"
+            },
+            {
+              "id": "23",
+              "author": {
+                "accountId": "hr-coordinator",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "02/15/2026 09:00am [12.2] \u2014 TEMPLATE SENT \u2014 Template 11 to d.reyes@crestwood.edu"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-02-15T09:00:00.000-06:00",
+              "updated": "2026-02-15T09:00:00.000-06:00"
+            },
+            {
+              "id": "24",
+              "author": {
+                "accountId": "hr-coordinator",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "02/15/2026 09:05am [12.3] \u2014 TEMPLATE SENT \u2014 Template 12 to c.briggs@crestwood.edu"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-02-15T09:05:00.000-06:00",
+              "updated": "2026-02-15T09:05:00.000-06:00"
+            },
+            {
+              "id": "25",
+              "author": {
+                "accountId": "hr-coordinator",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "02/15/2026 09:10am [12.4] \u2014 IT ACCESS REVOKED \u2014 Confirmed by Jenna Park"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-02-15T09:10:00.000-06:00",
+              "updated": "2026-02-15T09:10:00.000-06:00"
+            },
+            {
+              "id": "26",
+              "author": {
+                "accountId": "hr-coordinator",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "02/20/2026 10:00am \u2014 OFFBOARDING COMPLETE \u2014 All steps finished"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-02-20T10:00:00.000-06:00",
+              "updated": "2026-02-20T10:00:00.000-06:00"
+            }
+          ],
+          "total": 8,
+          "maxResults": 50,
+          "startAt": 0
+        }
+      }
+    },
+    "OFFBOARD-4": {
+      "id": "10005",
+      "key": "OFFBOARD-4",
+      "self": "https://crestwood.atlassian.net/rest/api/3/issue/OFFBOARD-4",
+      "fields": {
+        "issuetype": {
+          "id": "10001",
+          "name": "Task",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "assignee": {
+          "accountId": "hr-coordinator",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "accountType": "atlassian"
+        },
+        "reporter": {
+          "accountId": "hr-coordinator",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "accountType": "atlassian"
+        },
+        "creator": {
+          "accountId": "hr-coordinator",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "accountType": "atlassian"
+        },
+        "summary": "OFFBOARD-Edwards-10192025",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Employee Name: Jordan Edwards"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Employee ID: E-1021"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Position: Admissions Advisor"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Department: Admissions"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Campus: Downtown"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Separation Type: Retirement"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Last Day: 10/19/2025"
+                }
+              ]
+            }
+          ]
+        },
+        "project": {
+          "id": "10002",
+          "key": "OFFBOARD",
+          "name": "Offboarding"
+        },
+        "status": {
+          "id": "10003",
+          "name": "Done",
+          "description": "Work is complete",
+          "statusCategory": {
+            "id": 3,
+            "key": "done",
+            "name": "Done",
+            "colorName": "green"
+          }
+        },
+        "created": "2025-09-22T09:00:00.000-06:00",
+        "updated": "2025-10-25T11:00:00.000-06:00",
+        "comment": {
+          "comments": [
+            {
+              "id": "27",
+              "author": {
+                "accountId": "hr-coordinator",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "09/22/2025 09:00am [12.1] \u2014 SPREADSHEET UPDATED \u2014 employee_roster.xlsx \u2014 Status set to Separated"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2025-09-22T09:00:00.000-06:00",
+              "updated": "2025-09-22T09:00:00.000-06:00"
+            },
+            {
+              "id": "28",
+              "author": {
+                "accountId": "hr-coordinator",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "09/22/2025 09:01am [12.1] \u2014 SLACK POSTED \u2014 #hr-offboarding"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2025-09-22T09:01:00.000-06:00",
+              "updated": "2025-09-22T09:01:00.000-06:00"
+            },
+            {
+              "id": "29",
+              "author": {
+                "accountId": "hr-coordinator",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "09/22/2025 09:05am [12.5] \u2014 TEMPLATE SENT \u2014 Template 14 to j.edwards@crestwood.edu"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2025-09-22T09:05:00.000-06:00",
+              "updated": "2025-09-22T09:05:00.000-06:00"
+            },
+            {
+              "id": "30",
+              "author": {
+                "accountId": "hr-coordinator",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "10/10/2025 10:00am [12.4] \u2014 TEMPLATE SENT \u2014 Template 13 to j.park@crestwood.edu"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2025-10-10T10:00:00.000-06:00",
+              "updated": "2025-10-10T10:00:00.000-06:00"
+            },
+            {
+              "id": "31",
+              "author": {
+                "accountId": "hr-coordinator",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "10/20/2025 09:30am [12.4] \u2014 IT ACCESS REVOKED \u2014 Confirmed by Jenna Park"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2025-10-20T09:30:00.000-06:00",
+              "updated": "2025-10-20T09:30:00.000-06:00"
+            },
+            {
+              "id": "32",
+              "author": {
+                "accountId": "hr-coordinator",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "10/20/2025 09:35am [12.2] \u2014 TEMPLATE SENT \u2014 Template 11 to j.edwards@crestwood.edu"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2025-10-20T09:35:00.000-06:00",
+              "updated": "2025-10-20T09:35:00.000-06:00"
+            },
+            {
+              "id": "33",
+              "author": {
+                "accountId": "hr-coordinator",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "10/20/2025 09:40am [12.3] \u2014 TEMPLATE SENT \u2014 Template 12 to c.briggs@crestwood.edu"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2025-10-20T09:40:00.000-06:00",
+              "updated": "2025-10-20T09:40:00.000-06:00"
+            },
+            {
+              "id": "34",
+              "author": {
+                "accountId": "hr-coordinator",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "10/25/2025 11:00am \u2014 OFFBOARDING COMPLETE \u2014 All steps finished"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2025-10-25T11:00:00.000-06:00",
+              "updated": "2025-10-25T11:00:00.000-06:00"
+            }
+          ],
+          "total": 8,
+          "maxResults": 50,
+          "startAt": 0
+        }
+      }
+    },
+    "LEAVE-1": {
+      "id": "10006",
+      "key": "LEAVE-1",
+      "self": "https://crestwood.atlassian.net/rest/api/3/issue/LEAVE-1",
+      "fields": {
+        "issuetype": {
+          "id": "10001",
+          "name": "Task",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "assignee": {
+          "accountId": "hr-coordinator",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "accountType": "atlassian"
+        },
+        "reporter": {
+          "accountId": "hr-coordinator",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "accountType": "atlassian"
+        },
+        "creator": {
+          "accountId": "hr-coordinator",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "accountType": "atlassian"
+        },
+        "summary": "LEAVE-Walsh-01092026",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Employee Name: Kevin Walsh"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Employee ID: E-1005"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Department: Finance"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Campus: Main"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Leave Type: FMLA"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Requested Start: 01/26/2026"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Estimated Duration: 10 weeks"
+                }
+              ]
+            }
+          ]
+        },
+        "project": {
+          "id": "10004",
+          "key": "LEAVE",
+          "name": "Leave Management"
+        },
+        "status": {
+          "id": "10002",
+          "name": "In Progress",
+          "statusCategory": {
+            "id": 4,
+            "key": "indeterminate",
+            "name": "In Progress",
+            "colorName": "yellow"
+          }
+        },
+        "created": "2026-01-09T08:00:00.000-06:00",
+        "updated": "2026-01-26T09:00:00.000-06:00",
+        "comment": {
+          "comments": [
+            {
+              "id": "35",
+              "author": {
+                "accountId": "hr-coordinator",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "01/09/2026 08:00am [13.1] \u2014 ELIGIBILITY CHECK \u2014 Hire date: 03/22/2021, Hours: 1,680 \u2014 ELIGIBLE"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-01-09T08:00:00.000-06:00",
+              "updated": "2026-01-09T08:00:00.000-06:00"
+            },
+            {
+              "id": "36",
+              "author": {
+                "accountId": "hr-coordinator",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "01/09/2026 10:30am [13.1] \u2014 TEMPLATE SENT \u2014 Template 15 to k.walsh@crestwood.edu"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-01-09T10:30:00.000-06:00",
+              "updated": "2026-01-09T10:30:00.000-06:00"
+            },
+            {
+              "id": "37",
+              "author": {
+                "accountId": "hr-coordinator",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "01/09/2026 10:31am [13.1] \u2014 SLACK POSTED \u2014 #hr-leave-requests"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-01-09T10:31:00.000-06:00",
+              "updated": "2026-01-09T10:31:00.000-06:00"
+            },
+            {
+              "id": "38",
+              "author": {
+                "accountId": "hr-coordinator",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "01/09/2026 10:32am [13.1] \u2014 CALENDAR REMINDER CREATED \u2014 FMLA Certification Due \u2013 Kevin Walsh on 01/24/2026"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-01-09T10:32:00.000-06:00",
+              "updated": "2026-01-09T10:32:00.000-06:00"
+            },
+            {
+              "id": "39",
+              "author": {
+                "accountId": "hr-coordinator",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "01/17/2026 10:20am [13.1] \u2014 MEDICAL CERTIFICATION RECEIVED \u2014 Forwarded to p.huang@crestwood.edu for review"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-01-17T10:20:00.000-06:00",
+              "updated": "2026-01-17T10:20:00.000-06:00"
+            },
+            {
+              "id": "40",
+              "author": {
+                "accountId": "hr-coordinator",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "01/20/2026 11:00am [13.1] \u2014 CERTIFICATION APPROVED by Patricia Huang \u2014 Leave dates: 01/26/2026 \u2013 04/05/2026"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-01-20T11:00:00.000-06:00",
+              "updated": "2026-01-20T11:00:00.000-06:00"
+            },
+            {
+              "id": "41",
+              "author": {
+                "accountId": "hr-coordinator",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "01/20/2026 11:05am [13.1] \u2014 SPREADSHEET UPDATED \u2014 leave_tracker.xlsx \u2014 FMLA approved, dates recorded"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-01-20T11:05:00.000-06:00",
+              "updated": "2026-01-20T11:05:00.000-06:00"
+            },
+            {
+              "id": "42",
+              "author": {
+                "accountId": "hr-coordinator",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "01/26/2026 09:00am \u2014 LEAVE STARTED \u2014 Walsh on FMLA as of today"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-01-26T09:00:00.000-06:00",
+              "updated": "2026-01-26T09:00:00.000-06:00"
+            }
+          ],
+          "total": 8,
+          "maxResults": 50,
+          "startAt": 0
+        }
+      }
+    },
+    "ONBOARD-3": {
+      "id": "10007",
+      "key": "ONBOARD-3",
+      "self": "https://crestwood.atlassian.net/rest/api/3/issue/ONBOARD-3",
+      "fields": {
+        "issuetype": {
+          "id": "10001",
+          "name": "Task",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "assignee": {
+          "accountId": "hr-coordinator",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "accountType": "atlassian"
+        },
+        "reporter": {
+          "accountId": "hr-coordinator",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "accountType": "atlassian"
+        },
+        "creator": {
+          "accountId": "hr-coordinator",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "accountType": "atlassian"
+        },
+        "summary": "ONBOARD-Clark-01022025",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Employee Name: Howard Clark"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Employee ID: E-1020"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Position: Administrative Assistant"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Department: Administration"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Campus: Main"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Start Date: 12/25/2024"
+                }
+              ]
+            }
+          ]
+        },
+        "project": {
+          "id": "10003",
+          "key": "ONBOARD",
+          "name": "Onboarding"
+        },
+        "status": {
+          "id": "10003",
+          "name": "Done",
+          "description": "Work is complete",
+          "statusCategory": {
+            "id": 3,
+            "key": "done",
+            "name": "Done",
+            "colorName": "green"
+          }
+        },
+        "created": "2024-12-10T10:00:00.000-06:00",
+        "updated": "2024-12-27T11:00:00.000-06:00",
+        "comment": {
+          "comments": [
+            {
+              "id": "43",
+              "author": {
+                "accountId": "hr-coordinator",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "12/10/2024 10:00am [11.1] \u2014 SPREADSHEET UPDATED \u2014 employee_roster.xlsx \u2014 New row added"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2024-12-10T10:00:00.000-06:00",
+              "updated": "2024-12-10T10:00:00.000-06:00"
+            },
+            {
+              "id": "44",
+              "author": {
+                "accountId": "hr-coordinator",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "12/10/2024 10:01am [11.1] \u2014 SLACK POSTED \u2014 #hr-onboarding"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2024-12-10T10:01:00.000-06:00",
+              "updated": "2024-12-10T10:01:00.000-06:00"
+            },
+            {
+              "id": "45",
+              "author": {
+                "accountId": "hr-coordinator",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "12/10/2024 10:02am [11.1] \u2014 TEMPLATE SENT \u2014 Template 4 to h.clark.personal@gmail.com"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2024-12-10T10:02:00.000-06:00",
+              "updated": "2024-12-10T10:02:00.000-06:00"
+            },
+            {
+              "id": "46",
+              "author": {
+                "accountId": "hr-coordinator",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "12/10/2024 10:03am [11.1] \u2014 TEMPLATE SENT \u2014 Template 5 to j.park@crestwood.edu"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2024-12-10T10:03:00.000-06:00",
+              "updated": "2024-12-10T10:03:00.000-06:00"
+            },
+            {
+              "id": "47",
+              "author": {
+                "accountId": "hr-coordinator",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "12/10/2024 10:04am [11.1] \u2014 TEMPLATE SENT \u2014 Template 31 to v.osei@crestwood.edu"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2024-12-10T10:04:00.000-06:00",
+              "updated": "2024-12-10T10:04:00.000-06:00"
+            },
+            {
+              "id": "48",
+              "author": {
+                "accountId": "hr-coordinator",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "12/26/2024 11:00am [11.2] \u2014 I-9 RECEIVED \u2014 Verified by Victor Osei"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2024-12-26T11:00:00.000-06:00",
+              "updated": "2024-12-26T11:00:00.000-06:00"
+            },
+            {
+              "id": "49",
+              "author": {
+                "accountId": "hr-coordinator",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "12/27/2024 11:00am \u2014 ONBOARDING COMPLETE \u2014 All steps finished"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2024-12-27T11:00:00.000-06:00",
+              "updated": "2024-12-27T11:00:00.000-06:00"
+            }
+          ],
+          "total": 7,
+          "maxResults": 50,
+          "startAt": 0
+        }
+      }
+    },
+    "HR-1": {
+      "id": "10008",
+      "key": "HR-1",
+      "self": "https://crestwood.atlassian.net/rest/api/3/issue/HR-1",
+      "fields": {
+        "issuetype": {
+          "id": "10001",
+          "name": "Task",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "assignee": {
+          "accountId": "hr-coordinator",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "accountType": "atlassian"
+        },
+        "reporter": {
+          "accountId": "hr-coordinator",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "accountType": "atlassian"
+        },
+        "creator": {
+          "accountId": "hr-coordinator",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "accountType": "atlassian"
+        },
+        "summary": "PERF-Spring2026-SelfAssessmentDistribution",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Spring 2026 Performance Review Cycle"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Self-assessment forms distributed to all eligible employees on 04/01/2026"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Due date: 04/25/2026"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Tracking distribution and collection"
+                }
+              ]
+            }
+          ]
+        },
+        "project": {
+          "id": "10001",
+          "key": "HR",
+          "name": "HR Operations"
+        },
+        "status": {
+          "id": "10002",
+          "name": "In Progress",
+          "statusCategory": {
+            "id": 4,
+            "key": "indeterminate",
+            "name": "In Progress",
+            "colorName": "yellow"
+          }
+        },
+        "created": "2026-04-01T08:00:00.000-06:00",
+        "updated": "2026-04-08T10:00:00.000-06:00",
+        "comment": {
+          "comments": [
+            {
+              "id": "50",
+              "author": {
+                "accountId": "hr-coordinator",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "04/01/2026 08:00am \u2014 Self-assessment form emailed to all-staff@crestwood.edu"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-04-01T08:00:00.000-06:00",
+              "updated": "2026-04-01T08:00:00.000-06:00"
+            },
+            {
+              "id": "51",
+              "author": {
+                "accountId": "hr-coordinator",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "04/01/2026 08:01am \u2014 SLACK POSTED \u2014 #hr-performance \u2014 Reminder posted"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-04-01T08:01:00.000-06:00",
+              "updated": "2026-04-01T08:01:00.000-06:00"
+            },
+            {
+              "id": "52",
+              "author": {
+                "accountId": "hr-coordinator",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "04/08/2026 10:00am \u2014 Received: 12 of ~85 eligible. Follow-up reminder planned for 04/15."
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-04-08T10:00:00.000-06:00",
+              "updated": "2026-04-08T10:00:00.000-06:00"
+            }
+          ],
+          "total": 3,
+          "maxResults": 50,
+          "startAt": 0
+        }
+      }
+    }
+  },
+  "sprints": {},
+  "comments": {},
+  "projects": {
+    "HR": {
+      "id": "10001",
+      "key": "HR",
+      "name": "HR Operations",
+      "projectTypeKey": "business",
+      "simplified": false,
+      "self": "https://crestwood.atlassian.net/rest/api/3/project/HR"
+    },
+    "OFFBOARD": {
+      "id": "10002",
+      "key": "OFFBOARD",
+      "name": "Offboarding",
+      "projectTypeKey": "business",
+      "simplified": false,
+      "self": "https://crestwood.atlassian.net/rest/api/3/project/OFFBOARD"
+    },
+    "ONBOARD": {
+      "id": "10003",
+      "key": "ONBOARD",
+      "name": "Onboarding",
+      "projectTypeKey": "business",
+      "simplified": false,
+      "self": "https://crestwood.atlassian.net/rest/api/3/project/ONBOARD"
+    },
+    "LEAVE": {
+      "id": "10004",
+      "key": "LEAVE",
+      "name": "Leave Management",
+      "projectTypeKey": "business",
+      "simplified": false,
+      "self": "https://crestwood.atlassian.net/rest/api/3/project/LEAVE"
+    }
+  },
+  "fields": [
+    {
+      "id": "summary",
+      "key": "summary",
+      "name": "Summary",
+      "custom": false,
+      "searchable": true
+    },
+    {
+      "id": "description",
+      "key": "description",
+      "name": "Description",
+      "custom": false,
+      "searchable": true
+    },
+    {
+      "id": "status",
+      "key": "status",
+      "name": "Status",
+      "custom": false,
+      "searchable": true
+    },
+    {
+      "id": "assignee",
+      "key": "assignee",
+      "name": "Assignee",
+      "custom": false,
+      "searchable": true
+    },
+    {
+      "id": "reporter",
+      "key": "reporter",
+      "name": "Reporter",
+      "custom": false,
+      "searchable": true
+    },
+    {
+      "id": "created",
+      "key": "created",
+      "name": "Created",
+      "custom": false,
+      "searchable": true
+    },
+    {
+      "id": "updated",
+      "key": "updated",
+      "name": "Updated",
+      "custom": false,
+      "searchable": true
+    }
+  ],
+  "linkTypes": [],
+  "counters": {
+    "issueId": 10009,
+    "sprintId": 1000,
+    "commentId": 350
+  },
+  "users": {
+    "hr-coordinator": {
+      "accountId": "hr-coordinator",
+      "displayName": "HR Coordinator",
+      "accountType": "atlassian",
+      "emailAddress": "hr@crestwood.edu"
+    }
+  },
+  "boards": {},
+  "statuses": {
+    "1": {
+      "id": "1",
+      "name": "In Progress",
+      "statusCategory": {
+        "id": 4,
+        "key": "indeterminate",
+        "name": "In Progress",
+        "colorName": "yellow"
+      }
+    },
+    "2": {
+      "id": "2",
+      "name": "Done",
+      "statusCategory": {
+        "id": 3,
+        "key": "done",
+        "name": "Done",
+        "colorName": "green"
+      }
+    }
+  },
+  "workflow": {
+    "In Progress": [
+      {
+        "id": "1",
+        "name": "To In Progress",
+        "to": "In Progress"
+      },
+      {
+        "id": "2",
+        "name": "To Done",
+        "to": "Done"
+      }
+    ],
+    "Done": [
+      {
+        "id": "3",
+        "name": "To In Progress",
+        "to": "In Progress"
+      },
+      {
+        "id": "4",
+        "name": "To Done",
+        "to": "Done"
+      }
+    ]
+  },
+  "defaultStatusValue": "In Progress"
+}

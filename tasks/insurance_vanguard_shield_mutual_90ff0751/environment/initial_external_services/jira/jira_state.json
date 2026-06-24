@@ -1,0 +1,1155 @@
+{
+  "issues": {
+    "OPS-2": {
+      "id": "20000",
+      "key": "OPS-2",
+      "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/issue/OPS-2",
+      "fields": {
+        "summary": "T&E Report \u2014 Calloway, J. (EMP-3190) \u2014 Sep 15\u201326, 2026",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "T&E Expense Report \u2014 Q3 2026\n\nSubmitted by: James Calloway (EMP-3190) | Role: Account Executive | Team: Sales \u2014 West Region\nReport period: Sep 15\u201326, 2026 | Submission date: Sep 29, 2026\nStatus: Approved\n\nLine Items:\n  1. Sep 16 (Wed) | Nobu San Francisco \u2014 Client dinner (Pacific Ventures) | $287.00 | Type: Client Entertainment\n  2. Sep 17 (Thu) | Westin San Francisco \u2014 Lodging | $242.00 | Type: Lodging\n  3. Sep 22 (Tue) | Caf\u00e9 Jardin \u2014 Business lunch | $68.00 | Type: Meal\n  4. Sep 21 (Mon) | VSM Internal Store \u2014 Branded notebook set (Client Gifts) | $48.00 | Type: Client Gifts\n\nReport total: $645.00\n\nReceipts: Attached."
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10001",
+          "name": "Task",
+          "description": "A task that needs to be done",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "10003",
+          "key": "OPS",
+          "name": "Operations",
+          "description": "Cross-functional operations project space",
+          "projectTypeKey": "business",
+          "simplified": false,
+          "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/project/OPS"
+        },
+        "status": {
+          "id": "10009",
+          "name": "Approved",
+          "description": "Approved and closed",
+          "statusCategory": {
+            "id": 3,
+            "key": "done",
+            "name": "Done",
+            "colorName": "green"
+          }
+        },
+        "priority": {
+          "id": "3",
+          "name": "Medium",
+          "description": "Medium priority"
+        },
+        "assignee": {
+          "accountId": "analyst-001",
+          "accountType": "atlassian",
+          "emailAddress": "analyst@vanguardshield.com",
+          "displayName": "Analyst",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "reporter": {
+          "accountId": "hr-intake-001",
+          "accountType": "atlassian",
+          "emailAddress": "hr.intake@vanguardshield.com",
+          "displayName": "hr.intake",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "creator": {
+          "accountId": "hr-intake-001",
+          "accountType": "atlassian",
+          "emailAddress": "hr.intake@vanguardshield.com",
+          "displayName": "hr.intake",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "created": "2026-09-29T09:42:00-04:00",
+        "updated": "2026-09-29T11:20:00-04:00",
+        "labels": [
+          "te-approved",
+          "sales-west"
+        ],
+        "components": [],
+        "fixVersions": [],
+        "versions": [],
+        "customfield_reportingManager": "pkim",
+        "comment": {
+          "comments": [
+            {
+              "id": "1",
+              "author": {
+                "accountId": "hr-intake-001",
+                "accountType": "atlassian",
+                "emailAddress": "hr.intake@vanguardshield.com",
+                "displayName": "hr.intake",
+                "active": true,
+                "timeZone": "America/New_York"
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Report received and routed for review."
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-09-29T09:45:00-04:00",
+              "updated": "2026-09-29T09:45:00-04:00",
+              "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/issue/comment/C-1103-01"
+            },
+            {
+              "id": "2",
+              "author": {
+                "accountId": "analyst-001",
+                "accountType": "atlassian",
+                "emailAddress": "analyst@vanguardshield.com",
+                "displayName": "Analyst",
+                "active": true,
+                "timeZone": "America/New_York"
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Report reviewed and approved."
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-09-29T11:20:00-04:00",
+              "updated": "2026-09-29T11:20:00-04:00",
+              "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/issue/comment/C-1103-02"
+            }
+          ],
+          "maxResults": 2,
+          "total": 2,
+          "startAt": 0
+        }
+      }
+    },
+    "OPS-3": {
+      "id": "20001",
+      "key": "OPS-3",
+      "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/issue/OPS-3",
+      "fields": {
+        "summary": "T&E Report \u2014 Okonkwo, R. (EMP-3312) \u2014 Oct 1\u20137, 2026",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "T&E Expense Report \u2014 Q4 2026\n\nSubmitted by: Rachel Okonkwo (EMP-3312) | Role: Account Executive | Team: Sales \u2014 West Region\nReport period: Oct 1\u20137, 2026 | Submission date: Oct 7, 2026\nStatus: Pending Approval\n\nLine Items:\n  1. Oct 2 | Capital Grille Chicago \u2014 Client dinner | $215.00\n  2. Oct 3 | Marriott Chicago Magnificent Mile \u2014 Lodging | $189.00\n  3. Oct 5 | Hartwell Group HQ \u2014 Client lunch | $94.00\n  4. Oct 1 | VSM Branded Water Bottles \u2014 Qty 12 | $144.00\n\nReport total: $642.00\n\nBusiness purpose (employee notes): Travel, client meals, and promotional materials for Q4 sales activities.\n\nReceipts: Attached as separate uploads per submission portal."
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10001",
+          "name": "Task",
+          "description": "A task that needs to be done",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "10003",
+          "key": "OPS",
+          "name": "Operations",
+          "description": "Cross-functional operations project space",
+          "projectTypeKey": "business",
+          "simplified": false,
+          "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/project/OPS"
+        },
+        "status": {
+          "id": "10008",
+          "name": "Pending Approval",
+          "description": "Submitted and awaiting review",
+          "statusCategory": {
+            "id": 4,
+            "key": "indeterminate",
+            "name": "In Progress",
+            "colorName": "yellow"
+          }
+        },
+        "priority": {
+          "id": "2",
+          "name": "High",
+          "description": "High priority"
+        },
+        "assignee": null,
+        "reporter": {
+          "accountId": "hr-intake-001",
+          "accountType": "atlassian",
+          "emailAddress": "hr.intake@vanguardshield.com",
+          "displayName": "hr.intake",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "creator": {
+          "accountId": "hr-intake-001",
+          "accountType": "atlassian",
+          "emailAddress": "hr.intake@vanguardshield.com",
+          "displayName": "hr.intake",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "created": "2026-10-07T17:10:00-04:00",
+        "updated": "2026-10-07T17:12:00-04:00",
+        "labels": [
+          "te-pending",
+          "sales-west"
+        ],
+        "components": [],
+        "fixVersions": [],
+        "versions": [],
+        "customfield_reportingManager": "pkim",
+        "comment": {
+          "comments": [
+            {
+              "id": "3",
+              "author": {
+                "accountId": "hr-intake-001",
+                "accountType": "atlassian",
+                "emailAddress": "hr.intake@vanguardshield.com",
+                "displayName": "hr.intake",
+                "active": true,
+                "timeZone": "America/New_York"
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Report received via internal portal and transferred to Jira for analyst review. Line items match portal submission."
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-10-07T17:12:00-04:00",
+              "updated": "2026-10-07T17:12:00-04:00",
+              "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/issue/comment/C-1104-01"
+            }
+          ],
+          "maxResults": 1,
+          "total": 1,
+          "startAt": 0
+        }
+      }
+    },
+    "OPS-4": {
+      "id": "20002",
+      "key": "OPS-4",
+      "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/issue/OPS-4",
+      "fields": {
+        "summary": "T&E Report \u2014 Huang, D. (EMP-4507) \u2014 Oct 1\u20137, 2026",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "T&E Expense Report \u2014 Q4 2026\n\nSubmitted by: Derek Huang (EMP-4507) | Role: Regional Sales Lead | Team: Sales \u2014 Midwest\nReport period: Oct 1\u20137, 2026 | Submission date: Oct 7, 2026\nStatus: Pending Approval\n\nLine Items:\n  1. Oct 3 | Sullivan's Steakhouse Detroit \u2014 Team dinner | $340.00\n  2. Oct 4 | Hudson's Coffee Detroit \u2014 Breakfast | $28.00\n  3. Oct 5 | Nexus Corp HQ \u2014 Client lunch | $67.00\n\nReport total: $435.00\n\nBusiness purpose (employee notes): Team meals and client meetings related to Q4 sales activity.\n\nReceipts: Attached as separate uploads per submission portal."
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10001",
+          "name": "Task",
+          "description": "A task that needs to be done",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "10003",
+          "key": "OPS",
+          "name": "Operations",
+          "description": "Cross-functional operations project space",
+          "projectTypeKey": "business",
+          "simplified": false,
+          "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/project/OPS"
+        },
+        "status": {
+          "id": "10008",
+          "name": "Pending Approval",
+          "description": "Submitted and awaiting review",
+          "statusCategory": {
+            "id": 4,
+            "key": "indeterminate",
+            "name": "In Progress",
+            "colorName": "yellow"
+          }
+        },
+        "priority": {
+          "id": "2",
+          "name": "High",
+          "description": "High priority"
+        },
+        "assignee": null,
+        "reporter": {
+          "accountId": "hr-intake-001",
+          "accountType": "atlassian",
+          "emailAddress": "hr.intake@vanguardshield.com",
+          "displayName": "hr.intake",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "creator": {
+          "accountId": "hr-intake-001",
+          "accountType": "atlassian",
+          "emailAddress": "hr.intake@vanguardshield.com",
+          "displayName": "hr.intake",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "created": "2026-10-07T17:13:00-04:00",
+        "updated": "2026-10-07T17:15:00-04:00",
+        "labels": [
+          "te-pending",
+          "sales-midwest"
+        ],
+        "components": [],
+        "fixVersions": [],
+        "versions": [],
+        "customfield_reportingManager": null,
+        "comment": {
+          "comments": [
+            {
+              "id": "4",
+              "author": {
+                "accountId": "hr-intake-001",
+                "accountType": "atlassian",
+                "emailAddress": "hr.intake@vanguardshield.com",
+                "displayName": "hr.intake",
+                "active": true,
+                "timeZone": "America/New_York"
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Report received via internal portal and transferred to Jira for analyst review."
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-10-07T17:15:00-04:00",
+              "updated": "2026-10-07T17:15:00-04:00",
+              "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/issue/comment/C-1105-01"
+            }
+          ],
+          "maxResults": 1,
+          "total": 1,
+          "startAt": 0
+        }
+      }
+    },
+    "OPS-5": {
+      "id": "20003",
+      "key": "OPS-5",
+      "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/issue/OPS-5",
+      "fields": {
+        "summary": "T&E Report \u2014 Frost, V. (EMP-5021) \u2014 Oct 1\u20137, 2026",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "T&E Expense Report \u2014 Q4 2026\n\nSubmitted by: Vanessa Frost (EMP-5021) | Role: Sales Associate | Team: Sales \u2014 East Region\nReport period: Oct 1\u20137, 2026 | Submission date: Oct 7, 2026\nStatus: Pending Approval\n\nLine Items:\n  1. Oct 5 | Foundry Bistro Hartford \u2014 Client lunch (Pinnacle Group) | $78.00\n  2. Oct 6 | The Capital Grille Hartford \u2014 Client dinner (Meridian Solutions) | $135.00\n  3. Oct 7 | Harvest Kitchen Hartford \u2014 Business lunch | $62.00\n  4. Oct 4 | VSM Internal Store \u2014 Client Gift Set \u2014 Premium Edition | $175.00\n\nReport total: $450.00\n\nBusiness purpose (employee notes): Local client meetings and account gift for Q4 engagement activities.\n\nReceipts: Attached as separate uploads per submission portal."
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10001",
+          "name": "Task",
+          "description": "A task that needs to be done",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "10003",
+          "key": "OPS",
+          "name": "Operations",
+          "description": "Cross-functional operations project space",
+          "projectTypeKey": "business",
+          "simplified": false,
+          "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/project/OPS"
+        },
+        "status": {
+          "id": "10008",
+          "name": "Pending Approval",
+          "description": "Submitted and awaiting review",
+          "statusCategory": {
+            "id": 4,
+            "key": "indeterminate",
+            "name": "In Progress",
+            "colorName": "yellow"
+          }
+        },
+        "priority": {
+          "id": "2",
+          "name": "High",
+          "description": "High priority"
+        },
+        "assignee": null,
+        "reporter": {
+          "accountId": "hr-intake-001",
+          "accountType": "atlassian",
+          "emailAddress": "hr.intake@vanguardshield.com",
+          "displayName": "hr.intake",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "creator": {
+          "accountId": "hr-intake-001",
+          "accountType": "atlassian",
+          "emailAddress": "hr.intake@vanguardshield.com",
+          "displayName": "hr.intake",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "created": "2026-10-07T17:16:00-04:00",
+        "updated": "2026-10-07T17:55:00-04:00",
+        "labels": [
+          "te-pending",
+          "sales-east"
+        ],
+        "components": [],
+        "fixVersions": [],
+        "versions": [],
+        "customfield_reportingManager": "mharris",
+        "comment": {
+          "comments": [
+            {
+              "id": "5",
+              "author": {
+                "accountId": "hr-intake-001",
+                "accountType": "atlassian",
+                "emailAddress": "hr.intake@vanguardshield.com",
+                "displayName": "hr.intake",
+                "active": true,
+                "timeZone": "America/New_York"
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Report received via internal portal and transferred to Jira for analyst review."
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-10-07T17:18:00-04:00",
+              "updated": "2026-10-07T17:18:00-04:00",
+              "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/issue/comment/C-1106-01"
+            },
+            {
+              "id": "6",
+              "author": {
+                "accountId": "vfrost-001",
+                "accountType": "atlassian",
+                "emailAddress": "v.frost@vanguardshield.com",
+                "displayName": "V. Frost",
+                "active": true,
+                "timeZone": "America/New_York"
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Receipts for all four lines have been uploaded via the submission portal. Let me know if anything is missing. \u2014Vanessa"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-10-07T17:55:00-04:00",
+              "updated": "2026-10-07T17:55:00-04:00",
+              "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/issue/comment/C-1106-02"
+            }
+          ],
+          "maxResults": 2,
+          "total": 2,
+          "startAt": 0
+        }
+      }
+    },
+    "OPS-1": {
+      "id": "20004",
+      "key": "OPS-1",
+      "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/issue/OPS-1",
+      "fields": {
+        "summary": "Queue Roles & Assignees \u2014 HR-Ops",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "HR-Ops Queue \u2014 Role Assignments\n\nHR Operations Lead: Jessica Morales (username: jmorales)\nHR Ops Automation: hrops.bot (automated lookups and directory integrations)\n\nSlack channel for team coordination: #hr-ops-help\n\nLast updated by HR Operations, September 2026."
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10003",
+          "name": "Info",
+          "description": "Informational issue",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "10003",
+          "key": "OPS",
+          "name": "Operations",
+          "description": "Cross-functional operations project space",
+          "projectTypeKey": "business",
+          "simplified": false,
+          "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/project/OPS"
+        },
+        "status": {
+          "id": "10002",
+          "name": "Pinned",
+          "description": "Pinned information",
+          "statusCategory": {
+            "id": 3,
+            "key": "done",
+            "name": "Done",
+            "colorName": "green"
+          }
+        },
+        "priority": {
+          "id": "5",
+          "name": "None",
+          "description": "No priority"
+        },
+        "assignee": null,
+        "reporter": {
+          "accountId": "jmorales-001",
+          "accountType": "atlassian",
+          "emailAddress": "j.morales@vanguardshield.com",
+          "displayName": "J. Morales",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "creator": {
+          "accountId": "jmorales-001",
+          "accountType": "atlassian",
+          "emailAddress": "j.morales@vanguardshield.com",
+          "displayName": "J. Morales",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "created": "2025-06-01T09:00:00-04:00",
+        "updated": "2026-09-08T10:00:00-04:00",
+        "labels": [
+          "pinned"
+        ],
+        "components": [],
+        "fixVersions": [],
+        "versions": []
+      }
+    },
+    "FIN-1": {
+      "id": "10007",
+      "key": "FIN-1",
+      "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/issue/FIN-1",
+      "fields": {
+        "summary": "Unsupported Expense Variance \u2014 Marketing \u2014 Q1 2026 \u2014 Digital Advertising",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Expense variance escalation per \u00a72.2.\nDepartment: Marketing | Quarter: Q1 | Line Item: Digital Advertising\nBudget: $45,000 | Actual: $62,300 | Variance: 38.4%\nMailbox searched: finance.ops@vanguardshield.com\nSearch terms: \"digital advertising\", \"marketing Q1\", \"ad spend\"\nDate range: 01/01/2026 \u2013 04/15/2026\nNo justification email found.\n\nAssigned to Finance Controller per \u00a71.3."
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10001",
+          "name": "Task",
+          "description": "A task that needs to be done",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "10002",
+          "key": "FIN",
+          "name": "Finance Operations",
+          "description": "Finance and accounting operations",
+          "projectTypeKey": "business",
+          "simplified": false,
+          "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/project/FIN"
+        },
+        "status": {
+          "id": "10004",
+          "name": "Awaiting Controller Review",
+          "description": "Waiting for controller review",
+          "statusCategory": {
+            "id": 4,
+            "key": "indeterminate",
+            "name": "In Progress",
+            "colorName": "yellow"
+          }
+        },
+        "priority": {
+          "id": "3",
+          "name": "Medium",
+          "description": "Medium priority"
+        },
+        "assignee": {
+          "accountId": "mvance-001",
+          "accountType": "atlassian",
+          "emailAddress": "m.vance@vanguardshield.com",
+          "displayName": "mvance",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "reporter": {
+          "accountId": "finance-ops-001",
+          "accountType": "atlassian",
+          "emailAddress": "finance.ops@vanguardshield.com",
+          "displayName": "finance.ops",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "creator": {
+          "accountId": "finance-ops-001",
+          "accountType": "atlassian",
+          "emailAddress": "finance.ops@vanguardshield.com",
+          "displayName": "finance.ops",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "created": "2026-04-22T09:30:00-04:00",
+        "updated": "2026-09-30T14:15:00-04:00",
+        "labels": [],
+        "components": [],
+        "fixVersions": [],
+        "versions": [],
+        "comment": {
+          "comments": [
+            {
+              "id": "7",
+              "author": {
+                "accountId": "mvance-001",
+                "accountType": "atlassian",
+                "emailAddress": "m.vance@vanguardshield.com",
+                "displayName": "mvance",
+                "active": true,
+                "timeZone": "America/New_York"
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Reviewed. Marketing team has been asked to provide written justification for the digital ad overspend. Awaiting response from CMO. Keeping open."
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-05-03T10:22:00-04:00",
+              "updated": "2026-05-03T10:22:00-04:00",
+              "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/issue/comment/C-FIN-01"
+            },
+            {
+              "id": "8",
+              "author": {
+                "accountId": "finance-ops-001",
+                "accountType": "atlassian",
+                "emailAddress": "finance.ops@vanguardshield.com",
+                "displayName": "finance.ops",
+                "active": true,
+                "timeZone": "America/New_York"
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Following up \u2014 still no response from Marketing as of Sep 30. Escalating internally. MVance to advise."
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-09-30T14:15:00-04:00",
+              "updated": "2026-09-30T14:15:00-04:00",
+              "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/issue/comment/C-FIN-02"
+            }
+          ],
+          "maxResults": 2,
+          "total": 2,
+          "startAt": 0
+        }
+      }
+    },
+    "OPS-6": {
+      "id": "20005",
+      "key": "OPS-6",
+      "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/issue/OPS-6",
+      "fields": {
+        "summary": "Workflow & Transitions \u2014 OPS-HR-TE (Sales T&E)",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "OPS-HR-TE Workflow \u2014 Transition Names (Sales T&E Queue)\n\nStatus flow and available transitions:\n  Pending Approval \u2192 Approved         (transition name: Approve)\n  Pending Approval \u2192 Rejected         (transition name: Reject)\n  Pending Approval \u2192 Awaiting Submitter (transition name: Request Info)\n  Awaiting Submitter \u2192 Pending Approval (transition name: Resubmit)\n\nNotes: Transitions are case-sensitive in Jira.\n\nQueue board owner: HR Operations (jmorales)\nLast updated: August 2026."
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10003",
+          "name": "Info",
+          "description": "Informational issue",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "10003",
+          "key": "OPS",
+          "name": "Operations",
+          "description": "Cross-functional operations project space",
+          "projectTypeKey": "business",
+          "simplified": false,
+          "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/project/OPS"
+        },
+        "status": {
+          "id": "10002",
+          "name": "Pinned",
+          "description": "Pinned information",
+          "statusCategory": {
+            "id": 3,
+            "key": "done",
+            "name": "Done",
+            "colorName": "green"
+          }
+        },
+        "priority": {
+          "id": "5",
+          "name": "None",
+          "description": "No priority"
+        },
+        "assignee": null,
+        "reporter": {
+          "accountId": "jmorales-001",
+          "accountType": "atlassian",
+          "emailAddress": "j.morales@vanguardshield.com",
+          "displayName": "J. Morales",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "creator": {
+          "accountId": "jmorales-001",
+          "accountType": "atlassian",
+          "emailAddress": "j.morales@vanguardshield.com",
+          "displayName": "J. Morales",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "created": "2025-04-10T09:00:00-04:00",
+        "updated": "2026-08-14T11:30:00-04:00",
+        "labels": [
+          "pinned"
+        ],
+        "components": [],
+        "fixVersions": [],
+        "versions": []
+      }
+    }
+  },
+  "sprints": {},
+  "comments": {},
+  "projects": {
+    "OPS": {
+      "id": "10003",
+      "key": "OPS",
+      "name": "Operations",
+      "description": "Cross-functional operations project space",
+      "projectTypeKey": "business",
+      "simplified": false,
+      "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/project/OPS"
+    },
+    "FIN": {
+      "id": "10002",
+      "key": "FIN",
+      "name": "Finance Operations",
+      "description": "Finance and accounting operations",
+      "projectTypeKey": "business",
+      "simplified": false,
+      "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/project/FIN"
+    }
+  },
+  "fields": [
+    {
+      "id": "summary",
+      "key": "summary",
+      "name": "Summary",
+      "custom": false,
+      "searchable": true
+    },
+    {
+      "id": "description",
+      "key": "description",
+      "name": "Description",
+      "custom": false,
+      "searchable": true
+    },
+    {
+      "id": "status",
+      "key": "status",
+      "name": "Status",
+      "custom": false,
+      "searchable": true
+    },
+    {
+      "id": "priority",
+      "key": "priority",
+      "name": "Priority",
+      "custom": false,
+      "searchable": true
+    },
+    {
+      "id": "assignee",
+      "key": "assignee",
+      "name": "Assignee",
+      "custom": false,
+      "searchable": true
+    },
+    {
+      "id": "reporter",
+      "key": "reporter",
+      "name": "Reporter",
+      "custom": false,
+      "searchable": true
+    },
+    {
+      "id": "created",
+      "key": "created",
+      "name": "Created",
+      "custom": false,
+      "searchable": true
+    },
+    {
+      "id": "updated",
+      "key": "updated",
+      "name": "Updated",
+      "custom": false,
+      "searchable": true
+    },
+    {
+      "id": "labels",
+      "key": "labels",
+      "name": "Labels",
+      "custom": false,
+      "searchable": true
+    },
+    {
+      "id": "issuetype",
+      "key": "issuetype",
+      "name": "Issue Type",
+      "custom": false,
+      "searchable": true
+    },
+    {
+      "id": "customfield_reportingManager",
+      "key": "customfield_reportingManager",
+      "name": "Reporting Manager",
+      "custom": true,
+      "searchable": true
+    }
+  ],
+  "linkTypes": [
+    {
+      "id": "10001",
+      "name": "Blocks",
+      "inward": "is blocked by",
+      "outward": "blocks"
+    },
+    {
+      "id": "10002",
+      "name": "Cloners",
+      "inward": "is cloned by",
+      "outward": "clones"
+    },
+    {
+      "id": "10003",
+      "name": "Duplicate",
+      "inward": "is duplicated by",
+      "outward": "duplicates"
+    },
+    {
+      "id": "10004",
+      "name": "Relates",
+      "inward": "relates to",
+      "outward": "relates to"
+    }
+  ],
+  "counters": {
+    "issueId": 20006,
+    "sprintId": 1000,
+    "commentId": 1107
+  },
+  "users": {
+    "analyst-001": {
+      "accountId": "analyst-001",
+      "displayName": "Analyst",
+      "accountType": "atlassian",
+      "emailAddress": "analyst@vanguardshield.com"
+    },
+    "hr-intake-001": {
+      "accountId": "hr-intake-001",
+      "displayName": "hr.intake",
+      "accountType": "atlassian",
+      "emailAddress": "hr.intake@vanguardshield.com"
+    },
+    "vfrost-001": {
+      "accountId": "vfrost-001",
+      "displayName": "V. Frost",
+      "accountType": "atlassian",
+      "emailAddress": "v.frost@vanguardshield.com"
+    },
+    "jmorales-001": {
+      "accountId": "jmorales-001",
+      "displayName": "J. Morales",
+      "accountType": "atlassian",
+      "emailAddress": "j.morales@vanguardshield.com"
+    },
+    "mvance-001": {
+      "accountId": "mvance-001",
+      "displayName": "mvance",
+      "accountType": "atlassian",
+      "emailAddress": "m.vance@vanguardshield.com"
+    },
+    "finance-ops-001": {
+      "accountId": "finance-ops-001",
+      "displayName": "finance.ops",
+      "accountType": "atlassian",
+      "emailAddress": "finance.ops@vanguardshield.com"
+    }
+  },
+  "boards": {},
+  "statuses": {
+    "1": {
+      "id": "1",
+      "name": "Approved",
+      "statusCategory": {
+        "id": 3,
+        "key": "done",
+        "name": "Done",
+        "colorName": "green"
+      }
+    },
+    "2": {
+      "id": "2",
+      "name": "Pending Approval",
+      "statusCategory": {
+        "id": 4,
+        "key": "indeterminate",
+        "name": "In Progress",
+        "colorName": "yellow"
+      }
+    },
+    "3": {
+      "id": "3",
+      "name": "Pinned",
+      "statusCategory": {
+        "id": 3,
+        "key": "done",
+        "name": "Done",
+        "colorName": "green"
+      }
+    },
+    "4": {
+      "id": "4",
+      "name": "Awaiting Controller Review",
+      "statusCategory": {
+        "id": 4,
+        "key": "indeterminate",
+        "name": "In Progress",
+        "colorName": "yellow"
+      }
+    }
+  },
+  "workflow": {
+    "Approved": [
+      {
+        "id": "1",
+        "name": "To Approved",
+        "to": "Approved"
+      },
+      {
+        "id": "2",
+        "name": "To Pending Approval",
+        "to": "Pending Approval"
+      },
+      {
+        "id": "3",
+        "name": "To Pinned",
+        "to": "Pinned"
+      },
+      {
+        "id": "4",
+        "name": "To Awaiting Controller Review",
+        "to": "Awaiting Controller Review"
+      }
+    ],
+    "Pending Approval": [
+      {
+        "id": "5",
+        "name": "To Approved",
+        "to": "Approved"
+      },
+      {
+        "id": "6",
+        "name": "To Pending Approval",
+        "to": "Pending Approval"
+      },
+      {
+        "id": "7",
+        "name": "To Pinned",
+        "to": "Pinned"
+      },
+      {
+        "id": "8",
+        "name": "To Awaiting Controller Review",
+        "to": "Awaiting Controller Review"
+      }
+    ],
+    "Pinned": [
+      {
+        "id": "9",
+        "name": "To Approved",
+        "to": "Approved"
+      },
+      {
+        "id": "10",
+        "name": "To Pending Approval",
+        "to": "Pending Approval"
+      },
+      {
+        "id": "11",
+        "name": "To Pinned",
+        "to": "Pinned"
+      },
+      {
+        "id": "12",
+        "name": "To Awaiting Controller Review",
+        "to": "Awaiting Controller Review"
+      }
+    ],
+    "Awaiting Controller Review": [
+      {
+        "id": "13",
+        "name": "To Approved",
+        "to": "Approved"
+      },
+      {
+        "id": "14",
+        "name": "To Pending Approval",
+        "to": "Pending Approval"
+      },
+      {
+        "id": "15",
+        "name": "To Pinned",
+        "to": "Pinned"
+      },
+      {
+        "id": "16",
+        "name": "To Awaiting Controller Review",
+        "to": "Awaiting Controller Review"
+      }
+    ]
+  },
+  "defaultStatusValue": "Approved"
+}

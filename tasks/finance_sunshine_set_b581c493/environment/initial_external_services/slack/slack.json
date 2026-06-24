@@ -1,0 +1,652 @@
+{
+  "users": {
+    "U001": {
+      "id": "U001",
+      "team_id": "T100",
+      "name": "elena.brooks",
+      "deleted": false,
+      "real_name": "Elena Brooks",
+      "profile": {
+        "real_name": "Elena Brooks",
+        "display_name": "elena.brooks",
+        "email": "elena.brooks@sunshineandsetauto.com",
+        "title": "Controller"
+      },
+      "is_admin": true,
+      "is_owner": true,
+      "is_bot": false
+    },
+    "U002": {
+      "id": "U002",
+      "team_id": "T100",
+      "name": "marcus.hale",
+      "deleted": false,
+      "real_name": "Marcus Hale",
+      "profile": {
+        "real_name": "Marcus Hale",
+        "display_name": "marcus.hale",
+        "email": "marcus.hale@sunshineandsetauto.com",
+        "title": "Assistant Controller"
+      },
+      "is_admin": true,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U003": {
+      "id": "U003",
+      "team_id": "T100",
+      "name": "talia.nguyen",
+      "deleted": false,
+      "real_name": "Talia Nguyen",
+      "profile": {
+        "real_name": "Talia Nguyen",
+        "display_name": "talia.nguyen",
+        "email": "talia.nguyen@sunshineandsetauto.com",
+        "title": "Office Manager"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U004": {
+      "id": "U004",
+      "team_id": "T100",
+      "name": "jasmine.patel",
+      "deleted": false,
+      "real_name": "Jasmine Patel",
+      "profile": {
+        "real_name": "Jasmine Patel",
+        "display_name": "jasmine.patel",
+        "email": "jasmine.patel@sunshineandsetauto.com",
+        "title": "Senior Deal Posting Specialist"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U005": {
+      "id": "U005",
+      "team_id": "T100",
+      "name": "noah.alvarez",
+      "deleted": false,
+      "real_name": "Noah Alvarez",
+      "profile": {
+        "real_name": "Noah Alvarez",
+        "display_name": "noah.alvarez",
+        "email": "noah.alvarez@sunshineandsetauto.com",
+        "title": "Funding & Contracts Clerk"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U006": {
+      "id": "U006",
+      "team_id": "T100",
+      "name": "priya.bennett",
+      "deleted": false,
+      "real_name": "Priya Bennett",
+      "profile": {
+        "real_name": "Priya Bennett",
+        "display_name": "priya.bennett",
+        "email": "priya.bennett@sunshineandsetauto.com",
+        "title": "Titles & Billing Clerk"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U007": {
+      "id": "U007",
+      "team_id": "T100",
+      "name": "caleb.foster",
+      "deleted": false,
+      "real_name": "Caleb Foster",
+      "profile": {
+        "real_name": "Caleb Foster",
+        "display_name": "caleb.foster",
+        "email": "caleb.foster@sunshineandsetauto.com",
+        "title": "Accounts Payable Clerk"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U008": {
+      "id": "U008",
+      "team_id": "T100",
+      "name": "renee.lawson",
+      "deleted": false,
+      "real_name": "Renee Lawson",
+      "profile": {
+        "real_name": "Renee Lawson",
+        "display_name": "renee.lawson",
+        "email": "renee.lawson@sunshineandsetauto.com",
+        "title": "Cashier / Receivables Clerk"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U009": {
+      "id": "U009",
+      "team_id": "T100",
+      "name": "darius.kim",
+      "deleted": false,
+      "real_name": "Darius Kim",
+      "profile": {
+        "real_name": "Darius Kim",
+        "display_name": "darius.kim",
+        "email": "darius.kim@sunshineandsetauto.com",
+        "title": "Inventory Accountant"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U010": {
+      "id": "U010",
+      "team_id": "T100",
+      "name": "leah.morgan",
+      "deleted": false,
+      "real_name": "Leah Morgan",
+      "profile": {
+        "real_name": "Leah Morgan",
+        "display_name": "leah.morgan",
+        "email": "leah.morgan@sunshineandsetauto.com",
+        "title": "Payroll & Commissions Analyst"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U011": {
+      "id": "U011",
+      "team_id": "T100",
+      "name": "derrick.soto",
+      "deleted": false,
+      "real_name": "Derrick Soto",
+      "profile": {
+        "real_name": "Derrick Soto",
+        "display_name": "derrick.soto",
+        "email": "derrick.soto@sunshineandsetauto.com",
+        "title": "General Manager"
+      },
+      "is_admin": true,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U012": {
+      "id": "U012",
+      "team_id": "T100",
+      "name": "olivia.mercer",
+      "deleted": false,
+      "real_name": "Olivia Mercer",
+      "profile": {
+        "real_name": "Olivia Mercer",
+        "display_name": "olivia.mercer",
+        "email": "olivia.mercer@sunshineandsetauto.com",
+        "title": "Sales Manager \u2014 New Vehicles"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U013": {
+      "id": "U013",
+      "team_id": "T100",
+      "name": "trent.holloway",
+      "deleted": false,
+      "real_name": "Trent Holloway",
+      "profile": {
+        "real_name": "Trent Holloway",
+        "display_name": "trent.holloway",
+        "email": "trent.holloway@sunshineandsetauto.com",
+        "title": "Used Car Manager"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U014": {
+      "id": "U014",
+      "team_id": "T100",
+      "name": "sofia.ramirez",
+      "deleted": false,
+      "real_name": "Sofia Ramirez",
+      "profile": {
+        "real_name": "Sofia Ramirez",
+        "display_name": "sofia.ramirez",
+        "email": "sofia.ramirez@sunshineandsetauto.com",
+        "title": "F&I Director"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U015": {
+      "id": "U015",
+      "team_id": "T100",
+      "name": "hannah.price",
+      "deleted": false,
+      "real_name": "Hannah Price",
+      "profile": {
+        "real_name": "Hannah Price",
+        "display_name": "hannah.price",
+        "email": "hannah.price@sunshineandsetauto.com",
+        "title": "HR Manager"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U016": {
+      "id": "U016",
+      "team_id": "T100",
+      "name": "grant.ellis",
+      "deleted": false,
+      "real_name": "Grant Ellis",
+      "profile": {
+        "real_name": "Grant Ellis",
+        "display_name": "grant.ellis",
+        "email": "grant.ellis@sunshineandsetauto.com",
+        "title": "Service Director"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U017": {
+      "id": "U017",
+      "team_id": "T100",
+      "name": "maya.chen",
+      "deleted": false,
+      "real_name": "Maya Chen",
+      "profile": {
+        "real_name": "Maya Chen",
+        "display_name": "maya.chen",
+        "email": "maya.chen@sunshineandsetauto.com",
+        "title": "Parts Manager"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U018": {
+      "id": "U018",
+      "team_id": "T100",
+      "name": "evan.ross",
+      "deleted": false,
+      "real_name": "Evan Ross",
+      "profile": {
+        "real_name": "Evan Ross",
+        "display_name": "evan.ross",
+        "email": "evan.ross@sunshineandsetauto.com",
+        "title": "IT & Systems Administrator"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U019": {
+      "id": "U019",
+      "team_id": "T100",
+      "name": "avery.knight",
+      "deleted": false,
+      "real_name": "Avery Knight",
+      "profile": {
+        "real_name": "Avery Knight",
+        "display_name": "avery.knight",
+        "email": "avery.knight@sunshineandsetauto.com",
+        "title": "Marketing Manager"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U020": {
+      "id": "U020",
+      "team_id": "T100",
+      "name": "lila.owens",
+      "deleted": false,
+      "real_name": "Lila Owens",
+      "profile": {
+        "real_name": "Lila Owens",
+        "display_name": "lila.owens",
+        "email": "lila.owens@sunshineandsetauto.com",
+        "title": "Reception & Customer Care Lead"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    }
+  },
+  "channels": {
+    "C001": {
+      "id": "C001",
+      "name": "acct-deal-posting",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1700000000,
+      "topic": {
+        "value": "Deal jacket items, gross discrepancies, VIN corrections, trade info"
+      },
+      "purpose": {
+        "value": "Missing deal jacket items, gross discrepancies, VIN corrections, trade information, missing signatures"
+      }
+    },
+    "C002": {
+      "id": "C002",
+      "name": "acct-contracts-funding",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1700000000,
+      "topic": {
+        "value": "Contract in transit, lender stipulations, funding delays"
+      },
+      "purpose": {
+        "value": "Contract in transit, lender stipulations, funding delays, reserve questions, CIT aging"
+      }
+    },
+    "C003": {
+      "id": "C003",
+      "name": "acct-titles-billing",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1700000000,
+      "topic": {
+        "value": "Title packets, payoff letters, lien information"
+      },
+      "purpose": {
+        "value": "Title packets, payoff letters, insurance cards, lien information, customer registration follow-up"
+      }
+    },
+    "C004": {
+      "id": "C004",
+      "name": "acct-cash-desk",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1700000000,
+      "topic": {
+        "value": "Cash, deposits, refunds"
+      },
+      "purpose": {
+        "value": "Payment receipts, deposits, refund approvals, payoff checks"
+      }
+    },
+    "C005": {
+      "id": "C005",
+      "name": "acct-ap",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1700000000,
+      "topic": {
+        "value": "Vendor invoices, PO support, check status"
+      },
+      "purpose": {
+        "value": "Vendor invoice questions, PO support, statement discrepancies, check status"
+      }
+    },
+    "C006": {
+      "id": "C006",
+      "name": "acct-inventory",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1700000000,
+      "topic": {
+        "value": "Inventory, floorplan, recon, wholesales"
+      },
+      "purpose": {
+        "value": "Vehicle in-stock timing, floorplan, aging, pack adjustments, recon costs, wholesales"
+      }
+    },
+    "C007": {
+      "id": "C007",
+      "name": "acct-payroll-commissions",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1700000000,
+      "topic": {
+        "value": "Commission sheets, payroll corrections, draw questions"
+      },
+      "purpose": {
+        "value": "Commission sheets, payroll corrections, draw questions, PTO coding"
+      }
+    },
+    "C008": {
+      "id": "C008",
+      "name": "acct-month-end-close",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1700000000,
+      "topic": {
+        "value": "Close checklist, schedule review, approvals"
+      },
+      "purpose": {
+        "value": "Close checklist, schedule review, approvals, late entries, exception tracking"
+      }
+    },
+    "C009": {
+      "id": "C009",
+      "name": "acct-chargebacks",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1700000000,
+      "topic": {
+        "value": "Reserve statements, product cancellations, chargeback postings"
+      },
+      "purpose": {
+        "value": "Reserve statements, product cancellations, chargeback postings, payroll offsets"
+      }
+    },
+    "C010": {
+      "id": "C010",
+      "name": "acct-floorplan",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1700000000,
+      "topic": {
+        "value": "Floorplan reconciliation, curtailments, sold-not-paid"
+      },
+      "purpose": {
+        "value": "Floor plan statement variances, curtailments, lender audits, sold-not-paid units"
+      }
+    },
+    "C011": {
+      "id": "C011",
+      "name": "acct-trade-payoffs",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1700000000,
+      "topic": {
+        "value": "Trade payoff letters, negative equity, lien release"
+      },
+      "purpose": {
+        "value": "Trade payoff letters, negative equity issues, lien release follow-up, title delays"
+      }
+    },
+    "C012": {
+      "id": "C012",
+      "name": "help-it-systems",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1700000000,
+      "topic": {
+        "value": "IT issues, scanner, permissions"
+      },
+      "purpose": {
+        "value": "System outages, scanner issues, permissions, printer problems"
+      }
+    },
+    "C013": {
+      "id": "C013",
+      "name": "leadership-escalations",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1700000000,
+      "topic": {
+        "value": "Urgent \u2014 executive awareness or same-day decision required"
+      },
+      "purpose": {
+        "value": "Urgent issues needing executive awareness or same-day decision"
+      }
+    }
+  },
+  "messages": {
+    "C002": [
+      {
+        "type": "message",
+        "user": "U005",
+        "text": "@sofia.ramirez \u2014 Deal 4462 / Watkins (Stock U-2205, Chase Auto Finance). Missing stip: proof of insurance card. Contract submitted 4/21, day 2 out. Customer was contacted 4/21 per Sofia's note. Can you confirm whether insurance doc came in? Funding deadline tracking at 4/27. Deal #: 4462, VIN last 6: 887341.",
+        "ts": "1776873600.000100",
+        "team": "T100",
+        "reply_count": 2,
+        "latest_reply": "1776880800.000300",
+        "reply_users": [
+          "U005",
+          "U014"
+        ],
+        "reply_users_count": 2
+      },
+      {
+        "type": "message",
+        "user": "U014",
+        "text": "On it \u2014 reached out to the customer directly this morning. She said she's resending from a new email address today. I'll forward to Noah as soon as it lands. Should clear by EOD.",
+        "ts": "1776877200.000200",
+        "team": "T100",
+        "thread_ts": "1776873600.000100",
+        "parent_user_id": "U005"
+      },
+      {
+        "type": "message",
+        "user": "U005",
+        "text": "Thanks Sofia. I'll hold the funding package until it's in. Updating tracker now.",
+        "ts": "1776880800.000300",
+        "team": "T100",
+        "thread_ts": "1776873600.000100",
+        "parent_user_id": "U005"
+      }
+    ],
+    "C006": [
+      {
+        "type": "message",
+        "user": "U009",
+        "text": "Working on the March floorplan rec now \u2014 Ally statement came in late. A few units showing on statement that don't appear in the inventory schedule from last week. Cross-checking VINs against purchase postings. Should have the variance report to Marcus by EOD today.",
+        "ts": "1776942000.000100",
+        "team": "T100"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Thanks Darius \u2014 ping me when it's ready. If there are any sold-not-paid items from March flag those separately.",
+        "ts": "1776945600.000200",
+        "team": "T100"
+      },
+      {
+        "type": "message",
+        "user": "U009",
+        "text": "Will do. Preliminary look shows one unit (Stock U-2196) that may need a recon invoice re-posted \u2014 looks like it was charged to the wrong stock number. Checking with Trent.",
+        "ts": "1776947400.000300",
+        "team": "T100"
+      }
+    ],
+    "C008": [
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "April close calendar is posted to the shared Calendar. Key dates: last BD of month (4/30) \u2014 all deals posted, final cash rec. BD1 (5/1) \u2014 floorplan rec, CIT aging report. BD2 (5/4) \u2014 AP accruals, payroll accruals, chargeback tracker rec. BD3 (5/5) \u2014 bank rec. BD5 (5/7) \u2014 close binder complete. Let me know if you have conflicts.",
+        "ts": "1776340800.000100",
+        "team": "T100"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Copy. I'll be in the office all of BD 1-3. Renee \u2014 please make sure the bank statements are downloaded the morning of BD1.",
+        "ts": "1776342000.000200",
+        "team": "T100"
+      }
+    ],
+    "C001": [
+      {
+        "type": "message",
+        "user": "U004",
+        "text": "@olivia.mercer \u2014 Deal 4474 / Kowalski (Stock U-2215). The trade paperwork shows the ACV at $8,200 but the desk recap has $8,400. Can you confirm which is correct before I finalize the posting? Thanks",
+        "ts": "1776783600.000100",
+        "team": "T100",
+        "reply_count": 2,
+        "latest_reply": "1776967200.000300",
+        "reply_users": [
+          "U004",
+          "U012"
+        ],
+        "reply_users_count": 2
+      },
+      {
+        "type": "message",
+        "user": "U012",
+        "text": "ACV was updated to $8,400 \u2014 that's the correct figure. Appraisal was revised after the initial offer. Use $8,400.",
+        "ts": "1776956400.000200",
+        "team": "T100",
+        "thread_ts": "1776783600.000100",
+        "parent_user_id": "U004"
+      },
+      {
+        "type": "message",
+        "user": "U004",
+        "text": "Got it \u2014 posted with $8,400 ACV. Deal 4474 is finalized.",
+        "ts": "1776967200.000300",
+        "team": "T100",
+        "thread_ts": "1776783600.000100",
+        "parent_user_id": "U004"
+      }
+    ],
+    "C003": [],
+    "C004": [],
+    "C005": [],
+    "C007": [],
+    "C009": [],
+    "C010": [],
+    "C011": [],
+    "C012": [],
+    "C013": []
+  }
+}

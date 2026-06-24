@@ -1,0 +1,249 @@
+{
+  "mailbox": {
+    "email": "intake@careig.com",
+    "name": "CareIG Intake"
+  },
+  "contacts": [
+    {
+      "email": "mhamilton@careig.com",
+      "name": "Mia Hamilton"
+    },
+    {
+      "email": "pturner@careig.com",
+      "name": "Patrick Turner"
+    },
+    {
+      "email": "agibson@careig.com",
+      "name": "Aiden Gibson"
+    },
+    {
+      "email": "jcameron@careig.com",
+      "name": "Joanna Cameron"
+    },
+    {
+      "email": "echapman@careig.com",
+      "name": "Emma Chapman"
+    },
+    {
+      "email": "mjones@careig.com",
+      "name": "Maria Jones"
+    },
+    {
+      "email": "rbailey@careig.com",
+      "name": "Robert Bailey"
+    },
+    {
+      "email": "lmurphy@careig.com",
+      "name": "Liam Murphy"
+    },
+    {
+      "email": "pa@careig.com",
+      "name": "CareIG PA"
+    },
+    {
+      "email": "compliance@careig.com",
+      "name": "CareIG Compliance"
+    },
+    {
+      "email": "legal@careig.com",
+      "name": "CareIG Legal"
+    },
+    {
+      "email": "billing@careig.com",
+      "name": "CareIG Billing"
+    },
+    {
+      "email": "rliang@rochesterneuro.com",
+      "name": "Rebecca Liang"
+    },
+    {
+      "email": "pnair@rochesterneuro.com",
+      "name": "Priya Nair"
+    },
+    {
+      "email": "jmendes@buffaloheme.com",
+      "name": "Julie Mendes"
+    },
+    {
+      "email": "abriggs@buffaloheme.com",
+      "name": "Alan Briggs"
+    },
+    {
+      "email": "evasquez79@gmail.com",
+      "name": "Elena Vasquez"
+    },
+    {
+      "email": "mthompson65@yahoo.com",
+      "name": "Marcus Thompson"
+    },
+    {
+      "email": "npark@hudsonvalleyneuro.com",
+      "name": "Nancy Park"
+    },
+    {
+      "email": "rchoi@hudsonvalleyneuro.com",
+      "name": "Robert Choi"
+    },
+    {
+      "email": "syellen58@aol.com",
+      "name": "Sandra Yellen"
+    },
+    {
+      "email": "rwhitfield@whitfieldlaw.com",
+      "name": "Rachel Whitfield"
+    }
+  ],
+  "folders": [],
+  "emails": [
+    {
+      "email_id": "1",
+      "folder": "INBOX",
+      "subject": "IVIG referral - Yellen, Sandra",
+      "from_addr": "npark@hudsonvalleyneuro.com",
+      "to_addr": "intake@careig.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-09-18T09:02:00-04:00",
+      "message_id": "<msg001-hudsonvalleyneuro-20260918@hudsonvalleyneuro.com>",
+      "in_reply_to": null,
+      "body_text": "Hello,\n\nDr. Choi would like to refer the following patient for home IVIG infusion services.\n\nPatient: Sandra Yellen\nDOB: 11/03/1958\nAddress: 12 Crescent Ridge Dr, Poughkeepsie, NY 12601\nPhone: (845) 297-6183\nEmail: syellen58@aol.com\n\nReferring Physician: Robert Choi, MD\nNPI: 1639285047\nEmail: rchoi@hudsonvalleyneuro.com\nHudson Valley Neurology Associates\n\nDx: Guillain-Barré Syndrome (G61.0)\nNCS/EMG completed 09/10/2026 — results attached\n\nRx: Gamunex-C 10% 20g IV every 4 weeks\n\nInsurance: UnitedHealthcare PPO\nMember ID: UHC-337291054\nGroup: GRP-4102\nPayer phone: (800) 328-5979\n\nAllergies: Sulfa drugs. No known IVIG contraindications.\n\nPatient has been counseled on the referral and is expecting your call.\n\nThank you,\nNancy Park\nReferral Coordinator\nHudson Valley Neurology Associates\nnpark@hudsonvalleyneuro.com | (845) 471-2200",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "ncs_emg_results_yellen.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjQKMSAwIG9iajw8L1R5cGUvQ2F0YWxvZy9QYWdlcyAyIDAgUj4+ZW5kb2JqCjIgMCBvYmo8PC9UeXBlL1BhZ2VzL0tpZHNbMyAwIFJdL0NvdW50IDE+PmVuZG9iagozIDAgb2JqPDwvVHlwZS9QYWdlL1BhcmVudCAyIDAgUi9NZWRpYUJveFswIDAgNjEyIDc5Ml0vQ29udGVudHMgNCAwIFIvUmVzb3VyY2VzPDwvRm9udDw8L0YxIDUgMCBSPj4+Pj4+ZW5kb2JqCjQgMCBvYmoKPDwvTGVuZ3RoIDIxOT4+CnN0cmVhbQpCVAovRjEgMTAgVGYKNzIgNzIwIFRkCihOQ1MvRU1HIFJlc3VsdHMgLSBZZWxsZW4sIFNhbmRyYSB8IERPQjogMTEvMDMvMTk1OCkgVGoKMCAtMjAgVGQKKERhdGU6IDA5LzEwLzIwMjYgfCBQaHlzaWNpYW46IERyLiBSb2JlcnQgQ2hvaSkgVGoKMCAtMjAgVGQKKER4OiBHdWlsbGFpbi1CYXJyZSBTeW5kcm9tZSAoRzYxLjApKSBUagowIC0yMCBUZAooW1BMQUNFSE9MREVSXSkgVGoKRVQKZW5kc3RyZWFtCmVuZG9iago1IDAgb2JqPDwvVHlwZS9Gb250L1N1YnR5cGUvVHlwZTEvQmFzZUZvbnQvSGVsdmV0aWNhPj5lbmRvYmoKeHJlZgowIDYKMDAwMDAwMDAwMCA2NTUzNSBmIAowMDAwMDAwMDA5IDAwMDAwIG4gCjAwMDAwMDAwNTggMDAwMDAgbiAKMDAwMDAwMDExNSAwMDAwMCBuIAowMDAwMDAwMjY2IDAwMDAwIG4gCjAwMDAwMDA3MDAgMDAwMDAgbiAKdHJhaWxlcjw8L1NpemUgNi9Sb290IDEgMCBSPj4Kc3RhcnR4cmVmCjc3NwolJUVPRg=="
+        }
+      ]
+    },
+    {
+      "email_id": "2",
+      "folder": "Sent",
+      "subject": "CareIG — Consent Form Required | Yellen",
+      "from_addr": "intake@careig.com",
+      "to_addr": "syellen58@aol.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-09-22T15:56:00-04:00",
+      "message_id": "<msg002-careig-20260922@careig.com>",
+      "in_reply_to": null,
+      "body_text": "Dear Sandra,\n\nThank you for speaking with us. Dr. Choi has referred you to CareIG Specialty Pharmacy for home IVIG infusion therapy.\n\nBefore we can proceed with verifying your insurance and scheduling your first visit, we need a signed Consent for Treatment and Financial Responsibility form. Please find the form attached.\n\nYou may sign and return it by:\n- Replying to this email with the signed form attached\n- Faxing to (888) 555-0147\n\nOnce we verify your insurance, we will also contact you with your estimated out-of-pocket costs before scheduling.\n\nIf you have any questions, please call us at (888) 555-0147.\n\nMia Hamilton\nCareIG Specialty Pharmacy, Intake\nintake@careig.com\n(888) 555-0147",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "consent_form.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjQKMSAwIG9iajw8L1R5cGUvQ2F0YWxvZy9QYWdlcyAyIDAgUj4+ZW5kb2JqCjIgMCBvYmo8PC9UeXBlL1BhZ2VzL0tpZHNbMyAwIFJdL0NvdW50IDE+PmVuZG9iagozIDAgb2JqPDwvVHlwZS9QYWdlL1BhcmVudCAyIDAgUi9NZWRpYUJveFswIDAgNjEyIDc5Ml0vQ29udGVudHMgNCAwIFIvUmVzb3VyY2VzPDwvRm9udDw8L0YxIDUgMCBSPj4+Pj4+ZW5kb2JqCjQgMCBvYmoKPDwvTGVuZ3RoIDM3MD4+CnN0cmVhbQpCVAovRjEgMTQgVGYKNzIgNzIwIFRkCihDYXJlSUcgU3BlY2lhbHR5IFBoYXJtYWN5KSBUagovRjEgMTAgVGYKMCAtMjAgVGQKKE5QSTogMTIzNDU2Nzg5MyB8IEVJTjogNDctMzgyMTA1NikgVGoKMCAtMjAgVGQKKFBob25lOiAoODg4KSA1NTUtMDE0NyB8IEZheDogKDg4OCkgNTU1LTAxNDgpIFRqCjAgLTMwIFRkCi9GMSAxMiBUZgooQ09OU0VOVCBGT1IgVFJFQVRNRU5UIEFORCBGSU5BTkNJQUwgUkVTUE9OU0lCSUxJVFkpIFRqCjAgLTMwIFRkCi9GMSAxMCBUZgooQ2FyZUlHLUZPUk0tQ09OU0VOVC0wMDEgfCBSZXYuIDIwMjYtMDEpIFRqCjAgLTIwIFRkCihbUExBQ0VIT0xERVIgLSBGdWxsIGZvcm0gb24gZmlsZV0pIFRqCkVUCmVuZHN0cmVhbQplbmRvYmoKNSAwIG9iajw8L1R5cGUvRm9udC9TdWJ0eXBlL1R5cGUxL0Jhc2VGb250L0hlbHZldGljYT4+ZW5kb2JqCnhyZWYKMCA2CjAwMDAwMDAwMDAgNjU1MzUgZiAKMDAwMDAwMDAwOSAwMDAwMCBuIAowMDAwMDAwMDU4IDAwMDAwIG4gCjAwMDAwMDAxMTUgMDAwMDAgbiAKMDAwMDAwMDI2NiAwMDAwMCBuIAowMDAwMDAwNjM4IDAwMDAwIG4gCnRyYWlsZXI8PC9TaXplIDYvUm9vdCAxIDAgUj4+CnN0YXJ0eHJlZgo3MTUKJSVFT0Y="
+        }
+      ]
+    },
+    {
+      "email_id": "3",
+      "folder": "INBOX",
+      "subject": "Referral — Vasquez, Elena | IVIG",
+      "from_addr": "rliang@rochesterneuro.com",
+      "to_addr": "intake@careig.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-09-25T10:42:00-04:00",
+      "message_id": "<msg003-rochesterneuro-20260925@rochesterneuro.com>",
+      "in_reply_to": null,
+      "body_text": "Hi CareIG Intake,\n\nDr. Nair is referring the following patient for home IVIG therapy. Please find the details below.\n\nPatient: Elena Vasquez\nDOB: 08/14/1979\nAddress: 47 Birchwood Ln, Rochester, NY 14620\nPhone: (585) 331-4718\nEmail: evasquez79@gmail.com\n\nDiagnosis: Common Variable Immunodeficiency (D83.9). Most recent IgG level was 285 mg/dL drawn 02/20/2026. Dr. Nair's LMN is attached.\n\nRx: Gammaplex 10% 30g IV every 4 weeks\n\nInsurance: Aetna PPO\nMember ID: AET-882041573\nGroup #: GRP-2240\nPayer phone: (800) 624-0756\n\nPrescribing Physician: Priya Nair, MD\nNPI: 1528074392\nContact: pnair@rochesterneuro.com\nRochester Neurology & Immunology Associates\n\nNo known drug allergies or contraindications per chart review. Patient was seen in clinic on 09/24/2026 and is aware of the referral.\n\nPlease let us know if you need anything else to get started.\n\nThanks,\nRebecca Liang\nClinical Coordinator\nRochester Neurology & Immunology Associates\nrliang@rochesterneuro.com | (585) 271-3300",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "lmn_vasquez.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjQKMSAwIG9iajw8L1R5cGUvQ2F0YWxvZy9QYWdlcyAyIDAgUj4+ZW5kb2JqCjIgMCBvYmo8PC9UeXBlL1BhZ2VzL0tpZHNbMyAwIFJdL0NvdW50IDE+PmVuZG9iagozIDAgb2JqPDwvVHlwZS9QYWdlL1BhcmVudCAyIDAgUi9NZWRpYUJveFswIDAgNjEyIDc5Ml0vQ29udGVudHMgNCAwIFIvUmVzb3VyY2VzPDwvRm9udDw8L0YxIDUgMCBSPj4+Pj4+ZW5kb2JqCjQgMCBvYmoKPDwvTGVuZ3RoIDIxMD4+CnN0cmVhbQpCVAovRjEgMTAgVGYKNzIgNzIwIFRkCihMTU4gLSBWYXNxdWV6LCBFbGVuYSB8IERPQjogMDgvMTQvMTk3OSkgVGoKMCAtMjAgVGQKKER4OiBEODMuOSB8IFJ4OiBHYW1tYXBsZXggMTAlIDMwZyBJViBxNHcpIFRqCjAgLTIwIFRkCihQaHlzaWNpYW46IFByaXlhIE5haXIsIE1EIHwgTlBJOiAxNTI4MDc0MzkyKSBUagowIC0yMCBUZAooW1BMQUNFSE9MREVSXSkgVGoKRVQKZW5kc3RyZWFtCmVuZG9iago1IDAgb2JqPDwvVHlwZS9Gb250L1N1YnR5cGUvVHlwZTEvQmFzZUZvbnQvSGVsdmV0aWNhPj5lbmRvYmoKeHJlZgowIDYKMDAwMDAwMDAwMCA2NTUzNSBmIAowMDAwMDAwMDA5IDAwMDAwIG4gCjAwMDAwMDAwNTggMDAwMDAgbiAKMDAwMDAwMDExNSAwMDAwMCBuIAowMDAwMDAwMjY2IDAwMDAwIG4gCjAwMDAwMDA3MDAgMDAwMDAgbiAKdHJhaWxlcjw8L1NpemUgNi9Sb290IDEgMCBSPj4Kc3RhcnR4cmVmCjc3NwolJUVPRg=="
+        }
+      ]
+    },
+    {
+      "email_id": "4",
+      "folder": "INBOX",
+      "subject": "New pt referral — Thompson, Marcus / IVIG",
+      "from_addr": "jmendes@buffaloheme.com",
+      "to_addr": "intake@careig.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-09-25T17:42:00-04:00",
+      "message_id": "<msg004-buffaloheme-20260925@buffaloheme.com>",
+      "in_reply_to": null,
+      "body_text": "Patient: Marcus Thompson, DOB 1965-03-22\nAddress: 88 Oakdale Ave, Buffalo, NY 14216\nPhone: (716) 482-9031, Email: mthompson65@yahoo.com\nPhysician: Dr. Alan Briggs, Buffalo Hematology Group, abriggs@buffaloheme.com\nNPI: NPI\nDiagnosis: D80.1 (Nonfamilial hypogammaglobulinemia)\nDrug: Privigen 10% IV, 25g, every 3 weeks\nInsurance: Empire BlueCross PPO, Member ID: EBC-441987320, Group: GRP-7815\nPayer Phone: (800) 553-9603\nContraindications: None",
+      "body_html": null,
+      "is_read": false,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "5",
+      "folder": "INBOX",
+      "subject": "Information confirmation",
+      "from_addr": "mthompson65@yahoo.com",
+      "to_addr": "intake@careig.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-09-25T18:10:00-04:00",
+      "message_id": "<msg005-yahoo-20260925@yahoo.com>",
+      "in_reply_to": null,
+      "body_text": "Hi there,\nDr. Briggs' office told me they sent over my referral and that I'd need to confirm some of my information with you guys so here it is.\n\nMarcus Thompson\nDOB: 03/22/1965\n88 Oakdale Ave, Buffalo, NY 14216\nPhone: (716) 482-9031\nEmail: mthompson65@yahoo.com\n\nMy insurance is Empire BlueCross PPO\nMember ID: EBC-441987320\nGroup: GRP-7815\nPhone number on the back of the card: (800) 553-9603\n\nI know theres a consent form I need to sign so if you could send that to this email that would be great. I just want to make this process as fast and smooth as possible, I've been waiting so long to get this treatment started.\n\nThank you,\nMarcus",
+      "body_html": null,
+      "is_read": false,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "6",
+      "folder": "INBOX",
+      "subject": "Re: CareIG — Consent Form Required | Yellen",
+      "from_addr": "syellen58@aol.com",
+      "to_addr": "intake@careig.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-09-26T08:42:00-04:00",
+      "message_id": "<msg006-aol-20260926@aol.com>",
+      "in_reply_to": "<msg002-careig-20260922@careig.com>",
+      "body_text": "Hi,\nAttached is the signed consent form. Please let me know if you need anything else from me.\nThank you,\nSandra",
+      "body_html": null,
+      "is_read": false,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "signed_consent_form_yellen.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjQKMSAwIG9iajw8L1R5cGUvQ2F0YWxvZy9QYWdlcyAyIDAgUj4+ZW5kb2JqCjIgMCBvYmo8PC9UeXBlL1BhZ2VzL0tpZHNbMyAwIFJdL0NvdW50IDE+PmVuZG9iagozIDAgb2JqPDwvVHlwZS9QYWdlL1BhcmVudCAyIDAgUi9NZWRpYUJveFswIDAgNjEyIDc5Ml0vQ29udGVudHMgNCAwIFIvUmVzb3VyY2VzPDwvRm9udDw8L0YxIDUgMCBSPj4+Pj4+ZW5kb2JqCjQgMCBvYmoKPDwvTGVuZ3RoIDMwNT4+CnN0cmVhbQpCVAovRjEgMTIgVGYKNzIgNzIwIFRkCihDYXJlSUcgU3BlY2lhbHR5IFBoYXJtYWN5KSBUagovRjEgMTAgVGYKMCAtMjAgVGQKKENPTlNFTlQgRk9SIFRSRUFUTUVOVCBBTkQgRklOQU5DSUFMIFJFU1BPTlNJQklMSVRZKSBUagowIC0yMCBUZAooUGF0aWVudDogU2FuZHJhIFllbGxlbiB8IERPQjogMTEvMDMvMTk1OCkgVGoKMCAtMjAgVGQKKFNpZ25lZDogU2FuZHJhIFllbGxlbiB8IERhdGU6IDA5LzI2LzIwMjYpIFRqCjAgLTIwIFRkCihDYXJlSUctRk9STS1DT05TRU5ULTAwMSB8IFJldi4gMjAyNi0wMSB8IFtTSUdORURdKSBUagpFVAplbmRzdHJlYW0KZW5kb2JqCjUgMCBvYmo8PC9UeXBlL0ZvbnQvU3VidHlwZS9UeXBlMS9CYXNlRm9udC9IZWx2ZXRpY2E+PmVuZG9iagp4cmVmCjAgNgowMDAwMDAwMDAwIDY1NTM1IGYgCjAwMDAwMDAwMDkgMDAwMDAgbiAKMDAwMDAwMDA1OCAwMDAwMCBuIAowMDAwMDAwMTE1IDAwMDAwIG4gCjAwMDAwMDAyNjYgMDAwMDAgbiAKMDAwMDAwMDcwMCAwMDAwMCBuIAp0cmFpbGVyPDwvU2l6ZSA2L1Jvb3QgMSAwIFI+PgpzdGFydHhyZWYKNzc3CiUlRU9G"
+        }
+      ]
+    },
+    {
+      "email_id": "7",
+      "folder": "INBOX",
+      "subject": "Records Request — Sandra Yellen DOB 11/03/1958",
+      "from_addr": "rwhitfield@whitfieldlaw.com",
+      "to_addr": "intake@careig.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-09-28T07:00:00-04:00",
+      "message_id": "<msg007-whitfieldlaw-20260928@whitfieldlaw.com>",
+      "in_reply_to": null,
+      "body_text": "To Whom It May Concern,\n\nThis office represents Sandra Yellen (DOB: 11/03/1958) in a pending medical legal violation matter. We are writing to request copies of any and all records related to Ms. Yellen's care at CareIG Specialty Pharmacy, including but not limited to:\n\n- Referral documentation and correspondence\n- Intake records\n- Prior authorization submissions and correspondence\n\nAdditionally, please confirm the name and dosage of any medications prescribed or administered to Ms. Yellen, and the identity of the referring physician.\n\nThis request is made pursuant to the patient's written authorization, which is enclosed. Please direct all responsive documents to the undersigned at the address below within 30 days.\n\nIf you have any questions regarding this request, please do not hesitate to contact me directly.\n\nRegards,\nRachel Whitfield, Esq.\nWhitfield & Associates, LLP\n340 Main Street, Suite 700\nPoughkeepsie, NY 12601\nrwhitfield@whitfieldlaw.com\n(845) 905-3310",
+      "body_html": null,
+      "is_read": false,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "patient_authorization_yellen.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjQKMSAwIG9iajw8L1R5cGUvQ2F0YWxvZy9QYWdlcyAyIDAgUj4+ZW5kb2JqCjIgMCBvYmo8PC9UeXBlL1BhZ2VzL0tpZHNbMyAwIFJdL0NvdW50IDE+PmVuZG9iagozIDAgb2JqPDwvVHlwZS9QYWdlL1BhcmVudCAyIDAgUi9NZWRpYUJveFswIDAgNjEyIDc5Ml0vQ29udGVudHMgNCAwIFIvUmVzb3VyY2VzPDwvRm9udDw8L0YxIDUgMCBSPj4+Pj4+ZW5kb2JqCjQgMCBvYmoKPDwvTGVuZ3RoIDMyMj4+CnN0cmVhbQpCVAovRjEgMTIgVGYKNzIgNzIwIFRkCihXaGl0ZmllbGQgJiBBc3NvY2lhdGVzLCBMTFApIFRqCi9GMSAxMCBUZgowIC0yMCBUZAooUEFUSUVOVCBBVVRIT1JJWkFUSU9OIEZPUiBSRUxFQVNFIE9GIFJFQ09SRFMpIFRqCjAgLTIwIFRkCihQYXRpZW50OiBTYW5kcmEgWWVsbGVuIHwgRE9COiAxMS8wMy8xOTU4KSBUagowIC0yMCBUZAooQXV0aG9yaXplZCBUbzogV2hpdGZpZWxkICYgQXNzb2NpYXRlcywgTExQKSBUagowIC0yMCBUZAooU2lnbmVkOiBTYW5kcmEgWWVsbGVuIHwgRGF0ZTogMDkvMjcvMjAyNikgVGoKMCAtMjAgVGQKKFtQTEFDRUhPTERFUl0pIFRqCkVUCmVuZHN0cmVhbQplbmRvYmoKNSAwIG9iajw8L1R5cGUvRm9udC9TdWJ0eXBlL1R5cGUxL0Jhc2VGb250L0hlbHZldGljYT4+ZW5kb2JqCnhyZWYKMCA2CjAwMDAwMDAwMDAgNjU1MzUgZiAKMDAwMDAwMDAwOSAwMDAwMCBuIAowMDAwMDAwMDU4IDAwMDAwIG4gCjAwMDAwMDAxMTUgMDAwMDAgbiAKMDAwMDAwMDI2NiAwMDAwMCBuIAowMDAwMDAwNzAwIDAwMDAwIG4gCnRyYWlsZXI8PC9TaXplIDYvUm9vdCAxIDAgUj4+CnN0YXJ0eHJlZgo3NzcKJSVFT0Y="
+        }
+      ]
+    }
+  ],
+  "next_email_id": 8
+}

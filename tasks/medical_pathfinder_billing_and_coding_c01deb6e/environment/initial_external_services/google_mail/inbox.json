@@ -1,0 +1,215 @@
+{
+  "mailbox": {
+    "email": "maria.santos@pathfinderbilling.com",
+    "name": "Maria Santos"
+  },
+  "contacts": [
+    {
+      "email": "david.park@pathfinderbilling.com",
+      "name": "David Park"
+    },
+    {
+      "email": "jason.blake@pathfinderbilling.com",
+      "name": "Jason Blake"
+    },
+    {
+      "email": "rachel.kim@pathfinderbilling.com",
+      "name": "Rachel Kim"
+    },
+    {
+      "email": "providerrelations@uhcprovider.com",
+      "name": "UnitedHealthcare Provider Relations"
+    },
+    {
+      "email": "providerservices@cigna.com",
+      "name": "Cigna Provider Services"
+    },
+    {
+      "email": "provideroperations@bcbstx.com",
+      "name": "BlueCross TX Provider Operations"
+    },
+    {
+      "email": "providerservices@aetna.com",
+      "name": "Aetna Provider Services"
+    }
+  ],
+  "groups": [
+    {
+      "email": "rcm.team@pathfinderbilling.com",
+      "name": "PBC RCM Team",
+      "members": [
+        "maria.santos@pathfinderbilling.com",
+        "jason.blake@pathfinderbilling.com",
+        "david.park@pathfinderbilling.com",
+        "rachel.kim@pathfinderbilling.com"
+      ]
+    }
+  ],
+  "folders": [
+    {
+      "name": "Escalations"
+    },
+    {
+      "name": "Payer Correspondence"
+    },
+    {
+      "name": "Archive/Q1-2026"
+    }
+  ],
+  "emails": [
+    {
+      "email_id": "1",
+      "folder": "INBOX",
+      "subject": "ERA_20260417 \u2014 Ready for Processing",
+      "from_addr": "jason.blake@pathfinderbilling.com",
+      "to_addr": "maria.santos@pathfinderbilling.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-24T09:15:00-05:00",
+      "message_id": "<pbc-era-20260424-001@pathfinderbilling.com>",
+      "in_reply_to": null,
+      "body_text": "Hi Maria,\n\nJust a heads-up \u2014 ERA_20260417.xlsx came in from last week and is sitting in the queue for you.\n\nJason",
+      "body_html": null,
+      "is_read": false,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "2",
+      "folder": "INBOX",
+      "subject": "Ops Check-In \u2014 Week of April 20",
+      "from_addr": "david.park@pathfinderbilling.com",
+      "to_addr": "rcm.team@pathfinderbilling.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-20T09:00:00-05:00",
+      "message_id": "<pbc-ops-20260420-001@pathfinderbilling.com>",
+      "in_reply_to": null,
+      "body_text": "Team,\n\nQuick check-in for the week. A few open items to be aware of:\n\n- We have a handful of ERA batches from recent weeks still moving through the queue. Please make sure your assigned items are actioned before EOD Friday.\n- Jason, any update on the BlueCross TX resubmission from March? Let me know if you need me to follow up on our end.\n- Nothing else pressing from my side. Come find me if anything needs escalation.\n\nDavid Park\nRCM Manager \u2014 Pathfinder Billing and Coding",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "3",
+      "folder": "Payer Correspondence",
+      "subject": "UnitedHealthcare Provider Portal \u2014 Unplanned Service Interruption Notice",
+      "from_addr": "providerrelations@uhcprovider.com",
+      "to_addr": "maria.santos@pathfinderbilling.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-05T06:30:00-06:00",
+      "message_id": "<uhc-notice-20260305-8814@uhcprovider.com>",
+      "in_reply_to": null,
+      "body_text": "Dear UnitedHealthcare Provider,\n\nWe are writing to notify you of an unplanned service interruption affecting the UnitedHealthcare Provider Portal and EDI submission gateway.\n\nImpacted Services:\n  - Electronic claim (837P/837I) submission queue\n  - Electronic Remittance Advice (835) retrieval\n  - Real-time eligibility verification\n\nOutage Start: March 5, 2026 at 02:00 AM Central Time\nEstimated Restoration: March 7, 2026 (subject to update)\n\nClaims submitted via EDI during this window will be queued and processed upon restoration. Submission timestamps will reflect the actual received date; no timeliness penalties will apply to claims held in queue during the interruption window.\n\nPlease do not attempt duplicate submissions. We will send a follow-up notification once services are fully restored.\n\nIf you have urgent eligibility questions during the outage, please contact Provider Services at 1-800-842-4844.\n\nThank you for your patience.\n\nUnitedHealthcare Provider Relations\nproviderrelations@uhcprovider.com",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "4",
+      "folder": "Sent",
+      "subject": "Escalation Notice: ESC-2026-0007 \u2014 Operational / Payer System Outage",
+      "from_addr": "maria.santos@pathfinderbilling.com",
+      "to_addr": "david.park@pathfinderbilling.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-05T09:45:00-06:00",
+      "message_id": "<pbc-esc-20260305-001@pathfinderbilling.com>",
+      "in_reply_to": null,
+      "body_text": "Hi David,\n\nI have logged ESC-2026-0007 in the Escalation Log.\n\nEscalation Details:\n  Escalation ID:       ESC-2026-0007\n  Category:            Operational\n  Reason:              Payer System Outage\n  Payer:               UnitedHealthcare (UNHC1)\n  Date:                03/05/2026\n  Impact:              UHC's EDI submission gateway has been down since approximately\n                       02:00 AM CT. We have 3 claims currently queued for 837P\n                       submission to UHC that cannot be transmitted.\n\nRequesting direction: should I hold the submission queue and wait for restoration, or attempt an alternate submission pathway?\n\nBest,\nMaria Santos\nResolution Auditor \u2014 Pathfinder Billing and Coding",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "5",
+      "folder": "Escalations",
+      "subject": "Re: Escalation Notice: ESC-2026-0007 \u2014 Operational / Payer System Outage",
+      "from_addr": "david.park@pathfinderbilling.com",
+      "to_addr": "maria.santos@pathfinderbilling.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-05T11:00:00-06:00",
+      "message_id": "<pbc-esc-20260305-002@pathfinderbilling.com>",
+      "in_reply_to": "<pbc-esc-20260305-001@pathfinderbilling.com>",
+      "body_text": "Maria,\n\nReceived. Hold the submission queue \u2014 do not attempt an alternate pathway. UHC has confirmed this is a widespread outage affecting all providers; secondary submission attempts risk duplicates when the main gateway restores.\n\nI'll monitor UHC communications. Once the portal is back up and we confirm queued submissions have processed, I'll update ESC-2026-0007 to Resolved and notify the team.\n\nDavid",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "6",
+      "folder": "Archive/Q1-2026",
+      "subject": "ESC-2026-0007 Resolved \u2014 UHC Portal Restored, Queued Submissions Cleared",
+      "from_addr": "david.park@pathfinderbilling.com",
+      "to_addr": "rcm.team@pathfinderbilling.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-10T14:00:00-05:00",
+      "message_id": "<pbc-esc-20260310-001@pathfinderbilling.com>",
+      "in_reply_to": "<pbc-esc-20260305-002@pathfinderbilling.com>",
+      "body_text": "Team,\n\nUnitedHealthcare confirmed portal restoration as of March 9 at 11:00 PM CT. All 3 queued 837P submissions processed successfully. EDI acknowledgments (999/TA1) received for all claims.\n\nI've updated ESC-2026-0007 to Resolved in the Escalation Log.\n\nNo further action needed.\n\nDavid",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "7",
+      "folder": "Sent",
+      "subject": "Escalation Notice: ESC-2026-0003 \u2014 Financial / High Value Claim Dispute",
+      "from_addr": "maria.santos@pathfinderbilling.com",
+      "to_addr": "david.park@pathfinderbilling.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-01-22T10:30:00-06:00",
+      "message_id": "<pbc-esc-20260122-001@pathfinderbilling.com>",
+      "in_reply_to": null,
+      "body_text": "Hi David,\n\nI have logged ESC-2026-0003 in the Escalation Log.\n\nUrgent Escalation: 01/22/2026\nClaim Value: $7,200\nPayer: Aetna (AETN1)\nIssue: Denied for CO-45; payer processed claim at a reduced allowed amount that does not align with the contracted rate.\nAction Taken: Reviewed claim register and fee schedule; contracted rate confirmed.\nRequest: Awaiting your direction before submitting the formal appeal to Aetna.\n\nBest,\nMaria Santos\nResolution Auditor \u2014 Pathfinder Billing and Coding",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "8",
+      "folder": "Escalations",
+      "subject": "Re: Escalation Notice: ESC-2026-0003 \u2014 Financial / High Value Claim Dispute",
+      "from_addr": "david.park@pathfinderbilling.com",
+      "to_addr": "maria.santos@pathfinderbilling.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-01-29T15:30:00-06:00",
+      "message_id": "<pbc-esc-20260129-001@pathfinderbilling.com>",
+      "in_reply_to": "<pbc-esc-20260122-001@pathfinderbilling.com>",
+      "body_text": "Maria,\n\nGood news \u2014 I escalated this directly to our Aetna Provider Relations contact. Aetna's billing team reviewed and confirmed the reduction was a system error on their end (incorrect fee schedule version applied during adjudication). They have reprocessed the claim at the correct contracted rate.\n\nPayment correction should post within the next few business days. I've updated ESC-2026-0003 to Resolved in the Escalation Log.\n\nGood catch on the rate mismatch.\n\nDavid",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "9",
+      "folder": "Payer Correspondence",
+      "subject": "Electronic Claim Receipt Acknowledgment \u2014 CLM-2026-0267",
+      "from_addr": "provideroperations@bcbstx.com",
+      "to_addr": "maria.santos@pathfinderbilling.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-10T10:00:00-05:00",
+      "message_id": "<bcbstx-ack-20260310-44721@bcbstx.com>",
+      "in_reply_to": null,
+      "body_text": "Dear Pathfinder Billing and Coding,\n\nThis is an automated acknowledgment confirming receipt of the following electronic claim submission:\n\n  Payer Claim Reference:    BCBSTX-2026-044721\n  Your Claim ID:            CLM-2026-0267\n  Original Claim ID:        CLM-2026-0234\n  Claim Type:               837P Professional (Corrected \u2014 Frequency Code 7)\n  Rendering Provider:       Dr. Sarah Chen, NPI 1234567890\n  Date of Service:          01/15/2026\n  Received Date:            03/10/2026\n  Current Status:           Received \u2014 Pending Adjudication\n\nExpected processing time is 15\u201320 business days from the received date. An Explanation of Benefits (EOB) or Electronic Remittance Advice (ERA) will be issued upon adjudication.\n\nIf you have questions regarding this submission, please reference payer claim number BCBSTX-2026-044721 when contacting Provider Operations at 1-800-521-2227 (Monday\u2013Friday, 7:00 AM\u20137:00 PM CT).\n\nThank you,\nBlueCross BlueShield of Texas \u2014 Provider Operations\nprovideroperations@bcbstx.com",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    }
+  ],
+  "next_email_id": 10
+}

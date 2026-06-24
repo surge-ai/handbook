@@ -1,0 +1,360 @@
+{
+  "users": {
+    "U001": {
+      "id": "U001",
+      "team_id": "T_VANGUARD",
+      "name": "analyst",
+      "deleted": false,
+      "real_name": "Analyst",
+      "profile": {
+        "real_name": "Analyst",
+        "display_name": "Analyst",
+        "email": "analyst@vanguardshield.com",
+        "title": "Operations Analyst \u2014 HR & Sales"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U002": {
+      "id": "U002",
+      "team_id": "T_VANGUARD",
+      "name": "pkim",
+      "deleted": false,
+      "real_name": "Peter Kim",
+      "profile": {
+        "real_name": "Peter Kim",
+        "display_name": "Peter Kim",
+        "email": "peter.kim@vanguardshield.com",
+        "title": "Sales Director \u2014 West Region"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U003": {
+      "id": "U003",
+      "team_id": "T_VANGUARD",
+      "name": "mharris",
+      "deleted": false,
+      "real_name": "Maria Harris",
+      "profile": {
+        "real_name": "Maria Harris",
+        "display_name": "Maria Harris",
+        "email": "mharris@vanguardshield.com",
+        "title": "Sales Manager \u2014 East Region"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U004": {
+      "id": "U004",
+      "team_id": "T_VANGUARD",
+      "name": "jmorales",
+      "deleted": false,
+      "real_name": "Jessica Morales",
+      "profile": {
+        "real_name": "Jessica Morales",
+        "display_name": "Jessica Morales",
+        "email": "j.morales@vanguardshield.com",
+        "title": "HR Operations Specialist"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U005": {
+      "id": "U005",
+      "team_id": "T_VANGUARD",
+      "name": "hrops.bot",
+      "deleted": false,
+      "real_name": "HR Ops Bot",
+      "profile": {
+        "real_name": "HR Ops Bot",
+        "display_name": "HR Ops Bot",
+        "email": "hrops-bot@vanguardshield.com",
+        "title": "Automation Bot"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": true,
+      "is_app_user": true
+    },
+    "U006": {
+      "id": "U006",
+      "team_id": "T_VANGUARD",
+      "name": "lwilliams",
+      "deleted": false,
+      "real_name": "Lisa Williams",
+      "profile": {
+        "real_name": "Lisa Williams",
+        "display_name": "Lisa Williams",
+        "email": "l.williams@vanguardshield.com",
+        "title": "VP Sales"
+      },
+      "is_admin": true,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U007": {
+      "id": "U007",
+      "team_id": "T_VANGUARD",
+      "name": "rokonkwo",
+      "deleted": false,
+      "real_name": "Rachel Okonkwo",
+      "profile": {
+        "real_name": "Rachel Okonkwo",
+        "display_name": "Rachel Okonkwo",
+        "email": "r.okonkwo@vanguardshield.com",
+        "title": "Account Executive \u2014 Sales West"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U008": {
+      "id": "U008",
+      "team_id": "T_VANGUARD",
+      "name": "dhuang",
+      "deleted": false,
+      "real_name": "Derek Huang",
+      "profile": {
+        "real_name": "Derek Huang",
+        "display_name": "Derek Huang",
+        "email": "d.huang@vanguardshield.com",
+        "title": "Regional Sales Lead \u2014 Midwest"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U009": {
+      "id": "U009",
+      "team_id": "T_VANGUARD",
+      "name": "mvance",
+      "deleted": false,
+      "real_name": "Marcus Vance",
+      "profile": {
+        "real_name": "Marcus Vance",
+        "display_name": "Marcus Vance",
+        "email": "m.vance@vanguardshield.com",
+        "title": "Finance Controller"
+      },
+      "is_admin": true,
+      "is_owner": false,
+      "is_bot": false
+    }
+  },
+  "channels": {
+    "CHROPS": {
+      "id": "CHROPS",
+      "name": "hr-ops-help",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1640995200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "hr-ops-help",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T_VANGUARD",
+      "updated": 1791392400,
+      "creator": "U004",
+      "shared_team_ids": [
+        "T_VANGUARD"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "HR operations help and manager lookup escalations",
+        "creator": "U004",
+        "last_set": 1640995200
+      },
+      "purpose": {
+        "value": "HR operations help and manager lookup escalations",
+        "creator": "U004",
+        "last_set": 1640995200
+      }
+    },
+    "CSALESOPS": {
+      "id": "CSALESOPS",
+      "name": "sales-ops",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1640995200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "sales-ops",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T_VANGUARD",
+      "updated": 1791392400,
+      "creator": "U006",
+      "shared_team_ids": [
+        "T_VANGUARD"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Sales team coordination and ops updates",
+        "creator": "U006",
+        "last_set": 1640995200
+      },
+      "purpose": {
+        "value": "Sales team operational updates \u2014 territory, quotas, and scheduling",
+        "creator": "U006",
+        "last_set": 1640995200
+      }
+    },
+    "CFINAPPR": {
+      "id": "CFINAPPR",
+      "name": "finance-approvals",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1600000000,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "finance-approvals",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T_VANGUARD",
+      "updated": 1791392400,
+      "creator": "U009",
+      "shared_team_ids": [
+        "T_VANGUARD"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Finance approval threads \u2014 intercompany suspense and GL reclassifications",
+        "creator": "U009",
+        "last_set": 1600000000
+      },
+      "purpose": {
+        "value": "Finance approval threads \u2014 intercompany suspense and GL reclassifications",
+        "creator": "U009",
+        "last_set": 1600000000
+      }
+    },
+    "DU002": {
+      "id": "DU002",
+      "name": "pkim",
+      "is_channel": false,
+      "is_group": false,
+      "is_im": true,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1640995200,
+      "is_archived": false,
+      "user": "U002",
+      "context_team_id": "T_VANGUARD",
+      "members": [
+        "U002"
+      ]
+    }
+  },
+  "messages": {
+    "CHROPS": [
+      {
+        "type": "message",
+        "user": "U004",
+        "text": "Thanks @hrops.bot \u2014 OPS-HR-TE-0912 closed. Adding note to Amanda Chen's Jira employee record.",
+        "ts": "1790085600.000200",
+        "team": "T_VANGUARD"
+      }
+    ],
+    "CSALESOPS": [
+      {
+        "type": "message",
+        "user": "U006",
+        "text": "Q4 kick-off is officially live. All territory assignments have been updated in Salesforce. Route through the standard portal.",
+        "ts": "1790845200.000200",
+        "team": "T_VANGUARD"
+      },
+      {
+        "type": "message",
+        "user": "U008",
+        "text": "Got it \u2014 heading out for the kickoff today. Will submit my report when I\u2019m back.",
+        "ts": "1790870400.000300",
+        "team": "T_VANGUARD"
+      },
+      {
+        "type": "message",
+        "user": "U007",
+        "text": "Off to the conference tomorrow morning. Will have it in on time.",
+        "ts": "1790888400.000100",
+        "team": "T_VANGUARD"
+      },
+      {
+        "type": "message",
+        "user": "U006",
+        "text": "Quick note from my sync with the CFO: the Q4 expense policy is unchanged from Q3.",
+        "ts": "1791190800.000200",
+        "team": "T_VANGUARD"
+      },
+      {
+        "type": "message",
+        "user": "U008",
+        "text": "All good on my end.",
+        "ts": "1791388800.000100",
+        "team": "T_VANGUARD"
+      },
+      {
+        "type": "message",
+        "user": "U007",
+        "text": "All wrapped up here.",
+        "ts": "1791390600.000200",
+        "team": "T_VANGUARD"
+      }
+    ],
+    "CFINAPPR": [
+      {
+        "type": "message",
+        "user": "U009",
+        "text": "Approved: Intercompany reclassification $7,250.00 \u2014 OPS-FIN-SUSPENSE-2026-09 line 8. GL 4510 \u2192 4520. https://jira.vanguardshield.com/OPS-FIN-SUSPENSE-2026-09",
+        "ts": "1790679600.000300",
+        "team": "T_VANGUARD"
+      },
+      {
+        "type": "message",
+        "user": "U009",
+        "text": "Approved: Intercompany reclassification $3,800.00 \u2014 OPS-FIN-SUSPENSE-2026-09 line 14. GL 5100 \u2192 5200. https://jira.vanguardshield.com/OPS-FIN-SUSPENSE-2026-09",
+        "ts": "1790679600.000600",
+        "team": "T_VANGUARD"
+      },
+      {
+        "type": "message",
+        "user": "U009",
+        "text": "Sep month-end suspense review complete. Two items reclassified, three items pending Controller review from the Sep close package. Finance team: flag anything from the Oct 5 close package to this channel.",
+        "ts": "1791187200.000100",
+        "team": "T_VANGUARD"
+      }
+    ],
+    "DU002": []
+  },
+  "counters": {
+    "messageId": 2000000
+  }
+}

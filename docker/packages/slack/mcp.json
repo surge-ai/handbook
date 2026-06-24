@@ -1,0 +1,118 @@
+{
+  "run": {
+    "command": "python",
+    "args": [
+      "-m",
+      "slack_mock"
+    ]
+  },
+  "toolsets": {
+    "read": [
+      "get_channel_history",
+      "get_thread_replies",
+      "get_user_presence",
+      "get_user_profile",
+      "get_users",
+      "list_channels",
+      "list_dms",
+      "list_files",
+      "list_pins",
+      "list_workspaces",
+      "search_messages"
+    ],
+    "write": [
+      "add_reaction",
+      "archive_channel",
+      "create_channel",
+      "delete_message",
+      "edit_message",
+      "open_dm",
+      "open_mpim",
+      "pin_message",
+      "post_message",
+      "rename_channel",
+      "reply_to_thread",
+      "send_dm",
+      "send_mpim",
+      "set_channel_topic",
+      "set_user_status",
+      "unpin_message",
+      "upload_file"
+    ],
+    "messages": [
+      "delete_message",
+      "edit_message",
+      "get_channel_history",
+      "get_thread_replies",
+      "post_message",
+      "reply_to_thread",
+      "search_messages"
+    ],
+    "channels": [
+      "archive_channel",
+      "create_channel",
+      "list_channels",
+      "rename_channel",
+      "set_channel_topic"
+    ],
+    "reactions_pins": [
+      "add_reaction",
+      "list_pins",
+      "pin_message",
+      "unpin_message"
+    ],
+    "users": [
+      "get_user_presence",
+      "get_user_profile",
+      "get_users",
+      "set_user_status"
+    ],
+    "files": [
+      "list_files",
+      "upload_file"
+    ],
+    "dms": [
+      "list_dms",
+      "open_dm",
+      "open_mpim",
+      "send_dm",
+      "send_mpim"
+    ],
+    "workspaces": [
+      "list_workspaces"
+    ],
+    "admin": [
+      "archive_channel",
+      "rename_channel",
+      "set_channel_topic"
+    ],
+    "core": [
+      "get_channel_history",
+      "get_thread_replies",
+      "get_users",
+      "list_channels",
+      "list_dms",
+      "post_message",
+      "reply_to_thread",
+      "search_messages",
+      "send_dm",
+      "send_mpim",
+      "add_reaction",
+      "get_user_profile"
+    ],
+    "toolathlon_legacy": [
+      "add_reaction",
+      "get_channel_history",
+      "get_thread_replies",
+      "get_user_profile",
+      "get_users",
+      "list_channels",
+      "post_message",
+      "reply_to_thread"
+    ],
+    "state": [
+      "export_state",
+      "import_state"
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "events": {
+    "evt-1": {
+      "id": "evt-1",
+      "summary": "Operations \u2014 Weekly Team Sync",
+      "start": {
+        "dateTime": "2026-04-10T09:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-04-10T09:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "location": "Conference Room B / Teams link",
+      "description": "Standing weekly sync. Agenda distributed by organizer day prior.\n\nOrganizer: rachel.osei@vanguardshield.com"
+    },
+    "evt-2": {
+      "id": "evt-2",
+      "summary": "Q2 Planning Kickoff \u2014 All Departments",
+      "start": {
+        "dateTime": "2026-04-11T13:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-04-11T15:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "location": "Main Boardroom / Teams link",
+      "description": "Please review the Q2 Draft Objectives deck (shared via internal portal) before attending.\n\nOrganizer: strategy@vanguardshield.com"
+    },
+    "evt-3": {
+      "id": "evt-3",
+      "summary": "Supplemental Benefits Enrollment Deadline",
+      "start": {
+        "date": "2026-04-18"
+      },
+      "end": {
+        "date": "2026-04-19"
+      },
+      "description": "Last day to update Q2 supplemental benefit elections in the Benefits Portal.\n\nOrganizer: benefits@vanguardshield.com"
+    }
+  }
+}

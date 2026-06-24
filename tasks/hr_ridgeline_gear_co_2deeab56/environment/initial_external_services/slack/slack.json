@@ -1,0 +1,1283 @@
+{
+  "users": {
+    "U001": {
+      "id": "U001",
+      "team_id": "T001",
+      "name": "mark.rogers",
+      "deleted": false,
+      "real_name": "Mark Rogers",
+      "profile": {
+        "real_name": "Mark Rogers",
+        "display_name": "mark.rogers",
+        "email": "mark.rogers@ridgelinegear.com",
+        "title": "CEO"
+      },
+      "is_admin": true,
+      "is_owner": true,
+      "is_bot": false
+    },
+    "U002": {
+      "id": "U002",
+      "team_id": "T001",
+      "name": "leaves-hr",
+      "deleted": false,
+      "real_name": "Harper Perez",
+      "profile": {
+        "real_name": "Harper Perez",
+        "display_name": "leaves-hr",
+        "email": "leaves@ridgelinegear.com",
+        "title": "Leave Coordinator"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U003": {
+      "id": "U003",
+      "team_id": "T001",
+      "name": "daniel.whitfield",
+      "deleted": false,
+      "real_name": "Daniel Whitfield",
+      "profile": {
+        "real_name": "Daniel Whitfield",
+        "display_name": "daniel.whitfield",
+        "email": "daniel.whitfield@ridgelinegear.com",
+        "title": "HR Director"
+      },
+      "is_admin": true,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U004": {
+      "id": "U004",
+      "team_id": "T001",
+      "name": "meera.patel",
+      "deleted": false,
+      "real_name": "Meera Patel",
+      "profile": {
+        "real_name": "Meera Patel",
+        "display_name": "meera.patel",
+        "email": "meera.patel@ridgelinegear.com",
+        "title": "HR Generalist \u2013 Employee Relations"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U005": {
+      "id": "U005",
+      "team_id": "T001",
+      "name": "jordan.briggs",
+      "deleted": false,
+      "real_name": "Jordan Briggs",
+      "profile": {
+        "real_name": "Jordan Briggs",
+        "display_name": "jordan.briggs",
+        "email": "jordan.briggs@ridgelinegear.com",
+        "title": "HR Generalist - Onboarding"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U006": {
+      "id": "U006",
+      "team_id": "T001",
+      "name": "renata.okafor",
+      "deleted": false,
+      "real_name": "Renata Okafor",
+      "profile": {
+        "real_name": "Renata Okafor",
+        "display_name": "renata.okafor",
+        "email": "renata.okafor@ridgelinegear.com",
+        "title": "Benefits Manager"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U007": {
+      "id": "U007",
+      "team_id": "T001",
+      "name": "teresa.vang",
+      "deleted": false,
+      "real_name": "Teresa Vang",
+      "profile": {
+        "real_name": "Teresa Vang",
+        "display_name": "teresa.vang",
+        "email": "teresa.vang@ridgelinegear.com",
+        "title": "Payroll Lead"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U008": {
+      "id": "U008",
+      "team_id": "T001",
+      "name": "luis.arredondo",
+      "deleted": false,
+      "real_name": "Luis Arredondo",
+      "profile": {
+        "real_name": "Luis Arredondo",
+        "display_name": "luis.arredondo",
+        "email": "luis.arredondo@ridgelinegear.com",
+        "title": "Safety & Workers' Comp Coordinator"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U009": {
+      "id": "U009",
+      "team_id": "T001",
+      "name": "samir.haddad",
+      "deleted": false,
+      "real_name": "Samir Haddad",
+      "profile": {
+        "real_name": "Samir Haddad",
+        "display_name": "samir.haddad",
+        "email": "samir.haddad@ridgelinegear.com",
+        "title": "IT Access Manager"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U010": {
+      "id": "U010",
+      "team_id": "T001",
+      "name": "logan.jones",
+      "deleted": false,
+      "real_name": "Logan Jones",
+      "profile": {
+        "real_name": "Logan Jones",
+        "display_name": "logan.jones",
+        "email": "logan.jones@ridgelinegear.com",
+        "title": "IT Technician"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U011": {
+      "id": "U011",
+      "team_id": "T001",
+      "name": "dakota.garcia",
+      "deleted": false,
+      "real_name": "Dakota Garcia",
+      "profile": {
+        "real_name": "Dakota Garcia",
+        "display_name": "dakota.garcia",
+        "email": "dakota.garcia@ridgelinegear.com",
+        "title": "Marketing Manager"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U012": {
+      "id": "U012",
+      "team_id": "T001",
+      "name": "finley.gonzalez",
+      "deleted": false,
+      "real_name": "Finley Gonzalez",
+      "profile": {
+        "real_name": "Finley Gonzalez",
+        "display_name": "finley.gonzalez",
+        "email": "finley.gonzalez@ridgelinegear.com",
+        "title": "Facilities Technician"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U013": {
+      "id": "U013",
+      "team_id": "T001",
+      "name": "casey.williams",
+      "deleted": false,
+      "real_name": "Casey Williams",
+      "profile": {
+        "real_name": "Casey Williams",
+        "display_name": "casey.williams",
+        "email": "casey.williams@ridgelinegear.com",
+        "title": "Safety Coordinator"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U014": {
+      "id": "U014",
+      "team_id": "T001",
+      "name": "parker.jackson",
+      "deleted": false,
+      "real_name": "Parker Jackson",
+      "profile": {
+        "real_name": "Parker Jackson",
+        "display_name": "parker.jackson",
+        "email": "parker.jackson@ridgelinegear.com",
+        "title": "Facilities Technician"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U015": {
+      "id": "U015",
+      "team_id": "T001",
+      "name": "dakota.jackson",
+      "deleted": false,
+      "real_name": "Dakota Jackson",
+      "profile": {
+        "real_name": "Dakota Jackson",
+        "display_name": "dakota.jackson",
+        "email": "dakota.jackson@ridgelinegear.com",
+        "title": "Quality Technician"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U016": {
+      "id": "U016",
+      "team_id": "T001",
+      "name": "avery.johnson",
+      "deleted": false,
+      "real_name": "Avery Johnson",
+      "profile": {
+        "real_name": "Avery Johnson",
+        "display_name": "avery.johnson",
+        "email": "avery.johnson@ridgelinegear.com",
+        "title": "Sales Manager"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U017": {
+      "id": "U017",
+      "team_id": "T001",
+      "name": "alex.thompson",
+      "deleted": false,
+      "real_name": "Alex Thompson",
+      "profile": {
+        "real_name": "Alex Thompson",
+        "display_name": "alex.thompson",
+        "email": "alex.thompson@ridgelinegear.com",
+        "title": "Sales Associate"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U018": {
+      "id": "U018",
+      "team_id": "T001",
+      "name": "dakota.hernandez",
+      "deleted": false,
+      "real_name": "Dakota Hernandez",
+      "profile": {
+        "real_name": "Dakota Hernandez",
+        "display_name": "dakota.hernandez",
+        "email": "dakota.hernandez@ridgelinegear.com",
+        "title": "Sales Associate"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U019": {
+      "id": "U019",
+      "team_id": "T001",
+      "name": "sawyer.hernandez",
+      "deleted": false,
+      "real_name": "Sawyer Hernandez",
+      "profile": {
+        "real_name": "Sawyer Hernandez",
+        "display_name": "sawyer.hernandez",
+        "email": "sawyer.hernandez@ridgelinegear.com",
+        "title": "Retail Associate"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U020": {
+      "id": "U020",
+      "team_id": "T001",
+      "name": "emerson.moore",
+      "deleted": false,
+      "real_name": "Emerson Moore",
+      "profile": {
+        "real_name": "Emerson Moore",
+        "display_name": "emerson.moore",
+        "email": "emerson.moore@ridgelinegear.com",
+        "title": "Retail Associate"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U021": {
+      "id": "U021",
+      "team_id": "T001",
+      "name": "emerson.white",
+      "deleted": false,
+      "real_name": "Emerson White",
+      "profile": {
+        "real_name": "Emerson White",
+        "display_name": "emerson.white",
+        "email": "emerson.white@ridgelinegear.com",
+        "title": "Retail Associate"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U022": {
+      "id": "U022",
+      "team_id": "T001",
+      "name": "charlie.szabo",
+      "deleted": false,
+      "real_name": "Charlie Szabo",
+      "profile": {
+        "real_name": "Charlie Szabo",
+        "display_name": "charlie.szabo",
+        "email": "charlie.szabo@ridgelinegear.com",
+        "title": "Warehouse Manager"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U023": {
+      "id": "U023",
+      "team_id": "T001",
+      "name": "charlie.rodriguez",
+      "deleted": false,
+      "real_name": "Charlie Rodriguez",
+      "profile": {
+        "real_name": "Charlie Rodriguez",
+        "display_name": "charlie.rodriguez",
+        "email": "charlie.rodriguez@ridgelinegear.com",
+        "title": "Warehouse Associate"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U024": {
+      "id": "U024",
+      "team_id": "T001",
+      "name": "jordan.taylor",
+      "deleted": false,
+      "real_name": "Jordan Taylor",
+      "profile": {
+        "real_name": "Jordan Taylor",
+        "display_name": "jordan.taylor",
+        "email": "jordan.taylor@ridgelinegear.com",
+        "title": "Warehouse Associate"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U025": {
+      "id": "U025",
+      "team_id": "T001",
+      "name": "taylor.gonzalez",
+      "deleted": false,
+      "real_name": "Taylor Gonzalez",
+      "profile": {
+        "real_name": "Taylor Gonzalez",
+        "display_name": "taylor.gonzalez",
+        "email": "taylor.gonzalez@ridgelinegear.com",
+        "title": "Production Supervisor"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U026": {
+      "id": "U026",
+      "team_id": "T001",
+      "name": "evelyn.marchetti",
+      "deleted": false,
+      "real_name": "Evelyn Marchetti",
+      "profile": {
+        "real_name": "Evelyn Marchetti",
+        "display_name": "evelyn.marchetti",
+        "email": "evelyn.marchetti@ridgelineholdings.com",
+        "title": "General Counsel"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U027": {
+      "id": "U027",
+      "team_id": "T001",
+      "name": "marcus.webb",
+      "deleted": false,
+      "real_name": "Marcus Webb",
+      "profile": {
+        "real_name": "Marcus Webb",
+        "display_name": "marcus.webb",
+        "email": "marcus.webb@ridgelineholdings.com",
+        "title": "Associate General Counsel"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    }
+  },
+  "channels": {
+    "C001": {
+      "id": "C001",
+      "name": "leave-intake",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1719792000,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "leave-intake",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1719792000,
+      "creator": "U003",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Primary Leave Coordinator channel for routine case notifications",
+        "creator": "U003",
+        "last_set": 1719792000
+      },
+      "purpose": {
+        "value": "All routine case notifications: new intake confirmations, eligibility decisions, certification status, scheduled return-to-work reminders. Default channel when uncertain which to use.",
+        "creator": "U003",
+        "last_set": 1719792000
+      }
+    },
+    "C002": {
+      "id": "C002",
+      "name": "benefits-team",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1719792000,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "benefits-team",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1719792000,
+      "creator": "U006",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Benefits team coordination and multi-benefit cases",
+        "creator": "U006",
+        "last_set": 1719792000
+      },
+      "purpose": {
+        "value": "Questions to the Benefits Manager (Renata Okafor) and coordination on cases touching multiple benefits areas.",
+        "creator": "U006",
+        "last_set": 1719792000
+      }
+    },
+    "C003": {
+      "id": "C003",
+      "name": "hr-escalations",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1719792000,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "hr-escalations",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1719792000,
+      "creator": "U003",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Escalations requiring HR Director attention",
+        "creator": "U003",
+        "last_set": 1719792000
+      },
+      "purpose": {
+        "value": "Escalations requiring HR Director attention (Daniel Whitfield): denials beyond clear ineligibility, failure-to-return cases, pattern flags per Section 12, any case where discipline is being contemplated.",
+        "creator": "U003",
+        "last_set": 1719792000
+      }
+    },
+    "C004": {
+      "id": "C004",
+      "name": "payroll-coordination",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1719792000,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "payroll-coordination",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1719792000,
+      "creator": "U007",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Payroll handoffs only - leave dates and transitions",
+        "creator": "U007",
+        "last_set": 1719792000
+      },
+      "purpose": {
+        "value": "Notify the Payroll Lead (Teresa Vang) of leave start dates, leave end dates, transitions to unpaid status, and return-to-work dates. Do not post non-payroll-related case information here.",
+        "creator": "U007",
+        "last_set": 1719792000
+      }
+    },
+    "C005": {
+      "id": "C005",
+      "name": "legal-review",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1719792000,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "legal-review",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1719792000,
+      "creator": "U026",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "General Counsel attention required",
+        "creator": "U026",
+        "last_set": 1719792000
+      },
+      "purpose": {
+        "value": "General Counsel attention (Evelyn Marchetti): legal threats, EEOC/CDLE/DOL mentions, retroactive designation disputes, GINA concerns, any case involving active litigation.",
+        "creator": "U026",
+        "last_set": 1719792000
+      }
+    },
+    "C006": {
+      "id": "C006",
+      "name": "unknown-senders-hr",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1719792000,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "unknown-senders-hr",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1719792000,
+      "creator": "U003",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Leave-related emails from unknown senders",
+        "creator": "U003",
+        "last_set": 1719792000
+      },
+      "purpose": {
+        "value": "Any leave-related email from a sender not found in employee_roster.xlsx: former employees, applicants, personal contacts of employees, misdirected emails, general inquiries.",
+        "creator": "U003",
+        "last_set": 1719792000
+      }
+    }
+  },
+  "messages": {
+    "C001": [
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "New FMLA intake received for Alex Thompson - maternity leave starting August 15, 2024. Eligibility confirmed, certification request sent.",
+        "ts": "1723708800.000100",
+        "team": "T001",
+        "reply_count": 1,
+        "latest_reply": "1723709400.000200",
+        "reply_users": [
+          "U016"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U016",
+        "text": "Thank you Harper! Alex will submit the certification this week.",
+        "ts": "1723709400.000200",
+        "thread_ts": "1723708800.000100",
+        "parent_user_id": "U002",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Scheduled return-to-work reminder: Dakota Hernandez returns from parental leave on September 3, 2024.",
+        "ts": "1725206400.000300",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "FMLA certification received and approved for Emerson Moore - serious health condition. Leave dates: October 1-15, 2024.",
+        "ts": "1727740800.000400",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U022",
+        "text": "Harper, can you check on the status of Jordan's intermittent leave? We need to plan warehouse coverage.",
+        "ts": "1730505600.000600",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Return-to-work confirmation: Parker Jackson returned from workers' comp leave on December 2, 2024 as scheduled.",
+        "ts": "1733097600.000800",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "New HFWA sick leave intake: Dakota Jackson - 3 days for medical procedure, January 20-22, 2025. Approved.",
+        "ts": "1737360000.000900",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "FMLA renewal notice sent to Sawyer Hernandez - intermittent leave period expires February 28, 2025. New certification required if continuing.",
+        "ts": "1740355200.001000",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Eligibility decision: Casey Williams approved for FMLA - family care leave March 10-24, 2025. Certification pending.",
+        "ts": "1741564800.001100",
+        "team": "T001",
+        "reply_count": 1,
+        "latest_reply": "1741651200.001200",
+        "reply_users": [
+          "U013"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U013",
+        "text": "Thanks Harper! I'll get the certification to you by end of week.",
+        "ts": "1741651200.001200",
+        "thread_ts": "1741564800.001100",
+        "parent_user_id": "U002",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U022",
+        "text": "Hi Harper, can you please process an HFWA sick leave request for Taylor Gonzalez (taylor.gonzalez@ridgelinegear.com), for April 8 for two consecutive days, due to follow-up on the surgery he had in January? Please let me know if it is approved so I can plan accordingly. Thank you.",
+        "ts": "1744156800.001300",
+        "team": "T001",
+        "reply_count": 2,
+        "latest_reply": "1744158000.001500",
+        "reply_users": [
+          "U002",
+          "U025"
+        ],
+        "reply_users_count": 2
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Hi Charlie, will follow due process and inform you as soon as it has been processed successfully.",
+        "ts": "1744157400.001400",
+        "thread_ts": "1744156800.001300",
+        "parent_user_id": "U022",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U025",
+        "text": "Thank you, Harper. I sent you an email with all the details. Please let me know if you need more information.",
+        "ts": "1744158000.001500",
+        "thread_ts": "1744156800.001300",
+        "parent_user_id": "U022",
+        "team": "T001"
+      }
+    ],
+    "C002": [
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Hi <@U006>, I have a case where an employee is requesting concurrent FMLA and short-term disability for surgery recovery. Can we discuss coordination?",
+        "ts": "1722499200.000100",
+        "team": "T001",
+        "reply_count": 1,
+        "latest_reply": "1722502800.000200",
+        "reply_users": [
+          "U006"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U006",
+        "text": "Absolutely. Send me the case details and let's set up a quick call to align on the paperwork and timeline.",
+        "ts": "1722502800.000200",
+        "thread_ts": "1722499200.000100",
+        "parent_user_id": "U002",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U006",
+        "text": "Reminder: Open enrollment starts November 1st. Employees on leave still need to make their elections by November 15th.",
+        "ts": "1730246400.000300",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U006",
+        "text": "Question about COBRA timing: If someone's FMLA runs out mid-month and they don't return, when does COBRA eligibility start?",
+        "ts": "1735689600.000500",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U006",
+        "text": "We're getting questions about HSA contributions during unpaid leave. Can we clarify the policy? Employees want to know if they can continue contributing.",
+        "ts": "1738368000.000700",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U006",
+        "text": "<@U002> Employee on parental leave is asking about dependent care FSA - can they pause contributions while on unpaid leave?",
+        "ts": "1741219200.000900",
+        "team": "T001"
+      }
+    ],
+    "C003": [
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "<@U003> Need your input on a case: Employee exhausted FMLA and is requesting additional leave under ADA accommodation. Medical documentation suggests 4 more weeks needed. How should we proceed?",
+        "ts": "1724832000.000100",
+        "team": "T001",
+        "reply_count": 2,
+        "latest_reply": "1725523200.000300",
+        "reply_users": [
+          "U003",
+          "U004"
+        ],
+        "reply_users_count": 2
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "Let's review the essential job functions and whether this creates undue hardship. Can you send me the medical cert and job description? We may need to engage in interactive process.",
+        "ts": "1724918400.000200",
+        "thread_ts": "1724832000.000100",
+        "parent_user_id": "U002",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U004",
+        "text": "Following up - we approved the 4-week extension as reasonable accommodation. Employee returns Oct 28.",
+        "ts": "1725523200.000300",
+        "thread_ts": "1724832000.000100",
+        "parent_user_id": "U002",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "<@U003> Escalation: Employee failed to return from FMLA on scheduled date (Nov 18) and has not responded to outreach attempts. This is day 3 of no-call/no-show. Recommend job abandonment process?",
+        "ts": "1732147200.000400",
+        "team": "T001",
+        "reply_count": 3,
+        "latest_reply": "1732406400.000700",
+        "reply_users": [
+          "U002",
+          "U003"
+        ],
+        "reply_users_count": 2
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "Have we sent certified letter to home address and attempted phone contact with emergency contacts?",
+        "ts": "1732233600.000500",
+        "thread_ts": "1732147200.000400",
+        "parent_user_id": "U002",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Yes - certified letter sent day 1, emergency contact (spouse) says employee is aware and will call but hasn't. No medical emergency reported.",
+        "ts": "1732320000.000600",
+        "thread_ts": "1732147200.000400",
+        "parent_user_id": "U002",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "Proceed with termination for job abandonment effective today. Document everything and prepare final paycheck per state law. <@U004> can you handle the term paperwork?",
+        "ts": "1732406400.000700",
+        "thread_ts": "1732147200.000400",
+        "parent_user_id": "U002",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "<@U003> Pattern flag per Section 12: Retail Associate has taken HFWA sick leave on 6 Saturdays in the past 8 weeks (peak sales days). Manager suspects abuse. Recommendation?",
+        "ts": "1739577600.000800",
+        "team": "T001",
+        "reply_count": 3,
+        "latest_reply": "1739836800.001100",
+        "reply_users": [
+          "U002",
+          "U003"
+        ],
+        "reply_users_count": 2
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "Document the pattern but we need to be careful here. HFWA doesn't allow us to question intermittent sick leave unless we have clear evidence of fraud. Has manager noted any social media posts or other contradictory evidence?",
+        "ts": "1739664000.000900",
+        "thread_ts": "1739577600.000800",
+        "parent_user_id": "U002",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "No concrete evidence, just the suspicious pattern. I'll document and continue monitoring but won't take action yet.",
+        "ts": "1739750400.001000",
+        "thread_ts": "1739577600.000800",
+        "parent_user_id": "U002",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "Correct approach. If pattern continues or we get evidence, loop me back in. For now, just ensure accurate documentation of each absence.",
+        "ts": "1739836800.001100",
+        "thread_ts": "1739577600.000800",
+        "parent_user_id": "U002",
+        "team": "T001"
+      }
+    ],
+    "C004": [
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "<@U007> Leave start notification: Alex Thompson, maternity leave begins August 15, 2024. Transitioning to unpaid after 2 weeks PTO exhausted (Aug 29).",
+        "ts": "1723536000.000100",
+        "team": "T001",
+        "reply_count": 2,
+        "latest_reply": "1723708800.000300",
+        "reply_users": [
+          "U002",
+          "U007"
+        ],
+        "reply_users_count": 2
+      },
+      {
+        "type": "message",
+        "user": "U007",
+        "text": "Confirmed. Will process PTO payout through Aug 28, unpaid starts Aug 29. Benefits deductions continue - correct?",
+        "ts": "1723622400.000200",
+        "thread_ts": "1723536000.000100",
+        "parent_user_id": "U002",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Correct - employee will submit monthly premium payments directly to HR.",
+        "ts": "1723708800.000300",
+        "thread_ts": "1723536000.000100",
+        "parent_user_id": "U002",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "<@U007> Return to work notification: Dakota Hernandez returns September 3, 2024. Resume regular payroll.",
+        "ts": "1725321600.000400",
+        "team": "T001",
+        "reply_count": 1,
+        "latest_reply": "1725408000.000500",
+        "reply_users": [
+          "U007"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U007",
+        "text": "Got it. Back in system for 9/3 start.",
+        "ts": "1725408000.000500",
+        "thread_ts": "1725321600.000400",
+        "parent_user_id": "U002",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "<@U007> Leave dates: Emerson Moore, October 1-15, 2024. Paid leave (using PTO balance of 40 hours, remainder unpaid).",
+        "ts": "1727568000.000600",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U007",
+        "text": "Thanks Harper. Set up intermittent tracking code in system. Warehouse manager should submit timesheets noting FMLA days.",
+        "ts": "1730419200.000800",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "<@U007> Return notification: Parker Jackson back from workers comp leave effective December 2, 2024. Full pay resumes.",
+        "ts": "1733011200.000900",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "<@U007> Leave dates: Dakota Jackson, HFWA sick leave January 20-22, 2025 (3 days). Employee using PTO - paid leave.",
+        "ts": "1737273600.001000",
+        "team": "T001",
+        "reply_count": 1,
+        "latest_reply": "1737360000.001100",
+        "reply_users": [
+          "U007"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U007",
+        "text": "Confirmed for next payroll cycle.",
+        "ts": "1737360000.001100",
+        "thread_ts": "1737273600.001000",
+        "parent_user_id": "U002",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "<@U007> Leave notification: Casey Williams FMLA March 10-24, 2025. Fully unpaid (PTO balance insufficient).",
+        "ts": "1741392000.001200",
+        "team": "T001"
+      }
+    ],
+    "C005": [
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "<@U026> Received email from employee's attorney regarding FMLA denial from 6 months ago. Attorney claims we failed to provide proper notice and is threatening EEOC complaint. Case details attached.",
+        "ts": "1726876800.000100",
+        "team": "T001",
+        "reply_count": 2,
+        "latest_reply": "1727222400.000300",
+        "reply_users": [
+          "U026"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U026",
+        "text": "Send me the complete file - all notices, certifications, correspondence. Do not respond to the attorney. I'll handle this directly.",
+        "ts": "1726963200.000200",
+        "thread_ts": "1726876800.000100",
+        "parent_user_id": "U002",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U026",
+        "text": "Update: Reviewed the file. Our notices were compliant and timely. I've responded to the attorney with supporting documentation. Let me know if they contact you again - all communication goes through me now.",
+        "ts": "1727222400.000300",
+        "thread_ts": "1726876800.000100",
+        "parent_user_id": "U002",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "<@U026> Employee requesting retroactive FMLA designation for absences from 8 months ago. They claim they didn't understand their rights at the time and now want protection from attendance policy discipline. Thoughts?",
+        "ts": "1734566400.000400",
+        "team": "T001",
+        "reply_count": 3,
+        "latest_reply": "1734825600.000700",
+        "reply_users": [
+          "U002",
+          "U026"
+        ],
+        "reply_users_count": 2
+      },
+      {
+        "type": "message",
+        "user": "U026",
+        "text": "Were they given proper FMLA notice/rights at the time of the absences? Did we have reason to know the absences might be FMLA-qualifying?",
+        "ts": "1734652800.000500",
+        "thread_ts": "1734566400.000400",
+        "parent_user_id": "U002",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Employee called in sick each time but never mentioned it was for a serious health condition. No medical documentation was provided. They were given our standard sick leave policy info.",
+        "ts": "1734739200.000600",
+        "thread_ts": "1734566400.000400",
+        "parent_user_id": "U002",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U026",
+        "text": "That's a close call. The burden is on the employee to provide sufficient information to trigger FMLA inquiry. However, if there were any red flags we missed, we could be exposed. Send me the attendance records and all call-in notes. I want to review before we deny.",
+        "ts": "1734825600.000700",
+        "thread_ts": "1734566400.000400",
+        "parent_user_id": "U002",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "<@U026> Colorado Division of Labor complaint received - employee alleging we retaliated against them for taking HFWA sick leave by reducing their hours. Need guidance on response timeline and process.",
+        "ts": "1742428800.000800",
+        "team": "T001",
+        "reply_count": 3,
+        "latest_reply": "1742688000.001100",
+        "reply_users": [
+          "U002",
+          "U026"
+        ],
+        "reply_users_count": 2
+      },
+      {
+        "type": "message",
+        "user": "U026",
+        "text": "Forward the complaint to me immediately. Do NOT discuss with the employee or their manager. We have 30 days to respond. I'll work with <@U003> to gather facts and draft response. Schedule reduction reason?",
+        "ts": "1742515200.000900",
+        "thread_ts": "1742428800.000800",
+        "parent_user_id": "U002",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Manager says it was business-driven - seasonal slowdown in retail. Same reduction applied to 3 other retail associates.",
+        "ts": "1742601600.001000",
+        "thread_ts": "1742428800.000800",
+        "parent_user_id": "U002",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U026",
+        "text": "Good - need documentation showing the business justification and that employee wasn't singled out. <@U003> please pull schedules for all retail associates for the past 6 months and any memos about seasonal adjustments.",
+        "ts": "1742688000.001100",
+        "thread_ts": "1742428800.000800",
+        "parent_user_id": "U002",
+        "team": "T001"
+      }
+    ],
+    "C006": [
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Received leave request email from 'michael.chen@email.com' - not in our employee roster. Appears to be a former employee from 2023. How should I respond?",
+        "ts": "1728345600.000100",
+        "team": "T001",
+        "reply_count": 1,
+        "latest_reply": "1728432000.000200",
+        "reply_users": [
+          "U003"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "I can confirm Michael Chen was terminated in July 2023. Reply with standard 'no longer employed' message and inform them to contact general HR for any benefits questions. Don't engage on the leave request.",
+        "ts": "1728432000.000200",
+        "thread_ts": "1728345600.000100",
+        "parent_user_id": "U002",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Got a leave inquiry from 'jennifer.martinez.spouse@gmail.com' asking about FMLA for her husband who works here. Should I respond?",
+        "ts": "1731542400.000300",
+        "team": "T001",
+        "reply_count": 3,
+        "latest_reply": "1731801600.000600",
+        "reply_users": [
+          "U002",
+          "U004"
+        ],
+        "reply_users_count": 2
+      },
+      {
+        "type": "message",
+        "user": "U004",
+        "text": "Is the husband actually an employee? What's the employee's name?",
+        "ts": "1731628800.000400",
+        "thread_ts": "1731542400.000300",
+        "parent_user_id": "U002",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "She didn't provide a name, just said 'my husband works in your warehouse.' No way to verify.",
+        "ts": "1731715200.000500",
+        "thread_ts": "1731542400.000300",
+        "parent_user_id": "U002",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U004",
+        "text": "Send standard reply: 'For privacy reasons we can only discuss leave with the employee directly. Please have your husband contact HR using his work email.'",
+        "ts": "1731801600.000600",
+        "thread_ts": "1731542400.000300",
+        "parent_user_id": "U002",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Leave inquiry came to the general info@ridgelinegear.com - person asking about 'disability leave options' but didn't identify themselves. Forwarded to this channel. Should HR respond?",
+        "ts": "1736208000.000700",
+        "team": "T001",
+        "reply_count": 1,
+        "latest_reply": "1736294400.000800",
+        "reply_users": [
+          "U003"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "Send them to our careers/benefits page and ask them to contact HR directly with their employee ID or personal details so we can assist. Don't provide specific leave info without confirming employment.",
+        "ts": "1736294400.000800",
+        "thread_ts": "1736208000.000700",
+        "parent_user_id": "U002",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Email from 'recruitingscam2025@tempmail.com' asking about our FMLA policies and how to request leave. Obvious phishing attempt. Marked as spam.",
+        "ts": "1740960000.000900",
+        "team": "T001",
+        "reply_count": 1,
+        "latest_reply": "1741046400.001000",
+        "reply_users": [
+          "U003"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "Good catch. Forward to IT security team and delete. Add that domain to block list.",
+        "ts": "1741046400.001000",
+        "thread_ts": "1740960000.000900",
+        "parent_user_id": "U002",
+        "team": "T001"
+      }
+    ]
+  },
+  "counters": {
+    "messageId": 1000000
+  }
+}

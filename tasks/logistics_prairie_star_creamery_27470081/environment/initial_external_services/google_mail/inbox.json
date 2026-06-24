@@ -1,0 +1,113 @@
+{
+  "mailbox": {
+    "email": "analyst@prairiestar.com",
+    "name": "Analyst"
+  },
+  "contacts": [
+    {
+      "email": "daniel.reyes@prairiestar.com",
+      "name": "Daniel Reyes"
+    },
+    {
+      "email": "emily.carter@prairiestar.com",
+      "name": "Emily Carter"
+    },
+    {
+      "email": "marcus.liu@prairiestar.com",
+      "name": "Marcus Liu"
+    },
+    {
+      "email": "hannah.brooks@prairiestar.com",
+      "name": "Hannah Brooks"
+    },
+    {
+      "email": "jacob.patel@prairiestar.com",
+      "name": "Jacob Patel"
+    },
+    {
+      "email": "carlos.mendoza@prairiestar.com",
+      "name": "Carlos Mendoza"
+    },
+    {
+      "email": "alicia.nguyen@prairiestar.com",
+      "name": "Alicia Nguyen"
+    },
+    {
+      "email": "sarah.kim@prairiestar.com",
+      "name": "Sarah Kim"
+    },
+    {
+      "email": "kevin.white@prairiestar.com",
+      "name": "Kevin White"
+    },
+    {
+      "email": "brandon.keller@prairiestar.com",
+      "name": "Brandon Keller"
+    },
+    {
+      "email": "luis.ramirez@prairiestar.com",
+      "name": "Luis Ramirez"
+    },
+    {
+      "email": "renee.dubois@prairiestar.com",
+      "name": "Renee Dubois"
+    },
+    {
+      "email": "wyatt.green@prairiestar.com",
+      "name": "Wyatt Green"
+    },
+    {
+      "email": "olivia.bennett@prairiestar.com",
+      "name": "Olivia Bennett"
+    },
+    {
+      "email": "dylan.harper@prairiestar.com",
+      "name": "Dylan Harper"
+    }
+  ],
+  "groups": [
+    {
+      "email": "companywide@prairiestar.com",
+      "name": "Company-Wide",
+      "members": [
+        "daniel.reyes@prairiestar.com",
+        "emily.carter@prairiestar.com",
+        "marcus.liu@prairiestar.com",
+        "hannah.brooks@prairiestar.com",
+        "jacob.patel@prairiestar.com"
+      ]
+    },
+    {
+      "email": "houston@prairiestar.com",
+      "name": "Houston Team",
+      "members": [
+        "carlos.mendoza@prairiestar.com",
+        "alicia.nguyen@prairiestar.com",
+        "sarah.kim@prairiestar.com",
+        "kevin.white@prairiestar.com",
+        "brandon.keller@prairiestar.com",
+        "luis.ramirez@prairiestar.com"
+      ]
+    },
+    {
+      "email": "shreveport@prairiestar.com",
+      "name": "Shreveport Team",
+      "members": [
+        "renee.dubois@prairiestar.com",
+        "wyatt.green@prairiestar.com",
+        "olivia.bennett@prairiestar.com",
+        "dylan.harper@prairiestar.com"
+      ]
+    }
+  ],
+  "folders": [
+    {
+      "name": "Temperature Alerts"
+    },
+    {
+      "name": "Manifests"
+    }
+  ],
+  "emails": [],
+  "next_email_id": 1
+}

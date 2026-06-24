@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SOP-RCM-024 Rev3.26</title>
+<style>:root { --fg:#1a1a1a; --muted:#666; --rule:#e2e2e2; --accent:#0b6; }
+* { box-sizing: border-box; }
+body { font: 16px/1.6 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+       color: var(--fg); max-width: 50rem; margin: 2rem auto; padding: 0 1.25rem; }
+h1,h2,h3,h4 { line-height: 1.25; margin: 1.6em 0 .5em; }
+h1 { font-size: 1.9rem; border-bottom: 2px solid var(--rule); padding-bottom: .3em; }
+h2 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: .2em; }
+h3 { font-size: 1.2rem; } h4 { font-size: 1.05rem; color: var(--muted); }
+p { margin: .6em 0; } code { background:#f4f4f4; padding:.1em .35em; border-radius:4px; }
+table { border-collapse: collapse; width: 100%; margin: 1em 0; font-size: .95rem; }
+th,td { border: 1px solid var(--rule); padding: .45em .6em; text-align: left; vertical-align: top; }
+th { background:#f7f7f7; } tr:nth-child(even) td { background:#fafafa; }
+a { color: var(--accent); text-decoration: none; } a:hover { text-decoration: underline; }
+hr { border:0; border-top:1px solid var(--rule); margin: 2em 0; }</style>
+</head>
+<body>
+<h1 id="pathfinder-billing-and-coding">PATHFINDER BILLING AND CODING</h1>
+<p>Standard Operating Procedure</p>
+<p>RCM &amp; Claims Resolution</p>
+<p>Doc ID: SOP-RCM-024 Revision: 3.26 – Current Effective Date: Feb 23, 2026</p>
+<p>Agency: Revenue Complete Management</p>
+<h1 id="1-introduction-definitions">1. Introduction &amp; Definitions</h1>
+<h2 id="11-purpose">1.1 Purpose</h2>
+<p>This Standard Operating Procedure (SOP) stands as the core guidelines for Pathfinder Billing and Coding (PBC). Our purpose is to perform our distinct Revenue Complete Management (RCM). Since we run in a highly regulated environment relying on specific data exchanges, clear communications, and patient data safety, accuracy is our number one priority. Our success metric is a 100% Clean Claim Rate (CCR), minimizing Days in Sales Outstanding (DSO) and maximizing practice and client revenue while minimizing costs to client patients.</p>
+<h2 id="12-definitions-vocabulary">1.2 Definitions &amp; Vocabulary</h2>
+<p>To ensure we have a comprehensive and thorough level of accuracy, all personnel and representatives must strictly adhere to the following specific terms:</p>
+<p><strong>835 (Electronic Remittance Advice):</strong> A digital statement returned by the payer that explains how the claim was processed. This is the primary document for all payment posting. The 835 uses standardized Claim Adjustment Reason Codes (CARCs) and Remittance Advice Remark Codes (RARCs). These codes break down exactly why a balance was paid, adjusted, or denied. The codes will help us determine the next steps we have to take as a team. Inbound ERA files are stored as <code>ERA_[BatchID].xlsx</code> with one row per claim line.</p>
+<p><strong>837P (Professional Claim):</strong> A secure, electronic file we use to send medical billing data to the insurance payer. It is a total data package containing all the patient's information and reports in a special format. Before we send this, our team will ensure every piece of data including the provider's NPI, the patient's demographics, and every medical code is perfectly accurate so the payer doesn't instantly reject it when passed.</p>
+<p><strong>Business Day:</strong> Defined as Monday through Friday, 9:00 AM to 4:00 PM Central Time (CT), excluding PBC-recognized federal holidays. For the purposes of our SLA (Service Level Agreement), any file received after 4:00 PM CT, or on a weekend/holiday, is officially timestamped as received at 9:00 AM on the following Business Day. This ensures clocks remain accurate and fair across all tiers.</p>
+<p><strong>Clean Claim:</strong> A claim passes all of our internal checks, the clearinghouse, and the payer with zero errors or denials. It and pays out the full allowed amount. Achieving a 100% Clean Claim rate is our main goal, as it proves we met our most basic standard.</p>
+<p><strong>Clean Claim Rate (CCR):</strong> The percentage of claims that are successfully processed and paid upon first submission, without being rejected by the clearinghouse or denied by the payer. The CCR serves as the primary performance metric for the CMC and Billing Specialist, measuring the accuracy of the initial coding and data entry.</p>
+<p><strong>CPT (Current Procedural Terminology):</strong> The specific five-digit numbers used to communicate to the payer exactly what service, surgery, or exam the doctor or clinic performed. The CPT code is the core action of the bill. We will make sure every CPT code matches up logically with the patient's ICD-10 codes to validate the medical necessity of the visit. Our auditors will know exactly when to attach two-character Modifiers (such as Modifier 25 or 59) to these codes to ensure our clients get paid.</p>
+<p><strong>Dollar Value:</strong> The total gross financial amount associated with a single claim, a denial, or a batch of services. Dollar Value is a primary triage metric to prioritize high-impact revenue. By identifying and fast-tracking high-value claims, we protect our clients from significant financial risk and ensure their most critical cash flow is never delayed.</p>
+<p><strong>High-Value Dispute:</strong> Any claim, batch, or reimbursement conflict where the disputed amount exceeds $10,000.00. These disputes require a higher level of scrutiny and a more thorough Recovery Plan because they represent a significant percentage of a clinic's monthly cash flow.</p>
+<p><strong>ICD-10 (International Classification of Diseases):</strong> Alphanumeric codes we use to communicate to the payer exactly what diagnosis, symptom, or medical condition the patient has. Where the CPT code defines the exact action taken by the provider, the ICD-10 code establishes the medical necessity that justifies that CPT code.</p>
+<p><strong>LMN (Letter of Medical Necessity):</strong> A formal clinical document drafted to justify the necessity of a specific medical service, procedure, or piece of equipment for a patient's health. In the recovery process, an LMN serves as the primary evidence to overturn "Lack of Medical Necessity" denials. The LMN must be supported by documentation provided by the CMC and authorized by the RCM Manager.</p>
+<p><strong>NPI (National Provider Identifier):</strong> A unique 10-digit ID assigned to every healthcare provider and clinic. Missing or mis-mapped NPIs are cause for instant claim rejection as the payer won't know who provided the service or who to pay.</p>
+<p><strong>PLB (Provider Level Balance):</strong> A specific segment within an 835/ERA file used by insurance payers to report adjustments that are not related to a specific claim. These adjustments can include interest payments (positive), overpayments (negative), provider credentials fees, or federal/state taxes.</p>
+<p><strong>Provider Query:</strong> A professional, written request sent from a CMC or Resolution Auditor to a healthcare provider to clarify ambiguous, incomplete, or conflicting clinical documentation. To maintain compliance, all queries must be "non-leading" meaning they ask for clarification based on the facts of the case rather than suggesting a specific diagnosis to increase reimbursement.</p>
+<p><strong>PHI (Protected Health Information):</strong> Any data, medical or demographic, that can be used to identify a patient. PHI includes patient names, birth dates, social security numbers, and medical records. Protecting this information fulfills HIPAA legal obligations.</p>
+<p><strong>Small Balance Write-Off (SBWO):</strong> An automated or manual administrative adjustment used to clear negligible remaining balances from the ledger. An SBWO is triggered when the financial cost of further collection efforts outweighs the potential recovery value. By utilizing SBWO thresholds, PBC ensures our time and effort are saved for recovery of high-value claims rather than the maintenance of small balances.</p>
+<p><strong>SLA (Service Level Agreement):</strong> A documented commitment that defines the specific speed and quality standards for every task within the revenue cycle. At PBC, the SLA defines our operational standard. The SLA ensures every claim, inquiry, and appeal is processed within the mandatory window and the TFL is never breached.</p>
+<p><strong>TFL (Timely Filing Limit):</strong> A deadline set by an insurance company for our claim processing. The standard window is between 90 to 180 days from date of service. Beating the TFL is a core standard; we take the time to get the claim right the first time and submit it without ever being denied.</p>
+<h2 id="13-confidentiality-compliance">1.3 Confidentiality &amp; Compliance</h2>
+<p><strong>2FA (Two-Factor Authentication):</strong> A security process requiring two distinct forms of identification to access an account. At Pathfinder, 2FA typically involves a standard password combined with a time-sensitive code from a mobile authenticator app or hardware token. This is a mandatory requirement to prevent unauthorized access to PBC systems.</p>
+<p><strong>Accounts Receivable (A/R):</strong> The total amount of money owed to our clients by both payers and patients for services rendered. At PBC, "working the A/R" means identifying every unpaid claim and ensuring it moves from "Pending" to "Paid," reducing the amount of days a balance stays on our books. Any balance over 60 days is a failure.</p>
+<p><strong>BAA (Business Associate Agreement):</strong> A legally binding contract required by HIPAA between a Covered Entity and PBC. The BAA outlines the specific responsibilities of the Associate regarding the protection, use, and disclosure of PHI. The BAA includes strict protocols for data encryption (2FA), breach notification timelines, and the secure return or destruction of data upon contract termination.</p>
+<p><strong>Credit Balance:</strong> A financial state where a patient or insurance payer has provided funds in excess of the total amount due for services rendered. At PBC, a credit balance is treated as a held liability and must be held in Unapplied status until resolved. Every credit balance must be either applied by the specialist to another outstanding balance belonging to that patient or refunded to the original payer in full if no outstanding balance exists for that patient. The refund report should be escalated to the RCM Manager. A credit balance is distinct from an unmatched payment—it arises when a payment is received against a claim that is already Paid - Full.</p>
+<p><strong>Data Isolation:</strong> All patient data, including names, dates of birth, and internal IDs, is classified as PHI. That data must never be shared, processed, or stored in unencrypted chat logs, personal devices, or unsecured directories. Protecting our patients' privacy is required.</p>
+<p><strong>EOB (Explanation of Benefits):</strong> A statement sent by the health insurance company to the patient explaining what medical treatments or services were paid for on their behalf. Think of the EOB as the patient-facing version of our 835. Our Patient Financial Representatives use the EOB to help patients understand their deductibles, copays, and coinsurance amounts so we can accurately and clearly collect their remaining balance.</p>
+<p><strong>HIPAA Mandate:</strong> Because the processing of Protected Health Information (PHI) is outlined herein, this document must be stored in a HIPAA-compliant encrypted directory with controlled access.</p>
+<p><strong>Legal Threat:</strong> Any formal or informal communication from an attorney, a government regulatory body, or a patient/provider that explicitly mentions litigation, fraud investigations, subpoenas, or breaches of HIPAA. In the Pathfinder model, a Legal Threat generates an email and Slack notification that bypasses all standard SLAs for immediate management intervention from an RCM Manager.</p>
+<p><strong>NCCI (National Correct Coding Initiative):</strong> A set of coding policies developed by the Centers for Medicare &amp; Medicaid Services (CMS) to promote national correct coding methodologies and control improper coding. NCCI edits define which procedures cannot be billed together on the same date of service for the same patient.</p>
+<p><strong>Payer Outage:</strong> A systemic failure of an insurance company's electronic gateway that prevents the submission of 837P files or the receipt of 835 ERAs. At PBC, an outage is defined as any downtime exceeding 4 Business Hours.</p>
+<p><strong>PBC Central Gateway:</strong> PBC's secure, centralized digital entry point for all incoming clinical and financial data. The Gateway sanitizes, standardizes, tags, and routes data to the appropriate department. Operational data from the Gateway is surfaced through the file ecosystem described in Appendix A. All claim tracking, denial management, payment posting, and escalation logging is performed in these files.</p>
+<p><strong>Proprietary Logic:</strong> This SOP manual contains the proprietary operational workflows belonging to Pathfinder Billing and Coding. It is strictly intended for internal use, and unauthorized reproduction, distribution, or modification is expressly prohibited.</p>
+<p><strong>Safety Recall:</strong> A formal notification from a manufacturer, the FDA, or a regulatory body regarding a defect or risk associated with medical equipment, software, or pharmaceutical supplies used by PBC clients.</p>
+<h1 id="2-organizational-roles-responsibilities">2. Organizational Roles &amp; Responsibilities</h1>
+<p>Our workflow relies on a clean system of organization utilizing specialized skill sets. Every member of the PBC team is expected to understand their authorization limits, and know exactly when to escalate an issue. The SOP helps clarify these needs, and the employee's role within the SOP.</p>
+<h2 id="21-specialized-operations">2.1 Specialized Operations</h2>
+<p><strong>Certified Medical Coder (CMC)</strong> — The CMC is our connection to the clinic, they translate what needs communicating to the payer.</p>
+<ul>
+<li>
+<p>Core Duties: A CMC will take the physician's chart notes and operation reports and translate them into accurate ICD-10 codes and their supporting CPT.</p>
+</li>
+<li>
+<p>Authorization Level: This role has the authority to assign, order, and certify diagnostic and procedural/operational codes based on clinic provided documentation and reporting.</p>
+</li>
+<li>
+<p>Escalation Trigger: In the event of an ambiguous note or missing signature, the CMC will issue a “Provider Query” to attempt to resolve the matter with the provider. If a consistent pattern emerges—five or more cases within a rolling 30-day period—the CMC will escalate the issue to the RCM Manager to ensure patient cases are being handled before the TFL.</p>
+</li>
+</ul>
+<p><strong>Patient Financial Representative (PFR)</strong> — This is our representative to the patient, with a consistent, considerate, and courteous communication system in place to help the patient understand the costs and benefits they receive from PBC and the payer.</p>
+<ul>
+<li>
+<p>Core Duties: Generating patient statements, assisting patients in understanding the EOB, collecting copay and deductibles, establishing and scheduling payment plans.</p>
+</li>
+<li>
+<p>Authorization Level: Authorized to collect payments over the phone or digitally, update patient demographic PHI, and establish and schedule structured payment plans within company guidelines.</p>
+</li>
+<li>
+<p>Escalation Trigger: Must immediately escalate any patient requesting a "hardship waiver," any patient demanding a refund, or any patient threatening legal or retaliatory action.</p>
+</li>
+</ul>
+<h2 id="22-the-claims-escalation-pathway">2.2 The Claims Escalation Pathway</h2>
+<p><strong>Tier 1: Billing Specialist</strong> — The Billing Specialist's primary responsibility is the accurate creation, editing, and submission of initial claims to ensure the highest possible Clean Claim rate.</p>
+<ul>
+<li>
+<p>Core Duties: The Billing Specialist will validate clinic NPIs, verify that the reports provided by CMCs align logically within the claim register, push 837P files to the clearinghouse, and post routine payments from standard ERA files. The Billing Specialist will do all this in an efficient manner well before the TFL.</p>
+</li>
+<li>
+<p>Authorization Level: The Billing Specialist is authorized to post payments and execute standard contractual adjustments directly outlined by routine CARCs and RARCs.</p>
+</li>
+<li>
+<p>Escalation Trigger: The Billing Specialist will immediately escalate any claim that is rejected by the clearinghouse due to systemic errors to the RCM Manager. The Billing Specialist will return to the CMC any denial requiring the attachment of physical medical records or PHI, and will escalate to the Resolution Auditor any claim with an unexpected coding mismatch (i.e., a code family or E/M level inconsistency not explained by the submitted documentation).</p>
+</li>
+</ul>
+<p><strong>Tier 2: Resolution Auditor</strong> — The Resolution Auditor handles complex accounts receivable (A/R) and denial management. They step in when a claim fails to process cleanly and requires expert intervention to rescue the revenue.</p>
+<ul>
+<li>
+<p>Core Duties: The Resolution Auditor will investigate complex 835 denials, draft and submit written appeals, conduct follow-up calls with payer representatives, and ensure no claim passes the TFL. The Resolution Auditor monitors <code>PBC_RA_Queue.xlsx</code> for incoming work items.</p>
+</li>
+<li>
+<p>Authorization Level: The Resolution Auditor is authorized to apply corrective two-character Modifiers (such as 25 or 59) to resubmit claims. The Resolution Auditor is authorized to approve small-balance write-offs up to $250.00 without management approval to clear stagnant accounts.</p>
+</li>
+<li>
+<p>Escalation Trigger: The Resolution Auditor will escalate to the RCM Manager any denials citing "Lack of Medical Necessity" and will notify via email and Slack the CMC and Billing Specialist that authorized the claim, any sudden trend of mass rejections (5 or more) from a single payer, or a trend of rejections (5 or more) regarding a single patient.</p>
+</li>
+</ul>
+<p><strong>Tier 3: RCM Manager</strong> — The RCM Manager oversees the financial health of our assigned medical practices and handles any and all high-level operational, financial, and legal roadblocks.</p>
+<ul>
+<li>
+<p>Core Duties: Provider relations, payer contract analysis, team performance auditing, and overall financial reporting. The RCM Manager reviews client cases of non-payment and emails the PFR to notify the patient that outstanding payments will be sent to an outside collection agency. They ensure the entire team is operating within HIPAA guidelines.</p>
+</li>
+<li>
+<p>Authorization Level: The RCM Manager is authorized to approve high-dollar write-offs up to $2,500.00. The RCM Manager is authorized to issue patient refunds after filing a report detailing the cause and reasoning. The RCM Manager is authorized to transfer patient demographic data necessary to transfer the patient case to an approved outside collection agency in the event of non-payment.</p>
+</li>
+<li>
+<p>Escalation Trigger: The RCM Manager is the final level of contact for legal threats from patients, suspected PHI breaches, or critical payer contract disputes. Any issues here will be forwarded to PBC's legal team.</p>
+</li>
+</ul>
+<h1 id="3-triage-routing-logic">3. Triage &amp; Routing Logic</h1>
+<h2 id="31-document-ingestion-identification">3.1 Document Ingestion &amp; Identification</h2>
+<p>All incoming files are funneled through the PBC Central Gateway and surfaced in the operational files described in Appendix A. Files must be named according to our standard naming convention:</p>
+<ul>
+<li>
+<p><code>[DATE],[PAYER],[FILETYPE],[TAG],[BATCHID]</code></p>
+</li>
+<li>
+<p>PDF Files: Typically contain EOBs, medical records, or correspondence letters.</p>
+</li>
+<li>
+<p>Excel/CSV Files: Typically contain ERA data, patient manifests, or clinic reports.</p>
+</li>
+</ul>
+<h2 id="32-keyword-trigger-routing-matrix">3.2 Keyword Trigger &amp; Routing Matrix</h2>
+<p>The following table outlines keywords used to route documents to the appropriate specialist. If a file contains any of these keywords in the filename or metadata, it follows the assigned path. Where a file matches keywords across multiple rows, the highest-authority role takes precedence (RCM Manager &gt; Resolution Auditor &gt; CMC/PFR &gt; Billing Specialist).</p>
+<table>
+<thead>
+<tr>
+<th>Keyword Triggers</th>
+<th>Primary Content</th>
+<th>Assigned Role</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>835, 837, 837P, 999, ACK, Batch, ERA, Pmt, Remit, Payment, Bill</td>
+<td>Payment files and posting data</td>
+<td>Billing Specialist</td>
+</tr>
+<tr>
+<td>Denial, CO-, PR-, Appeal, TFL, Timely, Corrected, MOD, 25, 59</td>
+<td>Insurance rejections or partial payments</td>
+<td>Resolution Auditor</td>
+</tr>
+<tr>
+<td>Chart, Note, Op-Rpt, Query, Dr., MD, NP, Superbill, Encounter</td>
+<td>Clinical documentation for coding</td>
+<td>CMC</td>
+</tr>
+<tr>
+<td>Stmt, Balance, Pt-Inq, Plan, Copay, Coinsurance, Deductible, Guarantor</td>
+<td>Patient-facing financial data</td>
+<td>PFR</td>
+</tr>
+<tr>
+<td>Audit, OIG, Attorney, Counsel, Refund, Legal, Subpoena, Breach, Contract, Credentialing, Enrollment, In-network</td>
+<td>High-risk, legal or administrative data</td>
+<td>RCM Manager</td>
+</tr>
+</tbody>
+</table>
+<h3 id="321-support-inquiry-triggers">3.2.1 Support &amp; Inquiry Triggers</h3>
+<p>The Gateway also identifies support requests and routes them to ensure rapid response times.</p>
+<table>
+<thead>
+<tr>
+<th>Keyword Triggers</th>
+<th>Source</th>
+<th>Assigned Role</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Portal, Login, Password, Access, Ticket, Help</td>
+<td>Provider (Tech)</td>
+<td>Billing Specialist</td>
+</tr>
+<tr>
+<td>Credentialing, Enrollment, In-network, Contract</td>
+<td>Provider (Admin)</td>
+<td>RCM Manager</td>
+</tr>
+<tr>
+<td>Status, Update, Check on, Where is, Follow-up</td>
+<td>Provider (Status)</td>
+<td>Billing Specialist</td>
+</tr>
+<tr>
+<td>Question, Dispute, Wrong, Error, Update Info</td>
+<td>Patient</td>
+<td>PFR</td>
+</tr>
+<tr>
+<td>Urgent, ASAP, Emergency, Complaint, Supervisor</td>
+<td>Urgency</td>
+<td>RCM Manager</td>
+</tr>
+</tbody>
+</table>
+<h1 id="4-severity-sla-matrix">4. Severity &amp; SLA Matrix</h1>
+<h2 id="41-severity-levels-response-windows">4.1 Severity Levels &amp; Response Windows</h2>
+<p>Tasks are prioritized by impact on the clinic's bottom line. The TFL is defined the moment a file is timestamped by the PBC Gateway. Tasks must be added to the local PBC office calendar, and a copy of the calendar and due tasks will be emailed out at 9:00 AM on Monday or the earliest Business Day that week in the event of a Federally Recognized holiday on Monday.</p>
+<table>
+<thead>
+<tr>
+<th>Severity Level</th>
+<th>Criteria</th>
+<th>Acknowledgment</th>
+<th>Resolution Goal</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Level 1: Critical</td>
+<td>Legal threats, PHI breaches, or claims &gt;$10k within 15 days of TFL</td>
+<td>2 Hours or next Business Day</td>
+<td>24–48 Hours</td>
+</tr>
+<tr>
+<td>Level 2: High</td>
+<td>Denials &gt;$1,000, "Urgent" support triggers, or any claim within 30 days of TFL</td>
+<td>4 Hours or next Business Day</td>
+<td>48–120 Hours</td>
+</tr>
+<tr>
+<td>Level 3: Medium</td>
+<td>Routine 837/835 posting, standard "Status" inquiries, and CMC coding batches</td>
+<td>Within 1–2 Business Days</td>
+<td>3 Business Days</td>
+</tr>
+<tr>
+<td>Level 4: Low</td>
+<td>Patient balance inquiries, routine demographic updates, or small-balance A/R (&lt;$50)</td>
+<td>Within 1–5 Business Days</td>
+<td>5 Business Days</td>
+</tr>
+</tbody>
+</table>
+<h2 id="42-the-tfl-warning-protocol">4.2 The "TFL Warning" Protocol</h2>
+<p>To ensure we never lose revenue to a missed deadline, the following automated alerts via Slack/email are triggered based on the TFL:</p>
+<ul>
+<li>
+<p><strong>Yellow Alert (60 Days to TFL):</strong> The Billing Specialist must verify the claim is "Accepted" at the payer level. This alert will be tracked on the Calendar.</p>
+</li>
+<li>
+<p><strong>Orange Alert (30 Days to TFL):</strong> The claim is automatically escalated to a Resolution Auditor for manual intervention. A row is added to <code>PBC_RA_Queue.xlsx</code> . This alert will be tracked on the Calendar.</p>
+</li>
+<li>
+<p><strong>Red Alert (15 Days to TFL):</strong> The RCM Manager is notified via Slack/Email for immediate assessment and direction. This alert will be tracked on the Calendar.</p>
+</li>
+</ul>
+<h2 id="43-financial-escalation-thresholds">4.3 Financial Escalation Thresholds</h2>
+<p>If a Resolution Auditor cannot resolve a denial within 10 Business Days, and the claim value exceeds $5,000, it must be escalated to the RCM Manager for a Review before it hits the TFL. Log the escalation in <code>PBC_Escalation_Log.xlsx</code> with Escalation Category <code>Financial</code> and Escalation Reason <code>High Value Claim</code> .</p>
+<h1 id="5-automation-triggers-hard-rules">5. Automation Triggers &amp; Hard Rules</h1>
+<h2 id="51-small-balance-write-off-sbwo-guidelines">5.1 Small Balance Write-Off (SBWO) Guidelines</h2>
+<p>The cost of a human "touch" (labor + overhead) often exceeds the value of a tiny balance. At PBC we recognize that there is a value in following our SOP, but spending 48 man hours to pursue a $5 deficit is a poor use of that time. The SBWO is in place to protect our employees and mitigate waste within PBC. We authorize the following automated adjustments to keep our Accounts Receivable (A/R) clean and focused on recoverable revenue.</p>
+<table>
+<thead>
+<tr>
+<th>Trigger Type</th>
+<th>Criteria</th>
+<th>Automated Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Payer Underpayment</td>
+<td>Any remaining insurance balance &lt;$5.00 after an ERA is posted</td>
+<td>Write-off as "Contractual Adjustment"</td>
+</tr>
+<tr>
+<td>Patient Penny-Balance</td>
+<td>Any patient balance &lt;$10.00 remaining after three (3) monthly statements</td>
+<td>Write-off as "Administrative Adjustment" (Small Balance)</td>
+</tr>
+<tr>
+<td>Interest Discrepancy</td>
+<td>Payer-issued interest payments &lt;$1.00 that cause a ledger mismatch</td>
+<td>Auto-post to "Interest Earned" and close the line item</td>
+</tr>
+</tbody>
+</table>
+<p>When an SBWO is applied, update the Claim Status in <code>PBC_Claim_Register.xlsx</code> to <code>Written Off</code> .</p>
+<h2 id="52-proactive-clinical-eligibility-alerts">5.2 Proactive Clinical &amp; Eligibility Alerts</h2>
+<p>These triggers optimize our efficiency before they even reach the Billing Specialist.</p>
+<ul>
+<li>
+<p>If a file is routed to the CMC but remains in a “Missing Signature” status, a “Provider Query” email is sent to the clinic every 3 Business Days. If the query is sent three times with no response (9 Business Days total), the RCM Manager is notified via email and Slack for direct clinic intervention.</p>
+</li>
+<li>
+<p>Upon receipt of a patient manifest, an automated Eligibility Verification is run against <code>PBC_Eligibility_Responses.xlsx</code> . Any patient flagged as "Inactive" or "Plan Terminated" is automatically pulled from the batch and sent to the PFR for immediate patient contact.</p>
+</li>
+<li>
+<p><strong>The "Duplicate Shield":</strong> Any claim with an identical NPI, Date of Service, and CPT code submitted within 24 hours of a previous file is auto-blocked and the sender is notified. A report is generated and emailed to the Billing Specialist. This prevents "Double-Billing" errors.</p>
+</li>
+</ul>
+<h2 id="53-automated-status-polling">5.3 Automated Status Polling</h2>
+<p>To prevent claims from approaching the TFL, the system is programmed to poll payer portals automatically based on the following timeline:</p>
+<p><strong>1. 1 Business Day:</strong> System confirms receipt of the 837P file. Update Claim Status in the claim register to <code>Acknowledged</code> .</p>
+<p><strong>2. 15 Business Days:</strong> System polls the payer portal for an "In-Process" status. If the claim is not found, it emails the Billing Specialist to verify the clearinghouse handshake.</p>
+<p><strong>3. 30 Business Days:</strong> If a claim remains "In-Process" without a payment or denial, the claim is automatically escalated to the Resolution Auditor via Slack and Email — a row is added to <code>PBC_RA_Queue.xlsx</code> to initiate a "Status Call."</p>
+<h1 id="6-workflow-a-denial-management">6. Workflow A: Denial Management</h1>
+<h2 id="61-the-denial-triage">6.1 The Denial Triage</h2>
+<p>When a denial is identified (Triggers: CO-, PR-, OA-), it is routed to the Resolution Auditor by adding a row to <code>PBC_RA_Queue.xlsx</code> . A corresponding row is also created in <code>PBC_Denial_Worklist.xlsx</code> with Recovery Status set to <code>Pending Review</code> . The Auditor must first categorize the denial to determine the “Path of Least Resistance”—checking Technical/Administrative causes before Clinical, and Clinical before Patient/Coverage.</p>
+<table>
+<thead>
+<tr>
+<th>Denial Category</th>
+<th>Common Codes</th>
+<th>Action Primary</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Technical/Administrative</td>
+<td>CO-16, CO-97</td>
+<td>Auditor corrects and resubmits</td>
+</tr>
+<tr>
+<td>Clinical/Coding</td>
+<td>CO-50, CO-59</td>
+<td>Auditor queries CMC for clinical support</td>
+</tr>
+<tr>
+<td>Patient/Coverage</td>
+<td>CO-22, CO-27</td>
+<td>Auditor routes to PFR for patient contact</td>
+</tr>
+<tr>
+<td>Contractual/Payer Error</td>
+<td>CO-45, CO-252</td>
+<td>Auditor initiates Payer Dispute/Appeal</td>
+</tr>
+</tbody>
+</table>
+<h2 id="62-recovery-plans">6.2 Recovery Plans</h2>
+<p>All denials require a specific Recovery Plan to ensure one-touch resolution and the prevention of recurring errors. Correcting and resubmitting a claim means adding a new row in <code>PBC_Claim_Register.xlsx</code> that references the original Claim ID, and updating the Recovery Action and Recovery Status in <code>PBC_Denial_Worklist.xlsx</code> . If a denial is not resolved within 30 business days, escalate per Section 9.</p>
+<h2 id="co-16-claim-lacks-information">CO-16: Claim Lacks Information</h2>
+<p>Description: The payer cannot process the claim because a required data element is missing or invalid.</p>
+<p>Recovery Plan:</p>
+<p><strong>1.</strong> Review RARC: Identify the specific missing element via the Remittance Advice Remark Code.</p>
+<p><strong>2.</strong> Internal Audit: Check the original claim in <code>PBC_Claim_Register.xlsx</code> to see if the data was provided but missed during entry.</p>
+<p><strong>3.</strong> Correction: Update the claim in the claim register and resubmit with Claim Frequency Code <code>7</code> .</p>
+<p><strong>4.</strong> Update <code>PBC_Denial_Worklist.xlsx</code> : Set Recovery Action to <code>Correct and Resubmit</code> , Recovery Status to <code>Resubmitted</code> .</p>
+<p><strong>5.</strong> Pattern Check: If this occurs 5+ times for one provider, escalate to the RCM Manager and submit an email report containing the 5+ instances. Log in <code>PBC_Escalation_Log.xlsx</code> with Escalation Reason <code>Pattern Recurrence</code> .</p>
+<h2 id="co-22-coordination-of-benefits-cob">CO-22: Coordination of Benefits (COB)</h2>
+<p>Description: The payer believes another insurance company is primary.</p>
+<p>Recovery Plan:</p>
+<p><strong>1.</strong> Manifest Audit: Search for a secondary insurance entry in <code>PBC_Eligibility_Responses.xlsx</code> for the patient.</p>
+<p><strong>2.</strong> PFR Handoff: If no secondary info exists, route the case to the PFR.</p>
+<p><strong>3.</strong> Patient Contact: The PFR contacts the patient using the "COB Script" (Section 10.3) to instruct them to call their insurance.</p>
+<p><strong>4.</strong> Update claim register: Update COB information in <code>PBC_Claim_Register.xlsx</code> using the eligibility response before resubmitting.</p>
+<p><strong>5.</strong> Status Hold: Place the claim on a 15-Business Day hold. Email the RCM Manager to notify of the hold and confirm the hold is compatible with the claim’s SLA tier before proceeding. Track on the Calendar.</p>
+<p><strong>6.</strong> Update <code>PBC_Denial_Worklist.xlsx</code> : Set Recovery Action to <code>Update COB and Resubmit</code> .</p>
+<h2 id="co-27-coverage-terminated">CO-27: Coverage Terminated</h2>
+<p>Description: The patient's policy was not active on the Date of Service.</p>
+<p>Recovery Plan:</p>
+<p><strong>1.</strong> Eligibility Re-Check: Verify coverage for the Date of Service in <code>PBC_Eligibility_Responses.xlsx</code> . Confirm that the patient documentation lists the date of their active insurance coverage.</p>
+<p><strong>2.</strong> PFR Handoff: If no active coverage is found, the PFR must contact the patient to request new insurance or establish and schedule a self-pay payment plan.</p>
+<h2 id="co-45-contractual-obligations">CO-45: Contractual Obligations</h2>
+<p>Description: The amount charged exceeds the "Allowed Amount" per the payer contract.</p>
+<p>Recovery Plan:</p>
+<p><strong>1.</strong> Contract Audit: Compare the "Allowed Amount" to the contracted rate in <code>PBC_Fee_Schedule.xlsx</code> for the CPT code and Payer.</p>
+<p><strong>2.</strong> Case Review: If the payment matches the contracted rate, execute a Contractual Adjustment (SBWO if within limits) and set Claim Status to <code>Closed</code> . If the payment does not match the contracted rate, set Recovery Action to <code>Appeal - Contractual Rate Dispute</code> and escalate to the RCM Manager.</p>
+<h2 id="co-50-medical-necessity">CO-50: Medical Necessity</h2>
+<p>Description: The payer denies the service as not "reasonable or necessary" for the diagnosis provided.</p>
+<p>Recovery Plan:</p>
+<p><strong>1.</strong> Clinical Review: Gather the Operation Report or Chart Notes from the CMC.</p>
+<p><strong>2.</strong> LMN Draft: The Auditor drafts a formal email Letter of Medical Necessity (LMN).</p>
+<p><strong>3.</strong> Executive Sign-off: The RCM Manager must review the LMN and ensure it is compliant.</p>
+<p><strong>4.</strong> Appeal: Email the LMN and clinical notes as a formal Level 1 Appeal to the payer's designated appeals department.</p>
+<p><strong>5.</strong> Update <code>PBC_Denial_Worklist.xlsx</code> : Set Recovery Action to <code>Appeal - Medical Necessity</code> , Recovery Status to <code>Appealed</code> .</p>
+<h2 id="co-97-procedure-is-bundled">CO-97: Procedure is Bundled</h2>
+<p>Description: The payer believes the service is inclusive to another procedure performed on the same day.</p>
+<p>Recovery Plan:</p>
+<p><strong>1.</strong> NCCI Edit Check: Verify if the codes are actually "bundled" by looking up the code pair in <code>PBC_NCCI_Edits.xlsx</code> under National Correct Coding Initiative guidelines.</p>
+<p><strong>2.</strong> Modifier Review: If the services are distinct (different site/separate encounter), determine the correct modifier per Section 8.</p>
+<p><strong>3.</strong> CMC Verification: If the Auditor is unsure, they must query the CMC to verify clinical distinction and submit a "Provider Query."</p>
+<p><strong>4.</strong> Resubmit with the appropriate modifier. Set Recovery Action to <code>Add Modifier and Resubmit</code> .</p>
+<h2 id="co-252-attachment-required">CO-252: Attachment Required</h2>
+<p>Description: The payer requires physical documentation (notes, photos, or invoices) to process the claim.</p>
+<p>Recovery Plan:</p>
+<p><strong>1.</strong> Document Retrieval: Gather the specific attachment from the CMC.</p>
+<p><strong>2.</strong> Digital Upload: Prepare the document and attach it to the claim submission.</p>
+<p><strong>3.</strong> Verification: Confirm the "Attachment Received" status within 5 Business Days.</p>
+<h2 id="63-modifier-logic-special-handling">6.3 Modifier Logic (Special Handling)</h2>
+<p>While not assigned a standard CO-code, denials regarding Modifiers 25 and 59 follow this specific protocol:</p>
+<p><strong>1.</strong> CMC Verification: The CMC must provide a statement confirming the modifier is supported by documentation.</p>
+<p><strong>2.</strong> Corrected Claim: Update or append the modifier as instructed by the CMC and resubmit via the claim register.</p>
+<p><strong>3.</strong> Red Alert: If a single payer rejects more than 5 claims for the same modifier over a period of 5 Business Days, escalate to the RCM Manager. Log in <code>PBC_Escalation_Log.xlsx</code> with Escalation Reason <code>Pattern Recurrence</code> .</p>
+<h1 id="7-workflow-b-payment-posting">7. Workflow B: Payment Posting</h1>
+<h2 id="71-the-era-accuracy-check-835-workflow">7.1 The ERA Accuracy Check (835 Workflow)</h2>
+<p>Most payments arrive as an ERA file ( <code>ERA_[BatchID].xlsx</code> ). While these are automated, the Billing Specialist must perform an Accuracy Check to ensure the data hasn't been misapplied.</p>
+<p>Posting a payment means matching each ERA line to the corresponding claim in <code>PBC_Claim_Register.xlsx</code> by Claim ID and updating the payment, adjustment, and patient balance fields.</p>
+<p><strong>The Accuracy Check:</strong></p>
+<p><strong>1. The Deposit Match:</strong> The total dollar amount of the ERA file must match the Electronic Funds Transfer (EFT) or physical check deposit in the clinic's bank account.</p>
+<p><strong>2. The Line-Item Verification:</strong> Before verifying CPT alignment, the specialist must first confirm the matched claim’s Claim Status in PBC_Claim_Register.xlsx. If the claim shows Paid - Full, the payment is a credit balance. If the claim status is valid for posting (e.g., Acknowledged), verify that the payment is applied to the specific CPT code performed, not just a general payment on the patient’s account.</p>
+<p><strong>3. The Contractual Adjustment Verification:</strong> To verify a contractual adjustment, look up the CPT code and Payer in <code>PBC_Fee_Schedule.xlsx</code> and compare the contracted rate against the paid amount plus adjustment. If they don't match, hold the payment.</p>
+<p><strong>4. The PLB Audit:</strong> The specialist must review the PLB segment of the ERA. These are adjustments (like offsets or interest) that can result in amount mismatches if not manually reviewed.</p>
+<table>
+<thead>
+<tr>
+<th>Checkpoint</th>
+<th>Requirement</th>
+<th>Failure Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Batch Total</td>
+<td>Must match bank deposit exactly</td>
+<td>Set Payment Posting Status to Held - Batch Mismatch and escalate to RCM Manager</td>
+</tr>
+<tr>
+<td>Contractual Adj</td>
+<td>Must match the contracted rate in PBC_Fee_Schedule.xlsx</td>
+<td>Set Payment Posting Status to Held - Contractual Variance. Route to Resolution Auditor for "Payer Underpayment" (CO-45)</td>
+</tr>
+<tr>
+<td>Patient Resp</td>
+<td>Must match the patient's deductible/copay manifest</td>
+<td>Route to PFR for statement generation</td>
+</tr>
+<tr>
+<td>PLB Mismatch</td>
+<td>Interest and offsets must reconcile the ERA total to the bank deposit</td>
+<td>Set Payment Posting Status to Held - PLB Variance. Do not post the batch. Escalate to the RCM Manager for manual reconciliation</td>
+</tr>
+</tbody>
+</table>
+<h2 id="72-handling-exceptions-offsets">7.2 Handling Exceptions &amp; Offsets</h2>
+<p><strong>The Offset Rule:</strong> A $0.00 payment line is not a no-op—it indicates a recoupment or take-back. A Billing Specialist is forbidden from skipping it. They must locate the original claim being recouped, verify the validity of the take-back, and link the two entries in the claim register to maintain a clean audit trail.</p>
+<p><strong>The "Unapplied" Limit:</strong> No payment may sit in an <code>Unapplied</code> status for more than 3 Business Days. If a payment cannot be matched to a claim and is not a credit balance, it must be escalated to the Resolution Auditor by adding a row to <code>PBC_RA_Queue.xlsx</code> . If the Resolution Auditor cannot locate the payment, the case must be escalated to an RCM Manager and the PFR on the case must be emailed to follow up with the patient that payment was made and successful.</p>
+<h2 id="73-daily-reconciliation">7.3 Daily Reconciliation</h2>
+<p>At 4:00 PM the Billing Specialist must generate a Daily Posting Log.</p>
+<p><strong>1. Gross-to-Net:</strong> Compare total charges submitted vs. total payments posted + total contractual adjustments.</p>
+<p><strong>2. Zero-Sum Goal:</strong> The total "Posted" amount must equal the total "Deposited" amount for that day.</p>
+<p><strong>3. Verification:</strong> Confirm all posted payments balance against ERA batch totals and no claims remain in a <code>Held</code> or <code>Unapplied</code> status without an active escalation.</p>
+<p><strong>4. The Sign-off:</strong> Claims are set to Payment Posting Status Posted as each ERA line is verified and posted during the day. The Daily Posting Log captures that day’s Posted activity. Every Daily Posting Log must be uploaded to PBC_Audit_Log.xlsx with an RCM Manager’s sign-off before end of Business Day. In the RCM Manager’s absence, the Resolution Auditor on duty may provide sign-off and must notify the RCM Manager by email. Only after sign-off are those claims promoted to Payment Posting Status <code>Reconciled</code> .</p>
+<h1 id="8-workflow-c-medical-coding-auditing">8. Workflow C: Medical Coding &amp; Auditing</h1>
+<h2 id="81-the-coding-process">8.1 The Coding Process</h2>
+<p>The process begins the moment a chart or note trigger is identified.</p>
+<p><strong>1. Documentation Review:</strong> The CMC will review the provider's note or chart for key elements including but not limited to, Chief Complaint, History of Present Illness (HPI), Exam, and Medical Decision Making (MDM).</p>
+<p><strong>2. Code Selection:</strong> Codes are assigned based on the current year's CPT and ICD-10-CM guidelines.</p>
+<p><strong>3. The Precision Audit:</strong> Before finalizing the batch, the CMC must run the codes through the NCCI Edit Check (Section 8.2) by looking up CPT code pairs in <code>PBC_NCCI_Edits.xlsx</code> .</p>
+<p><strong>4. Claim Release:</strong> Once verified, the claim is released to the Billing Specialist for the 4:00 PM batch submission. Claims verified after 3:30 PM are held for the next Business Day’s batch unless they carry a Level 1 or Level 2 severity, in which case the Billing Specialist submits them manually before end of Business Day.</p>
+<h2 id="82-ncci-ptp-procedure-to-procedure-audits">8.2 NCCI PTP (Procedure-to-Procedure) Audits</h2>
+<p>The CMC must check every multi-code claim against the NCCI PTP Edit Tables in <code>PBC_NCCI_Edits.xlsx</code> . This prevents bundling errors that lead to automatic denials (CO-97).</p>
+<ul>
+<li>
+<p><strong>Indicator 0:</strong> The codes are mutually exclusive and cannot be billed together. The CMC will select the most comprehensive code and drop the component code.</p>
+</li>
+<li>
+<p><strong>Indicator 1:</strong> The codes are bundled but may be separated by a clinical modifier if the documentation provided asserts they were distinct services given by the provider.</p>
+</li>
+<li>
+<p><strong>Indicator 9:</strong> NCCI edits do not apply to this code pair.</p>
+</li>
+</ul>
+<h2 id="83-code-modifiers-25-59">8.3 Code Modifiers 25 &amp; 59</h2>
+<p>Payers often only recognize the first two modifiers on a line item. Functional modifiers that affect payment must be listed first; informational modifiers that dictate position, side of treatment, or style of provider care (such as in person, via teledoc, or by email) are listed secondarily to payment modifiers.</p>
+<h2 id="modifier-25-significant-separately-identifiable-em-service">Modifier 25: Significant, Separately Identifiable E/M Service</h2>
+<ul>
+<li>
+<p>When to use: When a provider performs an Evaluation and Management (E/M) service (like an office visit) on the same day they perform a minor procedure.</p>
+</li>
+<li>
+<p>Precision Rule: The E/M service must go "above and beyond" the standard pre-operative work of the procedure. If the visit was solely for the procedure, Modifier 25 is forbidden.</p>
+</li>
+</ul>
+<h2 id="modifier-59-distinct-procedural-service">Modifier 59: Distinct Procedural Service</h2>
+<ul>
+<li>
+<p>When to use: To identify procedures/services that are not normally reported together but are appropriate under the circumstances (e.g., a different site, different incision, or separate lesion).</p>
+</li>
+<li>
+<p>Precision Rule: Modifier 59 is a "Modifier of Last Resort." The CMC must first check if a more specific anatomical modifier (like -LT for Left or -RT for Right) exists before using 59.</p>
+</li>
+</ul>
+<h2 id="84-the-provider-query-loop">8.4 The Provider Query Loop</h2>
+<p>If the clinical documentation is insufficient to support an NCCI-compliant code or a high-level modifier, the CMC must initiate a Provider Query.</p>
+<ul>
+<li>
+<p><strong>Response Window:</strong> The Provider has 3 Business Days to respond to a query.</p>
+</li>
+<li>
+<p><strong>The "Hold" Status:</strong> The claim is set to Claim Status <code>On Hold</code> in the claim register and Provider Query Status set to <code>Sent</code> . An email must be sent notifying a Resolution Auditor.</p>
+</li>
+<li>
+<p><strong>Overdue:</strong> If no response after 3 Business Days, set Provider Query Status to <code>Overdue</code> .</p>
+</li>
+<li>
+<p><strong>Escalation:</strong> If a query remains unanswered after 5 Business Days, set Provider Query Status to <code>Escalated</code> . The CMC escalates the chart to the RCM Manager to prevent a TFL failure. Log in <code>PBC_Escalation_Log.xlsx</code> with Escalation Reason <code>Provider Non-Response</code> .</p>
+</li>
+</ul>
+<h2 id="85-additional-modifier-categories">8.5 Additional Modifier Categories</h2>
+<h2 id="a-anatomical-side-of-body-modifiers-hcpcs">A. Anatomical &amp; Side-of-Body Modifiers (HCPCS)</h2>
+<ul>
+<li>
+<p>-RT / -LT: Right Side / Left Side (e.g., a biopsy on the right arm).</p>
+</li>
+<li>
+<p>-50 (Bilateral): Used when the exact same procedure is performed on both sides of the body during the same session.</p>
+</li>
+<li>
+<p>E1–E4: Specific eyelids (e.g., Upper Left, Lower Right).</p>
+</li>
+<li>
+<p>F1–F9 / FA: Specific fingers (e.g., F2 is the Left Hand, Third Digit).</p>
+</li>
+<li>
+<p>T1–T9 / TA: Specific toes.</p>
+</li>
+</ul>
+<h2 id="b-professional-technical-components">B. Professional &amp; Technical Components</h2>
+<ul>
+<li>
+<p>-26 (Professional Component): Used when the provider only interprets the results (e.g., reading an X-ray).</p>
+</li>
+<li>
+<p>-TC (Technical Component): Used when the provider only owns the equipment or performs the test (e.g., the technician taking the X-ray).</p>
+</li>
+<li>
+<p>Global Billing: If neither modifier is used, it implies the provider did both.</p>
+</li>
+</ul>
+<h2 id="c-surgery-global-period-modifiers">C. Surgery &amp; Global Period Modifiers</h2>
+<ul>
+<li>
+<p>-24: An unrelated Evaluation and Management (E/M) service performed by the same physician during a postoperative period.</p>
+</li>
+<li>
+<p>-57: The "Decision for Surgery"—used when an office visit results in the decision to perform major surgery the next day.</p>
+</li>
+<li>
+<p>-76 / -77: Repeat procedure by the same provider (-76) or a different provider (-77).</p>
+</li>
+</ul>
+<h2 id="d-telehealth-new-technology-2026-updates">D. Telehealth &amp; New Technology (2026 Updates)</h2>
+<ul>
+<li>
+<p>-95: Synchronous telemedicine rendered via real-time audio-video interaction.</p>
+</li>
+<li>
+<p>-FQ: Service furnished using audio-only communication technology.</p>
+</li>
+<li>
+<p>-93: Synchronous telemedicine rendered via audio-only.</p>
+</li>
+</ul>
+<h1 id="9-escalation-protocols">9. Escalation Protocols</h1>
+<h2 id="91-the-escalation-chain">9.1 The Escalation Chain</h2>
+<p>Information only moves upward or horizontally when a specific trigger is met. All escalations are logged in <code>PBC_Escalation_Log.xlsx</code> .</p>
+<table>
+<thead>
+<tr>
+<th>Level</th>
+<th>Trigger</th>
+<th>Escalation Path</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Operational</td>
+<td>Technical coding questions or routine 835 errors</td>
+<td>Billing Specialist to CMC or Resolution Auditor</td>
+</tr>
+<tr>
+<td>Financial</td>
+<td>Any single claim dispute over $5,000</td>
+<td>Resolution Auditor to RCM Manager</td>
+</tr>
+<tr>
+<td>Critical</td>
+<td>Legal threats, PHI breaches, or disputes over $10,000</td>
+<td>Any Role to RCM Manager / CFO</td>
+</tr>
+</tbody>
+</table>
+<p>For internal routing, add a row to the appropriate queue file ( <code>PBC_RA_Queue.xlsx</code> or <code>PBC_QA_Queue.xlsx</code> ). For critical escalations (legal threats, $10k+ disputes, PHI incidents), also send an email to the RCM Manager using the template in Section 10.4. Standard operational and financial escalations are logged and queued only — no email required unless the SOP explicitly specifies one.</p>
+<h2 id="92-legal-threat-protocol">9.2 Legal Threat Protocol</h2>
+<p>The moment a Legal Threat is identified (via keyword triggers like Subpoena, Attorney, Counsel, or OIG), the following steps are mandatory:</p>
+<p><strong>1. Cease Communication:</strong> The staff member must immediately stop all outgoing communication regarding the specific file or account. A calendar entry is made and an email and Slack notification must be sent notifying the RCM Manager and Resolution Auditor.</p>
+<p><strong>2. The "Freeze" Stamp:</strong> The account is set to Claim Status <code>On Hold</code> in the claim register, preventing any automated statements or claims from going out. Log in <code>PBC_Escalation_Log.xlsx</code> with Escalation Category <code>Critical</code> and Escalation Reason <code>Legal Threat Received</code> .</p>
+<p><strong>3. The Management Handoff:</strong> All relevant documents (original charts, 837P files, and correspondence) must be bundled and shared with the RCM Manager via an Urgent Slack ping.</p>
+<p><strong>4. Acknowledgment Window:</strong> An RCM Manager must acknowledge the escalation within 2 Business Hours, regardless of the 4:00 PM end of Business Day.</p>
+<h2 id="93-high-value-dispute-protocol-10k">9.3 High-Value Dispute Protocol ($10k+)</h2>
+<p>When the Resolution Auditor identifies a denial or underpayment on a High-Value claim, they do not act alone.</p>
+<ul>
+<li>
+<p><strong>The Joint Review:</strong> The notified Resolution Auditor and RCM Manager must conduct a joint review and develop a Recovery Plan.</p>
+</li>
+<li>
+<p><strong>The Clinical Anchor:</strong> The CMC must provide a secondary "Validation Audit" of the codes to ensure the appeal is verified before it is sent.</p>
+</li>
+<li>
+<p><strong>Documentation:</strong> Every High-Value Dispute must include a documented timeline of all submissions, rejections, and portal checks to show the payer that PBC has followed all SOPs in the execution of the Recovery Plan. Log in <code>PBC_Escalation_Log.xlsx</code> with Escalation Category <code>Critical</code> and Escalation Reason <code>High Value Claim</code> .</p>
+</li>
+</ul>
+<h2 id="94-escalation-redundancy-rule">9.4 Escalation Redundancy Rule</h2>
+<p>To prevent tasks from disappearing, an escalation is not considered “Complete” until the receiving manager provides an email confirmation citing the escalation. If the team member that sent the escalation request hasn’t received the email confirmation within 2 Business Hours, the sender is required to follow up with a high-priority email to ensure that the escalation is active. If the 2-hour window straddles the end of Business Day, the follow-up email is sent at 9:00 AM the next Business Day. A calendar event of when the escalation attempt was made must be created and logged.</p>
+<h1 id="10-internal-communication-scripts">10. Internal Communication Scripts</h1>
+<p>All external communication must be professional, concise, and grounded in data. These scripts ensure that every member of the team speaks with the authority of the Pathfinder brand. When sending any communication that references a claim, always include: Claim ID, Patient ID, DOS, CPT code(s), Payer, and the current Claim Status from the register.</p>
+<h2 id="101-the-provider-query-cmc-to-clinic">10.1 The Provider Query (CMC to Clinic)</h2>
+<p>Use this when clinical documentation is missing a signature or is too vague to code.</p>
+<p>Subject: Action Required for [Patient Initials] – [Date of Service]</p>
+<p><em>"Hello [Doctor/Client Office Manager Name],  This is [Your Name] with the Pathfinder Billing and Coding Team. While performing our audit for the date of service [Date], I noted that the clinical documentation for [Procedure] is currently [missing a signature / other cause].  To ensure this claim meets the payer's medical necessity requirements and to prevent a technical denial, please [sign the chart / submit the missing document] by [Date/Time - 3 Business Days]? We have placed this claim on a temporary 'Clinical Hold' to protect your Timely Filing Limit to maximize your return and maintain a strong client payer relationship."</em></p>
+<h2 id="102-the-payer-status-call-resolution-auditor-to-payer">10.2 The Payer Status Call (Resolution Auditor to Payer)</h2>
+<p>Use this for the 30-Business Day Recovery plan or a CO-16 recovery.</p>
+<p><em>"Hello, this is [your name] calling from PBC on behalf of [Provider Name and NPI]. I am calling to check the status of a claim for [Patient Name], DOB [Date], for the amount of [total amount or line item amount based on code].  Our records show this was accepted at the [Clearinghouse name] on [Date] with Transaction ID [ID]. Since we are now [X] business days post-submission, I am requesting a status update. If the claim is 'In-Process,' can you confirm there are no pending 'Additional Information' requests or attachments needed? Please send an email reply to your unique payer contact email address.  [If denied]: Thank you. Please provide the specific Remittance Advice Remark Code so I can ensure our corrected submission meets your internal processing requirements."</em></p>
+<h2 id="103-the-cob-script-pfr-to-patient">10.3 The COB Script (PFR to Patient)</h2>
+<p>This is the prompt used to resolve CO-22 denials.</p>
+<p><em>"Hi this is [Name] on behalf of the Billing Office at [Clinic Name]. Can you please confirm your name for our records? <em>If patient provides name on record proceed, if not proceed to script 10.3a.</em>  I'm calling because we're working to get your recent visit on [Date] taken care of by your insurance, but [Payer Name] has reached out stating they need a quick update from you regarding a Coordination of Benefits.  They just need to confirm if you have any other active insurance coverage so they can process the payment correctly. To fix this and keep your account in good standing, call at the number on the back of your insurance card or go to the website listed and tell them you need to update your COB, or follow the COB update link on their website.  Once that's done, they'll release the payment to us. Would you like me to provide their phone number and your policy ID to make that easier for you?"  <em>If patient affirms, provide payer contact information and patient policy ID. If patient declines:</em> "Pathfinder Billing and Coding thanks you for your time and attention to this."</em></p>
+<p><strong>10.3a — If patient name does not match:</strong></p>
+<p><em>"I apologize for the inconvenience, we were attempting to resolve a billing issue with [Clinic Name] please disregard this notice and have a nice day."</em></p>
+<p>End the call and log that the number provided was incorrect, then send an email to the provider and Billing Specialist on file and ask them to verify the patient contact information.</p>
+<h2 id="104-the-high-value-escalation-auditor-to-rcm-manager">10.4 The "High-Value" Escalation (Auditor to RCM Manager)</h2>
+<p>Internal prompt for the escalation protocol.</p>
+<p><em>Slack/Email: "Urgent Escalation: [Date] High-Value Dispute Claim Value: $[Amount] Payer: [Payer Name] Issue: Denied for [Code] despite [Modifier/Auth] being present. Action Taken: Checked NCCI edits and claim register; documentation is 100% compliant. Request: Requesting a review for a formal Level 1 Appeal. All documents are attached."</em></p>
+<h1 id="11-compliance-hipaa">11. Compliance &amp; HIPAA</h1>
+<h2 id="111-phi-handling-rules">11.1 PHI Handling Rules</h2>
+<p>All employees must adhere to the following data handling mandates:</p>
+<p><strong>1. Minimalist Access:</strong> Access to PHI is granted to only the staff and specialists involved with that specific case. Staff are only authorized to view data required to complete their specific assigned tasks. If access to unauthorized PHI is given to you, please forward the data to your RCM Manager including the employee who communicated it to you and disregard the information within. The RCM Manager will provide you with further steps to follow if necessary.</p>
+<p><strong>2. Cloud-Only Environment:</strong> PHI must never be downloaded or stored on local hard drives, personal devices, or unencrypted external media. All work must be conducted within secure, approved billing platforms.</p>
+<p><strong>3. Active Session Security:</strong> Physical workstations must be locked immediately when stepping away. In remote environments, screen filters must be used and screens should be positioned to prevent unauthorized viewing by non-employees. Two Factor Authentication must be used for any remote or local login.</p>
+<h2 id="112-data-protection-encryption">11.2 Data Protection &amp; Encryption</h2>
+<p>We utilize enterprise-grade encryption to secure data at all stages within PBC.</p>
+<ul>
+<li>
+<p><strong>Encryption at Rest:</strong> All data is protected by AES-256 bit encryption.</p>
+</li>
+<li>
+<p><strong>Encryption in Transit:</strong> All data moving between the Clinic and the Payer is secured via TLS 1.3 protocols.</p>
+</li>
+<li>
+<p><strong>Communication Protocol:</strong> PHI must never be sent via standard, unencrypted email or Slack messages. PHI data may never be sent via text messages on personal or company phones. All patient-sensitive data must be transmitted through the secure portal or encrypted email services or approved Slack channels.</p>
+</li>
+</ul>
+<h2 id="113-security-standards-matrix">11.3 Security Standards Matrix</h2>
+<table>
+<thead>
+<tr>
+<th>Component</th>
+<th>Precision Requirement</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Authentication</td>
+<td>2 Factor Authentication (2FA) is mandatory for all system logins</td>
+</tr>
+<tr>
+<td>Network</td>
+<td>All remote access must be routed through a secure VPN from a list of approved providers. Contact your Resolution Auditor for a list of approved VPN providers</td>
+</tr>
+<tr>
+<td>Mobile Access</td>
+<td>Accessing, storing, transmitting, or discussing PHI on personal mobile devices is expressly prohibited</td>
+</tr>
+<tr>
+<td>Data Disposal</td>
+<td>Temporary audit files must be permanently deleted immediately upon task completion. Record of completion and confirmation of deletion must be emailed to the RCM Manager before end of Business Day</td>
+</tr>
+</tbody>
+</table>
+<h2 id="114-breach-reporting-incident-response">11.4 Breach Reporting &amp; Incident Response</h2>
+<p>Integrity requires immediate action when a potential risk is identified.</p>
+<p><strong>1. Reporting Window:</strong> Any suspected unauthorized access or loss of equipment must be reported to the RCM Manager within one (1) hour of discovery through email and Slack notification with "Urgent" in the subject line. Log in <code>PBC_Escalation_Log.xlsx</code> with Escalation Category <code>Critical</code> and Escalation Reason <code>PHI Incident</code> .</p>
+<p><strong>2. Immediate Containment:</strong> Management will immediately revoke all credentials for the affected account and initiate a third-party forensic audit of the system logs.</p>
+<p><strong>3. Clinic Notification:</strong> If a breach is confirmed, the affected clinic will be notified according to the timeline established in our Business Associate Agreement (BAA).</p>
+<h1 id="12-qa-audit-workflow-ccr">12. QA, Audit Workflow, CCR</h1>
+<h2 id="121-the-target">12.1 The Target</h2>
+<p>The industry average for clean claims often hovers around 70–80%. PBC has a higher standard.</p>
+<p>We strive for a 100% Clean Claim Rate. 98% meets our standard.</p>
+<ul>
+<li>The remaining 2% is reserved for unpredictable payer logic changes or "black box" denials that could not have been reasonably foreseen. No system is perfect, and no person is either, but as a team we can reach 98% or higher through careful auditing and workflow.</li>
+</ul>
+<h2 id="122-the-weekly-precision-audit">12.2 The Weekly Precision Audit</h2>
+<p>To ensure the CCR remains at or above 98%, the RCM Manager conducts a weekly audit of a randomized claim sample. Results are recorded in <code>PBC_Audit_Log.xlsx</code> .</p>
+<p><strong>Sampling:</strong> Every Friday morning, the RCM Manager instructs the system to pull at least 5 random claims from each CMC and Billing Specialist's weekly output.</p>
+<p><strong>Cross-Verification:</strong></p>
+<p><strong>1. ICD-10 Specificity:</strong> The ICD-10-CM code must be coded to the maximum number of characters available for that code family. Truncated codes are a fail.</p>
+<p><strong>2. CPT Alignment:</strong> Every billed CPT must correspond to a service explicitly documented in the provider's note. A CPT code inferred but not documented is a fail.</p>
+<p><strong>3. Modifier 25/59:</strong> Documentation must support any modifier present — Modifier 25 requires a separately identifiable E/M service documented beyond the procedure. Missing required modifiers are also a fail.</p>
+<p><strong>4. MDM Level:</strong> The E/M code level must match the medical decision-making complexity documented in the note.</p>
+<p><strong>5. Provider Signature:</strong> The chart must be finalized and electronically signed by the rendering provider. Unsigned notes are a fail.</p>
+<p><strong>Technical Accuracy:</strong></p>
+<p><strong>1. NPI:</strong> Verification of both the Individual NPI (Type 1) and Group NPI (Type 2).</p>
+<p><strong>2. Tax ID:</strong> Ensuring the EIN matches the W-9 on file for that specific clinic.</p>
+<p><strong>3. Payer ID:</strong> Confirming the 5-digit electronic routing ID is current (Payers change these frequently).</p>
+<p><strong>Scoring:</strong> Each claim is scored using the QA Audit Result values in Appendix B. A claim passes only if all criteria are met. If any single criterion fails, use the most severe failure as the Audit Result.</p>
+<h2 id="123-the-error-correction-loop">12.3 The Error Correction Loop</h2>
+<p>When an error is identified during an audit, we investigate the root cause.</p>
+<ul>
+<li>
+<p><strong>Immediate Remediation:</strong> The claim is corrected and moved to a priority status for the next 4:00 PM batch. Failed claims return to the Billing Specialist or CMC for correction before resubmission.</p>
+</li>
+<li>
+<p><strong>Calibration Sync:</strong> The RCM Manager meets with the staff member for a briefing to determine if the error was a human slip or a misunderstanding of a Recovery Plan.</p>
+</li>
+<li>
+<p><strong>Gateway Update:</strong> If the error was caused by a new payer rule, the system logic is updated immediately to prevent the error from recurring across the entire client base.</p>
+</li>
+</ul>
+<h2 id="124-monthly-performance-dashboard">12.4 Monthly Performance Dashboard</h2>
+<p>On the first Business Day of every month, a CCR Report is generated for the executives at PBC. This dashboard tracks:</p>
+<ul>
+<li>
+<p><strong>Net CCR:</strong> Percentage of claims paid on first pass across all clinics.</p>
+</li>
+<li>
+<p><strong>Denial Trends:</strong> Identifying if specific codes (like CO-16 or CO-97) are trending upward.</p>
+</li>
+<li>
+<p><strong>Recovery Velocity:</strong> How quickly the Resolution Auditor moved a denied claim from "Rejected" to "Resolved."</p>
+</li>
+</ul>
+<h1 id="13-emergency-protocols">13. Emergency Protocols</h1>
+<h2 id="131-payer-outage-protocol">13.1 Payer Outage Protocol</h2>
+<p>In the event of a major payer portal or clearinghouse outage, a designated Resolution Auditor initiates the following:</p>
+<p><strong>1.</strong> All 837P files destined for the affected payer are held to prevent "Missing Claim" errors.</p>
+<p><strong>2.</strong> The Auditor identifies any claims within 10 Business Days of their Timely Filing Limit (TFL). Creates a report containing those claims and emails it to the RCM Manager.</p>
+<p><strong>3. The Paper Backup:</strong> If the outage persists beyond 48 Hours, the designated Auditor may initiate “Paper Claim” submissions via Certified Mail to protect the clinic’s right to reimbursement, provided the RCM Manager has confirmed authorization during the Red Alert call.</p>
+<p><strong>4. Client Notification:</strong> A "Service Alert" is sent to all affected clinics via the RCM Manager within 4 Business Hours of outage confirmation. Log in <code>PBC_Escalation_Log.xlsx</code> with Escalation Reason <code>Payer System Outage</code> .</p>
+<table>
+<thead>
+<tr>
+<th>Outage Duration</th>
+<th>Action Level</th>
+<th>Communication</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>&lt; 4 Hours</td>
+<td>Monitoring</td>
+<td>Internal Slack only</td>
+</tr>
+<tr>
+<td>4–24 Hours</td>
+<td>Yellow Alert</td>
+<td>Email to Clinic Office Managers</td>
+</tr>
+<tr>
+<td>&gt; 24 Hours</td>
+<td>Red Alert</td>
+<td>Direct call from RCM Manager to Clinic Owner</td>
+</tr>
+</tbody>
+</table>
+<h2 id="132-data-breach-response-emergency-phase">13.2 Data Breach Response (Emergency Phase)</h2>
+<p>While Section 11 covers the legal requirements (BAA), this section covers the immediate Emergency Response.</p>
+<ul>
+<li>
+<p><strong>Step 1: Isolation.</strong> PBC executives or RCM Manager immediately revokes 2FA credentials for the suspected compromised account and logs out any remote access through the account.</p>
+</li>
+<li>
+<p><strong>Step 2: Perimeter Check.</strong> The RCM Manager contacts PBC's contracted IT organization to perform a scan of the system for any unauthorized file downloads or IP addresses. Any downloaded files are logged and the report is emailed to the designated Resolution Auditor and RCM Manager.</p>
+</li>
+<li>
+<p><strong>Step 3: Documentation.</strong> A log is opened, time-stamping every action taken from the moment of discovery until the resolution of the data breach.</p>
+</li>
+</ul>
+<h2 id="133-safety-recall-protocol">13.3 Safety Recall Protocol</h2>
+<p>If a clinic we serve is notified of a Safety Recall (e.g., a recalled surgical implant or a defective EMR software update):</p>
+<p><strong>1.</strong> The CMC immediately searches for all claims billed with the affected CPT/HCPCS codes or Manufacturer IDs within the last 12 months.</p>
+<p><strong>2. The "Recall Report":</strong> A list of all affected patients and dates of service is generated and delivered to the Clinic's Medical Director and the RCM Manager within 1 Business Day.</p>
+<p><strong>3. Billing Suspension:</strong> All pending claims involving the recalled item are placed on Claim Status <code>On Hold</code> until the clinic provides legal clearance to proceed.</p>
+<h2 id="134-the-hard-stop-override">13.4 The "Hard Stop" Override</h2>
+<p>In a true emergency (e.g., a Hurricane in Houston or a total ISP failure), the 4:00 PM Hard Stop is suspended.</p>
+<ul>
+<li>
+<p>All staff are moved to "Emergency Status."</p>
+</li>
+<li>
+<p>Communication shifts to the Secondary Backup Channel (established in the BAA).</p>
+</li>
+<li>
+<p>Priority is shifted exclusively to High-Value Recovery ($10k+) until the system is stabilized.</p>
+</li>
+</ul>
+<h2 id="appendix-a-file-ecosystem">Appendix A: File Ecosystem</h2>
+<p>The following files surface operational data from the PBC Central Gateway. All claim tracking, denial management, payment posting, and escalation logging is performed in these files.</p>
+<table>
+<thead>
+<tr>
+<th>File</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PBC_Claim_Register.xlsx</td>
+<td>Master claim record. All submissions, corrections, status updates, and payment postings</td>
+</tr>
+<tr>
+<td>PBC_Denial_Worklist.xlsx</td>
+<td>Active denials requiring recovery action</td>
+</tr>
+<tr>
+<td>PBC_Fee_Schedule.xlsx</td>
+<td>Contracted rates by Payer and CPT code. Used to verify contractual adjustments</td>
+</tr>
+<tr>
+<td>PBC_Eligibility_Responses.xlsx</td>
+<td>Eligibility verification results by patient and date of service</td>
+</tr>
+<tr>
+<td>PBC_Audit_Log.xlsx</td>
+<td>QA audit results per claim</td>
+</tr>
+<tr>
+<td>PBC_NCCI_Edits.xlsx</td>
+<td>NCCI Procedure-to-Procedure edit pairs with Indicator column (0, 1, or 9)</td>
+</tr>
+<tr>
+<td>ERA_[BatchID].xlsx</td>
+<td>Inbound payment file from payer. One row per claim line. Named by batch ID</td>
+</tr>
+<tr>
+<td>PBC_Escalation_Log.xlsx</td>
+<td>All escalations with category, reason, and resolution tracking</td>
+</tr>
+<tr>
+<td>PBC_RA_Queue.xlsx</td>
+<td>Resolution Auditor's open items. Routing to the RA means adding a row here</td>
+</tr>
+<tr>
+<td>PBC_QA_Queue.xlsx</td>
+<td>Claims awaiting QA review. Routing to QA means adding a row here</td>
+</tr>
+</tbody>
+</table>
+<h2 id="appendix-b-standard-field-values">Appendix B: Standard Field Values</h2>
+<p>Every status or action field uses controlled values. No free text.</p>
+<h2 id="claim-status">Claim Status</h2>
+<p><code>New</code> · <code>Submitted</code> · <code>Acknowledged</code> · <code>Denied</code> · <code>In Recovery</code> · <code>Resubmitted</code> · <code>Appealed</code> · <code>Paid - Full</code> · <code>Paid - Partial</code> · <code>On Hold</code> · <code>Written Off</code></p>
+<h2 id="claim-frequency-code">Claim Frequency Code</h2>
+<p><code>1</code> Original · <code>7</code> Replacement/corrected · <code>8</code> Void/cancel</p>
+<h2 id="denial-recovery-action">Denial Recovery Action</h2>
+<p><code>Correct and Resubmit</code> · <code>Update COB and Resubmit</code> · <code>Add Modifier and Resubmit</code> · <code>Appeal - Documentation Supports Service</code> · <code>Appeal - Payer Processing Error</code> · <code>Appeal - Timely Filing Exception</code> · <code>Appeal - Contractual Rate Dispute</code> · <code>Appeal - Medical Necessity</code> · <code>Appeal - Prior Auth on File</code> · <code>Escalate to Resolution Auditor</code> · <code>Escalate to RCM Manager</code> · <code>Write Off</code> · <code>Refund to Payer</code></p>
+<h2 id="denial-recovery-status">Denial Recovery Status</h2>
+<p><code>Pending Review</code> · <code>In Progress</code> · <code>Resubmitted</code> · <code>Appealed</code> · <code>Escalated</code> · <code>Resolved</code> · <code>Written Off</code></p>
+<h2 id="payment-posting-status">Payment Posting Status</h2>
+<p><code>Posted</code> · <code>Held - Batch Mismatch</code> · <code>Held - Contractual Variance</code> · <code>Held - PLB Variance</code> · <code>Unapplied</code> · <code>Reconciled</code></p>
+<h2 id="escalation-category">Escalation Category</h2>
+<p><code>Operational</code> (under $5,000) · <code>Financial</code> ($5,000+) · <code>Critical</code> ($10,000+ / legal / PHI)</p>
+<h2 id="escalation-reason">Escalation Reason</h2>
+<p><code>Pattern Recurrence</code> · <code>High Value Claim</code> · <code>TFL Approaching</code> · <code>Payer Dispute</code> · <code>Legal Threat Received</code> · <code>PHI Incident</code> · <code>Payer System Outage</code> · <code>Provider Non-Response</code> · <code>Payer Overpayment</code></p>
+<h2 id="qa-audit-result">QA Audit Result</h2>
+<p><code>Pass</code> · <code>Fail - ICD Specificity</code> · <code>Fail - CPT Alignment</code> · <code>Fail - Modifier Usage</code> · <code>Fail - MDM Level</code> · <code>Fail - Provider Signature</code> · <code>Fail - Missing Authorization</code></p>
+<h2 id="provider-query-status">Provider Query Status</h2>
+<p><code>Sent</code> · <code>Response Received</code> · <code>Overdue</code> · <code>Escalated</code> · <code>Resolved</code></p>
+</body></html>

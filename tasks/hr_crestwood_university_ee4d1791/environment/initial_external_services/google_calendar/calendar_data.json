@@ -1,0 +1,131 @@
+{
+  "events": {
+    "evt-1": {
+      "summary": "Orientation \u2013 Brandon Ellis",
+      "start": {
+        "dateTime": "2026-04-20T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-04-20T12:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "New hire orientation. Hiring manager: Tom Hayes. Employee personal email: brandon.ellis.personal@gmail.com",
+      "location": "Downtown Campus",
+      "id": "evt-1"
+    },
+    "evt-2": {
+      "summary": "Orientation \u2013 Amy Foster",
+      "start": {
+        "dateTime": "2026-03-16T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-16T12:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "New hire orientation. Hiring manager: Tom Hayes. Employee personal email: a.foster.personal@gmail.com",
+      "location": "Main Campus",
+      "id": "evt-2"
+    },
+    "evt-3": {
+      "summary": "Posting Closes - Marketing Coordinator",
+      "start": {
+        "date": "2026-03-21"
+      },
+      "end": {
+        "date": "2026-03-22"
+      },
+      "description": "Application deadline for Marketing Coordinator, West Campus (Daniel Yoon position)",
+      "id": "evt-3"
+    },
+    "evt-4": {
+      "summary": "Posting Closes - IT Support Specialist",
+      "start": {
+        "date": "2026-03-28"
+      },
+      "end": {
+        "date": "2026-03-29"
+      },
+      "description": "Application deadline for IT Support Specialist, Main Campus (Marcus Webb position)",
+      "id": "evt-4"
+    },
+    "evt-5": {
+      "summary": "Posting Closes - Finance Analyst",
+      "start": {
+        "date": "2026-04-04"
+      },
+      "end": {
+        "date": "2026-04-05"
+      },
+      "description": "Application deadline for Finance Analyst, Main Campus (Priya Kapoor position)",
+      "id": "evt-5"
+    },
+    "evt-6": {
+      "summary": "Posting Closes - Academic Advisor",
+      "start": {
+        "date": "2026-04-04"
+      },
+      "end": {
+        "date": "2026-04-05"
+      },
+      "description": "Application deadline for Academic Advisor, Downtown Campus (Sarah Mendez position)",
+      "id": "evt-6"
+    },
+    "evt-7": {
+      "summary": "FMLA Certification Due \u2013 Kevin Walsh",
+      "start": {
+        "date": "2026-01-24"
+      },
+      "end": {
+        "date": "2026-01-25"
+      },
+      "description": "Deadline for Kevin Walsh (E-1005) to submit FMLA medical certification. Jira: LEAVE-Walsh-01092026",
+      "id": "evt-7"
+    },
+    "evt-8": {
+      "summary": "Performance Review \u2014 Self-Assessments Due",
+      "start": {
+        "date": "2026-04-25"
+      },
+      "end": {
+        "date": "2026-04-26"
+      },
+      "description": "Spring 2026 performance review cycle \u2014 all self-assessment forms due to HR by end of day.",
+      "id": "evt-8"
+    },
+    "evt-10": {
+      "summary": "Benefits Enrollment Deadline \u2014 Brandon Ellis",
+      "start": {
+        "date": "2026-05-20"
+      },
+      "end": {
+        "date": "2026-05-21"
+      },
+      "description": "30-day benefits enrollment window closes for Brandon Ellis (E-1012). Start date 04/20/2026.",
+      "id": "evt-10"
+    },
+    "evt-11": {
+      "summary": "Kevin Walsh \u2014 Expected FMLA Return",
+      "start": {
+        "date": "2026-04-06"
+      },
+      "end": {
+        "date": "2026-04-07"
+      },
+      "description": "Kevin Walsh (E-1005) expected return from FMLA leave. Jira: LEAVE-Walsh-01092026",
+      "id": "evt-11"
+    },
+    "evt-12": {
+      "summary": "Dependent Enrollment Open Period",
+      "start": {
+        "date": "2026-05-01"
+      },
+      "end": {
+        "date": "2026-05-31"
+      },
+      "description": "Annual open enrollment period for dependent changes. Contact Patricia Huang for details.",
+      "id": "evt-12"
+    }
+  }
+}

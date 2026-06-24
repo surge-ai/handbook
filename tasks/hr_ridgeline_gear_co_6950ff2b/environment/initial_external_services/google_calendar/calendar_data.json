@@ -1,0 +1,1443 @@
+{
+  "events": {
+    "lv-001": {
+      "summary": "Isaac Mensah \u2014 FMLA Leave [LC-2025-0080]",
+      "start": {
+        "date": "2026-01-01"
+      },
+      "end": {
+        "date": "2026-01-27"
+      },
+      "description": "EMP-1218 | Supply Chain | Continuous FMLA for employee own serious health condition. Started 2025-11-03; entered 2026 still on leave. Employee returned 2026-01-27. Status: Returned \u2014 Closing. Manager: Jerome Baptiste.",
+      "id": "lv-001"
+    },
+    "lv-002": {
+      "summary": "Wendy Tran \u2014 Bereavement Leave [LC-2026-0004]",
+      "start": {
+        "date": "2026-01-07"
+      },
+      "end": {
+        "date": "2026-01-08"
+      },
+      "description": "EMP-1182 | Operations | 1-day extended family bereavement. Manager: Sam Okonkwo.",
+      "id": "lv-002"
+    },
+    "lv-003": {
+      "summary": "Marcus Webb \u2014 FMLA Leave [LC-2026-0003]",
+      "start": {
+        "date": "2026-01-13"
+      },
+      "end": {
+        "date": "2026-02-07"
+      },
+      "description": "EMP-1100 | Operations | Continuous FMLA for employee own serious health condition. 160 hrs designated. Employee returned 2026-02-10. Status: Returned \u2014 Closing. Manager: Sam Okonkwo.",
+      "id": "lv-003"
+    },
+    "lv-004": {
+      "summary": "Ivan Petrenko \u2014 FMLA Leave [LC-2026-0008]",
+      "start": {
+        "date": "2026-01-06"
+      },
+      "end": {
+        "date": "2026-03-27"
+      },
+      "description": "EMP-1136 | Operations | Continuous FMLA \u2014 480 hrs designated (full 12-week entitlement). Employee returned 2026-03-31. Status: Returned \u2014 Closing. Manager: Marcus Webb.",
+      "id": "lv-004"
+    },
+    "lv-005": {
+      "summary": "Darius Freeman \u2014 FMLA Intermittent [LC-2026-0010]",
+      "start": {
+        "date": "2026-01-20"
+      },
+      "end": {
+        "date": "2026-04-10"
+      },
+      "description": "EMP-1191 | Customer Experience | Intermittent FMLA for chronic condition. 480 hrs designated; 64 hrs used as of 04/10. 30-day review due 2026-05-20. Status: Active \u2014 Approved. Manager: Brittany Holt.",
+      "id": "lv-005"
+    },
+    "lv-006": {
+      "summary": "Theo Mbeki \u2014 FMLA Intermittent [LC-2026-0017]",
+      "start": {
+        "date": "2026-02-03"
+      },
+      "end": {
+        "date": "2026-04-10"
+      },
+      "description": "EMP-1126 | Supply Chain | Intermittent FMLA for migraines. 480 hrs designated; 48 hrs used as of 04/10. 30-day review due 2026-05-03. Status: Active \u2014 Approved. Manager: Jerome Baptiste.",
+      "id": "lv-006"
+    },
+    "lv-007": {
+      "summary": "Gideon Park \u2014 FMLA Leave [LC-2026-0022]",
+      "start": {
+        "date": "2026-02-09"
+      },
+      "end": {
+        "date": "2026-04-03"
+      },
+      "description": "EMP-1145 | Product | Continuous FMLA \u2014 320 hrs designated. Employee returned 2026-04-07. Status: Returned \u2014 Closing. Manager: Leslie Cho.",
+      "id": "lv-007"
+    },
+    "lv-008": {
+      "summary": "Rosie Chang \u2014 FMLA + FAMLI Parental Leave [LC-2026-0023]",
+      "start": {
+        "date": "2026-02-17"
+      },
+      "end": {
+        "date": "2026-05-08"
+      },
+      "description": "EMP-1204 | Finance | Continuous parental leave (newborn). FMLA + FAMLI concurrent. 480 hrs designated. FAMLI claim FAMLI-CO-2026-29817 \u2014 employer response submitted 2026-02-18. Status: Active \u2014 Approved. Manager: Elliot Drummond.",
+      "id": "lv-008"
+    },
+    "lv-009": {
+      "summary": "Maya Patel \u2014 Bereavement Leave [LC-2026-0031]",
+      "start": {
+        "date": "2026-03-11"
+      },
+      "end": {
+        "date": "2026-03-12"
+      },
+      "description": "EMP-1115 | Marketing | 1-day extended family bereavement. Manager: Camille Fontaine.",
+      "id": "lv-009"
+    },
+    "lv-010": {
+      "summary": "Vanessa Ogundimu \u2014 FMLA Intermittent [LC-2026-0034]",
+      "start": {
+        "date": "2026-03-02"
+      },
+      "end": {
+        "date": "2026-04-10"
+      },
+      "description": "EMP-1148 | Customer Experience | Intermittent FMLA for chronic condition; certified 1-2 days/month. 80 hrs used. Status: Active \u2014 Approved. Manager: Brittany Holt.",
+      "id": "lv-010"
+    },
+    "lv-011": {
+      "summary": "Anita Sharma \u2014 FMLA Leave [LC-2026-0035]",
+      "start": {
+        "date": "2026-03-03"
+      },
+      "end": {
+        "date": "2026-03-21"
+      },
+      "description": "EMP-1215 | Sales | Continuous FMLA \u2014 120 hrs designated. Employee own serious health condition. Manager: Ingrid Svensson.",
+      "id": "lv-011"
+    },
+    "lv-012": {
+      "summary": "Winston Frazier \u2014 Jury Duty [LC-2026-0046]",
+      "start": {
+        "date": "2026-03-16"
+      },
+      "end": {
+        "date": "2026-03-27"
+      },
+      "description": "EMP-1157 | IT | Jury service \u2014 80 hrs. Manager: Priscilla Osei.",
+      "id": "lv-012"
+    },
+    "lv-013": {
+      "summary": "Deon Carter \u2014 Personal Unpaid Leave [LC-2026-0048]",
+      "start": {
+        "date": "2026-03-23"
+      },
+      "end": {
+        "date": "2026-03-28"
+      },
+      "description": "EMP-1122 | Sales | Approved personal unpaid leave \u2014 40 hrs. Manager: Ingrid Svensson.",
+      "id": "lv-013"
+    },
+    "lv-014": {
+      "summary": "Quincy Adler \u2014 Bereavement Leave [LC-2026-0053]",
+      "start": {
+        "date": "2026-03-23"
+      },
+      "end": {
+        "date": "2026-03-25"
+      },
+      "description": "EMP-1128 | Operations | 3-day immediate family bereavement. Manager: Marcus Webb.",
+      "id": "lv-014"
+    },
+    "lv-015": {
+      "summary": "Priya Nambiar \u2014 FMLA + FAMLI Leave [LC-2026-0098]",
+      "start": {
+        "date": "2026-03-05"
+      },
+      "end": {
+        "date": "2026-03-19"
+      },
+      "description": "EMP-1042 | Product | Continuous FMLA + FAMLI \u2014 80 hrs. FAMLI claim FAMLI-CO-2026-44821. Status: Active \u2014 Approved. Manager: Leslie Cho.",
+      "id": "lv-015"
+    },
+    "lv-016": {
+      "summary": "Daniel Choi \u2014 Jury Duty [LC-2026-0047]",
+      "start": {
+        "date": "2026-03-24"
+      },
+      "end": {
+        "date": "2026-04-04"
+      },
+      "description": "EMP-1223 | Supply Chain | Jury service \u2014 80 hrs. Manager: Isaac Mensah.",
+      "id": "lv-016"
+    },
+    "lv-017": {
+      "summary": "Fatima Al-Hassan \u2014 FMLA Intermittent [LC-2026-0059]",
+      "start": {
+        "date": "2026-04-07"
+      },
+      "end": {
+        "date": "2026-04-10"
+      },
+      "description": "EMP-1103 | Operations | Intermittent FMLA \u2014 family member serious health condition. Cert pending; due 2026-04-23. Status: Active \u2014 Pending Certification. Manager: Marcus Webb.",
+      "id": "lv-017"
+    },
+    "lv-018": {
+      "summary": "Yuna Sato \u2014 FMLA Intermittent [LC-2026-0061]",
+      "start": {
+        "date": "2026-04-06"
+      },
+      "end": {
+        "date": "2026-04-10"
+      },
+      "description": "EMP-1186 | Product | Intermittent FMLA \u2014 employee own serious health condition. Cert pending; due 2026-04-22. Status: Active \u2014 Pending Certification. Manager: Simone Dupont.",
+      "id": "lv-018"
+    },
+    "lv-019": {
+      "summary": "Celeste Fontaine \u2014 FMLA Intermittent [LC-2026-0065]",
+      "start": {
+        "date": "2026-04-01"
+      },
+      "end": {
+        "date": "2026-04-10"
+      },
+      "description": "EMP-1139 | Operations | Intermittent FMLA. Cert was due 2026-04-17 \u2014 overdue as of 04/10. Path D reminder required. Status: Active \u2014 Pending Certification. Manager: Sam Okonkwo.",
+      "id": "lv-019"
+    },
+    "lv-020": {
+      "summary": "Zara Mitchell \u2014 Bereavement Leave [LC-2026-0068]",
+      "start": {
+        "date": "2026-04-08"
+      },
+      "end": {
+        "date": "2026-04-10"
+      },
+      "description": "EMP-1190 | Product | 3-day immediate family bereavement. Obit received 04/09. Status: Returned \u2014 Closing. Manager: Alejandro Vega.",
+      "id": "lv-020"
+    },
+    "lv-021": {
+      "summary": "Antoine Laurent \u2014 FMLA Intermittent [LC-2026-0074]",
+      "start": {
+        "date": "2026-04-07"
+      },
+      "end": {
+        "date": "2026-04-10"
+      },
+      "description": "EMP-1162 | IT | Intermittent FMLA \u2014 post-surgical follow-up; up to 3 days/month. Cert received 04/16; designation 04/18. Status: Active \u2014 Approved. Manager: Priscilla Osei.",
+      "id": "lv-021"
+    },
+    "lv-022": {
+      "summary": "Elliot Drummond \u2014 ADA Accommodation Request [LC-2026-0078]",
+      "start": {
+        "date": "2026-04-01"
+      },
+      "end": {
+        "date": "2026-04-10"
+      },
+      "description": "EMP-1118 | Finance | ADA accommodation request \u2014 routed to HR Director. LC does not progress independently. Status: Escalated \u2014 Benefits Manager.",
+      "id": "lv-022"
+    },
+    "lv-023": {
+      "summary": "Simone Dupont \u2014 FMLA + FAMLI Parental Leave [LC-2026-0082]",
+      "start": {
+        "date": "2026-04-14"
+      },
+      "end": {
+        "date": "2026-07-06"
+      },
+      "description": "EMP-1106 | Product | Continuous parental leave \u2014 new birth. FMLA + FAMLI concurrent. 480 hrs designated. FAMLI claim FAMLI-CO-2026-17033 \u2014 employer response submitted 04/10. Status: Active \u2014 Approved. Manager: Leslie Cho.",
+      "id": "lv-023"
+    },
+    "lv-024": {
+      "summary": "Miriam Holloway \u2014 FMLA + FAMLI Parental Leave [LC-2026-0086]",
+      "start": {
+        "date": "2026-04-07"
+      },
+      "end": {
+        "date": "2026-06-29"
+      },
+      "description": "EMP-1171 | Supply Chain | Continuous parental leave \u2014 new birth. FMLA + FAMLI concurrent. FAMLI claim FAMLI-CO-2026-22748 \u2014 employer response submitted 04/07. Status: Active \u2014 Approved. Manager: Jerome Baptiste.",
+      "id": "lv-024"
+    },
+    "lv-025": {
+      "summary": "Naomi Flores \u2014 FMLA Leave [LC-2026-0091]",
+      "start": {
+        "date": "2026-04-10"
+      },
+      "end": {
+        "date": "2026-04-11"
+      },
+      "description": "EMP-1133 | Operations | New FMLA intake 04/10. Cert requested; due 2026-04-25. Status: Active \u2014 Approved (pending cert). Manager: Sam Okonkwo.",
+      "id": "lv-025"
+    },
+    "lv-026": {
+      "summary": "Jordan Rivera \u2014 FAMLI Leave [LC-2026-0112]",
+      "start": {
+        "date": "2026-04-01"
+      },
+      "end": {
+        "date": "2026-04-10"
+      },
+      "description": "EMP-1001 | Operations | FAMLI-only leave. Cert due 2026-04-17. Separate from active intermittent FMLA case LC-2026-0044. Status: Active \u2014 Pending Certification. Manager: Sam Okonkwo.",
+      "id": "lv-026"
+    },
+    "lv-027": {
+      "summary": "Kenji Nakamura \u2014 USERRA Military Leave [LC-2026-0071]",
+      "start": {
+        "date": "2026-04-15"
+      },
+      "end": {
+        "date": "2026-07-15"
+      },
+      "description": "EMP-1102 | Operations | Military deployment \u2014 USERRA. Orders received 04/10. Routed to Benefits Manager. Manager: Marcus Webb.",
+      "id": "lv-027"
+    },
+    "lv-028": {
+      "summary": "Jordan Rivera \u2014 FMLA Intermittent [LC-2026-0044]",
+      "start": {
+        "date": "2026-01-01"
+      },
+      "end": {
+        "date": "2026-04-10"
+      },
+      "description": "EMP-1001 | Operations | Ongoing intermittent FMLA (case opened 2025-08-01). 30-day review due 2026-04-20. 480 hrs designated; 40 hrs used. Status: Active \u2014 Approved. Manager: Sam Okonkwo.",
+      "id": "lv-028"
+    },
+    "ab-029": {
+      "summary": "Intermittent Absence \u2014 Jordan Rivera [LC-2026-0044]",
+      "start": {
+        "dateTime": "2026-03-22T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-22T17:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1001 | FMLA intermittent episode \u2014 migraines. 8 hrs logged. Reported by employee.",
+      "id": "ab-029"
+    },
+    "ab-030": {
+      "summary": "Intermittent Absence \u2014 Jordan Rivera [LC-2026-0044]",
+      "start": {
+        "dateTime": "2026-04-07T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-04-07T17:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1001 | FMLA intermittent episode \u2014 migraines. 8 hrs logged. Reported by employee.",
+      "id": "ab-030"
+    },
+    "ms-031": {
+      "summary": "Isaac Mensah \u2014 Return to Work [LC-2025-0080]",
+      "start": {
+        "dateTime": "2026-01-27T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-27T09:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1218 | FMLA | Employee returned from continuous leave. Case entering closure. Closure checklist in progress as of 04/10 \u2014 still not closed (SLA risk).",
+      "id": "ms-031"
+    },
+    "ms-032": {
+      "summary": "Wendy Tran \u2014 Bereavement Intake [LC-2026-0004]",
+      "start": {
+        "dateTime": "2026-01-07T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-07T09:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1182 | Eligibility notice and manager notification issued. 1-day extended family leave.",
+      "id": "ms-032"
+    },
+    "ms-033": {
+      "summary": "Ivan Petrenko \u2014 FMLA Eligibility Notice [LC-2026-0008]",
+      "start": {
+        "dateTime": "2026-01-07T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-07T09:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1136 | Eligibility notice issued. Cert requested same day.",
+      "id": "ms-033"
+    },
+    "ms-034": {
+      "summary": "Ivan Petrenko \u2014 Cert Received [LC-2026-0008]",
+      "start": {
+        "dateTime": "2026-01-17T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-17T09:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1136 | Medical certification received (within 15-day window, due 01/22).",
+      "id": "ms-034"
+    },
+    "ms-035": {
+      "summary": "Ivan Petrenko \u2014 FMLA Designation Issued [LC-2026-0008]",
+      "start": {
+        "dateTime": "2026-01-20T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-20T09:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1136 | Designation notice issued. Manager notified. Case status: Active \u2014 Approved.",
+      "id": "ms-035"
+    },
+    "ms-036": {
+      "summary": "Ivan Petrenko \u2014 Return to Work [LC-2026-0008]",
+      "start": {
+        "dateTime": "2026-03-31T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-31T09:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1136 | Employee returned from continuous FMLA. Full 480 hrs (12 weeks) used. Status: Returned \u2014 Closing.",
+      "id": "ms-036"
+    },
+    "ms-037": {
+      "summary": "Marcus Webb \u2014 FMLA Intake [LC-2026-0003]",
+      "start": {
+        "dateTime": "2026-01-13T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-13T09:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1100 | Leave start. Eligibility notice and cert request issued 2026-01-14.",
+      "id": "ms-037"
+    },
+    "ms-038": {
+      "summary": "Marcus Webb \u2014 FMLA Eligibility Notice + Cert Request [LC-2026-0003]",
+      "start": {
+        "dateTime": "2026-01-14T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-14T09:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1100 | Eligibility confirmed. Cert requested; due 2026-01-29.",
+      "id": "ms-038"
+    },
+    "ms-039": {
+      "summary": "Marcus Webb \u2014 Cert Received [LC-2026-0003]",
+      "start": {
+        "dateTime": "2026-01-22T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-22T09:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1100 | Medical certification received (within 15-day window).",
+      "id": "ms-039"
+    },
+    "ms-040": {
+      "summary": "Marcus Webb \u2014 FMLA Designation Issued [LC-2026-0003]",
+      "start": {
+        "dateTime": "2026-01-24T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-24T09:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1100 | Designation notice issued. Manager Sam Okonkwo notified.",
+      "id": "ms-040"
+    },
+    "ms-041": {
+      "summary": "Marcus Webb \u2014 Return to Work [LC-2026-0003]",
+      "start": {
+        "dateTime": "2026-02-10T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-10T09:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1100 | Employee returned. Case entering closure. Closure checklist still pending as of 04/10 \u2014 review for SLA breach.",
+      "id": "ms-041"
+    },
+    "ms-042": {
+      "summary": "Darius Freeman \u2014 FMLA Intermittent Intake [LC-2026-0010]",
+      "start": {
+        "dateTime": "2026-01-20T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-20T09:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1191 | Intermittent FMLA intake. Eligibility notice and cert request issued 01/21.",
+      "id": "ms-042"
+    },
+    "ms-043": {
+      "summary": "Darius Freeman \u2014 Cert Received [LC-2026-0010]",
+      "start": {
+        "dateTime": "2026-01-30T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-30T09:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1191 | Medical certification received (within 15-day window, due 02/05).",
+      "id": "ms-043"
+    },
+    "ms-044": {
+      "summary": "Darius Freeman \u2014 FMLA Designation Issued [LC-2026-0010]",
+      "start": {
+        "dateTime": "2026-02-01T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-01T09:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1191 | Intermittent designation issued. Manager Brittany Holt notified.",
+      "id": "ms-044"
+    },
+    "ms-045": {
+      "summary": "Theo Mbeki \u2014 FMLA Intermittent Intake [LC-2026-0017]",
+      "start": {
+        "dateTime": "2026-02-03T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-03T09:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1126 | Intermittent FMLA intake for migraines. Cert request issued 02/04.",
+      "id": "ms-045"
+    },
+    "ms-046": {
+      "summary": "Theo Mbeki \u2014 Cert Received [LC-2026-0017]",
+      "start": {
+        "dateTime": "2026-02-15T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-15T09:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1126 | Medical certification received (within 15-day window, due 02/19).",
+      "id": "ms-046"
+    },
+    "ms-047": {
+      "summary": "Theo Mbeki \u2014 FMLA Designation Issued [LC-2026-0017]",
+      "start": {
+        "dateTime": "2026-02-17T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-17T09:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1126 | Intermittent designation issued. Manager Jerome Baptiste notified.",
+      "id": "ms-047"
+    },
+    "ms-048": {
+      "summary": "Gideon Park \u2014 FMLA Intake [LC-2026-0022]",
+      "start": {
+        "dateTime": "2026-02-09T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-09T09:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1145 | Continuous FMLA intake. Cert request issued 02/10.",
+      "id": "ms-048"
+    },
+    "ms-049": {
+      "summary": "Gideon Park \u2014 Cert Received [LC-2026-0022]",
+      "start": {
+        "dateTime": "2026-02-19T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-19T09:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1145 | Medical certification received (within 15-day window, due 02/25).",
+      "id": "ms-049"
+    },
+    "ms-050": {
+      "summary": "Gideon Park \u2014 FMLA Designation Issued [LC-2026-0022]",
+      "start": {
+        "dateTime": "2026-02-21T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-21T09:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1145 | Designation issued. Manager Leslie Cho notified.",
+      "id": "ms-050"
+    },
+    "ms-051": {
+      "summary": "Gideon Park \u2014 Return to Work [LC-2026-0022]",
+      "start": {
+        "dateTime": "2026-04-07T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-04-07T09:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1145 | Employee returned. Case entering closure.",
+      "id": "ms-051"
+    },
+    "ms-052": {
+      "summary": "Rosie Chang \u2014 FMLA + FAMLI Parental Leave Intake [LC-2026-0023]",
+      "start": {
+        "dateTime": "2026-02-17T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-17T09:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1204 | Parental leave intake. Cert request and FAMLI employer response issued 02/18.",
+      "id": "ms-052"
+    },
+    "ms-053": {
+      "summary": "Rosie Chang \u2014 FAMLI Employer Response Submitted [FAMLI-CO-2026-29817]",
+      "start": {
+        "dateTime": "2026-02-18T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-18T09:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1204 | Employer response submitted to CDLE for FAMLI claim.",
+      "id": "ms-053"
+    },
+    "ms-054": {
+      "summary": "Rosie Chang \u2014 Cert Received [LC-2026-0023]",
+      "start": {
+        "dateTime": "2026-02-25T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-25T09:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1204 | Medical certification received (within 15-day window, due 03/05).",
+      "id": "ms-054"
+    },
+    "ms-055": {
+      "summary": "Rosie Chang \u2014 FMLA + FAMLI Designation Issued [LC-2026-0023]",
+      "start": {
+        "dateTime": "2026-02-28T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-28T09:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1204 | Concurrent designation issued. Manager Elliot Drummond notified.",
+      "id": "ms-055"
+    },
+    "ms-056": {
+      "summary": "Priya Nambiar \u2014 FMLA + FAMLI Intake [LC-2026-0098]",
+      "start": {
+        "dateTime": "2026-03-05T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-05T09:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1042 | Continuous FMLA + FAMLI intake. Cert request and FAMLI employer response 03/06.",
+      "id": "ms-056"
+    },
+    "ms-057": {
+      "summary": "Priya Nambiar \u2014 FAMLI Employer Response Submitted [FAMLI-CO-2026-44821]",
+      "start": {
+        "dateTime": "2026-03-06T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-06T09:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1042 | Employer response submitted to CDLE.",
+      "id": "ms-057"
+    },
+    "ms-058": {
+      "summary": "Priya Nambiar \u2014 Cert Received [LC-2026-0098]",
+      "start": {
+        "dateTime": "2026-03-14T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-14T09:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1042 | Medical certification received (within 15-day window, due 03/21).",
+      "id": "ms-058"
+    },
+    "ms-059": {
+      "summary": "Priya Nambiar \u2014 FMLA + FAMLI Designation Issued [LC-2026-0098]",
+      "start": {
+        "dateTime": "2026-03-15T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-15T09:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1042 | Concurrent designation issued. Manager Leslie Cho notified 03/06.",
+      "id": "ms-059"
+    },
+    "ms-060": {
+      "summary": "Vanessa Ogundimu \u2014 FMLA Intermittent Intake [LC-2026-0034]",
+      "start": {
+        "dateTime": "2026-03-02T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-02T09:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1148 | Intermittent FMLA intake for chronic condition. Cert request issued 03/03.",
+      "id": "ms-060"
+    },
+    "ms-061": {
+      "summary": "Vanessa Ogundimu \u2014 Cert Received [LC-2026-0034]",
+      "start": {
+        "dateTime": "2026-03-13T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-13T09:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1148 | Medical certification received (within 15-day window, due 03/18).",
+      "id": "ms-061"
+    },
+    "ms-062": {
+      "summary": "Vanessa Ogundimu \u2014 FMLA Designation Issued [LC-2026-0034]",
+      "start": {
+        "dateTime": "2026-03-15T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-15T09:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1148 | Intermittent designation issued. Manager Brittany Holt notified.",
+      "id": "ms-062"
+    },
+    "ms-063": {
+      "summary": "Anita Sharma \u2014 FMLA Intake [LC-2026-0035]",
+      "start": {
+        "dateTime": "2026-03-03T09:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-03T09:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1215 | Continuous FMLA intake. Cert request pending.",
+      "id": "ms-063"
+    },
+    "ms-064": {
+      "summary": "Winston Frazier \u2014 Jury Duty Intake [LC-2026-0046]",
+      "start": {
+        "dateTime": "2026-03-16T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-16T09:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1157 | Jury summons received. Case opened. Manager Priscilla Osei notified.",
+      "id": "ms-064"
+    },
+    "ms-065": {
+      "summary": "Winston Frazier \u2014 Jury Duty Ended [LC-2026-0046]",
+      "start": {
+        "dateTime": "2026-03-27T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-27T09:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1157 | Jury duty concluded. leave_tracker updated; Payroll Lead notified.",
+      "id": "ms-065"
+    },
+    "ms-066": {
+      "summary": "Deon Carter \u2014 Personal Unpaid Leave Begins [LC-2026-0048]",
+      "start": {
+        "dateTime": "2026-03-23T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-23T09:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1122 | Approved personal unpaid leave. Manager and Payroll Lead notified.",
+      "id": "ms-066"
+    },
+    "ms-067": {
+      "summary": "Deon Carter \u2014 Personal Unpaid Leave Ends [LC-2026-0048]",
+      "start": {
+        "dateTime": "2026-03-28T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-28T09:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1122 | Return from personal unpaid leave.",
+      "id": "ms-067"
+    },
+    "ms-068": {
+      "summary": "Quincy Adler \u2014 Bereavement Intake [LC-2026-0053]",
+      "start": {
+        "dateTime": "2026-03-23T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-23T09:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1128 | 3-day immediate family bereavement. Manager Marcus Webb notified.",
+      "id": "ms-068"
+    },
+    "ms-069": {
+      "summary": "Elliot Drummond \u2014 ADA Accommodation Intake [LC-2026-0078]",
+      "start": {
+        "dateTime": "2026-04-01T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-04-01T09:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1118 | ADA accommodation request received. Routed to HR Director. LC does not independently progress after intake.",
+      "id": "ms-069"
+    },
+    "ms-070": {
+      "summary": "Celeste Fontaine \u2014 FMLA Intermittent Intake [LC-2026-0065]",
+      "start": {
+        "dateTime": "2026-04-01T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-04-01T09:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1139 | Intermittent FMLA intake. Cert request issued 04/02; due 04/17.",
+      "id": "ms-070"
+    },
+    "ms-071": {
+      "summary": "Jordan Rivera \u2014 FAMLI Leave Intake [LC-2026-0112]",
+      "start": {
+        "dateTime": "2026-04-01T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-04-01T09:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1001 | FAMLI-only leave intake (separate from LC-2026-0044 FMLA intermittent). Cert requested 04/02; due 04/17.",
+      "id": "ms-071"
+    },
+    "ms-072": {
+      "summary": "Jordan Rivera \u2014 FAMLI Cert Request Issued [LC-2026-0112]",
+      "start": {
+        "dateTime": "2026-04-02T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-04-02T09:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1001 | Cert request sent. Due 2026-04-17. Manager Sam Okonkwo notified.",
+      "id": "ms-072"
+    },
+    "ms-073": {
+      "summary": "Fatima Al-Hassan \u2014 FMLA Intermittent Intake [LC-2026-0059]",
+      "start": {
+        "dateTime": "2026-04-07T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-04-07T09:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1103 | Intermittent FMLA intake \u2014 family member serious health condition. Cert request issued 04/08; due 04/23.",
+      "id": "ms-073"
+    },
+    "ms-074": {
+      "summary": "Antoine Laurent \u2014 FMLA Intermittent Intake [LC-2026-0074]",
+      "start": {
+        "dateTime": "2026-04-07T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-04-07T09:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1162 | Post-surgical intermittent FMLA intake. Cert request issued 04/08.",
+      "id": "ms-074"
+    },
+    "ms-075": {
+      "summary": "Antoine Laurent \u2014 Cert Received [LC-2026-0074]",
+      "start": {
+        "dateTime": "2026-04-16T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-04-16T09:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1162 | Medical certification received.",
+      "id": "ms-075"
+    },
+    "ms-076": {
+      "summary": "Antoine Laurent \u2014 FMLA Designation Issued [LC-2026-0074]",
+      "start": {
+        "dateTime": "2026-04-18T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-04-18T09:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1162 | Intermittent designation issued. Manager Priscilla Osei notified.",
+      "id": "ms-076"
+    },
+    "ms-077": {
+      "summary": "Miriam Holloway \u2014 Cert Received [LC-2026-0086]",
+      "start": {
+        "dateTime": "2026-04-04T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-04-04T09:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1171 | Medical certification received (cert requested 03/28, due 04/12).",
+      "id": "ms-077"
+    },
+    "ms-078": {
+      "summary": "Miriam Holloway \u2014 FMLA + FAMLI Parental Leave Intake [LC-2026-0086]",
+      "start": {
+        "dateTime": "2026-04-07T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-04-07T09:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1171 | Parental leave begins. Designation issued. FAMLI-CO-2026-22748 employer response submitted. Manager Jerome Baptiste notified.",
+      "id": "ms-078"
+    },
+    "ms-079": {
+      "summary": "Zara Mitchell \u2014 Bereavement Intake [LC-2026-0068]",
+      "start": {
+        "dateTime": "2026-04-08T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-04-08T09:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1190 | 3-day immediate family bereavement begins. Manager Alejandro Vega notified.",
+      "id": "ms-079"
+    },
+    "ms-080": {
+      "summary": "Simone Dupont \u2014 Cert Received [LC-2026-0082]",
+      "start": {
+        "dateTime": "2026-04-07T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-04-07T09:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1106 | Medical certification received (cert requested 04/01, due 04/16).",
+      "id": "ms-080"
+    },
+    "ms-081": {
+      "summary": "Simone Dupont \u2014 FMLA + FAMLI Parental Designation Issued [LC-2026-0082]",
+      "start": {
+        "dateTime": "2026-04-10T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-04-10T09:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1106 | Concurrent designation issued. FAMLI employer response submitted 04/10. Manager Leslie Cho notified. Leave starts 04/14.",
+      "id": "ms-081"
+    },
+    "ms-082": {
+      "summary": "Kenji Nakamura \u2014 USERRA Intake [LC-2026-0071]",
+      "start": {
+        "dateTime": "2026-04-10T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-04-10T09:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1102 | Military deployment orders received. Routed to Benefits Manager. Manager Marcus Webb notified. Leave starts 04/15.",
+      "id": "ms-082"
+    },
+    "ms-083": {
+      "summary": "Naomi Flores \u2014 FMLA Intake [LC-2026-0091]",
+      "start": {
+        "dateTime": "2026-04-10T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-04-10T09:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1133 | New FMLA intake today. Cert requested; due 2026-04-25. Manager Sam Okonkwo notified.",
+      "id": "ms-083"
+    },
+    "ms-084": {
+      "summary": "Yuna Sato \u2014 FMLA Intermittent Intake [LC-2026-0061]",
+      "start": {
+        "dateTime": "2026-04-06T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-04-06T09:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1186 | Intermittent FMLA intake. Cert request issued 04/07; due 04/22. Manager Simone Dupont notified.",
+      "id": "ms-084"
+    },
+    "cd-085": {
+      "summary": "\u26a0 Cert Due \u2014 Ivan Petrenko [LC-2026-0008]",
+      "start": {
+        "dateTime": "2026-01-22T08:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-22T08:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1136 | 15-day cert window closes today. Cert was received 01/17 \u2014 CLEAR.",
+      "id": "cd-085"
+    },
+    "cd-086": {
+      "summary": "\u26a0 Cert Due \u2014 Marcus Webb [LC-2026-0003]",
+      "start": {
+        "dateTime": "2026-01-29T08:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-01-29T08:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1100 | 15-day cert window closes today. Cert was received 01/22 \u2014 CLEAR.",
+      "id": "cd-086"
+    },
+    "cd-087": {
+      "summary": "\u26a0 Cert Due \u2014 Darius Freeman [LC-2026-0010]",
+      "start": {
+        "dateTime": "2026-02-05T08:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-05T08:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1191 | 15-day cert window closes today. Cert was received 01/30 \u2014 CLEAR.",
+      "id": "cd-087"
+    },
+    "cd-088": {
+      "summary": "\u26a0 Cert Due \u2014 Theo Mbeki [LC-2026-0017]",
+      "start": {
+        "dateTime": "2026-02-19T08:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-19T08:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1126 | 15-day cert window closes today. Cert was received 02/15 \u2014 CLEAR.",
+      "id": "cd-088"
+    },
+    "cd-089": {
+      "summary": "\u26a0 Cert Due \u2014 Gideon Park [LC-2026-0022]",
+      "start": {
+        "dateTime": "2026-02-25T08:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-02-25T08:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1145 | 15-day cert window closes today. Cert was received 02/19 \u2014 CLEAR.",
+      "id": "cd-089"
+    },
+    "cd-090": {
+      "summary": "\u26a0 Cert Due \u2014 Rosie Chang [LC-2026-0023]",
+      "start": {
+        "dateTime": "2026-03-05T08:00:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-05T08:30:00-07:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1204 | 15-day cert window closes today. Cert was received 02/25 \u2014 CLEAR.",
+      "id": "cd-090"
+    },
+    "cd-091": {
+      "summary": "\u26a0 Cert Due \u2014 Vanessa Ogundimu [LC-2026-0034]",
+      "start": {
+        "dateTime": "2026-03-18T08:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-18T08:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1148 | 15-day cert window closes today. Cert was received 03/13 \u2014 CLEAR.",
+      "id": "cd-091"
+    },
+    "cd-092": {
+      "summary": "\u26a0 Cert Due \u2014 Priya Nambiar [LC-2026-0098]",
+      "start": {
+        "dateTime": "2026-03-21T08:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-03-21T08:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1042 | 15-day cert window closes today. Cert was received 03/14 \u2014 CLEAR.",
+      "id": "cd-092"
+    },
+    "cd-093": {
+      "summary": "\u26a0 Cert Due \u2014 Miriam Holloway [LC-2026-0086]",
+      "start": {
+        "dateTime": "2026-04-12T08:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-04-12T08:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1171 | 15-day cert window closes today. Cert was received 04/04 \u2014 CLEAR.",
+      "id": "cd-093"
+    },
+    "cd-094": {
+      "summary": "\u26a0 Cert Due \u2014 Simone Dupont [LC-2026-0082]",
+      "start": {
+        "dateTime": "2026-04-16T08:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-04-16T08:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1106 | 15-day cert window closes today. Cert was received 04/07 \u2014 CLEAR.",
+      "id": "cd-094"
+    },
+    "cd-095": {
+      "summary": "\ud83d\udea8 Cert Due \u2014 Jordan Rivera [LC-2026-0112] \u2014 NOT YET RECEIVED",
+      "start": {
+        "dateTime": "2026-04-17T08:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-04-17T08:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1001 | FAMLI cert due today. Not yet received as of 04/10. Monitor closely. If not received by COB, send Template 6 reminder and initiate Path D.",
+      "id": "cd-095"
+    },
+    "cd-096": {
+      "summary": "\ud83d\udea8 Cert Due \u2014 Celeste Fontaine [LC-2026-0065] \u2014 OVERDUE",
+      "start": {
+        "dateTime": "2026-04-17T08:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-04-17T08:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1139 | Cert was due 04/17. Not received as of 04/10. Path D: send Template 6 reminder; allow up to 5 business days for qualifying delay. Escalate to Benefits Manager if no response.",
+      "id": "cd-096"
+    },
+    "cd-097": {
+      "summary": "\ud83d\udea8 Cert Due \u2014 Yuna Sato [LC-2026-0061] \u2014 PENDING",
+      "start": {
+        "dateTime": "2026-04-22T08:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-04-22T08:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1186 | Cert due 04/22. Not yet received as of 04/10. Follow up by 04/19.",
+      "id": "cd-097"
+    },
+    "cd-098": {
+      "summary": "\ud83d\udea8 Cert Due \u2014 Fatima Al-Hassan [LC-2026-0059] \u2014 PENDING",
+      "start": {
+        "dateTime": "2026-04-23T08:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-04-23T08:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1103 | Cert due 04/23. Not yet received as of 04/10. Escalate if not received.",
+      "id": "cd-098"
+    },
+    "cd-099": {
+      "summary": "\ud83d\udea8 Cert Due \u2014 Antoine Laurent [LC-2026-0074] \u2014 RECEIVED EARLY",
+      "start": {
+        "dateTime": "2026-04-23T08:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-04-23T08:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1162 | Cert due 04/23. Cert was received 04/16 \u2014 CLEAR.",
+      "id": "cd-099"
+    },
+    "cd-100": {
+      "summary": "\ud83d\udea8 Cert Due \u2014 Naomi Flores [LC-2026-0091] \u2014 PENDING",
+      "start": {
+        "dateTime": "2026-04-25T08:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-04-25T08:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1133 | Cert due 04/25 (intake today 04/10). Not yet received.",
+      "id": "cd-100"
+    },
+    "rv-101": {
+      "summary": "\ud83d\udccb 30-Day Intermittent Review \u2014 Jordan Rivera [LC-2026-0044]",
+      "start": {
+        "dateTime": "2026-04-20T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-04-20T10:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1001 | FMLA intermittent \u2014 migraines. Per \u00a722: compare actual vs. certified frequency. 2 absences in last 30 days (03/22, 04/07 = 16 hrs). Check against certified frequency. Document in leave_tracker.xlsx case notes. Reset calendar reminder for 2026-05-20.",
+      "id": "rv-101"
+    },
+    "rv-102": {
+      "summary": "\ud83d\udccb 30-Day Intermittent Review \u2014 Theo Mbeki [LC-2026-0017]",
+      "start": {
+        "dateTime": "2026-05-03T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-05-03T10:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1126 | FMLA intermittent \u2014 migraines. Per \u00a722: review 30-day absence log. 48 hrs used total since 02/03. Calculate actual frequency vs. certified. Document findings in leave_tracker.xlsx. Reset reminder for 2026-06-02.",
+      "id": "rv-102"
+    },
+    "rv-103": {
+      "summary": "\ud83d\udccb 30-Day Intermittent Review \u2014 Naomi Flores [LC-2026-0091]",
+      "start": {
+        "dateTime": "2026-05-10T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-05-10T10:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1133 | FMLA intermittent \u2014 first 30-day review. Case opened 04/10. Per \u00a722, set recurring review calendar entry.",
+      "id": "rv-103"
+    },
+    "rv-104": {
+      "summary": "\ud83d\udccb 30-Day Intermittent Review \u2014 Darius Freeman [LC-2026-0010]",
+      "start": {
+        "dateTime": "2026-05-20T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-05-20T10:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1191 | FMLA intermittent \u2014 chronic condition. Per \u00a722: review 30-day absence log. 64 hrs used since 01/20. Check for frequency pattern. Document in leave_tracker.xlsx. Reset reminder for 2026-06-19.",
+      "id": "rv-104"
+    },
+    "rv-105": {
+      "summary": "\ud83d\udccb 30-Day Intermittent Review \u2014 Vanessa Ogundimu [LC-2026-0034]",
+      "start": {
+        "dateTime": "2026-05-20T09:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-05-20T10:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1148 | FMLA intermittent \u2014 chronic condition. Certified 1-2 days/month. 80 hrs used since 03/02. Verify actual usage against certification.",
+      "id": "rv-105"
+    },
+    "cl-106": {
+      "summary": "\u26a0 Closure Overdue \u2014 Isaac Mensah [LC-2025-0080]",
+      "start": {
+        "dateTime": "2026-04-10T10:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-04-10T10:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1218 | Returned 2026-01-27 \u2014 closure checklist still incomplete as of 04/10 (73 days). Review all 10 closure checklist items. Log any breach in leave_tracker.xlsx.",
+      "id": "cl-106"
+    },
+    "cl-107": {
+      "summary": "\u26a0 Closure Overdue \u2014 Marcus Webb [LC-2026-0003]",
+      "start": {
+        "dateTime": "2026-04-10T10:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-04-10T10:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1100 | Returned 2026-02-10 \u2014 closure still pending as of 04/10 (59 days). Review closure checklist. Post breach to #benefits-team if items remain incomplete.",
+      "id": "cl-107"
+    },
+    "cl-108": {
+      "summary": "\u26a0 Closure Overdue \u2014 Ivan Petrenko [LC-2026-0008]",
+      "start": {
+        "dateTime": "2026-04-10T10:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-04-10T10:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1136 | Returned 2026-03-31 \u2014 closure checklist still incomplete as of 04/10 (10 days). Complete final checklist items. Update leave_history.xlsx with Actual End Date.",
+      "id": "cl-108"
+    },
+    "cl-109": {
+      "summary": "\u26a0 Closure Pending \u2014 Gideon Park [LC-2026-0022]",
+      "start": {
+        "dateTime": "2026-04-10T10:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-04-10T10:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1145 | Returned 2026-04-07 \u2014 closure in progress. Complete checklist promptly.",
+      "id": "cl-109"
+    },
+    "hf-110": {
+      "summary": "\ud83d\udd36 HFWA Pattern Flag \u2014 Devon Alcott [EMP-1078]",
+      "start": {
+        "dateTime": "2026-04-10T11:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-04-10T11:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1078 | Customer Experience | 3+ single-day HFWA uses in current month. Per SOP \u00a718.1 Step 8 and \u00a722: flag for 30-day intermittent review. Assess whether underlying condition could qualify as FMLA serious health condition. If so, open concurrent FMLA intake even if employee only asked about HFWA.",
+      "id": "hf-110"
+    },
+    "hf-111": {
+      "summary": "\ud83d\udd36 HFWA Pattern Flag \u2014 Maya Patel [EMP-1115]",
+      "start": {
+        "dateTime": "2026-04-10T11:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-04-10T11:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1115 | Marketing | 3+ single-day HFWA uses in current month. Per SOP \u00a718.1 Step 8 and \u00a722: flag for 30-day intermittent review. Assess whether underlying condition could qualify as FMLA serious health condition. If so, open concurrent FMLA intake even if employee only asked about HFWA.",
+      "id": "hf-111"
+    },
+    "hf-112": {
+      "summary": "\ud83d\udd36 HFWA Pattern Flag \u2014 Celeste Fontaine [EMP-1139]",
+      "start": {
+        "dateTime": "2026-04-10T11:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-04-10T11:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1139 | Operations | 3+ single-day HFWA uses in current month. Per SOP \u00a718.1 Step 8 and \u00a722: flag for 30-day intermittent review. Assess whether underlying condition could qualify as FMLA serious health condition. If so, open concurrent FMLA intake even if employee only asked about HFWA.",
+      "id": "hf-112"
+    },
+    "hf-113": {
+      "summary": "\ud83d\udd36 HFWA Pattern Flag \u2014 Zara Mitchell [EMP-1190]",
+      "start": {
+        "dateTime": "2026-04-10T11:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-04-10T11:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1190 | Product | 3+ single-day HFWA uses in current month. Per SOP \u00a718.1 Step 8 and \u00a722: flag for 30-day intermittent review. Assess whether underlying condition could qualify as FMLA serious health condition. If so, open concurrent FMLA intake even if employee only asked about HFWA.",
+      "id": "hf-113"
+    },
+    "hf-114": {
+      "summary": "\ud83d\udd36 HFWA Pattern Flag \u2014 Helena Ruiz [EMP-1202]",
+      "start": {
+        "dateTime": "2026-04-10T11:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-04-10T11:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1202 | Finance | 3+ single-day HFWA uses in current month. Per SOP \u00a718.1 Step 8 and \u00a722: flag for 30-day intermittent review. Assess whether underlying condition could qualify as FMLA serious health condition. If so, open concurrent FMLA intake even if employee only asked about HFWA.",
+      "id": "hf-114"
+    },
+    "hf-115": {
+      "summary": "\ud83d\udd36 HFWA Pattern Flag \u2014 Daniel Choi [EMP-1223]",
+      "start": {
+        "dateTime": "2026-04-10T11:00:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "end": {
+        "dateTime": "2026-04-10T11:30:00-06:00",
+        "timeZone": "America/Denver"
+      },
+      "description": "EMP-1223 | Supply Chain | 3+ single-day HFWA uses in current month. Per SOP \u00a718.1 Step 8 and \u00a722: flag for 30-day intermittent review. Assess whether underlying condition could qualify as FMLA serious health condition. If so, open concurrent FMLA intake even if employee only asked about HFWA.",
+      "id": "hf-115"
+    }
+  }
+}

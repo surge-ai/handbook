@@ -1,0 +1,829 @@
+{
+  "users": {
+    "U001": {
+      "id": "U001",
+      "team_id": "T001",
+      "name": "kara.whitfield",
+      "deleted": false,
+      "real_name": "Kara Whitfield",
+      "profile": {
+        "real_name": "Kara Whitfield",
+        "display_name": "kwhitfield",
+        "email": "k.whitfield@mojavecrest.com",
+        "title": "Appeals & Grievances Coordinator"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U002": {
+      "id": "U002",
+      "team_id": "T001",
+      "name": "darnell.whitfield",
+      "deleted": false,
+      "real_name": "Darnell Whitfield",
+      "profile": {
+        "real_name": "Darnell Whitfield",
+        "display_name": "dwhitfield",
+        "email": "d.whitfield@mojavecrest.com",
+        "title": "Appeals Supervisor"
+      },
+      "is_admin": true,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U003": {
+      "id": "U003",
+      "team_id": "T001",
+      "name": "tamra.reyes",
+      "deleted": false,
+      "real_name": "Tamra Reyes",
+      "profile": {
+        "real_name": "Tamra Reyes",
+        "display_name": "treyes",
+        "email": "t.reyes@mojavecrest.com",
+        "title": "Director, Appeals & Grievances"
+      },
+      "is_admin": true,
+      "is_owner": true,
+      "is_bot": false
+    },
+    "U004": {
+      "id": "U004",
+      "team_id": "T001",
+      "name": "priya.annadurai",
+      "deleted": false,
+      "real_name": "Priya Annadurai",
+      "profile": {
+        "real_name": "Priya Annadurai",
+        "display_name": "pannadurai",
+        "email": "p.annadurai@mojavecrest.com",
+        "title": "Senior Appeals Coordinator"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U005": {
+      "id": "U005",
+      "team_id": "T001",
+      "name": "helena.bergstrom",
+      "deleted": false,
+      "real_name": "Dr. Helena Bergstrom, MD",
+      "profile": {
+        "real_name": "Dr. Helena Bergstrom, MD",
+        "display_name": "hbergstrom",
+        "email": "h.bergstrom@mojavecrest.com",
+        "title": "Medical Director, Medical/Surgical"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U006": {
+      "id": "U006",
+      "team_id": "T001",
+      "name": "ayla.ontario",
+      "deleted": false,
+      "real_name": "Dr. Ayla Ontario, MD",
+      "profile": {
+        "real_name": "Dr. Ayla Ontario, MD",
+        "display_name": "aontario",
+        "email": "a.ontario@mojavecrest.com",
+        "title": "Medical Director, Behavioral Health / Parity Review Committee Chair"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U007": {
+      "id": "U007",
+      "team_id": "T001",
+      "name": "marisol.alvarado",
+      "deleted": false,
+      "real_name": "Marisol Alvarado, RN",
+      "profile": {
+        "real_name": "Marisol Alvarado, RN",
+        "display_name": "malvarado",
+        "email": "m.alvarado@mojavecrest.com",
+        "title": "Lead RN Reviewer"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U008": {
+      "id": "U008",
+      "team_id": "T001",
+      "name": "jules.henning",
+      "deleted": false,
+      "real_name": "Dr. Jules Henning, PharmD",
+      "profile": {
+        "real_name": "Dr. Jules Henning, PharmD",
+        "display_name": "jhenning",
+        "email": "j.henning@mojavecrest.com",
+        "title": "Pharmacy Director"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U009": {
+      "id": "U009",
+      "team_id": "T001",
+      "name": "kendel.dufree",
+      "deleted": false,
+      "real_name": "Kendel Dufree",
+      "profile": {
+        "real_name": "Kendel Dufree",
+        "display_name": "kdufree",
+        "email": "k.dufree@mojavecrest.com",
+        "title": "Compliance Officer"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    }
+  },
+  "channels": {
+    "C001": {
+      "id": "C001",
+      "name": "appeals-intake",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1735689600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "appeals-intake",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1735689600,
+      "creator": "U002",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "New case logging and general unit announcements",
+        "creator": "U002",
+        "last_set": 1735689600
+      },
+      "purpose": {
+        "value": "New case logging, general unit announcements, routing questions",
+        "creator": "U002",
+        "last_set": 1735689600
+      }
+    },
+    "C002": {
+      "id": "C002",
+      "name": "appeals-clinical-queue",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1735689600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "appeals-clinical-queue",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1735689600,
+      "creator": "U002",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Routing cases to RN Reviewer and Medical Director teams",
+        "creator": "U002",
+        "last_set": 1735689600
+      },
+      "purpose": {
+        "value": "Routing cases to RN Reviewer and Medical Director teams",
+        "creator": "U002",
+        "last_set": 1735689600
+      }
+    },
+    "C003": {
+      "id": "C003",
+      "name": "appeals-urgent",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1735689600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "appeals-urgent",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1735689600,
+      "creator": "U002",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Expedited cases, deadline-at-risk alerts, CAT-level compliance events",
+        "creator": "U002",
+        "last_set": 1735689600
+      },
+      "purpose": {
+        "value": "Expedited cases, deadline-at-risk alerts, CAT-level compliance events",
+        "creator": "U002",
+        "last_set": 1735689600
+      }
+    },
+    "C004": {
+      "id": "C004",
+      "name": "appeals-parity",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1735689600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "appeals-parity",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1735689600,
+      "creator": "U002",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Parity flag notifications \u2014 DO NOT post member PHI here. Flag cases via DM to @aontario per Format B-3.",
+        "creator": "U002",
+        "last_set": 1735689600
+      },
+      "purpose": {
+        "value": "Parity flag notifications \u2014 general discussion only. Case-specific flags go via DM.",
+        "creator": "U002",
+        "last_set": 1735689600
+      }
+    },
+    "C005": {
+      "id": "C005",
+      "name": "appeals-compliance",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1735689600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "appeals-compliance",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1735689600,
+      "creator": "U002",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Regulatory complaint intake, DOI notifications, audit requests",
+        "creator": "U002",
+        "last_set": 1735689600
+      },
+      "purpose": {
+        "value": "Regulatory complaint intake, DOI notifications, audit requests",
+        "creator": "U002",
+        "last_set": 1735689600
+      }
+    },
+    "C006": {
+      "id": "C006",
+      "name": "appeals-general",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1735689600,
+      "is_archived": false,
+      "is_general": true,
+      "unlinked": 0,
+      "name_normalized": "appeals-general",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1735689600,
+      "creator": "U003",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "General questions, kudos, non-case discussion",
+        "creator": "U003",
+        "last_set": 1735689600
+      },
+      "purpose": {
+        "value": "General questions, kudos, non-case discussion",
+        "creator": "U003",
+        "last_set": 1735689600
+      }
+    },
+    "D001": {
+      "id": "D001",
+      "name": "U002",
+      "is_channel": false,
+      "is_group": false,
+      "is_im": true,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1735689600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "U002",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1735689600,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "members": [
+        "U002"
+      ],
+      "user": "U002"
+    },
+    "D002": {
+      "id": "D002",
+      "name": "U003",
+      "is_channel": false,
+      "is_group": false,
+      "is_im": true,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1735689600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "U003",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1735689600,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "members": [
+        "U003"
+      ],
+      "user": "U003"
+    },
+    "D003": {
+      "id": "D003",
+      "name": "U004",
+      "is_channel": false,
+      "is_group": false,
+      "is_im": true,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1735689600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "U004",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1735689600,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "members": [
+        "U004"
+      ],
+      "user": "U004"
+    },
+    "D004": {
+      "id": "D004",
+      "name": "U005",
+      "is_channel": false,
+      "is_group": false,
+      "is_im": true,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1735689600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "U005",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1735689600,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "members": [
+        "U005"
+      ],
+      "user": "U005"
+    },
+    "D005": {
+      "id": "D005",
+      "name": "U006",
+      "is_channel": false,
+      "is_group": false,
+      "is_im": true,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1735689600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "U006",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1735689600,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "members": [
+        "U006"
+      ],
+      "user": "U006"
+    },
+    "D006": {
+      "id": "D006",
+      "name": "U007",
+      "is_channel": false,
+      "is_group": false,
+      "is_im": true,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1735689600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "U007",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1735689600,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "members": [
+        "U007"
+      ],
+      "user": "U007"
+    },
+    "D007": {
+      "id": "D007",
+      "name": "U008",
+      "is_channel": false,
+      "is_group": false,
+      "is_im": true,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1735689600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "U008",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1735689600,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "members": [
+        "U008"
+      ],
+      "user": "U008"
+    },
+    "D008": {
+      "id": "D008",
+      "name": "U009",
+      "is_channel": false,
+      "is_group": false,
+      "is_im": true,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1735689600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "U009",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1735689600,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "members": [
+        "U009"
+      ],
+      "user": "U009"
+    }
+  },
+  "messages": {
+    "C001": [
+      {
+        "type": "message",
+        "user": "U001",
+        "team": "T001",
+        "ts": "1736332200.000100",
+        "text": "New case logged \u2014 CASE-2026-00312. Pre-Service Standard, Outpatient M/S, INN. Clock started 2026-01-08 10:15."
+      },
+      {
+        "type": "message",
+        "user": "U004",
+        "team": "T001",
+        "ts": "1737554700.000100",
+        "text": "New case logged \u2014 CASE-2026-00356. Post-Service Standard, Inpatient M/S, INN. Clock started 2026-01-22 13:45."
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "team": "T001",
+        "ts": "1739956800.000100",
+        "text": "New case logged \u2014 CASE-2026-00401. Pre-Service Standard, Outpatient BH, INN. Clock started 2026-02-19 09:15. Possible parity issue \u2014 flagging per B-3 protocol."
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "team": "T001",
+        "ts": "1741175100.000100",
+        "text": "New case logged \u2014 CASE-2026-00434. Post-Service Standard, Inpatient M/S, INN. Clock started 2026-03-05 11:30."
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "team": "T001",
+        "ts": "1742913000.000100",
+        "text": "New case logged \u2014 CASE-2026-00461. Pre-Service Standard, Outpatient M/S, INN. Clock started 2026-03-25 14:20."
+      }
+    ],
+    "C002": [
+      {
+        "type": "message",
+        "user": "U001",
+        "team": "T001",
+        "ts": "1736334000.000100",
+        "text": "CLINICAL ROUTING\nCase #: CASE-2026-00312\nType: Pre-Service Standard\nService Classification: Medical/Surgical\nStandard of Review: Medical Necessity\nDeadline: 2026-02-07\nParity Flag: NO\nCase Folder: appeals-repo/2026/CASE-2026-00312"
+      },
+      {
+        "type": "message",
+        "user": "U004",
+        "team": "T001",
+        "ts": "1737556200.000100",
+        "text": "CLINICAL ROUTING\nCase #: CASE-2026-00356\nType: Post-Service Standard\nService Classification: Medical/Surgical\nStandard of Review: Medical Necessity\nDeadline: 2026-04-01\nParity Flag: NO\nCase Folder: appeals-repo/2026/CASE-2026-00356"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "team": "T001",
+        "ts": "1739959200.000100",
+        "text": "CLINICAL ROUTING\nCase #: CASE-2026-00401\nType: Pre-Service Standard\nService Classification: Behavioral Health\nStandard of Review: Medical Necessity\nDeadline: 2026-03-21\nParity Flag: YES\nCase Folder: appeals-repo/2026/CASE-2026-00401"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "team": "T001",
+        "ts": "1741176000.000100",
+        "text": "CLINICAL ROUTING\nCase #: CASE-2026-00434\nType: Post-Service Standard\nService Classification: Medical/Surgical\nStandard of Review: Medical Necessity\nDeadline: 2026-05-04\nParity Flag: NO\nCase Folder: appeals-repo/2026/CASE-2026-00434"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "team": "T001",
+        "ts": "1742914800.000100",
+        "text": "CLINICAL ROUTING\nCase #: CASE-2026-00461\nType: Pre-Service Standard\nService Classification: Medical/Surgical\nStandard of Review: Medical Necessity\nDeadline: 2026-04-24\nParity Flag: NO\nCase Folder: appeals-repo/2026/CASE-2026-00461"
+      }
+    ],
+    "C003": [
+      {
+        "type": "message",
+        "user": "U001",
+        "team": "T001",
+        "ts": "1737969000.000100",
+        "text": "@dwhitfield \u2014 CASE-2026-00356 flagged for clock review. Missing inpatient records; tolling request escalated per B-2. Day 5 of 60. Decision due 2026-04-01."
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "team": "T001",
+        "ts": "1743350400.000100",
+        "text": "Queue check \u2014 CASE-2026-00461 decision due 2026-04-24, CASE-2026-00434 due 2026-05-04. Both progressing. No at-risk flags at this time."
+      }
+    ],
+    "C004": [
+      {
+        "type": "message",
+        "user": "U002",
+        "team": "T001",
+        "ts": "1735808400.000100",
+        "text": "Reminder: parity flags go via DM to @aontario using Format B-3. Do not post case details in this channel. Use this space for general parity questions and process discussion only."
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "team": "T001",
+        "ts": "1739960400.000100",
+        "text": "Flagged a potential parity issue via DM per B-3. General question for the team \u2014 when BH and M/S classifications don't map cleanly, do we default to the classification that produces the most direct comparison?"
+      },
+      {
+        "type": "message",
+        "user": "U006",
+        "team": "T001",
+        "ts": "1739970000.000100",
+        "text": "Yes @kwhitfield \u2014 use the classification that produces the most direct comparison. When in doubt flag it; better to flag and clear than to miss one."
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "team": "T001",
+        "ts": "1742029200.000100",
+        "text": "Updated parity training materials are in the shared repo. Please review before the April all-hands. Thanks to @aontario and @pannadurai for pulling those together."
+      }
+    ],
+    "C005": [
+      {
+        "type": "message",
+        "user": "U009",
+        "team": "T001",
+        "ts": "1740823200.000100",
+        "text": "Quarterly reminder: report potential compliance events via DM to me using Format B-4. If you're unsure whether something qualifies, DM first \u2014 do not wait. Prompt reporting is a regulatory requirement."
+      },
+      {
+        "type": "message",
+        "user": "U009",
+        "team": "T001",
+        "ts": "1742464800.000100",
+        "text": "DOI market conduct exam scheduled for May 2026. I'll circulate a case file readiness checklist next week. Ensure all open cases have current documentation and all closed cases have signed determination memos on file."
+      }
+    ],
+    "C006": [
+      {
+        "type": "message",
+        "user": "U003",
+        "team": "T001",
+        "ts": "1735808400.000100",
+        "text": "Happy New Year, team. Another year of doing right by our members. Thank you all for the work you put in \u2014 let's have a great 2026."
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "team": "T001",
+        "ts": "1739541600.000100",
+        "text": "Reminder \u2014 President's Day is Monday Feb 16, MCA office closed. Make sure active cases have coverage and update your out-of-office."
+      },
+      {
+        "type": "message",
+        "user": "U004",
+        "team": "T001",
+        "ts": "1743499800.000100",
+        "text": "Anyone else feel like Q1 flew by? Good work all around keeping deadlines. Solid quarter."
+      },
+      {
+        "type": "message",
+        "user": "U007",
+        "team": "T001",
+        "ts": "1743501600.000100",
+        "text": "Agreed. Heads up \u2014 I'm out Apr 17\u201318 for training. @pannadurai is covering clinical queue questions while I'm away."
+      }
+    ],
+    "D001": [
+      {
+        "type": "message",
+        "user": "U001",
+        "team": "T001",
+        "ts": "1737969000.000100",
+        "text": "ESCALATION\nCase #: CASE-2026-00356\nType: Post-Service Standard\nDeadline: 2026-04-01\nTrigger: Missing clinical records required for medical necessity review \u2014 treating facility has not responded to initial records request (Section 9.2 \u2014 documentation gap)\nSummary: Day 5 of 60-day clock. RN reviewer cannot complete medical necessity analysis without the inpatient records. Facility unresponsive to informal outreach. Tolling is appropriate to allow time for formal missing information request.\nMy Recommendation: Send Template A-2 and toll the clock per Section 5.4.\nRequested Action: Approval"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "team": "T001",
+        "ts": "1737969900.000100",
+        "text": "Approved. Send Template A-2 and note the toll start date in the log. Check in by day 14 if nothing's back \u2014 we don't want to be at day 16 with the clock resuming and still no records."
+      }
+    ],
+    "D002": [],
+    "D003": [],
+    "D004": [],
+    "D005": [
+      {
+        "type": "message",
+        "user": "U001",
+        "team": "T001",
+        "ts": "1739959500.000100",
+        "text": "PARITY FLAG\nCase #: CASE-2026-00401\nService Classification: Outpatient BH\nComparable M/S Classification: Outpatient Medical/Surgical, in-network\nFlag Indicator: Prior authorization required for outpatient BH services under EOC Section 4.1; no comparable PA requirement applies to outpatient M/S services in the same classification (NQTL disparity \u2014 Section 8.2)\nCase Folder: appeals-repo/2026/CASE-2026-00401\nDecision Deadline: 2026-03-21"
+      },
+      {
+        "type": "message",
+        "user": "U006",
+        "team": "T001",
+        "ts": "1739964600.000100",
+        "text": "Received. Scheduling parity review for this week \u2014 will confirm before EOD Friday. Keep the case on the standard clock; parity review runs parallel and doesn't toll the deadline."
+      }
+    ],
+    "D006": [],
+    "D007": [],
+    "D008": []
+  },
+  "counters": {
+    "messageId": 1000000
+  }
+}

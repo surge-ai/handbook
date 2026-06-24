@@ -1,0 +1,1 @@
+It's the start of your morning shift as billing specialist - work through your inbox and the active case files, and take care of anything that needs actioning today in line with the CareIG SOP. All relevant files are available in your workspace.

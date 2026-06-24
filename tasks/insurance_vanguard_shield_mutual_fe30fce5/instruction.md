@@ -1,0 +1,1 @@
+You are a junior operations analyst at Vanguard Shield Mutual. Complete the Q1 '26 international wire transfer dual-authorization audit, strictly following SOP. Open the Jira issue and the wire pop workbook identify any wire that lacks dual authorization and follow the escalation procedure for each. Follow the §3.3 exactly, record each outcome in the workbook.

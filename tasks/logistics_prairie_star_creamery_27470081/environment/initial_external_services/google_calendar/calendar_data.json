@@ -1,0 +1,160 @@
+{
+  "events": {
+    "evt-2026-04-07-001": {
+      "id": "evt-2026-04-07-001",
+      "summary": "Scheduled Delivery",
+      "start": {
+        "dateTime": "2026-04-07T08:30:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-07T09:30:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Manifest: 2026-04-07-001\nOrigin: Waco Transfer"
+    },
+    "evt-2026-04-08-001": {
+      "id": "evt-2026-04-08-001",
+      "summary": "Scheduled Delivery",
+      "start": {
+        "dateTime": "2026-04-08T09:15:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-08T10:15:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Manifest: 2026-04-08-001\nOrigin: Waco Transfer"
+    },
+    "evt-2026-04-09-001": {
+      "id": "evt-2026-04-09-001",
+      "summary": "Scheduled Delivery",
+      "start": {
+        "dateTime": "2026-04-09T07:45:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-09T08:45:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Manifest: 2026-04-09-001\nOrigin: Waco Transfer"
+    },
+    "evt-2026-04-10-001": {
+      "id": "evt-2026-04-10-001",
+      "summary": "Scheduled Delivery",
+      "start": {
+        "dateTime": "2026-04-10T10:30:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-10T11:30:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Manifest: 2026-04-10-001\nOrigin: Waco Transfer"
+    },
+    "evt-PKG-02-PO-54830": {
+      "id": "evt-PKG-02-PO-54830",
+      "summary": "Scheduled Delivery",
+      "start": {
+        "dateTime": "2026-04-10T08:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-10T09:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Manifest: PKG-02-PO-54830\nOrigin: Southern Wrap Co."
+    },
+    "evt-DRY-01-PO-54815": {
+      "id": "evt-DRY-01-PO-54815",
+      "summary": "Scheduled Delivery",
+      "start": {
+        "dateTime": "2026-04-07T11:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-07T12:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Manifest: DRY-01-PO-54815\nOrigin: Heartland Bakery Supply"
+    },
+    "evt-CLN-01-PO-54840": {
+      "id": "evt-CLN-01-PO-54840",
+      "summary": "Scheduled Delivery",
+      "start": {
+        "dateTime": "2026-04-11T07:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-11T08:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Manifest: CLN-01-PO-54840\nOrigin: CleanPro Industrial"
+    },
+    "evt-ICE-01-DO-20260411": {
+      "id": "evt-ICE-01-DO-20260411",
+      "summary": "Scheduled Delivery",
+      "start": {
+        "dateTime": "2026-04-11T09:45:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-11T10:45:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Manifest: ICE-01-DO-20260411\nOrigin: Arctic Express"
+    },
+    "evt-2026-04-14-001": {
+      "id": "evt-2026-04-14-001",
+      "summary": "Scheduled Delivery",
+      "start": {
+        "dateTime": "2026-04-14T08:15:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-14T09:15:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Manifest: 2026-04-14-001\nOrigin: Waco Transfer"
+    },
+    "evt-2026-04-15-001": {
+      "id": "evt-2026-04-15-001",
+      "summary": "Scheduled Delivery",
+      "start": {
+        "dateTime": "2026-04-15T09:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-15T09:30:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Manifest: 2026-04-15-001\nOrigin: Waco Transfer"
+    },
+    "evt-2026-04-15-002": {
+      "id": "evt-2026-04-15-002",
+      "summary": "Scheduled Delivery",
+      "start": {
+        "dateTime": "2026-04-15T10:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-15T10:30:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Manifest: 2026-04-15-002\nOrigin: Waco Transfer"
+    },
+    "evt-2026-04-15-003": {
+      "id": "evt-2026-04-15-003",
+      "summary": "Scheduled Delivery",
+      "start": {
+        "dateTime": "2026-04-15T11:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-15T11:30:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Manifest: 2026-04-15-003\nOrigin: Waco Transfer"
+    }
+  }
+}

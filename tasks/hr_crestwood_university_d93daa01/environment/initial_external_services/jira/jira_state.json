@@ -1,0 +1,3069 @@
+{
+  "issues": {
+    "OFFBOARD-4": {
+      "id": "20001",
+      "key": "OFFBOARD-4",
+      "self": "https://jira.crestwood.edu/rest/api/3/issue/OFFBOARD-4",
+      "fields": {
+        "summary": "Offboarding \u2014 Smith, James (E-1064)",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Employee Name: James Smith"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Employee ID: E-1064"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Assignee: HR Coordinator on duty"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Deadline: 02/13/2026"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Status: In Progress"
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10001",
+          "name": "Task",
+          "description": "An HR process task",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "30001",
+          "key": "OFFBOARD",
+          "name": "HR Offboarding",
+          "description": "Employee offboarding cases",
+          "projectTypeKey": "business",
+          "simplified": false,
+          "self": "https://jira.crestwood.edu/rest/api/3/project/OFFBOARD"
+        },
+        "status": {
+          "id": "10003",
+          "name": "In Progress",
+          "description": "Offboarding steps underway",
+          "statusCategory": {
+            "id": 4,
+            "key": "indeterminate",
+            "name": "In Progress",
+            "colorName": "yellow"
+          }
+        },
+        "priority": {
+          "id": "3",
+          "name": "P3 - Standard"
+        },
+        "assignee": {
+          "accountId": "hr-coord-001",
+          "accountType": "atlassian",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "reporter": {
+          "accountId": "n-ashford-001",
+          "accountType": "atlassian",
+          "emailAddress": "n.ashford@crestwood.edu",
+          "displayName": "Nicole Ashford",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "creator": {
+          "accountId": "hr-coord-001",
+          "accountType": "atlassian",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "created": "2026-02-06T09:14:00.000Z",
+        "updated": "2026-02-06T09:14:00.000Z",
+        "labels": [
+          "offboarding",
+          "voluntary-resignation"
+        ],
+        "components": [],
+        "fixVersions": [],
+        "versions": [],
+        "comment": {
+          "comments": [
+            {
+              "id": "40001",
+              "author": {
+                "accountId": "hr-coord-001",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true,
+                "timeZone": "America/Denver"
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "02/06/2026 09:14am [12.1] \u2014 SLACK POSTED \u2014 #hr-offboarding"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-02-06T09:14:00.000Z",
+              "updated": "2026-02-06T09:14:00.000Z"
+            },
+            {
+              "id": "40002",
+              "author": {
+                "accountId": "hr-coord-001",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true,
+                "timeZone": "America/Denver"
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "02/06/2026 09:16am [12.5] \u2014 TEMPLATE SENT \u2014 Template 14 to j.smith@crestwood.edu"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-02-06T09:16:00.000Z",
+              "updated": "2026-02-06T09:16:00.000Z"
+            }
+          ],
+          "maxResults": 10,
+          "total": 2,
+          "startAt": 0
+        }
+      }
+    },
+    "OFFBOARD-3": {
+      "id": "20002",
+      "key": "OFFBOARD-3",
+      "self": "https://jira.crestwood.edu/rest/api/3/issue/OFFBOARD-3",
+      "fields": {
+        "summary": "Offboarding \u2014 Romero, Teresa (E-1052)",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Employee Name: Teresa Romero"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Employee ID: E-1052"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Assignee: HR Coordinator on duty"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Deadline: 02/18/2026"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Status: In Progress"
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10001",
+          "name": "Task",
+          "description": "An HR process task",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "30001",
+          "key": "OFFBOARD",
+          "name": "HR Offboarding",
+          "description": "Employee offboarding cases",
+          "projectTypeKey": "business",
+          "simplified": false,
+          "self": "https://jira.crestwood.edu/rest/api/3/project/OFFBOARD"
+        },
+        "status": {
+          "id": "10003",
+          "name": "In Progress",
+          "description": "Offboarding steps underway",
+          "statusCategory": {
+            "id": 4,
+            "key": "indeterminate",
+            "name": "In Progress",
+            "colorName": "yellow"
+          }
+        },
+        "priority": {
+          "id": "3",
+          "name": "P3 - Standard"
+        },
+        "assignee": {
+          "accountId": "hr-coord-001",
+          "accountType": "atlassian",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "reporter": {
+          "accountId": "hr-coord-001",
+          "accountType": "atlassian",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "creator": {
+          "accountId": "hr-coord-001",
+          "accountType": "atlassian",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "created": "2026-01-20T14:05:00.000Z",
+        "updated": "2026-01-20T14:22:00.000Z",
+        "labels": [
+          "offboarding",
+          "voluntary-resignation"
+        ],
+        "components": [],
+        "fixVersions": [],
+        "versions": [],
+        "comment": {
+          "comments": [
+            {
+              "id": "40010",
+              "author": {
+                "accountId": "hr-coord-001",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true,
+                "timeZone": "America/Denver"
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "01/20/2026 02:05pm [12.1] \u2014 SLACK POSTED \u2014 #hr-offboarding"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-01-20T14:05:00.000Z",
+              "updated": "2026-01-20T14:05:00.000Z"
+            },
+            {
+              "id": "40011",
+              "author": {
+                "accountId": "hr-coord-001",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true,
+                "timeZone": "America/Denver"
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "01/20/2026 02:22pm [12.5] \u2014 TEMPLATE SENT \u2014 Template 14 to t.romero@crestwood.edu"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-01-20T14:22:00.000Z",
+              "updated": "2026-01-20T14:22:00.000Z"
+            }
+          ],
+          "maxResults": 10,
+          "total": 2,
+          "startAt": 0
+        }
+      }
+    },
+    "OFFBOARD-5": {
+      "id": "20003",
+      "key": "OFFBOARD-5",
+      "self": "https://jira.crestwood.edu/rest/api/3/issue/OFFBOARD-5",
+      "fields": {
+        "summary": "Offboarding \u2014 Tran, Gabriel (E-1158)",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Employee Name: Gabriel Tran"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Employee ID: E-1158"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Assignee: HR Coordinator on duty"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Deadline: 02/20/2026"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Status: In Progress"
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10001",
+          "name": "Task",
+          "description": "An HR process task",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "30001",
+          "key": "OFFBOARD",
+          "name": "HR Offboarding",
+          "description": "Employee offboarding cases",
+          "projectTypeKey": "business",
+          "simplified": false,
+          "self": "https://jira.crestwood.edu/rest/api/3/project/OFFBOARD"
+        },
+        "status": {
+          "id": "10003",
+          "name": "In Progress",
+          "description": "Offboarding steps underway",
+          "statusCategory": {
+            "id": 4,
+            "key": "indeterminate",
+            "name": "In Progress",
+            "colorName": "yellow"
+          }
+        },
+        "priority": {
+          "id": "3",
+          "name": "P3 - Standard"
+        },
+        "assignee": {
+          "accountId": "hr-coord-001",
+          "accountType": "atlassian",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "reporter": {
+          "accountId": "hr-coord-001",
+          "accountType": "atlassian",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "creator": {
+          "accountId": "hr-coord-001",
+          "accountType": "atlassian",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "created": "2026-01-14T11:30:00.000Z",
+        "updated": "2026-01-14T11:47:00.000Z",
+        "labels": [
+          "offboarding",
+          "retirement"
+        ],
+        "components": [],
+        "fixVersions": [],
+        "versions": [],
+        "comment": {
+          "comments": [
+            {
+              "id": "40020",
+              "author": {
+                "accountId": "hr-coord-001",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true,
+                "timeZone": "America/Denver"
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "01/14/2026 11:30am [12.1] \u2014 SLACK POSTED \u2014 #hr-offboarding"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-01-14T11:30:00.000Z",
+              "updated": "2026-01-14T11:30:00.000Z"
+            },
+            {
+              "id": "40021",
+              "author": {
+                "accountId": "hr-coord-001",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true,
+                "timeZone": "America/Denver"
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "01/14/2026 11:47am [12.5] \u2014 TEMPLATE SENT \u2014 Template 14 to g.tran@crestwood.edu"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-01-14T11:47:00.000Z",
+              "updated": "2026-01-14T11:47:00.000Z"
+            }
+          ],
+          "maxResults": 10,
+          "total": 2,
+          "startAt": 0
+        }
+      }
+    },
+    "LEAVE-1": {
+      "id": "20005",
+      "key": "LEAVE-1",
+      "self": "https://jira.crestwood.edu/rest/api/3/issue/LEAVE-1",
+      "fields": {
+        "summary": "FMLA Request \u2014 Kelly, Teresa (E-1191)",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Employee Name: Teresa Kelly"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Employee ID: E-1191"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Assignee: Patricia Huang"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Deadline: 01/23/2026"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Status: Approved \u2014 Pending Certification Review"
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10001",
+          "name": "Task",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "30003",
+          "key": "LEAVE",
+          "name": "HR Leave Management",
+          "description": "Leave and accommodation cases",
+          "projectTypeKey": "business",
+          "simplified": false,
+          "self": "https://jira.crestwood.edu/rest/api/3/project/LEAVE"
+        },
+        "status": {
+          "id": "10003",
+          "name": "In Progress",
+          "statusCategory": {
+            "id": 4,
+            "key": "indeterminate",
+            "name": "In Progress",
+            "colorName": "yellow"
+          }
+        },
+        "priority": {
+          "id": "2",
+          "name": "P2 - High"
+        },
+        "assignee": {
+          "accountId": "p-huang-001",
+          "accountType": "atlassian",
+          "emailAddress": "p.huang@crestwood.edu",
+          "displayName": "Patricia Huang",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "reporter": {
+          "accountId": "hr-coord-001",
+          "accountType": "atlassian",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "creator": {
+          "accountId": "hr-coord-001",
+          "accountType": "atlassian",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "created": "2026-01-08T10:15:00.000Z",
+        "updated": "2026-01-13T14:00:00.000Z",
+        "labels": [
+          "leave",
+          "fmla"
+        ],
+        "components": [],
+        "fixVersions": [],
+        "versions": [],
+        "comment": {
+          "comments": [
+            {
+              "id": "40040",
+              "author": {
+                "accountId": "hr-coord-001",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true,
+                "timeZone": "America/Denver"
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "01/08/2026 10:15am [13.1] \u2014 TEMPLATE SENT \u2014 Template 15 to t.kelly@crestwood.edu. Certification due 01/23/2026."
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-01-08T10:15:00.000Z",
+              "updated": "2026-01-08T10:15:00.000Z"
+            },
+            {
+              "id": "40041",
+              "author": {
+                "accountId": "hr-coord-001",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true,
+                "timeZone": "America/Denver"
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "01/13/2026 02:00pm [13.1] \u2014 CONFIRMED RECEIVED \u2014 Medical certification from t.kelly@crestwood.edu. Forwarded to p.huang@crestwood.edu for review."
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-01-13T14:00:00.000Z",
+              "updated": "2026-01-13T14:00:00.000Z"
+            }
+          ],
+          "maxResults": 10,
+          "total": 2,
+          "startAt": 0
+        }
+      }
+    },
+    "OFFBOARD-6": {
+      "id": "20020",
+      "key": "OFFBOARD-6",
+      "self": "https://jira.crestwood.edu/rest/api/3/issue/OFFBOARD-6",
+      "fields": {
+        "summary": "Offboarding \u2014 Williams, Kathryn (E-1069)",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Employee Name: Kathryn Williams"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Employee ID: E-1069"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Assignee: HR Coordinator on duty"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Deadline: 02/06/2026"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Status: Closed"
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10001",
+          "name": "Task",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "30001",
+          "key": "OFFBOARD",
+          "name": "HR Offboarding",
+          "description": "Employee offboarding cases",
+          "projectTypeKey": "business",
+          "simplified": false,
+          "self": "https://jira.crestwood.edu/rest/api/3/project/OFFBOARD"
+        },
+        "status": {
+          "id": "10005",
+          "name": "Closed",
+          "description": "All offboarding steps complete",
+          "statusCategory": {
+            "id": 3,
+            "key": "done",
+            "name": "Done",
+            "colorName": "green"
+          }
+        },
+        "priority": {
+          "id": "2",
+          "name": "P2 - High"
+        },
+        "assignee": {
+          "accountId": "hr-coord-001",
+          "accountType": "atlassian",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "reporter": {
+          "accountId": "n-ashford-001",
+          "accountType": "atlassian",
+          "emailAddress": "n.ashford@crestwood.edu",
+          "displayName": "Nicole Ashford",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "creator": {
+          "accountId": "n-ashford-001",
+          "accountType": "atlassian",
+          "emailAddress": "n.ashford@crestwood.edu",
+          "displayName": "Nicole Ashford",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "created": "2026-02-06T08:15:00.000Z",
+        "updated": "2026-02-06T17:00:00.000Z",
+        "labels": [
+          "offboarding",
+          "involuntary-termination"
+        ],
+        "components": [],
+        "fixVersions": [],
+        "versions": [],
+        "comment": {
+          "comments": [
+            {
+              "id": "40080",
+              "author": {
+                "accountId": "hr-coord-001",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true,
+                "timeZone": "America/Denver"
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "02/06/2026 08:15am [12.1] \u2014 SLACK POSTED \u2014 #hr-offboarding"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-02-06T08:15:00.000Z",
+              "updated": "2026-02-06T08:15:00.000Z"
+            },
+            {
+              "id": "40081",
+              "author": {
+                "accountId": "hr-coord-001",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true,
+                "timeZone": "America/Denver"
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "02/06/2026 08:45am [12.4] \u2014 TEMPLATE SENT \u2014 Template 13 to j.park@crestwood.edu. Revocation: immediate."
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-02-06T08:45:00.000Z",
+              "updated": "2026-02-06T08:45:00.000Z"
+            },
+            {
+              "id": "40083",
+              "author": {
+                "accountId": "hr-coord-001",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true,
+                "timeZone": "America/Denver"
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "02/06/2026 09:15am [12.2] \u2014 TEMPLATE SENT \u2014 Template 11 to k.williams@crestwood.edu. FILE ATTACHED \u2014 cobra_election_form.pdf to k.williams@crestwood.edu. SPREADSHEET UPDATED \u2014 benefits_enrollment.xlsx \u2014 COBRA Notification Date set to 02/06/2026. SPREADSHEET UPDATED \u2014 benefits_enrollment.xlsx \u2014 Status set to Separated \u2013 COBRA Notified."
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-02-06T09:15:00.000Z",
+              "updated": "2026-02-06T09:15:00.000Z"
+            },
+            {
+              "id": "40082",
+              "author": {
+                "accountId": "hr-coord-001",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true,
+                "timeZone": "America/Denver"
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "02/06/2026 05:00pm [12.6] \u2014 CLOSED \u2014 All steps completed."
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-02-06T17:00:00.000Z",
+              "updated": "2026-02-06T17:00:00.000Z"
+            }
+          ],
+          "maxResults": 10,
+          "total": 4,
+          "startAt": 0
+        },
+        "resolutiondate": "2026-02-06T17:00:00.000Z"
+      }
+    },
+    "OFFBOARD-2": {
+      "id": "20019",
+      "key": "OFFBOARD-2",
+      "self": "https://jira.crestwood.edu/rest/api/3/issue/OFFBOARD-2",
+      "fields": {
+        "summary": "Offboarding \u2014 Ramirez, Diana (E-1118)",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Employee Name: Diana Ramirez"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Employee ID: E-1118"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Assignee: HR Coordinator on duty"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Deadline: 01/23/2026"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Status: Closed"
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10001",
+          "name": "Task",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "30001",
+          "key": "OFFBOARD",
+          "name": "HR Offboarding",
+          "description": "Employee offboarding cases",
+          "projectTypeKey": "business",
+          "simplified": false,
+          "self": "https://jira.crestwood.edu/rest/api/3/project/OFFBOARD"
+        },
+        "status": {
+          "id": "10005",
+          "name": "Closed",
+          "description": "All offboarding steps complete",
+          "statusCategory": {
+            "id": 3,
+            "key": "done",
+            "name": "Done",
+            "colorName": "green"
+          }
+        },
+        "priority": {
+          "id": "3",
+          "name": "P3 - Standard"
+        },
+        "assignee": {
+          "accountId": "hr-coord-001",
+          "accountType": "atlassian",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "reporter": {
+          "accountId": "hr-coord-001",
+          "accountType": "atlassian",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "creator": {
+          "accountId": "hr-coord-001",
+          "accountType": "atlassian",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "created": "2026-01-09T10:30:00.000Z",
+        "updated": "2026-02-05T11:00:00.000Z",
+        "resolutiondate": "2026-02-05T11:00:00.000Z",
+        "labels": [
+          "offboarding",
+          "voluntary-resignation"
+        ],
+        "components": [],
+        "fixVersions": [],
+        "versions": [],
+        "comment": {
+          "comments": [
+            {
+              "id": "40070",
+              "author": {
+                "accountId": "hr-coord-001",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true,
+                "timeZone": "America/Denver"
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "01/09/2026 10:30am [12.1] \u2014 SLACK POSTED \u2014 #hr-offboarding"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-01-09T10:30:00.000Z",
+              "updated": "2026-01-09T10:30:00.000Z"
+            },
+            {
+              "id": "40071",
+              "author": {
+                "accountId": "hr-coord-001",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true,
+                "timeZone": "America/Denver"
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "01/09/2026 10:45am [12.5] \u2014 TEMPLATE SENT \u2014 Template 14 to d.ramirez@crestwood.edu"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-01-09T10:45:00.000Z",
+              "updated": "2026-01-09T10:45:00.000Z"
+            },
+            {
+              "id": "40073",
+              "author": {
+                "accountId": "hr-coord-001",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true,
+                "timeZone": "America/Denver"
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "01/23/2026 03:00pm [12.2] \u2014 TEMPLATE SENT \u2014 Template 11 to d.ramirez@crestwood.edu. FILE ATTACHED \u2014 cobra_election_form.pdf to d.ramirez@crestwood.edu. SPREADSHEET UPDATED \u2014 benefits_enrollment.xlsx \u2014 COBRA Notification Date set to 01/23/2026. SPREADSHEET UPDATED \u2014 benefits_enrollment.xlsx \u2014 Status set to Separated \u2013 COBRA Notified."
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-01-23T15:00:00.000Z",
+              "updated": "2026-01-23T15:00:00.000Z"
+            },
+            {
+              "id": "40072",
+              "author": {
+                "accountId": "hr-coord-001",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true,
+                "timeZone": "America/Denver"
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "02/05/2026 11:00am [12.6] \u2014 CLOSED \u2014 All steps completed."
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-02-05T11:00:00.000Z",
+              "updated": "2026-02-05T11:00:00.000Z"
+            }
+          ],
+          "maxResults": 10,
+          "total": 4,
+          "startAt": 0
+        }
+      }
+    },
+    "RECRUIT-1": {
+      "id": "20007",
+      "key": "RECRUIT-1",
+      "self": "https://jira.crestwood.edu/rest/api/3/issue/RECRUIT-1",
+      "fields": {
+        "summary": "Recruiting \u2014 Library Services Coordinator",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Assignee: Derek Okonkwo"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Status: Posted"
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10001",
+          "name": "Task",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "30005",
+          "key": "RECRUIT",
+          "name": "HR Recruiting",
+          "description": "Recruiting and hiring cases",
+          "projectTypeKey": "business",
+          "simplified": false,
+          "self": "https://jira.crestwood.edu/rest/api/3/project/RECRUIT"
+        },
+        "status": {
+          "id": "10003",
+          "name": "In Progress",
+          "statusCategory": {
+            "id": 4,
+            "key": "indeterminate",
+            "name": "In Progress",
+            "colorName": "yellow"
+          }
+        },
+        "priority": {
+          "id": "3",
+          "name": "P3 - Standard"
+        },
+        "assignee": {
+          "accountId": "d-okonkwo-001",
+          "accountType": "atlassian",
+          "emailAddress": "d.okonkwo@crestwood.edu",
+          "displayName": "Derek Okonkwo",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "reporter": {
+          "accountId": "hr-coord-001",
+          "accountType": "atlassian",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "creator": {
+          "accountId": "hr-coord-001",
+          "accountType": "atlassian",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "created": "2026-01-09T09:00:00.000Z",
+        "updated": "2026-01-14T11:00:00.000Z",
+        "labels": [
+          "recruiting"
+        ],
+        "components": [],
+        "fixVersions": [],
+        "versions": []
+      }
+    },
+    "LEAVE-4": {
+      "id": "20009",
+      "key": "LEAVE-4",
+      "self": "https://jira.crestwood.edu/rest/api/3/issue/LEAVE-4",
+      "fields": {
+        "summary": "PTO Balance Inquiry \u2014 Ortiz, Kimberly (E-1190)",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Employee Name: Kimberly Ortiz"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Employee ID: E-1190"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Assignee: Patricia Huang"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Status: Closed"
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10001",
+          "name": "Task",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "30003",
+          "key": "LEAVE",
+          "name": "HR Leave Management",
+          "description": "Leave and accommodation cases",
+          "projectTypeKey": "business",
+          "simplified": false,
+          "self": "https://jira.crestwood.edu/rest/api/3/project/LEAVE"
+        },
+        "status": {
+          "id": "10005",
+          "name": "Closed",
+          "statusCategory": {
+            "id": 3,
+            "key": "done",
+            "name": "Done",
+            "colorName": "green"
+          }
+        },
+        "priority": {
+          "id": "4",
+          "name": "P4 - Low"
+        },
+        "assignee": {
+          "accountId": "p-huang-001",
+          "accountType": "atlassian",
+          "emailAddress": "p.huang@crestwood.edu",
+          "displayName": "Patricia Huang",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "reporter": {
+          "accountId": "hr-coord-001",
+          "accountType": "atlassian",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "creator": {
+          "accountId": "hr-coord-001",
+          "accountType": "atlassian",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "created": "2026-01-27T15:30:00.000Z",
+        "updated": "2026-01-28T09:10:00.000Z",
+        "resolutiondate": "2026-01-28T09:10:00.000Z",
+        "labels": [
+          "leave",
+          "pto"
+        ],
+        "components": [],
+        "fixVersions": [],
+        "versions": []
+      }
+    },
+    "BENEFITS-2": {
+      "id": "20010",
+      "key": "BENEFITS-2",
+      "self": "https://jira.crestwood.edu/rest/api/3/issue/BENEFITS-2",
+      "fields": {
+        "summary": "Benefits Enrollment Change \u2014 Marshall, Sharon (E-1020)",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Employee Name: Sharon Marshall"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Employee ID: E-1020"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Assignee: Calvin Briggs / Patricia Huang"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Status: Closed"
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10001",
+          "name": "Task",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "30006",
+          "key": "BENEFITS",
+          "name": "HR Benefits & Payroll",
+          "description": "Benefits enrollment and payroll cases",
+          "projectTypeKey": "business",
+          "simplified": false,
+          "self": "https://jira.crestwood.edu/rest/api/3/project/BENEFITS"
+        },
+        "status": {
+          "id": "10005",
+          "name": "Closed",
+          "statusCategory": {
+            "id": 3,
+            "key": "done",
+            "name": "Done",
+            "colorName": "green"
+          }
+        },
+        "priority": {
+          "id": "3",
+          "name": "P3 - Standard"
+        },
+        "assignee": {
+          "accountId": "c-briggs-001",
+          "accountType": "atlassian",
+          "emailAddress": "c.briggs@crestwood.edu",
+          "displayName": "Calvin Briggs",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "reporter": {
+          "accountId": "hr-coord-001",
+          "accountType": "atlassian",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "creator": {
+          "accountId": "hr-coord-001",
+          "accountType": "atlassian",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "created": "2026-01-06T10:00:00.000Z",
+        "updated": "2026-01-09T11:30:00.000Z",
+        "resolutiondate": "2026-01-09T11:30:00.000Z",
+        "labels": [
+          "benefits",
+          "qualifying-event"
+        ],
+        "components": [],
+        "fixVersions": [],
+        "versions": []
+      }
+    },
+    "OFFBOARD-1": {
+      "id": "20011",
+      "key": "OFFBOARD-1",
+      "self": "https://jira.crestwood.edu/rest/api/3/issue/OFFBOARD-1",
+      "fields": {
+        "summary": "Offboarding \u2014 Johnson, Judy (E-1156, IT)",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Employee Name: Judy Johnson"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Employee ID: E-1156"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Assignee: HR Coordinator on duty"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Deadline: 01/16/2026"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Status: Closed"
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10001",
+          "name": "Task",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "30001",
+          "key": "OFFBOARD",
+          "name": "HR Offboarding",
+          "description": "Employee offboarding cases",
+          "projectTypeKey": "business",
+          "simplified": false,
+          "self": "https://jira.crestwood.edu/rest/api/3/project/OFFBOARD"
+        },
+        "status": {
+          "id": "10005",
+          "name": "Closed",
+          "statusCategory": {
+            "id": 3,
+            "key": "done",
+            "name": "Done",
+            "colorName": "green"
+          }
+        },
+        "priority": {
+          "id": "3",
+          "name": "P3 - Standard"
+        },
+        "assignee": {
+          "accountId": "hr-coord-001",
+          "accountType": "atlassian",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "reporter": {
+          "accountId": "hr-coord-001",
+          "accountType": "atlassian",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "creator": {
+          "accountId": "hr-coord-001",
+          "accountType": "atlassian",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "created": "2026-01-05T08:45:00.000Z",
+        "updated": "2026-01-30T15:00:00.000Z",
+        "resolutiondate": "2026-01-30T15:00:00.000Z",
+        "labels": [
+          "offboarding",
+          "voluntary-resignation"
+        ],
+        "components": [],
+        "fixVersions": [],
+        "versions": []
+      }
+    },
+    "PERF-2": {
+      "id": "20012",
+      "key": "PERF-2",
+      "self": "https://jira.crestwood.edu/rest/api/3/issue/PERF-2",
+      "fields": {
+        "summary": "Written Warning \u2014 Russell, Charles (E-1024)",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Employee Name: Charles Russell"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Employee ID: E-1024"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Assignee: Nicole Ashford"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Status: Closed"
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10001",
+          "name": "Task",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "30004",
+          "key": "PERF",
+          "name": "HR Performance Management",
+          "description": "Performance and discipline cases",
+          "projectTypeKey": "business",
+          "simplified": false,
+          "self": "https://jira.crestwood.edu/rest/api/3/project/PERF"
+        },
+        "status": {
+          "id": "10005",
+          "name": "Closed",
+          "statusCategory": {
+            "id": 3,
+            "key": "done",
+            "name": "Done",
+            "colorName": "green"
+          }
+        },
+        "priority": {
+          "id": "2",
+          "name": "P2 - High"
+        },
+        "assignee": {
+          "accountId": "n-ashford-001",
+          "accountType": "atlassian",
+          "emailAddress": "n.ashford@crestwood.edu",
+          "displayName": "Nicole Ashford",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "reporter": {
+          "accountId": "hr-coord-001",
+          "accountType": "atlassian",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "creator": {
+          "accountId": "hr-coord-001",
+          "accountType": "atlassian",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "created": "2026-01-20T09:30:00.000Z",
+        "updated": "2026-01-27T14:15:00.000Z",
+        "resolutiondate": "2026-01-27T14:15:00.000Z",
+        "labels": [
+          "performance",
+          "written-warning"
+        ],
+        "components": [],
+        "fixVersions": [],
+        "versions": []
+      }
+    },
+    "LEAVE-2": {
+      "id": "20014",
+      "key": "LEAVE-2",
+      "self": "https://jira.crestwood.edu/rest/api/3/issue/LEAVE-2",
+      "fields": {
+        "summary": "FMLA Request \u2014 Medina, Carl (E-1083)",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Employee Name: Carl Medina"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Employee ID: E-1083"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Assignee: Patricia Huang"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Deadline: 02/18/2026"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Status: In Progress"
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10001",
+          "name": "Task",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "30003",
+          "key": "LEAVE",
+          "name": "HR Leave Management",
+          "description": "Leave and accommodation cases",
+          "projectTypeKey": "business",
+          "simplified": false,
+          "self": "https://jira.crestwood.edu/rest/api/3/project/LEAVE"
+        },
+        "status": {
+          "id": "10003",
+          "name": "In Progress",
+          "statusCategory": {
+            "id": 4,
+            "key": "indeterminate",
+            "name": "In Progress",
+            "colorName": "yellow"
+          }
+        },
+        "priority": {
+          "id": "2",
+          "name": "P2 - High"
+        },
+        "assignee": {
+          "accountId": "p-huang-001",
+          "accountType": "atlassian",
+          "emailAddress": "p.huang@crestwood.edu",
+          "displayName": "Patricia Huang",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "reporter": {
+          "accountId": "hr-coord-001",
+          "accountType": "atlassian",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "creator": {
+          "accountId": "hr-coord-001",
+          "accountType": "atlassian",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "created": "2026-02-03T09:45:00.000Z",
+        "updated": "2026-02-03T10:00:00.000Z",
+        "labels": [
+          "leave",
+          "fmla"
+        ],
+        "components": [],
+        "fixVersions": [],
+        "versions": [],
+        "comment": {
+          "comments": [
+            {
+              "id": "40060",
+              "author": {
+                "accountId": "hr-coord-001",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true,
+                "timeZone": "America/Denver"
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "02/03/2026 09:45am [13.1] \u2014 TEMPLATE SENT \u2014 Template 15 to c.medina@crestwood.edu. Certification due 02/18/2026."
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-02-03T09:45:00.000Z",
+              "updated": "2026-02-03T09:45:00.000Z"
+            },
+            {
+              "id": "40061",
+              "author": {
+                "accountId": "hr-coord-001",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true,
+                "timeZone": "America/Denver"
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "02/03/2026 10:00am [13.1] \u2014 WAITING ON \u2014 c.medina@crestwood.edu \u2014 medical certification form"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-02-03T10:00:00.000Z",
+              "updated": "2026-02-03T10:00:00.000Z"
+            }
+          ],
+          "maxResults": 10,
+          "total": 2,
+          "startAt": 0
+        }
+      }
+    },
+    "BENEFITS-1": {
+      "id": "20016",
+      "key": "BENEFITS-1",
+      "self": "https://jira.crestwood.edu/rest/api/3/issue/BENEFITS-1",
+      "fields": {
+        "summary": "Payroll Discrepancy \u2014 Cruz, Roger (E-1057)",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Employee Name: Roger Cruz"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Employee ID: E-1057"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Assignee: Calvin Briggs"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Status: Closed"
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10001",
+          "name": "Task",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "30006",
+          "key": "BENEFITS",
+          "name": "HR Benefits & Payroll",
+          "description": "Benefits enrollment and payroll cases",
+          "projectTypeKey": "business",
+          "simplified": false,
+          "self": "https://jira.crestwood.edu/rest/api/3/project/BENEFITS"
+        },
+        "status": {
+          "id": "10005",
+          "name": "Closed",
+          "statusCategory": {
+            "id": 3,
+            "key": "done",
+            "name": "Done",
+            "colorName": "green"
+          }
+        },
+        "priority": {
+          "id": "3",
+          "name": "P3 - Standard"
+        },
+        "assignee": {
+          "accountId": "c-briggs-001",
+          "accountType": "atlassian",
+          "emailAddress": "c.briggs@crestwood.edu",
+          "displayName": "Calvin Briggs",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "reporter": {
+          "accountId": "hr-coord-001",
+          "accountType": "atlassian",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "creator": {
+          "accountId": "hr-coord-001",
+          "accountType": "atlassian",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "created": "2026-01-28T11:00:00.000Z",
+        "updated": "2026-02-04T16:00:00.000Z",
+        "resolutiondate": "2026-02-04T16:00:00.000Z",
+        "labels": [
+          "benefits",
+          "payroll"
+        ],
+        "components": [],
+        "fixVersions": [],
+        "versions": []
+      }
+    },
+    "ONBOARD-1": {
+      "id": "20015",
+      "key": "ONBOARD-1",
+      "self": "https://jira.crestwood.edu/rest/api/3/issue/ONBOARD-1",
+      "fields": {
+        "summary": "Onboarding \u2014 Garza, Dorothy (E-1031)",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Employee Name: Dorothy Garza"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Employee ID: E-1031"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Assignee: HR Coordinator on duty"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Status: In Progress"
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10001",
+          "name": "Task",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "30002",
+          "key": "ONBOARD",
+          "name": "HR Onboarding",
+          "description": "Employee onboarding cases",
+          "projectTypeKey": "business",
+          "simplified": false,
+          "self": "https://jira.crestwood.edu/rest/api/3/project/ONBOARD"
+        },
+        "status": {
+          "id": "10003",
+          "name": "In Progress",
+          "statusCategory": {
+            "id": 4,
+            "key": "indeterminate",
+            "name": "In Progress",
+            "colorName": "yellow"
+          }
+        },
+        "priority": {
+          "id": "3",
+          "name": "P3 - Standard"
+        },
+        "assignee": {
+          "accountId": "hr-coord-001",
+          "accountType": "atlassian",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "reporter": {
+          "accountId": "hr-coord-001",
+          "accountType": "atlassian",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "creator": {
+          "accountId": "hr-coord-001",
+          "accountType": "atlassian",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "created": "2026-01-14T08:00:00.000Z",
+        "updated": "2026-02-09T09:00:00.000Z",
+        "labels": [
+          "onboarding"
+        ],
+        "components": [],
+        "fixVersions": [],
+        "versions": [],
+        "comment": {
+          "comments": [
+            {
+              "id": "41001",
+              "author": {
+                "accountId": "hr-coord-001",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true,
+                "timeZone": "America/Denver"
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "01/25/2026 08:00am [11.1] \u2014 SPREADSHEET UPDATED \u2014 employee_roster.xlsx \u2014 Status set to Onboarding"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-01-25T08:00:00.000Z",
+              "updated": "2026-01-25T08:00:00.000Z"
+            },
+            {
+              "id": "41002",
+              "author": {
+                "accountId": "hr-coord-001",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true,
+                "timeZone": "America/Denver"
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "01/25/2026 08:02am [11.1] \u2014 SPREADSHEET UPDATED \u2014 onboarding_checklist.xlsx \u2014 New row created for Dorothy Garza (E-1031); all fields blank"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-01-25T08:02:00.000Z",
+              "updated": "2026-01-25T08:02:00.000Z"
+            },
+            {
+              "id": "41003",
+              "author": {
+                "accountId": "hr-coord-001",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true,
+                "timeZone": "America/Denver"
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "01/25/2026 08:05am [11.1] \u2014 SLACK POSTED \u2014 #hr-onboarding"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-01-25T08:05:00.000Z",
+              "updated": "2026-01-25T08:05:00.000Z"
+            },
+            {
+              "id": "41004",
+              "author": {
+                "accountId": "hr-coord-001",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true,
+                "timeZone": "America/Denver"
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "01/25/2026 08:10am [11.1] \u2014 TEMPLATE SENT \u2014 Template 4 to d.garza@crestwood.edu. FILE ATTACHED \u2014 i9_form.pdf to d.garza@crestwood.edu"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-01-25T08:10:00.000Z",
+              "updated": "2026-01-25T08:10:00.000Z"
+            },
+            {
+              "id": "41005",
+              "author": {
+                "accountId": "hr-coord-001",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true,
+                "timeZone": "America/Denver"
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "01/25/2026 08:15am [11.1] \u2014 TEMPLATE SENT \u2014 Template 5 to j.park@crestwood.edu"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-01-25T08:15:00.000Z",
+              "updated": "2026-01-25T08:15:00.000Z"
+            },
+            {
+              "id": "41006",
+              "author": {
+                "accountId": "hr-coord-001",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true,
+                "timeZone": "America/Denver"
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "01/25/2026 08:20am [11.1] \u2014 TEMPLATE SENT \u2014 Template 31 to k.russell@crestwood.edu. FILE ATTACHED \u2014 i9_form.pdf to k.russell@crestwood.edu. FILE ATTACHED \u2014 benefits_enrollment_packet.pdf to k.russell@crestwood.edu"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-01-25T08:20:00.000Z",
+              "updated": "2026-01-25T08:20:00.000Z"
+            },
+            {
+              "id": "41007",
+              "author": {
+                "accountId": "hr-coord-001",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true,
+                "timeZone": "America/Denver"
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "01/25/2026 08:25am [11.1] \u2014 CALENDAR EVENT CREATED \u2014 Orientation \u2013 Dorothy Garza on 01/25/2026"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-01-25T08:25:00.000Z",
+              "updated": "2026-01-25T08:25:00.000Z"
+            },
+            {
+              "id": "41008",
+              "author": {
+                "accountId": "hr-coord-001",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true,
+                "timeZone": "America/Denver"
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "02/09/2026 09:00am [11.3] \u2014 TEMPLATE SENT \u2014 Template 8 to d.garza@crestwood.edu. SPREADSHEET UPDATED \u2014 onboarding_checklist.xlsx \u2014 Benefits Reminder (Day 15) set to 02/09/2026"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-02-09T09:00:00.000Z",
+              "updated": "2026-02-09T09:00:00.000Z"
+            }
+          ],
+          "maxResults": 10,
+          "total": 8,
+          "startAt": 0
+        }
+      }
+    },
+    "LEAVE-3": {
+      "id": "20017",
+      "key": "LEAVE-3",
+      "self": "https://jira.crestwood.edu/rest/api/3/issue/LEAVE-3",
+      "fields": {
+        "summary": "ADA Accommodation Request \u2014 Murphy, Ashley (E-1021)",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Employee Name: Ashley Murphy"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Employee ID: E-1021"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Assignee: Patricia Huang"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Status: In Progress"
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10001",
+          "name": "Task",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "30003",
+          "key": "LEAVE",
+          "name": "HR Leave Management",
+          "description": "Leave and accommodation cases",
+          "projectTypeKey": "business",
+          "simplified": false,
+          "self": "https://jira.crestwood.edu/rest/api/3/project/LEAVE"
+        },
+        "status": {
+          "id": "10003",
+          "name": "In Progress",
+          "statusCategory": {
+            "id": 4,
+            "key": "indeterminate",
+            "name": "In Progress",
+            "colorName": "yellow"
+          }
+        },
+        "priority": {
+          "id": "2",
+          "name": "P2 - High"
+        },
+        "assignee": {
+          "accountId": "p-huang-001",
+          "accountType": "atlassian",
+          "emailAddress": "p.huang@crestwood.edu",
+          "displayName": "Patricia Huang",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "reporter": {
+          "accountId": "hr-coord-001",
+          "accountType": "atlassian",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "creator": {
+          "accountId": "hr-coord-001",
+          "accountType": "atlassian",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "created": "2026-01-30T10:20:00.000Z",
+        "updated": "2026-02-01T09:00:00.000Z",
+        "labels": [
+          "leave",
+          "ada"
+        ],
+        "components": [],
+        "fixVersions": [],
+        "versions": []
+      }
+    },
+    "PERF-1": {
+      "id": "20006",
+      "key": "PERF-1",
+      "self": "https://jira.crestwood.edu/rest/api/3/issue/PERF-1",
+      "fields": {
+        "summary": "PIP Initiated \u2014 Diaz, Austin (E-1032)",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Employee Name: Austin Diaz"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Employee ID: E-1032"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Assignee: Nicole Ashford"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Deadline: 03/16/2026"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Status: In Progress"
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10001",
+          "name": "Task",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "30004",
+          "key": "PERF",
+          "name": "HR Performance Management",
+          "description": "Performance and discipline cases",
+          "projectTypeKey": "business",
+          "simplified": false,
+          "self": "https://jira.crestwood.edu/rest/api/3/project/PERF"
+        },
+        "status": {
+          "id": "10003",
+          "name": "In Progress",
+          "statusCategory": {
+            "id": 4,
+            "key": "indeterminate",
+            "name": "In Progress",
+            "colorName": "yellow"
+          }
+        },
+        "priority": {
+          "id": "2",
+          "name": "P2 - High"
+        },
+        "assignee": {
+          "accountId": "n-ashford-001",
+          "accountType": "atlassian",
+          "emailAddress": "n.ashford@crestwood.edu",
+          "displayName": "Nicole Ashford",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "reporter": {
+          "accountId": "hr-coord-001",
+          "accountType": "atlassian",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "creator": {
+          "accountId": "hr-coord-001",
+          "accountType": "atlassian",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "created": "2026-01-15T13:00:00.000Z",
+        "updated": "2026-01-15T13:45:00.000Z",
+        "labels": [
+          "performance",
+          "pip"
+        ],
+        "components": [],
+        "fixVersions": [],
+        "versions": [],
+        "comment": {
+          "comments": [
+            {
+              "id": "40050",
+              "author": {
+                "accountId": "hr-coord-001",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true,
+                "timeZone": "America/Denver"
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "01/15/2026 01:00pm [14.3] \u2014 SLACK POSTED \u2014 #hr-performance. PIP duration: 60 days. End date: 03/16/2026."
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-01-15T13:00:00.000Z",
+              "updated": "2026-01-15T13:00:00.000Z"
+            },
+            {
+              "id": "40051",
+              "author": {
+                "accountId": "hr-coord-001",
+                "accountType": "atlassian",
+                "emailAddress": "hr@crestwood.edu",
+                "displayName": "HR Coordinator",
+                "active": true,
+                "timeZone": "America/Denver"
+              },
+              "body": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "01/15/2026 01:45pm [14.3] \u2014 CALENDAR EVENT CREATED \u2014 PIP Review \u2014 Austin Diaz on 03/16/2026"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "created": "2026-01-15T13:45:00.000Z",
+              "updated": "2026-01-15T13:45:00.000Z"
+            }
+          ],
+          "maxResults": 10,
+          "total": 2,
+          "startAt": 0
+        }
+      }
+    },
+    "ONBOARD-2": {
+      "id": "20008",
+      "key": "ONBOARD-2",
+      "self": "https://jira.crestwood.edu/rest/api/3/issue/ONBOARD-2",
+      "fields": {
+        "summary": "Onboarding \u2014 Sanders, Billy (E-1104)",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Employee Name: Billy Sanders"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Employee ID: E-1104"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Assignee: HR Coordinator on duty"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Status: Closed"
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10001",
+          "name": "Task",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "30002",
+          "key": "ONBOARD",
+          "name": "HR Onboarding",
+          "description": "Employee onboarding cases",
+          "projectTypeKey": "business",
+          "simplified": false,
+          "self": "https://jira.crestwood.edu/rest/api/3/project/ONBOARD"
+        },
+        "status": {
+          "id": "10005",
+          "name": "Closed",
+          "statusCategory": {
+            "id": 3,
+            "key": "done",
+            "name": "Done",
+            "colorName": "green"
+          }
+        },
+        "priority": {
+          "id": "3",
+          "name": "P3 - Standard"
+        },
+        "assignee": {
+          "accountId": "hr-coord-001",
+          "accountType": "atlassian",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "reporter": {
+          "accountId": "hr-coord-001",
+          "accountType": "atlassian",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "creator": {
+          "accountId": "hr-coord-001",
+          "accountType": "atlassian",
+          "emailAddress": "hr@crestwood.edu",
+          "displayName": "HR Coordinator",
+          "active": true,
+          "timeZone": "America/Denver"
+        },
+        "created": "2025-09-26T08:00:00.000Z",
+        "updated": "2025-11-10T10:30:00.000Z",
+        "resolutiondate": "2025-11-10T10:30:00.000Z",
+        "labels": [
+          "onboarding"
+        ],
+        "components": [],
+        "fixVersions": [],
+        "versions": [],
+        "self": ""
+      }
+    }
+  },
+  "sprints": {},
+  "comments": {},
+  "projects": {
+    "OFFBOARD": {
+      "id": "30001",
+      "key": "OFFBOARD",
+      "name": "HR Offboarding",
+      "description": "Employee offboarding cases",
+      "projectTypeKey": "business",
+      "simplified": false,
+      "self": "https://jira.crestwood.edu/rest/api/3/project/OFFBOARD"
+    },
+    "ONBOARD": {
+      "id": "30002",
+      "key": "ONBOARD",
+      "name": "HR Onboarding",
+      "description": "Employee onboarding cases",
+      "projectTypeKey": "business",
+      "simplified": false,
+      "self": "https://jira.crestwood.edu/rest/api/3/project/ONBOARD"
+    },
+    "LEAVE": {
+      "id": "30003",
+      "key": "LEAVE",
+      "name": "HR Leave Management",
+      "description": "Leave and accommodation cases",
+      "projectTypeKey": "business",
+      "simplified": false,
+      "self": "https://jira.crestwood.edu/rest/api/3/project/LEAVE"
+    },
+    "PERF": {
+      "id": "30004",
+      "key": "PERF",
+      "name": "HR Performance Management",
+      "description": "Performance and discipline cases",
+      "projectTypeKey": "business",
+      "simplified": false,
+      "self": "https://jira.crestwood.edu/rest/api/3/project/PERF"
+    },
+    "RECRUIT": {
+      "id": "30005",
+      "key": "RECRUIT",
+      "name": "HR Recruiting",
+      "description": "Recruiting and hiring cases",
+      "projectTypeKey": "business",
+      "simplified": false,
+      "self": "https://jira.crestwood.edu/rest/api/3/project/RECRUIT"
+    },
+    "BENEFITS": {
+      "id": "30006",
+      "key": "BENEFITS",
+      "name": "HR Benefits & Payroll",
+      "description": "Benefits enrollment and payroll cases",
+      "projectTypeKey": "business",
+      "simplified": false,
+      "self": "https://jira.crestwood.edu/rest/api/3/project/BENEFITS"
+    }
+  },
+  "fields": [
+    {
+      "id": "summary",
+      "key": "summary",
+      "name": "Summary",
+      "custom": false,
+      "searchable": true
+    },
+    {
+      "id": "description",
+      "key": "description",
+      "name": "Description",
+      "custom": false,
+      "searchable": true
+    },
+    {
+      "id": "status",
+      "key": "status",
+      "name": "Status",
+      "custom": false,
+      "searchable": true
+    },
+    {
+      "id": "priority",
+      "key": "priority",
+      "name": "Priority",
+      "custom": false,
+      "searchable": true
+    },
+    {
+      "id": "assignee",
+      "key": "assignee",
+      "name": "Assignee",
+      "custom": false,
+      "searchable": true
+    },
+    {
+      "id": "reporter",
+      "key": "reporter",
+      "name": "Reporter",
+      "custom": false,
+      "searchable": true
+    },
+    {
+      "id": "created",
+      "key": "created",
+      "name": "Created",
+      "custom": false,
+      "searchable": true
+    },
+    {
+      "id": "updated",
+      "key": "updated",
+      "name": "Updated",
+      "custom": false,
+      "searchable": true
+    },
+    {
+      "id": "labels",
+      "key": "labels",
+      "name": "Labels",
+      "custom": false,
+      "searchable": true
+    },
+    {
+      "id": "issuetype",
+      "key": "issuetype",
+      "name": "Issue Type",
+      "custom": false,
+      "searchable": true
+    }
+  ],
+  "linkTypes": [
+    {
+      "id": "10001",
+      "name": "Blocks",
+      "inward": "is blocked by",
+      "outward": "blocks"
+    },
+    {
+      "id": "10002",
+      "name": "Duplicate",
+      "inward": "is duplicated by",
+      "outward": "duplicates"
+    },
+    {
+      "id": "10003",
+      "name": "Relates",
+      "inward": "relates to",
+      "outward": "relates to"
+    }
+  ],
+  "counters": {
+    "issueId": 20020,
+    "sprintId": 1000,
+    "commentId": 40081
+  },
+  "users": {
+    "hr-coord-001": {
+      "accountId": "hr-coord-001",
+      "displayName": "HR Coordinator",
+      "accountType": "atlassian",
+      "emailAddress": "hr@crestwood.edu"
+    },
+    "n-ashford-001": {
+      "accountId": "n-ashford-001",
+      "displayName": "Nicole Ashford",
+      "accountType": "atlassian",
+      "emailAddress": "n.ashford@crestwood.edu"
+    },
+    "p-huang-001": {
+      "accountId": "p-huang-001",
+      "displayName": "Patricia Huang",
+      "accountType": "atlassian",
+      "emailAddress": "p.huang@crestwood.edu"
+    },
+    "d-okonkwo-001": {
+      "accountId": "d-okonkwo-001",
+      "displayName": "Derek Okonkwo",
+      "accountType": "atlassian",
+      "emailAddress": "d.okonkwo@crestwood.edu"
+    },
+    "c-briggs-001": {
+      "accountId": "c-briggs-001",
+      "displayName": "Calvin Briggs",
+      "accountType": "atlassian",
+      "emailAddress": "c.briggs@crestwood.edu"
+    }
+  },
+  "boards": {},
+  "statuses": {
+    "1": {
+      "id": "1",
+      "name": "In Progress",
+      "statusCategory": {
+        "id": 4,
+        "key": "indeterminate",
+        "name": "In Progress",
+        "colorName": "yellow"
+      }
+    },
+    "2": {
+      "id": "2",
+      "name": "Closed",
+      "statusCategory": {
+        "id": 3,
+        "key": "done",
+        "name": "Done",
+        "colorName": "green"
+      }
+    }
+  },
+  "workflow": {
+    "In Progress": [
+      {
+        "id": "1",
+        "name": "To In Progress",
+        "to": "In Progress"
+      },
+      {
+        "id": "2",
+        "name": "To Closed",
+        "to": "Closed"
+      }
+    ],
+    "Closed": [
+      {
+        "id": "3",
+        "name": "To In Progress",
+        "to": "In Progress"
+      },
+      {
+        "id": "4",
+        "name": "To Closed",
+        "to": "Closed"
+      }
+    ]
+  },
+  "defaultStatusValue": "In Progress"
+}

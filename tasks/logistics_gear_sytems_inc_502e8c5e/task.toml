@@ -1,0 +1,23 @@
+schema_version = "1.1"
+
+[task]
+name = "sop-tasks/logistics_gear_sytems_inc_502e8c5e"
+description = "SOP task from CSV row 502e8c5e"
+
+[agent]
+timeout_sec = 3600.0
+
+[verifier]
+timeout_sec = 3600.0
+
+[environment]
+os = "linux"
+cpus = 2
+memory_mb = 4096
+env = { INPUTDIR = "/data", OUTPUTDIR = "/data", WORLDBENCH_TOOL_SETS = "syntara_ds_all google_mail_contacts slack_core google_mail_core google_calendar_core jira_core shopify_core" }
+
+[[environment.mcp_servers]]
+name = "mcp-proxy"
+transport = "streamable-http"
+url = "http://localhost:8000/mcp"
+

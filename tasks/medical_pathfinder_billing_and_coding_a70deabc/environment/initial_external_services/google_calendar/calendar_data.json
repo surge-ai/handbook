@@ -1,0 +1,144 @@
+{
+  "events": {
+    "evt-1": {
+      "id": "evt-1",
+      "summary": "CLM-2026-0005 TFL Deadline",
+      "start": {
+        "date": "2025-12-11"
+      },
+      "end": {
+        "date": "2025-12-12"
+      }
+    },
+    "evt-2": {
+      "id": "evt-2",
+      "summary": "CLM-2026-0012 TFL Deadline",
+      "start": {
+        "date": "2026-01-28"
+      },
+      "end": {
+        "date": "2026-01-29"
+      }
+    },
+    "evt-3": {
+      "id": "evt-3",
+      "summary": "CLM-2026-0018 TFL Deadline",
+      "start": {
+        "date": "2026-03-05"
+      },
+      "end": {
+        "date": "2026-03-06"
+      }
+    },
+    "evt-4": {
+      "id": "evt-4",
+      "summary": "CLM-2026-0025 TFL Deadline",
+      "start": {
+        "date": "2026-03-08"
+      },
+      "end": {
+        "date": "2026-03-09"
+      }
+    },
+    "evt-5": {
+      "id": "evt-5",
+      "summary": "CLM-2026-0052 TFL Deadline",
+      "start": {
+        "date": "2025-12-14"
+      },
+      "end": {
+        "date": "2025-12-15"
+      }
+    },
+    "evt-6": {
+      "id": "evt-6",
+      "summary": "CLM-2026-0022 TFL Deadline",
+      "start": {
+        "date": "2026-02-09"
+      },
+      "end": {
+        "date": "2026-02-10"
+      }
+    },
+    "evt-7": {
+      "id": "evt-7",
+      "summary": "CLM-2026-0029 TFL Deadline",
+      "start": {
+        "date": "2026-03-20"
+      },
+      "end": {
+        "date": "2026-03-21"
+      }
+    },
+    "evt-8": {
+      "id": "evt-8",
+      "summary": "CLM-2026-0031 TFL Deadline",
+      "start": {
+        "date": "2026-05-25"
+      },
+      "end": {
+        "date": "2026-05-26"
+      }
+    },
+    "evt-9": {
+      "id": "evt-9",
+      "summary": "CLM-2026-0033 TFL Deadline",
+      "start": {
+        "date": "2026-04-15"
+      },
+      "end": {
+        "date": "2026-04-16"
+      }
+    },
+    "evt-10": {
+      "id": "evt-10",
+      "summary": "CLM-2026-0038 TFL Deadline",
+      "start": {
+        "date": "2026-03-11"
+      },
+      "end": {
+        "date": "2026-03-12"
+      }
+    },
+    "evt-11": {
+      "id": "evt-11",
+      "summary": "CLM-2026-0041 TFL Deadline",
+      "start": {
+        "date": "2026-03-15"
+      },
+      "end": {
+        "date": "2026-03-16"
+      }
+    },
+    "evt-12": {
+      "id": "evt-12",
+      "summary": "CLM-2026-0047 TFL Deadline",
+      "start": {
+        "date": "2026-04-15"
+      },
+      "end": {
+        "date": "2026-04-16"
+      }
+    },
+    "evt-13": {
+      "id": "evt-13",
+      "summary": "CLM-2026-0048 TFL Deadline",
+      "start": {
+        "date": "2026-03-20"
+      },
+      "end": {
+        "date": "2026-03-21"
+      }
+    },
+    "evt-14": {
+      "id": "evt-14",
+      "summary": "CLM-2026-0049 TFL Deadline",
+      "start": {
+        "date": "2026-03-10"
+      },
+      "end": {
+        "date": "2026-03-11"
+      }
+    }
+  }
+}

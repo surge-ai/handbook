@@ -1,0 +1,926 @@
+{
+  "mailbox": {
+    "email": "k.whitfield@gearsystems.com",
+    "name": "Kay Whitfield"
+  },
+  "contacts": [
+    {
+      "email": "k.whitfield@gearsystems.com",
+      "name": "Kay Whitfield"
+    },
+    {
+      "email": "t.brandt@gearsystems.com",
+      "name": "Theo Brandt"
+    },
+    {
+      "email": "e.velasquez@gearsystems.com",
+      "name": "Elizabeth Velasquez"
+    },
+    {
+      "email": "d.hooks@gearsystems.com",
+      "name": "Darnell Hooks"
+    },
+    {
+      "email": "j.park@gearsystems.com",
+      "name": "Joon-ho Park"
+    },
+    {
+      "email": "c.yablonski@gearsystems.com",
+      "name": "Curtis Yablonski"
+    },
+    {
+      "email": "m.ortiz@gearsystems.com",
+      "name": "Maribel Ortiz"
+    },
+    {
+      "email": "a.krishnamurthy@gearsystems.com",
+      "name": "Aditi Krishnamurthy"
+    },
+    {
+      "email": "w.finch@gearsystems.com",
+      "name": "Walter Finch"
+    },
+    {
+      "email": "c.wojciechowski@gearsystems.com",
+      "name": "Chris Wojciechowski"
+    },
+    {
+      "email": "m.hendricks@lakewoodprecision.com",
+      "name": "Mark Hendricks"
+    },
+    {
+      "email": "s.chu@lakewoodprecision.com",
+      "name": "Sandra Chu"
+    },
+    {
+      "email": "d.kowalski@hartwellbearing.com",
+      "name": "David Kowalski"
+    },
+    {
+      "email": "l.okafor@hartwellbearing.com",
+      "name": "Lisa Okafor"
+    },
+    {
+      "email": "t.ricci@cascadefastener.com",
+      "name": "Tom Ricci"
+    },
+    {
+      "email": "a.metz@cascadefastener.com",
+      "name": "Angela Metz"
+    },
+    {
+      "email": "c.ortega@meridianlube.com",
+      "name": "Carlos Ortega"
+    },
+    {
+      "email": "w.park@greatlakestrans.com",
+      "name": "Wendy Park"
+    },
+    {
+      "email": "k.baxter@greatlakestrans.com",
+      "name": "Kevin Baxter"
+    },
+    {
+      "email": "p.nguyen@ironcladbrake.com",
+      "name": "Phil Nguyen"
+    },
+    {
+      "email": "f.wu@appalachianseal.com",
+      "name": "Frances Wu"
+    },
+    {
+      "email": "j.reyes@appalachianseal.com",
+      "name": "Jorge Reyes"
+    },
+    {
+      "email": "b.simmons@deltametals.com",
+      "name": "Brenda Simmons"
+    },
+    {
+      "email": "h.yuen@deltametals.com",
+      "name": "Harold Yuen"
+    },
+    {
+      "email": "m.cross@ridgelineaxles.com",
+      "name": "Monica Cross"
+    },
+    {
+      "email": "r.lemoine@gearsystems.com",
+      "name": "Reggie Lemoine"
+    }
+  ],
+  "groups": [
+    {
+      "email": "quality-team@gearsystems.com",
+      "name": "Quality Team",
+      "members": [
+        "t.brandt@gearsystems.com",
+        "c.yablonski@gearsystems.com",
+        "m.ortiz@gearsystems.com"
+      ]
+    },
+    {
+      "email": "receiving-team@gearsystems.com",
+      "name": "Receiving Team",
+      "members": [
+        "k.whitfield@gearsystems.com",
+        "c.yablonski@gearsystems.com",
+        "d.hooks@gearsystems.com"
+      ]
+    },
+    {
+      "email": "supply-chain@gearsystems.com",
+      "name": "Supply Chain Team",
+      "members": [
+        "e.velasquez@gearsystems.com",
+        "k.whitfield@gearsystems.com",
+        "j.park@gearsystems.com",
+        "c.wojciechowski@gearsystems.com"
+      ]
+    }
+  ],
+  "folders": [
+    {
+      "name": "Archive"
+    },
+    {
+      "name": "NCRs"
+    },
+    {
+      "name": "Supplier Correspondence"
+    },
+    {
+      "name": "Quality Holds"
+    },
+    {
+      "name": "Dock Schedule"
+    },
+    {
+      "name": "Internal"
+    }
+  ],
+  "emails": [
+    {
+      "email_id": "0001",
+      "message_id": "<msg0001@gearsystems-meridian.com>",
+      "folder": "Sent",
+      "subject": "URGENT: Receipt REC-20260414-001 \u2014 Safety-Critical Quarantine, Missing COC [NCR-MER-2026-0247]",
+      "from_addr": "k.whitfield@gearsystems.com",
+      "to_addr": "t.brandt@gearsystems.com, j.park@gearsystems.com",
+      "cc_addr": "d.hooks@gearsystems.com",
+      "bcc_addr": null,
+      "date": "2026-04-14T06:55:00-05:00",
+      "body_text": "Theo, Joon-ho,\n\nReceipt REC-20260414-001 arrived at 06:48 CST this morning on Dock 2 \u2014 Lakewood Precision Forgings, XPO Logistics, PO MER-PO-104821. Three safety-critical lines:\n\n  Line 001: AX-04827-B2 (Axle Housing Assy, Rear) \u2014 44 received vs. 48 ordered (\u22124 units, Band 1 short ship)\n  Line 002: AX-05512-C1 (Axle Shaft, Drive, LH) \u2014 96 received, exact count\n  Line 003: FG-91144-A1 (Forged Gear Blank, 8-spline) \u2014 200 received, exact count\n\nDocumentation check: MTR present and verified (heats HT-2026-1184, HT-2026-1185, HT-2026-0997). COC is MISSING. Packing slip notes \"COC will follow by email.\" Per Section 12.5.1, the entire receipt is quarantined effective now.\n\nNCR-MER-2026-0247 issued: Critical severity (AX/FG families, missing COC on safety-critical receipt). Template 10 letter going to Lakewood now. Supplier has 5 business days to provide COC \u2014 due by close of business 04/21/2026 (17:00 CST).\n\nMaterial is on Q-HOLD in Q-HOLD staging. Please confirm receipt of this notice.\n\n\u2014 K.W.\nInbound Materials Coordinator\nGear Systems Inc., Meridian MS",
+      "body_html": null,
+      "attachments": [],
+      "is_read": true,
+      "is_important": false,
+      "in_reply_to": null
+    },
+    {
+      "email_id": "0002",
+      "message_id": "<msg0002@gearsystems-meridian.com>",
+      "folder": "Sent",
+      "subject": "NONCONFORMANCE NOTICE \u2014 NCR-MER-2026-0247 (Critical) \u2014 Missing Certificate of Conformance",
+      "from_addr": "k.whitfield@gearsystems.com",
+      "to_addr": "m.hendricks@lakewoodprecision.com, s.chu@lakewoodprecision.com",
+      "cc_addr": "j.park@gearsystems.com, t.brandt@gearsystems.com",
+      "bcc_addr": null,
+      "date": "2026-04-14T07:30:00-05:00",
+      "body_text": "Mark, Sandra,\n\nNCR Number:       NCR-MER-2026-0247\nIssue Date:       April 14, 2026\nSeverity:         CRITICAL\nNCR Type:         Documentation Deficiency / Quantity Variance\nPO Number:        MER-PO-104821\nReceipt ID:       REC-20260414-001\nSKUs Affected:    AX-04827-B2, AX-05512-C1, FG-91144-A1\nQuantity Affected: 340 units total (all lines quarantined)\nDollar Value:     $52,300.00 (full quarantined receipt: 44\u00d7AX-04827-B2 + 96\u00d7AX-05512-C1 + 200\u00d7FG-91144-A1)\n\nDEFICIENCY DESCRIPTION:\nCertificate of Conformance (COC) was absent from this shipment. Your packing slip noted \"COC will follow by email.\" Per our SOP, all safety-critical materials in families AX and FG require a COC prior to putaway. The entire receipt REC-20260414-001 has been placed on quarantine hold (Q-HOLD) effective 06:55 CST today.\n\nAdditionally, Line 001 (AX-04827-B2) shows a Band 1 short ship: 44 received vs. 48 ordered (\u22124 units, \u22128.3%). Please confirm whether a balance shipment is planned and provide the expected ship date.\n\nREQUIRED ACTION:\nPlease provide the missing COC for this receipt by:\n\n  Due Date: April 21, 2026 at 17:00 CST\n\nThe COC must reference:\n  \u2014 PO MER-PO-104821\n  \u2014 All three line items (AX-04827-B2, AX-05512-C1, FG-91144-A1)\n  \u2014 Applicable heat numbers (HT-2026-1184, HT-2026-1185, HT-2026-0997 per your MTR)\n\nUntil the COC is received and verified, no material from this receipt may be moved to production stock. Please acknowledge this notice within one business day.\n\nKay Whitfield\nInbound Materials Coordinator\nGear Systems Inc.\nk.whitfield@gearsystems.com | 601-555-2001",
+      "body_html": null,
+      "attachments": [
+        {
+          "filename": "NCR-MER-2026-0247_Notice.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "TkNSLU1FUi0yMDI2LTAyNDcgTm90aWNlIOKAlCBHZWFyIFN5c3RlbXMgSW5jLiDigJQgRm9ybWFsIE5DUiBMZXR0ZXIg4oCUIEFYL0ZHIHBhcnRzIHF1YXJhbnRpbmUsIG1pc3NpbmcgQ09DLCBNRVItUE8tMTA0ODIx"
+        }
+      ],
+      "is_read": true,
+      "is_important": false,
+      "in_reply_to": "<msg0001@gearsystems-meridian.com>"
+    },
+    {
+      "email_id": "0003",
+      "message_id": "<msg0003@gearsystems-meridian.com>",
+      "folder": "INBOX",
+      "subject": "RE: NONCONFORMANCE NOTICE \u2014 NCR-MER-2026-0247 (Critical) \u2014 Missing Certificate of Conformance",
+      "from_addr": "m.hendricks@lakewoodprecision.com",
+      "to_addr": "k.whitfield@gearsystems.com",
+      "cc_addr": "s.chu@lakewoodprecision.com, j.park@gearsystems.com",
+      "bcc_addr": null,
+      "date": "2026-04-14T09:14:00-05:00",
+      "body_text": "Kay,\n\nThank you for the NCR notice. I have forwarded this to Sandra Chu (Quality) who will coordinate getting you the COC. We apologize for the oversight \u2014 it appears the COC was printed but not included in the shipment packet.\n\nSandra will be in touch with you directly regarding the COC documentation. We anticipate being able to provide it within two business days.\n\nRegarding the short shipment on AX-04827-B2: we shipped 44 units per the partial release approved by Joon-ho Park on 04/11. Our records show PO MER-PO-104821 Line 001 has a remaining balance of 4 units. We will include these in our next scheduled run, estimated ship date April 22.\n\nMark Hendricks\nCommercial Account Manager\nLakewood Precision Forgings\n414-555-0191",
+      "body_html": null,
+      "attachments": [],
+      "is_read": true,
+      "is_important": false,
+      "in_reply_to": "<msg0002@gearsystems-meridian.com>"
+    },
+    {
+      "email_id": "0004",
+      "message_id": "<msg0004@gearsystems-meridian.com>",
+      "folder": "INBOX",
+      "subject": "RE: URGENT: Receipt REC-20260414-001 \u2014 Safety-Critical Quarantine, Missing COC [NCR-MER-2026-0247]",
+      "from_addr": "t.brandt@gearsystems.com",
+      "to_addr": "k.whitfield@gearsystems.com",
+      "cc_addr": "j.park@gearsystems.com",
+      "bcc_addr": null,
+      "date": "2026-04-14T10:05:00-05:00",
+      "body_text": "Kay,\n\nConfirmed \u2014 I've reviewed the quarantine log and the material is properly secured on Q-HOLD. I'll hold off on any inspection until we receive the COC, at which point I'll verify document authenticity against the heat numbers from the MTR.\n\nIf the COC doesn't arrive by EOD Friday (04/18), let me know and I'll flag it for Elizabeth. The five-business-day window puts us at close of business Tuesday 04/21.\n\n\u2014 Theo",
+      "body_html": null,
+      "attachments": [],
+      "is_read": true,
+      "is_important": false,
+      "in_reply_to": "<msg0003@gearsystems-meridian.com>"
+    },
+    {
+      "email_id": "0005",
+      "message_id": "<msg0005@gearsystems-meridian.com>",
+      "folder": "Sent",
+      "subject": "RE: NONCONFORMANCE NOTICE \u2014 NCR-MER-2026-0247 (Critical) \u2014 Follow-Up Day 2",
+      "from_addr": "k.whitfield@gearsystems.com",
+      "to_addr": "s.chu@lakewoodprecision.com",
+      "cc_addr": "m.hendricks@lakewoodprecision.com, t.brandt@gearsystems.com",
+      "bcc_addr": null,
+      "date": "2026-04-16T14:22:00-05:00",
+      "body_text": "Sandra,\n\nFollowing up on NCR-MER-2026-0247. As of this afternoon, we have not yet received the COC for receipt REC-20260414-001 (PO MER-PO-104821, AX-04827-B2 / AX-05512-C1 / FG-91144-A1).\n\nPer Mark's response on 04/14, you were expecting to provide the COC within two business days \u2014 that window closes tomorrow (04/17). The SOP deadline remains 04/21/2026 at 17:00 CST.\n\nPlease confirm the status and expected delivery time. The quarantine hold on all 340 units remains in effect.\n\n\u2014 K.W.",
+      "body_html": null,
+      "attachments": [],
+      "is_read": true,
+      "is_important": false,
+      "in_reply_to": "<msg0004@gearsystems-meridian.com>"
+    },
+    {
+      "email_id": "0006",
+      "message_id": "<msg0006@gearsystems-meridian.com>",
+      "folder": "INBOX",
+      "subject": "RE: NONCONFORMANCE NOTICE \u2014 NCR-MER-2026-0247 (Critical) \u2014 Follow-Up Day 2",
+      "from_addr": "s.chu@lakewoodprecision.com",
+      "to_addr": "k.whitfield@gearsystems.com",
+      "cc_addr": "m.hendricks@lakewoodprecision.com",
+      "bcc_addr": null,
+      "date": "2026-04-17T08:45:00-05:00",
+      "body_text": "Kay,\n\nI apologize for the delay. We are finalizing the COC internally \u2014 our quality manager must sign off and he was traveling earlier this week. I expect to have the signed COC scanned and emailed to you by end of business today (April 17).\n\nSandra Chu\nQuality Assurance\nLakewood Precision Forgings\n414-555-0192",
+      "body_html": null,
+      "attachments": [],
+      "is_read": true,
+      "is_important": false,
+      "in_reply_to": "<msg0005@gearsystems-meridian.com>"
+    },
+    {
+      "email_id": "0007",
+      "message_id": "<msg0007@gearsystems-meridian.com>",
+      "folder": "Sent",
+      "subject": "RE: NONCONFORMANCE NOTICE \u2014 NCR-MER-2026-0247 (Critical) \u2014 End of Day 04/17 Follow-Up",
+      "from_addr": "k.whitfield@gearsystems.com",
+      "to_addr": "s.chu@lakewoodprecision.com",
+      "cc_addr": "m.hendricks@lakewoodprecision.com, t.brandt@gearsystems.com",
+      "bcc_addr": null,
+      "date": "2026-04-17T17:30:00-05:00",
+      "body_text": "Sandra,\n\nIt is now 17:30 CST and we have not received the COC. As I noted in my earlier email, the SOP deadline is 04/21/2026 at 17:00 CST \u2014 we now have two business days remaining.\n\nPlease send the COC first thing tomorrow morning. The 340 units in REC-20260414-001 remain on quarantine hold and cannot be released to production until we receive and verify the document.\n\n\u2014 K.W.",
+      "body_html": null,
+      "attachments": [],
+      "is_read": true,
+      "is_important": false,
+      "in_reply_to": "<msg0006@gearsystems-meridian.com>"
+    },
+    {
+      "email_id": "0008",
+      "message_id": "<msg0008@gearsystems-meridian.com>",
+      "folder": "INBOX",
+      "subject": "RE: NONCONFORMANCE NOTICE \u2014 NCR-MER-2026-0247 (Critical) \u2014 End of Day 04/17 Follow-Up",
+      "from_addr": "s.chu@lakewoodprecision.com",
+      "to_addr": "k.whitfield@gearsystems.com",
+      "cc_addr": "m.hendricks@lakewoodprecision.com",
+      "bcc_addr": null,
+      "date": "2026-04-18T08:15:00-05:00",
+      "body_text": "Kay,\n\nMy apologies again. Our QM signed the document last night. I am scanning it now and will email you the PDF within the hour.\n\nSandra",
+      "body_html": null,
+      "attachments": [],
+      "is_read": true,
+      "is_important": false,
+      "in_reply_to": "<msg0007@gearsystems-meridian.com>"
+    },
+    {
+      "email_id": "0009",
+      "message_id": "<msg0009@gearsystems-meridian.com>",
+      "folder": "Sent",
+      "subject": "RE: NONCONFORMANCE NOTICE \u2014 NCR-MER-2026-0247 (Critical) \u2014 Day 5 Deadline Today 04/21",
+      "from_addr": "k.whitfield@gearsystems.com",
+      "to_addr": "s.chu@lakewoodprecision.com",
+      "cc_addr": "m.hendricks@lakewoodprecision.com, t.brandt@gearsystems.com, e.velasquez@gearsystems.com",
+      "bcc_addr": null,
+      "date": "2026-04-21T09:00:00-05:00",
+      "body_text": "Sandra, Mark,\n\nToday is April 21, 2026 \u2014 the final day of the 5-business-day window for NCR-MER-2026-0247. Per our SOP, the COC for receipt REC-20260414-001 is due by 17:00 CST today.\n\nTo date, we have not received the COC. I have included Elizabeth Velasquez (Supply Chain Manager) on this email.\n\nWe still need:\n  \u2014 COC covering PO MER-PO-104821, SKUs AX-04827-B2, AX-05512-C1, FG-91144-A1\n  \u2014 Heat number references: HT-2026-1184, HT-2026-1185, HT-2026-0997\n\nIf we do not receive the COC by 17:00 CST today, this NCR will be escalated and additional holds may be placed on future shipments.\n\n\u2014 K.W.",
+      "body_html": null,
+      "attachments": [],
+      "is_read": true,
+      "is_important": false,
+      "in_reply_to": "<msg0008@gearsystems-meridian.com>"
+    },
+    {
+      "email_id": "0010",
+      "message_id": "<msg0010@gearsystems-meridian.com>",
+      "folder": "INBOX",
+      "subject": "RE: NONCONFORMANCE NOTICE \u2014 NCR-MER-2026-0247 (Critical) \u2014 ESCALATION: COC Not Received by Deadline",
+      "from_addr": "e.velasquez@gearsystems.com",
+      "to_addr": "k.whitfield@gearsystems.com, t.brandt@gearsystems.com",
+      "cc_addr": "w.finch@gearsystems.com, j.park@gearsystems.com",
+      "bcc_addr": null,
+      "date": "2026-04-21T17:45:00-05:00",
+      "body_text": "Kay, Theo,\n\nIt is 17:45 CST and I've confirmed with Kay that Lakewood has not delivered the COC for NCR-MER-2026-0247. The supplier has missed the 5-business-day deadline.\n\nPer SOP Section 14.6.2 and 15.2, I am escalating this NCR. Effective immediately:\n\n1. NCR-MER-2026-0247 remains Critical / Open. The receipt continues on Q-HOLD.\n2. I am informing Walter Finch (Plant Manager).\n3. Joon-ho Park: please place a courtesy hold on any new PO releases to Lakewood until further notice.\n4. Kay: please send a formal written notice to Lakewood that the deadline has passed and we are exercising our escalation rights under our supplier agreement.\n\nThis material \u2014 44 units of AX-04827-B2, 96 of AX-05512-C1, 200 of FG-91144-A1 \u2014 has been on quarantine since April 14. Production Planning is aware.\n\nElizabeth Velasquez\nSupply Chain Manager, Gear Systems Inc.",
+      "body_html": null,
+      "attachments": [],
+      "is_read": true,
+      "is_important": false,
+      "in_reply_to": "<msg0009@gearsystems-meridian.com>"
+    },
+    {
+      "email_id": "0011",
+      "message_id": "<msg0011@gearsystems-meridian.com>",
+      "folder": "INBOX",
+      "subject": "RE: NCR-MER-2026-0247 \u2014 Plant Manager Acknowledgment & Authorization",
+      "from_addr": "w.finch@gearsystems.com",
+      "to_addr": "e.velasquez@gearsystems.com, k.whitfield@gearsystems.com",
+      "cc_addr": "t.brandt@gearsystems.com, j.park@gearsystems.com",
+      "bcc_addr": null,
+      "date": "2026-04-22T08:00:00-05:00",
+      "body_text": "Elizabeth, Kay,\n\nAcknowledged. I have reviewed the NCR-MER-2026-0247 situation. The 5-business-day window has closed and Lakewood has not complied.\n\nMy direction:\n1. K.W. \u2014 send the formal past-due notice to Lakewood today.\n2. J. Park \u2014 place an informal review hold on MER-PO-104918 Line 001 (the pending DTL order from Lakewood) pending resolution of this NCR.\n3. Theo \u2014 if the COC does not arrive by Friday April 25, initiate a supplier capability review.\n4. Elizabeth \u2014 please work with Procurement on alternative sourcing for AX parts if this extends to next week.\n\nWe cannot keep these parts in quarantine indefinitely. Aditi has already flagged a potential line impact.\n\n\u2014 W. Finch\nPlant Manager, Gear Systems Inc.",
+      "body_html": null,
+      "attachments": [],
+      "is_read": true,
+      "is_important": false,
+      "in_reply_to": "<msg0010@gearsystems-meridian.com>"
+    },
+    {
+      "email_id": "0012",
+      "message_id": "<msg0012@gearsystems-meridian.com>",
+      "folder": "INBOX",
+      "subject": "RE: NONCONFORMANCE NOTICE \u2014 NCR-MER-2026-0247 (Critical) \u2014 Past Deadline \u2014 Formal Notice",
+      "from_addr": "m.hendricks@lakewoodprecision.com",
+      "to_addr": "k.whitfield@gearsystems.com",
+      "cc_addr": "s.chu@lakewoodprecision.com, e.velasquez@gearsystems.com",
+      "bcc_addr": null,
+      "date": "2026-04-22T09:15:00-05:00",
+      "body_text": "Kay, Elizabeth,\n\nI sincerely apologize for this situation. We experienced an unexpected ERP system migration over last weekend (April 18\u201320) that caused our quality document management system to be taken offline. Sandra's scanned COC was queued in the system and failed to send due to the migration.\n\nWe are working to restore the document and will email you the COC today. I recognize this is completely unacceptable and we take full responsibility.\n\nI will personally call Kay this morning to discuss.\n\nMark Hendricks\nLakewood Precision Forgings\n414-555-0191",
+      "body_html": null,
+      "attachments": [],
+      "is_read": true,
+      "is_important": false,
+      "in_reply_to": "<msg0011@gearsystems-meridian.com>"
+    },
+    {
+      "email_id": "0013",
+      "message_id": "<msg0013@gearsystems-meridian.com>",
+      "folder": "Sent",
+      "subject": "RE: NCR-MER-2026-0247 \u2014 Day 9 \u2014 COC Still Not Received \u2014 IMMEDIATE ACTION REQUIRED",
+      "from_addr": "k.whitfield@gearsystems.com",
+      "to_addr": "m.hendricks@lakewoodprecision.com, s.chu@lakewoodprecision.com",
+      "cc_addr": "e.velasquez@gearsystems.com, t.brandt@gearsystems.com, w.finch@gearsystems.com",
+      "bcc_addr": null,
+      "date": "2026-04-23T07:00:00-05:00",
+      "body_text": "Mark, Sandra,\n\nIt is now April 23, 2026 \u2014 nine calendar days since receipt REC-20260414-001 and two calendar days past the SOP deadline of April 21.\n\nAs of 07:00 CST this morning, no COC has been received for NCR-MER-2026-0247. Despite multiple commitments to provide the document, we have not received it.\n\nStatus as of today:\n  \u2014 340 units (AX-04827-B2 x44, AX-05512-C1 x96, FG-91144-A1 x200) remain on quarantine hold\n  \u2014 NCR-MER-2026-0247 is Critical / Open / OVERDUE\n  \u2014 Plant Manager Walter Finch has been informed and has authorized escalation actions\n\nIMMEDIATE REQUIREMENTS (by 12:00 CST today):\n  1. Provide the signed COC covering PO MER-PO-104821, all three SKUs, heats HT-2026-1184, HT-2026-1185, HT-2026-0997\n  2. Provide written explanation of why this document was not provided within the SOP window\n\nIf we do not receive the COC by 12:00 CST today, Gear Systems Inc. will initiate a formal supplier audit per our supplier agreement and this matter will be referred to our VP of Supply Chain.\n\nKay Whitfield\nInbound Materials Coordinator\nGear Systems Inc.\nk.whitfield@gearsystems.com | 601-555-2001",
+      "body_html": null,
+      "attachments": [],
+      "is_read": true,
+      "is_important": false,
+      "in_reply_to": "<msg0012@gearsystems-meridian.com>"
+    },
+    {
+      "email_id": "0014",
+      "message_id": "<msg0014@gearsystems-meridian.com>",
+      "folder": "Sent",
+      "subject": "INSPECTION REQUEST: REC-20260414-002 BG-33044-A1 \u2014 Tier 2 Damage \u2014 NCR-MER-2026-0248",
+      "from_addr": "k.whitfield@gearsystems.com",
+      "to_addr": "t.brandt@gearsystems.com",
+      "cc_addr": "c.yablonski@gearsystems.com, d.hooks@gearsystems.com",
+      "bcc_addr": null,
+      "date": "2026-04-14T08:45:00-05:00",
+      "body_text": "Theo,\n\nReceipt REC-20260414-002 came in on Dock 1 at 08:30 CST today \u2014 Hartwell Bearing Technologies, PO MER-PO-104835.\n\nLine 001: BG-33044-A1 (Bearing, Tapered Roller, 2.5in) \u2014 144 received, exact count. However, Curtis performed the receiving inspection and found Tier 2 damage on 11 of 144 units \u2014 impact dents on outer races. These bearings are safety-critical. I've quarantined the lot per SOP Section 12.4 and issued NCR-MER-2026-0248 (Major, DMG).\n\nDamage report and photos are in the photos folder: photos/MER-PO-104835_20260414/\n\nNCR response due from Hartwell: 04/28/2026 (10 business days).\n\nCan you schedule a formal inspection of the 11 damaged units? Per SOP Section 12.4.3, we need your written assessment before we can either condemn or disposition the damaged units. Please confirm timing.\n\n\u2014 K.W.",
+      "body_html": null,
+      "attachments": [],
+      "is_read": true,
+      "is_important": false,
+      "in_reply_to": null
+    },
+    {
+      "email_id": "0015",
+      "message_id": "<msg0015@gearsystems-meridian.com>",
+      "folder": "Sent",
+      "subject": "NONCONFORMANCE NOTICE \u2014 NCR-MER-2026-0248 (Major) \u2014 Tier 2 Transit Damage",
+      "from_addr": "k.whitfield@gearsystems.com",
+      "to_addr": "d.kowalski@hartwellbearing.com, l.okafor@hartwellbearing.com",
+      "cc_addr": "t.brandt@gearsystems.com, j.park@gearsystems.com",
+      "bcc_addr": null,
+      "date": "2026-04-14T09:30:00-05:00",
+      "body_text": "David, Lisa,\n\nPlease see the attached NCR notice for receipt REC-20260414-002, PO MER-PO-104835.\n\nNCR Number:       NCR-MER-2026-0248\nIssue Date:       April 14, 2026\nSeverity:         MAJOR\nNCR Type:         Damage (Transit)\nPO Number:        MER-PO-104835\nReceipt ID:       REC-20260414-002\nSKU Affected:     BG-33044-A1 (Bearing, Tapered Roller, 2.5in)\nQuantity Affected: 11 of 144 units\nDollar Value:     $2,040.50\n\nDEFICIENCY DESCRIPTION:\nUpon receiving inspection, 11 of 144 BG-33044-A1 tapered roller bearings were found to have impact dents on their outer races consistent with transit damage. These are safety-critical parts (BG family). The entire lot of 144 bearings has been quarantined pending Quality inspection.\n\nPlease see attached:\n  \u2014 NCR-MER-2026-0248_Notice.pdf (formal NCR letter)\n  \u2014 MER-PO-104835_20260414_damage_report.pdf (damage assessment with photos)\n\nREQUIRED ACTION:\nSupplier response due: April 28, 2026 at 17:00 CST (10 business days per SOP).\n\nPlease confirm whether you will file a carrier claim with Old Dominion and provide your corrective action plan.\n\nKay Whitfield\nGear Systems Inc.",
+      "body_html": null,
+      "attachments": [
+        {
+          "filename": "NCR-MER-2026-0248_Notice.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "TkNSLU1FUi0yMDI2LTAyNDggTm90aWNlIOKAlCBHZWFyIFN5c3RlbXMgSW5jLiDigJQgSGFydHdlbGwgYmVhcmluZyBUaWVyIDIgdHJhbnNpdCBkYW1hZ2Ug4oCUIEJHLTMzMDQ0LUEx"
+        },
+        {
+          "filename": "MER-PO-104835_20260414_damage_report.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "RGFtYWdlIFJlcG9ydCDigJQgQ3VydGlzIFlhYmxvbnNraSDigJQgUkVDLTIwMjYwNDE0LTAwMiDigJQgMTEgb2YgMTQ0IEJHLTMzMDQ0LUExIGJlYXJpbmdzIOKAlCBvdXRlciByYWNlIGltcGFjdCBkZW50cyDigJQgcGhvdG9zIGF0dGFjaGVk"
+        }
+      ],
+      "is_read": true,
+      "is_important": false,
+      "in_reply_to": "<msg0014@gearsystems-meridian.com>"
+    },
+    {
+      "email_id": "0016",
+      "message_id": "<msg0016@gearsystems-meridian.com>",
+      "folder": "INBOX",
+      "subject": "RE: NONCONFORMANCE NOTICE \u2014 NCR-MER-2026-0248 (Major) \u2014 Tier 2 Transit Damage",
+      "from_addr": "l.okafor@hartwellbearing.com",
+      "to_addr": "k.whitfield@gearsystems.com",
+      "cc_addr": "d.kowalski@hartwellbearing.com, t.brandt@gearsystems.com",
+      "bcc_addr": null,
+      "date": "2026-04-15T10:00:00-05:00",
+      "body_text": "Kay,\n\nThank you for the NCR notice and the damage report. I've reviewed Curtis's photos \u2014 the impact dents on the outer races are consistent with forklift clamp damage during transit loading.\n\nWe will be filing a freight claim with Old Dominion. We acknowledge the NCR and will provide a formal corrective action response by April 28.\n\nIn the meantime, I wanted to ask: do you need replacement bearings urgently? We have inventory available and can ship a replacement lot of 11 units under your existing PO (MER-PO-104835) within 2\u20133 business days if authorized by Procurement.\n\nLisa Okafor\nQuality Assurance Manager\nHartwell Bearing Technologies\n313-555-0245",
+      "body_html": null,
+      "attachments": [],
+      "is_read": true,
+      "is_important": false,
+      "in_reply_to": "<msg0015@gearsystems-meridian.com>"
+    },
+    {
+      "email_id": "0017",
+      "message_id": "<msg0017@gearsystems-meridian.com>",
+      "folder": "INBOX",
+      "subject": "RE: INSPECTION REQUEST: REC-20260414-002 BG-33044-A1 \u2014 Inspection Complete",
+      "from_addr": "t.brandt@gearsystems.com",
+      "to_addr": "k.whitfield@gearsystems.com",
+      "cc_addr": "c.yablonski@gearsystems.com, j.park@gearsystems.com",
+      "bcc_addr": null,
+      "date": "2026-04-16T11:30:00-05:00",
+      "body_text": "Kay,\n\nI completed my inspection of the 11 damaged BG-33044-A1 units from REC-20260414-002 this morning.\n\nFindings:\n  \u2014 All 11 units exhibit outer race impact damage consistent with forklift clamp pressure during transit loading\n  \u2014 8 of 11 units: shallow surface dents only \u2014 raceways smooth to tactile inspection, no spalling\n  \u2014 3 of 11 units: deeper impressions with detectable roughness on raceway \u2014 functional integrity compromised\n\nDisposition recommendation:\n  \u2014 8 units: condemn for production use; set aside for carrier claim evidence / return to supplier\n  \u2014 3 units: condemn immediately \u2014 do not send back into supply chain\n  \u2014 133 undamaged units: release to stock once quarantine is lifted via normal NCR close-out\n\nI'll put my written QE assessment in the quality_docs folder today. Let me know when you want to loop in Hartwell on the findings.\n\n\u2014 Theo",
+      "body_html": null,
+      "attachments": [],
+      "is_read": true,
+      "is_important": false,
+      "in_reply_to": "<msg0016@gearsystems-meridian.com>"
+    },
+    {
+      "email_id": "0018",
+      "message_id": "<msg0018@gearsystems-meridian.com>",
+      "folder": "Sent",
+      "subject": "RE: NCR-MER-2026-0248 \u2014 Quality Engineering Inspection Findings",
+      "from_addr": "k.whitfield@gearsystems.com",
+      "to_addr": "l.okafor@hartwellbearing.com, d.kowalski@hartwellbearing.com",
+      "cc_addr": "t.brandt@gearsystems.com, j.park@gearsystems.com",
+      "bcc_addr": null,
+      "date": "2026-04-17T14:00:00-05:00",
+      "body_text": "Lisa, David,\n\nPlease see the attached Quality Engineering inspection report for NCR-MER-2026-0248.\n\nSummary of findings:\n  \u2014 8 of 11 damaged units: outer race surface dents only, condemned for production use\n  \u2014 3 of 11 damaged units: deeper raceway damage, condemned immediately\n  \u2014 133 undamaged units remain on quarantine hold pending NCR close-out\n\nTotal condemned: 11 units ($2,040.50 at $185.50/unit)\n\nRegarding your offer to ship replacement bearings: Joon-ho Park will follow up separately. We will need authorization from our procurement team before releasing a supplemental order.\n\nPlease include the inspection findings in your carrier claim with Old Dominion.\n\n\u2014 K.W.",
+      "body_html": null,
+      "attachments": [
+        {
+          "filename": "NCR-MER-2026-0248_QE_Inspection_Report.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "UUUgSW5zcGVjdGlvbiBSZXBvcnQg4oCUIFRoZW8gQnJhbmR0IOKAlCBCRy0zMzA0NC1BMSDigJQgMTEgZGFtYWdlZCB1bml0cyDigJQgOCBzaGFsbG93IGRlbnRzLCAzIGRlZXAgcmFjZXdheSBkYW1hZ2Ug4oCUIGNvbmRlbW5lZA=="
+        }
+      ],
+      "is_read": true,
+      "is_important": false,
+      "in_reply_to": "<msg0017@gearsystems-meridian.com>"
+    },
+    {
+      "email_id": "0019",
+      "message_id": "<msg0019@gearsystems-meridian.com>",
+      "folder": "INBOX",
+      "subject": "RE: NCR-MER-2026-0248 \u2014 Corrective Action Response",
+      "from_addr": "l.okafor@hartwellbearing.com",
+      "to_addr": "k.whitfield@gearsystems.com",
+      "cc_addr": "d.kowalski@hartwellbearing.com, t.brandt@gearsystems.com",
+      "bcc_addr": null,
+      "date": "2026-04-22T09:00:00-05:00",
+      "body_text": "Kay, Theo,\n\nPlease find attached our formal Corrective Action Report (CAR) for NCR-MER-2026-0248.\n\nSummary:\n  \u2014 Root cause: Old Dominion loading crew used side-clamp forklift without bearing-rated padding; confirmed by carrier investigation\n  \u2014 Old Dominion freight claim #ODG-2026-04812 filed April 15, covering $2,040.50\n  \u2014 Corrective action: Revised load instructions issued to Old Dominion requiring padded clamp attachments for all bearing shipments going forward\n  \u2014 We are prepared to ship 11 replacement BG-33044-A1 units (undamaged, same heat as original lot) under MER-PO-104835 once your procurement team issues a release\n\nPlease let us know if the attached CAR meets your requirements for closing NCR-MER-2026-0248.\n\nLisa Okafor\nHartwell Bearing Technologies",
+      "body_html": null,
+      "attachments": [
+        {
+          "filename": "Hartwell_CAR_NCR-MER-2026-0248.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "Q29ycmVjdGl2ZSBBY3Rpb24gUmVwb3J0IOKAlCBIYXJ0d2VsbCBCZWFyaW5nIFRlY2hub2xvZ2llcyDigJQgTkNSLU1FUi0yMDI2LTAyNDgg4oCUIGNhcnJpZXIgZGFtYWdlIHJvb3QgY2F1c2Ug4oCUIE9sZCBEb21pbmlvbiBmcmVpZ2h0IGNsYWltIE9ERy0yMDI2LTA0ODEy"
+        }
+      ],
+      "is_read": true,
+      "is_important": false,
+      "in_reply_to": "<msg0018@gearsystems-meridian.com>"
+    },
+    {
+      "email_id": "0020",
+      "message_id": "<msg0020@gearsystems-meridian.com>",
+      "folder": "Sent",
+      "subject": "Disposition Needed: Excess SL-10922-B1 from REC-20260414-002 [NCR-MER-2026-0249]",
+      "from_addr": "k.whitfield@gearsystems.com",
+      "to_addr": "j.park@gearsystems.com",
+      "cc_addr": "d.hooks@gearsystems.com",
+      "bcc_addr": null,
+      "date": "2026-04-14T10:30:00-05:00",
+      "body_text": "Joon-ho,\n\nReceipt REC-20260414-002 (Hartwell, PO MER-PO-104835) included an over-ship on Line 002:\n\n  SKU: SL-10922-B1 (Seal, Oil, Rear Axle)\n  PO Qty: 288\n  Received: 300\n  Excess: +12 units (+4.2%, Band B per SOP)\n  Unit Cost: $32.75\n  Excess Value: $393.00\n\nPer SOP Section 11.3.2, Band B over-ships require Procurement disposition. The 12 excess units are staged in B-RCV-01 area. The 288 PO-quantity units are accepted and put away to B-RCV-01.\n\nNCR-MER-2026-0249 (Minor) has been issued to Hartwell.\n\nPlease advise on disposition for the 12 excess units: accept (with PO amendment), return to supplier, or other.\n\n\u2014 K.W.",
+      "body_html": null,
+      "attachments": [
+        {
+          "filename": "NCR-MER-2026-0249_Notice.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "TkNSLU1FUi0yMDI2LTAyNDkgTm90aWNlIOKAlCBHZWFyIFN5c3RlbXMgSW5jLiDigJQgU0wtMTA5MjItQjEgb3Zlci1zaGlwIDEyIHVuaXRzIEJhbmQgQiDigJQgTUVSLVBPLTEwNDgzNQ=="
+        }
+      ],
+      "is_read": true,
+      "is_important": false,
+      "in_reply_to": null
+    },
+    {
+      "email_id": "0021",
+      "message_id": "<msg0021@gearsystems-meridian.com>",
+      "folder": "INBOX",
+      "subject": "RE: Disposition Needed: Excess SL-10922-B1 from REC-20260414-002 [NCR-MER-2026-0249]",
+      "from_addr": "j.park@gearsystems.com",
+      "to_addr": "k.whitfield@gearsystems.com",
+      "cc_addr": "d.hooks@gearsystems.com",
+      "bcc_addr": null,
+      "date": "2026-04-15T09:30:00-05:00",
+      "body_text": "Kay,\n\nI'll check the consumption forecast for SL-10922-B1 and get back to you this week. We're likely to use them \u2014 the seals are a standard part and they'll move in the next maintenance cycle.\n\nIf the forecast supports it, I'll issue a PO amendment to accept the 12 units and we can release them to inventory. If not, I'll arrange a return to Hartwell.\n\nI'll have an answer for you by Thursday (04/17).\n\n\u2014 Joon-ho",
+      "body_html": null,
+      "attachments": [],
+      "is_read": true,
+      "is_important": false,
+      "in_reply_to": "<msg0020@gearsystems-meridian.com>"
+    },
+    {
+      "email_id": "0022",
+      "message_id": "<msg0022@gearsystems-meridian.com>",
+      "folder": "INBOX",
+      "subject": "RE: Disposition Needed: Excess SL-10922-B1 [NCR-MER-2026-0249] \u2014 Disposition Decision",
+      "from_addr": "j.park@gearsystems.com",
+      "to_addr": "k.whitfield@gearsystems.com",
+      "cc_addr": "d.hooks@gearsystems.com, d.kowalski@hartwellbearing.com",
+      "bcc_addr": null,
+      "date": "2026-04-17T14:45:00-05:00",
+      "body_text": "Kay,\n\nDecision: accept the 12 excess SL-10922-B1 units. Consumption forecast shows we'll use them within 60 days. I've authorized a PO amendment to MER-PO-104835 Line 002 \u2014 new authorized quantity is 300 units. The PO system will be updated today.\n\nPlease move the 12 staged units to B-RCV-01 and update the inventory master. I'll notify Hartwell that we're accepting the overage and they do not need to issue a credit.\n\n\u2014 Joon-ho",
+      "body_html": null,
+      "attachments": [],
+      "is_read": true,
+      "is_important": false,
+      "in_reply_to": "<msg0021@gearsystems-meridian.com>"
+    },
+    {
+      "email_id": "0023",
+      "message_id": "<msg0023@gearsystems-meridian.com>",
+      "folder": "Sent",
+      "subject": "RE: Disposition Needed: Excess SL-10922-B1 [NCR-MER-2026-0249] \u2014 Putaway Complete",
+      "from_addr": "k.whitfield@gearsystems.com",
+      "to_addr": "j.park@gearsystems.com",
+      "cc_addr": "d.hooks@gearsystems.com",
+      "bcc_addr": null,
+      "date": "2026-04-17T16:00:00-05:00",
+      "body_text": "Joon-ho,\n\nConfirmed \u2014 all 300 units of SL-10922-B1 from REC-20260414-002 have been moved to B-RCV-01. Inventory master updated. NCR-MER-2026-0249 is pending supplier response (due 05/05/2026) for the root cause of the over-ship, but the material is fully dispositioned.\n\n\u2014 K.W.",
+      "body_html": null,
+      "attachments": [],
+      "is_read": true,
+      "is_important": false,
+      "in_reply_to": "<msg0022@gearsystems-meridian.com>"
+    },
+    {
+      "email_id": "0024",
+      "message_id": "<msg0024@gearsystems-meridian.com>",
+      "folder": "INBOX",
+      "subject": "Quarantine Impact \u2014 AX-04827-B2 / AX-05512-C1 / FG-91144-A1 \u2014 Production Schedule",
+      "from_addr": "a.krishnamurthy@gearsystems.com",
+      "to_addr": "k.whitfield@gearsystems.com",
+      "cc_addr": "e.velasquez@gearsystems.com",
+      "bcc_addr": null,
+      "date": "2026-04-16T13:00:00-05:00",
+      "body_text": "Kay,\n\nI was notified that receipt REC-20260414-001 from Lakewood is on full quarantine hold due to the missing COC. I understand the SOP process, but wanted to flag the production impact.\n\nCurrent schedule status:\n  \u2014 AX-04827-B2: Assembly Line 1 (rear axle housing assemblies) \u2014 current on-hand: 0 usable. We have 44 units in quarantine. Without them, we run out of AX-04827-B2 on April 28.\n  \u2014 AX-05512-C1: Buffer stock acceptable \u2014 we have 84 units on hand per inventory master. Assembly Line 1 uses these alongside AX-04827-B2, so if we stop on housing assemblies the axle shafts are also idled.\n  \u2014 FG-91144-A1: Current on-hand 50 usable. We will hit zero on May 1 if the quarantine isn't resolved.\n\nIf the COC does not arrive by April 21, I need to know by April 22 at the latest so I can revise the schedule. A line-down on Assembly Line 1 has downstream impacts on final assembly.\n\nPlease keep me posted.\n\nAditi Krishnamurthy\nProduction Planning\nGear Systems Inc.",
+      "body_html": null,
+      "attachments": [],
+      "is_read": true,
+      "is_important": false,
+      "in_reply_to": null
+    },
+    {
+      "email_id": "0025",
+      "message_id": "<msg0025@gearsystems-meridian.com>",
+      "folder": "Sent",
+      "subject": "RE: Quarantine Impact \u2014 AX-04827-B2 / AX-05512-C1 / FG-91144-A1 \u2014 Status Update",
+      "from_addr": "k.whitfield@gearsystems.com",
+      "to_addr": "a.krishnamurthy@gearsystems.com",
+      "cc_addr": "e.velasquez@gearsystems.com, t.brandt@gearsystems.com",
+      "bcc_addr": null,
+      "date": "2026-04-16T14:30:00-05:00",
+      "body_text": "Aditi,\n\nThank you for flagging the production impact. I understand the urgency.\n\nStatus as of right now: Lakewood has acknowledged the NCR and Sandra Chu (their quality contact) has committed to providing the COC within the next 1\u20132 business days. The formal deadline is April 21 at 17:00 CST.\n\nOnce we receive the COC, Theo Brandt needs to verify it against the MTR heat numbers. Assuming the document is in order, I can typically complete the release process within a few hours of Theo's written sign-off.\n\nBest case: COC arrives by Friday 04/17, Theo verifies Monday 04/20, material released to stock Monday or Tuesday 04/21.\nWorst case: COC arrives at the deadline (04/21 17:00), material released Wednesday 04/23 at earliest.\n\nI'll keep you posted. If the situation changes, you'll be the first to know.\n\n\u2014 K.W.",
+      "body_html": null,
+      "attachments": [],
+      "is_read": true,
+      "is_important": false,
+      "in_reply_to": "<msg0024@gearsystems-meridian.com>"
+    },
+    {
+      "email_id": "0026",
+      "message_id": "<msg0026@gearsystems-meridian.com>",
+      "folder": "INBOX",
+      "subject": "RE: Quarantine Impact \u2014 AX-04827-B2 \u2014 Line Down Risk CONFIRMED",
+      "from_addr": "a.krishnamurthy@gearsystems.com",
+      "to_addr": "k.whitfield@gearsystems.com, e.velasquez@gearsystems.com",
+      "cc_addr": "w.finch@gearsystems.com",
+      "bcc_addr": null,
+      "date": "2026-04-23T08:00:00-05:00",
+      "body_text": "Kay, Elizabeth,\n\nIt is now April 23. No resolution on NCR-MER-2026-0247. I need to formally notify you:\n\nAssembly Line 1 (rear axle housings) is now at RISK OF LINE-DOWN within 5 business days. We have exhausted our safety stock of AX-04827-B2 from prior receipts. The 44 quarantined units from REC-20260414-001 are the only available inventory.\n\nI have pushed the schedule as far as I can. If the COC is received today and material is released, we can still meet the May week-1 production commitments. If it is not resolved today, I will need to reroute Line 1 to alternate assemblies by tomorrow, which will delay rear axle output by approximately 8\u201310 business days.\n\nI have informed Walter Finch.\n\nAditi",
+      "body_html": null,
+      "attachments": [],
+      "is_read": false,
+      "is_important": false,
+      "in_reply_to": "<msg0025@gearsystems-meridian.com>"
+    },
+    {
+      "email_id": "0027",
+      "message_id": "<msg0027@gearsystems-meridian.com>",
+      "folder": "Sent",
+      "subject": "NONCONFORMANCE NOTICE \u2014 NCR-MER-2026-0241 (Critical) \u2014 Short Ship, Safety-Critical, Probation Supplier",
+      "from_addr": "k.whitfield@gearsystems.com",
+      "to_addr": "t.ricci@cascadefastener.com, a.metz@cascadefastener.com",
+      "cc_addr": "j.park@gearsystems.com, t.brandt@gearsystems.com",
+      "bcc_addr": null,
+      "date": "2026-04-13T10:30:00-05:00",
+      "body_text": "Tom, Angela,\n\nPlease see the attached NCR notice for receipt REC-20260412-001, PO MER-PO-104847.\n\nNCR Number:       NCR-MER-2026-0241\nIssue Date:       April 13, 2026\nSeverity:         CRITICAL (SC short ship floor = Major; Probation +1 tier = Critical per SOP Sec 14.3.3 + 15.2.2)\nNCR Type:         Quantity Variance\nPO Number:        MER-PO-104847\nReceipt ID:       REC-20260412-001\nSKU Affected:     FS-22801-A3 (Bolt, Hex, M12x1.75x50, Gr10.9) \u2014 Safety Critical\nQuantity Affected: 17 units (\u221217 units, \u22123.4%)\nDollar Value:     $82.45\n\nDEFICIENCY DESCRIPTION:\nBand 1 short ship on safety-critical FS-22801-A3. Ordered: 500, received: 483. Because Cascade Fastener Corp is currently on PROBATION status, all NCRs are floor-elevated to Critical severity: safety-critical short ship establishes a Major floor, and Probation status elevates one additional tier to Critical .\n\nNote: as a probation supplier, 100% inspection was conducted on this receipt.\n\nREQUIRED ACTION:\nSupplier response due: May 2, 2026 at 17:00 CST (15 business days per SOP \u2014 Critical NCR, probation supplier).\n\nPlease provide:\n1. Root cause analysis for the count discrepancy\n2. Corrective action plan to prevent recurrence\n3. Confirmation of whether a balance shipment of 17 units is planned and expected ship date\n\nKay Whitfield\nGear Systems Inc.",
+      "body_html": null,
+      "attachments": [
+        {
+          "filename": "NCR-MER-2026-0241_Notice.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "TkNSLU1FUi0yMDI2LTAyNDEgTm90aWNlIOKAlCBHZWFyIFN5c3RlbXMgSW5jLiDigJQgQ2FzY2FkZSBGYXN0ZW5lciBDb3JwIOKAlCBGUy0yMjgwMS1BMyBzaG9ydCBzaGlwIDE3IHVuaXRzIOKAlCBQcm9iYXRpb24gc2V2ZXJpdHkgZWxldmF0aW9u"
+        }
+      ],
+      "is_read": true,
+      "is_important": false,
+      "in_reply_to": null
+    },
+    {
+      "email_id": "0028",
+      "message_id": "<msg0028@gearsystems-meridian.com>",
+      "folder": "INBOX",
+      "subject": "RE: NONCONFORMANCE NOTICE \u2014 NCR-MER-2026-0241 (Major) \u2014 Cascade Response",
+      "from_addr": "a.metz@cascadefastener.com",
+      "to_addr": "k.whitfield@gearsystems.com",
+      "cc_addr": "t.ricci@cascadefastener.com, j.park@gearsystems.com",
+      "bcc_addr": null,
+      "date": "2026-04-14T11:00:00-05:00",
+      "body_text": "Kay,\n\nThank you for the NCR notice. I acknowledge receipt of NCR-MER-2026-0241.\n\nUpon reviewing our shipping records, I can confirm the count discrepancy: 17 units were not included in the shipment due to a kitting error at our Cascade facility \u2014 a partial lot was inadvertently packed without the final tray.\n\nRoot cause: Kitting checklist not fully completed prior to packing; last tray of 17 units left in kitting area.\nCorrective action: Implementing mandatory dual-check verification at kitting stage before packing. New procedure effective April 21, 2026.\n\nBalance shipment of 17 FS-22801-A3 units is scheduled to ship April 17 via Yellow Freight. Estimated delivery April 19.\n\nAngela Metz\nQuality Assurance\nCascade Fastener Corp\n503-555-0312",
+      "body_html": null,
+      "attachments": [],
+      "is_read": true,
+      "is_important": false,
+      "in_reply_to": "<msg0027@gearsystems-meridian.com>"
+    },
+    {
+      "email_id": "0029",
+      "message_id": "<msg0029@gearsystems-meridian.com>",
+      "folder": "Sent",
+      "subject": "RE: NCR-MER-2026-0241 \u2014 Balance Shipment Received",
+      "from_addr": "k.whitfield@gearsystems.com",
+      "to_addr": "a.metz@cascadefastener.com",
+      "cc_addr": "t.ricci@cascadefastener.com, j.park@gearsystems.com",
+      "bcc_addr": null,
+      "date": "2026-04-20T09:15:00-05:00",
+      "body_text": "Angela,\n\nThe balance shipment of 17 FS-22801-A3 units was received today (REC-20260420-001). Count verified \u2014 exact. Documentation (COC, MTR) present and verified. 100% inspection performed per probation requirements.\n\nMaterial has been accepted and moved to A-RCV-01. The NCR remains open pending your formal CAR submittal by May 2, 2026.\n\n\u2014 K.W.",
+      "body_html": null,
+      "attachments": [],
+      "is_read": true,
+      "is_important": false,
+      "in_reply_to": "<msg0028@gearsystems-meridian.com>"
+    },
+    {
+      "email_id": "0030",
+      "message_id": "<msg0030@gearsystems-meridian.com>",
+      "folder": "Sent",
+      "subject": "Balance Shipment Inquiry \u2014 MER-PO-104874 Line 001 \u2014 TR-67801-D1",
+      "from_addr": "k.whitfield@gearsystems.com",
+      "to_addr": "w.park@greatlakestrans.com",
+      "cc_addr": "j.park@gearsystems.com, k.baxter@greatlakestrans.com",
+      "bcc_addr": null,
+      "date": "2026-04-14T11:15:00-05:00",
+      "body_text": "Wendy,\n\nWe received the first partial shipment under MER-PO-104874 Line 001 on April 11 (REC-20260411-001) \u2014 12 of 24 TR-67801-D1 units per your split-ship notice. Material was clean and documentation verified.\n\nI wanted to follow up on the expected ship date for the balance 12 units. Our NCR-MER-2026-0235 was closed last cycle, confirming GreatLakes would ship the balance under PO 104874.\n\nCan you confirm:\n1. Expected ship date for the balance 12 units\n2. Whether the same COC lot will cover the balance shipment or if a new COC will be issued\n\n\u2014 K.W.",
+      "body_html": null,
+      "attachments": [],
+      "is_read": true,
+      "is_important": false,
+      "in_reply_to": null
+    },
+    {
+      "email_id": "0031",
+      "message_id": "<msg0031@gearsystems-meridian.com>",
+      "folder": "INBOX",
+      "subject": "RE: Balance Shipment Inquiry \u2014 MER-PO-104874 Line 001 \u2014 TR-67801-D1",
+      "from_addr": "w.park@greatlakestrans.com",
+      "to_addr": "k.whitfield@gearsystems.com",
+      "cc_addr": "k.baxter@greatlakestrans.com, j.park@gearsystems.com",
+      "bcc_addr": null,
+      "date": "2026-04-15T13:30:00-05:00",
+      "body_text": "Kay,\n\nThe balance 12 units of TR-67801-D1 will ship on April 21, 2026 via FedEx Freight. Estimated delivery April 23. A new COC will be issued for the balance lot with a separate heat number (same material specification).\n\nKevin Baxter (copied) will email the COC the morning of shipment.\n\nWendy Park\nGreatLakes Transmission Parts",
+      "body_html": null,
+      "attachments": [],
+      "is_read": true,
+      "is_important": false,
+      "in_reply_to": "<msg0030@gearsystems-meridian.com>"
+    },
+    {
+      "email_id": "0032",
+      "message_id": "<msg0032@gearsystems-meridian.com>",
+      "folder": "INBOX",
+      "subject": "RE: Balance Shipment \u2014 MER-PO-104874 Line 001 \u2014 COC Attached",
+      "from_addr": "k.baxter@greatlakestrans.com",
+      "to_addr": "k.whitfield@gearsystems.com",
+      "cc_addr": "w.park@greatlakestrans.com",
+      "bcc_addr": null,
+      "date": "2026-04-21T08:00:00-05:00",
+      "body_text": "Kay,\n\nThe balance shipment of 12 TR-67801-D1 units is on the truck today with FedEx Freight, PRO #FXF-2026-88142. COC attached \u2014 Heat HT-2026-2201, same spec as your original order.\n\nEstimated delivery: April 23.\n\nKevin Baxter\nQuality Assurance\nGreatLakes Transmission Parts",
+      "body_html": null,
+      "attachments": [
+        {
+          "filename": "MER-PO-104874_L001_balance_COC.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "Q09DIOKAlCBHcmVhdExha2VzIFRyYW5zbWlzc2lvbiBQYXJ0cyDigJQgVFItNjc4MDEtRDEg4oCUIDEyIHVuaXRzIOKAlCBIZWF0IEhULTIwMjYtMjIwMSDigJQgTUVSLVBPLTEwNDg3NCBMaW5lIDAwMSBiYWxhbmNl"
+        }
+      ],
+      "is_read": true,
+      "is_important": false,
+      "in_reply_to": "<msg0031@gearsystems-meridian.com>"
+    },
+    {
+      "email_id": "0033",
+      "message_id": "<msg0033@gearsystems-meridian.com>",
+      "folder": "Sent",
+      "subject": "RE: Balance Shipment \u2014 MER-PO-104874 Line 001 \u2014 Expected Today 04/23",
+      "from_addr": "k.whitfield@gearsystems.com",
+      "to_addr": "k.baxter@greatlakestrans.com",
+      "cc_addr": "w.park@greatlakestrans.com, d.hooks@gearsystems.com",
+      "bcc_addr": null,
+      "date": "2026-04-23T07:30:00-05:00",
+      "body_text": "Kevin,\n\nThank you \u2014 COC received and saved to our quality_docs folder. Looks good; heat HT-2026-2201 is a clean match to the material spec.\n\nPer the dock schedule, Dock 1 is open for FedEx Freight arrivals today. Darnell Hooks is expecting the delivery. COC is already pre-verified, so as long as the count is right and condition is clean, we should be able to complete putaway same day.\n\n\u2014 K.W.",
+      "body_html": null,
+      "attachments": [],
+      "is_read": true,
+      "is_important": false,
+      "in_reply_to": "<msg0032@gearsystems-meridian.com>"
+    },
+    {
+      "email_id": "0034",
+      "message_id": "<msg0034@gearsystems-meridian.com>",
+      "folder": "Sent",
+      "subject": "New Supplier First Delivery \u2014 Appalachian Seal & Gasket \u2014 APPT-20260414-005 (Dock 3)",
+      "from_addr": "k.whitfield@gearsystems.com",
+      "to_addr": "t.brandt@gearsystems.com, c.yablonski@gearsystems.com",
+      "cc_addr": "j.park@gearsystems.com, d.hooks@gearsystems.com",
+      "bcc_addr": null,
+      "date": "2026-04-13T15:30:00-05:00",
+      "body_text": "Theo, Curtis,\n\nHeads up \u2014 Appalachian Seal & Gasket (SUP-0118, new supplier status) has their first delivery scheduled for tomorrow April 14, Dock 3, APPT-20260414-005.\n\nPO: MER-PO-104918 is for SL parts (standard seals). However, please note:\n\nI do not believe this delivery includes SC parts \u2014 it looks like standard SL seals \u2014 but please verify against the packing slip.\n\nCurtis: please ensure you perform 100% inspection on this receipt.\nTheo: please be available in case the delivery includes any SC-designated SL SKUs.\n\nI've confirmed the appointment with Appalachian Seal's commercial contact Frances Wu.\n\n\u2014 K.W.",
+      "body_html": null,
+      "attachments": [],
+      "is_read": true,
+      "is_important": false,
+      "in_reply_to": null
+    },
+    {
+      "email_id": "0035",
+      "message_id": "<msg0035@gearsystems-meridian.com>",
+      "folder": "INBOX",
+      "subject": "RE: New Supplier First Delivery \u2014 Appalachian Seal & Gasket \u2014 APPT-20260414-005 \u2014 Receipt Complete",
+      "from_addr": "c.yablonski@gearsystems.com",
+      "to_addr": "k.whitfield@gearsystems.com",
+      "cc_addr": "t.brandt@gearsystems.com, d.hooks@gearsystems.com",
+      "bcc_addr": null,
+      "date": "2026-04-14T13:45:00-05:00",
+      "body_text": "Kay,\n\nAppalachian Seal arrived at 11:20 CST on Dock 3. No SC parts in the delivery \u2014 all standard SL seals as expected.\n\n100% inspection completed per new supplier protocol. Count exact. Condition: Tier 0, no issues. COC and SDS (for the oil-compatible seals) present and verified.\n\nMaterial put away to B-RCV-01. Receipt logged as REC-20260414-005.\n\n\u2014 Curtis",
+      "body_html": null,
+      "attachments": [],
+      "is_read": true,
+      "is_important": false,
+      "in_reply_to": "<msg0034@gearsystems-meridian.com>"
+    },
+    {
+      "email_id": "0036",
+      "message_id": "<msg0036@gearsystems-meridian.com>",
+      "folder": "INBOX",
+      "subject": "Hazmat Pre-Arrival: LB-55001-A2 \u2014 APPT-20260414-003 \u2014 UN1268 Class 3",
+      "from_addr": "c.ortega@meridianlube.com",
+      "to_addr": "k.whitfield@gearsystems.com, m.ortiz@gearsystems.com",
+      "cc_addr": "c.wojciechowski@gearsystems.com",
+      "bcc_addr": null,
+      "date": "2026-04-13T16:00:00-05:00",
+      "body_text": "Kay, Maribel,\n\nJust a heads-up per our standard procedure \u2014 our driver will be at Dock 4 tomorrow (April 14) between 10:00\u201310:30 CST with your order under PO MER-PO-104862.\n\nShipment details:\n  SKU: LB-55001-A2 (Petroleum Distillate Lubricant)\n  Quantity: 4 drums (220 L each)\n  Hazmat: UN1268, Class 3 Flammable Liquid, PG II\n  SDS: Rev 4, dated 02/15/2024 (on file with you; copy included in shipment packet)\n  Carrier: Local pickup / Meridian Lube truck\n\nPlease ensure your EH&S coordinator (Maribel) is available for the hazmat check-in per our standard protocol. All required hazmat documentation will be present in the shipment packet.\n\nCarlos Ortega\nMeridian Lube Supply\n601-555-0422",
+      "body_html": null,
+      "attachments": [],
+      "is_read": true,
+      "is_important": false,
+      "in_reply_to": null
+    },
+    {
+      "email_id": "0037",
+      "message_id": "<msg0037@gearsystems-meridian.com>",
+      "folder": "Sent",
+      "subject": "RE: Hazmat Pre-Arrival: LB-55001-A2 \u2014 APPT-20260414-003 \u2014 Received Clean",
+      "from_addr": "k.whitfield@gearsystems.com",
+      "to_addr": "c.ortega@meridianlube.com",
+      "cc_addr": "m.ortiz@gearsystems.com",
+      "bcc_addr": null,
+      "date": "2026-04-14T12:05:00-05:00",
+      "body_text": "Carlos,\n\nConfirmed \u2014 your driver arrived at Dock 4 at 10:12 CST. Receipt REC-20260414-003.\n\n4 drums of LB-55001-A2 received. Count exact. Condition: Tier 0, all drums intact, no leakage. SDS verified (Rev 4). Hazmat manifest verified by Maribel Ortiz per SOP Section 17.1.\n\nMaterial transferred to hazmat cage in Warehouse Zone C per Section 17.1.5. No issues.\n\n\u2014 K.W.",
+      "body_html": null,
+      "attachments": [],
+      "is_read": true,
+      "is_important": false,
+      "in_reply_to": "<msg0036@gearsystems-meridian.com>"
+    },
+    {
+      "email_id": "0038",
+      "message_id": "<msg0038@gearsystems-meridian.com>",
+      "folder": "Sent",
+      "subject": "Crane Required: Delta Metals Oversize Shipment \u2014 APPT-20260415-001 \u2014 Dock 2",
+      "from_addr": "k.whitfield@gearsystems.com",
+      "to_addr": "d.hooks@gearsystems.com",
+      "cc_addr": "c.wojciechowski@gearsystems.com",
+      "bcc_addr": null,
+      "date": "2026-04-14T14:00:00-05:00",
+      "body_text": "Darnell,\n\nTomorrow's dock schedule includes an oversize/heavy delivery from Delta Metals & Alloys \u2014 APPT-20260415-001, Dock 2, estimated 09:00 CST.\n\nPer the dock schedule, this shipment requires crane support. Please ensure the crane is prepped and operator is scheduled for 08:45 CST arrival at Dock 2.\n\nDelta Metals is bringing AX and FG billets (heavy forged stock) under MER-PO-104911. Estes Express carrier.\n\nLet me know if there are any issues with crane availability.\n\n\u2014 K.W.",
+      "body_html": null,
+      "attachments": [],
+      "is_read": true,
+      "is_important": false,
+      "in_reply_to": null
+    },
+    {
+      "email_id": "0039",
+      "message_id": "<msg0039@gearsystems-meridian.com>",
+      "folder": "INBOX",
+      "subject": "RE: Crane Required: Delta Metals Oversize Shipment \u2014 APPT-20260415-001",
+      "from_addr": "d.hooks@gearsystems.com",
+      "to_addr": "k.whitfield@gearsystems.com",
+      "cc_addr": "c.wojciechowski@gearsystems.com",
+      "bcc_addr": null,
+      "date": "2026-04-14T15:30:00-05:00",
+      "body_text": "Kay,\n\nConfirmed \u2014 crane is booked for 08:45 CST at Dock 2. Operator is Mike Stills.\n\nNote: I'll need the lift specs from the Delta Metals freight paperwork (estimated piece weight) before 07:00 tomorrow so Mike can configure the rigging. Can you ask Chris to request this from Estes Express or Delta Metals tonight?\n\n\u2014 Darnell",
+      "body_html": null,
+      "attachments": [],
+      "is_read": true,
+      "is_important": false,
+      "in_reply_to": "<msg0038@gearsystems-meridian.com>"
+    },
+    {
+      "email_id": "0040",
+      "message_id": "<msg0040@gearsystems-meridian.com>",
+      "folder": "Sent",
+      "subject": "No-Appointment Truck at Dock \u2014 MER-PO-104874 \u2014 Hold Pending Investigation",
+      "from_addr": "k.whitfield@gearsystems.com",
+      "to_addr": "d.hooks@gearsystems.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-23T09:52:00-05:00",
+      "body_text": "Darnell,\n\nYellow Freight truck arrived at 09:47 without a dock appointment. Driver is claiming delivery of 12 units of TR-67801-D1 under PO MER-PO-104874.\n\nProblem: Per Kevin Baxter's email on 04/21, our authorized carrier for this balance shipment is FedEx Freight, PRO #FXF-2026-88142. FedEx is also on our dock schedule for today.\n\nPlease do NOT unload this truck. Keep them holding at the dock area and do not assign a bay door until we resolve this. I am checking on carrier authorization now.\n\nPlease confirm you received this.\n\n\u2014 Kay Whitfield\nReceiving Coordinator, Gear Systems Inc.",
+      "body_html": null,
+      "attachments": [],
+      "is_read": true,
+      "is_important": false,
+      "in_reply_to": null
+    },
+    {
+      "email_id": "0041",
+      "message_id": "<msg0041@gearsystems-meridian.com>",
+      "folder": "INBOX",
+      "subject": "Quality update \u2014 April 23 morning",
+      "from_addr": "t.brandt@gearsystems.com",
+      "to_addr": "receiving.meridian@gearsystems.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-23T08:02:00-06:00",
+      "body_text": "Kay,\n\nCouple of items for this morning.\n\nFirst \u2014 Reggie is confirmed for the Delta Metals oversize receipt inspection at 10:00 today. He reviewed the DS-71034-A1 drawing package last night and his gauge set is ready. Please make sure the Dock 2 crane area is clear by 09:45 so he can set up.\n\nSecond \u2014 I've reviewed the COC submitted by Lakewood Precision Forgings this morning for the FG-91144-A1 line under REC-20260414-001. The COC is acceptable \u2014 heat number HT-2026-1803 is confirmed and the documentation is complete. You are authorized to release FG-91144-A1 from Q-HOLD. Quantity: 200 units. Please proceed with the standard quarantine release procedure.\n\nThird \u2014 I'm tracking the Hartwell NCR-MER-2026-0248 response deadline (April 28). Will do a hands-on inspection of the BG-33044-A1 bearings once their corrective action response comes in.\n\n\u2014 Theo Brandt\nQuality Manager, Gear Systems Inc. \u2014 Meridian Plant\nt.brandt@gearsystems.com",
+      "body_html": null,
+      "attachments": [],
+      "is_read": false,
+      "is_important": false,
+      "in_reply_to": null
+    },
+    {
+      "email_id": "0042",
+      "message_id": "<msg0042@gearsystems-meridian.com>",
+      "folder": "INBOX",
+      "subject": "Quarantine Release Authorization \u2014 BG-33044-A1 \u2014 REC-20260414-002",
+      "from_addr": "d.hooks@gearsystems.com",
+      "to_addr": "receiving.meridian@gearsystems.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-23T08:17:00-06:00",
+      "body_text": "Kay,\n\nI inspected the BG-33044-A1 bearings from REC-20260414-002 this morning. The 11 units flagged for Tier 2 damage show minor surface scuffing on the outer race \u2014 cosmetic only, nothing that would affect function or dimensional integrity. The remaining 133 units are clean.\n\nI'm comfortable with the condition of this material. You are authorized to release all 144 units of BG-33044-A1 from Q-HOLD to B-02-08 for putaway. Please proceed with the standard quarantine release procedure.\n\n\u2014 Darnell Hooks\nReceiving Supervisor, Gear Systems Inc. \u2014 Meridian Plant\nd.hooks@gearsystems.com",
+      "body_html": null,
+      "attachments": [],
+      "is_read": false,
+      "is_important": false,
+      "in_reply_to": null
+    }
+  ],
+  "next_email_id": 43
+}

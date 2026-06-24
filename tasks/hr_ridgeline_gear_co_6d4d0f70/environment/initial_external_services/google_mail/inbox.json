@@ -1,0 +1,783 @@
+{
+  "mailbox": {
+    "email": "leaves@ridgelinegear.com",
+    "name": "Leave Coordinator"
+  },
+  "contacts": [
+    {
+      "email": "daniel.whitfield@ridgelinegear.com",
+      "name": "Daniel Whitfield"
+    },
+    {
+      "email": "renata.okafor@ridgelinegear.com",
+      "name": "Renata Okafor"
+    },
+    {
+      "email": "meera.patel@ridgelinegear.com",
+      "name": "Meera Patel"
+    },
+    {
+      "email": "jordan.briggs@ridgelinegear.com",
+      "name": "Jordan Briggs"
+    },
+    {
+      "email": "teresa.vang@ridgelinegear.com",
+      "name": "Teresa Vang"
+    },
+    {
+      "email": "luis.arredondo@ridgelinegear.com",
+      "name": "Luis Arredondo"
+    },
+    {
+      "email": "samir.haddad@ridgelinegear.com",
+      "name": "Samir Haddad"
+    },
+    {
+      "email": "benefits@ridgelinegear.com",
+      "name": "Benefits Team"
+    },
+    {
+      "email": "famli-employer@ridgelinegear.com",
+      "name": "FAMLI Employer Inbox"
+    },
+    {
+      "email": "evelyn.marchetti@ridgelineholdings.com",
+      "name": "Evelyn Marchetti"
+    },
+    {
+      "email": "sandra.ellison@ridgelinegear.com",
+      "name": "Sandra Ellison"
+    },
+    {
+      "email": "marcus.deluca@ridgelinegear.com",
+      "name": "Marcus DeLuca"
+    },
+    {
+      "email": "amy.sandoval@ridgelinegear.com",
+      "name": "Amy Sandoval"
+    },
+    {
+      "email": "wei.zhang@ridgelinegear.com",
+      "name": "Wei Zhang"
+    },
+    {
+      "email": "rachel.thornton@ridgelinegear.com",
+      "name": "Rachel Thornton"
+    },
+    {
+      "email": "jennifer.kowalski@ridgelinegear.com",
+      "name": "Jennifer Kowalski"
+    },
+    {
+      "email": "nathan.cross@ridgelinegear.com",
+      "name": "Nathan Cross"
+    },
+    {
+      "email": "carlos.medina@ridgelinegear.com",
+      "name": "Carlos Medina"
+    },
+    {
+      "email": "sarah.chen@ridgelinegear.com",
+      "name": "Sarah Chen"
+    },
+    {
+      "email": "tomas.guerrero@ridgelinegear.com",
+      "name": "Tom\u00e1s Guerrero"
+    },
+    {
+      "email": "priya.kapoor@ridgelinegear.com",
+      "name": "Priya Kapoor"
+    },
+    {
+      "email": "darnell.washington@ridgelinegear.com",
+      "name": "Darnell Washington"
+    },
+    {
+      "email": "elena.vasquez@ridgelinegear.com",
+      "name": "Elena Vasquez"
+    },
+    {
+      "email": "james.nkomo@ridgelinegear.com",
+      "name": "James Nkomo"
+    },
+    {
+      "email": "hannah.lindqvist@ridgelinegear.com",
+      "name": "Hannah Lindqvist"
+    },
+    {
+      "email": "kevin.omalley@ridgelinegear.com",
+      "name": "Kevin O'Malley"
+    },
+    {
+      "email": "aisha.robinson@ridgelinegear.com",
+      "name": "Aisha Robinson"
+    },
+    {
+      "email": "brittany.schaefer@ridgelinegear.com",
+      "name": "Brittany Schaefer"
+    },
+    {
+      "email": "claims@famli.colorado.gov",
+      "name": "Colorado FAMLI - CDLE"
+    }
+  ],
+  "folders": [
+    {
+      "name": "FMLA Cases"
+    },
+    {
+      "name": "FAMLI Cases"
+    },
+    {
+      "name": "ADA Intake"
+    },
+    {
+      "name": "HFWA & Paid Leave"
+    },
+    {
+      "name": "Personal/Military Leave"
+    },
+    {
+      "name": "Closed Cases"
+    },
+    {
+      "name": "Unknown Senders"
+    },
+    {
+      "name": "General"
+    }
+  ],
+  "emails": [
+    {
+      "email_id": "2",
+      "folder": "FMLA Cases",
+      "subject": "Need to take some time off for medical appointments",
+      "from_addr": "james.nkomo@ridgelinegear.com",
+      "to_addr": "leaves@ridgelinegear.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-02-13T10:22:00-07:00",
+      "message_id": "<msg-0213-001@ridgelinegear.com>",
+      "in_reply_to": null,
+      "body_text": "Hi,\n\nI've been dealing with a back issue for a while now and my doctor wants me to start physical therapy plus I may need to take days off when it flares up. I'd like to request intermittent leave starting around February 15 or so. Not sure how long \u2014 my doctor said at least through the summer.\n\nMy employee ID is R-2401 and my manager is Marcus DeLuca. I'd prefer you reach me at my work email during this.\n\nThanks,\nJames Nkomo",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "3",
+      "folder": "Sent",
+      "subject": "Re: Need to take some time off for medical appointments",
+      "from_addr": "leaves@ridgelinegear.com",
+      "to_addr": "james.nkomo@ridgelinegear.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-02-13T11:10:00-07:00",
+      "message_id": "<msg-0216-001@ridgelinegear.com>",
+      "in_reply_to": "<msg-0213-001@ridgelinegear.com>",
+      "body_text": "Hi James,\n\nThank you for reaching out about your leave. I have reviewed your eligibility and confirmed that you ARE eligible for FMLA leave under all three federal eligibility criteria as of your requested leave start date of 02/15/2026.\n\nAttached is your official Notice of Eligibility and Rights & Responsibilities (DOL Form WH-381), which explains your rights and obligations under FMLA. Please read it carefully.\n\nTo complete your FMLA designation, I also need a medical certification from your healthcare provider. Please find attached the appropriate certification form (WH-380-E for your own condition). The completed certification is due by 02/28/2026.\n\nIf the certification is not returned by the due date, your leave may be denied. If you anticipate any difficulty obtaining the certification by the deadline, please reply to this email so we can discuss.\n\nYour leave may also qualify under Colorado FAMLI, which provides paid wage replacement through the state. If you would like to file a FAMLI claim, please contact CDLE directly at claims@famli.colorado.gov. Ridgeline does not file FAMLI claims on your behalf.\n\nCase ID: LC-2026-0203\n\nBest regards,\nRidgeline Gear Co. \u2014 Leave Coordinator\nleaves@ridgelinegear.com",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "4",
+      "folder": "FMLA Cases",
+      "subject": "Re: Need to take some time off for medical appointments",
+      "from_addr": "james.nkomo@ridgelinegear.com",
+      "to_addr": "leaves@ridgelinegear.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-02-17T14:30:00-07:00",
+      "message_id": "<msg-0302-001@ridgelinegear.com>",
+      "in_reply_to": "<msg-0216-001@ridgelinegear.com>",
+      "body_text": "Hi,\n\nAttached is the completed medical certification from my doctor. Let me know if you need anything else.\n\nThanks,\nJames",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "WH-380-E_Nkomo_completed.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjQKMSAwIG9iago8PAovVHlwZSAvQ2F0YWxvZwo+PgplbmRvYmoK"
+        }
+      ]
+    },
+    {
+      "email_id": "5",
+      "folder": "Sent",
+      "subject": "FMLA Leave Designated \u2014 Case LC-2026-0203",
+      "from_addr": "leaves@ridgelinegear.com",
+      "to_addr": "james.nkomo@ridgelinegear.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-02-17T15:00:00-07:00",
+      "message_id": "<msg-0303-001@ridgelinegear.com>",
+      "in_reply_to": "<msg-0302-001@ridgelinegear.com>",
+      "body_text": "Hi James,\n\nI have reviewed the medical certification you provided for your FMLA leave request. I am writing to confirm that your leave has been DESIGNATED as FMLA-qualifying.\n\nCase ID: LC-2026-0203\nLeave start date: 02/15/2026\nExpected end date: 08/15/2026\nTotal FMLA time designated: up to 480 hours\nLeave format: Intermittent\nCertified frequency: as documented on the medical certification\n\nAttached is your official Designation Notice (DOL Form WH-382).\n\nYour remaining FMLA entitlement after this leave will depend on actual usage, tracked on a rolling 12-month basis.\n\nBest regards,\nRidgeline Gear Co. \u2014 Leave Coordinator\nleaves@ridgelinegear.com",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "6",
+      "folder": "Sent",
+      "subject": "Leave Notification \u2014 James Nkomo",
+      "from_addr": "leaves@ridgelinegear.com",
+      "to_addr": "marcus.deluca@ridgelinegear.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-02-13T10:25:00-07:00",
+      "message_id": "<msg-0303-002@ridgelinegear.com>",
+      "in_reply_to": null,
+      "body_text": "Hi Marcus,\n\nI am writing to notify you that one of your team members will be on approved leave. Please use this notification to plan workload coverage.\n\nEmployee: James Nkomo\nLeave type: approved leave\nStart date: 02/15/2026\nExpected end date: 08/15/2026\nLeave format: Intermittent\nGeneral frequency range: approximately 1-2 days per month\n\nFor all questions about this leave, please contact me directly at leaves@ridgelinegear.com. Please do NOT contact the employee about work matters related to the leave.\n\nPlease log each intermittent absence in the attendance system and notify me at #leave-intake.\n\nCONFIDENTIALITY REMINDER: medical information about your team members is confidential under federal and Colorado law. Please do not share this notification with other team members or discuss the reason for the leave with anyone.\n\nBest regards,\nRidgeline Gear Co. \u2014 Leave Coordinator\nleaves@ridgelinegear.com",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "7",
+      "folder": "FMLA Cases",
+      "subject": "Nkomo out today 4/7",
+      "from_addr": "marcus.deluca@ridgelinegear.com",
+      "to_addr": "leaves@ridgelinegear.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-07T08:35:00-06:00",
+      "message_id": "<msg-0407-001@ridgelinegear.com>",
+      "in_reply_to": null,
+      "body_text": "James called in this morning, said it's for his approved leave. Full day. I actually got released from Jury Duty for a portion of the day, which is why I'm emailing you and not listening to IRL Law & Order.\n\n\u2014 Marcus",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "8",
+      "folder": "FMLA Cases",
+      "subject": "Leave of absence request",
+      "from_addr": "hannah.lindqvist@ridgelinegear.com",
+      "to_addr": "leaves@ridgelinegear.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-12T11:40:00-06:00",
+      "message_id": "<msg-0312-001@ridgelinegear.com>",
+      "in_reply_to": null,
+      "body_text": "Hi,\n\nI need to request a leave of absence for a medical procedure. My doctor has scheduled it for March 16 and estimates I'll need about 8 weeks to recover.\n\nEmployee ID: R-3055\nStart date: March 16, 2026\nExpected return: May 11, 2026\nReason: my own medical condition\nContinuous leave\nMy manager is Wei Zhang\n\nPlease use my work email to reach me, or my personal email hlindqvist@icloud.com if I'm not checking work email during recovery.\n\nThank you,\nHannah Lindqvist",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "9",
+      "folder": "Sent",
+      "subject": "Re: Leave of absence request",
+      "from_addr": "leaves@ridgelinegear.com",
+      "to_addr": "hannah.lindqvist@ridgelinegear.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-13T09:10:00-06:00",
+      "message_id": "<msg-0313-001@ridgelinegear.com>",
+      "in_reply_to": "<msg-0312-001@ridgelinegear.com>",
+      "body_text": "Hi Hannah,\n\nThank you for submitting your FMLA leave request. I have reviewed your eligibility and confirmed that you ARE eligible for FMLA leave under all three federal eligibility criteria as of your requested leave start date of 03/16/2026.\n\nAttached is your official Notice of Eligibility and Rights & Responsibilities (DOL Form WH-381), which explains your rights and obligations under FMLA. Please read it carefully.\n\nTo complete your FMLA designation, I also need a medical certification from your healthcare provider. Please find attached the appropriate certification form (WH-380-E for your own condition). The completed certification is due by 03/28/2026.\n\nIf the certification is not returned by the due date, your leave may be denied. If you anticipate any difficulty obtaining the certification by the deadline, please reply to this email so we can discuss.\n\nYour leave may also qualify under Colorado FAMLI, which provides paid wage replacement through the state. If you would like to file a FAMLI claim, please contact CDLE directly at claims@famli.colorado.gov. Ridgeline does not file FAMLI claims on your behalf.\n\nCase ID: LC-2026-0287\n\nBest regards,\nRidgeline Gear Co. \u2014 Leave Coordinator\nleaves@ridgelinegear.com",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "10",
+      "folder": "FMLA Cases",
+      "subject": "Re: Leave of absence request",
+      "from_addr": "hannah.lindqvist@ridgelinegear.com",
+      "to_addr": "leaves@ridgelinegear.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-27T16:05:00-06:00",
+      "message_id": "<msg-0327-001@ridgelinegear.com>",
+      "in_reply_to": "<msg-0313-001@ridgelinegear.com>",
+      "body_text": "Hi,\n\nHere is my completed medical certification. My doctor filled it out and signed it. I also filed a FAMLI claim with CDLE like you suggested.\n\nThank you,\nHannah",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "WH-380-E_Lindqvist_completed.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjQKMSAwIG9iago8PAovVHlwZSAvQ2F0YWxvZwo+PgplbmRvYmoK"
+        }
+      ]
+    },
+    {
+      "email_id": "11",
+      "folder": "Sent",
+      "subject": "FMLA Leave Designated \u2014 Case LC-2026-0287",
+      "from_addr": "leaves@ridgelinegear.com",
+      "to_addr": "hannah.lindqvist@ridgelinegear.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-31T09:45:00-06:00",
+      "message_id": "<msg-0331-001@ridgelinegear.com>",
+      "in_reply_to": "<msg-0327-001@ridgelinegear.com>",
+      "body_text": "Hi Hannah,\n\nI have reviewed the medical certification you provided for your FMLA leave request. I am writing to confirm that your leave has been DESIGNATED as FMLA-qualifying.\n\nCase ID: LC-2026-0287\nLeave start date: 03/16/2026\nExpected end date: 05/11/2026\nTotal FMLA time designated: 320 hours (8 weeks)\nLeave format: Continuous\n\nA fitness-for-duty certification will be required from your healthcare provider before you may return to work. I will send a reminder before your scheduled return date.\n\nAttached is your official Designation Notice (DOL Form WH-382).\n\nYour remaining FMLA entitlement after this leave will be approximately 160 hours in your rolling 12-month period.\n\nYour leave also qualifies under Colorado FAMLI, and both programs will run concurrently. You will receive a separate confirmation about FAMLI coordination.\n\nBest regards,\nRidgeline Gear Co. \u2014 Leave Coordinator\nleaves@ridgelinegear.com",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "12",
+      "folder": "Sent",
+      "subject": "Leave Notification \u2014 Hannah Lindqvist",
+      "from_addr": "leaves@ridgelinegear.com",
+      "to_addr": "wei.zhang@ridgelinegear.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-17T08:50:00-06:00",
+      "message_id": "<msg-0317-001@ridgelinegear.com>",
+      "in_reply_to": null,
+      "body_text": "Hi Wei,\n\nI am writing to notify you that one of your team members will be on approved leave. Please use this notification to plan workload coverage.\n\nEmployee: Hannah Lindqvist\nLeave type: approved leave\nStart date: 03/16/2026\nExpected end date: 05/11/2026\nLeave format: Continuous\n\nFor all questions about this leave, please contact me directly at leaves@ridgelinegear.com. Please do NOT contact the employee about work matters during their leave except in genuine operational emergency.\n\nI will be in touch closer to the return date to coordinate.\n\nCONFIDENTIALITY REMINDER: medical information about your team members is confidential under federal and Colorado law. Please do not share this notification with other team members or discuss the reason for the leave with anyone.\n\nBest regards,\nRidgeline Gear Co. \u2014 Leave Coordinator\nleaves@ridgelinegear.com",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "14",
+      "folder": "Sent",
+      "subject": "Re: FAMLI Employer Response Required \u2014 Claim FAMLI-2026-22187",
+      "from_addr": "leaves@ridgelinegear.com",
+      "to_addr": "claims@famli.colorado.gov",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-19T09:30:00-06:00",
+      "message_id": "<msg-0319-001@ridgelinegear.com>",
+      "in_reply_to": "<famli-22187@famli.colorado.gov>",
+      "body_text": "To whom it may concern,\n\nThis is Ridgeline Gear Co.'s employer response for FAMLI Claim ID FAMLI-2026-22187.\n\nClaimant: Hannah Lindqvist\nRidgeline Employee ID: R-3055\nEmployment Status: Active, full-time (1.0 FTE)\nLeave Dates: 03/16/2026 through 05/11/2026 (expected)\nFMLA Running Concurrently: Yes \u2014 Ridgeline Case ID LC-2026-0287\n\nPlease contact me if additional information is needed.\n\nBest regards,\nRidgeline Gear Co. \u2014 Leave Coordinator\nleaves@ridgelinegear.com",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "15",
+      "folder": "Sent",
+      "subject": "FAMLI Concurrent Designation \u2014 Case LC-2026-0287",
+      "from_addr": "leaves@ridgelinegear.com",
+      "to_addr": "hannah.lindqvist@ridgelinegear.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-19T09:45:00-06:00",
+      "message_id": "<msg-0319-002@ridgelinegear.com>",
+      "in_reply_to": null,
+      "body_text": "Hi Hannah,\n\nI am writing to confirm that I have received the notice from CDLE about your Colorado FAMLI claim. I have submitted Ridgeline's Employer Response and confirmed the following:\n\nFAMLI Claim ID: FAMLI-2026-22187\nCase ID at Ridgeline: LC-2026-0287\nConcurrent FMLA designation: Yes\n\nBecause your leave qualifies under both FMLA and FAMLI, both programs will run concurrently.\n\nWage replacement under FAMLI is paid by the State of Colorado, NOT by Ridgeline. All questions about your FAMLI wage replacement amount, payment timing, and tax treatment should be directed to CDLE directly at claims@famli.colorado.gov. I cannot answer those questions.\n\nIf you have questions about Ridgeline's role in coordinating your leave, please contact me directly. If you have questions about pay or benefits, please contact our Payroll Lead, Teresa Vang, at teresa.vang@ridgelinegear.com.\n\nBest regards,\nRidgeline Gear Co. \u2014 Leave Coordinator\nleaves@ridgelinegear.com",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "16",
+      "folder": "HFWA & Paid Leave",
+      "subject": "Jury duty next week",
+      "from_addr": "marcus.deluca@ridgelinegear.com",
+      "to_addr": "leaves@ridgelinegear.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-02T14:10:00-06:00",
+      "message_id": "<msg-0402-001@ridgelinegear.com>",
+      "in_reply_to": null,
+      "body_text": "Hi,\n\nI got a jury summons for Larimer County District Court starting Monday April 6. Attached is a scan of the summons. Not sure how long it'll go \u2014 could be just a day or the whole week.\n\nMarcus DeLuca\nR-3112",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "jury_summons_DeLuca.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjQKMSAwIG9iago8PAovVHlwZSAvQ2F0YWxvZwo+PgplbmRvYmoK"
+        }
+      ]
+    },
+    {
+      "email_id": "17",
+      "folder": "Sent",
+      "subject": "Re: Jury duty next week",
+      "from_addr": "leaves@ridgelinegear.com",
+      "to_addr": "marcus.deluca@ridgelinegear.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-02T15:20:00-06:00",
+      "message_id": "<msg-0402-002@ridgelinegear.com>",
+      "in_reply_to": "<msg-0402-001@ridgelinegear.com>",
+      "body_text": "Hi Marcus,\n\nThank you for letting me know about your jury duty and for providing the summons. I've logged this in our system.\n\nCase ID: LC-2026-0320\nLeave start date: 04/06/2026\nLeave type: Jury Duty\n\nYou are covered for the full length of jury service. Please let me know when the service ends so I can update your case and coordinate with Payroll.\n\nI've notified Sandra Ellison that you'll be out starting Monday.\n\nBest regards,\nRidgeline Gear Co. \u2014 Leave Coordinator\nleaves@ridgelinegear.com",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "18",
+      "folder": "Sent",
+      "subject": "Leave Notification \u2014 Marcus DeLuca",
+      "from_addr": "leaves@ridgelinegear.com",
+      "to_addr": "sandra.ellison@ridgelinegear.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-02T15:30:00-06:00",
+      "message_id": "<msg-0402-003@ridgelinegear.com>",
+      "in_reply_to": null,
+      "body_text": "Hi Sandra,\n\nI am writing to notify you that one of your team members will be on approved leave. Please use this notification to plan workload coverage.\n\nEmployee: Marcus DeLuca\nLeave type: jury duty\nStart date: 04/06/2026\nExpected end date: to be confirmed (estimated up to 1 week)\nLeave format: Continuous\n\nFor all questions about this leave, please contact me directly at leaves@ridgelinegear.com.\n\nCONFIDENTIALITY REMINDER: Please do not share this notification with other team members.\n\nBest regards,\nRidgeline Gear Co. \u2014 Leave Coordinator\nleaves@ridgelinegear.com",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "19",
+      "folder": "Closed Cases",
+      "subject": "Bereavement leave \u2014 my father passed away",
+      "from_addr": "kevin.omalley@ridgelinegear.com",
+      "to_addr": "leaves@ridgelinegear.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-26T07:45:00-06:00",
+      "message_id": "<msg-0328-001@ridgelinegear.com>",
+      "in_reply_to": null,
+      "body_text": "Hi,\n\nI'm writing to let you know that my father passed away last night. I need to take bereavement leave starting today through Monday. My employee ID is R-3200 and my manager is Rachel Thornton.\n\nKevin O'Malley",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "20",
+      "folder": "Sent",
+      "subject": "Re: Bereavement leave \u2014 my father passed away",
+      "from_addr": "leaves@ridgelinegear.com",
+      "to_addr": "kevin.omalley@ridgelinegear.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-26T08:30:00-06:00",
+      "message_id": "<msg-0328-002@ridgelinegear.com>",
+      "in_reply_to": "<msg-0328-001@ridgelinegear.com>",
+      "body_text": "Hi Kevin,\n\nI am very sorry for your loss. I want to confirm that I have received your bereavement leave request and have logged the following:\n\nCase ID: LC-2026-0305\nLeave start date: 03/26/2026\nLeave end date: 03/30/2026\nTotal bereavement leave: 3 days\n\nYour manager has been notified that you will be out, with no personal details disclosed.\n\nPer Ridgeline policy, please provide documentation (an obituary, death certificate, or funeral program) within 30 calendar days.\n\nIf you need additional time beyond your bereavement allowance, please let me know and we can discuss options.\n\nPlease take care of yourself during this difficult time.\n\nBest regards,\nRidgeline Gear Co. \u2014 Leave Coordinator\nleaves@ridgelinegear.com",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "21",
+      "folder": "Closed Cases",
+      "subject": "Re: Bereavement leave \u2014 my father passed away",
+      "from_addr": "kevin.omalley@ridgelinegear.com",
+      "to_addr": "leaves@ridgelinegear.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-02T11:15:00-06:00",
+      "message_id": "<msg-0402-004@ridgelinegear.com>",
+      "in_reply_to": "<msg-0328-002@ridgelinegear.com>",
+      "body_text": "Hi,\n\nAttached is the obituary for my father. Thank you for your kind words.\n\nKevin",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "obit_OMalley.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjQKMSAwIG9iago8PAovVHlwZSAvQ2F0YWxvZwo+PgplbmRvYmoK"
+        }
+      ]
+    },
+    {
+      "email_id": "22",
+      "folder": "Closed Cases",
+      "subject": "Paternity leave request",
+      "from_addr": "darnell.washington@ridgelinegear.com",
+      "to_addr": "leaves@ridgelinegear.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-12-15T09:20:00-07:00",
+      "message_id": "<msg-1215-001@ridgelinegear.com>",
+      "in_reply_to": null,
+      "body_text": "Hi,\n\nMy wife is expecting our first child in early January. I'd like to request leave for bonding starting around January 12 for 8 weeks. My employee ID is R-2300 and my manager is Amy Sandoval.\n\nThanks,\nDarnell Washington",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "23",
+      "folder": "Sent",
+      "subject": "FMLA Leave Designated \u2014 Case LC-2026-0101",
+      "from_addr": "leaves@ridgelinegear.com",
+      "to_addr": "darnell.washington@ridgelinegear.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-01-13T10:00:00-07:00",
+      "message_id": "<msg-0113-001@ridgelinegear.com>",
+      "in_reply_to": "<msg-1215-001@ridgelinegear.com>",
+      "body_text": "Hi Darnell,\n\nCongratulations on the upcoming arrival! I have reviewed your eligibility and confirmed that you ARE eligible for FMLA leave. Your leave has been DESIGNATED as FMLA-qualifying.\n\nCase ID: LC-2026-0101\nLeave start date: 01/12/2026\nExpected end date: 03/06/2026\nTotal FMLA time designated: 320 hours (8 weeks)\nLeave format: Continuous\n\nNo medical certification is required for bonding leave.\n\nYour leave also qualifies under Colorado FAMLI. If you have not already, you may file a FAMLI claim with CDLE at claims@famli.colorado.gov for paid wage replacement.\n\nYour remaining FMLA entitlement after this leave will be approximately 160 hours in your rolling 12-month period.\n\nBest regards,\nRidgeline Gear Co. \u2014 Leave Coordinator\nleaves@ridgelinegear.com",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "24",
+      "folder": "Closed Cases",
+      "subject": "Leave request \u2014 need to care for my mom",
+      "from_addr": "tomas.guerrero@ridgelinegear.com",
+      "to_addr": "leaves@ridgelinegear.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-10-03T13:50:00-06:00",
+      "message_id": "<msg-1003-001@ridgelinegear.com>",
+      "in_reply_to": null,
+      "body_text": "Hi,\n\nMy mother was hospitalized this week and the doctors say she'll need ongoing care for the next several weeks. I need to take leave starting Monday October 6 to be with her. I'm not sure exactly how long \u2014 maybe 3 to 4 weeks.\n\nMy employee ID is R-2108, manager is Marcus DeLuca. Please reach me on my work email.\n\nThanks,\nTom\u00e1s Guerrero",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "25",
+      "folder": "Sent",
+      "subject": "FMLA Leave Designated \u2014 Case LC-2025-0410",
+      "from_addr": "leaves@ridgelinegear.com",
+      "to_addr": "tomas.guerrero@ridgelinegear.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-10-21T09:30:00-06:00",
+      "message_id": "<msg-1021-001@ridgelinegear.com>",
+      "in_reply_to": "<msg-1003-001@ridgelinegear.com>",
+      "body_text": "Hi Tom\u00e1s,\n\nI have reviewed the medical certification you provided for your FMLA leave request. I am writing to confirm that your leave has been DESIGNATED as FMLA-qualifying.\n\nCase ID: LC-2025-0410\nLeave start date: 10/06/2025\nExpected end date: 10/31/2025\nTotal FMLA time designated: 160 hours (4 weeks)\nLeave format: Continuous\n\nYour leave also qualifies under Colorado FAMLI, and both programs will run concurrently.\n\nYour remaining FMLA entitlement after this leave will be approximately 320 hours in your rolling 12-month period.\n\nBest regards,\nRidgeline Gear Co. \u2014 Leave Coordinator\nleaves@ridgelinegear.com",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "26",
+      "folder": "Closed Cases",
+      "subject": "Continuing intermittent leave for 2026",
+      "from_addr": "sarah.chen@ridgelinegear.com",
+      "to_addr": "leaves@ridgelinegear.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-12-22T10:30:00-07:00",
+      "message_id": "<msg-1222-001@ridgelinegear.com>",
+      "in_reply_to": null,
+      "body_text": "Hi,\n\nMy intermittent FMLA case (LC-2025-0331) ends December 31 but I still need intermittent leave for the same condition going into 2026. My doctor renewed the certification on 12/20. Should I open a new case or does the old one continue?\n\nThanks,\nSarah Chen\nR-2044",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "27",
+      "folder": "Sent",
+      "subject": "Re: Continuing intermittent leave for 2026",
+      "from_addr": "leaves@ridgelinegear.com",
+      "to_addr": "sarah.chen@ridgelinegear.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-12-23T08:45:00-07:00",
+      "message_id": "<msg-1223-001@ridgelinegear.com>",
+      "in_reply_to": "<msg-1222-001@ridgelinegear.com>",
+      "body_text": "Hi Sarah,\n\nThank you for letting me know and for getting the certification renewed. I've opened a new case for the continuation:\n\nCase ID: LC-2026-0058\nLeave start date: 01/01/2026\nExpected end date: 03/31/2026\nLeave format: Intermittent\n\nYour renewed certification is on file, so no additional paperwork is needed right now. Your FMLA designation carries over to the new case.\n\nAs a reminder, your rolling 12-month FMLA balance is calculated from all usage in the prior 12 months, so hours used under your previous cases still count toward your total.\n\nBest regards,\nRidgeline Gear Co. \u2014 Leave Coordinator\nleaves@ridgelinegear.com",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "28",
+      "folder": "Closed Cases",
+      "subject": "Sick today and tomorrow",
+      "from_addr": "aisha.robinson@ridgelinegear.com",
+      "to_addr": "leaves@ridgelinegear.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-08-18T07:30:00-06:00",
+      "message_id": "<msg-0818-001@ridgelinegear.com>",
+      "in_reply_to": null,
+      "body_text": "Hi,\n\nI woke up feeling really unwell this morning. I'm going to be out today and probably tomorrow as well. Wanted to let you know.\n\nAisha Robinson, R-3278\nMy manager is Jennifer Kowalski.",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "29",
+      "folder": "Sent",
+      "subject": "Re: Sick today and tomorrow",
+      "from_addr": "leaves@ridgelinegear.com",
+      "to_addr": "aisha.robinson@ridgelinegear.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-08-18T08:45:00-06:00",
+      "message_id": "<msg-0818-002@ridgelinegear.com>",
+      "in_reply_to": "<msg-0818-001@ridgelinegear.com>",
+      "body_text": "Hi Aisha,\n\nI'm sorry to hear you're not feeling well. I've logged your absence under HFWA sick leave:\n\nCase ID: LC-2025-0275\nDates: 08/18/2025 \u2013 08/19/2025\nHours: 12 (based on your regular 6-hour workday)\n\nNo documentation is needed since this is fewer than 4 consecutive workdays. Your manager has been notified of the dates only.\n\nFeel better soon.\n\nBest regards,\nRidgeline Gear Co. \u2014 Leave Coordinator\nleaves@ridgelinegear.com",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "31",
+      "folder": "Sent",
+      "subject": "Re: FAMLI Employer Response Required \u2014 Claim FAMLI-2025-74218",
+      "from_addr": "leaves@ridgelinegear.com",
+      "to_addr": "claims@famli.colorado.gov",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-10-09T10:00:00-06:00",
+      "message_id": "<msg-1009-001@ridgelinegear.com>",
+      "in_reply_to": "<famli-74218@famli.colorado.gov>",
+      "body_text": "To whom it may concern,\n\nThis is Ridgeline Gear Co.'s employer response for FAMLI Claim ID FAMLI-2025-74218.\n\nClaimant: Tom\u00e1s Guerrero\nRidgeline Employee ID: R-2108\nEmployment Status: Active, full-time (1.0 FTE)\nLeave Dates: 10/06/2025 through 10/31/2025\nFMLA Running Concurrently: Yes \u2014 Ridgeline Case ID LC-2025-0410\n\nBest regards,\nRidgeline Gear Co. \u2014 Leave Coordinator\nleaves@ridgelinegear.com",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "33",
+      "folder": "Sent",
+      "subject": "Re: FAMLI Employer Response Required \u2014 Claim FAMLI-2026-10345",
+      "from_addr": "leaves@ridgelinegear.com",
+      "to_addr": "claims@famli.colorado.gov",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-01-15T09:15:00-07:00",
+      "message_id": "<msg-0115-001@ridgelinegear.com>",
+      "in_reply_to": "<famli-10345@famli.colorado.gov>",
+      "body_text": "To whom it may concern,\n\nThis is Ridgeline Gear Co.'s employer response for FAMLI Claim ID FAMLI-2026-10345.\n\nClaimant: Darnell Washington\nRidgeline Employee ID: R-2300\nEmployment Status: Active, full-time (1.0 FTE)\nLeave Dates: 01/12/2026 through 03/06/2026\nFMLA Running Concurrently: Yes \u2014 Ridgeline Case ID LC-2026-0101\n\nBest regards,\nRidgeline Gear Co. \u2014 Leave Coordinator\nleaves@ridgelinegear.com",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "34",
+      "folder": "General",
+      "subject": "Leave tracker access for new LC",
+      "from_addr": "renata.okafor@ridgelinegear.com",
+      "to_addr": "leaves@ridgelinegear.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-30T16:00:00-06:00",
+      "message_id": "<msg-0330-001@ridgelinegear.com>",
+      "in_reply_to": null,
+      "body_text": "Hi,\n\nJust a reminder that the shared drive permissions for the medical files folder were updated last week. If you have any trouble accessing files, let Samir know and he'll fix it.\n\nAlso, the Q2 quarterly audit is coming up April 15. I'll be pulling cases next week so please make sure all your recent closures have complete case notes.\n\nThanks,\nRenata",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "35",
+      "folder": "FMLA Cases",
+      "subject": "Leave request \u2014 caring for my mother",
+      "from_addr": "tomas.guerrero@ridgelinegear.com",
+      "to_addr": "leaves@ridgelinegear.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-25T10:14:00-06:00",
+      "message_id": "<msg-0325-001@ridgelinegear.com>",
+      "in_reply_to": null,
+      "body_text": "Hi,\n\nI need to request a leave of absence to care for my mother. She was hospitalized earlier this week and her doctors are saying she will need ongoing care for the foreseeable future. I'd like to start leave as soon as possible \u2014 ideally March 27 \u2014 and I'm not sure yet how long I'll need to be out.\n\nMy employee ID is R-2108 and my manager is Marcus DeLuca. Please reach me at my work email.\n\nThanks,\nTom\u00e1s Guerrero",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "36",
+      "folder": "Sent",
+      "subject": "Re: Leave request \u2014 caring for my mother",
+      "from_addr": "leaves@ridgelinegear.com",
+      "to_addr": "tomas.guerrero@ridgelinegear.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-26T09:05:00-06:00",
+      "message_id": "<msg-0326-001@ridgelinegear.com>",
+      "in_reply_to": "<msg-0325-001@ridgelinegear.com>",
+      "body_text": "Hi Tom\u00e1s,\n\nThank you for submitting your FMLA leave request. I have reviewed your eligibility and confirmed that you ARE eligible for FMLA leave under all three federal eligibility criteria as of your requested leave start date of 03/27/2026.\n\nAttached is your official Notice of Eligibility and Rights & Responsibilities (DOL Form WH-381), which explains your rights and obligations under FMLA. Please read it carefully.\n\nTo complete your FMLA designation, I also need a medical certification from your mother\u2019s healthcare provider. Please find attached the appropriate certification form (WH-380-F for a family member\u2019s condition). The completed certification is due by 04/10/2026.\n\nIf the certification is not returned by the due date, your leave may be denied. If you anticipate any difficulty obtaining the certification by the deadline, please reply to this email so we can discuss.\n\nYour leave may also qualify under Colorado FAMLI, which provides paid wage replacement through the state. If you would like to file a FAMLI claim, please contact CDLE directly at claims@famli.colorado.gov. Ridgeline does not file FAMLI claims on your behalf.\n\nCase ID: LC-2026-0321\n\nBest regards,\nRidgeline Gear Co. \u2014 Leave Coordinator\nleaves@ridgelinegear.com",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "WH-381_LC-2026-0321_20260326.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjQKMSAwIG9iago8PAovVHlwZSAvQ2F0YWxvZwo+PgplbmRvYmoK"
+        },
+        {
+          "filename": "WH-380-F_blank.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjQKMSAwIG9iago8PAovVHlwZSAvQ2F0YWxvZwo+PgplbmRvYmoK"
+        }
+      ]
+    },
+    {
+      "email_id": "37",
+      "folder": "Sent",
+      "subject": "Leave Notification \u2014 Tom\u00e1s Guerrero",
+      "from_addr": "leaves@ridgelinegear.com",
+      "to_addr": "marcus.deluca@ridgelinegear.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-26T09:20:00-06:00",
+      "message_id": "<msg-0326-002@ridgelinegear.com>",
+      "in_reply_to": null,
+      "body_text": "Hi Marcus,\n\nI am writing to notify you that one of your team members will be on approved leave. Please use this notification to plan workload coverage.\n\nEmployee: Tom\u00e1s Guerrero\nLeave type: approved leave\nStart date: 03/27/2026\nExpected end date: to be confirmed\nLeave format: Continuous\n\nFor all questions about this leave, please contact me directly at leaves@ridgelinegear.com. Please do NOT contact the employee about work matters during their leave except in genuine operational emergency.\n\nI will be in touch closer to the return date to coordinate.\n\nCONFIDENTIALITY REMINDER: medical information about your team members is confidential under federal and Colorado law. Please do not share this notification with other team members or discuss the reason for the leave with anyone.\n\nBest regards,\nRidgeline Gear Co. \u2014 Leave Coordinator\nleaves@ridgelinegear.com",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "38",
+      "folder": "INBOX",
+      "subject": "Re: Leave request \u2014 caring for my mother",
+      "from_addr": "tomas.guerrero@ridgelinegear.com",
+      "to_addr": "leaves@ridgelinegear.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-03T14:22:00-06:00",
+      "message_id": "<msg-0403-001@ridgelinegear.com>",
+      "in_reply_to": "<msg-0326-001@ridgelinegear.com>",
+      "body_text": "Hi,\n\nJust wanted to give you a heads up \u2014 my mother\u2019s doctor\u2019s office has been slow getting back to me about the paperwork. I\u2019ve called twice and left messages. I\u2019m still working on it and hoping to have it to you before the deadline. Is there any flexibility if I can\u2019t get it in time?\n\nThanks,\nTom\u00e1s",
+      "body_html": null,
+      "is_read": true,
+      "is_important": true,
+      "attachments": []
+    },
+    {
+      "email_id": "39",
+      "folder": "Sent",
+      "subject": "Re: Leave request \u2014 caring for my mother",
+      "from_addr": "leaves@ridgelinegear.com",
+      "to_addr": "tomas.guerrero@ridgelinegear.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-03T15:08:00-06:00",
+      "message_id": "<msg-0403-002@ridgelinegear.com>",
+      "in_reply_to": "<msg-0403-001@ridgelinegear.com>",
+      "body_text": "Hi Tom\u00e1s,\n\nThank you for the update. I\u2019ve noted in your case file that you have been in contact with the provider\u2019s office. Please continue following up with them as soon as possible \u2014 the certification deadline of 04/10/2026 remains in effect and I am not able to extend it in advance.\n\nIf the form is not received by the deadline, I will be in touch with next steps at that time.\n\nBest regards,\nRidgeline Gear Co. \u2014 Leave Coordinator\nleaves@ridgelinegear.com",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    }
+  ],
+  "next_email_id": 40
+}

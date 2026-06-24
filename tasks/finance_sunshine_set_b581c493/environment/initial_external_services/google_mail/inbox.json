@@ -1,0 +1,236 @@
+{
+  "mailbox": {
+    "email": "jasmine.patel@sunshineandsetauto.com",
+    "name": "Jasmine Patel"
+  },
+  "contacts": [
+    {
+      "email": "elena.brooks@sunshineandsetauto.com",
+      "name": "Elena Brooks"
+    },
+    {
+      "email": "marcus.hale@sunshineandsetauto.com",
+      "name": "Marcus Hale"
+    },
+    {
+      "email": "talia.nguyen@sunshineandsetauto.com",
+      "name": "Talia Nguyen"
+    },
+    {
+      "email": "noah.alvarez@sunshineandsetauto.com",
+      "name": "Noah Alvarez"
+    },
+    {
+      "email": "priya.bennett@sunshineandsetauto.com",
+      "name": "Priya Bennett"
+    },
+    {
+      "email": "caleb.foster@sunshineandsetauto.com",
+      "name": "Caleb Foster"
+    },
+    {
+      "email": "renee.lawson@sunshineandsetauto.com",
+      "name": "Renee Lawson"
+    },
+    {
+      "email": "darius.kim@sunshineandsetauto.com",
+      "name": "Darius Kim"
+    },
+    {
+      "email": "leah.morgan@sunshineandsetauto.com",
+      "name": "Leah Morgan"
+    },
+    {
+      "email": "derrick.soto@sunshineandsetauto.com",
+      "name": "Derrick Soto"
+    },
+    {
+      "email": "olivia.mercer@sunshineandsetauto.com",
+      "name": "Olivia Mercer"
+    },
+    {
+      "email": "trent.holloway@sunshineandsetauto.com",
+      "name": "Trent Holloway"
+    },
+    {
+      "email": "sofia.ramirez@sunshineandsetauto.com",
+      "name": "Sofia Ramirez"
+    },
+    {
+      "email": "grant.ellis@sunshineandsetauto.com",
+      "name": "Grant Ellis"
+    },
+    {
+      "email": "maya.chen@sunshineandsetauto.com",
+      "name": "Maya Chen"
+    },
+    {
+      "email": "hannah.price@sunshineandsetauto.com",
+      "name": "Hannah Price"
+    },
+    {
+      "email": "evan.ross@sunshineandsetauto.com",
+      "name": "Evan Ross"
+    },
+    {
+      "email": "payoffs@wellsfargo.com",
+      "name": "Wells Fargo Dealer Services — Payoff Processing"
+    },
+    {
+      "email": "dealer.chargebacks@meridiangap.com",
+      "name": "Meridian GAP Services — Dealer Support"
+    }
+  ],
+  "folders": [
+    {
+      "name": "Processed"
+    },
+    {
+      "name": "Needs Action"
+    }
+  ],
+  "next_email_id": 12,
+  "emails": [
+    {
+      "email_id": "email-001",
+      "folder": "INBOX",
+      "subject": "Payoff Application Error — Please Review — Ref WFB-2026-DPO-88491",
+      "from_addr": "payoffs@wellsfargo.com",
+      "to_addr": "jasmine.patel@sunshineandsetauto.com",
+      "cc_addr": "priya.bennett@sunshineandsetauto.com",
+      "date": "2026-04-24T07:31:00-04:00",
+      "message_id": "<WFB-DPO-20260424-88491@wellsfargo.com>",
+      "in_reply_to": null,
+      "is_read": false,
+      "is_important": true,
+      "attachments": [],
+      "body_text": "Dear Sunshine & Set Automotive Accounting,\n\nRe: ACH Dealer Payoff — Reference WFB-2026-DPO-88491\n\nWe are writing to notify you of a pending exception on an ACH payment received April 23, 2026, in the amount of $12,610.00.\n\nPayment Details:\n  ACH Amount: $12,610.00\n  ACH Reference: REF#90181034\n  Receiving Account: xxxx-4421\n\nVehicle and Obligation Information:\n  Borrower: Morales\n  VIN (Last 6): QQ3317\n  Vehicle: 2017 Honda Accord\n  Associated Obligation Account: xxxx-7809\n  Current Payoff Balance (as of 04/24/2026): $12,875.00\n  Good Through: April 30, 2026\n  Per Diem: $4.18\n\nException Summary:\nThe receiving account referenced in the ACH remittance does not correspond to the obligation account associated with the vehicle and borrower identified in the payment instructions. Automatic application of the payment has been suspended pending resolution.\n\nResolution Required:\nA payment reallocation or corrected remittance is required within 3 business days of this notice. Until resolved, the lien on the associated obligation account will not be released and title processing will remain on hold.\n\nTo initiate resolution, contact our Dealer Payoff Resolution team at (800) 555-3201 (select option 3) or respond to this notice referencing WFB-2026-DPO-88491.\n\nSincerely,\nDealer Payoff Processing Center\nWells Fargo Dealer Services\n(800) 555-3201 | payoffs@wellsfargo.com"
+    },
+    {
+      "email_id": "email-002",
+      "folder": "INBOX",
+      "subject": "Deal 4481 / Hernandez — desk recap vs deal log — delivery today",
+      "from_addr": "sofia.ramirez@sunshineandsetauto.com",
+      "to_addr": "jasmine.patel@sunshineandsetauto.com",
+      "cc_addr": null,
+      "date": "2026-04-24T08:47:00-04:00",
+      "message_id": "<SR-20260424-4481@sunshineandsetauto.com>",
+      "in_reply_to": null,
+      "is_read": false,
+      "is_important": true,
+      "attachments": [
+        {
+          "filename": "Deal4481_Hernandez_FI_Recap_signed.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjQKMSAwIG9iajw8L1R5cGUvQ2F0YWxvZy9QYWdlcyAyIDAgUj4+ZW5kb2JqCjIgMCBvYmo8PC9UeXBlL1BhZ2VzL0tpZHNbMyAwIFJdL0NvdW50IDEvTWVkaWFCb3hbMCAwIDYxMiA3OTJdPj5lbmRvYmoKMyAwIG9iajw8L1R5cGUvUGFnZS9QYXJlbnQgMiAwIFIvUmVzb3VyY2VzPDwvRm9udDw8L0YxIDQgMCBSPj4+Pi9Db250ZW50cyA1IDAgUj4+ZW5kb2JqCjQgMCBvYmo8PC9UeXBlL0ZvbnQvU3VidHlwZS9UeXBlMS9CYXNlRm9udC9IZWx2ZXRpY2E+PmVuZG9iago1IDAgb2JqPDwvTGVuZ3RoIDEwPj5zdHJlYW0KSGVsbG8gUERGCmVuZHN0cmVhbQplbmRvYmoKeHJlZgowIDYKMDAwMDAwMDAwMCA2NTUzNSBmIAowMDAwMDAwMDA5IDAwMDAwIG4gCnRyYWlsZXI8PC9TaXplIDYvUm9vdCAxIDAgUj4+CnN0YXJ0eHJlZgoxMDAKRU9GCg=="
+        }
+      ],
+      "body_text": "Hi Jasmine,\n\nWanted to flag this before Carlos Hernandez comes in for his delivery today.\n\nI was reviewing the deal file for 4481 (Stock U-2241, VIN last 6: 109189, 2023 Toyota Camry SE) and I noticed the gross figure in the deal log does not match the signed desk recap. The recap I approved shows total gross of $9,200.00 (front: $3,800 / back: $5,400). I am attaching a PDF copy of the signed recap for reference.\n\nDion mentioned there was some back-and-forth on the trade allowance with the customer near the end of the deal — not sure if something got re-entered incorrectly. Just want to make sure this is squared away before Carlos takes delivery.\n\nThanks,\nSofia\n\nSofia Ramirez | F&I Director\nSunshine & Set Automotive\nsofia.ramirez@sunshineandsetauto.com | (407) 555-0198"
+    },
+    {
+      "email_id": "email-003",
+      "folder": "INBOX",
+      "subject": "Chargeback Notice — CB Ref CB-2608 — Account: Sunshine & Set Automotive",
+      "from_addr": "dealer.chargebacks@meridiangap.com",
+      "to_addr": "jasmine.patel@sunshineandsetauto.com",
+      "cc_addr": null,
+      "date": "2026-04-24T09:14:00-04:00",
+      "message_id": "<CB-2608-20260424@meridiangap.com>",
+      "in_reply_to": null,
+      "is_read": false,
+      "is_important": false,
+      "attachments": [],
+      "body_text": "CHARGEBACK NOTICE\nMeridian GAP Services — Dealer Accounting\nDate: April 24, 2026\n\nTo: Sunshine & Set Automotive | Attention: Accounting Department\n\nCB Reference: CB-2608\nContract Number: MGS-2026-4451\nCustomer Name: Rosa Castellano\nContract Date: March 15, 2026\nChargeback Amount: $1,600.00\nCancellation Effective Date: April 1, 2026\n\nThe above-referenced GAP contract has been cancelled per customer request received April 1, 2026. Per the terms of the dealer agreement, a chargeback of $1,600.00 is due and will be deducted from your next reserve statement unless offset by this notice.\n\nPlease acknowledge receipt and post to your accounting records accordingly.\n\nFor questions: (800) 555-7744 | dealer.chargebacks@meridiangap.com\n\nMeridian GAP Services\n2200 Commerce Blvd, Tampa, FL 33612"
+    },
+    {
+      "email_id": "email-004",
+      "folder": "INBOX",
+      "subject": "Quick Q — ACV sanity check before Manheim run",
+      "from_addr": "trent.holloway@sunshineandsetauto.com",
+      "to_addr": "jasmine.patel@sunshineandsetauto.com",
+      "cc_addr": null,
+      "date": "2026-04-23T16:52:00-04:00",
+      "message_id": "<TH-20260423-ACV@sunshineandsetauto.com>",
+      "in_reply_to": null,
+      "is_read": false,
+      "is_important": false,
+      "attachments": [],
+      "body_text": "Hey Jasmine,\n\nNo rush on this, but whenever you get a free minute — could you pull the book cost / ACV for U-2196 (2018 Chevy Traverse LT) and U-2203 (2019 Ford Fusion SE)? Thinking about sending them to Manheim next Thursday if the numbers make sense, and I just want a quick gut-check against what we have in the inventory schedule before I put in the auction entry.\n\nNothing urgent — just do not want to wholesale at a loss if I can help it.\n\nThanks\nTrent Holloway | Used Car Manager\nSunshine & Set Automotive | (407) 555-0147"
+    },
+    {
+      "email_id": "email-005",
+      "folder": "INBOX",
+      "subject": "Deal 4462 / Watkins — stip status & funding timeline",
+      "from_addr": "noah.alvarez@sunshineandsetauto.com",
+      "to_addr": "jasmine.patel@sunshineandsetauto.com",
+      "cc_addr": null,
+      "date": "2026-04-23T11:28:00-04:00",
+      "message_id": "<NA-20260423-4462@sunshineandsetauto.com>",
+      "in_reply_to": null,
+      "is_read": false,
+      "is_important": false,
+      "attachments": [],
+      "body_text": "Hi Jasmine,\n\nQuick update on the Watkins deal (4462, Stock U-2205, Chase Auto Finance). I posted the missing-stip escalation to #acct-contracts-funding yesterday morning — the outstanding item is the proof of insurance card.\n\nAs of this morning we are at calendar day 4 on the CIT aging. Contract value is $18,500, so the standard 5-day unfunded escalation timeline to Marcus Hale applies (not the accelerated 3-day timeline for contracts over $25k). If the stip does not come in by tomorrow, I will escalate to Marcus per section 2.2.\n\nSofia confirmed she is in direct contact with the customer and expects the insurance doc by EOD today. If it comes in, I will submit the completed funding package to Chase immediately and we should fund by Monday.\n\nI have updated the funding tracker and will keep monitoring. Just wanted you to have the full picture in case anyone asks.\n\nThanks,\nNoah Alvarez | Funding & Contracts Clerk\nSunshine & Set Automotive | (407) 555-0162"
+    },
+    {
+      "email_id": "email-006",
+      "folder": "Sent",
+      "subject": "Deal Gross Variance — Deal #4467 / Mbeki",
+      "from_addr": "jasmine.patel@sunshineandsetauto.com",
+      "to_addr": "sofia.ramirez@sunshineandsetauto.com",
+      "cc_addr": "marcus.hale@sunshineandsetauto.com",
+      "date": "2026-04-14T10:22:00-04:00",
+      "message_id": "<JP-20260414-4467@sunshineandsetauto.com>",
+      "in_reply_to": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": [],
+      "body_text": "The posted deal gross for Deal #4467 (Mbeki, Stock #U-2210, VIN ending 230918) does not tie to the approved desk recap.\n\nApproved gross: $7,200.00\nPosted gross: $6,880.00\nVariance: -$320.00\n\nSource of difference: back-end product income — VSC was voided after initial posting but not reflected in the recap total.\n\nPlease confirm the correct figure or provide an updated approval so the deal can be finalized. The deal will remain unposted until this is resolved.\n\nAttach: buyers order, desk recap, and deal log excerpt showing the discrepancy.\n\nJasmine Patel | Senior Deal Posting Specialist\nSunshine & Set Automotive"
+    },
+    {
+      "email_id": "email-007",
+      "folder": "Processed",
+      "subject": "RE: Deal Gross Variance — Deal #4467 / Mbeki",
+      "from_addr": "sofia.ramirez@sunshineandsetauto.com",
+      "to_addr": "jasmine.patel@sunshineandsetauto.com",
+      "cc_addr": "marcus.hale@sunshineandsetauto.com",
+      "date": "2026-04-14T14:05:00-04:00",
+      "message_id": "<SR-20260414-4467R@sunshineandsetauto.com>",
+      "in_reply_to": "<JP-20260414-4467@sunshineandsetauto.com>",
+      "is_read": true,
+      "is_important": false,
+      "attachments": [],
+      "body_text": "Hi Jasmine, VSC was voided at customer request before signing. Correct gross is $6,880.00 — please use that for final posting. Sorry for the confusion! — Sofia"
+    },
+    {
+      "email_id": "email-008",
+      "folder": "Processed",
+      "subject": "RE: Commission sheet — March 16-31 / Vasquez deal 4442",
+      "from_addr": "marcus.hale@sunshineandsetauto.com",
+      "to_addr": "jasmine.patel@sunshineandsetauto.com",
+      "cc_addr": "leah.morgan@sunshineandsetauto.com",
+      "date": "2026-04-02T09:15:00-04:00",
+      "message_id": "<MH-20260408-CS@sunshineandsetauto.com>",
+      "in_reply_to": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": [],
+      "body_text": "Jasmine / Leah, Deal 4442 (Tran) gross figure on Vasquez March 16-31 commission sheet is $1,950 which matches the deal log. Commission sheet correct as submitted. Leah please include in April 1 payroll. No further action needed. — Marcus Hale, Assistant Controller"
+    },
+    {
+      "email_id": "email-009",
+      "folder": "Processed",
+      "subject": "April 2026 Close Calendar",
+      "from_addr": "elena.brooks@sunshineandsetauto.com",
+      "to_addr": "jasmine.patel@sunshineandsetauto.com",
+      "cc_addr": "marcus.hale@sunshineandsetauto.com",
+      "date": "2026-03-25T15:30:00-04:00",
+      "message_id": "<EB-20260325-CLOSE@sunshineandsetauto.com>",
+      "in_reply_to": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": [],
+      "body_text": "Team,\n\nApril close calendar dates are now in the shared Calendar. All deal postings for April must be finalized by April 30 (last BD of month). BD1=5/1, BD2=5/4, BD3=5/5, BD5=5/7, BD7 close sign-off=5/11. Questions — see me or Marcus.\n\nElena Brooks | Controller | Sunshine & Set Automotive"
+    }
+  ]
+}

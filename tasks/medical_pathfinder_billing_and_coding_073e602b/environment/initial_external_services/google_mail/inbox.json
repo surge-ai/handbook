@@ -1,0 +1,87 @@
+{
+  "mailbox": {
+    "email": "rcm@pathfinder.com",
+    "name": "RCM Team"
+  },
+  "contacts": [
+    {
+      "email": "jamies@pathfinder.com",
+      "name": "Jamie Scott"
+    },
+    {
+      "email": "joem@pathfinder.com",
+      "name": "Joe Malfroy"
+    },
+    {
+      "email": "mayj@pathfinder.com",
+      "name": "May Jollier"
+    },
+    {
+      "email": "russellc@pathfinder.com",
+      "name": "Russell Commy"
+    },
+    {
+      "email": "hopeK@email.com",
+      "name": "Kelly Hope"
+    },
+    {
+      "email": "ursula.james@hull.com",
+      "name": "Ursula James"
+    },
+    {
+      "email": "popler.wen@bulliongoldinsurance.com",
+      "name": "Popler Wen"
+    }
+  ],
+  "groups": [
+    {
+      "email": "rcm-internal@pathfinder.com",
+      "name": "RCM Internal Team",
+      "members": [
+        "rcm@pathfinder.com",
+        "jamies@pathfinder.com",
+        "joem@pathfinder.com",
+        "mayj@pathfinder.com",
+        "russellc@pathfinder.com"
+      ]
+    }
+  ],
+  "folders": [],
+  "emails": [
+    {
+      "email_id": "1",
+      "folder": "INBOX",
+      "subject": "Farewell Lunch",
+      "from_addr": "joem@pathfinder.com",
+      "to_addr": "rcm-internal@pathfinder.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-02-13T22:25:00Z",
+      "message_id": "<farewell-lunch-20260213@pathfinder.com>",
+      "in_reply_to": null,
+      "body_text": "Hi Team\n\nAs many of you would have known from the last department meeting, Russell's last day with us will be on the 20 February 2026, Friday and we hope to organise a farewell lunch for him on the 18 Feb, 12pm at Favos Mexican. Please let May know if you are able to make it by 17 Feb, 1pm, so that she can make a table reservation.\n\nRussell would still be in office through the week, if any would like to say your goodbyes to him.\n\nWarm regards,\nJoe",
+      "body_html": null,
+      "is_read": false,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "2",
+      "folder": "Sent",
+      "subject": "DPJ-47089945",
+      "from_addr": "rcm@pathfinder.com",
+      "to_addr": "popler.wen@bulliongoldinsurance.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-02-13T20:43:00Z",
+      "message_id": "<dpj-47089945-20260213@pathfinder.com>",
+      "in_reply_to": null,
+      "body_text": "Hi Popler\n\nThanks for the call earlier. As spoken, we received the payment for claim ID DPJ-47089945 and would need your assistance to clarify on the coinsurance specifics for this case.\n\nBest regards,\nJamie Scott\nBilling Specialist\nPathfinder",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    }
+  ],
+  "next_email_id": 3
+}

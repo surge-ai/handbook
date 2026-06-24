@@ -1,0 +1,2005 @@
+{
+  "users": {
+    "U001": {
+      "id": "U001",
+      "team_id": "T001",
+      "name": "leaves-hr",
+      "deleted": false,
+      "real_name": "Morgan Hale",
+      "tz": "America/Denver",
+      "tz_label": "Mountain Daylight Time",
+      "tz_offset": -21600,
+      "profile": {
+        "real_name": "Morgan Hale",
+        "display_name": "Morgan Hale",
+        "real_name_normalized": "Morgan Hale",
+        "display_name_normalized": "Morgan Hale",
+        "email": "leaves@ridgelinegear.com",
+        "title": "Leave Coordinator",
+        "first_name": "Morgan",
+        "last_name": "Hale",
+        "phone": "(970) 555-0142",
+        "status_text": "",
+        "status_emoji": "",
+        "team": "T001"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_primary_owner": false,
+      "is_restricted": false,
+      "is_ultra_restricted": false,
+      "is_bot": false,
+      "is_app_user": false,
+      "is_email_confirmed": true,
+      "updated": 1767225600,
+      "locale": "en-US"
+    },
+    "U002": {
+      "id": "U002",
+      "team_id": "T001",
+      "name": "daniel.whitfield",
+      "deleted": false,
+      "real_name": "Daniel Whitfield",
+      "tz": "America/Denver",
+      "tz_label": "Mountain Daylight Time",
+      "tz_offset": -21600,
+      "profile": {
+        "real_name": "Daniel Whitfield",
+        "display_name": "Daniel Whitfield",
+        "real_name_normalized": "Daniel Whitfield",
+        "display_name_normalized": "Daniel Whitfield",
+        "email": "daniel.whitfield@ridgelinegear.com",
+        "title": "HR Director",
+        "first_name": "Daniel",
+        "last_name": "Whitfield",
+        "phone": "",
+        "status_text": "",
+        "status_emoji": "",
+        "team": "T001"
+      },
+      "is_admin": true,
+      "is_owner": false,
+      "is_primary_owner": false,
+      "is_restricted": false,
+      "is_ultra_restricted": false,
+      "is_bot": false,
+      "is_app_user": false,
+      "is_email_confirmed": true,
+      "updated": 1767225600,
+      "locale": "en-US"
+    },
+    "U003": {
+      "id": "U003",
+      "team_id": "T001",
+      "name": "renata.okafor",
+      "deleted": false,
+      "real_name": "Renata Okafor",
+      "tz": "America/Denver",
+      "tz_label": "Mountain Daylight Time",
+      "tz_offset": -21600,
+      "profile": {
+        "real_name": "Renata Okafor",
+        "display_name": "Renata Okafor",
+        "real_name_normalized": "Renata Okafor",
+        "display_name_normalized": "Renata Okafor",
+        "email": "r.okafor@ridgelinegear.com",
+        "title": "Benefits Manager",
+        "first_name": "Renata",
+        "last_name": "Okafor",
+        "phone": "",
+        "status_text": "",
+        "status_emoji": "",
+        "team": "T001"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_primary_owner": false,
+      "is_restricted": false,
+      "is_ultra_restricted": false,
+      "is_bot": false,
+      "is_app_user": false,
+      "is_email_confirmed": true,
+      "updated": 1767225600,
+      "locale": "en-US"
+    },
+    "U004": {
+      "id": "U004",
+      "team_id": "T001",
+      "name": "teresa.vang",
+      "deleted": false,
+      "real_name": "Teresa Vang",
+      "tz": "America/Denver",
+      "tz_label": "Mountain Daylight Time",
+      "tz_offset": -21600,
+      "profile": {
+        "real_name": "Teresa Vang",
+        "display_name": "Teresa Vang",
+        "real_name_normalized": "Teresa Vang",
+        "display_name_normalized": "Teresa Vang",
+        "email": "t.vang@ridgelinegear.com",
+        "title": "Payroll Lead",
+        "first_name": "Teresa",
+        "last_name": "Vang",
+        "phone": "",
+        "status_text": "",
+        "status_emoji": "",
+        "team": "T001"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_primary_owner": false,
+      "is_restricted": false,
+      "is_ultra_restricted": false,
+      "is_bot": false,
+      "is_app_user": false,
+      "is_email_confirmed": true,
+      "updated": 1767225600,
+      "locale": "en-US"
+    },
+    "U005": {
+      "id": "U005",
+      "team_id": "T001",
+      "name": "evelyn.marchetti",
+      "deleted": false,
+      "real_name": "Evelyn Marchetti",
+      "tz": "America/Denver",
+      "tz_label": "Mountain Daylight Time",
+      "tz_offset": -21600,
+      "profile": {
+        "real_name": "Evelyn Marchetti",
+        "display_name": "Evelyn Marchetti",
+        "real_name_normalized": "Evelyn Marchetti",
+        "display_name_normalized": "Evelyn Marchetti",
+        "email": "evelyn.marchetti@ridgelineholdings.com",
+        "title": "General Counsel",
+        "first_name": "Evelyn",
+        "last_name": "Marchetti",
+        "phone": "",
+        "status_text": "",
+        "status_emoji": "",
+        "team": "T001"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_primary_owner": false,
+      "is_restricted": false,
+      "is_ultra_restricted": false,
+      "is_bot": false,
+      "is_app_user": false,
+      "is_email_confirmed": true,
+      "updated": 1767225600,
+      "locale": "en-US"
+    },
+    "U006": {
+      "id": "U006",
+      "team_id": "T001",
+      "name": "meera.patel",
+      "deleted": false,
+      "real_name": "Meera Patel",
+      "tz": "America/Denver",
+      "tz_label": "Mountain Daylight Time",
+      "tz_offset": -21600,
+      "profile": {
+        "real_name": "Meera Patel",
+        "display_name": "Meera Patel",
+        "real_name_normalized": "Meera Patel",
+        "display_name_normalized": "Meera Patel",
+        "email": "meera.patel@ridgelinegear.com",
+        "title": "HR Generalist \u2014 Employee Relations",
+        "first_name": "Meera",
+        "last_name": "Patel",
+        "phone": "",
+        "status_text": "",
+        "status_emoji": "",
+        "team": "T001"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_primary_owner": false,
+      "is_restricted": false,
+      "is_ultra_restricted": false,
+      "is_bot": false,
+      "is_app_user": false,
+      "is_email_confirmed": true,
+      "updated": 1767225600,
+      "locale": "en-US"
+    },
+    "U007": {
+      "id": "U007",
+      "team_id": "T001",
+      "name": "jordan.briggs",
+      "deleted": false,
+      "real_name": "Jordan Briggs",
+      "tz": "America/Denver",
+      "tz_label": "Mountain Daylight Time",
+      "tz_offset": -21600,
+      "profile": {
+        "real_name": "Jordan Briggs",
+        "display_name": "Jordan Briggs",
+        "real_name_normalized": "Jordan Briggs",
+        "display_name_normalized": "Jordan Briggs",
+        "email": "jordan.briggs@ridgelinegear.com",
+        "title": "HR Generalist \u2014 Onboarding",
+        "first_name": "Jordan",
+        "last_name": "Briggs",
+        "phone": "",
+        "status_text": "",
+        "status_emoji": "",
+        "team": "T001"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_primary_owner": false,
+      "is_restricted": false,
+      "is_ultra_restricted": false,
+      "is_bot": false,
+      "is_app_user": false,
+      "is_email_confirmed": true,
+      "updated": 1767225600,
+      "locale": "en-US"
+    },
+    "U008": {
+      "id": "U008",
+      "team_id": "T001",
+      "name": "luis.arredondo",
+      "deleted": false,
+      "real_name": "Luis Arredondo",
+      "tz": "America/Denver",
+      "tz_label": "Mountain Daylight Time",
+      "tz_offset": -21600,
+      "profile": {
+        "real_name": "Luis Arredondo",
+        "display_name": "Luis Arredondo",
+        "real_name_normalized": "Luis Arredondo",
+        "display_name_normalized": "Luis Arredondo",
+        "email": "luis.arredondo@ridgelinegear.com",
+        "title": "Safety & Workers' Comp Coordinator",
+        "first_name": "Luis",
+        "last_name": "Arredondo",
+        "phone": "",
+        "status_text": "",
+        "status_emoji": "",
+        "team": "T001"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_primary_owner": false,
+      "is_restricted": false,
+      "is_ultra_restricted": false,
+      "is_bot": false,
+      "is_app_user": false,
+      "is_email_confirmed": true,
+      "updated": 1767225600,
+      "locale": "en-US"
+    },
+    "U009": {
+      "id": "U009",
+      "team_id": "T001",
+      "name": "samir.haddad",
+      "deleted": false,
+      "real_name": "Samir Haddad",
+      "tz": "America/Denver",
+      "tz_label": "Mountain Daylight Time",
+      "tz_offset": -21600,
+      "profile": {
+        "real_name": "Samir Haddad",
+        "display_name": "Samir Haddad",
+        "real_name_normalized": "Samir Haddad",
+        "display_name_normalized": "Samir Haddad",
+        "email": "samir.haddad@ridgelinegear.com",
+        "title": "IT Access Manager",
+        "first_name": "Samir",
+        "last_name": "Haddad",
+        "phone": "",
+        "status_text": "",
+        "status_emoji": "",
+        "team": "T001"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_primary_owner": false,
+      "is_restricted": false,
+      "is_ultra_restricted": false,
+      "is_bot": false,
+      "is_app_user": false,
+      "is_email_confirmed": true,
+      "updated": 1767225600,
+      "locale": "en-US"
+    },
+    "U010": {
+      "id": "U010",
+      "team_id": "T001",
+      "name": "jerome.baptiste",
+      "deleted": false,
+      "real_name": "Jerome Baptiste",
+      "tz": "America/Denver",
+      "tz_label": "Mountain Daylight Time",
+      "tz_offset": -21600,
+      "profile": {
+        "real_name": "Jerome Baptiste",
+        "display_name": "Jerome Baptiste",
+        "real_name_normalized": "Jerome Baptiste",
+        "display_name_normalized": "Jerome Baptiste",
+        "email": "j.baptiste@ridgelinegear.com",
+        "title": "Supply Chain Manager",
+        "first_name": "Jerome",
+        "last_name": "Baptiste",
+        "phone": "",
+        "status_text": "",
+        "status_emoji": "",
+        "team": "T001"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_primary_owner": false,
+      "is_restricted": false,
+      "is_ultra_restricted": false,
+      "is_bot": false,
+      "is_app_user": false,
+      "is_email_confirmed": true,
+      "updated": 1767225600,
+      "locale": "en-US"
+    },
+    "U011": {
+      "id": "U011",
+      "team_id": "T001",
+      "name": "sam.okonkwo",
+      "deleted": false,
+      "real_name": "Sam Okonkwo",
+      "tz": "America/Denver",
+      "tz_label": "Mountain Daylight Time",
+      "tz_offset": -21600,
+      "profile": {
+        "real_name": "Sam Okonkwo",
+        "display_name": "Sam Okonkwo",
+        "real_name_normalized": "Sam Okonkwo",
+        "display_name_normalized": "Sam Okonkwo",
+        "email": "s.okonkwo@ridgelinegear.com",
+        "title": "Operations Manager",
+        "first_name": "Sam",
+        "last_name": "Okonkwo",
+        "phone": "",
+        "status_text": "",
+        "status_emoji": "",
+        "team": "T001"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_primary_owner": false,
+      "is_restricted": false,
+      "is_ultra_restricted": false,
+      "is_bot": false,
+      "is_app_user": false,
+      "is_email_confirmed": true,
+      "updated": 1767225600,
+      "locale": "en-US"
+    },
+    "U012": {
+      "id": "U012",
+      "team_id": "T001",
+      "name": "leslie.cho",
+      "deleted": false,
+      "real_name": "Leslie Cho",
+      "tz": "America/Denver",
+      "tz_label": "Mountain Daylight Time",
+      "tz_offset": -21600,
+      "profile": {
+        "real_name": "Leslie Cho",
+        "display_name": "Leslie Cho",
+        "real_name_normalized": "Leslie Cho",
+        "display_name_normalized": "Leslie Cho",
+        "email": "l.cho@ridgelinegear.com",
+        "title": "VP of Product",
+        "first_name": "Leslie",
+        "last_name": "Cho",
+        "phone": "",
+        "status_text": "",
+        "status_emoji": "",
+        "team": "T001"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_primary_owner": false,
+      "is_restricted": false,
+      "is_ultra_restricted": false,
+      "is_bot": false,
+      "is_app_user": false,
+      "is_email_confirmed": true,
+      "updated": 1767225600,
+      "locale": "en-US"
+    },
+    "U013": {
+      "id": "U013",
+      "team_id": "T001",
+      "name": "brittany.holt",
+      "deleted": false,
+      "real_name": "Brittany Holt",
+      "tz": "America/Denver",
+      "tz_label": "Mountain Daylight Time",
+      "tz_offset": -21600,
+      "profile": {
+        "real_name": "Brittany Holt",
+        "display_name": "Brittany Holt",
+        "real_name_normalized": "Brittany Holt",
+        "display_name_normalized": "Brittany Holt",
+        "email": "b.holt@ridgelinegear.com",
+        "title": "Customer Support Lead",
+        "first_name": "Brittany",
+        "last_name": "Holt",
+        "phone": "",
+        "status_text": "",
+        "status_emoji": "",
+        "team": "T001"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_primary_owner": false,
+      "is_restricted": false,
+      "is_ultra_restricted": false,
+      "is_bot": false,
+      "is_app_user": false,
+      "is_email_confirmed": true,
+      "updated": 1767225600,
+      "locale": "en-US"
+    },
+    "U014": {
+      "id": "U014",
+      "team_id": "T001",
+      "name": "priscilla.osei",
+      "deleted": false,
+      "real_name": "Priscilla Osei",
+      "tz": "America/Denver",
+      "tz_label": "Mountain Daylight Time",
+      "tz_offset": -21600,
+      "profile": {
+        "real_name": "Priscilla Osei",
+        "display_name": "Priscilla Osei",
+        "real_name_normalized": "Priscilla Osei",
+        "display_name_normalized": "Priscilla Osei",
+        "email": "p.osei@ridgelinegear.com",
+        "title": "IT Systems Administrator",
+        "first_name": "Priscilla",
+        "last_name": "Osei",
+        "phone": "",
+        "status_text": "",
+        "status_emoji": "",
+        "team": "T001"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_primary_owner": false,
+      "is_restricted": false,
+      "is_ultra_restricted": false,
+      "is_bot": false,
+      "is_app_user": false,
+      "is_email_confirmed": true,
+      "updated": 1767225600,
+      "locale": "en-US"
+    },
+    "U015": {
+      "id": "U015",
+      "team_id": "T001",
+      "name": "alejandro.vega",
+      "deleted": false,
+      "real_name": "Alejandro Vega",
+      "tz": "America/Denver",
+      "tz_label": "Mountain Daylight Time",
+      "tz_offset": -21600,
+      "profile": {
+        "real_name": "Alejandro Vega",
+        "display_name": "Alejandro Vega",
+        "real_name_normalized": "Alejandro Vega",
+        "display_name_normalized": "Alejandro Vega",
+        "email": "a.vega@ridgelinegear.com",
+        "title": "Industrial Designer",
+        "first_name": "Alejandro",
+        "last_name": "Vega",
+        "phone": "",
+        "status_text": "",
+        "status_emoji": "",
+        "team": "T001"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_primary_owner": false,
+      "is_restricted": false,
+      "is_ultra_restricted": false,
+      "is_bot": false,
+      "is_app_user": false,
+      "is_email_confirmed": true,
+      "updated": 1767225600,
+      "locale": "en-US"
+    },
+    "U016": {
+      "id": "U016",
+      "team_id": "T001",
+      "name": "ingrid.svensson",
+      "deleted": false,
+      "real_name": "Ingrid Svensson",
+      "tz": "America/Denver",
+      "tz_label": "Mountain Daylight Time",
+      "tz_offset": -21600,
+      "profile": {
+        "real_name": "Ingrid Svensson",
+        "display_name": "Ingrid Svensson",
+        "real_name_normalized": "Ingrid Svensson",
+        "display_name_normalized": "Ingrid Svensson",
+        "email": "i.svensson@ridgelinegear.com",
+        "title": "National Sales Manager",
+        "first_name": "Ingrid",
+        "last_name": "Svensson",
+        "phone": "",
+        "status_text": "",
+        "status_emoji": "",
+        "team": "T001"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_primary_owner": false,
+      "is_restricted": false,
+      "is_ultra_restricted": false,
+      "is_bot": false,
+      "is_app_user": false,
+      "is_email_confirmed": true,
+      "updated": 1767225600,
+      "locale": "en-US"
+    },
+    "U017": {
+      "id": "U017",
+      "team_id": "T001",
+      "name": "theo.mbeki",
+      "deleted": false,
+      "real_name": "Theo Mbeki",
+      "tz": "America/Denver",
+      "tz_label": "Mountain Daylight Time",
+      "tz_offset": -21600,
+      "profile": {
+        "real_name": "Theo Mbeki",
+        "display_name": "Theo Mbeki",
+        "real_name_normalized": "Theo Mbeki",
+        "display_name_normalized": "Theo Mbeki",
+        "email": "t.mbeki@ridgelinegear.com",
+        "title": "Logistics Coordinator",
+        "first_name": "Theo",
+        "last_name": "Mbeki",
+        "phone": "",
+        "status_text": "",
+        "status_emoji": "",
+        "team": "T001"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_primary_owner": false,
+      "is_restricted": false,
+      "is_ultra_restricted": false,
+      "is_bot": false,
+      "is_app_user": false,
+      "is_email_confirmed": true,
+      "updated": 1767225600,
+      "locale": "en-US"
+    },
+    "U018": {
+      "id": "U018",
+      "team_id": "T001",
+      "name": "marcus.webb",
+      "deleted": false,
+      "real_name": "Marcus Webb",
+      "tz": "America/Denver",
+      "tz_label": "Mountain Daylight Time",
+      "tz_offset": -21600,
+      "profile": {
+        "real_name": "Marcus Webb",
+        "display_name": "Marcus Webb",
+        "real_name_normalized": "Marcus Webb",
+        "display_name_normalized": "Marcus Webb",
+        "email": "m.webb@ridgelinegear.com",
+        "title": "Warehouse Lead",
+        "first_name": "Marcus",
+        "last_name": "Webb",
+        "phone": "",
+        "status_text": "",
+        "status_emoji": "",
+        "team": "T001"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_primary_owner": false,
+      "is_restricted": false,
+      "is_ultra_restricted": false,
+      "is_bot": false,
+      "is_app_user": false,
+      "is_email_confirmed": true,
+      "updated": 1767225600,
+      "locale": "en-US"
+    },
+    "U019": {
+      "id": "U019",
+      "team_id": "T001",
+      "name": "devon.alcott",
+      "deleted": false,
+      "real_name": "Devon Alcott",
+      "tz": "America/Denver",
+      "tz_label": "Mountain Daylight Time",
+      "tz_offset": -21600,
+      "profile": {
+        "real_name": "Devon Alcott",
+        "display_name": "Devon Alcott",
+        "real_name_normalized": "Devon Alcott",
+        "display_name_normalized": "Devon Alcott",
+        "email": "d.alcott@ridgelinegear.com",
+        "title": "Customer Experience Manager",
+        "first_name": "Devon",
+        "last_name": "Alcott",
+        "phone": "",
+        "status_text": "",
+        "status_emoji": "",
+        "team": "T001"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_primary_owner": false,
+      "is_restricted": false,
+      "is_ultra_restricted": false,
+      "is_bot": false,
+      "is_app_user": false,
+      "is_email_confirmed": true,
+      "updated": 1767225600,
+      "locale": "en-US"
+    },
+    "U020": {
+      "id": "U020",
+      "team_id": "T001",
+      "name": "portia.nzinga",
+      "deleted": false,
+      "real_name": "Portia Nzinga",
+      "tz": "America/Denver",
+      "tz_label": "Mountain Daylight Time",
+      "tz_offset": -21600,
+      "profile": {
+        "real_name": "Portia Nzinga",
+        "display_name": "Portia Nzinga",
+        "real_name_normalized": "Portia Nzinga",
+        "display_name_normalized": "Portia Nzinga",
+        "email": "p.nzinga@ridgelinegear.com",
+        "title": "Logistics Assistant",
+        "first_name": "Portia",
+        "last_name": "Nzinga",
+        "phone": "",
+        "status_text": "",
+        "status_emoji": "",
+        "team": "T001"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_primary_owner": false,
+      "is_restricted": false,
+      "is_ultra_restricted": false,
+      "is_bot": false,
+      "is_app_user": false,
+      "is_email_confirmed": true,
+      "updated": 1767225600,
+      "locale": "en-US"
+    }
+  },
+  "channels": {
+    "C001": {
+      "id": "C001",
+      "name": "leave-intake",
+      "is_channel": false,
+      "is_group": true,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1767225600,
+      "is_archived": false,
+      "is_general": false,
+      "is_frozen": false,
+      "is_read_only": false,
+      "unlinked": 0,
+      "name_normalized": "leave-intake",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1775838600,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Primary Leave Coordinator channel \u2014 all routine case notifications",
+        "creator": "U001",
+        "last_set": 1775001600
+      },
+      "purpose": {
+        "value": "All routine case notifications: new intake confirmations, eligibility decisions, certification status, scheduled RTW reminders. Default channel when uncertain which to use.",
+        "creator": "U001",
+        "last_set": 1767225600
+      },
+      "num_members": 4,
+      "last_read": "1775837520.000999",
+      "unread_count": 0,
+      "unread_count_display": 0
+    },
+    "C002": {
+      "id": "C002",
+      "name": "benefits-team",
+      "is_channel": false,
+      "is_group": true,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1767225600,
+      "is_archived": false,
+      "is_general": false,
+      "is_frozen": false,
+      "is_read_only": false,
+      "unlinked": 0,
+      "name_normalized": "benefits-team",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1775838600,
+      "creator": "U003",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Benefits team coordination \u2014 questions & complex case handoffs",
+        "creator": "U003",
+        "last_set": 1775001600
+      },
+      "purpose": {
+        "value": "Benefits team coordination. Questions to the Benefits Manager (Renata Okafor) and coordination on cases touching multiple benefits areas.",
+        "creator": "U003",
+        "last_set": 1767225600
+      },
+      "num_members": 3,
+      "last_read": "1775838600.000999",
+      "unread_count": 0,
+      "unread_count_display": 0
+    },
+    "C003": {
+      "id": "C003",
+      "name": "hr-escalations",
+      "is_channel": false,
+      "is_group": true,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1767225600,
+      "is_archived": false,
+      "is_general": false,
+      "is_frozen": false,
+      "is_read_only": false,
+      "unlinked": 0,
+      "name_normalized": "hr-escalations",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1775838600,
+      "creator": "U002",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Escalations requiring HR Director (Daniel Whitfield) attention",
+        "creator": "U002",
+        "last_set": 1775001600
+      },
+      "purpose": {
+        "value": "Escalations requiring HR Director attention: denials beyond clear ineligibility, failure-to-return, pattern flags, any case where discipline is being contemplated.",
+        "creator": "U002",
+        "last_set": 1767225600
+      },
+      "num_members": 4,
+      "last_read": "1775772000.000999",
+      "unread_count": 1,
+      "unread_count_display": 1
+    },
+    "C004": {
+      "id": "C004",
+      "name": "payroll-coordination",
+      "is_channel": false,
+      "is_group": true,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1767225600,
+      "is_archived": false,
+      "is_general": false,
+      "is_frozen": false,
+      "is_read_only": false,
+      "unlinked": 0,
+      "name_normalized": "payroll-coordination",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1775838600,
+      "creator": "U004",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Payroll handoffs only \u2014 leave start/end dates, unpaid transitions, RTW",
+        "creator": "U004",
+        "last_set": 1775001600
+      },
+      "purpose": {
+        "value": "Payroll handoffs only. Notify the Payroll Lead (Teresa Vang) of leave start dates, end dates, transitions to unpaid status, and RTW dates. Do not post non-payroll-related case information here.",
+        "creator": "U004",
+        "last_set": 1767225600
+      },
+      "num_members": 4,
+      "last_read": "1775838600.000999",
+      "unread_count": 0,
+      "unread_count_display": 0
+    },
+    "C005": {
+      "id": "C005",
+      "name": "legal-review",
+      "is_channel": false,
+      "is_group": true,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1767225600,
+      "is_archived": false,
+      "is_general": false,
+      "is_frozen": false,
+      "is_read_only": false,
+      "unlinked": 0,
+      "name_normalized": "legal-review",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1775838600,
+      "creator": "U002",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "General Counsel (Evelyn Marchetti) \u2014 legal threats, EEOC/CDLE/DOL, litigation",
+        "creator": "U002",
+        "last_set": 1775001600
+      },
+      "purpose": {
+        "value": "General Counsel attention (Evelyn Marchetti): legal threats, EEOC/CDLE/DOL mentions, retroactive designation disputes, GINA concerns, any case involving active litigation.",
+        "creator": "U002",
+        "last_set": 1767225600
+      },
+      "num_members": 4,
+      "last_read": "1775838600.000999",
+      "unread_count": 0,
+      "unread_count_display": 0
+    },
+    "C006": {
+      "id": "C006",
+      "name": "unknown-senders-hr",
+      "is_channel": false,
+      "is_group": true,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1767225600,
+      "is_archived": false,
+      "is_general": false,
+      "is_frozen": false,
+      "is_read_only": false,
+      "unlinked": 0,
+      "name_normalized": "unknown-senders-hr",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1775838600,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Leave-related emails from senders not in employee_roster.xlsx",
+        "creator": "U001",
+        "last_set": 1775001600
+      },
+      "purpose": {
+        "value": "Any leave-related email from a sender not found in employee_roster.xlsx: former employees, applicants, misdirected emails, general inquiries.",
+        "creator": "U001",
+        "last_set": 1767225600
+      },
+      "num_members": 3,
+      "last_read": "1775838600.000999",
+      "unread_count": 0,
+      "unread_count_display": 0
+    },
+    "C007": {
+      "id": "C007",
+      "name": "general",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1767225600,
+      "is_archived": false,
+      "is_general": true,
+      "is_frozen": false,
+      "is_read_only": false,
+      "unlinked": 0,
+      "name_normalized": "general",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1775838600,
+      "creator": "U002",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Ridgeline Gear Co. \u2014 all-hands updates",
+        "creator": "U002",
+        "last_set": 1775001600
+      },
+      "purpose": {
+        "value": "Company-wide announcements and general updates.",
+        "creator": "U002",
+        "last_set": 1767225600
+      },
+      "num_members": 131,
+      "last_read": "1775838600.000999",
+      "unread_count": 4,
+      "unread_count_display": 4
+    },
+    "C008": {
+      "id": "C008",
+      "name": "hr-team",
+      "is_channel": false,
+      "is_group": true,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1767225600,
+      "is_archived": false,
+      "is_general": false,
+      "is_frozen": false,
+      "is_read_only": false,
+      "unlinked": 0,
+      "name_normalized": "hr-team",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1775838600,
+      "creator": "U002",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "HR department \u2014 internal coordination",
+        "creator": "U002",
+        "last_set": 1775001600
+      },
+      "purpose": {
+        "value": "HR department internal coordination: meeting reminders, process updates, team logistics. No case-specific information here.",
+        "creator": "U002",
+        "last_set": 1767225600
+      },
+      "num_members": 9,
+      "last_read": "1775838600.000999",
+      "unread_count": 1,
+      "unread_count_display": 1
+    }
+  },
+  "messages": {
+    "C001": [
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "New intake: LC-2026-0008 | EMP-1136 | FMLA continuous | Priority P2\nEligibility notice (WH-381) sent. Certification request outstanding. Cert due 2026-01-28.",
+        "ts": "1767715920.000101",
+        "team": "T001",
+        "client_msg_id": "msg-C001-101"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "New intake: LC-2026-0003 | EMP-1100 | FMLA continuous | Priority P2\nEligibility notice sent. Manager notified 2026-01-13.",
+        "ts": "1768323900.000102",
+        "team": "T001",
+        "client_msg_id": "msg-C001-102"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "New intake: LC-2026-0010 | EMP-1191 | FMLA continuous | Priority P2\nEligibility notice sent. Cert request issued. Cert due 2026-02-10. Manager notified.",
+        "ts": "1768926660.000103",
+        "team": "T001",
+        "client_msg_id": "msg-C001-103"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "LC-2025-0080 | EMP-1218 returned 2026-01-23 as scheduled. FMLA leave closed. Closure checklist complete. Case transferred to leave_history.",
+        "ts": "1769189400.000200",
+        "team": "T001",
+        "client_msg_id": "msg-C001-200"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "LC-2026-0008 | Certification received and complete. Designation notice (WH-382) issued. Leave begins 2026-01-06 as reported. 12-week FMLA balance: 60 days remaining.",
+        "ts": "1769548080.000104",
+        "team": "T001",
+        "client_msg_id": "msg-C001-104"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "New intake: LC-2026-0017 | EMP-1126 | FMLA intermittent | Priority P2\nNote: employee is a people manager. Coordination note added to case file. Eligibility notice sent. Cert request issued. Cert due 2026-02-25.",
+        "ts": "1770137040.000105",
+        "team": "T001",
+        "client_msg_id": "msg-C001-105"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "LC-2026-0017 | Certification reminder: cert due 2026-02-25. Employee confirmation of submission received via email. Monitoring.",
+        "ts": "1770221100.000110",
+        "team": "T001",
+        "client_msg_id": "msg-C001-110b"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "New intake: LC-2026-0022 | EMP-1145 | FMLA continuous | Priority P2\nEligibility notice sent. Cert request issued. Manager notified 2026-02-09.",
+        "ts": "1770653880.000108",
+        "team": "T001",
+        "client_msg_id": "msg-C001-108"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "LC-2026-0003 | EMP-1100 returned 2026-02-07 as scheduled. Closure checklist in progress. IT deprovisioning not applicable (return to same role).",
+        "ts": "1771088400.000109",
+        "team": "T001",
+        "client_msg_id": "msg-C001-109"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "New intake: LC-2026-0023 | EMP-1204 | FMLA + FAMLI concurrent | Priority P1\nEligibility notice sent. Cert request issued. FAMLI coordination initiated \u2014 employee notified of independent FAMLI application process. Manager notified 2026-02-17.",
+        "ts": "1771343700.000110",
+        "team": "T001",
+        "client_msg_id": "msg-C001-110"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "LC-2026-0017 | Certification received. Intermittent leave designated \u2014 up to 2 days/week, designation period 2026-02-03 through 2027-02-02. Designation notice sent. Absence log activated.",
+        "ts": "1772044200.000111",
+        "team": "T001",
+        "client_msg_id": "msg-C001-111"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "New intake: LC-2026-0034 | EMP-1148 | FMLA continuous | Priority P2\nEligibility notice sent. Cert request issued. Cert due 2026-03-23. Manager notified.",
+        "ts": "1772467500.000112",
+        "team": "T001",
+        "client_msg_id": "msg-C001-112"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "New intake: LC-2026-0098 | EMP-1042 | FMLA + FAMLI concurrent | Priority P1\nEligibility notice sent. Cert request issued. Cert due 2026-03-26. Manager notified 2026-03-05. FAMLI coordination initiated.",
+        "ts": "1772729700.000113",
+        "team": "T001",
+        "client_msg_id": "msg-C001-113",
+        "reply_count": 1,
+        "reply_users_count": 1,
+        "reply_users": [
+          "U003"
+        ],
+        "latest_reply": "1772732400.000114",
+        "subscribed": true
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "Flagging for awareness \u2014 any P1 with FAMLI running concurrent should confirm the FAMLI application was submitted directly with CDLE. Can you confirm in your case notes?",
+        "ts": "1772732400.000114",
+        "team": "T001",
+        "client_msg_id": "msg-C001-114",
+        "thread_ts": "1772729700.000113",
+        "parent_user_id": "U003"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "LC-2026-0022 | Certification complete. Designation notice issued. Leave began 2026-02-09.",
+        "ts": "1772832120.000115",
+        "team": "T001",
+        "client_msg_id": "msg-C001-115"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "LC-2026-0098 | Cert received 2026-03-19. Complete and sufficient. Designation notice issued. Leave began 2026-03-05, expected end 2026-03-19. Per employee communication, RTW date may extend \u2014 monitoring.",
+        "ts": "1773936900.000116",
+        "team": "T001",
+        "client_msg_id": "msg-C001-116"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "LC-2026-0008 | EMP-1136 returned 2026-03-27 as scheduled. Closure checklist complete. Case closed.",
+        "ts": "1774624200.000117",
+        "team": "T001",
+        "client_msg_id": "msg-C001-117"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "LC-2026-0034 | Certification received 2026-03-21. Complete. Designation notice issued. Leave period: 2026-03-02 \u2014 2027-03-01.",
+        "ts": "1774627200.000118",
+        "team": "T001",
+        "client_msg_id": "msg-C001-118"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "LC-2026-0023 | EMP-1204 RTW date updated: 2026-05-08. FAMLI benefit running concurrently. Payroll notified of updated timeline.",
+        "ts": "1774892700.000119",
+        "team": "T001",
+        "client_msg_id": "msg-C001-119"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "New intake: LC-2026-0112 | EMP-1001 | FAMLI | Priority P1\nNote: EMP-1001 also has active LC-2026-0044 (FMLA intermittent, ongoing). Posted to #benefits-team for concurrent coordination. Eligibility notice sent for FAMLI.",
+        "ts": "1775056080.000120",
+        "team": "T001",
+        "client_msg_id": "msg-C001-120"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "New intake: LC-2026-0082 | EMP-1106 | FMLA + FAMLI concurrent | Priority P1\nParental leave, due date approx. 2026-04-14. Eligibility notice sent. Cert request issued. FAMLI coordination initiated. Manager notified 2026-04-01.",
+        "ts": "1775056800.000120",
+        "team": "T001",
+        "client_msg_id": "msg-C001-120b"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "New intake: LC-2026-0065 | EMP-1139 | FMLA continuous | Priority P2\nEligibility notice sent. Cert request issued. Cert due 2026-04-22. Manager notified.",
+        "ts": "1775057280.000121",
+        "team": "T001",
+        "client_msg_id": "msg-C001-121"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "LC-2026-0022 | EMP-1145 returned 2026-04-03 as scheduled. Closure checklist initiated.",
+        "ts": "1775228700.000122",
+        "team": "T001",
+        "client_msg_id": "msg-C001-122"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "LC-2026-0010 | EMP-1191 intermittent leave designation renewed for 12-month period. Updated absence log. No change to designation hours.",
+        "ts": "1775406600.000123",
+        "team": "T001",
+        "client_msg_id": "msg-C001-123"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": ":warning: SLA WARNING: LC-2026-0065 | P2 | Pending Certification | 7 days remaining to cert due date (2026-04-22). Reminder sent to employee. No cert received to date.",
+        "ts": "1775419200.000124",
+        "team": "T001",
+        "client_msg_id": "msg-C001-124",
+        "reactions": [
+          {
+            "name": "eyes",
+            "users": [
+              "U003"
+            ],
+            "count": 1
+          }
+        ]
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "New intake: LC-2026-0061 | EMP-1186 | FMLA continuous | Priority P2\nLeave start: 2026-04-06. Eligibility notice sent. Cert request issued. Cert due 2026-04-22. Note: employee's direct manager is also currently on leave \u2014 routing manager notification to skip-level per SOP \u00a710.",
+        "ts": "1775571000.000124",
+        "team": "T001",
+        "client_msg_id": "msg-C001-124b"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "New intake: LC-2026-0059 | EMP-1103 | FMLA continuous | Priority P2\nEligibility notice sent. Cert request issued. Cert due 2026-04-28. Manager notified 2026-04-07.",
+        "ts": "1775573220.000125",
+        "team": "T001",
+        "client_msg_id": "msg-C001-125"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "New intake: LC-2026-0074 | EMP-1162 | FMLA continuous | Priority P2\nEligibility notice sent. Cert request issued. Cert due 2026-04-28. Manager notified.",
+        "ts": "1775574000.000126",
+        "team": "T001",
+        "client_msg_id": "msg-C001-126"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "New intake: LC-2026-0086 | EMP-1171 | FMLA + FAMLI concurrent | Priority P1\nEligibility notice sent. Cert request issued. FAMLI coordination initiated. Manager notified. Posted to #benefits-team.",
+        "ts": "1775575320.000127",
+        "team": "T001",
+        "client_msg_id": "msg-C001-127"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "LC-2026-0082 | Update: employee notified leave start moved to 2026-04-08 (early delivery). Certification received 2026-04-07 \u2014 complete and sufficient. Start date updated in tracker. Designation notice pending issuance today.",
+        "ts": "1775658000.000127",
+        "team": "T001",
+        "client_msg_id": "msg-C001-127b"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "LC-2026-0068 | EMP-1107 | Bereavement leave initiated 2026-04-08. Three scheduled workdays. No certification required per Ridgeline bereavement policy. Payroll notified.",
+        "ts": "1775658600.000128",
+        "team": "T001",
+        "client_msg_id": "msg-C001-128"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "New intake: LC-2026-0091 | EMP-1133 | FMLA continuous | Priority P2\nLeave start date: 2026-04-10. Eligibility pending verification \u2014 eligibility notice (WH-381) sent today. Cert request issued. Cert due 2026-04-30. Manager notified.",
+        "ts": "1775832600.000129",
+        "team": "T001",
+        "client_msg_id": "msg-C001-129"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "LC-2026-0082 | Designation notice (WH-382) issued 2026-04-10. FMLA + FAMLI designated concurrently. Leave period: 2026-04-08 \u2014 approx. 2026-07-01. Payroll notified.",
+        "ts": "1775833200.000128",
+        "team": "T001",
+        "client_msg_id": "msg-C001-128b"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "LC-2026-0068 | EMP-1107 returned 2026-04-10. Bereavement period complete. Closure checklist done. Case closed.",
+        "ts": "1775833500.000130",
+        "team": "T001",
+        "client_msg_id": "msg-C001-130"
+      }
+    ],
+    "C002": [
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "LC-2026-0023: FMLA + FAMLI concurrent \u2014 FAMLI application confirmed submitted by employee. Wage replacement via FAMLI will run alongside unpaid FMLA. Can you confirm whether payroll should treat FAMLI benefit as a partial supplement to PTO or run independently?",
+        "ts": "1771347900.000201",
+        "team": "T001",
+        "client_msg_id": "msg-C002-201",
+        "reply_count": 2,
+        "reply_users_count": 2,
+        "reply_users": [
+          "U001",
+          "U003"
+        ],
+        "latest_reply": "1771361700.000203",
+        "subscribed": true
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "FAMLI runs independently \u2014 we do not offset it against PTO unless the employee chooses to supplement. Per our policy, PTO is voluntary on top of FAMLI. Let me know if the employee requests it.",
+        "ts": "1771359600.000202",
+        "team": "T001",
+        "client_msg_id": "msg-C002-202",
+        "thread_ts": "1771347900.000201",
+        "parent_user_id": "U003"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Confirmed \u2014 noted in case file for LC-2026-0023. No PTO supplement requested.",
+        "ts": "1771361700.000203",
+        "team": "T001",
+        "client_msg_id": "msg-C002-203",
+        "thread_ts": "1771347900.000201",
+        "parent_user_id": "U001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "LC-2026-0098: FMLA + FAMLI concurrent \u2014 same question as LC-2026-0023. FAMLI application confirmed by employee. Proceeding per precedent above.",
+        "ts": "1772733000.000204",
+        "team": "T001",
+        "client_msg_id": "msg-C002-204"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "LC-2026-0071: USERRA leave \u2014 escalating per authority matrix (\u00a75.3). EMP-1102 military activation notice received. Activation date 2026-04-15. Posting to #hr-escalations. Need Benefits Manager sign-off before I notify the manager.",
+        "ts": "1775057700.000205",
+        "team": "T001",
+        "client_msg_id": "msg-C002-205",
+        "reply_count": 2,
+        "reply_users_count": 2,
+        "reply_users": [
+          "U001",
+          "U003"
+        ],
+        "latest_reply": "1775060400.000207",
+        "subscribed": true
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "Approved \u2014 go ahead and notify the manager and post to #hr-escalations. USERRA cases also need IT access put on hold, not terminated. Coordinate with Samir.",
+        "ts": "1775059200.000206",
+        "team": "T001",
+        "client_msg_id": "msg-C002-206",
+        "thread_ts": "1775057700.000205",
+        "parent_user_id": "U003"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Done \u2014 posted to #hr-escalations, manager notified. Flagging IT with @samir.haddad separately.",
+        "ts": "1775060400.000207",
+        "team": "T001",
+        "client_msg_id": "msg-C002-207",
+        "thread_ts": "1775057700.000205",
+        "parent_user_id": "U001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "LC-2026-0078: ADA accommodation intake received for EMP-1118. Routing to HR Director per \u00a79 procedure. No advice given to employee yet.",
+        "ts": "1775060700.000208",
+        "team": "T001",
+        "client_msg_id": "msg-C002-208"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": ":warning: SLA WARNING: LC-2026-0065 | P2 | Pending Certification | 7 days remaining. Employee has not returned cert. Second reminder sent.",
+        "ts": "1775419500.000209",
+        "team": "T001",
+        "client_msg_id": "msg-C002-209"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "LC-2026-0086: FMLA + FAMLI concurrent \u2014 P1. FAMLI notice provided to employee. Awaiting confirmation of CDLE application. Cert due 2026-04-28. Any expedited process available?",
+        "ts": "1775575800.000210",
+        "team": "T001",
+        "client_msg_id": "msg-C002-210",
+        "reply_count": 1,
+        "reply_users_count": 1,
+        "reply_users": [
+          "U003"
+        ],
+        "latest_reply": "1775581200.000211",
+        "subscribed": true
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "No expedited cert for FAMLI \u2014 CDLE processes their own intake. Standard 15-business-day cert window applies. Make sure the designation notice references both leave types when cert comes in.",
+        "ts": "1775581200.000211",
+        "team": "T001",
+        "client_msg_id": "msg-C002-211",
+        "thread_ts": "1775575800.000210",
+        "parent_user_id": "U003"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "LC-2026-0089: USERRA \u2014 EMP-1212, activation date 2026-04-21. Escalated to #hr-escalations per authority matrix. Benefits Manager sign-off requested.",
+        "ts": "1775592600.000212",
+        "team": "T001",
+        "client_msg_id": "msg-C002-212"
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "Approved for LC-2026-0089. Notify manager, post to escalations, flag IT. Same process as LC-2026-0071.",
+        "ts": "1775597400.000213",
+        "team": "T001",
+        "client_msg_id": "msg-C002-213"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "LC-2026-0091: EMP-1133 cert status needs review \u2014 case status shows Active-Approved but cert is not yet received. Want to confirm I should hold designation notice until cert arrives.",
+        "ts": "1775834100.000214",
+        "team": "T001",
+        "client_msg_id": "msg-C002-214"
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "Correct \u2014 do not issue the designation notice until cert is received and reviewed. Change status to Pending Certification if not already. Send the employee a cert request today.",
+        "ts": "1775836080.000215",
+        "team": "T001",
+        "client_msg_id": "msg-C002-215"
+      }
+    ],
+    "C003": [
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Escalation: LC-2026-0071 | EMP-1102 | USERRA military leave\nActivation date 2026-04-15. Benefits Manager approval obtained. Manager notified.\nAction needed: HR Director awareness and any company-level coordination with payroll/benefits.",
+        "ts": "1775060520.000301",
+        "team": "T001",
+        "client_msg_id": "msg-C003-301",
+        "reply_count": 2,
+        "reply_users_count": 2,
+        "reply_users": [
+          "U001",
+          "U002"
+        ],
+        "latest_reply": "1775077200.000303",
+        "subscribed": true
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Escalation: LC-2026-0078 | EMP-1118 | ADA accommodation intake\nIntake received 2026-04-01. No eligibility determination required at this stage. Routing to HR Director per \u00a79. Interactive process to be initiated by HR Director.",
+        "ts": "1775060880.000304",
+        "team": "T001",
+        "client_msg_id": "msg-C003-304",
+        "reply_count": 2,
+        "reply_users_count": 2,
+        "reply_users": [
+          "U001",
+          "U002"
+        ],
+        "latest_reply": "1775076300.000306",
+        "subscribed": true
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Acknowledged. Good process. Confirm with IT that access is suspended (not terminated) per USERRA. Coordinate any uniform/equipment return with the manager. I'll track reemployment rights.",
+        "ts": "1775074500.000302",
+        "team": "T001",
+        "client_msg_id": "msg-C003-302",
+        "thread_ts": "1775060520.000301",
+        "parent_user_id": "U002"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Received. I'll schedule the interactive process meeting with EMP-1118 and their manager this week. Morgan, confirm no medical specifics have been communicated to the manager.",
+        "ts": "1775074800.000305",
+        "team": "T001",
+        "client_msg_id": "msg-C003-305",
+        "thread_ts": "1775060880.000304",
+        "parent_user_id": "U002"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Confirmed \u2014 I communicated only that an accommodation request is under review. No medical details shared.",
+        "ts": "1775076300.000306",
+        "team": "T001",
+        "client_msg_id": "msg-C003-306",
+        "thread_ts": "1775060880.000304",
+        "parent_user_id": "U001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "IT coordination with @samir.haddad confirmed \u2014 access suspended, not terminated. Manager briefed.",
+        "ts": "1775077200.000303",
+        "team": "T001",
+        "client_msg_id": "msg-C003-303",
+        "thread_ts": "1775060520.000301",
+        "parent_user_id": "U001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Escalation: LC-2026-0089 | EMP-1212 | USERRA military leave\nActivation date 2026-04-21. Benefits Manager approval obtained. Posting for HR Director awareness.",
+        "ts": "1775592900.000307",
+        "team": "T001",
+        "client_msg_id": "msg-C003-307",
+        "reply_count": 1,
+        "reply_users_count": 1,
+        "reply_users": [
+          "U002"
+        ],
+        "latest_reply": "1775599200.000308",
+        "subscribed": true
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Acknowledged. Second USERRA case this quarter \u2014 I'll note the pattern. Same process as LC-2026-0071. Keep me posted on any reemployment rights questions when EMP-1212 returns.",
+        "ts": "1775599200.000308",
+        "team": "T001",
+        "client_msg_id": "msg-C003-308",
+        "thread_ts": "1775592900.000307",
+        "parent_user_id": "U002"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Reminder to all: USERRA reemployment rights can extend up to 5 years. If either EMP-1102 or EMP-1212 contacts HR about reemployment before their case is formally closed, route immediately to me \u2014 do not advise independently.",
+        "ts": "1775746800.000309",
+        "team": "T001",
+        "client_msg_id": "msg-C003-309"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Acknowledged and noted in both case files.",
+        "ts": "1775748900.000310",
+        "team": "T001",
+        "client_msg_id": "msg-C003-310"
+      }
+    ],
+    "C004": [
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Payroll handoff: LC-2026-0008 | EMP-1136\nLeave start: 2026-01-06 | Type: FMLA continuous | Unpaid status effective same date.\nAccruals to pause per policy. Expected RTW: 2026-01-28.",
+        "ts": "1767716400.000401",
+        "team": "T001",
+        "client_msg_id": "msg-C004-401"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Payroll handoff: LC-2026-0010 | EMP-1191\nLeave start: 2026-01-20 | Type: FMLA continuous | Transition to unpaid effective 2026-01-20.\nPTO supplement: Not elected. Expected RTW: open (12-week max).",
+        "ts": "1768927200.000402",
+        "team": "T001",
+        "client_msg_id": "msg-C004-402"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "RTW notification: LC-2026-0003 | EMP-1100\nReturned 2026-02-07. Full-duty return. Reinstate regular pay and accruals effective 2026-02-07.",
+        "ts": "1770739500.000403",
+        "team": "T001",
+        "client_msg_id": "msg-C004-403"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Payroll handoff: LC-2026-0023 | EMP-1204\nLeave start: 2026-02-17 | Type: FMLA + FAMLI concurrent\nUnpaid FMLA effective 2026-02-17. FAMLI wage replacement begins upon CDLE approval \u2014 do not also process PTO (no supplement elected). Expected RTW: 2026-05-08.",
+        "ts": "1771434000.000404",
+        "team": "T001",
+        "client_msg_id": "msg-C004-404"
+      },
+      {
+        "type": "message",
+        "user": "U004",
+        "text": "Received for LC-2026-0023. I'll flag payroll to hold PTO payout until FAMLI benefit is confirmed active. What's the estimated FAMLI weekly benefit amount for budgeting?",
+        "ts": "1771439400.000405",
+        "team": "T001",
+        "client_msg_id": "msg-C004-405"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "FAMLI benefit is administered directly by CDLE \u2014 I don't have the benefit amount. Employee will receive CDLE determination separately. We just confirm leave is unpaid on our end.",
+        "ts": "1771444800.000406",
+        "team": "T001",
+        "client_msg_id": "msg-C004-406"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Payroll handoff: LC-2026-0034 | EMP-1148\nLeave start: 2026-03-02 | Type: FMLA continuous | Unpaid effective 2026-03-02.\nExpected RTW: 2027-03-01.",
+        "ts": "1772468100.000407",
+        "team": "T001",
+        "client_msg_id": "msg-C004-407"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Payroll handoff: LC-2026-0098 | EMP-1042\nLeave start: 2026-03-05 | Type: FMLA + FAMLI concurrent | Unpaid effective 2026-03-05.\nFAMLI running concurrently. No PTO supplement. Expected RTW: 2026-03-19 (may extend).",
+        "ts": "1772730600.000408",
+        "team": "T001",
+        "client_msg_id": "msg-C004-408"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "RTW notification: LC-2026-0008 | EMP-1136\nReturned 2026-03-27. Full-duty return. Reinstate regular pay and accruals effective 2026-03-27.",
+        "ts": "1774624800.000409",
+        "team": "T001",
+        "client_msg_id": "msg-C004-409"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Payroll handoff: LC-2026-0065 | EMP-1139\nLeave start: 2026-04-01 | Type: FMLA continuous | Unpaid effective 2026-04-01.\nCert pending \u2014 please flag if cert is not received by 2026-04-22 and we'll re-evaluate status.",
+        "ts": "1775058300.000410",
+        "team": "T001",
+        "client_msg_id": "msg-C004-410"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Payroll handoff: LC-2026-0086 | EMP-1171\nLeave start: 2026-04-07 | Type: FMLA + FAMLI concurrent | Unpaid effective 2026-04-07.\nFAMLI concurrently. No PTO supplement. Cert due 2026-04-28. Expected RTW: 2026-06-29.",
+        "ts": "1775577000.000411",
+        "team": "T001",
+        "client_msg_id": "msg-C004-411"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Payroll handoff: LC-2026-0059 | EMP-1103\nLeave start: 2026-04-07 | Type: FMLA continuous | Unpaid effective 2026-04-07.\nCert pending. Expected RTW: open (12-week max from 2026-04-07).",
+        "ts": "1775577600.000412",
+        "team": "T001",
+        "client_msg_id": "msg-C004-412"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Payroll handoff: LC-2026-0074 | EMP-1162\nLeave start: 2026-04-07 | Type: FMLA continuous | Unpaid effective 2026-04-07.\nExpected RTW: 2027-04-06.",
+        "ts": "1775577900.000413",
+        "team": "T001",
+        "client_msg_id": "msg-C004-413"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Payroll handoff: LC-2026-0068 | EMP-1107\nBereavement leave: 2026-04-08 \u2014 2026-04-10 (3 scheduled workdays).\nBereavement is paid per Ridgeline policy \u2014 do NOT mark unpaid. RTW: 2026-04-10.",
+        "ts": "1775659200.000414",
+        "team": "T001",
+        "client_msg_id": "msg-C004-414"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "RTW notification: LC-2026-0068 | EMP-1107\nReturned 2026-04-10 as scheduled. Bereavement leave closed.",
+        "ts": "1775833800.000415",
+        "team": "T001",
+        "client_msg_id": "msg-C004-415"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Payroll handoff: LC-2026-0091 | EMP-1133\nLeave start: 2026-04-10 | Type: FMLA continuous | Unpaid effective 2026-04-10.\nCert pending \u2014 designation not yet issued. Flag if cert not received by 2026-04-30.",
+        "ts": "1775834400.000416",
+        "team": "T001",
+        "client_msg_id": "msg-C004-416"
+      }
+    ],
+    "C005": [
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Routing for General Counsel awareness: LC-2026-0044 | EMP-1001\nEmployee's manager contacted HR directly to ask whether the approved FMLA designation could be retroactively revoked based on performance documentation predating the leave. No action taken pending legal guidance.",
+        "ts": "1773590400.000501",
+        "team": "T001",
+        "client_msg_id": "msg-C005-501",
+        "reply_count": 2,
+        "reply_users_count": 2,
+        "reply_users": [
+          "U002",
+          "U005"
+        ],
+        "latest_reply": "1773608700.000503",
+        "subscribed": true
+      },
+      {
+        "type": "message",
+        "user": "U005",
+        "text": "Thanks for routing this appropriately. The short answer is no \u2014 an approved FMLA designation cannot be retroactively revoked on the basis of pre-existing performance issues. The leave is protected once designated. I'll send a written memo to Daniel for the record. Do not communicate this directly to the manager \u2014 Daniel should handle.",
+        "ts": "1773606600.000502",
+        "team": "T001",
+        "client_msg_id": "msg-C005-502",
+        "thread_ts": "1773590400.000501",
+        "parent_user_id": "U005"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Agreed with Evelyn's guidance. I'll handle the manager communication. Morgan, no further action needed from you on this one.",
+        "ts": "1773608700.000503",
+        "team": "T001",
+        "client_msg_id": "msg-C005-503",
+        "thread_ts": "1773590400.000501",
+        "parent_user_id": "U002"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Routing for General Counsel awareness: LC-2026-0112 | EMP-1001\nSeparate from LC-2026-0044 \u2014 employee submitted a second leave request under FAMLI while the FMLA case is active. Manager asked whether this constitutes 'double-dipping.' Posting for awareness \u2014 I advised the manager this is not within my authority to opine on.",
+        "ts": "1775230200.000504",
+        "team": "T001",
+        "client_msg_id": "msg-C005-504"
+      },
+      {
+        "type": "message",
+        "user": "U005",
+        "text": "FMLA and FAMLI are independent legal frameworks. Running concurrently is expressly permitted under Colorado law. There is no 'double-dipping' issue. Daniel, you may advise the manager accordingly. Morgan, add a note to both case files that this question was escalated and resolved.",
+        "ts": "1775235600.000505",
+        "team": "T001",
+        "client_msg_id": "msg-C005-505"
+      }
+    ],
+    "C006": [
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Received email from sender not in employee_roster.xlsx: personal Gmail address. Subject line suggests a leave inquiry on behalf of an employee. Responded with standard not-in-policy reply: leave requests must come from the employee's Ridgeline email address. No case opened.",
+        "ts": "1770314400.000601",
+        "team": "T001",
+        "client_msg_id": "msg-C006-601"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Second email from same Gmail \u2014 employee provided their work email in the reply. Verified in roster. Directed them to resubmit from ridgelinegear.com address. Case pending.",
+        "ts": "1770327000.000602",
+        "team": "T001",
+        "client_msg_id": "msg-C006-602"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Misdirected email from external vendor (not employee). No leave matter. No action taken. Logged here for audit trail.",
+        "ts": "1774192500.000603",
+        "team": "T001",
+        "client_msg_id": "msg-C006-603"
+      }
+    ],
+    "C007": [
+      {
+        "type": "message",
+        "user": "U002",
+        "text": ":wave: Reminder: Ridgeline's updated Leave & Time-Off Policy is now available on the intranet. The policy reflects updates to Colorado FAMLI benefit amounts effective January 1, 2026. Questions? Contact HR at hrdirector@ridgelinegear.com or leaves@ridgelinegear.com.",
+        "ts": "1767628800.000701",
+        "team": "T001",
+        "client_msg_id": "msg-C007-701",
+        "reactions": [
+          {
+            "name": "thumbsup",
+            "users": [
+              "U010",
+              "U011",
+              "U012",
+              "U013"
+            ],
+            "count": 4
+          },
+          {
+            "name": "white_check_mark",
+            "users": [
+              "U015",
+              "U017"
+            ],
+            "count": 2
+          }
+        ]
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Heads up: HR will be conducting annual HFWA balance reviews this month. If you have questions about your accrued sick leave balance, contact Morgan in HR: leaves@ridgelinegear.com.",
+        "ts": "1772555400.000702",
+        "team": "T001",
+        "client_msg_id": "msg-C007-702",
+        "reactions": [
+          {
+            "name": "thumbsup",
+            "users": [
+              "U011",
+              "U013",
+              "U016"
+            ],
+            "count": 3
+          }
+        ]
+      },
+      {
+        "type": "message",
+        "user": "U007",
+        "text": "Onboarding reminder: New-hire orientation is scheduled for Monday, April 13. If you have a new team member starting next week, please submit their equipment request by EOD today.",
+        "ts": "1775656800.000703",
+        "team": "T001",
+        "client_msg_id": "msg-C007-703"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": ":calendar: Reminder: The Ridgeline Gear all-hands is scheduled for Thursday, April 16 at 2:00 PM MDT. Dial-in details are in your calendar invite. Remote employees, please join from the link provided.",
+        "ts": "1775746800.000704",
+        "team": "T001",
+        "client_msg_id": "msg-C007-704",
+        "reactions": [
+          {
+            "name": "calendar",
+            "users": [
+              "U010",
+              "U012",
+              "U013",
+              "U015",
+              "U017",
+              "U018",
+              "U019"
+            ],
+            "count": 7
+          }
+        ]
+      },
+      {
+        "type": "message",
+        "user": "U011",
+        "text": "Happy Friday everyone \u2014 Operations team hit our Q1 shipment target for the third consecutive quarter. Great work all around. :muscle:",
+        "ts": "1775830500.000705",
+        "team": "T001",
+        "client_msg_id": "msg-C007-705",
+        "reactions": [
+          {
+            "name": "tada",
+            "users": [
+              "U012",
+              "U013",
+              "U014",
+              "U015",
+              "U017",
+              "U019",
+              "U002"
+            ],
+            "count": 7
+          },
+          {
+            "name": "muscle",
+            "users": [
+              "U016",
+              "U018"
+            ],
+            "count": 2
+          }
+        ]
+      }
+    ],
+    "C008": [
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "HR team weekly sync is Tuesdays at 10 AM MDT. Please add any case topics to the shared agenda doc by Monday EOD.",
+        "ts": "1767627000.000801",
+        "team": "T001",
+        "client_msg_id": "msg-C008-801"
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "Reminder: annual HFWA accrual reset happens March 1 for all employees. Morgan, please confirm the hfwa_balance_tracker.xlsx reflects any carry-forward balances per policy before the end of February.",
+        "ts": "1770739200.000802",
+        "team": "T001",
+        "client_msg_id": "msg-C008-802"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Confirmed \u2014 hfwa_balance_tracker updated. Carry-forward balances applied per the 48-hour annual cap. All 2025 records archived.",
+        "ts": "1770831000.000803",
+        "team": "T001",
+        "client_msg_id": "msg-C008-803"
+      },
+      {
+        "type": "message",
+        "user": "U006",
+        "text": "Heads up \u2014 I'm seeing a pattern of Monday absences for two employees in Operations. Not yet at the 3-in-a-month HFWA flag threshold, but flagging for awareness. I'll monitor through April.",
+        "ts": "1773157500.000804",
+        "team": "T001",
+        "client_msg_id": "msg-C008-804"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Noted. If either hits the 3-single-day threshold in a calendar month I'll log a pattern flag and post to #hr-escalations per \u00a712.",
+        "ts": "1773159300.000805",
+        "team": "T001",
+        "client_msg_id": "msg-C008-805"
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "Team \u2014 SOP was finalized and approved effective April 1. If you have questions about any procedure, the document is in the shared HR drive. Next review: April 1, 2027.",
+        "ts": "1775055300.000806",
+        "team": "T001",
+        "client_msg_id": "msg-C008-806",
+        "reactions": [
+          {
+            "name": "white_check_mark",
+            "users": [
+              "U001",
+              "U006",
+              "U007"
+            ],
+            "count": 3
+          }
+        ]
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Brief note: we have two USERRA cases active simultaneously (LC-2026-0071 and LC-2026-0089). Both are in good order. Just flagging in case anyone gets questions \u2014 direct employees and managers to Morgan.",
+        "ts": "1775661000.000807",
+        "team": "T001",
+        "client_msg_id": "msg-C008-807"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "April workload note: 7 new intakes since April 1, two USERRA escalations, one ADA routing. P1 caseload is elevated. Will flag if I need bandwidth support.",
+        "ts": "1775829600.000808",
+        "team": "T001",
+        "client_msg_id": "msg-C008-808",
+        "reactions": [
+          {
+            "name": "eyes",
+            "users": [
+              "U002",
+              "U003"
+            ],
+            "count": 2
+          }
+        ]
+      }
+    ]
+  },
+  "counters": {
+    "messageId": 1000000
+  }
+}

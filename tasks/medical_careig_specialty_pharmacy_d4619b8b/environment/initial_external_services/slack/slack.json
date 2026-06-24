@@ -1,0 +1,721 @@
+{
+  "users": {
+    "U001": {
+      "id": "U001",
+      "team_id": "TCAREIG",
+      "name": "angela.torres",
+      "deleted": false,
+      "real_name": "Angela Torres",
+      "profile": {
+        "real_name": "Angela Torres",
+        "display_name": "angela",
+        "email": "a.torres@careig.com",
+        "title": "Senior Billing Specialist"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U002": {
+      "id": "U002",
+      "team_id": "TCAREIG",
+      "name": "marcus.webb",
+      "deleted": false,
+      "real_name": "Marcus Webb",
+      "profile": {
+        "real_name": "Marcus Webb",
+        "display_name": "marcus",
+        "email": "m.webb@careig.com",
+        "title": "Billing Specialist (New)"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U003": {
+      "id": "U003",
+      "team_id": "TCAREIG",
+      "name": "director.chen",
+      "deleted": false,
+      "real_name": "Director Chen",
+      "profile": {
+        "real_name": "Director Chen",
+        "display_name": "dchen",
+        "email": "d.chen@careig.com",
+        "title": "Director of Revenue Cycle Management"
+      },
+      "is_admin": true,
+      "is_owner": true,
+      "is_bot": false
+    },
+    "U004": {
+      "id": "U004",
+      "team_id": "TCAREIG",
+      "name": "karen.rodriguez",
+      "deleted": false,
+      "real_name": "Karen Rodriguez",
+      "profile": {
+        "real_name": "Karen Rodriguez",
+        "display_name": "karenr",
+        "email": "k.rodriguez@careig.com",
+        "title": "Benefits Verification Specialist"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U005": {
+      "id": "U005",
+      "team_id": "TCAREIG",
+      "name": "robert.chen.nurse",
+      "deleted": false,
+      "real_name": "Robert Chen (Nurse)",
+      "profile": {
+        "real_name": "Robert Chen",
+        "display_name": "robchen",
+        "email": "r.chen@careig.com",
+        "title": "Registered Nurse"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U006": {
+      "id": "U006",
+      "team_id": "TCAREIG",
+      "name": "jane.smith.nurse",
+      "deleted": false,
+      "real_name": "Jane Smith (Nurse)",
+      "profile": {
+        "real_name": "Jane Smith",
+        "display_name": "janesmith",
+        "email": "j.smith@careig.com",
+        "title": "Registered Nurse"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U007": {
+      "id": "U007",
+      "team_id": "TCAREIG",
+      "name": "david.williams.nurse",
+      "deleted": false,
+      "real_name": "David Williams (Nurse)",
+      "profile": {
+        "real_name": "David Williams",
+        "display_name": "dwilliams",
+        "email": "d.williams@careig.com",
+        "title": "Registered Nurse"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U008": {
+      "id": "U008",
+      "team_id": "TCAREIG",
+      "name": "patricia.lee.nurse",
+      "deleted": false,
+      "real_name": "Patricia Lee (Nurse)",
+      "profile": {
+        "real_name": "Patricia Lee",
+        "display_name": "plee",
+        "email": "p.lee@careig.com",
+        "title": "Registered Nurse, SQ Certified"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U009": {
+      "id": "U009",
+      "team_id": "TCAREIG",
+      "name": "billing.bot",
+      "deleted": false,
+      "real_name": "CareIG Billing Bot",
+      "profile": {
+        "real_name": "CareIG Billing Bot",
+        "display_name": "billingbot",
+        "email": "billing@careig.com",
+        "title": "Automated Billing System"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": true
+    },
+    "U010": {
+      "id": "U010",
+      "team_id": "TCAREIG",
+      "name": "kim.bvs",
+      "deleted": false,
+      "real_name": "Kim Nguyen",
+      "profile": {
+        "real_name": "Kim Nguyen",
+        "display_name": "kimn",
+        "email": "k.nguyen@careig.com",
+        "title": "Clinical Coordinator"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    }
+  },
+  "channels": {
+    "C001": {
+      "id": "C001",
+      "name": "general",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1735689600,
+      "is_archived": false,
+      "is_general": true,
+      "unlinked": 0,
+      "name_normalized": "general",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "TCAREIG",
+      "updated": 1735689600,
+      "creator": "U003",
+      "shared_team_ids": [
+        "TCAREIG"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Company-wide announcements",
+        "creator": "U003",
+        "last_set": 1735689600
+      },
+      "purpose": {
+        "value": "Company-wide announcements",
+        "creator": "U003",
+        "last_set": 1735689600
+      }
+    },
+    "C002": {
+      "id": "C002",
+      "name": "billing",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1735689600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "billing",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "TCAREIG",
+      "updated": 1735689600,
+      "creator": "U003",
+      "shared_team_ids": [
+        "TCAREIG"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Claim submissions, billing holds, AR follow-ups, timely filing alerts",
+        "creator": "U003",
+        "last_set": 1735689600
+      },
+      "purpose": {
+        "value": "Claim submissions, billing holds, AR follow-ups, timely filing alerts",
+        "creator": "U003",
+        "last_set": 1735689600
+      }
+    },
+    "C003": {
+      "id": "C003",
+      "name": "billing-mgmt",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1735689600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "billing-mgmt",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "TCAREIG",
+      "updated": 1735689600,
+      "creator": "U003",
+      "shared_team_ids": [
+        "TCAREIG"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Billing escalations: underpayments, write-offs >$200, benefit type conflicts",
+        "creator": "U003",
+        "last_set": 1735689600
+      },
+      "purpose": {
+        "value": "Billing escalations: underpayments, write-offs >$200, benefit type conflicts",
+        "creator": "U003",
+        "last_set": 1735689600
+      }
+    },
+    "C004": {
+      "id": "C004",
+      "name": "billing-appeals",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1735689600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "billing-appeals",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "TCAREIG",
+      "updated": 1735689600,
+      "creator": "U003",
+      "shared_team_ids": [
+        "TCAREIG"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Appeal tracking: PA denials, Level 1 & 2 appeals",
+        "creator": "U003",
+        "last_set": 1735689600
+      },
+      "purpose": {
+        "value": "Appeal tracking: PA denials, Level 1 & 2 appeals",
+        "creator": "U003",
+        "last_set": 1735689600
+      }
+    },
+    "C005": {
+      "id": "C005",
+      "name": "clinical-scheduling",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1735689600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "clinical-scheduling",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "TCAREIG",
+      "updated": 1735689600,
+      "creator": "U003",
+      "shared_team_ids": [
+        "TCAREIG"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "PA approvals, supply holds, visit scheduling, visit completion, unsigned notes",
+        "creator": "U003",
+        "last_set": 1735689600
+      },
+      "purpose": {
+        "value": "PA approvals, supply holds, visit scheduling, visit completion, unsigned notes",
+        "creator": "U003",
+        "last_set": 1735689600
+      }
+    },
+    "C006": {
+      "id": "C006",
+      "name": "intake-team",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1735689600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "intake-team",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "TCAREIG",
+      "updated": 1735689600,
+      "creator": "U003",
+      "shared_team_ids": [
+        "TCAREIG"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "BVS assignment, PA submissions, formulary issues, financial hardship",
+        "creator": "U003",
+        "last_set": 1735689600
+      },
+      "purpose": {
+        "value": "BVS assignment, PA submissions, formulary issues, financial hardship",
+        "creator": "U003",
+        "last_set": 1735689600
+      }
+    },
+    "C007": {
+      "id": "C007",
+      "name": "intake-alerts",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1735689600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "intake-alerts",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "TCAREIG",
+      "updated": 1735689600,
+      "creator": "U003",
+      "shared_team_ids": [
+        "TCAREIG"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Holds and blockers: missing NPI, unreachable patients, PA delays",
+        "creator": "U003",
+        "last_set": 1735689600
+      },
+      "purpose": {
+        "value": "Holds and blockers: missing NPI, unreachable patients, PA delays",
+        "creator": "U003",
+        "last_set": 1735689600
+      }
+    },
+    "C008": {
+      "id": "C008",
+      "name": "intake-mgmt",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1735689600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "intake-mgmt",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "TCAREIG",
+      "updated": 1735689600,
+      "creator": "U003",
+      "shared_team_ids": [
+        "TCAREIG"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Supervisor escalations: OON issues, PA delays >5 days, formulary unresolved",
+        "creator": "U003",
+        "last_set": 1735689600
+      },
+      "purpose": {
+        "value": "Supervisor escalations: OON issues, PA delays >5 days, formulary unresolved",
+        "creator": "U003",
+        "last_set": 1735689600
+      }
+    },
+    "C009": {
+      "id": "C009",
+      "name": "compliance",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1735689600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "compliance",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "TCAREIG",
+      "updated": 1735689600,
+      "creator": "U003",
+      "shared_team_ids": [
+        "TCAREIG"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Legal threats, suspected fraud, audit escalations",
+        "creator": "U003",
+        "last_set": 1735689600
+      },
+      "purpose": {
+        "value": "Legal threats, suspected fraud, audit escalations",
+        "creator": "U003",
+        "last_set": 1735689600
+      }
+    }
+  },
+  "messages": {
+    "C002": [
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "[CLAIM SUBMITTED] CASE-1001 | DOS: 2026-03-15 | Payer: BlueCross Commercial PPO | Patient: Thompson | Drug: Privigen 10% (J1459) | Billed: $4,340.25",
+        "ts": "1773658500.000100",
+        "team": "TCAREIG"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "[CLAIM SUBMITTED] CASE-1002 | DOS: 2026-03-18 | Payer: Noridian Medicare Part B | Patient: Rivera | Drug: Gammaplex 5% (J1557) | Billed: $4,892.50",
+        "ts": "1773918600.000400",
+        "team": "TCAREIG"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "[CLAIM SUBMITTED] CASE-1003 | DOS: 2026-03-20 | Payer: Aetna Commercial HMO | Patient: Park | Drug: Hizentra 20% (J1559) | Billed: $1,355.00",
+        "ts": "1774091400.000500",
+        "team": "TCAREIG"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "[CLAIM SUBMITTED] CASE-1004 | DOS: 2026-03-22 | Payer: UnitedHealth Medicare Advantage | Patient: Washington | Drug: Gamunex-C 10% (J1561) | Billed: $5,109.50",
+        "ts": "1774260000.000600",
+        "team": "TCAREIG"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "[CLAIM SUBMITTED] CASE-1005 | DOS: 2026-03-25 | Payer: BlueCross Commercial PPO | Patient: Okafor | Drug: HyQvia 10% (J1575) | Billed: $1,020.00",
+        "ts": "1774519200.000700",
+        "team": "TCAREIG"
+      }
+    ],
+    "C005": [
+      {
+        "type": "message",
+        "user": "U004",
+        "text": "[PA APPROVED] CASE-1001 | Thompson | PA#: BC-2026-44821 | Privigen 10% 30g q4wk | Expires: 2026-09-15 | Ready for clinical handoff.",
+        "ts": "1772409600.000050",
+        "team": "TCAREIG"
+      },
+      {
+        "type": "message",
+        "user": "U004",
+        "text": "[PA APPROVED] CASE-1002 | Rivera | PA#: NM-2026-77203 | Gammaplex 5% 20g q3wk | Expires: 2026-12-01 | Ready for clinical handoff.",
+        "ts": "1772496000.000050",
+        "team": "TCAREIG"
+      },
+      {
+        "type": "message",
+        "user": "U004",
+        "text": "[PA APPROVED] CASE-1004 | Washington | PA#: UH-2026-91004 | Gamunex-C 10% 35g q4wk | Expires: 2026-03-10 | Ready for clinical handoff.",
+        "ts": "1772582400.000050",
+        "team": "TCAREIG"
+      },
+      {
+        "type": "message",
+        "user": "U004",
+        "text": "[PA APPROVED] CASE-1003 | Park | PA#: AH-2026-33150 | Hizentra 20% 8g weekly | Expires: 2026-08-20 | Ready for clinical handoff.",
+        "ts": "1772668800.000050",
+        "team": "TCAREIG"
+      },
+      {
+        "ts": "1772962200.000100",
+        "user": "U002",
+        "text": "[SCHEDULED] CASE-1001 | Date: 2026-03-15 | Nurse: Jane Smith",
+        "type": "message",
+        "team": "TCAREIG"
+      },
+      {
+        "type": "message",
+        "user": "U004",
+        "text": "[PA APPROVED] CASE-1005 | Okafor | PA#: BC-2026-55938 | HyQvia 10% 20g q4wk | Expires: 2026-10-01 | Ready for clinical handoff.",
+        "ts": "1773100800.000050",
+        "team": "TCAREIG"
+      },
+      {
+        "type": "message",
+        "user": "U006",
+        "text": "[VISIT COMPLETE] CASE-1001 | Thompson, Michael | DOS: 2026-03-15 | Privigen 10% 29.7g administered (30g ordered, 0.3g waste) | Duration: 195 min | Note signed.",
+        "ts": "1773604500.000100",
+        "team": "TCAREIG"
+      },
+      {
+        "type": "message",
+        "user": "U005",
+        "text": "[VISIT COMPLETE] CASE-1002 | Rivera, Elena | DOS: 2026-03-18 | Gammaplex 5% 20g administered | Duration: 210 min | Note signed. Used dextrose diluent per Gammaplex protocol.",
+        "ts": "1773863400.000200",
+        "team": "TCAREIG"
+      },
+      {
+        "type": "message",
+        "user": "U005",
+        "text": "[VISIT COMPLETE] CASE-1003 | Park, James | DOS: 2026-03-20 | Hizentra 20% 8g administered (SQ) | Duration: 90 min | Note signed. First SQ visit \u2014 self-infusion training completed.",
+        "ts": "1774036200.000300",
+        "team": "TCAREIG"
+      },
+      {
+        "type": "message",
+        "user": "U007",
+        "text": "[VISIT COMPLETE] CASE-1004 | Washington, Denise | DOS: 2026-03-22 | Gamunex-C 10% 34.8g administered (35g ordered) | Duration: 270 min | Note signed.",
+        "ts": "1774208400.000400",
+        "team": "TCAREIG"
+      },
+      {
+        "type": "message",
+        "user": "U008",
+        "text": "[VISIT COMPLETE] CASE-1005 | Okafor, Chioma | DOS: 2026-03-25 | HyQvia 10% 20g administered (SQ) | Duration: 180 min | Note signed.",
+        "ts": "1774468200.000500",
+        "team": "TCAREIG"
+      }
+    ],
+    "C003": [
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "Reminder: all write-off requests over $200 require my approval. Please use the standard format: [WRITE-OFF REQUEST] CASE_ID | Amount | Reason.",
+        "ts": "1773489600.000100",
+        "team": "TCAREIG"
+      }
+    ],
+    "C004": [],
+    "C006": [
+      {
+        "type": "message",
+        "user": "U004",
+        "text": "[REFERRAL RECEIVED] CASE-1001 | Thompson, Michael | Privigen 10% | Referred by Dr. Sarah Mitchell | Dx: D80.1",
+        "ts": "1771977500.000050",
+        "team": "TCAREIG"
+      },
+      {
+        "type": "message",
+        "user": "U004",
+        "text": "[BVS ASSIGNED] CASE-1001 to BVS-Rodriguez. Privigen 10% / BlueCross PPO.",
+        "ts": "1771977600.000100",
+        "team": "TCAREIG"
+      },
+      {
+        "type": "message",
+        "user": "U004",
+        "text": "[REFERRAL RECEIVED] CASE-1002 | Rivera, Elena | Gammaplex 5% | Referred by Dr. James Patel | Dx: D83.9",
+        "ts": "1772063900.000050",
+        "team": "TCAREIG"
+      },
+      {
+        "type": "message",
+        "user": "U004",
+        "text": "[BVS ASSIGNED] CASE-1002 to BVS-Kim. Gammaplex 5% / Noridian Medicare Part B.",
+        "ts": "1772064000.000200",
+        "team": "TCAREIG"
+      },
+      {
+        "type": "message",
+        "user": "U004",
+        "text": "[REFERRAL RECEIVED] CASE-1003 | Park, James | Hizentra 20% | Referred by Dr. Lisa Nakamura | Dx: D80.0",
+        "ts": "1772150300.000050",
+        "team": "TCAREIG"
+      },
+      {
+        "type": "message",
+        "user": "U004",
+        "text": "[BVS ASSIGNED] CASE-1003 to BVS-Chen. Hizentra 20% / Aetna HMO.",
+        "ts": "1772150400.000300",
+        "team": "TCAREIG"
+      },
+      {
+        "type": "message",
+        "user": "U004",
+        "text": "[REFERRAL RECEIVED] CASE-1004 | Washington, Denise | Gamunex-C 10% | Referred by Dr. Kevin O'Brien | Dx: G61.0",
+        "ts": "1772236700.000050",
+        "team": "TCAREIG"
+      },
+      {
+        "type": "message",
+        "user": "U004",
+        "text": "[BVS ASSIGNED] CASE-1004 to BVS-Rodriguez. Gamunex-C 10% / UnitedHealth MA.",
+        "ts": "1772236800.000400",
+        "team": "TCAREIG"
+      },
+      {
+        "type": "message",
+        "user": "U004",
+        "text": "[REFERRAL RECEIVED] CASE-1005 | Okafor, Chioma | HyQvia 10% | Referred by Dr. Amanda Foster | Dx: D80.1",
+        "ts": "1772323100.000050",
+        "team": "TCAREIG"
+      },
+      {
+        "type": "message",
+        "user": "U004",
+        "text": "[BVS ASSIGNED] CASE-1005 to BVS-Kim. HyQvia 10% / BlueCross PPO.",
+        "ts": "1772323200.000500",
+        "team": "TCAREIG"
+      }
+    ],
+    "C007": [],
+    "C008": [],
+    "C009": [],
+    "C001": [
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "Welcome to Marcus Webb who joined our billing team this month! Marcus comes from a medical coding background and will be handling claim construction. Please help him get up to speed on our SOP.",
+        "ts": "1771891200.000100",
+        "team": "TCAREIG"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Thanks everyone! Excited to be here. Looking forward to learning the CareIG way of doing things.",
+        "ts": "1771894800.000200",
+        "team": "TCAREIG"
+      }
+    ]
+  },
+  "counters": {
+    "messageId": 1000000
+  }
+}

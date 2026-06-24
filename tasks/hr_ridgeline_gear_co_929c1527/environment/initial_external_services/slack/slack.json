@@ -1,0 +1,709 @@
+{
+  "users": {
+    "U001": {
+      "id": "U001",
+      "team_id": "T001",
+      "name": "leaves-hr",
+      "deleted": false,
+      "real_name": "Leave Coordinator",
+      "profile": {
+        "real_name": "Leave Coordinator",
+        "display_name": "leaves-hr",
+        "email": "leaves@ridgelinegear.com",
+        "title": "Leave Coordinator"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U002": {
+      "id": "U002",
+      "team_id": "T001",
+      "name": "daniel.whitfield",
+      "deleted": false,
+      "real_name": "Daniel Whitfield",
+      "profile": {
+        "real_name": "Daniel Whitfield",
+        "display_name": "daniel.whitfield",
+        "email": "daniel.whitfield@ridgelinegear.com",
+        "title": "HR Director"
+      },
+      "is_admin": true,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U003": {
+      "id": "U003",
+      "team_id": "T001",
+      "name": "renata.okafor",
+      "deleted": false,
+      "real_name": "Renata Okafor",
+      "profile": {
+        "real_name": "Renata Okafor",
+        "display_name": "renata.okafor",
+        "email": "renata.okafor@ridgelinegear.com",
+        "title": "Benefits Manager"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U004": {
+      "id": "U004",
+      "team_id": "T001",
+      "name": "meera.patel",
+      "deleted": false,
+      "real_name": "Meera Patel",
+      "profile": {
+        "real_name": "Meera Patel",
+        "display_name": "meera.patel",
+        "email": "meera.patel@ridgelinegear.com",
+        "title": "HR Generalist \u2013 Employee Relations"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U005": {
+      "id": "U005",
+      "team_id": "T001",
+      "name": "jordan.briggs",
+      "deleted": false,
+      "real_name": "Jordan Briggs",
+      "profile": {
+        "real_name": "Jordan Briggs",
+        "display_name": "jordan.briggs",
+        "email": "jordan.briggs@ridgelinegear.com",
+        "title": "HR Generalist \u2013 Onboarding"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U006": {
+      "id": "U006",
+      "team_id": "T001",
+      "name": "teresa.vang",
+      "deleted": false,
+      "real_name": "Teresa Vang",
+      "profile": {
+        "real_name": "Teresa Vang",
+        "display_name": "teresa.vang",
+        "email": "teresa.vang@ridgelinegear.com",
+        "title": "Payroll Lead"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U007": {
+      "id": "U007",
+      "team_id": "T001",
+      "name": "luis.arredondo",
+      "deleted": false,
+      "real_name": "Luis Arredondo",
+      "profile": {
+        "real_name": "Luis Arredondo",
+        "display_name": "luis.arredondo",
+        "email": "luis.arredondo@ridgelinegear.com",
+        "title": "Safety & Workers' Comp Coordinator"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U008": {
+      "id": "U008",
+      "team_id": "T001",
+      "name": "evelyn.marchetti",
+      "deleted": false,
+      "real_name": "Evelyn Marchetti",
+      "profile": {
+        "real_name": "Evelyn Marchetti",
+        "display_name": "evelyn.marchetti",
+        "email": "evelyn.marchetti@ridgelineholdings.com",
+        "title": "General Counsel"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U009": {
+      "id": "U009",
+      "team_id": "T001",
+      "name": "samir.haddad",
+      "deleted": false,
+      "real_name": "Samir Haddad",
+      "profile": {
+        "real_name": "Samir Haddad",
+        "display_name": "samir.haddad",
+        "email": "samir.haddad@ridgelinegear.com",
+        "title": "IT Access Manager"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U010": {
+      "id": "U010",
+      "team_id": "T001",
+      "name": "sandra.ellison",
+      "deleted": false,
+      "real_name": "Sandra Ellison",
+      "profile": {
+        "real_name": "Sandra Ellison",
+        "display_name": "sandra.ellison",
+        "email": "sandra.ellison@ridgelinegear.com",
+        "title": "Vice President of Operations"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U011": {
+      "id": "U011",
+      "team_id": "T001",
+      "name": "marcus.deluca",
+      "deleted": false,
+      "real_name": "Marcus DeLuca",
+      "profile": {
+        "real_name": "Marcus DeLuca",
+        "display_name": "marcus.deluca",
+        "email": "marcus.deluca@ridgelinegear.com",
+        "title": "Production Manager"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U012": {
+      "id": "U012",
+      "team_id": "T001",
+      "name": "amy.sandoval",
+      "deleted": false,
+      "real_name": "Amy Sandoval",
+      "profile": {
+        "real_name": "Amy Sandoval",
+        "display_name": "amy.sandoval",
+        "email": "amy.sandoval@ridgelinegear.com",
+        "title": "Warehouse Manager"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U013": {
+      "id": "U013",
+      "team_id": "T001",
+      "name": "wei.zhang",
+      "deleted": false,
+      "real_name": "Wei Zhang",
+      "profile": {
+        "real_name": "Wei Zhang",
+        "display_name": "wei.zhang",
+        "email": "wei.zhang@ridgelinegear.com",
+        "title": "Director of Product Development"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    }
+  },
+  "channels": {
+    "C001": {
+      "id": "C001",
+      "name": "leave-intake",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1672531200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "leave-intake",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1672531200,
+      "creator": "U002",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Leave case notifications \u2014 intake, eligibility, designation, returns",
+        "creator": "U002",
+        "last_set": 1672531200
+      },
+      "purpose": {
+        "value": "Primary Leave Coordinator channel for routine case updates",
+        "creator": "U002",
+        "last_set": 1672531200
+      }
+    },
+    "C002": {
+      "id": "C002",
+      "name": "benefits-team",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1672531200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "benefits-team",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1672531200,
+      "creator": "U002",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Benefits team coordination",
+        "creator": "U002",
+        "last_set": 1672531200
+      },
+      "purpose": {
+        "value": "Questions and coordination for the Benefits team",
+        "creator": "U002",
+        "last_set": 1672531200
+      }
+    },
+    "C003": {
+      "id": "C003",
+      "name": "hr-escalations",
+      "is_channel": false,
+      "is_group": true,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1672531200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "hr-escalations",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1672531200,
+      "creator": "U002",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "HR Director escalations",
+        "creator": "U002",
+        "last_set": 1672531200
+      },
+      "purpose": {
+        "value": "Cases requiring HR Director review \u2014 denials, failure-to-return, discipline concerns",
+        "creator": "U002",
+        "last_set": 1672531200
+      }
+    },
+    "C004": {
+      "id": "C004",
+      "name": "payroll-coordination",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1672531200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "payroll-coordination",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1672531200,
+      "creator": "U002",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Leave payroll notifications",
+        "creator": "U002",
+        "last_set": 1672531200
+      },
+      "purpose": {
+        "value": "Leave start/end/return notifications for Payroll",
+        "creator": "U002",
+        "last_set": 1672531200
+      }
+    },
+    "C005": {
+      "id": "C005",
+      "name": "legal-review",
+      "is_channel": false,
+      "is_group": true,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1672531200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "legal-review",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1672531200,
+      "creator": "U002",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "General Counsel review",
+        "creator": "U002",
+        "last_set": 1672531200
+      },
+      "purpose": {
+        "value": "Legal threats, EEOC/CDLE/DOL mentions, GINA concerns, active litigation cases",
+        "creator": "U002",
+        "last_set": 1672531200
+      }
+    },
+    "C006": {
+      "id": "C006",
+      "name": "unknown-senders-hr",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1672531200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "unknown-senders-hr",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1672531200,
+      "creator": "U002",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Unrecognized email senders",
+        "creator": "U002",
+        "last_set": 1672531200
+      },
+      "purpose": {
+        "value": "Leave-related emails from senders not found in employee_roster.xlsx",
+        "creator": "U002",
+        "last_set": 1672531200
+      }
+    }
+  },
+  "messages": {
+    "C001": [
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "FMLA INTAKE: LC-2025-0142, Sarah Chen, Eligible, Employee's own serious health condition, 06/15/2025, P3",
+        "ts": "1749979800.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "FMLA DESIGNATED: LC-2025-0142, Sarah Chen, 06/15/2025, 06/29/2025, 80 hours",
+        "ts": "1750932000.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U011",
+        "text": "RETURN CONFIRMED: LC-2025-0142, Sarah Chen, 06/29/2025",
+        "ts": "1751184900.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "HFWA INTAKE: LC-2025-0275, Aisha Robinson, own illness, 08/18/2025 \u2013 08/19/2025, 2 consecutive days, P3",
+        "ts": "1755507600.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "FMLA INTAKE: LC-2025-0331, Sarah Chen, Eligible, Employee's own serious health condition, 09/01/2025, P3",
+        "ts": "1756804500.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "FMLA DESIGNATED: LC-2025-0331, Sarah Chen, 09/01/2025, 12/31/2025, intermittent \u2014 up to 400 hours remaining",
+        "ts": "1758105000.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "FMLA INTAKE: LC-2025-0410, Tom\u00e1s Guerrero, Eligible, Family member's serious health condition, 10/06/2025, P3",
+        "ts": "1759827600.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "FMLA DESIGNATED: LC-2025-0410, Tom\u00e1s Guerrero, 10/06/2025, 10/31/2025, 160 hours",
+        "ts": "1761040800.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "FAMLI INTAKE: LC-2025-0410, Tom\u00e1s Guerrero, Concurrent FMLA: Y, 10/06/2025",
+        "ts": "1760005800.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U011",
+        "text": "RETURN CONFIRMED: LC-2025-0410, Tom\u00e1s Guerrero, 10/31/2025",
+        "ts": "1761898200.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "FMLA DESIGNATED: LC-2026-0058, Sarah Chen, 01/01/2026, 03/31/2026, intermittent continuation \u2014 320 hours remaining in rolling period",
+        "ts": "1767344400.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "FMLA INTAKE: LC-2026-0101, Darnell Washington, Eligible, Bonding with a new child, 01/12/2026, P3",
+        "ts": "1768296600.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "FMLA DESIGNATED: LC-2026-0101, Darnell Washington, 01/12/2026, 03/06/2026, 320 hours",
+        "ts": "1768299300.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "FAMLI INTAKE: LC-2026-0101, Darnell Washington, Concurrent FMLA: Y, 01/12/2026",
+        "ts": "1768469400.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U012",
+        "text": "RETURN CONFIRMED: LC-2026-0101, Darnell Washington, 03/06/2026",
+        "ts": "1772785200.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "FMLA INTAKE: LC-2026-0203, James Nkomo, Eligible, Employee's own serious health condition, 02/15/2026, P3",
+        "ts": "1771233300.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "FMLA DESIGNATED: LC-2026-0203, James Nkomo, 02/15/2026, 08/15/2026, intermittent \u2014 up to 480 hours",
+        "ts": "1772533800.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "FMLA INTAKE: LC-2026-0287, Hannah Lindqvist, Eligible, Employee's own serious health condition, 03/16/2026, P3",
+        "ts": "1773394200.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "FMLA DESIGNATED: LC-2026-0287, Hannah Lindqvist, 03/16/2026, 05/11/2026, 320 hours",
+        "ts": "1774951200.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "FAMLI INTAKE: LC-2026-0287, Hannah Lindqvist, Concurrent FMLA: Y, 03/16/2026",
+        "ts": "1773914400.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "BEREAVEMENT INTAKE: LC-2026-0305, Kevin O'Malley, immediate family, 03/28/2026, P1",
+        "ts": "1774687500.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "JURY DUTY INTAKE: LC-2026-0320, Marcus DeLuca, 04/06/2026, estimated 1 week, P3",
+        "ts": "1775144700.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U010",
+        "text": "RETURN CONFIRMED: LC-2026-0320, Marcus DeLuca, 04/10/2026",
+        "ts": "1775984040.000100",
+        "team": "T001"
+      }
+    ],
+    "C002": [
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "Heads up \u2014 Q2 quarterly case audit is scheduled for April 15. I'll be pulling a sample of 10 recently closed cases. Please make sure all closures have complete case notes.",
+        "ts": "1774887300.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Got it, I'll double-check the recent closures this week.",
+        "ts": "1774945800.000100",
+        "team": "T001"
+      }
+    ],
+    "C003": [],
+    "C004": [
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "LEAVE PAYROLL NOTIFICATION: LC-2025-0142, Sarah Chen, Leave Start, 06/15/2025, Continuous",
+        "ts": "1750067100.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "LEAVE PAYROLL NOTIFICATION: LC-2025-0142, Sarah Chen, Return from Leave, 06/29/2025, Continuous",
+        "ts": "1751187600.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "LEAVE PAYROLL NOTIFICATION: LC-2025-0275, Aisha Robinson, HFWA Sick Leave, 08/18/2025 \u2013 08/19/2025, Continuous",
+        "ts": "1755508500.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "LEAVE PAYROLL NOTIFICATION: LC-2025-0410, Tom\u00e1s Guerrero, Leave Start, 10/06/2025, Continuous, FMLA + FAMLI concurrent",
+        "ts": "1759829400.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "LEAVE PAYROLL NOTIFICATION: LC-2025-0410, Tom\u00e1s Guerrero, Return from Leave, 10/31/2025, Continuous",
+        "ts": "1761901200.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "LEAVE PAYROLL NOTIFICATION: LC-2026-0101, Darnell Washington, Leave Start, 01/12/2026, Continuous, FMLA + FAMLI concurrent",
+        "ts": "1768300200.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "LEAVE PAYROLL NOTIFICATION: LC-2026-0101, Darnell Washington, Return from Leave, 03/06/2026, Continuous",
+        "ts": "1772787600.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "LEAVE PAYROLL NOTIFICATION: LC-2026-0203, James Nkomo, Intermittent Absence, 02/19/2026, Intermittent, 8 hours",
+        "ts": "1771495200.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "LEAVE PAYROLL NOTIFICATION: LC-2026-0287, Hannah Lindqvist, Leave Start, 03/16/2026, Continuous, FMLA + FAMLI concurrent",
+        "ts": "1773738000.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "LEAVE PAYROLL NOTIFICATION: LC-2026-0305, Kevin O'Malley, Bereavement Leave, 03/28/2026 \u2013 03/30/2026, Continuous",
+        "ts": "1774688400.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "LEAVE PAYROLL NOTIFICATION: LC-2026-0305, Kevin O'Malley, Return from Leave, 03/30/2026, Continuous",
+        "ts": "1774947600.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "LEAVE PAYROLL NOTIFICATION: LC-2026-0320, Marcus DeLuca, Jury Duty Start, 04/06/2026, Continuous",
+        "ts": "1775145600.000100",
+        "team": "T001"
+      }
+    ],
+    "C005": [],
+    "C006": []
+  },
+  "counters": {
+    "messageId": 1000000
+  }
+}

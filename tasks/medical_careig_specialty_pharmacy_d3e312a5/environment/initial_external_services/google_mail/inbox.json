@@ -1,0 +1,614 @@
+{
+  "mailbox": {
+    "email": "intake@careig.com",
+    "name": "CareIG Intake"
+  },
+  "contacts": [
+    {
+      "email": "p.nair@careig.com",
+      "name": "Priya Nair"
+    },
+    {
+      "email": "d.okafor@careig.com",
+      "name": "Daniel Okafor"
+    },
+    {
+      "email": "t.rodriguez@careig.com",
+      "name": "Teresa Rodriguez"
+    },
+    {
+      "email": "m.webb@careig.com",
+      "name": "Marcus Webb"
+    },
+    {
+      "email": "d.flores@careig.com",
+      "name": "Diana Flores"
+    },
+    {
+      "email": "r.nguyen@careig.com",
+      "name": "Robert Nguyen"
+    },
+    {
+      "email": "a.torres@careig.com",
+      "name": "Angela Torres"
+    },
+    {
+      "email": "k.patel@careig.com",
+      "name": "Kevin Patel"
+    },
+    {
+      "email": "c.madden@careig.com",
+      "name": "Chris Madden"
+    },
+    {
+      "email": "s.liu@careig.com",
+      "name": "Stephanie Liu"
+    },
+    {
+      "email": "s.mitchell@careig.com",
+      "name": "Sarah Mitchell"
+    },
+    {
+      "email": "d.chen@careig.com",
+      "name": "David Chen"
+    },
+    {
+      "email": "m.rodriguez@careig.com",
+      "name": "Maria Rodriguez"
+    },
+    {
+      "email": "j.wilson@careig.com",
+      "name": "James Wilson"
+    },
+    {
+      "email": "a.thompson@careig.com",
+      "name": "Angela Thompson"
+    },
+    {
+      "email": "r.garcia@careig.com",
+      "name": "Robert Garcia"
+    },
+    {
+      "email": "l.park@careig.com",
+      "name": "Linda Park"
+    },
+    {
+      "email": "m.brooks@careig.com",
+      "name": "Michael Brooks"
+    },
+    {
+      "email": "pa@careig.com",
+      "name": "CareIG Prior Auth"
+    },
+    {
+      "email": "billing@careig.com",
+      "name": "CareIG Billing"
+    },
+    {
+      "email": "j.harrington@miamineurology.com",
+      "name": "Dr. James T. Harrington"
+    },
+    {
+      "email": "m.vasquez1971@gmail.com",
+      "name": "Maria Elena Vasquez"
+    },
+    {
+      "email": "l.brennan@orthocarefl.com",
+      "name": "Dr. Lisa Brennan"
+    },
+    {
+      "email": "m.santos@suncoastneuro.com",
+      "name": "Dr. Michael Santos"
+    },
+    {
+      "email": "r.cho@palmbeachimmunology.com",
+      "name": "Dr. Rebecca Cho"
+    },
+    {
+      "email": "a.whitfield@miamiallergy.com",
+      "name": "Dr. Alan Whitfield"
+    },
+    {
+      "email": "p.okonkwo@browardneuro.com",
+      "name": "Dr. Patricia Okonkwo"
+    },
+    {
+      "email": "b.thompson85@yahoo.com",
+      "name": "Brian Thompson"
+    },
+    {
+      "email": "h.chen92@outlook.com",
+      "name": "Helen Chen"
+    },
+    {
+      "email": "r.williams58@aol.com",
+      "name": "Robert Williams"
+    },
+    {
+      "email": "s.martinez90@gmail.com",
+      "name": "Sofia Martinez"
+    },
+    {
+      "email": "d.reeves75@gmail.com",
+      "name": "Derek Reeves"
+    },
+    {
+      "email": "pa@aetna.com",
+      "name": "Aetna Prior Authorization"
+    },
+    {
+      "email": "pa@uhc.com",
+      "name": "UHC Prior Authorization"
+    },
+    {
+      "email": "pa@bcbs.com",
+      "name": "BCBS Prior Authorization"
+    },
+    {
+      "email": "pa@humana.com",
+      "name": "Humana Prior Authorization"
+    },
+    {
+      "email": "pa@cigna.com",
+      "name": "Cigna Prior Authorization"
+    },
+    {
+      "email": "offers@medsupply-deals.net",
+      "name": "MedSupply Deals"
+    }
+  ],
+  "groups": [
+    {
+      "email": "intake-team@careig.com",
+      "name": "Intake Team",
+      "members": [
+        "intake@careig.com",
+        "p.nair@careig.com",
+        "d.okafor@careig.com",
+        "t.rodriguez@careig.com",
+        "m.webb@careig.com"
+      ]
+    }
+  ],
+  "folders": [
+    {
+      "name": "Spam"
+    }
+  ],
+  "emails": [
+    {
+      "email_id": "1",
+      "folder": "INBOX",
+      "subject": "Referral -- Brian Thompson | IVIG Home Infusion",
+      "from_addr": "l.brennan@orthocarefl.com",
+      "to_addr": "intake@careig.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-02-11T15:30:00-05:00",
+      "message_id": "<msg0001@orthocarefl.com>",
+      "in_reply_to": null,
+      "body_text": "Dear CareIG Intake Team,\n\nI am referring my patient Brian Thompson (DOB: 06/22/1985) for home IVIG infusion therapy. Mr. Thompson has been diagnosed with Guillain-Barr\u00e9 Syndrome, ICD-10 G61.0, and requires Gamunex-C 10%, 40g every 4 weeks.\n\nHis insurance is UnitedHealthcare HMO. Member ID: UHC-2026-TH6221. Group: GRP44810.\n\nPlease find the attached referral packet including the letter of medical necessity, recent nerve conduction study, and progress note.\n\nBest regards,\nLisa Brennan, MD\nOrthoCare Florida\nTel: (954) 555-3100",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "Thompson_referral_packet.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "VGhvbXBzb25fcmVmZXJyYWxfcGFja2V0X3BkZl9jb250ZW50VGhvbXBzb25fcmVmZXJyYWxfcGFja2V0X3BkZl9jb250ZW50VGhvbXBzb25fcmVmZXJyYWxfcGFja2V0X3BkZl9jb250ZW50VGhvbXBzb25fcmVmZXJyYWxfcGFja2V0X3BkZl9jb250ZW50VGhvbXBzb25fcmVmZXJyYWxfcGFja2V0X3BkZl9jb250ZW50VGhvbXBzb25fcmVmZXJyYWxfcGFja2V0X3BkZl9jb250ZW50VGhvbXBzb25fcmVmZXJyYWxfcGFja2V0X3BkZl9jb250ZW50VGhvbXBzb25fcmVmZXJyYWxfcGFja2V0X3BkZl9jb24="
+        }
+      ]
+    },
+    {
+      "email_id": "2",
+      "folder": "INBOX",
+      "subject": "[PA REQUEST] CareIG | Thompson | MemberID: UHC-2026-TH6221 | Drug: Gamunex-C 10% | Dose: 40g | Dx: G61.0",
+      "from_addr": "pa@careig.com",
+      "to_addr": "pa@uhc.com",
+      "cc_addr": "d.okafor@careig.com, intake@careig.com",
+      "bcc_addr": null,
+      "date": "2026-02-19T12:30:00-05:00",
+      "message_id": "<msg0002@careig.com>",
+      "in_reply_to": null,
+      "body_text": "Dear UnitedHealthcare Prior Authorization Department,\n\nPlease find attached the prior authorization request for the following patient:\n\nPatient: Brian Thompson\nDOB: 06/22/1985\nMember ID: UHC-2026-TH6221\nGroup: GRP44810\nDrug: Gamunex-C 10% (HCPCS: J1561)\nDose: 40g every 4 weeks\nDiagnosis: G61.0 -- Guillain-Barr\u00e9 Syndrome\n\nAttached documents: PA request form, letter of medical necessity, nerve conduction study, progress note.\n\nConfirmation Ref: UHC-PACONF-20260219-44812\n\nThank you,\nDaniel Okafor\nBenefits Verification Specialist\nCareIG Specialty Pharmacy\nTel: (305) 555-0121",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "pa_form_UHC.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "cGFfZm9ybV9VSENfcGRmcGFfZm9ybV9VSENfcGRmcGFfZm9ybV9VSENfcGRmcGFfZm9ybV9VSENfcGRmcGFfZm9ybV9VSENfcGRmcGFfZm9ybV9VSENfcGRmcGFfZm9ybV9VSENfcGRmcGFfZm9ybV9VSENfcGRmcGFfZm9ybV9VSENfcGRmcGFfZm9ybV9VSENfcGRmcGFfZm9ybV8="
+        },
+        {
+          "filename": "lmn_Brennan.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "bG1uX0JyZW5uYW5fcGRmbG1uX0JyZW5uYW5fcGRmbG1uX0JyZW5uYW5fcGRmbG1uX0JyZW5uYW5fcGRmbG1uX0JyZW5uYW5fcGRmbG1uX0JyZW5uYW5f"
+        },
+        {
+          "filename": "Thompson_clinical_docs.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "VGhvbXBzb25fY2xpbmljYWxfZG9jc19wZGZUaG9tcHNvbl9jbGluaWNhbF9kb2NzX3BkZlRob21wc29uX2NsaW5pY2FsX2RvY3NfcGRmVGhvbXBzb25fY2xpbmljYWxfZG9jc19wZGZUaG9tcHNvbl9jbGluaWNhbF9kb2NzX3BkZlRob21wc29uX2NsaW5pY2FsX2RvY3NfcGRmVGhvbXBzb25fY2xpbmljYWxfZG9jc19wZGZUaG9tcHNvbl9jbGluaWNhbF9kb2NzX3BkZlRob21wc29uX2NsaW5pY2FsX2RvY3Nf"
+        }
+      ]
+    },
+    {
+      "email_id": "3",
+      "folder": "INBOX",
+      "subject": "Referral -- Helen Chen | IVIG Home Infusion",
+      "from_addr": "m.santos@suncoastneuro.com",
+      "to_addr": "intake@careig.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-02-23T10:15:00-05:00",
+      "message_id": "<msg0003@suncoastneuro.com>",
+      "in_reply_to": null,
+      "body_text": "To CareIG Intake,\n\nPlease accept this referral for Helen Chen (DOB: 11/05/1992) for home IVIG infusion. Ms. Chen has been diagnosed with Nonfamilial hypogammaglobulinemia, ICD-10 D80.1, and I am prescribing Octagam 10%, 30g every 4 weeks.\n\nInsurance: BlueCross BlueShield PPO. Member ID: BCBS-3392-CH1105. Group: GRP71924.\n\nAttached are the LMN, recent EMG report, and last progress note.\n\nRegards,\nMichael Santos, MD\nSunCoast Neurology\nTel: (305) 555-2740",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "Chen_referral_packet.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "Q2hlbl9yZWZlcnJhbF9wYWNrZXRfcGRmX2NvbnRlbnRDaGVuX3JlZmVycmFsX3BhY2tldF9wZGZfY29udGVudENoZW5fcmVmZXJyYWxfcGFja2V0X3BkZl9jb250ZW50Q2hlbl9yZWZlcnJhbF9wYWNrZXRfcGRmX2NvbnRlbnRDaGVuX3JlZmVycmFsX3BhY2tldF9wZGZfY29udGVudENoZW5fcmVmZXJyYWxfcGFja2V0X3BkZl9jb250ZW50Q2hlbl9yZWZlcnJhbF9wYWNrZXRfcGRmX2NvbnRlbnRDaGVuX3JlZmVycmFsX3BhY2tldF9wZGZfY29udGVudENoZW5fcmVmZXJyYWxfcGFja2V0X3BkZl9jb250ZW50Q2hlbl9yZWZlcnJhbF9wYWNrZXRfcGRm"
+        }
+      ]
+    },
+    {
+      "email_id": "4",
+      "folder": "INBOX",
+      "subject": "Referral -- Robert Williams | SubQ Ig Home Infusion",
+      "from_addr": "r.cho@palmbeachimmunology.com",
+      "to_addr": "intake@careig.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-02T09:00:00-05:00",
+      "message_id": "<msg0004@palmbeachimmunology.com>",
+      "in_reply_to": null,
+      "body_text": "Hello,\n\nI would like to refer Robert Williams (DOB: 03/14/1958) for home subcutaneous immunoglobulin therapy. Mr. Williams has a diagnosis of Specific Antibody Deficiency (D80.6) and I am prescribing Hizentra 20%, 10g weekly.\n\nHis primary insurance is Aetna PPO. Member ID: AET-5519-WI0314. Group: GRP28450.\n\nReferral documents are attached.\n\nThank you,\nRebecca Cho, MD\nPalm Beach Immunology\nTel: (561) 555-8290",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "Williams_referral_packet.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "V2lsbGlhbXNfcmVmZXJyYWxfcGFja2V0X3BkZldpbGxpYW1zX3JlZmVycmFsX3BhY2tldF9wZGZXaWxsaWFtc19yZWZlcnJhbF9wYWNrZXRfcGRmV2lsbGlhbXNfcmVmZXJyYWxfcGFja2V0X3BkZldpbGxpYW1zX3JlZmVycmFsX3BhY2tldF9wZGZXaWxsaWFtc19yZWZlcnJhbF9wYWNrZXRfcGRmV2lsbGlhbXNfcmVmZXJyYWxfcGFja2V0X3BkZldp"
+        }
+      ]
+    },
+    {
+      "email_id": "5",
+      "folder": "INBOX",
+      "subject": "[PA REQUEST] CareIG | Chen | MemberID: BCBS-3392-CH1105 | Drug: Octagam 10% | Dose: 30g | Dx: D80.1",
+      "from_addr": "pa@careig.com",
+      "to_addr": "pa@bcbs.com",
+      "cc_addr": "intake@careig.com",
+      "bcc_addr": null,
+      "date": "2026-03-05T14:15:00-05:00",
+      "message_id": "<msg0005@careig.com>",
+      "in_reply_to": null,
+      "body_text": "Dear BlueCross BlueShield Prior Authorization Department,\n\nPlease find attached the prior authorization request for the following patient:\n\nPatient: Helen Chen\nDOB: 11/05/1992\nMember ID: BCBS-3392-CH1105\nGroup: GRP71924\nDrug: Octagam 10% (HCPCS: J1560)\nDose: 30g every 4 weeks\nDiagnosis: D80.1 -- Nonfamilial hypogammaglobulinemia\n\nAttached documents: PA request form, letter of medical necessity, recent EMG, progress note.\n\nConfirmation Ref: BCBS-PACONF-20260305-51927\n\nThank you,\nPriya Nair\nBenefits Verification Specialist (Lead)\nCareIG Specialty Pharmacy\nTel: (305) 555-0120",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "pa_form_Cigna.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "cGFfZm9ybV9DaWduYV9wZGZwYV9mb3JtX0NpZ25hX3BkZnBhX2Zvcm1fQ2lnbmFfcGRmcGFfZm9ybV9DaWduYV9wZGZwYV9mb3JtX0NpZ25hX3BkZnBhX2Zvcm1fQ2lnbmFfcGRmcGFfZm9ybV9DaWduYV9wZGZwYV9mb3JtX0NpZ25hX3BkZnBhX2Zvcm1fQ2lnbmFfcGRmcGFf"
+        },
+        {
+          "filename": "lmn_Santos.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "bG1uX1NhbnRvc19wZGZsbW5fU2FudG9zX3BkZmxtbl9TYW50b3NfcGRmbG1uX1NhbnRvc19wZGZsbW5fU2FudG9zX3BkZmxtbl9TYW50b3NfcGRmbG1uX1M="
+        },
+        {
+          "filename": "Chen_clinical_docs.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "Q2hlbl9jbGluaWNhbF9kb2NzX3BkZkNoZW5fY2xpbmljYWxfZG9jc19wZGZDaGVuX2NsaW5pY2FsX2RvY3NfcGRmQ2hlbl9jbGluaWNhbF9kb2NzX3BkZkNoZW5fY2xpbmljYWxfZG9jc19wZGZDaGVuX2NsaW5pY2FsX2RvY3NfcGRmQ2hlbl9jbGluaWNhbF9kb2NzX3BkZkNoZW5fY2xpbmljYWxfZG9jc19wZGZDaGVuX2NsaW5pY2FsX2RvY3NfcGRmQ2hlbl9jbGluaWNhbF9kb2NzX3BkZkNoZW5fY2xpbmljYWxfZG9jc19wZGZDaGU="
+        }
+      ]
+    },
+    {
+      "email_id": "6",
+      "folder": "INBOX",
+      "subject": "[PA REQUEST] CareIG | Williams | MemberID: AET-5519-WI0314 | Drug: Hizentra 20% | Dose: 10g | Dx: D80.6",
+      "from_addr": "pa@careig.com",
+      "to_addr": "pa@aetna.com",
+      "cc_addr": "d.okafor@careig.com, intake@careig.com",
+      "bcc_addr": null,
+      "date": "2026-03-12T14:00:00-04:00",
+      "message_id": "<msg0006@careig.com>",
+      "in_reply_to": null,
+      "body_text": "Dear Aetna Prior Authorization Department,\n\nPlease find attached the prior authorization request for the following patient:\n\nPatient: Robert Williams\nDOB: 03/14/1958\nMember ID: AET-5519-WI0314\nGroup: GRP28450\nDrug: Hizentra 20% (HCPCS: J1559)\nDose: 10g weekly\nDiagnosis: D80.6 -- Specific Antibody Deficiency\n\nAttached documents: PA request form, letter of medical necessity, immunoglobulin levels, progress note.\n\nConfirmation Ref: AET-PACONF-20260312-29047\n\nThank you,\nDaniel Okafor\nBenefits Verification Specialist\nCareIG Specialty Pharmacy\nTel: (305) 555-0121",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "pa_form_Aetna_Williams.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "cGFfZm9ybV9BZXRuYV9XaWxsaWFtc19wZGZwYV9mb3JtX0FldG5hX1dpbGxpYW1zX3BkZnBhX2Zvcm1fQWV0bmFfV2lsbGlhbXNfcGRmcGFfZm9ybV9BZXRuYV9XaWxsaWFtc19wZGZwYV9mb3JtX0FldG5hX1dpbGxpYW1zX3BkZnBhX2Zvcm1fQWV0bmFfV2lsbGlhbXNfcGRmcGFfZm9y"
+        },
+        {
+          "filename": "lmn_Cho.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "bG1uX0Nob19wZGZsbW5fQ2hvX3BkZmxtbl9DaG9fcGRmbG1uX0Nob19wZGZsbW5fQ2hvX3BkZmxtbl9DaG9fcGRmbG1uX0Nob19wZGZsbW5fQ2hvX3BkZmxtbg=="
+        },
+        {
+          "filename": "Williams_clinical_docs.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "V2lsbGlhbXNfY2xpbmljYWxfZG9jc19wZGZXaWxsaWFtc19jbGluaWNhbF9kb2NzX3BkZldpbGxpYW1zX2NsaW5pY2FsX2RvY3NfcGRmV2lsbGlhbXNfY2xpbmljYWxfZG9jc19wZGZXaWxsaWFtc19jbGluaWNhbF9kb2NzX3BkZldpbGxpYW1zX2NsaW5pY2FsX2RvY3NfcGRmV2lsbGlhbXNfY2xpbmljYWxfZG9jc19wZGZXaWxsaWFtc19jbGluaWNhbF9kb2NzX3BkZldp"
+        }
+      ]
+    },
+    {
+      "email_id": "7",
+      "folder": "INBOX",
+      "subject": "Referral -- Sofia Martinez | IVIG Home Infusion",
+      "from_addr": "a.whitfield@miamiallergy.com",
+      "to_addr": "intake@careig.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-15T11:00:00-04:00",
+      "message_id": "<msg0007@miamiallergy.com>",
+      "in_reply_to": null,
+      "body_text": "Dear CareIG Intake,\n\nI am referring Sofia Martinez (DOB: 08/28/1990) for home IVIG infusion therapy. She has been diagnosed with Common Variable Immunodeficiency (CVID), ICD-10 D83.9, and I am prescribing Privigen 10%, 40g every 4 weeks.\n\nInsurance: BlueCross BlueShield PPO. Member ID: BCBS-7741-MA0828. Group: GRP59012.\n\nPlease note that Ms. Martinez has indicated she may need financial assistance. Her copay estimate is significant and she has requested information about patient assistance programs.\n\nReferral packet attached.\n\nSincerely,\nAlan Whitfield, MD\nMiami Allergy & Immunology\nTel: (305) 555-6140",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "Martinez_referral_packet.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "TWFydGluZXpfcmVmZXJyYWxfcGFja2V0X3BkZk1hcnRpbmV6X3JlZmVycmFsX3BhY2tldF9wZGZNYXJ0aW5lel9yZWZlcnJhbF9wYWNrZXRfcGRmTWFydGluZXpfcmVmZXJyYWxfcGFja2V0X3BkZk1hcnRpbmV6X3JlZmVycmFsX3BhY2tldF9wZGZNYXJ0aW5lel9yZWZlcnJhbF9wYWNrZXRfcGRmTWFydGluZXpfcmVmZXJyYWxfcGFja2V0X3BkZk1hcnRpbmV6X3JlZmVycmFsX3BhY2tldF9wZGZNYXJ0aW5lel9yZWZlcnJhbF9wYWNrZXRfcGRmTWFydGluZXpfcmVmZXJyYWxfcGFja2V0"
+        }
+      ]
+    },
+    {
+      "email_id": "8",
+      "folder": "INBOX",
+      "subject": "RE: [PA REQUEST] CareIG | Williams | MemberID: AET-5519-WI0314 | Drug: Hizentra 20% | Dose: 10g | Dx: D80.6",
+      "from_addr": "pa@aetna.com",
+      "to_addr": "pa@careig.com",
+      "cc_addr": "d.okafor@careig.com, intake@careig.com",
+      "bcc_addr": null,
+      "date": "2026-03-20T10:45:00-04:00",
+      "message_id": "<msg0008@aetna.com>",
+      "in_reply_to": "<msg0006@careig.com>",
+      "body_text": "Dear CareIG Specialty Pharmacy,\n\nThis letter is to inform you that the prior authorization request for the member identified below has been DENIED.\n\nMember: Robert Williams\nMember ID: AET-5519-WI0314\nPA Reference: AET-PACONF-20260312-29047\nDrug Requested: Hizentra 20%\nDenial Reason: Insufficient clinical documentation; prior IVIG trial history not provided (CARC: PI-204)\n\nYou may submit a Level 1 appeal within 30 calendar days of this notification. Please include additional clinical documentation supporting the medical necessity of the requested therapy.\n\nAetna Prior Authorization Department",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "Aetna_PA_Denial_Williams.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "QWV0bmFfUEFfRGVuaWFsX1dpbGxpYW1zX3BkZkFldG5hX1BBX0RlbmlhbF9XaWxsaWFtc19wZGZBZXRuYV9QQV9EZQ=="
+        }
+      ]
+    },
+    {
+      "email_id": "9",
+      "folder": "INBOX",
+      "subject": "[PA REQUEST] CareIG | Martinez | MemberID: BCBS-7741-MA0828 | Drug: Privigen 10% | Dose: 40g | Dx: D83.9",
+      "from_addr": "pa@careig.com",
+      "to_addr": "pa@bcbs.com",
+      "cc_addr": "intake@careig.com",
+      "bcc_addr": null,
+      "date": "2026-03-25T10:15:00-04:00",
+      "message_id": "<msg0009@careig.com>",
+      "in_reply_to": null,
+      "body_text": "Dear BlueCross BlueShield Prior Authorization Department,\n\nPlease find attached the prior authorization request for the following patient:\n\nPatient: Sofia Martinez\nDOB: 08/28/1990\nMember ID: BCBS-7741-MA0828\nGroup: GRP59012\nDrug: Privigen 10% (HCPCS: J1459)\nDose: 40g every 4 weeks\nDiagnosis: D83.9 -- Common Variable Immunodeficiency\n\nAttached documents: PA request form, letter of medical necessity, IgG levels, progress note.\n\nConfirmation Ref: BCBS-PACONF-20260325-63018\n\nThank you,\nPriya Nair\nBenefits Verification Specialist (Lead)\nCareIG Specialty Pharmacy\nTel: (305) 555-0120",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "pa_form_BCBS.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "cGFfZm9ybV9CQ0JTX3BkZnBhX2Zvcm1fQkNCU19wZGZwYV9mb3JtX0JDQlNfcGRmcGFfZm9ybV9CQ0JTX3BkZnBhX2Zvcm1fQkNCU19wZGZwYV9mb3JtX0JDQlNfcGRmcGFfZm9ybV9CQ0JTX3BkZnBhX2Zvcm1fQkNCU19wZGZwYV9mb3JtX0JDQlNfcGRmcGFfZm9ybV9CQ0JTX3BkZnA="
+        },
+        {
+          "filename": "lmn_Whitfield.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "bG1uX1doaXRmaWVsZF9wZGZsbW5fV2hpdGZpZWxkX3BkZmxtbl9XaGl0ZmllbGRfcGRmbG1uX1doaXRmaWVsZF9wZGZsbW5fV2hpdGZpZWxkX3BkZmxtbl9XaGk="
+        },
+        {
+          "filename": "Martinez_clinical_docs.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "TWFydGluZXpfY2xpbmljYWxfZG9jc19wZGZNYXJ0aW5lel9jbGluaWNhbF9kb2NzX3BkZk1hcnRpbmV6X2NsaW5pY2FsX2RvY3NfcGRmTWFydGluZXpfY2xpbmljYWxfZG9jc19wZGZNYXJ0aW5lel9jbGluaWNhbF9kb2NzX3BkZk1hcnRpbmV6X2NsaW5pY2FsX2RvY3NfcGRmTWFydGluZXpfY2xpbmljYWxfZG9jc19wZGZNYXJ0aW5lel9jbGluaWNhbF9kb2NzX3BkZk1hcnRpbmV6X2NsaW5pY2FsX2RvY3NfcGRmTWFydGluZXpfY2xpbmljYWxfZG9jc19w"
+        }
+      ]
+    },
+    {
+      "email_id": "11",
+      "folder": "INBOX",
+      "subject": "Referral -- Derek Reeves | IVIG Home Infusion",
+      "from_addr": "p.okonkwo@browardneuro.com",
+      "to_addr": "intake@careig.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-29T14:00:00-04:00",
+      "message_id": "<msg0011@browardneuro.com>",
+      "in_reply_to": null,
+      "body_text": "Hello CareIG,\n\nI would like to refer Derek Reeves (DOB: 12/03/1975) for home IVIG infusion. Mr. Reeves carries a diagnosis of Myasthenia Gravis (G70.00) and I am prescribing Gammagard Liquid 10%, 25g every 4 weeks as maintenance therapy.\n\nInsurance: Humana Medicare Advantage. Member ID: HUM-8834-RE1203. Group: GRP62107.\n\nReferral documents attached.\n\nThank you,\nPatricia Okonkwo, MD\nBroward Neurology Associates\nTel: (954) 555-4310",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "Reeves_referral_packet.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "UmVldmVzX3JlZmVycmFsX3BhY2tldF9wZGZSZWV2ZXNfcmVmZXJyYWxfcGFja2V0X3BkZlJlZXZlc19yZWZlcnJhbF9wYWNrZXRfcGRmUmVldmVzX3JlZmVycmFsX3BhY2tldF9wZGZSZWV2ZXNfcmVmZXJyYWxfcGFja2V0X3BkZlJlZXZlc19yZWZlcnJhbF9wYWNrZXRfcGRmUmVldmVzX3JlZmVycmFsX3BhY2tldF9wZGZSZWV2ZXNfcmVmZXJyYWxfcGFja2V0X3BkZlJlZXZlc19yZWZlcnJhbF9wYWNrZXRfcGRmUmVldmVzXw=="
+        }
+      ]
+    },
+    {
+      "email_id": "12",
+      "folder": "Sent",
+      "subject": "CareIG -- Consent Form Required | Vasquez",
+      "from_addr": "intake@careig.com",
+      "to_addr": "m.vasquez1971@gmail.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-31T14:20:00-04:00",
+      "message_id": "<msg0012@careig.com>",
+      "in_reply_to": null,
+      "body_text": "Dear Ms. Vasquez,\n\nThank you for speaking with us today. As discussed, CareIG Specialty Pharmacy will be coordinating your home IVIG infusion therapy as prescribed by Dr. Harrington.\n\nBefore we can proceed with your benefits verification and prior authorization, we need your signed consent form on file. Please find the consent form attached to this email.\n\nYou may complete the form by:\n1. Printing, signing, and scanning/photographing the document, then replying to this email with the signed copy attached.\n2. Using the e-signature link included in the attached PDF.\n\nIf you have any questions, please do not hesitate to call us at (305) 555-0122 or reply to this email.\n\nWarm regards,\nTeresa Rodriguez\nPatient Representative\nCareIG Specialty Pharmacy\nTel: (305) 555-0122",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "CareIG_Consent_Form_Vasquez.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "Q2FyZUlHX0NvbnNlbnRfRm9ybV9WYXNxdWV6X3BkZkNhcmVJR19Db25zZW50X0Zvcm1fVmFzcXVlel9wZGZDYXJlSUdfQ29uc2VudF9Gb3JtX1Zhc3F1ZXpfcGRmQ2FyZUlHX0NvbnNlbnRfRm9ybQ=="
+        }
+      ]
+    },
+    {
+      "email_id": "13",
+      "folder": "INBOX",
+      "subject": "Re: CareIG -- Consent Form Required | Vasquez",
+      "from_addr": "m.vasquez1971@gmail.com",
+      "to_addr": "intake@careig.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-01T08:12:00-04:00",
+      "message_id": "<msg0013@gmail.com>",
+      "in_reply_to": "<msg0012@careig.com>",
+      "body_text": "Good morning,\n\nPlease find the signed consent form attached. I signed and scanned it this morning.\n\nThank you for your help. Please let me know if you need anything else.\n\nMaria Vasquez",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "CareIG_Consent_Form_Vasquez_SIGNED.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "Q2FyZUlHX0NvbnNlbnRfRm9ybV9WYXNxdWV6X1NJR05FRF9wZGZDYXJlSUdfQ29uc2VudF9Gb3JtX1Zhc3F1ZXpfU0lHTkVEX3BkZkNhcmVJR19Db25zZW50X0Zvcm1fVmFzcXVlel9TSUdORURfcGRmQ2FyZUlHX0NvbnNlbnRfRm9ybV9WYXNxdWV6X1NJR05FRA=="
+        }
+      ]
+    },
+    {
+      "email_id": "14",
+      "folder": "Sent",
+      "subject": "CareIG -- Formulary Exception Letter Needed | Vasquez, Maria Elena | Aetna PPO",
+      "from_addr": "intake@careig.com",
+      "to_addr": "j.harrington@miamineurology.com",
+      "cc_addr": "p.nair@careig.com",
+      "bcc_addr": null,
+      "date": "2026-04-03T14:05:00-04:00",
+      "message_id": "<msg0014@careig.com>",
+      "in_reply_to": null,
+      "body_text": "Dear Dr. Harrington,\n\nI am writing regarding your patient Maria Elena Vasquez (DOB: 03/15/1971, Member ID: AET847392018).\n\nDuring our benefits verification, we identified that Privigen is not on the Aetna PPO formulary. The formulary-preferred IVIG products for this plan are: Gammaplex, Octagam, Gammagard S/D, Gammagard Liquid, Gamunex-C, Hizentra, and HyQvia.\n\nIn order to proceed with the prior authorization for Privigen, we will need a formulary exception letter from your office. The letter should include:\n\n1. Clinical rationale for why the patient specifically requires Privigen over the formulary alternatives\n2. Documentation of any prior trials and failures of formulary-covered products\n3. Any clinical contraindications to the formulary alternatives\n\nMs. Vasquez's referral notes indicate previous trials of Gamunex-C and Octagam with documented adverse effects. A letter referencing these details would strengthen the exception request.\n\nIf you could provide this letter at your earliest convenience, we can include it with the PA submission package. Please reply to this email or fax to (305) 555-0199.\n\nThank you for your prompt attention to this matter.\n\nBest regards,\nPriya Nair\nBenefits Verification Specialist (Lead)\nCareIG Specialty Pharmacy\nTel: (305) 555-0120\nFax: (305) 555-0199",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "15",
+      "folder": "INBOX",
+      "subject": "Re: CareIG -- Formulary Exception Letter Needed | Vasquez, Maria Elena | Aetna PPO",
+      "from_addr": "j.harrington@miamineurology.com",
+      "to_addr": "intake@careig.com",
+      "cc_addr": "p.nair@careig.com",
+      "bcc_addr": null,
+      "date": "2026-04-07T09:18:00-04:00",
+      "message_id": "<msg0015@miamineurology.com>",
+      "in_reply_to": "<msg0014@careig.com>",
+      "body_text": "Priya,\n\nThank you for bringing this to my attention. I have prepared the formulary exception letter documenting Ms. Vasquez's prior treatment history with Gamunex-C and Octagam and the clinical rationale for Privigen.\n\nThe signed letter is attached. Please let me know if any revisions are needed or if there is additional documentation I can provide to support the PA.\n\nBest,\nJames T. Harrington, MD",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "formulary_exception.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "Zm9ybXVsYXJ5X2V4Y2VwdGlvbl9WYXNxdWV6X0hhcnJpbmd0b25fc2lnbmVkZm9ybXVsYXJ5X2V4Y2VwdGlvbl9WYXNxdWV6X0hhcnJpbmd0b25fc2lnbmVkZm9ybXVsYXJ5X2V4Y2VwdGlvbl9WYXNxdWV6X0hhcnJpbmd0b25fc2lnbmVkZm9ybXVsYQ=="
+        }
+      ]
+    },
+    {
+      "email_id": "16",
+      "folder": "INBOX",
+      "subject": "[PA REQUEST] CareIG | Vasquez | MemberID: AET847392018 | Drug: Privigen 10% | Dose: 35g | Dx: D83.9",
+      "from_addr": "pa@careig.com",
+      "to_addr": "pa@aetna.com",
+      "cc_addr": "d.flores@careig.com, intake@careig.com",
+      "bcc_addr": null,
+      "date": "2026-04-07T14:15:00-04:00",
+      "message_id": "<msg0016@careig.com>",
+      "in_reply_to": null,
+      "body_text": "Dear Aetna Prior Authorization Department,\n\nPlease find attached the prior authorization request for the following patient:\n\nPatient: Maria Elena Vasquez\nDOB: 03/15/1971\nMember ID: AET847392018\nGroup: GRP29341\nDrug: Privigen 10% (HCPCS: J1459, 70 units)\nDose: 35g every 4 weeks\nDiagnosis: D83.9 -- Common Variable Immunodeficiency\nRequesting Provider: James T. Harrington, MD (NPI: 1073541867)\nServicing Provider: CareIG Specialty Pharmacy\n\nNote: Privigen is not on the current Aetna PPO formulary. A formulary exception letter from the prescribing physician is included documenting prior trials and failures of Gamunex-C and Octagam with clinical rationale for Privigen.\n\nAttached documents:\n1. PA Request Form (pa_form_Aetna.pdf)\n2. Letter of Medical Necessity (lmn_Harrington.pdf)\n3. Formulary Exception Letter (formulary_exception.pdf)\n4. Most Recent IgG Levels (igglevel_02142026.pdf)\n5. Progress Note (progress_note_03182026.pdf)\n\nConfirmation Ref: AET-PACONF-20260407-77291\n\nThank you,\nPriya Nair\nBenefits Verification Specialist (Lead)\nCareIG Specialty Pharmacy\nTel: (305) 555-0120\nFax: (305) 555-0199",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "pa_form_Aetna.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "cGFfZm9ybV9BZXRuYV9WYXNxdWV6X3BkZnBhX2Zvcm1fQWV0bmFfVmFzcXVlel9wZGZwYV9mb3JtX0FldG5hX1Zhc3F1ZXpfcGRmcGFfZm9ybV9BZXRuYV9WYXNxdWV6X3BkZnBhX2Zvcm1fQWV0bmFfVmFzcXVlel9wZGZwYV9mb3JtX0FldG5hX1Zhc3F1ZXpfcGRmcGFfZm9ybV9BZXRuYV9WYXNx"
+        },
+        {
+          "filename": "lmn_Harrington.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "bG1uX0hhcnJpbmd0b25fcGRmX2NvbnRlbnRsbW5fSGFycmluZ3Rvbl9wZGZfY29udGVudGxtbl9IYXJyaW5ndG9uX3BkZl9jb250ZW50bG1uX0hhcnJpbmd0b25fcGRmX2NvbnRlbnRsbW5fSGFycmluZ3Rvbl9wZGZfY29udGVudGxtbl8="
+        },
+        {
+          "filename": "formulary_exception.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "Zm9ybXVsYXJ5X2V4Y2VwdGlvbl9WYXNxdWV6X0hhcnJpbmd0b25fc2lnbmVkZm9ybXVsYXJ5X2V4Y2VwdGlvbl9WYXNxdWV6X0hhcnJpbmd0b25fc2lnbmVkZm9ybXVsYXJ5X2V4Y2VwdGlvbl9WYXNxdWV6X0hhcnJpbmd0b25fc2lnbmVkZm9ybXVsYQ=="
+        },
+        {
+          "filename": "igglevel_02142026.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "aWdnbGV2ZWxfMDIxNDIwMjZfcGRmX2NvbnRlbnRpZ2dsZXZlbF8wMjE0MjAyNl9wZGZfY29udGVudGlnZ2xldmVsXzAyMTQyMDI2X3BkZl9jb250ZW50aWdnbGV2ZWxfMDI="
+        },
+        {
+          "filename": "progress_note_03182026.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "cHJvZ3Jlc3Nfbm90ZV8wMzE4MjAyNl9wZGZfY29udGVudHByb2dyZXNzX25vdGVfMDMxODIwMjZfcGRmX2NvbnRlbnRwcm9ncmVzc19ub3RlXzAzMTgyMDI2X3BkZl9jb250ZW50cHJvZ3Jlc3Nfbm90ZV8wMzE4MjAyNl9wZGZfY29udGVudHByb2dyZXNzX25vdGVfMDMxODIwMjZfcGRmX2NvbnRlbnRwcm9ncmVzc19ub3RlXzAzMQ=="
+        }
+      ]
+    },
+    {
+      "email_id": "17",
+      "folder": "INBOX",
+      "subject": "Re: Referral -- Derek Reeves | IVIG Home Infusion",
+      "from_addr": "p.okonkwo@browardneuro.com",
+      "to_addr": "intake@careig.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-07T08:45:00-04:00",
+      "message_id": "<msg0017@browardneuro.com>",
+      "in_reply_to": "<msg0011@browardneuro.com>",
+      "body_text": "Good morning,\n\nI wanted to follow up on the referral I sent last week for Derek Reeves. Mr. Reeves called my office yesterday asking about the timeline for starting his home infusions. Could you provide an update on where things stand with his benefits verification?\n\nThank you,\nPatricia Okonkwo, MD",
+      "body_html": null,
+      "is_read": false,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "18",
+      "folder": "Spam",
+      "subject": "EXCLUSIVE: 40% Off Premium Infusion Supplies -- Limited Time!",
+      "from_addr": "offers@medsupply-deals.net",
+      "to_addr": "intake@careig.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-03T06:12:00-04:00",
+      "message_id": "<msg0018@medsupply-deals.net>",
+      "in_reply_to": null,
+      "body_text": "Dear Healthcare Professional,\n\nYou've been selected for an EXCLUSIVE discount on premium infusion pump accessories, IV tubing sets, and nursing supplies!\n\n40% OFF all orders over $500 -- use code MEDPRO40 at checkout!\n\nShop now at www.medsupply-deals.net before this offer expires!\n\nUnsubscribe: reply STOP",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    }
+  ],
+  "next_email_id": 19
+}

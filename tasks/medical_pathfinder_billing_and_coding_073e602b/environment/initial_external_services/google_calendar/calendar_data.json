@@ -1,0 +1,123 @@
+{
+  "events": {
+    "evt-1": {
+      "id": "evt-1",
+      "summary": "New Year's Day",
+      "start": {
+        "date": "2026-01-01"
+      },
+      "end": {
+        "date": "2026-01-02"
+      },
+      "description": "Public Holiday"
+    },
+    "evt-2": {
+      "id": "evt-2",
+      "summary": "Martin Luther King Jr Day",
+      "start": {
+        "date": "2026-01-19"
+      },
+      "end": {
+        "date": "2026-01-20"
+      },
+      "description": "Public Holiday"
+    },
+    "evt-3": {
+      "id": "evt-3",
+      "summary": "Washington's Birthday",
+      "start": {
+        "date": "2026-02-16"
+      },
+      "end": {
+        "date": "2026-02-17"
+      },
+      "description": "Public Holiday"
+    },
+    "evt-4": {
+      "id": "evt-4",
+      "summary": "Billing Specs Huddle",
+      "start": {
+        "dateTime": "2026-02-11T10:00:00-06:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-02-11T11:00:00-06:00",
+        "timeZone": "America/Chicago"
+      }
+    },
+    "evt-5": {
+      "id": "evt-5",
+      "summary": "835 - B8475Q posting due Feb 17",
+      "start": {
+        "dateTime": "2026-02-17T16:00:00-06:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-02-17T17:00:00-06:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Posting deadline"
+    },
+    "evt-6": {
+      "id": "evt-6",
+      "summary": "RA Huddle",
+      "start": {
+        "dateTime": "2026-02-17T14:00:00-06:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-02-17T15:00:00-06:00",
+        "timeZone": "America/Chicago"
+      }
+    },
+    "evt-7": {
+      "id": "evt-7",
+      "summary": "835 - A4789P posting due Feb 19",
+      "start": {
+        "dateTime": "2026-02-19T16:00:00-06:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-02-19T17:00:00-06:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Posting deadline"
+    },
+    "evt-8": {
+      "id": "evt-8",
+      "summary": "YELLOW - HOH-7199789 - TFL: Apr 25, 2026",
+      "start": {
+        "dateTime": "2026-02-24T09:00:00-06:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-02-24T10:00:00-06:00",
+        "timeZone": "America/Chicago"
+      }
+    },
+    "evt-9": {
+      "id": "evt-9",
+      "summary": "ORANGE - HOH-7199789 - TFL: Apr 25, 2026",
+      "start": {
+        "dateTime": "2026-03-26T09:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-03-26T10:00:00-05:00",
+        "timeZone": "America/Chicago"
+      }
+    },
+    "evt-10": {
+      "id": "evt-10",
+      "summary": "RED - HOH-7199789 - TFL: Apr 25, 2026",
+      "start": {
+        "dateTime": "2026-04-10T09:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-10T10:00:00-05:00",
+        "timeZone": "America/Chicago"
+      }
+    }
+  }
+}

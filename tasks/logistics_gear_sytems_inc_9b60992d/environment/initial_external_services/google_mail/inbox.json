@@ -1,0 +1,592 @@
+{
+  "mailbox": {
+    "email": "receiving.meridian@gearsystems.com",
+    "name": "Jordan V\u00e1squez"
+  },
+  "contacts": [
+    {
+      "email": "darnell.hooks@gearsystems.com",
+      "name": "Darnell Hooks"
+    },
+    {
+      "email": "elizabeth.velasquez@gearsystems.com",
+      "name": "Elizabeth Velasquez"
+    },
+    {
+      "email": "walter.finch@gearsystems.com",
+      "name": "Walter Finch"
+    },
+    {
+      "email": "theo.brandt@gearsystems.com",
+      "name": "Theo Brandt"
+    },
+    {
+      "email": "joonho.park@gearsystems.com",
+      "name": "Joon-ho Park"
+    },
+    {
+      "email": "maribel.ortiz@gearsystems.com",
+      "name": "Maribel Ortiz"
+    },
+    {
+      "email": "curtis.yablonski@gearsystems.com",
+      "name": "Curtis Yablonski"
+    },
+    {
+      "email": "aditi.krishnamurthy@gearsystems.com",
+      "name": "Aditi Krishnamurthy"
+    },
+    {
+      "email": "marcus.tran@alloydirect.com",
+      "name": "Marcus Tran (Alloy Direct Supply)"
+    },
+    {
+      "email": "greta.lindqvist@alloydirect.com",
+      "name": "Greta Lindqvist (Alloy Direct Supply)"
+    },
+    {
+      "email": "sandra.yee@coastalfasteners.com",
+      "name": "Sandra Yee (Coastal Fasteners LLC)"
+    },
+    {
+      "email": "jerome.baptiste@coastalfasteners.com",
+      "name": "Jerome Baptiste (Coastal Fasteners LLC)"
+    },
+    {
+      "email": "hannah.reyes@precisiongear.com",
+      "name": "Hannah Reyes (Precision Gear Works)"
+    },
+    {
+      "email": "dmitri.volkov@precisiongear.com",
+      "name": "Dmitri Volkov (Precision Gear Works)"
+    },
+    {
+      "email": "frank.dimaggio@chemlube.com",
+      "name": "Frank DiMaggio (ChemLube Industrial)"
+    },
+    {
+      "email": "tamara.osei@chemlube.com",
+      "name": "Tamara Osei (ChemLube Industrial)"
+    },
+    {
+      "email": "kevin.simmons@midsouthfab.com",
+      "name": "Kevin Simmons (MidSouth Fabricators)"
+    },
+    {
+      "email": "brenda.okafor@midsouthfab.com",
+      "name": "Brenda Okafor (MidSouth Fabricators)"
+    },
+    {
+      "email": "tony.espinoza@ridgelinecomponents.com",
+      "name": "Tony Espinoza (Ridgeline Components)"
+    },
+    {
+      "email": "carol.whitman@ridgelinecomponents.com",
+      "name": "Carol Whitman (Ridgeline Components)"
+    },
+    {
+      "email": "claims@yellowfreight.com",
+      "name": "Yellow Freight Claims"
+    },
+    {
+      "email": "claims@rlcarriers.com",
+      "name": "R&L Carriers Claims"
+    },
+    {
+      "email": "d.kowalski@rlcarriers.com",
+      "name": "Dan Kowalski (R&L Carriers)"
+    },
+    {
+      "email": "claims@xpologistics.com",
+      "name": "XPO Logistics Claims"
+    },
+    {
+      "email": "r.fontaine@xpo.com",
+      "name": "Rita Fontaine (XPO Logistics)"
+    },
+    {
+      "email": "t.ellsworth@yellowfreight.com",
+      "name": "Tom Ellsworth (Yellow Freight)"
+    },
+    {
+      "email": "claims@hazmatexpress.com",
+      "name": "Hazmat Express Claims"
+    },
+    {
+      "email": "p.richter@hazmatexpress.com",
+      "name": "Paula Richter (Hazmat Express)"
+    },
+    {
+      "email": "claims@specializedtrans.com",
+      "name": "Specialized Transport Claims"
+    },
+    {
+      "email": "g.omosu@specializedtrans.com",
+      "name": "Greg Omosu (Specialized Transport Co.)"
+    },
+    {
+      "email": "claims@saia.com",
+      "name": "Saia LTL Claims"
+    },
+    {
+      "email": "c.weston@saia.com",
+      "name": "Carla Weston (Saia LTL)"
+    },
+    {
+      "email": "claims@fedex.com",
+      "name": "FedEx Freight Claims"
+    },
+    {
+      "email": "m.webb@fedex.com",
+      "name": "Marcus Webb (FedEx Freight)"
+    },
+    {
+      "email": "luis.fernandez@gearsystems.com",
+      "name": "Luis Fernandez (Boulder Logistics)"
+    },
+    {
+      "email": "sandra.park@gearsystems.com",
+      "name": "Sandra Park (Boulder Quality)"
+    },
+    {
+      "email": "engineering.boulder@gearsystems.com",
+      "name": "Boulder Engineering Team"
+    },
+    {
+      "email": "reggie.lemoine@gearsystems.com",
+      "name": "Reggie Lemoine"
+    },
+    {
+      "email": "chris.wojciechowski@gearsystems.com",
+      "name": "Chris Wojciechowski"
+    },
+    {
+      "email": "yuki.tanaka@gearsystems.com",
+      "name": "Yuki Tanaka"
+    }
+  ],
+  "groups": [
+    {
+      "email": "receiving-team@gearsystems.com",
+      "name": "Receiving Team",
+      "members": [
+        "receiving.meridian@gearsystems.com",
+        "darnell.hooks@gearsystems.com",
+        "curtis.yablonski@gearsystems.com"
+      ]
+    },
+    {
+      "email": "quality-receiving@gearsystems.com",
+      "name": "Quality & Receiving",
+      "members": [
+        "receiving.meridian@gearsystems.com",
+        "theo.brandt@gearsystems.com",
+        "darnell.hooks@gearsystems.com"
+      ]
+    }
+  ],
+  "folders": [
+    {
+      "name": "Receipts - In Process"
+    },
+    {
+      "name": "NCRs - Open"
+    },
+    {
+      "name": "NCRs - Closed"
+    },
+    {
+      "name": "Suppliers - General"
+    },
+    {
+      "name": "Carriers"
+    },
+    {
+      "name": "Internal"
+    },
+    {
+      "name": "Hazmat"
+    },
+    {
+      "name": "RMA - Redirected"
+    },
+    {
+      "name": "General"
+    }
+  ],
+  "emails": [
+    {
+      "email_id": "1",
+      "folder": "NCRs - Open",
+      "subject": "Nonconformance Report NCR-2026-0028 \u2014 Cosmetic Damage Pattern (DS-Family) \u2014 Alloy Direct Supply",
+      "from_addr": "receiving.meridian@gearsystems.com",
+      "to_addr": "marcus.tran@alloydirect.com",
+      "cc_addr": "joonho.park@gearsystems.com",
+      "bcc_addr": null,
+      "date": "2026-03-26T11:15:00-05:00",
+      "message_id": "<ncr-0028-notice@gearsystems.com>",
+      "in_reply_to": null,
+      "body_text": "Dear Marcus,\n\nPlease find attached Nonconformance Report NCR-2026-0028 issued against Alloy Direct Supply (SUP-0041) for recurring cosmetic damage observed across multiple DS-family drivetrain shaft receipts at our Meridian, MS facility.\n\nNCR Number: NCR-2026-0028\nSeverity: Minor\nIssue: Cosmetic rub damage pattern on DS-family parts across three receipts within 90 days, attributed to inadequate pallet wrapping. Parts released \u2014 cosmetic damage only, no functional impact.\nSupplier Response Required By: 2026-04-16\n\nPlease submit your corrective action response, including root cause analysis and your proposed corrective action plan, to this email address by the due date above.\n\nRegards,\nJordan V\u00e1squez\nInbound Materials Coordinator\nGear Systems Inc. \u2014 Meridian Plant\nreceiving.meridian@gearsystems.com",
+      "is_read": true,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "NCR-2026-0028_Alloy_Direct_Supply.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjQKMSAwIG9iago8PC9UeXBlIC9DYXRhbG9nIC9UaXRsZSAoTkNSLTIwMjYtMDAyOCk+PgplbmRvYmoKJSVFT0Y="
+        }
+      ]
+    },
+    {
+      "email_id": "2",
+      "folder": "NCRs - Open",
+      "subject": "Nonconformance Report NCR-2026-0031 \u2014 Quantity Short Ship (GR-5495) \u2014 Precision Gear Works",
+      "from_addr": "receiving.meridian@gearsystems.com",
+      "to_addr": "hannah.reyes@precisiongear.com",
+      "cc_addr": "joonho.park@gearsystems.com",
+      "bcc_addr": null,
+      "date": "2026-04-01T09:30:00-05:00",
+      "message_id": "<ncr-0031-notice@gearsystems.com>",
+      "in_reply_to": null,
+      "body_text": "Dear Hannah,\n\nPlease find attached Nonconformance Report NCR-2026-0031 issued against Precision Gear Works (SUP-0117) for a quantity short ship against PO MER-PO-8790 received at our Meridian facility on 2026-03-31.\n\nNCR Number: NCR-2026-0031\nSeverity: Major\nPO Number: MER-PO-8790\nSKU: GR-5495 (Ring Gear, 6-bolt pattern)\nQuantity Ordered: 60 EA\nQuantity Received: 51 EA\nShortage: 9 EA\nDollar Value: $1,791.00\nSupplier Response Required By: 2026-04-14\n\nPlease provide your response, including the status of the 9 outstanding units and your corrective action plan, by the date above.\n\nRegards,\nJordan V\u00e1squez\nInbound Materials Coordinator\nGear Systems Inc. \u2014 Meridian Plant\nreceiving.meridian@gearsystems.com",
+      "is_read": true,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "NCR-2026-0031_Precision_Gear_Works.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjQKMSAwIG9iago8PC9UeXBlIC9DYXRhbG9nIC9UaXRsZSAoTkNSLTIwMjYtMDAzMSk+PgplbmRvYmoKJSVFT0Y="
+        }
+      ]
+    },
+    {
+      "email_id": "3",
+      "folder": "NCRs - Open",
+      "subject": "Nonconformance Report NCR-2026-0033 \u2014 Tier 2 Functional Damage (GR-5501) \u2014 Precision Gear Works",
+      "from_addr": "receiving.meridian@gearsystems.com",
+      "to_addr": "hannah.reyes@precisiongear.com",
+      "cc_addr": "joonho.park@gearsystems.com",
+      "bcc_addr": null,
+      "date": "2026-04-10T10:00:00-05:00",
+      "message_id": "<ncr-0033-notice@gearsystems.com>",
+      "in_reply_to": null,
+      "body_text": "Dear Hannah,\n\nPlease find attached Nonconformance Report NCR-2026-0033 issued against Precision Gear Works (SUP-0117) for Tier 2 functional damage discovered on receipt of GR-5501 (Ring Gear, 7-bolt pattern) against PO MER-PO-8833, received 2026-04-09.\n\nNCR Number: NCR-2026-0033\nSeverity: Major\nPO Number: MER-PO-8833\nSKU: GR-5501 (Ring Gear, 7-bolt pattern)\nQuantity Received: 60 EA\nFinding: Cracked mounting face on 8 units. All 60 units quarantined pending resolution.\nDollar Value: $14,025.60\nSupplier Response Required By: 2026-04-23\n\nPlease be advised that transit damage is also being investigated. Your response to this NCR is required within the Major NCR window above.\n\nRegards,\nJordan V\u00e1squez\nInbound Materials Coordinator\nGear Systems Inc. \u2014 Meridian Plant\nreceiving.meridian@gearsystems.com",
+      "is_read": true,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "NCR-2026-0033_Precision_Gear_Works.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjQKMSAwIG9iago8PC9UeXBlIC9DYXRhbG9nIC9UaXRsZSAoTkNSLTIwMjYtMDAzMyk+PgplbmRvYmoKJSVFT0Y="
+        }
+      ]
+    },
+    {
+      "email_id": "4",
+      "folder": "NCRs - Open",
+      "subject": "Nonconformance Report NCR-2026-0034 \u2014 Missing Documentation (LB-9905) \u2014 ChemLube Industrial",
+      "from_addr": "receiving.meridian@gearsystems.com",
+      "to_addr": "frank.dimaggio@chemlube.com",
+      "cc_addr": "joonho.park@gearsystems.com",
+      "bcc_addr": null,
+      "date": "2026-04-10T13:45:00-05:00",
+      "message_id": "<ncr-0034-notice@gearsystems.com>",
+      "in_reply_to": null,
+      "body_text": "Dear Frank,\n\nPlease find attached Nonconformance Report NCR-2026-0034 issued against ChemLube Industrial (SUP-0203) for missing packing slip and Certificate of Conformance on receipt of LB-9905 (Gear Lubricant Additive) against PO MER-PO-HIST-AX, received 2026-04-10.\n\nNCR Number: NCR-2026-0034\nSeverity: Critical\nPO Number: MER-PO-HIST-AX\nSKU: LB-9905 (Gear Lubricant Additive, std)\nQuantity: 36 DR\nFinding: Packing slip and COC absent on receipt. Material quarantined pending document receipt.\nSupplier Response Required By: 2026-04-15\n\nThis is a Critical NCR. The 3-business-day response window is firm. Please submit the missing packing slip and COC, along with a root cause statement, no later than 2026-04-15.\n\nRegards,\nJordan V\u00e1squez\nInbound Materials Coordinator\nGear Systems Inc. \u2014 Meridian Plant\nreceiving.meridian@gearsystems.com",
+      "is_read": true,
+      "is_important": true,
+      "attachments": [
+        {
+          "filename": "NCR-2026-0034_ChemLube_Industrial.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjQKMSAwIG9iago8PC9UeXBlIC9DYXRhbG9nIC9UaXRsZSAoTkNSLTIwMjYtMDAzNCk+PgplbmRvYmoKJSVFT0Y="
+        }
+      ]
+    },
+    {
+      "email_id": "5",
+      "folder": "Suppliers - General",
+      "subject": "Documentation Request \u2014 Packing Slip Discrepancy \u2014 PO MER-PO-HIST-06 / REC-20260409-006",
+      "from_addr": "receiving.meridian@gearsystems.com",
+      "to_addr": "hannah.reyes@precisiongear.com",
+      "cc_addr": "joonho.park@gearsystems.com",
+      "bcc_addr": null,
+      "date": "2026-04-09T15:00:00-05:00",
+      "message_id": "<doc-req-0409-006@gearsystems.com>",
+      "in_reply_to": null,
+      "body_text": "Dear Hannah,\n\nWe received a shipment of GR-5505 (Ring Gear, 8-bolt pattern) today at our Meridian facility against an open PO. We identified a discrepancy in the packing slip documentation and require a corrected or supplemental packing slip within 5 business days per our receiving procedures.\n\nReceipt Reference: REC-20260409-006\nSKU: GR-5505\nQuantity Received: 120 EA\nIssue: Packing slip discrepancy \u2014 details do not fully match our PO record.\nDocumentation Required By: 2026-04-16\n\nPlease send the corrected packing slip to this email address. If we do not receive it by the date above, a formal NCR will be issued.\n\nRegards,\nJordan V\u00e1squez\nInbound Materials Coordinator\nGear Systems Inc. \u2014 Meridian Plant\nreceiving.meridian@gearsystems.com",
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "6",
+      "folder": "Carriers",
+      "subject": "Freight Damage Claim \u2014 BOL Reference \u2014 GR-5501 / Meridian Plant Receipt 2026-04-09",
+      "from_addr": "receiving.meridian@gearsystems.com",
+      "to_addr": "claims@yellowfreight.com",
+      "cc_addr": "darnell.hooks@gearsystems.com",
+      "bcc_addr": null,
+      "date": "2026-04-14T13:00:00-05:00",
+      "message_id": "<claim-yf-88214@gearsystems.com>",
+      "in_reply_to": null,
+      "body_text": "To Yellow Freight Claims Department,\n\nGear Systems Inc. (Meridian, MS) is filing a freight damage claim for a shipment received on 2026-04-09 at our Meridian receiving dock.\n\nClaim Reference: YF-CLM-88214\nCarrier: Yellow Freight\nSupplier: Precision Gear Works (SUP-0117)\nReceipt: REC-20260409-005\nSKU: GR-5501 (Ring Gear, 7-bolt pattern)\nQuantity Affected: 8 of 60 units \u2014 cracked mounting face, consistent with transit impact\nTotal Value of Damaged Units: $1,696.00 (8 \u00d7 $212.00)\n\nAll 60 units are currently quarantined at our facility pending resolution. Please confirm receipt of this claim and advise on next steps.\n\nRegards,\nJordan V\u00e1squez\nInbound Materials Coordinator\nGear Systems Inc. \u2014 Meridian Plant\nreceiving.meridian@gearsystems.com",
+      "is_read": true,
+      "is_important": true,
+      "attachments": []
+    },
+    {
+      "email_id": "7",
+      "folder": "Internal",
+      "subject": "Today's Priorities \u2014 April 14",
+      "from_addr": "darnell.hooks@gearsystems.com",
+      "to_addr": "receiving.meridian@gearsystems.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-13T16:30:00-05:00",
+      "message_id": "<priority-0414@gearsystems.com>",
+      "in_reply_to": null,
+      "body_text": "Jordan,\n\nHeads up for tomorrow before you start your shift. A few things on my radar:\n\n1. Three appointments on the dock schedule \u2014 review them before you post the morning summary.\n\n2. The Q1 audit closes tomorrow. Theo may reach out to you for any remaining records.\n\n3. Joon-ho has been tracking the NCR-2026-0031 situation with Precision Gear Works.\n\n4. Keep an eye on the GR-5501 receipt from last week \u2014 there are some open items tied to it.\n\nGood shift.\n\nDarnell Hooks\nReceiving Supervisor\nGear Systems Inc. \u2014 Meridian Plant",
+      "is_read": true,
+      "is_important": true,
+      "attachments": []
+    },
+    {
+      "email_id": "8",
+      "folder": "Internal",
+      "subject": "Q1 Audit \u2014 Records Request: REC-20260318-004 and REC-20260225-009",
+      "from_addr": "theo.brandt@gearsystems.com",
+      "to_addr": "receiving.meridian@gearsystems.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-14T06:05:00-05:00",
+      "message_id": "<audit-q1-req-001@gearsystems.com>",
+      "in_reply_to": null,
+      "body_text": "Jordan,\n\nAs part of the Q1 audit closing today, I need the following two records retrieved and sent to audit.meridian@gearsystems.com:\n\n1. REC-20260318-004 \u2014 COC file path confirmation\n2. REC-20260225-009 \u2014 NCR closure timestamp verification\n\nSubject line format: AUDIT RESPONSE: REC-[ID]\n\nIf you notice any discrepancies while pulling the records, note them in the email body and do not modify the row until after I close the audit.\n\nThanks,\nTheo Brandt\nQuality Manager\nGear Systems Inc. \u2014 Meridian Plant",
+      "is_read": true,
+      "is_important": true,
+      "attachments": []
+    },
+    {
+      "email_id": "9",
+      "folder": "Internal",
+      "subject": "AUDIT RESPONSE: REC-20260318-004",
+      "from_addr": "receiving.meridian@gearsystems.com",
+      "to_addr": "theo.brandt@gearsystems.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-14T06:40:00-05:00",
+      "message_id": "<audit-resp-0318-004@gearsystems.com>",
+      "in_reply_to": "<audit-q1-req-001@gearsystems.com>",
+      "body_text": "Theo,\n\nAUDIT RESPONSE: REC-20260318-004\n\nCOC file path confirmed: packing_slips\\2026\\03\\REC-20260318-004_COC.pdf\nNo discrepancies identified on this record.\n\nJordan V\u00e1squez\nInbound Materials Coordinator\nGear Systems Inc. \u2014 Meridian Plant",
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "10",
+      "folder": "Internal",
+      "subject": "AUDIT RESPONSE: REC-20260225-009",
+      "from_addr": "receiving.meridian@gearsystems.com",
+      "to_addr": "theo.brandt@gearsystems.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-14T06:42:00-05:00",
+      "message_id": "<audit-resp-0225-009@gearsystems.com>",
+      "in_reply_to": "<audit-q1-req-001@gearsystems.com>",
+      "body_text": "Theo,\n\nAUDIT RESPONSE: REC-20260225-009\n\nNCR closure timestamp: the receiving_log.xlsx row for REC-20260225-009 shows closure date of 2026-03-05. However, the NCR correspondence email chain for NCR-2026-HIST-09 shows the closure was confirmed on 2026-03-04.\n\nI have not modified the row. Flagging this discrepancy for your audit record per procedure.\n\nJordan V\u00e1squez\nInbound Materials Coordinator\nGear Systems Inc. \u2014 Meridian Plant",
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "11",
+      "folder": "Suppliers - General",
+      "subject": "FYI \u2014 ChemLube MER-PO-8830 Confirmed for Tomorrow (Apr 15)",
+      "from_addr": "joonho.park@gearsystems.com",
+      "to_addr": "receiving.meridian@gearsystems.com",
+      "cc_addr": "darnell.hooks@gearsystems.com",
+      "bcc_addr": null,
+      "date": "2026-04-13T14:00:00-05:00",
+      "message_id": "<chemlube-appt-confirm@gearsystems.com>",
+      "in_reply_to": null,
+      "body_text": "Jordan,\n\nChemLube has confirmed delivery of MER-PO-8830 (LB-9910 EP-220 lubricant, 24 drums) for tomorrow, April 15, via Hazmat Express. APPT-20260415-001 is on the dock schedule.\n\nNote that NCR-2026-0034 is currently open against ChemLube for a separate receipt. The two shipments are independent \u2014 MER-PO-8830 may proceed on its own merits if documentation is in order on arrival.\n\nJoon-ho Park\nProcurement Lead \u2014 Meridian\nGear Systems Inc.",
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "12",
+      "folder": "Suppliers - General",
+      "subject": "Delivery Confirmation \u2014 MER-PO-8860 \u2014 April 16",
+      "from_addr": "brenda.okafor@midsouthfab.com",
+      "to_addr": "receiving.meridian@gearsystems.com",
+      "cc_addr": "joonho.park@gearsystems.com",
+      "bcc_addr": null,
+      "date": "2026-04-11T10:30:00-05:00",
+      "message_id": "<midsouth-delivery-8860@midsouthfab.com>",
+      "in_reply_to": null,
+      "body_text": "Hi Jordan,\n\nConfirming that our shipment for MER-PO-8860 (FA-0220, Fabricated Housing Assembly, Large, qty 3) will arrive on April 16 via Specialized Transport Co. The truck will require a lift gate and extended dock access given the flatbed configuration.\n\nOur driver will have the packing slip and BOL. Please let us know if you need anything from us ahead of delivery.\n\nBest regards,\nBrenda Okafor\nCommercial Contact\nMidSouth Fabricators",
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "13",
+      "folder": "Suppliers - General",
+      "subject": "Mill Test Report \u2014 DS-7735 \u2014 REC-20260401-007 \u2014 Gear Systems Meridian",
+      "from_addr": "marcus.tran@alloydirect.com",
+      "to_addr": "receiving.meridian@gearsystems.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-09T08:20:00-05:00",
+      "message_id": "<mtr-ds7735-alloy@alloydirect.com>",
+      "in_reply_to": null,
+      "body_text": "Hi Jordan,\n\nApologies for the delay \u2014 attached is the Mill Test Report for DS-7735 (Drivetrain Shaft 7735) corresponding to heat number H-2026-0419, delivered to your facility on 2026-04-01 under PO MER-PO-HIST-03.\n\nPlease let us know if this resolves the documentation hold on that receipt.\n\nBest regards,\nMarcus Tran\nQuality Contact\nAlloy Direct Supply",
+      "is_read": true,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "MTR_DS-7735_H-2026-0419.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjQKMSAwIG9iago8PC9UeXBlIC9DYXRhbG9nIC9UaXRsZSAoTVRSIERTLTc3MzUgSC0yMDI2LTA0MTkpPj4KZW5kb2JqCiUlRU9G"
+        }
+      ]
+    },
+    {
+      "email_id": "14",
+      "folder": "Suppliers - General",
+      "subject": "Re: Mill Test Report \u2014 DS-7735 \u2014 REC-20260401-007 \u2014 Gear Systems Meridian",
+      "from_addr": "receiving.meridian@gearsystems.com",
+      "to_addr": "marcus.tran@alloydirect.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-09T11:00:00-05:00",
+      "message_id": "<mtr-ds7735-ack@gearsystems.com>",
+      "in_reply_to": "<mtr-ds7735-alloy@alloydirect.com>",
+      "body_text": "Marcus,\n\nThank you \u2014 MTR received and logged against REC-20260401-007 / heat H-2026-0419. The material remains in quarantine pending our Quality Manager's re-inspection and release authorization. We will update you once the hold is cleared.\n\nJordan V\u00e1squez\nInbound Materials Coordinator\nGear Systems Inc. \u2014 Meridian Plant",
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "15",
+      "folder": "Internal",
+      "subject": "NCR-2026-0031 \u2014 Precision Gear Works \u2014 Escalation Follow-Up",
+      "from_addr": "joonho.park@gearsystems.com",
+      "to_addr": "receiving.meridian@gearsystems.com",
+      "cc_addr": "elizabeth.velasquez@gearsystems.com",
+      "bcc_addr": null,
+      "date": "2026-04-14T13:05:00-05:00",
+      "message_id": "<ncr0031-escalation@gearsystems.com>",
+      "in_reply_to": null,
+      "body_text": "Jordan,\n\nAs of this afternoon, Precision Gear Works has not responded to NCR-2026-0031. The 10-business-day Major response window expired today.\n\nI've escalated this to Elizabeth and have posted in #escalations-meridian. Please ensure the NCR log reflects the missed response window and that your end-of-shift handoff notes this item.\n\nI will be reaching out to Dmitri Volkov (commercial) directly.\n\nJoon-ho Park\nProcurement Lead \u2014 Meridian\nGear Systems Inc.",
+      "is_read": false,
+      "is_important": true,
+      "attachments": []
+    },
+    {
+      "email_id": "16",
+      "folder": "Suppliers - General",
+      "subject": "Documentation Request \u2014 Missing MTR \u2014 DS-7735 \u2014 REC-20260401-007",
+      "from_addr": "receiving.meridian@gearsystems.com",
+      "to_addr": "marcus.tran@alloydirect.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-01T10:30:00-05:00",
+      "message_id": "<doc-req-mtr-ds7735@gearsystems.com>",
+      "in_reply_to": null,
+      "body_text": "Marcus,\n\nWe received a shipment of DS-7735 (Drivetrain Shaft 7735) today at our Meridian facility (REC-20260401-007, PO MER-PO-HIST-03, 96 EA). The COC was present, however the Mill Test Report was not included with the shipment.\n\nAs DS-7735 is a safety-critical part, the MTR is required documentation. The material has been placed in quarantine pending receipt of this document. Please provide the MTR for heat number H-2026-0419 within 5 business days.\n\nJordan V\u00e1squez\nInbound Materials Coordinator\nGear Systems Inc. \u2014 Meridian Plant",
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "17",
+      "folder": "Suppliers - General",
+      "subject": "Upcoming Delivery \u2014 MER-PO-8880 \u2014 April 21",
+      "from_addr": "tony.espinoza@ridgelinecomponents.com",
+      "to_addr": "receiving.meridian@gearsystems.com",
+      "cc_addr": "joonho.park@gearsystems.com",
+      "bcc_addr": null,
+      "date": "2026-04-10T09:00:00-05:00",
+      "message_id": "<ridgeline-delivery-8880@ridgelinecomponents.com>",
+      "in_reply_to": null,
+      "body_text": "Hi Jordan,\n\nWe're writing to confirm delivery of MER-PO-8880 (BR-4405, Brake Cam Assembly RH, qty 80) scheduled for April 21 via Saia LTL.\n\nWe understand our account is on Probationary status and we are committed to meeting all enhanced inspection requirements on arrival. Our driver will have the COC and all required documentation on board.\n\nPlease let us know if there is anything specific you need from us ahead of the delivery.\n\nBest regards,\nTony Espinoza\nQuality Contact\nRidgeline Components",
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "18",
+      "folder": "NCRs - Open",
+      "subject": "Re: Nonconformance Report NCR-2026-0028 \u2014 Corrective Action Response",
+      "from_addr": "marcus.tran@alloydirect.com",
+      "to_addr": "receiving.meridian@gearsystems.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-14T11:50:00-05:00",
+      "message_id": "<ncr-0028-response@alloydirect.com>",
+      "in_reply_to": "<ncr-0028-notice@gearsystems.com>",
+      "body_text": "Dear Jordan,\n\nThank you for bringing NCR-2026-0028 to our attention. We have completed our internal root cause investigation and are pleased to submit our corrective action response.\n\nRoot Cause: Our palletizing station was using a non-specification wrap gauge for outbound DS-family parts, resulting in insufficient layers on the outer face of each pallet.\n\nCorrective Action:\n- Immediate: All DS-family outbound pallets are now wrapped to a minimum of 6 full   circumferential passes at 50% overlap per our updated SWI-PKG-007.\n- Verification: We will photograph the completed wrap on the first three post-corrective   shipments to your facility and include the photos with the packing slip.\n\nPlease find our formal corrective action report attached.\n\nBest regards,\nMarcus Tran\nQuality Contact\nAlloy Direct Supply",
+      "is_read": false,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "CAR_NCR-2026-0028_Alloy_Direct.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjQKMSAwIG9iago8PC9UeXBlIC9DYXRhbG9nIC9UaXRsZSAoQ0FSIE5DUi0yMDI2LTAwMjgpPj4KZW5kb2JqCiUlRU9G"
+        }
+      ]
+    },
+    {
+      "email_id": "19",
+      "folder": "Internal",
+      "subject": "Q1 Audit Closed \u2014 Receiving Operations \u2014 Meridian",
+      "from_addr": "theo.brandt@gearsystems.com",
+      "to_addr": "receiving.meridian@gearsystems.com",
+      "cc_addr": "darnell.hooks@gearsystems.com,elizabeth.velasquez@gearsystems.com",
+      "bcc_addr": null,
+      "date": "2026-04-14T13:30:00-05:00",
+      "message_id": "<q1-audit-closed@gearsystems.com>",
+      "in_reply_to": null,
+      "body_text": "Jordan and Darnell,\n\nThe Q1 internal audit of Meridian receiving operations is now closed.\n\nSample: 22 receipts reviewed (January\u2013March 2026).\n\nFindings:\n- 1 minor discrepancy: NCR closure timestamp on REC-20260225-009 (log shows 03-05,   email chain shows 03-04). Cross-shift correction per \u00a713.6 will follow.\n- 2 self-reported timing breaches \u2014 both handled correctly.\n- All safety-critical receipts had COC, MTR, and heat number on file.\n- No missing NCRs identified.\n- No unauthorized quarantine releases.\n\nOverall: Receiving operations are SOP-compliant. Full report going to Elizabeth and Walter by end of week.\n\nTheo Brandt\nQuality Manager\nGear Systems Inc. \u2014 Meridian Plant",
+      "is_read": false,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "20",
+      "folder": "Internal",
+      "subject": "Direct-to-Line Authorization \u2014 MER-PO-8870 \u2014 DS-7742 \u2014 April 20",
+      "from_addr": "aditi.krishnamurthy@gearsystems.com",
+      "to_addr": "receiving.meridian@gearsystems.com",
+      "cc_addr": "darnell.hooks@gearsystems.com",
+      "bcc_addr": null,
+      "date": "2026-04-13T15:45:00-05:00",
+      "message_id": "<dtl-auth-8870@gearsystems.com>",
+      "in_reply_to": null,
+      "body_text": "Hi Jordan,\n\nThis email serves as advance written authorization for the direct-to-line delivery of DS-7742 (Drivetrain Shaft 7742, 28mm, qty 96) under MER-PO-8870, scheduled for delivery on April 20 via FedEx Freight.\n\nLine 4 will be in a changeover window from approximately 07:30 on that morning. Please deliver directly to the Line 4 staging rack \u2014 do not route through main receiving storage.\n\nI will also confirm authorization on Slack when the truck arrives, as required.\n\nAditi Krishnamurthy\nProduction Planning Lead\nGear Systems Inc. \u2014 Meridian Plant",
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "21",
+      "folder": "Internal",
+      "subject": "NCR-2026-0031 \u2014 Precision Gear Works \u2014 Awareness",
+      "from_addr": "elizabeth.velasquez@gearsystems.com",
+      "to_addr": "receiving.meridian@gearsystems.com",
+      "cc_addr": "darnell.hooks@gearsystems.com",
+      "bcc_addr": null,
+      "date": "2026-04-14T13:20:00-05:00",
+      "message_id": "<evelasquez-ncr0031-loop@gearsystems.com>",
+      "in_reply_to": null,
+      "body_text": "Jordan,\n\nI've been looped in by Joon-ho on NCR-2026-0031 (Precision Gear Works, GR-5495 short ship). The response window has now closed with no supplier response.\n\nPlease ensure the NCR log reflects this status accurately. Joon-ho is handling the supplier outreach. No action needed from you beyond keeping the log current and noting it in your end-of-shift handoff.\n\nElizabeth Velasquez\nPlant Logistics Manager\nGear Systems Inc. \u2014 Meridian Plant",
+      "is_read": false,
+      "is_important": false,
+      "attachments": []
+    }
+  ],
+  "next_email_id": 22
+}

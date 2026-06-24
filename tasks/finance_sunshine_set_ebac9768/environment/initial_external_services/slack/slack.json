@@ -1,0 +1,328 @@
+{
+  "users": {
+    "U001": {
+      "id": "U001",
+      "team_id": "T001",
+      "name": "elena.brooks",
+      "deleted": false,
+      "profile": {
+        "real_name": "Elena Brooks",
+        "display_name": "elena.brooks",
+        "email": "elena.brooks@sunshineauto.com"
+      },
+      "is_admin": true,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U002": {
+      "id": "U002",
+      "team_id": "T001",
+      "name": "marcus.hale",
+      "deleted": false,
+      "profile": {
+        "real_name": "Marcus Hale",
+        "display_name": "marcus.hale",
+        "email": "marcus.hale@sunshineauto.com"
+      },
+      "is_admin": true,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U003": {
+      "id": "U003",
+      "team_id": "T001",
+      "name": "priya.bennett",
+      "deleted": false,
+      "profile": {
+        "real_name": "Priya Bennett",
+        "display_name": "priya.bennett",
+        "email": "priya.bennett@sunshineauto.com"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U004": {
+      "id": "U004",
+      "team_id": "T001",
+      "name": "renee.lawson",
+      "deleted": false,
+      "profile": {
+        "real_name": "Renee Lawson",
+        "display_name": "renee.lawson",
+        "email": "renee.lawson@sunshineauto.com"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U005": {
+      "id": "U005",
+      "team_id": "T001",
+      "name": "darius.kim",
+      "deleted": false,
+      "profile": {
+        "real_name": "Darius Kim",
+        "display_name": "darius.kim",
+        "email": "darius.kim@sunshineauto.com"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U006": {
+      "id": "U006",
+      "team_id": "T001",
+      "name": "noah.alvarez",
+      "deleted": false,
+      "profile": {
+        "real_name": "Noah Alvarez",
+        "display_name": "noah.alvarez",
+        "email": "noah.alvarez@sunshineauto.com"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U007": {
+      "id": "U007",
+      "team_id": "T001",
+      "name": "jasmine.patel",
+      "deleted": false,
+      "profile": {
+        "real_name": "Jasmine Patel",
+        "display_name": "jasmine.patel",
+        "email": "jasmine.patel@sunshineauto.com"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U008": {
+      "id": "U008",
+      "team_id": "T001",
+      "name": "acct.clerk",
+      "deleted": false,
+      "profile": {
+        "real_name": "Accounting Clerk",
+        "display_name": "acct.clerk",
+        "email": "acct.clerk@sunshineauto.com"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U009": {
+      "id": "U009",
+      "team_id": "T001",
+      "name": "rodolfo.santos",
+      "deleted": false,
+      "profile": {
+        "real_name": "Rodolfo Santos",
+        "display_name": "rodolfo.santos",
+        "email": "rodolfo.santos@sunshineauto.com"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    }
+  },
+  "channels": {
+    "C001": {
+      "id": "C001",
+      "name": "acct-floorplan",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1609459200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "acct-floorplan",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1609459200,
+      "creator": "U002",
+      "shared_team_ids": ["T001"],
+      "is_member": true
+    },
+    "C002": {
+      "id": "C002",
+      "name": "acct-contracts-funding",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1609459200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "acct-contracts-funding",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1609459200,
+      "creator": "U002",
+      "shared_team_ids": ["T001"],
+      "is_member": true
+    },
+    "C003": {
+      "id": "C003",
+      "name": "acct-cash-desk",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1609459200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "acct-cash-desk",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1609459200,
+      "creator": "U002",
+      "shared_team_ids": ["T001"],
+      "is_member": true
+    },
+    "C004": {
+      "id": "C004",
+      "name": "acct-chargebacks",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1609459200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "acct-chargebacks",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1609459200,
+      "creator": "U002",
+      "shared_team_ids": ["T001"],
+      "is_member": true
+    },
+    "C005": {
+      "id": "C005",
+      "name": "leadership-escalations",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1609459200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "leadership-escalations",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1609459200,
+      "creator": "U001",
+      "shared_team_ids": ["T001"],
+      "is_member": true
+    }
+  },
+  "messages": {
+    "C001": [
+      {
+        "type": "message",
+        "user": "U005",
+        "text": "Daily floorplan worksheet is ready for BD 3 reconciliation. Note: We have 3 sold-not-paid units still accruing interest.",
+        "ts": "1713076800.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "I'll be reviewing these when I'm back on Thursday. Any unit over 5 days sold-not-paid needs immediate attention.",
+        "ts": "1713076860.000200",
+        "team": "T001"
+      }
+    ],
+    "C002": [
+      {
+        "type": "message",
+        "user": "U006",
+        "text": "We have 3 contracts still pending funding. Johnson deal (SL-2026-0412) is now 6 days out with Wells Fargo - missing POA and payoff letter.",
+        "ts": "1713077400.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "That contract is over $25K. If it's been pending more than 3 days, escalate to me immediately... wait, I'm out Monday through Wednesday.",
+        "ts": "1713077460.000200",
+        "team": "T001"
+      }
+    ],
+    "C003": [
+      {
+        "type": "message",
+        "user": "U004",
+        "text": "Daily cash log shows a $180 discrepancy on the Johnson deal. I'm investigating. DO NOT close the daily report until resolved.",
+        "ts": "1713078000.000100",
+        "team": "T001"
+      }
+    ],
+    "C004": [
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Effective immediately: All chargebacks over $2,500 require Controller escalation and commission offset verification before processing. Template F must be used. Timeline is 4 hours from receipt.",
+        "ts": "1712990400.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U007",
+        "text": "Got it. I'll update the chargeback tracker template.",
+        "ts": "1712990460.000200",
+        "team": "T001"
+      }
+    ],
+    "C005": [
+      {
+        "type": "message",
+        "user": "U009",
+        "text": "F&I Director - Just a heads up that we have a high-gross deal (SL-2026-0412) with multiple issues: funding delay, payoff variance, and now a chargeback. Customer delivery was yesterday.",
+        "ts": "1713078600.000100",
+        "team": "T001"
+      }
+    ]
+  },
+  "counters": {
+    "messageId": 1000000
+  }
+}

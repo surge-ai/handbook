@@ -1,0 +1,343 @@
+{
+  "mailbox": {
+    "email": "taylor.morgan@vanguardshield.com",
+    "name": "Taylor Morgan"
+  },
+  "contacts": [
+    {
+      "email": "rachel.foster@vanguardshield.com",
+      "name": "Rachel Foster"
+    },
+    {
+      "email": "sarah.jenkins@vanguardshield.com",
+      "name": "Sarah Jenkins"
+    },
+    {
+      "email": "diana.park@vanguardshield.com",
+      "name": "Diana Park"
+    },
+    {
+      "email": "jun.nakamura@vanguardshield.com",
+      "name": "Jun Nakamura"
+    },
+    {
+      "email": "nathan.briggs@vanguardshield.com",
+      "name": "Nathan Briggs"
+    },
+    {
+      "email": "lisa.tran@vanguardshield.com",
+      "name": "Lisa Tran"
+    },
+    {
+      "email": "hrops@vanguardshield.com",
+      "name": "HR Operations"
+    },
+    {
+      "email": "people@vanguardshield.com",
+      "name": "People Directory"
+    },
+    {
+      "email": "support@vanguardshield.com",
+      "name": "Vanguard Shield Support"
+    },
+    {
+      "email": "ap.exceptions@vanguardshield.com",
+      "name": "AP Exceptions"
+    },
+    {
+      "email": "james.hartley@globalofficesupply.com",
+      "name": "James Hartley"
+    },
+    {
+      "email": "sandra.mitchell@premiumlogistics.com",
+      "name": "Sandra Mitchell"
+    },
+    {
+      "email": "accounts@globalofficesupply.com",
+      "name": "Global Office Supply - Accounts"
+    },
+    {
+      "email": "billing@premiumlogistics.com",
+      "name": "Premium Logistics - Billing"
+    },
+    {
+      "email": "mike.reynolds@eastcoastprinting.com",
+      "name": "Mike Reynolds"
+    },
+    {
+      "email": "billing@eastcoastprinting.com",
+      "name": "East Coast Printing - Billing"
+    },
+    {
+      "email": "underwriting.ops@vanguardshield.com",
+      "name": "Underwriting Operations"
+    },
+    {
+      "email": "compliance@vanguardshield.com",
+      "name": "Compliance Department"
+    },
+    {
+      "email": "karen.wu@pinnacleit.com",
+      "name": "Karen Wu"
+    }
+  ],
+  "groups": [
+    {
+      "email": "finance.ops@vanguardshield.com",
+      "name": "Finance Operations",
+      "members": [
+        "taylor.morgan@vanguardshield.com",
+        "rachel.foster@vanguardshield.com"
+      ]
+    }
+  ],
+  "folders": [
+    {
+      "name": "Vendor Inquiries"
+    },
+    {
+      "name": "AP Processing"
+    }
+  ],
+  "emails": [
+    {
+      "email_id": "1",
+      "folder": "INBOX",
+      "subject": "Payment Inquiry - Invoice #7891",
+      "from_addr": "james.hartley@globalofficesupply.com",
+      "to_addr": "taylor.morgan@vanguardshield.com",
+      "cc_addr": "accounts@globalofficesupply.com",
+      "bcc_addr": null,
+      "date": "2026-04-03T10:22:00-04:00",
+      "message_id": "msg-ext-001@globalofficesupply.com",
+      "in_reply_to": null,
+      "body_html": null,
+      "attachments": [],
+      "is_read": false,
+      "is_important": false,
+      "body_text": "Dear Taylor,\n\nI'm escalating this matter regarding Invoice #7891 ($12,450.00, dated March 15, 2026). We have now confirmed with our bank (Wells Fargo, ref WF-2026-88431) that NO incoming ACH credit matching this amount has posted to our account as of today. Our treasury team ran a full reconciliation for the March 20\u2013April 3 window and found nothing.\n\nI have to be direct: we believe this payment was either not sent or was sent to the wrong account. We need Vanguard Shield to either re-issue the payment immediately via wire transfer, or provide us with the full ACH trace details so we can open a formal dispute with our bank. Please do NOT send a standard payment confirmation template \u2014 we need an actual resolution, not a form letter.\n\nIf we don't receive a wire transfer or actionable trace information by end of business Friday, we will need to escalate this to our legal department and place a hold on all pending deliveries to Vanguard Shield.\n\nRegards,\nJames Hartley\nAccounts Receivable Manager\nGlobal Office Supply Inc.\njames.hartley@globalofficesupply.com\n(860) 555-0142"
+    },
+    {
+      "email_id": "2",
+      "folder": "INBOX",
+      "subject": "Urgent: Missing Payment - Invoice #7892",
+      "from_addr": "james.hartley@globalofficesupply.com",
+      "to_addr": "taylor.morgan@vanguardshield.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-03T13:15:00-04:00",
+      "message_id": "msg-ext-002@globalofficesupply.com",
+      "in_reply_to": null,
+      "body_html": null,
+      "attachments": [],
+      "is_read": false,
+      "is_important": true,
+      "body_text": "Dear Taylor,\n\nI am following up regarding Invoice #7892 for $8,750.00, dated March 18, 2026. This was flagged as an emergency order, and we expected payment within the standard 15-day terms.\n\nIt has now been over two weeks and we have not received the funds. Can you please look into this and let us know the payment status?\n\nThank you,\nJames Hartley\nAccounts Receivable Manager\nGlobal Office Supply Inc."
+    },
+    {
+      "email_id": "3",
+      "folder": "INBOX",
+      "subject": "URGENT: Past Due Payment - Invoice #7893",
+      "from_addr": "sandra.mitchell@premiumlogistics.com",
+      "to_addr": "taylor.morgan@vanguardshield.com",
+      "cc_addr": "billing@premiumlogistics.com",
+      "bcc_addr": null,
+      "date": "2026-04-03T14:45:00-04:00",
+      "message_id": "msg-ext-003@premiumlogistics.com",
+      "in_reply_to": null,
+      "body_html": null,
+      "attachments": [],
+      "is_read": true,
+      "is_important": true,
+      "body_text": "Hi Taylor,\n\nThis is my third follow-up on Invoice #7893 for $3,200.00 (March freight services), due March 31. We are now 3 days past due and I still have no update from your team.\n\nI need you to send me the following immediately:\n\n1. The ACH trace number for the payment\n2. The clearing confirmation PDF showing the settlement date\n3. Proof of payment from your bank showing the funds were debited\n\nIf you cannot provide items 1\u20133 above within 24 hours, we will need to file a formal payment dispute and suspend all logistics services for Vanguard Shield effective April 14. Our CFO has already been looped in.\n\nPlease send the payment confirmation and trace details directly to me and cc billing@premiumlogistics.com.\n\nSandra Mitchell\nBilling Coordinator\nPremium Logistics Corp.\nsandra.mitchell@premiumlogistics.com\n(203) 555-0198"
+    },
+    {
+      "email_id": "4",
+      "folder": "INBOX",
+      "subject": "Payment Confirmation Needed - Invoice #7895",
+      "from_addr": "sandra.mitchell@premiumlogistics.com",
+      "to_addr": "taylor.morgan@vanguardshield.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-03T15:30:00-04:00",
+      "message_id": "msg-ext-004@premiumlogistics.com",
+      "in_reply_to": null,
+      "body_html": null,
+      "attachments": [],
+      "is_read": false,
+      "is_important": false,
+      "body_text": "Hi Taylor,\n\nOur accounting team is asking for confirmation on Invoice #7895 ($15,800.00 for Q1 warehousing). Your AP department mentioned the payment was issued, but we haven't seen the funds hit our account yet.\n\nIf available, could you send over the payment confirmation or clearing documentation? That would help us sort this out on our end.\n\nThank you,\nSandra Mitchell\nBilling Coordinator\nPremium Logistics Corp."
+    },
+    {
+      "email_id": "5",
+      "folder": "INBOX",
+      "subject": "Weekly AP Processing Report",
+      "from_addr": "rachel.foster@vanguardshield.com",
+      "to_addr": "taylor.morgan@vanguardshield.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-03T08:00:00-04:00",
+      "message_id": "msg-int-005@vanguardshield.com",
+      "in_reply_to": null,
+      "body_html": null,
+      "attachments": [],
+      "is_read": true,
+      "is_important": false,
+      "body_text": "Hi Taylor,\n\nAttached is this week's AP processing summary.\n\nThanks,\nRachel"
+    },
+    {
+      "email_id": "6",
+      "folder": "Sent",
+      "subject": "Re: Weekly AP Processing Report",
+      "from_addr": "taylor.morgan@vanguardshield.com",
+      "to_addr": "rachel.foster@vanguardshield.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-03T09:15:00-04:00",
+      "message_id": "msg-int-006@vanguardshield.com",
+      "in_reply_to": "msg-int-005@vanguardshield.com",
+      "body_html": null,
+      "attachments": [],
+      "is_read": true,
+      "is_important": false,
+      "body_text": "Thanks Rachel, will work through the queue today and Monday.\n\n- Taylor"
+    },
+    {
+      "email_id": "7",
+      "folder": "INBOX",
+      "subject": "Payment Inquiry - Invoice #7894",
+      "from_addr": "mike.reynolds@eastcoastprinting.com",
+      "to_addr": "taylor.morgan@vanguardshield.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-06T09:30:00-04:00",
+      "message_id": "msg-ext-007@eastcoastprinting.com",
+      "in_reply_to": null,
+      "body_html": null,
+      "attachments": [],
+      "is_read": false,
+      "is_important": false,
+      "body_text": "Dear Taylor,\n\nI'm following up on Invoice #7894 for $5,200.00 (corporate event printing services). Our records show payment was expected by March 28 but we haven't received anything.\n\nCould you check on this and send over a payment confirmation if it's been processed?\n\nThanks,\nMike Reynolds\nAccounts Receivable\nEast Coast Printing Co.\nmike.reynolds@eastcoastprinting.com\n(617) 555-0234"
+    },
+    {
+      "email_id": "8",
+      "folder": "INBOX",
+      "subject": "Q1 2026 Compliance Training Reminder",
+      "from_addr": "compliance@vanguardshield.com",
+      "to_addr": "taylor.morgan@vanguardshield.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-01T09:00:00-04:00",
+      "message_id": "msg-int-008@vanguardshield.com",
+      "in_reply_to": null,
+      "body_html": null,
+      "attachments": [],
+      "is_read": true,
+      "is_important": false,
+      "body_text": "Hi Taylor,\n\nThis is a reminder that all operations staff must complete the Q1 2026 compliance training modules by April 15. Topics covered this quarter include anti-money laundering updates, data privacy refresher, and vendor management controls.\n\nPlease log into the training portal and complete any outstanding modules. If you have questions, reach out to the Compliance team.\n\nThank you,\nCompliance Department\nVanguard Shield Mutual"
+    },
+    {
+      "email_id": "9",
+      "folder": "Sent",
+      "subject": "Re: Payment Inquiry - Invoice #7880",
+      "from_addr": "taylor.morgan@vanguardshield.com",
+      "to_addr": "karen.wu@pinnacleit.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-30T14:20:00-04:00",
+      "message_id": "msg-int-009@vanguardshield.com",
+      "in_reply_to": "msg-ext-009a@pinnacleit.com",
+      "body_html": null,
+      "attachments": [],
+      "is_read": true,
+      "is_important": false,
+      "body_text": "Hi Karen,\n\nThanks for reaching out. I've confirmed with our AP team that Invoice #7880 was processed and cleared. I've attached the payment confirmation for your records.\n\nPlease let me know if you need anything else.\n\nBest,\nTaylor Morgan\nOperations Analyst\nVanguard Shield Mutual"
+    },
+    {
+      "email_id": "10",
+      "folder": "INBOX",
+      "subject": "Re: Re: Payment Inquiry - Invoice #7880",
+      "from_addr": "karen.wu@pinnacleit.com",
+      "to_addr": "taylor.morgan@vanguardshield.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-31T11:45:00-04:00",
+      "message_id": "msg-ext-010@pinnacleit.com",
+      "in_reply_to": "msg-int-009@vanguardshield.com",
+      "body_html": null,
+      "attachments": [],
+      "is_read": true,
+      "is_important": false,
+      "body_text": "Hi Taylor,\n\nThank you for sending over the payment confirmation so quickly. We can see the funds hit our account this morning. Everything checks out on our end.\n\nWe appreciate the quick turnaround. Have a great rest of your week\\!\n\nBest,\nKaren Wu\nAccounts Receivable\nPinnacle IT Solutions\nkaren.wu@pinnacleit.com\n(312) 555-0176"
+    },
+    {
+      "email_id": "11",
+      "folder": "INBOX",
+      "subject": "Q1 Operations Review - Meeting Notes",
+      "from_addr": "sarah.jenkins@vanguardshield.com",
+      "to_addr": "taylor.morgan@vanguardshield.com",
+      "cc_addr": "rachel.foster@vanguardshield.com",
+      "bcc_addr": null,
+      "date": "2026-04-07T16:30:00-04:00",
+      "message_id": "msg-int-011@vanguardshield.com",
+      "in_reply_to": null,
+      "body_html": null,
+      "attachments": [],
+      "is_read": true,
+      "is_important": false,
+      "body_text": "Hi Taylor and Rachel,\n\nThanks for joining today's Q1 review. Here are the key takeaways:\n\n- SLA compliance was at 94% for Q1, up from 91% in Q4. Nice work.\n- We need to continue tightening turnaround on vendor inquiries. The target is still 2 business days.\n- The new expense report template goes live next Monday (April 13). Please make sure your teams have reviewed the updated submission guidelines.\n- Q2 planning kickoff is tentatively scheduled for the week of April 20.\n\nLet me know if I missed anything.\n\nBest,\nSarah Jenkins\nVP of Core Operations\nVanguard Shield Mutual"
+    },
+    {
+      "email_id": "12",
+      "folder": "INBOX",
+      "subject": "Benefits Open Enrollment Closing April 14",
+      "from_addr": "lisa.tran@vanguardshield.com",
+      "to_addr": "taylor.morgan@vanguardshield.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-06T10:15:00-04:00",
+      "message_id": "msg-int-012@vanguardshield.com",
+      "in_reply_to": null,
+      "body_html": null,
+      "attachments": [],
+      "is_read": true,
+      "is_important": false,
+      "body_text": "Hi Taylor,\n\nJust a friendly reminder that the Q2 benefits open enrollment window closes on April 14. If you want to make any changes to your health, dental, or vision elections, please submit them through the HR portal before the deadline.\n\nLet me know if you have any questions.\n\nThanks,\nLisa Tran\nHR Ops Coordinator\nVanguard Shield Mutual"
+    },
+    {
+      "email_id": "13",
+      "folder": "INBOX",
+      "subject": "Global Office Supply - Contract Renewal Discussion",
+      "from_addr": "rachel.foster@vanguardshield.com",
+      "to_addr": "taylor.morgan@vanguardshield.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-02T16:10:00-04:00",
+      "message_id": "msg-int-013@vanguardshield.com",
+      "in_reply_to": null,
+      "body_html": null,
+      "attachments": [],
+      "is_read": true,
+      "is_important": false,
+      "body_text": "Hi Taylor,\n\nJust a heads up \u2014 procurement is looking at the Global Office Supply master agreement for renewal in Q3. They asked me to loop you in since your team handles the day-to-day ordering. Can you pull together a summary of our order volume with them over the last 12 months? Diana wants it for the negotiation prep.\n\nNo rush, sometime next week is fine.\n\nThanks,\nRachel"
+    },
+    {
+      "email_id": "14",
+      "folder": "INBOX",
+      "subject": "Re: Delivery Schedule Change - April Shipments",
+      "from_addr": "sandra.mitchell@premiumlogistics.com",
+      "to_addr": "taylor.morgan@vanguardshield.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-02T09:30:00-04:00",
+      "message_id": "msg-ext-014@premiumlogistics.com",
+      "in_reply_to": null,
+      "body_html": null,
+      "attachments": [],
+      "is_read": true,
+      "is_important": false,
+      "body_text": "Hi Taylor,\n\nFollowing up on our earlier conversation about the April delivery schedule. We've adjusted the routes as discussed, so your Tuesday and Thursday shipments will now arrive between 8-10am instead of the afternoon window.\n\nLet me know if that works for your warehouse team. If there are any conflicts with receiving dock availability, we can shift back.\n\nThanks,\nSandra Mitchell\nBilling Coordinator\nPremium Logistics Corp.\nsandra.mitchell@premiumlogistics.com\n(203) 555-0198"
+    }
+  ],
+  "next_email_id": 15
+}

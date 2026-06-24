@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Meridian Partners SOP</title>
+<style>:root { --fg:#1a1a1a; --muted:#666; --rule:#e2e2e2; --accent:#0b6; }
+* { box-sizing: border-box; }
+body { font: 16px/1.6 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+       color: var(--fg); max-width: 50rem; margin: 2rem auto; padding: 0 1.25rem; }
+h1,h2,h3,h4 { line-height: 1.25; margin: 1.6em 0 .5em; }
+h1 { font-size: 1.9rem; border-bottom: 2px solid var(--rule); padding-bottom: .3em; }
+h2 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: .2em; }
+h3 { font-size: 1.2rem; } h4 { font-size: 1.05rem; color: var(--muted); }
+p { margin: .6em 0; } code { background:#f4f4f4; padding:.1em .35em; border-radius:4px; }
+table { border-collapse: collapse; width: 100%; margin: 1em 0; font-size: .95rem; }
+th,td { border: 1px solid var(--rule); padding: .45em .6em; text-align: left; vertical-align: top; }
+th { background:#f7f7f7; } tr:nth-child(even) td { background:#fafafa; }
+a { color: var(--accent); text-decoration: none; } a:hover { text-decoration: underline; }
+hr { border:0; border-top:1px solid var(--rule); margin: 2em 0; }</style>
+</head>
+<body>
+<h1 id="meridian-partners-llc">MERIDIAN PARTNERS, LLC</h1>
+<p>Management Consulting</p>
+<h2 id="standard-operating-procedure">Standard Operating Procedure</h2>
+<h3 id="accounts-payable-invoice-processing-vendor-payments">Accounts Payable – Invoice Processing &amp; Vendor Payments</h3>
+<p>SOP-FIN-AP-004</p>
+<p>Department: Finance &amp; Accounting Effective Date: January 15, 2025 Document Owner: Rachel Whitfield, Controller</p>
+<h2 id="revision-history">Revision History</h2>
+<table>
+<thead>
+<tr>
+<th>Rev.</th>
+<th>Description</th>
+<th>Author</th>
+<th>Approved By</th>
+<th>Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.0</td>
+<td>Initial release</td>
+<td>R. Whitfield</td>
+<td>D. Nakamura, CFO</td>
+<td>Jan 15, 2025</td>
+</tr>
+<tr>
+<td>1.1</td>
+<td>Added credit memo procedures</td>
+<td>R. Whitfield</td>
+<td>D. Nakamura, CFO</td>
+<td>Mar 03, 2025</td>
+</tr>
+<tr>
+<td>1.2</td>
+<td>Updated escalation channels; added 1099 rules</td>
+<td>T. Okonkwo</td>
+<td>R. Whitfield</td>
+<td>Apr 22, 2025</td>
+</tr>
+</tbody>
+</table>
+<h1 id="1-purpose-scope">1. Purpose &amp; Scope</h1>
+<p>This document defines the end-to-end procedures for processing vendor invoices, approving expenditures, issuing payments, and maintaining vendor records at Meridian Partners, LLC. All Accounts Payable (AP) staff, approving managers, and the Controller must follow this SOP without deviation. Any process not explicitly addressed here must be escalated per Section 13.</p>
+<p><strong>Scope:</strong> All non-payroll disbursements including vendor invoices, contractor payments, employee expense reimbursements, intercompany transfers, and credit memo processing. This SOP does not cover payroll, benefits administration, or capital expenditure approvals (see SOPFIN-CAPEX-002).</p>
+<h1 id="2-definitions-vocabulary">2. Definitions &amp; Vocabulary</h1>
+<table>
+<thead>
+<tr>
+<th>Term</th>
+<th>Definition</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Three-Way Match</td>
+<td>Verification that the Purchase Order (PO), Goods Receipt (GR), and Vendor Invoice all agree on quantity, unit price, and total amount within defined tolerances.</td>
+</tr>
+<tr>
+<td>PO (Purchase Order)</td>
+<td>A formal authorization to purchase goods or services, recorded on the PO Register sheet of ap_ledger.xlsx with a unique PO number (format: PO-YYYY-NNNNN).</td>
+</tr>
+<tr>
+<td>GR (Goods Receipt)</td>
+<td>Confirmation that ordered goods or services have been received, entered by the requesting department.</td>
+</tr>
+<tr>
+<td>Non-PO Invoice</td>
+<td>An invoice for goods or services that were procured without a purchase order. Requires retroactive approval per Section 5.3.</td>
+</tr>
+<tr>
+<td>Invoice Variance</td>
+<td>The difference between the invoiced amount and the PO/GR amount, expressed as a percentage: ((Invoice Amount - PO Amount) / PO Amount) * 100.</td>
+</tr>
+<tr>
+<td>Payment Terms</td>
+<td>The agreed-upon timeframe for payment. Common terms: Net 30 (payment due 30 days from invoice date), Net 45, 2/10 Net 30 (2% discount if paid within 10 days).</td>
+</tr>
+<tr>
+<td>GL Code</td>
+<td>General Ledger account code for expense classification, format: NNNN- NNN-NNNN (Entity-Department-Account). Common codes: 6100-xxx- xxxx (Professional Services), 6200-xxx-xxxx (Office Supplies), 6300- xxx-xxxx (Travel &amp; Entertainment), 6400-xxx-xxxx (Software &amp; Subscriptions), 6500-xxx-xxxx (Facilities &amp; Maintenance), 1500-000- 9100 (Intercompany Clearing).</td>
+</tr>
+<tr>
+<td>Batch Run</td>
+<td>A scheduled payment processing cycle. Meridian runs payment batches every Tuesday and Thursday at 2:00 PM EST.</td>
+</tr>
+<tr>
+<td>Hold Status</td>
+<td>An invoice flagged to prevent payment. Hold codes: MATCH (matching discrepancy), APPR (pending approval), DUPL (suspected duplicate), DISP (vendor dispute), AUDIT (under review).</td>
+</tr>
+<tr>
+<td>Vendor Master</td>
+<td>The central record for each vendor, maintained in vendor_master.xlsx. Contains tax ID, payment terms, banking details, and 1099 classification.</td>
+</tr>
+</tbody>
+</table>
+<h1 id="3-tools-systems-file-locations">3. Tools, Systems &amp; File Locations</h1>
+<p>All AP staff must use the following systems and file paths. Do not create ad hoc spreadsheets or store files outside the designated locations.</p>
+<h2 id="31-systems">3.1 Systems</h2>
+<table>
+<thead>
+<tr>
+<th>System</th>
+<th>Purpose</th>
+<th>Access</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AP Ledger Workbook (ap_ledger.xlsx)</td>
+<td>Central AP workbook with sheets: Invoice Register, PO Register, Payment Queue, GL Postings</td>
+<td>ap_ledger.xlsx</td>
+</tr>
+<tr>
+<td>Email</td>
+<td>Vendor communications, approval requests, payment confirmations</td>
+<td>ap@meridianpartners.com (shared inbox)</td>
+</tr>
+<tr>
+<td>Slack</td>
+<td>Internal escalations, urgent notifications, team coordination</td>
+<td>See Section 3.3 for channel list</td>
+</tr>
+<tr>
+<td>Calendar</td>
+<td>Payment batch scheduling, month- end close deadlines, vendor meetings</td>
+<td>Shared AP calendar: ap- calendar@meridianpartners.com</td>
+</tr>
+<tr>
+<td></td>
+<td>Invoice images, supporting documentation, reconciliation files</td>
+<td>(see Section 3.2)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="32-file-locations">3.2 File Locations</h2>
+<p>All AP files must be stored in the following directory structure. <strong>Files stored outside these locations will not be included in backups and may be deleted.</strong></p>
+<table>
+<thead>
+<tr>
+<th>Path</th>
+<th>Contents</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Invoices/YYYY-MM/</td>
+<td>Scanned invoice images (PDF), named: INV-[VendorID]-[InvoiceNumber].pdf</td>
+</tr>
+<tr>
+<td>PO_Matching/</td>
+<td>Three-way match worksheets: match_log_YYYY_QN.xlsx</td>
+</tr>
+<tr>
+<td>Vendor_Master/</td>
+<td>vendor_master.xlsx – the single source of truth for vendor records</td>
+</tr>
+<tr>
+<td>Payment_Batches/</td>
+<td>Payment batch files: batch_YYYY-MM-DD.xlsx</td>
+</tr>
+<tr>
+<td>Exceptions/</td>
+<td>Exception reports, hold documentation, and the exceptions tracker: exceptions_tracker_YYYY.xlsx</td>
+</tr>
+<tr>
+<td>Month_End/YYYY-MM/</td>
+<td>Accrual worksheets, reconciliation reports, close checklists</td>
+</tr>
+<tr>
+<td>1099/YYYY/</td>
+<td>1099 preparation files and vendor W-9 forms</td>
+</tr>
+</tbody>
+</table>
+<h2 id="33-slack-channels">3.3 Slack Channels</h2>
+<p>Use the following Slack channels for all AP communications. Do not use direct messages for issues that require an audit trail.</p>
+<table>
+<thead>
+<tr>
+<th>Channel</th>
+<th>Purpose</th>
+<th>Who Posts</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>#ap-exceptions</td>
+<td>Invoice matching exceptions, price variances, quantity discrepancies</td>
+<td>AP Staff</td>
+</tr>
+<tr>
+<td>#ap-approvals</td>
+<td>Approval requests for non-PO invoices and over-threshold items</td>
+<td>AP Staff</td>
+</tr>
+<tr>
+<td>#ap-escalations</td>
+<td>Escalations to Controller: fraud suspicion, vendor disputes &gt; $5,000, legal threats</td>
+<td>AP Staff, AP Manager</td>
+</tr>
+<tr>
+<td>#ap-payments</td>
+<td>Payment batch confirmations, payment failures, banking issues</td>
+<td>AP Manager</td>
+</tr>
+<tr>
+<td>#finance-month-end</td>
+<td>Month-end close status, accrual postings, reconciliation completion</td>
+<td>All Finance Staff</td>
+</tr>
+</tbody>
+</table>
+<h1 id="4-invoice-intake-initial-classification">4. Invoice Intake &amp; Initial Classification</h1>
+<p>All invoices arrive through one of three channels: email (ap@meridianpartners.com), physical mail (scanned by Office Admin), or the vendor portal. Regardless of source, every invoice must be logged and classified within 24 business hours of receipt.</p>
+<h2 id="41-required-invoice-fields">4.1 Required Invoice Fields</h2>
+<p>Before processing, verify the invoice contains all of the following. If any field is missing, the invoice is Incomplete and must be returned to the vendor.</p>
+<table>
+<thead>
+<tr>
+<th>Required Field</th>
+<th>Example</th>
+<th>If Missing</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Vendor name and address</td>
+<td>Apex Office Supply, 100 Commerce Dr, Atlanta GA 30301</td>
+<td>Return to vendor</td>
+</tr>
+<tr>
+<td>Invoice number</td>
+<td>INV-2025-08841</td>
+<td>Return to vendor</td>
+</tr>
+<tr>
+<td>Invoice date</td>
+<td>03/15/2025</td>
+<td>Return to vendor</td>
+</tr>
+<tr>
+<td>PO number (if applicable)</td>
+<td>PO-2025-01234</td>
+<td>Classify as Non-PO; proceed to Section 5.3</td>
+</tr>
+<tr>
+<td>Line items with description, qty, unit price</td>
+<td>Copy Paper, Qty 50, $4.99/ream</td>
+<td>Return to vendor</td>
+</tr>
+<tr>
+<td>Total amount due</td>
+<td>$249.50</td>
+<td>Return to vendor</td>
+</tr>
+<tr>
+<td>Payment terms</td>
+<td>Net 30</td>
+<td>Default to vendor master terms; if no vendor master entry, use Net 30</td>
+</tr>
+</tbody>
+</table>
+<h2 id="42-returning-incomplete-invoices">4.2 Returning Incomplete Invoices</h2>
+<p>When an invoice is missing required fields, send the following email to the vendor within the same business day:</p>
+<p><strong>To:</strong> [vendor contact email from vendor_master.xlsx]</p>
+<p><strong>Subject:</strong> Meridian Partners - Incomplete Invoice [INVOICE NUMBER]</p>
+<p><strong>Body (use verbatim):</strong></p>
+<p><em>"Dear [Vendor Contact Name],</em></p>
+<p><em>We received invoice [INVOICE NUMBER] dated [INVOICE DATE]. Unfortunately, we are unable to process this invoice because the following required information is missing: [LIST MISSING FIELDS].</em></p>
+<p><em>Please resubmit a corrected invoice to ap@meridianpartners.com at your earliest convenience. We will process payment promptly upon receipt of a complete invoice.</em></p>
+<p><em>Thank you,</em></p>
+<p><em>Meridian Partners Accounts Payable"</em></p>
+<p>Do NOT enter incomplete invoices into the Invoice Register. Do NOT place them on hold. They must be returned before entry.</p>
+<h2 id="43-invoice-classification">4.3 Invoice Classification</h2>
+<p>After verifying completeness, classify each invoice into exactly one category:</p>
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th>Criteria</th>
+<th>Next Step</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PO Invoice</td>
+<td>Invoice references a valid PO number that exists on the PO Register sheet of ap_ledger.xlsx</td>
+<td>Section 5.1 (Three-Way Match)</td>
+</tr>
+<tr>
+<td>Non-PO Invoice</td>
+<td>No PO number referenced, OR the PO number does not exist on the PO Register sheet of ap_ledger.xlsx</td>
+<td>Section 5.3 (Retroactive Approval)</td>
+</tr>
+<tr>
+<td>Recurring Invoice</td>
+<td>Invoice matches any recurring vendor agreement (check recurring_agreements.xlsx)</td>
+<td>Section 5.4 (Recurring Processing)</td>
+</tr>
+<tr>
+<td>Credit Memo</td>
+<td>Document has a negative total or is explicitly labeled as a credit memo/credit note</td>
+<td>Section 8 (Credit Memo Processing)</td>
+</tr>
+<tr>
+<td>Employee Expense</td>
+<td>Reimbursement request from a Meridian employee with attached receipts</td>
+<td>Section 9 (Expense Reimbursement)</td>
+</tr>
+<tr>
+<td>Intercompany</td>
+<td>Invoice from a Meridian subsidiary or affiliated entity (vendor ID starts with "IC-")</td>
+<td>Section 10 (Intercompany)</td>
+</tr>
+</tbody>
+</table>
+<h1 id="5-invoice-processing-matching">5. Invoice Processing &amp; Matching</h1>
+<h2 id="51-three-way-match-po-invoices">5.1 Three-Way Match (PO Invoices)</h2>
+<p>For every PO invoice, the AP clerk must verify agreement between three documents: the Purchase Order, the Goods Receipt, and the Invoice. Open the match log for the current quarter (PO_Matching/match_log_YYYY_QN.xlsx) and record each match attempt.</p>
+<h3 id="511-matching-tolerances">5.1.1 Matching Tolerances</h3>
+<p>The following tolerances determine whether a match passes or requires exception handling:</p>
+<table>
+<thead>
+<tr>
+<th>Check</th>
+<th>Tolerance</th>
+<th>If Within Tolerance</th>
+<th>If Outside Tolerance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Unit Price Variance</td>
+<td>±5% OR ±$25, whichever is GREATER</td>
+<td>Auto-approve; no further action</td>
+<td>Place on MATCH hold; proceed to Section 6.1</td>
+</tr>
+<tr>
+<td>Quantity Variance</td>
+<td>Exact match required (zero tolerance)</td>
+<td>Proceed to price check</td>
+<td>Place on MATCH hold; proceed to Section 6.2</td>
+</tr>
+<tr>
+<td>Total Invoice Amount</td>
+<td>±$50 AND ±2%</td>
+<td>Auto-approve; post to GL</td>
+<td>Place on MATCH hold; proceed to Section 6</td>
+</tr>
+<tr>
+<td>Tax Amount</td>
+<td>±$5</td>
+<td>Accept invoice tax amount</td>
+<td>Flag for AP Manager review. The AP Manager will determine the correct tax amount and update the invoice before approval.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="52-duplicate-invoice-detection">5.2 Duplicate Invoice Detection</h2>
+<p>Before entering any invoice into the Invoice Register, check for duplicates using ALL THREE of the following criteria. An invoice is a duplicate if it matches on all three:</p>
+<ol>
+<li>Same vendor ID, AND 2. Same invoice number (case-insensitive, ignore leading zeros), AND 3. Same invoice total amount (exact match to the penny)</li>
+</ol>
+<p><strong>If a duplicate is detected:</strong> Do NOT enter the invoice. Do NOT return it to the vendor. Place the physical/digital copy in Exceptions/ with filename DUPL-[VendorID]-[InvoiceNumber].pdf. Post a notification to #ap-exceptions with the following exact format:</p>
+<p><strong>DUPLICATE DETECTED: [VENDOR NAME], [VENDOR ID], Invoice [INVOICE NUMBER], Amount $[AMOUNT], Original Entry Date [DATE OF FIRST ENTRY]</strong></p>
+<h2 id="53-non-po-invoice-processing">5.3 Non-PO Invoice Processing</h2>
+<p>Invoices without a valid PO require retroactive approval before payment. The approval path depends on the invoice amount:</p>
+<table>
+<thead>
+<tr>
+<th>Invoice Amount</th>
+<th>Required Approver</th>
+<th>Approval Method</th>
+<th>Max Response Time</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>$0.01 – $500.00</td>
+<td>Department Manager (budget owner for the GL code)</td>
+<td>Email reply</td>
+<td>3 business days</td>
+</tr>
+<tr>
+<td>$500.01 – $5,000.00</td>
+<td>Department Manager AND AP Manager (Tanya Okonkwo)</td>
+<td>Email reply from both</td>
+<td>3 business days</td>
+</tr>
+<tr>
+<td>$5,000.01 – $25,000.00</td>
+<td>Department Manager AND Controller (Rachel Whitfield)</td>
+<td>Email reply from both</td>
+<td>5 business days</td>
+</tr>
+<tr>
+<td>Over $25,000.00</td>
+<td>Department Manager AND Controller AND CFO (David Nakamura)</td>
+<td>Email reply from all three</td>
+<td>5 business days</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Approval Request Email Format:</strong></p>
+<p><strong>To:</strong> [required approver(s)]</p>
+<p><strong>CC:</strong> ap@meridianpartners.com</p>
+<p><strong>Subject:</strong> AP APPROVAL REQUIRED: [VENDOR NAME] - $[AMOUNT] - Invoice [INVOICE NUMBER]</p>
+<p><strong>Body:</strong> "A non-PO invoice requires your approval before payment can be processed. Vendor: [VENDOR NAME] ([VENDOR ID]). Invoice: [INVOICE NUMBER], dated [INVOICE DATE]. Amount: $[AMOUNT]. Description: [FIRST LINE ITEM DESCRIPTION]. GL Code: [GL CODE]. Please reply APPROVED or REJECTED with reason. If no response is received within [3 or 5] business days, the invoice will be placed on APPR hold and the vendor will be notified of the delay."</p>
+<p><strong>If approval is not received within the allowed timeframe:</strong> Place the invoice on APPR hold by updating its Status column in the Invoice Register. Send a courtesy email to the vendor using this template:</p>
+<p><em>"Dear [Vendor Contact Name], Invoice [INVOICE NUMBER] for $[AMOUNT] is currently pending internal approval. We expect to process payment within [5/10] additional business days. We apologize for the delay. Meridian Partners Accounts Payable"</em></p>
+<h2 id="54-recurring-invoice-processing">5.4 Recurring Invoice Processing</h2>
+<p>Some vendors have standing agreements for recurring services (e.g., monthly IT support, quarterly cleaning). These are listed in recurring_agreements.xlsx with the following columns: Vendor ID, Vendor Name, Service Description, Expected Amount, Tolerance (%), Frequency, GL Code, Approving Manager, Agreement Expiration Date.</p>
+<p>For recurring invoices:</p>
+<p><strong>Step 1:</strong> Verify the agreement has not expired. If the Agreement Expiration Date is in the past, STOP. Do not process. Place on APPR hold and email the Approving Manager listed in the agreement to request renewal or confirmation.</p>
+<p><strong>Step 2:</strong> Compare the invoice amount to the Expected Amount. If the variance exceeds the Tolerance percentage, treat as an exception (Section 6.3).</p>
+<p><strong>Step 3:</strong> If within tolerance and not expired, approve and enter with the GL Code from the agreement. No additional approval is needed.</p>
+<h1 id="6-exception-handling">6. Exception Handling</h1>
+<p>Exceptions are invoices that cannot be processed through the standard matching or approval workflows. Every exception must be documented and resolved within 10 business days. Unresolved exceptions older than 10 business days are automatically escalated to the Controller.</p>
+<h2 id="61-price-variance-exceptions">6.1 Price Variance Exceptions</h2>
+<p>When unit price variance exceeds the tolerance defined in Section 5.1.1:</p>
+<p><strong>Step 1:</strong> Check if the vendor has submitted a price increase notification in the last 90 days (search email inbox for subject containing "price increase" or "rate change" from the vendor’s domain).</p>
+<p><strong>Step 2a – Price increase notification found:</strong> If the invoiced price matches the notified new price, update the PO on the PO Register sheet of ap_ledger.xlsx to reflect the new pricing. Rerun the three-way match. If it now passes, approve. Update vendor_master.xlsx with the new contracted rate.</p>
+<p><strong>Step 2b – No price increase notification:</strong> Email the vendor requesting clarification. Use this exact subject line: "Meridian Partners - Price Discrepancy on Invoice [INVOICE NUMBER]". In the body, state the PO price, the invoiced price, and the variance percentage. Request a corrected invoice or written justification within 5 business days.</p>
+<p><strong>Step 3:</strong> Post to #ap-exceptions: PRICE VARIANCE: [VENDOR NAME], [VENDOR ID], Invoice [INVOICE NUMBER], PO Price $[PO PRICE], Invoice Price $[INV PRICE], Variance [X]%</p>
+<h2 id="62-quantity-discrepancy-exceptions">6.2 Quantity Discrepancy Exceptions</h2>
+<p>When the invoiced quantity does not exactly match the Goods Receipt quantity:</p>
+<p><strong>If Invoice Qty &gt; GR Qty:</strong> Place on MATCH hold. Email the requesting department to confirm whether additional items were received but not logged. If confirmed received, have them update the GR Qty column on the PO Register sheet of ap_ledger.xlsx first, then re-match. If not received, email the vendor requesting a corrected invoice for the actual quantity delivered.</p>
+<p><strong>If Invoice Qty &lt; GR Qty:</strong> This is a partial invoice. Process and pay the invoiced quantity. Add a note in the match log: "Partial invoice – [X] units received, [Y] units invoiced. Remaining [Z] units expected on future invoice." Do NOT hold the invoice.</p>
+<h2 id="63-recurring-invoice-amount-variance">6.3 Recurring Invoice Amount Variance</h2>
+<p>When a recurring invoice exceeds the tolerance specified in the recurring agreement:</p>
+<p><strong>If variance is positive (vendor charged MORE than expected):</strong> Place on MATCH hold. Email the Approving Manager listed in recurring_agreements.xlsx with subject: "Recurring Invoice Variance – [VENDOR NAME] – [MONTH/YEAR]". Include the expected amount, actual amount, and variance. Await approval or rejection within 3 business days.</p>
+<p><strong>If variance is negative (vendor charged LESS than expected):</strong> Process normally. No hold required. No approval needed. Log the variance in the match log with a note.</p>
+<h1 id="7-payment-approval-authorization">7. Payment Approval &amp; Authorization</h1>
+<p>After an invoice has been matched (or approved as non-PO), it enters the payment queue. Additional authorization is required based on the payment amount.</p>
+<h2 id="71-payment-authorization-matrix">7.1 Payment Authorization Matrix</h2>
+<table>
+<thead>
+<tr>
+<th>Payment Amount</th>
+<th>Required Signoff</th>
+<th>Method</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>$0.01 – $2,500</td>
+<td>AP Clerk (self-approve after match; post confirmation to #ap-approvals)</td>
+<td>Slack confirmation in #ap-approvals</td>
+<td>Batch processed</td>
+</tr>
+<tr>
+<td>$2,500.01 – $10,000</td>
+<td>AP Manager (Tanya Okonkwo)</td>
+<td>Slack confirmation in #ap-approvals</td>
+<td>Batch processed</td>
+</tr>
+<tr>
+<td>$10,000.01 – $50,000</td>
+<td>AP Manager AND Controller (Rachel Whitfield)</td>
+<td>Slack confirmation from both in #ap- approvals</td>
+<td>Batch processed</td>
+</tr>
+<tr>
+<td>Over $50,000</td>
+<td>Controller AND CFO (David Nakamura)</td>
+<td>Slack confirmation in #ap-approvals + email confirmation from CFO</td>
+<td>Manual wire transfer only</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Critical:</strong> Payments over $50,000 must NEVER be included in the standard Tuesday/Thursday batch run. They are processed as individual manual wire transfers after receiving email confirmation from the CFO. The email confirmation must contain the exact phrase "APPROVED FOR PAYMENT" in the body.</p>
+<h2 id="72-early-payment-discounts">7.2 Early Payment Discounts</h2>
+<p>If a vendor offers early payment terms (e.g., 2/10 Net 30), the AP clerk must evaluate whether to take the discount:</p>
+<p><strong>Rule:</strong> Always take the early payment discount if the discount amount is $100 or greater. For discounts under $100, process at standard terms. To take a discount, the payment must be included in the next available batch run. If the next batch run falls after the discount deadline, request an off-cycle payment by posting to #ap-payments with format:</p>
+<p><strong>OFF-CYCLE REQUEST: [VENDOR NAME], Invoice [INVOICE NUMBER], Discount $ [AMOUNT], Deadline [DATE]</strong></p>
+<p>The AP Manager will approve or deny off-cycle requests within 4 business hours.</p>
+<h1 id="8-credit-memo-processing">8. Credit Memo Processing</h1>
+<p>Credit memos reduce the amount owed to a vendor. They must be matched against the original invoice before applying.</p>
+<h2 id="81-matching-credit-memos">8.1 Matching Credit Memos</h2>
+<p><strong>Step 1:</strong> Identify the original invoice referenced in the credit memo. If no original invoice is referenced, email the vendor: "Dear [Vendor Contact Name], We received credit memo [CM NUMBER] dated [CM DATE] for $[AMOUNT]. We are unable to apply this credit without a reference to the original invoice. Please provide the original invoice number so we can process this credit. Meridian Partners Accounts Payable"</p>
+<p><strong>Step 2:</strong> Verify the credit amount does not exceed the original invoice amount. If it does, place on DISP hold and email the vendor requesting clarification.</p>
+<p><strong>Step 3:</strong> Apply the credit against the original invoice in the Invoice Register by updating the Credit Applied column. If the original invoice has already been paid, record the credit on the vendor’s row in vendor_master.xlsx in the Outstanding Credit column for offset against the next invoice.</p>
+<p><strong>Step 4:</strong> If the credit memo results in a net vendor overpayment of $500 or more, post to #apexceptions: VENDOR OVERPAYMENT: [VENDOR NAME], [VENDOR ID], Overpayment Amount $[AMOUNT], Original Invoice [INV NUMBER]. The AP Manager will determine whether to request a refund check from the vendor or apply as future credit.</p>
+<h1 id="9-employee-expense-reimbursement">9. Employee Expense Reimbursement</h1>
+<p>Employee expense reimbursements are submitted via email to ap@meridianpartners.com with the expense report spreadsheet and all supporting receipts attached.</p>
+<h2 id="91-validation-checklist">9.1 Validation Checklist</h2>
+<p>Every expense report must be evaluated against the following checks. If checks 1, 2, 3, 6, or 8 fail, return the entire report to the employee for correction. For checks 4, 5, and 7, apply the adjustment described in the Failure Action column and continue processing the remainder of the report.</p>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Check</th>
+<th>Failure Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Employee name and employee ID are present</td>
+<td>Return to employee</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Manager approval signature or email approval is attached</td>
+<td>Return to employee; do NOT seek approval on their behalf</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Every line item has a corresponding receipt image</td>
+<td>Return to employee for missing receipts</td>
+</tr>
+<tr>
+<td>4</td>
+<td>No single meal expense exceeds $75 per person</td>
+<td>Reimburse up to $75 per person; reject the overage. Notify employee of the policy.</td>
+</tr>
+<tr>
+<td>5</td>
+<td>No alcohol charges (Meridian does not reimburse alcohol)</td>
+<td>Deduct alcohol amount from total. Process remainder.</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Travel dates match the approved travel request in the calendar (if applicable)</td>
+<td>Return to employee for explanation of date discrepancy</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Mileage reimbursement uses the current IRS rate ($0.70/mile for 2025)</td>
+<td>Recalculate at the correct rate. Do not reject the entire report.</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Report submitted within 60 days of expense date</td>
+<td>Reject. Expenses older than 60 days cannot be reimbursed per company policy.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Expense Return Email Format:</strong></p>
+<p><strong>Subject:</strong> Expense Report Returned – [EMPLOYEE NAME] – [DATE OF REPORT]</p>
+<p><strong>Body:</strong> "Dear [Employee Name], Your expense report dated [DATE] has been returned for the following reason(s): [NUMBERED LIST OF ISSUES]. Please correct and resubmit to ap@meridianpartners.com. Meridian Partners Accounts Payable"</p>
+<h1 id="10-intercompany-transactions">10. Intercompany Transactions</h1>
+<p>Meridian Partners has three operating entities: Meridian Partners LLC (entity code 1000), Meridian Advisory Group (entity code 2000), and Meridian Digital Solutions (entity code 3000). Intercompany invoices are identified by vendor IDs starting with "IC-".</p>
+<p>Intercompany invoices must NEVER be included in external payment batch runs. They are settled monthly via journal entry during month-end close (Section 11). When you encounter an intercompany invoice, enter it in the Invoice Register with the correct GL coding (use the intercompany clearing account 1500-000-9100) and set its Status to IC-HOLD. Do NOT release it for payment.</p>
+<p><strong>GL Coding for Intercompany:</strong> The first four digits of the GL code must be the RECEIVING entity’s code (the entity being charged), not the invoicing entity’s code. For example, if Meridian Advisory Group (2000) invoices Meridian Partners LLC (1000) for consulting services, the GL code on the payable side is 1000-[Dept]-[Account], NOT 2000-[Dept]-[Account].</p>
+<h1 id="11-month-end-close-procedures">11. Month-End Close Procedures</h1>
+<p>The AP month-end close must be completed by the 5th business day of the following month. The AP Manager posts status updates to #finance-month-end at the completion of each step.</p>
+<h2 id="111-close-checklist">11.1 Close Checklist</h2>
+<p>Complete the following steps in order. Do not proceed to the next step until the current step is complete.</p>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Task</th>
+<th>Owner</th>
+<th>Slack Notification</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Process all invoices received on or before the last business day of the month</td>
+<td>AP Clerks</td>
+<td>None</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Generate the AP Aging Report by filtering the Invoice Register by due date and save to Month_End/YYYY- MM/aging_report.xlsx</td>
+<td>AP Manager</td>
+<td>None</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Resolve or document all invoices on hold &gt; 30 days. For each, add a row to Exceptions/exceptions_tracker_YYY Y.xlsx with current status and expected resolution date.</td>
+<td>AP Clerks</td>
+<td>None</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Prepare accrual journal entries for goods/services received but not yet invoiced. Save worksheet to Month_End/YYYY-MM/accruals.xlsx</td>
+<td>AP Manager</td>
+<td>Post to #finance-month- end: AP ACCRUALS POSTED: [MONTH] [YEAR], Total Accrual Amount: $[AMOUNT], Number of Entries: [N]</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Reconcile AP subledger to GL. Variance must be $0.00. If variance exists, document each discrepancy in Month_End/YYYY-MM/recon_varian ces.xlsx with columns: GL Account, Subledger Balance, GL Balance, Difference, Cause (e.g., unposted invoice, timing difference, duplicate entry), and Corrective Action Taken. Post all correcting journal entries before proceeding.</td>
+<td>AP Manager</td>
+<td>Post to #finance-month- end: AP RECONCILIATION COMPLETE: [MONTH] [YEAR], Variance: $0.00</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Process intercompany settlement journal entries (clear the 1500-000- 9100 account)</td>
+<td>AP Manager</td>
+<td>Post to #finance-month- end: INTERCOMPANY SETTLED: [MONTH] [YEAR], Net Settlement: $[AMOUNT]</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Email the Controller a summary: Subject: "AP Close Complete – [MONTH] [YEAR]". Body must include: total invoices processed, total dollar amount, number of open holds, accrual total, and intercompany settlement amount.</td>
+<td>AP Manager</td>
+<td>Post to #finance-month- end: AP CLOSE COMPLETE: [MONTH] [YEAR]</td>
+</tr>
+</tbody>
+</table>
+<h1 id="12-vendor-management">12. Vendor Management</h1>
+<h2 id="121-new-vendor-setup">12.1 New Vendor Setup</h2>
+<p>No invoice may be processed for a vendor that does not exist in vendor_master.xlsx. To add a new vendor:</p>
+<p><strong>Step 1:</strong> Collect a completed W-9 form (for US vendors) or W-8BEN (for foreign vendors). Store in 1099/YYYY/W9_[VendorName].pdf.</p>
+<p><strong>Step 2:</strong> Verify the vendor’s tax ID (EIN or SSN) is not already in vendor_master.xlsx under a different name. If a matching tax ID exists, do NOT create a new record. Instead, post to #apescalations: DUPLICATE VENDOR SUSPECTED: [NEW VENDOR NAME] matches Tax ID of existing vendor [EXISTING VENDOR NAME], [VENDOR ID].</p>
+<p><strong>Step 3:</strong> Add a new row to vendor_master.xlsx with all required fields: Vendor ID (autogenerated, next sequential number in format V-NNNNN), Vendor Name, Tax ID, Address, Contact Name, Contact Email, Phone, Payment Terms, Bank Name, Bank Routing, Bank Account, 1099 Reportable (Yes/No), 1099 Type (NEC, MISC, or N/A), Status (Active), Created Date.</p>
+<p><strong>Step 4:</strong> Post to #ap-approvals: NEW VENDOR ADDED: [VENDOR NAME], [VENDOR ID], 1099 Reportable: [YES/NO]. The AP Manager must acknowledge within 1 business day.</p>
+<h2 id="122-vendor-deactivation">12.2 Vendor Deactivation</h2>
+<p>A vendor should be deactivated (not deleted) if there have been no transactions in the past 18 months. During month-end close, the AP Manager runs a report of inactive vendors and updates their Status to "Inactive" in vendor_master.xlsx. Inactive vendors cannot receive payments. If an invoice arrives for an inactive vendor, the AP clerk must first reactivate the vendor (change Status back to "Active" and update the reactivation date) before processing.</p>
+<h2 id="123-vendor-statement-reconciliation">12.3 Vendor Statement Reconciliation</h2>
+<p>When a vendor sends a statement of account, the AP clerk must reconcile it against AP records within 5 business days. Compare each line on the vendor statement to the Invoice Register and Payment Queue sheets in ap_ledger.xlsx. Any discrepancy must be documented in an email to the vendor with subject: "Meridian Partners – Statement Reconciliation – [VENDOR NAME] – [STATEMENT DATE]".</p>
+<p><strong>If the reconciliation reveals that Meridian owes an additional amount not yet invoiced:</strong> Request an invoice from the vendor. Do NOT create a payment without an invoice.</p>
+<p><strong>If the reconciliation reveals that the vendor’s statement shows a smaller balance than Meridian’s records:</strong> Investigate for potential duplicate payments. Search the Payment Queue sheet in ap_ledger.xlsx for duplicate payment entries. If a duplicate payment is confirmed, post to #ap-escalations: DUPLICATE PAYMENT FOUND: [VENDOR NAME], [VENDOR ID], Overpayment $[AMOUNT], Payment Ref [PAYMENT REF NUMBERS]. Request a refund from the vendor.</p>
+<h1 id="13-escalation-procedures">13. Escalation Procedures</h1>
+<p>Escalations must be posted to the correct Slack channel using the exact format specified. Do not email escalations unless Slack is unavailable (system outage).</p>
+<h2 id="131-escalation-triggers-routing">13.1 Escalation Triggers &amp; Routing</h2>
+<table>
+<thead>
+<tr>
+<th>Trigger</th>
+<th>Channel</th>
+<th>Notify</th>
+<th>Response Expected</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Suspected fraud (fake invoice, fictitious vendor, altered amounts)</td>
+<td>#ap-escalations</td>
+<td>Controller + CFO</td>
+<td>Immediate (same day)</td>
+</tr>
+<tr>
+<td>Vendor legal threat or lawsuit notice</td>
+<td>#ap-escalations</td>
+<td>Controller + Legal</td>
+<td>Immediate (same day)</td>
+</tr>
+<tr>
+<td>Vendor dispute over $5,000</td>
+<td>#ap-escalations</td>
+<td>AP Manager + Controller</td>
+<td>1 business day</td>
+</tr>
+<tr>
+<td>Payment failure (ACH reject, wire bounce)</td>
+<td>#ap-payments</td>
+<td>AP Manager</td>
+<td>4 business hours</td>
+</tr>
+<tr>
+<td>Invoice on hold &gt; 10 business days, unresolved</td>
+<td>#ap-escalations</td>
+<td>Controller</td>
+<td>1 business day</td>
+</tr>
+<tr>
+<td>Vendor requests payment method change (new bank account)</td>
+<td>#ap-escalations</td>
+<td>AP Manager + Controller</td>
+<td>Do NOT update until verified (see 13.2)</td>
+</tr>
+<tr>
+<td>Month-end close delayed past 5th business day</td>
+<td>#finance-month-end</td>
+<td>Controller</td>
+<td>Immediate</td>
+</tr>
+</tbody>
+</table>
+<h2 id="132-bank-account-change-verification">13.2 Bank Account Change Verification</h2>
+<p><strong>This is the highest-risk fraud scenario in Accounts Payable.</strong> When a vendor requests a change to their bank account information (routing number, account number, or bank name), follow this procedure exactly:</p>
+<p><strong>Step 1:</strong> Do NOT update vendor_master.xlsx. Do NOT process any payments to the new account.</p>
+<p><strong>Step 2:</strong> Post to #ap-escalations: BANK CHANGE REQUEST: [VENDOR NAME], [VENDOR ID], Requested by [NAME FROM EMAIL], Email [SENDER EMAIL ADDRESS]</p>
+<p><strong>Step 3:</strong> Call the vendor using ONLY the phone number in vendor_master.xlsx (do NOT use the phone number provided in the change request email). Verify the request verbally with an authorized contact.</p>
+<p><strong>Step 4:</strong> If verbally confirmed, request the vendor send a bank verification letter on their official letterhead, OR provide a voided check. Store the verification document in Vendor_Master/bank_changes/[VendorID]_[Date].pdf.</p>
+<p><strong>Step 5:</strong> Only after receiving written verification AND verbal confirmation may the AP Manager (not the AP Clerk) update vendor_master.xlsx. The AP Clerk may never update bank details.</p>
+<p><strong>If verbal verification fails (wrong phone number, contact denies the request, or you cannot reach anyone):</strong> Post to #ap-escalations: POTENTIAL BEC FRAUD: [VENDOR NAME], [VENDOR ID], [DETAILS]. Do NOT respond to the email. Do NOT update any records. The Controller will handle all communication.</p>
+<h2 id="133-escalation-message-formats">13.3 Escalation Message Formats</h2>
+<p>All escalation Slack messages must follow these exact formats. Do not add greetings, sign-offs, or additional commentary.</p>
+<p><strong>Fraud Suspicion:</strong> <em>FRAUD ALERT: [VENDOR NAME], [VENDOR ID], Invoice [INVOICE NUMBER], Reason: [BRIEF DESCRIPTION]</em></p>
+<p><strong>Legal Threat:</strong> <em>LEGAL THREAT: [VENDOR NAME], [VENDOR ID], Invoice [INVOICE NUMBER], Received [DATE]. Do NOT reply to vendor.</em></p>
+<p><strong>Vendor Dispute:</strong> <em>VENDOR DISPUTE: [VENDOR NAME], [VENDOR ID], Amount in Dispute: $ [AMOUNT], Invoices: [INVOICE NUMBERS]</em></p>
+<p><strong>Payment Failure:</strong> <em>PAYMENT FAILURE: [VENDOR NAME], [VENDOR ID], Batch [BATCH DATE], Amount $[AMOUNT], Error: [ERROR CODE/MESSAGE]</em></p>
+<p>For legal threats, do NOT reply to the vendor email. Do NOT acknowledge receipt. The Controller or Legal will handle all communication. Any response from AP could constitute an admission or waiver.</p>
+<h1 id="14-1099-vendor-management-year-end-reporting">14. 1099 Vendor Management &amp; Year-End Reporting</h1>
+<p>Meridian Partners is required to file 1099 forms for vendors meeting IRS reporting thresholds. Accurate 1099 classification is critical to avoid penalties.</p>
+<h2 id="141-1099-classification-rules">14.1 1099 Classification Rules</h2>
+<p>When setting up a new vendor or reviewing existing records, determine 1099 reportability based on the W-9:</p>
+<table>
+<thead>
+<tr>
+<th>Entity Type (from W-9)</th>
+<th>1099 Reportable?</th>
+<th>1099 Type</th>
+<th>Threshold (Annual)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Individual / Sole Proprietor</td>
+<td>Yes</td>
+<td>1099-NEC</td>
+<td>$600</td>
+</tr>
+<tr>
+<td>Single-Member LLC</td>
+<td>Yes</td>
+<td>1099-NEC</td>
+<td>$600</td>
+</tr>
+<tr>
+<td>Partnership / Multi- Member LLC</td>
+<td>Yes</td>
+<td>1099-NEC</td>
+<td>$600</td>
+</tr>
+<tr>
+<td>C-Corporation</td>
+<td>No (except legal services)</td>
+<td>N/A (or 1099-NEC for legal)</td>
+<td>$600 for legal services</td>
+</tr>
+<tr>
+<td>S-Corporation</td>
+<td>No (except legal services)</td>
+<td>N/A (or 1099-NEC for legal)</td>
+<td>$600 for legal services</td>
+</tr>
+<tr>
+<td>Tax-Exempt Organization</td>
+<td>No</td>
+<td>N/A</td>
+<td>N/A</td>
+</tr>
+</tbody>
+</table>
+<p>Payments to attorneys and law firms are ALWAYS 1099-reportable regardless of entity type. If the vendor’s W-9 indicates legal services AND the entity is a C-Corp or S-Corp, the vendor is still 1099-reportable.</p>
+<p><strong>1099 Type classification:</strong> Use 1099-NEC for payments for services (consulting, freelance work, legal services, contractor labor). Use 1099-MISC only for rent payments to a landlord (e.g., office lease payments). If the payment does not fall into either category, use N/A. When in doubt, default to 1099-NEC for service payments.</p>
+<h2 id="142-year-end-1099-process">14.2 Year-End 1099 Process</h2>
+<p>By January 15 of each year, the AP Manager must:</p>
+<p><strong>1.</strong> Generate the 1099 Report by filtering vendor_master.xlsx for 1099-reportable vendors and cross-referencing their total payments from the Payment Queue sheet in ap_ledger.xlsx for the prior calendar year.</p>
+<p><strong>2.</strong> Cross-reference every vendor on the report against vendor_master.xlsx to verify 1099 classification and tax ID accuracy.</p>
+<p><strong>3.</strong> For any vendor missing a W-9, send this email: Subject: "Meridian Partners – W-9 Required for 1099 Filing". Body: "Dear [Vendor Contact Name], Our records indicate we do not have a current W-9 on file for [Vendor Name]. Federal tax regulations require us to obtain this form before we can issue your 1099 for the [YEAR] tax year. Please complete and return the attached W-9 form to ap@meridianpartners.com by January 25. If we do not receive your W-9 by this date, we may be required to apply backup withholding of 24% on future payments. Meridian Partners Accounts Payable"</p>
+<p><strong>4.</strong> 1099 forms must be filed with the IRS by January 31 and mailed to vendors by January 31.</p>
+<h1 id="15-payment-batch-processing">15. Payment Batch Processing</h1>
+<h2 id="151-batch-schedule">15.1 Batch Schedule</h2>
+<p>Meridian Partners processes payments in batch on Tuesdays and Thursdays at 2:00 PM EST. The AP Manager is responsible for initiating each batch run. If a batch day falls on a holiday, the batch is processed on the next business day.</p>
+<h2 id="152-pre-batch-checklist">15.2 Pre-Batch Checklist</h2>
+<p>Before initiating a batch, the AP Manager must verify:</p>
+<p><strong>1.</strong> All invoices in the batch have passed three-way match OR have documented approval (for non-PO invoices).</p>
+<p><strong>2.</strong> No invoices in the batch have an active hold status (MATCH, APPR, DUPL, DISP, or AUDIT).</p>
+<p><strong>3.</strong> No payments over $50,000 are included (these require individual wire processing).</p>
+<p><strong>4.</strong> No intercompany invoices (vendor ID starting with IC-) are included.</p>
+<p><strong>5.</strong> No payments to vendors with Status = "Inactive" in vendor_master.xlsx.</p>
+<p>After the batch is processed, save the batch file to Payment_Batches/batch_YYYY-MM-DD.xlsx and post to #ap-payments:</p>
+<p><em><strong>BATCH COMPLETE: [DATE], Payments: [N], Total Amount: $[AMOUNT], Method: ACH [N1] / Check [N2] / Wire [N3]</strong></em></p>
+<h2 id="153-payment-method-rules">15.3 Payment Method Rules</h2>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>When Used</th>
+<th>Amount Range</th>
+<th>Special Requirements</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ACH</td>
+<td>Default for all domestic vendors with bank info on file</td>
+<td>Any amount under $50,000</td>
+<td>Vendor must have bank details in vendor_master.xlsx</td>
+</tr>
+<tr>
+<td>Check</td>
+<td>Vendors without bank info, or by vendor request</td>
+<td>Any amount under $50,000</td>
+<td>Mailed to address in vendor_master.xlsx. Two signatures required for checks over $10,000.</td>
+</tr>
+<tr>
+<td>Wire Transfer</td>
+<td>Payments over $50,000, international vendors, urgent payments</td>
+<td>Over $50,000 (or any international)</td>
+<td>CFO email confirmation required. Must include reference: WIRE- [VendorID]-[InvoiceNumber]</td>
+</tr>
+</tbody>
+</table>
+<h1 id="16-audit-compliance">16. Audit &amp; Compliance</h1>
+<p>All AP transactions are subject to internal and external audit. Maintain documentation sufficient to recreate any transaction from invoice receipt through payment.</p>
+<h2 id="161-document-retention">16.1 Document Retention</h2>
+<p>Retain all AP records (invoices, POs, approvals, payment confirmations, vendor correspondence) for 7 years from the date of transaction. Records for the current year and prior year must be available electronically. Older records may be archived.</p>
+<h2 id="162-audit-hold-audit-status">16.2 Audit Hold (AUDIT Status)</h2>
+<p>If Internal Audit or the Controller places an invoice on AUDIT hold, the following rules apply:</p>
+<ol>
+<li>Do NOT process payment under any circumstances, even if the vendor threatens legal action. 2. Do NOT contact the vendor about the hold. 3. Do NOT modify any records related to the invoice. 4. Direct all inquiries about the invoice to the Controller. 5. Post to #ap-escalations: AUDIT HOLD APPLIED: [VENDOR NAME], [VENDOR ID], Invoice [INVOICE NUMBER], Applied by [NAME]</li>
+</ol>
+<p>Only the Controller or CFO may release an AUDIT hold.</p>
+<h2 id="appendix-a-additional-email-templates">Appendix A: Additional Email Templates</h2>
+<p>The following email templates supplement the procedures described in the main SOP. All emails must be sent using the exact format shown below. Do not modify the subject lines or omit any required fields.</p>
+<h3 id="expired-recurring-agreement-notification-section-54">Expired Recurring Agreement Notification (Section 5.4)</h3>
+<p><strong>To:</strong> [Approving Manager from recurring_agreements.xlsx]</p>
+<p><strong>CC:</strong> ap@meridianpartners.com</p>
+<p><strong>Subject:</strong> Meridian Partners - Expired Recurring Agreement - [VENDOR NAME] - Invoice [INVOICE NUMBER]</p>
+<p><strong>Body (use verbatim):</strong></p>
+<p><em>Dear [Approving Manager Name],</em></p>
+<p><em>A recurring invoice has been received for a vendor whose agreement has expired. The invoice has been placed on APPR hold and cannot be processed until the agreement is renewed or confirmed.</em></p>
+<p><em>Vendor: [VENDOR NAME] ([VENDOR ID]). Invoice: [INVOICE NUMBER], dated [INVOICE DATE]. Amount: $[AMOUNT]. Service Description: [SERVICE DESCRIPTION]. GL Code: [GL CODE]. Agreement Expiration Date: [EXPIRATION DATE].</em></p>
+<p><em>Please reply RENEWED or TERMINATED within 5 business days. If renewed, provide the new expiration date so we can update recurring_agreements.xlsx. If no response is received within 5 business days, the invoice will remain on hold and the vendor will be notified of the delay.</em></p>
+<p><em>Thank you,</em></p>
+<p><em>Meridian Partners Accounts Payable</em></p>
+<h2 id="appendix-b-slack-message-templates">Appendix B: Slack Message Templates</h2>
+<p>The following Slack message templates supplement the formats defined in Section 13.3.</p>
+<h3 id="ap-clerk-self-approval-confirmation-section-71">AP Clerk Self-Approval Confirmation (Section 7.1)</h3>
+<p><strong>Channel:</strong> #ap-approvals</p>
+<p><strong>Posted By:</strong> AP Clerk (after three-way match)</p>
+<p><strong>When to Post:</strong> Immediately after self-approving any invoice in the $0.01 – $2,500 tier</p>
+<p><strong>Message Format:</strong></p>
+<p><strong>SELF-APPROVED: [VENDOR NAME], [VENDOR ID], Invoice [INVOICE NUMBER], Amount $[AMOUNT], PO [PO NUMBER], Match Status: PASS, Approved by [AP CLERK NAME]</strong></p>
+</body></html>

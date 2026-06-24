@@ -1,0 +1,1 @@
+You are acting as a junior operations analyst at Vanguard Shield Mutual. Complete the Q1 '26 international wire transfer dual-authorization audit, strictly following high-risk wire transfer auditing instructions in SOP.pdf.

@@ -1,0 +1,766 @@
+{
+  "products": {
+    "gid://shopify/Product/1001": {
+      "id": "gid://shopify/Product/1001",
+      "title": "VSM Branded Notebook Set (12-pack)",
+      "description": "Professional notebook set featuring VSM branding. Perfect for client meetings, internal use, or corporate gifts. Includes 12 high-quality notebooks with the Vanguard Shield logo.",
+      "descriptionHtml": "<p>Professional notebook set featuring VSM branding. Perfect for client meetings, internal use, or corporate gifts. Includes 12 high-quality notebooks with the Vanguard Shield logo.</p>",
+      "handle": "vsm-branded-notebook-set-12-pack",
+      "productType": "Branded Merchandise",
+      "vendor": "VSM Print Shop",
+      "tags": [
+        "branded",
+        "notebook",
+        "corporate",
+        "bulk",
+        "merchandise"
+      ],
+      "availableForSale": true,
+      "priceRange": {
+        "minVariantPrice": {
+          "amount": "48.00",
+          "currencyCode": "USD"
+        },
+        "maxVariantPrice": {
+          "amount": "48.00",
+          "currencyCode": "USD"
+        }
+      },
+      "featuredImage": {
+        "id": "gid://shopify/Image/1001",
+        "url": "https://store.vanguardshield.com/images/notebook-set.jpg",
+        "altText": "VSM Branded Notebook Set (12-pack)",
+        "width": 800,
+        "height": 800
+      },
+      "images": [
+        {
+          "id": "gid://shopify/Image/1001",
+          "url": "https://store.vanguardshield.com/images/notebook-set.jpg",
+          "altText": "VSM Branded Notebook Set (12-pack)",
+          "width": 800,
+          "height": 800
+        }
+      ],
+      "options": [
+        {
+          "id": "opt1001",
+          "name": "Title",
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/1001",
+          "title": "Default Title",
+          "price": {
+            "amount": "48.00",
+            "currencyCode": "USD"
+          },
+          "availableForSale": true,
+          "sku": "BRNB-12PK",
+          "selectedOptions": [
+            {
+              "name": "Title",
+              "value": "Default Title"
+            }
+          ],
+          "quantityAvailable": 250,
+          "requiresShipping": true,
+          "taxable": false
+        }
+      ],
+      "createdAt": "2026-01-15T10:00:00.000000Z",
+      "updatedAt": "2026-09-20T14:30:00.000000Z",
+      "publishedAt": "2026-01-15T10:00:00.000000Z",
+      "totalInventory": 250
+    },
+    "gid://shopify/Product/1002": {
+      "id": "gid://shopify/Product/1002",
+      "title": "Client Gift Set \u2014 Standard Edition",
+      "description": "Curated gift set for valued clients. Includes VSM branded pen, notebook, water bottle, and premium gift packaging. Ideal for client appreciation and business development.",
+      "descriptionHtml": "<p>Curated gift set for valued clients. Includes VSM branded pen, notebook, water bottle, and premium gift packaging. Ideal for client appreciation and business development.</p>",
+      "handle": "client-gift-set-standard-edition",
+      "productType": "Client Gift",
+      "vendor": "VSM Print Shop",
+      "tags": [
+        "client gift",
+        "corporate gift",
+        "standard",
+        "branded"
+      ],
+      "availableForSale": true,
+      "priceRange": {
+        "minVariantPrice": {
+          "amount": "95.00",
+          "currencyCode": "USD"
+        },
+        "maxVariantPrice": {
+          "amount": "95.00",
+          "currencyCode": "USD"
+        }
+      },
+      "featuredImage": {
+        "id": "gid://shopify/Image/1002",
+        "url": "https://store.vanguardshield.com/images/gift-set-standard.jpg",
+        "altText": "Client Gift Set \u2014 Standard Edition",
+        "width": 800,
+        "height": 800
+      },
+      "images": [
+        {
+          "id": "gid://shopify/Image/1002",
+          "url": "https://store.vanguardshield.com/images/gift-set-standard.jpg",
+          "altText": "Client Gift Set \u2014 Standard Edition",
+          "width": 800,
+          "height": 800
+        }
+      ],
+      "options": [
+        {
+          "id": "opt1002",
+          "name": "Title",
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/1002",
+          "title": "Default Title",
+          "price": {
+            "amount": "95.00",
+            "currencyCode": "USD"
+          },
+          "availableForSale": true,
+          "sku": "CGSP-STD",
+          "selectedOptions": [
+            {
+              "name": "Title",
+              "value": "Default Title"
+            }
+          ],
+          "quantityAvailable": 120,
+          "requiresShipping": true,
+          "taxable": false
+        }
+      ],
+      "createdAt": "2026-01-15T10:00:00.000000Z",
+      "updatedAt": "2026-09-28T16:20:00.000000Z",
+      "publishedAt": "2026-01-15T10:00:00.000000Z",
+      "totalInventory": 120
+    },
+    "gid://shopify/Product/1003": {
+      "id": "gid://shopify/Product/1003",
+      "title": "Client Gift Set \u2014 Premium Edition",
+      "description": "Our finest client gift set. Includes VSM branded leather portfolio, premium pen set, executive notebook, water bottle, and luxury gift packaging. Perfect for top-tier clients and special occasions.",
+      "descriptionHtml": "<p>Our finest client gift set. Includes VSM branded leather portfolio, premium pen set, executive notebook, water bottle, and luxury gift packaging. Perfect for top-tier clients and special occasions.</p>",
+      "handle": "client-gift-set-premium-edition",
+      "productType": "Client Gift",
+      "vendor": "VSM Print Shop",
+      "tags": [
+        "client gift",
+        "corporate gift",
+        "premium",
+        "executive",
+        "branded"
+      ],
+      "availableForSale": true,
+      "priceRange": {
+        "minVariantPrice": {
+          "amount": "175.00",
+          "currencyCode": "USD"
+        },
+        "maxVariantPrice": {
+          "amount": "175.00",
+          "currencyCode": "USD"
+        }
+      },
+      "featuredImage": {
+        "id": "gid://shopify/Image/1003",
+        "url": "https://store.vanguardshield.com/images/gift-set-premium.jpg",
+        "altText": "Client Gift Set \u2014 Premium Edition",
+        "width": 800,
+        "height": 800
+      },
+      "images": [
+        {
+          "id": "gid://shopify/Image/1003",
+          "url": "https://store.vanguardshield.com/images/gift-set-premium.jpg",
+          "altText": "Client Gift Set \u2014 Premium Edition",
+          "width": 800,
+          "height": 800
+        }
+      ],
+      "options": [
+        {
+          "id": "opt1003",
+          "name": "Title",
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/1003",
+          "title": "Default Title",
+          "price": {
+            "amount": "175.00",
+            "currencyCode": "USD"
+          },
+          "availableForSale": true,
+          "sku": "CGSP-PREM",
+          "selectedOptions": [
+            {
+              "name": "Title",
+              "value": "Default Title"
+            }
+          ],
+          "quantityAvailable": 85,
+          "requiresShipping": true,
+          "taxable": false
+        }
+      ],
+      "createdAt": "2026-01-15T10:00:00.000000Z",
+      "updatedAt": "2026-10-04T18:23:00.000000Z",
+      "publishedAt": "2026-01-15T10:00:00.000000Z",
+      "totalInventory": 85
+    },
+    "gid://shopify/Product/1004": {
+      "id": "gid://shopify/Product/1004",
+      "title": "VSM Branded Water Bottle (single)",
+      "description": "High-quality stainless steel water bottle with VSM logo. Keeps beverages cold for 24 hours or hot for 12 hours. Perfect for daily use or as a gift item.",
+      "descriptionHtml": "<p>High-quality stainless steel water bottle with VSM logo. Keeps beverages cold for 24 hours or hot for 12 hours. Perfect for daily use or as a gift item.</p>",
+      "handle": "vsm-branded-water-bottle-single",
+      "productType": "Branded Merchandise",
+      "vendor": "VSM Print Shop",
+      "tags": [
+        "branded",
+        "water bottle",
+        "merchandise",
+        "drinkware"
+      ],
+      "availableForSale": true,
+      "priceRange": {
+        "minVariantPrice": {
+          "amount": "12.00",
+          "currencyCode": "USD"
+        },
+        "maxVariantPrice": {
+          "amount": "12.00",
+          "currencyCode": "USD"
+        }
+      },
+      "featuredImage": {
+        "id": "gid://shopify/Image/1004",
+        "url": "https://store.vanguardshield.com/images/water-bottle.jpg",
+        "altText": "VSM Branded Water Bottle",
+        "width": 800,
+        "height": 800
+      },
+      "images": [
+        {
+          "id": "gid://shopify/Image/1004",
+          "url": "https://store.vanguardshield.com/images/water-bottle.jpg",
+          "altText": "VSM Branded Water Bottle",
+          "width": 800,
+          "height": 800
+        }
+      ],
+      "options": [
+        {
+          "id": "opt1004",
+          "name": "Title",
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/1004",
+          "title": "Default Title",
+          "price": {
+            "amount": "12.00",
+            "currencyCode": "USD"
+          },
+          "availableForSale": true,
+          "sku": "BRNW-BTLS",
+          "selectedOptions": [
+            {
+              "name": "Title",
+              "value": "Default Title"
+            }
+          ],
+          "quantityAvailable": 500,
+          "requiresShipping": true,
+          "taxable": false
+        }
+      ],
+      "createdAt": "2026-01-15T10:00:00.000000Z",
+      "updatedAt": "2026-09-19T11:45:00.000000Z",
+      "publishedAt": "2026-01-15T10:00:00.000000Z",
+      "totalInventory": 500
+    },
+    "gid://shopify/Product/1005": {
+      "id": "gid://shopify/Product/1005",
+      "title": "VSM Branded Pen & Portfolio Set",
+      "description": "Professional portfolio with VSM branding and matching pen. Features document pockets, card slots, and notepad. Ideal for client meetings and professional presentations.",
+      "descriptionHtml": "<p>Professional portfolio with VSM branding and matching pen. Features document pockets, card slots, and notepad. Ideal for client meetings and professional presentations.</p>",
+      "handle": "vsm-branded-pen-portfolio-set",
+      "productType": "Branded Merchandise",
+      "vendor": "VSM Print Shop",
+      "tags": [
+        "branded",
+        "portfolio",
+        "pen",
+        "professional",
+        "merchandise"
+      ],
+      "availableForSale": true,
+      "priceRange": {
+        "minVariantPrice": {
+          "amount": "28.00",
+          "currencyCode": "USD"
+        },
+        "maxVariantPrice": {
+          "amount": "28.00",
+          "currencyCode": "USD"
+        }
+      },
+      "featuredImage": {
+        "id": "gid://shopify/Image/1005",
+        "url": "https://store.vanguardshield.com/images/pen-portfolio-set.jpg",
+        "altText": "VSM Branded Pen & Portfolio Set",
+        "width": 800,
+        "height": 800
+      },
+      "images": [
+        {
+          "id": "gid://shopify/Image/1005",
+          "url": "https://store.vanguardshield.com/images/pen-portfolio-set.jpg",
+          "altText": "VSM Branded Pen & Portfolio Set",
+          "width": 800,
+          "height": 800
+        }
+      ],
+      "options": [
+        {
+          "id": "opt1005",
+          "name": "Title",
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/1005",
+          "title": "Default Title",
+          "price": {
+            "amount": "28.00",
+            "currencyCode": "USD"
+          },
+          "availableForSale": true,
+          "sku": "BRNP-PORT",
+          "selectedOptions": [
+            {
+              "name": "Title",
+              "value": "Default Title"
+            }
+          ],
+          "quantityAvailable": 175,
+          "requiresShipping": true,
+          "taxable": false
+        }
+      ],
+      "createdAt": "2026-01-15T10:00:00.000000Z",
+      "updatedAt": "2026-09-15T15:20:00.000000Z",
+      "publishedAt": "2026-01-15T10:00:00.000000Z",
+      "totalInventory": 175
+    },
+    "gid://shopify/Product/1006": {
+      "id": "gid://shopify/Product/1006",
+      "title": "Conference Table Banner (retractable)",
+      "description": "Professional retractable banner featuring VSM branding. Easy to set up and transport. Perfect for conferences, trade shows, and corporate events. Includes carrying case.",
+      "descriptionHtml": "<p>Professional retractable banner featuring VSM branding. Easy to set up and transport. Perfect for conferences, trade shows, and corporate events. Includes carrying case.</p>",
+      "handle": "conference-table-banner-retractable",
+      "productType": "Conference Materials",
+      "vendor": "VSM Print Shop",
+      "tags": [
+        "conference",
+        "banner",
+        "event",
+        "display",
+        "marketing"
+      ],
+      "availableForSale": true,
+      "priceRange": {
+        "minVariantPrice": {
+          "amount": "85.00",
+          "currencyCode": "USD"
+        },
+        "maxVariantPrice": {
+          "amount": "85.00",
+          "currencyCode": "USD"
+        }
+      },
+      "featuredImage": {
+        "id": "gid://shopify/Image/1006",
+        "url": "https://store.vanguardshield.com/images/conference-banner.jpg",
+        "altText": "Conference Table Banner (retractable)",
+        "width": 800,
+        "height": 800
+      },
+      "images": [
+        {
+          "id": "gid://shopify/Image/1006",
+          "url": "https://store.vanguardshield.com/images/conference-banner.jpg",
+          "altText": "Conference Table Banner (retractable)",
+          "width": 800,
+          "height": 800
+        }
+      ],
+      "options": [
+        {
+          "id": "opt1006",
+          "name": "Title",
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/1006",
+          "title": "Default Title",
+          "price": {
+            "amount": "85.00",
+            "currencyCode": "USD"
+          },
+          "availableForSale": true,
+          "sku": "CONF-BNRR",
+          "selectedOptions": [
+            {
+              "name": "Title",
+              "value": "Default Title"
+            }
+          ],
+          "quantityAvailable": 45,
+          "requiresShipping": true,
+          "taxable": false
+        }
+      ],
+      "createdAt": "2026-01-15T10:00:00.000000Z",
+      "updatedAt": "2026-09-30T13:40:00.000000Z",
+      "publishedAt": "2026-01-15T10:00:00.000000Z",
+      "totalInventory": 45
+    }
+  },
+  "carts": {
+    "gid://shopify/Cart/c1001": {
+      "id": "gid://shopify/Cart/c1001",
+      "checkoutUrl": "https://store.vanguardshield.com/checkout/c1001",
+      "createdAt": "2026-10-10T10:15:30.000000Z",
+      "updatedAt": "2026-10-10T10:18:45.000000Z",
+      "lines": [
+        {
+          "id": "gid://shopify/CartLine/2001",
+          "quantity": 2,
+          "merchandise": {
+            "id": "gid://shopify/ProductVariant/1002",
+            "title": "Default Title",
+            "product": {
+              "id": "gid://shopify/Product/1002",
+              "title": "Client Gift Set \u2014 Standard Edition",
+              "handle": "client-gift-set-standard-edition"
+            },
+            "image": null,
+            "selectedOptions": [
+              {
+                "name": "Title",
+                "value": "Default Title"
+              }
+            ],
+            "price": {
+              "amount": "95.00",
+              "currencyCode": "USD"
+            }
+          },
+          "cost": {
+            "amountPerQuantity": {
+              "amount": "95.00",
+              "currencyCode": "USD"
+            },
+            "compareAtAmountPerQuantity": null,
+            "subtotalAmount": {
+              "amount": "190.00",
+              "currencyCode": "USD"
+            },
+            "totalAmount": {
+              "amount": "190.00",
+              "currencyCode": "USD"
+            }
+          },
+          "attributes": [],
+          "discountAllocations": []
+        },
+        {
+          "id": "gid://shopify/CartLine/2002",
+          "quantity": 5,
+          "merchandise": {
+            "id": "gid://shopify/ProductVariant/1004",
+            "title": "Default Title",
+            "product": {
+              "id": "gid://shopify/Product/1004",
+              "title": "VSM Branded Water Bottle (single)",
+              "handle": "vsm-branded-water-bottle-single"
+            },
+            "image": null,
+            "selectedOptions": [
+              {
+                "name": "Title",
+                "value": "Default Title"
+              }
+            ],
+            "price": {
+              "amount": "12.00",
+              "currencyCode": "USD"
+            }
+          },
+          "cost": {
+            "amountPerQuantity": {
+              "amount": "12.00",
+              "currencyCode": "USD"
+            },
+            "compareAtAmountPerQuantity": null,
+            "subtotalAmount": {
+              "amount": "60.00",
+              "currencyCode": "USD"
+            },
+            "totalAmount": {
+              "amount": "60.00",
+              "currencyCode": "USD"
+            }
+          },
+          "attributes": [],
+          "discountAllocations": []
+        }
+      ],
+      "cost": {
+        "subtotalAmount": {
+          "amount": "250.00",
+          "currencyCode": "USD"
+        },
+        "subtotalAmountEstimated": false,
+        "totalAmount": {
+          "amount": "250.00",
+          "currencyCode": "USD"
+        },
+        "totalAmountEstimated": false,
+        "totalTaxAmount": null,
+        "totalTaxAmountEstimated": false,
+        "checkoutChargeAmount": {
+          "amount": "250.00",
+          "currencyCode": "USD"
+        }
+      },
+      "buyerIdentity": {
+        "email": "m.richardson@vanguardshield.com",
+        "countryCode": "US"
+      },
+      "attributes": [
+        {
+          "key": "department",
+          "value": "Sales - Northeast Region"
+        }
+      ],
+      "discountCodes": [],
+      "discountAllocations": [],
+      "appliedGiftCards": [],
+      "deliveryGroups": [],
+      "note": "For upcoming client meetings in Q4",
+      "totalQuantity": 7
+    }
+  },
+  "policies": [
+    {
+      "id": "gid://shopify/ShopPolicy/1",
+      "title": "Internal Ordering Policy",
+      "body": "<h2>VSM Internal Store Ordering Policy</h2><p>This store is exclusively for Vanguard Shield Mutual employees ordering branded merchandise, client gifts, and conference materials.</p><h3>Eligibility</h3><p>All VSM employees with valid employee IDs may place orders. Orders must be approved by department managers for quantities exceeding standard limits.</p><h3>Approval Requirements</h3><ul><li>Standard merchandise (under $100): No approval needed</li><li>Client gifts ($100-$500): Manager approval required</li><li>Bulk orders or premium gifts (over $500): Director approval required</li></ul><h3>Shipping</h3><p>Orders ship to VSM office locations or approved conference venues only. Allow 5-7 business days for standard delivery. Rush orders available with manager approval.</p><h3>Billing</h3><p>All orders are billed to department cost centers. Ensure accurate department coding during checkout.</p>",
+      "url": "https://store.vanguardshield.com/policies/ordering"
+    },
+    {
+      "id": "gid://shopify/ShopPolicy/2",
+      "title": "Returns and Exchanges",
+      "body": "<h2>Returns and Exchanges</h2><p>We accept returns on unused, unopened items within 30 days of delivery.</p><h3>Return Process</h3><ol><li>Contact store-admin@vanguardshield.com with your order number</li><li>Receive return authorization and shipping label</li><li>Package items securely and ship within 7 days</li></ol><h3>Non-Returnable Items</h3><ul><li>Personalized or custom-ordered items</li><li>Items ordered for specific conferences or events (within 14 days of event)</li><li>Opened client gift sets</li></ul><h3>Exchanges</h3><p>Defective items may be exchanged at any time. Contact us immediately if you receive damaged or incorrect merchandise.</p>",
+      "url": "https://store.vanguardshield.com/policies/returns"
+    },
+    {
+      "id": "gid://shopify/ShopPolicy/3",
+      "title": "Client Gift Guidelines",
+      "body": "<h2>Client Gift Guidelines</h2><p>VSM client gifts are designed to strengthen relationships while adhering to industry compliance standards.</p><h3>Gift Value Limits</h3><p>Standard Edition gifts are appropriate for routine client appreciation. Premium Edition gifts require Regional Director approval and are reserved for:</p><ul><li>Key account milestones (10+ year relationships)</li><li>Significant new business partnerships</li><li>Executive-level relationship building</li></ul><h3>Compliance</h3><p>All gifts must comply with recipient organization policies. Sales teams are responsible for verifying gift acceptance policies before ordering. Gifts to government or regulated entity employees may require additional approval.</p><h3>Documentation</h3><p>Retain order confirmations for expense reporting. Client gift expenses are tracked by the Finance team for compliance reporting.</p>",
+      "url": "https://store.vanguardshield.com/policies/client-gifts"
+    },
+    {
+      "id": "gid://shopify/ShopPolicy/4",
+      "title": "Frequently Asked Questions",
+      "body": "<h2>Frequently Asked Questions</h2><h3>How do I place an order?</h3><p>Browse products, add items to your cart, and complete checkout. Use your VSM email address and ensure department information is accurate for billing purposes.</p><h3>Can I ship to my home address?</h3><p>No. All orders must ship to VSM office locations or approved business venues. Contact store-admin@vanguardshield.com for special shipping requests.</p><h3>How long does shipping take?</h3><p>Standard shipping is 5-7 business days. Rush delivery (2-3 days) is available with manager approval for urgent orders.</p><h3>What if I need a product not listed in the store?</h3><p>Contact the VSM Print Shop team at store-admin@vanguardshield.com to discuss custom merchandise or special orders. Custom orders require 3-4 weeks lead time.</p><h3>Can I order in bulk?</h3><p>Yes. Bulk orders (20+ units) may qualify for volume discounts. Contact store-admin@vanguardshield.com for pricing and availability.</p><h3>Who do I contact with questions?</h3><p>Email store-admin@vanguardshield.com or call the Print Shop at extension 5500 during business hours (Monday-Friday, 8:00 AM - 5:00 PM ET).</p>",
+      "url": "https://store.vanguardshield.com/policies/faq"
+    }
+  ],
+  "counters": {
+    "cart_id": 1001,
+    "line_id": 2002
+  },
+  "orders": {
+    "gid://shopify/Order/5001": {
+      "id": "gid://shopify/Order/5001",
+      "name": "#VSM-5001",
+      "createdAt": "2026-10-04T10:22:00.000000Z",
+      "updatedAt": "2026-10-04T10:22:00.000000Z",
+      "fulfillmentStatus": "FULFILLED",
+      "financialStatus": "PAID",
+      "totalPriceSet": {
+        "shopMoney": {
+          "amount": "175.00",
+          "currencyCode": "USD"
+        }
+      },
+      "customer": {
+        "email": "v.frost@vanguardshield.com",
+        "firstName": "Vanessa",
+        "lastName": "Frost",
+        "displayName": "Vanessa Frost"
+      },
+      "lineItems": [
+        {
+          "title": "Client Gift Set \u2014 Premium Edition",
+          "quantity": 1,
+          "variant": {
+            "id": "gid://shopify/ProductVariant/1003",
+            "title": "Default Title",
+            "sku": "CGSP-PREM",
+            "price": {
+              "amount": "175.00",
+              "currencyCode": "USD"
+            }
+          },
+          "originalTotalSet": {
+            "shopMoney": {
+              "amount": "175.00",
+              "currencyCode": "USD"
+            }
+          },
+          "id": "gid://shopify/ProductVariant/1003",
+          "price": {
+            "amount": "175.00",
+            "currencyCode": "USD"
+          },
+          "totalPrice": {
+            "amount": "175.00",
+            "currencyCode": "USD"
+          }
+        }
+      ],
+      "note": "Q4 client engagement \u2014 Meridian Solutions account",
+      "tags": [
+        "sales-east",
+        "client-gift"
+      ],
+      "shippingAddress": {
+        "address1": "100 Pearl St",
+        "city": "Hartford",
+        "province": "Connecticut",
+        "provinceCode": "CT",
+        "zip": "06103",
+        "country": "United States",
+        "countryCodeV2": "US"
+      },
+      "subtotalPrice": {
+        "amount": "175.00",
+        "currencyCode": "USD"
+      },
+      "totalPrice": {
+        "amount": "175.00",
+        "currencyCode": "USD"
+      }
+    },
+    "gid://shopify/Order/5002": {
+      "id": "gid://shopify/Order/5002",
+      "name": "#VSM-5002",
+      "createdAt": "2026-09-15T14:08:00.000000Z",
+      "updatedAt": "2026-09-15T14:08:00.000000Z",
+      "fulfillmentStatus": "FULFILLED",
+      "financialStatus": "PAID",
+      "totalPriceSet": {
+        "shopMoney": {
+          "amount": "48.00",
+          "currencyCode": "USD"
+        }
+      },
+      "customer": {
+        "email": "j.calloway@vanguardshield.com",
+        "firstName": "James",
+        "lastName": "Calloway",
+        "displayName": "James Calloway"
+      },
+      "lineItems": [
+        {
+          "title": "VSM Branded Notebook Set (12-pack)",
+          "quantity": 1,
+          "variant": {
+            "id": "gid://shopify/ProductVariant/1001",
+            "title": "Default Title",
+            "sku": "BRNB-12PK",
+            "price": {
+              "amount": "48.00",
+              "currencyCode": "USD"
+            }
+          },
+          "originalTotalSet": {
+            "shopMoney": {
+              "amount": "48.00",
+              "currencyCode": "USD"
+            }
+          },
+          "id": "gid://shopify/ProductVariant/1001",
+          "price": {
+            "amount": "48.00",
+            "currencyCode": "USD"
+          },
+          "totalPrice": {
+            "amount": "48.00",
+            "currencyCode": "USD"
+          }
+        }
+      ],
+      "note": "Client gifts for Pacific Ventures meetings",
+      "tags": [
+        "sales-west",
+        "branded-merch"
+      ],
+      "shippingAddress": {
+        "address1": "350 Mission St",
+        "city": "San Francisco",
+        "province": "California",
+        "provinceCode": "CA",
+        "zip": "94105",
+        "country": "United States",
+        "countryCodeV2": "US"
+      },
+      "subtotalPrice": {
+        "amount": "48.00",
+        "currencyCode": "USD"
+      },
+      "totalPrice": {
+        "amount": "48.00",
+        "currencyCode": "USD"
+      }
+    }
+  }
+}

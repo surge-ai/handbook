@@ -1,0 +1,313 @@
+{
+  "users": {
+    "U001": {
+      "id": "U001",
+      "team_id": "T001",
+      "name": "thomas.breck",
+      "deleted": false,
+      "real_name": "Thomas Breck",
+      "profile": {
+        "real_name": "Thomas Breck",
+        "display_name": "thomas.breck",
+        "email": "thomas.breck@vanguardshield.com",
+        "title": "Treasury Operations Analyst"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U002": {
+      "id": "U002",
+      "team_id": "T001",
+      "name": "claire.overton",
+      "deleted": false,
+      "real_name": "Claire Overton",
+      "profile": {
+        "real_name": "Claire Overton",
+        "display_name": "claire.overton",
+        "email": "claire.overton@vanguardshield.com",
+        "title": "VP, Treasury Operations"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U003": {
+      "id": "U003",
+      "team_id": "T001",
+      "name": "rachel.kim",
+      "deleted": false,
+      "real_name": "Rachel Kim",
+      "profile": {
+        "real_name": "Rachel Kim",
+        "display_name": "rachel.kim",
+        "email": "rachel.kim@vanguardshield.com",
+        "title": "Chief Financial Officer"
+      },
+      "is_admin": true,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U004": {
+      "id": "U004",
+      "team_id": "T001",
+      "name": "peter.walsh",
+      "deleted": false,
+      "real_name": "Peter Walsh",
+      "profile": {
+        "real_name": "Peter Walsh",
+        "display_name": "peter.walsh",
+        "email": "peter.walsh@vanguardshield.com",
+        "title": "EVP, Corporate Finance"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U005": {
+      "id": "U005",
+      "team_id": "T001",
+      "name": "nadine.cole",
+      "deleted": false,
+      "real_name": "Nadine Cole",
+      "profile": {
+        "real_name": "Nadine Cole",
+        "display_name": "nadine.cole",
+        "email": "nadine.cole@vanguardshield.com",
+        "title": "AVP, Enterprise Risk"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U006": {
+      "id": "U006",
+      "team_id": "T001",
+      "name": "steven.ford",
+      "deleted": false,
+      "real_name": "Steven Ford",
+      "profile": {
+        "real_name": "Steven Ford",
+        "display_name": "steven.ford",
+        "email": "steven.ford@vanguardshield.com",
+        "title": "Chief Operating Officer"
+      },
+      "is_admin": true,
+      "is_owner": true,
+      "is_bot": false
+    }
+  },
+  "channels": {
+    "C001": {
+      "id": "C001",
+      "name": "treasury-wires",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1609459200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "treasury-wires",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1609459200,
+      "creator": "U006",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Wire transfer approval workflow",
+        "creator": "U006",
+        "last_set": 1609459200
+      },
+      "purpose": {
+        "value": "Channel for wire transfer submissions and approvals per corporate policy",
+        "creator": "U006",
+        "last_set": 1609459200
+      }
+    },
+    "C002": {
+      "id": "C002",
+      "name": "compliance-urgent",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1609459200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "compliance-urgent",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1609459200,
+      "creator": "U006",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Urgent compliance alerts and escalations",
+        "creator": "U006",
+        "last_set": 1609459200
+      },
+      "purpose": {
+        "value": "High-priority compliance notifications requiring immediate attention",
+        "creator": "U006",
+        "last_set": 1609459200
+      }
+    }
+  },
+  "messages": {
+    "C001": [
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Wire submitted for processing. Wire ID: INTL-2026-0214. Payee: Pemberton Global Reinsurance Ltd. Amount: $445,000.00. Please review and approve per policy. Jira: <https://vanguardshield.atlassian.net/browse/OPS-1|OPS-1>",
+        "ts": "1772528400.000100",
+        "team": "T001",
+        "channel": "C001",
+        "reply_count": 2,
+        "latest_reply": "1772529600.000300",
+        "reply_users": [
+          "U002",
+          "U003"
+        ],
+        "reply_users_count": 2
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Approved.",
+        "ts": "1772529000.000200",
+        "thread_ts": "1772528400.000100",
+        "parent_user_id": "U001",
+        "team": "T001",
+        "channel": "C001"
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "Approved.",
+        "ts": "1772529600.000300",
+        "thread_ts": "1772528400.000100",
+        "parent_user_id": "U001",
+        "team": "T001",
+        "channel": "C001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Wire submitted for processing. Wire ID: INTL-2026-0219. Payee: Heckmann Actuarial Partners GmbH. Amount: $178,500.00. Please review and approve per policy. Jira: OPS-2",
+        "ts": "1773133200.000400",
+        "team": "T001",
+        "channel": "C001",
+        "reply_count": 2,
+        "latest_reply": "1773134400.000600",
+        "reply_users": [
+          "U004",
+          "U005"
+        ],
+        "reply_users_count": 2
+      },
+      {
+        "type": "message",
+        "user": "U004",
+        "text": "Approved.",
+        "ts": "1773133800.000500",
+        "thread_ts": "1773133200.000400",
+        "parent_user_id": "U001",
+        "team": "T001",
+        "channel": "C001"
+      },
+      {
+        "type": "message",
+        "user": "U005",
+        "text": "Approved.",
+        "ts": "1773134400.000600",
+        "thread_ts": "1773133200.000400",
+        "parent_user_id": "U001",
+        "team": "T001",
+        "channel": "C001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Wire submitted for processing. Wire ID: INTL-2026-0223. Payee: Langford Risk Solutions B.V. Amount: $623,000.00. Please review and approve per policy. Jira: <https://vanguardshield.atlassian.net/browse/OPS-3|OPS-3>",
+        "ts": "1773738000.000700",
+        "team": "T001",
+        "channel": "C001",
+        "reply_count": 2,
+        "latest_reply": "1773739200.000900",
+        "reply_users": [
+          "U002",
+          "U006"
+        ],
+        "reply_users_count": 2
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Approved.",
+        "ts": "1773738600.000800",
+        "thread_ts": "1773738000.000700",
+        "parent_user_id": "U001",
+        "team": "T001",
+        "channel": "C001"
+      },
+      {
+        "type": "message",
+        "user": "U006",
+        "text": "LGTM",
+        "ts": "1773739200.000900",
+        "thread_ts": "1773738000.000700",
+        "parent_user_id": "U001",
+        "team": "T001",
+        "channel": "C001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Wire submitted for processing. Wire ID: INTL-2026-0228. Payee: Carlisle Treaty Services S.A. Amount: $312,000.00. Please review and approve per policy. Jira: <https://vanguardshield.atlassian.net/browse/OPS-4|OPS-4>",
+        "ts": "1774342800.001000",
+        "team": "T001",
+        "channel": "C001",
+        "reply_count": 1,
+        "latest_reply": "1774343400.001100",
+        "reply_users": [
+          "U002"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Approved.",
+        "ts": "1774343400.001100",
+        "thread_ts": "1774342800.001000",
+        "parent_user_id": "U001",
+        "team": "T001",
+        "channel": "C001"
+      }
+    ],
+    "C002": []
+  },
+  "counters": {
+    "messageId": 1000100
+  }
+}

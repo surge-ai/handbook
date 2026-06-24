@@ -1,0 +1,7 @@
+[Current date and time: 11/24/2026 14:21 CST]
+
+[Current user: James Reed, Coordonator]
+
+We’ve just had 3 transports arrive together, I want to make sure we can process, unload them and store before the end of the shift. Please take care of the standard one while I deal with the two hazard ones. Follow the procedures outline in Gear_Systems_Logistics_SOP. We’ve been waiting for the gear oil for a couple of weeks so I don’t want any unnecessary delays. 
+
+Use my name or contact info as needed, and if you need to fill in any free text fields that the SOP doesn’t already specify exact wording, write “Actioned per SOP protocol”. Also, if you are able to make the disposition decision, use exactly the current time (as of right now) for the corresponding timestamp.

@@ -1,0 +1,585 @@
+{
+  "events": {
+    "evt-001": {
+      "summary": "APPT-20260410-001 | Ridgeline Precision Axles | Dock 2",
+      "start": {
+        "dateTime": "2026-04-10T07:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-10T09:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Supplier: Ridgeline Precision Axles (SUP-0157) | Carrier: XPO Logistics\nPO: MER-PO-104799 | Expected weight: 2,840 lb\nSKUs: AX-05512-C1 (96 units), DS-41002-B3 (6 units) \u2014 Safety-critical\nStatus: Complete (actual arrival 07:18, departure 09:52)\nNotes: Clean receipt. COC and MTR verified. Heat# match.",
+      "location": "Dock 2, Gear Systems Inc., Meridian MS",
+      "id": "evt-001"
+    },
+    "evt-002": {
+      "summary": "APPT-20260411-001 | GreatLakes Transmission Parts | Dock 1",
+      "start": {
+        "dateTime": "2026-04-11T07:30:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-11T09:30:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Supplier: GreatLakes Transmission Parts (SUP-0089) | Carrier: FedEx Freight\nPO: MER-PO-104874 | Expected weight: 1,150 lb\nSKU: TR-67801-D1 \u2014 Safety-critical (partial shipment, 12 of 24 units)\nStatus: Complete (partial shipment per supplier split-ship notice)\nNotes: Balance 12 units due on MER-PO-104874 Line 001.",
+      "location": "Dock 1, Gear Systems Inc., Meridian MS",
+      "id": "evt-002"
+    },
+    "evt-003": {
+      "summary": "APPT-20260412-001 | Cascade Fastener Corp | Dock 3 [PROBATION SUPPLIER]",
+      "start": {
+        "dateTime": "2026-04-12T07:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-12T10:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Supplier: Cascade Fastener Corp (SUP-0051) \u2014 \u26a0 PROBATION STATUS | Carrier: Yellow Freight\nPO: MER-PO-104847 | Expected weight: 3,200 lb\nSKUs: FS-22801-A3 (500 SC bolts), FN-33102-B2 (1,000), FN-33105-B2 (1,000)\nStatus: Complete \u2014 100% inspection performed (Probation supplier)\nOutcome: Short ship \u221217 FS-22801-A3 (Band 1). NCR-MER-2026-0241 issued (Critical).",
+      "location": "Dock 3, Gear Systems Inc., Meridian MS",
+      "id": "evt-003"
+    },
+    "evt-004": {
+      "summary": "APPT-20260414-001 | Lakewood Precision Forgings | Dock 2 [DTL/SC]",
+      "start": {
+        "dateTime": "2026-04-14T06:30:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-14T08:30:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Supplier: Lakewood Precision Forgings (SUP-0012) | Carrier: XPO Logistics\nPO: MER-PO-104821 | Expected weight: 4,680 lb | 12 pallets\nSKUs: AX-04827-B2 (48), AX-05512-C1 (96), FG-91144-A1 (200) \u2014 Safety-critical AX/FG\n\u26a0 COC+MTR required per SOP Sec 12.5.1\nStatus: Complete \u2014 arrival 06:48\nOUTCOME: COC MISSING \u2192 full receipt QUARANTINED \u2192 NCR-MER-2026-0247 issued (CRITICAL)",
+      "location": "Dock 2, Gear Systems Inc., Meridian MS",
+      "id": "evt-004"
+    },
+    "evt-005": {
+      "summary": "APPT-20260414-002 | Hartwell Bearing Technologies | Dock 1",
+      "start": {
+        "dateTime": "2026-04-14T08:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-14T10:30:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Supplier: Hartwell Bearing Technologies (SUP-0034) | Carrier: Old Dominion\nPO: MER-PO-104835 | Expected weight: 1,920 lb\nSKUs: BG-33044-A1 (144 SC bearings), SL-10922-B1 (288 seals)\nStatus: Unloading \u2014 arrival 08:30\nOUTCOME: Tier 2 damage on 11/144 BG bearings \u2192 QUARANTINE \u2192 NCR-MER-2026-0248 (Major)\n         Over-ship +12 SL-10922-B1 (Band B) \u2192 NCR-MER-2026-0249 (Minor)",
+      "location": "Dock 1, Gear Systems Inc., Meridian MS",
+      "id": "evt-005"
+    },
+    "evt-006": {
+      "summary": "APPT-20260414-003 | Meridian Lube Supply | Dock 4 [HAZMAT UN1268 Class 3]",
+      "start": {
+        "dateTime": "2026-04-14T10:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-14T12:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Supplier: Meridian Lube Supply (SUP-0067) | Carrier: Local pickup\nPO: MER-PO-104862 | Expected weight: 2,200 lb\nSKU: LB-55001-A2 \u2014 4 \u00d7 220L drums | \u26a0 HAZMAT: UN1268, Class 3 Flammable Liquid, PG II\nRequirements: SDS Rev 4 on-site, EH&S Coordinator (Maribel Ortiz) present per SOP Sec 17.1\nNo open flames at Dock 4 during unloading.",
+      "location": "Dock 4, Gear Systems Inc., Meridian MS",
+      "id": "evt-006"
+    },
+    "evt-007": {
+      "summary": "APPT-20260414-004 | Lakewood \u2014 Direct-to-Line [DTL URGENT] | Dock 2",
+      "start": {
+        "dateTime": "2026-04-14T11:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-14T13:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Supplier: Lakewood Precision Forgings (SUP-0012) | Carrier: XPO Logistics\nPO: MER-PO-104918 | Expected weight: 1,380 lb\nSKU: AX-04827-B2 (24 units) \u2014 Safety-critical | \u26a0 DIRECT-TO-LINE per SOP Sec 18\nDeliver to Line 4 assembly station. Notify Production on arrival.\nNOTE: PO MER-PO-104918 placed on informal hold per Walter Finch (04/22) pending NCR-0247 resolution.",
+      "location": "Dock 2, Gear Systems Inc., Meridian MS",
+      "id": "evt-007"
+    },
+    "evt-008": {
+      "summary": "APPT-20260414-005 | Appalachian Seal & Gasket | Dock 3 [NEW SUPPLIER]",
+      "start": {
+        "dateTime": "2026-04-14T13:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-14T14:30:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Supplier: Appalachian Seal & Gasket (SUP-0118) \u2014 NEW SUPPLIER | Carrier: UPS Freight\nPO: MER-PO-104891 | Expected weight: 840 lb\nSKUs: SL-10955-A1 (120 seals), BG-33101-A1 (60 SC bearings \u2014 Theo Brandt SC approval on file)\n\u26a0 100% inspection required per SOP Sec 15.2.3\nOutcome: REC-20260414-005 \u2014 clean receipt, exact count, Tier 0, docs complete.",
+      "location": "Dock 3, Gear Systems Inc., Meridian MS",
+      "id": "evt-008"
+    },
+    "evt-009": {
+      "summary": "APPT-20260415-001 | Delta Metals & Alloys | Dock 1 [OVERSIZE/HEAVY \u2014 CRANE REQUIRED]",
+      "start": {
+        "dateTime": "2026-04-15T07:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-15T09:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Supplier: Delta Metals & Alloys (SUP-0129) | Carrier: Estes Express\nPO: MER-PO-104906 | Expected weight: 5,100 lb\nSKUs: AX-04901-B1 (36 SC axle housings), TR-67944-C2 (18 SC trans gears)\n\u26a0 OVERSIZE/HEAVY \u2014 crane required at Dock 1 per SOP Sec 17.2\nCrane operator: Mike Stills | Lift specs: 3 lifts, heaviest piece ~2,200 lb\nCrane pre-position: 06:45. Do not begin unloading without crane operator confirmed.",
+      "location": "Dock 1, Gear Systems Inc., Meridian MS",
+      "id": "evt-009"
+    },
+    "evt-010": {
+      "summary": "APPT-20260415-002 | GreatLakes Transmission \u2014 Balance Shipment | Dock 3",
+      "start": {
+        "dateTime": "2026-04-15T10:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-15T12:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Supplier: GreatLakes Transmission Parts (SUP-0089) | Carrier: FedEx Freight\nPO: MER-PO-104874 Line 001 | Expected weight: 980 lb\nSKU: TR-67801-D1 \u2014 balance 12 units (Safety-critical)\nNote: COC not yet received at time of scheduling. Closes NCR-MER-2026-0235 balance obligation.",
+      "location": "Dock 3, Gear Systems Inc., Meridian MS",
+      "id": "evt-010"
+    },
+    "evt-011": {
+      "summary": "APPT-20260416-001 | Lakewood Precision Forgings | Dock 2 [Placeholder]",
+      "start": {
+        "dateTime": "2026-04-16T08:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-16T10:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Supplier: Lakewood Precision Forgings (SUP-0012) | Carrier: XPO Logistics\nPO: Not yet confirmed \u2014 placeholder appointment\nNOTE: Informal hold in effect on all Lakewood new releases pending resolution of NCR-MER-2026-0247 (Critical, COC overdue).",
+      "location": "Dock 2, Gear Systems Inc., Meridian MS",
+      "id": "evt-011"
+    },
+    "evt-012": {
+      "summary": "NCR DEADLINE | NCR-MER-2026-0247 (CRITICAL) \u2014 Lakewood COC Due \u26a0 OVERDUE",
+      "start": {
+        "dateTime": "2026-04-21T17:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-21T17:30:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "NCR: NCR-MER-2026-0247 | Severity: CRITICAL | Type: Missing COC + Qty Short\nSupplier: Lakewood Precision Forgings (SUP-0012)\nPO: MER-PO-104821 | Receipt: REC-20260414-001\nSKUs: AX-04827-B2 (44 units), AX-05512-C1 (96), FG-91144-A1 (200) \u2014 all quarantined\nSOP Basis: Sec 12.5.1 \u2014 5 business days for missing COC on safety-critical receipt\n\u26a0 STATUS AS OF 04/23: COC NOT RECEIVED \u2014 OVERDUE (2 calendar days past deadline)\nEscalated to Elizabeth Velasquez + Walter Finch. Formal demand sent 04/23 07:00 CST.\nContact: Sandra Chu (s.chu@lakewoodprecision.com) | Mark Hendricks (m.hendricks@lakewoodprecision.com)",
+      "id": "evt-012"
+    },
+    "evt-013": {
+      "summary": "NCR DEADLINE | NCR-MER-2026-0248 (Major) \u2014 Hartwell Bearing Damage Response Due",
+      "start": {
+        "dateTime": "2026-04-28T17:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-28T17:30:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "NCR: NCR-MER-2026-0248 | Severity: Major | Type: Transit Damage (Tier 2)\nSupplier: Hartwell Bearing Technologies (SUP-0034)\nPO: MER-PO-104835 | Receipt: REC-20260414-002\nSKU: BG-33044-A1 \u2014 11 of 144 bearings with outer race impact dents\nSOP Basis: Sec 14.5 \u2014 10 business days for Major NCR\nHartwell CAR received 04/22 \u2014 OD freight claim filed (#ODG-2026-04812). Review in progress.\nQE: Theo Brandt | Contact: Lisa Okafor (l.okafor@hartwellbearing.com)",
+      "id": "evt-013"
+    },
+    "evt-014": {
+      "summary": "NCR DEADLINE | NCR-MER-2026-0241 (Critical) \u2014 Cascade Fastener FS Short Ship Response Due",
+      "start": {
+        "dateTime": "2026-05-02T17:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-05-02T17:30:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "NCR: NCR-MER-2026-0241 | Severity: Critical (SC floor + Probation +1 tier) | Type: Quantity Short\nSupplier: Cascade Fastener Corp (SUP-0051) \u2014 PROBATION\nPO: MER-PO-104847 | Receipt: REC-20260412-001\nSKU: FS-22801-A3 \u2014 483 received vs 500 ordered (\u221217 units, \u22123.4%)\n15 business days from issue date (04/13/2026) = due 05/02/2026\nBalance 17 units received 04/20 (REC-20260420-001). Awaiting formal CAR.\nReviewer: Joon-ho Park | Contact: Angela Metz (a.metz@cascadefastener.com)",
+      "id": "evt-014"
+    },
+    "evt-015": {
+      "summary": "NCR DEADLINE | NCR-MER-2026-0249 (Minor) \u2014 Hartwell Over-Ship Root Cause Response Due",
+      "start": {
+        "dateTime": "2026-05-05T17:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-05-05T17:30:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "NCR: NCR-MER-2026-0249 | Severity: Minor | Type: Quantity Over-ship Band B\nSupplier: Hartwell Bearing Technologies (SUP-0034)\nPO: MER-PO-104835 | Receipt: REC-20260414-002\nSKU: SL-10922-B1 \u2014 300 received vs 288 ordered (+12 excess)\nSOP Basis: Sec 14.5 \u2014 15 business days for Minor NCR\nMaterial disposition: ACCEPTED \u2014 Joon-ho Park authorized PO amendment 04/17. All 300 units in B-RCV-01.\nReviewer: Joon-ho Park | Contact: David Kowalski (d.kowalski@hartwellbearing.com)",
+      "id": "evt-015"
+    },
+    "evt-016": {
+      "summary": "NCR Issued: NCR-MER-2026-0247 (CRITICAL) \u2014 Lakewood Missing COC",
+      "start": {
+        "date": "2026-04-14"
+      },
+      "end": {
+        "date": "2026-04-15"
+      },
+      "description": "NCR-MER-2026-0247 issued by K. Whitfield. Critical severity.\nReceipt REC-20260414-001 quarantined (AX-04827-B2 x44, AX-05512-C1 x96, FG-91144-A1 x200).\nTemplate 10 formal notice sent to Lakewood Precision Forgings.",
+      "id": "evt-016"
+    },
+    "evt-017": {
+      "summary": "NCR Issued: NCR-MER-2026-0248 (Major) \u2014 Hartwell Tier 2 Damage",
+      "start": {
+        "date": "2026-04-14"
+      },
+      "end": {
+        "date": "2026-04-15"
+      },
+      "description": "NCR-MER-2026-0248 issued by K. Whitfield. Major severity.\n11 of 144 BG-33044-A1 bearings quarantined \u2014 outer race impact damage.\nTheo Brandt assigned for QE inspection.",
+      "id": "evt-017"
+    },
+    "evt-018": {
+      "summary": "NCR Issued: NCR-MER-2026-0249 (Minor) \u2014 Hartwell Over-Ship",
+      "start": {
+        "date": "2026-04-14"
+      },
+      "end": {
+        "date": "2026-04-15"
+      },
+      "description": "NCR-MER-2026-0249 issued. Minor severity.\n12 excess SL-10922-B1 units staged pending Procurement disposition.\nJoon-ho Park assigned.",
+      "id": "evt-018"
+    },
+    "evt-019": {
+      "summary": "NCR Issued: NCR-MER-2026-0241 (Critical) \u2014 Cascade Short-Ship FS [PROBATION]",
+      "start": {
+        "date": "2026-04-13"
+      },
+      "end": {
+        "date": "2026-04-14"
+      },
+      "description": "NCR-MER-2026-0241 issued. Critical severity (SC short ship floor = Major; Probation +1 tier = Critical per SOP Secs 14.3.3 and 15.2.2).\nShort ship \u221217 FS-22801-A3 safety-critical bolts. 100% inspection performed.\nCascade Fastener Corp on Probation status.",
+      "id": "evt-019"
+    },
+    "evt-020": {
+      "summary": "ESCALATION: NCR-MER-2026-0247 \u2014 Lakewood COC Deadline MISSED",
+      "start": {
+        "date": "2026-04-21"
+      },
+      "end": {
+        "date": "2026-04-22"
+      },
+      "description": "Lakewood Precision Forgings failed to provide COC by 17:00 CST deadline.\nNCR-MER-2026-0247 escalated per SOP Sec 14.6.2.\nElizabeth Velasquez escalated to Walter Finch. Joon-ho Park placed hold on new Lakewood PO releases.\nMaterial remains on Q-HOLD.",
+      "id": "evt-020"
+    },
+    "evt-021": {
+      "summary": "ESCALATION: NCR-MER-2026-0247 \u2014 Walter Finch Authorizes Hold on MER-PO-104918",
+      "start": {
+        "date": "2026-04-22"
+      },
+      "end": {
+        "date": "2026-04-23"
+      },
+      "description": "Walter Finch (Plant Manager) directed:\n1. Formal past-due notice to Lakewood (K. Whitfield)\n2. Informal hold on MER-PO-104918 (Joon-ho Park)\n3. Supplier capability review initiation if COC not received by 04/25 (Theo Brandt)\n4. Alternative sourcing evaluation \u2014 Ridgeline Precision Axles (Elizabeth Velasquez)",
+      "id": "evt-021"
+    },
+    "evt-022": {
+      "summary": "CRITICAL \u2014 NCR-MER-2026-0247 \u2014 Formal Demand Letter to Lakewood (12:00 CDT Deadline)",
+      "start": {
+        "dateTime": "2026-04-23T07:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-23T12:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "K. Whitfield issued formal demand letter at 07:00 CDT.\nLakewood required to provide COC covering PO MER-PO-104821 (all three SKUs) by 12:00 CDT today.\nIf not received: formal supplier audit initiated, matter referred to VP Supply Chain.\nAssembly Line 1 line-down risk confirmed by Aditi Krishnamurthy \u2014 AX-04827-B2 stock exhausted within 5 business days.",
+      "id": "evt-022"
+    },
+    "evt-023": {
+      "summary": "QE Inspection \u2014 BG-33044-A1 Damage | NCR-MER-2026-0248 | Theo Brandt",
+      "start": {
+        "dateTime": "2026-04-16T08:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-16T10:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Theo Brandt to inspect 11 damaged BG-33044-A1 bearings from REC-20260414-002.\nQE written assessment to be filed in quality_docs upon completion.",
+      "location": "Quality Inspection Area, Gear Systems Inc., Meridian MS",
+      "id": "evt-023"
+    },
+    "evt-024": {
+      "summary": "Procurement Disposition \u2014 SL-10922-B1 Excess (12 units) | NCR-MER-2026-0249",
+      "start": {
+        "dateTime": "2026-04-15T09:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-15T10:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Joon-ho Park to review consumption forecast for SL-10922-B1 and decide disposition of 12 excess units.\nDecision made 04/17: ACCEPT \u2014 PO amendment issued to MER-PO-104835 Line 002 (new qty 300).\nAll 300 units moved to B-RCV-01.",
+      "id": "evt-024"
+    },
+    "evt-025": {
+      "summary": "Theo Brandt \u2014 COC Verification on Arrival | NCR-MER-2026-0247",
+      "start": {
+        "dateTime": "2026-04-23T12:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-23T14:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Theo Brandt to verify COC against MTR heat numbers: HT-2026-1184, HT-2026-1185, HT-2026-0997 for receipt REC-20260414-001 (NCR-MER-2026-0247).\nBlock: 2 hours for review. Written release to Kay Whitfield (k.whitfield@gearsystems.com) upon completion.",
+      "location": "Quality Lab, Gear Systems Inc., Meridian MS",
+      "id": "evt-025"
+    },
+    "evt-026": {
+      "summary": "Elizabeth Velasquez \u2014 Alternative Sourcing Review (Ridgeline Axles) | NCR-MER-2026-0247",
+      "start": {
+        "dateTime": "2026-04-23T09:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-23T10:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Per Walter Finch direction (04/22): Elizabeth Velasquez to evaluate emergency AX-04827-B2 order from Ridgeline Precision Axles (SUP-0157).\nJoon-ho Park to confirm Ridgeline lead times.\nIf Lakewood COC not resolved by 04/25, initiate Ridgeline emergency PO.",
+      "location": "Supply Chain Office, Gear Systems Inc., Meridian MS",
+      "id": "evt-026"
+    },
+    "evt-027": {
+      "summary": "Walter Finch \u2014 EOD Update: NCR-MER-2026-0247 Status",
+      "start": {
+        "dateTime": "2026-04-23T16:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-23T16:30:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Plant Manager Walter Finch requested EOD status update on NCR-MER-2026-0247 and Assembly Line 1 risk.\nK. Whitfield to brief: COC status, any Lakewood response, line-down timeline from Aditi Krishnamurthy.",
+      "location": "Plant Manager's Office, Gear Systems Inc., Meridian MS",
+      "id": "evt-027"
+    },
+    "evt-028": {
+      "summary": "Supplier Capability Review \u2014 Lakewood Precision Forgings",
+      "start": {
+        "dateTime": "2026-04-25T09:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-25T11:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Per Walter Finch direction (04/22): Theo Brandt to initiate supplier capability review of Lakewood Precision Forgings IF COC for NCR-MER-2026-0247 is not received by 04/25.\nReview may result in status change.\nParticipants: Theo Brandt, Elizabeth Velasquez, K. Whitfield.",
+      "location": "Conference Room A, Gear Systems Inc., Meridian MS",
+      "id": "evt-028"
+    },
+    "evt-029": {
+      "summary": "NCR-MER-2026-0248 Internal Review \u2014 Hartwell CAR Acceptance",
+      "start": {
+        "dateTime": "2026-04-25T13:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-25T14:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Theo Brandt to formally review Hartwell CAR (received 04/22) for NCR-MER-2026-0248.\nIf CAR is acceptable: recommend close-out and release of 133 undamaged BG-33044-A1 units to stock.\nJoon-ho Park to authorize replacement shipment of 11 units from Hartwell.\nOD freight claim #ODG-2026-04812 tracking: Lisa Okafor (l.okafor@hartwellbearing.com).",
+      "location": "Quality Lab, Gear Systems Inc., Meridian MS",
+      "id": "evt-029"
+    },
+    "evt-030": {
+      "summary": "PO Delivery Deadline: MER-PO-104821 \u2014 Lakewood AX/FG (Required 04/14) \u26a0 QUARANTINED",
+      "start": {
+        "date": "2026-04-14"
+      },
+      "end": {
+        "date": "2026-04-15"
+      },
+      "description": "PO MER-PO-104821 required delivery date: April 14, 2026.\nSupplier: Lakewood Precision Forgings (SUP-0012)\nSKUs: AX-04827-B2 (48 units, $425 ea), AX-05512-C1 (96 units, $187.50 ea), FG-91144-A1 (200 units, $78 ea)\nStatus: Received as REC-20260414-001 but QUARANTINED \u2014 COC missing.\nValue at risk: approx. $43,638 (combined extended value all three lines)",
+      "id": "evt-030"
+    },
+    "evt-031": {
+      "summary": "PO Delivery Deadline: MER-PO-104835 \u2014 Hartwell BG/SL (Required 04/15) \u26a0 PARTIAL QUARANTINE",
+      "start": {
+        "date": "2026-04-15"
+      },
+      "end": {
+        "date": "2026-04-16"
+      },
+      "description": "PO MER-PO-104835 required delivery date: April 15, 2026.\nSupplier: Hartwell Bearing Technologies (SUP-0034)\nSKUs: BG-33044-A1 (144 units, $185.50 ea \u2014 SC bearings), SL-10922-B1 (288 units, $32.75 ea)\nStatus: Received 04/14 as REC-20260414-002. BG lot quarantined (Tier 2 damage). SL accepted (300 units per PO amendment).",
+      "id": "evt-031"
+    },
+    "evt-032": {
+      "summary": "PO Delivery Deadline: MER-PO-104874 \u2014 GreatLakes TR Balance (Required 04/12)",
+      "start": {
+        "date": "2026-04-12"
+      },
+      "end": {
+        "date": "2026-04-13"
+      },
+      "description": "PO MER-PO-104874 Line 001 required delivery: April 12, 2026. Partial first shipment received 04/11 (12/24 units).\nBalance 12 units of TR-67801-D1 shipped 04/21, ETA 04/23 (FedEx PRO FXF-2026-88142).\nCOC pre-received from Kevin Baxter \u2014 Heat HT-2026-2201.",
+      "id": "evt-032"
+    },
+    "evt-033": {
+      "summary": "PO Delivery Deadline: MER-PO-104906 \u2014 Delta Metals AX/TR (Required 04/17)",
+      "start": {
+        "date": "2026-04-17"
+      },
+      "end": {
+        "date": "2026-04-18"
+      },
+      "description": "PO MER-PO-104906 required delivery date: April 17, 2026.\nSupplier: Delta Metals & Alloys (SUP-0129) | Carrier: Estes Express\nSKUs: AX-04901-B1 (36 SC axle housings, $448 ea), TR-67944-C2 (18 SC trans gears, $524 ea)\nDelivery scheduled APPT-20260415-001 \u2014 oversize/heavy, crane required.",
+      "id": "evt-033"
+    },
+    "evt-034": {
+      "summary": "PO Delivery Deadline: MER-PO-104918 \u2014 Lakewood DTL AX (Required 04/14) \u26a0 HOLD",
+      "start": {
+        "date": "2026-04-14"
+      },
+      "end": {
+        "date": "2026-04-15"
+      },
+      "description": "PO MER-PO-104918 required delivery: April 14, 2026 \u2014 Direct-to-Line urgent.\nSupplier: Lakewood Precision Forgings (SUP-0012)\nSKU: AX-04827-B2 (24 units, $425 ea) \u2014 Safety-critical\n\u26a0 INFORMAL HOLD placed by Joon-ho Park (Walter Finch direction, 04/22) pending resolution of NCR-MER-2026-0247.",
+      "id": "evt-034"
+    },
+    "evt-035": {
+      "summary": "\u26a0 PRODUCTION RISK: Assembly Line 1 \u2014 AX-04827-B2 Projected Stockout",
+      "start": {
+        "date": "2026-04-28"
+      },
+      "end": {
+        "date": "2026-04-29"
+      },
+      "description": "Production Planner Aditi Krishnamurthy: Assembly Line 1 (rear axle housings) projected to hit ZERO usable AX-04827-B2 stock by approximately April 28.\nAll 44 units from REC-20260414-001 remain on Q-HOLD (NCR-MER-2026-0247).\nIf quarantine not released before this date: LINE DOWN on Assembly Line 1.\nDownstream impact: rear axle output delayed ~8\u201310 business days.\nMitigation: emergency sourcing from Ridgeline Precision Axles (SUP-0157) under evaluation.",
+      "id": "evt-035"
+    },
+    "evt-036": {
+      "summary": "\u26a0 PRODUCTION RISK: Assembly Line 1 \u2014 FG-91144-A1 Projected Stockout",
+      "start": {
+        "date": "2026-05-01"
+      },
+      "end": {
+        "date": "2026-05-02"
+      },
+      "description": "Production Planner Aditi Krishnamurthy: FG-91144-A1 (Forged Gear Blank, 8-spline) current on-hand: 50 usable units.\n200 units in Q-HOLD (NCR-MER-2026-0247). Projected stockout approximately May 1 if quarantine not released.\nPart of same Lakewood receipt REC-20260414-001.",
+      "id": "evt-036"
+    },
+    "evt-037": {
+      "summary": "Production Schedule Review \u2014 Line 1 Impact Assessment",
+      "start": {
+        "dateTime": "2026-04-23T10:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-23T11:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Aditi Krishnamurthy (Production Planning) meets with Elizabeth Velasquez and K. Whitfield.\nAgenda: AX-04827-B2 and FG-91144-A1 quarantine impact; rerouting options for Line 1; confirm April 28 risk window.\nAlternative: reroute Line 1 to alternate assemblies \u2014 delays rear axle output ~8\u201310 business days.",
+      "location": "Production Planning Office, Gear Systems Inc., Meridian MS",
+      "id": "evt-037"
+    },
+    "evt-038": {
+      "summary": "Weekly Receiving Review \u2014 Open NCR & Quarantine Status",
+      "start": {
+        "dateTime": "2026-04-14T07:30:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-14T08:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Weekly Monday morning receiving review per SOP Section 14.7.\nParticipants: K. Whitfield, Theo Brandt, Joon-ho Park.\nAgenda: open NCR status, quarantine lot review, upcoming dock appointments, probation supplier actions.",
+      "location": "Receiving Office, Gear Systems Inc., Meridian MS",
+      "id": "evt-038"
+    },
+    "evt-039": {
+      "summary": "Weekly Receiving Review \u2014 Open NCR & Quarantine Status",
+      "start": {
+        "dateTime": "2026-04-21T07:30:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-21T08:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Weekly Monday morning receiving review per SOP Section 14.7.\nCritical agenda item: NCR-MER-2026-0247 COC deadline is today (17:00 CST). Status of all open NCRs.\nParticipants: K. Whitfield, Theo Brandt, Joon-ho Park, Elizabeth Velasquez (invited).",
+      "location": "Receiving Office, Gear Systems Inc., Meridian MS",
+      "id": "evt-039"
+    },
+    "evt-040": {
+      "summary": "Weekly Receiving Review \u2014 Open NCR & Quarantine Status",
+      "start": {
+        "dateTime": "2026-04-28T07:30:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-28T08:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Weekly Monday morning receiving review per SOP Section 14.7.\nNCR-MER-2026-0248 supplier response due today (17:00 CST). All open NCR status review.\nParticipants: K. Whitfield, Theo Brandt, Joon-ho Park.",
+      "location": "Receiving Office, Gear Systems Inc., Meridian MS",
+      "id": "evt-040"
+    },
+    "evt-041": {
+      "summary": "Monthly Probation Supplier Review \u2014 Cascade Fastener Corp",
+      "start": {
+        "dateTime": "2026-05-01T10:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-05-01T11:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Monthly review of Cascade Fastener Corp (SUP-0051) probation status per SOP Sec 15.2.2.\nProbation effective: 09/01/2025 | Probation end date: 09/01/2026 (extended \u2014 under active review).\nActive NCRs: NCR-MER-2026-0241 (Critical, open). Previous NCRs: 0239 (Minor, closed), per probation history.\nParticipants: Elizabeth Velasquez, Joon-ho Park, Theo Brandt.\nDecision: continue probation / graduate to Approved / escalate to Suspended.",
+      "location": "Conference Room A, Gear Systems Inc., Meridian MS",
+      "id": "evt-041"
+    },
+    "evt-042": {
+      "summary": "SDS Annual Verification \u2014 LB-55001-A2 (Meridian Lube) Due",
+      "start": {
+        "date": "2026-08-15"
+      },
+      "end": {
+        "date": "2026-08-16"
+      },
+      "description": "SDS for LB-55001-A2 (Petroleum Distillate Lubricant, UN1268 Class 3) last revised 02/15/2024.\nAction: Maribel Ortiz to request updated SDS from Meridian Lube Supply (c.ortega@meridianlube.com).\nIf SDS unchanged: re-confirm with supplier in writing. If revised: update quality_docs/SDS-LB-55001-A2.pdf.",
+      "id": "evt-042"
+    },
+    "evt-043": {
+      "summary": "APPT-20260423-002 | GreatLakes TR-67801-D1 Balance | Dock 1 | FedEx Freight [Rescheduled from 04/15]",
+      "start": {
+        "dateTime": "2026-04-23T10:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-23T12:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Supplier: GreatLakes Transmission Parts (SUP-0089) | Carrier: FedEx Freight | PRO: FXF-2026-88142\nPO: MER-PO-104874 Line 001 | SKU: TR-67801-D1 \u2014 12 units (Safety-critical)\nCOC pre-received 04/21 from Kevin Baxter (k.baxter@greatlakestrans.com) | Heat: HT-2026-2201\nOriginally APPT-20260415-002 \u2014 rescheduled to 04/23.\nNOTE: Authorized carrier on file is FedEx Freight. Dock 1 held clear.",
+      "location": "Dock 1, Gear Systems Inc., Meridian MS",
+      "id": "evt-043"
+    },
+    "evt-044": {
+      "summary": "\u26a0 NO-APPOINTMENT ARRIVAL \u2014 Yellow Freight \u2014 MER-PO-104874 Claimed [HOLD \u2014 PENDING INVESTIGATION]",
+      "start": {
+        "dateTime": "2026-04-23T09:47:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-23T10:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Unscheduled Yellow Freight truck arrived 09:47 claiming 12x TR-67801-D1 under PO MER-PO-104874.\nNO DOCK APPOINTMENT \u2014 held at dock entrance per SOP Sec 8.6. No bay door assigned. No unloading.\nDriver producing delivery paperwork referencing MER-PO-104874 as the PO number.\nCarrier authorization status: UNVERIFIED. Investigation in progress.\nNote: APPT-20260423-002 (FedEx Freight, PRO FXF-2026-88142) is also scheduled for today under the same PO.\nDock capacity check and supervisor approval (SOP Sec 8.6) pending.\nStatus: HOLD \u2014 awaiting disposition from Receiving Coordinator.",
+      "location": "Dock Area (holding), Gear Systems Inc., Meridian MS",
+      "id": "evt-044"
+    },
+    "evt-045": {
+      "summary": "Dock Supervisor Approval Required \u2014 Yellow Freight No-Appointment Truck",
+      "start": {
+        "dateTime": "2026-04-23T09:47:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-04-23T10:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "description": "Unscheduled Yellow Freight truck arrived requesting dock bay assignment.\nDarnell Hooks (Warehouse Supervisor) to confirm available dock capacity and approve or deny entry.",
+      "id": "evt-045"
+    }
+  }
+}

@@ -1,0 +1,562 @@
+{
+  "users": {
+    "U001": {
+      "id": "U001",
+      "team_id": "T001",
+      "name": "analyst",
+      "deleted": false,
+      "real_name": "Inventory Operations Analyst",
+      "tz": "America/Chicago",
+      "tz_label": "Central Daylight Time",
+      "tz_offset": -18000,
+      "profile": {
+        "real_name": "Inventory Operations Analyst",
+        "display_name": "analyst",
+        "email": "analyst@prairiestar.com",
+        "title": "Inventory Operations Analyst"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U002": {
+      "id": "U002",
+      "team_id": "T001",
+      "name": "a.nguyen",
+      "deleted": false,
+      "real_name": "Alicia Nguyen",
+      "tz": "America/Chicago",
+      "tz_label": "Central Daylight Time",
+      "tz_offset": -18000,
+      "profile": {
+        "real_name": "Alicia Nguyen",
+        "display_name": "a.nguyen",
+        "email": "alicia.nguyen@prairiestar.com",
+        "title": "Inventory & Receiving Coordinator — Houston"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U003": {
+      "id": "U003",
+      "team_id": "T001",
+      "name": "c.mendoza",
+      "deleted": false,
+      "real_name": "Carlos Mendoza",
+      "tz": "America/Chicago",
+      "tz_label": "Central Daylight Time",
+      "tz_offset": -18000,
+      "profile": {
+        "real_name": "Carlos Mendoza",
+        "display_name": "c.mendoza",
+        "email": "carlos.mendoza@prairiestar.com",
+        "title": "DC Manager — Houston"
+      },
+      "is_admin": true,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U004": {
+      "id": "U004",
+      "team_id": "T001",
+      "name": "d.reyes",
+      "deleted": false,
+      "real_name": "Daniel Reyes",
+      "tz": "America/Chicago",
+      "tz_label": "Central Daylight Time",
+      "tz_offset": -18000,
+      "profile": {
+        "real_name": "Daniel Reyes",
+        "display_name": "d.reyes",
+        "email": "daniel.reyes@prairiestar.com",
+        "title": "Director of Supply Chain"
+      },
+      "is_admin": true,
+      "is_owner": true,
+      "is_bot": false
+    },
+    "U005": {
+      "id": "U005",
+      "team_id": "T001",
+      "name": "j.patel",
+      "deleted": false,
+      "real_name": "Jacob Patel",
+      "tz": "America/Chicago",
+      "tz_label": "Central Daylight Time",
+      "tz_offset": -18000,
+      "profile": {
+        "real_name": "Jacob Patel",
+        "display_name": "j.patel",
+        "email": "jacob.patel@prairiestar.com",
+        "title": "Production Planner — Waco"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U006": {
+      "id": "U006",
+      "team_id": "T001",
+      "name": "e.carter",
+      "deleted": false,
+      "real_name": "Emily Carter",
+      "tz": "America/Chicago",
+      "tz_label": "Central Daylight Time",
+      "tz_offset": -18000,
+      "profile": {
+        "real_name": "Emily Carter",
+        "display_name": "e.carter",
+        "email": "emily.carter@prairiestar.com",
+        "title": "Demand Planning Manager"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U007": {
+      "id": "U007",
+      "team_id": "T001",
+      "name": "b.keller",
+      "deleted": false,
+      "real_name": "Brandon Keller",
+      "tz": "America/Chicago",
+      "tz_label": "Central Daylight Time",
+      "tz_offset": -18000,
+      "profile": {
+        "real_name": "Brandon Keller",
+        "display_name": "b.keller",
+        "email": "brandon.keller@prairiestar.com",
+        "title": "Dispatcher / Route Planner — Houston"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U008": {
+      "id": "U008",
+      "team_id": "T001",
+      "name": "s.kim",
+      "deleted": false,
+      "real_name": "Sarah Kim",
+      "tz": "America/Chicago",
+      "tz_label": "Central Daylight Time",
+      "tz_offset": -18000,
+      "profile": {
+        "real_name": "Sarah Kim",
+        "display_name": "s.kim",
+        "email": "sarah.kim@prairiestar.com",
+        "title": "Warehouse Associate (Senior) — Houston"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U009": {
+      "id": "U009",
+      "team_id": "T001",
+      "name": "h.brooks",
+      "deleted": false,
+      "real_name": "Hannah Brooks",
+      "tz": "America/Chicago",
+      "tz_label": "Central Daylight Time",
+      "tz_offset": -18000,
+      "profile": {
+        "real_name": "Hannah Brooks",
+        "display_name": "h.brooks",
+        "email": "hannah.brooks@prairiestar.com",
+        "title": "Inventory Analyst — HQ"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    }
+  },
+  "channels": {
+    "C001": {
+      "id": "C001",
+      "name": "receiving-houston",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1700000000,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "receiving-houston",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1700000000,
+      "creator": "U003",
+      "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic": {
+        "value": "Houston inbound receiving — arrivals, counts, temps, completions, flags",
+        "creator": "U003",
+        "last_set": 1700000000
+      },
+      "purpose": {
+        "value": "Real-time receiving updates for Houston DC",
+        "creator": "U003",
+        "last_set": 1700000000
+      }
+    },
+    "C002": {
+      "id": "C002",
+      "name": "dc-escalations",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1700000000,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "dc-escalations",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1700000000,
+      "creator": "U004",
+      "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic": {
+        "value": "P1 and P2 priority events requiring Director attention",
+        "creator": "U004",
+        "last_set": 1700000000
+      },
+      "purpose": {
+        "value": "Escalations for both Houston and Shreveport DCs",
+        "creator": "U004",
+        "last_set": 1700000000
+      }
+    },
+    "C003": {
+      "id": "C003",
+      "name": "waco-production-coord",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1700000000,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "waco-production-coord",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1700000000,
+      "creator": "U005",
+      "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic": {
+        "value": "Variance issues, manifest questions, Waco production coordination",
+        "creator": "U005",
+        "last_set": 1700000000
+      },
+      "purpose": {
+        "value": "Communication between DCs and Waco production",
+        "creator": "U005",
+        "last_set": 1700000000
+      }
+    },
+    "C004": {
+      "id": "C004",
+      "name": "inventory-ops",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1700000000,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "inventory-ops",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1700000000,
+      "creator": "U003",
+      "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic": {
+        "value": "Cycle counts, expiry flags, inventory adjustments",
+        "creator": "U003",
+        "last_set": 1700000000
+      },
+      "purpose": {
+        "value": "Inventory accuracy, expiry management, adjustment tracking",
+        "creator": "U003",
+        "last_set": 1700000000
+      }
+    },
+    "C005": {
+      "id": "C005",
+      "name": "cold-chain-alerts",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1700000000,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "cold-chain-alerts",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1700000000,
+      "creator": "U004",
+      "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic": {
+        "value": "Temperature excursions, freezer alarms, cold chain breaches — both DCs",
+        "creator": "U004",
+        "last_set": 1700000000
+      },
+      "purpose": {
+        "value": "Cold chain monitoring and alerts",
+        "creator": "U004",
+        "last_set": 1700000000
+      }
+    }
+  },
+  "messages": {
+    "C001": [
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Waco transfer 2026-03-17-001 expected at 09:00 CT. Pallets: 22, Cases: 440. Dock crew standing by.",
+        "ts": "1773753600.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "@analyst Manifest 2026-03-17-001 receiving complete. Seal: intact. Temps: -16, -19, -15 (avg -17). Pallets: 22. Cases: 438 — short 2 on SC-001, manifest shows 440. Lot codes: A-20260315-01 (438 cases) ✓ match manifest. No damage.",
+        "ts": "1773756900.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Manifest 2026-03-17-001 received. Pallets: 22, Cases: 438 (variance -2 SC-001), Temp: -15°F (warmest), Variance: -2 cases (0.5% — P4 minor). Product in H-A. Receipt logged.",
+        "ts": "1773757320.000200",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Waco transfer 2026-03-24-001 expected at 10:00 CT. Pallets: 18, Cases: 360. Dock crew standing by.",
+        "ts": "1774360800.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "@analyst Manifest 2026-03-24-001 receiving complete. Seal: intact. Temps: -20, -18, -21 (avg -20). Pallets: 18. Cases: 360 ✓ match manifest. Lot codes: A-20260322-01 (360 cases) ✓. No damage.",
+        "ts": "1774364400.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Manifest 2026-03-24-001 received and accepted. Pallets: 18, Cases: 360, Temp: -18°F (warmest), Variance: 0. Product in H-A. ✓",
+        "ts": "1774364880.000200",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Waco transfer 2026-04-01-001 expected at 08:30 CT. Pallets: 24, Cases: 480. Dock crew standing by.",
+        "ts": "1775047200.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "@analyst Manifest 2026-04-01-001 receiving complete. Seal: intact. Temps: -17, -15, -18 (avg -17). Pallets: 24. Cases: 477 — short 3 on SC-001, manifest shows 480. Lot codes: A-20260330-01 (477 cases) ✓ match manifest. No damage.",
+        "ts": "1775051100.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Manifest 2026-04-01-001 received. Pallets: 24, Cases: 477 (variance -3 SC-001), Temp: -15°F (warmest), Variance: -3 cases (0.6% — P4 minor). Product in H-A. Receipt logged.",
+        "ts": "1775051520.000200",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U007",
+        "text": "@analyst just checking — SC-001 still available for tomorrow's routes? Running some high-volume stops.",
+        "ts": "1775052300.000300",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "@b.keller Yes, SC-001 is available. 477 cases in H-A from today's receipt.",
+        "ts": "1775052600.000400",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Waco transfer 2026-04-07-001 expected at 09:00 CT. Pallets: 20, Cases: 400. Dock crew standing by.",
+        "ts": "1775568600.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "@analyst Manifest 2026-04-07-001 receiving complete. Seal: intact. Temps: -19, -20, -18 (avg -19). Pallets: 20. Cases: 400 ✓ match manifest. Lot codes: B-20260404-01 (200 cases SP-001), A-20260404-01 (200 cases SC-003) ✓ match manifest. No damage.",
+        "ts": "1775572200.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Manifest 2026-04-07-001 received and accepted. Pallets: 20, Cases: 400, Temp: -18°F (warmest), Variance: 0. SC-003 to H-A, SP-001 to H-B. ✓",
+        "ts": "1775572680.000200",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "Good start to the week. @a.nguyen nice work on the fast turnaround this morning.",
+        "ts": "1775573100.000300",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "Morning all. Waco truck for manifest 2026-04-14-001 is on schedule — departure confirmed from Waco at 06:00 CT. ETA ~09:00 CT.",
+        "ts": "1776165000.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U007",
+        "text": "@analyst heads up — I've got SC-001 and SC-006 on several stops Thursday. Just want to make sure we'll have enough after today's receipt clears.",
+        "ts": "1776166200.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Waco transfer 2026-04-14-001 expected at 09:00 CT. Pallets: 22, Cases: 440. Dock crew standing by.",
+        "ts": "1776168000.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "@analyst Manifest 2026-04-14-001 receiving complete. Seal: intact. Temps: -4.5, -5, -8 (avg -6). Pallets: 22. Cases: 438. Lot codes: A-20260411-01 (SC-001, 218 cases), A-20260411-02 (SC-006, 220 cases) ✓ match manifest. No damage.",
+        "ts": "1776175500.000200",
+        "team": "T001"
+      }
+    ],
+    "C002": [
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Manifest 2026-03-17-001: minor variance on SC-001 (-2 cases, 0.5%). Logged P4.",
+        "ts": "1773757500.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Manifest 2026-04-01-001: minor variance on SC-001 (-3 cases, 0.6%). Logged P4.",
+        "ts": "1775051700.000100",
+        "team": "T001"
+      }
+    ],
+    "C003": [
+      {
+        "type": "message",
+        "user": "U005",
+        "text": "Heads up — we're running line A at slightly reduced capacity this week due to a planned maintenance window Wednesday. Apr 14 transfer (manifest 2026-04-14-001) is still on schedule. SC-001 and SC-006.",
+        "ts": "1775564100.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "@j.patel Confirmed, noted on our end. We'll have dock crew ready.",
+        "ts": "1775564520.000200",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U005",
+        "text": "Lot codes for 2026-04-14-001: A-20260411-01 (SC-001, production 2026-04-11) and A-20260411-02 (SC-006, production 2026-04-11). Production completed.",
+        "ts": "1776079200.000100",
+        "team": "T001"
+      }
+    ],
+    "C004": [
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Weekly expiry review complete — 2026-04-07. All active lots remain Green tier. No flags. SP-003 (lot B-20260115-01) is the oldest — expiry 2027-04-15, 373 days remaining. No action required.",
+        "ts": "1775574300.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U009",
+        "text": "@analyst thanks for the weekly summary. Looks clean. Let me know if anything shifts to Yellow.",
+        "ts": "1775575200.000200",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U008",
+        "text": "Zone H-A cycle count done — SC-001 lot A-20260308-01: system 318, physical 318. SC-001 lot A-20260315-01: system 438, physical 438. All match.",
+        "ts": "1775920800.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Cycle count logged. 100% accuracy H-A this round. Thanks @s.kim.",
+        "ts": "1775921400.000200",
+        "team": "T001"
+      }
+    ],
+    "C005": []
+  },
+  "counters": {
+    "messageId": 1000000
+  }
+}

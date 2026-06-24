@@ -1,0 +1,419 @@
+{
+  "users": {
+    "U001": {
+      "id": "U001",
+      "team_id": "T001",
+      "name": "daniel.whitfield",
+      "deleted": false,
+      "real_name": "Daniel Whitfield",
+      "profile": {
+        "real_name": "Daniel Whitfield",
+        "display_name": "daniel.whitfield",
+        "email": "daniel.whitfield@ridgelinegear.com",
+        "title": "HR Director"
+      },
+      "is_admin": true,
+      "is_owner": true,
+      "is_bot": false
+    },
+    "U002": {
+      "id": "U002",
+      "team_id": "T001",
+      "name": "renata.okafor",
+      "deleted": false,
+      "real_name": "Renata Okafor",
+      "profile": {
+        "real_name": "Renata Okafor",
+        "display_name": "renata.okafor",
+        "email": "renata.okafor@ridgelinegear.com",
+        "title": "Benefits Manager"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U003": {
+      "id": "U003",
+      "team_id": "T001",
+      "name": "leaves-hr",
+      "deleted": false,
+      "real_name": "Leave Coordinator",
+      "profile": {
+        "real_name": "Leave Coordinator",
+        "display_name": "leaves-hr",
+        "email": "leaves-hr@ridgelinegear.com",
+        "title": "Leave Coordinator"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U004": {
+      "id": "U004",
+      "team_id": "T001",
+      "name": "meera.patel",
+      "deleted": false,
+      "real_name": "Meera Patel",
+      "profile": {
+        "real_name": "Meera Patel",
+        "display_name": "meera.patel",
+        "email": "meera.patel@ridgelinegear.com",
+        "title": "HR Generalist - Employee Relations"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U005": {
+      "id": "U005",
+      "team_id": "T001",
+      "name": "jordan.briggs",
+      "deleted": false,
+      "real_name": "Jordan Briggs",
+      "profile": {
+        "real_name": "Jordan Briggs",
+        "display_name": "jordan.briggs",
+        "email": "jordan.briggs@ridgelinegear.com",
+        "title": "HR Generalist - Onboarding"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U006": {
+      "id": "U006",
+      "team_id": "T001",
+      "name": "teresa.vang",
+      "deleted": false,
+      "real_name": "Teresa Vang",
+      "profile": {
+        "real_name": "Teresa Vang",
+        "display_name": "teresa.vang",
+        "email": "teresa.vang@ridgelinegear.com",
+        "title": "Payroll Lead"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U007": {
+      "id": "U007",
+      "team_id": "T001",
+      "name": "luis.arredondo",
+      "deleted": false,
+      "real_name": "Luis Arredondo",
+      "profile": {
+        "real_name": "Luis Arredondo",
+        "display_name": "luis.arredondo",
+        "email": "luis.arredondo@ridgelinegear.com",
+        "title": "Safety & Workers' Comp Coordinator"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U008": {
+      "id": "U008",
+      "team_id": "T001",
+      "name": "evelyn.marchetti",
+      "deleted": false,
+      "real_name": "Evelyn Marchetti",
+      "profile": {
+        "real_name": "Evelyn Marchetti",
+        "display_name": "evelyn.marchetti",
+        "email": "evelyn.marchetti@ridgelineholdings.com",
+        "title": "General Counsel (Ridgeline Holdings LLC)"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U009": {
+      "id": "U009",
+      "team_id": "T001",
+      "name": "samir.haddad",
+      "deleted": false,
+      "real_name": "Samir Haddad",
+      "profile": {
+        "real_name": "Samir Haddad",
+        "display_name": "samir.haddad",
+        "email": "samir.haddad@ridgelinegear.com",
+        "title": "IT Access Manager"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    }
+  },
+  "channels": {
+    "C001": {
+      "id": "C001",
+      "name": "leave-intake",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1609459200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "leave-intake",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1609459200,
+      "creator": "U001",
+      "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic": {
+        "value": "Primary Leave Coordinator channel",
+        "creator": "U001",
+        "last_set": 1609459200
+      },
+      "purpose": {
+        "value": "All routine case notifications: new intake confirmations, eligibility decisions, certification status, scheduled return-to-work reminders. Default channel when uncertain which to use.",
+        "creator": "U001",
+        "last_set": 1609459200
+      }
+    },
+    "C002": {
+      "id": "C002",
+      "name": "benefits-team",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1609459200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "benefits-team",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1609459200,
+      "creator": "U002",
+      "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic": {
+        "value": "Benefits team coordination",
+        "creator": "U002",
+        "last_set": 1609459200
+      },
+      "purpose": {
+        "value": "Questions to the Benefits Manager (Renata Okafor) and coordination on cases touching multiple benefits areas.",
+        "creator": "U002",
+        "last_set": 1609459200
+      }
+    },
+    "C003": {
+      "id": "C003",
+      "name": "hr-escalations",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1609459200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "hr-escalations",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1609459200,
+      "creator": "U001",
+      "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic": {
+        "value": "HR Director escalations",
+        "creator": "U001",
+        "last_set": 1609459200
+      },
+      "purpose": {
+        "value": "Escalations requiring HR Director attention (Daniel Whitfield): denials beyond clear ineligibility, failure-to-return cases, any case where discipline is being contemplated.",
+        "creator": "U001",
+        "last_set": 1609459200
+      }
+    },
+    "C004": {
+      "id": "C004",
+      "name": "payroll-coordination",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1609459200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "payroll-coordination",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1609459200,
+      "creator": "U006",
+      "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic": {
+        "value": "Payroll handoffs only",
+        "creator": "U006",
+        "last_set": 1609459200
+      },
+      "purpose": {
+        "value": "Notify the Payroll Lead (Teresa Vang) of leave start dates, leave end dates, transitions to unpaid status, and return-to-work dates. Do not post non-payroll-related case information here.",
+        "creator": "U006",
+        "last_set": 1609459200
+      }
+    },
+    "C005": {
+      "id": "C005",
+      "name": "legal-review",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1609459200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "legal-review",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1609459200,
+      "creator": "U008",
+      "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic": {
+        "value": "General Counsel attention",
+        "creator": "U008",
+        "last_set": 1609459200
+      },
+      "purpose": {
+        "value": "General Counsel attention (Evelyn Marchetti): legal threats, EEOC/CDLE/DOL mentions, retroactive designation disputes, GINA concerns, any case involving active litigation.",
+        "creator": "U008",
+        "last_set": 1609459200
+      }
+    },
+    "C006": {
+      "id": "C006",
+      "name": "unknown-senders-hr",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1609459200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "unknown-senders-hr",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1609459200,
+      "creator": "U003",
+      "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic": {
+        "value": "Unknown sender tracking",
+        "creator": "U003",
+        "last_set": 1609459200
+      },
+      "purpose": {
+        "value": "Any leave-related email from a sender not found in employee_roster.xlsx: former employees, applicants, personal contacts of employees, misdirected emails, general inquiries.",
+        "creator": "U003",
+        "last_set": 1609459200
+      }
+    }
+  },
+  "messages": {
+    "C001": [
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "Test message - leave-intake channel is operational.",
+        "ts": "1706540400.000100",
+        "team": "T001"
+      }
+    ],
+    "C002": [
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Test message - benefits-team channel is operational.",
+        "ts": "1706540400.000100",
+        "team": "T001"
+      }
+    ],
+    "C003": [
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Test message - hr-escalations channel is operational.",
+        "ts": "1706540400.000100",
+        "team": "T001"
+      }
+    ],
+    "C004": [
+      {
+        "type": "message",
+        "user": "U006",
+        "text": "Test message - payroll-coordination channel is operational.",
+        "ts": "1706540400.000100",
+        "team": "T001"
+      }
+    ],
+    "C005": [
+      {
+        "type": "message",
+        "user": "U008",
+        "text": "Test message - legal-review channel is operational.",
+        "ts": "1706540400.000100",
+        "team": "T001"
+      }
+    ],
+    "C006": [
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "Test message - unknown-senders-hr channel is operational.",
+        "ts": "1706540400.000100",
+        "team": "T001"
+      }
+    ]
+  },
+  "counters": {
+    "messageId": 1000000
+  }
+}

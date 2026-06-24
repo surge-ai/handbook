@@ -1,0 +1,427 @@
+{
+  "users": {
+    "U001": {
+      "id": "U001",
+      "team_id": "T001",
+      "name": "mhamilton",
+      "deleted": false,
+      "real_name": "Mia Hamilton",
+      "profile": {
+        "real_name": "Mia Hamilton",
+        "display_name": "mhamilton",
+        "email": "mhamilton@careig.com",
+        "title": "Patient Representative"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U002": {
+      "id": "U002",
+      "team_id": "T001",
+      "name": "pturner",
+      "deleted": false,
+      "real_name": "Patrick Turner",
+      "profile": {
+        "real_name": "Patrick Turner",
+        "display_name": "pturner",
+        "email": "pturner@careig.com",
+        "title": "Benefits Verification Specialist"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U003": {
+      "id": "U003",
+      "team_id": "T001",
+      "name": "agibson",
+      "deleted": false,
+      "real_name": "Aiden Gibson",
+      "profile": {
+        "real_name": "Aiden Gibson",
+        "display_name": "agibson",
+        "email": "agibson@careig.com",
+        "title": "Clinical Coordinator"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U004": {
+      "id": "U004",
+      "team_id": "T001",
+      "name": "jcameron",
+      "deleted": false,
+      "real_name": "Joanna Cameron",
+      "profile": {
+        "real_name": "Joanna Cameron",
+        "display_name": "jcameron",
+        "email": "jcameron@careig.com",
+        "title": "Infusion Nurse"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U005": {
+      "id": "U005",
+      "team_id": "T001",
+      "name": "echapman",
+      "deleted": false,
+      "real_name": "Emma Chapman",
+      "profile": {
+        "real_name": "Emma Chapman",
+        "display_name": "echapman",
+        "email": "echapman@careig.com",
+        "title": "Billing Specialist"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U006": {
+      "id": "U006",
+      "team_id": "T001",
+      "name": "mjones",
+      "deleted": false,
+      "real_name": "Maria Jones",
+      "profile": {
+        "real_name": "Maria Jones",
+        "display_name": "mjones",
+        "email": "mjones@careig.com",
+        "title": "AR Specialist"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U007": {
+      "id": "U007",
+      "team_id": "T001",
+      "name": "rbailey",
+      "deleted": false,
+      "real_name": "Robert Bailey",
+      "profile": {
+        "real_name": "Robert Bailey",
+        "display_name": "rbailey",
+        "email": "rbailey@careig.com",
+        "title": "Director of Revenue Cycle"
+      },
+      "is_admin": true,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U008": {
+      "id": "U008",
+      "team_id": "T001",
+      "name": "lmurphy",
+      "deleted": false,
+      "real_name": "Liam Murphy",
+      "profile": {
+        "real_name": "Liam Murphy",
+        "display_name": "lmurphy",
+        "email": "lmurphy@careig.com",
+        "title": "Director of Operations"
+      },
+      "is_admin": true,
+      "is_owner": false,
+      "is_bot": false
+    }
+  },
+  "channels": {
+    "C001": {
+      "id": "C001",
+      "name": "intake-team",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1640995200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "intake-team",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1640995200,
+      "creator": "U007",
+      "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic": {
+        "value": "Intake workflow notifications",
+        "creator": "U007",
+        "last_set": 1640995200
+      },
+      "purpose": {
+        "value": "Intake workflow notifications",
+        "creator": "U007",
+        "last_set": 1640995200
+      }
+    },
+    "C002": {
+      "id": "C002",
+      "name": "intake-alerts",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1640995200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "intake-alerts",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1640995200,
+      "creator": "U007",
+      "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic": {
+        "value": "Intake hold alerts",
+        "creator": "U007",
+        "last_set": 1640995200
+      },
+      "purpose": {
+        "value": "Intake hold alerts",
+        "creator": "U007",
+        "last_set": 1640995200
+      }
+    },
+    "C003": {
+      "id": "C003",
+      "name": "intake-mgmt",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1640995200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "intake-mgmt",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1640995200,
+      "creator": "U007",
+      "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic": {
+        "value": "Intake management escalations",
+        "creator": "U007",
+        "last_set": 1640995200
+      },
+      "purpose": {
+        "value": "Intake management escalations",
+        "creator": "U007",
+        "last_set": 1640995200
+      }
+    },
+    "C004": {
+      "id": "C004",
+      "name": "clinical-scheduling",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1640995200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "clinical-scheduling",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1640995200,
+      "creator": "U007",
+      "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic": {
+        "value": "Clinical workflow",
+        "creator": "U007",
+        "last_set": 1640995200
+      },
+      "purpose": {
+        "value": "Clinical workflow",
+        "creator": "U007",
+        "last_set": 1640995200
+      }
+    },
+    "C005": {
+      "id": "C005",
+      "name": "billing",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1640995200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "billing",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1640995200,
+      "creator": "U007",
+      "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic": {
+        "value": "Billing workflow",
+        "creator": "U007",
+        "last_set": 1640995200
+      },
+      "purpose": {
+        "value": "Billing workflow",
+        "creator": "U007",
+        "last_set": 1640995200
+      }
+    },
+    "C006": {
+      "id": "C006",
+      "name": "billing-appeals",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1640995200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "billing-appeals",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1640995200,
+      "creator": "U007",
+      "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic": {
+        "value": "Denial and appeal notifications",
+        "creator": "U007",
+        "last_set": 1640995200
+      },
+      "purpose": {
+        "value": "Denial and appeal notifications",
+        "creator": "U007",
+        "last_set": 1640995200
+      }
+    },
+    "C007": {
+      "id": "C007",
+      "name": "billing-mgmt",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1640995200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "billing-mgmt",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1640995200,
+      "creator": "U007",
+      "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic": {
+        "value": "Billing management escalations",
+        "creator": "U007",
+        "last_set": 1640995200
+      },
+      "purpose": {
+        "value": "Billing management escalations",
+        "creator": "U007",
+        "last_set": 1640995200
+      }
+    },
+    "C008": {
+      "id": "C008",
+      "name": "compliance",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1640995200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "compliance",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1640995200,
+      "creator": "U007",
+      "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic": {
+        "value": "Compliance alerts",
+        "creator": "U007",
+        "last_set": 1640995200
+      },
+      "purpose": {
+        "value": "Compliance alerts",
+        "creator": "U007",
+        "last_set": 1640995200
+      }
+    }
+  },
+  "messages": {
+    "C001": [],
+    "C002": [],
+    "C003": [],
+    "C004": [],
+    "C005": [],
+    "C006": [],
+    "C007": [],
+    "C008": []
+  },
+  "counters": {
+    "messageId": 1000000
+  }
+}

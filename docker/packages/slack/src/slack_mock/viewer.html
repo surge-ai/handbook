@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Slack</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #1a1d21; color: #d1d2d3; display: flex; height: 100vh; overflow: hidden; }
+  .channels { width: 240px; min-width: 240px; background: #19171d; border-right: 1px solid #383838; display: flex; flex-direction: column; }
+  .channels-header { padding: 14px 16px; border-bottom: 1px solid #383838; }
+  .channels-header h2 { font-size: 15px; color: #fff; font-weight: 700; }
+  .channel-list { flex: 1; overflow-y: auto; padding: 8px 0; }
+  .channel-item { display: flex; align-items: center; gap: 6px; padding: 4px 16px; cursor: pointer; font-size: 13px; color: #b0b0b0; }
+  .channel-item:hover { background: #27242c; }
+  .channel-item.active { background: #1264a3; color: #fff; }
+  .channel-item .hash { color: #6b6b6b; font-size: 14px; font-weight: 300; }
+  .channel-item.active .hash { color: rgba(255,255,255,0.7); }
+  .channel-item .badge { margin-left: auto; background: #cd2553; color: #fff; border-radius: 10px; padding: 0 6px; font-size: 11px; font-weight: 700; }
+  .message-pane { flex: 1; display: flex; flex-direction: column; min-width: 0; }
+  .message-header { padding: 12px 20px; border-bottom: 1px solid #383838; background: #1a1d21; }
+  .message-header h2 { font-size: 15px; color: #fff; font-weight: 700; }
+  .message-header p { font-size: 12px; color: #6b6b6b; margin-top: 2px; }
+  .messages { flex: 1; overflow-y: auto; padding: 16px 20px; display: flex; flex-direction: column; }
+  .msg { display: flex; gap: 10px; padding: 6px 0; }
+  .msg:hover { background: rgba(255,255,255,0.02); }
+  .msg-avatar { width: 36px; height: 36px; border-radius: 6px; background: #3e313c; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 14px; color: #e8912d; flex-shrink: 0; }
+  .msg-content { flex: 1; min-width: 0; }
+  .msg-author { font-size: 13px; font-weight: 700; color: #fff; display: inline; }
+  .msg-time { font-size: 11px; color: #616061; margin-left: 8px; }
+  .msg-text { font-size: 13px; line-height: 1.5; margin-top: 2px; word-wrap: break-word; white-space: pre-wrap; }
+  .msg-reactions { display: flex; gap: 4px; margin-top: 6px; flex-wrap: wrap; }
+  .msg-reaction { background: #2c2c35; border: 1px solid #3e3e48; border-radius: 12px; padding: 2px 8px; font-size: 11px; }
+  .msg-files { display: flex; gap: 6px; margin-top: 6px; flex-wrap: wrap; }
+  .msg-file { background: #2c2c35; border: 1px solid #3e3e48; border-radius: 6px; padding: 3px 9px; font-size: 12px; }
+  .msg-thread { margin-top: 4px; font-size: 12px; color: #36c5f0; cursor: pointer; }
+  .msg-thread:hover { text-decoration: underline; }
+  .thread-panel { width: 360px; min-width: 360px; border-left: 1px solid #383838; background: #1a1d21; display: none; flex-direction: column; }
+  .thread-panel.open { display: flex; }
+  .thread-header { padding: 12px 16px; border-bottom: 1px solid #383838; display: flex; justify-content: space-between; align-items: center; }
+  .thread-header h3 { font-size: 14px; color: #fff; font-weight: 700; }
+  .thread-close { background: none; border: none; color: #6b6b6b; font-size: 18px; cursor: pointer; }
+  .thread-messages { flex: 1; overflow-y: auto; padding: 12px 16px; }
+  .users-panel { display: none; flex: 1; flex-direction: column; }
+  .users-panel.open { display: flex; }
+  .users-header { padding: 12px 20px; border-bottom: 1px solid #383838; }
+  .users-header h2 { font-size: 15px; color: #fff; }
+  .users-list { flex: 1; overflow-y: auto; padding: 8px 20px; }
+  .user-row { display: flex; align-items: center; gap: 10px; padding: 8px 0; border-bottom: 1px solid #27242c; }
+  .user-avatar { width: 32px; height: 32px; border-radius: 6px; background: #3e313c; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 13px; color: #4a9; flex-shrink: 0; }
+  .user-info { flex: 1; }
+  .user-name { font-size: 13px; font-weight: 600; color: #fff; }
+  .user-title { font-size: 12px; color: #6b6b6b; }
+  .empty-msg { text-align: center; padding: 40px; color: #6b6b6b; font-size: 14px; }
+  .channels-nav { display: flex; border-top: 1px solid #383838; }
+  .channels-nav button { flex: 1; padding: 10px; background: none; border: none; color: #6b6b6b; font-size: 12px; cursor: pointer; font-weight: 600; }
+  .channels-nav button.active { color: #fff; background: #27242c; }
+</style>
+</head>
+<body>
+  <div class="channels">
+    <div class="channels-header"><h2>Channels</h2></div>
+    <div id="channel-list" class="channel-list"></div>
+    <div class="channels-nav">
+      <button class="active" onclick="showPanel(event, 'messages')">Messages</button>
+      <button onclick="showPanel(event, 'users')">People</button>
+    </div>
+  </div>
+  <div id="message-pane" class="message-pane">
+    <div class="message-header">
+      <h2 id="channel-name">Select a channel</h2>
+      <p id="channel-topic"></p>
+    </div>
+    <div id="messages" class="messages">
+      <div class="empty-msg">Select a channel to view messages</div>
+    </div>
+  </div>
+  <div id="users-panel" class="users-panel">
+    <div class="users-header"><h2>People</h2></div>
+    <div id="users-list" class="users-list"></div>
+  </div>
+  <div id="thread-panel" class="thread-panel">
+    <div class="thread-header">
+      <h3>Thread</h3>
+      <button class="thread-close" onclick="closeThread()">&times;</button>
+    </div>
+    <div id="thread-messages" class="thread-messages"></div>
+  </div>
+  <script>
+    let channels = [];
+    let currentChannel = null;
+    let usersMap = {};
+    const base = window.location.pathname.replace(/\/$/, '');
+
+    async function fetchJSON(path) {
+      const response = await fetch(base + path);
+      if (!response.ok) throw new Error(path + ' returned ' + response.status);
+      return response.json();
+    }
+
+    const AVATAR_COLORS = ['#e8912d','#4a9c6d','#c74b50','#3d7aed','#9b59b6','#1abc9c','#e67e22','#2ecc71'];
+    function avatarColor(name) {
+      let h = 0;
+      for (let i = 0; i < name.length; i++) h = name.charCodeAt(i) + ((h << 5) - h);
+      return AVATAR_COLORS[Math.abs(h) % AVATAR_COLORS.length];
+    }
+    function initials(name) {
+      if (!name) return '?';
+      return name.split(' ').map(w => w[0]).join('').toUpperCase().slice(0, 2);
+    }
+    function esc(value) {
+      if (value === null || value === undefined) return '';
+      const node = document.createElement('div');
+      node.textContent = String(value);
+      return node.innerHTML;
+    }
+
+    function fmtBytes(n) {
+      n = Number(n) || 0;
+      if (n < 1024) return n + ' B';
+      if (n < 1048576) return (n / 1024).toFixed(1) + ' KB';
+      return (n / 1048576).toFixed(1) + ' MB';
+    }
+
+    async function init() {
+      const [chData, userData] = await Promise.all([
+        fetchJSON('/api/channels'),
+        fetchJSON('/api/users'),
+      ]);
+      channels = chData.channels || [];
+      (userData.users || []).forEach(user => { usersMap[user.id] = user; });
+
+      const list = document.getElementById('channel-list');
+      list.innerHTML = channels.map(channel =>
+        '<div class="channel-item" data-id="' + esc(channel.id) + '" onclick="selectChannel(\'' + esc(channel.id) + '\')">' +
+          '<span class="hash">#</span>' + esc(channel.name) +
+          (channel.messageCount ? '<span class="badge">' + channel.messageCount + '</span>' : '') +
+        '</div>'
+      ).join('');
+
+      if (channels.length > 0) selectChannel(channels[0].id);
+    }
+
+    async function selectChannel(id) {
+      currentChannel = channels.find(channel => channel.id === id);
+      if (!currentChannel) return;
+
+      document.querySelectorAll('.channel-item').forEach(el => {
+        el.classList.toggle('active', el.dataset.id === id);
+      });
+      document.getElementById('channel-name').textContent = '# ' + currentChannel.name;
+      document.getElementById('channel-topic').textContent = currentChannel.topic || '';
+
+      const data = await fetchJSON('/api/channels/' + encodeURIComponent(id) + '/messages');
+      const el = document.getElementById('messages');
+      if (!data.messages.length) {
+        el.innerHTML = '<div class="empty-msg">No messages in this channel</div>';
+        return;
+      }
+      const messages = data.messages.slice().reverse();
+      el.innerHTML = messages.map(message => renderMessage(message)).join('');
+      el.scrollTop = el.scrollHeight;
+      closeThread();
+    }
+
+    function renderMessage(message) {
+      const color = avatarColor(message.user_name || '');
+      let html = '<div class="msg">';
+      html += '<div class="msg-avatar" style="color:' + color + '">' + initials(message.user_name) + '</div>';
+      html += '<div class="msg-content">';
+      html += '<span class="msg-author">' + esc(message.user_name) + '</span>';
+      html += '<span class="msg-time">' + esc(message.time) + '</span>';
+      html += '<div class="msg-text">' + esc(message.text) + '</div>';
+      if (message.files && message.files.length) {
+        html += '<div class="msg-files">' + message.files.map(file =>
+          '<span class="msg-file">📎 ' + esc(file.name) + ' <span style="color:#94a3b8">(' + fmtBytes(file.size) + ')</span></span>'
+        ).join('') + '</div>';
+      }
+      if (message.reactions && message.reactions.length) {
+        html += '<div class="msg-reactions">' + message.reactions.map(reaction =>
+          '<span class="msg-reaction">:' + esc(reaction.name) + ': ' + esc(reaction.count) + '</span>'
+        ).join('') + '</div>';
+      }
+      if (message.has_thread && currentChannel) {
+        html += '<div class="msg-thread" onclick="openThread(\'' + esc(currentChannel.id) + '\',\'' + esc(message.ts) + '\')">' +
+          esc(message.reply_count) + ' replies</div>';
+      }
+      html += '</div></div>';
+      return html;
+    }
+
+    async function openThread(channelId, threadTs) {
+      const data = await fetchJSON('/api/threads/' + encodeURIComponent(channelId) + '/' + encodeURIComponent(threadTs));
+      const panel = document.getElementById('thread-panel');
+      panel.classList.add('open');
+      const el = document.getElementById('thread-messages');
+      el.innerHTML = data.messages.length ? data.messages.map(message => renderMessage(message)).join('') : '<div class="empty-msg">No replies</div>';
+    }
+
+    function closeThread() {
+      document.getElementById('thread-panel').classList.remove('open');
+    }
+
+    async function showPanel(event, name) {
+      document.querySelectorAll('.channels-nav button').forEach(button => button.classList.remove('active'));
+      event.target.classList.add('active');
+      const msgPane = document.getElementById('message-pane');
+      const usersPane = document.getElementById('users-panel');
+      if (name === 'users') {
+        msgPane.style.display = 'none';
+        usersPane.classList.add('open');
+        const data = await fetchJSON('/api/users');
+        const el = document.getElementById('users-list');
+        el.innerHTML = (data.users || []).filter(user => !user.deleted).map(user => {
+          const color = avatarColor(user.display_name || user.name || '');
+          return '<div class="user-row">' +
+            '<div class="user-avatar" style="color:' + color + '">' + initials(user.display_name || user.name) + '</div>' +
+            '<div class="user-info"><div class="user-name">' + esc(user.display_name || user.name) +
+            (user.status ? ' <span style="font-weight:400;font-size:12px;color:#6b6b6b">' + esc(user.status_emoji) + ' ' + esc(user.status) + '</span>' : '') +
+            '</div><div class="user-title">' + esc(user.title) + '</div></div></div>';
+        }).join('');
+      } else {
+        msgPane.style.display = '';
+        usersPane.classList.remove('open');
+      }
+    }
+
+    init().catch(error => {
+      document.getElementById('messages').innerHTML = '<div class="empty-msg">' + esc(error.message) + '</div>';
+    });
+  </script>
+</body>
+</html>

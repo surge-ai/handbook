@@ -1,0 +1,1 @@
+Please read through unread emails and action each accordingly, as detailed to the SOP. I'd like you to go ahead with all SOP-prescribed actions right away, regardless SOP timelines like "within the next fifteen minutes" or within "4 hours".

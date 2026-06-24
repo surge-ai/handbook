@@ -1,0 +1,1130 @@
+{
+  "issues": {
+    "MCA_APPEALS-1": {
+      "id": "10086",
+      "key": "MCA_APPEALS-1",
+      "self": "https://api.atlassian.com/ex/jira/acme/rest/api/3/issue/MCA_APPEALS-1",
+      "fields": {
+        "summary": "Pre-service standard appeal, M/S outpatient imaging, upheld.",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Pre-service standard appeal for medical/surgical outpatient imaging services. Appeal was reviewed and original determination upheld."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Case ID: MCA_APPEALS-1"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Member ID: MBR-2026-09341"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Dispute Value: $22,000"
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10100",
+          "name": "Service Request",
+          "description": "Service management case",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "10001",
+          "key": "MCA_APPEALS",
+          "name": "MCA Appeals Coordinator",
+          "description": "Service Management / Case Tracking for member appeals",
+          "projectTypeKey": "service_desk",
+          "simplified": false,
+          "self": "https://api.atlassian.com/ex/jira/acme/rest/api/3/project/MCA_APPEALS"
+        },
+        "status": {
+          "id": "10006",
+          "name": "External Review",
+          "description": "Case forwarded to external review organization; pending Canyon Ridge determination",
+          "statusCategory": {
+            "id": 4,
+            "key": "indeterminate",
+            "name": "In Progress",
+            "colorName": "yellow"
+          }
+        },
+        "priority": {
+          "id": "3",
+          "name": "Medium"
+        },
+        "assignee": {
+          "accountId": "coordinator-001",
+          "accountType": "atlassian",
+          "emailAddress": "coordinator@mojavecrest.com",
+          "displayName": "Appeals Coordinator",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "reporter": {
+          "accountId": "system-001",
+          "accountType": "atlassian",
+          "emailAddress": "appeals-system@mojavecrest.com",
+          "displayName": "Appeals System",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "creator": {
+          "accountId": "system-001",
+          "accountType": "atlassian",
+          "emailAddress": "appeals-system@mojavecrest.com",
+          "displayName": "Appeals System",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "created": "2026-03-28T09:00:00.000Z",
+        "updated": "2026-04-12T14:22:00.000Z",
+        "resolutiondate": null,
+        "labels": [
+          "pre-service",
+          "medical-necessity",
+          "upheld"
+        ],
+        "components": [],
+        "fixVersions": [],
+        "versions": [],
+        "CaseID": "MCA_APPEALS-1",
+        "MemberID": "MBR-2026-09341",
+        "AppealType": "Pre-Service Standard",
+        "DateOfReceipt": "2026-03-28",
+        "AcknowledgmentDue": "2026-04-03",
+        "DecisionDeadline": "2026-04-27T23:59:59.000Z",
+        "DisputeValue": 22000.0,
+        "StandardOfReview": "Medical Necessity",
+        "PlanYear": "2026",
+        "ParityFlag": false,
+        "RelatedCaseID": null,
+        "AssignedCoordinator": {
+          "accountId": "coordinator-001",
+          "accountType": "atlassian",
+          "displayName": "Appeals Coordinator",
+          "active": true
+        },
+        "ClinicalReviewer": {
+          "accountId": "malvarado-001",
+          "accountType": "atlassian",
+          "displayName": "M. Alvarado, RN",
+          "active": true
+        }
+      }
+    },
+    "MCA_APPEALS-2": {
+      "id": "10087",
+      "key": "MCA_APPEALS-2",
+      "self": "https://api.atlassian.com/ex/jira/acme/rest/api/3/issue/MCA_APPEALS-2",
+      "fields": {
+        "summary": "Pre-service standard appeal, outpatient PT authorization, overturned on administrative grounds.",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Pre-service standard appeal for outpatient physical therapy authorization. Original denial overturned due to administrative error."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Case ID: MCA_APPEALS-2"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Member ID: MBR-2026-04471"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Dispute Value: $8,500"
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10100",
+          "name": "Service Request",
+          "description": "Service management case",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "10001",
+          "key": "MCA_APPEALS",
+          "name": "MCA Appeals Coordinator",
+          "description": "Service Management / Case Tracking for member appeals",
+          "projectTypeKey": "service_desk",
+          "simplified": false,
+          "self": "https://api.atlassian.com/ex/jira/acme/rest/api/3/project/MCA_APPEALS"
+        },
+        "status": {
+          "id": "10005",
+          "name": "Closed",
+          "description": "Case has been resolved and closed",
+          "statusCategory": {
+            "id": 3,
+            "key": "done",
+            "name": "Done",
+            "colorName": "green"
+          }
+        },
+        "priority": {
+          "id": "3",
+          "name": "Medium"
+        },
+        "assignee": {
+          "accountId": "coordinator-001",
+          "accountType": "atlassian",
+          "emailAddress": "coordinator@mojavecrest.com",
+          "displayName": "Appeals Coordinator",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "reporter": {
+          "accountId": "system-001",
+          "accountType": "atlassian",
+          "emailAddress": "appeals-system@mojavecrest.com",
+          "displayName": "Appeals System",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "creator": {
+          "accountId": "system-001",
+          "accountType": "atlassian",
+          "emailAddress": "appeals-system@mojavecrest.com",
+          "displayName": "Appeals System",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "created": "2026-01-22T08:30:00.000Z",
+        "updated": "2026-02-19T14:45:00.000Z",
+        "resolutiondate": "2026-02-19T14:45:00.000Z",
+        "labels": [
+          "pre-service",
+          "administrative",
+          "overturned"
+        ],
+        "components": [],
+        "fixVersions": [],
+        "versions": [],
+        "CaseID": "MCA_APPEALS-2",
+        "MemberID": "MBR-2026-04471",
+        "AppealType": "Pre-Service Standard",
+        "DateOfReceipt": "2026-01-22",
+        "AcknowledgmentDue": "2026-01-29",
+        "DecisionDeadline": "2026-02-21T23:59:59.000Z",
+        "DisputeValue": 8500.0,
+        "StandardOfReview": "Administrative",
+        "PlanYear": "2026",
+        "ParityFlag": false,
+        "RelatedCaseID": null,
+        "AssignedCoordinator": {
+          "accountId": "coordinator-001",
+          "accountType": "atlassian",
+          "displayName": "Appeals Coordinator",
+          "active": true
+        },
+        "ClinicalReviewer": null
+      }
+    },
+    "MCA_APPEALS-3": {
+      "id": "10088",
+      "key": "MCA_APPEALS-3",
+      "self": "https://api.atlassian.com/ex/jira/acme/rest/api/3/issue/MCA_APPEALS-3",
+      "fields": {
+        "summary": "Post-service appeal, inpatient M/S stay, under clinical review.",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Post-service appeal for inpatient medical/surgical stay. Currently under clinical review for medical necessity determination."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Case ID: MCA_APPEALS-3"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Member ID: MBR-2026-17203"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Dispute Value: $14,200"
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10100",
+          "name": "Service Request",
+          "description": "Service management case",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "10001",
+          "key": "MCA_APPEALS",
+          "name": "MCA Appeals Coordinator",
+          "description": "Service Management / Case Tracking for member appeals",
+          "projectTypeKey": "service_desk",
+          "simplified": false,
+          "self": "https://api.atlassian.com/ex/jira/acme/rest/api/3/project/MCA_APPEALS"
+        },
+        "status": {
+          "id": "10003",
+          "name": "With Reviewer",
+          "description": "Case is with clinical reviewer",
+          "statusCategory": {
+            "id": 4,
+            "key": "indeterminate",
+            "name": "In Progress",
+            "colorName": "yellow"
+          }
+        },
+        "priority": {
+          "id": "2",
+          "name": "High"
+        },
+        "assignee": {
+          "accountId": "coordinator-001",
+          "accountType": "atlassian",
+          "emailAddress": "coordinator@mojavecrest.com",
+          "displayName": "Appeals Coordinator",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "reporter": {
+          "accountId": "system-001",
+          "accountType": "atlassian",
+          "emailAddress": "appeals-system@mojavecrest.com",
+          "displayName": "Appeals System",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "creator": {
+          "accountId": "system-001",
+          "accountType": "atlassian",
+          "emailAddress": "appeals-system@mojavecrest.com",
+          "displayName": "Appeals System",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "created": "2026-03-21T08:30:00.000Z",
+        "updated": "2026-04-14T11:20:00.000Z",
+        "resolutiondate": null,
+        "labels": [
+          "post-service",
+          "medical-necessity",
+          "inpatient"
+        ],
+        "components": [],
+        "fixVersions": [],
+        "versions": [],
+        "CaseID": "MCA_APPEALS-3",
+        "MemberID": "MBR-2026-17203",
+        "AppealType": "Post-Service",
+        "DateOfReceipt": "2026-03-21",
+        "AcknowledgmentDue": "2026-03-27",
+        "DecisionDeadline": "2026-05-20T23:59:59.000Z",
+        "DisputeValue": 14200.0,
+        "StandardOfReview": "Medical Necessity",
+        "PlanYear": "2026",
+        "ParityFlag": false,
+        "RelatedCaseID": null,
+        "AssignedCoordinator": {
+          "accountId": "coordinator-001",
+          "accountType": "atlassian",
+          "displayName": "Appeals Coordinator",
+          "active": true
+        },
+        "ClinicalReviewer": {
+          "accountId": "malvarado-001",
+          "accountType": "atlassian",
+          "displayName": "M. Alvarado, RN",
+          "active": true
+        }
+      }
+    },
+    "MCA_APPEALS-4": {
+      "id": "10089",
+      "key": "MCA_APPEALS-4",
+      "self": "https://api.atlassian.com/ex/jira/acme/rest/api/3/issue/MCA_APPEALS-4",
+      "fields": {
+        "summary": "Grievance, staff conduct complaint, resolved with action.",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Member grievance regarding staff conduct. Investigation completed and appropriate action taken. Member notified of resolution."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Case ID: MCA_APPEALS-4"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Member ID: MBR-2026-33102"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "No financial dispute value associated with grievance."
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10101",
+          "name": "Grievance",
+          "description": "Member complaint or grievance",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "10001",
+          "key": "MCA_APPEALS",
+          "name": "MCA Appeals Coordinator",
+          "description": "Service Management / Case Tracking for member appeals",
+          "projectTypeKey": "service_desk",
+          "simplified": false,
+          "self": "https://api.atlassian.com/ex/jira/acme/rest/api/3/project/MCA_APPEALS"
+        },
+        "status": {
+          "id": "10004",
+          "name": "Sent",
+          "description": "Decision sent to member",
+          "statusCategory": {
+            "id": 3,
+            "key": "done",
+            "name": "Done",
+            "colorName": "green"
+          }
+        },
+        "priority": {
+          "id": "3",
+          "name": "Medium"
+        },
+        "assignee": {
+          "accountId": "coordinator-001",
+          "accountType": "atlassian",
+          "emailAddress": "coordinator@mojavecrest.com",
+          "displayName": "Appeals Coordinator",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "reporter": {
+          "accountId": "system-001",
+          "accountType": "atlassian",
+          "emailAddress": "appeals-system@mojavecrest.com",
+          "displayName": "Appeals System",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "creator": {
+          "accountId": "system-001",
+          "accountType": "atlassian",
+          "emailAddress": "appeals-system@mojavecrest.com",
+          "displayName": "Appeals System",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "created": "2026-04-02T13:00:00.000Z",
+        "updated": "2026-04-09T15:30:00.000Z",
+        "resolutiondate": "2026-04-09T15:30:00.000Z",
+        "labels": [
+          "grievance",
+          "staff-conduct",
+          "resolved"
+        ],
+        "components": [],
+        "fixVersions": [],
+        "versions": [],
+        "CaseID": "MCA_APPEALS-4",
+        "MemberID": "MBR-2026-33102",
+        "AppealType": "Grievance",
+        "DateOfReceipt": "2026-04-02",
+        "AcknowledgmentDue": "2026-04-09",
+        "DecisionDeadline": "2026-05-02T23:59:59.000Z",
+        "DisputeValue": 0.0,
+        "StandardOfReview": null,
+        "PlanYear": "2026",
+        "ParityFlag": false,
+        "RelatedCaseID": null,
+        "AssignedCoordinator": {
+          "accountId": "coordinator-001",
+          "accountType": "atlassian",
+          "displayName": "Appeals Coordinator",
+          "active": true
+        },
+        "ClinicalReviewer": null
+      }
+    },
+    "MCA_APPEALS-5": {
+      "id": "10090",
+      "key": "MCA_APPEALS-5",
+      "self": "https://api.atlassian.com/ex/jira/acme/rest/api/3/issue/MCA_APPEALS-5",
+      "fields": {
+        "summary": "Pre-service standard appeal, BH outpatient PHP, parity flag raised, under Dr. Ontario review.",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Pre-service standard appeal for behavioral health outpatient partial hospitalization program (PHP). Mental health parity flag has been raised for this case. Currently under clinical review by Dr. Ontario."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Case ID: MCA_APPEALS-5"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Member ID: MBR-2026-55814"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Dispute Value: $31,000"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "\u26a0\ufe0f PARITY FLAG: Mental Health Parity and Addiction Equity Act compliance review required.",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10100",
+          "name": "Service Request",
+          "description": "Service management case",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "10001",
+          "key": "MCA_APPEALS",
+          "name": "MCA Appeals Coordinator",
+          "description": "Service Management / Case Tracking for member appeals",
+          "projectTypeKey": "service_desk",
+          "simplified": false,
+          "self": "https://api.atlassian.com/ex/jira/acme/rest/api/3/project/MCA_APPEALS"
+        },
+        "status": {
+          "id": "10003",
+          "name": "With Reviewer",
+          "description": "Case is with clinical reviewer",
+          "statusCategory": {
+            "id": 4,
+            "key": "indeterminate",
+            "name": "In Progress",
+            "colorName": "yellow"
+          }
+        },
+        "priority": {
+          "id": "2",
+          "name": "High"
+        },
+        "assignee": {
+          "accountId": "coordinator-001",
+          "accountType": "atlassian",
+          "emailAddress": "coordinator@mojavecrest.com",
+          "displayName": "Appeals Coordinator",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "reporter": {
+          "accountId": "system-001",
+          "accountType": "atlassian",
+          "emailAddress": "appeals-system@mojavecrest.com",
+          "displayName": "Appeals System",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "creator": {
+          "accountId": "system-001",
+          "accountType": "atlassian",
+          "emailAddress": "appeals-system@mojavecrest.com",
+          "displayName": "Appeals System",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "created": "2026-03-25T09:45:00.000Z",
+        "updated": "2026-04-14T10:15:00.000Z",
+        "resolutiondate": null,
+        "labels": [
+          "pre-service",
+          "behavioral-health",
+          "parity",
+          "php"
+        ],
+        "components": [],
+        "fixVersions": [],
+        "versions": [],
+        "CaseID": "MCA_APPEALS-5",
+        "MemberID": "MBR-2026-55814",
+        "AppealType": "Pre-Service Standard",
+        "DateOfReceipt": "2026-03-25",
+        "AcknowledgmentDue": "2026-04-01",
+        "DecisionDeadline": "2026-04-24T23:59:59.000Z",
+        "DisputeValue": 31000.0,
+        "StandardOfReview": "Medical Necessity",
+        "PlanYear": "2026",
+        "ParityFlag": true,
+        "RelatedCaseID": null,
+        "AssignedCoordinator": {
+          "accountId": "coordinator-001",
+          "accountType": "atlassian",
+          "displayName": "Appeals Coordinator",
+          "active": true
+        },
+        "ClinicalReviewer": {
+          "accountId": "aontario-001",
+          "accountType": "atlassian",
+          "displayName": "Dr. A. Ontario",
+          "active": true
+        }
+      }
+    }
+  },
+  "sprints": {},
+  "comments": {},
+  "projects": {
+    "MCA_APPEALS": {
+      "id": "10001",
+      "key": "MCA_APPEALS",
+      "name": "MCA Appeals Coordinator",
+      "description": "Service Management / Case Tracking for member appeals",
+      "projectTypeKey": "service_desk",
+      "simplified": false,
+      "self": "https://api.atlassian.com/ex/jira/acme/rest/api/3/project/MCA_APPEALS"
+    }
+  },
+  "fields": [
+    {
+      "id": "summary",
+      "key": "summary",
+      "name": "Summary",
+      "custom": false,
+      "searchable": true
+    },
+    {
+      "id": "description",
+      "key": "description",
+      "name": "Description",
+      "custom": false,
+      "searchable": true
+    },
+    {
+      "id": "status",
+      "key": "status",
+      "name": "Status",
+      "custom": false,
+      "searchable": true
+    },
+    {
+      "id": "priority",
+      "key": "priority",
+      "name": "Priority",
+      "custom": false,
+      "searchable": true
+    },
+    {
+      "id": "assignee",
+      "key": "assignee",
+      "name": "Assignee",
+      "custom": false,
+      "searchable": true
+    },
+    {
+      "id": "reporter",
+      "key": "reporter",
+      "name": "Reporter",
+      "custom": false,
+      "searchable": true
+    },
+    {
+      "id": "created",
+      "key": "created",
+      "name": "Created",
+      "custom": false,
+      "searchable": true
+    },
+    {
+      "id": "updated",
+      "key": "updated",
+      "name": "Updated",
+      "custom": false,
+      "searchable": true
+    },
+    {
+      "id": "labels",
+      "key": "labels",
+      "name": "Labels",
+      "custom": false,
+      "searchable": true
+    },
+    {
+      "id": "issuetype",
+      "key": "issuetype",
+      "name": "Issue Type",
+      "custom": false,
+      "searchable": true
+    },
+    {
+      "id": "CaseID",
+      "key": "CaseID",
+      "name": "CaseID",
+      "custom": true,
+      "searchable": true,
+      "schema": {
+        "type": "string",
+        "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textfield",
+        "customId": 10001
+      }
+    },
+    {
+      "id": "MemberID",
+      "key": "MemberID",
+      "name": "MemberID",
+      "custom": true,
+      "searchable": true,
+      "schema": {
+        "type": "string",
+        "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textfield",
+        "customId": 10002
+      }
+    },
+    {
+      "id": "AppealType",
+      "key": "AppealType",
+      "name": "AppealType",
+      "custom": true,
+      "searchable": true,
+      "schema": {
+        "type": "string",
+        "custom": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+        "customId": 10003
+      }
+    },
+    {
+      "id": "DateOfReceipt",
+      "key": "DateOfReceipt",
+      "name": "DateOfReceipt",
+      "custom": true,
+      "searchable": true,
+      "schema": {
+        "type": "date",
+        "custom": "com.atlassian.jira.plugin.system.customfieldtypes:datepicker",
+        "customId": 10004
+      }
+    },
+    {
+      "id": "AcknowledgmentDue",
+      "key": "AcknowledgmentDue",
+      "name": "AcknowledgmentDue",
+      "custom": true,
+      "searchable": true,
+      "schema": {
+        "type": "date",
+        "custom": "com.atlassian.jira.plugin.system.customfieldtypes:datepicker",
+        "customId": 10005
+      }
+    },
+    {
+      "id": "DecisionDeadline",
+      "key": "DecisionDeadline",
+      "name": "DecisionDeadline",
+      "custom": true,
+      "searchable": true,
+      "schema": {
+        "type": "datetime",
+        "custom": "com.atlassian.jira.plugin.system.customfieldtypes:datetime",
+        "customId": 10006
+      }
+    },
+    {
+      "id": "DisputeValue",
+      "key": "DisputeValue",
+      "name": "DisputeValue",
+      "custom": true,
+      "searchable": true,
+      "schema": {
+        "type": "number",
+        "custom": "com.atlassian.jira.plugin.system.customfieldtypes:float",
+        "customId": 10007
+      }
+    },
+    {
+      "id": "StandardOfReview",
+      "key": "StandardOfReview",
+      "name": "StandardOfReview",
+      "custom": true,
+      "searchable": true,
+      "schema": {
+        "type": "string",
+        "custom": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+        "customId": 10008
+      }
+    },
+    {
+      "id": "PlanYear",
+      "key": "PlanYear",
+      "name": "PlanYear",
+      "custom": true,
+      "searchable": true,
+      "schema": {
+        "type": "string",
+        "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textfield",
+        "customId": 10009
+      }
+    },
+    {
+      "id": "ParityFlag",
+      "key": "ParityFlag",
+      "name": "ParityFlag",
+      "custom": true,
+      "searchable": true,
+      "schema": {
+        "type": "string",
+        "custom": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+        "customId": 10010
+      }
+    },
+    {
+      "id": "RelatedCaseID",
+      "key": "RelatedCaseID",
+      "name": "RelatedCaseID",
+      "custom": true,
+      "searchable": true,
+      "schema": {
+        "type": "string",
+        "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textfield",
+        "customId": 10011
+      }
+    },
+    {
+      "id": "AssignedCoordinator",
+      "key": "AssignedCoordinator",
+      "name": "AssignedCoordinator",
+      "custom": true,
+      "searchable": true,
+      "schema": {
+        "type": "user",
+        "custom": "com.atlassian.jira.plugin.system.customfieldtypes:userpicker",
+        "customId": 10012
+      }
+    },
+    {
+      "id": "ClinicalReviewer",
+      "key": "ClinicalReviewer",
+      "name": "ClinicalReviewer",
+      "custom": true,
+      "searchable": true,
+      "schema": {
+        "type": "user",
+        "custom": "com.atlassian.jira.plugin.system.customfieldtypes:userpicker",
+        "customId": 10013
+      }
+    }
+  ],
+  "linkTypes": [
+    {
+      "id": "10001",
+      "name": "Blocks",
+      "inward": "is blocked by",
+      "outward": "blocks"
+    },
+    {
+      "id": "10002",
+      "name": "Cloners",
+      "inward": "is cloned by",
+      "outward": "clones"
+    },
+    {
+      "id": "10003",
+      "name": "Duplicate",
+      "inward": "is duplicated by",
+      "outward": "duplicates"
+    },
+    {
+      "id": "10004",
+      "name": "Relates",
+      "inward": "relates to",
+      "outward": "relates to"
+    },
+    {
+      "id": "10005",
+      "name": "Related Case",
+      "inward": "is related to",
+      "outward": "relates to"
+    }
+  ],
+  "counters": {
+    "issueId": 10090,
+    "sprintId": 1000,
+    "commentId": 1
+  },
+  "users": {
+    "coordinator-001": {
+      "accountId": "coordinator-001",
+      "displayName": "Appeals Coordinator",
+      "accountType": "atlassian",
+      "emailAddress": "coordinator@mojavecrest.com"
+    },
+    "system-001": {
+      "accountId": "system-001",
+      "displayName": "Appeals System",
+      "accountType": "atlassian",
+      "emailAddress": "appeals-system@mojavecrest.com"
+    }
+  },
+  "boards": {},
+  "statuses": {
+    "1": {
+      "id": "1",
+      "name": "External Review",
+      "statusCategory": {
+        "id": 4,
+        "key": "indeterminate",
+        "name": "In Progress",
+        "colorName": "yellow"
+      }
+    },
+    "2": {
+      "id": "2",
+      "name": "Closed",
+      "statusCategory": {
+        "id": 3,
+        "key": "done",
+        "name": "Done",
+        "colorName": "green"
+      }
+    },
+    "3": {
+      "id": "3",
+      "name": "With Reviewer",
+      "statusCategory": {
+        "id": 4,
+        "key": "indeterminate",
+        "name": "In Progress",
+        "colorName": "yellow"
+      }
+    },
+    "4": {
+      "id": "4",
+      "name": "Sent",
+      "statusCategory": {
+        "id": 3,
+        "key": "done",
+        "name": "Done",
+        "colorName": "green"
+      }
+    }
+  },
+  "workflow": {
+    "External Review": [
+      {
+        "id": "1",
+        "name": "To External Review",
+        "to": "External Review"
+      },
+      {
+        "id": "2",
+        "name": "To Closed",
+        "to": "Closed"
+      },
+      {
+        "id": "3",
+        "name": "To With Reviewer",
+        "to": "With Reviewer"
+      },
+      {
+        "id": "4",
+        "name": "To Sent",
+        "to": "Sent"
+      }
+    ],
+    "Closed": [
+      {
+        "id": "5",
+        "name": "To External Review",
+        "to": "External Review"
+      },
+      {
+        "id": "6",
+        "name": "To Closed",
+        "to": "Closed"
+      },
+      {
+        "id": "7",
+        "name": "To With Reviewer",
+        "to": "With Reviewer"
+      },
+      {
+        "id": "8",
+        "name": "To Sent",
+        "to": "Sent"
+      }
+    ],
+    "With Reviewer": [
+      {
+        "id": "9",
+        "name": "To External Review",
+        "to": "External Review"
+      },
+      {
+        "id": "10",
+        "name": "To Closed",
+        "to": "Closed"
+      },
+      {
+        "id": "11",
+        "name": "To With Reviewer",
+        "to": "With Reviewer"
+      },
+      {
+        "id": "12",
+        "name": "To Sent",
+        "to": "Sent"
+      }
+    ],
+    "Sent": [
+      {
+        "id": "13",
+        "name": "To External Review",
+        "to": "External Review"
+      },
+      {
+        "id": "14",
+        "name": "To Closed",
+        "to": "Closed"
+      },
+      {
+        "id": "15",
+        "name": "To With Reviewer",
+        "to": "With Reviewer"
+      },
+      {
+        "id": "16",
+        "name": "To Sent",
+        "to": "Sent"
+      }
+    ]
+  },
+  "defaultStatusValue": "External Review"
+}

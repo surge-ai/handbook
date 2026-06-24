@@ -1,0 +1,1 @@
+It's Mia Hamilton and we have some intakes I want to finish, I don’t want patients waiting any more than they need to. Please follow the SOP and take care of them for me, the sooner they can get their treatment the better.

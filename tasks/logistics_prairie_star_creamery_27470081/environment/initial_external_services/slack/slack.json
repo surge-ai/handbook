@@ -1,0 +1,526 @@
+{
+  "users": {
+    "U001": {
+      "id": "U001",
+      "team_id": "T001",
+      "name": "analyst",
+      "deleted": false,
+      "real_name": "Analyst",
+      "profile": {
+        "real_name": "Analyst",
+        "display_name": "analyst",
+        "email": "analyst@prairiestar.com",
+        "title": "Analyst"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U002": {
+      "id": "U002",
+      "team_id": "T001",
+      "name": "d.reyes",
+      "deleted": false,
+      "real_name": "Daniel Reyes",
+      "profile": {
+        "real_name": "Daniel Reyes",
+        "display_name": "d.reyes",
+        "email": "daniel.reyes@prairiestar.com",
+        "title": "Director of Supply Chain"
+      },
+      "is_admin": true,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U003": {
+      "id": "U003",
+      "team_id": "T001",
+      "name": "e.carter",
+      "deleted": false,
+      "real_name": "Emily Carter",
+      "profile": {
+        "real_name": "Emily Carter",
+        "display_name": "e.carter",
+        "email": "emily.carter@prairiestar.com",
+        "title": "Demand Planning Manager"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U004": {
+      "id": "U004",
+      "team_id": "T001",
+      "name": "m.liu",
+      "deleted": false,
+      "real_name": "Marcus Liu",
+      "profile": {
+        "real_name": "Marcus Liu",
+        "display_name": "m.liu",
+        "email": "marcus.liu@prairiestar.com",
+        "title": "Procurement Specialist"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U005": {
+      "id": "U005",
+      "team_id": "T001",
+      "name": "h.brooks",
+      "deleted": false,
+      "real_name": "Hannah Brooks",
+      "profile": {
+        "real_name": "Hannah Brooks",
+        "display_name": "h.brooks",
+        "email": "hannah.brooks@prairiestar.com",
+        "title": "Inventory Analyst"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U006": {
+      "id": "U006",
+      "team_id": "T001",
+      "name": "j.patel",
+      "deleted": false,
+      "real_name": "Jacob Patel",
+      "profile": {
+        "real_name": "Jacob Patel",
+        "display_name": "j.patel",
+        "email": "jacob.patel@prairiestar.com",
+        "title": "Production Planner"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U007": {
+      "id": "U007",
+      "team_id": "T001",
+      "name": "c.mendoza",
+      "deleted": false,
+      "real_name": "Carlos Mendoza",
+      "profile": {
+        "real_name": "Carlos Mendoza",
+        "display_name": "c.mendoza",
+        "email": "carlos.mendoza@prairiestar.com",
+        "title": "DC Manager"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U008": {
+      "id": "U008",
+      "team_id": "T001",
+      "name": "a.nguyen",
+      "deleted": false,
+      "real_name": "Alicia Nguyen",
+      "profile": {
+        "real_name": "Alicia Nguyen",
+        "display_name": "a.nguyen",
+        "email": "alicia.nguyen@prairiestar.com",
+        "title": "Inventory & Receiving Coordinator"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U009": {
+      "id": "U009",
+      "team_id": "T001",
+      "name": "s.kim",
+      "deleted": false,
+      "real_name": "Sarah Kim",
+      "profile": {
+        "real_name": "Sarah Kim",
+        "display_name": "s.kim",
+        "email": "sarah.kim@prairiestar.com",
+        "title": "Warehouse Associate (Senior)"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U010": {
+      "id": "U010",
+      "team_id": "T001",
+      "name": "k.white",
+      "deleted": false,
+      "real_name": "Kevin White",
+      "profile": {
+        "real_name": "Kevin White",
+        "display_name": "k.white",
+        "email": "kevin.white@prairiestar.com",
+        "title": "Warehouse Associate"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U011": {
+      "id": "U011",
+      "team_id": "T001",
+      "name": "b.keller",
+      "deleted": false,
+      "real_name": "Brandon Keller",
+      "profile": {
+        "real_name": "Brandon Keller",
+        "display_name": "b.keller",
+        "email": "brandon.keller@prairiestar.com",
+        "title": "Dispatcher / Route Planner"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U012": {
+      "id": "U012",
+      "team_id": "T001",
+      "name": "l.ramirez",
+      "deleted": false,
+      "real_name": "Luis Ramirez",
+      "profile": {
+        "real_name": "Luis Ramirez",
+        "display_name": "l.ramirez",
+        "email": "luis.ramirez@prairiestar.com",
+        "title": "Lead Driver"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U013": {
+      "id": "U013",
+      "team_id": "T001",
+      "name": "r.dubois",
+      "deleted": false,
+      "real_name": "Renee Dubois",
+      "profile": {
+        "real_name": "Renee Dubois",
+        "display_name": "r.dubois",
+        "email": "renee.dubois@prairiestar.com",
+        "title": "DC Manager"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U014": {
+      "id": "U014",
+      "team_id": "T001",
+      "name": "w.green",
+      "deleted": false,
+      "real_name": "Wyatt Green",
+      "profile": {
+        "real_name": "Wyatt Green",
+        "display_name": "w.green",
+        "email": "wyatt.green@prairiestar.com",
+        "title": "Inventory & Receiving Coordinator"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U015": {
+      "id": "U015",
+      "team_id": "T001",
+      "name": "o.bennett",
+      "deleted": false,
+      "real_name": "Olivia Bennett",
+      "profile": {
+        "real_name": "Olivia Bennett",
+        "display_name": "o.bennett",
+        "email": "olivia.bennett@prairiestar.com",
+        "title": "Warehouse Associate (Senior)"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U016": {
+      "id": "U016",
+      "team_id": "T001",
+      "name": "d.harper",
+      "deleted": false,
+      "real_name": "Dylan Harper",
+      "profile": {
+        "real_name": "Dylan Harper",
+        "display_name": "d.harper",
+        "email": "dylan.harper@prairiestar.com",
+        "title": "Dispatcher / Route Planner"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    }
+  },
+  "channels": {
+    "C001": {
+      "id": "C001",
+      "name": "receiving-houston",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1609459200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "receiving-houston",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1744725000,
+      "creator": "U007",
+      "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic": {
+        "value": "Real-time receiving updates, arrivals, completions, flags for Houston",
+        "creator": "U007",
+        "last_set": 1609459200
+      },
+      "purpose": {
+        "value": "Houston DC receiving operations channel",
+        "creator": "U007",
+        "last_set": 1609459200
+      }
+    },
+    "C002": {
+      "id": "C002",
+      "name": "receiving-shreveport",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1609459200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "receiving-shreveport",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1609459200,
+      "creator": "U013",
+      "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic": {
+        "value": "Real-time receiving updates, arrivals, completions, flags for Shreveport",
+        "creator": "U013",
+        "last_set": 1609459200
+      },
+      "purpose": {
+        "value": "Shreveport DC receiving operations channel",
+        "creator": "U013",
+        "last_set": 1609459200
+      }
+    },
+    "C003": {
+      "id": "C003",
+      "name": "dc-escalations",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1609459200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "dc-escalations",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1609459200,
+      "creator": "U002",
+      "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic": {
+        "value": "P1/P2 events, escalations for both DCs",
+        "creator": "U002",
+        "last_set": 1609459200
+      },
+      "purpose": {
+        "value": "Distribution center escalations and critical issues",
+        "creator": "U002",
+        "last_set": 1609459200
+      }
+    },
+    "C004": {
+      "id": "C004",
+      "name": "waco-production-coord",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1609459200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "waco-production-coord",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1609459200,
+      "creator": "U006",
+      "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic": {
+        "value": "Variance issues, manifest questions, communication with Waco production",
+        "creator": "U006",
+        "last_set": 1609459200
+      },
+      "purpose": {
+        "value": "Coordination with Waco production facility",
+        "creator": "U006",
+        "last_set": 1609459200
+      }
+    },
+    "C005": {
+      "id": "C005",
+      "name": "inventory-ops",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1609459200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "inventory-ops",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1609459200,
+      "creator": "U005",
+      "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic": {
+        "value": "Cycle count results, expiry flags, inventory adjustments",
+        "creator": "U005",
+        "last_set": 1609459200
+      },
+      "purpose": {
+        "value": "Inventory operations and tracking",
+        "creator": "U005",
+        "last_set": 1609459200
+      }
+    },
+    "C006": {
+      "id": "C006",
+      "name": "cold-chain-alerts",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1609459200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "cold-chain-alerts",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1744725000,
+      "creator": "U002",
+      "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic": {
+        "value": "Temperature excursions, freezer zone alarms, cold chain breaches at either DC",
+        "creator": "U002",
+        "last_set": 1609459200
+      },
+      "purpose": {
+        "value": "Cold chain monitoring and temperature alerts",
+        "creator": "U002",
+        "last_set": 1609459200
+      }
+    }
+  },
+  "messages": {
+    "C001": [
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Waco transfer 2026-04-15-001 expected at 09:00. Pallets: 26, Cases: 492. Dock crew standing by.",
+        "ts": "1776253500.000200",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Waco transfer 2026-04-15-002 expected at 10:00. Pallets: 26, Cases: 520. Dock crew standing by.",
+        "ts": "1776253500.000300",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Waco transfer 2026-04-15-003 expected at 11:00. Pallets: 26, Cases: 520. Dock crew standing by.",
+        "ts": "1776253500.000400",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U008",
+        "text": "@analyst Manifest 2026-04-15-001 receiving complete. Seal: intact. Temps: -18, -16, -20 (avg -18). Pallets: 26. Cases: 480 (SC-001), 12 (SW-008). Lot codes: C-20260201-01 (12 cases), A-20260402-01 (480 cases) ✓ match manifest. No damage. Ready for put-away.",
+        "ts": "1776262500.000700",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U008",
+        "text": "@analyst Manifest 2026-04-15-002 receiving complete. Seal: intact. Temps: -18, -16, -20 (avg -18). Pallets: 26. Cases: 194 (SC-006), 160 (SC-007), 168 (SC-008). Lot codes: A-20260401-01 (194 cases), A-20260328-01 (160 cases), A-20260315-02 (168 cases) - lot codes match manifest, quantities do not. No damage. Ready for put-away.",
+        "ts": "1776266100.000500",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U008",
+        "text": "@analyst Manifest 2026-04-15-003 receiving complete. Seal: intact. Temps: -5, -4.5, -4 (avg -4.5). Pallets: 26. Cases: 200 (SC-001), 160 (SC-002), 156 (SC-003). Lot codes: A-20260403-01 (200 cases), A-20260403-02 (160 cases), A-20260320-01 (156 cases) - lot codes match manifest, quantities do not. No damage. Ready for put-away.",
+        "ts": "1776269700.000600",
+        "team": "T001"
+      }
+    ],
+    "C002": [],
+    "C003": [],
+    "C004": [],
+    "C005": [],
+    "C006": []
+  },
+  "counters": {
+    "messageId": 1000000
+  }
+}

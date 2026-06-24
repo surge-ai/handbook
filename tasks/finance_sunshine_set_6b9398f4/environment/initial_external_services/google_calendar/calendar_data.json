@@ -1,0 +1,322 @@
+{
+  "events": {
+    "cal_002": {
+      "id": "cal_002",
+      "summary": "Submit Funding Package \u2014 Deal #4821 Mitchell / Ally SecureLink",
+      "start": {
+        "dateTime": "2026-04-14T16:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-04-14T16:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "description": "Must submit complete funding package for Deal 4821 to Ally Financial via SecureLink by end of business today (April 14) to meet expected lender funding timeline.\n\nCalendar: Noah Alvarez | Color: orange | Reminder: 120 minutes",
+      "location": null
+    },
+    "cal_003": {
+      "id": "cal_003",
+      "summary": "Funding Deadline \u2014 Deal #4820 Okafor / Capital One",
+      "start": {
+        "dateTime": "2026-04-16T09:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-04-16T09:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "description": "Expected funding date for Deal #4820, Brandon Okafor, 2025 Chevrolet Equinox LT, VIN ending 667341. Lender: Capital One Auto.\n\nPackage submitted April 12. All stips cleared. $30,089 contract / $850 reserve.\n\nIf not confirmed by 9:00 AM trigger follow-up per Section 2.2.\n\nCalendar: Noah Alvarez | Color: yellow | Reminder: 60 minutes",
+      "location": null
+    },
+    "cal_004": {
+      "id": "cal_004",
+      "summary": "Commission Cutoff \u2014 2nd Period April 2026",
+      "start": {
+        "date": "2026-04-16"
+      },
+      "end": {
+        "date": "2026-04-17"
+      },
+      "description": "Commission sheet cutoff \u2014 16th of month. Department managers must submit approved commission sheets to Leah Morgan by end of business.\n\nSheets received after cutoff held to next pay period unless Elena Brooks approves exception. Per Section 7.1.\n\nCalendar: Payroll | Color: blue | Recurring: true (1st and 16th of each month)\n\nAttendees: leah.morgan@sunshineandsetauto.com, marcus.hale@sunshineandsetauto.com",
+      "location": null
+    },
+    "cal_005": {
+      "id": "cal_005",
+      "summary": "Payroll Support Deadline \u2014 Submit to Hannah Price",
+      "start": {
+        "dateTime": "2026-04-18T17:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-04-18T17:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "description": "Leah Morgan must compile and submit final payroll support package to Hannah Price (HR) by end of business today.\n\nPackage includes commissions, bonuses, chargeback offsets, PTO usage, deduction changes.\n\nPer Section 7.4 \u2014 2 business days after April 16 commission cutoff. Hannah Price reviews and submits to payroll processor same day.\n\nCalendar: Payroll | Color: blue | Recurring: true (3rd and 18th of each month)\n\nAttendees: leah.morgan@sunshineandsetauto.com, hannah.price@sunshineandsetauto.com",
+      "location": null
+    },
+    "cal_006": {
+      "id": "cal_006",
+      "summary": "Last BD April \u2014 Jasmine Patel Finalizes Deal Postings",
+      "start": {
+        "date": "2026-04-30"
+      },
+      "end": {
+        "date": "2026-05-01"
+      },
+      "description": "Last Business Day of April \u2014 Jasmine Patel (Senior Deal Posting Specialist) must finalize all April deal postings to ensure complete and accurate deal log for month-end close.\n\nAll deals contracted through April 30 must be posted with complete documentation. Review for accuracy and completeness.\n\nOwner: Jasmine Patel\nCalendar: Shared \u2014 Close | Color: green\n\nAttendees: jasmine.patel@sunshineandsetauto.com, marcus.hale@sunshineandsetauto.com",
+      "location": null
+    },
+    "cal_007": {
+      "id": "cal_007",
+      "summary": "Last BD April \u2014 Renee Lawson Final Cash Reconciliation",
+      "start": {
+        "date": "2026-04-30"
+      },
+      "end": {
+        "date": "2026-05-01"
+      },
+      "description": "Last Business Day of April \u2014 Renee Lawson (Cashier / Receivables Clerk) must complete final cash reconciliation for April month-end close.\n\nEnsure all cash receipts, deposits, and disbursements are properly recorded and reconciled.\n\nOwner: Renee Lawson\nCalendar: Shared \u2014 Close | Color: green\n\nAttendees: renee.lawson@sunshineandsetauto.com, marcus.hale@sunshineandsetauto.com",
+      "location": null
+    },
+    "cal_008": {
+      "id": "cal_008",
+      "summary": "BD 1 \u2014 Darius Kim Floorplan Statement Reconciliation",
+      "start": {
+        "date": "2026-05-01"
+      },
+      "end": {
+        "date": "2026-05-02"
+      },
+      "description": "Business Day 1 after April close \u2014 Darius Kim (Inventory Accountant) must complete floorplan statement reconciliation.\n\nReconcile floorplan lender statements to internal vehicle inventory records. Identify and resolve discrepancies.\n\nOwner: Darius Kim\nCalendar: Shared \u2014 Close | Color: green\n\nAttendees: darius.kim@sunshineandsetauto.com, marcus.hale@sunshineandsetauto.com",
+      "location": null
+    },
+    "cal_009": {
+      "id": "cal_009",
+      "summary": "BD 1 \u2014 Noah Alvarez CIT Aging Report & Funding Status Update",
+      "start": {
+        "date": "2026-05-01"
+      },
+      "end": {
+        "date": "2026-05-02"
+      },
+      "description": "Business Day 1 after April close \u2014 Noah Alvarez (Funding & Contracts Clerk) must prepare Contracts-in-Transit (CIT) aging report and update funding status tracker.\n\nIdentify all pending funding deals, days outstanding, and required follow-up actions. Update status of all April deals.\n\nOwner: Noah Alvarez\nCalendar: Shared \u2014 Close | Color: green\n\nAttendees: noah.alvarez@sunshineandsetauto.com, marcus.hale@sunshineandsetauto.com",
+      "location": null
+    },
+    "cal_010": {
+      "id": "cal_010",
+      "summary": "BD 2 \u2014 Caleb Foster AP Accruals",
+      "start": {
+        "date": "2026-05-04"
+      },
+      "end": {
+        "date": "2026-05-05"
+      },
+      "description": "Business Day 2 after April close \u2014 Caleb Foster (Accounts Payable Clerk) must prepare accounts payable accruals for April month-end.\n\nReview unpaid invoices, identify goods/services received but not yet invoiced, prepare accrual journal entries.\n\nOwner: Caleb Foster\nCalendar: Shared \u2014 Close | Color: green\n\nAttendees: caleb.foster@sunshineandsetauto.com, marcus.hale@sunshineandsetauto.com",
+      "location": null
+    },
+    "cal_011": {
+      "id": "cal_011",
+      "summary": "BD 2 \u2014 Leah Morgan Payroll Accruals",
+      "start": {
+        "date": "2026-05-04"
+      },
+      "end": {
+        "date": "2026-05-05"
+      },
+      "description": "Business Day 2 after April close \u2014 Leah Morgan (Payroll & Commissions Analyst) must prepare payroll accruals for April month-end.\n\nCalculate and accrue commissions earned but not yet paid, unpaid wages, PTO liability, and other payroll-related accruals.\n\nOwner: Leah Morgan\nCalendar: Shared \u2014 Close | Color: green\n\nAttendees: leah.morgan@sunshineandsetauto.com, marcus.hale@sunshineandsetauto.com",
+      "location": null
+    },
+    "cal_012": {
+      "id": "cal_012",
+      "summary": "BD 2 \u2014 Jasmine Patel Chargeback Tracker Reconciliation",
+      "start": {
+        "date": "2026-05-04"
+      },
+      "end": {
+        "date": "2026-05-05"
+      },
+      "description": "Business Day 2 after April close \u2014 Jasmine Patel (Senior Deal Posting Specialist) must reconcile chargeback tracker for April close.\n\nReview all chargebacks posted in April, verify accuracy against lender notices, update reserve reversals and impact to commissions.\n\nOwner: Jasmine Patel\nCalendar: Shared \u2014 Close | Color: green\n\nAttendees: jasmine.patel@sunshineandsetauto.com, marcus.hale@sunshineandsetauto.com, leah.morgan@sunshineandsetauto.com",
+      "location": null
+    },
+    "cal_013": {
+      "id": "cal_013",
+      "summary": "BD 3 \u2014 Renee Lawson Bank Reconciliation / Marcus Hale Review",
+      "start": {
+        "date": "2026-05-05"
+      },
+      "end": {
+        "date": "2026-05-06"
+      },
+      "description": "Business Day 3 after April close \u2014 Renee Lawson prepares bank reconciliation for all accounts; Marcus Hale (Assistant Controller) reviews.\n\nReconcile all bank accounts to general ledger, identify outstanding checks and deposits in transit, resolve discrepancies.\n\nOwner: Renee Lawson (prepare) / Marcus Hale (review)\nCalendar: Shared \u2014 Close | Color: green\n\nAttendees: renee.lawson@sunshineandsetauto.com, marcus.hale@sunshineandsetauto.com",
+      "location": null
+    },
+    "cal_014": {
+      "id": "cal_014",
+      "summary": "BD 3 \u2014 Darius Kim Vehicle Inventory Rollforward",
+      "start": {
+        "date": "2026-05-05"
+      },
+      "end": {
+        "date": "2026-05-06"
+      },
+      "description": "Business Day 3 after April close \u2014 Darius Kim (Inventory Accountant) must prepare vehicle inventory rollforward for April.\n\nDocument beginning inventory, additions (purchases), reductions (sales), and ending inventory. Reconcile to physical inventory count and general ledger.\n\nOwner: Darius Kim\nCalendar: Shared \u2014 Close | Color: green\n\nAttendees: darius.kim@sunshineandsetauto.com, marcus.hale@sunshineandsetauto.com",
+      "location": null
+    },
+    "cal_015": {
+      "id": "cal_015",
+      "summary": "BD 4 \u2014 Renee Lawson Open Receivable Review",
+      "start": {
+        "date": "2026-05-06"
+      },
+      "end": {
+        "date": "2026-05-07"
+      },
+      "description": "Business Day 4 after April close \u2014 Renee Lawson (Cashier / Receivables Clerk) must complete open receivable review.\n\nAge all outstanding receivables, identify collection issues, prepare bad debt reserve recommendations, coordinate with Noah Alvarez on CIT items.\n\nOwner: Renee Lawson\nCalendar: Shared \u2014 Close | Color: green\n\nAttendees: renee.lawson@sunshineandsetauto.com, noah.alvarez@sunshineandsetauto.com, marcus.hale@sunshineandsetauto.com",
+      "location": null
+    },
+    "cal_016": {
+      "id": "cal_016",
+      "summary": "BD 4 \u2014 All Clerks: Manual Journal Entries Due",
+      "start": {
+        "date": "2026-05-06"
+      },
+      "end": {
+        "date": "2026-05-07"
+      },
+      "description": "Business Day 4 after April close \u2014 ALL ACCOUNTING CLERKS must submit manual journal entries to Marcus Hale for review.\n\nAll accruals, reclassifications, corrections, and adjusting entries for April must be submitted today. Include supporting documentation and clear explanations.\n\nCalendar: Shared \u2014 Close | Color: green\n\nAttendees: noah.alvarez@sunshineandsetauto.com, jasmine.patel@sunshineandsetauto.com, renee.lawson@sunshineandsetauto.com, darius.kim@sunshineandsetauto.com, leah.morgan@sunshineandsetauto.com, caleb.foster@sunshineandsetauto.com, marcus.hale@sunshineandsetauto.com",
+      "location": null
+    },
+    "cal_017": {
+      "id": "cal_017",
+      "summary": "BD 5 \u2014 Marcus Hale: Close Binder Review Complete",
+      "start": {
+        "date": "2026-05-07"
+      },
+      "end": {
+        "date": "2026-05-08"
+      },
+      "description": "Business Day 5 after April close \u2014 Marcus Hale (Assistant Controller) must complete full review of April close binder.\n\nReview all schedules, reconciliations, journal entries, and supporting documentation. Identify and resolve open items. Prepare summary memo for Elena Brooks.\n\nOwner: Marcus Hale\nCalendar: Shared \u2014 Close | Color: green\n\nAttendees: marcus.hale@sunshineandsetauto.com, elena.brooks@sunshineandsetauto.com",
+      "location": null
+    },
+    "cal_018": {
+      "id": "cal_018",
+      "summary": "BD 7 \u2014 Elena Brooks: Controller Final Sign-Off",
+      "start": {
+        "date": "2026-05-11"
+      },
+      "end": {
+        "date": "2026-05-12"
+      },
+      "description": "Business Day 7 after April close \u2014 Elena Brooks (Controller) performs final review and sign-off of April 2026 close.\n\nReview Marcus Hale's close summary, financial statements, key metrics, and all supporting schedules. Approve or identify required corrections. Communicate results to ownership.\n\nOwner: Elena Brooks\nCalendar: Shared \u2014 Close | Color: green\n\nAttendees: elena.brooks@sunshineandsetauto.com, marcus.hale@sunshineandsetauto.com",
+      "location": null
+    },
+    "cal_019": {
+      "id": "cal_019",
+      "summary": "Begin April Sales Tax Return Preparation",
+      "start": {
+        "dateTime": "2026-04-15T09:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-04-15T09:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "description": "Monthly calendar reminder to begin sales tax return preparation.\n\nFiling deadline is the 1st of the following month (May 1 for April period) with 20-day grace period (May 20).\n\nElena Brooks or Marcus Hale prepares using monthly tax workpaper.\n\nCalendar: Accounting Team | Color: purple | Recurring: true (15th of each month)\n\nAttendees: elena.brooks@sunshineandsetauto.com, marcus.hale@sunshineandsetauto.com",
+      "location": null
+    },
+    "cal_020": {
+      "id": "cal_020",
+      "summary": "Sales Tax Filing Deadline Warning \u2014 March Return Due by April 20",
+      "start": {
+        "dateTime": "2026-04-19T09:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-04-19T09:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "description": "Per Section 10.4 \u2014 filing deadline warning reminder.\n\nMarch 2026 sales tax return due to Florida DOR by April 20 (with 20-day grace). Collection allowance of 2.5% on first $1,200 of tax due applies if filed on time.\n\nElena Brooks or Marcus Hale must confirm submission.\n\nCalendar: Accounting Team | Color: red | Reminder: 1440 minutes (24 hours before)\n\nAttendees: elena.brooks@sunshineandsetauto.com, marcus.hale@sunshineandsetauto.com",
+      "location": null
+    },
+    "cal_021": {
+      "id": "cal_021",
+      "summary": "Commission Cutoff \u2014 1st Period May 2026",
+      "start": {
+        "date": "2026-05-01"
+      },
+      "end": {
+        "date": "2026-05-02"
+      },
+      "description": "Commission sheet cutoff \u2014 1st of month. Department managers must submit approved commission sheets to Leah Morgan by end of business.\n\nSheets received after cutoff held to next pay period unless Elena Brooks approves exception. Per Section 7.1.\n\nCalendar: Payroll | Color: blue | Recurring: true (1st and 16th of each month)\n\nAttendees: leah.morgan@sunshineandsetauto.com, marcus.hale@sunshineandsetauto.com",
+      "location": null
+    },
+    "cal_022": {
+      "id": "cal_022",
+      "summary": "Payroll Support Deadline \u2014 Submit to Hannah Price",
+      "start": {
+        "dateTime": "2026-05-03T17:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-05-03T17:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "description": "Leah Morgan must compile and submit final payroll support package to Hannah Price (HR) by end of business today.\n\nPackage includes commissions, bonuses, chargeback offsets, PTO usage, deduction changes.\n\nPer Section 7.4 \u2014 2 business days after May 1 commission cutoff. Hannah Price reviews and submits to payroll processor same day.\n\nCalendar: Payroll | Color: blue | Recurring: true (3rd and 18th of each month)\n\nAttendees: leah.morgan@sunshineandsetauto.com, hannah.price@sunshineandsetauto.com",
+      "location": null
+    },
+    "cal_023": {
+      "id": "cal_023",
+      "summary": "Begin May Sales Tax Return Preparation",
+      "start": {
+        "dateTime": "2026-05-15T09:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-05-15T09:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "description": "Monthly calendar reminder to begin sales tax return preparation.\n\nFiling deadline is the 1st of the following month (June 1 for May period) with 20-day grace period (June 20).\n\nElena Brooks or Marcus Hale prepares using monthly tax workpaper.\n\nCalendar: Accounting Team | Color: purple | Recurring: true (15th of each month)\n\nAttendees: elena.brooks@sunshineandsetauto.com, marcus.hale@sunshineandsetauto.com",
+      "location": null
+    },
+    "cal_024": {
+      "id": "cal_024",
+      "summary": "Commission Cutoff \u2014 2nd Period May 2026",
+      "start": {
+        "date": "2026-05-16"
+      },
+      "end": {
+        "date": "2026-05-17"
+      },
+      "description": "Commission sheet cutoff \u2014 16th of month. Department managers must submit approved commission sheets to Leah Morgan by end of business.\n\nSheets received after cutoff held to next pay period unless Elena Brooks approves exception. Per Section 7.1.\n\nCalendar: Payroll | Color: blue | Recurring: true (1st and 16th of each month)\n\nAttendees: leah.morgan@sunshineandsetauto.com, marcus.hale@sunshineandsetauto.com",
+      "location": null
+    },
+    "cal_025": {
+      "id": "cal_025",
+      "summary": "Payroll Support Deadline \u2014 Submit to Hannah Price",
+      "start": {
+        "dateTime": "2026-05-18T17:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-05-18T17:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "description": "Leah Morgan must compile and submit final payroll support package to Hannah Price (HR) by end of business today.\n\nPackage includes commissions, bonuses, chargeback offsets, PTO usage, deduction changes.\n\nPer Section 7.4 \u2014 2 business days after May 16 commission cutoff. Hannah Price reviews and submits to payroll processor same day.\n\nCalendar: Payroll | Color: blue | Recurring: true (3rd and 18th of each month)\n\nAttendees: leah.morgan@sunshineandsetauto.com, hannah.price@sunshineandsetauto.com",
+      "location": null
+    },
+    "cal_026": {
+      "id": "cal_026",
+      "summary": "Sales Tax Filing Deadline Warning \u2014 April Return Due by May 20",
+      "start": {
+        "dateTime": "2026-05-19T09:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-05-19T09:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "description": "Per Section 10.4 \u2014 filing deadline warning reminder.\n\nApril 2026 sales tax return due to Florida DOR by May 20 (with 20-day grace). Collection allowance of 2.5% on first $1,200 of tax due applies if filed on time.\n\nElena Brooks or Marcus Hale must confirm submission.\n\nCalendar: Accounting Team | Color: red | Reminder: 1440 minutes (24 hours before)\n\nAttendees: elena.brooks@sunshineandsetauto.com, marcus.hale@sunshineandsetauto.com",
+      "location": null
+    }
+  }
+}

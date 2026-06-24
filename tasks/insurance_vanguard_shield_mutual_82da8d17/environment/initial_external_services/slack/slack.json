@@ -1,0 +1,966 @@
+{
+  "users": {
+    "U001": {
+      "id": "U001",
+      "team_id": "T001",
+      "name": "tmorgan",
+      "deleted": false,
+      "real_name": "Taylor Morgan",
+      "tz": "America/New_York",
+      "profile": {
+        "real_name": "Taylor Morgan",
+        "display_name": "tmorgan",
+        "title": "Operations Analyst",
+        "email": "taylor.morgan@vanguardshield.com"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_primary_owner": false,
+      "is_restricted": false,
+      "is_ultra_restricted": false,
+      "is_bot": false,
+      "is_app_user": false
+    },
+    "U002": {
+      "id": "U002",
+      "team_id": "T001",
+      "name": "dpark",
+      "deleted": false,
+      "real_name": "Diana Park",
+      "tz": "America/New_York",
+      "profile": {
+        "real_name": "Diana Park",
+        "display_name": "dpark",
+        "title": "Sales Director",
+        "email": "diana.park@vanguardshield.com"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_primary_owner": false,
+      "is_restricted": false,
+      "is_ultra_restricted": false,
+      "is_bot": false,
+      "is_app_user": false
+    },
+    "U003": {
+      "id": "U003",
+      "team_id": "T001",
+      "name": "jnakamura",
+      "deleted": false,
+      "real_name": "Jun Nakamura",
+      "tz": "America/New_York",
+      "profile": {
+        "real_name": "Jun Nakamura",
+        "display_name": "jnakamura",
+        "title": "VP of Sales",
+        "email": "jun.nakamura@vanguardshield.com"
+      },
+      "is_admin": true,
+      "is_owner": false,
+      "is_primary_owner": false,
+      "is_restricted": false,
+      "is_ultra_restricted": false,
+      "is_bot": false,
+      "is_app_user": false
+    },
+    "U004": {
+      "id": "U004",
+      "team_id": "T001",
+      "name": "rfoster",
+      "deleted": false,
+      "real_name": "Rachel Foster",
+      "tz": "America/New_York",
+      "profile": {
+        "real_name": "Rachel Foster",
+        "display_name": "rfoster",
+        "title": "AP Lead",
+        "email": "rachel.foster@vanguardshield.com"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_primary_owner": false,
+      "is_restricted": false,
+      "is_ultra_restricted": false,
+      "is_bot": false,
+      "is_app_user": false
+    },
+    "U005": {
+      "id": "U005",
+      "team_id": "T001",
+      "name": "nbriggs",
+      "deleted": false,
+      "real_name": "Nathan Briggs",
+      "tz": "America/New_York",
+      "profile": {
+        "real_name": "Nathan Briggs",
+        "display_name": "nbriggs",
+        "title": "Legal Claims Lead",
+        "email": "nathan.briggs@vanguardshield.com"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_primary_owner": false,
+      "is_restricted": false,
+      "is_ultra_restricted": false,
+      "is_bot": false,
+      "is_app_user": false
+    },
+    "U006": {
+      "id": "U006",
+      "team_id": "T001",
+      "name": "sjenkins",
+      "deleted": false,
+      "real_name": "Sarah Jenkins",
+      "tz": "America/New_York",
+      "profile": {
+        "real_name": "Sarah Jenkins",
+        "display_name": "sjenkins",
+        "title": "VP of Core Operations",
+        "email": "sarah.jenkins@vanguardshield.com"
+      },
+      "is_admin": true,
+      "is_owner": false,
+      "is_primary_owner": false,
+      "is_restricted": false,
+      "is_ultra_restricted": false,
+      "is_bot": false,
+      "is_app_user": false
+    },
+    "U007": {
+      "id": "U007",
+      "team_id": "T001",
+      "name": "mchen",
+      "deleted": false,
+      "real_name": "Marcus Chen",
+      "tz": "America/New_York",
+      "profile": {
+        "real_name": "Marcus Chen",
+        "display_name": "mchen",
+        "title": "Sales Representative",
+        "email": "marcus.chen@vanguardshield.com"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_primary_owner": false,
+      "is_restricted": false,
+      "is_ultra_restricted": false,
+      "is_bot": false,
+      "is_app_user": false
+    },
+    "U008": {
+      "id": "U008",
+      "team_id": "T001",
+      "name": "psharma",
+      "deleted": false,
+      "real_name": "Priya Sharma",
+      "tz": "America/New_York",
+      "profile": {
+        "real_name": "Priya Sharma",
+        "display_name": "psharma",
+        "title": "Account Executive",
+        "email": "priya.sharma@vanguardshield.com"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_primary_owner": false,
+      "is_restricted": false,
+      "is_ultra_restricted": false,
+      "is_bot": false,
+      "is_app_user": false
+    },
+    "U009": {
+      "id": "U009",
+      "team_id": "T001",
+      "name": "dwashington",
+      "deleted": false,
+      "real_name": "Derek Washington",
+      "tz": "America/New_York",
+      "profile": {
+        "real_name": "Derek Washington",
+        "display_name": "dwashington",
+        "title": "Sales Engineer",
+        "email": "derek.washington@vanguardshield.com"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_primary_owner": false,
+      "is_restricted": false,
+      "is_ultra_restricted": false,
+      "is_bot": false,
+      "is_app_user": false
+    },
+    "U010": {
+      "id": "U010",
+      "team_id": "T001",
+      "name": "arobinson",
+      "deleted": false,
+      "real_name": "Aisha Robinson",
+      "tz": "America/New_York",
+      "profile": {
+        "real_name": "Aisha Robinson",
+        "display_name": "arobinson",
+        "title": "Senior Sales Representative",
+        "email": "aisha.robinson@vanguardshield.com"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_primary_owner": false,
+      "is_restricted": false,
+      "is_ultra_restricted": false,
+      "is_bot": false,
+      "is_app_user": false
+    },
+    "U011": {
+      "id": "U011",
+      "team_id": "T001",
+      "name": "kobrien",
+      "deleted": false,
+      "real_name": "Kevin O'Brien",
+      "tz": "America/New_York",
+      "profile": {
+        "real_name": "Kevin O'Brien",
+        "display_name": "kobrien",
+        "title": "Claims Supervisor",
+        "email": "kevin.obrien@vanguardshield.com"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_primary_owner": false,
+      "is_restricted": false,
+      "is_ultra_restricted": false,
+      "is_bot": false,
+      "is_app_user": false
+    },
+    "U012": {
+      "id": "U012",
+      "team_id": "T001",
+      "name": "ltran",
+      "deleted": false,
+      "real_name": "Lisa Tran",
+      "tz": "America/New_York",
+      "profile": {
+        "real_name": "Lisa Tran",
+        "display_name": "ltran",
+        "title": "HR Ops Coordinator",
+        "email": "lisa.tran@vanguardshield.com"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_primary_owner": false,
+      "is_restricted": false,
+      "is_ultra_restricted": false,
+      "is_bot": false,
+      "is_app_user": false
+    }
+  },
+  "channels": {
+    "C001": {
+      "id": "C001",
+      "name": "general",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1609459200,
+      "is_archived": false,
+      "is_general": true,
+      "unlinked": 0,
+      "name_normalized": "general",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1609459200,
+      "creator": "U003",
+      "shared_team_ids": [],
+      "is_member": true,
+      "topic": {
+        "value": "Company-wide updates and announcements",
+        "creator": "U003",
+        "last_set": 1609459200
+      },
+      "purpose": {
+        "value": "This is the one channel that will always include everyone...",
+        "creator": "U003",
+        "last_set": 1609459200
+      }
+    },
+    "C002": {
+      "id": "C002",
+      "name": "hr-ops-help",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1640995200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "hr-ops-help",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1640995200,
+      "creator": "U012",
+      "shared_team_ids": [],
+      "is_member": true,
+      "topic": {
+        "value": "HR and Operations support requests",
+        "creator": "U012",
+        "last_set": 1640995200
+      },
+      "purpose": {
+        "value": "Support channel for HR and Operations related questions",
+        "creator": "U012",
+        "last_set": 1640995200
+      }
+    },
+    "C003": {
+      "id": "C003",
+      "name": "ops-support",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1640995200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "ops-support",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1640995200,
+      "creator": "U006",
+      "shared_team_ids": [],
+      "is_member": true,
+      "topic": {
+        "value": "Operations support and troubleshooting",
+        "creator": "U006",
+        "last_set": 1640995200
+      },
+      "purpose": {
+        "value": "Channel for operations support issues and resolutions",
+        "creator": "U006",
+        "last_set": 1640995200
+      }
+    },
+    "C004": {
+      "id": "C004",
+      "name": "sales-team",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1640995200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "sales-team",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1640995200,
+      "creator": "U003",
+      "shared_team_ids": [],
+      "is_member": true,
+      "topic": {
+        "value": "Sales team collaboration and updates",
+        "creator": "U003",
+        "last_set": 1640995200
+      },
+      "purpose": {
+        "value": "Primary channel for sales team discussions and coordination",
+        "creator": "U003",
+        "last_set": 1640995200
+      }
+    },
+    "C005": {
+      "id": "C005",
+      "name": "claims-ops",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1640995200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "claims-ops",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1640995200,
+      "creator": "U005",
+      "shared_team_ids": [],
+      "is_member": true,
+      "topic": {
+        "value": "Claims operations and processing",
+        "creator": "U005",
+        "last_set": 1640995200
+      },
+      "purpose": {
+        "value": "Channel for claims operations and dispute resolution",
+        "creator": "U005",
+        "last_set": 1640995200
+      }
+    },
+    "C006": {
+      "id": "C006",
+      "name": "operations",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1640995200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "operations",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1640995200,
+      "creator": "U006",
+      "shared_team_ids": [],
+      "is_member": true,
+      "topic": {
+        "value": "Core operations and process improvements",
+        "creator": "U006",
+        "last_set": 1640995200
+      },
+      "purpose": {
+        "value": "Channel for core operations team coordination",
+        "creator": "U006",
+        "last_set": 1640995200
+      }
+    },
+    "C007": {
+      "id": "C007",
+      "name": "finance",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1640995200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "finance",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1640995200,
+      "creator": "U004",
+      "shared_team_ids": [],
+      "is_member": true,
+      "topic": {
+        "value": "Finance and accounting operations",
+        "creator": "U004",
+        "last_set": 1640995200
+      },
+      "purpose": {
+        "value": "Channel for finance team coordination and AP/AR operations",
+        "creator": "U004",
+        "last_set": 1640995200
+      }
+    },
+    "C008": {
+      "id": "C008",
+      "name": "finance-approvals",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1640995200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "finance-approvals",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1640995200,
+      "creator": "U004",
+      "shared_team_ids": [],
+      "is_member": true,
+      "topic": {
+        "value": "Manager approvals for finance transactions",
+        "creator": "U004",
+        "last_set": 1640995200
+      },
+      "purpose": {
+        "value": "Channel for posting and tracking manager approvals on finance items",
+        "creator": "U004",
+        "last_set": 1640995200
+      }
+    },
+    "C009": {
+      "id": "C009",
+      "name": "treasury-wires",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1640995200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "treasury-wires",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1640995200,
+      "creator": "U006",
+      "shared_team_ids": [],
+      "is_member": true,
+      "topic": {
+        "value": "Wire transfer approvals and tracking",
+        "creator": "U006",
+        "last_set": 1640995200
+      },
+      "purpose": {
+        "value": "Channel for wire transfer approval workflows",
+        "creator": "U006",
+        "last_set": 1640995200
+      }
+    },
+    "C010": {
+      "id": "C010",
+      "name": "ar-collections",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1640995200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "ar-collections",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1640995200,
+      "creator": "U004",
+      "shared_team_ids": [],
+      "is_member": true,
+      "topic": {
+        "value": "Accounts receivable collections coordination",
+        "creator": "U004",
+        "last_set": 1640995200
+      },
+      "purpose": {
+        "value": "Channel for AR collections requests and billing contact lookups",
+        "creator": "U004",
+        "last_set": 1640995200
+      }
+    },
+    "C011": {
+      "id": "C011",
+      "name": "compliance-urgent",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1640995200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "compliance-urgent",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1640995200,
+      "creator": "U006",
+      "shared_team_ids": [],
+      "is_member": true,
+      "topic": {
+        "value": "Urgent compliance alerts and exceptions",
+        "creator": "U006",
+        "last_set": 1640995200
+      },
+      "purpose": {
+        "value": "Channel for posting urgent compliance exception alerts",
+        "creator": "U006",
+        "last_set": 1640995200
+      }
+    },
+    "C012": {
+      "id": "C012",
+      "name": "uw-data-requests",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1640995200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "uw-data-requests",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1640995200,
+      "creator": "U006",
+      "shared_team_ids": [],
+      "is_member": true,
+      "topic": {
+        "value": "Underwriting data requests",
+        "creator": "U006",
+        "last_set": 1640995200
+      },
+      "purpose": {
+        "value": "Channel for underwriting data and payroll requests",
+        "creator": "U006",
+        "last_set": 1640995200
+      }
+    },
+    "D001": {
+      "id": "D001",
+      "name": "dm-dpark",
+      "is_channel": false,
+      "is_group": false,
+      "is_im": true,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1640995200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "dm-dpark",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1640995200,
+      "creator": "U002",
+      "shared_team_ids": [],
+      "is_member": true,
+      "user": "U002",
+      "members": [
+        "U002"
+      ]
+    },
+    "D002": {
+      "id": "D002",
+      "name": "dm-jnakamura",
+      "is_channel": false,
+      "is_group": false,
+      "is_im": true,
+      "is_mpim": false,
+      "is_private": true,
+      "created": 1640995200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "dm-jnakamura",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1640995200,
+      "creator": "U003",
+      "shared_team_ids": [],
+      "is_member": true,
+      "user": "U003",
+      "members": [
+        "U003"
+      ]
+    }
+  },
+  "messages": {
+    "C003": [
+      {
+        "type": "message",
+        "user": "U009",
+        "text": "Does anyone know if the updated PTO accrual policy is posted yet? I checked the HR portal but still see last year's version.",
+        "ts": "1775572200.000050",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U012",
+        "text": "Hi Derek, the new policy should be up by end of this week. HR is finalizing the rollover cap changes. I'll post a link here once it's live.",
+        "ts": "1775572500.000060",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U006",
+        "text": "Reminder: the new expense report template goes live next Monday. Please make sure your teams are aware of the updated submission process.",
+        "ts": "1775758800.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Got it. I'll forward the updated guidelines to the ops team this afternoon.",
+        "ts": "1775759100.000200",
+        "team": "T001"
+      }
+    ],
+    "C005": [
+      {
+        "type": "message",
+        "user": "U011",
+        "text": "Reminder: the subro triage backlog review is Wednesday at 11am. Please have your batch lists updated before the meeting.",
+        "ts": "1775671200.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U005",
+        "text": "Will do. I've got about 12 issues left in my queue from last week.",
+        "ts": "1775671800.000200",
+        "team": "T001"
+      }
+    ],
+    "C006": [
+      {
+        "type": "message",
+        "user": "U006",
+        "text": "Heads up \u2014 Q1 operations review meeting is today at 2pm. I've sent the agenda to everyone on the invite. Please come prepared with your section metrics.",
+        "ts": "1775566800.000050",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Got it, thanks Sarah. I'll have the AP throughput numbers ready.",
+        "ts": "1775567700.000060",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U006",
+        "text": "Team, let's review this week's operations metrics in the morning standup. Focus on SLA compliance and ticket throughput.",
+        "ts": "1775737800.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Will do. I've pulled the numbers for the week and will have them ready before the meeting.",
+        "ts": "1775738100.000200",
+        "team": "T001"
+      }
+    ],
+    "C007": [
+      {
+        "type": "message",
+        "user": "U004",
+        "text": "Team, just a note that the Friday payment run is confirmed for April 10. If you have any invoices that need to be included, make sure they're fully approved in the queue by end of day Thursday.",
+        "ts": "1775655000.000050",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Thanks Rachel. I have a few in the pipeline, will make sure they're queued up.",
+        "ts": "1775655900.000060",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U004",
+        "text": "Quick reminder that Q1 close reconciliation reports are due by end of day Friday. Please flag any open items.",
+        "ts": "1775750400.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Thanks for the heads up. I'll have my section wrapped up by Thursday.",
+        "ts": "1775750700.000200",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U004",
+        "text": "Great, appreciate it. Let me know if you need anything from my side.",
+        "ts": "1775751000.000300",
+        "team": "T001"
+      }
+    ],
+    "C008": [
+      {
+        "type": "message",
+        "user": "U006",
+        "text": "Approved: Marketing department Q2 event budget reallocation \u2014 $18,500 from trade show line to digital campaign line. Jira: OPS-FIN-BVA-MKT-Q1. cc @rfoster",
+        "ts": "1775228400.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U004",
+        "text": "Noted, thanks Sarah. I'll update the BVA tracker.",
+        "ts": "1775228700.000200",
+        "team": "T001"
+      }
+    ],
+    "C001": [
+      {
+        "type": "message",
+        "user": "U006",
+        "text": "Happy Monday everyone. Just a reminder that the parking garage on the east side will be closed for maintenance this Wednesday and Thursday.",
+        "ts": "1775480400.000010",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U012",
+        "text": "Thanks for the heads up\\! Is the visitor lot still open?",
+        "ts": "1775480700.000020",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U006",
+        "text": "Yes, visitor lot is unaffected.",
+        "ts": "1775481000.000030",
+        "team": "T001"
+      }
+    ],
+    "C002": [
+      {
+        "type": "message",
+        "user": "U007",
+        "text": "Quick question \u2014 where do I find the updated mileage reimbursement form? The link on the intranet seems broken.",
+        "ts": "1775654400.000010",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U012",
+        "text": "That link is being migrated. I'll DM you the direct PDF for now.",
+        "ts": "1775655000.000020",
+        "team": "T001"
+      }
+    ],
+    "C004": [
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "Team standup at 10am today \u2014 please come with your pipeline updates. We need to close strong this quarter.",
+        "ts": "1775566200.000010",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U010",
+        "text": "Will do. I have two proposals going out this afternoon that should move us closer.",
+        "ts": "1775566800.000020",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U008",
+        "text": "Same here \u2014 demo with Pinnacle IT went well last week, expecting their PO by Thursday.",
+        "ts": "1775567100.000030",
+        "team": "T001"
+      }
+    ],
+    "C009": [
+      {
+        "type": "message",
+        "user": "U006",
+        "text": "FYI the international wire approval threshold has been updated to $25K effective this week. Anything above needs dual sign-off from Treasury and Finance.",
+        "ts": "1775740800.000010",
+        "team": "T001"
+      }
+    ],
+    "C010": [
+      {
+        "type": "message",
+        "user": "U004",
+        "text": "Does anyone have the updated billing contact for Meridian Partners? Their AR person left and our last two invoices bounced back.",
+        "ts": "1775654400.000010",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U010",
+        "text": "I think Priya has it \u2014 she was working the Meridian account last month.",
+        "ts": "1775655000.000020",
+        "team": "T001"
+      }
+    ],
+    "C011": [
+      {
+        "type": "message",
+        "user": "U005",
+        "text": "Heads up \u2014 we had a flagged transaction on claim CLM-2026-4412. Reviewing now but may need compliance sign-off before EOD.",
+        "ts": "1775744400.000010",
+        "team": "T001"
+      }
+    ]
+  },
+  "counters": {
+    "messageId": 1000000
+  }
+}

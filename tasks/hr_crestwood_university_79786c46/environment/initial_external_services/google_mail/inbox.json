@@ -1,0 +1,237 @@
+{
+  "mailbox": {
+    "email": "hr@crestwood.edu",
+    "name": "Crestwood University HR"
+  },
+  "contacts": [
+    {
+      "email": "n.ashford@crestwood.edu",
+      "name": "Nicole Ashford"
+    },
+    {
+      "email": "p.huang@crestwood.edu",
+      "name": "Patricia Huang"
+    },
+    {
+      "email": "d.okonkwo@crestwood.edu",
+      "name": "Derek Okonkwo"
+    },
+    {
+      "email": "m.voss@crestwood.edu",
+      "name": "Marta Voss"
+    },
+    {
+      "email": "c.briggs@crestwood.edu",
+      "name": "Calvin Briggs"
+    },
+    {
+      "email": "j.park@crestwood.edu",
+      "name": "Jenna Park"
+    },
+    {
+      "email": "j.whitfield@crestwood.edu",
+      "name": "Dr. James Whitfield"
+    },
+    {
+      "email": "hr-escalations@crestwood.edu",
+      "name": "HR Escalations"
+    },
+    {
+      "email": "m.torres@crestwood.edu",
+      "name": "Maria Torres"
+    },
+    {
+      "email": "d.kim@crestwood.edu",
+      "name": "David Kim"
+    },
+    {
+      "email": "j.okafor@crestwood.edu",
+      "name": "James Okafor"
+    },
+    {
+      "email": "r.patel@crestwood.edu",
+      "name": "Rachel Patel"
+    },
+    {
+      "email": "k.walsh@crestwood.edu",
+      "name": "Kevin Walsh"
+    },
+    {
+      "email": "s.bloom@crestwood.edu",
+      "name": "Sandra Bloom"
+    },
+    {
+      "email": "t.hayes@crestwood.edu",
+      "name": "Tom Hayes"
+    },
+    {
+      "email": "l.nguyen@crestwood.edu",
+      "name": "Lisa Nguyen"
+    },
+    {
+      "email": "r.chen@crestwood.edu",
+      "name": "Robert Chen"
+    },
+    {
+      "email": "a.foster@crestwood.edu",
+      "name": "Amy Foster"
+    },
+    {
+      "email": "m.p.torres@crestwood.edu",
+      "name": "Michael Torres"
+    },
+    {
+      "email": "v.osei@crestwood.edu",
+      "name": "Victor Osei"
+    },
+    {
+      "email": "c.navarro@crestwood.edu",
+      "name": "Chris Navarro"
+    },
+    {
+      "email": "danielyoon.work@gmail.com",
+      "name": "Daniel Yoon"
+    },
+    {
+      "email": "priya.kapoor@outlook.com",
+      "name": "Priya Kapoor"
+    },
+    {
+      "email": "marcuswebb84@gmail.com",
+      "name": "Marcus Webb"
+    },
+    {
+      "email": "brandon.ellis.personal@gmail.com",
+      "name": "Brandon Ellis"
+    },
+    {
+      "email": "sarah.mendez92@gmail.com",
+      "name": "Sarah Mendez"
+    }
+  ],
+  "folders": [
+    {
+      "name": "Onboarding"
+    },
+    {
+      "name": "Offboarding"
+    },
+    {
+      "name": "Leave"
+    },
+    {
+      "name": "Performance"
+    },
+    {
+      "name": "Recruiting"
+    },
+    {
+      "name": "General"
+    }
+  ],
+  "emails": [
+    {
+      "email_id": "1",
+      "folder": "Sent",
+      "subject": "New Hire Welcome \u2014 Ellis, E-1012",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "brandon.ellis.personal@gmail.com",
+      "cc_addr": "t.hayes@crestwood.edu",
+      "bcc_addr": null,
+      "date": "2026-04-02T09:02:00-06:00",
+      "message_id": "<msg001@crestwood.edu>",
+      "in_reply_to": null,
+      "body_text": "Hi Brandon,\n\nWelcome to Crestwood University! We are excited to have you join us as an Admissions Counselor in the Admissions department at the Downtown Campus.\n\nYour first day is 04/20/2026. Your supervisor, Tom Hayes, will conduct your orientation session beginning at 9:00am MST. Please bring the following:\n\n\u2022 One document from List A (e.g., U.S. Passport), OR one document from List B (e.g., Driver\u2019s License) AND one document from List C (e.g., Social Security Card)\n\nThese documents are required to complete your I-9 form on your first day.\n\nYou will also receive a benefits enrollment packet during orientation. You will have 30 days from your start date to enroll in or waive benefits.\n\nIf you have any questions before your start date, please don\u2019t hesitate to reach out.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "2",
+      "folder": "Sent",
+      "subject": "IT Access Provisioning Request \u2014 Ellis, E-1012",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "j.park@crestwood.edu",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-02T09:03:00-06:00",
+      "message_id": "<msg002@crestwood.edu>",
+      "in_reply_to": null,
+      "body_text": "Hi Jenna,\n\nPlease provision the following IT access for a new employee:\n\nName: Brandon Ellis\nEmployee ID: E-1012\nPosition: Admissions Counselor\nDepartment: Admissions\nCampus: Downtown\nStart Date: 04/20/2026\nSupervisor: Tom Hayes\n\nPlease have access ready by the employee\u2019s first day. Confirm when complete.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "3",
+      "folder": "Sent",
+      "subject": "Orientation Coordinator Request \u2014 Ellis, E-1012",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "t.hayes@crestwood.edu",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-02T09:04:00-06:00",
+      "message_id": "<msg003@crestwood.edu>",
+      "in_reply_to": null,
+      "body_text": "Hi Tom,\n\nBrandon Ellis is scheduled to begin as Admissions Counselor on 04/20/2026. As the hiring manager, please conduct the in-person orientation on their first day. Orientation should include:\n\n\u2022 Campus tour and introductions\n\u2022 Review of department procedures and expectations\n\u2022 Collection of I-9 Section 1 (completed by employee) and verification of original identity/work authorization documents\n\u2022 Distribution of benefits enrollment packet\n\nPlease have the employee complete the I-9 Section 1, then examine their original documents and complete Section 2. Email the scanned signed form to hr@crestwood.edu.\n\nAttached: i9_form.pdf, benefits_enrollment_packet.pdf\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "6",
+      "folder": "INBOX",
+      "subject": "New Hire Notifications \u2014 April/May 2026",
+      "from_addr": "d.okonkwo@crestwood.edu",
+      "to_addr": "hr@crestwood.edu",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-10T07:30:00-06:00",
+      "message_id": "<msg006@crestwood.edu>",
+      "in_reply_to": null,
+      "body_text": "Hi,\n\nI've collected the new hire confirmations that came in from hiring managers across departments this week. Details for each are below \u2014 please go ahead and initiate onboarding.\n\n1. Sarah Mendez\n   Personal Email: sarah.mendez92@gmail.com\n   Position: Academic Advisor\n   Department: Academic Affairs\n   Campus: Downtown\n   Start Date: 05/05/2026\n   Classification: Exempt, Full-Time\n   Supervisor: Tom Hayes\n\n2. Daniel Yoon\n   Personal Email: danielyoon.work@gmail.com\n   Position: Marketing Coordinator\n   Department: Marketing\n   Campus: West\n   Start Date: 04/28/2026\n   Classification: Exempt, Full-Time\n   Supervisor: Sandra Bloom\n\n3. Priya Kapoor\n   Personal Email: priya.kapoor@outlook.com\n   Position: Finance Analyst\n   Department: Finance\n   Campus: Main\n   Start Date: 05/05/2026\n   Classification: Exempt, Full-Time\n   Supervisor: Robert Chen\n\n4. Marcus Webb\n   Personal Email: marcuswebb84@gmail.com\n   Position: IT Support Specialist\n   Department: Information Technology\n   Campus: Main\n   Start Date: 04/28/2026\n   Classification: Non-Exempt, Full-Time\n   Supervisor: Lisa Nguyen\n\n5. Brandon Ellis\n   Personal Email: brandon.ellis.personal@gmail.com\n   Position: Admissions Counselor\n   Department: Admissions\n   Campus: Downtown\n   Start Date: 04/20/2026\n   Classification: Exempt, Full-Time\n   Supervisor: Tom Hayes\n\nThanks,\nDerek Okonkwo\nRecruiting & Talent Manager",
+      "body_html": null,
+      "is_read": false,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "7",
+      "folder": "INBOX",
+      "subject": "Personnel Action \u2014 Navarro, E-1014",
+      "from_addr": "v.osei@crestwood.edu",
+      "to_addr": "hr@crestwood.edu",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-10T11:23:00-06:00",
+      "message_id": "<msg007@crestwood.edu>",
+      "in_reply_to": null,
+      "body_text": "Hi,\n\nI am writing to follow up on the meeting that concluded this morning with Nicole Ashford, Marta Voss, Chris Navarro, and myself. After a thorough discussion of the circumstances, the university has made the decision to terminate Mr. Navarro's employment effective immediately. Chris was informed of this decision during the meeting and has been escorted from the building.\n\nPlease initiate offboarding with the following details:\n\nName: Chris Navarro\nEmployee ID: E-1014\nPosition: Administrative Coordinator\nDepartment: Administration\nCampus: Main\nSupervisor: Victor Osei\nTermination Date: April 10, 2026\nSeparation Type: Involuntary Termination\n\nGiven the nature of this separation, system access should be revoked immediately. Please also coordinate final pay per Colorado law. Nicole Ashford and Marta Voss were both present for the conversation.\n\nVictor Osei\nVP of Administration\nCrestwood University",
+      "body_html": null,
+      "is_read": false,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "9",
+      "folder": "INBOX",
+      "subject": "Re: Offer \u2014 Academic Advisor, Downtown Campus",
+      "from_addr": "sarah.mendez92@gmail.com",
+      "to_addr": "hr@crestwood.edu",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-10T10:14:00-06:00",
+      "message_id": "<msg009@crestwood.edu>",
+      "in_reply_to": null,
+      "body_text": "Hi,\n\nI appreciate the offer to join Crestwood University as an Academic Advisor. Unfortunately, I have decided to accept another position and will not be able to join your team. I apologize for any inconvenience this may cause.\n\nThank you for the opportunity.\n\nBest regards,\nSarah Mendez",
+      "body_html": null,
+      "is_read": false,
+      "is_important": false,
+      "attachments": []
+    }
+  ],
+  "next_email_id": 10
+}

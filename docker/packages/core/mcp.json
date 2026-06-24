@@ -1,0 +1,28 @@
+{
+  "run": {
+    "command": "python",
+    "args": ["-m", "core.server"],
+    "env": { "SETUID": "1000", "SETGID": "1000", "HOME": "/home/model", "USER": "model", "LOGNAME": "model" }
+  },
+  "setup": {
+    "command": "python",
+    "args": ["-m", "core.setup"],
+    "env": { "SETUID": "1000", "SETGID": "1000", "HOME": "/home/model", "USER": "model", "LOGNAME": "model" }
+  },
+  "namespaced": false,
+  "toolsets": {
+    "read": ["echo", "listFiles", "readFile", "readPDF"],
+    "read_multimodal": ["echo", "listFiles", "readFile", "readMedia", "readPDF"],
+    "write": ["bash", "writeFile"],
+    "debug": ["bash", "echo"],
+    "ds_all": [
+      "bash",
+      "listFiles",
+      "readFile",
+      "readPDF",
+      "writeFile"
+    ],
+    "state": ["export_state", "import_state"],
+    "grading": ["prepareGradingContext"]
+  }
+}

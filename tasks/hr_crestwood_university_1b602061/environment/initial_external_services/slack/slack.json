@@ -1,0 +1,626 @@
+{
+  "team_id": "TCRESTWOOD",
+  "team_name": "Crestwood University HR",
+  "users": {
+    "UWHITFIELD": {
+      "id": "UWHITFIELD",
+      "team_id": "TCRESTWOOD",
+      "name": "j.whitfield",
+      "real_name": "Dr. James Whitfield",
+      "is_admin": true,
+      "is_bot": false,
+      "profile": {
+        "email": "j.whitfield@crestwood.edu",
+        "title": "Vice President of Human Resources"
+      }
+    },
+    "UASHFORD": {
+      "id": "UASHFORD",
+      "team_id": "TCRESTWOOD",
+      "name": "n.ashford",
+      "real_name": "Nicole Ashford",
+      "is_admin": true,
+      "is_bot": false,
+      "profile": {
+        "email": "n.ashford@crestwood.edu",
+        "title": "HR Director"
+      }
+    },
+    "UHUANG": {
+      "id": "UHUANG",
+      "team_id": "TCRESTWOOD",
+      "name": "p.huang",
+      "real_name": "Patricia Huang",
+      "is_admin": false,
+      "is_bot": false,
+      "profile": {
+        "email": "p.huang@crestwood.edu",
+        "title": "Benefits & Leave Manager"
+      }
+    },
+    "UOKONKWO": {
+      "id": "UOKONKWO",
+      "team_id": "TCRESTWOOD",
+      "name": "d.okonkwo",
+      "real_name": "Derek Okonkwo",
+      "is_admin": false,
+      "is_bot": false,
+      "profile": {
+        "email": "d.okonkwo@crestwood.edu",
+        "title": "Recruiting & Talent Manager"
+      }
+    },
+    "UVOSS": {
+      "id": "UVOSS",
+      "team_id": "TCRESTWOOD",
+      "name": "m.voss",
+      "real_name": "Marta Voss",
+      "is_admin": false,
+      "is_bot": false,
+      "profile": {
+        "email": "m.voss@crestwood.edu",
+        "title": "Employee Relations Specialist"
+      }
+    },
+    "UBRIGGS": {
+      "id": "UBRIGGS",
+      "team_id": "TCRESTWOOD",
+      "name": "c.briggs",
+      "real_name": "Calvin Briggs",
+      "is_admin": false,
+      "is_bot": false,
+      "profile": {
+        "email": "c.briggs@crestwood.edu",
+        "title": "Payroll Liaison"
+      }
+    },
+    "UPARK": {
+      "id": "UPARK",
+      "team_id": "TCRESTWOOD",
+      "name": "j.park",
+      "real_name": "Jenna Park",
+      "is_admin": false,
+      "is_bot": false,
+      "profile": {
+        "email": "j.park@crestwood.edu",
+        "title": "IT Access Coordinator"
+      }
+    },
+    "UCOORD": {
+      "id": "UCOORD",
+      "team_id": "TCRESTWOOD",
+      "name": "hr.coordinator",
+      "real_name": "HR Coordinator",
+      "is_admin": false,
+      "is_bot": false,
+      "profile": {
+        "email": "hr@crestwood.edu",
+        "title": "HR Coordinator"
+      }
+    }
+  },
+  "channels": {
+    "CONBOARDING": {
+      "id": "CONBOARDING",
+      "name": "hr-onboarding",
+      "is_channel": true,
+      "created": 1704092400,
+      "topic": {
+        "value": "New hire processing, I-9 tracking, benefits enrollment reminders, orientation scheduling.",
+        "creator": "",
+        "last_set": 0
+      },
+      "members": [
+        "UWHITFIELD",
+        "UASHFORD",
+        "UHUANG",
+        "UOKONKWO",
+        "UVOSS",
+        "UBRIGGS",
+        "UPARK",
+        "UCOORD"
+      ],
+      "is_private": false,
+      "is_archived": false,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false
+    },
+    "COFFBOARDING": {
+      "id": "COFFBOARDING",
+      "name": "hr-offboarding",
+      "is_channel": true,
+      "created": 1704092400,
+      "topic": {
+        "value": "Resignations, terminations, COBRA notifications, final pay, access revocation.",
+        "creator": "",
+        "last_set": 0
+      },
+      "members": [
+        "UWHITFIELD",
+        "UASHFORD",
+        "UHUANG",
+        "UOKONKWO",
+        "UVOSS",
+        "UBRIGGS",
+        "UPARK",
+        "UCOORD"
+      ],
+      "is_private": false,
+      "is_archived": false,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false
+    },
+    "CLEAVE": {
+      "id": "CLEAVE",
+      "name": "hr-leave-requests",
+      "is_channel": true,
+      "created": 1704092400,
+      "topic": {
+        "value": "FMLA requests, ADA accommodations, PTO disputes, return-to-work issues.",
+        "creator": "",
+        "last_set": 0
+      },
+      "members": [
+        "UWHITFIELD",
+        "UASHFORD",
+        "UHUANG",
+        "UOKONKWO",
+        "UVOSS",
+        "UBRIGGS",
+        "UPARK",
+        "UCOORD"
+      ],
+      "is_private": false,
+      "is_archived": false,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false
+    },
+    "CPERFORMANCE": {
+      "id": "CPERFORMANCE",
+      "name": "hr-performance",
+      "is_channel": true,
+      "created": 1704092400,
+      "topic": {
+        "value": "PIP initiation, evaluation cycle questions, disciplinary actions.",
+        "creator": "",
+        "last_set": 0
+      },
+      "members": [
+        "UWHITFIELD",
+        "UASHFORD",
+        "UHUANG",
+        "UOKONKWO",
+        "UVOSS",
+        "UBRIGGS",
+        "UPARK",
+        "UCOORD"
+      ],
+      "is_private": false,
+      "is_archived": false,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false
+    },
+    "CRECRUITING": {
+      "id": "CRECRUITING",
+      "name": "hr-recruiting",
+      "is_channel": true,
+      "created": 1704092400,
+      "topic": {
+        "value": "Requisition approvals, candidate screening updates, offer status, background checks.",
+        "creator": "",
+        "last_set": 0
+      },
+      "members": [
+        "UWHITFIELD",
+        "UASHFORD",
+        "UHUANG",
+        "UOKONKWO",
+        "UVOSS",
+        "UBRIGGS",
+        "UPARK",
+        "UCOORD"
+      ],
+      "is_private": false,
+      "is_archived": false,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false
+    },
+    "CESCALATIONS": {
+      "id": "CESCALATIONS",
+      "name": "hr-escalations",
+      "is_channel": true,
+      "created": 1704092400,
+      "topic": {
+        "value": "Issues requiring HR Director or VP attention \u2014 legal threats, compliance deadlines, unresolved cases older than 10 business days.",
+        "creator": "",
+        "last_set": 0
+      },
+      "members": [
+        "UWHITFIELD",
+        "UASHFORD",
+        "UHUANG",
+        "UOKONKWO",
+        "UVOSS",
+        "UBRIGGS",
+        "UPARK",
+        "UCOORD"
+      ],
+      "is_private": false,
+      "is_archived": false,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false
+    },
+    "CGENERAL": {
+      "id": "CGENERAL",
+      "name": "hr-general",
+      "is_channel": true,
+      "created": 1704092400,
+      "topic": {
+        "value": "Non-case-specific questions, policy clarifications, team announcements.",
+        "creator": "",
+        "last_set": 0
+      },
+      "members": [
+        "UWHITFIELD",
+        "UASHFORD",
+        "UHUANG",
+        "UOKONKWO",
+        "UVOSS",
+        "UBRIGGS",
+        "UPARK",
+        "UCOORD"
+      ],
+      "is_private": false,
+      "is_archived": false,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false
+    }
+  },
+  "messages": {
+    "CONBOARDING": [
+      {
+        "type": "message",
+        "ts": "1773075600.000300",
+        "user": "UCOORD",
+        "text": "NEW HIRE: William Trent, Groundskeeper, Facilities, Main Campus, Start Date: 03/05/2026, Jira: HR-7",
+        "reply_count": 3,
+        "latest_reply": "1774021500.000303",
+        "reply_users": [
+          "UCOORD",
+          "UPARK"
+        ],
+        "reply_users_count": 2
+      },
+      {
+        "type": "message",
+        "ts": "1773178200.000301",
+        "user": "UPARK",
+        "text": "IT access provisioned and badge ready for pickup. :white_check_mark:",
+        "thread_ts": "1773075600.000300"
+      },
+      {
+        "type": "message",
+        "ts": "1773417600.000302",
+        "user": "UCOORD",
+        "text": "Orientation completed 3/05. I-9 Section 2 received 3/05 (within deadline). Handbook signed 3/05.",
+        "thread_ts": "1773075600.000300"
+      },
+      {
+        "type": "message",
+        "ts": "1774021500.000303",
+        "user": "UCOORD",
+        "text": "Day 15 reminder: Template 8 (Benefits Enrollment Reminder) sent to William Trent today. Deadline 04/03/2026. Logged in onboarding_checklist.",
+        "thread_ts": "1773075600.000300"
+      },
+      {
+        "type": "message",
+        "ts": "1774281600.000310",
+        "user": "UCOORD",
+        "text": "NEW HIRE: Rafael Mendez, Admissions Counselor, Admissions, Downtown Campus, Start Date: 03/26/2026, Jira: HR-4",
+        "reply_count": 3,
+        "latest_reply": "1775748600.000312",
+        "reply_users": [
+          "UCOORD",
+          "UPARK"
+        ],
+        "reply_users_count": 2
+      },
+      {
+        "type": "message",
+        "ts": "1774468800.000311",
+        "user": "UPARK",
+        "text": "Admissions system access provisioned. Downtown badge and network credentials ready for 3/26.",
+        "thread_ts": "1774281600.000310"
+      },
+      {
+        "type": "message",
+        "ts": "1774648800.000312",
+        "user": "UCOORD",
+        "text": "Orientation completed 3/27. I-9 Section 2 received 3/27. Handbook signed 3/26.",
+        "thread_ts": "1774281600.000310"
+      },
+      {
+        "type": "message",
+        "ts": "1775748600.000312",
+        "user": "UCOORD",
+        "text": "Day 15 reminder: Template 8 (Benefits Enrollment Reminder) sent to Rafael Mendez today. Deadline 04/24/2026. Logged in onboarding_checklist.",
+        "thread_ts": "1774281600.000310"
+      },
+      {
+        "type": "message",
+        "ts": "1775151000.000320",
+        "user": "UCOORD",
+        "text": "NEW HIRE: Priya Nair, Assistant Professor of Biology, Biology, West Campus, Start Date: 04/02/2026, Jira: HR-5",
+        "reply_count": 3,
+        "latest_reply": "1775247000.000322",
+        "reply_users": [
+          "UCOORD",
+          "UHUANG",
+          "UPARK"
+        ],
+        "reply_users_count": 3
+      },
+      {
+        "type": "message",
+        "ts": "1775245500.000321",
+        "user": "UPARK",
+        "text": "IT access ready for 4/6. Lab badge will need building manager activation on day one.",
+        "thread_ts": "1775151000.000320"
+      },
+      {
+        "type": "message",
+        "ts": "1775247000.000322",
+        "user": "UHUANG",
+        "text": "Just a heads up \u2014 Sandra Yee in Biology starts FMLA leave 5/1. Department chair already aware but worth flagging in Priya's onboarding so coverage expectations are clear.",
+        "thread_ts": "1775151000.000320"
+      },
+      {
+        "type": "message",
+        "ts": "1775168400.000323",
+        "user": "UCOORD",
+        "text": "Noted, thanks Patricia. Orientation completed 4/2. I-9 Section 2 received 4/2. Handbook signed 4/2. Benefits enrollment window: 4/2 \u2013 5/6.",
+        "thread_ts": "1775151000.000320"
+      },
+      {
+        "type": "message",
+        "ts": "1775234700.000330",
+        "user": "UCOORD",
+        "text": "NEW HIRE: Tom\u00e1s Salazar, Program Coordinator, Student Affairs, Downtown Campus, Start Date: 04/02/2026, Jira: HR-6",
+        "reply_count": 2,
+        "latest_reply": "1775485800.000331",
+        "reply_users": [
+          "UCOORD",
+          "UPARK"
+        ],
+        "reply_users_count": 2
+      },
+      {
+        "type": "message",
+        "ts": "1775485800.000331",
+        "user": "UPARK",
+        "text": "Day-of accounts ready. He'll be on my team \u2014 I'll walk him over after orientation.",
+        "thread_ts": "1775234700.000330"
+      },
+      {
+        "type": "message",
+        "ts": "1775170800.000332",
+        "user": "UCOORD",
+        "text": "Orientation completed 4/2. Handbook signed \u2014 flagged to follow up. Hiring manager (Patricia Huang) confirmed Section 1 of I-9 done same-day; Section 2 still outstanding from supervisor.",
+        "thread_ts": "1775234700.000330"
+      },
+      {
+        "type": "message",
+        "user": "U_MOCK_BOT",
+        "text": "ONBOARDING COMPLETE: William Trent, CU-1022, 04/07/2026",
+        "ts": "1775597400.000340"
+      }
+    ],
+    "COFFBOARDING": [],
+    "CLEAVE": [
+      {
+        "type": "message",
+        "ts": "1772468100.000200",
+        "user": "UCOORD",
+        "text": "FMLA REQUEST: Angela Russo, CU-1012, Eligible: NO \u2013 Fewer than 1,250 hours worked in the trailing 12 months (logged 980). Jira: HR-2",
+        "reply_count": 2,
+        "latest_reply": "1772724600.000202",
+        "reply_users": [
+          "UCOORD",
+          "UHUANG"
+        ],
+        "reply_users_count": 2
+      },
+      {
+        "type": "message",
+        "ts": "1772470920.000201",
+        "user": "UHUANG",
+        "text": "Confirmed \u2014 not eligible. Coordinator, please send Template 17 (FMLA Ineligibility Notice) and offer to discuss alternative options. Loop me in if she wants to escalate.",
+        "thread_ts": "1772468100.000200"
+      },
+      {
+        "type": "message",
+        "ts": "1772724600.000202",
+        "user": "UCOORD",
+        "text": "Template 17 sent 3/3. Closing the ticket today.",
+        "thread_ts": "1772468100.000200"
+      },
+      {
+        "type": "message",
+        "ts": "1773675900.000210",
+        "user": "UCOORD",
+        "text": "FMLA REQUEST: Sandra Yee, CU-1008, Eligible: YES, Certification Due: 03/31/2026, Jira: HR-3",
+        "reply_count": 4,
+        "latest_reply": "1774905000.000214",
+        "reply_users": [
+          "UCOORD",
+          "UHUANG"
+        ],
+        "reply_users_count": 2
+      },
+      {
+        "type": "message",
+        "ts": "1773677100.000211",
+        "user": "UHUANG",
+        "text": "Thanks \u2014 confirmed eligibility (8 yrs tenure, 1,840 hrs). Template 16 (FMLA Eligibility & Cert Request) goes out today, correct?",
+        "thread_ts": "1773675900.000210"
+      },
+      {
+        "type": "message",
+        "ts": "1773677880.000212",
+        "user": "UCOORD",
+        "text": "Yes \u2014 Template 16 sent 3/16. Calendar reminder set for 3/31.",
+        "thread_ts": "1773675900.000210"
+      },
+      {
+        "type": "message",
+        "ts": "1774380600.000220",
+        "user": "UCOORD",
+        "text": "FMLA REQUEST: Meghan Cross, CU-1023, Eligible: YES, Certification Due: 04/06/2026, Jira: HR-1",
+        "reply_count": 1,
+        "latest_reply": "1774383060.000221",
+        "reply_users": [
+          "UHUANG"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "ts": "1774383060.000221",
+        "user": "UHUANG",
+        "text": "Eligibility confirmed (hired 3/14/2025 \u2014 just over 12 months, 2,080 hrs). Send Template 16 today and set the cert reminder.",
+        "thread_ts": "1774380600.000220"
+      },
+      {
+        "type": "message",
+        "ts": "1774902120.000213",
+        "user": "UCOORD",
+        "text": "FMLA CERTIFICATION RECEIVED: Sandra Yee, CU-1008, Jira: HR-3 \u2014 cert form returned 3/30, ahead of deadline.",
+        "thread_ts": "1773675900.000210",
+        "reactions": [
+          {
+            "name": "white_check_mark",
+            "users": [
+              "UHUANG",
+              "UASHFORD"
+            ],
+            "count": 2
+          }
+        ]
+      },
+      {
+        "type": "message",
+        "ts": "1774905000.000214",
+        "user": "UHUANG",
+        "text": "Approved. Coordinator, please send Template 19 (FMLA Approval) with leave dates 5/1\u20137/24 and confirmed return date.",
+        "thread_ts": "1773675900.000210"
+      },
+      {
+        "type": "message",
+        "ts": "1775055600.000215",
+        "user": "UCOORD",
+        "text": "FMLA APPROVED: Sandra Yee, CU-1008, Leave: 05/01/2026 \u2013 07/24/2026, Return Date: 07/27/2026, Jira: HR-3"
+      },
+      {
+        "type": "message",
+        "ts": "1775232000.000600",
+        "user": "UCOORD",
+        "text": "Marcus Tremblay returned from PTO 4/3 \u2014 leave_tracker updated to 'Returned'. No offboarding action."
+      },
+      {
+        "type": "message",
+        "ts": "1775833020.000225",
+        "user": "UCOORD",
+        "text": "Forwarded to p.huang@crestwood.edu per SOP 13.1. Awaiting determination on denial vs. extension."
+      },
+      {
+        "type": "message",
+        "user": "U_MOCK_BOT",
+        "text": "FMLA CERTIFICATION OVERDUE: Meghan Cross, CU-1023, Due: 04/06/2026, 5 days overdue",
+        "ts": "1775886507.475467"
+      }
+    ],
+    "CPERFORMANCE": [
+      {
+        "type": "message",
+        "ts": "1775487600.000700",
+        "user": "UASHFORD",
+        "text": "Annual evaluation cycle kicks off 5/1. Coordinator \u2014 please draft the all-staff announcement this week so we can send 4/20.",
+        "reply_count": 1,
+        "latest_reply": "1775488440.000701",
+        "reply_users": [
+          "UCOORD"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "ts": "1775488440.000701",
+        "user": "UCOORD",
+        "text": "On it. Will share draft Wednesday.",
+        "thread_ts": "1775487600.000700"
+      }
+    ],
+    "CRECRUITING": [
+      {
+        "type": "message",
+        "ts": "1774886400.000500",
+        "user": "UCOORD",
+        "text": "REQUISITION APPROVED: Administrative Assistant, Office of the President, Main Campus, Jira: RECRUIT-Administrative Assistant-03302026",
+        "reply_count": 2,
+        "latest_reply": "1775251200.000502",
+        "reply_users": [
+          "UCOORD",
+          "UOKONKWO"
+        ],
+        "reply_users_count": 2
+      },
+      {
+        "type": "message",
+        "ts": "1774889100.000501",
+        "user": "UOKONKWO",
+        "text": "Thanks. Draft posting due to me by EOW. Standard 10 business day window \u2014 let's target close on 4/17.",
+        "thread_ts": "1774886400.000500"
+      },
+      {
+        "type": "message",
+        "ts": "1775251200.000502",
+        "user": "UCOORD",
+        "text": "Draft sent to you 4/2. Posted 4/3 after your approval. Calendar event 'Posting Closes \u2013 Administrative Assistant' set for 04/17/2026.",
+        "thread_ts": "1774886400.000500"
+      }
+    ],
+    "CESCALATIONS": [],
+    "CGENERAL": [
+      {
+        "type": "message",
+        "ts": "1772460900.000100",
+        "user": "UASHFORD",
+        "text": "Good morning team \u2014 reminder that the spring hiring window is in full swing. Please keep onboarding turnaround under 48 hours where possible. Thanks all."
+      },
+      {
+        "type": "message",
+        "ts": "1773068400.000101",
+        "user": "UWHITFIELD",
+        "text": "FYI \u2014 Board approved the FY27 budget last Friday. No headcount changes from what we discussed in February."
+      },
+      {
+        "type": "message",
+        "user": "U_MOCK_BOT",
+        "text": "[OUT OF SCOPE] \u2013 HR office light bulb out \u2013 Main Campus rm 214",
+        "ts": "1774556100.000100"
+      }
+    ]
+  },
+  "counters": {
+    "next_user_id": 9,
+    "next_channel_id": 8,
+    "next_message_id": 1000
+  }
+}

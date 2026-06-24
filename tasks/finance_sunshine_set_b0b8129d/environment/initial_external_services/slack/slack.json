@@ -1,0 +1,1177 @@
+{
+  "users": {
+    "U001": {
+      "id": "U001",
+      "team_id": "T001",
+      "name": "elena.brooks",
+      "deleted": false,
+      "real_name": "Elena Brooks",
+      "profile": {
+        "real_name": "Elena Brooks",
+        "display_name": "Elena",
+        "email": "elena.brooks@sunshineandsetauto.com",
+        "title": "Controller"
+      },
+      "is_admin": true,
+      "is_owner": true,
+      "is_bot": false
+    },
+    "U002": {
+      "id": "U002",
+      "team_id": "T001",
+      "name": "marcus.hale",
+      "deleted": false,
+      "real_name": "Marcus Hale",
+      "profile": {
+        "real_name": "Marcus Hale",
+        "display_name": "Marcus",
+        "email": "marcus.hale@sunshineandsetauto.com",
+        "title": "Assistant Controller"
+      },
+      "is_admin": true,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U003": {
+      "id": "U003",
+      "team_id": "T001",
+      "name": "talia.nguyen",
+      "deleted": false,
+      "real_name": "Talia Nguyen",
+      "profile": {
+        "real_name": "Talia Nguyen",
+        "display_name": "Talia",
+        "email": "talia.nguyen@sunshineandsetauto.com",
+        "title": "Office Manager"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U004": {
+      "id": "U004",
+      "team_id": "T001",
+      "name": "jasmine.patel",
+      "deleted": false,
+      "real_name": "Jasmine Patel",
+      "profile": {
+        "real_name": "Jasmine Patel",
+        "display_name": "Jasmine",
+        "email": "jasmine.patel@sunshineandsetauto.com",
+        "title": "Senior Deal Posting Specialist"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U005": {
+      "id": "U005",
+      "team_id": "T001",
+      "name": "noah.alvarez",
+      "deleted": false,
+      "real_name": "Noah Alvarez",
+      "profile": {
+        "real_name": "Noah Alvarez",
+        "display_name": "Noah",
+        "email": "noah.alvarez@sunshineandsetauto.com",
+        "title": "Funding & Contracts Clerk"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U006": {
+      "id": "U006",
+      "team_id": "T001",
+      "name": "priya.bennett",
+      "deleted": false,
+      "real_name": "Priya Bennett",
+      "profile": {
+        "real_name": "Priya Bennett",
+        "display_name": "Priya",
+        "email": "priya.bennett@sunshineandsetauto.com",
+        "title": "Titles & Billing Clerk"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U007": {
+      "id": "U007",
+      "team_id": "T001",
+      "name": "caleb.foster",
+      "deleted": false,
+      "real_name": "Caleb Foster",
+      "profile": {
+        "real_name": "Caleb Foster",
+        "display_name": "Caleb",
+        "email": "caleb.foster@sunshineandsetauto.com",
+        "title": "Accounts Payable Clerk"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U008": {
+      "id": "U008",
+      "team_id": "T001",
+      "name": "renee.lawson",
+      "deleted": false,
+      "real_name": "Renee Lawson",
+      "profile": {
+        "real_name": "Renee Lawson",
+        "display_name": "Renee",
+        "email": "renee.lawson@sunshineandsetauto.com",
+        "title": "Cashier / Receivables Clerk"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U009": {
+      "id": "U009",
+      "team_id": "T001",
+      "name": "darius.kim",
+      "deleted": false,
+      "real_name": "Darius Kim",
+      "profile": {
+        "real_name": "Darius Kim",
+        "display_name": "Darius",
+        "email": "darius.kim@sunshineandsetauto.com",
+        "title": "Inventory Accountant"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U010": {
+      "id": "U010",
+      "team_id": "T001",
+      "name": "leah.morgan",
+      "deleted": false,
+      "real_name": "Leah Morgan",
+      "profile": {
+        "real_name": "Leah Morgan",
+        "display_name": "Leah",
+        "email": "leah.morgan@sunshineandsetauto.com",
+        "title": "Payroll & Commissions Analyst"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U011": {
+      "id": "U011",
+      "team_id": "T001",
+      "name": "derrick.soto",
+      "deleted": false,
+      "real_name": "Derrick Soto",
+      "profile": {
+        "real_name": "Derrick Soto",
+        "display_name": "Derrick",
+        "email": "derrick.soto@sunshineandsetauto.com",
+        "title": "General Manager"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U012": {
+      "id": "U012",
+      "team_id": "T001",
+      "name": "olivia.mercer",
+      "deleted": false,
+      "real_name": "Olivia Mercer",
+      "profile": {
+        "real_name": "Olivia Mercer",
+        "display_name": "Olivia",
+        "email": "olivia.mercer@sunshineandsetauto.com",
+        "title": "Sales Manager (New)"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U013": {
+      "id": "U013",
+      "team_id": "T001",
+      "name": "trent.holloway",
+      "deleted": false,
+      "real_name": "Trent Holloway",
+      "profile": {
+        "real_name": "Trent Holloway",
+        "display_name": "Trent",
+        "email": "trent.holloway@sunshineandsetauto.com",
+        "title": "Used Car Manager"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U014": {
+      "id": "U014",
+      "team_id": "T001",
+      "name": "sofia.ramirez",
+      "deleted": false,
+      "real_name": "Sofia Ramirez",
+      "profile": {
+        "real_name": "Sofia Ramirez",
+        "display_name": "Sofia",
+        "email": "sofia.ramirez@sunshineandsetauto.com",
+        "title": "F&I Director"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U015": {
+      "id": "U015",
+      "team_id": "T001",
+      "name": "grant.ellis",
+      "deleted": false,
+      "real_name": "Grant Ellis",
+      "profile": {
+        "real_name": "Grant Ellis",
+        "display_name": "Grant",
+        "email": "grant.ellis@sunshineandsetauto.com",
+        "title": "Service Director"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U016": {
+      "id": "U016",
+      "team_id": "T001",
+      "name": "maya.chen",
+      "deleted": false,
+      "real_name": "Maya Chen",
+      "profile": {
+        "real_name": "Maya Chen",
+        "display_name": "Maya",
+        "email": "maya.chen@sunshineandsetauto.com",
+        "title": "Parts Manager"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U017": {
+      "id": "U017",
+      "team_id": "T001",
+      "name": "hannah.price",
+      "deleted": false,
+      "real_name": "Hannah Price",
+      "profile": {
+        "real_name": "Hannah Price",
+        "display_name": "Hannah",
+        "email": "hannah.price@sunshineandsetauto.com",
+        "title": "HR Manager"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U018": {
+      "id": "U018",
+      "team_id": "T001",
+      "name": "evan.ross",
+      "deleted": false,
+      "real_name": "Evan Ross",
+      "profile": {
+        "real_name": "Evan Ross",
+        "display_name": "Evan",
+        "email": "evan.ross@sunshineandsetauto.com",
+        "title": "IT & Systems Administrator"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U019": {
+      "id": "U019",
+      "team_id": "T001",
+      "name": "avery.knight",
+      "deleted": false,
+      "real_name": "Avery Knight",
+      "profile": {
+        "real_name": "Avery Knight",
+        "display_name": "Avery",
+        "email": "avery.knight@sunshineandsetauto.com",
+        "title": "Marketing Manager"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U020": {
+      "id": "U020",
+      "team_id": "T001",
+      "name": "lila.owens",
+      "deleted": false,
+      "real_name": "Lila Owens",
+      "profile": {
+        "real_name": "Lila Owens",
+        "display_name": "Lila",
+        "email": "lila.owens@sunshineandsetauto.com",
+        "title": "Reception & Customer Care Lead"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    }
+  },
+  "channels": {
+    "C001": {
+      "id": "C001",
+      "name": "acct-deal-posting",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1775145600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "acct-deal-posting",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1775145600,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Missing deal jacket items, gross discrepancies, VIN corrections, trade information",
+        "creator": "U001",
+        "last_set": 1775145600
+      },
+      "purpose": {
+        "value": "Deal posting coordination and gross review",
+        "creator": "U001",
+        "last_set": 1775145600
+      }
+    },
+    "C002": {
+      "id": "C002",
+      "name": "acct-contracts-funding",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1775145600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "acct-contracts-funding",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1775145600,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Contract in transit, lender stipulations, funding delays, reserve questions",
+        "creator": "U001",
+        "last_set": 1775145600
+      },
+      "purpose": {
+        "value": "Funding status and contract tracking",
+        "creator": "U001",
+        "last_set": 1775145600
+      }
+    },
+    "C003": {
+      "id": "C003",
+      "name": "acct-titles-billing",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1775145600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "acct-titles-billing",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1775145600,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Title packets, payoff letters, insurance cards, lien information",
+        "creator": "U001",
+        "last_set": 1775145600
+      },
+      "purpose": {
+        "value": "Title and registration support",
+        "creator": "U001",
+        "last_set": 1775145600
+      }
+    },
+    "C004": {
+      "id": "C004",
+      "name": "acct-cash-desk",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1775145600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "acct-cash-desk",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1775145600,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Payment receipts, deposits, refund approvals, payoff checks",
+        "creator": "U001",
+        "last_set": 1775145600
+      },
+      "purpose": {
+        "value": "Cash management and receivables",
+        "creator": "U001",
+        "last_set": 1775145600
+      }
+    },
+    "C005": {
+      "id": "C005",
+      "name": "acct-ap",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1775145600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "acct-ap",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1775145600,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Vendor invoice questions, PO support, statement discrepancies",
+        "creator": "U001",
+        "last_set": 1775145600
+      },
+      "purpose": {
+        "value": "Accounts payable and vendor management",
+        "creator": "U001",
+        "last_set": 1775145600
+      }
+    },
+    "C006": {
+      "id": "C006",
+      "name": "acct-inventory",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1775145600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "acct-inventory",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1775145600,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Vehicle in-stock timing, floorplan, aging, pack adjustments",
+        "creator": "U001",
+        "last_set": 1775145600
+      },
+      "purpose": {
+        "value": "Inventory management and aging tracking",
+        "creator": "U001",
+        "last_set": 1775145600
+      }
+    },
+    "C007": {
+      "id": "C007",
+      "name": "acct-payroll-commissions",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1775145600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "acct-payroll-commissions",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1775145600,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Commission sheets, payroll corrections, draw questions",
+        "creator": "U001",
+        "last_set": 1775145600
+      },
+      "purpose": {
+        "value": "Payroll and commission coordination",
+        "creator": "U001",
+        "last_set": 1775145600
+      }
+    },
+    "C008": {
+      "id": "C008",
+      "name": "acct-month-end-close",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1775145600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "acct-month-end-close",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1775145600,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Close checklist, schedule review, approvals, late entries",
+        "creator": "U001",
+        "last_set": 1775145600
+      },
+      "purpose": {
+        "value": "Month-end close coordination",
+        "creator": "U001",
+        "last_set": 1775145600
+      }
+    },
+    "C009": {
+      "id": "C009",
+      "name": "acct-chargebacks",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1775145600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "acct-chargebacks",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1775145600,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Reserve statements, product cancellations, chargeback postings",
+        "creator": "U001",
+        "last_set": 1775145600
+      },
+      "purpose": {
+        "value": "Chargeback tracking and management",
+        "creator": "U001",
+        "last_set": 1775145600
+      }
+    },
+    "C010": {
+      "id": "C010",
+      "name": "acct-floorplan",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1775145600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "acct-floorplan",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1775145600,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Floor plan statement variances, curtailments, sold-not-paid units",
+        "creator": "U001",
+        "last_set": 1775145600
+      },
+      "purpose": {
+        "value": "Floorplan coordination",
+        "creator": "U001",
+        "last_set": 1775145600
+      }
+    },
+    "C011": {
+      "id": "C011",
+      "name": "acct-trade-payoffs",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1775145600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "acct-trade-payoffs",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1775145600,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Trade payoff letters, negative equity issues, lien release",
+        "creator": "U001",
+        "last_set": 1775145600
+      },
+      "purpose": {
+        "value": "Trade payoff coordination",
+        "creator": "U001",
+        "last_set": 1775145600
+      }
+    },
+    "C012": {
+      "id": "C012",
+      "name": "help-it-systems",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1775145600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "help-it-systems",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1775145600,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "System outages, scanner issues, permissions, printer problems",
+        "creator": "U001",
+        "last_set": 1775145600
+      },
+      "purpose": {
+        "value": "IT support and system issues",
+        "creator": "U001",
+        "last_set": 1775145600
+      }
+    },
+    "C013": {
+      "id": "C013",
+      "name": "leadership-escalations",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1775145600,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "leadership-escalations",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1775145600,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "Urgent issues needing executive awareness or same-day decision",
+        "creator": "U001",
+        "last_set": 1775145600
+      },
+      "purpose": {
+        "value": "Leadership escalation channel",
+        "creator": "U001",
+        "last_set": 1775145600
+      }
+    },
+    "C014": {
+      "id": "C014",
+      "name": "general",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1775145600,
+      "is_archived": false,
+      "is_general": true,
+      "unlinked": 0,
+      "name_normalized": "general",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1775145600,
+      "creator": "U001",
+      "shared_team_ids": [
+        "T001"
+      ],
+      "is_member": true,
+      "topic": {
+        "value": "General discussion",
+        "creator": "U001",
+        "last_set": 1775145600
+      },
+      "purpose": {
+        "value": "General company announcements and discussion",
+        "creator": "U001",
+        "last_set": 1775145600
+      }
+    }
+  },
+  "messages": {
+    "C001": [
+      {
+        "type": "message",
+        "user": "U004",
+        "text": "Deal 4504 gross variance flagged. Desk recap shows $6,275 but we posted $6,200. That's a $75 variance.",
+        "ts": "1775865600.000100",
+        "team": "T001",
+        "reply_count": 1,
+        "latest_reply": "1775865600.000200",
+        "reply_users": [
+          "U014"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U014",
+        "text": "I got it. Let me pull the desk recap from Derek. Will coordinate with Marcus on this today.",
+        "ts": "1775865600.000200",
+        "team": "T001",
+        "thread_ts": "1775865600.000100",
+        "parent_user_id": "U004"
+      },
+      {
+        "type": "message",
+        "user": "U004",
+        "text": "Deal 4505 unwind is happening. Ally Financial rejected funding due to credit score discrepancy. No new posting yet but wanted to flag.",
+        "ts": "1776124800.000300",
+        "team": "T001",
+        "reply_count": 1,
+        "latest_reply": "1776124800.000400",
+        "reply_users": [
+          "U014"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U014",
+        "text": "Noted. Once the new deal posts, ping me in here and I'll make sure Sofia knows to prioritize funding for speed.",
+        "ts": "1776124800.000400",
+        "team": "T001",
+        "thread_ts": "1776124800.000300",
+        "parent_user_id": "U004"
+      }
+    ],
+    "C002": [
+      {
+        "type": "message",
+        "user": "U005",
+        "text": "Deal 4502 unfunded day 9. This is way overdue. Missing stips: proof of income, insurance declaration page.",
+        "ts": "1776297600.000500",
+        "team": "T001",
+        "reply_count": 1,
+        "latest_reply": "1776297600.000600",
+        "reply_users": [
+          "U014"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U014",
+        "text": "This is on me - I should have caught the missing stips day 1. Getting on with Capital One right now to request them urgently.",
+        "ts": "1776297600.000600",
+        "team": "T001",
+        "thread_ts": "1776297600.000500",
+        "parent_user_id": "U005"
+      },
+      {
+        "type": "message",
+        "user": "U005",
+        "text": "Deal 4502 update: still waiting on proof of income from Capital One. Insurance dec received. Probably won't fund until tomorrow.",
+        "ts": "1776297600.000700",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U005",
+        "text": "Deal 4508 just posted, customer is anxious. Package needs to be sent to Ally Financial today. Contract value $27K. Who can get this out?",
+        "ts": "1776124800.000800",
+        "team": "T001",
+        "reply_count": 1,
+        "latest_reply": "1776124800.000900",
+        "reply_users": [
+          "U014"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U014",
+        "text": "On it. Package will be couriered today. Targeting morning funding window tomorrow.",
+        "ts": "1776124800.000900",
+        "team": "T001",
+        "thread_ts": "1776124800.000800",
+        "parent_user_id": "U005"
+      }
+    ],
+    "C003": [
+      {
+        "type": "message",
+        "user": "U006",
+        "text": "Deal 4506 title exception: lien release not yet received from GM Financial for customer Karen Mitchell's trade-in. Hit day 7 escalation on this - following up with GM Financial to expedite.",
+        "ts": "1775779200.001000",
+        "team": "T001",
+        "reply_count": 1,
+        "latest_reply": "1775779200.001100",
+        "reply_users": [
+          "U014"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U014",
+        "text": "Got it Priya. Can you tag the salesperson in a note? This needs to go to Megan Price - she may be able to help coordinate with the customer.",
+        "ts": "1775779200.001100",
+        "team": "T001",
+        "thread_ts": "1775779200.001000",
+        "parent_user_id": "U006"
+      }
+    ],
+    "C004": [
+      {
+        "type": "message",
+        "user": "U008",
+        "text": "Bad news: Robert Chen's down payment check for Deal 4501 came back NSF. Amount was $2,000. Check returned 04/13. Contract is already funded so this is cash flow issue we need to resolve with customer asap.",
+        "ts": "1776038400.001200",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U008",
+        "text": "Also flagging CC chargeback from Nicole Barrett. Chargeback amount is $650, received 04/12. Still investigating the reason with customer.",
+        "ts": "1776038400.001300",
+        "team": "T001"
+      }
+    ],
+    "C005": [
+      {
+        "type": "message",
+        "user": "U007",
+        "text": "Orlando Auto Parts invoice dispute: Invoice OAP-2026-0389 was $4,600 for door panels and hardware but we only paid $2,300. They're claiming the remaining $2,300 is due. Our PO didn't include the extra hardware they added without authorization. Recommending we reject and escalate.",
+        "ts": "1776124800.001400",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U007",
+        "text": "New vendor onboarding: Auto Parts Direct is set up and ready. First PO can go out starting tomorrow. They undercut Orlando by 8% on bulk orders.",
+        "ts": "1776124800.001500",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U007",
+        "text": "SBP-4821 approval needed: Sunshine Body & Paint submitted invoice $5,200 for collision repair work on unit U1090. Job is complete, needs approval for payment. <@U001> can you approve?",
+        "ts": "1776211200.001600",
+        "team": "T001",
+        "reply_count": 1,
+        "latest_reply": "1776211200.001700",
+        "reply_users": [
+          "U001"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Approved. Process payment today.",
+        "ts": "1776211200.001700",
+        "team": "T001",
+        "thread_ts": "1776211200.001600",
+        "parent_user_id": "U007"
+      },
+      {
+        "type": "message",
+        "user": "U007",
+        "text": "SBP-4798 emergency payment: Sunshine Body & Paint is threatening mechanic's liens on three vehicles in recon if we don't pay $3,800 by 04/17. This invoice is 45 days past due. Requesting emergency approval from <@U002>.",
+        "ts": "1776211200.001800",
+        "team": "T001"
+      }
+    ],
+    "C006": [
+      {
+        "user": "U013",
+        "ts": "1776297600.000700",
+        "text": "Darius \u2014 the body shop just submitted Invoice SBP-4821 for $5,200 on U1090 (CX-5 Preferred). Let me know if there are any issues before we proceed.",
+        "type": "message"
+      }
+    ],
+    "C007": [
+      {
+        "type": "message",
+        "user": "U010",
+        "text": "Upcoming 04/16 commission cutoff reminder: All deal closings and adjustments must be finalized by end of business 04/15. Payroll deadline is 04/20. Anyone who needs last-minute adjustments, get them to me by 04/15 EOB.",
+        "ts": "1776124800.002100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U010",
+        "text": "GAP chargeback offset for Megan Price deal 4492: Received $1,400 chargeback 04/10. Working on the offset documentation now.",
+        "ts": "1776124800.002200",
+        "team": "T001"
+      }
+    ],
+    "C008": [
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "March month-end close status: All deals funded and title complete. Pending items: final aging report from inventory, AR collections summary from Renee, and commission finalization from Leah. Target close sign-off tomorrow.",
+        "ts": "1775606400.002300",
+        "team": "T001",
+        "reply_count": 1,
+        "latest_reply": "1775952000.002400",
+        "reply_users": [
+          "U001"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Confirmed: I signed off on March close 04/09. BD7 checklist is complete. Finance team cleared to move to April processes.",
+        "ts": "1775952000.002400",
+        "team": "T001",
+        "thread_ts": "1775606400.002300",
+        "parent_user_id": "U002"
+      }
+    ],
+    "C009": [
+      {
+        "type": "message",
+        "user": "U010",
+        "text": "GAP chargeback posted for Deal 4492: Amount $1,400. Chargeback received from SafeGuard GAP Products 04/10. Affecting Megan Price commission. Tagging <@U014> and <@U017> for awareness.",
+        "ts": "1775779200.002500",
+        "team": "T001",
+        "reply_count": 1,
+        "latest_reply": "1775779200.002600",
+        "reply_users": [
+          "U014"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U014",
+        "text": "Thanks for the heads up. Customer cancelled GAP the day after delivery. This is a policy issue - customer should not have been able to cancel same-day. I'll reach out to SafeGuard about their cancellation window.",
+        "ts": "1775779200.002600",
+        "team": "T001",
+        "thread_ts": "1775779200.002500",
+        "parent_user_id": "U010"
+      }
+    ],
+    "C010": [
+      {
+        "user": "U013",
+        "ts": "1776297600.000600",
+        "text": "Heads up \u2014 Lakewood delivered the new Tundra (N2049) this morning. VIN 5TFDY5F10RX904516. Keys in the lockbox. @darius.kim add to inventory and floorplan when you get the invoice cost from AP.",
+        "type": "message"
+      }
+    ],
+    "C011": [
+      {
+        "type": "message",
+        "user": "U004",
+        "text": "Deal 4503 trade payoff variance: Trade payoff quoted at $9,800 but actual is $9,980. That's a $180 variance which is above de minimis. Not sending payoff letter until approved.",
+        "ts": "1775779200.002900",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U004",
+        "text": "Deal 4509 trade payoff variance: $250 variance on trade payoff. Quoted $4,500, actual is $4,750 from Toyota Financial Services. Needs same approval before proceeding.",
+        "ts": "1775779200.003000",
+        "team": "T001"
+      }
+    ],
+    "C013": [
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "ESCALATION: Deal 4502 funding is overdue. Contract value $33,962. Customer is threatening to walk. Need immediate action plan.",
+        "ts": "1776297600.003100",
+        "team": "T001",
+        "reply_count": 1,
+        "latest_reply": "1776297600.003200",
+        "reply_users": [
+          "U014"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U014",
+        "text": "Acknowledged. This is a process failure on our end. Sofia is now on direct call with Capital One. I'm requesting expedited approval by COB today. Will update you every 2 hours.",
+        "ts": "1776297600.003200",
+        "team": "T001",
+        "thread_ts": "1776297600.003100",
+        "parent_user_id": "U002"
+      }
+    ],
+    "C014": [
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Welcome to the Sunshine & Set Auto accounting team Slack! This is where we coordinate on deals, funding, cash flow, and month-end close. Let's keep our processes tight and our customers happy.",
+        "ts": "1775145600.003300",
+        "team": "T001",
+        "reply_count": 1,
+        "latest_reply": "1775145600.003400",
+        "reply_users": [
+          "U011"
+        ],
+        "reply_users_count": 1
+      },
+      {
+        "type": "message",
+        "user": "U011",
+        "text": "Great channel setup team. Excited to see how structured communication improves our operations.",
+        "ts": "1775145600.003400",
+        "team": "T001",
+        "thread_ts": "1775145600.003300",
+        "parent_user_id": "U001"
+      }
+    ]
+  },
+  "counters": {
+    "messageId": 1000060
+  }
+}

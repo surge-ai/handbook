@@ -1,0 +1,617 @@
+{
+  "issues": {
+    "OPS-5": {
+      "id": "10001",
+      "key": "OPS-5",
+      "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/issue/OPS-5",
+      "fields": {
+        "summary": "Q1 2026 International Wire Transfer Population \u2014 Dual-Authorization Audit",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Population workbook: Wire_Population_Q1_2026.xlsx (available in workspace)\nQuarter: Q1 2026 (January 1 \u2013 March 31, 2026)\nAudit scope: All international wire transfers initiated in Q1 2026 requiring dual-authorization review under SOP \u00a73.3.\nInitiated by: Treasury Operations"
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10001",
+          "name": "Task",
+          "description": "A task",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "10001",
+          "key": "OPS",
+          "name": "Vanguard Shield Operations",
+          "description": "Operations project for treasury wire tracking, compliance queue management, and audit issues",
+          "projectTypeKey": "software",
+          "simplified": false,
+          "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/project/OPS"
+        },
+        "status": {
+          "id": "10001",
+          "name": "In Review",
+          "description": "Audit in progress",
+          "statusCategory": {
+            "id": 2,
+            "key": "indeterminate",
+            "name": "In Progress",
+            "colorName": "yellow"
+          }
+        },
+        "priority": {
+          "id": "2",
+          "name": "High"
+        },
+        "assignee": null,
+        "reporter": null,
+        "creator": null,
+        "created": "2026-04-01T08:00:00.000Z",
+        "updated": "2026-04-10T09:00:00.000Z",
+        "labels": [
+          "quarterly-audit",
+          "wire-transfers",
+          "Q1-2026"
+        ],
+        "components": [],
+        "fixVersions": [],
+        "versions": []
+      }
+    },
+    "OPS-246": {
+      "id": "10002",
+      "key": "OPS-246",
+      "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/issue/OPS-246",
+      "fields": {
+        "summary": "Queue Roles & Assignees",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Compliance-Alerts Queue \u2014 Role Assignments\n\nThis issue is pinned to the Compliance-Alerts board. It records the current named individual responsible for each queue role. Update this issue when role assignments change.\n\nChief Compliance Officer (CCO): diana.walsh\n\nAssign all new Compliance-Alerts tickets to the individual listed for the CCO role. If the role is vacant or the named individual is unavailable, follow the \u00a71.3 escalation path (create an IT-Support ticket titled \"Missing Queue Assignee \u2013 [Queue] \u2013 [Role]\")."
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10002",
+          "name": "Epic",
+          "description": "Pinned reference issue",
+          "subtask": false,
+          "hierarchyLevel": 1
+        },
+        "project": {
+          "id": "10001",
+          "key": "OPS",
+          "name": "Vanguard Shield Operations",
+          "description": "Operations project for treasury wire tracking, compliance queue management, and audit issues",
+          "projectTypeKey": "software",
+          "simplified": false,
+          "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/project/OPS"
+        },
+        "status": {
+          "id": "10002",
+          "name": "Active",
+          "description": "Standing reference issue \u2014 do not close",
+          "statusCategory": {
+            "id": 2,
+            "key": "indeterminate",
+            "name": "In Progress",
+            "colorName": "yellow"
+          }
+        },
+        "priority": {
+          "id": "2",
+          "name": "High"
+        },
+        "assignee": {
+          "accountId": "diana.walsh",
+          "accountType": "atlassian",
+          "emailAddress": "diana.walsh@vanguardshield.com",
+          "displayName": "Diana Walsh",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "reporter": null,
+        "creator": null,
+        "created": "2025-01-01T08:00:00.000Z",
+        "updated": "2026-01-01T08:00:00.000Z",
+        "labels": [
+          "pinned",
+          "queue-roles",
+          "compliance-alerts"
+        ],
+        "components": [],
+        "fixVersions": [],
+        "versions": []
+      }
+    },
+    "OPS-1": {
+      "id": "10003",
+      "key": "OPS-1",
+      "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/issue/OPS-1",
+      "fields": {
+        "summary": "International Wire INTL-2026-0214 \u2014 Pending Dual-Authorization Review",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Wire ID: INTL-2026-0214\nPayee: Pemberton Global Reinsurance Ltd.\nBeneficiary Bank: HSBC Bank plc, London\nAmount: $445,000.00\nDate Initiated: 2026-03-03\nQuarter: Q1 2026\nStatus: Pending dual-authorization audit per SOP \u00a73.3."
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10001",
+          "name": "Task",
+          "description": "A task",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "10001",
+          "key": "OPS",
+          "name": "Vanguard Shield Operations",
+          "description": "Operations project for treasury wire tracking, compliance queue management, and audit issues",
+          "projectTypeKey": "software",
+          "simplified": false,
+          "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/project/OPS"
+        },
+        "status": {
+          "id": "10001",
+          "name": "Open",
+          "description": "Awaiting audit",
+          "statusCategory": {
+            "id": 2,
+            "key": "new",
+            "name": "To Do",
+            "colorName": "blue-gray"
+          }
+        },
+        "priority": {
+          "id": "3",
+          "name": "Medium"
+        },
+        "assignee": null,
+        "reporter": null,
+        "creator": null,
+        "created": "2026-03-03T10:00:00.000Z",
+        "updated": "2026-04-01T08:00:00.000Z",
+        "labels": [],
+        "components": [],
+        "fixVersions": [],
+        "versions": []
+      }
+    },
+    "OPS-2": {
+      "id": "10004",
+      "key": "OPS-2",
+      "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/issue/OPS-2",
+      "fields": {
+        "summary": "International Wire INTL-2026-0219 \u2014 Pending Dual-Authorization Review",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Wire ID: INTL-2026-0219\nPayee: Heckmann Actuarial Partners GmbH\nBeneficiary Bank: Deutsche Bank AG, Frankfurt\nAmount: $178,500.00\nDate Initiated: 2026-03-10\nQuarter: Q1 2026\nStatus: Pending dual-authorization audit per SOP \u00a73.3."
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10001",
+          "name": "Task",
+          "description": "A task",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "10001",
+          "key": "OPS",
+          "name": "Vanguard Shield Operations",
+          "description": "Operations project for treasury wire tracking, compliance queue management, and audit issues",
+          "projectTypeKey": "software",
+          "simplified": false,
+          "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/project/OPS"
+        },
+        "status": {
+          "id": "10001",
+          "name": "Open",
+          "description": "Awaiting audit",
+          "statusCategory": {
+            "id": 2,
+            "key": "new",
+            "name": "To Do",
+            "colorName": "blue-gray"
+          }
+        },
+        "priority": {
+          "id": "3",
+          "name": "Medium"
+        },
+        "assignee": null,
+        "reporter": null,
+        "creator": null,
+        "created": "2026-03-10T10:00:00.000Z",
+        "updated": "2026-04-01T08:00:00.000Z",
+        "labels": [],
+        "components": [],
+        "fixVersions": [],
+        "versions": []
+      }
+    },
+    "OPS-3": {
+      "id": "10005",
+      "key": "OPS-3",
+      "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/issue/OPS-3",
+      "fields": {
+        "summary": "International Wire INTL-2026-0223 \u2014 Pending Dual-Authorization Review",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Wire ID: INTL-2026-0223\nPayee: Langford Risk Solutions B.V.\nBeneficiary Bank: ING Bank N.V., Amsterdam\nAmount: $623,000.00\nDate Initiated: 2026-03-17\nQuarter: Q1 2026\nStatus: Pending dual-authorization audit per SOP \u00a73.3."
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10001",
+          "name": "Task",
+          "description": "A task",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "10001",
+          "key": "OPS",
+          "name": "Vanguard Shield Operations",
+          "description": "Operations project for treasury wire tracking, compliance queue management, and audit issues",
+          "projectTypeKey": "software",
+          "simplified": false,
+          "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/project/OPS"
+        },
+        "status": {
+          "id": "10001",
+          "name": "Open",
+          "description": "Awaiting audit",
+          "statusCategory": {
+            "id": 2,
+            "key": "new",
+            "name": "To Do",
+            "colorName": "blue-gray"
+          }
+        },
+        "priority": {
+          "id": "3",
+          "name": "Medium"
+        },
+        "assignee": null,
+        "reporter": null,
+        "creator": null,
+        "created": "2026-03-17T10:00:00.000Z",
+        "updated": "2026-04-01T08:00:00.000Z",
+        "labels": [],
+        "components": [],
+        "fixVersions": [],
+        "versions": []
+      }
+    },
+    "OPS-4": {
+      "id": "10006",
+      "key": "OPS-4",
+      "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/issue/OPS-4",
+      "fields": {
+        "summary": "International Wire INTL-2026-0228 \u2014 Pending Dual-Authorization Review",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Wire ID: INTL-2026-0228\nPayee: Carlisle Treaty Services S.A.\nBeneficiary Bank: BNP Paribas S.A., Paris\nAmount: $312,000.00\nDate Initiated: 2026-03-24\nQuarter: Q1 2026\nStatus: Pending dual-authorization audit per SOP \u00a73.3."
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10001",
+          "name": "Task",
+          "description": "A task",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "10001",
+          "key": "OPS",
+          "name": "Vanguard Shield Operations",
+          "description": "Operations project for treasury wire tracking, compliance queue management, and audit issues",
+          "projectTypeKey": "software",
+          "simplified": false,
+          "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/project/OPS"
+        },
+        "status": {
+          "id": "10001",
+          "name": "Open",
+          "description": "Awaiting audit",
+          "statusCategory": {
+            "id": 2,
+            "key": "new",
+            "name": "To Do",
+            "colorName": "blue-gray"
+          }
+        },
+        "priority": {
+          "id": "3",
+          "name": "Medium"
+        },
+        "assignee": null,
+        "reporter": null,
+        "creator": null,
+        "created": "2026-03-24T10:00:00.000Z",
+        "updated": "2026-04-01T08:00:00.000Z",
+        "labels": [],
+        "components": [],
+        "fixVersions": [],
+        "versions": []
+      }
+    }
+  },
+  "sprints": {},
+  "comments": {},
+  "projects": {
+    "OPS": {
+      "id": "10001",
+      "key": "OPS",
+      "name": "Vanguard Shield Operations",
+      "description": "Operations project for treasury wire tracking, compliance queue management, and audit issues",
+      "projectTypeKey": "software",
+      "simplified": false,
+      "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/project/OPS"
+    },
+    "COMP": {
+      "id": "10002",
+      "key": "COMP",
+      "name": "Compliance-Alerts",
+      "description": "Compliance escalation queue for wire control exceptions and other compliance alerts. Queue roles and assignees are maintained in pinned issue OPS-246 (Queue Roles & Assignees) on this board.",
+      "projectTypeKey": "software",
+      "simplified": false,
+      "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/project/COMP"
+    }
+  },
+  "fields": [
+    {
+      "id": "summary",
+      "key": "summary",
+      "name": "Summary",
+      "custom": false,
+      "searchable": true
+    },
+    {
+      "id": "description",
+      "key": "description",
+      "name": "Description",
+      "custom": false,
+      "searchable": true
+    },
+    {
+      "id": "status",
+      "key": "status",
+      "name": "Status",
+      "custom": false,
+      "searchable": true
+    },
+    {
+      "id": "priority",
+      "key": "priority",
+      "name": "Priority",
+      "custom": false,
+      "searchable": true
+    },
+    {
+      "id": "assignee",
+      "key": "assignee",
+      "name": "Assignee",
+      "custom": false,
+      "searchable": true
+    },
+    {
+      "id": "reporter",
+      "key": "reporter",
+      "name": "Reporter",
+      "custom": false,
+      "searchable": true
+    },
+    {
+      "id": "created",
+      "key": "created",
+      "name": "Created",
+      "custom": false,
+      "searchable": true
+    },
+    {
+      "id": "updated",
+      "key": "updated",
+      "name": "Updated",
+      "custom": false,
+      "searchable": true
+    },
+    {
+      "id": "labels",
+      "key": "labels",
+      "name": "Labels",
+      "custom": false,
+      "searchable": true
+    },
+    {
+      "id": "issuetype",
+      "key": "issuetype",
+      "name": "Issue Type",
+      "custom": false,
+      "searchable": true
+    }
+  ],
+  "linkTypes": [
+    {
+      "id": "10001",
+      "name": "Blocks",
+      "inward": "is blocked by",
+      "outward": "blocks"
+    },
+    {
+      "id": "10002",
+      "name": "Cloners",
+      "inward": "is cloned by",
+      "outward": "clones"
+    },
+    {
+      "id": "10003",
+      "name": "Duplicate",
+      "inward": "is duplicated by",
+      "outward": "duplicates"
+    },
+    {
+      "id": "10004",
+      "name": "Relates",
+      "inward": "relates to",
+      "outward": "relates to"
+    }
+  ],
+  "counters": {
+    "issueId": 10007,
+    "sprintId": 1000,
+    "commentId": 1
+  },
+  "users": {
+    "diana.walsh": {
+      "accountId": "diana.walsh",
+      "displayName": "Diana Walsh",
+      "accountType": "atlassian",
+      "emailAddress": "diana.walsh@vanguardshield.com"
+    }
+  },
+  "boards": {},
+  "statuses": {
+    "1": {
+      "id": "1",
+      "name": "In Review",
+      "statusCategory": {
+        "id": 2,
+        "key": "indeterminate",
+        "name": "In Progress",
+        "colorName": "yellow"
+      }
+    },
+    "2": {
+      "id": "2",
+      "name": "Active",
+      "statusCategory": {
+        "id": 2,
+        "key": "indeterminate",
+        "name": "In Progress",
+        "colorName": "yellow"
+      }
+    },
+    "3": {
+      "id": "3",
+      "name": "Open",
+      "statusCategory": {
+        "id": 2,
+        "key": "new",
+        "name": "To Do",
+        "colorName": "blue-gray"
+      }
+    }
+  },
+  "workflow": {
+    "In Review": [
+      {
+        "id": "1",
+        "name": "To In Review",
+        "to": "In Review"
+      },
+      {
+        "id": "2",
+        "name": "To Active",
+        "to": "Active"
+      },
+      {
+        "id": "3",
+        "name": "To Open",
+        "to": "Open"
+      }
+    ],
+    "Active": [
+      {
+        "id": "4",
+        "name": "To In Review",
+        "to": "In Review"
+      },
+      {
+        "id": "5",
+        "name": "To Active",
+        "to": "Active"
+      },
+      {
+        "id": "6",
+        "name": "To Open",
+        "to": "Open"
+      }
+    ],
+    "Open": [
+      {
+        "id": "7",
+        "name": "To In Review",
+        "to": "In Review"
+      },
+      {
+        "id": "8",
+        "name": "To Active",
+        "to": "Active"
+      },
+      {
+        "id": "9",
+        "name": "To Open",
+        "to": "Open"
+      }
+    ]
+  },
+  "defaultStatusValue": "Open"
+}

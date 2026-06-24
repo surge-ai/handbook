@@ -1,0 +1,401 @@
+{
+  "mailbox": {
+    "email": "leah.morgan@sunshineandsetauto.com",
+    "name": "Leah Morgan"
+  },
+  "contacts": [
+    {
+      "email": "leah.morgan@sunshineandsetauto.com",
+      "name": "Leah Morgan"
+    },
+    {
+      "email": "hannah.price@sunshineandsetauto.com",
+      "name": "Hannah Price"
+    },
+    {
+      "email": "elena.brooks@sunshineandsetauto.com",
+      "name": "Elena Brooks"
+    },
+    {
+      "email": "marcus.hale@sunshineandsetauto.com",
+      "name": "Marcus Hale"
+    },
+    {
+      "email": "olivia.mercer@sunshineandsetauto.com",
+      "name": "Olivia Mercer"
+    },
+    {
+      "email": "trent.holloway@sunshineandsetauto.com",
+      "name": "Trent Holloway"
+    },
+    {
+      "email": "jasmine.patel@sunshineandsetauto.com",
+      "name": "Jasmine Patel"
+    },
+    {
+      "email": "sofia.ramirez@sunshineandsetauto.com",
+      "name": "Sofia Ramirez"
+    },
+    {
+      "email": "derek.vaughn@sunshineandsetauto.com",
+      "name": "Derek Vaughn"
+    },
+    {
+      "email": "megan.price@sunshineandsetauto.com",
+      "name": "Megan Price"
+    },
+    {
+      "email": "carlos.vega@sunshineandsetauto.com",
+      "name": "Carlos Vega"
+    },
+    {
+      "email": "talia.nguyen@sunshineandsetauto.com",
+      "name": "Talia Nguyen"
+    },
+    {
+      "email": "noah.alvarez@sunshineandsetauto.com",
+      "name": "Noah Alvarez"
+    },
+    {
+      "email": "priya.bennett@sunshineandsetauto.com",
+      "name": "Priya Bennett"
+    },
+    {
+      "email": "caleb.foster@sunshineandsetauto.com",
+      "name": "Caleb Foster"
+    },
+    {
+      "email": "renee.lawson@sunshineandsetauto.com",
+      "name": "Renee Lawson"
+    },
+    {
+      "email": "darius.kim@sunshineandsetauto.com",
+      "name": "Darius Kim"
+    },
+    {
+      "email": "derrick.soto@sunshineandsetauto.com",
+      "name": "Derrick Soto"
+    },
+    {
+      "email": "grant.ellis@sunshineandsetauto.com",
+      "name": "Grant Ellis"
+    },
+    {
+      "email": "maya.chen@sunshineandsetauto.com",
+      "name": "Maya Chen"
+    },
+    {
+      "email": "evan.ross@sunshineandsetauto.com",
+      "name": "Evan Ross"
+    },
+    {
+      "email": "avery.knight@sunshineandsetauto.com",
+      "name": "Avery Knight"
+    },
+    {
+      "email": "lila.owens@sunshineandsetauto.com",
+      "name": "Lila Owens"
+    },
+    {
+      "email": "claims@safeguardgap.com",
+      "name": "SafeGuard GAP Products"
+    }
+  ],
+  "groups": [
+    {
+      "email": "finance-team@sunshineandsetauto.com",
+      "name": "Finance Team",
+      "members": [
+        "elena.brooks@sunshineandsetauto.com",
+        "marcus.hale@sunshineandsetauto.com",
+        "leah.morgan@sunshineandsetauto.com"
+      ]
+    }
+  ],
+  "folders": [
+    {
+      "name": "Commission Sheets"
+    },
+    {
+      "name": "Payroll Support"
+    },
+    {
+      "name": "Chargeback Offsets"
+    }
+  ],
+  "emails": [
+    {
+      "email_id": "1",
+      "folder": "Payroll Support",
+      "subject": "Derek Vaughn Pay Plan Confirmation \u2014 2026",
+      "from_addr": "hannah.price@sunshineandsetauto.com",
+      "to_addr": "leah.morgan@sunshineandsetauto.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-01-15T10:30:00-04:00",
+      "message_id": "<msg0001@sunshineandsetauto.com>",
+      "in_reply_to": null,
+      "body_text": "Leah,\n\nPlease add this pay plan to your records for Derek Vaughn, effective 01/01/2026:\n\nSalesperson: Derek Vaughn\nPay Plan: 25% of total gross\nEffective Date: 01/01/2026\nApproved By: Derrick Soto (GM)\n\nThis applies to all deals posted on or after 01/01/2026.\n\nHannah Price\nHR Manager\nSunshine & Set Automotive",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "2",
+      "folder": "Payroll Support",
+      "subject": "Megan Price Pay Plan Confirmation \u2014 2026",
+      "from_addr": "hannah.price@sunshineandsetauto.com",
+      "to_addr": "leah.morgan@sunshineandsetauto.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-01-16T09:45:00-04:00",
+      "message_id": "<msg0002@sunshineandsetauto.com>",
+      "in_reply_to": null,
+      "body_text": "Leah,\n\nPlease add this pay plan to your records for Megan Price, effective 01/01/2026:\n\nSalesperson: Megan Price\nPay Plan: $350 flat per delivered unit\nEffective Date: 01/01/2026\nApproved By: Derrick Soto (GM)\n\nThis applies to all delivered vehicles on or after 01/01/2026. No tiered escalation.\n\nHannah Price\nHR Manager\nSunshine & Set Automotive",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "3",
+      "folder": "Payroll Support",
+      "subject": "Carlos Vega Pay Plan Confirmation \u2014 2026",
+      "from_addr": "hannah.price@sunshineandsetauto.com",
+      "to_addr": "leah.morgan@sunshineandsetauto.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-01-17T11:00:00-04:00",
+      "message_id": "<msg0003@sunshineandsetauto.com>",
+      "in_reply_to": null,
+      "body_text": "Leah,\n\nPlease add this pay plan to your records for Carlos Vega, effective 01/01/2026:\n\nSalesperson: Carlos Vega\nPay Plan (Graduated):\n  - Units 1-2 per pay period: 20% of front gross\n  - Units 3-4 per pay period: 25% of front gross\n  - Unit 5 and above per pay period: 28% of front gross\nEffective Date: 01/01/2026\nApproved By: Derrick Soto (GM)\n\nThis applies to all deals posted on or after 01/01/2026. Tiers reset each pay period (1st-15th and 16th-end of month).\n\nHannah Price\nHR Manager\nSunshine & Set Automotive",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "4",
+      "folder": "INBOX",
+      "subject": "Payroll Calendar Reminder \u2014 April",
+      "from_addr": "hannah.price@sunshineandsetauto.com",
+      "to_addr": "leah.morgan@sunshineandsetauto.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-01T08:00:00-04:00",
+      "message_id": "<msg0004@sunshineandsetauto.com>",
+      "in_reply_to": null,
+      "body_text": "Leah,\n\nQuick reminder about April payroll deadlines:\n\nCutoff 1 (April 1-15): 04/16 (today is cutoff date)\nSubmission Deadline 1: 04/20 (Monday, 2 business days after 04/16 Thursday)\nFunding: Typically 2 business days after submission\n\nCutoff 2 (if applicable): 04/16-30\nSubmission Deadline 2: 05/05\n\nCommission sheets from Olivia and Trent are due to you by end of day on cutoff date. Ensure all validations are complete before submission.\n\nHannah Price\nHR Manager\nSunshine & Set Automotive",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "5",
+      "folder": "Commission Sheets",
+      "subject": "New Vehicle Commission Sheet \u2014 March 16-31, 2026",
+      "from_addr": "olivia.mercer@sunshineandsetauto.com",
+      "to_addr": "leah.morgan@sunshineandsetauto.com",
+      "cc_addr": "elena.brooks@sunshineandsetauto.com,marcus.hale@sunshineandsetauto.com",
+      "bcc_addr": null,
+      "date": "2026-04-01T09:15:00-04:00",
+      "message_id": "<msg0005@sunshineandsetauto.com>",
+      "in_reply_to": null,
+      "body_text": "Leah,\n\nAttached is the new vehicle commission sheet for the March 16-31 pay period. Two deals this half:\n\n- Deal 4497 (Christopher Allen, 2026 Tacoma SR5) \u2014 Carlos Vega, 20% front gross = $760\n- Deal 4499 (Daniel Ortega, 2026 Highlander LE) \u2014 Derek Vaughn, 25% total gross = $2,100\n\nTotal commissions: $2,860\n\nPlease let me know if you need anything else.\n\nOlivia Mercer\nSales Manager \u2014 New Vehicles\nSunshine & Set Automotive\n(407) 555-1200 ext. 204",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "6",
+      "folder": "Commission Sheets",
+      "subject": "Used Vehicle Commission Sheet \u2014 March 16-31, 2026",
+      "from_addr": "trent.holloway@sunshineandsetauto.com",
+      "to_addr": "leah.morgan@sunshineandsetauto.com",
+      "cc_addr": "elena.brooks@sunshineandsetauto.com,marcus.hale@sunshineandsetauto.com",
+      "bcc_addr": null,
+      "date": "2026-04-01T10:05:00-04:00",
+      "message_id": "<msg0006@sunshineandsetauto.com>",
+      "in_reply_to": null,
+      "body_text": "Leah,\n\nHere's the used vehicle commission sheet for March 16-31. Three deals:\n\n- Deal 4496 (Jennifer Walsh, 2022 Accord Sport) \u2014 Derek Vaughn, 25% total gross = $1,437.50\n- Deal 4498 (Amanda Foster, 2023 CX-30 Select) \u2014 Megan Price, $350 flat = $350\n- Deal 4500 (Nicole Barrett, 2024 Outback Premium) \u2014 Carlos Vega, 20% front gross = $740\n\nTotal commissions: $2,527.50\n\nAll deals posted and delivered. Let me know if anything needs correcting.\n\nTrent Holloway\nUsed Car Manager\nSunshine & Set Automotive\n(407) 555-1200 ext. 208",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "7",
+      "folder": "Sent",
+      "subject": "Payroll Support \u2014 March 16-31",
+      "from_addr": "leah.morgan@sunshineandsetauto.com",
+      "to_addr": "hannah.price@sunshineandsetauto.com",
+      "cc_addr": "elena.brooks@sunshineandsetauto.com",
+      "bcc_addr": null,
+      "date": "2026-04-03T14:30:00-04:00",
+      "message_id": "<msg0007@sunshineandsetauto.com>",
+      "in_reply_to": null,
+      "body_text": "Hannah,\n\nI've completed verification of the March 16-31 commission sheets from both Olivia and Trent. All deals tie to the deal log and have been reconciled.\n\nCommission Summary \u2014 March 16-31:\n\nNew Vehicle Sheet (Olivia Mercer):\n- Deal 4497: Carlos Vega \u2014 $760\n- Deal 4499: Derek Vaughn \u2014 $2,100\nSubtotal: $2,860\n\nUsed Vehicle Sheet (Trent Holloway):\n- Deal 4496: Derek Vaughn \u2014 $1,437.50\n- Deal 4498: Megan Price \u2014 $350\n- Deal 4500: Carlos Vega \u2014 $740\nSubtotal: $2,527.50\n\nTotal March 16-31 Commissions: $5,387.50\nSalespersons: 3 (Derek Vaughn, Megan Price, Carlos Vega)\n\nAll calculations verified. Payroll support attached. Ready for submission to processor.\n\nLeah Morgan\nPayroll & Commissions Analyst\nSunshine & Set Automotive",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "8",
+      "folder": "INBOX",
+      "subject": "RE: Payroll Support \u2014 March 16-31",
+      "from_addr": "hannah.price@sunshineandsetauto.com",
+      "to_addr": "leah.morgan@sunshineandsetauto.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-03T16:15:00-04:00",
+      "message_id": "<msg0008@sunshineandsetauto.com>",
+      "in_reply_to": "<msg0007@sunshineandsetauto.com>",
+      "body_text": "Leah,\n\nThank you for the verification and payroll support package. I've reviewed all calculations and they look correct.\n\nMarch 16-31 commission data received and confirmed:\n- Total: $5,387.50\n- Salespersons: 3\n- All calculations verified\n\nI'm submitting this to the payroll processor now. They'll have it processed for funding 2 business days after submission.\n\nHannah Price\nHR Manager\nSunshine & Set Automotive",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "9",
+      "folder": "INBOX",
+      "subject": "Commission Control Workbook \u2014 March Reconciliation",
+      "from_addr": "marcus.hale@sunshineandsetauto.com",
+      "to_addr": "leah.morgan@sunshineandsetauto.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-07T13:20:00-04:00",
+      "message_id": "<msg0009@sunshineandsetauto.com>",
+      "in_reply_to": null,
+      "body_text": "Leah,\n\nMarch reconciliation complete. I've reviewed the commission control workbook and all figures are current.\n\nMarch Summary:\n- Beginning draw balance: $12,400\n- Commissions earned: $5,387.50\n- Advances paid: $0\n- Adjustments: $0\n- Ending balance: $7,012.50\n\nNo outstanding adjustments from February carry forward. Commission balances are up to date.\n\nMarcus Hale\nAssistant Controller\nSunshine & Set Automotive",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "10",
+      "folder": "Sent",
+      "subject": "Payroll Reminder \u2014 04/16 Cutoff",
+      "from_addr": "leah.morgan@sunshineandsetauto.com",
+      "to_addr": "olivia.mercer@sunshineandsetauto.com,trent.holloway@sunshineandsetauto.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-14T16:45:00-04:00",
+      "message_id": "<msg0010@sunshineandsetauto.com>",
+      "in_reply_to": null,
+      "body_text": "Olivia and Trent,\n\nReminder: 04/16 commission sheet cutoff is this Thursday. Please have your new and used vehicle sheets submitted to me by end of business Thursday so I can begin verification.\n\nSubmission deadline: 5:00 PM Thursday 04/16\n\nThank you,\nLeah Morgan\nPayroll & Commissions Analyst\nSunshine & Set Automotive",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "11",
+      "folder": "Commission Sheets",
+      "subject": "New Vehicle Commission Sheet \u2014 April 1-15, 2026",
+      "from_addr": "olivia.mercer@sunshineandsetauto.com",
+      "to_addr": "leah.morgan@sunshineandsetauto.com",
+      "cc_addr": "elena.brooks@sunshineandsetauto.com,marcus.hale@sunshineandsetauto.com",
+      "bcc_addr": null,
+      "date": "2026-04-16T08:45:00-04:00",
+      "message_id": "<msg0011@sunshineandsetauto.com>",
+      "in_reply_to": null,
+      "body_text": "Leah,\n\nAttached is the new vehicle commission sheet for April 1-15. Five deals this period:\n\n- Deal 4501 (Robert Chen, 2026 Camry LE) \u2014 Derek Vaughn, 25% total gross = $1,450\n- Deal 4503 (James Whitfield, 2026 RAV4 XLE) \u2014 Carlos Vega, 20% front gross = $600\n- Deal 4505 (David Park, 2026 Highlander XLE) \u2014 Carlos Vega, 20% front gross = $840\n- Deal 4507 (Brian Foster, 2026 Tacoma SR5) \u2014 Derek Vaughn, 25% total gross = $1,900\n- Deal 4509 (Thomas Reed, 2026 Corolla Cross LE) \u2014 Carlos Vega, 20% front gross = $400\n\nTotal commissions: $5,190\n\nOlivia Mercer\nSales Manager \u2014 New Vehicles\nSunshine & Set Automotive\n(407) 555-1200 ext. 204",
+      "body_html": null,
+      "is_read": false,
+      "is_important": true,
+      "attachments": []
+    },
+    {
+      "email_id": "12",
+      "folder": "Commission Sheets",
+      "subject": "Used Vehicle Commission Sheet \u2014 April 1-15, 2026",
+      "from_addr": "trent.holloway@sunshineandsetauto.com",
+      "to_addr": "leah.morgan@sunshineandsetauto.com",
+      "cc_addr": "elena.brooks@sunshineandsetauto.com,marcus.hale@sunshineandsetauto.com",
+      "bcc_addr": null,
+      "date": "2026-04-16T09:20:00-04:00",
+      "message_id": "<msg0012@sunshineandsetauto.com>",
+      "in_reply_to": null,
+      "body_text": "Leah,\n\nUsed vehicle commission sheet for April 1-15 attached. Four deals:\n\n- Deal 4502 (Maria Santos, 2023 CR-V EX) \u2014 Megan Price, $350 flat = $350\n- Deal 4504 (Angela Torres, 2024 Mustang GT) \u2014 Derek Vaughn, 25% total gross = $1,550\n- Deal 4506 (Karen Mitchell, 2022 Equinox LT) \u2014 Megan Price, $350 flat = $350\n- Deal 4508 (Lisa Nakamura, 2024 CX-5 Preferred) \u2014 Megan Price, $350 flat = $350\n\nTotal commissions: $2,600\n\nNote: Deal 4502 is still unfunded but was delivered on 04/07. Please flag if this should be excluded from this pay period.\n\nTrent Holloway\nUsed Car Manager\nSunshine & Set Automotive\n(407) 555-1200 ext. 208",
+      "body_html": null,
+      "is_read": false,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "13",
+      "folder": "Chargeback Offsets",
+      "subject": "GAP Chargeback \u2014 Deal 4492 / Patricia Dunn \u2014 Commission Impact",
+      "from_addr": "jasmine.patel@sunshineandsetauto.com",
+      "to_addr": "leah.morgan@sunshineandsetauto.com,sofia.ramirez@sunshineandsetauto.com",
+      "cc_addr": "hannah.price@sunshineandsetauto.com",
+      "bcc_addr": null,
+      "date": "2026-04-10T15:45:00-04:00",
+      "message_id": "<msg0013@sunshineandsetauto.com>",
+      "in_reply_to": null,
+      "body_text": "Leah and Sofia,\n\nWe received a SafeGuard GAP chargeback today on Deal 4492. This impacts Megan Price's previously paid commission from the March period.\n\nChargeback Details:\n- Deal: 4492\n- Customer: Patricia Dunn\n- Product: SafeGuard GAP (cancelled)\n- Chargeback Amount: $1,400\n- Received: 04/10/2026\n- Original Contract Date: 03/05/2026\n\nAffected Salesperson:\n- Megan Price (salesperson)\n- Sofia Ramirez (F&I Manager)\n\nPlease coordinate on next steps for this offset.\n\nExpected April 1-15 Commission for Megan: approximately $1,050 (3 delivered units \u00d7 $350).\n\nJasmine Patel\nSenior Deal Posting Specialist\nSunshine & Set Automotive",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "14",
+      "folder": "Sent",
+      "subject": "Chargeback Offset Approval Request \u2014 Megan Price \u2014 $1,400 (Deal 4492)",
+      "from_addr": "leah.morgan@sunshineandsetauto.com",
+      "to_addr": "marcus.hale@sunshineandsetauto.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-11T10:00:00-04:00",
+      "message_id": "<msg0014@sunshineandsetauto.com>",
+      "in_reply_to": null,
+      "body_text": "Marcus,\n\nI'm requesting your approval to offset a SafeGuard GAP chargeback against Megan Price's April 1-15 commission payment.\n\nChargeback Details:\n- Amount: $1,400\n- Deal: 4492 (Patricia Dunn, original 03/05/2026)\n- Product: SafeGuard GAP (cancelled)\n- Received: 04/10/2026\n- Reason: Product cancellation\n\nCommission Impact:\n- Megan's earned April 1-15 commission: approximately $1,050 (3 delivered units \u00d7 $350 flat rate)\n- Offset amount: $1,400\n- Resulting shortfall: $350 (offset exceeds earned commission)\n\nRecommendation:\n- Apply the full $1,400 offset against her April 1-15 commission ($1,050)\n- Carry the $350 balance forward to the next pay period (May)\n\nPlease advise how you'd like to proceed.\n\nLeah Morgan\nPayroll & Commissions Analyst\nSunshine & Set Automotive",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "15",
+      "folder": "Chargeback Offsets",
+      "subject": "RE: Chargeback Offset Approval Request \u2014 Megan Price \u2014 $1,400 (Deal 4492)",
+      "from_addr": "marcus.hale@sunshineandsetauto.com",
+      "to_addr": "leah.morgan@sunshineandsetauto.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-14T11:30:00-04:00",
+      "message_id": "<msg0015@sunshineandsetauto.com>",
+      "in_reply_to": "<msg0014@sunshineandsetauto.com>",
+      "body_text": "Leah,\n\nAPPROVED: Apply the full $1,400 offset against Megan Price's April 1-15 commission payment.\n\nOffset Authorization:\n- Employee: Megan Price\n- Chargeback: $1,400 (Deal 4492, GAP cancellation)\n- Earned Commission (April 1-15): $1,050\n- Offset: $1,400 against $1,050 commission\n- Shortfall: $350\n\nHandling the $350 Shortfall:\n- Carry the $350 balance forward to the next pay period (May 1-15)\n- Do NOT reduce her base hourly pay \u2014 this offset applies ONLY to commission earnings\n- Do NOT reduce her compensation below minimum wage\n\nCritical Next Step:\n- You must send Megan a written notification BEFORE processing the offset\n- Copy me (Marcus Hale) and Hannah Price on the notification\n- The notification must clearly explain:\n  * The GAP chargeback amount and deal\n  * The offset calculation\n  * Her April 1-15 commission impact\n  * The $350 carry-forward to next period\n  * Her right to dispute if applicable\n\nDo not process the offset until the written notification has been sent and acknowledged.\n\nMarcus Hale\nAssistant Controller\nSunshine & Set Automotive",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "16",
+      "folder": "INBOX",
+      "subject": "Deal 4505 Unwind Complete - David Park / Ally Financial",
+      "from_addr": "jasmine.patel@sunshineandsetauto.com",
+      "to_addr": "leah.morgan@sunshineandsetauto.com",
+      "cc_addr": "marcus.hale@sunshineandsetauto.com",
+      "bcc_addr": null,
+      "date": "2026-04-16T07:30:00-04:00",
+      "message_id": "<msg0016@sunshineandsetauto.com>",
+      "in_reply_to": null,
+      "body_text": "Leah,\n\nThe unwind for Deal 4505 (David Park, 2026 Toyota Highlander XLE) is now complete. Marcus approved the unwind yesterday and all steps have been finalized this morning.\n\nDeal: 4505\nCustomer: David Park\nVehicle: 2026 Toyota Highlander XLE (Stock N2043)\nSalesperson: Carlos Vega\nF&I Manager: Sofia Ramirez\n\nCompleted Steps:\n- Deal posting reversed in deal log\n- Vehicle returned to active inventory at original book cost\n- Trade payoff was never sent (confirmed with Priya)\n- Customer deposits returned\n- Title and registration work cancelled\n- Lender refund coordinated with Noah\n\nPlease note this for your commission processing.\n\nJasmine Patel\nSenior Deal Posting Specialist\nSunshine & Set Automotive",
+      "body_html": null,
+      "is_read": false,
+      "is_important": false,
+      "attachments": []
+    }
+  ],
+  "next_email_id": 17
+}

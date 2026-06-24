@@ -1,0 +1,72 @@
+{
+  "run": {
+    "command": "python",
+    "args": [
+      "-m",
+      "google_calendar"
+    ]
+  },
+  "toolsets": {
+    "read": [
+      "check_availability",
+      "get_event",
+      "list_accounts",
+      "list_calendars",
+      "list_events",
+      "search_events"
+    ],
+    "write": [
+      "create_calendar",
+      "create_event",
+      "delete_event",
+      "respond_to_event",
+      "update_event"
+    ],
+    "events": [
+      "create_event",
+      "delete_event",
+      "get_event",
+      "list_events",
+      "search_events",
+      "respond_to_event",
+      "update_event"
+    ],
+    "calendars": [
+      "create_calendar",
+      "list_calendars"
+    ],
+    "accounts": [
+      "list_accounts"
+    ],
+    "search": [
+      "list_events",
+      "search_events"
+    ],
+    "availability": [
+      "check_availability"
+    ],
+    "scheduling": [
+      "check_availability",
+      "respond_to_event"
+    ],
+    "core": [
+      "create_event",
+      "delete_event",
+      "get_event",
+      "list_events",
+      "search_events",
+      "update_event"
+    ],
+    "toolathlon_legacy": [
+      "create_event",
+      "delete_event",
+      "get_event",
+      "list_events",
+      "update_event"
+    ],
+    "state": [
+      "export_state",
+      "import_state"
+    ]
+  }
+}

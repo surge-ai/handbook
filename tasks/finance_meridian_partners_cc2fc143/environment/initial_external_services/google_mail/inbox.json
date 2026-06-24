@@ -1,0 +1,308 @@
+{
+  "mailbox": {
+    "email": "j.trevors@meridianpartners.com",
+    "name": "Joan Trevors"
+  },
+  "contacts": [
+    {
+      "email": "ap@meridianpartners.com",
+      "name": "Meridian Partners AP"
+    },
+    {
+      "email": "t.okonkwo@meridianpartners.com",
+      "name": "Tanya Okonkwo"
+    },
+    {
+      "email": "r.whitfield@meridianpartners.com",
+      "name": "Rachel Whitfield"
+    },
+    {
+      "email": "d.nakamura@meridianpartners.com",
+      "name": "David Nakamura"
+    },
+    {
+      "email": "s.rivera@meridianpartners.com",
+      "name": "S. Rivera"
+    },
+    {
+      "email": "k.desantis@meridianpartners.com",
+      "name": "K. DeSantis"
+    },
+    {
+      "email": "m.chen@meridianpartners.com",
+      "name": "M. Chen"
+    },
+    {
+      "email": "j.carter@meridianpartners.com",
+      "name": "J. Carter"
+    },
+    {
+      "email": "b.singh@meridianpartners.com",
+      "name": "B. Singh"
+    },
+    {
+      "email": "hr@meridianpartners.com",
+      "name": "Human Resources"
+    },
+    {
+      "email": "office@meridianpartners.com",
+      "name": "Office Management"
+    },
+    {
+      "email": "t.okafor@meridianadvisory.com",
+      "name": "Thomas Okafor"
+    },
+    {
+      "email": "p.nair@meridiandigital.com",
+      "name": "Priya Nair"
+    },
+    {
+      "email": "m.webb@premierjanitor.com",
+      "name": "M. Webb (Premier Janitorial)"
+    },
+    {
+      "email": "r.torres@acmeoffice.com",
+      "name": "R. Torres (Acme Office Solutions)"
+    },
+    {
+      "email": "billing@riversideproperties.com",
+      "name": "Riverside Properties LLC"
+    },
+    {
+      "email": "billing@hartwell-associates.com",
+      "name": "Hartwell & Associates LLP"
+    },
+    {
+      "email": "c.morrison@morrisonwebb.com",
+      "name": "C. Morrison (Morrison & Webb)"
+    },
+    {
+      "email": "n.reeves@summitstrategy.com",
+      "name": "N. Reeves (Summit Strategy Partners)"
+    },
+    {
+      "email": "p.yuen@blueridgecg.com",
+      "name": "P. Yuen (Blue Ridge Consulting)"
+    },
+    {
+      "email": "orders@greatlakesfurniture.com",
+      "name": "Great Lakes Furniture & Design"
+    },
+    {
+      "email": "accounts@techflowsolutions.com",
+      "name": "TechFlow Solutions"
+    },
+    {
+      "email": "billing@vantagehr.com",
+      "name": "Vantage HR Solutions"
+    }
+  ],
+  "groups": [
+    {
+      "email": "finance@meridianpartners.com",
+      "name": "Finance Team",
+      "members": [
+        "j.trevors@meridianpartners.com",
+        "t.okonkwo@meridianpartners.com",
+        "r.whitfield@meridianpartners.com",
+        "d.nakamura@meridianpartners.com",
+        "s.rivera@meridianpartners.com"
+      ]
+    }
+  ],
+  "folders": [
+    {
+      "name": "AP"
+    }
+  ],
+  "emails": [
+    {
+      "email_id": "1",
+      "folder": "INBOX",
+      "subject": "Premier Janitorial Services \u2013 Rate Adjustment Effective March 2026",
+      "from_addr": "m.webb@premierjanitor.com",
+      "to_addr": "ap@meridianpartners.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-02-28T11:15:00Z",
+      "message_id": "<msg-001@premierjanitor.com>",
+      "in_reply_to": null,
+      "body_text": "Dear Meridian Partners Accounts Payable,\n\nPlease be advised that effective March 1, 2026, Premier Janitorial Services will be adjusting our service rates by 3% to reflect increased labor and supply costs.\n\nYour March invoice (Month 6 of 6 under PO-2025-00051) will reflect the updated monthly rate of $2,884.00.\n\nWe appreciate your continued partnership and are happy to answer any questions.\n\nBest regards,\nMarcus Webb\nPremier Janitorial Services\n(773) 555-0114\nm.webb@premierjanitor.com",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "2",
+      "folder": "INBOX",
+      "subject": "Invoice SSP-2026-0031 \u2013 Summit Strategy Partners LLC",
+      "from_addr": "n.reeves@summitstrategy.com",
+      "to_addr": "ap@meridianpartners.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-21T09:30:00Z",
+      "message_id": "<msg-002@summitstrategy.com>",
+      "in_reply_to": null,
+      "body_text": "Good morning,\n\nPlease find attached invoice SSP-2026-0031 dated March 12, 2026 for $18,750.00 for consulting services rendered to Meridian Partners LLC.\n\nOur payment terms are Net 30. Please don\u2019t hesitate to reach out with any questions.\n\nThank you,\nNathan Reeves\nDirector of Client Services\nSummit Strategy Partners LLC\n(312) 555-0847\nn.reeves@summitstrategy.com",
+      "body_html": null,
+      "is_read": false,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "3",
+      "folder": "INBOX",
+      "subject": "Invoice BRC-2026-0019 \u2013 Blue Ridge Consulting Group",
+      "from_addr": "p.yuen@blueridgecg.com",
+      "to_addr": "ap@meridianpartners.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-18T14:20:00Z",
+      "message_id": "<msg-003@blueridgecg.com>",
+      "in_reply_to": null,
+      "body_text": "Hi,\n\nAttached please find invoice BRC-2026-0019 for $5,500.00 covering Q1 2026 management consulting services for Meridian Partners.\n\nPlease process at your earliest convenience per our 2/10 Net 30 terms.\n\nBest regards,\nPatricia Yuen\nBlue Ridge Consulting Group\n(312) 555-0389\np.yuen@blueridgecg.com",
+      "body_html": null,
+      "is_read": false,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "4",
+      "folder": "INBOX",
+      "subject": "Today\u2019s Batch \u2013 March 24 \u2013 Action Needed",
+      "from_addr": "t.okonkwo@meridianpartners.com",
+      "to_addr": "j.trevors@meridianpartners.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-24T08:30:00Z",
+      "message_id": "<msg-004@meridianpartners.com>",
+      "in_reply_to": null,
+      "body_text": "Joan,\n\nBatch runs at 2pm today. Before then, please:\n\n1. Confirm the invoices queued for PAY-2026-0324 are cleared and ready to go\n2. Log any new invoices that came in today\n3. Do a scan of the open holds in the ledger and let me know if anything needs attention before I run the batch\n\nThanks,\nTanya\n\nTanya Okonkwo | AP Manager\nMeridian Partners, LLC\nt.okonkwo@meridianpartners.com",
+      "body_html": null,
+      "is_read": false,
+      "is_important": true,
+      "attachments": []
+    },
+    {
+      "email_id": "5",
+      "folder": "INBOX",
+      "subject": "Benefits Open Enrollment \u2013 Deadline April 4, 2026",
+      "from_addr": "hr@meridianpartners.com",
+      "to_addr": "j.trevors@meridianpartners.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-20T10:00:00Z",
+      "message_id": "<msg-005@meridianpartners.com>",
+      "in_reply_to": null,
+      "body_text": "Dear Team,\n\nThis is a reminder that the annual Benefits Open Enrollment period is now open. You have until April 4, 2026 to make any changes to your health, dental, and vision coverage for the upcoming plan year.\n\nPlease log into the benefits portal at hr.meridianpartners.com to review your options and confirm or update your selections.\n\nContact HR with any questions.\n\nHuman Resources\nMeridian Partners, LLC",
+      "body_html": null,
+      "is_read": false,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "6",
+      "folder": "INBOX",
+      "subject": "Kitchen Refrigerator Cleanout \u2013 Friday March 27",
+      "from_addr": "office@meridianpartners.com",
+      "to_addr": "j.trevors@meridianpartners.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-22T13:30:00Z",
+      "message_id": "<msg-006@meridianpartners.com>",
+      "in_reply_to": null,
+      "body_text": "Hi everyone,\n\nJust a heads up \u2014 the kitchen refrigerator will be cleaned out this Friday, March 27th. Please remove any personal items by end of day Thursday or they will be discarded.\n\nThanks for your cooperation!\n\nOffice Management\nMeridian Partners, LLC",
+      "body_html": null,
+      "is_read": false,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "7",
+      "folder": "Sent",
+      "subject": "AP APPROVAL REQUIRED: Morrison & Webb Legal Group LLP - $3,200.00 - Invoice MW-2026-0018",
+      "from_addr": "j.trevors@meridianpartners.com",
+      "to_addr": "k.desantis@meridianpartners.com, t.okonkwo@meridianpartners.com",
+      "cc_addr": "ap@meridianpartners.com",
+      "bcc_addr": null,
+      "date": "2026-03-06T11:05:00Z",
+      "message_id": "<msg-007@meridianpartners.com>",
+      "in_reply_to": null,
+      "body_text": "A non-PO invoice requires your approval before payment can be processed. Vendor: Morrison & Webb Legal Group LLP (V-00007). Invoice: MW-2026-0018, dated 2026-03-05. Amount: $3,200.00. Description: Legal services \u2013 February 2026. GL Code: 1000-300-6100. Please reply APPROVED or REJECTED with reason. If no response is received within 3 business days, the invoice will be placed on APPR hold and the vendor will be notified of the delay.",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "8",
+      "folder": "Sent",
+      "subject": "Invoice MW-2026-0018 \u2013 Pending Internal Approval",
+      "from_addr": "j.trevors@meridianpartners.com",
+      "to_addr": "c.morrison@morrisonwebb.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-07T14:45:00Z",
+      "message_id": "<msg-008@meridianpartners.com>",
+      "in_reply_to": null,
+      "body_text": "Dear C. Morrison,\n\nInvoice MW-2026-0018 for $3,200.00 is currently pending internal approval. We expect to process payment within 5 additional business days. We apologize for the delay.\n\nMeridian Partners Accounts Payable",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "9",
+      "folder": "Sent",
+      "subject": "Meridian Partners - Price Discrepancy on Invoice TFS-26-0089",
+      "from_addr": "j.trevors@meridianpartners.com",
+      "to_addr": "accounts@techflowsolutions.com",
+      "cc_addr": "ap@meridianpartners.com",
+      "bcc_addr": null,
+      "date": "2026-03-06T14:22:00Z",
+      "message_id": "<msg-009@meridianpartners.com>",
+      "in_reply_to": null,
+      "body_text": "Dear TechFlow Solutions,\n\nWe are writing regarding Invoice TFS-26-0089. Our records indicate a discrepancy between the rate on this invoice and the rate on our purchase order.\n\nPO Rate (PO-2026-00007): $250.00/hr\nInvoiced Rate: $280.00/hr\nVariance: $30.00/hr\n\nPlease provide a corrected invoice or written justification for the rate difference within 5 business days.\n\nThank you,\nJ. Trevors\nAccounts Payable\nMeridian Partners, LLC\nap@meridianpartners.com",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "10",
+      "folder": "Sent",
+      "subject": "Re: Benefits Open Enrollment \u2013 Deadline April 4, 2026",
+      "from_addr": "j.trevors@meridianpartners.com",
+      "to_addr": "hr@meridianpartners.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-20T10:48:00Z",
+      "message_id": "<msg-010@meridianpartners.com>",
+      "in_reply_to": "<msg-005@meridianpartners.com>",
+      "body_text": "Thanks for the reminder \u2014 will log in this week.\n\nJoan\n\n--- Original Message ---\nFrom: hr@meridianpartners.com\nDate: 2026-03-20 10:00\nSubject: Benefits Open Enrollment \u2013 Deadline April 4, 2026\n\nDear Team,\n\nThis is a reminder that the annual Benefits Open Enrollment period is now open...",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "11",
+      "folder": "Sent",
+      "subject": "Re: Invoice MW-2026-0018 \u2013 Pending Internal Approval",
+      "from_addr": "j.trevors@meridianpartners.com",
+      "to_addr": "k.desantis@meridianpartners.com, t.okonkwo@meridianpartners.com",
+      "cc_addr": "ap@meridianpartners.com",
+      "bcc_addr": null,
+      "date": "2026-03-05T14:50:00Z",
+      "message_id": "<msg-011@meridianpartners.com>",
+      "in_reply_to": "<msg-007@meridianpartners.com>",
+      "body_text": "Hi Tanya and Karen,\n\nNo response has been received on the approval request for Morrison & Webb Invoice MW-2026-0018 ($3,200.00) sent March 2nd. The 3-business-day window has elapsed. I am placing the invoice on APPR hold in the register and have notified the vendor.\n\nPlease let me know if you would like me to take any further action.\n\nJ. Trevors\nAccounts Payable\nMeridian Partners, LLC",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    }
+  ],
+  "next_email_id": 12
+}

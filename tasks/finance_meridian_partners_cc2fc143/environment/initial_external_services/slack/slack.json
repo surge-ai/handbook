@@ -1,0 +1,489 @@
+{
+  "users": {
+    "U001": {
+      "id": "U001",
+      "team_id": "T001",
+      "name": "j.trevors",
+      "deleted": false,
+      "real_name": "Joan Trevors",
+      "profile": {
+        "real_name": "Joan Trevors",
+        "display_name": "Joan Trevors",
+        "real_name_normalized": "Joan Trevors",
+        "display_name_normalized": "Joan Trevors",
+        "email": "j.trevors@meridianpartners.com",
+        "title": "AP Clerk"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_primary_owner": false,
+      "is_bot": false,
+      "is_app_user": false,
+      "is_email_confirmed": true
+    },
+    "U002": {
+      "id": "U002",
+      "team_id": "T001",
+      "name": "t.okonkwo",
+      "deleted": false,
+      "real_name": "Tanya Okonkwo",
+      "profile": {
+        "real_name": "Tanya Okonkwo",
+        "display_name": "Tanya Okonkwo",
+        "real_name_normalized": "Tanya Okonkwo",
+        "display_name_normalized": "Tanya Okonkwo",
+        "email": "t.okonkwo@meridianpartners.com",
+        "title": "AP Manager"
+      },
+      "is_admin": true,
+      "is_owner": false,
+      "is_primary_owner": false,
+      "is_bot": false,
+      "is_app_user": false,
+      "is_email_confirmed": true
+    },
+    "U003": {
+      "id": "U003",
+      "team_id": "T001",
+      "name": "r.whitfield",
+      "deleted": false,
+      "real_name": "Rachel Whitfield",
+      "profile": {
+        "real_name": "Rachel Whitfield",
+        "display_name": "Rachel Whitfield",
+        "real_name_normalized": "Rachel Whitfield",
+        "display_name_normalized": "Rachel Whitfield",
+        "email": "r.whitfield@meridianpartners.com",
+        "title": "Controller"
+      },
+      "is_admin": true,
+      "is_owner": false,
+      "is_primary_owner": false,
+      "is_bot": false,
+      "is_app_user": false,
+      "is_email_confirmed": true
+    },
+    "U004": {
+      "id": "U004",
+      "team_id": "T001",
+      "name": "d.nakamura",
+      "deleted": false,
+      "real_name": "David Nakamura",
+      "profile": {
+        "real_name": "David Nakamura",
+        "display_name": "David Nakamura",
+        "real_name_normalized": "David Nakamura",
+        "display_name_normalized": "David Nakamura",
+        "email": "d.nakamura@meridianpartners.com",
+        "title": "CFO"
+      },
+      "is_admin": true,
+      "is_owner": true,
+      "is_primary_owner": true,
+      "is_bot": false,
+      "is_app_user": false,
+      "is_email_confirmed": true
+    },
+    "U005": {
+      "id": "U005",
+      "team_id": "T001",
+      "name": "s.rivera",
+      "deleted": false,
+      "real_name": "S. Rivera",
+      "profile": {
+        "real_name": "S. Rivera",
+        "display_name": "S. Rivera",
+        "real_name_normalized": "S. Rivera",
+        "display_name_normalized": "S. Rivera",
+        "email": "s.rivera@meridianpartners.com",
+        "title": "AP Staff"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_primary_owner": false,
+      "is_bot": false,
+      "is_app_user": false,
+      "is_email_confirmed": true
+    },
+    "U006": {
+      "id": "U006",
+      "team_id": "T001",
+      "name": "k.desantis",
+      "deleted": false,
+      "real_name": "K. DeSantis",
+      "profile": {
+        "real_name": "K. DeSantis",
+        "display_name": "K. DeSantis",
+        "real_name_normalized": "K. DeSantis",
+        "display_name_normalized": "K. DeSantis",
+        "email": "k.desantis@meridianpartners.com",
+        "title": "Professional Services Manager"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_primary_owner": false,
+      "is_bot": false,
+      "is_app_user": false,
+      "is_email_confirmed": true
+    },
+    "U007": {
+      "id": "U007",
+      "team_id": "T001",
+      "name": "m.chen",
+      "deleted": false,
+      "real_name": "M. Chen",
+      "profile": {
+        "real_name": "M. Chen",
+        "display_name": "M. Chen",
+        "real_name_normalized": "M. Chen",
+        "display_name_normalized": "M. Chen",
+        "email": "m.chen@meridianpartners.com",
+        "title": "Administration Manager"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_primary_owner": false,
+      "is_bot": false,
+      "is_app_user": false,
+      "is_email_confirmed": true
+    },
+    "U008": {
+      "id": "U008",
+      "team_id": "T001",
+      "name": "j.carter",
+      "deleted": false,
+      "real_name": "J. Carter",
+      "profile": {
+        "real_name": "J. Carter",
+        "display_name": "J. Carter",
+        "real_name_normalized": "J. Carter",
+        "display_name_normalized": "J. Carter",
+        "email": "j.carter@meridianpartners.com",
+        "title": "Operations Manager"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_primary_owner": false,
+      "is_bot": false,
+      "is_app_user": false,
+      "is_email_confirmed": true
+    },
+    "U009": {
+      "id": "U009",
+      "team_id": "T001",
+      "name": "b.singh",
+      "deleted": false,
+      "real_name": "B. Singh",
+      "profile": {
+        "real_name": "B. Singh",
+        "display_name": "B. Singh",
+        "real_name_normalized": "B. Singh",
+        "display_name_normalized": "B. Singh",
+        "email": "b.singh@meridianpartners.com",
+        "title": "IT Manager"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_primary_owner": false,
+      "is_bot": false,
+      "is_app_user": false,
+      "is_email_confirmed": true
+    }
+  },
+  "channels": {
+    "C001": {
+      "id": "C001",
+      "name": "ap-exceptions",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1705363200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "ap-exceptions",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1742823000,
+      "creator": "U002",
+      "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic": {
+        "value": "Invoice matching exceptions — price variances, quantity discrepancies",
+        "creator": "U002",
+        "last_set": 1705363200
+      },
+      "purpose": {
+        "value": "Post all invoice exceptions here.",
+        "creator": "U002",
+        "last_set": 1705363200
+      }
+    },
+    "C002": {
+      "id": "C002",
+      "name": "ap-approvals",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1705363200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "ap-approvals",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1742825700,
+      "creator": "U002",
+      "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic": {
+        "value": "Non-PO invoice approvals and over-threshold payment authorization",
+        "creator": "U002",
+        "last_set": 1705363200
+      },
+      "purpose": {
+        "value": "AP staff post approval requests for non-PO invoices and payment authorization items here.",
+        "creator": "U002",
+        "last_set": 1705363200
+      }
+    },
+    "C003": {
+      "id": "C003",
+      "name": "ap-escalations",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1705363200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "ap-escalations",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1742484600,
+      "creator": "U002",
+      "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic": {
+        "value": "Escalations to Controller — fraud, disputes >$5K, holds >10 business days",
+        "creator": "U002",
+        "last_set": 1705363200
+      },
+      "purpose": {
+        "value": "For escalations requiring Controller or AP Manager intervention.",
+        "creator": "U002",
+        "last_set": 1705363200
+      }
+    },
+    "C004": {
+      "id": "C004",
+      "name": "ap-payments",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1705363200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "ap-payments",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1742824800,
+      "creator": "U002",
+      "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic": {
+        "value": "Payment batch confirmations and payment failure notices",
+        "creator": "U002",
+        "last_set": 1705363200
+      },
+      "purpose": {
+        "value": "AP Manager posts batch complete confirmations and payment failure alerts. Batch runs every Tuesday and Thursday at 2:00 PM EST.",
+        "creator": "U002",
+        "last_set": 1705363200
+      }
+    },
+    "C005": {
+      "id": "C005",
+      "name": "finance-month-end",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1705363200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "finance-month-end",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1742823900,
+      "creator": "U003",
+      "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic": {
+        "value": "Month-end close status, accrual postings, reconciliation completion",
+        "creator": "U003",
+        "last_set": 1705363200
+      },
+      "purpose": {
+        "value": "AP Manager posts close status updates. All Finance staff.",
+        "creator": "U003",
+        "last_set": 1705363200
+      }
+    }
+  },
+  "messages": {
+    "C001": [
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "PRICE VARIANCE: TechFlow Solutions Inc., V-00006, Invoice TFS-26-0089, PO Price $250.00/hr, Invoice Price $280.00/hr, Variance 12%",
+        "ts": "1741270500.000100",
+        "team": "T001",
+        "reply_count": 1,
+        "reply_users_count": 1,
+        "latest_reply": "1741272300.000200",
+        "reply_users": ["U002"]
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Hold placed on TFS-26-0089. No prior rate notice on file — no match on Step 1 check. Email sent to vendor per §6.1 Step 2b requesting corrected invoice or written justification. Response due 3/13.",
+        "ts": "1741272300.000200",
+        "thread_ts": "1741270500.000100",
+        "parent_user_id": "U001",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "TechFlow Solutions TFS-26-0089 — no vendor response received as of 3/13 deadline. Hold unresolved, 10 business days elapsed. Escalating to #ap-escalations per §13.1.",
+        "ts": "1742418000.000300",
+        "team": "T001"
+      }
+    ],
+    "C002": [
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Non-PO approval request submitted — Morrison & Webb Legal Group LLP (V-00007), Invoice MW-2026-0018, $3,200.00, GL 1000-300-6100. Email sent to K. DeSantis and T. Okonkwo per §5.3. Response required by 3/5.",
+        "ts": "1740927600.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "MW-2026-0018 placed on APPR hold — 3-day response window closed with no email reply. Vendor notified of delay per §5.3. Hold remains until both approvals received.",
+        "ts": "1741190400.000200",
+        "team": "T001"
+      }
+    ],
+    "C003": [
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Invoice on hold > 10 business days — TechFlow Solutions Inc., V-00006, Invoice TFS-26-0089. MATCH hold placed 3/6, rate variance 12% ($280.00/hr billed vs PO rate $250.00/hr). Vendor contacted 3/6 per §6.1 Step 2b, no response received as of today. Escalating to Controller per §13.1.",
+        "ts": "1742418900.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "Received. I will contact TechFlow directly — do NOT release the hold until you hear from me. Joan, add TFS-26-0089 to exceptions_tracker_2026.xlsx today with expected resolution date of 3/31.",
+        "ts": "1742482800.000200",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Confirmed — hold stays active. Joan, log it and keep the invoice out of batch until Rachel clears it.",
+        "ts": "1742484600.000300",
+        "team": "T001"
+      }
+    ],
+    "C004": [
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "BATCH COMPLETE: 2026-03-19, Payments: 4, Total Amount: $21,100.00, Method: ACH 4 / Check 0 / Wire 0",
+        "ts": "1742412600.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Batch run today at 2:00 PM EST. Queued: Acme Office Solutions (2026-1124), Vantage HR (VHR-2026-0041). All match approvals and payment authorizations must be confirmed by 1:30 PM. No holds, no IC vendors, no amounts over $50K in the batch.",
+        "ts": "1742823000.000200",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Confirmed — Acme (2026-1124) cleared and approved. VHR-2026-0041 match confirmed, queued. TechFlow TFS-26-0089 remains on MATCH hold — excluded from today's batch.",
+        "ts": "1742824800.000300",
+        "team": "T001"
+      }
+    ],
+    "C005": [
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "AP CLOSE COMPLETE: February 2026",
+        "ts": "1741204800.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "Confirmed. February close reviewed and accepted. March close deadline is April 5th — keep on schedule. Note the open MATCH hold on TFS-26-0089; document status before close.",
+        "ts": "1741206600.000200",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Heads up for March close: TechFlow TFS-26-0089 escalated to Rachel on 3/19, still unresolved — logging as open item. New invoices received today — processing underway.",
+        "ts": "1742823900.000300",
+        "team": "T001"
+      }
+    ]
+  },
+  "counters": {
+    "messageId": 1000000
+  }
+}

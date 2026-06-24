@@ -1,0 +1,234 @@
+
+{
+  "users": {
+    "U001": {
+      "id": "U001",
+      "team_id": "T001",
+      "name": "tanya.okonkwo",
+      "deleted": false,
+      "real_name": "Tanya Okonkwo",
+      "profile": {
+        "real_name": "Tanya Okonkwo",
+        "display_name": "TanyaOkonkwo",
+        "email": "tanya.okonkwo@meridianpartners.com",
+        "title": "AP Manager"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U002": {
+      "id": "U002",
+      "team_id": "T001",
+      "name": "rachel.whitfield",
+      "deleted": false,
+      "real_name": "Rachel Whitfield",
+      "profile": {
+        "real_name": "Rachel Whitfield",
+        "display_name": "RachelWhitfield",
+        "email": "rachel.whitfield@meridianpartners.com",
+        "title": "Controller"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U003": {
+      "id": "U003",
+      "team_id": "T001",
+      "name": "david.nakamura",
+      "deleted": false,
+      "real_name": "David Nakamura",
+      "profile": {
+        "real_name": "David Nakamura",
+        "display_name": "DavidNakamura",
+        "email": "david.nakamura@meridianpartners.com",
+        "title": "CFO"
+      },
+      "is_admin": true,
+      "is_owner": true,
+      "is_bot": false
+    }
+  },
+  "channels": {
+    "C001": {
+      "id": "C001",
+      "name": "ap-exceptions",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1609459200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "ap-exceptions",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1609459200,
+      "creator": "U001",
+      "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic": {
+        "value": "AP exceptions and issues",
+        "creator": "U001",
+        "last_set": 1609459200
+      },
+      "purpose": {
+        "value": "Channel for tracking and resolving accounts payable exceptions",
+        "creator": "U001",
+        "last_set": 1609459200
+      }
+    },
+    "C002": {
+      "id": "C002",
+      "name": "ap-approvals",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1609459200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "ap-approvals",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1609459200,
+      "creator": "U001",
+      "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic": {
+        "value": "AP approval requests",
+        "creator": "U001",
+        "last_set": 1609459200
+      },
+      "purpose": {
+        "value": "Channel for accounts payable approval workflows",
+        "creator": "U001",
+        "last_set": 1609459200
+      }
+    },
+    "C003": {
+      "id": "C003",
+      "name": "ap-escalations",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1609459200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "ap-escalations",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1609459200,
+      "creator": "U001",
+      "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic": {
+        "value": "AP escalations",
+        "creator": "U001",
+        "last_set": 1609459200
+      },
+      "purpose": {
+        "value": "Channel for escalated accounts payable issues requiring immediate attention",
+        "creator": "U001",
+        "last_set": 1609459200
+      }
+    },
+    "C004": {
+      "id": "C004",
+      "name": "ap-payments",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1609459200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "ap-payments",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1609459200,
+      "creator": "U001",
+      "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic": {
+        "value": "AP payment processing",
+        "creator": "U001",
+        "last_set": 1609459200
+      },
+      "purpose": {
+        "value": "Channel for accounts payable payment coordination and tracking",
+        "creator": "U001",
+        "last_set": 1609459200
+      }
+    },
+    "C005": {
+      "id": "C005",
+      "name": "finance-month-end",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1609459200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "finance-month-end",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1609459200,
+      "creator": "U002",
+      "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic": {
+        "value": "Month-end close activities",
+        "creator": "U002",
+        "last_set": 1609459200
+      },
+      "purpose": {
+        "value": "Channel for coordinating month-end close processes and reporting",
+        "creator": "U002",
+        "last_set": 1609459200
+      }
+    }
+  },
+  "messages": {},
+  "counters": {
+    "messageId": 1000000
+  }
+}

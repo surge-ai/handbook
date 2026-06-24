@@ -1,0 +1,488 @@
+{
+  "mailbox": {
+    "email": "billing@careig.com",
+    "name": "CareIG Billing Department"
+  },
+  "contacts": [
+    {
+      "email": "intake@careig.com",
+      "name": "CareIG Intake Team"
+    },
+    {
+      "email": "pa@careig.com",
+      "name": "CareIG PA Team"
+    },
+    {
+      "email": "scheduling@careig.com",
+      "name": "CareIG Scheduling"
+    },
+    {
+      "email": "compliance@careig.com",
+      "name": "CareIG Compliance"
+    },
+    {
+      "email": "legal@careig.com",
+      "name": "CareIG Legal"
+    },
+    {
+      "email": "a.torres@careig.com",
+      "name": "Angela Torres"
+    },
+    {
+      "email": "m.webb@careig.com",
+      "name": "Marcus Webb"
+    },
+    {
+      "email": "d.chen@careig.com",
+      "name": "Director Chen"
+    },
+    {
+      "email": "k.rodriguez@careig.com",
+      "name": "Karen Rodriguez"
+    },
+    {
+      "email": "j.smith@careig.com",
+      "name": "Jane Smith"
+    },
+    {
+      "email": "r.chen@careig.com",
+      "name": "Robert Chen"
+    },
+    {
+      "email": "m.garcia@careig.com",
+      "name": "Maria Garcia"
+    },
+    {
+      "email": "d.williams@careig.com",
+      "name": "David Williams"
+    },
+    {
+      "email": "s.johnson@careig.com",
+      "name": "Sarah Johnson"
+    },
+    {
+      "email": "p.lee@careig.com",
+      "name": "Patricia Lee"
+    },
+    {
+      "email": "j.brown@careig.com",
+      "name": "James Brown"
+    },
+    {
+      "email": "claims@bluecross-ppo.example.com",
+      "name": "BlueCross PPO Claims"
+    },
+    {
+      "email": "pa@bluecross-ppo.example.com",
+      "name": "BlueCross PPO PA Dept"
+    },
+    {
+      "email": "appeals@bluecross-ppo.example.com",
+      "name": "BlueCross PPO Appeals"
+    },
+    {
+      "email": "claims@noridian-medicare.example.com",
+      "name": "Noridian Medicare Claims"
+    },
+    {
+      "email": "pa@noridian-medicare.example.com",
+      "name": "Noridian Medicare PA Dept"
+    },
+    {
+      "email": "appeals@noridian-medicare.example.com",
+      "name": "Noridian Medicare Appeals"
+    },
+    {
+      "email": "claims@aetna-hmo.example.com",
+      "name": "Aetna HMO Claims"
+    },
+    {
+      "email": "pa@aetna-hmo.example.com",
+      "name": "Aetna HMO PA Dept"
+    },
+    {
+      "email": "appeals@aetna-hmo.example.com",
+      "name": "Aetna HMO Appeals"
+    },
+    {
+      "email": "claims@uhc-ma.example.com",
+      "name": "UnitedHealth MA Claims"
+    },
+    {
+      "email": "pa@uhc-ma.example.com",
+      "name": "UnitedHealth MA PA Dept"
+    },
+    {
+      "email": "appeals@uhc-ma.example.com",
+      "name": "UnitedHealth MA Appeals"
+    },
+    {
+      "email": "claims@state-medicaid.example.com",
+      "name": "State Medicaid Claims"
+    },
+    {
+      "email": "pa@state-medicaid.example.com",
+      "name": "State Medicaid PA Dept"
+    },
+    {
+      "email": "appeals@state-medicaid.example.com",
+      "name": "State Medicaid Appeals"
+    },
+    {
+      "email": "bv@bluecross-ppo.example.com",
+      "name": "BlueCross PPO BV"
+    },
+    {
+      "email": "bv@noridian-medicare.example.com",
+      "name": "Noridian Medicare BV"
+    },
+    {
+      "email": "bv@aetna-hmo.example.com",
+      "name": "Aetna HMO BV"
+    },
+    {
+      "email": "bv@uhc-ma.example.com",
+      "name": "UnitedHealth MA BV"
+    },
+    {
+      "email": "s.mitchell@medgroup.com",
+      "name": "Dr. Sarah Mitchell"
+    },
+    {
+      "email": "j.patel@riverside-med.com",
+      "name": "Dr. James Patel"
+    },
+    {
+      "email": "l.nakamura@westsidehealth.com",
+      "name": "Dr. Lisa Nakamura"
+    },
+    {
+      "email": "k.obrien@southbayneuro.com",
+      "name": "Dr. Kevin O'Brien"
+    },
+    {
+      "email": "a.foster@smhospital.com",
+      "name": "Dr. Amanda Foster"
+    },
+    {
+      "email": "m.thompson@email.com",
+      "name": "Michael Thompson"
+    },
+    {
+      "email": "e.rivera@email.com",
+      "name": "Elena Rivera"
+    },
+    {
+      "email": "j.park@email.com",
+      "name": "James Park"
+    },
+    {
+      "email": "d.washington@email.com",
+      "name": "Denise Washington"
+    },
+    {
+      "email": "c.okafor@email.com",
+      "name": "Chioma Okafor"
+    }
+  ],
+  "groups": [
+    {
+      "email": "billing-team@careig.com",
+      "name": "Billing Team",
+      "members": [
+        "billing@careig.com",
+        "a.torres@careig.com",
+        "m.webb@careig.com",
+        "k.rodriguez@careig.com"
+      ]
+    }
+  ],
+  "folders": [
+    {
+      "name": "Claims/Submitted"
+    },
+    {
+      "name": "Claims/Pending"
+    },
+    {
+      "name": "PA Correspondence"
+    },
+    {
+      "name": "Patient Statements"
+    },
+    {
+      "name": "Appeals"
+    }
+  ],
+  "emails": [
+    {
+      "email_id": "1",
+      "folder": "Sent",
+      "subject": "[CLAIM SUBMISSION] CareIG NPI: 1234567893 | Thompson | MemberID: BCX-998712 | DOS: 2026-03-15",
+      "from_addr": "billing@careig.com",
+      "to_addr": "claims@bluecross-ppo.example.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-16T09:15:00Z",
+      "message_id": "<claim-1001-sub@careig.com>",
+      "in_reply_to": null,
+      "body_text": "Please find attached the CMS-1500 claim for the following patient:\n\nPatient: Thompson, Michael\nMemberID: BCX-998712\nDOS: 2026-03-15\nDrug: Privigen 10% (J1459)\nPA#: BC-2026-44821\n\nAttached: claim_20260315.pdf\n\nCareIG Specialty Pharmacy\nNPI: 1234567893\nBilling: (800) 555-0199",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "claim_CASE-1001.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjQKMSAwIG9iajw8L1R5cGUvQ2F0YWxvZy9QYWdlcyAyIDAgUj4+ZW5kb2JqCjIgMCBvYmo8PC9UeXBlL1BhZ2VzL0tpZHNbMyAwIFJdL0NvdW50IDE+PmVuZG9iagozIDAgb2JqPDwvVHlwZS9QYWdlL01lZGlhQm94WzAgMCA2MTIgNzkyXS9QYXJlbnQgMiAwIFI+PmVuZG9iagp4cmVmCjAgNAowMDAwMDAwMDAwIDY1NTM1IGYgCjAwMDAwMDAwMDkgMDAwMDAgbiAKMDAwMDAwMDA1OCAwMDAwMCBuIAowMDAwMDAwMTE1IDAwMDAwIG4gCnRyYWlsZXI8PC9TaXplIDQvUm9vdCAxIDAgUj4+CnN0YXJ0eHJlZgoxOTAKJSVFT0Y="
+        }
+      ]
+    },
+    {
+      "email_id": "2",
+      "folder": "INBOX",
+      "subject": "Re: [CLAIM SUBMISSION] CareIG NPI: 1234567893 | Thompson | MemberID: BCX-998712 | DOS: 2026-03-15",
+      "from_addr": "claims@bluecross-ppo.example.com",
+      "to_addr": "billing@careig.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-16T09:16:00Z",
+      "message_id": "<auto-ack-bc-1001@bluecross-ppo.example.com>",
+      "in_reply_to": "<claim-1001-sub@careig.com>",
+      "body_text": "This is an automated acknowledgment.\n\nYour claim submission has been received and assigned reference number SUB-BC-1001-001.\n\nPlease allow 30 business days for processing.\n\nBlueCross PPO Claims Department",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "3",
+      "folder": "Sent",
+      "subject": "[CLAIM SUBMISSION] CareIG NPI: 1234567893 | Rivera | MemberID: 1EG4-TE5-MK72 | DOS: 2026-03-18",
+      "from_addr": "billing@careig.com",
+      "to_addr": "claims@noridian-medicare.example.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-19T10:30:00Z",
+      "message_id": "<claim-1002-sub@careig.com>",
+      "in_reply_to": null,
+      "body_text": "Please find attached the CMS-1500 claim for the following patient:\n\nPatient: Rivera, Elena\nMemberID: 1EG4-TE5-MK72\nDOS: 2026-03-18\nDrug: Gammaplex 5% (J1557)\nPA#: NM-2026-77203\n\nAttached: claim_20260318.pdf\n\nCareIG Specialty Pharmacy\nNPI: 1234567893\nBilling: (800) 555-0199",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "claim_CASE-1002.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjQKMSAwIG9iajw8L1R5cGUvQ2F0YWxvZy9QYWdlcyAyIDAgUj4+ZW5kb2JqCjIgMCBvYmo8PC9UeXBlL1BhZ2VzL0tpZHNbMyAwIFJdL0NvdW50IDE+PmVuZG9iagozIDAgb2JqPDwvVHlwZS9QYWdlL01lZGlhQm94WzAgMCA2MTIgNzkyXS9QYXJlbnQgMiAwIFI+PmVuZG9iagp4cmVmCjAgNAowMDAwMDAwMDAwIDY1NTM1IGYgCjAwMDAwMDAwMDkgMDAwMDAgbiAKMDAwMDAwMDA1OCAwMDAwMCBuIAowMDAwMDAwMTE1IDAwMDAwIG4gCnRyYWlsZXI8PC9TaXplIDQvUm9vdCAxIDAgUj4+CnN0YXJ0eHJlZgoxOTAKJSVFT0Y="
+        }
+      ]
+    },
+    {
+      "email_id": "4",
+      "folder": "INBOX",
+      "subject": "Re: [CLAIM SUBMISSION] CareIG NPI: 1234567893 | Rivera | MemberID: 1EG4-TE5-MK72 | DOS: 2026-03-18",
+      "from_addr": "claims@noridian-medicare.example.com",
+      "to_addr": "billing@careig.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-19T10:31:00Z",
+      "message_id": "<auto-ack-nm-1002@noridian-medicare.example.com>",
+      "in_reply_to": "<claim-1002-sub@careig.com>",
+      "body_text": "Claim received. Reference: SUB-NM-1002-001.\n\nNoridian Healthcare Solutions\nMedicare Claims Processing",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "5",
+      "folder": "Sent",
+      "subject": "[CLAIM SUBMISSION] CareIG NPI: 1234567893 | Park | MemberID: W901-HK-228819 | DOS: 2026-03-20",
+      "from_addr": "billing@careig.com",
+      "to_addr": "claims@aetna-hmo.example.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-21T08:45:00Z",
+      "message_id": "<claim-1003-sub@careig.com>",
+      "in_reply_to": null,
+      "body_text": "Please find attached the CMS-1500 claim for the following patient:\n\nPatient: Park, James\nMemberID: W901-HK-228819\nDOS: 2026-03-20\nDrug: Hizentra 20% (J1559)\nPA#: AH-2026-33150\n\nAttached: claim_20260320.pdf\n\nCareIG Specialty Pharmacy\nNPI: 1234567893\nBilling: (800) 555-0199",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "claim_CASE-1003.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjQKMSAwIG9iajw8L1R5cGUvQ2F0YWxvZy9QYWdlcyAyIDAgUj4+ZW5kb2JqCjIgMCBvYmo8PC9UeXBlL1BhZ2VzL0tpZHNbMyAwIFJdL0NvdW50IDE+PmVuZG9iagozIDAgb2JqPDwvVHlwZS9QYWdlL01lZGlhQm94WzAgMCA2MTIgNzkyXS9QYXJlbnQgMiAwIFI+PmVuZG9iagp4cmVmCjAgNAowMDAwMDAwMDAwIDY1NTM1IGYgCjAwMDAwMDAwMDkgMDAwMDAgbiAKMDAwMDAwMDA1OCAwMDAwMCBuIAowMDAwMDAwMTE1IDAwMDAwIG4gCnRyYWlsZXI8PC9TaXplIDQvUm9vdCAxIDAgUj4+CnN0YXJ0eHJlZgoxOTAKJSVFT0Y="
+        }
+      ]
+    },
+    {
+      "email_id": "6",
+      "folder": "INBOX",
+      "subject": "Re: [CLAIM SUBMISSION] CareIG NPI: 1234567893 | Park | MemberID: W901-HK-228819 | DOS: 2026-03-20",
+      "from_addr": "claims@aetna-hmo.example.com",
+      "to_addr": "billing@careig.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-21T08:46:00Z",
+      "message_id": "<auto-ack-ah-1003@aetna-hmo.example.com>",
+      "in_reply_to": "<claim-1003-sub@careig.com>",
+      "body_text": "Your claim has been received. Reference: SUB-AH-1003-001.\n\nAetna Claims Processing",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "7",
+      "folder": "Sent",
+      "subject": "[CLAIM SUBMISSION] CareIG NPI: 1234567893 | Washington | MemberID: UHC-MA-5578201 | DOS: 2026-03-22",
+      "from_addr": "billing@careig.com",
+      "to_addr": "claims@uhc-ma.example.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-23T11:00:00Z",
+      "message_id": "<claim-1004-sub@careig.com>",
+      "in_reply_to": null,
+      "body_text": "Please find attached the CMS-1500 claim for the following patient:\n\nPatient: Washington, Denise\nMemberID: UHC-MA-5578201\nDOS: 2026-03-22\nDrug: Gamunex-C 10% (J1561)\nPA#: (see attached)\n\nAttached: claim_20260322.pdf\n\nCareIG Specialty Pharmacy\nNPI: 1234567893\nBilling: (800) 555-0199",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "claim_CASE-1004.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjQKMSAwIG9iajw8L1R5cGUvQ2F0YWxvZy9QYWdlcyAyIDAgUj4+ZW5kb2JqCjIgMCBvYmo8PC9UeXBlL1BhZ2VzL0tpZHNbMyAwIFJdL0NvdW50IDE+PmVuZG9iagozIDAgb2JqPDwvVHlwZS9QYWdlL01lZGlhQm94WzAgMCA2MTIgNzkyXS9QYXJlbnQgMiAwIFI+PmVuZG9iagp4cmVmCjAgNAowMDAwMDAwMDAwIDY1NTM1IGYgCjAwMDAwMDAwMDkgMDAwMDAgbiAKMDAwMDAwMDA1OCAwMDAwMCBuIAowMDAwMDAwMTE1IDAwMDAwIG4gCnRyYWlsZXI8PC9TaXplIDQvUm9vdCAxIDAgUj4+CnN0YXJ0eHJlZgoxOTAKJSVFT0Y="
+        }
+      ]
+    },
+    {
+      "email_id": "8",
+      "folder": "INBOX",
+      "subject": "Re: [CLAIM SUBMISSION] CareIG NPI: 1234567893 | Washington | MemberID: UHC-MA-5578201 | DOS: 2026-03-22",
+      "from_addr": "claims@uhc-ma.example.com",
+      "to_addr": "billing@careig.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-23T11:01:00Z",
+      "message_id": "<auto-ack-uh-1004@uhc-ma.example.com>",
+      "in_reply_to": "<claim-1004-sub@careig.com>",
+      "body_text": "Claim received. Reference: SUB-UH-1004-001.\n\nUnitedHealthcare Medicare Advantage\nClaims Department",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "9",
+      "folder": "Sent",
+      "subject": "[CLAIM SUBMISSION] CareIG NPI: 1234567893 | Okafor | MemberID: BCX-441295 | DOS: 2026-03-25",
+      "from_addr": "billing@careig.com",
+      "to_addr": "claims@bluecross-ppo.example.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-26T09:00:00Z",
+      "message_id": "<claim-1005-sub@careig.com>",
+      "in_reply_to": null,
+      "body_text": "Please find attached the CMS-1500 claim for the following patient:\n\nPatient: Okafor, Chioma\nMemberID: BCX-441295\nDOS: 2026-03-25\nDrug: HyQvia 10% (J1575)\nPA#: BC-2026-55938\n\nAttached: claim_20260325.pdf\n\nCareIG Specialty Pharmacy\nNPI: 1234567893\nBilling: (800) 555-0199",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "claim_CASE-1005.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjQKMSAwIG9iajw8L1R5cGUvQ2F0YWxvZy9QYWdlcyAyIDAgUj4+ZW5kb2JqCjIgMCBvYmo8PC9UeXBlL1BhZ2VzL0tpZHNbMyAwIFJdL0NvdW50IDE+PmVuZG9iagozIDAgb2JqPDwvVHlwZS9QYWdlL01lZGlhQm94WzAgMCA2MTIgNzkyXS9QYXJlbnQgMiAwIFI+PmVuZG9iagp4cmVmCjAgNAowMDAwMDAwMDAwIDY1NTM1IGYgCjAwMDAwMDAwMDkgMDAwMDAgbiAKMDAwMDAwMDA1OCAwMDAwMCBuIAowMDAwMDAwMTE1IDAwMDAwIG4gCnRyYWlsZXI8PC9TaXplIDQvUm9vdCAxIDAgUj4+CnN0YXJ0eHJlZgoxOTAKJSVFT0Y="
+        }
+      ]
+    },
+    {
+      "email_id": "10",
+      "folder": "INBOX",
+      "subject": "Re: [CLAIM SUBMISSION] CareIG NPI: 1234567893 | Okafor | MemberID: BCX-441295 | DOS: 2026-03-25",
+      "from_addr": "claims@bluecross-ppo.example.com",
+      "to_addr": "billing@careig.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-26T09:01:00Z",
+      "message_id": "<auto-ack-bc-1005@bluecross-ppo.example.com>",
+      "in_reply_to": "<claim-1005-sub@careig.com>",
+      "body_text": "Claim received. Reference: SUB-BC-1005-001.\n\nBlueCross PPO Claims Department",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "11",
+      "folder": "Sent",
+      "subject": "[VISIT ASSIGNMENT] CASE-1001 | 2026-03-15",
+      "from_addr": "scheduling@careig.com",
+      "to_addr": "j.smith@careig.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-08T09:30:00Z",
+      "message_id": "<visit-assign-1001-march@careig.com>",
+      "in_reply_to": null,
+      "body_text": "Jane Smith,\n\nYou have been assigned the following IVIG home infusion visit:\n\nDate: 2026-03-15 | Time: 09:00 | Duration: approximately 3 hours\nPatient Address: 742 Evergreen Terrace, Beverly Hills, CA 90212\nDrug: Privigen 10% 30g | Lot: LOT-PV-88421 | NDC: 49281-0396-05\nRoute: IV\nInfusion Rate: 30 mL/hr\nPre-Medication Orders: Diphenhydramine 75mg IV\nContraindications: None\nEmergency Contact: (310) 555-0147\n\nPlease confirm receipt by replying to this email.\n\nCareIG Specialty Pharmacy, Clinical Scheduling\nscheduling@careig.com",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "12",
+      "folder": "PA Correspondence",
+      "subject": "PA Approved - Thompson, Michael - BC-2026-44821",
+      "from_addr": "pa@bluecross-ppo.example.com",
+      "to_addr": "pa@careig.com",
+      "cc_addr": "billing@careig.com",
+      "bcc_addr": null,
+      "date": "2026-03-01T14:00:00Z",
+      "message_id": "<pa-approve-bc-1001@bluecross-ppo.example.com>",
+      "in_reply_to": null,
+      "body_text": "Prior Authorization Approved\n\nPA Number: BC-2026-44821\nPatient: Thompson, Michael\nMember ID: BCX-998712\nDrug: Privigen 10%\nApproved Dose: 30g every 4 weeks\nEffective: 2026-03-01\nExpires: 2026-09-15\nDiagnosis: D80.1\n\nBlueCross PPO Prior Authorization Department",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "13",
+      "folder": "PA Correspondence",
+      "subject": "PA Approved - Rivera, Elena - NM-2026-77203",
+      "from_addr": "pa@noridian-medicare.example.com",
+      "to_addr": "pa@careig.com",
+      "cc_addr": "billing@careig.com",
+      "bcc_addr": null,
+      "date": "2026-02-28T11:00:00Z",
+      "message_id": "<pa-approve-nm-1002@noridian-medicare.example.com>",
+      "in_reply_to": null,
+      "body_text": "Prior Authorization Approved\n\nPA Number: NM-2026-77203\nPatient: Rivera, Elena\nMember ID: 1EG4-TE5-MK72\nDrug: Gammaplex 5%\nApproved Dose: 20g every 3 weeks\nEffective: 2026-03-01\nExpires: 2026-12-01\nDiagnosis: D83.9\n\nNoridian Healthcare Solutions\nMedicare Part B Prior Authorization",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "14",
+      "folder": "PA Correspondence",
+      "subject": "PA Approved - Washington, Denise - UH-2026-91004",
+      "from_addr": "pa@uhc-ma.example.com",
+      "to_addr": "pa@careig.com",
+      "cc_addr": "billing@careig.com",
+      "bcc_addr": null,
+      "date": "2025-12-22T10:00:00Z",
+      "message_id": "<pa-approve-uh-1004@uhc-ma.example.com>",
+      "in_reply_to": null,
+      "body_text": "Prior Authorization Approved\n\nPA Number: UH-2026-91004\nPatient: Washington, Denise\nMember ID: UHC-MA-5578201\nDrug: Gamunex-C 10%\nApproved Dose: 35g every 4 weeks\nEffective: 2025-12-22\nExpires: 2026-03-10\nDiagnosis: G61.0\n\nUnitedHealthcare Medicare Advantage\nPrior Authorization Department",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    }
+  ],
+  "next_email_id": 15
+}

@@ -1,0 +1,142 @@
+{
+  "mailbox": {
+    "email": "jasmine.patel@sunshineandsetauto.com",
+    "name": "Jasmine Patel"
+  },
+  "contacts": [
+    {
+      "email": "carlos.mendez@ally.com",
+      "name": "Carlos Mendez (Ally Financial)"
+    },
+    {
+      "email": "dealer.funding@ally.com",
+      "name": "Ally Dealer Funding"
+    },
+    {
+      "email": "sofia.ramirez@sunshineandsetauto.com",
+      "name": "Sofia Ramirez"
+    },
+    {
+      "email": "noah.alvarez@sunshineandsetauto.com",
+      "name": "Noah Alvarez"
+    },
+    {
+      "email": "elena.brooks@sunshineandsetauto.com",
+      "name": "Elena Brooks"
+    },
+    {
+      "email": "marcus.hale@sunshineandsetauto.com",
+      "name": "Marcus Hale"
+    },
+    {
+      "email": "priya.bennett@sunshineandsetauto.com",
+      "name": "Priya Bennett"
+    },
+    {
+      "email": "darius.kim@sunshineandsetauto.com",
+      "name": "Darius Kim"
+    },
+    {
+      "email": "caleb.foster@sunshineandsetauto.com",
+      "name": "Caleb Foster"
+    },
+    {
+      "email": "leah.morgan@sunshineandsetauto.com",
+      "name": "Leah Morgan"
+    },
+    {
+      "email": "renee.lawson@sunshineandsetauto.com",
+      "name": "Renee Lawson"
+    },
+    {
+      "email": "hannah.price@sunshineandsetauto.com",
+      "name": "Hannah Price"
+    }
+  ],
+  "groups": [
+    {
+      "email": "accounting-team@sunshineandsetauto.com",
+      "name": "Accounting Team",
+      "members": [
+        "noah.alvarez@sunshineandsetauto.com",
+        "jasmine.patel@sunshineandsetauto.com",
+        "elena.brooks@sunshineandsetauto.com",
+        "marcus.hale@sunshineandsetauto.com",
+        "priya.bennett@sunshineandsetauto.com"
+      ]
+    }
+  ],
+  "folders": [],
+  "emails": [
+    {
+      "email_id": "email_001",
+      "folder": "INBOX",
+      "subject": "Ally Financial \u2014 Stipulations Cleared \u2014 Deal #4821 / Mitchell / FL-SSA-2841",
+      "from_addr": "carlos.mendez@ally.com",
+      "to_addr": "noah.alvarez@sunshineandsetauto.com",
+      "cc_addr": "jasmine.patel@sunshineandsetauto.com, sofia.ramirez@sunshineandsetauto.com",
+      "bcc_addr": null,
+      "date": "2026-04-14T11:47:00-04:00",
+      "message_id": "<ally-4821-stips-cleared@ally.com>",
+      "in_reply_to": null,
+      "body_text": "Noah Alvarez\nFunding & Contracts Clerk\nSunshine & Set Automotive\n\nRE: Deal #4821 / Customer: Sarah E. Mitchell / Dealer Code: FL-SSA-2841\nAlly Reference Number: ALY-2026-0414-8823\nVIN: 1HGCV1F34PA112847\n\nDear Noah,\n\nThis message confirms that all required stipulations for the above-referenced contract have been received and cleared by Ally Financial as of April 14, 2026 at 11:47 AM ET.\n\nSTIPULATIONS CLEARED (5 of 5):\n\n1. Signed Retail Installment Sale Contract \u2014 RECEIVED & APPROVED\n2. Proof of Income (2 recent pay stubs - Adventist Health) \u2014 RECEIVED & APPROVED\n3. Proof of Residence (Duke Energy utility bill dated 04/05/2026) \u2014 RECEIVED & APPROVED\n4. Insurance Declaration Page (Progressive Policy #0934-74-2281, Ally Financial listed as loss payee) \u2014 RECEIVED & APPROVED\n5. Valid Driver's License (Florida DL M123-456-78-900-0) \u2014 RECEIVED & APPROVED\n\nCONTRACT STATUS: CLEARED FOR FUNDING\n\nContract Amount: $31,665.00\nAPR: 6.99%\nTerm: 72 months\nExpected Wire Date: Per standard Ally processing timeline\n\nFUNDING INSTRUCTIONS:\n\nTo complete the funding process, please submit the complete funding package via Ally SecureLink portal by end of business April 14, 2026. The funding package must include all executed documents, stip verification, and dealer certification.\n\nWire Transfer Details:\nRouting Number: 026009593\nAccount Number: 4801-229-554\nBeneficiary: Sunshine & Set Automotive\n\nPlease ensure all documentation is uploaded to SecureLink by 5:00 PM ET today to meet the expected funding timeline. If you have any questions regarding this contract or the funding process, please contact me directly.\n\nThank you for your business.\n\nBest regards,\n\nCarlos Mendez\nDealer Relations Specialist\nAlly Financial\ncarlos.mendez@ally.com\nDirect: (800) 555-2929 ext. 4418",
+      "body_html": null,
+      "is_read": false,
+      "is_important": true,
+      "attachments": [
+        {
+          "filename": "Ally_StipsClearedConfirmation_4821.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjQKJeLjz9MKMyAwIG9iago8PC9UeXBlL1BhZ2UvUGFyZW50IDIgMCBSL01lZGlhQm94WzAgMCA2MTIgNzkyXS9Db250ZW50cyA0IDAgUj4+CmVuZG9iago0IDAgb2JqCjw8L0xlbmd0aCA1Mj4+CnN0cmVhbQpCVAovRjEgMTIgVGYKNzIgNzIwIFRkCihBbGx5IEZpbmFuY2lhbCAtIFN0aXBzIENsZWFyZWQgLSBEZWFsIDQ4MjEpIFRqCkVUCmVuZHN0cmVhbQplbmRvYmoKMSAwIG9iago8PC9UeXBlL0NhdGFsb2cvUGFnZXMgMiAwIFI+PgplbmRvYmoKMiAwIG9iago8PC9UeXBlL1BhZ2VzL0NvdW50IDEvS2lkc1szIDAgUl0+PgplbmRvYmoKNSAwIG9iago8PC9UeXBlL0ZvbnQvU3VidHlwZS9UeXBlMS9CYXNlRm9udC9IZWx2ZXRpY2E+PgplbmRvYmoKeHJlZgowIDYKMDAwMDAwMDAwMCA2NTUzNSBmDQowMDAwMDAwMjE1IDAwMDAwIG4NCjAwMDAwMDAyNjQgMDAwMDAgbg0KMDAwMDAwMDAxNSAwMDAwMCBuDQowMDAwMDAwMTE1IDAwMDAwIG4NCjAwMDAwMDAzMjEgMDAwMDAgbg0KdHJhaWxlcgo8PC9TaXplIDYvUm9vdCAxIDAgUj4+CnN0YXJ0eHJlZgo0MDEKJSVFT0Y="
+        }
+      ]
+    },
+    {
+      "email_id": "email_002",
+      "folder": "INBOX",
+      "subject": "Desk Recap \u2014 Deal 4821 / Mitchell / Approved Gross $5,640",
+      "from_addr": "sofia.ramirez@sunshineandsetauto.com",
+      "to_addr": "jasmine.patel@sunshineandsetauto.com",
+      "cc_addr": "noah.alvarez@sunshineandsetauto.com",
+      "bcc_addr": null,
+      "date": "2026-04-14T09:23:00-04:00",
+      "message_id": "<desk-recap-4821@sunshineandsetauto.com>",
+      "in_reply_to": null,
+      "body_text": "Jasmine,\n\nDesk recap for Deal 4821 is approved and ready for posting. Details below:\n\n========================================\nDEAL #4821 \u2014 APPROVED DESK RECAP\n========================================\n\nCUSTOMER INFORMATION:\nCustomer: Sarah E. Mitchell\nSale Date: April 14, 2026\nSalesperson: Jake Torres\nF&I Manager: Sofia Ramirez\n\nVEHICLE INFORMATION:\nYear/Make/Model: 2025 Honda Accord EX-L\nColor: Lunar Silver Metallic\nStock Number: N-2547\nVIN: 1HGCV1F34PA112847\n\nFRONT-END BREAKDOWN:\nSelling Price: $34,500.00\nActual Cash Value (ACV): $32,000.00\nPack: $500.00\nBook Value: $32,500.00\nFront Gross: $2,000.00\n\nFINANCING DETAILS:\nLender: Ally Financial\nAlly Reference: ALY-2026-0414-8823\nAmount Financed: $31,665.00\nAPR (Sell Rate): 6.99%\nAPR (Buy Rate): 5.49%\nTerm: 72 months\nMonthly Payment: $539.64\n\nF&I PRODUCTS:\nGAP Coverage: $895.00\nVehicle Service Contract (VSC): $1,695.00\nTotal F&I Products: $2,590.00\n\nBACK-END BREAKDOWN:\nF&I Products: $2,590.00\nLender Reserve: Per RIC assignment\nBack Gross: $3,640.00\n\nTOTAL APPROVED GROSS: $5,640.00\n\n========================================\n\nDeal approved at 9:23 AM on April 14, 2026. Proceed with posting.\n\nLet me know if you need anything else.\n\nSofia Ramirez\nF&I Manager\nSunshine & Set Automotive\nsofia.ramirez@sunshineandsetauto.com",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "DeskRecap_4821_Mitchell.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjQKJcOkw7zDtsOfCjIgMCBvYmoKPDwvTGVuZ3RoIDMgMCBSL0ZpbHRlci9GbGF0ZURlY29kZT4+CnN0cmVhbQp4nDWNOw7CMBBEe07hElTYXn/ipETiBhyAiIbCEggJKCg5PjZQuJrRzJudPT2+Z+85l/Pz8nq/3c7ldDxcTqfz+fV+u13O5+P+cDgcj8fD/nA8HU6X0/Hy+jjdLufL8fV2vl7P5+vxdLmcL8fj5Xw5nY6X8+VyPl/O59Pp9Hy/3K7X6+16vd2u19vtdr1er9fr7Xa7Xq+36/V6u16v1+v1er1er9fr9Xq9Xq/X6/V6vV6v1+v1er1eAFjwIYsKZW5kc3RyZWFtCmVuZG9iagozIDAgb2JqCjEzNAplbmRvYmoKNSAwIG9iago8PC9MZW5ndGggNiAwIFIvRmlsdGVyL0ZsYXRlRGVjb2RlL0xlbmd0aDEgMTU4ND4+CnN0cmVhbQp4nGVPWU/DMBR9z6/wWCQUuU7SJesDEhIwCQmJB0BCiAeUh7Zp2hLapEu7wK9nOSHAw/V9Pud+1+cA5gEsAPwDcAvAFYBrADcAbgHcAbgHsATgAcAjgCcAzwBeALwCeAPwDuADwCeALwDfAP4A/AX4B/AEYAzABIA="
+        }
+      ]
+    },
+    {
+      "email_id": "email_005",
+      "folder": "INBOX",
+      "subject": "April 2026 Month-End Close Calendar",
+      "from_addr": "elena.brooks@sunshineandsetauto.com",
+      "to_addr": "accounting-team@sunshineandsetauto.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-25T16:30:00-04:00",
+      "message_id": "<april-2026-close-calendar@sunshineandsetauto.com>",
+      "in_reply_to": null,
+      "body_text": "Accounting Team,\n\nPlease find attached the April 2026 Month-End Close Calendar. All deadlines are firm and must be met to ensure timely close.\n\n========================================\nAPRIL 2026 MONTH-END CLOSE CALENDAR\n========================================\n\nLAST BUSINESS DAY \u2014 APRIL 30, 2026 (Thursday):\n\u2022 Finalize all deal postings \u2014 Jasmine Patel\n\u2022 Ensure all April deals are posted and reconciled by end of day\n\u2022 No deals may be posted to April after 5:00 PM on April 30\n\nBUSINESS DAY 1 \u2014 MAY 1, 2026 (Friday):\n\u2022 Floorplan reconciliation (all units) \u2014 Darius Kim\n\u2022 CIT aging report and variance analysis \u2014 Noah Alvarez\n\u2022 Verify all floor plan interest calculations\n\nBUSINESS DAY 2 \u2014 MAY 4, 2026 (Monday):\n\u2022 Accounts Payable accruals \u2014 Caleb Foster\n\u2022 Payroll accruals and commission verification \u2014 Leah Morgan\n\u2022 Chargeback tracker update and review \u2014 Jasmine Patel\n\nBUSINESS DAY 3 \u2014 MAY 5, 2026 (Tuesday):\n\u2022 Bank reconciliation preparation \u2014 Renee Lawson (prepare)\n\u2022 Bank reconciliation review \u2014 Marcus Hale (review/approve)\n\u2022 All bank statements must be reconciled by end of day\n\nBUSINESS DAY 4 \u2014 MAY 6, 2026 (Wednesday):\n\u2022 Receivable review and aging analysis \u2014 Renee Lawson\n\u2022 Journal entries due from all clerks \u2014 All Accounting Staff\n\u2022 Submit all adjusting entries to Marcus Hale by 3:00 PM\n\nBUSINESS DAY 5 \u2014 MAY 7, 2026 (Thursday):\n\u2022 Close binder review and sign-off \u2014 Marcus Hale\n\u2022 All supporting documentation must be complete\n\u2022 Controller preliminary review begins\n\nBUSINESS DAY 7 \u2014 MAY 11, 2026 (Monday):\n\u2022 Controller final sign-off \u2014 Elena Brooks\n\u2022 Financial statements finalized\n\u2022 Close package delivered to ownership\n\n========================================\nADDITIONAL DEADLINES\n========================================\n\nCOMMISSION CUTOFF \u2014 APRIL 16, 2026:\n\u2022 All commission sheets due to Leah Morgan by 5:00 PM\n\u2022 Sales managers must submit final April commission calculations\n\u2022 No late submissions will be processed for April payroll\n\nPAYROLL SUPPORT DOCUMENTS \u2014 APRIL 18, 2026:\n\u2022 Commission support documentation due to Hannah Price (Payroll)\n\u2022 Include backup for all bonuses, spiffs, and commission overrides\n\u2022 Leah Morgan to coordinate submission\n\n========================================\nIMPORTANT NOTES\n========================================\n\n1. All team members are responsible for meeting their assigned deadlines\n2. Any anticipated delays must be communicated to me immediately\n3. Supporting documentation must be complete and organized\n4. Questions regarding close procedures should be directed to Marcus Hale\n5. The close timeline is non-negotiable \u2014 plan your workload accordingly\n\nPlease acknowledge receipt of this calendar by replying to this email. If you have any questions or concerns about your assigned tasks, please let me know as soon as possible.\n\nThank you,\n\nElena Brooks\nController\nSunshine & Set Automotive\nelena.brooks@sunshineandsetauto.com\nPhone: (954) 555-0142",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "April2026_CloseCalendar.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjQKJdPr6eEKMSAwIG9iago8PAovVGl0bGUgKEFwcmlsIDIwMjYgTW9udGgtRW5kIENsb3NlIENhbGVuZGFyKQovQ3JlYXRvciAoU3Vuc2hpbmUgJiBTZXQgQXV0b21vdGl2ZSkKL1Byb2R1Y2VyIChFbGVuYSBCcm9va3MpCi9DcmVhdGlvbkRhdGUgKEQ6MjAyNjAzMjUxNjMwMDApCj4+CmVuZG9iagoyIDAgb2JqCjw8Ci9UeXBlIC9DYXRhbG9nCi9QYWdlcyAzIDAgUgo+PgplbmRvYmoKMyAwIG9iago8PAovVHlwZSAvUGFnZXMKL0tpZHMgWzQgMCBSXQovQ291bnQgMQo+PgplbmRvYmoKNCAwIG9iago8PAovVHlwZSAvUGFnZQovUGFyZW50IDMgMCBSCi9NZWRpYUJveCBbMCAwIDYxMiA3OTJdCi9Db250ZW50cyA1IDAgUgovUmVzb3VyY2VzIDw8Ci9Gb250IDw8Ci9GMSA2IDAgUgo+Pgo+Pgo+PgplbmRvYmoKNSAwIG9iago8PAovTGVuZ3RoIDEyNQo+PgpzdHJlYW0KQlQKL0YxIDEyIFRmCjcyIDcyMCBUZAooQVBSSUwgMjAyNiBNT05USC1FTkQgQ0xPU0UgQ0FMRU5EQVIpIFRqCjAgLTIwIFRECihTdW5zaGluZSAmIFNldCBBdXRvbW90aXZlKSBUagpFVAplbmRzdHJlYW0KZW5kb2JqCjYgMCBvYmoKPDwKL1R5cGUgL0ZvbnQKL1N1YnR5cGUgL1R5cGUxCi9CYXNlRm9udCAvSGVsdmV0aWNhLUJvbGQKPj4KZW5kb2JqCnhyZWYKMCA3CjAwMDAwMDAwMDAgNjU1MzUgZg0KMDAwMDAwMDAxNSAwMDAwMCBuDQowMDAwMDAwMTc0IDAwMDAwIG4NCjAwMDAwMDAyMjMgMDAwMDAgbg0KMDAwMDAwMDI4MCAwMDAwMCBuDQowMDAwMDAwNDI1IDAwMDAwIG4NCjAwMDAwMDA2MDAgMDAwMDAgbg0KdHJhaWxlcgo8PAovU2l6ZSA3Ci9Sb290IDIgMCBSCi9JbmZvIDEgMCBSCj4+CnN0YXJ0eHJlZgo2OTUKJSVFT0Y="
+        }
+      ]
+    }
+  ],
+  "next_email_id": 6
+}

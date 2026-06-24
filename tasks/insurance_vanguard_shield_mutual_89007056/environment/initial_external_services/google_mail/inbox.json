@@ -1,0 +1,187 @@
+{
+  "mailbox": {
+    "email": "taylor.morgan@vanguardshield.com",
+    "name": "Taylor Morgan"
+  },
+  "contacts": [
+    {
+      "email": "rachel.foster@vanguardshield.com",
+      "name": "Rachel Foster"
+    },
+    {
+      "email": "sarah.jenkins@vanguardshield.com",
+      "name": "Sarah Jenkins"
+    },
+    {
+      "email": "diana.park@vanguardshield.com",
+      "name": "Diana Park"
+    },
+    {
+      "email": "jun.nakamura@vanguardshield.com",
+      "name": "Jun Nakamura"
+    },
+    {
+      "email": "nathan.briggs@vanguardshield.com",
+      "name": "Nathan Briggs"
+    },
+    {
+      "email": "lisa.tran@vanguardshield.com",
+      "name": "Lisa Tran"
+    },
+    {
+      "email": "hrops@vanguardshield.com",
+      "name": "HR Operations"
+    },
+    {
+      "email": "people@vanguardshield.com",
+      "name": "People Directory"
+    },
+    {
+      "email": "support@vanguardshield.com",
+      "name": "Vanguard Shield Support"
+    },
+    {
+      "email": "ap.exceptions@vanguardshield.com",
+      "name": "AP Exceptions"
+    },
+    {
+      "email": "james.hartley@globalofficesupply.com",
+      "name": "James Hartley"
+    },
+    {
+      "email": "sandra.mitchell@premiumlogistics.com",
+      "name": "Sandra Mitchell"
+    },
+    {
+      "email": "accounts@globalofficesupply.com",
+      "name": "Global Office Supply - Accounts"
+    },
+    {
+      "email": "billing@premiumlogistics.com",
+      "name": "Premium Logistics - Billing"
+    }
+  ],
+  "groups": [
+    {
+      "email": "finance.ops@vanguardshield.com",
+      "name": "Finance Operations",
+      "members": [
+        "taylor.morgan@vanguardshield.com",
+        "rachel.foster@vanguardshield.com"
+      ]
+    }
+  ],
+  "folders": [
+    {
+      "name": "Vendor Inquiries"
+    },
+    {
+      "name": "AP Processing"
+    }
+  ],
+  "emails": [
+    {
+      "email_id": "1",
+      "folder": "INBOX",
+      "subject": "Payment Inquiry - Invoice #7891",
+      "from_addr": "james.hartley@globalofficesupply.com",
+      "to_addr": "taylor.morgan@vanguardshield.com",
+      "cc_addr": "accounts@globalofficesupply.com",
+      "bcc_addr": null,
+      "date": "2026-04-03T10:22:00-04:00",
+      "message_id": "msg-ext-001@globalofficesupply.com",
+      "in_reply_to": null,
+      "body_text": "Dear Taylor,\n\nI hope this message finds you well. I'm writing to follow up on Invoice #7891 in the amount of $12,450.00 dated March 15, 2026. As of today, our records do not show receipt of this payment.\n\nCould you please check the status on your end and confirm whether payment has been issued? If it has been sent, could you provide the trace number or proof of payment so we can follow up with our bank?\n\nThank you for your prompt attention to this matter.\n\nBest regards,\nJames Hartley\nAccounts Receivable Manager\nGlobal Office Supply Inc.\njames.hartley@globalofficesupply.com\n(860) 555-0142",
+      "body_html": null,
+      "is_read": false,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "2",
+      "folder": "INBOX",
+      "subject": "Urgent: Missing Payment - Invoice #7892",
+      "from_addr": "james.hartley@globalofficesupply.com",
+      "to_addr": "taylor.morgan@vanguardshield.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-03T13:15:00-04:00",
+      "message_id": "msg-ext-002@globalofficesupply.com",
+      "in_reply_to": null,
+      "body_text": "Dear Taylor,\n\nI am following up regarding Invoice #7892 for $8,750.00, dated March 18, 2026. This was flagged as an emergency order, and we expected payment within the standard 15-day terms.\n\nIt has now been over two weeks and we have not received the funds. Can you please look into this and let us know the payment status?\n\nThank you,\nJames Hartley\nAccounts Receivable Manager\nGlobal Office Supply Inc.",
+      "body_html": null,
+      "is_read": false,
+      "is_important": true,
+      "attachments": []
+    },
+    {
+      "email_id": "3",
+      "folder": "INBOX",
+      "subject": "Payment Status Check - Invoice #7893",
+      "from_addr": "sandra.mitchell@premiumlogistics.com",
+      "to_addr": "taylor.morgan@vanguardshield.com",
+      "cc_addr": "billing@premiumlogistics.com",
+      "bcc_addr": null,
+      "date": "2026-04-03T14:45:00-04:00",
+      "message_id": "msg-ext-003@premiumlogistics.com",
+      "in_reply_to": null,
+      "body_text": "Hi Taylor,\n\nI wanted to check on the status of Invoice #7893 for $3,200.00 (March freight services). Our standard terms are Net 30, but I wanted to confirm the payment is in process on your side.\n\nNo rush - just doing our monthly reconciliation.\n\nThanks,\nSandra Mitchell\nBilling Coordinator\nPremium Logistics Corp.\nsandra.mitchell@premiumlogistics.com\n(203) 555-0198",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "4",
+      "folder": "INBOX",
+      "subject": "Payment Confirmation Needed - Invoice #7895",
+      "from_addr": "sandra.mitchell@premiumlogistics.com",
+      "to_addr": "taylor.morgan@vanguardshield.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-03T15:30:00-04:00",
+      "message_id": "msg-ext-004@premiumlogistics.com",
+      "in_reply_to": null,
+      "body_text": "Hi Taylor,\n\nOur accounting team is asking for confirmation on Invoice #7895 ($15,800.00 for Q1 warehousing). Your AP department mentioned the payment was issued, but we haven't seen the funds hit our account yet.\n\nIf available, could you send over the payment confirmation or clearing documentation? That would help us sort this out on our end.\n\nThank you,\nSandra Mitchell\nBilling Coordinator\nPremium Logistics Corp.",
+      "body_html": null,
+      "is_read": false,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "5",
+      "folder": "INBOX",
+      "subject": "Weekly AP Processing Report",
+      "from_addr": "rachel.foster@vanguardshield.com",
+      "to_addr": "taylor.morgan@vanguardshield.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-03T08:00:00-04:00",
+      "message_id": "msg-int-005@vanguardshield.com",
+      "in_reply_to": null,
+      "body_text": "Hi Taylor,\n\nAttached is this week's AP processing summary. Please review the outstanding vendor inquiries queue and follow up as needed. Vendor response SLA is 2 business days.\n\nThanks,\nRachel",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "6",
+      "folder": "Sent",
+      "subject": "Re: Weekly AP Processing Report",
+      "from_addr": "taylor.morgan@vanguardshield.com",
+      "to_addr": "rachel.foster@vanguardshield.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-03T09:15:00-04:00",
+      "message_id": "msg-int-006@vanguardshield.com",
+      "in_reply_to": "msg-int-005@vanguardshield.com",
+      "body_text": "Thanks Rachel, will work through the queue today and Monday.\n\n- Taylor",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    }
+  ],
+  "next_email_id": 7
+}

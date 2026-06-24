@@ -1,0 +1,571 @@
+{
+  "products": {
+    "gid://shopify/Product/5001": {
+      "id": "gid://shopify/Product/5001",
+      "title": "Vanguard Shield Branded Notebook Set",
+      "description": "Premium hardcover notebook set with Vanguard Shield logo. Pack of 10. For client gifts and onboarding kits.",
+      "descriptionHtml": "<p>Premium hardcover notebook set with Vanguard Shield logo. Pack of 10. For client gifts and onboarding kits.</p>",
+      "handle": "vanguard-shield-branded-notebook-set",
+      "productType": "Client Gifts",
+      "vendor": "Vanguard Shield Internal",
+      "tags": [
+        "branded",
+        "notebook",
+        "client-gift",
+        "merch"
+      ],
+      "availableForSale": true,
+      "priceRange": {
+        "minVariantPrice": {
+          "amount": "35.00",
+          "currencyCode": "USD"
+        },
+        "maxVariantPrice": {
+          "amount": "35.00",
+          "currencyCode": "USD"
+        }
+      },
+      "options": [
+        {
+          "id": "opt-5001-1",
+          "name": "Pack Size",
+          "values": [
+            "10-Pack"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/5001-10",
+          "title": "10-Pack",
+          "price": {
+            "amount": "35.00",
+            "currencyCode": "USD"
+          },
+          "availableForSale": true,
+          "sku": "VS-NOTE-10PK",
+          "selectedOptions": [
+            {
+              "name": "Pack Size",
+              "value": "10-Pack"
+            }
+          ],
+          "requiresShipping": true,
+          "taxable": false
+        }
+      ],
+      "createdAt": "2025-09-01T12:00:00.000000Z",
+      "updatedAt": "2026-03-15T10:00:00.000000Z",
+      "publishedAt": "2025-09-01T12:00:00.000000Z",
+      "totalInventory": 200
+    },
+    "gid://shopify/Product/5002": {
+      "id": "gid://shopify/Product/5002",
+      "title": "Vanguard Shield Custom Polo Shirt",
+      "description": "Custom embroidered polo shirt with Vanguard Shield branding. Available in S, M, L, XL. For trade shows and events.",
+      "descriptionHtml": "<p>Custom embroidered polo shirt with Vanguard Shield branding. Available in S, M, L, XL. For trade shows and events.</p>",
+      "handle": "vanguard-shield-custom-polo-shirt",
+      "productType": "Marketing Promo",
+      "vendor": "Vanguard Shield Internal",
+      "tags": [
+        "branded",
+        "polo",
+        "trade-show",
+        "promo",
+        "merch"
+      ],
+      "availableForSale": true,
+      "priceRange": {
+        "minVariantPrice": {
+          "amount": "28.00",
+          "currencyCode": "USD"
+        },
+        "maxVariantPrice": {
+          "amount": "28.00",
+          "currencyCode": "USD"
+        }
+      },
+      "options": [
+        {
+          "id": "opt-5002-1",
+          "name": "Size",
+          "values": [
+            "S",
+            "M",
+            "L",
+            "XL"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/5002-s",
+          "title": "S",
+          "price": {
+            "amount": "28.00",
+            "currencyCode": "USD"
+          },
+          "availableForSale": true,
+          "sku": "VS-POLO-S",
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "S"
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/5002-m",
+          "title": "M",
+          "price": {
+            "amount": "28.00",
+            "currencyCode": "USD"
+          },
+          "availableForSale": true,
+          "sku": "VS-POLO-M",
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "M"
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/5002-l",
+          "title": "L",
+          "price": {
+            "amount": "28.00",
+            "currencyCode": "USD"
+          },
+          "availableForSale": true,
+          "sku": "VS-POLO-L",
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "L"
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/5002-xl",
+          "title": "XL",
+          "price": {
+            "amount": "28.00",
+            "currencyCode": "USD"
+          },
+          "availableForSale": true,
+          "sku": "VS-POLO-XL",
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "XL"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-06-15T12:00:00.000000Z",
+      "updatedAt": "2026-02-20T10:00:00.000000Z",
+      "publishedAt": "2025-06-15T12:00:00.000000Z",
+      "totalInventory": 150
+    },
+    "gid://shopify/Product/5003": {
+      "id": "gid://shopify/Product/5003",
+      "title": "Vanguard Shield Tote Bag",
+      "description": "Canvas tote bag with Vanguard Shield logo. Great for conferences and client events.",
+      "descriptionHtml": "<p>Canvas tote bag with Vanguard Shield logo. Great for conferences and client events.</p>",
+      "handle": "vanguard-shield-tote-bag",
+      "productType": "Client Gifts",
+      "vendor": "Vanguard Shield Internal",
+      "tags": [
+        "branded",
+        "tote",
+        "conference",
+        "merch"
+      ],
+      "availableForSale": true,
+      "priceRange": {
+        "minVariantPrice": {
+          "amount": "15.00",
+          "currencyCode": "USD"
+        },
+        "maxVariantPrice": {
+          "amount": "15.00",
+          "currencyCode": "USD"
+        }
+      },
+      "options": [
+        {
+          "id": "opt-5003-1",
+          "name": "Color",
+          "values": [
+            "Navy",
+            "White"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/5003-navy",
+          "title": "Navy",
+          "price": {
+            "amount": "15.00",
+            "currencyCode": "USD"
+          },
+          "availableForSale": true,
+          "sku": "VS-TOTE-NVY",
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Navy"
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/5003-white",
+          "title": "White",
+          "price": {
+            "amount": "15.00",
+            "currencyCode": "USD"
+          },
+          "availableForSale": true,
+          "sku": "VS-TOTE-WHT",
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "White"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-08-01T12:00:00.000000Z",
+      "updatedAt": "2026-01-10T10:00:00.000000Z",
+      "publishedAt": "2025-08-01T12:00:00.000000Z",
+      "totalInventory": 300
+    }
+  },
+  "orders": {
+    "gid://shopify/Order/c2001": {
+      "id": "gid://shopify/Order/c2001",
+      "orderNumber": "#VS-2001",
+      "statusUrl": "https://internal-store.vanguardshield.com/orders/c2001",
+      "financialStatus": "PAID",
+      "fulfillmentStatus": "FULFILLED",
+      "createdAt": "2026-04-03T11:30:00.000000Z",
+      "updatedAt": "2026-04-03T11:35:00.000000Z",
+      "lines": [
+        {
+          "id": "gid://shopify/OrderLine/3001",
+          "quantity": 8,
+          "merchandise": {
+            "id": "gid://shopify/ProductVariant/5001-10",
+            "title": "10-Pack",
+            "product": {
+              "id": "gid://shopify/Product/5001",
+              "title": "Vanguard Shield Branded Notebook Set",
+              "handle": "vanguard-shield-branded-notebook-set"
+            },
+            "image": null,
+            "selectedOptions": [
+              {
+                "name": "Pack Size",
+                "value": "10-Pack"
+              }
+            ],
+            "price": {
+              "amount": "35.00",
+              "currencyCode": "USD"
+            }
+          },
+          "cost": {
+            "amountPerQuantity": {
+              "amount": "35.00",
+              "currencyCode": "USD"
+            },
+            "compareAtAmountPerQuantity": null,
+            "subtotalAmount": {
+              "amount": "350.00",
+              "currencyCode": "USD"
+            },
+            "totalAmount": {
+              "amount": "350.00",
+              "currencyCode": "USD"
+            }
+          },
+          "attributes": [],
+          "discountAllocations": []
+        }
+      ],
+      "cost": {
+        "subtotalAmount": {
+          "amount": "350.00",
+          "currencyCode": "USD"
+        },
+        "subtotalAmountEstimated": false,
+        "totalAmount": {
+          "amount": "350.00",
+          "currencyCode": "USD"
+        },
+        "totalAmountEstimated": false,
+        "totalTaxAmount": null,
+        "totalTaxAmountEstimated": false,
+        "checkoutChargeAmount": {
+          "amount": "350.00",
+          "currencyCode": "USD"
+        }
+      },
+      "buyerIdentity": {
+        "email": "priya.sharma@vanguardshield.com"
+      },
+      "attributes": [],
+      "discountCodes": [],
+      "discountAllocations": [],
+      "appliedGiftCards": [],
+      "deliveryGroups": [],
+      "note": null,
+      "totalQuantity": 8,
+      "name": "#VS-2001",
+      "lineItems": [
+        {
+          "id": "gid://shopify/OrderLine/3001",
+          "title": "Vanguard Shield Branded Notebook Set",
+          "quantity": 8,
+          "price": {
+            "amount": "35.00",
+            "currencyCode": "USD"
+          },
+          "totalPrice": {
+            "amount": "350.00",
+            "currencyCode": "USD"
+          },
+          "variantId": "gid://shopify/ProductVariant/5001-10",
+          "productId": "gid://shopify/Product/5001"
+        }
+      ],
+      "subtotalPrice": {
+        "amount": "350.00",
+        "currencyCode": "USD"
+      },
+      "totalPrice": {
+        "amount": "350.00",
+        "currencyCode": "USD"
+      }
+    },
+    "gid://shopify/Order/c2002": {
+      "id": "gid://shopify/Order/c2002",
+      "orderNumber": "#VS-2002",
+      "statusUrl": "https://internal-store.vanguardshield.com/orders/c2002",
+      "financialStatus": "PAID",
+      "fulfillmentStatus": "FULFILLED",
+      "createdAt": "2026-03-20T14:00:00.000000Z",
+      "updatedAt": "2026-03-20T14:05:00.000000Z",
+      "lines": [
+        {
+          "id": "gid://shopify/OrderLine/3002",
+          "quantity": 25,
+          "merchandise": {
+            "id": "gid://shopify/ProductVariant/5003-navy",
+            "title": "Navy",
+            "product": {
+              "id": "gid://shopify/Product/5003",
+              "title": "Vanguard Shield Tote Bag",
+              "handle": "vanguard-shield-tote-bag"
+            },
+            "image": null,
+            "selectedOptions": [
+              {
+                "name": "Color",
+                "value": "Navy"
+              }
+            ],
+            "price": {
+              "amount": "15.00",
+              "currencyCode": "USD"
+            }
+          },
+          "cost": {
+            "amountPerQuantity": {
+              "amount": "15.00",
+              "currencyCode": "USD"
+            },
+            "compareAtAmountPerQuantity": null,
+            "subtotalAmount": {
+              "amount": "375.00",
+              "currencyCode": "USD"
+            },
+            "totalAmount": {
+              "amount": "375.00",
+              "currencyCode": "USD"
+            }
+          },
+          "attributes": [],
+          "discountAllocations": []
+        }
+      ],
+      "cost": {
+        "subtotalAmount": {
+          "amount": "375.00",
+          "currencyCode": "USD"
+        },
+        "subtotalAmountEstimated": false,
+        "totalAmount": {
+          "amount": "375.00",
+          "currencyCode": "USD"
+        },
+        "totalAmountEstimated": false,
+        "totalTaxAmount": null,
+        "totalTaxAmountEstimated": false,
+        "checkoutChargeAmount": {
+          "amount": "375.00",
+          "currencyCode": "USD"
+        }
+      },
+      "buyerIdentity": {
+        "email": "marcus.chen@vanguardshield.com"
+      },
+      "attributes": [],
+      "discountCodes": [],
+      "discountAllocations": [],
+      "appliedGiftCards": [],
+      "deliveryGroups": [],
+      "note": null,
+      "totalQuantity": 25,
+      "name": "#VS-2002",
+      "lineItems": [
+        {
+          "id": "gid://shopify/OrderLine/3002",
+          "title": "Vanguard Shield Tote Bag",
+          "quantity": 25,
+          "price": {
+            "amount": "15.00",
+            "currencyCode": "USD"
+          },
+          "totalPrice": {
+            "amount": "375.00",
+            "currencyCode": "USD"
+          },
+          "variantId": "gid://shopify/ProductVariant/5003-navy",
+          "productId": "gid://shopify/Product/5003"
+        }
+      ],
+      "subtotalPrice": {
+        "amount": "375.00",
+        "currencyCode": "USD"
+      },
+      "totalPrice": {
+        "amount": "375.00",
+        "currencyCode": "USD"
+      }
+    },
+    "gid://shopify/Order/c2003": {
+      "id": "gid://shopify/Order/c2003",
+      "orderNumber": "#VS-2003",
+      "statusUrl": "https://internal-store.vanguardshield.com/orders/c2003",
+      "financialStatus": "PAID",
+      "fulfillmentStatus": "FULFILLED",
+      "createdAt": "2026-03-10T09:00:00.000000Z",
+      "updatedAt": "2026-03-10T09:05:00.000000Z",
+      "lines": [
+        {
+          "id": "gid://shopify/OrderLine/3003",
+          "quantity": 5,
+          "merchandise": {
+            "id": "gid://shopify/ProductVariant/5002-l",
+            "title": "L",
+            "product": {
+              "id": "gid://shopify/Product/5002",
+              "title": "Vanguard Shield Custom Polo Shirt",
+              "handle": "vanguard-shield-custom-polo-shirt"
+            },
+            "image": null,
+            "selectedOptions": [
+              {
+                "name": "Size",
+                "value": "L"
+              }
+            ],
+            "price": {
+              "amount": "28.00",
+              "currencyCode": "USD"
+            }
+          },
+          "cost": {
+            "amountPerQuantity": {
+              "amount": "28.00",
+              "currencyCode": "USD"
+            },
+            "compareAtAmountPerQuantity": null,
+            "subtotalAmount": {
+              "amount": "140.00",
+              "currencyCode": "USD"
+            },
+            "totalAmount": {
+              "amount": "140.00",
+              "currencyCode": "USD"
+            }
+          },
+          "attributes": [],
+          "discountAllocations": []
+        }
+      ],
+      "cost": {
+        "subtotalAmount": {
+          "amount": "140.00",
+          "currencyCode": "USD"
+        },
+        "subtotalAmountEstimated": false,
+        "totalAmount": {
+          "amount": "140.00",
+          "currencyCode": "USD"
+        },
+        "totalAmountEstimated": false,
+        "totalTaxAmount": null,
+        "totalTaxAmountEstimated": false,
+        "checkoutChargeAmount": {
+          "amount": "140.00",
+          "currencyCode": "USD"
+        }
+      },
+      "buyerIdentity": {
+        "email": "aisha.robinson@vanguardshield.com"
+      },
+      "attributes": [],
+      "discountCodes": [],
+      "discountAllocations": [],
+      "appliedGiftCards": [],
+      "deliveryGroups": [],
+      "note": null,
+      "totalQuantity": 5,
+      "name": "#VS-2003",
+      "lineItems": [
+        {
+          "id": "gid://shopify/OrderLine/3003",
+          "title": "Vanguard Shield Custom Polo Shirt",
+          "quantity": 5,
+          "price": {
+            "amount": "28.00",
+            "currencyCode": "USD"
+          },
+          "totalPrice": {
+            "amount": "140.00",
+            "currencyCode": "USD"
+          },
+          "variantId": "gid://shopify/ProductVariant/5002-l",
+          "productId": "gid://shopify/Product/5002"
+        }
+      ],
+      "subtotalPrice": {
+        "amount": "140.00",
+        "currencyCode": "USD"
+      },
+      "totalPrice": {
+        "amount": "140.00",
+        "currencyCode": "USD"
+      }
+    }
+  },
+  "policies": [],
+  "counters": {
+    "order_id": 2003,
+    "line_id": 3003
+  }
+}

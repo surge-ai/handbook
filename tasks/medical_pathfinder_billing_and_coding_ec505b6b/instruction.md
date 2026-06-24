@@ -1,0 +1,1 @@
+This is Natalie Simmons. I've been working on several items in the RA Queue today, and I'd like to wrap up as many of them as possible before I leave. Wherever possible (and as much as possible), move 'In Progress' items on the RA-Queue towards completion, following the rules and procedures in PBC_SOP.pdf.

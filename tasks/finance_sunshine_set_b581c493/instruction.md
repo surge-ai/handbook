@@ -1,0 +1,1 @@
+This is Jasmine Patel. Can you go through my email and handle everything that needs attention per the SOP? Assume my exact role. Make sure anything that needs to go somewhere gets sent. Make sure to sign off any emails or slack messages as me when necessary.

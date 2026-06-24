@@ -1,0 +1,131 @@
+{
+  "users": {
+    "U001": {
+      "id": "U001",
+      "team_id": "T001",
+      "name": "assistant",
+      "deleted": false,
+      "real_name": "Assistant",
+      "profile": {
+        "real_name": "Assistant",
+        "display_name": "assistant",
+        "email": "assistant@company.com",
+        "title": "Assistant"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U002": {
+      "id": "U002",
+      "team_id": "T001",
+      "name": "legal",
+      "deleted": false,
+      "real_name": "Legal",
+      "profile": {
+        "real_name": "Legal",
+        "display_name": "legal",
+        "email": "legal@company.com",
+        "title": "Legal"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U003": {
+      "id": "U003",
+      "team_id": "T001",
+      "name": "patientrepresentative",
+      "deleted": false,
+      "real_name": "Patient Representative",
+      "profile": {
+        "real_name": "Patient Representative",
+        "display_name": "patientrepresentative",
+        "email": "patientrepresentative@company.com",
+        "title": "Patient Representative"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    }
+  },
+  "channels": {
+    "C001": {
+      "id": "C001",
+      "name": "intake-team",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1609459200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "intake-team",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1609459200,
+      "creator": "U001",
+      "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic": {
+        "value": "Intake team coordination",
+        "creator": "U001",
+        "last_set": 1609459200
+      },
+      "purpose": {
+        "value": "Channel for intake team discussions",
+        "creator": "U001",
+        "last_set": 1609459200
+      }
+    },
+    "C002": {
+      "id": "C002",
+      "name": "compliance",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1609459200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "compliance",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1609459200,
+      "creator": "U002",
+      "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic": {
+        "value": "Compliance matters",
+        "creator": "U002",
+        "last_set": 1609459200
+      },
+      "purpose": {
+        "value": "Channel for compliance discussions",
+        "creator": "U002",
+        "last_set": 1609459200
+      }
+    }
+  },
+  "messages": {
+    "C001": [],
+    "C002": []
+  },
+  "counters": {
+    "messageId": 1000000
+  }
+}

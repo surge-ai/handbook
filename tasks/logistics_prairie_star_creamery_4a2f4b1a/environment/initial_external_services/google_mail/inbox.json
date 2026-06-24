@@ -1,0 +1,33 @@
+{
+  "mailbox": {
+    "email": "michael.andrews@prairiestar.com",
+    "name": "Michael Andrews"
+  },
+  "contacts": [
+    {"email": "daniel.reyes@prairiestar.com", "name": "Daniel Reyes"},
+    {"email": "emily.carter@prairiestar.com", "name": "Emily Carter"},
+    {"email": "marcus.liu@prairiestar.com", "name": "Marcus Liu"},
+    {"email": "hannah.brooks@prairiestar.com", "name": "Hannah Brooks"},
+    {"email": "jacob.patel@prairiestar.com", "name": "Jacob Patel"},
+    {"email": "carlos.mendoza@prairiestar.com", "name": "Carlos Mendoza"},
+    {"email": "alicia.nguyen@prairiestar.com", "name": "Alicia Nguyen"},
+    {"email": "sarah.kim@prairiestar.com", "name": "Sarah Kim"},
+    {"email": "kevin.white@prairiestar.com", "name": "Kevin White"},
+    {"email": "brandon.keller@prairiestar.com", "name": "Brandon Keller"},
+    {"email": "luis.ramirez@prairiestar.com", "name": "Luis Ramirez"},
+    {"email": "renee.dubois@prairiestar.com", "name": "Renee Dubois"},
+    {"email": "wyatt.green@prairiestar.com", "name": "Wyatt Green"},
+    {"email": "olivia.bennett@prairiestar.com", "name": "Olivia Bennett"},
+    {"email": "dylan.harper@prairiestar.com", "name": "Dylan Harper"},
+    {"email": "mtorres@gulfcoastpkg.com", "name": "Maria Torres"},
+    {"email": "dchen@southernwrap.com", "name": "David Chen"},
+    {"email": "padams@heartlandbakery.com", "name": "Peggy Adams"},
+    {"email": "fgutierrez@lonestartoppings.com", "name": "Frank Gutierrez"},
+    {"email": "jsimmons@cleanproindustrial.com", "name": "Janet Simmons"},
+    {"email": "treddick@arcticexpress.com", "name": "Tom Reddick"},
+    {"email": "bkowalski@texpal.com", "name": "Brenda Kowalski"}
+  ],
+  "folders": [],
+  "emails": [],
+  "next_email_id": 1
+}

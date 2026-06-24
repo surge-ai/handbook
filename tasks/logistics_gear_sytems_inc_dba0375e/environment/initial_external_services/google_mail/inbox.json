@@ -1,0 +1,98 @@
+{
+  "mailbox": {
+    "email": "receiving.meridian@gearsystems.com",
+    "name": "Inbound Materials Coordinator — Meridian"
+  },
+  "contacts": [
+    {
+      "email": "darnell.hooks@gearsystems.com",
+      "name": "Darnell Hooks"
+    },
+    {
+      "email": "elizabeth.velasquez@gearsystems.com",
+      "name": "Elizabeth Velasquez"
+    },
+    {
+      "email": "walter.finch@gearsystems.com",
+      "name": "Walter Finch"
+    },
+    {
+      "email": "theo.brandt@gearsystems.com",
+      "name": "Theo Brandt"
+    },
+    {
+      "email": "joonho.park@gearsystems.com",
+      "name": "Joon-ho Park"
+    },
+    {
+      "email": "maribel.ortiz@gearsystems.com",
+      "name": "Maribel Ortiz"
+    },
+    {
+      "email": "aditi.krishnamurthy@gearsystems.com",
+      "name": "Aditi Krishnamurthy"
+    },
+    {
+      "email": "reggie.lemoine@gearsystems.com",
+      "name": "Reggie Lemoine"
+    },
+    {
+      "email": "chris.wojciechowski@gearsystems.com",
+      "name": "Chris Wojciechowski"
+    },
+    {
+      "email": "yuki.tanaka@gearsystems.com",
+      "name": "Yuki Tanaka"
+    },
+    {
+      "email": "curtis.yablonski@gearsystems.com",
+      "name": "Curtis Yablonski"
+    },
+    {
+      "email": "s.muth@vantagelube.com",
+      "name": "Sandra Muth"
+    },
+    {
+      "email": "b.kowalski@vantagelube.com",
+      "name": "Brian Kowalski"
+    }
+  ],
+  "folders": [],
+  "emails": [
+    {
+      "email_id": "1",
+      "folder": "INBOX",
+      "subject": "BOL scan — MER-PO-204871 — Vantage Lubricants — APPT-20261124-003",
+      "from_addr": "curtis.yablonski@gearsystems.com",
+      "to_addr": "receiving.meridian@gearsystems.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-11-24T13:30:00-06:00",
+      "message_id": "<cyablonski-20261124-204871-bol@gearsystems.com>",
+      "in_reply_to": null,
+      "body_text": "BOL for Vantage Lubricants, Dock 2, APPT-20261124-003.\n\nBILL OF LADING\n\nBOL Number: XPO-2026-884417\nDate: 11/24/2026\nCarrier: XPO Logistics\n\nShipper:\nVantage Lubricants Inc.\n4200 Industrial Parkway\nIndianapolis, IN 46254\n\nConsignee:\nGear Systems Inc. — Meridian Plant\nReceiving Dock 2\nMeridian, MS\n\nPO Number: MER-PO-204871\n\nLine Items:\n  1. Gear oil, ISO VG 220, 20L drum (FL-08814-A1) — 24 drums\n\nTotal Weight: 1,056 lb\nFreight Terms: Prepaid\nHazmat: None\n\nCarrier signature obtained. No exceptions noted on BOL.",
+      "body_html": null,
+      "is_read": false,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "2",
+      "folder": "INBOX",
+      "subject": "Packing slip scan — MER-PO-204871 — Vantage Lubricants — APPT-20261124-003",
+      "from_addr": "curtis.yablonski@gearsystems.com",
+      "to_addr": "receiving.meridian@gearsystems.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-11-24T13:30:00-06:00",
+      "message_id": "<cyablonski-20261124-204871-packingslip@gearsystems.com>",
+      "in_reply_to": null,
+      "body_text": "Packing slip for Vantage Lubricants, Dock 2, APPT-20261124-003.\n\nPACKING SLIP\n\nVantage Lubricants Inc.\n4200 Industrial Parkway\nIndianapolis, IN 46254\n\nShip To:\nGear Systems Inc. — Meridian Plant\nMeridian, MS\n\nPO Number: MER-PO-204871\nPacking Slip Number: VLI-PS-61042\nDate: 11/21/2026\n\nLine Items:\n  Line 001 — SKU: FL-08814-A1\n             Description: Gear oil, ISO VG 220, 20L drum\n             Qty Ordered: 24\n             Qty Shipped: 24\n\nTotal Packages: 24 drums on 2 pallets\nTotal Weight: 1,056 lb\nHazmat: None",
+      "body_html": null,
+      "is_read": false,
+      "is_important": false,
+      "attachments": []
+    }
+  ],
+  "next_email_id": 3
+}

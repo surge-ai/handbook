@@ -1,0 +1,714 @@
+{
+  "mailbox": {
+    "email": "hr@crestwood.edu",
+    "name": "Crestwood University HR"
+  },
+  "contacts": [
+    {
+      "email": "n.ashford@crestwood.edu",
+      "name": "Nicole Ashford"
+    },
+    {
+      "email": "p.huang@crestwood.edu",
+      "name": "Patricia Huang"
+    },
+    {
+      "email": "d.okonkwo@crestwood.edu",
+      "name": "Derek Okonkwo"
+    },
+    {
+      "email": "m.voss@crestwood.edu",
+      "name": "Marta Voss"
+    },
+    {
+      "email": "c.briggs@crestwood.edu",
+      "name": "Calvin Briggs"
+    },
+    {
+      "email": "j.park@crestwood.edu",
+      "name": "Jenna Park"
+    },
+    {
+      "email": "j.whitfield@crestwood.edu",
+      "name": "Dr. James Whitfield"
+    },
+    {
+      "email": "hr-escalations@crestwood.edu",
+      "name": "HR Escalations"
+    },
+    {
+      "email": "m.torres@crestwood.edu",
+      "name": "Maria Torres"
+    },
+    {
+      "email": "d.kim@crestwood.edu",
+      "name": "David Kim"
+    },
+    {
+      "email": "j.okafor@crestwood.edu",
+      "name": "James Okafor"
+    },
+    {
+      "email": "r.patel@crestwood.edu",
+      "name": "Rachel Patel"
+    },
+    {
+      "email": "k.walsh@crestwood.edu",
+      "name": "Kevin Walsh"
+    },
+    {
+      "email": "s.bloom@crestwood.edu",
+      "name": "Sandra Bloom"
+    },
+    {
+      "email": "t.hayes@crestwood.edu",
+      "name": "Tom Hayes"
+    },
+    {
+      "email": "l.nguyen@crestwood.edu",
+      "name": "Lisa Nguyen"
+    },
+    {
+      "email": "r.chen@crestwood.edu",
+      "name": "Robert Chen"
+    },
+    {
+      "email": "a.foster@crestwood.edu",
+      "name": "Amy Foster"
+    },
+    {
+      "email": "m.p.torres@crestwood.edu",
+      "name": "Michael Torres"
+    },
+    {
+      "email": "v.osei@crestwood.edu",
+      "name": "Victor Osei"
+    },
+    {
+      "email": "c.navarro@crestwood.edu",
+      "name": "Chris Navarro"
+    },
+    {
+      "email": "brandon.ellis.personal@gmail.com",
+      "name": "Brandon Ellis"
+    },
+    {
+      "email": "j.edwards@crestwood.edu",
+      "name": "Jordan Edwards"
+    },
+    {
+      "email": "h.clark@crestwood.edu",
+      "name": "Howard Clark"
+    },
+    {
+      "email": "c.sanders@crestwood.edu",
+      "name": "Claudia Sanders"
+    },
+    {
+      "email": "s.russell@crestwood.edu",
+      "name": "Scott Russell"
+    },
+    {
+      "email": "a.meyer@crestwood.edu",
+      "name": "Antonio Meyer"
+    },
+    {
+      "email": "p.king@crestwood.edu",
+      "name": "Patricia King"
+    },
+    {
+      "email": "d.reyes@crestwood.edu",
+      "name": "Diane Reyes"
+    },
+    {
+      "email": "all-staff@crestwood.edu",
+      "name": "All Staff"
+    }
+  ],
+  "folders": [
+    {
+      "name": "Onboarding"
+    },
+    {
+      "name": "Offboarding"
+    },
+    {
+      "name": "Leave"
+    },
+    {
+      "name": "Performance"
+    },
+    {
+      "name": "Recruiting"
+    },
+    {
+      "name": "General"
+    }
+  ],
+  "emails": [
+    {
+      "email_id": "1",
+      "folder": "INBOX",
+      "subject": "FMLA Leave Request",
+      "from_addr": "m.torres@crestwood.edu",
+      "to_addr": "hr@crestwood.edu",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-12T08:12:00-06:00",
+      "message_id": "<msg001@crestwood.edu>",
+      "in_reply_to": null,
+      "body_text": "Hi,\n\nI need to request FMLA leave from June 29th to August 7th for an upcoming medical procedure and recovery.\n\nPlease let me know what else you need.\n\nMaria Torres\nFinance Department, Main Campus",
+      "body_html": null,
+      "is_read": false,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "medical_certification_torres.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjAKMSAwIG9iajw8L1BhZ2VzIDIgMCBSPj5lbmRvYmogMiAwIG9iajw8L0tpZHNbMyAwIFJdL0NvdW50IDE+PmVuZG9iaiAzIDAgb2JqPDwvTWVkaWFCb3hbMCAwIDYxMiA3OTJdPj5lbmRvYmoKdHJhaWxlcjw8L1Jvb3QgMSAwIFI+Pg=="
+        }
+      ]
+    },
+    {
+      "email_id": "2",
+      "folder": "INBOX",
+      "subject": "Re: Access Revocation Request \u2014 Kim, E-1002",
+      "from_addr": "j.park@crestwood.edu",
+      "to_addr": "hr@crestwood.edu",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-12T08:47:00-06:00",
+      "message_id": "<msg002@crestwood.edu>",
+      "in_reply_to": "<msg005@crestwood.edu>",
+      "body_text": "Hi,\n\nJust confirming that all system access for David Kim (E-1002) has been revoked as of close of business on 04/06/2026. This includes email, VPN, building access, and all university systems.\n\nBest,\nJenna Park\nIT Access Coordinator",
+      "body_html": null,
+      "is_read": false,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "3",
+      "folder": "INBOX",
+      "subject": "Resignation Notice",
+      "from_addr": "j.okafor@crestwood.edu",
+      "to_addr": "hr@crestwood.edu",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-12T09:02:00-06:00",
+      "message_id": "<msg003@crestwood.edu>",
+      "in_reply_to": null,
+      "body_text": "Hi,\n\nI am writing to formally notify you of my resignation from my position as Marketing Coordinator in the Marketing department at the West Campus. My last day of work will be May 6, 2026.\n\nIt has been a wonderful experience working at Crestwood University and I am grateful for the opportunities I have had here.\n\nThank you,\nJames Okafor\nMarketing Department, West Campus",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "4",
+      "folder": "Sent",
+      "subject": "New Hire Welcome \u2014 Ellis, E-1012",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "brandon.ellis.personal@gmail.com",
+      "cc_addr": "t.hayes@crestwood.edu",
+      "bcc_addr": null,
+      "date": "2026-04-02T09:02:00-06:00",
+      "message_id": "<msg004@crestwood.edu>",
+      "in_reply_to": null,
+      "body_text": "Hi Brandon,\n\nWelcome to Crestwood University! We are excited to have you join us as an Admissions Counselor in the Admissions department at the Downtown Campus.\n\nYour first day is 04/20/2026. Your supervisor, Tom Hayes, will conduct your orientation session beginning at 9:00am MST. Please bring the following:\n\n\u2022 One document from List A (e.g., U.S. Passport), OR one document from List B (e.g., Driver\u2019s License) AND one document from List C (e.g., Social Security Card)\n\nThese documents are required to complete your I-9 form on your first day.\n\nYou will also receive a benefits enrollment packet during orientation. You will have 30 days from your start date to enroll in or waive benefits.\n\nIf you have any questions before your start date, please don\u2019t hesitate to reach out.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "5",
+      "folder": "Sent",
+      "subject": "Access Revocation Request \u2014 Kim, E-1002",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "j.park@crestwood.edu",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-20T09:30:00-06:00",
+      "message_id": "<msg005@crestwood.edu>",
+      "in_reply_to": null,
+      "body_text": "Hi Jenna,\n\nPlease revoke all system access for the following employee:\n\nName: David Kim\nEmployee ID: E-1002\nLast Day of Work: 04/06/2026\nTiming: End of business on last day\n\nThis includes email, VPN, building access, and all university systems. Please confirm when complete.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "8",
+      "folder": "Sent",
+      "subject": "IT Access Provisioning Request \u2014 Ellis, E-1012",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "j.park@crestwood.edu",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-02T09:03:00-06:00",
+      "message_id": "<msg008@crestwood.edu>",
+      "in_reply_to": null,
+      "body_text": "Hi Jenna,\n\nPlease provision the following IT access for a new employee:\n\nName: Brandon Ellis\nEmployee ID: E-1012\nPosition: Admissions Counselor\nDepartment: Admissions\nCampus: Downtown\nStart Date: 04/20/2026\nSupervisor: Tom Hayes\n\nPlease have access ready by the employee\u2019s first day. Confirm when complete.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "10",
+      "folder": "Sent",
+      "subject": "Orientation Coordinator Request \u2014 Ellis, E-1012",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "t.hayes@crestwood.edu",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-02T09:04:00-06:00",
+      "message_id": "<msg010@crestwood.edu>",
+      "in_reply_to": null,
+      "body_text": "Hi Tom,\n\nBrandon Ellis is scheduled to begin as Admissions Counselor on 04/20/2026. As the hiring manager, please conduct the in-person orientation on their first day. Orientation should include:\n\n\u2022 Campus tour and introductions\n\u2022 Review of department procedures and expectations\n\u2022 Collection of I-9 Section 1 (completed by employee) and verification of original identity/work authorization documents\n\u2022 Distribution of benefits enrollment packet\n\nPlease have the employee complete the I-9 Section 1, then examine their original documents and complete Section 2. Email the scanned signed form to hr@crestwood.edu.\n\nAttached: i9_form.pdf, benefits_enrollment_packet.pdf\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "11",
+      "folder": "Onboarding",
+      "subject": "New Hire Confirmation \u2014 Antonio Meyer",
+      "from_addr": "d.okonkwo@crestwood.edu",
+      "to_addr": "hr@crestwood.edu",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2019-05-15T10:30:00-06:00",
+      "message_id": "<msg011@crestwood.edu>",
+      "in_reply_to": null,
+      "body_text": "Hi,\n\nPlease proceed with onboarding for the following new hire:\n\nName: Antonio Meyer\nPosition: Records Analyst\nDepartment: Registrar\nCampus: Main\nStart Date: 05/30/2019\nHiring Manager: Robert Chen\n\nBackground check cleared.\n\nBest,\nDerek Okonkwo\nRecruiting & Talent Manager",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "12",
+      "folder": "Onboarding",
+      "subject": "New Hire Confirmation \u2014 Claudia Sanders",
+      "from_addr": "d.okonkwo@crestwood.edu",
+      "to_addr": "hr@crestwood.edu",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2020-03-30T09:15:00-06:00",
+      "message_id": "<msg012@crestwood.edu>",
+      "in_reply_to": null,
+      "body_text": "Hi,\n\nPlease proceed with onboarding for the following new hire:\n\nName: Claudia Sanders\nPosition: Research Analyst\nDepartment: Research\nCampus: Main\nStart Date: 04/15/2020\nHiring Manager: Robert Chen\n\nBackground check cleared.\n\nBest,\nDerek Okonkwo\nRecruiting & Talent Manager",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "13",
+      "folder": "Onboarding",
+      "subject": "I-9 Received \u2014 Howard Clark",
+      "from_addr": "v.osei@crestwood.edu",
+      "to_addr": "hr@crestwood.edu",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-01-02T11:00:00-06:00",
+      "message_id": "<msg013@crestwood.edu>",
+      "in_reply_to": null,
+      "body_text": "Hi,\n\nHoward Clark completed his I-9 on his first day. I've verified the original documents and attached the scanned signed form.\n\nVictor Osei\nVP of Administration",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "i9_clark_signed.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjAKMSAwIG9iajw8L1BhZ2VzIDIgMCBSPj5lbmRvYmogMiAwIG9iajw8L0tpZHNbMyAwIFJdL0NvdW50IDE+PmVuZG9iaiAzIDAgb2JqPDwvTWVkaWFCb3hbMCAwIDYxMiA3OTJdPj5lbmRvYmoKdHJhaWxlcjw8L1Jvb3QgMSAwIFI+Pg=="
+        }
+      ]
+    },
+    {
+      "email_id": "14",
+      "folder": "Offboarding",
+      "subject": "Resignation Notice \u2014 Diane Reyes",
+      "from_addr": "d.reyes@crestwood.edu",
+      "to_addr": "hr@crestwood.edu",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-01-28T14:20:00-06:00",
+      "message_id": "<msg014@crestwood.edu>",
+      "in_reply_to": null,
+      "body_text": "Dear HR,\n\nI am writing to formally notify you of my resignation from Crestwood University. My last day will be February 14, 2026.\n\nThank you for the opportunities during my time here.\n\nBest regards,\nDiane Reyes\nE-0987",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "15",
+      "folder": "Offboarding",
+      "subject": "Resignation Notice \u2014 Jordan Edwards",
+      "from_addr": "j.edwards@crestwood.edu",
+      "to_addr": "hr@crestwood.edu",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-09-22T08:45:00-06:00",
+      "message_id": "<msg015@crestwood.edu>",
+      "in_reply_to": null,
+      "body_text": "Hi,\n\nI am retiring from my position effective October 19, 2025. It has been a wonderful career at Crestwood.\n\nBest,\nJordan Edwards\nAdmissions, Downtown Campus",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "16",
+      "folder": "Offboarding",
+      "subject": "Re: Access Revocation Request \u2014 Edwards, E-1021",
+      "from_addr": "j.park@crestwood.edu",
+      "to_addr": "hr@crestwood.edu",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-10-20T09:30:00-06:00",
+      "message_id": "<msg016@crestwood.edu>",
+      "in_reply_to": "<msg015b@crestwood.edu>",
+      "body_text": "Hi,\n\nConfirming all system access for Jordan Edwards (E-1021) has been revoked as of close of business 10/19/2025.\n\nBest,\nJenna Park\nIT Access Coordinator",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "17",
+      "folder": "Leave",
+      "subject": "FMLA Leave Request",
+      "from_addr": "k.walsh@crestwood.edu",
+      "to_addr": "hr@crestwood.edu",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-01-09T07:50:00-06:00",
+      "message_id": "<msg017@crestwood.edu>",
+      "in_reply_to": null,
+      "body_text": "Hi,\n\nI need to request FMLA leave for a family medical situation. My spouse requires surgery and I will need to be the primary caregiver during recovery. I'm estimating approximately 10 weeks starting January 26.\n\nPlease let me know what documentation you need.\n\nThank you,\nKevin Walsh\nFinance Department, Main Campus",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "18",
+      "folder": "Leave",
+      "subject": "Medical Certification \u2014 Walsh FMLA",
+      "from_addr": "k.walsh@crestwood.edu",
+      "to_addr": "hr@crestwood.edu",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-01-17T10:15:00-06:00",
+      "message_id": "<msg018@crestwood.edu>",
+      "in_reply_to": "<msg017@crestwood.edu>",
+      "body_text": "Hi,\n\nAttached is the medical certification from my spouse's doctor for the FMLA leave request.\n\nKevin Walsh",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "walsh_fmla_certification.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjAKMSAwIG9iajw8L1BhZ2VzIDIgMCBSPj5lbmRvYmogMiAwIG9iajw8L0tpZHNbMyAwIFJdL0NvdW50IDE+PmVuZG9iaiAzIDAgb2JqPDwvTWVkaWFCb3hbMCAwIDYxMiA3OTJdPj5lbmRvYmoKdHJhaWxlcjw8L1Jvb3QgMSAwIFI+Pg=="
+        }
+      ]
+    },
+    {
+      "email_id": "19",
+      "folder": "Performance",
+      "subject": "Self-Assessment Submitted \u2014 Michael Torres",
+      "from_addr": "m.p.torres@crestwood.edu",
+      "to_addr": "hr@crestwood.edu",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-10-20T16:30:00-06:00",
+      "message_id": "<msg019@crestwood.edu>",
+      "in_reply_to": null,
+      "body_text": "Hi,\n\nAttached is my completed self-assessment form for the Fall 2025 review cycle.\n\nMichael Torres\nFacilities, West Campus",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "self_assessment_mtorres_fall2025.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjAKMSAwIG9iajw8L1BhZ2VzIDIgMCBSPj5lbmRvYmogMiAwIG9iajw8L0tpZHNbMyAwIFJdL0NvdW50IDE+PmVuZG9iaiAzIDAgb2JqPDwvTWVkaWFCb3hbMCAwIDYxMiA3OTJdPj5lbmRvYmoKdHJhaWxlcjw8L1Jvb3QgMSAwIFI+Pg=="
+        }
+      ]
+    },
+    {
+      "email_id": "20",
+      "folder": "Performance",
+      "subject": "Self-Assessment Submitted \u2014 Rachel Patel",
+      "from_addr": "r.patel@crestwood.edu",
+      "to_addr": "hr@crestwood.edu",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-10-21T09:00:00-06:00",
+      "message_id": "<msg020@crestwood.edu>",
+      "in_reply_to": null,
+      "body_text": "Hi,\n\nPlease find my self-assessment attached for the Fall 2025 cycle.\n\nRachel Patel\nAdmissions, Downtown Campus",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "self_assessment_rpatel_fall2025.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjAKMSAwIG9iajw8L1BhZ2VzIDIgMCBSPj5lbmRvYmogMiAwIG9iajw8L0tpZHNbMyAwIFJdL0NvdW50IDE+PmVuZG9iaiAzIDAgb2JqPDwvTWVkaWFCb3hbMCAwIDYxMiA3OTJdPj5lbmRvYmoKdHJhaWxlcjw8L1Jvb3QgMSAwIFI+Pg=="
+        }
+      ]
+    },
+    {
+      "email_id": "21",
+      "folder": "Recruiting",
+      "subject": "Requisition Approval \u2014 Marketing Coordinator",
+      "from_addr": "s.bloom@crestwood.edu",
+      "to_addr": "hr@crestwood.edu",
+      "cc_addr": "d.okonkwo@crestwood.edu",
+      "bcc_addr": null,
+      "date": "2026-03-01T11:00:00-06:00",
+      "message_id": "<msg021@crestwood.edu>",
+      "in_reply_to": null,
+      "body_text": "Hi,\n\nWith James Okafor's departure upcoming, I'd like to formally request a requisition to backfill the Marketing Coordinator position at West Campus. The job description is the same as the current posting.\n\nPlease route to Derek for recruitment.\n\nSandra Bloom\nMarketing Department, West Campus",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "22",
+      "folder": "Recruiting",
+      "subject": "Background Check Cleared \u2014 Antonio Meyer",
+      "from_addr": "d.okonkwo@crestwood.edu",
+      "to_addr": "hr@crestwood.edu",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2019-05-10T14:00:00-06:00",
+      "message_id": "<msg022@crestwood.edu>",
+      "in_reply_to": null,
+      "body_text": "Hi,\n\nBackground check for Antonio Meyer (Records Analyst, Registrar) has cleared. Ready to proceed with onboarding.\n\nDerek Okonkwo\nRecruiting & Talent Manager",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "23",
+      "folder": "General",
+      "subject": "Parking Pass Request",
+      "from_addr": "a.meyer@crestwood.edu",
+      "to_addr": "hr@crestwood.edu",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-15T08:20:00-06:00",
+      "message_id": "<msg023@crestwood.edu>",
+      "in_reply_to": null,
+      "body_text": "Hi HR,\n\nI lost my parking pass last week. Can you help me get a replacement? I'm at Main Campus, Registrar department.\n\nThanks,\nAntonio Meyer",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "24",
+      "folder": "General",
+      "subject": "Address Change",
+      "from_addr": "c.sanders@crestwood.edu",
+      "to_addr": "hr@crestwood.edu",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-02-10T13:45:00-06:00",
+      "message_id": "<msg024@crestwood.edu>",
+      "in_reply_to": null,
+      "body_text": "Hi,\n\nI've recently moved and need to update my address on file. New address is 4521 Maple Ridge Dr, Apt 3B.\n\nPlease confirm when updated.\n\nClaudia Sanders\nResearch, Main Campus",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "25",
+      "folder": "General",
+      "subject": "Benefits Question",
+      "from_addr": "s.russell@crestwood.edu",
+      "to_addr": "hr@crestwood.edu",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-28T10:00:00-06:00",
+      "message_id": "<msg025@crestwood.edu>",
+      "in_reply_to": null,
+      "body_text": "Hi,\n\nI had a question about adding my newborn to my health plan. Is there a qualifying life event form I need to fill out? My daughter was born March 20.\n\nThanks,\nScott Russell\nAcademic Affairs, Main Campus",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "26",
+      "folder": "Sent",
+      "subject": "FMLA Eligibility Notice \u2014 Walsh, E-1005",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "k.walsh@crestwood.edu",
+      "cc_addr": "p.huang@crestwood.edu",
+      "bcc_addr": null,
+      "date": "2026-01-09T10:30:00-06:00",
+      "message_id": "<msg026@crestwood.edu>",
+      "in_reply_to": "<msg017@crestwood.edu>",
+      "body_text": "Dear Kevin,\n\nWe have received your request for FMLA leave. Based on our records, you meet the eligibility requirements:\n\n\u2022 Employed for more than 12 months: Yes (hire date 03/22/2021)\n\u2022 Hours worked in trailing 12 months: 1,680 (exceeds 1,250 minimum)\n\nYour FMLA leave request is APPROVED for eligibility purposes. Please submit a completed medical certification from your spouse's healthcare provider within 15 calendar days (by 01/24/2026).\n\nIf you have any questions, please contact Patricia Huang.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "27",
+      "folder": "Sent",
+      "subject": "Benefits Enrollment Reminder \u2014 Amy Foster, E-1010",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "a.foster@crestwood.edu",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-30T09:00:00-06:00",
+      "message_id": "<msg027@crestwood.edu>",
+      "in_reply_to": null,
+      "body_text": "Dear Amy,\n\nThis is a reminder that your 30-day benefits enrollment window closes on 04/15/2026. Please complete your enrollment or waiver by this date.\n\nIf you have any questions about available plans, please contact Patricia Huang.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "28",
+      "folder": "Sent",
+      "subject": "Retirement Acknowledgment \u2014 Edwards, E-1021",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "j.edwards@crestwood.edu",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-09-22T11:00:00-06:00",
+      "message_id": "<msg028@crestwood.edu>",
+      "in_reply_to": "<msg015@crestwood.edu>",
+      "body_text": "Dear Jordan,\n\nThank you for your years of service at Crestwood University. We have received your retirement notice with a last day of October 19, 2025.\n\nWe will be in touch regarding your exit interview, final pay, and benefits continuation options.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "29",
+      "folder": "Sent",
+      "subject": "Spring 2026 Self-Assessment Distribution",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "all-staff@crestwood.edu",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-01T08:00:00-06:00",
+      "message_id": "<msg029@crestwood.edu>",
+      "in_reply_to": null,
+      "body_text": "Dear Crestwood University Staff,\n\nThe Spring 2026 performance review cycle has begun. Please complete and return your self-assessment form to hr@crestwood.edu by April 25, 2026.\n\nThe self-assessment form is attached to this email. If you have questions about the process, please refer to Section 14 of the HR SOP or contact your supervisor.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "self_assessment_form_spring2026.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjAKMSAwIG9iajw8L1BhZ2VzIDIgMCBSPj5lbmRvYmogMiAwIG9iajw8L0tpZHNbMyAwIFJdL0NvdW50IDE+PmVuZG9iaiAzIDAgb2JqPDwvTWVkaWFCb3hbMCAwIDYxMiA3OTJdPj5lbmRvYmoKdHJhaWxlcjw8L1Jvb3QgMSAwIFI+Pg=="
+        }
+      ]
+    },
+    {
+      "email_id": "30",
+      "folder": "Offboarding",
+      "subject": "Resignation Notice",
+      "from_addr": "d.kim@crestwood.edu",
+      "to_addr": "hr@crestwood.edu",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-20T09:00:00-06:00",
+      "message_id": "<msg030@crestwood.edu>",
+      "in_reply_to": null,
+      "body_text": "Hi,\n\nI am writing to formally notify you of my resignation from my position at Crestwood University. My last day of work will be April 6, 2026.\n\nThank you for the opportunities during my time here.\n\nBest regards,\nDavid Kim\nInformation Technology, Main Campus",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "31",
+      "folder": "Sent",
+      "subject": "COBRA Notification",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "d.kim@crestwood.edu",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-04-07T09:00:00-06:00",
+      "message_id": "<msg031@crestwood.edu>",
+      "in_reply_to": null,
+      "body_text": "Hi David,\n\nThis notice is to inform you that your group health coverage through Crestwood University will end on 04/06/2026 due to separation of employment.\n\nUnder the Consolidated Omnibus Budget Reconciliation Act (COBRA), you may be eligible to continue your current health coverage for up to 18 months at your own expense. The COBRA election form and instructions will be mailed to you separately. You will have 60 days from the date of this notice or your coverage end date (whichever is later) to elect coverage.\n\nIf you have questions, please contact Patricia Huang at p.huang@crestwood.edu.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "32",
+      "folder": "Sent",
+      "subject": "Final Pay Request \u2014 Kim, E-1002",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "c.briggs@crestwood.edu",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-20T09:35:00-06:00",
+      "message_id": "<msg032@crestwood.edu>",
+      "in_reply_to": null,
+      "body_text": "Hi Calvin,\n\nPlease process final pay for the following separating employee:\n\nName: David Kim\nEmployee ID: E-1002\nLast Day of Work: 04/06/2026\nSeparation Type: Voluntary Resignation\nAccrued PTO Balance: 36 hours (per leave_tracker.xlsx)\n\nPer Colorado law, final pay is due on the next regular payday.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "33",
+      "folder": "Sent",
+      "subject": "Exit Interview Invitation",
+      "from_addr": "hr@crestwood.edu",
+      "to_addr": "d.kim@crestwood.edu",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-20T09:20:00-06:00",
+      "message_id": "<msg033@crestwood.edu>",
+      "in_reply_to": null,
+      "body_text": "Hi David,\n\nAs part of our offboarding process, we would like to offer you the opportunity to participate in an exit interview. This is completely voluntary and confidential. Your feedback helps us improve the employee experience at Crestwood University.\n\nIf you are interested, please reply with your availability and we will schedule a 30-minute meeting before your last day of 04/06/2026.\n\nBest regards,\nCrestwood University \u2013 Office of Human Resources\nhr@crestwood.edu",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "34",
+      "folder": "Offboarding",
+      "subject": "Re: Exit Interview Invitation",
+      "from_addr": "d.kim@crestwood.edu",
+      "to_addr": "hr@crestwood.edu",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-23T11:14:00-06:00",
+      "message_id": "<msg034@crestwood.edu>",
+      "in_reply_to": "<msg033@crestwood.edu>",
+      "body_text": "Hi,\n\nThanks for the offer but I\u2019d prefer to skip the exit interview. Appreciate the time at Crestwood.\n\nDavid Kim",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    }
+  ],
+  "next_email_id": 35
+}

@@ -1,0 +1,738 @@
+{
+  "mailbox": {
+    "email": "leaves@ridgelinegear.com",
+    "name": "Harper Perez"
+  },
+  "contacts": [
+    {
+      "email": "mark.rogers@ridgelinegear.com",
+      "name": "Mark Rogers"
+    },
+    {
+      "email": "daniel.whitfield@ridgelinegear.com",
+      "name": "Daniel Whitfield"
+    },
+    {
+      "email": "meera.patel@ridgelinegear.com",
+      "name": "Meera Patel"
+    },
+    {
+      "email": "jordan.briggs@ridgelinegear.com",
+      "name": "Jordan Briggs"
+    },
+    {
+      "email": "renata.okafor@ridgelinegear.com",
+      "name": "Renata Okafor"
+    },
+    {
+      "email": "teresa.vang@ridgelinegear.com",
+      "name": "Teresa Vang"
+    },
+    {
+      "email": "luis.arredondo@ridgelinegear.com",
+      "name": "Luis Arredondo"
+    },
+    {
+      "email": "samir.haddad@ridgelinegear.com",
+      "name": "Samir Haddad"
+    },
+    {
+      "email": "logan.jones@ridgelinegear.com",
+      "name": "Logan Jones"
+    },
+    {
+      "email": "dakota.garcia@ridgelinegear.com",
+      "name": "Dakota Garcia"
+    },
+    {
+      "email": "finley.gonzalez@ridgelinegear.com",
+      "name": "Finley Gonzalez"
+    },
+    {
+      "email": "casey.williams@ridgelinegear.com",
+      "name": "Casey Williams"
+    },
+    {
+      "email": "parker.jackson@ridgelinegear.com",
+      "name": "Parker Jackson"
+    },
+    {
+      "email": "dakota.jackson@ridgelinegear.com",
+      "name": "Dakota Jackson"
+    },
+    {
+      "email": "avery.johnson@ridgelinegear.com",
+      "name": "Avery Johnson"
+    },
+    {
+      "email": "alex.thompson@ridgelinegear.com",
+      "name": "Alex Thompson"
+    },
+    {
+      "email": "dakota.hernandez@ridgelinegear.com",
+      "name": "Dakota Hernandez"
+    },
+    {
+      "email": "sawyer.hernandez@ridgelinegear.com",
+      "name": "Sawyer Hernandez"
+    },
+    {
+      "email": "emerson.moore@ridgelinegear.com",
+      "name": "Emerson Moore"
+    },
+    {
+      "email": "emerson.white@ridgelinegear.com",
+      "name": "Emerson White"
+    },
+    {
+      "email": "charlie.szabo@ridgelinegear.com",
+      "name": "Charlie Szabo"
+    },
+    {
+      "email": "charlie.rodriguez@ridgelinegear.com",
+      "name": "Charlie Rodriguez"
+    },
+    {
+      "email": "jordan.taylor@ridgelinegear.com",
+      "name": "Jordan Taylor"
+    },
+    {
+      "email": "taylor.gonzalez@ridgelinegear.com",
+      "name": "Taylor Gonzalez"
+    },
+    {
+      "email": "evelyn.marchetti@ridgelineholdings.com",
+      "name": "Evelyn Marchetti"
+    },
+    {
+      "email": "marcus.webb@ridgelineholdings.com",
+      "name": "Marcus Webb"
+    }
+  ],
+  "folders": [
+    {
+      "name": "Leave Requests"
+    },
+    {
+      "name": "FMLA Cases"
+    },
+    {
+      "name": "Accommodations"
+    },
+    {
+      "name": "Sick Time"
+    },
+    {
+      "name": "Policies"
+    },
+    {
+      "name": "Archive/2024"
+    },
+    {
+      "name": "Archive/2023"
+    },
+    {
+      "name": "Archive/2022"
+    }
+  ],
+  "emails": [
+    {
+      "email_id": "1",
+      "folder": "INBOX",
+      "subject": "Leave Request - HFWA",
+      "from_addr": "taylor.gonzalez@ridgelinegear.com",
+      "to_addr": "leaves@ridgelinegear.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-04-08T17:10:10Z",
+      "message_id": "<msg001@ridgelinegear.com>",
+      "in_reply_to": null,
+      "body_text": "Hello Harper,\n\nI hope you are doing well. I wanted to reach out regarding an upcoming medical appointment that will require a short leave of absence.\n\nAs you may recall from my prior leave case (December 2024 through February 2025), I underwent surgery in December 2024, which required hospitalization for a few weeks and further home stay with constant monitoring for over two months. I have been back at work since early March and have been managing well overall, but my specialist, Dr. Anand at Summit Orthopedic Associates, has identified some post-surgical complications in my most recent follow-up that require a brief hospitalization for corrective treatment.\n\nAs a result, I need to request leave for April 8 and April 9, 2025 — two consecutive days — in order to attend this procedure and the required overnight observation afterward. I expect to return to work on April 10, 2025, assuming no complications from the procedure itself. I understand this is short notice and I apologize for the inconvenience; the appointment was only confirmed late last week.\n\nI would appreciate it if this absence could be processed under HFWA, as the leave is directly related to my own health condition and the treatment is medically necessary per my provider. I believe I have sufficient accrued sick leave hours to cover both days. If there is any issue with my HFWA balance or if additional documentation is needed — such as a provider certification — please let me know and I will arrange it promptly.\n\nMy direct supervisor, Charlie Szabo, is aware of the upcoming absence and has confirmed that warehouse coverage for both shifts has been arranged. I can also be reached by email during my leave if any scheduling questions come up, though I may not be able to respond immediately during the procedure itself.\n\nThank you for your assistance and understanding. Please let me know if you need anything else from my end.\n\nKind regards,\nTaylor Gonzalez\nProduction Supervisor\n\nP.S. — I should mention that prior to submitting this request, I discussed my leave situation with a legal professional who reviewed it in light of the US Department of Labor's guidelines for HFWA eligibility. They advised that handling this absence as HFWA would be appropriate given the follow-up nature of the treatment. I wanted to be transparent about this in case it is relevant to how the request is processed.",
+      "body_html": null,
+      "is_read": false,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "2",
+      "folder": "INBOX",
+      "subject": "Welcome to the Leave Team!",
+      "from_addr": "renata.okafor@ridgelinegear.com",
+      "to_addr": "leaves@ridgelinegear.com",
+      "cc_addr": "daniel.whitfield@ridgelinegear.com",
+      "bcc_addr": null,
+      "date": "2022-06-13T09:00:00Z",
+      "message_id": "<msg002@ridgelinegear.com>",
+      "in_reply_to": null,
+      "body_text": "Hi Harper,\n\nWelcome to Ridgeline Gear! I'm so excited to have you join us as our Leave Coordinator.\n\nI've attached our Leave Administration SOP and a few key policy documents. Please review these thoroughly before processing any cases independently. We'll meet daily for your first two weeks to go over active cases and answer any questions.\n\nLooking forward to working with you!\n\nBest,\nRenata Okafor\nBenefits Manager",
+      "body_html": null,
+      "is_read": true,
+      "is_important": true,
+      "attachments": [
+        {
+          "filename": "Leave_Administration_SOP.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjQKMSAwIG9iago8PAovVHlwZSAvQ2F0YWxvZwovUGFnZXMgMiAwIFIKPj4KZW5kb2JqCg=="
+        }
+      ]
+    },
+    {
+      "email_id": "3",
+      "folder": "Leave Requests",
+      "subject": "Maternity Leave - Dakota Garcia",
+      "from_addr": "dakota.garcia@ridgelinegear.com",
+      "to_addr": "leaves@ridgelinegear.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2023-03-15T14:20:00Z",
+      "message_id": "<msg003@ridgelinegear.com>",
+      "in_reply_to": null,
+      "body_text": "Hi Harper,\n\nI wanted to formally request maternity leave beginning May 1, 2023. My due date is May 10, 2023, and I plan to take 12 weeks of leave.\n\nPlease let me know what documentation you need from me.\n\nThank you,\nDakota Garcia\nMarketing Manager",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "4",
+      "folder": "Sent",
+      "subject": "Re: Maternity Leave - Dakota Garcia",
+      "from_addr": "leaves@ridgelinegear.com",
+      "to_addr": "dakota.garcia@ridgelinegear.com",
+      "cc_addr": "renata.okafor@ridgelinegear.com",
+      "bcc_addr": null,
+      "date": "2023-03-16T10:15:00Z",
+      "message_id": "<msg004@ridgelinegear.com>",
+      "in_reply_to": "<msg003@ridgelinegear.com>",
+      "body_text": "Hi Dakota,\n\nCongratulations! I've received your maternity leave request for May 1, 2023.\n\nI'm sending you the FMLA paperwork separately. Please have your healthcare provider complete the medical certification and return it to me within 15 days.\n\nYour leave will be covered under FMLA, and you'll continue to receive your benefits during this time.\n\nPlease let me know if you have any questions!\n\nBest,\nHarper Perez\nLeave Coordinator",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "5",
+      "folder": "Accommodations",
+      "subject": "Accommodation Request - Standing Desk",
+      "from_addr": "jordan.briggs@ridgelinegear.com",
+      "to_addr": "leaves@ridgelinegear.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2023-08-22T11:30:00Z",
+      "message_id": "<msg005@ridgelinegear.com>",
+      "in_reply_to": null,
+      "body_text": "Hi Harper,\n\nI've been experiencing some back pain and my doctor has recommended a standing desk as an accommodation. Is this something we can arrange?\n\nI can provide medical documentation if needed.\n\nThanks,\nJordan Briggs\nHR Generalist - Onboarding",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "6",
+      "folder": "Sent",
+      "subject": "Re: Accommodation Request - Standing Desk",
+      "from_addr": "leaves@ridgelinegear.com",
+      "to_addr": "jordan.briggs@ridgelinegear.com",
+      "cc_addr": "renata.okafor@ridgelinegear.com,finley.gonzalez@ridgelinegear.com",
+      "bcc_addr": null,
+      "date": "2023-08-23T09:00:00Z",
+      "message_id": "<msg006@ridgelinegear.com>",
+      "in_reply_to": "<msg005@ridgelinegear.com>",
+      "body_text": "Hi Jordan,\n\nThank you for reaching out. Yes, we can definitely arrange a standing desk for you as a reasonable accommodation.\n\nI've looped in Finley from Facilities to coordinate the desk installation. Please provide a note from your doctor confirming the medical necessity, and we'll get this processed right away.\n\nBest,\nHarper",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "7",
+      "folder": "Sick Time",
+      "subject": "Sick Time Inquiry",
+      "from_addr": "emerson.moore@ridgelinegear.com",
+      "to_addr": "leaves@ridgelinegear.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2024-01-10T08:45:00Z",
+      "message_id": "<msg007@ridgelinegear.com>",
+      "in_reply_to": null,
+      "body_text": "Hi Harper,\n\nI'm trying to check my remaining sick time balance for the year. Can you let me know how many hours I have available?\n\nThank you!\nEmerson Moore\nRetail Associate",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "8",
+      "folder": "Sent",
+      "subject": "Re: Sick Time Inquiry",
+      "from_addr": "leaves@ridgelinegear.com",
+      "to_addr": "emerson.moore@ridgelinegear.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2024-01-10T13:20:00Z",
+      "message_id": "<msg008@ridgelinegear.com>",
+      "in_reply_to": "<msg007@ridgelinegear.com>",
+      "body_text": "Hi Emerson,\n\nAs of today, you have 32 hours of paid sick time remaining for 2024.\n\nYou can also check your balance anytime through the employee portal under Time & Attendance.\n\nLet me know if you have any other questions!\n\nBest,\nHarper",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "9",
+      "folder": "FMLA Cases",
+      "subject": "FMLA Request - Charlie Szabo",
+      "from_addr": "charlie.szabo@ridgelinegear.com",
+      "to_addr": "leaves@ridgelinegear.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2024-02-28T16:00:00Z",
+      "message_id": "<msg009@ridgelinegear.com>",
+      "in_reply_to": null,
+      "body_text": "Harper,\n\nI need to request FMLA leave to care for my father who is having surgery next month. The surgery is scheduled for March 15th and I'll need to be with him for recovery.\n\nI'm estimating I'll need about 3 weeks off. What do I need to do to get this started?\n\nThanks,\nCharlie Szabo\nWarehouse Manager",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "10",
+      "folder": "Sent",
+      "subject": "Re: FMLA Request - Charlie Szabo",
+      "from_addr": "leaves@ridgelinegear.com",
+      "to_addr": "charlie.szabo@ridgelinegear.com",
+      "cc_addr": "renata.okafor@ridgelinegear.com",
+      "bcc_addr": null,
+      "date": "2024-02-29T09:30:00Z",
+      "message_id": "<msg010@ridgelinegear.com>",
+      "in_reply_to": "<msg009@ridgelinegear.com>",
+      "body_text": "Hi Charlie,\n\nI'm sorry to hear about your father's surgery. I'm attaching the FMLA paperwork for you to complete.\n\nYou'll need to:\n1. Complete the employee portion of the certification\n2. Have your father's healthcare provider complete the medical certification\n3. Return both forms to me at least 2 weeks before your leave start date\n\nPlease let me know if you have any questions about the process.\n\nBest wishes to your father for a smooth surgery and recovery.\n\nHarper",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "FMLA_Certification_Family_Care.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjQKMSAwIG9iago8PAovVHlwZSAvQ2F0YWxvZwovUGFnZXMgMiAwIFIKPj4KZW5kb2JqCg=="
+        }
+      ]
+    },
+    {
+      "email_id": "11",
+      "folder": "Leave Requests",
+      "subject": "Personal Leave Request",
+      "from_addr": "alex.thompson@ridgelinegear.com",
+      "to_addr": "leaves@ridgelinegear.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2024-05-14T10:00:00Z",
+      "message_id": "<msg011@ridgelinegear.com>",
+      "in_reply_to": null,
+      "body_text": "Hi Harper,\n\nI'd like to request a personal day off on May 24th for a family event. I have plenty of PTO available.\n\nPlease let me know if this works.\n\nThanks,\nAlex Thompson\nSales Associate",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "12",
+      "folder": "Sent",
+      "subject": "Re: Personal Leave Request",
+      "from_addr": "leaves@ridgelinegear.com",
+      "to_addr": "alex.thompson@ridgelinegear.com",
+      "cc_addr": "avery.johnson@ridgelinegear.com",
+      "bcc_addr": null,
+      "date": "2024-05-14T14:15:00Z",
+      "message_id": "<msg012@ridgelinegear.com>",
+      "in_reply_to": "<msg011@ridgelinegear.com>",
+      "body_text": "Hi Alex,\n\nYour personal day for May 24th has been approved. I've copied Avery so your manager is aware.\n\nEnjoy your family event!\n\nBest,\nHarper",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "13",
+      "folder": "Accommodations",
+      "subject": "Ergonomic Assessment Request",
+      "from_addr": "meera.patel@ridgelinegear.com",
+      "to_addr": "leaves@ridgelinegear.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2024-06-20T11:15:00Z",
+      "message_id": "<msg013@ridgelinegear.com>",
+      "in_reply_to": null,
+      "body_text": "Hi Harper,\n\nI've been experiencing wrist pain from typing and would like to request an ergonomic assessment of my workstation. Can you help me arrange this?\n\nThank you,\nMeera Patel\nHR Generalist - Employee Relations",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "14",
+      "folder": "Sent",
+      "subject": "Re: Ergonomic Assessment Request",
+      "from_addr": "leaves@ridgelinegear.com",
+      "to_addr": "meera.patel@ridgelinegear.com",
+      "cc_addr": "luis.arredondo@ridgelinegear.com",
+      "bcc_addr": null,
+      "date": "2024-06-20T15:45:00Z",
+      "message_id": "<msg014@ridgelinegear.com>",
+      "in_reply_to": "<msg013@ridgelinegear.com>",
+      "body_text": "Hi Meera,\n\nAbsolutely! I've looped in Luis from Safety who coordinates our ergonomic assessments. He'll reach out to schedule a time to evaluate your workstation and recommend any needed equipment.\n\nIn the meantime, please make sure you're taking regular breaks and stretching.\n\nBest,\nHarper",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "15",
+      "folder": "Sick Time",
+      "subject": "Sick Time - Food Poisoning",
+      "from_addr": "sawyer.hernandez@ridgelinegear.com",
+      "to_addr": "leaves@ridgelinegear.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2024-07-18T07:30:00Z",
+      "message_id": "<msg015@ridgelinegear.com>",
+      "in_reply_to": null,
+      "body_text": "Hi Harper,\n\nI'm calling out sick today with what I think is food poisoning. I won't be able to make it in.\n\nI'll keep you updated on tomorrow.\n\nSawyer Hernandez\nRetail Associate",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "16",
+      "folder": "Sent",
+      "subject": "Re: Sick Time - Food Poisoning",
+      "from_addr": "leaves@ridgelinegear.com",
+      "to_addr": "sawyer.hernandez@ridgelinegear.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2024-07-18T08:00:00Z",
+      "message_id": "<msg016@ridgelinegear.com>",
+      "in_reply_to": "<msg015@ridgelinegear.com>",
+      "body_text": "Hi Sawyer,\n\nSorry to hear you're not feeling well! I've noted your sick time for today. Please rest and feel better.\n\nJust let me know about tomorrow when you can.\n\nBest,\nHarper",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "17",
+      "folder": "FMLA Cases",
+      "subject": "Workers' Comp and FMLA - Parker Jackson",
+      "from_addr": "luis.arredondo@ridgelinegear.com",
+      "to_addr": "leaves@ridgelinegear.com",
+      "cc_addr": "renata.okafor@ridgelinegear.com",
+      "bcc_addr": null,
+      "date": "2024-09-10T13:45:00Z",
+      "message_id": "<msg017@ridgelinegear.com>",
+      "in_reply_to": null,
+      "body_text": "Hi Harper,\n\nParker Jackson had a workplace injury yesterday and will need time off for recovery. The workers' comp claim has been filed, but we should also process this as FMLA since it will likely exceed 3 days.\n\nCan you send Parker the FMLA paperwork?\n\nThanks,\nLuis Arredondo\nSafety & Workers' Comp Coordinator",
+      "body_html": null,
+      "is_read": true,
+      "is_important": true,
+      "attachments": []
+    },
+    {
+      "email_id": "18",
+      "folder": "Sent",
+      "subject": "Re: Workers' Comp and FMLA - Parker Jackson",
+      "from_addr": "leaves@ridgelinegear.com",
+      "to_addr": "luis.arredondo@ridgelinegear.com",
+      "cc_addr": "renata.okafor@ridgelinegear.com,parker.jackson@ridgelinegear.com",
+      "bcc_addr": null,
+      "date": "2024-09-10T15:00:00Z",
+      "message_id": "<msg018@ridgelinegear.com>",
+      "in_reply_to": "<msg017@ridgelinegear.com>",
+      "body_text": "Hi Luis and Parker,\n\nI'm sending the FMLA paperwork to Parker now. Parker, please have your treating physician complete the medical certification and return it to me.\n\nYour workers' comp and FMLA leave will run concurrently. Please let me know if you have any questions.\n\nWishing you a speedy recovery, Parker.\n\nBest,\nHarper",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "FMLA_Certification_Own_Health.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjQKMSAwIG9iago8PAovVHlwZSAvQ2F0YWxvZwovUGFnZXMgMiAwIFIKPj4KZW5kb2JqCg=="
+        }
+      ]
+    },
+    {
+      "email_id": "19",
+      "folder": "Leave Requests",
+      "subject": "Bereavement Leave",
+      "from_addr": "jordan.taylor@ridgelinegear.com",
+      "to_addr": "leaves@ridgelinegear.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2024-10-22T06:15:00Z",
+      "message_id": "<msg019@ridgelinegear.com>",
+      "in_reply_to": null,
+      "body_text": "Harper,\n\nMy grandmother passed away last night. I need to request bereavement leave for Oct 23-25 to attend the funeral and be with family.\n\nThank you,\nJordan Taylor\nWarehouse Associate",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "20",
+      "folder": "Sent",
+      "subject": "Re: Bereavement Leave",
+      "from_addr": "leaves@ridgelinegear.com",
+      "to_addr": "jordan.taylor@ridgelinegear.com",
+      "cc_addr": "charlie.szabo@ridgelinegear.com",
+      "bcc_addr": null,
+      "date": "2024-10-22T08:30:00Z",
+      "message_id": "<msg020@ridgelinegear.com>",
+      "in_reply_to": "<msg019@ridgelinegear.com>",
+      "body_text": "Dear Jordan,\n\nI'm so sorry for your loss. Your bereavement leave for October 23-25 has been approved. Please take the time you need to be with your family.\n\nIf you need any additional time, please let me know.\n\nMy condolences,\nHarper",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "21",
+      "folder": "Accommodations",
+      "subject": "Remote Work Accommodation Request",
+      "from_addr": "dakota.hernandez@ridgelinegear.com",
+      "to_addr": "leaves@ridgelinegear.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2024-11-05T14:20:00Z",
+      "message_id": "<msg021@ridgelinegear.com>",
+      "in_reply_to": null,
+      "body_text": "Hi Harper,\n\nI have a medical condition that makes it difficult for me to commute during winter months. My doctor has recommended remote work as an accommodation from December through March.\n\nI can provide medical documentation. Is this something we can discuss?\n\nThank you,\nDakota Hernandez\nSales Associate",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "22",
+      "folder": "Sent",
+      "subject": "Re: Remote Work Accommodation Request",
+      "from_addr": "leaves@ridgelinegear.com",
+      "to_addr": "dakota.hernandez@ridgelinegear.com",
+      "cc_addr": "renata.okafor@ridgelinegear.com",
+      "bcc_addr": null,
+      "date": "2024-11-06T10:00:00Z",
+      "message_id": "<msg022@ridgelinegear.com>",
+      "in_reply_to": "<msg021@ridgelinegear.com>",
+      "body_text": "Hi Dakota,\n\nThank you for reaching out. Yes, we can definitely explore this accommodation request.\n\nPlease provide the medical documentation from your doctor outlining the recommendation. I'll then work with Renata and your manager to discuss how we can implement this.\n\nWe'll need to engage in the interactive process to determine if remote work is a reasonable accommodation for your position.\n\nBest,\nHarper",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "23",
+      "folder": "Policies",
+      "subject": "Updated FMLA Policy - 2025",
+      "from_addr": "daniel.whitfield@ridgelinegear.com",
+      "to_addr": "leaves@ridgelinegear.com,renata.okafor@ridgelinegear.com,meera.patel@ridgelinegear.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2024-12-18T16:00:00Z",
+      "message_id": "<msg023@ridgelinegear.com>",
+      "in_reply_to": null,
+      "body_text": "Team,\n\nAttached is our updated FMLA policy for 2025. Please review the changes highlighted in yellow and ensure you're familiar with the new provisions before the new year.\n\nKey updates include:\n- Revised certification timelines\n- Updated military family leave provisions\n- Enhanced documentation requirements\n\nPlease acknowledge receipt.\n\nDaniel Whitfield\nHR Director",
+      "body_html": null,
+      "is_read": true,
+      "is_important": true,
+      "attachments": [
+        {
+          "filename": "FMLA_Policy_2025.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjQKMSAwIG9iago8PAovVHlwZSAvQ2F0YWxvZwovUGFnZXMgMiAwIFIKPj4KZW5kb2JqCg=="
+        }
+      ]
+    },
+    {
+      "email_id": "24",
+      "folder": "Sent",
+      "subject": "Re: Updated FMLA Policy - 2025",
+      "from_addr": "leaves@ridgelinegear.com",
+      "to_addr": "daniel.whitfield@ridgelinegear.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2024-12-19T09:15:00Z",
+      "message_id": "<msg024@ridgelinegear.com>",
+      "in_reply_to": "<msg023@ridgelinegear.com>",
+      "body_text": "Hi Daniel,\n\nThank you for sharing the updated policy. I've reviewed all changes and have noted the key updates. I'll ensure all future cases are processed according to the 2025 provisions.\n\nBest,\nHarper",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "25",
+      "folder": "Sick Time",
+      "subject": "Sick Time Policy Question",
+      "from_addr": "charlie.rodriguez@ridgelinegear.com",
+      "to_addr": "leaves@ridgelinegear.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-01-15T10:30:00Z",
+      "message_id": "<msg025@ridgelinegear.com>",
+      "in_reply_to": null,
+      "body_text": "Hi Harper,\n\nDo unused sick hours roll over to the next year, or do they expire at year end?\n\nThanks,\nCharlie Rodriguez\nWarehouse Associate",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "26",
+      "folder": "Sent",
+      "subject": "Re: Sick Time Policy Question",
+      "from_addr": "leaves@ridgelinegear.com",
+      "to_addr": "charlie.rodriguez@ridgelinegear.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-01-15T13:00:00Z",
+      "message_id": "<msg026@ridgelinegear.com>",
+      "in_reply_to": "<msg025@ridgelinegear.com>",
+      "body_text": "Hi Charlie,\n\nGreat question! Unused sick time does roll over to the next year. However, there is a cap of 48 hours total that you can carry at any time.\n\nSo if you have unused hours at year end and you're below the 80-hour cap, they'll carry forward into 2025.\n\nLet me know if you have any other questions!\n\nBest,\nHarper",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "27",
+      "folder": "Leave Requests",
+      "subject": "Jury Duty Notice",
+      "from_addr": "emerson.white@ridgelinegear.com",
+      "to_addr": "leaves@ridgelinegear.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-02-03T15:40:00Z",
+      "message_id": "<msg027@ridgelinegear.com>",
+      "in_reply_to": null,
+      "body_text": "Hi Harper,\n\nI received a jury duty summons for February 17-21. I've attached the official notice.\n\nWhat do I need to do on my end?\n\nThank you,\nEmerson White\nRetail Associate",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "Jury_Summons.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjQKMSAwIG9iago8PAovVHlwZSAvQ2F0YWxvZwovUGFnZXMgMiAwIFIKPj4KZW5kb2JqCg=="
+        }
+      ]
+    },
+    {
+      "email_id": "28",
+      "folder": "Sent",
+      "subject": "Re: Jury Duty Notice",
+      "from_addr": "leaves@ridgelinegear.com",
+      "to_addr": "emerson.white@ridgelinegear.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-02-04T09:00:00Z",
+      "message_id": "<msg028@ridgelinegear.com>",
+      "in_reply_to": "<msg027@ridgelinegear.com>",
+      "body_text": "Hi Emerson,\n\nThank you for providing the notice. Your jury duty leave for February 17-21 has been documented. You'll receive your regular pay during this time.\n\nJust keep us updated if the trial ends early or extends beyond the expected dates.\n\nBest,\nHarper",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "29",
+      "folder": "FMLA Cases",
+      "subject": "Intermittent FMLA Certification Received - Dakota Jackson",
+      "from_addr": "dakota.jackson@ridgelinegear.com",
+      "to_addr": "leaves@ridgelinegear.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-03-12T11:20:00Z",
+      "message_id": "<msg029@ridgelinegear.com>",
+      "in_reply_to": null,
+      "body_text": "Hi Harper,\n\nAttached is my completed FMLA medical certification for intermittent leave. My doctor has indicated I may need to miss work periodically for medical appointments and flare-ups.\n\nPlease let me know if you need anything else.\n\nThank you,\nDakota Jackson\nQuality Technician",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": [
+        {
+          "filename": "FMLA_Cert_Dakota_Jackson.pdf",
+          "content_type": "application/pdf",
+          "content_base64": "JVBERi0xLjQKMSAwIG9iago8PAovVHlwZSAvQ2F0YWxvZwovUGFnZXMgMiAwIFIKPj4KZW5kb2JqCg=="
+        }
+      ]
+    },
+    {
+      "email_id": "30",
+      "folder": "Sent",
+      "subject": "Re: Intermittent FMLA Certification Received - Dakota Jackson",
+      "from_addr": "leaves@ridgelinegear.com",
+      "to_addr": "dakota.jackson@ridgelinegear.com",
+      "cc_addr": "renata.okafor@ridgelinegear.com",
+      "bcc_addr": null,
+      "date": "2025-03-10T10:00:00Z",
+      "message_id": "<msg030@ridgelinegear.com>",
+      "in_reply_to": "<msg029@ridgelinegear.com>",
+      "body_text": "Hi Dakota,\n\nThank you for submitting your medical certification. I've reviewed it and your intermittent FMLA has been approved effective immediately through March 12, 2025.\n\nPlease notify your supervisor as soon as possible when you need to use FMLA time, and then send me an email afterward so I can track your usage.\n\nYou have 480 hours (12 weeks) available in the rolling 12-month period.\n\nPlease let me know if you have any questions.\n\nBest,\nHarper",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "31",
+      "folder": "Drafts",
+      "subject": "Leave Administration Monthly Report - March 2025",
+      "from_addr": "leaves@ridgelinegear.com",
+      "to_addr": "renata.okafor@ridgelinegear.com",
+      "cc_addr": "daniel.whitfield@ridgelinegear.com",
+      "bcc_addr": null,
+      "date": "2025-03-28T14:30:00Z",
+      "message_id": "<draft001@ridgelinegear.com>",
+      "in_reply_to": null,
+      "body_text": "Hi Renata,\n\nHere's the draft of the March 2025 leave administration report:\n\nActive FMLA Cases: 4\nNew Leave Requests: 7\nAccommodation Requests: 2\nSick Time Usage: 156 hours company-wide\n\nI'll have the full report with details by end of day Monday.\n\nBest,\nHarper",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "32",
+      "folder": "Sick Time",
+      "subject": "HFWA Balance Inquiry",
+      "from_addr": "taylor.gonzalez@ridgelinegear.com",
+      "to_addr": "leaves@ridgelinegear.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2024-11-14T10:30:00Z",
+      "message_id": "<msg032@ridgelinegear.com>",
+      "in_reply_to": null,
+      "body_text": "Hi Harper,\n\nI hope this message finds you well. I wanted to check on my current HFWA sick leave balance before my upcoming surgery in December. I want to make sure I have enough accrued hours to cover the recovery period, or if I will need to use PTO for any portion of it.\n\nCould you also let me know whether the company holiday closures in late December would count against my leave balance, or if those are separate?\n\nThank you for your help.\n\nBest,\nTaylor Gonzalez\nProduction Supervisor",
+      "body_html": null,
+      "is_read": true,
+      "is_important": false,
+      "attachments": []
+    },
+    {
+      "email_id": "33",
+      "folder": "INBOX",
+      "subject": "Heads Up — Taylor Gonzalez Absence April 8-9",
+      "from_addr": "charlie.szabo@ridgelinegear.com",
+      "to_addr": "leaves@ridgelinegear.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2025-04-07T16:45:00Z",
+      "message_id": "<msg033@ridgelinegear.com>",
+      "in_reply_to": null,
+      "body_text": "Hi Harper,\n\nJust wanted to give you a heads up — Taylor Gonzalez let me know he will be out on April 8 and 9 for a medical procedure related to his surgery from December. I have already arranged coverage with the second-shift supervisor so we should be fine on the production floor.\n\nI will submit the formal request through the Slack channel tomorrow morning, but wanted you to be aware in advance so you can start any paperwork that might be needed.\n\nThanks,\nCharlie Szabo\nWarehouse Manager",
+      "body_html": null,
+      "is_read": false,
+      "is_important": false,
+      "attachments": []
+    }
+  ],
+  "next_email_id": 34
+}

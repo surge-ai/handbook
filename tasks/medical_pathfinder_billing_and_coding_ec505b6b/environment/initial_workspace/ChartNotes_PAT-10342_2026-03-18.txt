@@ -1,0 +1,44 @@
+OFFICE VISIT — CHART NOTE
+
+Patient ID: PAT-10342
+Provider ID: PRV-2081
+Date of Service: 03/18/2026
+Visit Type: Established Patient
+
+CHIEF COMPLAINT:
+Low back pain x 5 days, radiating into left leg.
+
+HISTORY OF PRESENT ILLNESS:
+Patient is a 54-year-old male presenting with acute onset low back pain beginning approximately 5 days ago after lifting a heavy box at work. Pain is described as sharp, rated 7/10, localized to the lumbar region with radiation into the left posterior thigh and calf. Patient reports intermittent numbness and tingling in the left foot. Pain worsens with prolonged sitting and bending forward. OTC ibuprofen provides minimal relief. No bowel or bladder dysfunction. No prior history of back surgery. Patient had a similar but milder episode 2 years ago that resolved with conservative treatment.
+
+REVIEW OF SYSTEMS:
+Musculoskeletal: Positive for low back pain, left lower extremity pain, reduced mobility.
+Neurological: Positive for left foot numbness/tingling. Negative for weakness, gait instability.
+All other systems reviewed and negative.
+
+PHYSICAL EXAMINATION:
+Vitals: BP 138/84, HR 78, Temp 98.4F
+General: Alert, oriented, in mild distress due to pain.
+Spine: Tenderness to palpation over L4-L5 and L5-S1 paraspinal muscles. Reduced lumbar flexion (~40 degrees). No visible deformity or swelling.
+Neurological: Straight leg raise positive on left at 45 degrees, negative on right. Sensation decreased to light touch over left L5 dermatome. Motor strength 5/5 bilateral lower extremities. Deep tendon reflexes 2+ bilateral knees, 1+ left ankle, 2+ right ankle.
+Gait: Antalgic, favoring left side.
+
+MEDICAL DECISION MAKING:
+Number and complexity of problems: Acute low back pain with new radicular symptoms — moderate complexity.
+Data reviewed: Reviewed prior imaging from 2024 episode (lumbar X-ray, no significant findings at that time). Reviewed current medication list and allergy history.
+Risk: Moderate — differential includes lumbar radiculopathy, disc herniation, and acute muscular strain. Ordering advanced imaging and referral to physical therapy. Discussed red flag symptoms warranting ER visit.
+
+ASSESSMENT:
+1. M54.5 — Low back pain, unspecified
+2. Acute left-sided lumbar radiculopathy, suspected
+
+PLAN:
+1. MRI lumbar spine without contrast — to evaluate for disc herniation or nerve root compression.
+2. Referral to physical therapy, 2x/week for 4 weeks.
+3. Meloxicam 15mg daily x 14 days.
+4. Methocarbamol 750mg TID PRN for muscle spasm.
+5. Activity modification: avoid heavy lifting, prolonged sitting. Use lumbar support.
+6. Return in 2 weeks for MRI review and reassessment, sooner if symptoms worsen or new neurological deficits develop.
+
+PROVIDER SIGNATURE: [On file]
+PRV-2081

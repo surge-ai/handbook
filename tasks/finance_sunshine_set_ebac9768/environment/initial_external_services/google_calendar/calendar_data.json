@@ -1,0 +1,74 @@
+{
+  "events": {
+    "evt-001": {
+      "id": "evt-001",
+      "summary": "Marcus Hale - Out of Office",
+      "start": {
+        "dateTime": "2026-04-14T08:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-04-16T17:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "description": "Annual conference in Atlanta.",
+      "location": "Atlanta, GA"
+    },
+    "evt-002": {
+      "id": "evt-002",
+      "summary": "Month-End Close - BD 3",
+      "start": {
+        "dateTime": "2026-04-14T09:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-04-14T18:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "description": "Business Day 3 of month-end close. Bank reconciliation and floorplan reconciliation due today.",
+      "location": "Accounting Department"
+    },
+    "evt-003": {
+      "id": "evt-003",
+      "summary": "Floorplan Curtailment - VIN 8XJ472",
+      "start": {
+        "dateTime": "2026-04-15T00:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-04-15T23:59:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "description": "Curtailment payment due for sold-not-paid unit. Vehicle delivered 4/8, still accruing interest.",
+      "location": null
+    },
+    "evt-004": {
+      "id": "evt-004",
+      "summary": "Funding Deadline - Johnson Deal",
+      "start": {
+        "dateTime": "2026-04-14T17:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-04-14T17:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "description": "Wells Fargo funding deadline. Missing: Power of Attorney, Payoff Letter. Deal SL-2026-0412.",
+      "location": null
+    },
+    "evt-005": {
+      "id": "evt-005",
+      "summary": "Commission Cutoff",
+      "start": {
+        "dateTime": "2026-04-16T00:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-04-16T23:59:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "description": "Commission processing cutoff for first half of month. All deals must be posted and funded.",
+      "location": null
+    }
+  }
+}
