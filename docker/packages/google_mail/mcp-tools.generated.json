@@ -1,0 +1,2978 @@
+{
+  "schema_version": "v1",
+  "tools": [
+    {
+      "name": "add_contact",
+      "description": "Add a new contact to the address book.\n\nArgs:\n    email: Email address of the contact\n    name: Display name of the contact",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "email": {
+            "format": "email",
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "mailbox_id": {
+            "default": "default",
+            "description": "Mailbox identifier.",
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "email",
+          "name"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "type": "object",
+        "x-fastmcp-wrap-result": true
+      }
+    },
+    {
+      "name": "add_group",
+      "description": "Add a new addressable contact group.\n\nArgs:\n    email: Email address of the group\n    name: Display name of the group\n    members: Contact emails included in the group",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "email": {
+            "format": "email",
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "members": {
+            "description": "Contact emails included in the group.",
+            "items": {
+              "format": "email",
+              "type": "string"
+            },
+            "minItems": 1,
+            "type": "array"
+          },
+          "mailbox_id": {
+            "default": "default",
+            "description": "Mailbox identifier.",
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "email",
+          "name",
+          "members"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "type": "object",
+        "x-fastmcp-wrap-result": true
+      }
+    },
+    {
+      "name": "cancel_scheduled_email",
+      "description": "Cancel a scheduled email. The email is permanently removed.\n\nArgs:\n    email_id: ID of the scheduled email to cancel",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "email_id": {
+            "description": "Email ID.",
+            "minLength": 1,
+            "type": "string"
+          },
+          "mailbox_id": {
+            "default": "default",
+            "description": "Mailbox identifier.",
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "email_id"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "type": "object",
+        "x-fastmcp-wrap-result": true
+      }
+    },
+    {
+      "name": "create_folder",
+      "description": "Create a new custom folder.\n\nArgs:\n    folder_name: Name of the folder to create\n\nReturns:\n    JSON with creation status.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "folder_name": {
+            "description": "Folder name.",
+            "minLength": 1,
+            "type": "string"
+          },
+          "mailbox_id": {
+            "default": "default",
+            "description": "Mailbox identifier.",
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "folder_name"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "type": "object",
+        "x-fastmcp-wrap-result": true
+      }
+    },
+    {
+      "name": "delete_contact",
+      "description": "Remove a contact from the address book.\n\nArgs:\n    email: Email address of the contact to delete",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "email": {
+            "format": "email",
+            "type": "string"
+          },
+          "mailbox_id": {
+            "default": "default",
+            "description": "Mailbox identifier.",
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "email"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "type": "object",
+        "x-fastmcp-wrap-result": true
+      }
+    },
+    {
+      "name": "delete_draft",
+      "description": "Delete a draft.\n\nArgs:\n    draft_id: ID of the draft to delete\n\nReturns:\n    JSON with deletion status.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "draft_id": {
+            "description": "Draft ID.",
+            "minLength": 1,
+            "type": "string"
+          },
+          "mailbox_id": {
+            "default": "default",
+            "description": "Mailbox identifier.",
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "draft_id"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "type": "object",
+        "x-fastmcp-wrap-result": true
+      }
+    },
+    {
+      "name": "delete_emails",
+      "description": "Delete one or more emails.\n\nBy default, moves them to Trash. Use permanent=True to skip Trash.\nDeleting from Trash permanently deletes. Partial success is allowed \u2014\nemails that don't exist surface in the errors list but don't abort the batch.\n\nArgs:\n    email_ids: IDs of the emails to delete (pass a single-element list for one)\n    permanent: Permanently delete (skip Trash)\n\nReturns:\n    JSON with per-id status and a deleted/failed count.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "email_ids": {
+            "description": "One or more email IDs.",
+            "items": {
+              "description": "Email ID.",
+              "minLength": 1,
+              "type": "string"
+            },
+            "minItems": 1,
+            "type": "array"
+          },
+          "permanent": {
+            "default": false,
+            "type": "boolean"
+          },
+          "mailbox_id": {
+            "default": "default",
+            "description": "Mailbox identifier.",
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "email_ids"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "type": "object",
+        "x-fastmcp-wrap-result": true
+      }
+    },
+    {
+      "name": "delete_folder",
+      "description": "Delete a custom folder.\n\nSystem folders (INBOX, Sent, Drafts, Trash) cannot be deleted.\nEmails in the deleted folder are moved to INBOX.\n\nArgs:\n    folder_name: Name of the folder to delete\n\nReturns:\n    JSON with deletion status.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "folder_name": {
+            "description": "Folder name.",
+            "minLength": 1,
+            "type": "string"
+          },
+          "mailbox_id": {
+            "default": "default",
+            "description": "Mailbox identifier.",
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "folder_name"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "type": "object",
+        "x-fastmcp-wrap-result": true
+      }
+    },
+    {
+      "name": "delete_group",
+      "description": "Remove a contact group from the address book.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "email": {
+            "format": "email",
+            "type": "string"
+          },
+          "mailbox_id": {
+            "default": "default",
+            "description": "Mailbox identifier.",
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "email"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "type": "object",
+        "x-fastmcp-wrap-result": true
+      }
+    },
+    {
+      "name": "download_attachment",
+      "description": "Download an attachment from an email.\n\nReturns the attachment content as base64-encoded data.\n\nArgs:\n    email_id: ID of the email\n    filename: Name of the attachment file\n\nReturns:\n    JSON with attachment data.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "email_id": {
+            "description": "Email ID.",
+            "minLength": 1,
+            "type": "string"
+          },
+          "filename": {
+            "description": "Attachment filename.",
+            "minLength": 1,
+            "type": "string"
+          },
+          "mailbox_id": {
+            "default": "default",
+            "description": "Mailbox identifier.",
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "email_id",
+          "filename"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "type": "object",
+        "x-fastmcp-wrap-result": true
+      }
+    },
+    {
+      "name": "edit_contact",
+      "description": "Update an existing contact's name.\n\nArgs:\n    email: Email address of the contact to update (lookup key)\n    name: New display name (optional, omit to keep current)",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "email": {
+            "format": "email",
+            "type": "string"
+          },
+          "name": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "mailbox_id": {
+            "default": "default",
+            "description": "Mailbox identifier.",
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "email"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "type": "object",
+        "x-fastmcp-wrap-result": true
+      }
+    },
+    {
+      "name": "edit_group",
+      "description": "Update an existing contact group.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "email": {
+            "format": "email",
+            "type": "string"
+          },
+          "name": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "members": {
+            "anyOf": [
+              {
+                "description": "Contact emails included in the group.",
+                "items": {
+                  "format": "email",
+                  "type": "string"
+                },
+                "minItems": 1,
+                "type": "array"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "mailbox_id": {
+            "default": "default",
+            "description": "Mailbox identifier.",
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "email"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "type": "object",
+        "x-fastmcp-wrap-result": true
+      }
+    },
+    {
+      "name": "export_state",
+      "description": "Export the full mailbox state as JSON.\n\nSingle-mailbox worlds emit ``MailboxData``; multi-mailbox worlds emit\n``MultiMailboxData``. Round-trips with import_state.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {},
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "anyOf": [
+              {
+                "additionalProperties": false,
+                "description": "Root schema for mock mailbox data.",
+                "properties": {
+                  "mailbox": {
+                    "additionalProperties": false,
+                    "description": "Identity of the mailbox owner",
+                    "properties": {
+                      "email": {
+                        "description": "Email address of the mailbox owner",
+                        "format": "email",
+                        "type": "string"
+                      },
+                      "name": {
+                        "description": "Display name of the mailbox owner",
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "email",
+                      "name"
+                    ],
+                    "type": "object"
+                  },
+                  "contacts": {
+                    "description": "Valid contacts",
+                    "items": {
+                      "additionalProperties": false,
+                      "description": "A valid email contact in the closed-world simulation.",
+                      "properties": {
+                        "email": {
+                          "description": "Email address of the contact",
+                          "format": "email",
+                          "type": "string"
+                        },
+                        "name": {
+                          "description": "Display name of the contact",
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "email",
+                        "name"
+                      ],
+                      "type": "object"
+                    },
+                    "type": "array"
+                  },
+                  "groups": {
+                    "description": "Addressable contact groups",
+                    "items": {
+                      "additionalProperties": false,
+                      "description": "An addressable email group in the closed-world simulation.",
+                      "properties": {
+                        "email": {
+                          "description": "Email address of the group",
+                          "format": "email",
+                          "type": "string"
+                        },
+                        "name": {
+                          "description": "Display name of the group",
+                          "type": "string"
+                        },
+                        "members": {
+                          "description": "Contact emails included in the group",
+                          "items": {
+                            "format": "email",
+                            "type": "string"
+                          },
+                          "minItems": 1,
+                          "type": "array"
+                        }
+                      },
+                      "required": [
+                        "email",
+                        "name",
+                        "members"
+                      ],
+                      "type": "object"
+                    },
+                    "type": "array"
+                  },
+                  "folders": {
+                    "description": "Custom folders",
+                    "items": {
+                      "additionalProperties": false,
+                      "description": "A custom email folder.",
+                      "properties": {
+                        "name": {
+                          "description": "Folder name",
+                          "minLength": 1,
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name"
+                      ],
+                      "type": "object"
+                    },
+                    "type": "array"
+                  },
+                  "emails": {
+                    "description": "All emails (including drafts in Drafts folder)",
+                    "items": {
+                      "additionalProperties": false,
+                      "description": "An email message in the mailbox.",
+                      "properties": {
+                        "email_id": {
+                          "description": "Unique email identifier",
+                          "minLength": 1,
+                          "type": "string"
+                        },
+                        "folder": {
+                          "description": "Folder containing the email",
+                          "minLength": 1,
+                          "type": "string"
+                        },
+                        "subject": {
+                          "description": "Email subject line",
+                          "type": "string"
+                        },
+                        "from_addr": {
+                          "description": "Sender email address",
+                          "format": "email",
+                          "type": "string"
+                        },
+                        "to_addr": {
+                          "anyOf": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "items": {
+                                "format": "email",
+                                "type": "string"
+                              },
+                              "type": "array"
+                            }
+                          ],
+                          "description": "Recipient(s), comma-separated string or list of strings"
+                        },
+                        "cc_addr": {
+                          "anyOf": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "null"
+                            },
+                            {
+                              "items": {
+                                "format": "email",
+                                "type": "string"
+                              },
+                              "type": "array"
+                            }
+                          ],
+                          "default": null,
+                          "description": "CC recipients, comma-separated string or list of strings"
+                        },
+                        "bcc_addr": {
+                          "anyOf": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "null"
+                            },
+                            {
+                              "items": {
+                                "format": "email",
+                                "type": "string"
+                              },
+                              "type": "array"
+                            }
+                          ],
+                          "default": null,
+                          "description": "BCC recipients, comma-separated string or list of strings"
+                        },
+                        "date": {
+                          "description": "Date/time the email was sent",
+                          "format": "date-time",
+                          "type": "string"
+                        },
+                        "message_id": {
+                          "description": "RFC 2822 Message-ID",
+                          "minLength": 1,
+                          "type": "string"
+                        },
+                        "in_reply_to": {
+                          "anyOf": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ],
+                          "default": null,
+                          "description": "Message-ID of the email this is replying to"
+                        },
+                        "body_text": {
+                          "description": "Plain text body",
+                          "type": "string"
+                        },
+                        "body_html": {
+                          "anyOf": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ],
+                          "default": null,
+                          "description": "HTML body"
+                        },
+                        "is_read": {
+                          "default": false,
+                          "description": "Whether the email has been read",
+                          "type": "boolean"
+                        },
+                        "is_important": {
+                          "default": false,
+                          "description": "Whether the email is marked important",
+                          "type": "boolean"
+                        },
+                        "labels": {
+                          "description": "Search labels attached to the email",
+                          "items": {
+                            "type": "string"
+                          },
+                          "type": "array"
+                        },
+                        "attachments": {
+                          "description": "Email attachments",
+                          "items": {
+                            "additionalProperties": false,
+                            "description": "An email attachment with base64-encoded content.",
+                            "properties": {
+                              "filename": {
+                                "description": "Filename of the attachment",
+                                "minLength": 1,
+                                "type": "string"
+                              },
+                              "content_type": {
+                                "description": "MIME type",
+                                "type": "string"
+                              },
+                              "content_base64": {
+                                "contentEncoding": "base64",
+                                "description": "Base64-encoded file content",
+                                "type": "string"
+                              }
+                            },
+                            "required": [
+                              "filename",
+                              "content_type",
+                              "content_base64"
+                            ],
+                            "type": "object"
+                          },
+                          "type": "array"
+                        },
+                        "scheduled_time": {
+                          "anyOf": [
+                            {
+                              "format": "date-time",
+                              "type": "string"
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ],
+                          "default": null,
+                          "description": "Scheduled send time (None if not scheduled)"
+                        }
+                      },
+                      "required": [
+                        "email_id",
+                        "folder",
+                        "subject",
+                        "from_addr",
+                        "to_addr",
+                        "date",
+                        "message_id",
+                        "body_text"
+                      ],
+                      "type": "object"
+                    },
+                    "type": "array"
+                  },
+                  "next_email_id": {
+                    "default": 1,
+                    "description": "Next email ID counter",
+                    "minimum": 1,
+                    "type": "integer"
+                  }
+                },
+                "required": [
+                  "mailbox"
+                ],
+                "type": "object"
+              },
+              {
+                "additionalProperties": false,
+                "description": "Root schema for multi-mailbox Google Mail state.",
+                "properties": {
+                  "mailboxes": {
+                    "additionalProperties": {
+                      "additionalProperties": false,
+                      "description": "Root schema for mock mailbox data.",
+                      "properties": {
+                        "mailbox": {
+                          "additionalProperties": false,
+                          "description": "Identity of the mailbox owner",
+                          "properties": {
+                            "email": {
+                              "description": "Email address of the mailbox owner",
+                              "format": "email",
+                              "type": "string"
+                            },
+                            "name": {
+                              "description": "Display name of the mailbox owner",
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "email",
+                            "name"
+                          ],
+                          "type": "object"
+                        },
+                        "contacts": {
+                          "description": "Valid contacts",
+                          "items": {
+                            "additionalProperties": false,
+                            "description": "A valid email contact in the closed-world simulation.",
+                            "properties": {
+                              "email": {
+                                "description": "Email address of the contact",
+                                "format": "email",
+                                "type": "string"
+                              },
+                              "name": {
+                                "description": "Display name of the contact",
+                                "type": "string"
+                              }
+                            },
+                            "required": [
+                              "email",
+                              "name"
+                            ],
+                            "type": "object"
+                          },
+                          "type": "array"
+                        },
+                        "groups": {
+                          "description": "Addressable contact groups",
+                          "items": {
+                            "additionalProperties": false,
+                            "description": "An addressable email group in the closed-world simulation.",
+                            "properties": {
+                              "email": {
+                                "description": "Email address of the group",
+                                "format": "email",
+                                "type": "string"
+                              },
+                              "name": {
+                                "description": "Display name of the group",
+                                "type": "string"
+                              },
+                              "members": {
+                                "description": "Contact emails included in the group",
+                                "items": {
+                                  "format": "email",
+                                  "type": "string"
+                                },
+                                "minItems": 1,
+                                "type": "array"
+                              }
+                            },
+                            "required": [
+                              "email",
+                              "name",
+                              "members"
+                            ],
+                            "type": "object"
+                          },
+                          "type": "array"
+                        },
+                        "folders": {
+                          "description": "Custom folders",
+                          "items": {
+                            "additionalProperties": false,
+                            "description": "A custom email folder.",
+                            "properties": {
+                              "name": {
+                                "description": "Folder name",
+                                "minLength": 1,
+                                "type": "string"
+                              }
+                            },
+                            "required": [
+                              "name"
+                            ],
+                            "type": "object"
+                          },
+                          "type": "array"
+                        },
+                        "emails": {
+                          "description": "All emails (including drafts in Drafts folder)",
+                          "items": {
+                            "additionalProperties": false,
+                            "description": "An email message in the mailbox.",
+                            "properties": {
+                              "email_id": {
+                                "description": "Unique email identifier",
+                                "minLength": 1,
+                                "type": "string"
+                              },
+                              "folder": {
+                                "description": "Folder containing the email",
+                                "minLength": 1,
+                                "type": "string"
+                              },
+                              "subject": {
+                                "description": "Email subject line",
+                                "type": "string"
+                              },
+                              "from_addr": {
+                                "description": "Sender email address",
+                                "format": "email",
+                                "type": "string"
+                              },
+                              "to_addr": {
+                                "anyOf": [
+                                  {
+                                    "type": "string"
+                                  },
+                                  {
+                                    "items": {
+                                      "format": "email",
+                                      "type": "string"
+                                    },
+                                    "type": "array"
+                                  }
+                                ],
+                                "description": "Recipient(s), comma-separated string or list of strings"
+                              },
+                              "cc_addr": {
+                                "anyOf": [
+                                  {
+                                    "type": "string"
+                                  },
+                                  {
+                                    "type": "null"
+                                  },
+                                  {
+                                    "items": {
+                                      "format": "email",
+                                      "type": "string"
+                                    },
+                                    "type": "array"
+                                  }
+                                ],
+                                "default": null,
+                                "description": "CC recipients, comma-separated string or list of strings"
+                              },
+                              "bcc_addr": {
+                                "anyOf": [
+                                  {
+                                    "type": "string"
+                                  },
+                                  {
+                                    "type": "null"
+                                  },
+                                  {
+                                    "items": {
+                                      "format": "email",
+                                      "type": "string"
+                                    },
+                                    "type": "array"
+                                  }
+                                ],
+                                "default": null,
+                                "description": "BCC recipients, comma-separated string or list of strings"
+                              },
+                              "date": {
+                                "description": "Date/time the email was sent",
+                                "format": "date-time",
+                                "type": "string"
+                              },
+                              "message_id": {
+                                "description": "RFC 2822 Message-ID",
+                                "minLength": 1,
+                                "type": "string"
+                              },
+                              "in_reply_to": {
+                                "anyOf": [
+                                  {
+                                    "type": "string"
+                                  },
+                                  {
+                                    "type": "null"
+                                  }
+                                ],
+                                "default": null,
+                                "description": "Message-ID of the email this is replying to"
+                              },
+                              "body_text": {
+                                "description": "Plain text body",
+                                "type": "string"
+                              },
+                              "body_html": {
+                                "anyOf": [
+                                  {
+                                    "type": "string"
+                                  },
+                                  {
+                                    "type": "null"
+                                  }
+                                ],
+                                "default": null,
+                                "description": "HTML body"
+                              },
+                              "is_read": {
+                                "default": false,
+                                "description": "Whether the email has been read",
+                                "type": "boolean"
+                              },
+                              "is_important": {
+                                "default": false,
+                                "description": "Whether the email is marked important",
+                                "type": "boolean"
+                              },
+                              "labels": {
+                                "description": "Search labels attached to the email",
+                                "items": {
+                                  "type": "string"
+                                },
+                                "type": "array"
+                              },
+                              "attachments": {
+                                "description": "Email attachments",
+                                "items": {
+                                  "additionalProperties": false,
+                                  "description": "An email attachment with base64-encoded content.",
+                                  "properties": {
+                                    "filename": {
+                                      "description": "Filename of the attachment",
+                                      "minLength": 1,
+                                      "type": "string"
+                                    },
+                                    "content_type": {
+                                      "description": "MIME type",
+                                      "type": "string"
+                                    },
+                                    "content_base64": {
+                                      "contentEncoding": "base64",
+                                      "description": "Base64-encoded file content",
+                                      "type": "string"
+                                    }
+                                  },
+                                  "required": [
+                                    "filename",
+                                    "content_type",
+                                    "content_base64"
+                                  ],
+                                  "type": "object"
+                                },
+                                "type": "array"
+                              },
+                              "scheduled_time": {
+                                "anyOf": [
+                                  {
+                                    "format": "date-time",
+                                    "type": "string"
+                                  },
+                                  {
+                                    "type": "null"
+                                  }
+                                ],
+                                "default": null,
+                                "description": "Scheduled send time (None if not scheduled)"
+                              }
+                            },
+                            "required": [
+                              "email_id",
+                              "folder",
+                              "subject",
+                              "from_addr",
+                              "to_addr",
+                              "date",
+                              "message_id",
+                              "body_text"
+                            ],
+                            "type": "object"
+                          },
+                          "type": "array"
+                        },
+                        "next_email_id": {
+                          "default": 1,
+                          "description": "Next email ID counter",
+                          "minimum": 1,
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "mailbox"
+                      ],
+                      "type": "object"
+                    },
+                    "description": "Mailbox state keyed by mailbox identifier.",
+                    "minProperties": 1,
+                    "propertyNames": {
+                      "description": "Mailbox identifier",
+                      "minLength": 1
+                    },
+                    "type": "object"
+                  }
+                },
+                "required": [
+                  "mailboxes"
+                ],
+                "type": "object"
+              }
+            ]
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "type": "object",
+        "x-fastmcp-wrap-result": true
+      }
+    },
+    {
+      "name": "forward_email",
+      "description": "Forward an email to one or more recipients.\n\nIncludes the original message content and any attachments.\n\nArgs:\n    email_id: ID of the email to forward\n    to: Recipient(s) to forward to, comma-separated\n    body: Additional message (optional)\n\nReturns:\n    JSON with sent status and forwarded email summary.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "email_id": {
+            "description": "Email ID.",
+            "minLength": 1,
+            "type": "string"
+          },
+          "to": {
+            "type": "string"
+          },
+          "body": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "mailbox_id": {
+            "default": "default",
+            "description": "Mailbox identifier.",
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "email_id",
+          "to"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "type": "object",
+        "x-fastmcp-wrap-result": true
+      }
+    },
+    {
+      "name": "get_contacts",
+      "description": "Get all contacts.\n\nReturns the person contacts in your address book. Groups are available\nthrough get_groups.\n\nReturns:\n    JSON with contact list.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "mailbox_id": {
+            "default": "default",
+            "description": "Mailbox identifier.",
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "type": "object",
+        "x-fastmcp-wrap-result": true
+      }
+    },
+    {
+      "name": "get_drafts",
+      "description": "Get all drafts with pagination.\n\nArgs:\n    page: Page number (1-indexed)\n    page_size: Results per page (max 100)\n\nReturns:\n    JSON with drafts and pagination info.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "page": {
+            "default": 1,
+            "description": "Page number, starting at 1.",
+            "minimum": 1,
+            "type": "integer"
+          },
+          "page_size": {
+            "default": 20,
+            "description": "Number of results per page.",
+            "maximum": 100,
+            "minimum": 1,
+            "type": "integer"
+          },
+          "mailbox_id": {
+            "default": "default",
+            "description": "Mailbox identifier.",
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "type": "object",
+        "x-fastmcp-wrap-result": true
+      }
+    },
+    {
+      "name": "get_emails",
+      "description": "Get emails from the mailbox, optionally filtered by folder.\n\nReturns a paginated list of emails sorted by date (newest first).\n\nArgs:\n    folder: Folder to filter by (optional)\n    page: Page number (1-indexed)\n    page_size: Results per page (max 100)\n\nReturns:\n    JSON with emails and pagination info.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "folder": {
+            "anyOf": [
+              {
+                "description": "Folder name.",
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "page": {
+            "default": 1,
+            "description": "Page number, starting at 1.",
+            "minimum": 1,
+            "type": "integer"
+          },
+          "page_size": {
+            "default": 20,
+            "description": "Number of results per page.",
+            "maximum": 100,
+            "minimum": 1,
+            "type": "integer"
+          },
+          "mailbox_id": {
+            "default": "default",
+            "description": "Mailbox identifier.",
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "type": "object",
+        "x-fastmcp-wrap-result": true
+      }
+    },
+    {
+      "name": "get_folders",
+      "description": "Get all folders with message counts.\n\nReturns system folders (INBOX, Sent, Drafts, Trash) and custom folders.\n\nReturns:\n    JSON with folder list including name, total, unread, is_system.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "mailbox_id": {
+            "default": "default",
+            "description": "Mailbox identifier.",
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "type": "object",
+        "x-fastmcp-wrap-result": true
+      }
+    },
+    {
+      "name": "get_groups",
+      "description": "Get all addressable contact groups.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "mailbox_id": {
+            "default": "default",
+            "description": "Mailbox identifier.",
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "type": "object",
+        "x-fastmcp-wrap-result": true
+      }
+    },
+    {
+      "name": "get_mailbox_stats",
+      "description": "Get overall mailbox statistics.\n\nReturns owner info, total counts, and per-folder breakdown.\n\nReturns:\n    JSON with comprehensive mailbox statistics.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "mailbox_id": {
+            "default": "default",
+            "description": "Mailbox identifier.",
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "type": "object",
+        "x-fastmcp-wrap-result": true
+      }
+    },
+    {
+      "name": "get_scheduled_emails",
+      "description": "Get list of emails scheduled for later delivery.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "page": {
+            "default": 1,
+            "description": "Page number, starting at 1.",
+            "minimum": 1,
+            "type": "integer"
+          },
+          "page_size": {
+            "default": 20,
+            "description": "Number of results per page.",
+            "maximum": 100,
+            "minimum": 1,
+            "type": "integer"
+          },
+          "mailbox_id": {
+            "default": "default",
+            "description": "Mailbox identifier.",
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "type": "object",
+        "x-fastmcp-wrap-result": true
+      }
+    },
+    {
+      "name": "get_unread_count",
+      "description": "Get unread email count for folders.\n\nArgs:\n    folder: Specific folder (optional)\n\nReturns:\n    JSON with unread counts per folder.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "folder": {
+            "anyOf": [
+              {
+                "description": "Folder name.",
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "mailbox_id": {
+            "default": "default",
+            "description": "Mailbox identifier.",
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "type": "object",
+        "x-fastmcp-wrap-result": true
+      }
+    },
+    {
+      "name": "import_state",
+      "description": "Replace the full mailbox state with the provided JSON.\n\nAccepts either the flat MailboxData shape (loaded into the ``default``\nmailbox) or the multi-mailbox wrapper (``{\"mailboxes\": {mailbox_id: ...}}``).\nFor synthetic-data injection and test setup.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "state": {
+            "anyOf": [
+              {
+                "additionalProperties": false,
+                "description": "Root schema for mock mailbox data.",
+                "properties": {
+                  "mailbox": {
+                    "additionalProperties": false,
+                    "description": "Identity of the mailbox owner",
+                    "properties": {
+                      "email": {
+                        "description": "Email address of the mailbox owner",
+                        "format": "email",
+                        "type": "string"
+                      },
+                      "name": {
+                        "description": "Display name of the mailbox owner",
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "email",
+                      "name"
+                    ],
+                    "type": "object"
+                  },
+                  "contacts": {
+                    "description": "Valid contacts",
+                    "items": {
+                      "additionalProperties": false,
+                      "description": "A valid email contact in the closed-world simulation.",
+                      "properties": {
+                        "email": {
+                          "description": "Email address of the contact",
+                          "format": "email",
+                          "type": "string"
+                        },
+                        "name": {
+                          "description": "Display name of the contact",
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "email",
+                        "name"
+                      ],
+                      "type": "object"
+                    },
+                    "type": "array"
+                  },
+                  "groups": {
+                    "description": "Addressable contact groups",
+                    "items": {
+                      "additionalProperties": false,
+                      "description": "An addressable email group in the closed-world simulation.",
+                      "properties": {
+                        "email": {
+                          "description": "Email address of the group",
+                          "format": "email",
+                          "type": "string"
+                        },
+                        "name": {
+                          "description": "Display name of the group",
+                          "type": "string"
+                        },
+                        "members": {
+                          "description": "Contact emails included in the group",
+                          "items": {
+                            "format": "email",
+                            "type": "string"
+                          },
+                          "minItems": 1,
+                          "type": "array"
+                        }
+                      },
+                      "required": [
+                        "email",
+                        "name",
+                        "members"
+                      ],
+                      "type": "object"
+                    },
+                    "type": "array"
+                  },
+                  "folders": {
+                    "description": "Custom folders",
+                    "items": {
+                      "additionalProperties": false,
+                      "description": "A custom email folder.",
+                      "properties": {
+                        "name": {
+                          "description": "Folder name",
+                          "minLength": 1,
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name"
+                      ],
+                      "type": "object"
+                    },
+                    "type": "array"
+                  },
+                  "emails": {
+                    "description": "All emails (including drafts in Drafts folder)",
+                    "items": {
+                      "additionalProperties": false,
+                      "description": "An email message in the mailbox.",
+                      "properties": {
+                        "email_id": {
+                          "description": "Unique email identifier",
+                          "minLength": 1,
+                          "type": "string"
+                        },
+                        "folder": {
+                          "description": "Folder containing the email",
+                          "minLength": 1,
+                          "type": "string"
+                        },
+                        "subject": {
+                          "description": "Email subject line",
+                          "type": "string"
+                        },
+                        "from_addr": {
+                          "description": "Sender email address",
+                          "format": "email",
+                          "type": "string"
+                        },
+                        "to_addr": {
+                          "anyOf": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "items": {
+                                "format": "email",
+                                "type": "string"
+                              },
+                              "type": "array"
+                            }
+                          ],
+                          "description": "Recipient(s), comma-separated string or list of strings"
+                        },
+                        "cc_addr": {
+                          "anyOf": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "null"
+                            },
+                            {
+                              "items": {
+                                "format": "email",
+                                "type": "string"
+                              },
+                              "type": "array"
+                            }
+                          ],
+                          "default": null,
+                          "description": "CC recipients, comma-separated string or list of strings"
+                        },
+                        "bcc_addr": {
+                          "anyOf": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "null"
+                            },
+                            {
+                              "items": {
+                                "format": "email",
+                                "type": "string"
+                              },
+                              "type": "array"
+                            }
+                          ],
+                          "default": null,
+                          "description": "BCC recipients, comma-separated string or list of strings"
+                        },
+                        "date": {
+                          "description": "Date/time the email was sent",
+                          "format": "date-time",
+                          "type": "string"
+                        },
+                        "message_id": {
+                          "description": "RFC 2822 Message-ID",
+                          "minLength": 1,
+                          "type": "string"
+                        },
+                        "in_reply_to": {
+                          "anyOf": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ],
+                          "default": null,
+                          "description": "Message-ID of the email this is replying to"
+                        },
+                        "body_text": {
+                          "description": "Plain text body",
+                          "type": "string"
+                        },
+                        "body_html": {
+                          "anyOf": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ],
+                          "default": null,
+                          "description": "HTML body"
+                        },
+                        "is_read": {
+                          "default": false,
+                          "description": "Whether the email has been read",
+                          "type": "boolean"
+                        },
+                        "is_important": {
+                          "default": false,
+                          "description": "Whether the email is marked important",
+                          "type": "boolean"
+                        },
+                        "labels": {
+                          "description": "Search labels attached to the email",
+                          "items": {
+                            "type": "string"
+                          },
+                          "type": "array"
+                        },
+                        "attachments": {
+                          "description": "Email attachments",
+                          "items": {
+                            "additionalProperties": false,
+                            "description": "An email attachment with base64-encoded content.",
+                            "properties": {
+                              "filename": {
+                                "description": "Filename of the attachment",
+                                "minLength": 1,
+                                "type": "string"
+                              },
+                              "content_type": {
+                                "description": "MIME type",
+                                "type": "string"
+                              },
+                              "content_base64": {
+                                "contentEncoding": "base64",
+                                "description": "Base64-encoded file content",
+                                "type": "string"
+                              }
+                            },
+                            "required": [
+                              "filename",
+                              "content_type",
+                              "content_base64"
+                            ],
+                            "type": "object"
+                          },
+                          "type": "array"
+                        },
+                        "scheduled_time": {
+                          "anyOf": [
+                            {
+                              "format": "date-time",
+                              "type": "string"
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ],
+                          "default": null,
+                          "description": "Scheduled send time (None if not scheduled)"
+                        }
+                      },
+                      "required": [
+                        "email_id",
+                        "folder",
+                        "subject",
+                        "from_addr",
+                        "to_addr",
+                        "date",
+                        "message_id",
+                        "body_text"
+                      ],
+                      "type": "object"
+                    },
+                    "type": "array"
+                  },
+                  "next_email_id": {
+                    "default": 1,
+                    "description": "Next email ID counter",
+                    "minimum": 1,
+                    "type": "integer"
+                  }
+                },
+                "required": [
+                  "mailbox"
+                ],
+                "type": "object"
+              },
+              {
+                "additionalProperties": false,
+                "description": "Root schema for multi-mailbox Google Mail state.",
+                "properties": {
+                  "mailboxes": {
+                    "additionalProperties": {
+                      "additionalProperties": false,
+                      "description": "Root schema for mock mailbox data.",
+                      "properties": {
+                        "mailbox": {
+                          "additionalProperties": false,
+                          "description": "Identity of the mailbox owner",
+                          "properties": {
+                            "email": {
+                              "description": "Email address of the mailbox owner",
+                              "format": "email",
+                              "type": "string"
+                            },
+                            "name": {
+                              "description": "Display name of the mailbox owner",
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "email",
+                            "name"
+                          ],
+                          "type": "object"
+                        },
+                        "contacts": {
+                          "description": "Valid contacts",
+                          "items": {
+                            "additionalProperties": false,
+                            "description": "A valid email contact in the closed-world simulation.",
+                            "properties": {
+                              "email": {
+                                "description": "Email address of the contact",
+                                "format": "email",
+                                "type": "string"
+                              },
+                              "name": {
+                                "description": "Display name of the contact",
+                                "type": "string"
+                              }
+                            },
+                            "required": [
+                              "email",
+                              "name"
+                            ],
+                            "type": "object"
+                          },
+                          "type": "array"
+                        },
+                        "groups": {
+                          "description": "Addressable contact groups",
+                          "items": {
+                            "additionalProperties": false,
+                            "description": "An addressable email group in the closed-world simulation.",
+                            "properties": {
+                              "email": {
+                                "description": "Email address of the group",
+                                "format": "email",
+                                "type": "string"
+                              },
+                              "name": {
+                                "description": "Display name of the group",
+                                "type": "string"
+                              },
+                              "members": {
+                                "description": "Contact emails included in the group",
+                                "items": {
+                                  "format": "email",
+                                  "type": "string"
+                                },
+                                "minItems": 1,
+                                "type": "array"
+                              }
+                            },
+                            "required": [
+                              "email",
+                              "name",
+                              "members"
+                            ],
+                            "type": "object"
+                          },
+                          "type": "array"
+                        },
+                        "folders": {
+                          "description": "Custom folders",
+                          "items": {
+                            "additionalProperties": false,
+                            "description": "A custom email folder.",
+                            "properties": {
+                              "name": {
+                                "description": "Folder name",
+                                "minLength": 1,
+                                "type": "string"
+                              }
+                            },
+                            "required": [
+                              "name"
+                            ],
+                            "type": "object"
+                          },
+                          "type": "array"
+                        },
+                        "emails": {
+                          "description": "All emails (including drafts in Drafts folder)",
+                          "items": {
+                            "additionalProperties": false,
+                            "description": "An email message in the mailbox.",
+                            "properties": {
+                              "email_id": {
+                                "description": "Unique email identifier",
+                                "minLength": 1,
+                                "type": "string"
+                              },
+                              "folder": {
+                                "description": "Folder containing the email",
+                                "minLength": 1,
+                                "type": "string"
+                              },
+                              "subject": {
+                                "description": "Email subject line",
+                                "type": "string"
+                              },
+                              "from_addr": {
+                                "description": "Sender email address",
+                                "format": "email",
+                                "type": "string"
+                              },
+                              "to_addr": {
+                                "anyOf": [
+                                  {
+                                    "type": "string"
+                                  },
+                                  {
+                                    "items": {
+                                      "format": "email",
+                                      "type": "string"
+                                    },
+                                    "type": "array"
+                                  }
+                                ],
+                                "description": "Recipient(s), comma-separated string or list of strings"
+                              },
+                              "cc_addr": {
+                                "anyOf": [
+                                  {
+                                    "type": "string"
+                                  },
+                                  {
+                                    "type": "null"
+                                  },
+                                  {
+                                    "items": {
+                                      "format": "email",
+                                      "type": "string"
+                                    },
+                                    "type": "array"
+                                  }
+                                ],
+                                "default": null,
+                                "description": "CC recipients, comma-separated string or list of strings"
+                              },
+                              "bcc_addr": {
+                                "anyOf": [
+                                  {
+                                    "type": "string"
+                                  },
+                                  {
+                                    "type": "null"
+                                  },
+                                  {
+                                    "items": {
+                                      "format": "email",
+                                      "type": "string"
+                                    },
+                                    "type": "array"
+                                  }
+                                ],
+                                "default": null,
+                                "description": "BCC recipients, comma-separated string or list of strings"
+                              },
+                              "date": {
+                                "description": "Date/time the email was sent",
+                                "format": "date-time",
+                                "type": "string"
+                              },
+                              "message_id": {
+                                "description": "RFC 2822 Message-ID",
+                                "minLength": 1,
+                                "type": "string"
+                              },
+                              "in_reply_to": {
+                                "anyOf": [
+                                  {
+                                    "type": "string"
+                                  },
+                                  {
+                                    "type": "null"
+                                  }
+                                ],
+                                "default": null,
+                                "description": "Message-ID of the email this is replying to"
+                              },
+                              "body_text": {
+                                "description": "Plain text body",
+                                "type": "string"
+                              },
+                              "body_html": {
+                                "anyOf": [
+                                  {
+                                    "type": "string"
+                                  },
+                                  {
+                                    "type": "null"
+                                  }
+                                ],
+                                "default": null,
+                                "description": "HTML body"
+                              },
+                              "is_read": {
+                                "default": false,
+                                "description": "Whether the email has been read",
+                                "type": "boolean"
+                              },
+                              "is_important": {
+                                "default": false,
+                                "description": "Whether the email is marked important",
+                                "type": "boolean"
+                              },
+                              "labels": {
+                                "description": "Search labels attached to the email",
+                                "items": {
+                                  "type": "string"
+                                },
+                                "type": "array"
+                              },
+                              "attachments": {
+                                "description": "Email attachments",
+                                "items": {
+                                  "additionalProperties": false,
+                                  "description": "An email attachment with base64-encoded content.",
+                                  "properties": {
+                                    "filename": {
+                                      "description": "Filename of the attachment",
+                                      "minLength": 1,
+                                      "type": "string"
+                                    },
+                                    "content_type": {
+                                      "description": "MIME type",
+                                      "type": "string"
+                                    },
+                                    "content_base64": {
+                                      "contentEncoding": "base64",
+                                      "description": "Base64-encoded file content",
+                                      "type": "string"
+                                    }
+                                  },
+                                  "required": [
+                                    "filename",
+                                    "content_type",
+                                    "content_base64"
+                                  ],
+                                  "type": "object"
+                                },
+                                "type": "array"
+                              },
+                              "scheduled_time": {
+                                "anyOf": [
+                                  {
+                                    "format": "date-time",
+                                    "type": "string"
+                                  },
+                                  {
+                                    "type": "null"
+                                  }
+                                ],
+                                "default": null,
+                                "description": "Scheduled send time (None if not scheduled)"
+                              }
+                            },
+                            "required": [
+                              "email_id",
+                              "folder",
+                              "subject",
+                              "from_addr",
+                              "to_addr",
+                              "date",
+                              "message_id",
+                              "body_text"
+                            ],
+                            "type": "object"
+                          },
+                          "type": "array"
+                        },
+                        "next_email_id": {
+                          "default": 1,
+                          "description": "Next email ID counter",
+                          "minimum": 1,
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "mailbox"
+                      ],
+                      "type": "object"
+                    },
+                    "description": "Mailbox state keyed by mailbox identifier.",
+                    "minProperties": 1,
+                    "propertyNames": {
+                      "description": "Mailbox identifier",
+                      "minLength": 1
+                    },
+                    "type": "object"
+                  }
+                },
+                "required": [
+                  "mailboxes"
+                ],
+                "type": "object"
+              }
+            ]
+          }
+        },
+        "required": [
+          "state"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "type": "object"
+      }
+    },
+    {
+      "name": "list_mailboxes",
+      "description": "List all available mailboxes.\n\nReturns:\n    JSON with mailbox IDs, email addresses, and names.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {},
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "type": "object",
+        "x-fastmcp-wrap-result": true
+      }
+    },
+    {
+      "name": "mark_emails",
+      "description": "Mark emails as read/unread or important/not important.\n\nArgs:\n    email_ids: List of email IDs to mark\n    is_read: Set read status (optional)\n    is_important: Set important status (optional)\n\nReturns:\n    JSON with number of emails updated.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "email_ids": {
+            "description": "One or more email IDs.",
+            "items": {
+              "description": "Email ID.",
+              "minLength": 1,
+              "type": "string"
+            },
+            "minItems": 1,
+            "type": "array"
+          },
+          "is_read": {
+            "anyOf": [
+              {
+                "type": "boolean"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "is_important": {
+            "anyOf": [
+              {
+                "type": "boolean"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "mailbox_id": {
+            "default": "default",
+            "description": "Mailbox identifier.",
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "email_ids"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "type": "object",
+        "x-fastmcp-wrap-result": true
+      }
+    },
+    {
+      "name": "move_emails",
+      "description": "Move one or more emails to a different folder.\n\nPartial success is allowed \u2014 emails or folders that don't exist surface\nin the errors list but don't abort the batch.\n\nArgs:\n    email_ids: IDs of the emails to move (pass a single-element list for one)\n    target_folder: Name of the target folder\n\nReturns:\n    JSON with per-id status and a moved/failed count.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "email_ids": {
+            "description": "One or more email IDs.",
+            "items": {
+              "description": "Email ID.",
+              "minLength": 1,
+              "type": "string"
+            },
+            "minItems": 1,
+            "type": "array"
+          },
+          "target_folder": {
+            "description": "Folder name.",
+            "minLength": 1,
+            "type": "string"
+          },
+          "mailbox_id": {
+            "default": "default",
+            "description": "Mailbox identifier.",
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "email_ids",
+          "target_folder"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "type": "object",
+        "x-fastmcp-wrap-result": true
+      }
+    },
+    {
+      "name": "read_email",
+      "description": "Read an email and mark it as read.\n\nReturns the full email content including body and attachments.\n\nArgs:\n    email_id: ID of the email to read\n\nReturns:\n    JSON with full email details.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "email_id": {
+            "description": "Email ID.",
+            "minLength": 1,
+            "type": "string"
+          },
+          "mailbox_id": {
+            "default": "default",
+            "description": "Mailbox identifier.",
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "email_id"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "type": "object",
+        "x-fastmcp-wrap-result": true
+      }
+    },
+    {
+      "name": "reply_email",
+      "description": "Reply to an email.\n\nCreates a reply with proper subject prefix and recipients.\n\nArgs:\n    email_id: ID of the email to reply to\n    body: Reply body text\n    html_body: HTML body (optional)\n    reply_all: Reply to all recipients\n\nReturns:\n    JSON with sent status and reply email summary.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "email_id": {
+            "description": "Email ID.",
+            "minLength": 1,
+            "type": "string"
+          },
+          "body": {
+            "type": "string"
+          },
+          "html_body": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "reply_all": {
+            "default": false,
+            "type": "boolean"
+          },
+          "mailbox_id": {
+            "default": "default",
+            "description": "Mailbox identifier.",
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "email_id",
+          "body"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "type": "object",
+        "x-fastmcp-wrap-result": true
+      }
+    },
+    {
+      "name": "save_draft",
+      "description": "Save a new email draft.\n\nArgs:\n    subject: Draft subject\n    body: Draft body\n    html_body: HTML body (optional)\n    to: Recipient(s), comma-separated (optional)\n    cc: CC recipient(s), comma-separated (optional)\n    bcc: BCC recipient(s), comma-separated (optional)\n\nReturns:\n    JSON with saved draft details.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "subject": {
+            "default": "",
+            "type": "string"
+          },
+          "body": {
+            "default": "",
+            "type": "string"
+          },
+          "html_body": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "to": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "cc": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "bcc": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "mailbox_id": {
+            "default": "default",
+            "description": "Mailbox identifier.",
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "type": "object",
+        "x-fastmcp-wrap-result": true
+      }
+    },
+    {
+      "name": "schedule_email",
+      "description": "Schedule an email for later delivery.\n\nArgs:\n    to: Recipient(s), comma-separated\n    subject: Email subject\n    body: Plain text email body\n    scheduled_time: ISO 8601 datetime for when to send (e.g., '2024-12-25T09:00:00Z')\n    html_body: HTML body (optional)\n    cc: CC recipient(s), comma-separated (optional)\n    bcc: BCC recipient(s), comma-separated (optional)",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "to": {
+            "type": "string"
+          },
+          "subject": {
+            "type": "string"
+          },
+          "body": {
+            "type": "string"
+          },
+          "scheduled_time": {
+            "description": "ISO 8601 scheduled send time.",
+            "format": "date-time",
+            "type": "string"
+          },
+          "html_body": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "cc": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "bcc": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "mailbox_id": {
+            "default": "default",
+            "description": "Mailbox identifier.",
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "to",
+          "subject",
+          "body",
+          "scheduled_time"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "type": "object",
+        "x-fastmcp-wrap-result": true
+      }
+    },
+    {
+      "name": "search_contacts",
+      "description": "Search contacts by name or email address (case-insensitive).\n\nArgs:\n    query: Search string to match against contact name or email",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "query": {
+            "type": "string"
+          },
+          "mailbox_id": {
+            "default": "default",
+            "description": "Mailbox identifier.",
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "query"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "type": "object",
+        "x-fastmcp-wrap-result": true
+      }
+    },
+    {
+      "name": "search_emails",
+      "description": "Search emails by query string. Supports Gmail-style operators.\n\nBare words are ANDed together and matched across subject, body, from,\nand to. Double-quoted segments require exact adjacency. Combine freely,\ne.g. `from:alice after:2026/03/01 invoice`.\n\nOperators:\n  from:alice              match sender substring (alice@... hits this)\n  to:bob                  match to recipient substring (strict; use cc:/bcc: for other fields)\n  cc:alice / bcc:alice    match cc/bcc recipient substring\n  subject:meeting         match subject substring\n  has:attachment          messages with one or more attachments\n  filename:agenda.pdf     match attachment filename substring\n  is:unread               state filters: unread, read, important\n  in:sent                  exact folder match\n  label:client             exact label match when labels exist; otherwise folder-style match\n  \"exact phrase\"          match a contiguous phrase\n  -term                   exclude messages containing term (works with operators, e.g. -from:bob)\n  invoice OR billing      boolean OR (uppercase; lowercase 'or' is literal)\n  before:2026/04/01       messages strictly before date (YYYY/MM/DD or YYYY-MM-DD)\n  after:2026/04/01        messages on or after date\n  newer_than:7d           messages within last N days (d), months (m = 30d), or years (y = 365d)\n  older_than:1y           messages older than N d|m|y\n\nParenthesized boolean grouping is not supported; `OR` joins adjacent terms only.\nUnsupported or malformed search syntax is reported in a `warnings` array\nwhile preserving best-effort search behavior.\n\nArgs:\n    query: Search query (supports the operators above).\n    folder: Folder to limit search (optional).\n    page: Page number (1-indexed).\n    page_size: Results per page (max 100).\n\nReturns:\n    JSON with matching emails and pagination info.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "query": {
+            "type": "string"
+          },
+          "folder": {
+            "anyOf": [
+              {
+                "description": "Folder name.",
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "page": {
+            "default": 1,
+            "description": "Page number, starting at 1.",
+            "minimum": 1,
+            "type": "integer"
+          },
+          "page_size": {
+            "default": 20,
+            "description": "Number of results per page.",
+            "maximum": 100,
+            "minimum": 1,
+            "type": "integer"
+          },
+          "mailbox_id": {
+            "default": "default",
+            "description": "Mailbox identifier.",
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "query"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "type": "object",
+        "x-fastmcp-wrap-result": true
+      }
+    },
+    {
+      "name": "search_groups",
+      "description": "Search groups by name or email address (case-insensitive).",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "query": {
+            "type": "string"
+          },
+          "mailbox_id": {
+            "default": "default",
+            "description": "Mailbox identifier.",
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "query"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "type": "object",
+        "x-fastmcp-wrap-result": true
+      }
+    },
+    {
+      "name": "send_email",
+      "description": "Send an email.\n\nRecipients must be valid contacts in your address book.\nIf sending to a group you're a member of, you'll receive a copy.\n\nArgs:\n    to: Recipient(s), comma-separated\n    subject: Email subject\n    body: Plain text email body\n    html_body: HTML body (optional)\n    cc: CC recipients, comma-separated (optional)\n    bcc: BCC recipients, comma-separated (optional)\n    attachments: Paths to files to attach (optional)\n\nReturns:\n    JSON with sent status and email summary.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "to": {
+            "type": "string"
+          },
+          "subject": {
+            "type": "string"
+          },
+          "body": {
+            "type": "string"
+          },
+          "html_body": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "cc": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "bcc": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "attachments": {
+            "anyOf": [
+              {
+                "description": "Paths to files to attach.",
+                "items": {
+                  "description": "Path to a file to attach.",
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "minItems": 1,
+                "type": "array"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "mailbox_id": {
+            "default": "default",
+            "description": "Mailbox identifier.",
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "to",
+          "subject",
+          "body"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "type": "object",
+        "x-fastmcp-wrap-result": true
+      }
+    },
+    {
+      "name": "update_draft",
+      "description": "Update an existing draft.\n\nOnly provided fields are updated; others remain unchanged.\n\nArgs:\n    draft_id: ID of the draft to update\n    subject: New subject (optional)\n    body: New body (optional)\n    html_body: New HTML body (optional)\n    to: New recipient(s), comma-separated (optional)\n    cc: New CC recipient(s), comma-separated (optional)\n    bcc: New BCC recipient(s), comma-separated (optional)\n\nReturns:\n    JSON with updated draft details.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "draft_id": {
+            "description": "Draft ID.",
+            "minLength": 1,
+            "type": "string"
+          },
+          "subject": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "body": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "html_body": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "to": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "cc": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "bcc": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "mailbox_id": {
+            "default": "default",
+            "description": "Mailbox identifier.",
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "draft_id"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "properties": {
+          "result": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "type": "object",
+        "x-fastmcp-wrap-result": true
+      }
+    }
+  ],
+  "toolsets": {
+    "read": [
+      "download_attachment",
+      "get_contacts",
+      "get_groups",
+      "get_drafts",
+      "get_emails",
+      "get_folders",
+      "get_mailbox_stats",
+      "get_scheduled_emails",
+      "get_unread_count",
+      "list_mailboxes",
+      "search_contacts",
+      "search_groups",
+      "search_emails"
+    ],
+    "write": [
+      "add_contact",
+      "add_group",
+      "cancel_scheduled_email",
+      "create_folder",
+      "delete_contact",
+      "delete_group",
+      "delete_draft",
+      "delete_emails",
+      "delete_folder",
+      "edit_contact",
+      "edit_group",
+      "forward_email",
+      "mark_emails",
+      "move_emails",
+      "read_email",
+      "reply_email",
+      "save_draft",
+      "schedule_email",
+      "send_email",
+      "update_draft"
+    ],
+    "core": [
+      "forward_email",
+      "get_emails",
+      "read_email",
+      "reply_email",
+      "search_emails",
+      "send_email",
+      "create_folder",
+      "delete_draft",
+      "delete_emails",
+      "delete_folder",
+      "download_attachment",
+      "get_contacts",
+      "get_drafts",
+      "get_folders",
+      "get_mailbox_stats",
+      "get_unread_count",
+      "mark_emails",
+      "move_emails",
+      "save_draft",
+      "update_draft"
+    ],
+    "messages": [
+      "delete_emails",
+      "download_attachment",
+      "forward_email",
+      "get_emails",
+      "get_mailbox_stats",
+      "get_unread_count",
+      "list_mailboxes",
+      "mark_emails",
+      "move_emails",
+      "read_email",
+      "reply_email",
+      "search_emails",
+      "send_email"
+    ],
+    "contacts": [
+      "add_contact",
+      "add_group",
+      "delete_contact",
+      "delete_group",
+      "edit_contact",
+      "edit_group",
+      "get_contacts",
+      "get_groups",
+      "search_contacts",
+      "search_groups"
+    ],
+    "folders": [
+      "create_folder",
+      "delete_folder",
+      "get_folders",
+      "move_emails"
+    ],
+    "drafts": [
+      "delete_draft",
+      "get_drafts",
+      "save_draft",
+      "update_draft"
+    ],
+    "scheduling": [
+      "cancel_scheduled_email",
+      "get_scheduled_emails",
+      "schedule_email"
+    ],
+    "toolathlon_legacy": [
+      "create_folder",
+      "delete_draft",
+      "delete_emails",
+      "delete_folder",
+      "download_attachment",
+      "forward_email",
+      "get_contacts",
+      "get_groups",
+      "get_drafts",
+      "get_emails",
+      "get_folders",
+      "get_mailbox_stats",
+      "get_unread_count",
+      "mark_emails",
+      "move_emails",
+      "read_email",
+      "reply_email",
+      "save_draft",
+      "search_emails",
+      "send_email",
+      "update_draft"
+    ],
+    "state": [
+      "export_state",
+      "import_state"
+    ]
+  }
+}

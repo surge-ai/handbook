@@ -1,0 +1,189 @@
+{
+  "users": {
+    "U001": {
+      "id": "U001",
+      "team_id": "T001",
+      "name": "sarah.chen",
+      "deleted": false,
+      "profile": {
+        "real_name": "Sarah Chen",
+        "display_name": "sarah.chen",
+        "email": "sarah.chen@vanguardshield.com",
+        "title": "Finance Manager"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U002": {
+      "id": "U002",
+      "team_id": "T001",
+      "name": "david.park",
+      "deleted": false,
+      "profile": {
+        "real_name": "David Park",
+        "display_name": "david.park",
+        "email": "david.park@vanguardshield.com",
+        "title": "Senior Finance Manager"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U003": {
+      "id": "U003",
+      "team_id": "T001",
+      "name": "marcus.vance",
+      "deleted": false,
+      "profile": {
+        "real_name": "Marcus Vance",
+        "display_name": "marcus.vance",
+        "email": "marcus.vance@vanguardshield.com",
+        "title": "Finance Controller"
+      },
+      "is_admin": true,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U004": {
+      "id": "U004",
+      "team_id": "T001",
+      "name": "jennifer.walsh",
+      "deleted": false,
+      "profile": {
+        "real_name": "Jennifer Walsh",
+        "display_name": "jennifer.walsh",
+        "email": "jennifer.walsh@vanguardshield.com",
+        "title": "VP Finance"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U005": {
+      "id": "U005",
+      "team_id": "T001",
+      "name": "junior.analyst",
+      "deleted": false,
+      "profile": {
+        "real_name": "Junior Operations Analyst",
+        "display_name": "junior.analyst",
+        "email": "junior.analyst@vanguardshield.com",
+        "title": "Junior Operations Analyst"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    }
+  },
+  "channels": {
+    "C001": {
+      "id": "C001",
+      "name": "finance-approvals",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1704067200,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "finance-approvals",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1704067200,
+      "creator": "U004",
+      "shared_team_ids": ["T001"],
+      "is_member": true
+    },
+    "C002": {
+      "id": "C002",
+      "name": "general",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1704067200,
+      "is_archived": false,
+      "is_general": true,
+      "unlinked": 0,
+      "name_normalized": "general",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1704067200,
+      "creator": "U001",
+      "shared_team_ids": ["T001"],
+      "is_member": true
+    }
+  },
+  "messages": {
+    "C001": [
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Approved: Software License Renewal $7,800.00 <https://jira.vanguardshield.com/browse/OPS-3>",
+        "ts": "1773753600.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U004",
+        "text": "Approved: IT Equipment Purchase $8,900.00 <https://jira.vanguardshield.com/browse/OPS-6>",
+        "ts": "1774012800.000200",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U002",
+        "text": "Approved: Facility Upgrade $15,000.00 <https://jira.vanguardshield.com/browse/OPS-8>",
+        "ts": "1774272000.000300",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Looks good to me. The consulting engagement was discussed in last week's leadership meeting.",
+        "ts": "1774275600.000450",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U003",
+        "text": "Reminder: Q1 close deadline is April 5th. Please prioritize items over $10K.",
+        "ts": "1774358400.000400",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U005",
+        "text": "Approved: Client Entertainment $7,500.00 <https://jira.vanguardshield.com/browse/OPS-12>",
+        "ts": "1774617600.000700",
+        "team": "T001"
+      }
+    ],
+    "C002": [
+      {
+        "type": "message",
+        "user": "U001",
+        "text": "Good morning team!",
+        "ts": "1773408000.000500",
+        "team": "T001"
+      }
+    ]
+  },
+  "counters": {
+    "messageId": 1000000
+  }
+}

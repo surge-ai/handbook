@@ -1,0 +1,43 @@
+{
+  "events": {
+    "evt-001": {
+      "id": "evt-001",
+      "summary": "Marcus Vance - Out of Office",
+      "start": {
+        "dateTime": "2026-04-01T00:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-04-10T23:59:59-04:00",
+        "timeZone": "America/New_York"
+      },
+      "description": "Marcus Vance (Finance Controller) will be Out of Office April 1-10, 2026. For FIN-Exceptions escalations during this period, please contact Jennifer Walsh (VP Finance) at jennifer.walsh@vanguardshield.com.",
+      "location": "Out of Office",
+      "attendees": [
+        {
+          "email": "marcus.vance@vanguardshield.com",
+          "displayName": "Marcus Vance",
+          "responseStatus": "accepted"
+        }
+      ],
+      "status": "confirmed",
+      "visibility": "default"
+    },
+    "evt-002": {
+      "id": "evt-002",
+      "summary": "Q1 Month-End Close Deadline",
+      "start": {
+        "dateTime": "2026-04-05T17:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "end": {
+        "dateTime": "2026-04-05T17:30:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "description": "Quarter-end close deadline. All suspense reconciliations must be completed by 5:00 PM ET.",
+      "location": "Finance Department",
+      "status": "confirmed",
+      "visibility": "default"
+    }
+  }
+}

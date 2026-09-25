@@ -1,0 +1,503 @@
+{
+  "users": {
+    "U001": {
+      "id": "U001",
+      "team_id": "T001",
+      "name": "n.ashford",
+      "deleted": false,
+      "real_name": "Nicole Ashford",
+      "profile": {
+        "real_name": "Nicole Ashford",
+        "display_name": "Nicole Ashford",
+        "email": "n.ashford@crestwood.edu",
+        "title": "HR Director"
+      },
+      "is_admin": true,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U002": {
+      "id": "U002",
+      "team_id": "T001",
+      "name": "p.huang",
+      "deleted": false,
+      "real_name": "Patricia Huang",
+      "profile": {
+        "real_name": "Patricia Huang",
+        "display_name": "Patricia Huang",
+        "email": "p.huang@crestwood.edu",
+        "title": "Benefits & Leave Manager"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U003": {
+      "id": "U003",
+      "team_id": "T001",
+      "name": "d.okonkwo",
+      "deleted": false,
+      "real_name": "Derek Okonkwo",
+      "profile": {
+        "real_name": "Derek Okonkwo",
+        "display_name": "Derek Okonkwo",
+        "email": "d.okonkwo@crestwood.edu",
+        "title": "Recruiting & Talent Manager"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U004": {
+      "id": "U004",
+      "team_id": "T001",
+      "name": "m.voss",
+      "deleted": false,
+      "real_name": "Marta Voss",
+      "profile": {
+        "real_name": "Marta Voss",
+        "display_name": "Marta Voss",
+        "email": "m.voss@crestwood.edu",
+        "title": "Employee Relations Specialist"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U005": {
+      "id": "U005",
+      "team_id": "T001",
+      "name": "c.briggs",
+      "deleted": false,
+      "real_name": "Calvin Briggs",
+      "profile": {
+        "real_name": "Calvin Briggs",
+        "display_name": "Calvin Briggs",
+        "email": "c.briggs@crestwood.edu",
+        "title": "Payroll Liaison"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U006": {
+      "id": "U006",
+      "team_id": "T001",
+      "name": "j.park",
+      "deleted": false,
+      "real_name": "Jenna Park",
+      "profile": {
+        "real_name": "Jenna Park",
+        "display_name": "Jenna Park",
+        "email": "j.park@crestwood.edu",
+        "title": "IT Access Coordinator"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U007": {
+      "id": "U007",
+      "team_id": "T001",
+      "name": "j.whitfield",
+      "deleted": false,
+      "real_name": "Dr. James Whitfield",
+      "profile": {
+        "real_name": "Dr. James Whitfield",
+        "display_name": "Dr. James Whitfield",
+        "email": "j.whitfield@crestwood.edu",
+        "title": "Vice President of Human Resources"
+      },
+      "is_admin": true,
+      "is_owner": true,
+      "is_bot": false
+    },
+    "U008": {
+      "id": "U008",
+      "team_id": "T001",
+      "name": "hr.coordinator",
+      "deleted": false,
+      "real_name": "HR Coordinator",
+      "profile": {
+        "real_name": "HR Coordinator",
+        "display_name": "HR Coordinator",
+        "email": "hr@crestwood.edu",
+        "title": "HR Coordinator"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U009": {
+      "id": "U009",
+      "team_id": "T001",
+      "name": "v.osei",
+      "deleted": false,
+      "real_name": "Victor Osei",
+      "profile": {
+        "real_name": "Victor Osei",
+        "display_name": "Victor Osei",
+        "email": "v.osei@crestwood.edu",
+        "title": "VP of Administration"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    },
+    "U010": {
+      "id": "U010",
+      "team_id": "T001",
+      "name": "c.navarro",
+      "deleted": false,
+      "real_name": "Chris Navarro",
+      "profile": {
+        "real_name": "Chris Navarro",
+        "display_name": "Chris Navarro",
+        "email": "c.navarro@crestwood.edu",
+        "title": "Administrative Coordinator"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    }
+  },
+  "channels": {
+    "C001": {
+      "id": "C001",
+      "name": "hr-onboarding",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1700000000,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "hr-onboarding",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1700000000,
+      "creator": "U007",
+      "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic": {
+        "value": "New hire processing, I-9 tracking, benefits enrollment, orientation scheduling",
+        "creator": "U007",
+        "last_set": 1700000000
+      },
+      "purpose": {
+        "value": "New hire processing, I-9 tracking, benefits enrollment, orientation scheduling",
+        "creator": "U007",
+        "last_set": 1700000000
+      }
+    },
+    "C002": {
+      "id": "C002",
+      "name": "hr-offboarding",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1700000000,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "hr-offboarding",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1700000000,
+      "creator": "U007",
+      "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic": {
+        "value": "Resignations, terminations, COBRA notifications, final pay, access revocation",
+        "creator": "U007",
+        "last_set": 1700000000
+      },
+      "purpose": {
+        "value": "Resignations, terminations, COBRA notifications, final pay, access revocation",
+        "creator": "U007",
+        "last_set": 1700000000
+      }
+    },
+    "C003": {
+      "id": "C003",
+      "name": "hr-leave-requests",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1700000000,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "hr-leave-requests",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1700000000,
+      "creator": "U007",
+      "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic": {
+        "value": "FMLA requests, ADA accommodations, PTO disputes, return-to-work issues",
+        "creator": "U007",
+        "last_set": 1700000000
+      },
+      "purpose": {
+        "value": "FMLA requests, ADA accommodations, PTO disputes, return-to-work issues",
+        "creator": "U007",
+        "last_set": 1700000000
+      }
+    },
+    "C004": {
+      "id": "C004",
+      "name": "hr-performance",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1700000000,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "hr-performance",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1700000000,
+      "creator": "U007",
+      "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic": {
+        "value": "PIP initiation, evaluation cycle questions, disciplinary actions",
+        "creator": "U007",
+        "last_set": 1700000000
+      },
+      "purpose": {
+        "value": "PIP initiation, evaluation cycle questions, disciplinary actions",
+        "creator": "U007",
+        "last_set": 1700000000
+      }
+    },
+    "C005": {
+      "id": "C005",
+      "name": "hr-recruiting",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1700000000,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "hr-recruiting",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1700000000,
+      "creator": "U007",
+      "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic": {
+        "value": "Requisition approvals, candidate screening updates, offer status, background checks",
+        "creator": "U007",
+        "last_set": 1700000000
+      },
+      "purpose": {
+        "value": "Requisition approvals, candidate screening updates, offer status, background checks",
+        "creator": "U007",
+        "last_set": 1700000000
+      }
+    },
+    "C006": {
+      "id": "C006",
+      "name": "hr-escalations",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1700000000,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "hr-escalations",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1700000000,
+      "creator": "U007",
+      "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic": {
+        "value": "Issues requiring HR Director or VP attention",
+        "creator": "U007",
+        "last_set": 1700000000
+      },
+      "purpose": {
+        "value": "Issues requiring HR Director or VP attention \u2014 legal threats, compliance deadlines, unresolved cases older than 10 business days",
+        "creator": "U007",
+        "last_set": 1700000000
+      }
+    },
+    "C007": {
+      "id": "C007",
+      "name": "hr-general",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1700000000,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "hr-general",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1700000000,
+      "creator": "U007",
+      "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic": {
+        "value": "Non-case-specific questions, policy clarifications, team announcements",
+        "creator": "U007",
+        "last_set": 1700000000
+      },
+      "purpose": {
+        "value": "Non-case-specific questions, policy clarifications, team announcements",
+        "creator": "U007",
+        "last_set": 1700000000
+      }
+    }
+  },
+  "messages": {
+    "C002": [
+      {
+        "type": "message",
+        "user": "U008",
+        "text": "SEPARATION: Diane Reyes, E-0987, Voluntary Resignation, Last Day: 02/14/2026, Jira: OFFBOARD-Reyes-02142026",
+        "ts": "1770796800.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U008",
+        "text": "OFFBOARDING COMPLETE: Diane Reyes, E-0987, Separation Type: Voluntary Resignation, Last Day: 02/14/2026",
+        "ts": "1770969600.000100",
+        "team": "T001"
+      }
+    ],
+    "C001": [
+      {
+        "type": "message",
+        "user": "U008",
+        "text": "NEW HIRE: Amy Foster, Administrative Coordinator (Non-Exempt), Academic Affairs, Main Campus, Start Date: 03/16/2026, Jira: ONBOARD-2",
+        "ts": "1773651600.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U008",
+        "text": "NEW HIRE: Brandon Ellis, Admissions Counselor (Exempt), Admissions, Downtown Campus, Start Date: 04/20/2026, Jira: ONBOARD-1",
+        "ts": "1775232000.000100",
+        "team": "T001"
+      }
+    ],
+    "C003": [
+      {
+        "type": "message",
+        "user": "U008",
+        "text": "FMLA REQUEST: Kevin Walsh, E-1005, Eligible: YES, Certification Due: 01/26/2026, Jira: LEAVE-Walsh-01092026",
+        "ts": "1768032000.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U008",
+        "text": "FMLA APPROVED: Kevin Walsh, E-1005, Leave: 01/26/2026 \u2013 04/05/2026 (approved), Jira: LEAVE-Walsh-01092026",
+        "ts": "1768636800.000100",
+        "team": "T001"
+      }
+    ],
+    "C005": [
+      {
+        "type": "message",
+        "user": "U008",
+        "text": "REQUISITION APPROVED: Marketing Coordinator, Marketing, West Campus, Jira: RECRUIT-MarketingCoordinator-03022026",
+        "ts": "1772524800.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U008",
+        "text": "REQUISITION APPROVED: IT Support Specialist, Information Technology, Main Campus, Jira: RECRUIT-ITSupportSpecialist-03092026",
+        "ts": "1773129600.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U008",
+        "text": "REQUISITION APPROVED: Finance Analyst, Finance, Main Campus, Jira: RECRUIT-FinanceAnalyst-03162026",
+        "ts": "1773734400.000100",
+        "team": "T001"
+      },
+      {
+        "type": "message",
+        "user": "U008",
+        "text": "REQUISITION APPROVED: Academic Advisor, Academic Affairs, Downtown Campus, Jira: RECRUIT-AcademicAdvisor-03162026",
+        "ts": "1773734460.000100",
+        "team": "T001"
+      }
+    ],
+    "C004": [
+      {
+        "type": "message",
+        "user": "U008",
+        "text": "PERFORMANCE REVIEW CYCLE: Spring 2026 self-assessments due 04/25/2026. Coordinators: please distribute self-assessment forms to all eligible employees by 04/10/2026.",
+        "ts": "1774886400.000100",
+        "team": "T001"
+      }
+    ]
+  },
+  "counters": {
+    "messageId": 1020
+  }
+}

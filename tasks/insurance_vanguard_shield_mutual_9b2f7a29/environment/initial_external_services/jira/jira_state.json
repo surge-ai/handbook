@@ -1,0 +1,2308 @@
+{
+  "issues": {
+    "OPS-1": {
+      "id": "10001",
+      "key": "OPS-1",
+      "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/issue/10001",
+      "fields": {
+        "summary": "March 2026 Month-Close Package - Intercompany Suspense",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Month-end intercompany suspense reconciliation package. Contains suspense workbook and supporting invoice PDFs."
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10001",
+          "name": "Task",
+          "description": "A task that needs to be done",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "10001",
+          "key": "OPS",
+          "name": "Operations",
+          "description": "Operations and Finance workflow management",
+          "projectTypeKey": "business",
+          "simplified": false,
+          "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/project/OPS"
+        },
+        "status": {
+          "id": "10002",
+          "name": "In Progress",
+          "description": "Work is being done",
+          "statusCategory": {
+            "id": 4,
+            "key": "indeterminate",
+            "name": "In Progress",
+            "colorName": "yellow"
+          }
+        },
+        "priority": {
+          "id": "3",
+          "name": "Medium"
+        },
+        "assignee": {
+          "accountId": "analyst-001",
+          "accountType": "atlassian",
+          "emailAddress": "junior.analyst@vanguardshield.com",
+          "displayName": "Junior Operations Analyst",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "reporter": {
+          "accountId": "analyst-001",
+          "accountType": "atlassian",
+          "emailAddress": "junior.analyst@vanguardshield.com",
+          "displayName": "Junior Operations Analyst",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "creator": {
+          "accountId": "analyst-001",
+          "accountType": "atlassian",
+          "emailAddress": "junior.analyst@vanguardshield.com",
+          "displayName": "Junior Operations Analyst",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "created": "2026-03-01T14:00:00.000Z",
+        "updated": "2026-03-01T14:00:00.000Z",
+        "resolutiondate": null,
+        "labels": [
+          "month-close",
+          "suspense",
+          "march-2026"
+        ],
+        "components": [],
+        "fixVersions": [],
+        "versions": [],
+        "subtasks": [
+          {
+            "id": "10002",
+            "key": "OPS-2",
+            "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/issue/10002",
+            "fields": {
+              "summary": "Office Supplies - Q1 - $3,250.00",
+              "status": {
+                "id": "10001",
+                "name": "To Do",
+                "statusCategory": {
+                  "id": 2,
+                  "key": "new",
+                  "name": "To Do",
+                  "colorName": "blue-gray"
+                }
+              },
+              "issuetype": {
+                "id": "10002",
+                "name": "Sub-task",
+                "subtask": true,
+                "hierarchyLevel": 1
+              },
+              "priority": {
+                "id": "3",
+                "name": "Medium"
+              },
+              "assignee": null,
+              "reporter": {
+                "accountId": "analyst-001",
+                "accountType": "atlassian",
+                "displayName": "Junior Operations Analyst",
+                "active": true
+              },
+              "creator": {
+                "accountId": "analyst-001",
+                "accountType": "atlassian",
+                "displayName": "Junior Operations Analyst",
+                "active": true
+              },
+              "created": "2026-03-01T14:00:00.000Z",
+              "updated": "2026-03-01T14:00:00.000Z",
+              "project": {
+                "id": "10001",
+                "key": "OPS",
+                "name": "Operations"
+              }
+            }
+          },
+          {
+            "id": "10003",
+            "key": "OPS-3",
+            "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/issue/10003",
+            "fields": {
+              "summary": "Software License Renewal - $7,800.00",
+              "status": {
+                "id": "10001",
+                "name": "To Do",
+                "statusCategory": {
+                  "id": 2,
+                  "key": "new",
+                  "name": "To Do",
+                  "colorName": "blue-gray"
+                }
+              },
+              "issuetype": {
+                "id": "10002",
+                "name": "Sub-task",
+                "subtask": true,
+                "hierarchyLevel": 1
+              },
+              "priority": {
+                "id": "3",
+                "name": "Medium"
+              },
+              "assignee": null,
+              "reporter": {
+                "accountId": "analyst-001",
+                "accountType": "atlassian",
+                "displayName": "Junior Operations Analyst",
+                "active": true
+              },
+              "creator": {
+                "accountId": "analyst-001",
+                "accountType": "atlassian",
+                "displayName": "Junior Operations Analyst",
+                "active": true
+              },
+              "created": "2026-03-01T14:00:00.000Z",
+              "updated": "2026-03-01T14:00:00.000Z",
+              "project": {
+                "id": "10001",
+                "key": "OPS",
+                "name": "Operations"
+              }
+            }
+          },
+          {
+            "id": "10004",
+            "key": "OPS-4",
+            "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/issue/10004",
+            "fields": {
+              "summary": "Consulting Services - $12,500.00",
+              "status": {
+                "id": "10001",
+                "name": "To Do",
+                "statusCategory": {
+                  "id": 2,
+                  "key": "new",
+                  "name": "To Do",
+                  "colorName": "blue-gray"
+                }
+              },
+              "issuetype": {
+                "id": "10002",
+                "name": "Sub-task",
+                "subtask": true,
+                "hierarchyLevel": 1
+              },
+              "priority": {
+                "id": "3",
+                "name": "Medium"
+              },
+              "assignee": null,
+              "reporter": {
+                "accountId": "analyst-001",
+                "accountType": "atlassian",
+                "displayName": "Junior Operations Analyst",
+                "active": true
+              },
+              "creator": {
+                "accountId": "analyst-001",
+                "accountType": "atlassian",
+                "displayName": "Junior Operations Analyst",
+                "active": true
+              },
+              "created": "2026-03-01T14:00:00.000Z",
+              "updated": "2026-03-01T14:00:00.000Z",
+              "project": {
+                "id": "10001",
+                "key": "OPS",
+                "name": "Operations"
+              }
+            }
+          },
+          {
+            "id": "10005",
+            "key": "OPS-5",
+            "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/issue/10005",
+            "fields": {
+              "summary": "Marketing Materials - $4,750.00",
+              "status": {
+                "id": "10001",
+                "name": "To Do",
+                "statusCategory": {
+                  "id": 2,
+                  "key": "new",
+                  "name": "To Do",
+                  "colorName": "blue-gray"
+                }
+              },
+              "issuetype": {
+                "id": "10002",
+                "name": "Sub-task",
+                "subtask": true,
+                "hierarchyLevel": 1
+              },
+              "priority": {
+                "id": "3",
+                "name": "Medium"
+              },
+              "assignee": null,
+              "reporter": {
+                "accountId": "analyst-001",
+                "accountType": "atlassian",
+                "displayName": "Junior Operations Analyst",
+                "active": true
+              },
+              "creator": {
+                "accountId": "analyst-001",
+                "accountType": "atlassian",
+                "displayName": "Junior Operations Analyst",
+                "active": true
+              },
+              "created": "2026-03-01T14:00:00.000Z",
+              "updated": "2026-03-01T14:00:00.000Z",
+              "project": {
+                "id": "10001",
+                "key": "OPS",
+                "name": "Operations"
+              }
+            }
+          },
+          {
+            "id": "10006",
+            "key": "OPS-6",
+            "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/issue/10006",
+            "fields": {
+              "summary": "IT Equipment Purchase - $8,900.00",
+              "status": {
+                "id": "10001",
+                "name": "To Do",
+                "statusCategory": {
+                  "id": 2,
+                  "key": "new",
+                  "name": "To Do",
+                  "colorName": "blue-gray"
+                }
+              },
+              "issuetype": {
+                "id": "10002",
+                "name": "Sub-task",
+                "subtask": true,
+                "hierarchyLevel": 1
+              },
+              "priority": {
+                "id": "3",
+                "name": "Medium"
+              },
+              "assignee": null,
+              "reporter": {
+                "accountId": "analyst-001",
+                "accountType": "atlassian",
+                "displayName": "Junior Operations Analyst",
+                "active": true
+              },
+              "creator": {
+                "accountId": "analyst-001",
+                "accountType": "atlassian",
+                "displayName": "Junior Operations Analyst",
+                "active": true
+              },
+              "created": "2026-03-01T14:00:00.000Z",
+              "updated": "2026-03-01T14:00:00.000Z",
+              "project": {
+                "id": "10001",
+                "key": "OPS",
+                "name": "Operations"
+              }
+            }
+          },
+          {
+            "id": "10007",
+            "key": "OPS-7",
+            "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/issue/10007",
+            "fields": {
+              "summary": "Training Expenses - $2,100.00",
+              "status": {
+                "id": "10001",
+                "name": "To Do",
+                "statusCategory": {
+                  "id": 2,
+                  "key": "new",
+                  "name": "To Do",
+                  "colorName": "blue-gray"
+                }
+              },
+              "issuetype": {
+                "id": "10002",
+                "name": "Sub-task",
+                "subtask": true,
+                "hierarchyLevel": 1
+              },
+              "priority": {
+                "id": "3",
+                "name": "Medium"
+              },
+              "assignee": null,
+              "reporter": {
+                "accountId": "analyst-001",
+                "accountType": "atlassian",
+                "displayName": "Junior Operations Analyst",
+                "active": true
+              },
+              "creator": {
+                "accountId": "analyst-001",
+                "accountType": "atlassian",
+                "displayName": "Junior Operations Analyst",
+                "active": true
+              },
+              "created": "2026-03-01T14:00:00.000Z",
+              "updated": "2026-03-01T14:00:00.000Z",
+              "project": {
+                "id": "10001",
+                "key": "OPS",
+                "name": "Operations"
+              }
+            }
+          },
+          {
+            "id": "10008",
+            "key": "OPS-8",
+            "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/issue/10008",
+            "fields": {
+              "summary": "Facility Upgrade - $15,000.00",
+              "status": {
+                "id": "10001",
+                "name": "To Do",
+                "statusCategory": {
+                  "id": 2,
+                  "key": "new",
+                  "name": "To Do",
+                  "colorName": "blue-gray"
+                }
+              },
+              "issuetype": {
+                "id": "10002",
+                "name": "Sub-task",
+                "subtask": true,
+                "hierarchyLevel": 1
+              },
+              "priority": {
+                "id": "3",
+                "name": "Medium"
+              },
+              "assignee": null,
+              "reporter": {
+                "accountId": "analyst-001",
+                "accountType": "atlassian",
+                "displayName": "Junior Operations Analyst",
+                "active": true
+              },
+              "creator": {
+                "accountId": "analyst-001",
+                "accountType": "atlassian",
+                "displayName": "Junior Operations Analyst",
+                "active": true
+              },
+              "created": "2026-03-01T14:00:00.000Z",
+              "updated": "2026-03-01T14:00:00.000Z",
+              "project": {
+                "id": "10001",
+                "key": "OPS",
+                "name": "Operations"
+              }
+            }
+          },
+          {
+            "id": "10009",
+            "key": "OPS-9",
+            "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/issue/10009",
+            "fields": {
+              "summary": "Travel - Conference - $6,300.00",
+              "status": {
+                "id": "10001",
+                "name": "To Do",
+                "statusCategory": {
+                  "id": 2,
+                  "key": "new",
+                  "name": "To Do",
+                  "colorName": "blue-gray"
+                }
+              },
+              "issuetype": {
+                "id": "10002",
+                "name": "Sub-task",
+                "subtask": true,
+                "hierarchyLevel": 1
+              },
+              "priority": {
+                "id": "3",
+                "name": "Medium"
+              },
+              "assignee": null,
+              "reporter": {
+                "accountId": "analyst-001",
+                "accountType": "atlassian",
+                "displayName": "Junior Operations Analyst",
+                "active": true
+              },
+              "creator": {
+                "accountId": "analyst-001",
+                "accountType": "atlassian",
+                "displayName": "Junior Operations Analyst",
+                "active": true
+              },
+              "created": "2026-03-01T14:00:00.000Z",
+              "updated": "2026-03-01T14:00:00.000Z",
+              "project": {
+                "id": "10001",
+                "key": "OPS",
+                "name": "Operations"
+              }
+            }
+          }
+        ],
+        "attachment": [
+          {
+            "id": "10001",
+            "filename": "Suspense_March2026.xlsx",
+            "author": {
+              "accountId": "analyst-001",
+              "accountType": "atlassian",
+              "emailAddress": "junior.analyst@vanguardshield.com",
+              "displayName": "Junior Operations Analyst",
+              "active": true,
+              "timeZone": "America/New_York"
+            },
+            "created": "2026-03-01T14:00:00.000Z",
+            "size": 45632,
+            "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "content": "",
+            "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/attachment/10001"
+          }
+        ]
+      }
+    },
+    "OPS-2": {
+      "id": "10002",
+      "key": "OPS-2",
+      "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/issue/10002",
+      "fields": {
+        "summary": "Office Supplies - Q1 - $3,250.00",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Intercompany suspense item for office supplies reconciliation."
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10002",
+          "name": "Sub-task",
+          "description": "A subtask of another issue",
+          "subtask": true,
+          "hierarchyLevel": 1
+        },
+        "project": {
+          "id": "10001",
+          "key": "OPS",
+          "name": "Operations",
+          "description": "Operations and Finance workflow management",
+          "projectTypeKey": "business",
+          "simplified": false,
+          "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/project/OPS"
+        },
+        "status": {
+          "id": "10001",
+          "name": "To Do",
+          "description": "Work not yet started",
+          "statusCategory": {
+            "id": 2,
+            "key": "new",
+            "name": "To Do",
+            "colorName": "blue-gray"
+          }
+        },
+        "priority": {
+          "id": "3",
+          "name": "Medium"
+        },
+        "assignee": null,
+        "reporter": {
+          "accountId": "analyst-001",
+          "accountType": "atlassian",
+          "emailAddress": "junior.analyst@vanguardshield.com",
+          "displayName": "Junior Operations Analyst",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "creator": {
+          "accountId": "analyst-001",
+          "accountType": "atlassian",
+          "emailAddress": "junior.analyst@vanguardshield.com",
+          "displayName": "Junior Operations Analyst",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "created": "2026-03-01T14:00:00.000Z",
+        "updated": "2026-03-01T14:00:00.000Z",
+        "resolutiondate": null,
+        "labels": [
+          "suspense-item"
+        ],
+        "components": [],
+        "fixVersions": [],
+        "versions": [],
+        "parent": {
+          "id": "10001",
+          "key": "OPS-1",
+          "fields": {
+            "summary": "March 2026 Month-Close Package - Intercompany Suspense",
+            "status": {
+              "id": "10002",
+              "name": "In Progress",
+              "statusCategory": {
+                "id": 4,
+                "key": "indeterminate",
+                "name": "In Progress",
+                "colorName": "yellow"
+              }
+            },
+            "issuetype": {
+              "id": "10001",
+              "name": "Task",
+              "subtask": false
+            }
+          }
+        },
+        "attachment": [
+          {
+            "id": "10002",
+            "filename": "INV-SUSP-001.pdf",
+            "author": {
+              "accountId": "analyst-001",
+              "accountType": "atlassian",
+              "emailAddress": "junior.analyst@vanguardshield.com",
+              "displayName": "Junior Operations Analyst",
+              "active": true,
+              "timeZone": "America/New_York"
+            },
+            "created": "2026-03-01T14:00:00.000Z",
+            "size": 128456,
+            "mimeType": "application/pdf",
+            "content": "",
+            "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/attachment/10002"
+          }
+        ]
+      }
+    },
+    "OPS-3": {
+      "id": "10003",
+      "key": "OPS-3",
+      "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/issue/10003",
+      "fields": {
+        "summary": "Software License Renewal - $7,800.00",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Intercompany suspense item for software license reconciliation."
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10002",
+          "name": "Sub-task",
+          "description": "A subtask of another issue",
+          "subtask": true,
+          "hierarchyLevel": 1
+        },
+        "project": {
+          "id": "10001",
+          "key": "OPS",
+          "name": "Operations",
+          "description": "Operations and Finance workflow management",
+          "projectTypeKey": "business",
+          "simplified": false,
+          "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/project/OPS"
+        },
+        "status": {
+          "id": "10001",
+          "name": "To Do",
+          "description": "Work not yet started",
+          "statusCategory": {
+            "id": 2,
+            "key": "new",
+            "name": "To Do",
+            "colorName": "blue-gray"
+          }
+        },
+        "priority": {
+          "id": "3",
+          "name": "Medium"
+        },
+        "assignee": null,
+        "reporter": {
+          "accountId": "analyst-001",
+          "accountType": "atlassian",
+          "emailAddress": "junior.analyst@vanguardshield.com",
+          "displayName": "Junior Operations Analyst",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "creator": {
+          "accountId": "analyst-001",
+          "accountType": "atlassian",
+          "emailAddress": "junior.analyst@vanguardshield.com",
+          "displayName": "Junior Operations Analyst",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "created": "2026-03-01T14:00:00.000Z",
+        "updated": "2026-03-01T14:00:00.000Z",
+        "resolutiondate": null,
+        "labels": [
+          "suspense-item"
+        ],
+        "components": [],
+        "fixVersions": [],
+        "versions": [],
+        "parent": {
+          "id": "10001",
+          "key": "OPS-1",
+          "fields": {
+            "summary": "March 2026 Month-Close Package - Intercompany Suspense",
+            "status": {
+              "id": "10002",
+              "name": "In Progress",
+              "statusCategory": {
+                "id": 4,
+                "key": "indeterminate",
+                "name": "In Progress",
+                "colorName": "yellow"
+              }
+            },
+            "issuetype": {
+              "id": "10001",
+              "name": "Task",
+              "subtask": false
+            }
+          }
+        },
+        "attachment": [
+          {
+            "id": "10003",
+            "filename": "INV-SUSP-002.pdf",
+            "author": {
+              "accountId": "analyst-001",
+              "accountType": "atlassian",
+              "emailAddress": "junior.analyst@vanguardshield.com",
+              "displayName": "Junior Operations Analyst",
+              "active": true,
+              "timeZone": "America/New_York"
+            },
+            "created": "2026-03-01T14:00:00.000Z",
+            "size": 215789,
+            "mimeType": "application/pdf",
+            "content": "",
+            "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/attachment/10003"
+          }
+        ]
+      }
+    },
+    "OPS-4": {
+      "id": "10004",
+      "key": "OPS-4",
+      "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/issue/10004",
+      "fields": {
+        "summary": "Consulting Services - $12,500.00",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Intercompany suspense item for consulting services reconciliation."
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10002",
+          "name": "Sub-task",
+          "description": "A subtask of another issue",
+          "subtask": true,
+          "hierarchyLevel": 1
+        },
+        "project": {
+          "id": "10001",
+          "key": "OPS",
+          "name": "Operations",
+          "description": "Operations and Finance workflow management",
+          "projectTypeKey": "business",
+          "simplified": false,
+          "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/project/OPS"
+        },
+        "status": {
+          "id": "10001",
+          "name": "To Do",
+          "description": "Work not yet started",
+          "statusCategory": {
+            "id": 2,
+            "key": "new",
+            "name": "To Do",
+            "colorName": "blue-gray"
+          }
+        },
+        "priority": {
+          "id": "3",
+          "name": "Medium"
+        },
+        "assignee": null,
+        "reporter": {
+          "accountId": "analyst-001",
+          "accountType": "atlassian",
+          "emailAddress": "junior.analyst@vanguardshield.com",
+          "displayName": "Junior Operations Analyst",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "creator": {
+          "accountId": "analyst-001",
+          "accountType": "atlassian",
+          "emailAddress": "junior.analyst@vanguardshield.com",
+          "displayName": "Junior Operations Analyst",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "created": "2026-03-01T14:00:00.000Z",
+        "updated": "2026-03-01T14:00:00.000Z",
+        "resolutiondate": null,
+        "labels": [
+          "suspense-item"
+        ],
+        "components": [],
+        "fixVersions": [],
+        "versions": [],
+        "parent": {
+          "id": "10001",
+          "key": "OPS-1",
+          "fields": {
+            "summary": "March 2026 Month-Close Package - Intercompany Suspense",
+            "status": {
+              "id": "10002",
+              "name": "In Progress",
+              "statusCategory": {
+                "id": 4,
+                "key": "indeterminate",
+                "name": "In Progress",
+                "colorName": "yellow"
+              }
+            },
+            "issuetype": {
+              "id": "10001",
+              "name": "Task",
+              "subtask": false
+            }
+          }
+        },
+        "attachment": [
+          {
+            "id": "10004",
+            "filename": "INV-SUSP-003.pdf",
+            "author": {
+              "accountId": "analyst-001",
+              "accountType": "atlassian",
+              "emailAddress": "junior.analyst@vanguardshield.com",
+              "displayName": "Junior Operations Analyst",
+              "active": true,
+              "timeZone": "America/New_York"
+            },
+            "created": "2026-03-01T14:00:00.000Z",
+            "size": 187234,
+            "mimeType": "application/pdf",
+            "content": "",
+            "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/attachment/10004"
+          }
+        ]
+      }
+    },
+    "OPS-5": {
+      "id": "10005",
+      "key": "OPS-5",
+      "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/issue/10005",
+      "fields": {
+        "summary": "Marketing Materials - $4,750.00",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Intercompany suspense item for marketing materials reconciliation."
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10002",
+          "name": "Sub-task",
+          "description": "A subtask of another issue",
+          "subtask": true,
+          "hierarchyLevel": 1
+        },
+        "project": {
+          "id": "10001",
+          "key": "OPS",
+          "name": "Operations",
+          "description": "Operations and Finance workflow management",
+          "projectTypeKey": "business",
+          "simplified": false,
+          "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/project/OPS"
+        },
+        "status": {
+          "id": "10001",
+          "name": "To Do",
+          "description": "Work not yet started",
+          "statusCategory": {
+            "id": 2,
+            "key": "new",
+            "name": "To Do",
+            "colorName": "blue-gray"
+          }
+        },
+        "priority": {
+          "id": "3",
+          "name": "Medium"
+        },
+        "assignee": null,
+        "reporter": {
+          "accountId": "analyst-001",
+          "accountType": "atlassian",
+          "emailAddress": "junior.analyst@vanguardshield.com",
+          "displayName": "Junior Operations Analyst",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "creator": {
+          "accountId": "analyst-001",
+          "accountType": "atlassian",
+          "emailAddress": "junior.analyst@vanguardshield.com",
+          "displayName": "Junior Operations Analyst",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "created": "2026-03-01T14:00:00.000Z",
+        "updated": "2026-03-01T14:00:00.000Z",
+        "resolutiondate": null,
+        "labels": [
+          "suspense-item"
+        ],
+        "components": [],
+        "fixVersions": [],
+        "versions": [],
+        "parent": {
+          "id": "10001",
+          "key": "OPS-1",
+          "fields": {
+            "summary": "March 2026 Month-Close Package - Intercompany Suspense",
+            "status": {
+              "id": "10002",
+              "name": "In Progress",
+              "statusCategory": {
+                "id": 4,
+                "key": "indeterminate",
+                "name": "In Progress",
+                "colorName": "yellow"
+              }
+            },
+            "issuetype": {
+              "id": "10001",
+              "name": "Task",
+              "subtask": false
+            }
+          }
+        },
+        "attachment": []
+      }
+    },
+    "OPS-6": {
+      "id": "10006",
+      "key": "OPS-6",
+      "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/issue/10006",
+      "fields": {
+        "summary": "IT Equipment Purchase - $8,900.00",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Intercompany suspense item for IT equipment reconciliation."
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10002",
+          "name": "Sub-task",
+          "description": "A subtask of another issue",
+          "subtask": true,
+          "hierarchyLevel": 1
+        },
+        "project": {
+          "id": "10001",
+          "key": "OPS",
+          "name": "Operations",
+          "description": "Operations and Finance workflow management",
+          "projectTypeKey": "business",
+          "simplified": false,
+          "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/project/OPS"
+        },
+        "status": {
+          "id": "10001",
+          "name": "To Do",
+          "description": "Work not yet started",
+          "statusCategory": {
+            "id": 2,
+            "key": "new",
+            "name": "To Do",
+            "colorName": "blue-gray"
+          }
+        },
+        "priority": {
+          "id": "3",
+          "name": "Medium"
+        },
+        "assignee": null,
+        "reporter": {
+          "accountId": "analyst-001",
+          "accountType": "atlassian",
+          "emailAddress": "junior.analyst@vanguardshield.com",
+          "displayName": "Junior Operations Analyst",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "creator": {
+          "accountId": "analyst-001",
+          "accountType": "atlassian",
+          "emailAddress": "junior.analyst@vanguardshield.com",
+          "displayName": "Junior Operations Analyst",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "created": "2026-03-01T14:00:00.000Z",
+        "updated": "2026-03-01T14:00:00.000Z",
+        "resolutiondate": null,
+        "labels": [
+          "suspense-item"
+        ],
+        "components": [],
+        "fixVersions": [],
+        "versions": [],
+        "parent": {
+          "id": "10001",
+          "key": "OPS-1",
+          "fields": {
+            "summary": "March 2026 Month-Close Package - Intercompany Suspense",
+            "status": {
+              "id": "10002",
+              "name": "In Progress",
+              "statusCategory": {
+                "id": 4,
+                "key": "indeterminate",
+                "name": "In Progress",
+                "colorName": "yellow"
+              }
+            },
+            "issuetype": {
+              "id": "10001",
+              "name": "Task",
+              "subtask": false
+            }
+          }
+        },
+        "attachment": [
+          {
+            "id": "10005",
+            "filename": "INV-SUSP-005.pdf",
+            "author": {
+              "accountId": "analyst-001",
+              "accountType": "atlassian",
+              "emailAddress": "junior.analyst@vanguardshield.com",
+              "displayName": "Junior Operations Analyst",
+              "active": true,
+              "timeZone": "America/New_York"
+            },
+            "created": "2026-03-01T14:00:00.000Z",
+            "size": 198456,
+            "mimeType": "application/pdf",
+            "content": "",
+            "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/attachment/10005"
+          }
+        ]
+      }
+    },
+    "OPS-7": {
+      "id": "10007",
+      "key": "OPS-7",
+      "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/issue/10007",
+      "fields": {
+        "summary": "Training Expenses - $2,100.00",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Intercompany suspense item for training expenses reconciliation."
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10002",
+          "name": "Sub-task",
+          "description": "A subtask of another issue",
+          "subtask": true,
+          "hierarchyLevel": 1
+        },
+        "project": {
+          "id": "10001",
+          "key": "OPS",
+          "name": "Operations",
+          "description": "Operations and Finance workflow management",
+          "projectTypeKey": "business",
+          "simplified": false,
+          "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/project/OPS"
+        },
+        "status": {
+          "id": "10001",
+          "name": "To Do",
+          "description": "Work not yet started",
+          "statusCategory": {
+            "id": 2,
+            "key": "new",
+            "name": "To Do",
+            "colorName": "blue-gray"
+          }
+        },
+        "priority": {
+          "id": "3",
+          "name": "Medium"
+        },
+        "assignee": null,
+        "reporter": {
+          "accountId": "analyst-001",
+          "accountType": "atlassian",
+          "emailAddress": "junior.analyst@vanguardshield.com",
+          "displayName": "Junior Operations Analyst",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "creator": {
+          "accountId": "analyst-001",
+          "accountType": "atlassian",
+          "emailAddress": "junior.analyst@vanguardshield.com",
+          "displayName": "Junior Operations Analyst",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "created": "2026-03-01T14:00:00.000Z",
+        "updated": "2026-03-01T14:00:00.000Z",
+        "resolutiondate": null,
+        "labels": [
+          "suspense-item"
+        ],
+        "components": [],
+        "fixVersions": [],
+        "versions": [],
+        "parent": {
+          "id": "10001",
+          "key": "OPS-1",
+          "fields": {
+            "summary": "March 2026 Month-Close Package - Intercompany Suspense",
+            "status": {
+              "id": "10002",
+              "name": "In Progress",
+              "statusCategory": {
+                "id": 4,
+                "key": "indeterminate",
+                "name": "In Progress",
+                "colorName": "yellow"
+              }
+            },
+            "issuetype": {
+              "id": "10001",
+              "name": "Task",
+              "subtask": false
+            }
+          }
+        },
+        "attachment": [
+          {
+            "id": "10006",
+            "filename": "INV-SUSP-006.pdf",
+            "author": {
+              "accountId": "analyst-001",
+              "accountType": "atlassian",
+              "emailAddress": "junior.analyst@vanguardshield.com",
+              "displayName": "Junior Operations Analyst",
+              "active": true,
+              "timeZone": "America/New_York"
+            },
+            "created": "2026-03-01T14:00:00.000Z",
+            "size": 145678,
+            "mimeType": "application/pdf",
+            "content": "",
+            "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/attachment/10006"
+          }
+        ]
+      }
+    },
+    "OPS-8": {
+      "id": "10008",
+      "key": "OPS-8",
+      "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/issue/10008",
+      "fields": {
+        "summary": "Facility Upgrade - $15,000.00",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Intercompany suspense item for facility upgrade reconciliation."
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10002",
+          "name": "Sub-task",
+          "description": "A subtask of another issue",
+          "subtask": true,
+          "hierarchyLevel": 1
+        },
+        "project": {
+          "id": "10001",
+          "key": "OPS",
+          "name": "Operations",
+          "description": "Operations and Finance workflow management",
+          "projectTypeKey": "business",
+          "simplified": false,
+          "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/project/OPS"
+        },
+        "status": {
+          "id": "10001",
+          "name": "To Do",
+          "description": "Work not yet started",
+          "statusCategory": {
+            "id": 2,
+            "key": "new",
+            "name": "To Do",
+            "colorName": "blue-gray"
+          }
+        },
+        "priority": {
+          "id": "3",
+          "name": "Medium"
+        },
+        "assignee": null,
+        "reporter": {
+          "accountId": "analyst-001",
+          "accountType": "atlassian",
+          "emailAddress": "junior.analyst@vanguardshield.com",
+          "displayName": "Junior Operations Analyst",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "creator": {
+          "accountId": "analyst-001",
+          "accountType": "atlassian",
+          "emailAddress": "junior.analyst@vanguardshield.com",
+          "displayName": "Junior Operations Analyst",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "created": "2026-03-01T14:00:00.000Z",
+        "updated": "2026-03-01T14:00:00.000Z",
+        "resolutiondate": null,
+        "labels": [
+          "suspense-item"
+        ],
+        "components": [],
+        "fixVersions": [],
+        "versions": [],
+        "parent": {
+          "id": "10001",
+          "key": "OPS-1",
+          "fields": {
+            "summary": "March 2026 Month-Close Package - Intercompany Suspense",
+            "status": {
+              "id": "10002",
+              "name": "In Progress",
+              "statusCategory": {
+                "id": 4,
+                "key": "indeterminate",
+                "name": "In Progress",
+                "colorName": "yellow"
+              }
+            },
+            "issuetype": {
+              "id": "10001",
+              "name": "Task",
+              "subtask": false
+            }
+          }
+        },
+        "attachment": [
+          {
+            "id": "10007",
+            "filename": "INV-SUSP-007.pdf",
+            "author": {
+              "accountId": "analyst-001",
+              "accountType": "atlassian",
+              "emailAddress": "junior.analyst@vanguardshield.com",
+              "displayName": "Junior Operations Analyst",
+              "active": true,
+              "timeZone": "America/New_York"
+            },
+            "created": "2026-03-01T14:00:00.000Z",
+            "size": 267890,
+            "mimeType": "application/pdf",
+            "content": "",
+            "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/attachment/10007"
+          }
+        ]
+      }
+    },
+    "OPS-9": {
+      "id": "10009",
+      "key": "OPS-9",
+      "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/issue/10009",
+      "fields": {
+        "summary": "Travel - Conference - $6,300.00",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Intercompany suspense item for travel conference reconciliation."
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10002",
+          "name": "Sub-task",
+          "description": "A subtask of another issue",
+          "subtask": true,
+          "hierarchyLevel": 1
+        },
+        "project": {
+          "id": "10001",
+          "key": "OPS",
+          "name": "Operations",
+          "description": "Operations and Finance workflow management",
+          "projectTypeKey": "business",
+          "simplified": false,
+          "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/project/OPS"
+        },
+        "status": {
+          "id": "10001",
+          "name": "To Do",
+          "description": "Work not yet started",
+          "statusCategory": {
+            "id": 2,
+            "key": "new",
+            "name": "To Do",
+            "colorName": "blue-gray"
+          }
+        },
+        "priority": {
+          "id": "3",
+          "name": "Medium"
+        },
+        "assignee": null,
+        "reporter": {
+          "accountId": "analyst-001",
+          "accountType": "atlassian",
+          "emailAddress": "junior.analyst@vanguardshield.com",
+          "displayName": "Junior Operations Analyst",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "creator": {
+          "accountId": "analyst-001",
+          "accountType": "atlassian",
+          "emailAddress": "junior.analyst@vanguardshield.com",
+          "displayName": "Junior Operations Analyst",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "created": "2026-03-01T14:00:00.000Z",
+        "updated": "2026-03-01T14:00:00.000Z",
+        "resolutiondate": null,
+        "labels": [
+          "suspense-item"
+        ],
+        "components": [],
+        "fixVersions": [],
+        "versions": [],
+        "parent": {
+          "id": "10001",
+          "key": "OPS-1",
+          "fields": {
+            "summary": "March 2026 Month-Close Package - Intercompany Suspense",
+            "status": {
+              "id": "10002",
+              "name": "In Progress",
+              "statusCategory": {
+                "id": 4,
+                "key": "indeterminate",
+                "name": "In Progress",
+                "colorName": "yellow"
+              }
+            },
+            "issuetype": {
+              "id": "10001",
+              "name": "Task",
+              "subtask": false
+            }
+          }
+        },
+        "attachment": [
+          {
+            "id": "10008",
+            "filename": "INV-SUSP-008.pdf",
+            "author": {
+              "accountId": "analyst-001",
+              "accountType": "atlassian",
+              "emailAddress": "junior.analyst@vanguardshield.com",
+              "displayName": "Junior Operations Analyst",
+              "active": true,
+              "timeZone": "America/New_York"
+            },
+            "created": "2026-03-01T14:00:00.000Z",
+            "size": 178234,
+            "mimeType": "application/pdf",
+            "content": "",
+            "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/attachment/10008"
+          }
+        ]
+      }
+    },
+    "FIN-1": {
+      "id": "10010",
+      "key": "FIN-1",
+      "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/issue/10010",
+      "fields": {
+        "summary": "FIN-Exceptions Queue - Assignee Reference",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "PINNED ISSUE: Queue Assignee Information",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": ""
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Finance Controller: Marcus Vance"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Email: marcus.vance@vanguardshield.com"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Jira: marcus.vance"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": ""
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Use this assignee for all FIN-Exceptions tickets requiring Controller review."
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10001",
+          "name": "Task",
+          "description": "A task that needs to be done",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "10002",
+          "key": "FIN",
+          "name": "Finance",
+          "description": "Finance operations and exception management",
+          "projectTypeKey": "business",
+          "simplified": false,
+          "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/project/FIN"
+        },
+        "status": {
+          "id": "10002",
+          "name": "In Progress",
+          "description": "Work is being done",
+          "statusCategory": {
+            "id": 4,
+            "key": "indeterminate",
+            "name": "In Progress",
+            "colorName": "yellow"
+          }
+        },
+        "priority": {
+          "id": "3",
+          "name": "Medium"
+        },
+        "assignee": {
+          "accountId": "controller-001",
+          "accountType": "atlassian",
+          "emailAddress": "marcus.vance@vanguardshield.com",
+          "displayName": "Marcus Vance",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "reporter": {
+          "accountId": "controller-001",
+          "accountType": "atlassian",
+          "emailAddress": "marcus.vance@vanguardshield.com",
+          "displayName": "Marcus Vance",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "creator": {
+          "accountId": "controller-001",
+          "accountType": "atlassian",
+          "emailAddress": "marcus.vance@vanguardshield.com",
+          "displayName": "Marcus Vance",
+          "active": true,
+          "timeZone": "America/New_York"
+        },
+        "created": "2026-01-15T10:00:00.000Z",
+        "updated": "2026-01-15T10:00:00.000Z",
+        "resolutiondate": null,
+        "labels": [
+          "queue-assignee",
+          "pinned",
+          "reference"
+        ],
+        "components": [],
+        "fixVersions": [],
+        "versions": []
+      }
+    },
+    "OPS-10": {
+      "id": "10011",
+      "key": "OPS-10",
+      "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/issue/10011",
+      "fields": {
+        "summary": "Office Supplies - Q1 Supplemental - $4,999.99",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Intercompany suspense item for office supplies supplemental order reconciliation."
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10002",
+          "name": "Sub-task",
+          "description": "A subtask of another issue",
+          "subtask": true,
+          "hierarchyLevel": 1
+        },
+        "project": {
+          "id": "10001",
+          "key": "OPS",
+          "name": "Operations"
+        },
+        "status": {
+          "id": "10001",
+          "name": "To Do",
+          "description": "Work not yet started",
+          "statusCategory": {
+            "id": 2,
+            "key": "new",
+            "name": "To Do",
+            "colorName": "blue-gray"
+          }
+        },
+        "priority": {
+          "id": "3",
+          "name": "Medium"
+        },
+        "assignee": null,
+        "reporter": {
+          "accountId": "analyst-001",
+          "accountType": "atlassian",
+          "displayName": "Junior Operations Analyst",
+          "active": true
+        },
+        "creator": {
+          "accountId": "analyst-001",
+          "accountType": "atlassian",
+          "displayName": "Junior Operations Analyst",
+          "active": true
+        },
+        "created": "2026-03-01T14:00:00.000Z",
+        "updated": "2026-03-01T14:00:00.000Z",
+        "parent": {
+          "id": "10001",
+          "key": "OPS-1",
+          "fields": {
+            "summary": "March 2026 Month-Close Package - Intercompany Suspense",
+            "status": {
+              "id": "10002",
+              "name": "In Progress"
+            },
+            "issuetype": {
+              "id": "10001",
+              "name": "Task",
+              "subtask": false
+            }
+          }
+        },
+        "attachment": [
+          {
+            "id": "10011",
+            "filename": "INV-SUSP-009.pdf",
+            "author": {
+              "accountId": "analyst-001",
+              "accountType": "atlassian",
+              "displayName": "Junior Operations Analyst",
+              "active": true
+            },
+            "created": "2026-03-01T14:00:00.000Z",
+            "size": 145000,
+            "mimeType": "application/pdf",
+            "content": ""
+          }
+        ]
+      }
+    },
+    "FIN-2": {
+      "id": "10012",
+      "key": "FIN-2",
+      "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/issue/10012",
+      "fields": {
+        "summary": "FIN-Exceptions Queue - April 2026 Temporary Assignee",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "PINNED ISSUE: Temporary Queue Assignee for April 2026",
+                  "marks": [
+                    {
+                      "type": "strong"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": ""
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Marcus Vance will be Out of Office April 1-10, 2026."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Temporary Assignee for FIN-Exceptions: Jennifer Walsh (VP Finance)"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Email: jennifer.walsh@vanguardshield.com"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Jira: jennifer.walsh"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": ""
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Use Jennifer Walsh as assignee for all FIN-Exceptions tickets created April 1-10, 2026."
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10001",
+          "name": "Task",
+          "subtask": false,
+          "hierarchyLevel": 0
+        },
+        "project": {
+          "id": "10002",
+          "key": "FIN",
+          "name": "Finance"
+        },
+        "status": {
+          "id": "10002",
+          "name": "In Progress"
+        },
+        "priority": {
+          "id": "3",
+          "name": "Medium"
+        },
+        "assignee": {
+          "accountId": "vp-001",
+          "accountType": "atlassian",
+          "emailAddress": "jennifer.walsh@vanguardshield.com",
+          "displayName": "Jennifer Walsh",
+          "active": true
+        },
+        "reporter": {
+          "accountId": "controller-001",
+          "accountType": "atlassian",
+          "displayName": "Marcus Vance",
+          "active": true
+        },
+        "creator": {
+          "accountId": "controller-001",
+          "accountType": "atlassian",
+          "displayName": "Marcus Vance",
+          "active": true
+        },
+        "created": "2026-03-28T09:00:00.000Z",
+        "updated": "2026-03-28T09:00:00.000Z",
+        "labels": [
+          "queue-assignee",
+          "pinned",
+          "reference",
+          "temporary",
+          "april-2026"
+        ]
+      }
+    },
+    "OPS-11": {
+      "id": "10013",
+      "key": "OPS-11",
+      "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/issue/10013",
+      "fields": {
+        "summary": "Marketing Campaign - Q1 - $8,500.00",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Intercompany suspense item for marketing campaign reconciliation."
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10002",
+          "name": "Sub-task",
+          "subtask": true,
+          "hierarchyLevel": 1
+        },
+        "project": {
+          "id": "10001",
+          "key": "OPS",
+          "name": "Operations"
+        },
+        "status": {
+          "id": "10001",
+          "name": "To Do",
+          "statusCategory": {
+            "id": 2,
+            "key": "new",
+            "name": "To Do",
+            "colorName": "blue-gray"
+          }
+        },
+        "priority": {
+          "id": "3",
+          "name": "Medium"
+        },
+        "assignee": null,
+        "reporter": {
+          "accountId": "analyst-001",
+          "displayName": "Junior Operations Analyst",
+          "active": true,
+          "accountType": "atlassian"
+        },
+        "creator": {
+          "accountId": "analyst-001",
+          "displayName": "Junior Operations Analyst",
+          "active": true,
+          "accountType": "atlassian"
+        },
+        "created": "2026-03-01T14:00:00.000Z",
+        "updated": "2026-03-01T14:00:00.000Z",
+        "parent": {
+          "id": "10001",
+          "key": "OPS-1",
+          "fields": {
+            "summary": "March 2026 Month-Close Package",
+            "status": {
+              "id": "10002",
+              "name": "In Progress"
+            },
+            "issuetype": {
+              "id": "10001",
+              "name": "Task",
+              "subtask": false
+            }
+          }
+        },
+        "attachment": [
+          {
+            "id": "10013",
+            "filename": "INV-SUSP-011.pdf",
+            "author": {
+              "accountId": "analyst-001",
+              "displayName": "Junior Operations Analyst",
+              "active": true,
+              "accountType": "atlassian"
+            },
+            "created": "2026-03-01T14:00:00.000Z",
+            "size": 145000,
+            "mimeType": "application/pdf",
+            "content": ""
+          }
+        ]
+      }
+    },
+    "OPS-12": {
+      "id": "10014",
+      "key": "OPS-12",
+      "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/issue/10014",
+      "fields": {
+        "summary": "Client Entertainment - $7,500.00",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Intercompany suspense item for client entertainment reconciliation."
+                }
+              ]
+            }
+          ]
+        },
+        "issuetype": {
+          "id": "10002",
+          "name": "Sub-task",
+          "subtask": true,
+          "hierarchyLevel": 1
+        },
+        "project": {
+          "id": "10001",
+          "key": "OPS",
+          "name": "Operations"
+        },
+        "status": {
+          "id": "10001",
+          "name": "To Do",
+          "statusCategory": {
+            "id": 2,
+            "key": "new",
+            "name": "To Do",
+            "colorName": "blue-gray"
+          }
+        },
+        "priority": {
+          "id": "3",
+          "name": "Medium"
+        },
+        "assignee": null,
+        "reporter": {
+          "accountId": "analyst-001",
+          "displayName": "Junior Operations Analyst",
+          "active": true,
+          "accountType": "atlassian"
+        },
+        "creator": {
+          "accountId": "analyst-001",
+          "displayName": "Junior Operations Analyst",
+          "active": true,
+          "accountType": "atlassian"
+        },
+        "created": "2026-03-01T14:00:00.000Z",
+        "updated": "2026-03-01T14:00:00.000Z",
+        "parent": {
+          "id": "10001",
+          "key": "OPS-1",
+          "fields": {
+            "summary": "March 2026 Month-Close Package",
+            "status": {
+              "id": "10002",
+              "name": "In Progress"
+            },
+            "issuetype": {
+              "id": "10001",
+              "name": "Task",
+              "subtask": false
+            }
+          }
+        },
+        "attachment": [
+          {
+            "id": "10014",
+            "filename": "INV-SUSP-013.pdf",
+            "author": {
+              "accountId": "analyst-001",
+              "displayName": "Junior Operations Analyst",
+              "active": true,
+              "accountType": "atlassian"
+            },
+            "created": "2026-03-01T14:00:00.000Z",
+            "size": 145000,
+            "mimeType": "application/pdf",
+            "content": ""
+          }
+        ]
+      }
+    }
+  },
+  "sprints": {},
+  "comments": {},
+  "projects": {
+    "OPS": {
+      "id": "10001",
+      "key": "OPS",
+      "name": "Operations",
+      "description": "Operations and Finance workflow management",
+      "projectTypeKey": "business",
+      "simplified": false,
+      "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/project/OPS"
+    },
+    "FIN": {
+      "id": "10002",
+      "key": "FIN",
+      "name": "Finance",
+      "description": "Finance operations and exception management",
+      "projectTypeKey": "business",
+      "simplified": false,
+      "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/project/FIN"
+    }
+  },
+  "fields": [
+    {
+      "id": "summary",
+      "key": "summary",
+      "name": "Summary",
+      "custom": false,
+      "orderable": true,
+      "navigable": true,
+      "searchable": true,
+      "schema": {
+        "type": "string",
+        "system": "summary"
+      }
+    },
+    {
+      "id": "description",
+      "key": "description",
+      "name": "Description",
+      "custom": false,
+      "orderable": true,
+      "navigable": true,
+      "searchable": true,
+      "schema": {
+        "type": "string",
+        "system": "description"
+      }
+    },
+    {
+      "id": "issuetype",
+      "key": "issuetype",
+      "name": "Issue Type",
+      "custom": false,
+      "orderable": true,
+      "navigable": true,
+      "searchable": true,
+      "schema": {
+        "type": "issuetype",
+        "system": "issuetype"
+      }
+    },
+    {
+      "id": "status",
+      "key": "status",
+      "name": "Status",
+      "custom": false,
+      "orderable": false,
+      "navigable": true,
+      "searchable": true,
+      "schema": {
+        "type": "status",
+        "system": "status"
+      }
+    },
+    {
+      "id": "priority",
+      "key": "priority",
+      "name": "Priority",
+      "custom": false,
+      "orderable": true,
+      "navigable": true,
+      "searchable": true,
+      "schema": {
+        "type": "priority",
+        "system": "priority"
+      }
+    },
+    {
+      "id": "assignee",
+      "key": "assignee",
+      "name": "Assignee",
+      "custom": false,
+      "orderable": true,
+      "navigable": true,
+      "searchable": true,
+      "schema": {
+        "type": "user",
+        "system": "assignee"
+      }
+    },
+    {
+      "id": "reporter",
+      "key": "reporter",
+      "name": "Reporter",
+      "custom": false,
+      "orderable": true,
+      "navigable": true,
+      "searchable": true,
+      "schema": {
+        "type": "user",
+        "system": "reporter"
+      }
+    },
+    {
+      "id": "created",
+      "key": "created",
+      "name": "Created",
+      "custom": false,
+      "orderable": true,
+      "navigable": true,
+      "searchable": true,
+      "schema": {
+        "type": "datetime",
+        "system": "created"
+      }
+    },
+    {
+      "id": "updated",
+      "key": "updated",
+      "name": "Updated",
+      "custom": false,
+      "orderable": true,
+      "navigable": true,
+      "searchable": true,
+      "schema": {
+        "type": "datetime",
+        "system": "updated"
+      }
+    },
+    {
+      "id": "labels",
+      "key": "labels",
+      "name": "Labels",
+      "custom": false,
+      "orderable": true,
+      "navigable": true,
+      "searchable": true,
+      "schema": {
+        "type": "array",
+        "system": "labels",
+        "items": "string"
+      }
+    },
+    {
+      "id": "attachment",
+      "key": "attachment",
+      "name": "Attachment",
+      "custom": false,
+      "orderable": true,
+      "navigable": false,
+      "searchable": true,
+      "schema": {
+        "type": "array",
+        "system": "attachment",
+        "items": "attachment"
+      }
+    },
+    {
+      "id": "parent",
+      "key": "parent",
+      "name": "Parent",
+      "custom": false,
+      "orderable": false,
+      "navigable": true,
+      "searchable": false,
+      "schema": {
+        "type": "issuelink",
+        "system": "parent"
+      }
+    }
+  ],
+  "linkTypes": [
+    {
+      "id": "10001",
+      "name": "Blocks",
+      "inward": "is blocked by",
+      "outward": "blocks",
+      "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/issueLinkType/10001"
+    },
+    {
+      "id": "10002",
+      "name": "Cloners",
+      "inward": "is cloned by",
+      "outward": "clones",
+      "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/issueLinkType/10002"
+    },
+    {
+      "id": "10003",
+      "name": "Duplicate",
+      "inward": "is duplicated by",
+      "outward": "duplicates",
+      "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/issueLinkType/10003"
+    },
+    {
+      "id": "10004",
+      "name": "Relates",
+      "inward": "relates to",
+      "outward": "relates to",
+      "self": "https://api.atlassian.com/ex/jira/vanguardshield/rest/api/3/issueLinkType/10004"
+    }
+  ],
+  "counters": {
+    "issueId": 10014,
+    "sprintId": 1000,
+    "commentId": 1
+  },
+  "users": {
+    "analyst-001": {
+      "accountId": "analyst-001",
+      "displayName": "Junior Operations Analyst",
+      "accountType": "atlassian",
+      "emailAddress": "junior.analyst@vanguardshield.com"
+    },
+    "controller-001": {
+      "accountId": "controller-001",
+      "displayName": "Marcus Vance",
+      "accountType": "atlassian",
+      "emailAddress": "marcus.vance@vanguardshield.com"
+    },
+    "vp-001": {
+      "accountId": "vp-001",
+      "displayName": "Jennifer Walsh",
+      "accountType": "atlassian",
+      "emailAddress": "jennifer.walsh@vanguardshield.com"
+    }
+  },
+  "boards": {},
+  "statuses": {
+    "1": {
+      "id": "1",
+      "name": "In Progress",
+      "statusCategory": {
+        "id": 4,
+        "key": "indeterminate",
+        "name": "In Progress",
+        "colorName": "yellow"
+      }
+    },
+    "2": {
+      "id": "2",
+      "name": "To Do",
+      "statusCategory": {
+        "id": 2,
+        "key": "new",
+        "name": "To Do",
+        "colorName": "blue-gray"
+      }
+    }
+  },
+  "workflow": {
+    "In Progress": [
+      {
+        "id": "1",
+        "name": "To In Progress",
+        "to": "In Progress"
+      },
+      {
+        "id": "2",
+        "name": "To To Do",
+        "to": "To Do"
+      }
+    ],
+    "To Do": [
+      {
+        "id": "3",
+        "name": "To In Progress",
+        "to": "In Progress"
+      },
+      {
+        "id": "4",
+        "name": "To To Do",
+        "to": "To Do"
+      }
+    ]
+  },
+  "defaultStatusValue": "To Do"
+}

@@ -1,0 +1,330 @@
+{
+  "schema_version": "v1",
+  "tools": [
+    {
+      "name": "echo",
+      "description": "Echoes a message",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "message": {
+            "description": "The message to echo",
+            "type": "string"
+          }
+        },
+        "required": [
+          "message"
+        ],
+        "type": "object"
+      }
+    },
+    {
+      "name": "executeBash",
+      "description": "Execute a bash command in an isolated directory.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "command": {
+            "description": "The bash command to execute",
+            "type": "string"
+          },
+          "timeout_seconds": {
+            "anyOf": [
+              {
+                "maximum": 1800,
+                "minimum": 1,
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Timeout in seconds (default 120, max 1800)"
+          }
+        },
+        "required": [
+          "command"
+        ],
+        "type": "object"
+      }
+    },
+    {
+      "name": "executePython",
+      "description": "Execute Python code in an isolated directory.\n\n``executePython`` was dropped from core; this shim reimplements it on core's\nsandbox, piping the source to ``python3 -`` via stdin \u2014 matching the original\nso large scripts aren't capped by the OS command-line length (``python3 -c\n<code>`` would put the whole program in argv and can hit \"Argument list too\nlong\").",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "code": {
+            "description": "The Python code to execute",
+            "type": "string"
+          },
+          "timeout_seconds": {
+            "anyOf": [
+              {
+                "maximum": 1800,
+                "minimum": 1,
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Timeout in seconds (default 120, max 1800)"
+          }
+        },
+        "required": [
+          "code"
+        ],
+        "type": "object"
+      }
+    },
+    {
+      "name": "export_state",
+      "description": "Export the full core state as JSON.\n\nRound-trips with import_state. State is keyed by snake_case entity-class\nname (e.g. ``project``, ``employee``, ``slack_message``).",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {},
+        "type": "object"
+      }
+    },
+    {
+      "name": "import_state",
+      "description": "Replace the full core state with the provided JSON.\n\nFor synthetic-data injection and test setup. Round-trips with export_state.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "state": {
+            "additionalProperties": true,
+            "description": "Empty state \u2014 core has no DB to snapshot.",
+            "properties": {},
+            "type": "object"
+          }
+        },
+        "required": [
+          "state"
+        ],
+        "type": "object"
+      }
+    },
+    {
+      "name": "listFiles",
+      "description": "List files and subdirectories in a directory inside the sandbox.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "directory": {
+            "default": ".",
+            "description": "Directory to list, relative to the sandbox root. Use /workdir/ prefix or an absolute path within the sandbox to be explicit. Defaults to the sandbox root.",
+            "type": "string"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "name": "prepareGradingContext",
+      "description": "Prepare the text_for_grading string for rubric evaluation.\n\nCollects file evidence from the sandbox, formats as XML,\nand prepends to the agent's final_output.\n\nArgs:\n    final_output: The agent's final response text.\n    directory: Root directory to search. Defaults to the sandbox directory.\n    extensions: Only include files with these extensions (without dot).\n    exclude_patterns: Directory/file name patterns to skip.\n    max_files: Maximum number of files to include as evidence. Eligible files\n        beyond this cap are omitted but reported (logged and listed in the\n        XML under <files_omitted_due_to_max_files>) rather than dropped\n        silently. Defaults to DEFAULT_MAX_FILES.\n    max_content_bytes: Maximum bytes of content to read per file.\n\nReturns:\n    The assembled text_for_grading string.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "final_output": {
+            "type": "string"
+          },
+          "directory": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "extensions": {
+            "anyOf": [
+              {
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "exclude_patterns": {
+            "anyOf": [
+              {
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "max_files": {
+            "default": 100,
+            "type": "integer"
+          },
+          "max_content_bytes": {
+            "default": 250000,
+            "type": "integer"
+          }
+        },
+        "required": [
+          "final_output"
+        ],
+        "type": "object"
+      }
+    },
+    {
+      "name": "readFile",
+      "description": "Read a file from the sandbox, with optional offset/limit (bytes) for paginating large files.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "file_path": {
+            "description": "Path to the file. Use /workdir/ prefix for sandbox files, or an absolute path within the sandbox.",
+            "type": "string"
+          },
+          "offset": {
+            "default": 0,
+            "description": "Byte offset to start reading from. Use 0 for the beginning or a previous call's next_offset to continue.",
+            "minimum": 0,
+            "type": "integer"
+          },
+          "limit": {
+            "anyOf": [
+              {
+                "minimum": 1,
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": 200000,
+            "description": "Maximum number of bytes to read. Defaults to 200000. Pass null to read from offset to end of file."
+          }
+        },
+        "required": [
+          "file_path"
+        ],
+        "type": "object"
+      }
+    },
+    {
+      "name": "readMedia",
+      "description": "Read an image, PDF, audio, or video file and return it as multimodal MCP content (base64-encoded, capped at 20 MiB; images auto-resized to model limits, large PDFs read in page ranges).",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "file_path": {
+            "description": "Path to an image (gif/jpeg/png/webp), PDF, audio (wav/mp3/aiff/aac/ogg/flac), or video (mp4/mpeg/mov/avi/flv/webm/wmv/3gpp) file. Use /workdir/ prefix for sandbox files, or an absolute path within the sandbox. Returns multimodal MCP content; images are automatically downscaled/re-encoded to fit model limits (max 2000px on the long edge). Audio/video require a model with native audio/video support (e.g. Gemini) \u2014 other models see only a text placeholder. Use readFile for text and readPDF for PDF text extraction.",
+            "type": "string"
+          },
+          "pages": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "PDF page range to read, 1-indexed, e.g. '3' or '1-10' (max 20 pages per read). Required for PDFs over 20 pages or 10 MiB. Ignored for images."
+          }
+        },
+        "required": [
+          "file_path"
+        ],
+        "type": "object"
+      }
+    },
+    {
+      "name": "readPDF",
+      "description": "Extract text from a PDF file inside the sandbox.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "file_path": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "file_path"
+        ],
+        "type": "object"
+      }
+    },
+    {
+      "name": "writeFile",
+      "description": "Write content to a file in an isolated sandbox.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "file_path": {
+            "type": "string"
+          },
+          "content": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "file_path",
+          "content"
+        ],
+        "type": "object"
+      }
+    }
+  ],
+  "toolsets": {
+    "read": [
+      "echo",
+      "listFiles",
+      "readFile",
+      "readPDF"
+    ],
+    "read_multimodal": [
+      "echo",
+      "listFiles",
+      "readFile",
+      "readMedia",
+      "readPDF"
+    ],
+    "write": [
+      "executeBash",
+      "writeFile"
+    ],
+    "debug": [
+      "echo",
+      "executeBash",
+      "executePython"
+    ],
+    "ds_all": [
+      "executeBash",
+      "executePython",
+      "listFiles",
+      "readFile",
+      "readPDF",
+      "writeFile"
+    ],
+    "state": [
+      "export_state",
+      "import_state"
+    ],
+    "grading": [
+      "prepareGradingContext"
+    ]
+  }
+}

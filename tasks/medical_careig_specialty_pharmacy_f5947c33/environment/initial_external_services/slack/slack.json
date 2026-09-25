@@ -1,0 +1,332 @@
+{
+  "users": {
+    "U001": {
+      "id": "U001",
+      "team_id": "T001",
+      "name": "careig.admin",
+      "deleted": false,
+      "real_name": "CareIG Admin",
+      "profile": {
+        "real_name": "CareIG Admin",
+        "display_name": "careig.admin",
+        "email": "admin@careig.com",
+        "title": "Workspace Administrator"
+      },
+      "is_admin": true,
+      "is_owner": true,
+      "is_primary_owner": true,
+      "is_bot": false
+    },
+    "U002": {
+      "id": "U002",
+      "team_id": "T001",
+      "name": "careig.intake",
+      "deleted": false,
+      "real_name": "CareIG Intake",
+      "profile": {
+        "real_name": "CareIG Intake",
+        "display_name": "intake",
+        "email": "intake@careig.com",
+        "title": "Intake / Benefits Verification"
+      },
+      "is_admin": false,
+      "is_owner": false,
+      "is_bot": false
+    }
+  },
+  "channels": {
+    "C001": {
+      "id": "C001",
+      "name": "intake-team",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1774224000,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "intake-team",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1774224000,
+      "creator": "U001",
+      "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic": {
+        "value": "Intake team coordination — BVS assignments, PA submissions, formulary issues",
+        "creator": "U001",
+        "last_set": 1774224000
+      },
+      "purpose": {
+        "value": "Notifications for BVS assignments, PA submissions, and intake-level alerts",
+        "creator": "U001",
+        "last_set": 1774224000
+      }
+    },
+    "C002": {
+      "id": "C002",
+      "name": "intake-mgmt",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1774224000,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "intake-mgmt",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1774224000,
+      "creator": "U001",
+      "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic": {
+        "value": "Intake management — OON decisions, PA delays, supervisor escalations",
+        "creator": "U001",
+        "last_set": 1774224000
+      },
+      "purpose": {
+        "value": "Supervisor-level intake escalations requiring decisions or intervention",
+        "creator": "U001",
+        "last_set": 1774224000
+      }
+    },
+    "C003": {
+      "id": "C003",
+      "name": "intake-alerts",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1774224000,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "intake-alerts",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1774224000,
+      "creator": "U001",
+      "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic": {
+        "value": "Automated intake holds — missing NPI, unreachable patients, consent issues, PA holds",
+        "creator": "U001",
+        "last_set": 1774224000
+      },
+      "purpose": {
+        "value": "System and workflow alerts for cases that are blocked at the intake stage",
+        "creator": "U001",
+        "last_set": 1774224000
+      }
+    },
+    "C004": {
+      "id": "C004",
+      "name": "billing",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1774224000,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "billing",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1774224000,
+      "creator": "U001",
+      "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic": {
+        "value": "Claim submissions, billing holds, AR follow-up, ERA unposted",
+        "creator": "U001",
+        "last_set": 1774224000
+      },
+      "purpose": {
+        "value": "Billing team notifications — claim submissions, pre-billing validation failures, AR activity",
+        "creator": "U001",
+        "last_set": 1774224000
+      }
+    },
+    "C005": {
+      "id": "C005",
+      "name": "billing-mgmt",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1774224000,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "billing-mgmt",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1774224000,
+      "creator": "U001",
+      "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic": {
+        "value": "Billing management — underpayments, write-off requests, L2 denials, benefit type issues",
+        "creator": "U001",
+        "last_set": 1774224000
+      },
+      "purpose": {
+        "value": "Director-level billing escalations requiring approval or intervention",
+        "creator": "U001",
+        "last_set": 1774224000
+      }
+    },
+    "C006": {
+      "id": "C006",
+      "name": "billing-appeals",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1774224000,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "billing-appeals",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1774224000,
+      "creator": "U001",
+      "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic": {
+        "value": "PA denials and claim appeal tracking — L1, L2, unworked denials",
+        "creator": "U001",
+        "last_set": 1774224000
+      },
+      "purpose": {
+        "value": "Notifications for PA denials and claim appeals at all levels",
+        "creator": "U001",
+        "last_set": 1774224000
+      }
+    },
+    "C007": {
+      "id": "C007",
+      "name": "clinical-scheduling",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1774224000,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "clinical-scheduling",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1774224000,
+      "creator": "U001",
+      "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic": {
+        "value": "PA approvals, nurse scheduling, visit completions, supply holds",
+        "creator": "U001",
+        "last_set": 1774224000
+      },
+      "purpose": {
+        "value": "Clinical team coordination — PA handoffs, visit scheduling, visit note status",
+        "creator": "U001",
+        "last_set": 1774224000
+      }
+    },
+    "C008": {
+      "id": "C008",
+      "name": "compliance",
+      "is_channel": true,
+      "is_group": false,
+      "is_im": false,
+      "is_mpim": false,
+      "is_private": false,
+      "created": 1774224000,
+      "is_archived": false,
+      "is_general": false,
+      "unlinked": 0,
+      "name_normalized": "compliance",
+      "is_shared": false,
+      "is_org_shared": false,
+      "is_ext_shared": false,
+      "is_pending_ext_shared": false,
+      "pending_shared": [],
+      "pending_connected_team_ids": [],
+      "context_team_id": "T001",
+      "updated": 1774224000,
+      "creator": "U001",
+      "shared_team_ids": ["T001"],
+      "is_member": true,
+      "topic": {
+        "value": "Legal threats, attorney communications, suspected fraud — STOP and post here",
+        "creator": "U001",
+        "last_set": 1774224000
+      },
+      "purpose": {
+        "value": "Compliance escalations — legal threats, attorney communications, fraud reports. Do not discuss case details elsewhere.",
+        "creator": "U001",
+        "last_set": 1774224000
+      }
+    }
+  },
+  "messages": {
+    "C001": [],
+    "C002": [],
+    "C003": [],
+    "C004": [],
+    "C005": [],
+    "C006": [],
+    "C007": [],
+    "C008": []
+  },
+  "counters": {
+    "messageId": 1000000
+  }
+}

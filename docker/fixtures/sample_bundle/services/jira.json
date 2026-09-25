@@ -1,0 +1,378 @@
+{
+  "boards": {
+    "1": {
+      "id": 1,
+      "name": "Engineering Board",
+      "projectKey": "ENG",
+      "type": "scrum"
+    }
+  },
+  "comments": {
+    "ENG-1": [
+      {
+        "author": {
+          "accountId": "b1",
+          "accountType": "atlassian",
+          "active": true,
+          "displayName": "Bob Smith"
+        },
+        "body": "Working on this now.",
+        "created": "2025-05-26T09:00:00Z",
+        "id": "1",
+        "updated": "2025-05-26T09:00:00Z"
+      }
+    ]
+  },
+  "counters": {
+    "attachmentId": 0,
+    "boardId": 1001,
+    "commentId": 2,
+    "issueId": 10002,
+    "issueLinkId": 0,
+    "sprintId": 1000,
+    "worklogId": 0
+  },
+  "currentUserAccountId": "reporter-001",
+  "fields": [
+    {
+      "custom": false,
+      "id": "summary",
+      "key": "summary",
+      "name": "Summary",
+      "searchable": true
+    },
+    {
+      "custom": false,
+      "id": "description",
+      "key": "description",
+      "name": "Description",
+      "searchable": true
+    },
+    {
+      "custom": false,
+      "id": "status",
+      "key": "status",
+      "name": "Status",
+      "searchable": true
+    },
+    {
+      "custom": false,
+      "id": "priority",
+      "key": "priority",
+      "name": "Priority",
+      "searchable": true
+    },
+    {
+      "custom": false,
+      "id": "assignee",
+      "key": "assignee",
+      "name": "Assignee",
+      "searchable": true
+    }
+  ],
+  "is_admin": false,
+  "issues": {
+    "ENG-1": {
+      "fields": {
+        "assignee": {
+          "accountId": "a1",
+          "accountType": "atlassian",
+          "active": true,
+          "displayName": "Alice Smith"
+        },
+        "components": [],
+        "created": "2025-05-20T10:00:00Z",
+        "description": "Set up the CI/CD pipeline for the main repository.",
+        "fixVersions": [],
+        "issuelinks": [],
+        "issuetype": {
+          "id": "1",
+          "name": "Task",
+          "subtask": false
+        },
+        "labels": [
+          "infra"
+        ],
+        "priority": {
+          "id": "2",
+          "name": "High"
+        },
+        "project": {
+          "description": "Engineering team project",
+          "id": "10001",
+          "key": "ENG",
+          "name": "Engineering",
+          "projectTypeKey": "software",
+          "simplified": false
+        },
+        "reporter": {
+          "accountId": "b1",
+          "accountType": "atlassian",
+          "active": true,
+          "displayName": "Bob Smith"
+        },
+        "status": {
+          "description": "Issue is open and not yet started",
+          "id": "10001",
+          "name": "To Do",
+          "statusCategory": {
+            "colorName": "blue-gray",
+            "id": 2,
+            "key": "new",
+            "name": "To Do"
+          }
+        },
+        "summary": "Setup CI/CD pipeline",
+        "updated": "2025-05-25T12:00:00Z",
+        "versions": []
+      },
+      "id": "10001",
+      "key": "ENG-1"
+    },
+    "ENG-2": {
+      "fields": {
+        "assignee": {
+          "accountId": "b1",
+          "accountType": "atlassian",
+          "active": true,
+          "displayName": "Bob Smith"
+        },
+        "components": [],
+        "created": "2025-05-22T10:00:00Z",
+        "fixVersions": [],
+        "issuelinks": [],
+        "issuetype": {
+          "id": "2",
+          "name": "Story",
+          "subtask": false
+        },
+        "labels": [
+          "testing"
+        ],
+        "priority": {
+          "id": "3",
+          "name": "Medium"
+        },
+        "project": {
+          "description": "Engineering team project",
+          "id": "10001",
+          "key": "ENG",
+          "name": "Engineering",
+          "projectTypeKey": "software",
+          "simplified": false
+        },
+        "reporter": {
+          "accountId": "a1",
+          "accountType": "atlassian",
+          "active": true,
+          "displayName": "Alice Smith"
+        },
+        "status": {
+          "description": "Issue is actively being worked on",
+          "id": "10002",
+          "name": "In Progress",
+          "statusCategory": {
+            "colorName": "yellow",
+            "id": 4,
+            "key": "indeterminate",
+            "name": "In Progress"
+          }
+        },
+        "summary": "Add unit test coverage",
+        "updated": "2025-05-27T14:00:00Z",
+        "versions": []
+      },
+      "id": "10002",
+      "key": "ENG-2"
+    }
+  },
+  "linkTypes": [
+    {
+      "id": "10001",
+      "inward": "is blocked by",
+      "name": "Blocks",
+      "outward": "blocks"
+    },
+    {
+      "id": "10004",
+      "inward": "relates to",
+      "name": "Relates",
+      "outward": "relates to"
+    }
+  ],
+  "projects": {
+    "ENG": {
+      "description": "Engineering team project",
+      "id": "10001",
+      "key": "ENG",
+      "name": "Engineering",
+      "projectTypeKey": "software",
+      "simplified": false
+    }
+  },
+  "sprints": {
+    "1": {
+      "endDate": "2025-06-02T00:00:00Z",
+      "goal": "Setup infrastructure",
+      "id": 1,
+      "name": "Sprint 1",
+      "originBoardId": 1,
+      "startDate": "2025-05-19T00:00:00Z",
+      "state": "active"
+    }
+  },
+  "statuses": {
+    "10001": {
+      "description": "Issue is open and not yet started",
+      "id": "10001",
+      "name": "To Do",
+      "statusCategory": {
+        "colorName": "blue-gray",
+        "id": 2,
+        "key": "new",
+        "name": "To Do"
+      }
+    },
+    "10002": {
+      "description": "Issue is actively being worked on",
+      "id": "10002",
+      "name": "In Progress",
+      "statusCategory": {
+        "colorName": "yellow",
+        "id": 4,
+        "key": "indeterminate",
+        "name": "In Progress"
+      }
+    },
+    "10003": {
+      "description": "Issue is being reviewed",
+      "id": "10003",
+      "name": "In Review",
+      "statusCategory": {
+        "colorName": "yellow",
+        "id": 4,
+        "key": "indeterminate",
+        "name": "In Progress"
+      }
+    },
+    "10004": {
+      "description": "Issue is complete",
+      "id": "10004",
+      "name": "Done",
+      "statusCategory": {
+        "colorName": "green",
+        "id": 3,
+        "key": "done",
+        "name": "Done"
+      }
+    }
+  },
+  "users": {
+    "a1": {
+      "accountId": "a1",
+      "accountType": "atlassian",
+      "active": true,
+      "displayName": "Alice Smith"
+    },
+    "b1": {
+      "accountId": "b1",
+      "accountType": "atlassian",
+      "active": true,
+      "displayName": "Bob Smith"
+    },
+    "commenter-001": {
+      "accountId": "commenter-001",
+      "accountType": "atlassian",
+      "active": true,
+      "displayName": "Commenter User",
+      "emailAddress": "commenter-001@example.com",
+      "timeZone": "America/New_York"
+    },
+    "creator-001": {
+      "accountId": "creator-001",
+      "accountType": "atlassian",
+      "active": true,
+      "displayName": "Creator User",
+      "emailAddress": "creator-001@example.com",
+      "timeZone": "America/New_York"
+    },
+    "reporter-001": {
+      "accountId": "reporter-001",
+      "accountType": "atlassian",
+      "active": true,
+      "displayName": "Reporter User",
+      "emailAddress": "reporter-001@example.com",
+      "timeZone": "America/New_York"
+    },
+    "uploader-001": {
+      "accountId": "uploader-001",
+      "accountType": "atlassian",
+      "active": true,
+      "displayName": "Uploader User",
+      "emailAddress": "uploader-001@example.com",
+      "timeZone": "America/New_York"
+    },
+    "user-1": {
+      "accountId": "user-1",
+      "accountType": "atlassian",
+      "active": true,
+      "displayName": "User 1",
+      "emailAddress": "user-1@example.com",
+      "timeZone": "America/New_York"
+    },
+    "worker-001": {
+      "accountId": "worker-001",
+      "accountType": "atlassian",
+      "active": true,
+      "displayName": "Worker User",
+      "emailAddress": "worker-001@example.com",
+      "timeZone": "America/New_York"
+    }
+  },
+  "workflow": {
+    "Done": [
+      {
+        "id": "7",
+        "name": "Reopen",
+        "to": "To Do"
+      }
+    ],
+    "In Progress": [
+      {
+        "id": "2",
+        "name": "Submit for Review",
+        "to": "In Review"
+      },
+      {
+        "id": "3",
+        "name": "Mark Done",
+        "to": "Done"
+      },
+      {
+        "id": "4",
+        "name": "Back to To Do",
+        "to": "To Do"
+      }
+    ],
+    "In Review": [
+      {
+        "id": "5",
+        "name": "Approve",
+        "to": "Done"
+      },
+      {
+        "id": "6",
+        "name": "Request Changes",
+        "to": "In Progress"
+      }
+    ],
+    "To Do": [
+      {
+        "id": "1",
+        "name": "Start Progress",
+        "to": "In Progress"
+      }
+    ]
+  },
+  "worklogs": {}
+}

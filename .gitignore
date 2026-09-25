@@ -1,0 +1,16 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Local env (do NOT commit your real API keys)
+.env
+
+# Harbor run outputs
+jobs/
+
+# OS junk
+.DS_Store

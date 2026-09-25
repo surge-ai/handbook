@@ -1,0 +1,41 @@
+{
+  "mailbox": {
+    "email": "intake@careig.com",
+    "name": "CareIG Intake"
+  },
+  "contacts": [
+    {
+      "email": "evasquez@springfieldneurology.com",
+      "name": "Dr. Elena Vasquez"
+    },
+    {
+      "email": "pa.submissions@bcpremier.com",
+      "name": "BlueCross Premier — PA Department"
+    },
+    {
+      "email": "rcho@greenmedclinic.org",
+      "name": "Dr. Robert Cho"
+    }
+  ],
+  "folders": [],
+  "emails": [
+    {
+      "email_id": "1",
+      "folder": "INBOX",
+      "subject": "Formulary Notice — Webb, Marcus | MemberID: BCX-447821055",
+      "from_addr": "evasquez@springfieldneurology.com",
+      "to_addr": "intake@careig.com",
+      "cc_addr": null,
+      "bcc_addr": null,
+      "date": "2026-03-28T14:22:00Z",
+      "message_id": "<vasquez-20260328-webb@springfieldneurology.com>",
+      "in_reply_to": null,
+      "body_text": "Hello CareIG Intake Team,\n\nI am writing proactively regarding my patient Marcus Webb (DOB: 03/15/1968, Member ID: BCX-447821055) for whom I have recently submitted a referral for home IVIG therapy.\n\nOctagam is my preferred formulation; however, I am aware that it may not appear on all commercial formularies. Should BlueCross Premier not cover Octagam, I authorize substitution of Gammagard Liquid 10% at an adjusted dose of 35 grams IV every 28 days. The dose reduction from the originally ordered 40g reflects the higher bioavailability profile of the Gammagard Liquid 10% formulation and is clinically appropriate for this patient. Please update the case accordingly.\n\nNo amendment to the Letter of Medical Necessity is required — it covers IVIG therapy broadly and is not brand-specific.\n\nPlease proceed with whichever covered formulation is appropriate for this patient's plan.\n\nFeel free to contact my office at (555) 301-4490 with any questions.\n\nSincerely,\nDr. Elena Vasquez, MD\nSpringfield Neurology Associates\n(555) 301-4490 | evasquez@springfieldneurology.com",
+      "body_html": null,
+      "is_read": false,
+      "is_important": false,
+      "attachments": []
+    }
+  ],
+  "next_email_id": 2
+}

@@ -1,0 +1,4941 @@
+{
+  "schema_version": "v1",
+  "tools": [
+    {
+      "name": "add_reaction",
+      "description": "Add a reaction emoji to a message.\n\nThe reaction may be provided with or without surrounding colons, e.g.\n`thumbsup` and `:thumbsup:` are equivalent.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "channel_id": {
+            "description": "Slack channel, private channel, DM, or MPIM ID.",
+            "pattern": "^[CDG][A-Za-z0-9_]+$",
+            "type": "string"
+          },
+          "timestamp": {
+            "description": "Slack message timestamp, such as 1700000001.000.",
+            "pattern": "^\\d{10}\\.\\d{3,6}$",
+            "type": "string"
+          },
+          "reaction": {
+            "description": "Emoji reaction name, with or without surrounding colons.",
+            "minLength": 1,
+            "type": "string"
+          },
+          "workspace_id": {
+            "anyOf": [
+              {
+                "description": "Slack workspace ID. Defaults to the default workspace.",
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          }
+        },
+        "required": [
+          "channel_id",
+          "timestamp",
+          "reaction"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "type": "object"
+      }
+    },
+    {
+      "name": "archive_channel",
+      "description": "Archive a named public/private channel.\n\nDMs and MPIMs cannot be archived and return\nmethod_not_supported_for_channel_type.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "channel_id": {
+            "description": "Slack channel, private channel, DM, or MPIM ID.",
+            "pattern": "^[CDG][A-Za-z0-9_]+$",
+            "type": "string"
+          },
+          "workspace_id": {
+            "anyOf": [
+              {
+                "description": "Slack workspace ID. Defaults to the default workspace.",
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          }
+        },
+        "required": [
+          "channel_id"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "type": "object"
+      }
+    },
+    {
+      "name": "create_channel",
+      "description": "Create a new public or private channel.\n\nChannel names are normalized to lowercase. Duplicates are rejected against\nexisting named public/private channels, but DMs and MPIMs are ignored for\nname uniqueness.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "name": {
+            "description": "Channel name.",
+            "minLength": 1,
+            "type": "string"
+          },
+          "is_private": {
+            "default": false,
+            "type": "boolean"
+          },
+          "workspace_id": {
+            "anyOf": [
+              {
+                "description": "Slack workspace ID. Defaults to the default workspace.",
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          }
+        },
+        "required": [
+          "name"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "type": "object"
+      }
+    },
+    {
+      "name": "delete_message",
+      "description": "Delete a message from a channel, DM, or MPIM.\n\nIn normal mode, only messages authored by the bot can be deleted. In admin\nmode (`is_admin: true` in state), any message can be deleted. Deleting a\nthread parent also removes its replies.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "channel_id": {
+            "description": "Slack channel, private channel, DM, or MPIM ID.",
+            "pattern": "^[CDG][A-Za-z0-9_]+$",
+            "type": "string"
+          },
+          "ts": {
+            "description": "Slack message timestamp, such as 1700000001.000.",
+            "pattern": "^\\d{10}\\.\\d{3,6}$",
+            "type": "string"
+          },
+          "workspace_id": {
+            "anyOf": [
+              {
+                "description": "Slack workspace ID. Defaults to the default workspace.",
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          }
+        },
+        "required": [
+          "channel_id",
+          "ts"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "type": "object"
+      }
+    },
+    {
+      "name": "edit_message",
+      "description": "Edit an existing message.\n\nIn normal mode, only messages authored by the bot can be edited. In admin\nmode (`is_admin: true` in state), any message can be edited.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "channel_id": {
+            "description": "Slack channel, private channel, DM, or MPIM ID.",
+            "pattern": "^[CDG][A-Za-z0-9_]+$",
+            "type": "string"
+          },
+          "ts": {
+            "description": "Slack message timestamp, such as 1700000001.000.",
+            "pattern": "^\\d{10}\\.\\d{3,6}$",
+            "type": "string"
+          },
+          "text": {
+            "description": "Message text.",
+            "minLength": 1,
+            "type": "string"
+          },
+          "workspace_id": {
+            "anyOf": [
+              {
+                "description": "Slack workspace ID. Defaults to the default workspace.",
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          }
+        },
+        "required": [
+          "channel_id",
+          "ts",
+          "text"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "type": "object"
+      }
+    },
+    {
+      "name": "export_state",
+      "description": "Export the full Slack state as JSON.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {},
+        "type": "object"
+      },
+      "outputSchema": {
+        "$defs": {
+          "SlackAttachment": {
+            "additionalProperties": false,
+            "properties": {
+              "fallback": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "color": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "pretext": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "author_name": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "author_link": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "author_icon": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "author_subname": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "title": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "title_link": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "text": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "fields": {
+                "anyOf": [
+                  {
+                    "items": {
+                      "$ref": "#/$defs/SlackAttachmentField"
+                    },
+                    "type": "array"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "image_url": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "thumb_url": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "thumb_width": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "thumb_height": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "footer": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "footer_icon": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "ts": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "mrkdwn_in": {
+                "anyOf": [
+                  {
+                    "items": {
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "actions": {
+                "anyOf": [
+                  {
+                    "items": {
+                      "$ref": "#/$defs/SlackAttachmentAction"
+                    },
+                    "type": "array"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "callback_id": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "id": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              }
+            },
+            "type": "object"
+          },
+          "SlackAttachmentAction": {
+            "additionalProperties": false,
+            "properties": {
+              "id": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "name": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "text": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "type": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "value": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "style": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "url": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "confirm": {
+                "anyOf": [
+                  {
+                    "$ref": "#/$defs/SlackAttachmentActionConfirm"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "options": {
+                "anyOf": [
+                  {
+                    "items": {
+                      "$ref": "#/$defs/SlackAttachmentActionOption"
+                    },
+                    "type": "array"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "option_groups": {
+                "anyOf": [
+                  {
+                    "items": {
+                      "$ref": "#/$defs/SlackAttachmentActionOptionGroup"
+                    },
+                    "type": "array"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "data_source": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "selected_options": {
+                "anyOf": [
+                  {
+                    "items": {
+                      "$ref": "#/$defs/SlackAttachmentActionOption"
+                    },
+                    "type": "array"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "min_query_length": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              }
+            },
+            "required": [
+              "name",
+              "text",
+              "type"
+            ],
+            "type": "object"
+          },
+          "SlackAttachmentActionConfirm": {
+            "additionalProperties": false,
+            "properties": {
+              "title": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "text": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "ok_text": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "dismiss_text": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              }
+            },
+            "required": [
+              "text"
+            ],
+            "type": "object"
+          },
+          "SlackAttachmentActionOption": {
+            "additionalProperties": false,
+            "properties": {
+              "text": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "value": {
+                "minLength": 1,
+                "type": "string"
+              }
+            },
+            "required": [
+              "text",
+              "value"
+            ],
+            "type": "object"
+          },
+          "SlackAttachmentActionOptionGroup": {
+            "additionalProperties": false,
+            "properties": {
+              "text": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "options": {
+                "items": {
+                  "$ref": "#/$defs/SlackAttachmentActionOption"
+                },
+                "type": "array"
+              }
+            },
+            "required": [
+              "text",
+              "options"
+            ],
+            "type": "object"
+          },
+          "SlackAttachmentField": {
+            "additionalProperties": false,
+            "properties": {
+              "title": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "value": {
+                "type": "string"
+              },
+              "short": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "title",
+              "value",
+              "short"
+            ],
+            "type": "object"
+          },
+          "SlackBlock": {
+            "additionalProperties": false,
+            "properties": {
+              "type": {
+                "$ref": "#/$defs/SlackBlockType"
+              },
+              "block_id": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "elements": {
+                "anyOf": [
+                  {
+                    "items": {
+                      "$ref": "#/$defs/SlackBlockElement"
+                    },
+                    "type": "array"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "text": {
+                "anyOf": [
+                  {
+                    "$ref": "#/$defs/SlackTextObject"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "accessory": {
+                "anyOf": [
+                  {
+                    "$ref": "#/$defs/SlackBlockElement"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "fields": {
+                "anyOf": [
+                  {
+                    "items": {
+                      "$ref": "#/$defs/SlackTextObject"
+                    },
+                    "type": "array"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "image_url": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "alt_text": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "title": {
+                "anyOf": [
+                  {
+                    "$ref": "#/$defs/SlackTextObject"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              }
+            },
+            "required": [
+              "type"
+            ],
+            "type": "object"
+          },
+          "SlackBlockElement": {
+            "additionalProperties": false,
+            "properties": {
+              "type": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "text": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "$ref": "#/$defs/SlackTextObject"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "elements": {
+                "anyOf": [
+                  {
+                    "items": {
+                      "$ref": "#/$defs/SlackBlockElement"
+                    },
+                    "type": "array"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              }
+            },
+            "required": [
+              "type"
+            ],
+            "type": "object"
+          },
+          "SlackBlockType": {
+            "enum": [
+              "actions",
+              "context",
+              "divider",
+              "header",
+              "image",
+              "input",
+              "section",
+              "video"
+            ],
+            "type": "string"
+          },
+          "SlackBotProfile": {
+            "additionalProperties": false,
+            "properties": {
+              "id": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "deleted": {
+                "anyOf": [
+                  {
+                    "type": "boolean"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "name": {
+                "type": "string"
+              },
+              "updated": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "app_id": {
+                "type": "string"
+              },
+              "icons": {
+                "anyOf": [
+                  {
+                    "additionalProperties": {
+                      "type": "string"
+                    },
+                    "type": "object"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "team_id": {
+                "pattern": "^T[A-Za-z0-9_]+$",
+                "type": "string"
+              }
+            },
+            "required": [
+              "id",
+              "name",
+              "app_id",
+              "team_id"
+            ],
+            "type": "object"
+          },
+          "SlackChannel": {
+            "additionalProperties": false,
+            "properties": {
+              "id": {
+                "pattern": "^[CDG][A-Za-z0-9_]+$",
+                "type": "string"
+              },
+              "name": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "is_channel": {
+                "default": true,
+                "type": "boolean"
+              },
+              "is_group": {
+                "default": false,
+                "type": "boolean"
+              },
+              "is_im": {
+                "default": false,
+                "type": "boolean"
+              },
+              "is_mpim": {
+                "default": false,
+                "type": "boolean"
+              },
+              "is_private": {
+                "default": false,
+                "type": "boolean"
+              },
+              "created": {
+                "default": 0,
+                "type": "integer"
+              },
+              "is_archived": {
+                "default": false,
+                "type": "boolean"
+              },
+              "is_general": {
+                "default": false,
+                "type": "boolean"
+              },
+              "is_frozen": {
+                "anyOf": [
+                  {
+                    "type": "boolean"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "is_read_only": {
+                "anyOf": [
+                  {
+                    "type": "boolean"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "is_thread_only": {
+                "anyOf": [
+                  {
+                    "type": "boolean"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "unlinked": {
+                "default": 0,
+                "type": "integer"
+              },
+              "name_normalized": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "is_shared": {
+                "default": false,
+                "type": "boolean"
+              },
+              "is_org_shared": {
+                "default": false,
+                "type": "boolean"
+              },
+              "is_ext_shared": {
+                "default": false,
+                "type": "boolean"
+              },
+              "is_pending_ext_shared": {
+                "default": false,
+                "type": "boolean"
+              },
+              "pending_shared": {
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              "pending_connected_team_ids": {
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              "context_team_id": {
+                "default": "T_MOCK",
+                "pattern": "^T[A-Za-z0-9_]+$",
+                "type": "string"
+              },
+              "updated": {
+                "default": 0,
+                "type": "integer"
+              },
+              "parent_conversation": {
+                "anyOf": [
+                  {
+                    "pattern": "^[CDG][A-Za-z0-9_]+$",
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "creator": {
+                "anyOf": [
+                  {
+                    "pattern": "^[UW][A-Za-z0-9_]+$",
+                    "type": "string"
+                  },
+                  {
+                    "const": "",
+                    "type": "string"
+                  }
+                ],
+                "default": ""
+              },
+              "shared_team_ids": {
+                "items": {
+                  "pattern": "^T[A-Za-z0-9_]+$",
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              "is_member": {
+                "default": true,
+                "type": "boolean"
+              },
+              "conversation_host_id": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "topic": {
+                "anyOf": [
+                  {
+                    "$ref": "#/$defs/SlackChannelTopic"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "purpose": {
+                "anyOf": [
+                  {
+                    "$ref": "#/$defs/SlackChannelTopic"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "properties": {
+                "anyOf": [
+                  {
+                    "$ref": "#/$defs/SlackChannelProperties"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "previous_names": {
+                "anyOf": [
+                  {
+                    "items": {
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "num_members": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "last_read": {
+                "anyOf": [
+                  {
+                    "pattern": "^\\d{10}\\.\\d{3,6}$",
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "unread_count": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "unread_count_display": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "latest": {
+                "anyOf": [
+                  {
+                    "additionalProperties": true,
+                    "type": "object"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "user": {
+                "anyOf": [
+                  {
+                    "pattern": "^[UW][A-Za-z0-9_]+$",
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "members": {
+                "anyOf": [
+                  {
+                    "items": {
+                      "pattern": "^[UW][A-Za-z0-9_]+$",
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              }
+            },
+            "required": [
+              "id",
+              "name"
+            ],
+            "type": "object"
+          },
+          "SlackChannelPostingRestrictions": {
+            "additionalProperties": false,
+            "properties": {
+              "type": {
+                "anyOf": [
+                  {
+                    "items": {
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "subteam": {
+                "anyOf": [
+                  {
+                    "items": {
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "user": {
+                "anyOf": [
+                  {
+                    "items": {
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              }
+            },
+            "type": "object"
+          },
+          "SlackChannelProperties": {
+            "additionalProperties": false,
+            "properties": {
+              "posting_restricted_to": {
+                "anyOf": [
+                  {
+                    "$ref": "#/$defs/SlackChannelPostingRestrictions"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "threads_restricted_to": {
+                "anyOf": [
+                  {
+                    "$ref": "#/$defs/SlackChannelPostingRestrictions"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "at_channel_restricted": {
+                "anyOf": [
+                  {
+                    "type": "boolean"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "at_here_restricted": {
+                "anyOf": [
+                  {
+                    "type": "boolean"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "huddles_restricted": {
+                "anyOf": [
+                  {
+                    "type": "boolean"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "sharing_disabled": {
+                "anyOf": [
+                  {
+                    "type": "boolean"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "tabs": {
+                "anyOf": [
+                  {
+                    "items": {
+                      "$ref": "#/$defs/SlackChannelTab"
+                    },
+                    "type": "array"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "default_tab_id": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "auto_open_tab_id": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "membership_limit": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "canvas": {
+                "anyOf": [
+                  {},
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              }
+            },
+            "type": "object"
+          },
+          "SlackChannelTab": {
+            "additionalProperties": false,
+            "properties": {
+              "id": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "label": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "type": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "data": {
+                "anyOf": [
+                  {},
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "is_disabled": {
+                "anyOf": [
+                  {
+                    "type": "boolean"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              }
+            },
+            "required": [
+              "id",
+              "label",
+              "type"
+            ],
+            "type": "object"
+          },
+          "SlackChannelTopic": {
+            "additionalProperties": false,
+            "properties": {
+              "value": {
+                "default": "",
+                "type": "string"
+              },
+              "creator": {
+                "anyOf": [
+                  {
+                    "pattern": "^[UW][A-Za-z0-9_]+$",
+                    "type": "string"
+                  },
+                  {
+                    "const": "",
+                    "type": "string"
+                  }
+                ],
+                "default": ""
+              },
+              "last_set": {
+                "default": 0,
+                "type": "integer"
+              }
+            },
+            "type": "object"
+          },
+          "SlackCounters": {
+            "additionalProperties": false,
+            "properties": {
+              "channelId": {
+                "default": 1000,
+                "type": "integer"
+              },
+              "fileId": {
+                "default": 1000,
+                "type": "integer"
+              }
+            },
+            "type": "object"
+          },
+          "SlackEnterpriseUser": {
+            "additionalProperties": false,
+            "properties": {
+              "id": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "enterprise_id": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "enterprise_name": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "is_admin": {
+                "type": "boolean"
+              },
+              "is_owner": {
+                "type": "boolean"
+              },
+              "is_primary_owner": {
+                "anyOf": [
+                  {
+                    "type": "boolean"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "teams": {
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              }
+            },
+            "required": [
+              "id",
+              "enterprise_id",
+              "enterprise_name",
+              "is_admin",
+              "is_owner",
+              "teams"
+            ],
+            "type": "object"
+          },
+          "SlackFile": {
+            "additionalProperties": false,
+            "properties": {
+              "id": {
+                "pattern": "^F[A-Za-z0-9_]+$",
+                "type": "string"
+              },
+              "created": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "timestamp": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "name": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "title": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "mimetype": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "filetype": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "pretty_type": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "user": {
+                "anyOf": [
+                  {
+                    "pattern": "^[UW][A-Za-z0-9_]+$",
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "user_team": {
+                "anyOf": [
+                  {
+                    "pattern": "^T[A-Za-z0-9_]+$",
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "editable": {
+                "anyOf": [
+                  {
+                    "type": "boolean"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "size": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "mode": {
+                "anyOf": [
+                  {
+                    "$ref": "#/$defs/SlackFileMode"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "is_external": {
+                "anyOf": [
+                  {
+                    "type": "boolean"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "external_type": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "is_public": {
+                "anyOf": [
+                  {
+                    "type": "boolean"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "public_url_shared": {
+                "anyOf": [
+                  {
+                    "type": "boolean"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "display_as_bot": {
+                "anyOf": [
+                  {
+                    "type": "boolean"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "username": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "url_private": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "url_private_download": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "thumb_64": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "thumb_80": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "thumb_360": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "thumb_360_w": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "thumb_360_h": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "thumb_480": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "thumb_480_w": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "thumb_480_h": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "thumb_160": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "thumb_720": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "thumb_720_w": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "thumb_720_h": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "thumb_800": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "thumb_800_w": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "thumb_800_h": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "thumb_960": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "thumb_960_w": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "thumb_960_h": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "thumb_1024": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "thumb_1024_w": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "thumb_1024_h": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "original_w": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "original_h": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "thumb_tiny": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "permalink": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "permalink_public": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "edit_link": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "preview": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "preview_highlight": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "lines": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "lines_more": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "preview_is_truncated": {
+                "anyOf": [
+                  {
+                    "type": "boolean"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "comments_count": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "is_starred": {
+                "anyOf": [
+                  {
+                    "type": "boolean"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "shares": {
+                "anyOf": [
+                  {
+                    "$ref": "#/$defs/SlackFileShares"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "channels": {
+                "anyOf": [
+                  {
+                    "items": {
+                      "pattern": "^[CDG][A-Za-z0-9_]+$",
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "groups": {
+                "anyOf": [
+                  {
+                    "items": {
+                      "pattern": "^[CDG][A-Za-z0-9_]+$",
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "ims": {
+                "anyOf": [
+                  {
+                    "items": {
+                      "pattern": "^[CDG][A-Za-z0-9_]+$",
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "has_rich_preview": {
+                "anyOf": [
+                  {
+                    "type": "boolean"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              }
+            },
+            "required": [
+              "id"
+            ],
+            "type": "object"
+          },
+          "SlackFileMode": {
+            "enum": [
+              "hosted",
+              "external",
+              "snippet",
+              "post"
+            ],
+            "type": "string"
+          },
+          "SlackFileShares": {
+            "additionalProperties": false,
+            "properties": {
+              "public": {
+                "anyOf": [
+                  {
+                    "additionalProperties": {
+                      "items": {},
+                      "type": "array"
+                    },
+                    "type": "object"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "private": {
+                "anyOf": [
+                  {
+                    "additionalProperties": {
+                      "items": {},
+                      "type": "array"
+                    },
+                    "type": "object"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              }
+            },
+            "type": "object"
+          },
+          "SlackHuddleRoom": {
+            "additionalProperties": false,
+            "properties": {
+              "id": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "name": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "media_server": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "created_by": {
+                "pattern": "^[UW][A-Za-z0-9_]+$",
+                "type": "string"
+              },
+              "date_start": {
+                "type": "integer"
+              },
+              "date_end": {
+                "type": "integer"
+              },
+              "participants": {
+                "items": {
+                  "pattern": "^[UW][A-Za-z0-9_]+$",
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              "participant_history": {
+                "items": {
+                  "pattern": "^[UW][A-Za-z0-9_]+$",
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              "participants_camera_on": {
+                "items": {
+                  "pattern": "^[UW][A-Za-z0-9_]+$",
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              "participants_camera_off": {
+                "items": {
+                  "pattern": "^[UW][A-Za-z0-9_]+$",
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              "participants_screenshare_on": {
+                "items": {
+                  "pattern": "^[UW][A-Za-z0-9_]+$",
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              "participants_screenshare_off": {
+                "items": {
+                  "pattern": "^[UW][A-Za-z0-9_]+$",
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              "canvas_thread_ts": {
+                "anyOf": [
+                  {
+                    "pattern": "^\\d{10}\\.\\d{3,6}$",
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "thread_root_ts": {
+                "anyOf": [
+                  {
+                    "pattern": "^\\d{10}\\.\\d{3,6}$",
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "channels": {
+                "items": {
+                  "pattern": "^[CDG][A-Za-z0-9_]+$",
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              "is_dm_call": {
+                "type": "boolean"
+              },
+              "was_rejected": {
+                "type": "boolean"
+              },
+              "was_missed": {
+                "type": "boolean"
+              },
+              "was_accepted": {
+                "type": "boolean"
+              },
+              "has_ended": {
+                "type": "boolean"
+              },
+              "background_id": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "canvas_background": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "is_prewarmed": {
+                "type": "boolean"
+              },
+              "is_scheduled": {
+                "type": "boolean"
+              },
+              "attached_file_ids": {
+                "items": {
+                  "pattern": "^F[A-Za-z0-9_]+$",
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              "media_backend_type": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "display_id": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "external_unique_id": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "app_id": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "call_family": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "pending_invitees": {
+                "anyOf": [
+                  {
+                    "additionalProperties": true,
+                    "type": "object"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "last_invite_status_by_user": {
+                "anyOf": [
+                  {
+                    "additionalProperties": true,
+                    "type": "object"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              }
+            },
+            "required": [
+              "id",
+              "created_by",
+              "date_start",
+              "date_end",
+              "participants",
+              "participant_history",
+              "participants_camera_on",
+              "participants_camera_off",
+              "participants_screenshare_on",
+              "participants_screenshare_off",
+              "channels",
+              "is_dm_call",
+              "was_rejected",
+              "was_missed",
+              "was_accepted",
+              "has_ended",
+              "is_prewarmed",
+              "is_scheduled",
+              "attached_file_ids"
+            ],
+            "type": "object"
+          },
+          "SlackMessage": {
+            "additionalProperties": false,
+            "properties": {
+              "type": {
+                "$ref": "#/$defs/SlackMessageType",
+                "default": "message"
+              },
+              "subtype": {
+                "anyOf": [
+                  {
+                    "$ref": "#/$defs/SlackMessageSubtype"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "user": {
+                "anyOf": [
+                  {
+                    "pattern": "^[UW][A-Za-z0-9_]+$",
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "bot_id": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "bot_profile": {
+                "anyOf": [
+                  {
+                    "$ref": "#/$defs/SlackBotProfile"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "text": {
+                "type": "string"
+              },
+              "ts": {
+                "pattern": "^\\d{10}\\.\\d{3,6}$",
+                "type": "string"
+              },
+              "thread_ts": {
+                "anyOf": [
+                  {
+                    "pattern": "^\\d{10}\\.\\d{3,6}$",
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "parent_user_id": {
+                "anyOf": [
+                  {
+                    "pattern": "^[UW][A-Za-z0-9_]+$",
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "reply_count": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "reply_users_count": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "latest_reply": {
+                "anyOf": [
+                  {
+                    "pattern": "^\\d{10}\\.\\d{3,6}$",
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "reply_users": {
+                "anyOf": [
+                  {
+                    "items": {
+                      "pattern": "^[UW][A-Za-z0-9_]+$",
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "is_locked": {
+                "anyOf": [
+                  {
+                    "type": "boolean"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "subscribed": {
+                "anyOf": [
+                  {
+                    "type": "boolean"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "team": {
+                "anyOf": [
+                  {
+                    "pattern": "^T[A-Za-z0-9_]+$",
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "channel": {
+                "anyOf": [
+                  {
+                    "pattern": "^[CDG][A-Za-z0-9_]+$",
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "is_starred": {
+                "anyOf": [
+                  {
+                    "type": "boolean"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "pinned_to": {
+                "anyOf": [
+                  {
+                    "items": {
+                      "pattern": "^[CDG][A-Za-z0-9_]+$",
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "pinned_info": {
+                "anyOf": [
+                  {
+                    "additionalProperties": {
+                      "additionalProperties": true,
+                      "type": "object"
+                    },
+                    "type": "object"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "reactions": {
+                "anyOf": [
+                  {
+                    "items": {
+                      "$ref": "#/$defs/SlackReaction"
+                    },
+                    "type": "array"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "attachments": {
+                "anyOf": [
+                  {
+                    "items": {
+                      "$ref": "#/$defs/SlackAttachment"
+                    },
+                    "type": "array"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "blocks": {
+                "anyOf": [
+                  {
+                    "items": {
+                      "$ref": "#/$defs/SlackBlock"
+                    },
+                    "type": "array"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "files": {
+                "anyOf": [
+                  {
+                    "items": {
+                      "$ref": "#/$defs/SlackFile"
+                    },
+                    "type": "array"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "upload": {
+                "anyOf": [
+                  {
+                    "type": "boolean"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "display_as_bot": {
+                "anyOf": [
+                  {
+                    "type": "boolean"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "edited": {
+                "anyOf": [
+                  {
+                    "$ref": "#/$defs/SlackMessageEdited"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "client_msg_id": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "permalink": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "no_notifications": {
+                "anyOf": [
+                  {
+                    "type": "boolean"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "room": {
+                "anyOf": [
+                  {
+                    "$ref": "#/$defs/SlackHuddleRoom"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "metadata": {
+                "anyOf": [
+                  {
+                    "$ref": "#/$defs/SlackMessageMetadata"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              }
+            },
+            "required": [
+              "text",
+              "ts"
+            ],
+            "type": "object"
+          },
+          "SlackMessageEdited": {
+            "additionalProperties": false,
+            "properties": {
+              "user": {
+                "pattern": "^[UW][A-Za-z0-9_]+$",
+                "type": "string"
+              },
+              "ts": {
+                "pattern": "^\\d{10}\\.\\d{3,6}$",
+                "type": "string"
+              }
+            },
+            "required": [
+              "user",
+              "ts"
+            ],
+            "type": "object"
+          },
+          "SlackMessageMetadata": {
+            "additionalProperties": false,
+            "properties": {
+              "event_type": {
+                "type": "string"
+              },
+              "event_payload": {
+                "additionalProperties": true,
+                "type": "object"
+              }
+            },
+            "required": [
+              "event_type",
+              "event_payload"
+            ],
+            "type": "object"
+          },
+          "SlackMessageSubtype": {
+            "enum": [
+              "bot_message",
+              "channel_archive",
+              "channel_join",
+              "channel_leave",
+              "channel_name",
+              "channel_purpose",
+              "channel_topic",
+              "channel_unarchive",
+              "file_share",
+              "huddle_thread",
+              "me_message",
+              "message_changed",
+              "message_deleted",
+              "thread_broadcast"
+            ],
+            "type": "string"
+          },
+          "SlackMessageType": {
+            "enum": [
+              "message"
+            ],
+            "type": "string"
+          },
+          "SlackProfileField": {
+            "additionalProperties": false,
+            "properties": {
+              "value": {
+                "type": "string"
+              },
+              "alt": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              }
+            },
+            "required": [
+              "value"
+            ],
+            "type": "object"
+          },
+          "SlackReaction": {
+            "additionalProperties": false,
+            "properties": {
+              "name": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "users": {
+                "items": {
+                  "pattern": "^[UW][A-Za-z0-9_]+$",
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              "count": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "name",
+              "count"
+            ],
+            "type": "object"
+          },
+          "SlackState": {
+            "additionalProperties": false,
+            "properties": {
+              "users": {
+                "patternProperties": {
+                  "^[UW][A-Za-z0-9_]+$": {
+                    "$ref": "#/$defs/SlackUser"
+                  }
+                },
+                "type": "object"
+              },
+              "channels": {
+                "patternProperties": {
+                  "^[CDG][A-Za-z0-9_]+$": {
+                    "$ref": "#/$defs/SlackChannel"
+                  }
+                },
+                "type": "object"
+              },
+              "messages": {
+                "patternProperties": {
+                  "^[CDG][A-Za-z0-9_]+$": {
+                    "items": {
+                      "$ref": "#/$defs/SlackMessage"
+                    },
+                    "type": "array"
+                  }
+                },
+                "type": "object"
+              },
+              "bot_user_id": {
+                "anyOf": [
+                  {
+                    "pattern": "^[UW][A-Za-z0-9_]+$",
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "is_admin": {
+                "default": false,
+                "type": "boolean"
+              },
+              "counters": {
+                "$ref": "#/$defs/SlackCounters"
+              }
+            },
+            "type": "object"
+          },
+          "SlackStatusEmojiDisplayInfo": {
+            "additionalProperties": false,
+            "properties": {
+              "emoji_name": {
+                "type": "string"
+              },
+              "display_url": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "emoji_name",
+              "display_url"
+            ],
+            "type": "object"
+          },
+          "SlackTextObject": {
+            "additionalProperties": false,
+            "properties": {
+              "type": {
+                "$ref": "#/$defs/SlackTextObjectType"
+              },
+              "text": {
+                "type": "string"
+              },
+              "emoji": {
+                "anyOf": [
+                  {
+                    "type": "boolean"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "verbatim": {
+                "anyOf": [
+                  {
+                    "type": "boolean"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              }
+            },
+            "required": [
+              "type",
+              "text"
+            ],
+            "type": "object"
+          },
+          "SlackTextObjectType": {
+            "enum": [
+              "mrkdwn",
+              "plain_text"
+            ],
+            "type": "string"
+          },
+          "SlackTwoFactorType": {
+            "enum": [
+              "app",
+              "sms"
+            ],
+            "type": "string"
+          },
+          "SlackUser": {
+            "additionalProperties": false,
+            "properties": {
+              "id": {
+                "pattern": "^[UW][A-Za-z0-9_]+$",
+                "type": "string"
+              },
+              "team_id": {
+                "default": "T_MOCK",
+                "pattern": "^T[A-Za-z0-9_]+$",
+                "type": "string"
+              },
+              "name": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "deleted": {
+                "default": false,
+                "type": "boolean"
+              },
+              "color": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "real_name": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "tz": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "tz_label": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "tz_offset": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "profile": {
+                "$ref": "#/$defs/SlackUserProfile"
+              },
+              "is_admin": {
+                "anyOf": [
+                  {
+                    "type": "boolean"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "is_owner": {
+                "anyOf": [
+                  {
+                    "type": "boolean"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "is_primary_owner": {
+                "anyOf": [
+                  {
+                    "type": "boolean"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "is_restricted": {
+                "anyOf": [
+                  {
+                    "type": "boolean"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "is_ultra_restricted": {
+                "anyOf": [
+                  {
+                    "type": "boolean"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "is_bot": {
+                "anyOf": [
+                  {
+                    "type": "boolean"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "is_app_user": {
+                "anyOf": [
+                  {
+                    "type": "boolean"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "is_email_confirmed": {
+                "anyOf": [
+                  {
+                    "type": "boolean"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "is_invited_user": {
+                "anyOf": [
+                  {
+                    "type": "boolean"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "is_stranger": {
+                "anyOf": [
+                  {
+                    "type": "boolean"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "updated": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "has_2fa": {
+                "anyOf": [
+                  {
+                    "type": "boolean"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "two_factor_type": {
+                "anyOf": [
+                  {
+                    "$ref": "#/$defs/SlackTwoFactorType"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "locale": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "who_can_share_contact_card": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "always_active": {
+                "anyOf": [
+                  {
+                    "type": "boolean"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "enterprise_user": {
+                "anyOf": [
+                  {
+                    "$ref": "#/$defs/SlackEnterpriseUser"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              }
+            },
+            "required": [
+              "id",
+              "name"
+            ],
+            "type": "object"
+          },
+          "SlackUserProfile": {
+            "additionalProperties": false,
+            "properties": {
+              "avatar_hash": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "status_text": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "status_emoji": {
+                "anyOf": [
+                  {
+                    "pattern": "^$|^:[a-z0-9_+-]+:$",
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "status_emoji_display_info": {
+                "anyOf": [
+                  {
+                    "items": {
+                      "$ref": "#/$defs/SlackStatusEmojiDisplayInfo"
+                    },
+                    "type": "array"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "status_expiration": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "status_text_canonical": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "real_name": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "display_name": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "real_name_normalized": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "display_name_normalized": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "email": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "pronouns": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "huddle_state": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "huddle_state_expiration_ts": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "first_name": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "last_name": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "title": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "phone": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "skype": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "start_date": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "team": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "fields": {
+                "anyOf": [
+                  {
+                    "additionalProperties": {
+                      "$ref": "#/$defs/SlackProfileField"
+                    },
+                    "type": "object"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "image_original": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "is_custom_image": {
+                "anyOf": [
+                  {
+                    "type": "boolean"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "image_24": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "image_32": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "image_48": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "image_72": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "image_192": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "image_512": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "image_1024": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              }
+            },
+            "type": "object"
+          },
+          "SlackWorkspacesState": {
+            "additionalProperties": false,
+            "properties": {
+              "workspaces": {
+                "additionalProperties": {
+                  "$ref": "#/$defs/SlackState"
+                },
+                "propertyNames": {
+                  "minLength": 1
+                },
+                "type": "object"
+              }
+            },
+            "type": "object"
+          }
+        },
+        "properties": {
+          "result": {
+            "anyOf": [
+              {
+                "$ref": "#/$defs/SlackState"
+              },
+              {
+                "$ref": "#/$defs/SlackWorkspacesState"
+              }
+            ]
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "type": "object",
+        "x-fastmcp-wrap-result": true
+      }
+    },
+    {
+      "name": "get_channel_history",
+      "description": "Get recent top-level messages from a channel, DM, or MPIM.\n\nThread replies are not returned here unless the reply is itself the\nthread parent. Use get_thread_replies with the parent timestamp to inspect\na full thread.\n\nArgs:\n    channel_id: Channel, DM, or MPIM to read.\n    limit: Maximum number of top-level messages to return.\n\nReturns:\n    Slack-style response with messages ordered newest first.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "channel_id": {
+            "description": "Slack channel, private channel, DM, or MPIM ID.",
+            "pattern": "^[CDG][A-Za-z0-9_]+$",
+            "type": "string"
+          },
+          "limit": {
+            "default": 10,
+            "description": "Maximum number of items to return.",
+            "minimum": 0,
+            "type": "integer"
+          },
+          "workspace_id": {
+            "anyOf": [
+              {
+                "description": "Slack workspace ID. Defaults to the default workspace.",
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          }
+        },
+        "required": [
+          "channel_id"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "type": "object"
+      }
+    },
+    {
+      "name": "get_thread_replies",
+      "description": "Get a thread parent and all replies.\n\nArgs:\n    channel_id: Channel, DM, or MPIM containing the thread.\n    thread_ts: Timestamp of the thread parent message.\n\nReturns:\n    Slack-style response with the parent message followed by replies.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "channel_id": {
+            "description": "Slack channel, private channel, DM, or MPIM ID.",
+            "pattern": "^[CDG][A-Za-z0-9_]+$",
+            "type": "string"
+          },
+          "thread_ts": {
+            "description": "Slack message timestamp, such as 1700000001.000.",
+            "pattern": "^\\d{10}\\.\\d{3,6}$",
+            "type": "string"
+          },
+          "workspace_id": {
+            "anyOf": [
+              {
+                "description": "Slack workspace ID. Defaults to the default workspace.",
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          }
+        },
+        "required": [
+          "channel_id",
+          "thread_ts"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "type": "object"
+      }
+    },
+    {
+      "name": "get_user_presence",
+      "description": "Get a user's current presence status.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "user_id": {
+            "description": "Slack user ID.",
+            "pattern": "^[UW][A-Za-z0-9_]+$",
+            "type": "string"
+          },
+          "workspace_id": {
+            "anyOf": [
+              {
+                "description": "Slack workspace ID. Defaults to the default workspace.",
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          }
+        },
+        "required": [
+          "user_id"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "type": "object"
+      }
+    },
+    {
+      "name": "get_user_profile",
+      "description": "Get detailed profile information for a specific user.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "user_id": {
+            "description": "Slack user ID.",
+            "pattern": "^[UW][A-Za-z0-9_]+$",
+            "type": "string"
+          },
+          "workspace_id": {
+            "anyOf": [
+              {
+                "description": "Slack workspace ID. Defaults to the default workspace.",
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          }
+        },
+        "required": [
+          "user_id"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "type": "object"
+      }
+    },
+    {
+      "name": "get_users",
+      "description": "Get workspace users with basic profile information.\n\nArgs:\n    cursor: Pagination cursor from a previous response.\n    limit: Maximum number of users to return, capped at 200.\n\nReturns:\n    Slack-style response with members and response_metadata.next_cursor.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "cursor": {
+            "anyOf": [
+              {
+                "description": "Pagination cursor returned by a previous response.",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "limit": {
+            "default": 100,
+            "description": "Maximum number of items to return.",
+            "minimum": 0,
+            "type": "integer"
+          },
+          "workspace_id": {
+            "anyOf": [
+              {
+                "description": "Slack workspace ID. Defaults to the default workspace.",
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          }
+        },
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "type": "object"
+      }
+    },
+    {
+      "name": "import_state",
+      "description": "Replace the full Slack state with the provided JSON.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "state": {
+            "additionalProperties": true,
+            "type": "object"
+          }
+        },
+        "required": [
+          "state"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": {
+          "type": "boolean"
+        },
+        "type": "object"
+      }
+    },
+    {
+      "name": "list_channels",
+      "description": "List active public/private channels visible to the bot.\n\nThis mirrors Slack's default conversations.list shape for normal named\nchannels: archived channels, DMs, and MPIMs are excluded. Results are\npaginated with a numeric cursor returned in response_metadata.next_cursor.\n\nArgs:\n    limit: Maximum number of channels to return, capped at 200.\n    cursor: Pagination cursor from a previous response.\n\nReturns:\n    Slack-style response with channels and response_metadata.next_cursor.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "limit": {
+            "default": 100,
+            "description": "Maximum number of items to return.",
+            "minimum": 0,
+            "type": "integer"
+          },
+          "cursor": {
+            "anyOf": [
+              {
+                "description": "Pagination cursor returned by a previous response.",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "workspace_id": {
+            "anyOf": [
+              {
+                "description": "Slack workspace ID. Defaults to the default workspace.",
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          }
+        },
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "type": "object"
+      }
+    },
+    {
+      "name": "list_dms",
+      "description": "List direct message and multi-party direct message conversations.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "limit": {
+            "default": 20,
+            "description": "Maximum number of items to return.",
+            "minimum": 0,
+            "type": "integer"
+          },
+          "workspace_id": {
+            "anyOf": [
+              {
+                "description": "Slack workspace ID. Defaults to the default workspace.",
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          }
+        },
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "type": "object"
+      }
+    },
+    {
+      "name": "list_files",
+      "description": "List files shared in a channel, DM, or MPIM, newest first.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "channel_id": {
+            "description": "Slack channel, private channel, DM, or MPIM ID.",
+            "pattern": "^[CDG][A-Za-z0-9_]+$",
+            "type": "string"
+          },
+          "limit": {
+            "default": 20,
+            "description": "Maximum number of items to return.",
+            "minimum": 0,
+            "type": "integer"
+          },
+          "workspace_id": {
+            "anyOf": [
+              {
+                "description": "Slack workspace ID. Defaults to the default workspace.",
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          }
+        },
+        "required": [
+          "channel_id"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "type": "object"
+      }
+    },
+    {
+      "name": "list_pins",
+      "description": "List all pinned messages in a channel, DM, or MPIM.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "channel_id": {
+            "description": "Slack channel, private channel, DM, or MPIM ID.",
+            "pattern": "^[CDG][A-Za-z0-9_]+$",
+            "type": "string"
+          },
+          "workspace_id": {
+            "anyOf": [
+              {
+                "description": "Slack workspace ID. Defaults to the default workspace.",
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          }
+        },
+        "required": [
+          "channel_id"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "type": "object"
+      }
+    },
+    {
+      "name": "list_workspaces",
+      "description": "List available Slack workspaces in the loaded mock state.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {},
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "type": "object"
+      }
+    },
+    {
+      "name": "open_dm",
+      "description": "Open or reuse a direct message conversation with one user.\n\nIf a DM with the user already exists, that channel is returned. Otherwise\na new DM channel is created.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "user_id": {
+            "description": "Slack user ID.",
+            "pattern": "^[UW][A-Za-z0-9_]+$",
+            "type": "string"
+          },
+          "workspace_id": {
+            "anyOf": [
+              {
+                "description": "Slack workspace ID. Defaults to the default workspace.",
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          }
+        },
+        "required": [
+          "user_id"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "type": "object"
+      }
+    },
+    {
+      "name": "open_mpim",
+      "description": "Open or reuse a multi-party direct message conversation.\n\nThe bot user is included automatically. At least two non-bot users are\nrequired. Duplicate user IDs are ignored. If an MPIM with the same member\nset already exists, it is returned.\n\nArgs:\n    user_ids: Users to include in the MPIM, excluding or including the bot.\n\nReturns:\n    Slack-style response with the MPIM channel.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "user_ids": {
+            "description": "Slack user IDs to include in a multi-party direct message.",
+            "items": {
+              "pattern": "^[UW][A-Za-z0-9_]+$",
+              "type": "string"
+            },
+            "minItems": 2,
+            "type": "array"
+          },
+          "workspace_id": {
+            "anyOf": [
+              {
+                "description": "Slack workspace ID. Defaults to the default workspace.",
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          }
+        },
+        "required": [
+          "user_ids"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "type": "object"
+      }
+    },
+    {
+      "name": "pin_message",
+      "description": "Pin a message to a channel, DM, or MPIM.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "channel_id": {
+            "description": "Slack channel, private channel, DM, or MPIM ID.",
+            "pattern": "^[CDG][A-Za-z0-9_]+$",
+            "type": "string"
+          },
+          "timestamp": {
+            "description": "Slack message timestamp, such as 1700000001.000.",
+            "pattern": "^\\d{10}\\.\\d{3,6}$",
+            "type": "string"
+          },
+          "workspace_id": {
+            "anyOf": [
+              {
+                "description": "Slack workspace ID. Defaults to the default workspace.",
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          }
+        },
+        "required": [
+          "channel_id",
+          "timestamp"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "type": "object"
+      }
+    },
+    {
+      "name": "post_message",
+      "description": "Post a new top-level message to a channel, DM, or MPIM.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "channel_id": {
+            "description": "Slack channel, private channel, DM, or MPIM ID.",
+            "pattern": "^[CDG][A-Za-z0-9_]+$",
+            "type": "string"
+          },
+          "text": {
+            "description": "Message text.",
+            "minLength": 1,
+            "type": "string"
+          },
+          "workspace_id": {
+            "anyOf": [
+              {
+                "description": "Slack workspace ID. Defaults to the default workspace.",
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          }
+        },
+        "required": [
+          "channel_id",
+          "text"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "type": "object"
+      }
+    },
+    {
+      "name": "rename_channel",
+      "description": "Rename a named public/private channel.\n\nNames are normalized to lowercase. DMs and MPIMs cannot be renamed.\nDuplicate names among named channels are rejected.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "channel_id": {
+            "description": "Slack channel, private channel, DM, or MPIM ID.",
+            "pattern": "^[CDG][A-Za-z0-9_]+$",
+            "type": "string"
+          },
+          "name": {
+            "description": "New channel name.",
+            "minLength": 1,
+            "type": "string"
+          },
+          "workspace_id": {
+            "anyOf": [
+              {
+                "description": "Slack workspace ID. Defaults to the default workspace.",
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          }
+        },
+        "required": [
+          "channel_id",
+          "name"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "type": "object"
+      }
+    },
+    {
+      "name": "reply_to_thread",
+      "description": "Reply to an existing message thread.\n\nArgs:\n    channel_id: Channel, DM, or MPIM containing the parent message.\n    thread_ts: Timestamp of the parent message to reply to.\n    text: Reply text.\n\nReturns:\n    Slack-style response with the new reply timestamp and message.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "channel_id": {
+            "description": "Slack channel, private channel, DM, or MPIM ID.",
+            "pattern": "^[CDG][A-Za-z0-9_]+$",
+            "type": "string"
+          },
+          "thread_ts": {
+            "description": "Slack message timestamp, such as 1700000001.000.",
+            "pattern": "^\\d{10}\\.\\d{3,6}$",
+            "type": "string"
+          },
+          "text": {
+            "description": "Message text.",
+            "minLength": 1,
+            "type": "string"
+          },
+          "workspace_id": {
+            "anyOf": [
+              {
+                "description": "Slack workspace ID. Defaults to the default workspace.",
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          }
+        },
+        "required": [
+          "channel_id",
+          "thread_ts",
+          "text"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "type": "object"
+      }
+    },
+    {
+      "name": "search_messages",
+      "description": "Search messages across channels, DMs, and MPIMs.\n\nBare words are ANDed together and matched against message text plus sender\nnames/profile fields. Double-quoted text requires exact adjacency.\n\nSupported filters:\n  in:general          match channel name or channel ID\n  from:alice          match sender by username, display name, real name, email, or user ID\n  from:@alice         match sender username exactly\n  after:2026-05-01    messages at or after a date or Unix timestamp\n  before:2026-05-02   messages before a date or Unix timestamp\n  during:2026-05      messages during a year, month, day, or parseable date\n  has:link            messages containing a URL or linked attachment/file\n  has:reaction        messages with reactions\n  has:pin             pinned messages\n\nUnsupported or malformed operators are reported in response_metadata.warnings\nwhile preserving best-effort search behavior. `from:me` is unsupported\nbecause caller identity is not modeled and will match no users.\n\nArgs:\n    query: Search text with optional Slack-style filters.\n    channel_id: Optional channel/DM/MPIM scope.\n    limit: Maximum matches to return, capped at 100.\n    cursor: Pagination cursor from a previous response.\n\nReturns:\n    Slack-style search response with matches, total, next_cursor, and warnings.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "query": {
+            "description": "Slack search query.",
+            "minLength": 1,
+            "type": "string"
+          },
+          "channel_id": {
+            "anyOf": [
+              {
+                "description": "Slack channel, private channel, DM, or MPIM ID.",
+                "pattern": "^[CDG][A-Za-z0-9_]+$",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "limit": {
+            "anyOf": [
+              {
+                "minimum": 0,
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Maximum number of matches to return. Values above 100 are capped."
+          },
+          "cursor": {
+            "anyOf": [
+              {
+                "description": "Pagination cursor returned by a previous response.",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "workspace_id": {
+            "anyOf": [
+              {
+                "description": "Slack workspace ID. Defaults to the default workspace.",
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          }
+        },
+        "required": [
+          "query"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "type": "object"
+      }
+    },
+    {
+      "name": "send_dm",
+      "description": "Send a direct message to a user.\n\nOpens or reuses the DM first, then posts the message.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "user_id": {
+            "description": "Slack user ID.",
+            "pattern": "^[UW][A-Za-z0-9_]+$",
+            "type": "string"
+          },
+          "text": {
+            "description": "Message text.",
+            "minLength": 1,
+            "type": "string"
+          },
+          "workspace_id": {
+            "anyOf": [
+              {
+                "description": "Slack workspace ID. Defaults to the default workspace.",
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          }
+        },
+        "required": [
+          "user_id",
+          "text"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "type": "object"
+      }
+    },
+    {
+      "name": "send_mpim",
+      "description": "Send a message to a multi-party direct message conversation.\n\nOpens or reuses the MPIM for the provided member set, then posts the\nmessage. At least two non-bot users are required.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "user_ids": {
+            "description": "Slack user IDs to include in a multi-party direct message.",
+            "items": {
+              "pattern": "^[UW][A-Za-z0-9_]+$",
+              "type": "string"
+            },
+            "minItems": 2,
+            "type": "array"
+          },
+          "text": {
+            "description": "Message text.",
+            "minLength": 1,
+            "type": "string"
+          },
+          "workspace_id": {
+            "anyOf": [
+              {
+                "description": "Slack workspace ID. Defaults to the default workspace.",
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          }
+        },
+        "required": [
+          "user_ids",
+          "text"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "type": "object"
+      }
+    },
+    {
+      "name": "set_channel_topic",
+      "description": "Set a channel's topic and/or purpose.\n\nPass either `topic`, `purpose`, or both. Omitted fields are left unchanged.\n\nArgs:\n    channel_id: Channel to update.\n    topic: New topic text, if changing the topic.\n    purpose: New purpose text, if changing the purpose.\n\nReturns:\n    Slack-style response with the updated channel.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "channel_id": {
+            "description": "Slack channel, private channel, DM, or MPIM ID.",
+            "pattern": "^[CDG][A-Za-z0-9_]+$",
+            "type": "string"
+          },
+          "topic": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "New channel topic."
+          },
+          "purpose": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "New channel purpose."
+          },
+          "workspace_id": {
+            "anyOf": [
+              {
+                "description": "Slack workspace ID. Defaults to the default workspace.",
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          }
+        },
+        "required": [
+          "channel_id"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "type": "object"
+      }
+    },
+    {
+      "name": "set_user_status",
+      "description": "Set a Slack user's status text and emoji.\n\nBy default this updates the bot user's profile. Passing `user_id` updates\nanother user only when admin mode is enabled (`is_admin: true` in state).\nStatus emoji must be empty or colon-wrapped, e.g. `:spiral_calendar_pad:`.\n\nArgs:\n    status_text: Status text to show on the user profile.\n    status_emoji: Optional Slack emoji code.\n    user_id: Optional target user ID. Requires admin mode unless it is the bot.\n\nReturns:\n    Slack-style response with the updated profile.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "status_text": {
+            "type": "string"
+          },
+          "status_emoji": {
+            "anyOf": [
+              {
+                "pattern": "^$|^:[a-z0-9_+-]+:$",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "user_id": {
+            "anyOf": [
+              {
+                "description": "Slack user ID.",
+                "pattern": "^[UW][A-Za-z0-9_]+$",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "workspace_id": {
+            "anyOf": [
+              {
+                "description": "Slack workspace ID. Defaults to the default workspace.",
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          }
+        },
+        "required": [
+          "status_text"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "type": "object"
+      }
+    },
+    {
+      "name": "unpin_message",
+      "description": "Unpin a previously pinned message from a channel, DM, or MPIM.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "channel_id": {
+            "description": "Slack channel, private channel, DM, or MPIM ID.",
+            "pattern": "^[CDG][A-Za-z0-9_]+$",
+            "type": "string"
+          },
+          "timestamp": {
+            "description": "Slack message timestamp, such as 1700000001.000.",
+            "pattern": "^\\d{10}\\.\\d{3,6}$",
+            "type": "string"
+          },
+          "workspace_id": {
+            "anyOf": [
+              {
+                "description": "Slack workspace ID. Defaults to the default workspace.",
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          }
+        },
+        "required": [
+          "channel_id",
+          "timestamp"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "type": "object"
+      }
+    },
+    {
+      "name": "upload_file",
+      "description": "Upload a file to a channel, DM, or MPIM.\n\nThe file body must be base64-encoded. The mock infers mimetype/filetype\nfrom the filename extension, creates a hosted Slack file object, and posts\na file_share message in the target conversation.\n\nArgs:\n    channel_id: Conversation to upload into.\n    filename: Stored filename, including extension when known.\n    content_base64: Base64-encoded file bytes.\n    title: Optional display title. Defaults to filename.\n    initial_comment: Optional message text for the file_share post.\n\nReturns:\n    Slack-style response with the created file object.",
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "channel_id": {
+            "description": "Slack channel, private channel, DM, or MPIM ID.",
+            "pattern": "^[CDG][A-Za-z0-9_]+$",
+            "type": "string"
+          },
+          "filename": {
+            "description": "File name to store in Slack.",
+            "minLength": 1,
+            "type": "string"
+          },
+          "content_base64": {
+            "description": "Base64-encoded file content.",
+            "type": "string"
+          },
+          "title": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "initial_comment": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "workspace_id": {
+            "anyOf": [
+              {
+                "description": "Slack workspace ID. Defaults to the default workspace.",
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          }
+        },
+        "required": [
+          "channel_id",
+          "filename",
+          "content_base64"
+        ],
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "type": "object"
+      }
+    }
+  ],
+  "toolsets": {
+    "read": [
+      "get_channel_history",
+      "get_thread_replies",
+      "get_user_presence",
+      "get_user_profile",
+      "get_users",
+      "list_channels",
+      "list_dms",
+      "list_files",
+      "list_pins",
+      "list_workspaces",
+      "search_messages"
+    ],
+    "write": [
+      "add_reaction",
+      "archive_channel",
+      "create_channel",
+      "delete_message",
+      "edit_message",
+      "open_dm",
+      "open_mpim",
+      "pin_message",
+      "post_message",
+      "rename_channel",
+      "reply_to_thread",
+      "send_dm",
+      "send_mpim",
+      "set_channel_topic",
+      "set_user_status",
+      "unpin_message",
+      "upload_file"
+    ],
+    "messages": [
+      "delete_message",
+      "edit_message",
+      "get_channel_history",
+      "get_thread_replies",
+      "post_message",
+      "reply_to_thread",
+      "search_messages"
+    ],
+    "channels": [
+      "archive_channel",
+      "create_channel",
+      "list_channels",
+      "rename_channel",
+      "set_channel_topic"
+    ],
+    "reactions_pins": [
+      "add_reaction",
+      "list_pins",
+      "pin_message",
+      "unpin_message"
+    ],
+    "users": [
+      "get_user_presence",
+      "get_user_profile",
+      "get_users",
+      "set_user_status"
+    ],
+    "files": [
+      "list_files",
+      "upload_file"
+    ],
+    "dms": [
+      "list_dms",
+      "open_dm",
+      "open_mpim",
+      "send_dm",
+      "send_mpim"
+    ],
+    "workspaces": [
+      "list_workspaces"
+    ],
+    "admin": [
+      "archive_channel",
+      "rename_channel",
+      "set_channel_topic"
+    ],
+    "core": [
+      "get_channel_history",
+      "get_thread_replies",
+      "get_users",
+      "list_channels",
+      "list_dms",
+      "post_message",
+      "reply_to_thread",
+      "search_messages",
+      "send_dm",
+      "send_mpim",
+      "add_reaction",
+      "get_user_profile"
+    ],
+    "toolathlon_legacy": [
+      "add_reaction",
+      "get_channel_history",
+      "get_thread_replies",
+      "get_user_profile",
+      "get_users",
+      "list_channels",
+      "post_message",
+      "reply_to_thread"
+    ],
+    "state": [
+      "export_state",
+      "import_state"
+    ]
+  }
+}
